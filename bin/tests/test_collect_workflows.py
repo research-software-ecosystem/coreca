@@ -64,7 +64,7 @@ class TestWorkflow(unittest.TestCase):
             "license": "MIT",
             "doi": "10.1234/test",
             "projects": ["Project A"],
-            "type": "Galaxy",
+            "workflow_class": "Galaxy",
             "description": "Test description",
             "curation_date": "2023-12-01",
             "filtered_on": "edam",
@@ -194,7 +194,7 @@ class TestWorkflow(unittest.TestCase):
 
         self.assertEqual(self.workflow.tools, ["FastQC", "Bowtie2"])
 
-    @patch("utils.get_request_json")
+    @patch("extract_workflowhub.get_request_json")
     def test_add_projects(self, mock_get_request: Mock) -> None:
         """Test add_projects method"""
         mock_get_request.return_value = {"data": {"attributes": {"title": "Test Project"}}}
@@ -356,7 +356,7 @@ class TestWorkflows(unittest.TestCase):
                 "license": "",
                 "doi": "",
                 "projects": [],
-                "type": "",
+                "workflow_class": "Nextflow",
                 "description": "",
             },
             {
@@ -377,7 +377,7 @@ class TestWorkflows(unittest.TestCase):
                 "license": "",
                 "doi": "",
                 "projects": [],
-                "type": "",
+                "workflow_class": "Galaxy",
                 "description": "",
             },
         ]
@@ -388,10 +388,10 @@ class TestWorkflows(unittest.TestCase):
         self.assertEqual(self.workflows.workflows[0].id, 1)
         self.assertEqual(self.workflows.workflows[1].id, 2)
 
-    def test_add_workflows_from_workflowhub(self) -> None:
-        """Test add_workflows_from_workflowhub method"""
+    def test_clone_workflows_from_rsec(self) -> None:
+        """Test clone_workflows_from_rsec method"""
         workflows = Workflows(test=True)
-        workflows.add_workflows_from_workflowhub()
+        workflows.clone_workflows_from_rsec()
 
         self.assertGreaterEqual(len(workflows.workflows), 10)
 
@@ -539,7 +539,7 @@ class TestWorkflows(unittest.TestCase):
         to_keep_columns = ["Name", "Link"]
         self.workflows.export_workflows_to_tsv("output.tsv", to_keep_columns)
 
-    @patch("utils.export_to_json")
+    @patch("extract_workflowhub.export_to_json")
     def test_extract_tools(self, mock_export: Mock) -> None:
         """Test extract_tools method"""
         wf1 = Workflow()
