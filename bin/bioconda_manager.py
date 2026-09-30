@@ -106,6 +106,7 @@ class BiocondaRecipe:
     def update_status(self, status: bool) -> None:
         """Update status"""
         self.metadata["keep"] = status
+        self.metadata["Curation date"] = status
 
     def test_about(self, keywords: Dict[str, Any]) -> bool:
         """Test if description and/or summary have keywords"""
