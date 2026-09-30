@@ -194,7 +194,7 @@ class TestWorkflow(unittest.TestCase):
 
         self.assertEqual(self.workflow.tools, ["FastQC", "Bowtie2"])
 
-    @patch("utils.get_request_json")
+    @patch("extract_workflowhub.get_request_json")
     def test_add_projects(self, mock_get_request: Mock) -> None:
         """Test add_projects method"""
         mock_get_request.return_value = {"data": {"attributes": {"title": "Test Project"}}}
@@ -539,7 +539,7 @@ class TestWorkflows(unittest.TestCase):
         to_keep_columns = ["Name", "Link"]
         self.workflows.export_workflows_to_tsv("output.tsv", to_keep_columns)
 
-    @patch("utils.export_to_json")
+    @patch("extract_workflowhub.export_to_json")
     def test_extract_tools(self, mock_export: Mock) -> None:
         """Test extract_tools method"""
         wf1 = Workflow()
