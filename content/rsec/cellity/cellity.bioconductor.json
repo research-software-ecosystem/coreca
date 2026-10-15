@@ -1,0 +1,76 @@
+{
+    "Archs": "x64",
+    "Author": "Tomislav Illicic, Davis McCarthy",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.3)"
+    ],
+    "Description": "A support vector machine approach to identifying and filtering low quality cells from single-cell RNA-seq datasets.",
+    "Imports": [
+        "AnnotationDbi",
+        "e1071",
+        "ggplot2",
+        "grDevices",
+        "graphics",
+        "grid",
+        "mvoutlier",
+        "org.Hs.eg.db",
+        "org.Mm.eg.db",
+        "robustbase",
+        "stats",
+        "topGO",
+        "utils"
+    ],
+    "License": "GPL (>= 2)",
+    "MD5sum": "0658cc3e3e9bbff73efdd237b0dee0f0",
+    "Maintainer": "Tomislav Ilicic <ti243@cam.ac.uk>",
+    "NeedsCompilation": "no",
+    "Package": "cellity",
+    "Rank": 1045,
+    "Rfiles": [
+        "vignettes/cellity/inst/doc/cellity_vignette.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "caret",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Quality Control for Single-Cell RNA-seq Data",
+    "Version": "1.40.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DimensionReduction",
+        "GeneExpression",
+        "ImmunoOncology",
+        "Normalization",
+        "Preprocessing",
+        "QualityControl",
+        "RNASeq",
+        "Sequencing",
+        "Software",
+        "SupportVectorMachine",
+        "Transcriptomics",
+        "Visualization"
+    ],
+    "dependencyCount": "68",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "796669f",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/cellity",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/cellity_1.40.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/cellity_1.40.0.tgz",
+    "source.ver": "src/contrib/cellity_1.40.0.tar.gz",
+    "vignetteTitles": [
+        "An introduction to the cellity package"
+    ],
+    "vignettes": [
+        "vignettes/cellity/inst/doc/cellity_vignette.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/cellity_1.40.0.zip"
+}

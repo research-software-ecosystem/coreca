@@ -1,0 +1,63 @@
+{
+    "Author": "Aaron Lun [cre, aut]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "BumpyMatrix",
+        "alabaster.base"
+    ],
+    "Description": "Save BumpyMatrix objects into file artifacts, and load them back into memory. This is a more portable alternative to serialization of such objects into RDS files. Each artifact is associated with metadata for further interpretation; downstream applications can enrich this metadata with context-specific properties.",
+    "Imports": [
+        "BiocGenerics",
+        "IRanges",
+        "Matrix",
+        "S4Vectors",
+        "methods",
+        "rhdf5"
+    ],
+    "License": "MIT + file LICENSE",
+    "MD5sum": "80a0b03f616edab19395dc501cce1fd4",
+    "Maintainer": "Aaron Lun <infinite.monkeys.with.keyboards@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "alabaster.bumpy",
+    "Rank": 2142,
+    "Rfiles": [
+        "vignettes/alabaster.bumpy/inst/doc/userguide.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "jsonlite",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Save and Load BumpyMatrices to/from file",
+    "Version": "1.12.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataImport",
+        "DataRepresentation",
+        "Software"
+    ],
+    "dependencyCount": "30",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "f550814",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/alabaster.bumpy",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "alabaster"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/alabaster.bumpy_1.12.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/alabaster.bumpy_1.12.0.tgz",
+    "source.ver": "src/contrib/alabaster.bumpy_1.12.0.tar.gz",
+    "vignetteTitles": [
+        "Saving and loading BumpyMatrices"
+    ],
+    "vignettes": [
+        "vignettes/alabaster.bumpy/inst/doc/userguide.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/alabaster.bumpy_1.12.0.zip"
+}

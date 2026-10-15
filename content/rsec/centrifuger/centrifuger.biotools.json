@@ -1,0 +1,102 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2024-06-18T16:24:28.343068Z",
+    "biotoolsCURIE": "biotools:centrifuger",
+    "biotoolsID": "centrifuger",
+    "confidence_flag": "tool",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "Li.Song@dartmouth.edu",
+            "name": "Li Song",
+            "typeEntity": "Person"
+        },
+        {
+            "name": "Ben Langmead",
+            "typeEntity": "Person"
+        }
+    ],
+    "description": "Lossless compression of microbial genomes for efficient and accurate metagenomic sequence classification.",
+    "editPermission": {
+        "type": "public"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "DNA sequence",
+                        "uri": "http://edamontology.org/data_3494"
+                    },
+                    "format": [
+                        {
+                            "term": "FASTQ",
+                            "uri": "http://edamontology.org/format_1930"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Taxonomic classification",
+                    "uri": "http://edamontology.org/operation_3460"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Taxonomy",
+                        "uri": "http://edamontology.org/data_3028"
+                    },
+                    "format": [
+                        {
+                            "term": "DSV",
+                            "uri": "http://edamontology.org/format_3751"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/mourisl/centrifuger",
+    "language": [
+        "C++"
+    ],
+    "lastUpdate": "2026-01-26T10:46:40.835466Z",
+    "license": "MIT",
+    "name": "Centrifuger",
+    "owner": "Pub2Tools",
+    "publication": [
+        {
+            "doi": "10.1186/s13059-024-03244-4",
+            "pmcid": "PMC11046777",
+            "pmid": "38664753"
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Script"
+    ],
+    "topic": [
+        {
+            "term": "Metagenomic sequencing",
+            "uri": "http://edamontology.org/topic_3837"
+        },
+        {
+            "term": "Metagenomics",
+            "uri": "http://edamontology.org/topic_3174"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Taxonomy",
+            "uri": "http://edamontology.org/topic_0637"
+        },
+        {
+            "term": "Whole genome sequencing",
+            "uri": "http://edamontology.org/topic_3673"
+        }
+    ]
+}

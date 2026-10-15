@@ -1,0 +1,82 @@
+{
+    "Author": "Kayla Morrell [aut, cre], Martin Morgan [aut], Kevin Rue-Albrecht [ctb], Lluís Revilla Sancho [ctb]",
+    "Date/Publication": "2025-10-31",
+    "Depends": [
+        "R (>= 3.6)",
+        "dplyr"
+    ],
+    "Description": "BiocSet displays different biological sets in a triple tibble format. These three tibbles are `element`, `set`, and `elementset`. The user has the abilty to activate one of these three tibbles to perform common functions from the dplyr package. Mapping functionality and accessing web references for elements/sets are also available in BiocSet.",
+    "Imports": [
+        "AnnotationDbi",
+        "BiocIO",
+        "KEGGREST",
+        "S4Vectors",
+        "methods",
+        "ontologyIndex",
+        "plyr",
+        "rlang",
+        "tibble",
+        "tidyr",
+        "utils"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "3ef768098a3acb2c82baa262057fe911",
+    "Maintainer": "Kayla Morrell <kayla.morrell16@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "BiocSet",
+    "Rank": 681,
+    "Rfiles": [
+        "vignettes/BiocSet/inst/doc/BiocSet.R"
+    ],
+    "Suggests": [
+        "BiocFileCache",
+        "BiocStyle",
+        "DESeq2",
+        "GO.db",
+        "GSEABase",
+        "airway",
+        "knitr",
+        "limma",
+        "org.Hs.eg.db",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Representing Different Biological Sets",
+    "Version": "1.25.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "GO",
+        "GeneExpression",
+        "KEGG",
+        "Software"
+    ],
+    "dependencyCount": "57",
+    "dependsOnMe": [
+        "RegEnrich"
+    ],
+    "git_branch": "devel",
+    "git_last_commit": "a89c079",
+    "git_last_commit_date": "2025-10-29",
+    "git_url": "https://git.bioconductor.org/packages/BiocSet",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "plaid",
+        "sparrow"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/BiocSet_1.25.0.tgz",
+    "source.ver": "src/contrib/BiocSet_1.25.0.tar.gz",
+    "suggestsMe": [
+        "citcdf",
+        "dearseq"
+    ],
+    "vignetteTitles": [
+        "BiocSet: Representing Element Sets in the Tidyverse"
+    ],
+    "vignettes": [
+        "vignettes/BiocSet/inst/doc/BiocSet.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/BiocSet_1.25.0.zip"
+}

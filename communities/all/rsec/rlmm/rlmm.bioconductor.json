@@ -1,0 +1,54 @@
+{
+    "Author": "Nusrat Rabbee <nrabbee@post.harvard.edu>, Gary Wong <wongg62@berkeley.edu>",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 2.1.0)"
+    ],
+    "Description": "A classification algorithm, based on a multi-chip, multi-SNP approach for Affymetrix SNP arrays. Using a large training sample where the genotype labels are known, this aglorithm will obtain more accurate classification results on new data. RLMM is based on a robust, linear model and uses the Mahalanobis distance for classification. The chip-to-chip non-biological variation is removed through normalization. This model-based algorithm captures the similarities across genotype groups and probes, as well as thousands other SNPs for accurate classification. NOTE: 100K-Xba only at for now.",
+    "Imports": [
+        "MASS",
+        "grDevices",
+        "graphics",
+        "stats",
+        "utils"
+    ],
+    "License": "LGPL (>= 2)",
+    "MD5sum": "883d8bd4452bf1ed45acc1f5d25a6fa6",
+    "Maintainer": "Nusrat Rabbee <nrabbee@post.harvard.edu>",
+    "NeedsCompilation": "no",
+    "Package": "RLMM",
+    "Rank": 1603,
+    "Rfiles": [
+        "vignettes/RLMM/inst/doc/RLMM.R"
+    ],
+    "SystemRequirements": "Internal files Xba.CQV, Xba.regions (or other regions file)",
+    "Title": "A Genotype Calling Algorithm for Affymetrix SNP Arrays",
+    "URL": "http://www.stat.berkeley.edu/users/nrabbee/RLMM",
+    "Version": "1.74.0",
+    "biocViews": [
+        "GeneticVariability",
+        "Microarray",
+        "OneChannel",
+        "SNP",
+        "Software"
+    ],
+    "dependencyCount": "6",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "e65c627",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/RLMM",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/RLMM_1.74.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/RLMM_1.74.0.tgz",
+    "source.ver": "src/contrib/RLMM_1.74.0.tar.gz",
+    "vignetteTitles": [
+        "RLMM Doc"
+    ],
+    "vignettes": [
+        "vignettes/RLMM/inst/doc/RLMM.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/RLMM_1.74.0.zip"
+}

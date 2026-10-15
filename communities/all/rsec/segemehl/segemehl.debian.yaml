@@ -1,0 +1,33 @@
+package: segemehl
+distribution: debian
+release: sid
+component: main
+version: 0.3.4
+source: segemehl
+homepage: http://www.bioinf.uni-leipzig.de/Software/segemehl/
+license: unknown
+blend: debian-med
+description_md5: b08b0f83dc3de0c96f519821508bbd5f
+registries:
+- entry: OMICS_00683
+  name: OMICtools
+- entry: SCR_005494
+  name: SciCrunch
+- entry: segemehl
+  name: bio.tools
+- entry: segemehl
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1371/journal.pcbi.1000502
+- key: doi
+  rank: 1
+  value: 10.1186/gb-2014-15-2-r34
+- key: doi
+  rank: 2
+  value: 10.1093/bioinformatics/bts254
+popcon:
+- insts: 116
+  olde: 89
+  recent: 23
+  vote: 4

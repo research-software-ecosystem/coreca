@@ -1,0 +1,28 @@
+package: rapmap
+distribution: debian
+release: sid
+component: main
+version: 0.15.0
+source: rapmap
+homepage: https://github.com/COMBINE-lab/RapMap
+license: unknown
+blend: debian-med
+description_md5: e50e166638930f20ea8df0bd5eb49f87
+registries:
+- entry: OMICS_10349
+  name: OMICtools
+- entry: rapmap
+  name: bio.tools
+- entry: rapmap
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btw277
+- key: doi
+  rank: 1
+  value: 10.1038/nbt.3519
+popcon:
+- insts: 116
+  olde: 88
+  recent: 24
+  vote: 4

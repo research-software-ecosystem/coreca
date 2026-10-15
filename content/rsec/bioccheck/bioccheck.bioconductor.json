@@ -1,0 +1,92 @@
+{
+    "Author": "Bioconductor Package Maintainer [aut], Lori Shepherd [aut], Daniel von Twisk [ctb], Kevin Rue [ctb], Marcel Ramos [aut, cre] (ORCID: <https://orcid.org/0000-0002-3242-0582>), Leonardo Collado-Torres [ctb], Federico Marini [ctb]",
+    "BugReports": "https://github.com/Bioconductor/BiocCheck/issues",
+    "Date/Publication": "2026-07-02",
+    "Depends": [
+        "R (>= 4.4.0)"
+    ],
+    "Description": "BiocCheck guides maintainers through Bioconductor best practicies. It runs Bioconductor-specific package checks by searching through package code, examples, and vignettes. Maintainers are required to address all errors, warnings, and most notes produced.",
+    "Imports": [
+        "BiocBaseUtils",
+        "BiocFileCache",
+        "BiocManager",
+        "biocViews",
+        "callr",
+        "cli",
+        "codetools",
+        "commonmark",
+        "graph",
+        "httr2",
+        "knitr",
+        "methods",
+        "rvest",
+        "stringdist",
+        "tools",
+        "utils",
+        "xml2"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "4ab8930a364b682db558bdf054c2f21c",
+    "Maintainer": "Marcel Ramos <marcel.ramos@sph.cuny.edu>",
+    "NeedsCompilation": "no",
+    "Package": "BiocCheck",
+    "Rank": 162,
+    "Rfiles": [
+        "vignettes/BiocCheck/inst/doc/BiocCheck.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "devtools",
+        "gert",
+        "jsonlite",
+        "rmarkdown",
+        "tinytest",
+        "usethis"
+    ],
+    "Title": "Bioconductor-specific package checks",
+    "URL": "https://github.com/Bioconductor/BiocCheck",
+    "Version": "1.48.1",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Infrastructure",
+        "Software"
+    ],
+    "dependencyCount": "74",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "6029e2b",
+    "git_last_commit_date": "2026-06-30",
+    "git_url": "https://git.bioconductor.org/packages/BiocCheck",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "AnnotationHubData",
+        "gDRstyle",
+        "methodical"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/BiocCheck_1.48.1.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/BiocCheck_1.48.1.tgz",
+    "source.ver": "src/contrib/BiocCheck_1.48.1.tar.gz",
+    "suggestsMe": [
+        "ExpoRiskR",
+        "GEOfastq",
+        "HMP16SData",
+        "HMP2Data",
+        "MainExistingDatasets",
+        "ReducedExperiment",
+        "SpatialArtifacts",
+        "SpectralTAD",
+        "packFinder",
+        "preciseTAD",
+        "scpdata",
+        "vennDiagramLab"
+    ],
+    "vignetteTitles": [
+        "BiocCheck: Ensuring Bioconductor package guidelines"
+    ],
+    "vignettes": [
+        "vignettes/BiocCheck/inst/doc/BiocCheck.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/BiocCheck_1.48.1.zip"
+}

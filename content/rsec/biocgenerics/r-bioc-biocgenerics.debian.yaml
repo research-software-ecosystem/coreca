@@ -1,0 +1,24 @@
+package: r-bioc-biocgenerics
+distribution: debian
+release: sid
+component: main
+version: 0.58.1
+source: r-bioc-biocgenerics
+homepage: https://bioconductor.org/packages/BiocGenerics/
+license: unknown
+blend: debian-med
+description_md5: e472ed179b7cf66abc300bf075dbb3d6
+registries:
+- entry: biocgenerics
+  name: bio.tools
+- entry: bioconductor-biocgenerics
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1038/nmeth.3252
+popcon:
+- insts: 1616
+  nofiles: 2
+  olde: 1257
+  recent: 160
+  vote: 197

@@ -1,0 +1,23 @@
+package: sweed
+distribution: debian
+release: sid
+component: main
+version: 3.2.1
+source: sweed
+homepage: https://sco.h-its.org/exelixis/web/software/sweed/
+license: unknown
+blend: debian-med
+description_md5: 8ff0c702fca9de5362a10d068b3e3bc3
+registries:
+- entry: OMICS_08598
+  name: OMICtools
+- entry: sweed
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/molbev/mst112
+popcon:
+- insts: 113
+  olde: 86
+  recent: 23
+  vote: 4

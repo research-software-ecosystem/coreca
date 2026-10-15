@@ -1,0 +1,105 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mhcquant/cmd/www.openms.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 31,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1021/acs.jproteome.9b00313",
+                            "pmid": "31589052",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "MHCquant: Automated and Reproducible Data Analysis for Immunopeptidomics.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://openms.de/mhcquant/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/mhcquant",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://openms.de/mhcquant/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

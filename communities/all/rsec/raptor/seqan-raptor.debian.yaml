@@ -1,0 +1,23 @@
+package: seqan-raptor
+distribution: debian
+release: sid
+component: main
+version: 3.0.1+ds
+source: seqan-raptor
+homepage: https://github.com/seqan/raptor
+license: unknown
+blend: debian-med
+description_md5: 8de810c1779471fc5607e901d4302cf8
+registries:
+- entry: raptor
+  name: bio.tools
+- entry: raptor
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1016/j.isci.2021.102782
+popcon:
+- insts: 112
+  olde: 83
+  recent: 24
+  vote: 5

@@ -1,0 +1,81 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2021-01-02T12:42:50Z",
+    "biotoolsCURIE": "biotools:mgse",
+    "biotoolsID": "mgse",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "name": "Boas Pucker",
+            "orcidid": "https://orcid.org/0000-0002-3321-7471",
+            "typeRole": [
+                "Developer",
+                "Primary contact"
+            ],
+            "url": "https://www.pbb.uni-bonn.de"
+        }
+    ],
+    "description": "Mapping-based Genome Size Estimation (MGSE) predicts the size of a genome based on a (short) read mapping to an existing genome assembly. Low complexity sequences are often collapsed in a genome assembly thus the assembly size is smaller than the genome size. The actual copy number of sequences in the assembly is identified based on the coverage (sequencing depth) which allows the calculation of a genome size.",
+    "download": [
+        {
+            "note": "MGSE is available on GitHub",
+            "type": "Downloads page",
+            "url": "https://github.com/bpucker/MGSE"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://github.com/bpucker/MGSE",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2025-12-06T16:20:42.941757Z",
+    "link": [
+        {
+            "note": "Publication in BMC Genomics",
+            "type": [
+                "Repository"
+            ],
+            "url": "https://doi.org/10.1186/s12864-025-11640-8"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "Mapping-based Genome Size Estimation",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "bpucker",
+    "publication": [
+        {
+            "doi": "10.1186/s12864-025-11640-8",
+            "metadata": {
+                "citationCount": 2,
+                "date": "2025-12-01T00:00:00Z",
+                "journal": "BMC Genomics",
+                "title": "Mapping-based genome size estimation"
+            },
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Script"
+    ],
+    "topic": [
+        {
+            "term": "Comparative genomics",
+            "uri": "http://edamontology.org/topic_0797"
+        },
+        {
+            "term": "Sequence assembly",
+            "uri": "http://edamontology.org/topic_0196"
+        },
+        {
+            "term": "Sequence composition, complexity and repeats",
+            "uri": "http://edamontology.org/topic_0157"
+        }
+    ]
+}

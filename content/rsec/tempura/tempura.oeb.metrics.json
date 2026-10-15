@@ -1,0 +1,155 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:tempura/undefined/togodb.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 31,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2026
+                                }
+                            ],
+                            "doi": "10.1264/jsme2.ME20074",
+                            "pmcid": "PMC7511790",
+                            "pmid": "32727974",
+                            "ref_count": 24,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1990
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 1997
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2019
+                                }
+                            ],
+                            "title": "TEMPURA: Database of Growth TEMPeratures of Usual and RAre Prokaryotes.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://maintenance.dbcls.jp/db/tempura"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/tempura",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://maintenance.dbcls.jp/db/tempura"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

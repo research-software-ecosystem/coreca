@@ -1,0 +1,52 @@
+about:
+  description: MEIGOR provides a comprehensive environment for performing global optimization
+    tasks in bioinformatics and systems biology. It leverages advanced metaheuristic
+    algorithms to efficiently search the solution space and is specifically tailored
+    to handle the complexity and high-dimensionality of biological datasets. This
+    package supports various optimization routines and is integrated with Bioconductor's
+    infrastructure for a seamless analysis workflow.
+  home: https://bioconductor.org/packages/3.22/bioc/html/MEIGOR.html
+  license: GPL-3
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: MEIGOR - MEtaheuristics for bIoinformatics Global Optimization
+build:
+  noarch: generic
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:meigor
+  - doi:10.1186/1471-2105-15-136
+  parent_recipe:
+    name: bioconductor-meigor
+    path: recipes/bioconductor-meigor
+    version: 1.14.0
+package:
+  name: bioconductor-meigor
+  version: 1.44.0
+requirements:
+  host:
+  - bioconductor-cnorode >=1.52.0,<1.53.0
+  - r-base
+  - r-desolve
+  - r-rsolnp
+  - r-snowfall
+  run:
+  - bioconductor-cnorode >=1.52.0,<1.53.0
+  - r-base
+  - r-desolve
+  - r-rsolnp
+  - r-snowfall
+source:
+  md5: a4dad33910bb56ef2e89511805b62d94
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/MEIGOR_1.44.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/MEIGOR/MEIGOR_1.44.0.tar.gz
+  - https://bioarchive.galaxyproject.org/MEIGOR_1.44.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-meigor/bioconductor-meigor_1.44.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('MEIGOR')"

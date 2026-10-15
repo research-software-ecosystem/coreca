@@ -1,0 +1,84 @@
+{
+    "Author": "Sara Aibar, Celia Fontanillo, Conrad Droste and Javier De Las Rivas.",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.2.0)"
+    ],
+    "Description": "Build and visualize functional gene and term networks from clustering of enrichment analyses in multiple annotation spaces. The package includes a graphical user interface (GUI) and functions to perform the functional enrichment analysis through DAVID, GeneTerm Linker, gage (GSEA) and topGO.",
+    "Imports": [
+        "R.utils",
+        "RColorBrewer",
+        "XML",
+        "grDevices",
+        "graphics",
+        "hwriter",
+        "igraph (>= 0.6)",
+        "methods",
+        "plotrix",
+        "png",
+        "reshape2",
+        "stats",
+        "utils"
+    ],
+    "License": "GPL (>= 2)",
+    "MD5sum": "d9868aa3cdf3448172f907e7416521c5",
+    "Maintainer": "Sara Aibar <saibar@usal.es>",
+    "NeedsCompilation": "no",
+    "Package": "FGNet",
+    "Rank": 710,
+    "Rfiles": [
+        "vignettes/FGNet/inst/doc/FGNet.R"
+    ],
+    "Suggests": [
+        "AnnotationDbi",
+        "BiocGenerics",
+        "BiocManager",
+        "GO.db",
+        "RCurl",
+        "RUnit",
+        "gage",
+        "knitr",
+        "org.Sc.sgd.db",
+        "reactome.db",
+        "rmarkdown",
+        "topGO"
+    ],
+    "Title": "Functional Gene Networks derived from biological enrichment analyses",
+    "URL": "http://www.cicancer.org",
+    "Version": "3.46.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Annotation",
+        "Clustering",
+        "FunctionalGenomics",
+        "GO",
+        "GeneSetEnrichment",
+        "Network",
+        "NetworkEnrichment",
+        "Pathways",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "31",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "5675111",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/FGNet",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "IntramiRExploreR"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/FGNet_3.46.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/FGNet_3.46.0.tgz",
+    "source.ver": "src/contrib/FGNet_3.46.0.tar.gz",
+    "vignetteTitles": [
+        "FGNet"
+    ],
+    "vignettes": [
+        "vignettes/FGNet/inst/doc/FGNet.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/FGNet_3.46.0.zip"
+}

@@ -1,0 +1,22 @@
+package: r-bioc-geoquery
+distribution: debian
+release: sid
+component: main
+version: 2.80.0
+source: r-bioc-geoquery
+homepage: https://bioconductor.org/packages/GEOquery/
+license: unknown
+blend: debian-med
+description_md5: 952355a18eb44e818e0bf24162ae78a1
+registries:
+- entry: OMICS_01972
+  name: OMICtools
+- entry: geoquery
+  name: bio.tools
+- entry: bioconductor-geoquery
+  name: conda:bioconda
+popcon:
+- insts: 197
+  olde: 156
+  recent: 26
+  vote: 15

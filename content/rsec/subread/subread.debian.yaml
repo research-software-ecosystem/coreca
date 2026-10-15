@@ -1,0 +1,36 @@
+package: subread
+distribution: debian
+release: sid
+component: main
+version: 2.0.8
+source: subread
+homepage: http://sourceforge.net/projects/subread/
+license: unknown
+blend: debian-med
+description_md5: 2dc580306017678479e17e30f365b713
+registries:
+- entry: OMICS_01255
+  name: OMICtools
+- entry: SCR_009803
+  name: SciCrunch
+- entry: subread
+  name: bio.tools
+- entry: subread
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/nar/gkz114
+- key: doi
+  rank: 1
+  value: 10.1093/nar/gkt214
+- key: doi
+  rank: 2
+  value: 10.1093/bioinformatics/btt656
+- key: doi
+  rank: 3
+  value: 10.1186/s12859-022-04644-8
+popcon:
+- insts: 215
+  olde: 180
+  recent: 25
+  vote: 10

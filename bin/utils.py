@@ -333,7 +333,7 @@ def generate_tsv_summary(json_path: Path, tsv_path: Path) -> None:
         return
     if not isinstance(data, list) or not data:
         return
-
+    
     summary_data: List[Dict[str, str]] = []
     fieldnames = [
         "tool_id",
@@ -377,12 +377,12 @@ def generate_tsv_summary(json_path: Path, tsv_path: Path) -> None:
                 entry["reason"] = reason_template.format(value=str(match_value))
                 break
         summary_data.append(entry)
-
+    
     with open(tsv_path, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter="\t", extrasaction="ignore")
         writer.writeheader()
         writer.writerows(summary_data)
-    print(f"Summary TSV created: {tsv_path.name}")
+    print(f"Summary TSV created: {tsv_path}")
 
 
 # --- Configuration paths  ---
@@ -391,9 +391,9 @@ SCRIPT_BIN_DIR = SCRIPT_PATH.parent
 BASE_DIR = SCRIPT_BIN_DIR.parent
 
 # Dossiers cibles
-CONTENT_DIR = BASE_DIR / "content"
-RSEC_DIR = CONTENT_DIR / "rsec"
-KEYWORDS_FILEPATH = BASE_DIR / "keywords.yml"
+#CONTENT_DIR = BASE_DIR / "content"
+#RSEC_DIR = CONTENT_DIR / "rsec"
+#KEYWORDS_FILEPATH = BASE_DIR / "keywords.yml"
 
 # Configuration Extraction RSEC
 RSEC_REPO_URL = "https://github.com/research-software-ecosystem/content.git"

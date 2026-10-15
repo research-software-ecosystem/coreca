@@ -1,0 +1,16 @@
+{
+    "additionDate": "2025-10-21T13:58:14.083637Z",
+    "biotoolsCURIE": "biotools:gentropy",
+    "biotoolsID": "gentropy",
+    "description": "Open Targets python framework for post-GWAS analysis",
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://github.com/opentargets/gentropy",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2025-12-30T18:18:34.658705Z",
+    "name": "gentropy",
+    "owner": "camlloyd"
+}

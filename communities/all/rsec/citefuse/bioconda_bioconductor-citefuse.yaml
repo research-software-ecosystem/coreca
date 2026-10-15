@@ -1,0 +1,93 @@
+about:
+  description: CiteFuse pacakage implements a suite of methods and tools for CITE-seq
+    data from pre-processing to integrative analytics, including doublet detection,
+    network-based modality integration, cell type clustering, differential RNA and
+    protein expression analysis, ADT evaluation, ligand-receptor interaction analysis,
+    and interactive web-based visualisation of the analyses.
+  home: https://bioconductor.org/packages/3.22/bioc/html/CiteFuse.html
+  license: GPL-3
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: 'CiteFuse: multi-modal analysis of CITE-seq data'
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:citefuse
+package:
+  name: bioconductor-citefuse
+  version: 1.22.0
+requirements:
+  build:
+  - null
+  - null
+  - make
+  host:
+  - bioconductor-rhdf5 >=2.54.0,<2.55.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-scran >=1.38.0,<1.39.0
+  - bioconductor-singlecellexperiment >=1.32.0,<1.33.0
+  - bioconductor-summarizedexperiment >=1.40.0,<1.41.0
+  - r-base
+  - r-compositions
+  - r-cowplot
+  - r-dbscan
+  - r-ggplot2
+  - r-ggraph
+  - r-ggridges
+  - r-gridextra
+  - r-igraph
+  - r-matrix
+  - r-mixtools
+  - r-pheatmap
+  - r-randomforest
+  - r-rcpp
+  - r-reshape2
+  - r-rlang
+  - r-rtsne
+  - r-scales
+  - r-uwot
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-rhdf5 >=2.54.0,<2.55.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-scran >=1.38.0,<1.39.0
+  - bioconductor-singlecellexperiment >=1.32.0,<1.33.0
+  - bioconductor-summarizedexperiment >=1.40.0,<1.41.0
+  - r-base
+  - r-compositions
+  - r-cowplot
+  - r-dbscan
+  - r-ggplot2
+  - r-ggraph
+  - r-ggridges
+  - r-gridextra
+  - r-igraph
+  - r-matrix
+  - r-mixtools
+  - r-pheatmap
+  - r-randomforest
+  - r-rcpp
+  - r-reshape2
+  - r-rlang
+  - r-rtsne
+  - r-scales
+  - r-uwot
+source:
+  md5: 9a3e0f0cf51d1e0eba3bcc85cdcc7148
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/CiteFuse_1.22.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/CiteFuse/CiteFuse_1.22.0.tar.gz
+  - https://bioarchive.galaxyproject.org/CiteFuse_1.22.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-citefuse/bioconductor-citefuse_1.22.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('CiteFuse')"

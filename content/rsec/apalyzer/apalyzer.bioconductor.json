@@ -1,0 +1,83 @@
+{
+    "Author": "Ruijia Wang [cre, aut] (ORCID: <https://orcid.org/0000-0002-4211-5207>), Bin Tian [aut], Wei-Chun Chen [aut]",
+    "BugReports": "https://github.com/RJWANGbioinfo/APAlyzer/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.5.0)"
+    ],
+    "Description": "Perform 3'UTR APA, Intronic APA and gene expression analysis using RNA-seq data.",
+    "Imports": [
+        "DESeq2",
+        "GenomicAlignments",
+        "GenomicFeatures",
+        "GenomicRanges",
+        "Rsamtools",
+        "Rsubread",
+        "S4Vectors",
+        "SummarizedExperiment",
+        "VariantAnnotation",
+        "dplyr",
+        "ggplot2",
+        "ggrepel",
+        "methods",
+        "repmis",
+        "rlang",
+        "rtracklayer",
+        "stats",
+        "tidyr",
+        "txdbmaker"
+    ],
+    "License": "LGPL-3 + file LICENSE",
+    "MD5sum": "42d4c7da8f427dc03a1961688e4d3798",
+    "Maintainer": "Ruijia Wang <rjwang.bioinfo@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "APAlyzer",
+    "Rank": 1722,
+    "Rfiles": [
+        "vignettes/APAlyzer/inst/doc/APAlyzer.R"
+    ],
+    "Suggests": [
+        "AnnotationDbi",
+        "BiocStyle",
+        "HybridMTest",
+        "TBX20BamSubset",
+        "knitr",
+        "org.Mm.eg.db",
+        "pasillaBamSubset",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "A toolkit for APA analysis using RNA-seq data",
+    "URL": "https://github.com/RJWANGbioinfo/APAlyzer/",
+    "Version": "1.26.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Annotation",
+        "DataImport",
+        "DifferentialExpression",
+        "GeneExpression",
+        "GeneRegulation",
+        "RNASeq",
+        "Sequencing",
+        "Software"
+    ],
+    "dependencyCount": "123",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "18ab074",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/APAlyzer",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/APAlyzer_1.26.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/APAlyzer_1.26.0.tgz",
+    "source.ver": "src/contrib/APAlyzer_1.26.0.tar.gz",
+    "vignetteTitles": [
+        "APAlyzer: toolkit for RNA-seq APA analysis"
+    ],
+    "vignettes": [
+        "vignettes/APAlyzer/inst/doc/APAlyzer.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/APAlyzer_1.26.0.zip"
+}

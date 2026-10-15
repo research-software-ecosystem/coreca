@@ -1,0 +1,18 @@
+package: q2-sample-classifier
+distribution: debian
+release: sid
+component: main
+version: 2024.5.0
+source: q2-sample-classifier
+homepage: https://qiime2.org
+license: unknown
+blend: debian-med
+description_md5: 1246b00626b620ae5f2460c9cb2e767a
+registries:
+- entry: q2-sample-classifier
+  name: bio.tools
+- entry: q2-sample-classifier
+  name: conda:qiime2
+popcon:
+- insts: 2
+  olde: 2

@@ -1,0 +1,25 @@
+package: vcfanno
+distribution: debian
+release: sid
+component: main
+version: 0.3.7+ds
+source: vcfanno
+homepage: https://github.com/brentp/vcfanno
+license: unknown
+blend: debian-med
+description_md5: e762099ab07ec0feedacd5a15d3514cf
+registries:
+- entry: OMICS_11863
+  name: OMICtools
+- entry: vcfanno
+  name: bio.tools
+- entry: vcfanno
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/s13059-016-0973-5
+popcon:
+- insts: 120
+  olde: 90
+  recent: 25
+  vote: 5

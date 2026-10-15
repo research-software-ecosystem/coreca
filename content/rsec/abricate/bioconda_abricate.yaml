@@ -1,0 +1,48 @@
+about:
+  home: https://github.com/tseemann/abricate
+  license: GPL-2.0-only
+  license_file: LICENSE
+  summary: Mass screening of contigs for antibiotic resistance genes
+build:
+  noarch: generic
+  number: 0
+  run_exports:
+  - null
+extra:
+  identifiers:
+  - biotools:ABRicate
+  - usegalaxy-eu:abricate
+package:
+  name: abricate
+  version: 1.4.0
+requirements:
+  host:
+  - perl-bioperl >=1.7
+  - perl-path-tiny
+  - perl-list-moreutils
+  - perl-json
+  - perl-libwww-perl
+  - blast >=2.7
+  - zlib
+  - unzip
+  - any2fasta
+  run:
+  - perl-bioperl >=1.7
+  - perl-path-tiny
+  - perl-list-moreutils
+  - perl-json
+  - perl-lwp-protocol-https
+  - perl-libwww-perl
+  - blast >=2.7
+  - zlib
+  - unzip
+  - any2fasta
+source:
+  sha256: cbafe0efbdb7a0ac3d3bcd3cb2ca4a0152474d20b68c5f98da5a4c7cc25676eb
+  url: https://github.com/tseemann/abricate/archive/v1.4.0.tar.gz
+test:
+  commands:
+  - abricate --version | grep '1.4.0'
+  - abricate --help
+  - abricate --list
+  - abricate --check

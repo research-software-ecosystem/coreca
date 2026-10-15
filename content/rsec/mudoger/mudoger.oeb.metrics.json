@@ -1,0 +1,68 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:mudoger/workflow/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 18,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2024
+                                }
+                            ],
+                            "doi": "10.1111/1755-0998.13904",
+                            "pmid": "37994269",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "MuDoGeR: Multi-Domain Genome recovery from metagenomes made easy.",
+                            "year": 2023
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

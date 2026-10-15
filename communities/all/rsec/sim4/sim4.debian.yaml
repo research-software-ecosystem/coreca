@@ -1,0 +1,35 @@
+package: sim4
+distribution: debian
+release: sid
+component: main
+version: 0.0.20121010
+source: sim4
+homepage: https://globin.bx.psu.edu/html/docs/sim4.html
+license: unknown
+blend: debian-med
+description_md5: 0707bae1b16add47eb5b50ce765a58ec
+registries:
+- entry: OMICS_28980
+  name: OMICtools
+- entry: SIM4
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1101/gr.8.9.967
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::comparing
+- tag: use::searching
+- tag: works-with-format::TODO
+- tag: works-with-format::plaintext
+- tag: works-with::TODO
+popcon:
+- insts: 246
+  olde: 213
+  recent: 25
+  vote: 8

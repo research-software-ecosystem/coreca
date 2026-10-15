@@ -1,0 +1,195 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:graphsite/web/biomed.nscc-gz.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 60,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bib/bbab564",
+                            "pmid": "35039821",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "AlphaFold2-aware protein-DNA binding site prediction using graph transformer.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bio-web1.nscc-gz.cn/app/graphsite"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://bio-web1.nscc-gz.cn/app/graphsite"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:graphsite/workbench/biomed.nscc-gz.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 60,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bib/bbab564",
+                            "pmid": "35039821",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "AlphaFold2-aware protein-DNA binding site prediction using graph transformer.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bio-web1.nscc-gz.cn/app/graphsite"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://bio-web1.nscc-gz.cn/app/graphsite"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/graphsite",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bio-web1.nscc-gz.cn/app/graphsite"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://bio-web1.nscc-gz.cn/app/graphsite"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

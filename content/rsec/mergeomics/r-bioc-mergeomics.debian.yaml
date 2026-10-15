@@ -1,0 +1,23 @@
+package: r-bioc-mergeomics
+distribution: debian
+release: sid
+component: main
+version: 1.40.0
+source: r-bioc-mergeomics
+homepage: https://bioconductor.org/packages/Mergeomics/
+license: unknown
+blend: debian-med
+description_md5: b76465a42b6284f7a2c84f186e462165
+registries:
+- entry: OMICS_12862
+  name: OMICtools
+- entry: mergeomics
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1186/s12864-016-3198-9
+popcon:
+- insts: 126
+  olde: 96
+  recent: 25
+  vote: 5

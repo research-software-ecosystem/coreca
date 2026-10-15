@@ -1,0 +1,69 @@
+{
+    "Author": "Jack Fu [aut], Alyssa C. Frazee [aut, cre], Leonardo Collado-Torres [aut], Andrew E. Jaffe [aut], Jeffrey T. Leek [aut, ths]",
+    "BugReports": "https://github.com/alyssafrazee/ballgown/issues",
+    "Date/Publication": "2025-11-04",
+    "Depends": [
+        "R (>= 3.5.0)",
+        "methods"
+    ],
+    "Description": "Tools for statistical analysis of assembled transcriptomes, including flexible differential expression analysis, visualization of transcript structures, and matching of assembled transcripts to annotation.",
+    "Imports": [
+        "Biobase (>= 2.25.0)",
+        "GenomicRanges (>= 1.17.25)",
+        "IRanges (>= 1.99.22)",
+        "RColorBrewer",
+        "S4Vectors (>= 0.9.39)",
+        "Seqinfo",
+        "limma",
+        "rtracklayer (>= 1.29.25)",
+        "splines",
+        "sva"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "7d6fb47c403d00f66a713ed32cf2a2cc",
+    "Maintainer": "Jack Fu <jmfu@jhsph.edu>",
+    "NeedsCompilation": "no",
+    "Package": "ballgown",
+    "Rank": 229,
+    "Rfiles": [
+        "vignettes/ballgown/inst/doc/ballgown.R"
+    ],
+    "Suggests": [
+        "knitr",
+        "markdown",
+        "testthat"
+    ],
+    "Title": "Flexible, isoform-level differential expression analysis",
+    "Version": "2.43.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DifferentialExpression",
+        "ImmunoOncology",
+        "Preprocessing",
+        "RNASeq",
+        "Software",
+        "StatisticalMethod"
+    ],
+    "dependencyCount": "87",
+    "dependsOnMe": [
+        "VaSP"
+    ],
+    "git_branch": "devel",
+    "git_last_commit": "dae077a",
+    "git_last_commit_date": "2025-10-29",
+    "git_url": "https://git.bioconductor.org/packages/ballgown",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "source.ver": "src/contrib/ballgown_2.43.0.tar.gz",
+    "suggestsMe": [
+        "variancePartition"
+    ],
+    "vignetteTitles": [
+        "Flexible isoform-level differential expression analysis with Ballgown"
+    ],
+    "vignettes": [
+        "vignettes/ballgown/inst/doc/ballgown.html"
+    ]
+}

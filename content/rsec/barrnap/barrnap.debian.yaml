@@ -1,0 +1,38 @@
+package: barrnap
+distribution: debian
+release: sid
+component: main
+version: 1.0.0
+source: barrnap
+homepage: http://www.vicbioinformatics.com/software.barrnap.shtml
+license: unknown
+blend: debian-med
+description_md5: 16435ddfce10642f034223b0837d9e5c
+topics:
+- Functional, regulatory and non-coding RNA
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - FASTA
+  output:
+  - data: Sequence features
+    formats:
+    - GFF3
+  function:
+  - Homology-based gene prediction
+registries:
+- entry: OMICS_13988
+  name: OMICtools
+- entry: SCR_015995
+  name: SciCrunch
+- entry: barrnap
+  name: bio.tools
+- entry: barrnap
+  name: conda:bioconda
+popcon:
+- insts: 118
+  olde: 91
+  recent: 23
+  vote: 4

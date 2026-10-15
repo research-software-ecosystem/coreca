@@ -1,0 +1,46 @@
+{
+    "Author": "Pierrick Roger [aut, cre] (ORCID: <https://orcid.org/0000-0001-8177-4873>)",
+    "BugReports": "https://github.com/pkrog/biodbChebi/issues",
+    "Date/Publication": "2025-11-16",
+    "Depends": [
+        "R (>= 4.1)"
+    ],
+    "Description": "The biodbChebi library provides access to the ChEBI Database, using biodb package framework. It allows to retrieve entries by their accession number. Web services can be accessed for searching the database by name, mass or other fields.",
+    "Imports": [
+        "R6",
+        "biodb (>= 1.3.1)"
+    ],
+    "License": "AGPL-3",
+    "MD5sum": "11964faebbacb6f3acc2e9e7a0f6640d",
+    "Maintainer": "Pierrick Roger <pierrick.roger@cea.fr>",
+    "NeedsCompilation": "no",
+    "Package": "biodbChebi",
+    "Rank": 2390,
+    "Suggests": [
+        "BiocStyle",
+        "devtools",
+        "knitr",
+        "lgr",
+        "rmarkdown",
+        "roxygen2",
+        "testthat (>= 2.0.0)"
+    ],
+    "Title": "biodbChebi, a library for connecting to the ChEBI Database",
+    "URL": "https://github.com/pkrog/biodbChebi",
+    "Version": "1.17.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataImport",
+        "Infrastructure",
+        "Software"
+    ],
+    "git_branch": "devel",
+    "git_last_commit": "80ee611",
+    "git_last_commit_date": "2025-10-29",
+    "git_url": "https://git.bioconductor.org/packages/biodbChebi",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/biodbChebi_1.17.0.tgz"
+}

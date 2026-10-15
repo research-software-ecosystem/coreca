@@ -1,0 +1,19 @@
+@prefix biotools: <https://bio.tools/> .
+@prefix debianmed: <https://salsa.debian.org/med-team/> .
+@prefix schema1: <http://schema.org/> .
+@prefix scicrunch: <https://scicrunch.org/resolver/> .
+
+debianmed:avogadro a schema1:SoftwareApplication ;
+    schema1:citation "doi:10.1186/1758-2946-4-17" ;
+    schema1:identifier biotools:avogadro,
+        scicrunch:SCR_015983,
+        "omictools:OMICS_04967" ;
+    schema1:keywords "field::chemistry",
+        "role::program",
+        "uitoolkit::qt",
+        "use::viewing" ;
+    schema1:license "unknown" ;
+    schema1:name "avogadro" ;
+    schema1:softwareVersion "2.0.0" ;
+    schema1:url <https://two.avogadro.cc/> .
+

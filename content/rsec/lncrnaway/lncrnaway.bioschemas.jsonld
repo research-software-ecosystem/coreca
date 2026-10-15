@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/lncrnaway",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nb0389cc62ff14bda99356b7d6a71d860"
+        },
+        {
+          "@id": "_:Ne1200ad74fe840e8ae10a3fd08f0962e"
+        },
+        {
+          "@id": "_:N2bce754cc12d44409310d0eaf3a4406e"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N062bcd3d031045b8b8d60cdedf459eed"
+        },
+        {
+          "@id": "_:N35953e97f5b24cdaa810ee8e417b302d"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0085"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkae383"
+      },
+      "sc:description": "A web-based sgRNA design tool for precise and effective suppression of long noncoding RNAs",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0308"
+        },
+        {
+          "@id": "edam:operation_0230"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "LncRNAway",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:url": "https://www.lncrnaway.com"
+    },
+    {
+      "@id": "_:Nb0389cc62ff14bda99356b7d6a71d860",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1033"
+      },
+      "sc:name": "Ensembl gene ID"
+    },
+    {
+      "@id": "_:Ne1200ad74fe840e8ae10a3fd08f0962e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:N2bce754cc12d44409310d0eaf3a4406e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "_:N062bcd3d031045b8b8d60cdedf459eed",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0972"
+      },
+      "sc:name": "Text mining report"
+    },
+    {
+      "@id": "_:N35953e97f5b24cdaa810ee8e417b302d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3508"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkae383",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

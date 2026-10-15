@@ -1,0 +1,58 @@
+{
+    "Author": "Li Long <lilong@isb-sib.ch>",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "AnnotationDbi",
+        "RColorBrewer",
+        "Rgraphviz",
+        "cMAP",
+        "graph",
+        "methods",
+        "stats4"
+    ],
+    "Description": "build graphs from pathway databases, render them by Rgraphviz.",
+    "License": "LGPL",
+    "MD5sum": "862dd8db50b2448e96c331cdda65ca3d",
+    "Maintainer": "Vince Carey <stvjc@channing.harvard.edu>",
+    "NeedsCompilation": "no",
+    "Package": "pathRender",
+    "Rank": 904,
+    "Rfiles": [
+        "vignettes/pathRender/inst/doc/pathRender.R",
+        "vignettes/pathRender/inst/doc/plotExG.R"
+    ],
+    "Suggests": [
+        "ALL",
+        "hgu95av2.db"
+    ],
+    "Title": "Render molecular pathways",
+    "URL": "http://www.bioconductor.org",
+    "Version": "1.80.0",
+    "biocViews": [
+        "GraphAndNetwork",
+        "Pathways",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "47",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "5229ebd",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/pathRender",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/pathRender_1.80.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/pathRender_1.80.0.tgz",
+    "source.ver": "src/contrib/pathRender_1.80.0.tar.gz",
+    "vignetteTitles": [
+        "pathRender overview",
+        "pathway graphs colored by expression map"
+    ],
+    "vignettes": [
+        "vignettes/pathRender/inst/doc/pathRender.pdf",
+        "vignettes/pathRender/inst/doc/plotExG.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/pathRender_1.80.0.zip"
+}

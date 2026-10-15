@@ -1,0 +1,72 @@
+{
+    "Author": "Jiyuan Fang [cre, aut] (ORCID: <https://orcid.org/0000-0002-5004-4138>), Jichun Xie [ctb], Cliburn Chan [ctb], Kouros Owzar [ctb], Liuyang Wang [ctb], Diyuan Qin [ctb], Qi-Jing Li [ctb]",
+    "BugReports": "https://github.com/jichunxie/CDI/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R(>= 3.6)"
+    ],
+    "Description": "Single-cell RNA-sequencing (scRNA-seq) is widely used to explore cellular variation. The analysis of scRNA-seq data often starts from clustering cells into subpopulations. This initial step has a high impact on downstream analyses, and hence it is important to be accurate. However, there have not been unsupervised metric designed for scRNA-seq to evaluate clustering performance. Hence, we propose clustering deviation index (CDI), an unsupervised metric based on the modeling of scRNA-seq UMI counts to evaluate clustering of cells.",
+    "Imports": [
+        "BiocParallel",
+        "Seurat",
+        "SeuratObject",
+        "SingleCellExperiment",
+        "SummarizedExperiment",
+        "ggplot2",
+        "ggsci",
+        "grDevices",
+        "matrixStats",
+        "methods",
+        "reshape2",
+        "stats"
+    ],
+    "License": "GPL-3 + file LICENSE",
+    "MD5sum": "ac4523a94dc074e72ea1d664adf22c91",
+    "Maintainer": "Jiyuan Fang <jfanglovestats@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "CDI",
+    "Rank": 1722,
+    "Rfiles": [
+        "vignettes/CDI/inst/doc/CDI.R"
+    ],
+    "Suggests": [
+        "BiocGenerics",
+        "BiocStyle",
+        "RUnit",
+        "knitr",
+        "magick",
+        "rmarkdown"
+    ],
+    "Title": "Clustering Deviation Index (CDI)",
+    "URL": "https://github.com/jichunxie/CDI",
+    "Version": "1.10.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "CellBasedAssays",
+        "Clustering",
+        "RNASeq",
+        "Sequencing",
+        "SingleCell",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "173",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "466f0e8",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/CDI",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/CDI_1.10.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/CDI_1.10.0.tgz",
+    "source.ver": "src/contrib/CDI_1.10.0.tar.gz",
+    "vignetteTitles": [
+        "Clustering Deviation Index (CDI) Tutorial"
+    ],
+    "vignettes": [
+        "vignettes/CDI/inst/doc/CDI.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/CDI_1.10.0.zip"
+}

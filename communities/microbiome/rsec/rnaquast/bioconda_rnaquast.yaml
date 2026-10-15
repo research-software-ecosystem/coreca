@@ -1,0 +1,42 @@
+about:
+  dev_url: https://github.com/ablab/rnaquast
+  home: https://github.com/ablab/rnaquast
+  license: GPL-2.0-or-later
+  license_family: GPL
+  summary: rnaQUAST is a tool for evaluating RNA-Seq assemblies using reference genome
+    and gene database. In addition, rnaQUAST is also capable of estimating gene database
+    coverage by raw reads and de novo quality assessment using third-party software.
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  identifiers:
+  - doi:10.1093/bioinformatics/btw218
+  - biotools:rnaQUAST
+  - usegalaxy-eu:rna_quast
+  skip-lints:
+  - should_be_noarch_generic
+package:
+  name: rnaquast
+  version: 2.3.2
+requirements:
+  run:
+  - python
+  - blast
+  - ucsc-blat
+  - busco >=5
+  - emboss
+  - gmap >=2020.03.12
+  - gffutils
+  - joblib
+  - matplotlib-base
+  - ucsc-pslsort
+  - star
+  - samtools
+source:
+  sha256: c5cb5d94f68c596b3d0e67665d9d0b6f8720a5bf1387900f32bba54370ca4090
+  url: https://github.com/ablab/rnaquast/releases/download/v2.3.2/rnaQUAST-2.3.2.tar.gz
+test:
+  commands:
+  - rnaQUAST.py --help

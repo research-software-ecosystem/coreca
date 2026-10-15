@@ -1,0 +1,94 @@
+package: bowtie2
+distribution: debian
+release: sid
+component: main
+version: 2.5.5
+source: bowtie2
+homepage: https://bowtie-bio.sourceforge.net/bowtie2
+license: unknown
+blend: debian-med
+description_md5: a4a641e19bb5b2750860b5cde2b844a2
+topics:
+- Genomics
+edam_scopes:
+- name: summary
+  input:
+  - data: Nucleic acid sequence (raw)
+    format:
+    - FASTA
+    - FASTQ
+  output:
+  - data: Sequence alignment (nucleic acid)
+    format:
+    - SAM
+  function:
+  - Genome indexing
+  - Sequence alignment
+- name: bowtie-build
+  input:
+  - data: Nucleic acid sequence (raw)
+    format:
+    - FASTA
+  output:
+  - data: Genome index
+    format:
+    - ebwt
+    - ebwtl
+  function:
+  - Genome indexing
+- name: bowtie-inspect
+  input:
+  - data: Genome index
+    format:
+    - ebtw
+    - ebtwl
+  output:
+  - data: Nucleic acid sequence (raw)
+    output:
+    - FASTA
+    - plain text format (unformatted)
+  function:
+  - Sequence retrieval
+  - Metadata retrieval
+  - Data index analysis
+- name: bowtie
+  input:
+  - data: Genome index
+    format:
+    - ebtw
+    - ebtwl
+  - data: Nucleic acid sequence (raw)
+    format:
+    - plain text format (unformatted)
+    - FASTA
+    - FASTQ
+  output:
+  - data: Sequence alignment (nucleic acid)
+    format:
+    - SAM
+  - data: Sequence alignment report
+    format:
+    - plain text format (unformatted)
+    - Bowtie alignment report format
+  function:
+  - Sequence database search (by sequence using word-based methods)
+  - Sequence alignment generation
+registries:
+- entry: OMICS_31633
+  name: OMICtools
+- entry: SCR_005476
+  name: SciCrunch
+- entry: bowtie2
+  name: bio.tools
+- entry: bowtie2
+  name: conda:bioconda
+- entry: bowtie
+  name: guix
+bib:
+- key: doi
+  value: 10.1038/nmeth.1923
+popcon:
+- insts: 378
+  olde: 329
+  recent: 26
+  vote: 23

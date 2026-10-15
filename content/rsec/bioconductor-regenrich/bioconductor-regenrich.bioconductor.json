@@ -1,0 +1,83 @@
+{
+    "Author": "Weiyang Tao [cre, aut], Aridaman Pandit [aut]",
+    "Date/Publication": "2026-05-12",
+    "Depends": [
+        "BiocSet",
+        "R (>= 4.0.0)",
+        "S4Vectors",
+        "SummarizedExperiment",
+        "dplyr",
+        "tibble"
+    ],
+    "Description": "This package is a pipeline to identify the key gene regulators in a biological process, for example in cell differentiation and in cell development after stimulation. There are four major steps in this pipeline: (1) differential expression analysis; (2) regulator-target network inference; (3) enrichment analysis; and (4) regulators scoring and ranking.",
+    "Imports": [
+        "BiocParallel",
+        "BiocStyle",
+        "DESeq2",
+        "DOSE",
+        "WGCNA",
+        "enrichit",
+        "fgsea",
+        "ggplot2 (>= 2.2.0)",
+        "gson",
+        "limma",
+        "magrittr",
+        "methods",
+        "qvalue",
+        "randomForest",
+        "reshape2"
+    ],
+    "License": "GPL (>= 2)",
+    "MD5sum": "0c5b439b2d15466724f9e3621df7a374",
+    "Maintainer": "Weiyang Tao <weiyangtao1513@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "RegEnrich",
+    "Rank": 1349,
+    "Rfiles": [
+        "vignettes/RegEnrich/inst/doc/RegEnrich.R"
+    ],
+    "Suggests": [
+        "BiocManager",
+        "GEOquery",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Gene regulator enrichment analysis",
+    "Version": "1.22.1",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DifferentialExpression",
+        "FunctionalPrediction",
+        "GeneExpression",
+        "GeneSetEnrichment",
+        "GeneTarget",
+        "Network",
+        "NetworkEnrichment",
+        "NetworkInference",
+        "RNASeq",
+        "Software",
+        "Transcription",
+        "Transcriptomics",
+        "TwoChannel"
+    ],
+    "dependencyCount": "148",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "ada7c37",
+    "git_last_commit_date": "2026-05-11",
+    "git_url": "https://git.bioconductor.org/packages/RegEnrich",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/RegEnrich_1.22.1.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/RegEnrich_1.22.1.tgz",
+    "source.ver": "src/contrib/RegEnrich_1.22.1.tar.gz",
+    "vignetteTitles": [
+        "Gene regulator enrichment with RegEnrich"
+    ],
+    "vignettes": [
+        "vignettes/RegEnrich/inst/doc/RegEnrich.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/RegEnrich_1.22.1.zip"
+}

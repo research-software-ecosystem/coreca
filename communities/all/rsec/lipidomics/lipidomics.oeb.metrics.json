@@ -1,0 +1,105 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:lipidomics/web/lipidomics-standards-initiative.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 50,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2022
+                                }
+                            ],
+                            "doi": "10.1002/wsbm.1466",
+                            "pmid": "31646749",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Lipidomics: Current state of the art in a fast moving field.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://lipidomicstandards.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/lipidomics",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://lipidomicstandards.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

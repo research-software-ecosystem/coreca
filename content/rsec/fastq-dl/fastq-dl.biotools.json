@@ -1,0 +1,23 @@
+{
+    "additionDate": "2025-02-09T22:19:22.123432Z",
+    "biotoolsCURIE": "biotools:fastq-dl",
+    "biotoolsID": "fastq-dl",
+    "description": "A tool to download FASTQs associated with Study, Experiment, or Run accessions.",
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://github.com/rpetit3/fastq-dl",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2025-12-30T17:49:32.456654Z",
+    "license": "MIT",
+    "name": "fastq-dl",
+    "owner": "camlloyd",
+    "toolType": [
+        "Command-line tool"
+    ],
+    "version": [
+        "3.0.0"
+    ]
+}

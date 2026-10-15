@@ -1,0 +1,71 @@
+{
+    "Author": "Siyuan Ma",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.6)"
+    ],
+    "Description": "MMUPHin is an R package for meta-analysis tasks of microbiome cohorts. It has function interfaces for: a) covariate-controlled batch- and cohort effect adjustment, b) meta-analysis differential abundance testing, c) meta-analysis unsupervised discrete structure (clustering) discovery, and d) meta-analysis unsupervised continuous structure discovery.",
+    "Imports": [
+        "cowplot",
+        "dplyr",
+        "fpc",
+        "ggplot2",
+        "grDevices",
+        "igraph",
+        "maaslin3",
+        "metafor",
+        "stats",
+        "stringr",
+        "tidyr",
+        "utils"
+    ],
+    "License": "MIT + file LICENSE",
+    "MD5sum": "bd59b4dd8b01d5c38a33e63a97ce93d2",
+    "Maintainer": "Siyuan MA <syma.research@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "MMUPHin",
+    "Rank": 1041,
+    "Rfiles": [
+        "vignettes/MMUPHin/inst/doc/MMUPHin.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "curatedMetagenomicData",
+        "genefilter",
+        "knitr",
+        "magrittr",
+        "phyloseq",
+        "rmarkdown",
+        "testthat",
+        "vegan"
+    ],
+    "SystemRequirements": "glpk (>= 4.57)",
+    "Title": "Meta-analysis Methods with Uniform Pipeline for Heterogeneity in Microbiome Studies",
+    "Version": "2.0.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "BatchEffect",
+        "Metagenomics",
+        "Microbiome",
+        "Software"
+    ],
+    "dependencyCount": "90",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "0aadc88",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/MMUPHin",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/MMUPHin_2.0.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/MMUPHin_2.0.0.tgz",
+    "source.ver": "src/contrib/MMUPHin_2.0.0.tar.gz",
+    "vignetteTitles": [
+        "MMUPHin"
+    ],
+    "vignettes": [
+        "vignettes/MMUPHin/inst/doc/MMUPHin.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/MMUPHin_2.0.0.zip"
+}

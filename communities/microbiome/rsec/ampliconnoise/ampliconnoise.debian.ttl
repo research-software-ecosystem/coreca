@@ -1,0 +1,24 @@
+@prefix bioschemas: <http://bioschemas.org/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix debianmed: <https://salsa.debian.org/med-team/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix scicrunch: <https://scicrunch.org/resolver/> .
+
+debianmed:ampliconnoise a schema1:SoftwareApplication ;
+    bioschemas:input edam:data_0924 ;
+    bioschemas:output edam:data_2044 ;
+    schema1:additionalType edam:data_0924,
+        edam:data_2044 ;
+    schema1:applicationSubCategory edam:topic_3168 ;
+    schema1:citation "doi:10.1186/1471-2105-12-38" ;
+    schema1:featureList edam:operation_3218 ;
+    schema1:identifier biotools:pyronoise,
+        scicrunch:SCR_007814,
+        "omictools:OMICS_01112" ;
+    schema1:keywords "role::program" ;
+    schema1:license "unknown" ;
+    schema1:name "ampliconnoise" ;
+    schema1:softwareVersion "1.29" ;
+    schema1:url <https://github.com/lanzen/ampliconnoise> .
+

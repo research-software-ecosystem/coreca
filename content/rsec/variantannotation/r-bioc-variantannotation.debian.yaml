@@ -1,0 +1,25 @@
+package: r-bioc-variantannotation
+distribution: debian
+release: sid
+component: main
+version: 1.58.0+ds
+source: r-bioc-variantannotation
+homepage: https://bioconductor.org/packages/VariantAnnotation/
+license: unknown
+blend: debian-med
+description_md5: 17670e83de551a30abddcb85706e9bf5
+registries:
+- entry: OMICS_02073
+  name: OMICtools
+- entry: variantannotation
+  name: bio.tools
+- entry: bioconductor-variantannotation
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btu168
+popcon:
+- insts: 221
+  olde: 174
+  recent: 26
+  vote: 21

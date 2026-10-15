@@ -1,0 +1,43 @@
+about:
+  dev_url: https://github.com/hasindu2008/f5c
+  doc_url: https://hasindu2008.github.io/f5c/docs/overview
+  home: https://github.com/hasindu2008/f5c
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: An optimised re-implementation of the call-methylation and eventalign modules
+    in Nanopolish.
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - doi:10.1101/756122
+  - doi:10.1186/s12859-020-03697-x
+  - biotools:f5c
+package:
+  name: f5c
+  version: '1.7'
+requirements:
+  build:
+  - make
+  - null
+  - null
+  - null
+  host:
+  - zlib
+  - hdf5
+  - wget
+  run:
+  - hdf5
+source:
+  sha256: 043eeb57733a81c6d27b4a4978909d771e496f5c568f6eb43df99200c02e7200
+  url: https://github.com/hasindu2008/f5c/releases/download/v1.7/f5c-v1.7-release.tar.gz
+test:
+  commands:
+  - f5c --help
+  - f5c --version

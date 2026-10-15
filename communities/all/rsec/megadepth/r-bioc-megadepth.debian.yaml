@@ -1,0 +1,20 @@
+package: r-bioc-megadepth
+distribution: debian
+release: sid
+component: main
+version: 1.22.0+ds
+source: r-bioc-megadepth
+homepage: https://bioconductor.org/packages/megadepth/
+license: unknown
+blend: debian-med
+description_md5: dee5b368dc490802cbe1444441049444
+registries:
+- entry: megadepth
+  name: bio.tools
+- entry: bioconductor-megadepth
+  name: conda:bioconda
+popcon:
+- insts: 116
+  olde: 87
+  recent: 25
+  vote: 4

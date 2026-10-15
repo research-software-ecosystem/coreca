@@ -1,0 +1,23 @@
+package: profisis
+distribution: debian
+release: sid
+component: main
+version: 1.0.11
+source: profisis
+homepage: https://rostlab.org/owiki/index.php/PROFisis
+license: unknown
+blend: debian-med
+description_md5: 0883e3d0efa5aceb8c09220adb5f23ee
+registries:
+- entry: OMICS_13706
+  name: OMICtools
+- entry: profisis
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btl303
+popcon:
+- insts: 118
+  olde: 91
+  recent: 23
+  vote: 4

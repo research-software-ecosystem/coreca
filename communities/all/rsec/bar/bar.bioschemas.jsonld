@@ -1,0 +1,429 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkr292",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-14-s3-s4",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkx330",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/bar",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Giuseppe Profiti",
+      "bsc:input": [
+        {
+          "@id": "_:Nb6332044bf884377ad34f6154fbddf33"
+        },
+        {
+          "@id": "_:N4bc24e4a4d894e21963b72337e8a44b8"
+        },
+        {
+          "@id": "_:Neb33497ba6fc4186a0607ffc9cca576a"
+        },
+        {
+          "@id": "_:Nd6097c9b74df44de8f7d1d747804c15f"
+        },
+        {
+          "@id": "_:Nd87ddd59a7c9461f8140153e30c67fa0"
+        },
+        {
+          "@id": "_:N8d1d7ff073f74447940b5809858f0572"
+        },
+        {
+          "@id": "_:N3c8bfa4720f346449f28ba85e71be839"
+        },
+        {
+          "@id": "_:N12163da710904ec5896e65ca9ad515f3"
+        },
+        {
+          "@id": "_:Nb76fa52a64504ee88d2999d928d630d2"
+        },
+        {
+          "@id": "_:Nab07d42ae5b44cd8956816a9cf3bb7c0"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N43fd14ff8ac24e91b431847c4f2a833a"
+        },
+        {
+          "@id": "_:Nec79d8162bb94d2dbde55574f2038c50"
+        },
+        {
+          "@id": "_:Na785d4ddd6d34a03b976b72861b325ae"
+        },
+        {
+          "@id": "_:Nc553899ed2734a0cb9377da0199af6e3"
+        },
+        {
+          "@id": "_:N0d8f8982d42143ba89ad058ba05514e2"
+        },
+        {
+          "@id": "_:N6b78cebe2b7f40018c073aee76886f57"
+        },
+        {
+          "@id": "_:Nefeab4a857074d55aeeaf0fd6feb784a"
+        },
+        {
+          "@id": "_:N010656883ef84aa98a28b3be4d200011"
+        },
+        {
+          "@id": "_:Nec4047fcb64f492ca44965ef1f2df5f4"
+        },
+        {
+          "@id": "_:N862f30ead42049f785120870f67d7370"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3307"
+        },
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_0128"
+        },
+        {
+          "@id": "edam:topic_0123"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:author": "Giuseppe Profiti",
+      "sc:citation": [
+        "pubmed:21622657",
+        "pmcid:PMC3125743",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkr292"
+        },
+        "pubmed:28453653",
+        "pmcid:PMC5570247",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkx330"
+        },
+        "pubmed:23514411",
+        "pmcid:PMC3584929",
+        {
+          "@id": "https://doi.org/10.1186/1471-2105-14-s3-s4"
+        }
+      ],
+      "sc:description": "It is for the annotation of protein sequences relying on a comparative large-scale analysis on the entire UniProt. With BAR 3.0 and a sequence you can annotate when possible: function, structure, protein domains. Also if your sequence falls into a cluster with a structural/some structural template/s we provide an alignment towards the template/templates based on the Cluster-HMM that allows you to directly compute your 3D model. Cluster HMMs are available for downloading.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2421"
+        },
+        {
+          "@id": "edam:operation_0297"
+        },
+        {
+          "@id": "edam:operation_3459"
+        },
+        {
+          "@id": "edam:operation_3439"
+        },
+        {
+          "@id": "edam:operation_1777"
+        },
+        {
+          "@id": "edam:operation_2492"
+        },
+        {
+          "@id": "edam:operation_2489"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "BAR",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "ELIXIR-ITA-BOLOGNA",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://bar.biocomp.unibo.it/bar3/help.html"
+        },
+        {
+          "@id": "https://bar.biocomp.unibo.it/bar3/tutorial.html"
+        }
+      ],
+      "sc:softwareVersion": "3.0",
+      "sc:url": "https://bar.biocomp.unibo.it/bar3/"
+    },
+    {
+      "@id": "_:Nb6332044bf884377ad34f6154fbddf33",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1176"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "GO concept ID"
+    },
+    {
+      "@id": "_:N4bc24e4a4d894e21963b72337e8a44b8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1179"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "NCBI taxonomy ID"
+    },
+    {
+      "@id": "_:Neb33497ba6fc4186a0607ffc9cca576a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Keyword"
+    },
+    {
+      "@id": "_:Nd6097c9b74df44de8f7d1d747804c15f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0982"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Molecule identifier"
+    },
+    {
+      "@id": "_:Nd87ddd59a7c9461f8140153e30c67fa0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1179"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "NCBI taxonomy ID"
+    },
+    {
+      "@id": "_:N8d1d7ff073f74447940b5809858f0572",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1179"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "NCBI taxonomy ID"
+    },
+    {
+      "@id": "_:N3c8bfa4720f346449f28ba85e71be839",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1138"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Pfam accession number"
+    },
+    {
+      "@id": "_:N12163da710904ec5896e65ca9ad515f3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1127"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "PDB ID"
+    },
+    {
+      "@id": "_:Nb76fa52a64504ee88d2999d928d630d2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "_:Nab07d42ae5b44cd8956816a9cf3bb7c0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1964"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N43fd14ff8ac24e91b431847c4f2a833a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1245"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence cluster (protein)"
+    },
+    {
+      "@id": "_:Nec79d8162bb94d2dbde55574f2038c50",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1176"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "GO concept ID"
+    },
+    {
+      "@id": "_:Na785d4ddd6d34a03b976b72861b325ae",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1245"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence cluster (protein)"
+    },
+    {
+      "@id": "_:Nc553899ed2734a0cb9377da0199af6e3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1245"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence cluster (protein)"
+    },
+    {
+      "@id": "_:N0d8f8982d42143ba89ad058ba05514e2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1245"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence cluster (protein)"
+    },
+    {
+      "@id": "_:N6b78cebe2b7f40018c073aee76886f57",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1245"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Sequence cluster (protein)"
+    },
+    {
+      "@id": "_:Nefeab4a857074d55aeeaf0fd6feb784a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N010656883ef84aa98a28b3be4d200011",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3028"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Taxonomy"
+    },
+    {
+      "@id": "_:Nec4047fcb64f492ca44965ef1f2df5f4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N862f30ead42049f785120870f67d7370",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3028"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Taxonomy"
+    }
+  ]
+}

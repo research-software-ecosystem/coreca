@@ -1,0 +1,60 @@
+{
+    "Author": "Ziyi Li [aut, cre, ctb], Ruoxing Li [ctb]",
+    "Date/Publication": "2025-11-03",
+    "Depends": [
+        "R (>= 3.5.0)"
+    ],
+    "Description": "This package uses a statistical framework for rapid and accurate detection of aneuploid cells with local copy number deletion or amplification. Our method uses an EM algorithm with mixtures of Poisson distributions while incorporating cytogenetics information (e.g., regional deletion or amplification) to guide the classification (partCNV). When applicable, we further improve the accuracy by integrating a Hidden Markov Model for feature selection (partCNVH).",
+    "Imports": [
+        "AnnotationHub",
+        "BiocStyle",
+        "GenomicRanges",
+        "Seurat",
+        "SingleCellExperiment",
+        "data.table",
+        "depmixS4",
+        "magrittr",
+        "stats"
+    ],
+    "License": "GPL-2",
+    "MD5sum": "149ba433f5a4b7b9f2c383a4add83a06",
+    "Maintainer": "Ziyi Li <zli16@mdanderson.org>",
+    "NeedsCompilation": "no",
+    "Package": "partCNV",
+    "Rank": 2392,
+    "Rfiles": [
+        "vignettes/partCNV/inst/doc/partCNV_vignette.R"
+    ],
+    "Suggests": [
+        "IRanges",
+        "knitr",
+        "rmarkdown",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "Infer locally aneuploid cells using single cell RNA-seq data",
+    "Version": "1.9.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Classification",
+        "CopyNumberVariation",
+        "HiddenMarkovModel",
+        "SingleCell",
+        "Software"
+    ],
+    "dependencyCount": "190",
+    "git_branch": "devel",
+    "git_last_commit": "1e12803",
+    "git_last_commit_date": "2025-10-29",
+    "git_url": "https://git.bioconductor.org/packages/partCNV",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "source.ver": "src/contrib/partCNV_1.9.0.tar.gz",
+    "vignetteTitles": [
+        "partCNV_vignette"
+    ],
+    "vignettes": [
+        "vignettes/partCNV/inst/doc/partCNV_vignette.html"
+    ]
+}

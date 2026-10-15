@@ -1,0 +1,59 @@
+about:
+  dev_url: https://github.com/3dem/relion
+  doc_url: https://relion.readthedocs.io/en/latest
+  home: https://github.com/3dem/relion
+  license: GPL-2.0-or-later
+  license_family: GPL2
+  license_file: LICENSE
+  summary: Image-processing software for cryo-electron microscopy.
+build:
+  number: 1
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:relion-5
+  - doi:10.1002/2211-5463.13873
+  recipe-maintainers:
+  - multimeric
+package:
+  name: relion
+  version: 5.1.1
+requirements:
+  build:
+  - null
+  - null
+  - cmake >=3.21
+  - make
+  - python >=3
+  - pkg-config
+  host:
+  - libtiff
+  - fftw
+  - ghostscript
+  - libpng
+  - openmpi
+  - llvm-openmp
+  - libgomp
+  - tbb-devel
+  - pbzip2
+  - xz
+  - zstd
+  run:
+  - openmpi
+  - llvm-openmp
+  - libgomp
+  - tbb-devel
+  - pytorch
+  - ghostscript
+source:
+  patches:
+  - 0001-osx-sincosf.patch
+  sha256: 33bfb761dc6865a73ecca9183893e0d091bccf17c4bbcd3b5c6cff278ddbf7ec
+  url: https://github.com/3dem/relion/archive/refs/tags/5.1.1.tar.gz
+test:
+  commands:
+  - relion_image_handler --help

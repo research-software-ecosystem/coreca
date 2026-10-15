@@ -1,0 +1,303 @@
+{
+  "@context": {
+    "biii": "https://biii.eu/",
+    "bioconda": "https://github.com/bioconda/bioconda-recipes/tree/master/recipes/",
+    "bioschemas": "http://bioschemas.org/",
+    "biotools": "https://bio.tools/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "galaxytool": "https://github.com/galaxyproject/tools-iuc/tree/master/tools/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "schema1": "http://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "workflowhub": "https://workflowhub.eu/workflows/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://usegalaxy.eu",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.org",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.cz",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "http://galaxy.inf.ethz.ch",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.no",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://mississippi.sorbonne-universite.fr",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.org.au",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://galaxy.mesocentre.uca.fr",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.ca",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://galaxytrakr.org",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.be",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://galaxy.pasteur.fr",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.fr",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "galaxytool:fasttree",
+      "@type": "schema1:SoftwareApplication",
+      "bioschemas:output": [
+        "nhx",
+        "txt"
+      ],
+      "schema1:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3293"
+        },
+        {
+          "@id": "edam:operation_2403"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "schema1:codeRepository": {
+        "@id": "http://www.microbesonline.org/fasttree/"
+      },
+      "schema1:dateCreated": "2018-02-02",
+      "schema1:description": "FastTree infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences - GVL",
+      "schema1:encodingFormat": [
+        "nhx",
+        "txt"
+      ],
+      "schema1:identifier": [
+        {
+          "@id": "biotools:fasttree"
+        },
+        {
+          "@id": "bioconda:fasttree"
+        }
+      ],
+      "schema1:isPartOf": [
+        {
+          "@id": "workflowhub:1487?version=2"
+        },
+        {
+          "@id": "workflowhub:1559?version=1"
+        },
+        {
+          "@id": "workflowhub:1060?version=2"
+        },
+        {
+          "@id": "https://usegalaxy.fr/published/workflow?id=297b71156b297a73"
+        },
+        {
+          "@id": "https://usegalaxy.fr/published/workflow?id=c7be6e229a045fad"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=46ef864fe9468894"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=73a9598202d0fb7d"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=b1a799497c366eef"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=e16e524c557d7928"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=f6a763951d815944"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=36de05d50c703164"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=dc57118a95b10a80"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=376119528377a3ae"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=c8bc4af6dd3b5d02"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=974cc681d07ec788"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=d07fe8b5a045c176"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=e7f03b4bd9b3d6fd"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=9155ed0e7a6a7b60"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=ce21961260fe4351"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=f7bf58d66cafcf1f"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=121d486ff659568a"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=0c115bf8a319011c"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=ac92a988e550cd23"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=16bb8f465e731e0e"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=31b5dd92790dce88"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=82cfe6aefc1bf82a"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=80565301ada0d3eb"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=07f7198b63108131"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=a484a1e1a7335696"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=b2fb90873471f4e7"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=3ef08553982f6ffc"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=be9bd7286d38c210"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=2d3063882d8239ff"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=3d7baebefa7c9b81"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=87685c6247521b54"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=be54e57345ce7ca5"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=2d1ca299c1b058f6"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=b60922a253df6654"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=eda40b58616a0fe4"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=a01c3004bcef9dd3"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=42137e36791652bc"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=d62b6717202f42c9"
+        },
+        {
+          "@id": "https://galaxy.mesocentre.uca.fr"
+        },
+        {
+          "@id": "https://galaxy.pasteur.fr"
+        },
+        {
+          "@id": "https://galaxytrakr.org"
+        },
+        {
+          "@id": "https://mississippi.sorbonne-universite.fr"
+        },
+        {
+          "@id": "http://galaxy.inf.ethz.ch"
+        },
+        {
+          "@id": "https://usegalaxy.be"
+        },
+        {
+          "@id": "https://usegalaxy.ca"
+        },
+        {
+          "@id": "https://usegalaxy.cz"
+        },
+        {
+          "@id": "https://usegalaxy.eu"
+        },
+        {
+          "@id": "https://usegalaxy.fr"
+        },
+        {
+          "@id": "https://usegalaxy.no"
+        },
+        {
+          "@id": "https://usegalaxy.org.au"
+        },
+        {
+          "@id": "https://usegalaxy.org"
+        }
+      ],
+      "schema1:keywords": "Phylogenetics",
+      "schema1:name": "fasttree",
+      "schema1:softwareVersion": "@VERSION@",
+      "schema1:url": {
+        "@id": "https://github.com/galaxyproject/tools-iuc/tree/main/tools/fasttree"
+      }
+    }
+  ]
+}

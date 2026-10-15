@@ -1,0 +1,64 @@
+about:
+  description: The package enables a simple unified interface to several annotation
+    packages each of which has its own schema by taking advantage of the fact that
+    each of these packages implements a select methods.
+  home: https://bioconductor.org/packages/3.22/bioc/html/OrganismDbi.html
+  license: Artistic-2.0
+  summary: Software to enable the smooth interfacing of different database packages
+build:
+  noarch: generic
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:organismdbi
+  - doi:10.1038/nmeth.3252
+  parent_recipe:
+    name: bioconductor-organismdbi
+    path: recipes/bioconductor-organismdbi
+    version: 1.22.0
+package:
+  name: bioconductor-organismdbi
+  version: 1.52.0
+requirements:
+  host:
+  - bioconductor-annotationdbi >=1.72.0,<1.73.0
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-genomicfeatures >=1.62.0,<1.63.0
+  - bioconductor-genomicranges >=1.62.0,<1.63.0
+  - bioconductor-graph >=1.88.0,<1.89.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-rbgl >=1.86.0,<1.87.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-seqinfo >=1.0.0,<1.1.0
+  - r-base
+  - r-biocmanager
+  - r-dbi
+  run:
+  - bioconductor-annotationdbi >=1.72.0,<1.73.0
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-genomicfeatures >=1.62.0,<1.63.0
+  - bioconductor-genomicranges >=1.62.0,<1.63.0
+  - bioconductor-graph >=1.88.0,<1.89.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-rbgl >=1.86.0,<1.87.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-seqinfo >=1.0.0,<1.1.0
+  - r-base
+  - r-biocmanager
+  - r-dbi
+source:
+  md5: 388d995de51d9d8cfb13372218c842f3
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/OrganismDbi_1.52.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/OrganismDbi/OrganismDbi_1.52.0.tar.gz
+  - https://bioarchive.galaxyproject.org/OrganismDbi_1.52.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-organismdbi/bioconductor-organismdbi_1.52.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('OrganismDbi')"

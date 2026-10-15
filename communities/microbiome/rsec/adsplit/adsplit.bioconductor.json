@@ -1,0 +1,62 @@
+{
+    "Archs": "x64",
+    "Author": "Claudio Lottaz, Joern Toedling",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 2.1.0)",
+        "methods (>= 2.1.0)"
+    ],
+    "Description": "This package implements clustering of microarray gene expression profiles according to functional annotations. For each term genes are annotated to, splits into two subclasses are computed and a significance of the supporting gene set is determined.",
+    "Imports": [
+        "AnnotationDbi",
+        "Biobase (>= 1.5.12)",
+        "GO.db (>= 1.8.1)",
+        "KEGGREST (>= 1.30.1)",
+        "cluster (>= 1.9.1)",
+        "grDevices",
+        "graphics",
+        "multtest (>= 1.6.0)",
+        "stats (>= 2.1.0)"
+    ],
+    "License": "GPL (>= 2)",
+    "MD5sum": "29921b026f5b7700e900a36e6cf26d3d",
+    "Maintainer": "Claudio Lottaz <Claudio.Lottaz@klinik.uni-regensburg.de>",
+    "NeedsCompilation": "yes",
+    "Package": "adSplit",
+    "Rank": 546,
+    "Rfiles": [
+        "vignettes/adSplit/inst/doc/tr_2005_02.R"
+    ],
+    "Suggests": [
+        "golubEsets (>= 1.0)",
+        "hu6800.db (>= 1.8.1)",
+        "vsn (>= 1.5.0)"
+    ],
+    "Title": "Annotation-Driven Clustering",
+    "URL": "http://compdiag.molgen.mpg.de/software/adSplit.shtml",
+    "Version": "1.82.0",
+    "biocViews": [
+        "Clustering",
+        "Microarray",
+        "Software"
+    ],
+    "dependencyCount": "51",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "a9b2455",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/adSplit",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/adSplit_1.82.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/adSplit_1.82.0.tgz",
+    "source.ver": "src/contrib/adSplit_1.82.0.tar.gz",
+    "vignetteTitles": [
+        "Annotation-Driven Clustering"
+    ],
+    "vignettes": [
+        "vignettes/adSplit/inst/doc/tr_2005_02.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/adSplit_1.82.0.zip"
+}

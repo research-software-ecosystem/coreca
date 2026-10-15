@@ -1,0 +1,46 @@
+package: picard-tools
+distribution: debian
+release: sid
+component: main
+version: 3.5.0
+source: picard-tools
+homepage: https://broadinstitute.github.io/picard/
+license: unknown
+blend: debian-med
+description_md5: a5e12cc7f9a71a23dd5e9e9bceda91b1
+topics:
+- Sequencing
+- Document, record and content management
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - SAM
+    - BAM
+  output:
+  - data: Sequence
+    formats:
+    - SAM
+    - BAM
+  - data: Report
+    formats:
+    - Textual format
+  function:
+  - Data handling
+  - Filtering
+  - Statistics and probability
+registries:
+- entry: OMICS_01066
+  name: OMICtools
+- entry: SCR_006525
+  name: SciCrunch
+- entry: Picard_tools
+  name: bio.tools
+- entry: picard
+  name: conda:bioconda
+popcon:
+- insts: 264
+  olde: 227
+  recent: 26
+  vote: 11

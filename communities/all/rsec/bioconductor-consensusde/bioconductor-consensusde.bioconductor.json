@@ -1,0 +1,53 @@
+{
+    "Author": "Ashley J. Waardenberg [aut, cre], Martha M. Cooper [ctb]",
+    "Depends": [
+        "BiocGenerics",
+        "R (>= 3.5)"
+    ],
+    "Description": "This package allows users to perform DE analysis using multiple algorithms. It seeks consensus from multiple methods. Currently it supports \"Voom\", \"EdgeR\" and \"DESeq\". It uses RUV-seq (optional) to remove unwanted sources of variation.",
+    "Imports": [
+        "AnnotationDbi",
+        "Biobase",
+        "BiocParallel",
+        "Biostrings",
+        "DESeq2 (>= 1.20.0)",
+        "EDASeq",
+        "EnsDb.Hsapiens.v86",
+        "GenomicAlignments",
+        "GenomicFeatures",
+        "RColorBrewer",
+        "RUVSeq",
+        "Rsamtools",
+        "S4Vectors",
+        "SummarizedExperiment",
+        "TxDb.Dmelanogaster.UCSC.dm3.ensGene",
+        "airway",
+        "data.table",
+        "dendextend",
+        "edgeR",
+        "ensembldb",
+        "limma",
+        "org.Hs.eg.db",
+        "pcaMethods",
+        "stats",
+        "utils"
+    ],
+    "License": "GPL-3",
+    "Maintainer": "Ashley J. Waardenberg <a.waardenberg@gmail.com>",
+    "Package": "consensusDE",
+    "Rank": 2280,
+    "Suggests": [
+        "knitr",
+        "rmarkdown"
+    ],
+    "Title": "RNA-seq analysis using multiple algorithms",
+    "Version": "1.30.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Clustering",
+        "MultipleComparison",
+        "Sequencing",
+        "Software",
+        "Transcriptomics"
+    ]
+}

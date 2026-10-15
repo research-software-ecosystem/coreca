@@ -1,0 +1,41 @@
+package: maq
+distribution: debian
+release: sid
+component: main
+version: 0.7.1
+source: maq
+homepage: http://maq.sourceforge.net/
+license: unknown
+blend: debian-med
+description_md5: a53ece25af8b0564674b82b8ba4c34e7
+registries:
+- entry: OMICS_00668
+  name: OMICtools
+- entry: SCR_005485
+  name: SciCrunch
+- entry: MAQ
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1101/gr.078212.108
+tags:
+- tag: biology::nuceleic-acids
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c++
+- tag: implemented-in::perl
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::TODO
+- tag: use::analysing
+- tag: use::comparing
+- tag: use::searching
+- tag: works-with-format::TODO
+- tag: works-with-format::plaintext
+- tag: works-with::TODO
+popcon:
+- insts: 214
+  olde: 181
+  recent: 26
+  vote: 7

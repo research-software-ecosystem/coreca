@@ -1,0 +1,28 @@
+package: r-bioc-grohmm
+distribution: debian
+release: sid
+component: main
+version: 1.46.0+ds
+source: r-bioc-grohmm
+homepage: https://bioconductor.org/packages/groHMM/
+license: unknown
+blend: debian-med
+description_md5: e4ad61448703c8dc65b7219979430710
+registries:
+- entry: OMICS_07953
+  name: OMICtools
+- entry: grohmm
+  name: bio.tools
+- entry: bioconductor-grohmm
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/s12859-015-0656-3
+- key: doi
+  rank: 1
+  value: 10.1016/j.molcel.2013.02.015
+popcon:
+- insts: 15
+  olde: 12
+  recent: 1
+  vote: 2

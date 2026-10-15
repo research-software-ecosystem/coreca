@@ -1,0 +1,41 @@
+package: tree-puzzle
+distribution: debian
+release: sid
+component: main
+version: 5.3~rc16
+source: tree-puzzle
+homepage: http://www.tree-puzzle.de
+license: unknown
+blend: debian-med
+description_md5: e7ba01e41e23764714cca5c6fc23e745
+registries:
+- entry: OMICS_18458
+  name: OMICtools
+- entry: TREE-PUZZLE
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/18.3.502
+- key: doi
+  package: tree-ppuzzle
+  value: 10.1093/bioinformatics/18.3.502
+- key: doi
+  package: tree-ppuzzle
+  rank: 1
+  value: 10.1016/S0743-7315(03)00129-1
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::analysing
+- tag: use::comparing
+- tag: works-with-format::plaintext
+- tag: works-with::TODO
+popcon:
+- insts: 131
+  olde: 103
+  recent: 22
+  vote: 6

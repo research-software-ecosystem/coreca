@@ -1,0 +1,33 @@
+about:
+  home: http://snpeff.sourceforge.net/SnpSift.html
+  license: LGPLv3
+  summary: Toolbox that allows you to filter and manipulate annotated files
+build:
+  noarch: generic
+  number: 0
+  run_exports:
+  - null
+  skip: false
+extra:
+  identifiers:
+  - biotools:SnpSift
+  - doi:10.3389/fgene.2012.00035
+  notes: The tool is available as command `SnpSift`. Note that the package version
+    is slightly different from upstream, this is to make sure conda will order the
+    package versions correctly.
+package:
+  name: snpsift
+  version: 5.4.0c
+requirements:
+  run:
+  - openjdk >=21
+  - perl
+  - python
+source:
+  sha256: 3b06a1e1f939e7ebd5433387f088c1d3d1e0a7d472d63f39161b1fe9f00adf33
+  url: https://snpeff-public.s3.amazonaws.com/versions/snpEff_v5_4c_core.zip
+test:
+  commands:
+  - SnpSift 2>&1 > /dev/null | grep "SnpSift version"
+  - echo | SnpSift filter "(CHROM == '2')" >/dev/null 2>&1
+  - touch a.vcf && echo | SnpSift annotate a.vcf

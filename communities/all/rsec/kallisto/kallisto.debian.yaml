@@ -1,0 +1,25 @@
+package: kallisto
+distribution: debian
+release: sid
+component: main
+version: 0.51.1
+source: kallisto
+homepage: https://pachterlab.github.io/kallisto
+license: unknown
+blend: debian-med
+description_md5: 9d173d648de2d1e7d239c362fbb1a5ae
+registries:
+- entry: OMICS_08418
+  name: OMICtools
+- entry: kallisto
+  name: bio.tools
+- entry: kallisto
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1038/nbt.3519
+popcon:
+- insts: 122
+  olde: 94
+  recent: 23
+  vote: 5

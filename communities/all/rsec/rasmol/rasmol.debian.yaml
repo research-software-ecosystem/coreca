@@ -1,0 +1,32 @@
+package: rasmol
+distribution: debian
+release: sid
+component: main
+version: 2.7.6.0
+source: rasmol
+homepage: http://rasmol.org
+license: unknown
+blend: debian-med
+description_md5: 75ecf7c6def681e41739672da198600e
+registries:
+- entry: OMICS_05076
+  name: OMICtools
+- entry: RasMol
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1016/S0968-0004(00)89080-5
+tags:
+- tag: field::chemistry
+- tag: interface::x11
+- tag: role::program
+- tag: scope::utility
+- tag: uitoolkit::gtk
+- tag: use::learning
+- tag: use::viewing
+- tag: x11::application
+popcon:
+- insts: 258
+  olde: 211
+  recent: 30
+  vote: 17

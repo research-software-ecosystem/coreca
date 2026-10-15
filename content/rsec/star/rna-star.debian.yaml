@@ -1,0 +1,51 @@
+package: rna-star
+distribution: debian
+release: sid
+component: main
+version: 2.7.11b
+source: rna-star
+homepage: https://github.com/alexdobin/STAR/
+license: unknown
+blend: debian-med
+description_md5: c6dec2f618a2789f3d047717c690ae49
+topics:
+- Sequence analysis
+edam_scopes:
+- name: summary
+  input:
+  - data: Raw sequence
+    formats:
+    - FASTQ
+  - data: DNA sequence (raw)
+    formats:
+    - FASTA
+  - data: Annotation track
+    formats:
+    - GTF
+  output:
+  - data: Sequence alignment (nucleic acid)
+    formats:
+    - SAM
+    - BAM
+  - data: Report
+  function:
+  - Genome alignment
+registries:
+- entry: OMICS_01254
+  name: OMICtools
+- entry: SCR_015899
+  name: SciCrunch
+- entry: star
+  name: bio.tools
+- entry: star
+  name: conda:bioconda
+- entry: star
+  name: guix
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/bts635
+popcon:
+- insts: 144
+  olde: 110
+  recent: 26
+  vote: 8

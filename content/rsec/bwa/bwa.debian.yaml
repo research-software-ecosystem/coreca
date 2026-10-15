@@ -1,0 +1,40 @@
+package: bwa
+distribution: debian
+release: sid
+component: main
+version: 0.7.19
+source: bwa
+homepage: https://bio-bwa.sourceforge.net/
+license: unknown
+blend: debian-med
+description_md5: 7b904940a9f5331affa84d4b72dedb30
+registries:
+- entry: OMICS_00654
+  name: OMICtools
+- entry: SCR_010910
+  name: SciCrunch
+- entry: BWA
+  name: bio.tools
+- entry: bwa
+  name: conda:bioconda
+- entry: bwa
+  name: guix
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btp324
+tags:
+- tag: biology::nuceleic-acids
+- tag: biology::peptidic
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: interface::text-mode
+- tag: role::program
+- tag: use::analysing
+- tag: use::comparing
+popcon:
+- insts: 267
+  olde: 221
+  recent: 26
+  vote: 20

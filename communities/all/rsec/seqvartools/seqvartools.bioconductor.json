@@ -1,0 +1,77 @@
+{
+    "Author": "Stephanie M. Gogarten, Xiuwen Zheng, Adrienne Stilp",
+    "Date/Publication": "2026-07-12",
+    "Depends": [
+        "SeqArray"
+    ],
+    "Description": "An interface to the fast-access storage format for VCF data provided in SeqArray, with tools for common operations and analysis.",
+    "Imports": [
+        "Biobase",
+        "BiocGenerics",
+        "GWASExactHW",
+        "GenomicRanges",
+        "IRanges",
+        "Matrix",
+        "S4Vectors",
+        "data.table",
+        "gdsfmt",
+        "grDevices",
+        "graphics",
+        "logistf",
+        "methods",
+        "stats"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "d58cc31b70715baad184fb23f4f30ace",
+    "Maintainer": "Stephanie M. Gogarten <sdmorris@uw.edu>",
+    "NeedsCompilation": "no",
+    "Package": "SeqVarTools",
+    "Rank": 314,
+    "Rfiles": [
+        "vignettes/SeqVarTools/inst/doc/Iterators.R",
+        "vignettes/SeqVarTools/inst/doc/SeqVarTools.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "RUnit",
+        "stringr"
+    ],
+    "Title": "Tools for variant data",
+    "URL": "https://github.com/smgogarten/SeqVarTools",
+    "Version": "1.50.1",
+    "biocViews": [
+        "GeneticVariability",
+        "Genetics",
+        "SNP",
+        "Sequencing",
+        "Software"
+    ],
+    "dependencyCount": "89",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "fe77927",
+    "git_last_commit_date": "2026-07-09",
+    "git_url": "https://git.bioconductor.org/packages/SeqVarTools",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "GENESIS"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/SeqVarTools_1.50.1.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/SeqVarTools_1.50.1.tgz",
+    "source.ver": "src/contrib/SeqVarTools_1.50.1.tar.gz",
+    "suggestsMe": [
+        "GMMAT",
+        "MAGEE"
+    ],
+    "vignetteTitles": [
+        "Introduction to SeqVarTools",
+        "Iterators in SeqVarTools"
+    ],
+    "vignettes": [
+        "vignettes/SeqVarTools/inst/doc/Iterators.pdf",
+        "vignettes/SeqVarTools/inst/doc/SeqVarTools.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/SeqVarTools_1.50.1.zip"
+}

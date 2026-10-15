@@ -1,0 +1,25 @@
+package: kraken2
+distribution: debian
+release: sid
+component: main
+version: 2.1.3
+source: kraken2
+homepage: https://www.ccb.jhu.edu/software/kraken2/
+license: unknown
+blend: debian-med
+description_md5: 70f2ff9ad084534e552c6c2118d2a186
+registries:
+- entry: OMICS_04481
+  name: OMICtools
+- entry: kraken
+  name: bio.tools
+- entry: kraken2
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/gb-2014-15-3-r46
+popcon:
+- insts: 196
+  olde: 167
+  recent: 24
+  vote: 5

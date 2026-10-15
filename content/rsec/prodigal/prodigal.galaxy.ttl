@@ -1,0 +1,66 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix bioschemas: <http://bioschemas.org/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix galaxytool: <https://github.com/galaxyproject/tools-iuc/tree/master/tools/> .
+@prefix schema1: <http://schema.org/> .
+
+galaxytool:prodigal a schema1:SoftwareApplication ;
+    bioschemas:output "fasta",
+        "genbank",
+        "tabular" ;
+    schema1:applicationSubCategory edam:operation_2403,
+        edam:topic_0080,
+        edam:topic_0622 ;
+    schema1:codeRepository <https://github.com/hyattpd/Prodigal> ;
+    schema1:dateCreated "2024-03-14" ;
+    schema1:description "A protein-coding gene prediction software tool for bacterial and archaeal genomes" ;
+    schema1:encodingFormat "fasta",
+        "genbank",
+        "tabular" ;
+    schema1:featureList edam:operation_0362,
+        edam:topic_0222 ;
+    schema1:identifier biotools:prodigal,
+        bioconda:prodigal ;
+    schema1:isPartOf <http://galaxy.inf.ethz.ch>,
+        <https://galaxy.mesocentre.uca.fr>,
+        <https://galaxytrakr.org>,
+        <https://usegalaxy.be>,
+        <https://usegalaxy.ca>,
+        <https://usegalaxy.cz>,
+        <https://usegalaxy.eu>,
+        <https://usegalaxy.eu/published/workflow?id=2ee0eb74e839b476>,
+        <https://usegalaxy.eu/published/workflow?id=62392daea25a3980>,
+        <https://usegalaxy.eu/published/workflow?id=6b79f4974f73593a>,
+        <https://usegalaxy.eu/published/workflow?id=6dbbf39e07a5212e>,
+        <https://usegalaxy.eu/published/workflow?id=b9c938d1af08124b>,
+        <https://usegalaxy.fr>,
+        <https://usegalaxy.org>,
+        <https://usegalaxy.org.au>,
+        <https://usegalaxy.org/published/workflow?id=d3c400275889ce4b>,
+        <https://workflowhub.eu/workflows/1663?version=1> ;
+    schema1:keywords "Genome annotation" ;
+    schema1:name "prodigal" ;
+    schema1:softwareVersion "@VERSION@" ;
+    schema1:url <https://github.com/galaxyproject/tools-iuc/tree/main/tools/prodigal> .
+
+<http://galaxy.inf.ethz.ch> a schema1:WebSite .
+
+<https://galaxy.mesocentre.uca.fr> a schema1:WebSite .
+
+<https://galaxytrakr.org> a schema1:WebSite .
+
+<https://usegalaxy.be> a schema1:WebSite .
+
+<https://usegalaxy.ca> a schema1:WebSite .
+
+<https://usegalaxy.cz> a schema1:WebSite .
+
+<https://usegalaxy.eu> a schema1:WebSite .
+
+<https://usegalaxy.fr> a schema1:WebSite .
+
+<https://usegalaxy.org> a schema1:WebSite .
+
+<https://usegalaxy.org.au> a schema1:WebSite .
+

@@ -1,0 +1,54 @@
+{
+    "Author": "Renee X. de Menezes and Judith M. Boer",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.5)",
+        "quantreg"
+    ],
+    "Description": "Finds associations between two human genomic datasets.",
+    "Imports": [
+        "globaltest",
+        "graphics",
+        "quantsmooth",
+        "stats"
+    ],
+    "License": "GPL (>= 2)",
+    "MD5sum": "550f23ad86c476b1f09cb45849491019",
+    "Maintainer": "Renee X. de Menezes <r.menezes@nki.nl>",
+    "NeedsCompilation": "yes",
+    "Package": "SIM",
+    "Rank": 1025,
+    "Rfiles": [
+        "vignettes/SIM/inst/doc/SIM.R"
+    ],
+    "Suggests": [
+        "RColorBrewer",
+        "biomaRt"
+    ],
+    "Title": "Integrated Analysis on two human genomic datasets",
+    "Version": "1.82.0",
+    "biocViews": [
+        "Microarray",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "56",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "8cec35e",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/SIM",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/SIM_1.82.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/SIM_1.82.0.tgz",
+    "source.ver": "src/contrib/SIM_1.82.0.tar.gz",
+    "vignetteTitles": [
+        "SIM vignette"
+    ],
+    "vignettes": [
+        "vignettes/SIM/inst/doc/SIM.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/SIM_1.82.0.zip"
+}

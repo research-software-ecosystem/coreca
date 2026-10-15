@@ -1,0 +1,24 @@
+package: seqprep
+distribution: debian
+release: sid
+component: main
+version: 1.3.2
+source: seqprep
+homepage: http://seqanswers.com/wiki/SeqPrep
+license: unknown
+blend: debian-med
+description_md5: 4537f101700699f5ea0a49f12901126a
+registries:
+- entry: OMICS_01092
+  name: OMICtools
+- entry: SCR_013004
+  name: SciCrunch
+- entry: seqprep
+  name: bio.tools
+- entry: seqprep
+  name: conda:bioconda
+popcon:
+- insts: 116
+  olde: 89
+  recent: 23
+  vote: 4

@@ -1,0 +1,45 @@
+package: minia
+distribution: debian
+release: sid
+component: main
+version: 3.2.6
+source: minia
+homepage: http://minia.genouest.org/
+license: unknown
+blend: debian-med
+description_md5: feb88b4f5ce600a3e8cd48b19b022f4c
+topics:
+- Sequence assembly
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - FASTQ
+    - FASTA
+  - data: Alignment
+    formats:
+    - TSV
+  output:
+  - data: Sequence assembly
+    formats:
+    - Sequence assembly format (text)
+  function:
+  - De-novo assembly
+registries:
+- entry: OMICS_00022
+  name: OMICtools
+- entry: SCR_004986
+  name: SciCrunch
+- entry: minia
+  name: bio.tools
+- entry: minia
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/1748-7188-8-22
+popcon:
+- insts: 120
+  olde: 92
+  recent: 23
+  vote: 5

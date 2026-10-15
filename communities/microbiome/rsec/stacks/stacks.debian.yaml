@@ -1,0 +1,27 @@
+package: stacks
+distribution: debian
+release: sid
+component: main
+version: '2.68'
+source: stacks
+homepage: https://creskolab.uoregon.edu/stacks/
+license: unknown
+blend: debian-med
+description_md5: 34654ddbf6119f78f131bb33b98f2f93
+registries:
+- entry: OMICS_01567
+  name: OMICtools
+- entry: SCR_003184
+  name: SciCrunch
+- entry: stacks
+  name: bio.tools
+- entry: stacks
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1111/mec.12354
+popcon:
+- insts: 129
+  olde: 101
+  recent: 24
+  vote: 4

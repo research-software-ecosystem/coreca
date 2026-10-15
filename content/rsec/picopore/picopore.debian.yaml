@@ -1,0 +1,23 @@
+package: picopore
+distribution: debian
+release: sid
+component: main
+version: 1.2.0
+source: picopore
+homepage: https://github.com/scottgigante/picopore
+license: unknown
+blend: debian-med
+description_md5: a521eb7e26b000a57d0f39be706493bc
+registries:
+- entry: picopore
+  name: bio.tools
+- entry: picopore
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.12688/f1000research.11022.3
+popcon:
+- insts: 108
+  olde: 80
+  recent: 22
+  vote: 6

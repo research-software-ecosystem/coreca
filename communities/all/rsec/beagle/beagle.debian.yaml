@@ -1,0 +1,36 @@
+package: beagle
+distribution: debian
+release: sid
+component: main
+version: '250227'
+source: beagle
+homepage: https://faculty.washington.edu/browning/beagle/beagle.html
+license: unknown
+blend: debian-med
+description_md5: 8c6aa7e55f8f700b70940474b2b5bd74
+registries:
+- entry: OMICS_00052
+  name: OMICtools
+- entry: SCR_001789
+  name: SciCrunch
+- entry: BEAGLE
+  name: bio.tools
+- entry: beagle
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1086/521987
+- key: doi
+  rank: 1
+  value: 10.1016/j.ajhg.2015.11.020
+- key: doi
+  rank: 2
+  value: 10.1534/genetics.113.150029
+- key: doi
+  rank: 3
+  value: 10.1016/j.ajhg.2018.07.015
+popcon:
+- insts: 118
+  olde: 90
+  recent: 23
+  vote: 5

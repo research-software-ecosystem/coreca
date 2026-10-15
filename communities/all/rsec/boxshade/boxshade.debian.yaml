@@ -1,0 +1,38 @@
+package: boxshade
+distribution: debian
+release: sid
+component: main
+version: 3.3.1
+source: boxshade
+homepage: http://www.ch.embnet.org/software/BOX_form.html
+license: unknown
+blend: debian-med
+description_md5: ca7559d18b94433828e2715eed8e247b
+registries:
+- entry: OMICS_19792
+  name: OMICtools
+- entry: SCR_007165
+  name: SciCrunch
+- entry: BoxShade
+  name: bio.tools
+tags:
+- tag: biology::format:aln
+- tag: biology::nuceleic-acids
+- tag: biology::peptidic
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::typesetting
+- tag: works-with-format::html
+- tag: works-with-format::plaintext
+- tag: works-with-format::postscript
+- tag: works-with-format::tex
+- tag: works-with::TODO
+popcon:
+- insts: 139
+  olde: 110
+  recent: 23
+  vote: 6

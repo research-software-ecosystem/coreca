@@ -1,0 +1,84 @@
+about:
+  description: A set of tools for statistical relative protein significance analysis
+    in DDA, SRM and DIA experiments.
+  home: https://bioconductor.org/packages/3.22/bioc/html/MSstats.html
+  license: Artistic-2.0
+  summary: Protein Significance Analysis in DDA, SRM and DIA for Label-free or Label-based
+    Proteomics Experiments
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:msstats
+  parent_recipe:
+    name: bioconductor-msstats
+    path: recipes/bioconductor-msstats
+    version: 3.14.0
+package:
+  name: bioconductor-msstats
+  version: 4.18.1
+requirements:
+  build:
+  - null
+  - null
+  - make
+  host:
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - bioconductor-marray >=1.88.0,<1.89.0
+  - bioconductor-msstatsconvert >=1.20.0,<1.21.0
+  - bioconductor-preprocesscore >=1.72.0,<1.73.0
+  - r-base
+  - r-checkmate
+  - r-data.table
+  - r-ggplot2
+  - r-ggrepel
+  - r-gplots
+  - r-htmltools
+  - r-lme4
+  - r-mass
+  - r-plotly
+  - r-rcpp
+  - r-rcpparmadillo
+  - r-rlang
+  - r-statmod
+  - r-survival
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - bioconductor-marray >=1.88.0,<1.89.0
+  - bioconductor-msstatsconvert >=1.20.0,<1.21.0
+  - bioconductor-preprocesscore >=1.72.0,<1.73.0
+  - r-base
+  - r-checkmate
+  - r-data.table
+  - r-ggplot2
+  - r-ggrepel
+  - r-gplots
+  - r-htmltools
+  - r-lme4
+  - r-mass
+  - r-plotly
+  - r-rcpp
+  - r-rcpparmadillo
+  - r-rlang
+  - r-statmod
+  - r-survival
+source:
+  md5: ff1a2ec71762310e27b57bc4e0beeaac
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/MSstats_4.18.1.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/MSstats/MSstats_4.18.1.tar.gz
+  - https://bioarchive.galaxyproject.org/MSstats_4.18.1.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-msstats/bioconductor-msstats_4.18.1_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('MSstats')"

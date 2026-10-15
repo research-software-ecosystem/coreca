@@ -1,0 +1,60 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix bioschemas: <http://bioschemas.org/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix galaxytool: <https://github.com/galaxyproject/tools-iuc/tree/master/tools/> .
+@prefix schema1: <http://schema.org/> .
+
+galaxytool:mmseqs2 a schema1:SoftwareApplication ;
+    bioschemas:output "html",
+        "tabular",
+        "txt" ;
+    schema1:applicationSubCategory edam:data_3028,
+        edam:operation_2403,
+        edam:topic_0077,
+        edam:topic_0078,
+        edam:topic_0080,
+        edam:topic_0623,
+        edam:topic_0637,
+        edam:topic_3174 ;
+    schema1:codeRepository <https://github.com/soedinglab/MMseqs2> ;
+    schema1:dateCreated "2025-03-27" ;
+    schema1:description "MMseqs2 is an ultra fast and sensitive sequence search and clustering suite" ;
+    schema1:encodingFormat "html",
+        "tabular",
+        "txt" ;
+    schema1:featureList edam:data_0863,
+        edam:data_1872,
+        edam:operation_0291,
+        edam:operation_0292,
+        edam:operation_0346,
+        edam:operation_3460,
+        edam:topic_0164,
+        edam:topic_0182 ;
+    schema1:identifier biotools:MMseqs2,
+        bioconda:mmseqs2 ;
+    schema1:isPartOf <http://galaxy.inf.ethz.ch>,
+        <https://usegalaxy.ca>,
+        <https://usegalaxy.cz>,
+        <https://usegalaxy.eu>,
+        <https://usegalaxy.eu/published/workflow?id=62392daea25a3980>,
+        <https://usegalaxy.fr>,
+        <https://usegalaxy.org> ;
+    schema1:keywords "Metagenomics",
+        "Sequence Analysis" ;
+    schema1:name "mmseqs2" ;
+    schema1:softwareVersion "17-b804f" ;
+    schema1:url <https://github.com/galaxyproject/tools-iuc/tree/main/tools/mmseqs2> .
+
+<http://galaxy.inf.ethz.ch> a schema1:WebSite .
+
+<https://usegalaxy.ca> a schema1:WebSite .
+
+<https://usegalaxy.cz> a schema1:WebSite .
+
+<https://usegalaxy.eu> a schema1:WebSite .
+
+<https://usegalaxy.fr> a schema1:WebSite .
+
+<https://usegalaxy.org> a schema1:WebSite .
+

@@ -1,0 +1,105 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:lit-pcba/db/drugdesign.unistra.fr",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 114,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 29,
+                                    "year": 2026
+                                }
+                            ],
+                            "doi": "10.1021/acs.jcim.0c00155",
+                            "pmid": "32282202",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "LIT-PCBA: An Unbiased Data Set for Machine Learning and Virtual Screening.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://lab.drugdesign.unistra.fr/LIT-PCBA"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/lit-pcba",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://lab.drugdesign.unistra.fr/LIT-PCBA"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

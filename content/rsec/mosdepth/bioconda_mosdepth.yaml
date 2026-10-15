@@ -1,0 +1,52 @@
+about:
+  dev_url: https://github.com/brentp/mosdepth
+  doc_url: https://github.com/brentp/mosdepth/blob/v0.3.14/README.md
+  home: https://github.com/brentp/mosdepth
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Fast BAM/CRAM depth calculation for WGS, exome, or targeted sequencing.
+build:
+  number: 2
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - doi:10.1093/bioinformatics/btx699
+  - biotools:mosdepth
+  - usegalaxy-eu:mosdepth
+package:
+  name: mosdepth
+  version: 0.3.14
+requirements:
+  build:
+  - null
+  - null
+  - null
+  - nim
+  - coreutils
+  host:
+  - htslib
+  - curl
+  - tar
+  - bzip2
+  - xz
+  - zlib
+  run:
+  - htslib
+source:
+- sha256: abac67de4547dc5642efd46846044d6b3536d2ca3443b4ca172446edf82eeb42
+  url: https://github.com/brentp/mosdepth/archive/refs/tags/v0.3.14.tar.gz
+- folder: d4-format
+  patches:
+  - disable-depth-profiler.patch
+  sha256: 3e6af3d73f86730504224ac834989e7ba10baa9e4f0fffd898975300a3df0015
+  url: https://github.com/38/d4-format/archive/6f4031309958a7a1e471c9081369f2012d82705e.tar.gz
+test:
+  commands:
+  - mosdepth -h
+  - mosdepth -h 2>&1 | grep -- "--d4"
+  - '! ldd $(command -v mosdepth) | grep -q libd4binding'

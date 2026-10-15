@@ -1,0 +1,64 @@
+about:
+  description: mzR provides a unified API to the common file formats and parsers available
+    for mass spectrometry data. It comes with a subset of the proteowizard library
+    for mzXML, mzML and mzIdentML. The netCDF reading code has previously been used
+    in XCMS.
+  home: https://bioconductor.org/packages/3.22/bioc/html/mzR.html
+  license: Artistic-2.0
+  summary: parser for netCDF, mzXML and mzML and mzIdentML files (mass spectrometry
+    data)
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:mzr
+  parent_recipe:
+    name: bioconductor-mzr
+    path: recipes/bioconductor-mzr
+    version: 2.14.0
+package:
+  name: bioconductor-mzr
+  version: 2.44.0
+requirements:
+  build:
+  - null
+  - null
+  - automake
+  - make
+  host:
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-protgenerics >=1.42.0,<1.43.0
+  - bioconductor-rhdf5lib >=1.32.0,<1.33.0
+  - r-base
+  - r-ncdf4
+  - r-rcpp >=0.10.1
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-protgenerics >=1.42.0,<1.43.0
+  - bioconductor-rhdf5lib >=1.32.0,<1.33.0
+  - r-base
+  - r-ncdf4
+  - r-rcpp >=0.10.1
+source:
+  md5: 7718ab7f48d6edcf53fb0a8c437cae77
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/mzR_2.44.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/mzR/mzR_2.44.0.tar.gz
+  - https://bioarchive.galaxyproject.org/mzR_2.44.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-mzr/bioconductor-mzr_2.44.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('mzR')"

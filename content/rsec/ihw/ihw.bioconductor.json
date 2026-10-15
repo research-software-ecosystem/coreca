@@ -1,0 +1,80 @@
+{
+    "Author": "Nikos Ignatiadis [aut, cre], Wolfgang Huber [aut]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.3.0)"
+    ],
+    "Description": "Independent hypothesis weighting (IHW) is a multiple testing procedure that increases power compared to the method of Benjamini and Hochberg by assigning data-driven weights to each hypothesis. The input to IHW is a two-column table of p-values and covariates. The covariate can be any continuous-valued or categorical variable that is thought to be informative on the statistical properties of each hypothesis test, while it is independent of the p-value under the null hypothesis.",
+    "Imports": [
+        "BiocGenerics",
+        "fdrtool",
+        "lpsymphony",
+        "methods",
+        "slam"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "11812afa7f2e9712ba5f57c59d6bfa34",
+    "Maintainer": "Nikos Ignatiadis <nikos.ignatiadis01@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "IHW",
+    "Rank": 241,
+    "Rfiles": [
+        "vignettes/IHW/inst/doc/introduction_to_ihw.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "DESeq2",
+        "Matrix",
+        "airway",
+        "devtools",
+        "dplyr",
+        "ggplot2",
+        "gridExtra",
+        "knitr",
+        "rmarkdown",
+        "scales",
+        "testthat"
+    ],
+    "Title": "Independent Hypothesis Weighting",
+    "Version": "1.40.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "ImmunoOncology",
+        "MultipleComparison",
+        "RNASeq",
+        "Software"
+    ],
+    "dependencyCount": "10",
+    "dependsOnMe": [
+        "IHWpaper"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "ade9922",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/IHW",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "ideal",
+        "scp"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/IHW_1.40.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/IHW_1.40.0.tgz",
+    "source.ver": "src/contrib/IHW_1.40.0.tar.gz",
+    "suggestsMe": [
+        "DEWSeq",
+        "DGEobj.utils",
+        "GRaNIE",
+        "metagenomeSeq",
+        "muscat",
+        "readyomics"
+    ],
+    "vignetteTitles": [
+        "\"Introduction to IHW\""
+    ],
+    "vignettes": [
+        "vignettes/IHW/inst/doc/introduction_to_ihw.html"
+    ]
+}

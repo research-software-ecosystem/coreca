@@ -1,0 +1,44 @@
+package: kalign
+distribution: debian
+release: sid
+component: main
+version: 3.5.1
+source: kalign
+homepage: https://msa.sbc.su.se/
+license: unknown
+blend: debian-med
+description_md5: f4779c3357ca7e7d8284836c8ed96a2c
+registries:
+- entry: OMICS_00978
+  name: OMICtools
+- entry: SCR_011810
+  name: SciCrunch
+- entry: kalign
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btz795
+- key: doi
+  rank: 1
+  value: 10.1093/nar/gkn1006
+- key: doi
+  rank: 2
+  value: 10.1186/1471-2105-6-298
+tags:
+- tag: biology::format:aln
+- tag: biology::nuceleic-acids
+- tag: biology::peptidic
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::comparing
+- tag: works-with-format::plaintext
+- tag: works-with::TODO
+popcon:
+- insts: 256
+  olde: 218
+  recent: 27
+  vote: 11

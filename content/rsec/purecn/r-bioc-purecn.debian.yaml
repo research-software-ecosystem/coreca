@@ -1,0 +1,20 @@
+package: r-bioc-purecn
+distribution: debian
+release: sid
+component: main
+version: 2.18.0
+source: r-bioc-purecn
+homepage: https://bioconductor.org/packages/PureCN/
+license: unknown
+blend: debian-med
+description_md5: 7ebcc9df552d7bdd66c2051c61571b9b
+registries:
+- entry: purecn
+  name: bio.tools
+- entry: bioconductor-purecn
+  name: conda:bioconda
+popcon:
+- insts: 19
+  olde: 15
+  recent: 1
+  vote: 3

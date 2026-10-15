@@ -1,0 +1,93 @@
+{
+    "Author": "Deena M.A. Gendoo [aut], Natchar Ratanasirigulchai [aut], Markus S. Schroeder [aut], Laia Pare [aut], Joel S Parker [aut], Aleix Prat [aut], Nikta Feizi [ctb], Christopher Eeles [ctb], Jermiah Joseph [ctb], Benjamin Haibe-Kains [aut, cre]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "AIMS",
+        "R (>= 4.1)",
+        "biomaRt",
+        "iC10",
+        "survcomp"
+    ],
+    "Description": "This package contains functions implementing various tasks usually required by gene expression analysis, especially in breast cancer studies: gene mapping between different microarray platforms, identification of molecular subtypes, implementation of published gene signatures, gene selection, and survival analysis.",
+    "Imports": [
+        "amap",
+        "graphics",
+        "iC10TrainingData",
+        "impute",
+        "limma",
+        "mclust",
+        "stats",
+        "utils"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "14febc206786579d80368d80bf60b71e",
+    "Maintainer": "Benjamin Haibe-Kains <benjamin.haibe.kains@utoronto.ca>",
+    "NeedsCompilation": "no",
+    "Package": "genefu",
+    "Rank": 297,
+    "Rfiles": [
+        "vignettes/genefu/inst/doc/genefu.R"
+    ],
+    "Suggests": [
+        "Biobase",
+        "BiocStyle",
+        "GeneMeta",
+        "breastCancerMAINZ",
+        "breastCancerNKI",
+        "breastCancerTRANSBIG",
+        "breastCancerUNT",
+        "breastCancerUPP",
+        "breastCancerVDX",
+        "caret",
+        "knitr",
+        "magick",
+        "rmarkdown",
+        "rmeta",
+        "survival",
+        "xtable"
+    ],
+    "Title": "Computation of Gene Expression-Based Signatures in Breast Cancer",
+    "URL": "http://www.pmgenomics.ca/bhklab/software/genefu",
+    "Version": "2.44.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Classification",
+        "Clustering",
+        "DifferentialExpression",
+        "GeneExpression",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "116",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "8ec3c21",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/genefu",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "PDATK",
+        "consensusOV"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/genefu_2.44.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/genefu_2.44.0.tgz",
+    "source.ver": "src/contrib/genefu_2.44.0.tar.gz",
+    "suggestsMe": [
+        "GSgalgoR",
+        "breastCancerMAINZ",
+        "breastCancerNKI",
+        "breastCancerTRANSBIG",
+        "breastCancerUNT",
+        "breastCancerUPP",
+        "breastCancerVDX"
+    ],
+    "vignetteTitles": [
+        "genefu: A Package For Breast Cancer Gene Expression Analysis"
+    ],
+    "vignettes": [
+        "vignettes/genefu/inst/doc/genefu.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/genefu_2.44.0.zip"
+}

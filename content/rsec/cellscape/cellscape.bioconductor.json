@@ -1,0 +1,56 @@
+{
+    "Archs": "x64",
+    "Author": "Shixiang Wang [aut, cre] (ORCID: <https://orcid.org/0000-0001-9855-7357>), Maia Smith [aut]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.3)"
+    ],
+    "Description": "CellScape facilitates interactive browsing of single cell clonal evolution datasets. The tool requires two main inputs: (i) the genomic content of each single cell in the form of either copy number segments or targeted mutation values, and (ii) a single cell phylogeny. Phylogenetic formats can vary from dendrogram-like phylogenies with leaf nodes to evolutionary model-derived phylogenies with observed or latent internal nodes. The CellScape phylogeny is flexibly input as a table of source-target edges to support arbitrary representations, where each node may or may not have associated genomic data. The output of CellScape is an interactive interface displaying a single cell phylogeny and a cell-by-locus genomic heatmap representing the mutation status in each cell for each locus.",
+    "Imports": [
+        "dplyr (>= 0.4.3)",
+        "gtools (>= 3.5.0)",
+        "htmlwidgets (>= 0.5)",
+        "jsonlite (>= 0.9.19)",
+        "reshape2 (>= 1.4.1)",
+        "stringr (>= 1.0.0)"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "eb2f59a39039c4c008145529e33f157e",
+    "Maintainer": "Shixiang Wang <w_shixiang@163.com>",
+    "NeedsCompilation": "no",
+    "Package": "cellscape",
+    "Rank": 2120,
+    "Rfiles": [
+        "vignettes/cellscape/inst/doc/cellscape_vignette.R"
+    ],
+    "Suggests": [
+        "knitr",
+        "rmarkdown"
+    ],
+    "Title": "Explores single cell copy number profiles in the context of a single cell tree",
+    "Version": "1.36.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "49",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "c621319",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/cellscape",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/cellscape_1.36.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/cellscape_1.36.0.tgz",
+    "source.ver": "src/contrib/cellscape_1.36.0.tar.gz",
+    "vignetteTitles": [
+        "CellScape vignette"
+    ],
+    "vignettes": [
+        "vignettes/cellscape/inst/doc/cellscape_vignette.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/cellscape_1.36.0.zip"
+}

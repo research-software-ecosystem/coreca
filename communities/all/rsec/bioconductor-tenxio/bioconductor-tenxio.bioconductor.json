@@ -1,0 +1,83 @@
+{
+    "Author": "Marcel Ramos [aut, cre] (ORCID: <https://orcid.org/0000-0002-3242-0582>), NCI [fnd] (GrantNo.: U24CA289073)",
+    "BugReports": "https://github.com/waldronlab/TENxIO/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.5.0)",
+        "SingleCellExperiment",
+        "SummarizedExperiment"
+    ],
+    "Description": "Provides a structured S4 approach to importing data files from the 10X pipelines. It mainly supports Single Cell Multiome ATAC + Gene Expression data among other data types. The main Bioconductor data representations used are SingleCellExperiment and RaggedExperiment.",
+    "Imports": [
+        "BiocBaseUtils",
+        "BiocGenerics",
+        "BiocIO",
+        "GenomicRanges",
+        "HDF5Array",
+        "Matrix",
+        "MatrixGenerics",
+        "R.utils",
+        "S4Vectors",
+        "Seqinfo",
+        "methods",
+        "readr",
+        "rhdf5",
+        "utils"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "7509a5d47964b7d40aa94fd85012e0db",
+    "Maintainer": "Marcel Ramos <marcel.ramos@sph.cuny.edu>",
+    "NeedsCompilation": "no",
+    "Package": "TENxIO",
+    "Rank": 997,
+    "Rfiles": [
+        "vignettes/TENxIO/inst/doc/TENxIO.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "DropletTestFiles",
+        "ExperimentHub",
+        "RaggedExperiment (>= 1.33.3)",
+        "Rsamtools",
+        "knitr",
+        "rmarkdown",
+        "tinytest"
+    ],
+    "Title": "Import methods for 10X Genomics files",
+    "URL": "https://github.com/waldronlab/TENxIO",
+    "Version": "1.14.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataImport",
+        "Infrastructure",
+        "SingleCell",
+        "Software"
+    ],
+    "dependencyCount": "63",
+    "dependsOnMe": [
+        "VisiumIO",
+        "XeniumIO"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "20544bc",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/TENxIO",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "imageFeatureTCGA",
+        "xenLite"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/TENxIO_1.14.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/TENxIO_1.14.0.tgz",
+    "source.ver": "src/contrib/TENxIO_1.14.0.tar.gz",
+    "vignetteTitles": [
+        "TENxIO Quick Start Guide"
+    ],
+    "vignettes": [
+        "vignettes/TENxIO/inst/doc/TENxIO.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/TENxIO_1.14.0.zip"
+}

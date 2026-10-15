@@ -1,0 +1,49 @@
+about:
+  dev_url: https://github.com/revbayes/revbayes
+  doc_url: https://revbayes.github.io/tutorials
+  home: https://revbayes.github.io
+  license: GPL-3.0-or-later
+  license_family: GPL3
+  license_file: LICENSE
+  summary: Bayesian Phylogenetic Inference Using Graphical Models and an Interactive
+    Model-Specification Language.
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - osx-arm64
+  container:
+    extended-base: true
+  identifiers:
+  - biotools:revbayes
+  - doi:10.1093/sysbio/syw021
+  - doi:10.1093/sysbio/syu039
+  skip-lints:
+  - compiler_needs_stdlib_c
+package:
+  name: revbayes
+  version: 1.4.1
+requirements:
+  build:
+  - ninja
+  - null
+  - cmake
+  host:
+  - boost-cpp >=1.71
+  - openmpi
+  - llvm-openmp
+  - libgomp
+  run:
+  - boost-cpp >=1.71
+  - openmpi
+  - llvm-openmp
+  - libgomp
+source:
+  sha256: ddf0c3f3fd1bd88c1c0695f354de6ad6be9e24961c115165d38c0a9a1859f0a1
+  url: https://github.com/revbayes/revbayes/archive/refs/tags/v1.4.1.tar.gz
+test:
+  commands:
+  - rb -h
+  - rb-mpi -h

@@ -1,0 +1,47 @@
+about:
+  description: 'Entrez Direct (EDirect) provides access to Entrez, the NCBI''s suite
+    of interconnected databases (publication, sequence, structure, gene, variation,
+    expression, etc.) from a Unix terminal window. Search terms are entered as command-line
+    arguments. Individual operations are connected with Unix pipes to construct multi-step
+    queries. Selected records can then be retrieved in a variety of formats.
+
+    '
+  doc_url: https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/26.0.20260719/README
+  home: https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/26.0.20260719/README
+  license: Public Domain
+  summary: Entrez Direct (EDirect) - Access to NCBI's Entrez databases
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:entrez
+package:
+  name: entrez-direct
+  version: '26.0'
+requirements:
+  build:
+  - null
+  - null
+  - go-licenses
+  run:
+  - wget
+source:
+  sha256: e1e4a9372753741f9c4c1884ca5f7c702ee3f4b8777c07a9dba7fd3966eafa60
+  url: https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/26.0.20260719/edirect.tar.gz
+test:
+  commands:
+  - efetch --help
+  - epost --help
+  - efilter --help
+  - einfo --help
+  - esearch --help
+  - elink --help
+  - esummary --help
+  - rchive -version
+  - transmute -version
+  - xtract -version

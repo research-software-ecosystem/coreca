@@ -1,0 +1,68 @@
+{
+    "Archs": "x64",
+    "Author": "Jonathon T. Hill, Bradley Demarest",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biostrings",
+        "R (>= 3.5.0)",
+        "pwalign",
+        "stringr"
+    ],
+    "Description": "This package contains several tools for analyzing Sanger Sequencing data files in R, including reading .scf and .ab1 files, making basecalls and plotting chromatograms.",
+    "Imports": [
+        "methods",
+        "shiny"
+    ],
+    "License": "GPL-2",
+    "MD5sum": "c1be82500d85b9b2dc49647348268d31",
+    "Maintainer": "Jonathon Hill <jhill@byu.edu>",
+    "NeedsCompilation": "no",
+    "Package": "sangerseqR",
+    "Rank": 314,
+    "Rfiles": [
+        "vignettes/sangerseqR/inst/doc/sangerseqRWalkthrough.R"
+    ],
+    "Suggests": [
+        "BiocGenerics",
+        "BiocStyle",
+        "RUnit",
+        "knitr"
+    ],
+    "Title": "Tools for Sanger Sequencing Data in R",
+    "Version": "1.48.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "SNP",
+        "Sequencing",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "49",
+    "dependsOnMe": [
+        "sangeranalyseR"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "67e49b6",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/sangerseqR",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "scifer"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/sangerseqR_1.48.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/sangerseqR_1.48.0.tgz",
+    "source.ver": "src/contrib/sangerseqR_1.48.0.tar.gz",
+    "suggestsMe": [
+        "CrispRVariants"
+    ],
+    "vignetteTitles": [
+        "Using the sangerseqR package"
+    ],
+    "vignettes": [
+        "vignettes/sangerseqR/inst/doc/sangerseqRWalkthrough.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/sangerseqR_1.48.0.zip"
+}

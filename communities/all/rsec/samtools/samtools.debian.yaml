@@ -1,0 +1,43 @@
+package: samtools
+distribution: debian
+release: sid
+component: main
+version: '1.24'
+source: samtools
+homepage: https://www.htslib.org/
+license: unknown
+blend: debian-med
+description_md5: 7ede2464ff1fbf70b3103067b7192874
+registries:
+- entry: OMICS_00090
+  name: OMICtools
+- entry: SCR_002105
+  name: SciCrunch
+- entry: samtools
+  name: bio.tools
+- entry: samtools
+  name: conda:bioconda
+- entry: samtools
+  name: guix
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btp352
+tags:
+- tag: field::biology
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: network::client
+- tag: protocol::ftp
+- tag: protocol::http
+- tag: role::program
+- tag: scope::utility
+- tag: uitoolkit::ncurses
+- tag: use::analysing
+- tag: use::calculating
+- tag: use::filtering
+- tag: works-with::biological-sequence
+popcon:
+- insts: 689
+  olde: 592
+  recent: 35
+  vote: 62

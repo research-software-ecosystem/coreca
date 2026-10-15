@@ -1,0 +1,24 @@
+package: trim-galore
+distribution: debian
+release: sid
+component: main
+version: 0.6.10
+source: trim-galore
+homepage: https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/
+license: unknown
+blend: debian-med
+description_md5: 014a20fd57c45610fc72576da733e6ff
+registries:
+- entry: OMICS_01096
+  name: OMICtools
+- entry: trim_galore
+  name: bio.tools
+- entry: trim-galore
+  name: conda:bioconda
+- entry: trim-galore
+  name: guix
+popcon:
+- insts: 199
+  olde: 169
+  recent: 24
+  vote: 6

@@ -1,0 +1,37 @@
+about:
+  dev_url: https://github.com/bactopia/bactopia-sketcher/
+  home: https://bactopia.github.io/
+  license: MIT
+  license_file: LICENSE
+  summary: Methods used by Bactopia for minmer sketching
+build:
+  noarch: generic
+  number: 0
+  run_exports:
+  - null
+extra:
+  identifiers:
+  - biotools:bactopia
+  - doi:10.1128/mSystems.00190-20
+  recipe-maintainers:
+  - rpetit3
+package:
+  name: bactopia-sketcher
+  version: 1.0.3
+requirements:
+  run:
+  - bactopia-py >=2.0.1
+  - coreutils
+  - gsl 2.6
+  - mash >=2.3
+  - pigz
+  - python <3.13
+  - sed
+  - sourmash >=4.8.4
+source:
+  sha256: 748b767d2db9428d89ff970bbea1c2b936cc23ebc91524d4838d43bf9e235825
+  url: https://github.com/bactopia/bactopia-sketcher/archive/v1.0.3.tar.gz
+test:
+  commands:
+  - bactopia-sketcher --version
+  - bactopia-sketcher

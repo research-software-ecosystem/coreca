@@ -1,0 +1,44 @@
+about:
+  description: Package includes functions to analyze and mask microarray expression
+    data.
+  home: https://bioconductor.org/packages/3.22/bioc/html/maskBAD.html
+  license: GPL (>= 2)
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: Masking probes with binding affinity differences
+build:
+  noarch: generic
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:maskbad
+  - doi:10.1093/bioinformatics/btp492
+  parent_recipe:
+    name: bioconductor-maskbad
+    path: recipes/bioconductor-maskbad
+    version: 1.24.0
+package:
+  name: bioconductor-maskbad
+  version: 1.54.0
+requirements:
+  host:
+  - bioconductor-affy >=1.88.0,<1.89.0
+  - bioconductor-gcrma >=2.82.0,<2.83.0
+  - r-base
+  run:
+  - bioconductor-affy >=1.88.0,<1.89.0
+  - bioconductor-gcrma >=2.82.0,<2.83.0
+  - r-base
+source:
+  md5: 5ed8989d971f530d40226fdbf43545b9
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/maskBAD_1.54.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/maskBAD/maskBAD_1.54.0.tar.gz
+  - https://bioarchive.galaxyproject.org/maskBAD_1.54.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-maskbad/bioconductor-maskbad_1.54.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('maskBAD')"

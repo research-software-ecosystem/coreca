@@ -1,0 +1,61 @@
+about:
+  description: Differential expression analysis of sequence count data. Implements
+    a range of statistical methodology based on the negative binomial distributions,
+    including empirical Bayes estimation, exact tests, generalized linear models,
+    quasi-likelihood, and gene set enrichment. Can perform differential analyses of
+    any type of omics data that produces read counts, including RNA-seq, ChIP-seq,
+    ATAC-seq, Bisulfite-seq, SAGE, CAGE, metabolomics, or proteomics spectral counts.
+    RNA-seq analyses can be conducted at the gene or isoform level, and tests can
+    be conducted for differential exon or transcript usage.
+  home: https://bioconductor.org/packages/3.23/bioc/html/edgeR.html
+  license: GPL (>=2)
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: Empirical Analysis of Digital Gene Expression Data in R
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:edger
+  - usegalaxy-eu:edger
+  parent_recipe:
+    name: bioconductor-edger
+    path: recipes/bioconductor-edger
+    version: 3.22.5
+package:
+  name: bioconductor-edger
+  version: 4.10.5
+requirements:
+  build:
+  - null
+  - null
+  - make
+  - cctools
+  host:
+  - bioconductor-limma >=3.68.5,<3.69.0
+  - r-base
+  - r-locfit
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-limma >=3.68.5,<3.69.0
+  - r-base
+  - r-locfit
+source:
+  md5: ec5f6318a2db2c3c4fbae2a40e2ce889
+  url:
+  - https://bioconductor.org/packages/3.23/bioc/src/contrib/edgeR_4.10.5.tar.gz
+  - https://bioconductor.org/packages/3.23/bioc/src/contrib/Archive/edgeR/edgeR_4.10.5.tar.gz
+  - https://bioarchive.galaxyproject.org/edgeR_4.10.5.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-edger/bioconductor-edger_4.10.5_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('edgeR')"

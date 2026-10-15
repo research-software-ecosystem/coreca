@@ -1,0 +1,65 @@
+{
+    "Archs": "x64",
+    "Author": "Ludwig Geistlinger [aut, cre], Jennifer Wokaty [aut], Levi Waldron [aut], NCI [fnd] (GrantNo.: R01CA230551)",
+    "BugReports": "https://github.com/waldronlab/bugsigdbr/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.1)"
+    ],
+    "Description": "The bugsigdbr package implements convenient access to bugsigdb.org from within R/Bioconductor. The goal of the package is to facilitate import of BugSigDB data into R/Bioconductor, provide utilities for extracting microbe signatures, and enable export of the extracted signatures to plain text files in standard file formats such as GMT.",
+    "Imports": [
+        "BiocFileCache",
+        "methods",
+        "utils",
+        "vroom"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "cfbfe5babca86d019b0ac0aba059d192",
+    "Maintainer": "Ludwig Geistlinger <ludwig.geistlinger@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "bugsigdbr",
+    "Rank": 950,
+    "Rfiles": [
+        "vignettes/bugsigdbr/inst/doc/bugsigdbr.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "ontologyIndex",
+        "rmarkdown",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "R-side access to published microbial signatures from BugSigDB",
+    "URL": "https://github.com/waldronlab/bugsigdbr",
+    "Version": "1.18.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataImport",
+        "GeneSetEnrichment",
+        "Metagenomics",
+        "Microbiome",
+        "Software"
+    ],
+    "dependencyCount": "48",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "2196252",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/bugsigdbr",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/bugsigdbr_1.18.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/bugsigdbr_1.18.0.tgz",
+    "source.ver": "src/contrib/bugsigdbr_1.18.0.tar.gz",
+    "suggestsMe": [
+        "TaxSEA"
+    ],
+    "vignetteTitles": [
+        "R-side access to BugSigDB"
+    ],
+    "vignettes": [
+        "vignettes/bugsigdbr/inst/doc/bugsigdbr.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/bugsigdbr_1.18.0.zip"
+}

@@ -1,0 +1,297 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/tophat2",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Galaxy Support Team",
+      "bsc:input": [
+        {
+          "@id": "_:N2140171e522c4e8a95be35ea9590b206"
+        },
+        {
+          "@id": "_:N23ad2b592081420fb783482f9d598ebb"
+        },
+        {
+          "@id": "_:Ne5534762b7ae48d297ba7dd92472e64e"
+        },
+        {
+          "@id": "_:Ncbd401f61915445ea4ca73fa5549b8c2"
+        },
+        {
+          "@id": "_:N11ef2883ea874316b4d1140ede3d8c16"
+        },
+        {
+          "@id": "_:Nbea52cce10ed42209e66a542260dfe1c"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N6b3222b8d8f74a1388dce2027e5d9c70"
+        },
+        {
+          "@id": "_:N6a2ddd04612247ba9f22ef4546e77f04"
+        },
+        {
+          "@id": "_:N5e063ec0fc06449c840f035ac49378de"
+        },
+        {
+          "@id": "_:Nb04de3d1b99d48609169c42807d336ac"
+        },
+        {
+          "@id": "_:N37f8ba847c214cd8a79d8c7d29ca3f20"
+        },
+        {
+          "@id": "_:N95b1329076084b699f3f13766c26d4e6"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3170"
+      },
+      "sc:citation": [
+        "pubmed:19289445",
+        "pmcid:PMC2672628",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btp120"
+        },
+        "pubmed:27137889",
+        "pmcid:PMC4987906",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw343"
+        },
+        "pubmed:23618408",
+        "pmcid:PMC4053844",
+        {
+          "@id": "https://doi.org/10.1186/gb-2013-14-4-r36"
+        },
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        }
+      ],
+      "sc:contributor": [
+        "Geo Pertea",
+        "Ryan Kelley",
+        "Cole Trapnell",
+        "Daehwan Kim",
+        "Harold Pimentel",
+        "Lior Pachter",
+        "Steven Salzberg"
+      ],
+      "sc:description": "Gapped-read mapper for RNA-seq data.",
+      "sc:featureList": {
+        "@id": "edam:operation_3198"
+      },
+      "sc:name": "tophat2",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://galaxy.pasteur.fr/root?tool_id=toolshed.pasteur.fr%2Frepos%2Ffmareuil%2Ftophat2%2Ftophat2%2F2.0.10"
+        },
+        {
+          "@id": "http://ccb.jhu.edu/software/tophat/tutorial.shtml"
+        },
+        {
+          "@id": "http://ccb.jhu.edu/software/tophat/faq.shtml"
+        },
+        {
+          "@id": "http://ccb.jhu.edu/software/tophat/manual.shtml"
+        }
+      ],
+      "sc:softwareVersion": "2.0.10",
+      "sc:url": "http://ccb.jhu.edu/software/tophat/index.shtml"
+    },
+    {
+      "@id": "_:N2140171e522c4e8a95be35ea9590b206",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1932"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N23ad2b592081420fb783482f9d598ebb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1932"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Ne5534762b7ae48d297ba7dd92472e64e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1932"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Ncbd401f61915445ea4ca73fa5549b8c2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1975"
+        },
+        {
+          "@id": "edam:format_2306"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N11ef2883ea874316b4d1140ede3d8c16",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nbea52cce10ed42209e66a542260dfe1c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N6b3222b8d8f74a1388dce2027e5d9c70",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N6a2ddd04612247ba9f22ef4546e77f04",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:N5e063ec0fc06449c840f035ac49378de",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3002"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Annotation track"
+    },
+    {
+      "@id": "_:Nb04de3d1b99d48609169c42807d336ac",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N37f8ba847c214cd8a79d8c7d29ca3f20",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N95b1329076084b699f3f13766c26d4e6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btp120",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/gb-2013-14-4-r36",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

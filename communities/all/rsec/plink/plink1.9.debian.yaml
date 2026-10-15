@@ -1,0 +1,28 @@
+package: plink1.9
+distribution: debian
+release: sid
+component: main
+version: 1.90~b7.7-241022
+source: plink1.9
+homepage: https://www.cog-genomics.org/plink/1.9/
+license: unknown
+blend: debian-med
+description_md5: 67f7103d194e68a793cc749b4f4ccf61
+registries:
+- entry: OMICS_00206
+  name: OMICtools
+- entry: SCR_001757
+  name: SciCrunch
+- entry: PLINK
+  name: bio.tools
+- entry: plink
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/s13742-015-0047-8
+popcon:
+- insts: 210
+  nofiles: 1
+  olde: 43
+  recent: 20
+  vote: 146

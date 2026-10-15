@@ -1,0 +1,199 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0003-4694-9783",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.64898/2026.06.30.735492",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/squarna",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": {
+        "@id": "https://orcid.org/0000-0003-4694-9783"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:N29a3b9e478294e68985a6d0a72325d1b"
+        },
+        {
+          "@id": "_:Nbc50f5ed5c1c4484aff50a85077940e9"
+        },
+        {
+          "@id": "_:Ne7d849525b964a46bf8234f2a91ff046"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N7b14d08457434b9b8fb24776ed53142b"
+        },
+        {
+          "@id": "_:Nbaa048e71cf844248cd1c25a9ef674c7"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Library",
+        "Script",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3307"
+        },
+        {
+          "@id": "edam:topic_0659"
+        },
+        {
+          "@id": "edam:topic_3511"
+        },
+        {
+          "@id": "edam:topic_0097"
+        },
+        {
+          "@id": "edam:topic_0077"
+        },
+        {
+          "@id": "edam:topic_0099"
+        },
+        {
+          "@id": "edam:topic_0081"
+        },
+        {
+          "@id": "edam:topic_0082"
+        }
+      ],
+      "sc:author": {
+        "@id": "https://orcid.org/0000-0003-4694-9783"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.64898/2026.06.30.735492"
+      },
+      "sc:description": "SQUARNA is a tool for RNA secondary structure prediction. It can take a single RNA sequence or an alignment of sequences as input. SQUARNA handles pseudoknots and can predict alternative structures. SQUARNA allows structural restraints and chemical probing data as additional input and is available at https://github.com/febos/SQUARNA and https://larnal.imol.institute/.",
+      "sc:featureList": {
+        "@id": "edam:operation_0278"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "SQUARNA",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://pypi.org/project/SQUARNA/"
+        },
+        {
+          "@id": "https://github.com/febos/SQUARNA/blob/main/README.md"
+        }
+      ],
+      "sc:softwareVersion": "3.22",
+      "sc:url": "https://github.com/febos/SQUARNA"
+    },
+    {
+      "@id": "_:N29a3b9e478294e68985a6d0a72325d1b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0889"
+      },
+      "sc:name": "Structural profile"
+    },
+    {
+      "@id": "_:Nbc50f5ed5c1c4484aff50a85077940e9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1383"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1982"
+        },
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1961"
+        }
+      ],
+      "sc:name": "Nucleic acid sequence alignment"
+    },
+    {
+      "@id": "_:Ne7d849525b964a46bf8234f2a91ff046",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3495"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1982"
+        },
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1961"
+        }
+      ],
+      "sc:name": "RNA sequence"
+    },
+    {
+      "@id": "_:N7b14d08457434b9b8fb24776ed53142b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1772"
+      },
+      "sc:name": "Score"
+    },
+    {
+      "@id": "_:Nbaa048e71cf844248cd1c25a9ef674c7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0880"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2546"
+      },
+      "sc:name": "RNA secondary structure"
+    }
+  ]
+}

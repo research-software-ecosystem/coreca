@@ -1,0 +1,20 @@
+@prefix biotools: <https://bio.tools/> .
+@prefix debianmed: <https://salsa.debian.org/med-team/> .
+@prefix schema1: <http://schema.org/> .
+
+debianmed:garlic a schema1:SoftwareApplication ;
+    schema1:identifier biotools:garlic,
+        "omictools:OMICS_21303" ;
+    schema1:keywords "field::biology",
+        "field::chemistry",
+        "interface::x11",
+        "role::program",
+        "scope::utility",
+        "uitoolkit::xlib",
+        "use::viewing",
+        "x11::application" ;
+    schema1:license "unknown" ;
+    schema1:name "garlic" ;
+    schema1:softwareVersion "1.6" ;
+    schema1:url <http://www.zucic.org/garlic/> .
+

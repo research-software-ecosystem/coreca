@@ -1,0 +1,73 @@
+{
+    "Author": "Andrew J. Bass, David G. Robinson, Steve Lianoglou, Emily Nelson, John D. Storey, with contributions from Laurent Gatto",
+    "BugReports": "https://github.com/StoreyLab/biobroom/issues",
+    "Date/Publication": "2025-10-30",
+    "Depends": [
+        "R (>= 3.0.0)",
+        "broom"
+    ],
+    "Description": "This package contains methods for converting standard objects constructed by bioinformatics packages, especially those in Bioconductor, and converting them to tidy data. It thus serves as a complement to the broom package, and follows the same the tidy, augment, glance division of tidying methods. Tidying data makes it easy to recombine, reshape and visualize bioinformatics analyses.",
+    "Imports": [
+        "Biobase",
+        "dplyr",
+        "tidyr"
+    ],
+    "License": "LGPL",
+    "MD5sum": "6f29ad3cc31841b6cff449cd60c8048a",
+    "Maintainer": "John D. Storey <jstorey@princeton.edu> and Andrew J. Bass <ajbass@emory.edu>",
+    "NeedsCompilation": "no",
+    "Package": "biobroom",
+    "Rank": 800,
+    "Rfiles": [
+        "vignettes/biobroom/inst/doc/biobroom_vignette.R"
+    ],
+    "Suggests": [
+        "DESeq2",
+        "GenomicRanges",
+        "MSnbase",
+        "SummarizedExperiment",
+        "airway",
+        "data.table",
+        "edgeR",
+        "ggplot2",
+        "knitr",
+        "limma",
+        "magrittr",
+        "plyr",
+        "qvalue",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Turn Bioconductor objects into tidy data frames",
+    "URL": "https://github.com/StoreyLab/biobroom",
+    "Version": "1.43.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataImport",
+        "DifferentialExpression",
+        "GeneExpression",
+        "MultipleComparison",
+        "Proteomics",
+        "Regression",
+        "Software"
+    ],
+    "dependencyCount": "30",
+    "git_branch": "devel",
+    "git_last_commit": "825b1c8",
+    "git_last_commit_date": "2025-10-29",
+    "git_url": "https://git.bioconductor.org/packages/biobroom",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/biobroom_1.43.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/biobroom_1.43.0.tgz",
+    "source.ver": "src/contrib/biobroom_1.43.0.tar.gz",
+    "vignetteTitles": [
+        "Vignette Title"
+    ],
+    "vignettes": [
+        "vignettes/biobroom/inst/doc/biobroom_vignette.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/biobroom_1.43.0.zip"
+}

@@ -1,0 +1,70 @@
+{
+    "Author": "Levi Waldron [aut, cre], Markus Reister [aut, ctb], Marcel Ramos [ctb]",
+    "BugReports": "https://github.com/lwaldron/doppelgangR/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biobase",
+        "BiocParallel",
+        "R (>= 3.5.0)"
+    ],
+    "Description": "The main function is doppelgangR(), which takes as minimal input a list of ExpressionSet object, and searches all list pairs for duplicated samples.  The search is based on the genomic data (exprs(eset)), phenotype/clinical data (pData(eset)), and \"smoking guns\" - supposedly unique identifiers found in pData(eset).",
+    "Imports": [
+        "SummarizedExperiment",
+        "digest",
+        "grDevices",
+        "graphics",
+        "impute",
+        "methods",
+        "mnormt",
+        "stats",
+        "sva",
+        "utils"
+    ],
+    "License": "GPL (>=2.0)",
+    "MD5sum": "d75594dc78db88ef15e5bb604e364598",
+    "Maintainer": "Levi Waldron <lwaldron.research@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "doppelgangR",
+    "Rank": 962,
+    "Rfiles": [
+        "vignettes/doppelgangR/inst/doc/doppelgangR.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "curatedOvarianData",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Identify likely duplicate samples from genomic or meta-data",
+    "URL": "https://github.com/lwaldron/doppelgangR, https://waldronlab.github.io/doppelgangR",
+    "Version": "1.40.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "GeneExpression",
+        "ImmunoOncology",
+        "Microarray",
+        "QualityControl",
+        "RNASeq",
+        "Software"
+    ],
+    "dependencyCount": "78",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "ad4ca34",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/doppelgangR",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/doppelgangR_1.40.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/doppelgangR_1.40.0.tgz",
+    "source.ver": "src/contrib/doppelgangR_1.40.0.tar.gz",
+    "vignetteTitles": [
+        "doppelgangR vignette"
+    ],
+    "vignettes": [
+        "vignettes/doppelgangR/inst/doc/doppelgangR.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/doppelgangR_1.40.0.zip"
+}

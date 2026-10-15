@@ -1,0 +1,126 @@
+{
+    "additionDate": "2021-10-06T14:59:39.485990Z",
+    "biotoolsCURIE": "biotools:virusviz",
+    "biotoolsID": "virusviz",
+    "collectionID": [
+        "COVID-19"
+    ],
+    "confidence_flag": "tool",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "stefano.ceri@polimi.it",
+            "name": "Stefano Ceri",
+            "orcidid": "https://orcid.org/0000-0003-0671-2415",
+            "typeEntity": "Person"
+        },
+        {
+            "name": "ELIXIR-ITA",
+            "typeEntity": "Project",
+            "url": "https://elixir-italy.org/"
+        },
+        {
+            "name": "ELIXIR-ITA-POLIMI",
+            "typeEntity": "Project",
+            "url": "https://www.deib.polimi.it/eng/elixir-iib"
+        }
+    ],
+    "description": "VirusViz is a Web Server for analyzing viral sequences and visualizing their variants and characteristics.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/DEIB-GECO/VirusViz/wiki"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "ELIXIR-ITA-POLIMI",
+            "abernasconi",
+            "arif.canakoglu@polimi.it"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Data handling",
+                    "uri": "http://edamontology.org/operation_2409"
+                },
+                {
+                    "term": "Genetic variation analysis",
+                    "uri": "http://edamontology.org/operation_3197"
+                },
+                {
+                    "term": "Variant effect prediction",
+                    "uri": "http://edamontology.org/operation_0331"
+                },
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://gmql.eu/virusviz",
+    "language": [
+        "JavaScript",
+        "Python"
+    ],
+    "lastUpdate": "2026-01-04T14:56:36.897512Z",
+    "license": "GPL-3.0",
+    "name": "VirusViz",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "abernasconi",
+    "publication": [
+        {
+            "doi": "10.1186/s12859-022-05022-0",
+            "metadata": {
+                "citationCount": 18,
+                "date": "2022-11-01T00:00:00Z",
+                "journal": "BMC Bioinformatics",
+                "title": "Semantic interoperability: ontological unpacking of a viral conceptual model"
+            },
+            "note": "Description of the Viral Conceptual Model (VCM) used by VirusViz"
+        },
+        {
+            "doi": "10.1093/NAR/GKAB478",
+            "metadata": {
+                "citationCount": 24,
+                "date": "2021-09-07T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "VirusViz: Comparative analysis and effective visualization of viral nucleotide and amino acid variants"
+            },
+            "pmcid": "PMC8344854",
+            "pmid": "34107016"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Bioinformatics",
+            "uri": "http://edamontology.org/topic_0091"
+        },
+        {
+            "term": "Genetic variation",
+            "uri": "http://edamontology.org/topic_0199"
+        },
+        {
+            "term": "Small molecules",
+            "uri": "http://edamontology.org/topic_0154"
+        },
+        {
+            "term": "Transcription factors and regulatory sites",
+            "uri": "http://edamontology.org/topic_0749"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,130 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:crisprcastyper/web/cctyper.crispr.dk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2020.05.15.097824",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 199,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 29,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 37,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 40,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1089/crispr.2020.0059",
+                            "pmid": "33275853",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "CRISPRCasTyper: Automated Identification, Annotation, and Classification of CRISPR-Cas Loci.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cctyper.crispr.dk/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/crisprcastyper",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://cctyper.crispr.dk/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

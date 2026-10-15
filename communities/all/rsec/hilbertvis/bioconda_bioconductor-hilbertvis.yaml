@@ -1,0 +1,50 @@
+about:
+  description: Functions to visualize long vectors of integer data by means of Hilbert
+    curves
+  home: https://bioconductor.org/packages/3.22/bioc/html/HilbertVis.html
+  license: GPL (>= 3)
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: Hilbert curve visualization
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:hilbertvis
+  - doi:10.1093/bioinformatics/btp152
+  parent_recipe:
+    name: bioconductor-hilbertvis
+    path: recipes/bioconductor-hilbertvis
+    version: 1.38.0
+package:
+  name: bioconductor-hilbertvis
+  version: 1.68.0
+requirements:
+  build:
+  - null
+  - make
+  host:
+  - r-base
+  - r-lattice
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - r-base
+  - r-lattice
+source:
+  md5: c191531d73c5eff175ec8a552f554f8d
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/HilbertVis_1.68.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/HilbertVis/HilbertVis_1.68.0.tar.gz
+  - https://bioarchive.galaxyproject.org/HilbertVis_1.68.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-hilbertvis/bioconductor-hilbertvis_1.68.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('HilbertVis')"

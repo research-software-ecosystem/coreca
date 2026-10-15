@@ -1,0 +1,27 @@
+package: r-bioc-ebseq
+distribution: debian
+release: sid
+component: main
+version: 2.10.0
+source: r-bioc-ebseq
+homepage: https://bioconductor.org/packages/EBSeq/
+license: unknown
+blend: debian-med
+description_md5: 373ae22f232cee77b57882181123930c
+registries:
+- entry: OMICS_01307
+  name: OMICtools
+- entry: SCR_003526
+  name: SciCrunch
+- entry: ebseq
+  name: bio.tools
+- entry: bioconductor-ebseq
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btt087
+popcon:
+- insts: 125
+  olde: 95
+  recent: 25
+  vote: 5

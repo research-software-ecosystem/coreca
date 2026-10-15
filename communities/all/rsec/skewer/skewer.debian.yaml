@@ -1,0 +1,22 @@
+package: skewer
+distribution: debian
+release: sid
+component: main
+version: 0.2.2
+source: skewer
+homepage: https://github.com/relipmoc/skewer
+license: unknown
+blend: debian-med
+description_md5: b441f177d77eef511d970fccfb663491
+registries:
+- entry: OMICS_02106
+  name: OMICtools
+- entry: skewer
+  name: bio.tools
+- entry: skewer
+  name: conda:bioconda
+popcon:
+- insts: 114
+  olde: 87
+  recent: 23
+  vote: 4

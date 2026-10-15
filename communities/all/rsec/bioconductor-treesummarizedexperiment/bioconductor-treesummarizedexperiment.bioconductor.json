@@ -1,0 +1,106 @@
+{
+    "Archs": "x64",
+    "Author": "Ruizhu Huang [aut, cre] (ORCID: <https://orcid.org/0000-0003-3285-1945>), Felix G.M. Ernst [ctb] (ORCID: <https://orcid.org/0000-0001-5064-0928>), Mark Robinson [ctb] (ORCID: <https://orcid.org/0000-0002-3048-5518>), Tuomas Borman [ctb] (ORCID: <https://orcid.org/0000-0002-8563-8884>)",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biostrings",
+        "R(>= 3.6.0)",
+        "S4Vectors (>= 0.23.18)",
+        "SingleCellExperiment"
+    ],
+    "Description": "TreeSummarizedExperiment has extended SingleCellExperiment to include hierarchical information on the rows or columns of the rectangular data.",
+    "Imports": [
+        "BiocGenerics",
+        "BiocParallel",
+        "IRanges",
+        "SummarizedExperiment",
+        "ape",
+        "dplyr",
+        "methods",
+        "rlang",
+        "treeio",
+        "utils"
+    ],
+    "License": "GPL (>=2)",
+    "MD5sum": "2740057e81fa069b3d49d32f7649eee9",
+    "Maintainer": "Ruizhu Huang <ruizhuRH@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "TreeSummarizedExperiment",
+    "Rank": 156,
+    "Rfiles": [
+        "vignettes/TreeSummarizedExperiment/inst/doc/Introduction_to_treeSummarizedExperiment.R",
+        "vignettes/TreeSummarizedExperiment/inst/doc/The_combination_of_multiple_TSEs.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "ggplot2",
+        "ggtree",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "TreeSummarizedExperiment: a S4 Class for Data with Tree Structures",
+    "Version": "2.20.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataRepresentation",
+        "Infrastructure",
+        "Software"
+    ],
+    "dependencyCount": "67",
+    "dependsOnMe": [
+        "ExperimentSubset",
+        "HoloFoodR",
+        "MGnifyR",
+        "MicrobiomeBenchmarkData",
+        "curatedMetagenomicData",
+        "mia",
+        "miaSim",
+        "miaViz",
+        "microbiomeDataSets"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "b51d2a5",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/TreeSummarizedExperiment",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "CrcBiomeScreen",
+        "DspikeIn",
+        "anansi",
+        "benchdamic",
+        "iSEEtree",
+        "miaDash",
+        "miaTime",
+        "mikropml",
+        "treeclimbR"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/TreeSummarizedExperiment_2.20.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/TreeSummarizedExperiment_2.20.0.tgz",
+    "source.ver": "src/contrib/TreeSummarizedExperiment_2.20.0.tar.gz",
+    "suggestsMe": [
+        "ANCOMBC",
+        "LegATo",
+        "LimROTS",
+        "PLSDAbatch",
+        "dar",
+        "file2meco",
+        "hilldiv3",
+        "maaslin3",
+        "parafac4microbiome",
+        "philr",
+        "radEmu"
+    ],
+    "vignetteTitles": [
+        "1. Introduction to TreeSE",
+        "2. Combine TSEs"
+    ],
+    "vignettes": [
+        "vignettes/TreeSummarizedExperiment/inst/doc/Introduction_to_treeSummarizedExperiment.html",
+        "vignettes/TreeSummarizedExperiment/inst/doc/The_combination_of_multiple_TSEs.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/TreeSummarizedExperiment_2.20.0.zip"
+}

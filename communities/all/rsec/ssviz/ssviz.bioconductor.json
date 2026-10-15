@@ -1,0 +1,59 @@
+{
+    "Archs": "x64",
+    "Author": "Diana Low",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biostrings",
+        "R (>= 3.5.0)",
+        "RColorBrewer",
+        "Rsamtools",
+        "ggplot2",
+        "methods",
+        "reshape",
+        "stats"
+    ],
+    "Description": "Small RNA sequencing viewer",
+    "License": "GPL-2",
+    "MD5sum": "d252e3fcb83f057f2229994314c3ad4c",
+    "Maintainer": "Diana Low <lowdiana@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "ssviz",
+    "Rank": 1119,
+    "Rfiles": [
+        "vignettes/ssviz/inst/doc/ssviz.R"
+    ],
+    "Suggests": [
+        "knitr"
+    ],
+    "Title": "A small RNA-seq visualizer and analysis toolkit",
+    "Version": "1.46.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Genetics",
+        "ImmunoOncology",
+        "MultipleComparison",
+        "RNASeq",
+        "Sequencing",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "49",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "e420a0f",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/ssviz",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/ssviz_1.46.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/ssviz_1.46.0.tgz",
+    "source.ver": "src/contrib/ssviz_1.46.0.tar.gz",
+    "vignetteTitles": [
+        "ssviz"
+    ],
+    "vignettes": [
+        "vignettes/ssviz/inst/doc/ssviz.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/ssviz_1.46.0.zip"
+}

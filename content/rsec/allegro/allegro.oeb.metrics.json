@@ -1,0 +1,372 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:allegro:1.0/app/acgt.cs.tau.ac.il",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 23,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2011
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkn1064",
+                            "pmcid": "PMC2655690",
+                            "pmid": "19151090",
+                            "ref_count": 72,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1992
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 1999
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 1994
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 1998
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 1996
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2007
+                                }
+                            ],
+                            "title": "Allegro: analyzing expression and sequence in concert to discover regulatory programs.",
+                            "year": 2009
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.nature.com/articles/ng1005-1015"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.nature.com/ng/journal/v37/n10/full/ng1005-1015.html?foxtrotcallback=true"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015&code=26ac50be-33f8-49bf-a365-b1319448b89b"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.nature.com/articles/ng1005-1015?error=cookies_not_supported&code=26ac50be-33f8-49bf-a365-b1319448b89b"
+                    },
+                    {
+                        "status": 303,
+                        "url": "https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:allegro:2/cmd/www.nature.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.nature.com/articles/ng1005-1015"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.nature.com/ng/journal/v37/n10/full/ng1005-1015.html?foxtrotcallback=true"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015&code=a0d92c5e-2334-42c6-999f-30bffeffbc20"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.nature.com/articles/ng1005-1015?error=cookies_not_supported&code=a0d92c5e-2334-42c6-999f-30bffeffbc20"
+                    },
+                    {
+                        "status": 303,
+                        "url": "https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:allegro:3/cmd/www.nature.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.nature.com/articles/ng1005-1015"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.nature.com/ng/journal/v37/n10/full/ng1005-1015.html?foxtrotcallback=true"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015&code=e22a7f1d-1632-494f-ba81-2abd89079b65"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.nature.com/articles/ng1005-1015?error=cookies_not_supported&code=e22a7f1d-1632-494f-ba81-2abd89079b65"
+                    },
+                    {
+                        "status": 303,
+                        "url": "https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/allegro",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.nature.com/articles/ng1005-1015"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.nature.com/ng/journal/v37/n10/full/ng1005-1015.html?foxtrotcallback=true"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015&code=26ac50be-33f8-49bf-a365-b1319448b89b"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.nature.com/articles/ng1005-1015?error=cookies_not_supported&code=26ac50be-33f8-49bf-a365-b1319448b89b"
+                    },
+                    {
+                        "status": 303,
+                        "url": "https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fng1005-1015"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

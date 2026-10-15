@@ -1,0 +1,25 @@
+package: dnaclust
+distribution: debian
+release: sid
+component: main
+version: '3'
+source: dnaclust
+homepage: https://dnaclust.sourceforge.net/
+license: unknown
+blend: debian-med
+description_md5: f09f4c2cdae8b3abdcd9f1c868d093e3
+registries:
+- entry: OMICS_01955
+  name: OMICtools
+- entry: SCR_001771
+  name: SciCrunch
+- entry: DNACLUST
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1186/1471-2105-12-271
+popcon:
+- insts: 121
+  olde: 92
+  recent: 23
+  vote: 6

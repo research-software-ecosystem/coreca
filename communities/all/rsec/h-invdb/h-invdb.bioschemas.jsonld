@@ -1,0 +1,250 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/h-invdb",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N6fe6fb23cccc44e296ea3b4e71fce9db"
+        },
+        {
+          "@id": "_:N0311124443d1445b850554edd3391d5a"
+        },
+        {
+          "@id": "_:N210c0bbe68fa4dc68461e770c956cc87"
+        },
+        {
+          "@id": "_:N99c4621914084eda8965ccfd413dac6b"
+        },
+        {
+          "@id": "_:Nf250f361487f4efe9e521183d001cd40"
+        },
+        {
+          "@id": "_:N03fcccda2c7d4f818c4ba796657201f7"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nc19644b22e274ae1b87498d078be32aa"
+        },
+        {
+          "@id": "_:N2d5a4ce42f7c45c0925cff1345459cf6"
+        },
+        {
+          "@id": "_:N67985e95e8ab441697b01233547d98dd"
+        },
+        {
+          "@id": "_:Nd43384a3d1814708851f450735601f52"
+        },
+        {
+          "@id": "_:Na188769e4ba442c9a458dd4565844392"
+        },
+        {
+          "@id": "_:N6931949ef8a048bd90d9edcfb632401e"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0659"
+        },
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_2815"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_0140"
+        },
+        {
+          "@id": "edam:topic_3308"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:19933760",
+        "pmcid:PMC2808976",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkp1020"
+        }
+      ],
+      "sc:description": "This tool provides curated annotations of human genes and transcripts that include gene structures, alternative splicing isoforms, non-coding functional RNAs, protein functions, functional domains, sub-cellular localizations, metabolic pathways, protein 3D structure, genetic polymorphisms (SNPs, indels and microsatellite repeats), relation with diseases, gene expression profiling, and molecular evolutionary features, protein-protein interactions and gene families/groups.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "H-InvDB",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://h-invitational.jp/hinv/help/help_viewer.html"
+      },
+      "sc:url": "http://www.h-invitational.jp/"
+    },
+    {
+      "@id": "_:N6fe6fb23cccc44e296ea3b4e71fce9db",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2770"
+      },
+      "sc:name": "HIT ID"
+    },
+    {
+      "@id": "_:N0311124443d1445b850554edd3391d5a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2770"
+      },
+      "sc:name": "HIT ID"
+    },
+    {
+      "@id": "_:N210c0bbe68fa4dc68461e770c956cc87",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2770"
+      },
+      "sc:name": "HIT ID"
+    },
+    {
+      "@id": "_:N99c4621914084eda8965ccfd413dac6b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2771"
+      },
+      "sc:name": "HIX ID"
+    },
+    {
+      "@id": "_:Nf250f361487f4efe9e521183d001cd40",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2771"
+      },
+      "sc:name": "HIX ID"
+    },
+    {
+      "@id": "_:N03fcccda2c7d4f818c4ba796657201f7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2771"
+      },
+      "sc:name": "HIX ID"
+    },
+    {
+      "@id": "_:Nc19644b22e274ae1b87498d078be32aa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:N2d5a4ce42f7c45c0925cff1345459cf6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:N67985e95e8ab441697b01233547d98dd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:Nd43384a3d1814708851f450735601f52",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Na188769e4ba442c9a458dd4565844392",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N6931949ef8a048bd90d9edcfb632401e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkp1020",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ghostkoala/web/www.kegg.jp",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2288,
+                            "citations": [
+                                {
+                                    "count": 10,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 68,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 111,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 158,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 200,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 242,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 261,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 278,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 292,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 299,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 348,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1016/j.jmb.2015.11.006",
+                            "pmid": "26585406",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "BlastKOALA and GhostKOALA: KEGG Tools for Functional Characterization of Genome and Metagenome Sequences.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/ghostkoala",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

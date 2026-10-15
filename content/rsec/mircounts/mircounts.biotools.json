@@ -1,0 +1,65 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2026-06-18T00:24:30.316906Z",
+    "biotoolsCURIE": "biotools:mircounts",
+    "biotoolsID": "mircounts",
+    "collectionID": [
+        "Galaxy Tools"
+    ],
+    "cost": "Free of charge",
+    "description": "Generates pre-miRNA and mature miRNA count tables from read alignments to\n  pre-miRNA sequences and a gff file, both downloaded from mirBase. Produces also read coverage plots of pre-miRNAs.",
+    "editPermission": {
+        "authors": [
+            "aniehues"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Read mapping",
+                    "uri": "http://edamontology.org/operation_3198"
+                },
+                {
+                    "term": "Sequence alignment",
+                    "uri": "http://edamontology.org/operation_0292"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/ARTbio/tools-artbio/tree/main/tools/mircounts",
+    "language": [
+        "Python",
+        "R",
+        "Shell"
+    ],
+    "lastUpdate": "2026-07-02T09:12:34.528282Z",
+    "license": "MIT",
+    "link": [
+        {
+            "type": [
+                "Other"
+            ],
+            "url": "http://artbio.fr"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/ARTbio/tools-artbio/tree/main/tools/mircounts"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "miRcounts",
+    "owner": "VKasalica",
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Transcriptomics",
+            "uri": "http://edamontology.org/topic_3308"
+        }
+    ]
+}

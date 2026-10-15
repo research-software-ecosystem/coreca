@@ -1,0 +1,794 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:ucsc_cell_browser:1.2.10/cmd/cells.ucsc.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 195,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btab503",
+                            "pmcid": "PMC8652023",
+                            "pmid": "34244710",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "UCSC Cell Browser: visualize your single-cell data.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:ucsc_cell_browser:1.2.11/cmd/cells.ucsc.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 195,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btab503",
+                            "pmcid": "PMC8652023",
+                            "pmid": "34244710",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "UCSC Cell Browser: visualize your single-cell data.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:ucsc_cell_browser:1.2.12/cmd/cells.ucsc.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 195,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btab503",
+                            "pmcid": "PMC8652023",
+                            "pmid": "34244710",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "UCSC Cell Browser: visualize your single-cell data.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:ucsc_cell_browser:1.2.13/cmd/cells.ucsc.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 195,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btab503",
+                            "pmcid": "PMC8652023",
+                            "pmid": "34244710",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "UCSC Cell Browser: visualize your single-cell data.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:ucsc_cell_browser:1.2.14/cmd/cells.ucsc.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 195,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btab503",
+                            "pmcid": "PMC8652023",
+                            "pmid": "34244710",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "UCSC Cell Browser: visualize your single-cell data.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:ucsc_cell_browser:1.2.15/cmd/cells.ucsc.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 195,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btab503",
+                            "pmcid": "PMC8652023",
+                            "pmid": "34244710",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "UCSC Cell Browser: visualize your single-cell data.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:ucsc_cell_browser:1.2.4/cmd/cells.ucsc.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 195,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btab503",
+                            "pmcid": "PMC8652023",
+                            "pmid": "34244710",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "UCSC Cell Browser: visualize your single-cell data.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:ucsc_cell_browser:1.2.5/cmd/cells.ucsc.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 195,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btab503",
+                            "pmcid": "PMC8652023",
+                            "pmid": "34244710",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "UCSC Cell Browser: visualize your single-cell data.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:ucsc_cell_browser:1.2.6/cmd/cells.ucsc.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 195,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btab503",
+                            "pmcid": "PMC8652023",
+                            "pmid": "34244710",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "UCSC Cell Browser: visualize your single-cell data.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:ucsc_cell_browser:1.2.7/cmd/cells.ucsc.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 195,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btab503",
+                            "pmcid": "PMC8652023",
+                            "pmid": "34244710",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "UCSC Cell Browser: visualize your single-cell data.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:ucsc_cell_browser:1.2.8/cmd/cells.ucsc.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 195,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btab503",
+                            "pmcid": "PMC8652023",
+                            "pmid": "34244710",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "UCSC Cell Browser: visualize your single-cell data.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

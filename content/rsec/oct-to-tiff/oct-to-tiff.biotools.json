@@ -1,0 +1,44 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2025-12-08T13:54:29.684754Z",
+    "biotoolsCURIE": "biotools:oct-to-tiff",
+    "biotoolsID": "oct-to-tiff",
+    "cost": "Free of charge",
+    "description": "A command line tool for converting optical coherence tomography angiography (OCTA) data.",
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://github.com/camlloyd/oct-to-tiff",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2025-12-10T22:41:05.503948Z",
+    "license": "BSD-3-Clause",
+    "name": "oct-to-tiff",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "camlloyd",
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Medical imaging",
+            "uri": "http://edamontology.org/topic_3384"
+        },
+        {
+            "term": "Ophthalmology",
+            "uri": "http://edamontology.org/topic_3417"
+        },
+        {
+            "term": "Tomography",
+            "uri": "http://edamontology.org/topic_3452"
+        }
+    ],
+    "version": [
+        "0.6.0"
+    ]
+}

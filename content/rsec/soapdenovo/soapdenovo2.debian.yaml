@@ -1,0 +1,27 @@
+package: soapdenovo2
+distribution: debian
+release: sid
+component: main
+version: '242'
+source: soapdenovo2
+homepage: http://soap.genomics.org.cn/soapdenovo.html
+license: unknown
+blend: debian-med
+description_md5: 16da701644d1da3089dbdf3255b39d5a
+registries:
+- entry: OMICS_00031
+  name: OMICtools
+- entry: SCR_014986
+  name: SciCrunch
+- entry: soapdenovo
+  name: bio.tools
+- entry: soapdenovo2
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/2047-217X-1-18
+popcon:
+- insts: 116
+  olde: 90
+  recent: 23
+  vote: 3

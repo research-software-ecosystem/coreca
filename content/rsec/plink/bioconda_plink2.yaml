@@ -1,0 +1,55 @@
+about:
+  description: 'PLINK 2.0 is a whole-genome association analysis toolset designed
+    to
+
+    handle VCF files, dosage data and multiallelic variants at biobank scale,
+
+    using its .pgen/.pvar/.psam fileset.
+
+    '
+  dev_url: https://github.com/chrchang/plink-ng
+  doc_url: https://www.cog-genomics.org/plink/2.0/
+  home: https://www.cog-genomics.org/plink/2.0/
+  license: GPL-3.0-or-later AND LGPL-3.0-or-later
+  license_family: GPL3
+  license_file:
+  - 2.0/COPYING
+  - 2.0/COPYING.LESSER
+  summary: Whole genome association analysis toolset (PLINK 2.0)
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - doi:10.1186/s13742-015-0047-8
+  - biotools:plink
+package:
+  name: plink2
+  version: 2.0.0a.7.8
+requirements:
+  build:
+  - null
+  - null
+  - null
+  - make
+  host:
+  - zlib
+  - zstd
+  - openblas
+  run:
+  - libopenblas
+source:
+  sha256: 58a8a9ecd7a64b4354f673c04d551adb53411968142d5e5acea2951b530aa4a7
+  url: https://github.com/chrchang/plink-ng/archive/refs/tags/v2.0.0-a.7.8.tar.gz
+test:
+  commands:
+  - plink2 --version | grep "PLINK v2.0.0-a.7.8"
+  - test -x "${PREFIX}/bin/pgen_compress"
+  - plink2 --dummy 200 500 --out dummy
+  - plink2 --pfile dummy --maf 0.05 --freq --pca 2 --out out
+  - test -s out.afreq
+  - test -s out.eigenvec

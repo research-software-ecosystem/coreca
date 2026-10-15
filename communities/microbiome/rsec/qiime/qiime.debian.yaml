@@ -1,0 +1,43 @@
+package: qiime
+distribution: debian
+release: sid
+component: main
+version: 2024.5.0
+source: qiime
+homepage: https://qiime2.org
+license: unknown
+blend: debian-med
+description_md5: 424f7ee49432e486e12845f0931cf9ac
+topics:
+- Microbial ecology
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - FASTQ
+  output:
+  - data: Report
+    formats:
+    - Text
+    - HTML
+  function:
+  - Analysis
+registries:
+- entry: OMICS_01521
+  name: OMICtools
+- entry: SCR_021258
+  name: SciCrunch
+- entry: qiime
+  name: bio.tools
+- entry: qiime2
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1038/s41587-019-0209-9
+tags:
+- tag: role::program
+popcon:
+- insts: 14
+  olde: 13
+  vote: 1

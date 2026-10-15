@@ -1,0 +1,28 @@
+package: mirtop
+distribution: debian
+release: sid
+component: main
+version: 0.4.30
+source: mirtop
+homepage: https://github.com/miRTop/mirtop
+license: unknown
+blend: debian-med
+description_md5: 84ca0e553994f8bd8ea4d86e532e4e28
+registries:
+- entry: OMICS_31718
+  name: OMICtools
+- entry: mirtop
+  name: bio.tools
+- entry: mirtop
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.7490/f1000research.1115724.1
+- key: doi
+  rank: 1
+  value: 10.1093/bioinformatics/btz675
+popcon:
+- insts: 119
+  olde: 90
+  recent: 23
+  vote: 6

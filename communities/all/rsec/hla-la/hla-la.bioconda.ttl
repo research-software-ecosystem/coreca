@@ -1,0 +1,11 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix schema1: <http://schema.org/> .
+
+bioconda:hla-la a schema1:SoftwareApplication ;
+    schema1:alternateName "HLA typing from short and long reads" ;
+    schema1:description "HLA typing from short and long reads" ;
+    schema1:license "GPL" ;
+    schema1:name "hla-la" ;
+    schema1:softwareVersion "1.0.4" ;
+    schema1:url "https://github.com/DiltheyLab/HLA-LA" .
+

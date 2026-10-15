@@ -1,0 +1,201 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2016-07-11T10:42:10Z",
+    "biotoolsCURIE": "biotools:3dbionotes",
+    "biotoolsID": "3dbionotes",
+    "collectionID": [
+        "CNB-CSIC",
+        "COVID-19",
+        "ELIXIR-ES",
+        "IMPaCT-ISCIII",
+        "INB"
+    ],
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "coss@cnb.csic.es",
+            "name": "Carlos Oscar Sorzano",
+            "orcidid": "https://orcid.org/0000-0002-9473-283X",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://3dbionotes.cnb.csic.es"
+        },
+        {
+            "name": "CORBEL",
+            "note": "CORBEL [INFRADEV-01-2014-1, Proposal 654248]",
+            "typeEntity": "Funding agency"
+        },
+        {
+            "name": "CSIC",
+            "note": "CSIC [PIE/COVID-19 number 202020E079]",
+            "typeEntity": "Funding agency"
+        },
+        {
+            "name": "Comunidad de Madrid",
+            "note": "Comunidad de Madrid through grant CAM [S2017/BMD-3817]",
+            "typeEntity": "Funding agency"
+        },
+        {
+            "name": "EOSC-Life",
+            "note": "EOSC Life [INFRAEOSC-04-2018, Proposal: 824087]",
+            "typeEntity": "Funding agency"
+        },
+        {
+            "name": "Instituto de Salud Carlos III",
+            "note": "Instituto de Salud Carlos III: PT17/0009/0010 [ISCIII-SGEFI/ERDF]",
+            "typeEntity": "Funding agency"
+        },
+        {
+            "name": "Spanish Ministry of Science and Innovation",
+            "note": "Spanish Ministry of Science and Innovation through projects [SEV 2017-0712, FPU-2015/264, PID2019-104757RB-I00/AEI/10.13039/501100011033]",
+            "typeEntity": "Funding agency"
+        },
+        {
+            "name": "ELIXIR-ES",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        },
+        {
+            "name": "INB",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        },
+        {
+            "name": "cnb.csic.es",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        }
+    ],
+    "description": "Web based application designed to integrate protein structure, protein sequence and protein annotations in a unique graphical environment. The current version of the application offers a unified, enriched and interactive view of EMDB volumes, PDB structures and Uniprot sequences where the protein annotations stored in Uniprot, Immune Epitope DB, Phospho Site Plus, BioMuta and dSysMap can be explored interactively at sequence and structural level.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://3dbionotes.cnb.csic.es/ws/help"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "coss"
+        ],
+        "type": "group"
+    },
+    "elixirCommunity": [
+        "3D-BioInfo"
+    ],
+    "elixirNode": [
+        "Spain"
+    ],
+    "elixirPlatform": [
+        "Interoperability"
+    ],
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "EMDB ID",
+                        "uri": "http://edamontology.org/data_1146"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "PDB ID",
+                        "uri": "http://edamontology.org/data_1127"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "UniProt accession",
+                        "uri": "http://edamontology.org/data_3021"
+                    }
+                }
+            ],
+            "note": "Integration of protein structure, protein sequence and protein annotations in a unique graphical environment.",
+            "operation": [
+                {
+                    "term": "Data retrieval",
+                    "uri": "http://edamontology.org/operation_2422"
+                },
+                {
+                    "term": "Sequence visualisation",
+                    "uri": "http://edamontology.org/operation_0564"
+                },
+                {
+                    "term": "Structure visualisation",
+                    "uri": "http://edamontology.org/operation_0570"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://3dbionotes.cnb.csic.es/ws",
+    "language": [
+        "SQL"
+    ],
+    "lastUpdate": "2026-02-05T14:26:24.786970Z",
+    "license": "Apache-2.0",
+    "maturity": "Mature",
+    "name": "3DBIONOTES",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "coss",
+    "publication": [
+        {
+            "doi": "10.1016/j.jsb.2016.02.007",
+            "type": [
+                "Primary"
+            ]
+        },
+        {
+            "doi": "10.1093/bioinformatics/btab397",
+            "type": [
+                "Primary"
+            ]
+        },
+        {
+            "doi": "10.1093/bioinformatics/btx483",
+            "type": [
+                "Primary"
+            ]
+        },
+        {
+            "doi": "10.1093/bioinformatics/btz118",
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Data integration and warehousing",
+            "uri": "http://edamontology.org/topic_3366"
+        },
+        {
+            "term": "Molecular biology",
+            "uri": "http://edamontology.org/topic_3047"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "v3"
+    ]
+}

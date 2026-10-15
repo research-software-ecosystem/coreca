@@ -1,0 +1,77 @@
+{
+    "Archs": "x64",
+    "Author": "Etienne Becht [cre, aut]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.0.0)",
+        "flowCore"
+    ],
+    "Description": "Pipeline to analyze and merge data files produced by BioLegend's LEGENDScreen or BD Human Cell Surface Marker Screening Panel (BD Lyoplates).",
+    "Imports": [
+        "Biobase",
+        "generics",
+        "grDevices",
+        "graphics",
+        "grid",
+        "gtools",
+        "matlab",
+        "methods",
+        "parallel",
+        "pbapply",
+        "png",
+        "raster",
+        "stats",
+        "utils",
+        "uwot",
+        "xgboost (>= 3.0.0)"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "faa8e766fbeaf81a3fbb5e319a06ddc6",
+    "Maintainer": "Etienne Becht <etienne.becht@protonmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "infinityFlow",
+    "Rank": 1617,
+    "Rfiles": [
+        "vignettes/infinityFlow/inst/doc/basic_usage.R",
+        "vignettes/infinityFlow/inst/doc/training_non_default_regression_models.R"
+    ],
+    "Suggests": [
+        "e1071",
+        "glmnetUtils",
+        "keras",
+        "knitr",
+        "rmarkdown",
+        "tensorflow"
+    ],
+    "Title": "Augmenting Massively Parallel Cytometry Experiments Using Multivariate Non-Linear Regressions",
+    "Version": "1.22.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "CellBasedAssays",
+        "FlowCytometry",
+        "Proteomics",
+        "SingleCell",
+        "Software"
+    ],
+    "dependencyCount": "45",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "aebfdae",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/infinityFlow",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/infinityFlow_1.22.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/infinityFlow_1.22.0.tgz",
+    "source.ver": "src/contrib/infinityFlow_1.22.0.tar.gz",
+    "vignetteTitles": [
+        "Basic usage of the infinityFlow package",
+        "Training non default regression models"
+    ],
+    "vignettes": [
+        "vignettes/infinityFlow/inst/doc/basic_usage.html",
+        "vignettes/infinityFlow/inst/doc/training_non_default_regression_models.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/infinityFlow_1.22.0.zip"
+}

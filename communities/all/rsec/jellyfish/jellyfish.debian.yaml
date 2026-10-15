@@ -1,0 +1,27 @@
+package: jellyfish
+distribution: debian
+release: sid
+component: main
+version: 2.3.1
+source: jellyfish
+homepage: https://www.genome.umd.edu/jellyfish.html
+license: unknown
+blend: debian-med
+description_md5: 33c2d211a341ae9429c6f8ced355efd0
+registries:
+- entry: OMICS_01056
+  name: OMICtools
+- entry: SCR_005491
+  name: SciCrunch
+- entry: jellyfish
+  name: bio.tools
+- entry: jellyfish
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btr011
+popcon:
+- insts: 149
+  olde: 115
+  recent: 28
+  vote: 6

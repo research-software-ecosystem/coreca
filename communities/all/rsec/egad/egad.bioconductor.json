@@ -1,0 +1,60 @@
+{
+    "Author": "Sara Ballouz [aut, cre], Melanie Weber [aut, ctb], Paul Pavlidis [aut], Jesse Gillis [aut, ctb]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R(>= 3.5)"
+    ],
+    "Description": "The package implements a series of highly efficient tools to calculate functional properties of networks based on guilt by association methods.",
+    "Imports": [
+        "Biobase",
+        "GEOquery",
+        "MASS",
+        "RColorBrewer",
+        "RCurl",
+        "gplots",
+        "igraph",
+        "impute",
+        "limma",
+        "methods",
+        "plyr",
+        "zoo"
+    ],
+    "License": "GPL-2",
+    "MD5sum": "7a2d37d76cf61000037cce68c12690d9",
+    "Maintainer": "Sara Ballouz <sarahballouz@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "EGAD",
+    "Rank": 1300,
+    "Suggests": [
+        "knitr",
+        "markdown",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Extending guilt by association by degree",
+    "Version": "1.40.0",
+    "VignetteBuilder": "rmarkdown",
+    "biocViews": [
+        "FunctionalGenomics",
+        "FunctionalPrediction",
+        "GenePrediction",
+        "GraphAndNetwork",
+        "Network",
+        "NetworkEnrichment",
+        "Software",
+        "SystemsBiology"
+    ],
+    "dependencyCount": "87",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "5db736e",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/EGAD",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/EGAD_1.40.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/EGAD_1.40.0.tgz",
+    "source.ver": "src/contrib/EGAD_1.40.0.tar.gz",
+    "win.binary.ver": "bin/windows/contrib/4.6/EGAD_1.40.0.zip"
+}

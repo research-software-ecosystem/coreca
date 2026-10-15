@@ -1,0 +1,25 @@
+package: mapsembler2
+distribution: debian
+release: sid
+component: main
+version: 2.2.4
+source: mapsembler2
+homepage: http://colibread.inria.fr/mapsembler2/
+license: unknown
+blend: debian-med
+description_md5: a2484fb65a6be17eb178830b19618b72
+registries:
+- entry: OMICS_18310
+  name: OMICtools
+- entry: mapsembler
+  name: bio.tools
+- entry: mapsembler2
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/1471-2105-13-48
+popcon:
+- insts: 117
+  olde: 89
+  recent: 22
+  vote: 6

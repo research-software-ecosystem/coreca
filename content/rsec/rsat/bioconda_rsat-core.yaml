@@ -1,0 +1,121 @@
+about:
+  description: Detection and analysis of regulatory signals in non-coding sequences.
+  home: http://rsat.eu
+  license: GNU Affero General Public License v3
+  license_file: LICENSE.txt
+  summary: Regulatory Sequence Analysis Tools (RSAT)
+build:
+  number: 1
+  run_exports:
+  - null
+  script_env:
+  - LC_ALL=POSIX
+  skip: true
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:rsat
+  - doi:10.1093/nar/gky317
+  notes: "This package installs RSAT tools to analyse cis-regulatory elements, supporting:\n\
+    * motif discovery (support genome-wide data sets like ChIP-seq)\n* transcription\
+    \ factor binding motif analysis (quality assessment, comparisons and clustering)\n\
+    * comparative genomics\n* analysis of regulatory variations\n\nDocumentation can\
+    \ be found at https://rsa-tools.github.io/installing-RSAT\n\nNote that this package\
+    \ does not include genome sequences nor DNA motif collections, \nplease check\
+    \ https://rsa-tools.github.io/installing-RSAT/RSAT-Docker/RSAT-Docker-tuto.html\n\
+    to learn how to add them in your system."
+package:
+  name: rsat-core
+  version: 2025.04.04
+requirements:
+  build:
+  - null
+  - null
+  - null
+  - make
+  - r-base 4.2.3
+  - openssl 3.5.4
+  run:
+  - python
+  - numpy
+  - scipy
+  - matplotlib-base
+  - httplib2
+  - pygraphviz
+  - snakemake >=7.0
+  - pyyaml
+  - opencv
+  - r-base 4.2.3
+  - openssl 3.5.4
+  - r-gplots
+  - r-jpeg
+  - r-png
+  - r-ggplot2
+  - r-dynamictreecut
+  - r-reshape2
+  - r-dendextend
+  - r-gridextra
+  - r-egg
+  - r-flux
+  - r-zoo
+  - r-rcolorbrewer
+  - r-rjsonio
+  - r-dplyr
+  - r-data.table
+  - bioconductor-qvalue
+  - perl
+  - perl-app-cpanminus
+  - perl-bio-das
+  - perl-yaml
+  - perl-cgi
+  - perl-statistics-distributions
+  - perl-math-cdf
+  - perl-algorithm-cluster
+  - perl-file-spec
+  - perl-posix
+  - perl-data-dumper
+  - perl-io-all
+  - perl-object-insideout
+  - perl-class-std-fast
+  - perl-dbi
+  - perl-dbd-mysql
+  - perl-db_file
+  - perl-lwp-simple
+  - perl-json
+  - libzlib >=1.3.1,<2.0a0
+  - zlib >=1.3.1,<2.0a0
+  - perl-xml-parser
+  - perl-log-log4perl
+  - perl-number-format
+  - perl-readonly
+  - perl-http-tiny
+  - perl-net-http >=6.18
+  - perl-net-ssleay
+  - perl-lockfile-simple
+  - perl-ensembl-genomes
+  - perl-parallel-forkmanager
+  - perl-mce-shared
+  - perl-postscript-simple
+  - perl-email-simple
+  - perl-libwww-perl
+  - seqlogo
+  - weblogo
+  - d3
+  - ghostscript
+  - libpq
+source:
+  sha256: e1391de42c9115f1675f6399f02b5e364fc229d4ae185643a78ac75d1fe97c62
+  url: https://github.com/rsa-tools/rsat-code/archive/refs/tags/2025.04.04.tar.gz
+test:
+  commands:
+  - rsat -h
+  - rsat oligo-analysis -h
+  - rsat random-seq -l 100 -n 2
+  - rsat random-seq -l 100 -n 2 | rsat purge-sequence
+  - rsat random-motif -l 10
+  - rsat feature-map -h
+  - rsat info-gibbs -h
+  - rsat count-words -h
+  - rsat matrix-scan-quick -h
+  - rsat matrix-clustering -h

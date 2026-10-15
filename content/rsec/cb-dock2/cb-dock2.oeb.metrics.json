@@ -1,0 +1,109 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cb-dock2/web/cadd.labshare.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 891,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 61,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 140,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 334,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 346,
+                                    "year": 2026
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkac394",
+                            "pmcid": "PMC9252749",
+                            "pmid": "35609983",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "CB-Dock2: improved protein-ligand blind docking by integrating cavity detection, docking and homologous template fitting.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 307,
+                        "url": "https://cadd.labshare.cn/cb-dock2/php/maintenance.php"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/cb-dock2",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 307,
+                        "url": "https://cadd.labshare.cn/cb-dock2/php/maintenance.php"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

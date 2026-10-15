@@ -1,0 +1,79 @@
+{
+    "Author": "Tallulah Andrews <tallulandrews@gmail.com>",
+    "BugReports": "https://github.com/tallulandrews/M3Drop/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.4)",
+        "numDeriv"
+    ],
+    "Description": "This package fits a model to the pattern of dropouts in single-cell RNASeq data. This model is used as a null to identify significantly variable (i.e. differentially expressed) genes for use in downstream analysis, such as clustering cells. Also includes an method for calculating exact Pearson residuals in UMI-tagged data using a library-size aware negative binomial model.",
+    "Imports": [
+        "Hmisc",
+        "Matrix",
+        "RColorBrewer",
+        "bbmle",
+        "gplots",
+        "grDevices",
+        "graphics",
+        "irlba",
+        "matrixStats",
+        "methods",
+        "reldist",
+        "scater",
+        "statmod",
+        "stats"
+    ],
+    "License": "GPL (>=2)",
+    "MD5sum": "06baea82c699c43b4a1ba6c3d5b42662",
+    "Maintainer": "Tallulah Andrews <tallulandrews@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "M3Drop",
+    "Rank": 540,
+    "Rfiles": [
+        "vignettes/M3Drop/inst/doc/M3Drop_Vignette.R"
+    ],
+    "Suggests": [
+        "Biobase",
+        "M3DExampleData",
+        "ROCR",
+        "Seurat",
+        "SingleCellExperiment",
+        "knitr"
+    ],
+    "Title": "Michaelis-Menten Modelling of Dropouts in single-cell RNASeq",
+    "URL": "https://github.com/tallulandrews/M3Drop",
+    "Version": "1.38.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DifferentialExpression",
+        "DimensionReduction",
+        "FeatureExtraction",
+        "GeneExpression",
+        "RNASeq",
+        "Sequencing",
+        "Software",
+        "Transcriptomics"
+    ],
+    "dependencyCount": "153",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "24246a6",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/M3Drop",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": true,
+    "importsMe": [
+        "scMerge"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/M3Drop_1.38.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/M3Drop_1.38.0.tgz",
+    "source.ver": "src/contrib/M3Drop_1.38.0.tar.gz",
+    "vignetteTitles": [
+        "Introduction to M3Drop"
+    ],
+    "vignettes": [
+        "vignettes/M3Drop/inst/doc/M3Drop_Vignette.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/M3Drop_1.38.0.zip"
+}

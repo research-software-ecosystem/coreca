@@ -1,0 +1,53 @@
+about:
+  dev_url: https://github.com/COMBINE-lab/salmon
+  doc_url: https://combine-lab.github.io/salmon
+  home: https://github.com/COMBINE-lab/salmon
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file:
+  - LICENSE
+  - THIRDPARTY.yml
+  summary: Highly-accurate & wicked fast transcript-level quantification from RNA-seq
+    reads (salmon 2.0, Rust).
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:salmon
+  - usegalaxy-eu:salmon
+  - usegalaxy-eu:salmonquantmerge
+  - doi:10.1038/nmeth.4197
+  notes: "salmon 2.0 is a from-scratch Rust rewrite of the C++ tool. It uses a new\n\
+    index format and CANNOT read C++ (pufferfish) indices \u2014 rebuild indices with\n\
+    2.0. quant.sf and the inferential-replicate outputs remain compatible with\ntximport/fishpond/swish.\
+    \ The final C++ release (1.12.0) is packaged\nseparately as `salmon-cpp` for reproducibility.\
+    \ Single-cell quantification\nmoved to the alevin-fry ecosystem."
+  recipe-maintainers:
+  - rob-p
+  - k3yavi
+  - mjsteinbaugh
+package:
+  name: salmon
+  version: 2.8.0
+requirements:
+  build:
+  - null
+  - null
+  - null
+  - cargo-bundle-licenses
+  host: []
+  run: []
+source:
+- sha256: 298e6fe9980e4d60e4a4ca8f043d3446e6a1ed0777487331224151eb93ae7dd4
+  url: https://github.com/COMBINE-lab/salmon/archive/refs/tags/v2.8.0.tar.gz
+test:
+  commands:
+  - salmon --version
+  - salmon --help
+  - salmon index --help
+  - salmon quant --help

@@ -1,0 +1,97 @@
+{
+    "additionDate": "2021-01-18T07:07:07Z",
+    "biotoolsCURIE": "biotools:pisa-sparky",
+    "biotoolsID": "pisa-sparky",
+    "confidence_flag": "tool",
+    "credit": [
+        {
+            "email": "wlee44@wisc.edu",
+            "name": "Woonghee Lee",
+            "orcidid": "https://orcid.org/0000-0002-0964-203X",
+            "typeEntity": "Person"
+        },
+        {
+            "email": "veglia001@umn.edu",
+            "name": "Gianluigi Veglia",
+            "typeEntity": "Person"
+        }
+    ],
+    "description": "PISA-SPARKY is an interactive SPARKY plugin to analyze oriented solid-state NMR spectra of helical membrane proteins.",
+    "download": [
+        {
+            "type": "Downloads page",
+            "url": "http://pine.nmrfam.wisc.edu/download_packages.html"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein geometry calculation",
+                    "uri": "http://edamontology.org/operation_0249"
+                },
+                {
+                    "term": "Virtual screening",
+                    "uri": "http://edamontology.org/operation_3938"
+                },
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://sbgrid.org",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2025-12-10T20:35:26.528409Z",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/weberdak/pisa.py"
+        }
+    ],
+    "name": "PISA-SPARKY",
+    "owner": "zsmag19",
+    "publication": [
+        {
+            "doi": "10.1093/BIOINFORMATICS/BTAA019",
+            "metadata": {
+                "citationCount": 9,
+                "date": "2020-05-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "PISA-SPARKY: An interactive SPARKY plugin to analyze oriented solid-state NMR spectra of helical membrane proteins"
+            },
+            "pmcid": "PMC7203746",
+            "pmid": "31930377"
+        }
+    ],
+    "toolType": [
+        "Plug-in"
+    ],
+    "topic": [
+        {
+            "term": "MRI",
+            "uri": "http://edamontology.org/topic_3444"
+        },
+        {
+            "term": "Membrane and lipoproteins",
+            "uri": "http://edamontology.org/topic_0820"
+        },
+        {
+            "term": "NMR",
+            "uri": "http://edamontology.org/topic_0593"
+        },
+        {
+            "term": "Workflows",
+            "uri": "http://edamontology.org/topic_0769"
+        }
+    ],
+    "validated": 1
+}

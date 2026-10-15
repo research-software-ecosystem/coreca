@@ -1,0 +1,188 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/ebird",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N91635f0bdb8e4250a107cbe8b6d8d7fb"
+        },
+        {
+          "@id": "_:N1046897c3a54433cad05134580e155c0"
+        },
+        {
+          "@id": "_:N39e30eb5a78544efad174b612ed0313f"
+        },
+        {
+          "@id": "_:N1b715c9b5d114c1dbd8d93a3f75edaa3"
+        },
+        {
+          "@id": "_:N60135ad133fe4d8981627455304eb076"
+        },
+        {
+          "@id": "_:N52675bbc0f0040ae99324d15d98e4e55"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N48e1ba85e18c4343bcd88454a7191a29"
+        },
+        {
+          "@id": "_:Nbf816cc8b1eb47e7a2a3fff0921b5e82"
+        },
+        {
+          "@id": "_:N646f8071744f4f58bff12fc3c323ebec"
+        },
+        {
+          "@id": "_:N08b98f7872db4dc8848253a634734715"
+        },
+        {
+          "@id": "_:N73fd3b45d4e64f59a680dc4717471833"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Database portal",
+        "Web API"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3050"
+      },
+      "sc:description": "eBird gathers knowledge from birdwatchers in the form of checklists of birds, maps, audio recordings .",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3431"
+        },
+        {
+          "@id": "edam:operation_2422"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:name": "eBird",
+      "sc:url": "https://ebird.org/home"
+    },
+    {
+      "@id": "_:N91635f0bdb8e4250a107cbe8b6d8d7fb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3720"
+      },
+      "sc:name": "Geographic location"
+    },
+    {
+      "@id": "_:N1046897c3a54433cad05134580e155c0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3546"
+      },
+      "sc:name": "Image metadata"
+    },
+    {
+      "@id": "_:N39e30eb5a78544efad174b612ed0313f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:N1b715c9b5d114c1dbd8d93a3f75edaa3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3720"
+      },
+      "sc:name": "Geographic location"
+    },
+    {
+      "@id": "_:N60135ad133fe4d8981627455304eb076",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2909"
+      },
+      "sc:name": "Organism name"
+    },
+    {
+      "@id": "_:N52675bbc0f0040ae99324d15d98e4e55",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:N48e1ba85e18c4343bcd88454a7191a29",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0957"
+      },
+      "sc:name": "Database metadata"
+    },
+    {
+      "@id": "_:Nbf816cc8b1eb47e7a2a3fff0921b5e82",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3720"
+      },
+      "sc:name": "Geographic location"
+    },
+    {
+      "@id": "_:N646f8071744f4f58bff12fc3c323ebec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3905"
+      },
+      "sc:name": "Histogram"
+    },
+    {
+      "@id": "_:N08b98f7872db4dc8848253a634734715",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2019"
+      },
+      "sc:name": "Map data"
+    },
+    {
+      "@id": "_:N73fd3b45d4e64f59a680dc4717471833",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:name": "Raw image"
+    }
+  ]
+}

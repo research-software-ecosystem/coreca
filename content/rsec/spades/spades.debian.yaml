@@ -1,0 +1,48 @@
+package: spades
+distribution: debian
+release: sid
+component: main
+version: 4.0.0+really3.15.5
+source: spades
+homepage: https://github.com/ablab/spades
+license: unknown
+blend: debian-med
+description_md5: d8ff9082fb3dd433b6c561c43ac72ddb
+registries:
+- entry: OMICS_01502
+  name: OMICtools
+- entry: SCR_000131
+  name: SciCrunch
+- entry: spades
+  name: bio.tools
+- entry: spades
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1089/cmb.2012.0021
+- key: doi
+  rank: 1
+  value: 10.1007/978-3-642-37195-0_13
+- key: doi
+  rank: 2
+  value: 10.1093/bioinformatics/btu266
+- key: doi
+  rank: 3
+  value: 10.1093/bioinformatics/btv337
+- key: doi
+  rank: 4
+  value: 10.1093/bioinformatics/btw493
+- key: doi
+  rank: 5
+  value: 10.1101/gr.213959.116
+- key: doi
+  rank: 6
+  value: 10.1093/gigascience/giz100
+- key: doi
+  rank: 7
+  value: 10.1101/gr.243477.118
+popcon:
+- insts: 143
+  olde: 109
+  recent: 31
+  vote: 3

@@ -1,0 +1,279 @@
+{
+  "@context": {
+    "biii": "https://biii.eu/",
+    "bioconda": "https://github.com/bioconda/bioconda-recipes/tree/master/recipes/",
+    "bioschemas": "http://bioschemas.org/",
+    "biotools": "https://bio.tools/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "galaxytool": "https://github.com/galaxyproject/tools-iuc/tree/master/tools/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "schema1": "http://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "workflowhub": "https://workflowhub.eu/workflows/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://usegalaxy.eu",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.org",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.cz",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "http://galaxy.inf.ethz.ch",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.ca",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.org.au",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://galaxy.mesocentre.uca.fr",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://galaxytrakr.org",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.be",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "galaxytool:plasmidfinder",
+      "@type": "schema1:SoftwareApplication",
+      "bioschemas:output": [
+        "json",
+        "fasta",
+        "tabular",
+        "txt"
+      ],
+      "schema1:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3673"
+        },
+        {
+          "@id": "edam:data_0925"
+        },
+        {
+          "@id": "edam:operation_0310"
+        },
+        {
+          "@id": "edam:topic_0196"
+        },
+        {
+          "@id": "edam:operation_2429"
+        },
+        {
+          "@id": "edam:topic_0102"
+        },
+        {
+          "@id": "edam:topic_0632"
+        }
+      ],
+      "schema1:codeRepository": {
+        "@id": "https://bitbucket.org/genomicepidemiology/plasmidfinder/src/master/"
+      },
+      "schema1:dateCreated": "2022-09-19",
+      "schema1:description": "Identify plasmids in total or partial sequenced isolates of bacteria.",
+      "schema1:encodingFormat": [
+        "json",
+        "fasta",
+        "tabular",
+        "txt"
+      ],
+      "schema1:featureList": [
+        {
+          "@id": "edam:operation_0525"
+        },
+        {
+          "@id": "edam:operation_3440"
+        },
+        {
+          "@id": "edam:operation_3216"
+        },
+        {
+          "@id": "edam:operation_3840"
+        }
+      ],
+      "schema1:identifier": [
+        {
+          "@id": "biotools:PlasmidFinder"
+        },
+        {
+          "@id": "bioconda:plasmidfinder"
+        }
+      ],
+      "schema1:isPartOf": [
+        {
+          "@id": "workflowhub:1513?version=1"
+        },
+        {
+          "@id": "workflowhub:1050?version=13"
+        },
+        {
+          "@id": "https://usegalaxy.fr/published/workflow?id=7964ddc68853458f"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=ffd365c037373673"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=d0339e4a794f4922"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=2a1dc58e51d5f01a"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=1306ed083d91a852"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=fd63b9884fda75b6"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=2c1a6da84d891cf2"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=b1afc8d1e81fc904"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=4a218fb93d78ba67"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=bcd50e655809cfcb"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=36ea584e0f60893e"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=8792eaecb69fbc26"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=61948fcaefa1418a"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=d8db0b2e30370b84"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=a18aed4b03ffd27e"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=dfb8e0f3c534000e"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=6b69ab27c565257b"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=3f5fe28793ed0c6c"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=67ca17ab34b10772"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=49da012e2839c046"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=649cdc14757e5755"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=3940186d02245b1d"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=8cb8a588a0495cfa"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=04c5ea133de3204c"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=993534c11310a207"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=d2a5f6a5181aada5"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=4f8bdd61c524b901"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=09ec031656620fb5"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=05f3abecd4ddd4a1"
+        },
+        {
+          "@id": "https://galaxy.mesocentre.uca.fr"
+        },
+        {
+          "@id": "https://galaxytrakr.org"
+        },
+        {
+          "@id": "http://galaxy.inf.ethz.ch"
+        },
+        {
+          "@id": "https://usegalaxy.be"
+        },
+        {
+          "@id": "https://usegalaxy.ca"
+        },
+        {
+          "@id": "https://usegalaxy.cz"
+        },
+        {
+          "@id": "https://usegalaxy.eu"
+        },
+        {
+          "@id": "https://usegalaxy.fr"
+        },
+        {
+          "@id": "https://usegalaxy.org.au"
+        },
+        {
+          "@id": "https://usegalaxy.org"
+        }
+      ],
+      "schema1:keywords": "Sequence Analysis",
+      "schema1:name": "plasmidfinder",
+      "schema1:softwareVersion": "2.1.6",
+      "schema1:url": {
+        "@id": "https://github.com/galaxyproject/tools-iuc/tree/main/tools/plasmidfinder"
+      }
+    },
+    {
+      "@id": "https://usegalaxy.fr",
+      "@type": "schema1:WebSite"
+    }
+  ]
+}

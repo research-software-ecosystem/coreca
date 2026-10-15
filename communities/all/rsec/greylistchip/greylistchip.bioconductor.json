@@ -1,0 +1,72 @@
+{
+    "Author": "Matt Eldridge [cre], Gord Brown [aut]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "GenomicRanges",
+        "R (>= 4.0)",
+        "methods"
+    ],
+    "Description": "Identify regions of ChIP experiments with high signal in the input, that lead to spurious peaks during peak calling. Remove reads aligning to these regions prior to peak calling, for cleaner ChIP analysis.",
+    "Imports": [
+        "BSgenome",
+        "GenomicAlignments",
+        "MASS",
+        "Rsamtools",
+        "Seqinfo",
+        "SummarizedExperiment",
+        "parallel",
+        "rtracklayer",
+        "stats",
+        "utils"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "3c0b9201ffc0de73e0a8c242421b1b2a",
+    "Maintainer": "Matt Eldridge <matthew.eldridge@cruk.cam.ac.uk>",
+    "NeedsCompilation": "no",
+    "Package": "GreyListChIP",
+    "Rank": 239,
+    "Rfiles": [
+        "vignettes/GreyListChIP/inst/doc/GreyList-demo.R"
+    ],
+    "Suggests": [
+        "BSgenome.Hsapiens.UCSC.hg19",
+        "BiocGenerics",
+        "BiocStyle",
+        "RUnit"
+    ],
+    "Title": "Grey Lists -- Mask Artefact Regions Based on ChIP Inputs",
+    "Version": "1.44.0",
+    "biocViews": [
+        "Alignment",
+        "ChIPSeq",
+        "Coverage",
+        "DifferentialPeakCalling",
+        "GenomeAnnotation",
+        "Preprocessing",
+        "Sequencing",
+        "Software"
+    ],
+    "dependencyCount": "59",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "2030b14",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/GreyListChIP",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "DiffBind",
+        "epigraHMM"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/GreyListChIP_1.44.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/GreyListChIP_1.44.0.tgz",
+    "source.ver": "src/contrib/GreyListChIP_1.44.0.tar.gz",
+    "vignetteTitles": [
+        "Generating Grey Lists from Input Libraries"
+    ],
+    "vignettes": [
+        "vignettes/GreyListChIP/inst/doc/GreyList-demo.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/GreyListChIP_1.44.0.zip"
+}

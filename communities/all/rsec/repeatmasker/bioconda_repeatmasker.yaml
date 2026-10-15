@@ -1,0 +1,44 @@
+about:
+  dev_url: https://github.com/Dfam-consortium/RepeatMasker
+  doc_url: https://www.repeatmasker.org/RepeatMasker
+  home: https://www.repeatmasker.org/RepeatMasker
+  license: Open Software License v2.1
+  summary: RepeatMasker is a program that screens DNA sequences for interspersed repeats
+    and low complexity DNA sequences.
+build:
+  noarch: generic
+  number: 0
+  run_exports:
+  - null
+extra:
+  identifiers:
+  - biotools:repeatmasker
+  - usegalaxy-eu:repeatmasker_wrapper
+  recipe-maintainers:
+  - mencian
+  - TobyBaril
+package:
+  name: repeatmasker
+  version: 4.2.4
+requirements:
+  host:
+  - perl
+  - rmblast >=2.17.0
+  - h5py
+  - trf
+  - famdb
+  run:
+  - rmblast >=2.17.0
+  - hmmer
+  - trf
+  - perl
+  - h5py
+  - gzip
+  - wget
+  - famdb
+source:
+  sha256: 7407b42909c64b7ae080efb737f3f725327be81ace1ec0cd9dc13c4a503885d7
+  url: https://www.repeatmasker.org/RepeatMasker/RepeatMasker-4.2.4.tar.gz
+test:
+  commands:
+  - RepeatMasker | grep "RepeatMasker - Mask repetitive DNA" > /dev/null

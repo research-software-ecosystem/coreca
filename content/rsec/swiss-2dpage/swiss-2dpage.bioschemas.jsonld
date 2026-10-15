@@ -1,0 +1,252 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1002/pmic.200300830",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/swiss-2dpage",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N025a6477e9cd461e997b4f9c29c376c5"
+        },
+        {
+          "@id": "_:N38488b2b55904f739fbcdf676127629e"
+        },
+        {
+          "@id": "_:Nf1145e9c36fd457089c8cd3b67e8cb18"
+        },
+        {
+          "@id": "_:Ncc6abbcd72b84ab09bfd1d3654397e4b"
+        },
+        {
+          "@id": "_:N6fc2bbc7c23c4a7e980ba6b66ed32d3e"
+        },
+        {
+          "@id": "_:N8d87145c2bfc4494b5330b1d951952a7"
+        },
+        {
+          "@id": "_:Naecb05ec277748d99a9f9609ac65a02d"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N13ef35678b5144dc9460b5bc0723535d"
+        },
+        {
+          "@id": "_:N20d1a58e54a5489fa5aab0766bbf9609"
+        },
+        {
+          "@id": "_:N80aa45a5dfcb4801b1ba30cc2042f915"
+        },
+        {
+          "@id": "_:N6e8c12a3a76e4f4391a46f55c5fa390b"
+        },
+        {
+          "@id": "_:N6280b476ee964d91bc74261ebf8c678a"
+        },
+        {
+          "@id": "_:N89d3523c20c749a9afbb7ae7bed24c38"
+        },
+        {
+          "@id": "_:N6206403c10ba4f96af0cfc411313741a"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0121"
+      },
+      "sc:citation": [
+        "pubmed:15274128",
+        {
+          "@id": "https://doi.org/10.1002/pmic.200300830"
+        }
+      ],
+      "sc:contributor": "SIB Swiss Institute of Bioinformatics",
+      "sc:description": "Data on proteins identified on various 2-D PAGE and SDS-PAGE reference maps.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "SWISS-2DPAGE",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://world-2dpage.expasy.org/swiss-2dpage/docs/manch2d.html"
+      },
+      "sc:url": "http://www.expasy.org/ch2d/"
+    },
+    {
+      "@id": "_:N025a6477e9cd461e997b4f9c29c376c5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0989"
+      },
+      "sc:name": "Protein identifier"
+    },
+    {
+      "@id": "_:N38488b2b55904f739fbcdf676127629e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2791"
+      },
+      "sc:name": "Reference map name (SWISS-2DPAGE)"
+    },
+    {
+      "@id": "_:Nf1145e9c36fd457089c8cd3b67e8cb18",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2791"
+      },
+      "sc:name": "Reference map name (SWISS-2DPAGE)"
+    },
+    {
+      "@id": "_:Ncc6abbcd72b84ab09bfd1d3654397e4b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2374"
+      },
+      "sc:name": "Spot serial number"
+    },
+    {
+      "@id": "_:N6fc2bbc7c23c4a7e980ba6b66ed32d3e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2374"
+      },
+      "sc:name": "Spot serial number"
+    },
+    {
+      "@id": "_:N8d87145c2bfc4494b5330b1d951952a7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:Naecb05ec277748d99a9f9609ac65a02d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N13ef35678b5144dc9460b5bc0723535d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:N20d1a58e54a5489fa5aab0766bbf9609",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:N80aa45a5dfcb4801b1ba30cc2042f915",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:N6e8c12a3a76e4f4391a46f55c5fa390b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:N6280b476ee964d91bc74261ebf8c678a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:N89d3523c20c749a9afbb7ae7bed24c38",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experiment report"
+    },
+    {
+      "@id": "_:N6206403c10ba4f96af0cfc411313741a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2531"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Experiment report"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+    "Author": "Martin Morgan [aut] (ORCID: <https://orcid.org/0000-0002-5874-8148>), Michael Love [aut, cre] (ORCID: <https://orcid.org/0000-0001-8401-0545>), NIH NHGRI UM1HG012003 [fnd]",
+    "BugReports": "https://github.com/IGVF/rigvf/issues",
+    "Date/Publication": "2026-08-20",
+    "Depends": [
+        "R (>= 4.1.0)"
+    ],
+    "Description": "The IGVF Catalog provides data on the impact of genomic variants on function. The `rigvf` package provides an interface to the IGVF Catalog, allowing easy integration with Bioconductor resources.",
+    "Imports": [
+        "GenomicRanges",
+        "IRanges",
+        "Seqinfo",
+        "cachem",
+        "dplyr",
+        "httr2",
+        "jsonlite",
+        "memoise",
+        "methods",
+        "rjsoncons",
+        "rlang",
+        "tidyr",
+        "whisker"
+    ],
+    "License": "MIT + file LICENSE",
+    "MD5sum": "edf5783c31ba53614f39d20bdea585a6",
+    "Maintainer": "Michael Love <michaelisaiahlove@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "rigvf",
+    "Rank": 2359,
+    "Rfiles": [
+        "vignettes/rigvf/inst/doc/rigvf.R"
+    ],
+    "Suggests": [
+        "TxDb.Hsapiens.UCSC.hg38.knownGene",
+        "knitr",
+        "org.Hs.eg.db",
+        "plotgardener",
+        "plyranges",
+        "rmarkdown",
+        "testthat (>= 3.0.0)",
+        "tibble"
+    ],
+    "Title": "R interface to the IGVF Catalog",
+    "URL": "https://IGVF.github.io/rigvf",
+    "Version": "1.4.1",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Annotation",
+        "FunctionalGenomics",
+        "GeneRegulation",
+        "GeneTarget",
+        "GenomicVariation",
+        "Software",
+        "ThirdPartyClient",
+        "VariantAnnotation"
+    ],
+    "dependencyCount": "43",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "f865534",
+    "git_last_commit_date": "2026-08-19",
+    "git_url": "https://git.bioconductor.org/packages/rigvf",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/rigvf_1.4.1.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/rigvf_1.4.1.tgz",
+    "source.ver": "src/contrib/rigvf_1.4.1.tar.gz",
+    "vignetteTitles": [
+        "Accessing data from the IGVF Catalog"
+    ],
+    "vignettes": [
+        "vignettes/rigvf/inst/doc/rigvf.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/rigvf_1.4.1.zip"
+}

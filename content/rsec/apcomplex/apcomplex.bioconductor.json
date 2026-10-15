@@ -1,0 +1,52 @@
+{
+    "Author": "Denise Scholtens <dscholtens@northwestern.edu>",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 2.10)",
+        "RBGL",
+        "graph"
+    ],
+    "Description": "Functions to estimate a bipartite graph of protein complex membership using AP-MS data.",
+    "Imports": [
+        "Rgraphviz",
+        "org.Sc.sgd.db",
+        "stats"
+    ],
+    "License": "LGPL",
+    "MD5sum": "d46fa0706dcc122c82fe43a0c142058c",
+    "Maintainer": "Denise Scholtens <dscholtens@northwestern.edu>",
+    "NeedsCompilation": "no",
+    "Package": "apComplex",
+    "Rank": 627,
+    "Rfiles": [
+        "vignettes/apComplex/inst/doc/apComplex.R"
+    ],
+    "Title": "Estimate protein complex membership using AP-MS protein data",
+    "Version": "2.78.0",
+    "biocViews": [
+        "GraphAndNetwork",
+        "ImmunoOncology",
+        "MassSpectrometry",
+        "NetworkInference",
+        "Software"
+    ],
+    "dependencyCount": "48",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "09de499",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/apComplex",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/apComplex_2.78.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/apComplex_2.78.0.tgz",
+    "source.ver": "src/contrib/apComplex_2.78.0.tar.gz",
+    "vignetteTitles": [
+        "apComplex"
+    ],
+    "vignettes": [
+        "vignettes/apComplex/inst/doc/apComplex.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/apComplex_2.78.0.zip"
+}

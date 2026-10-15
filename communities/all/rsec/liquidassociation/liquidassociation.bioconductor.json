@@ -1,0 +1,60 @@
+{
+    "Author": "Yen-Yi Ho <yho@jhsph.edu>",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "geepack",
+        "methods",
+        "org.Sc.sgd.db",
+        "yeastCC"
+    ],
+    "Description": "The package contains functions for calculate direct and model-based estimators for liquid association. It also provides functions for testing the existence of liquid association given a gene triplet data.",
+    "Imports": [
+        "Biobase",
+        "grDevices",
+        "graphics",
+        "methods",
+        "stats"
+    ],
+    "License": "GPL (>=3)",
+    "MD5sum": "9a8aa954f008e2bde2cc2dd5876998b4",
+    "Maintainer": "Yen-Yi Ho <yho@jhsph.edu>",
+    "NeedsCompilation": "no",
+    "Package": "LiquidAssociation",
+    "Rank": 1195,
+    "Rfiles": [
+        "vignettes/LiquidAssociation/inst/doc/LiquidAssociation.R"
+    ],
+    "Title": "LiquidAssociation",
+    "Version": "1.66.0",
+    "biocViews": [
+        "CellBiology",
+        "GeneExpression",
+        "Genetics",
+        "Network",
+        "Pathways",
+        "Software",
+        "TimeCourse"
+    ],
+    "dependencyCount": "59",
+    "dependsOnMe": [
+        "fastLiquidAssociation"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "160ae92",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/LiquidAssociation",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/LiquidAssociation_1.66.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/LiquidAssociation_1.66.0.tgz",
+    "source.ver": "src/contrib/LiquidAssociation_1.66.0.tar.gz",
+    "vignetteTitles": [
+        "LiquidAssociation Vignette"
+    ],
+    "vignettes": [
+        "vignettes/LiquidAssociation/inst/doc/LiquidAssociation.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/LiquidAssociation_1.66.0.zip"
+}

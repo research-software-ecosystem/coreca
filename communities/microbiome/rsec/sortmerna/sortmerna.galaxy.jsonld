@@ -1,0 +1,263 @@
+{
+  "@context": {
+    "biii": "https://biii.eu/",
+    "bioconda": "https://github.com/bioconda/bioconda-recipes/tree/master/recipes/",
+    "bioschemas": "http://bioschemas.org/",
+    "biotools": "https://bio.tools/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "galaxytool": "https://github.com/galaxyproject/tools-iuc/tree/master/tools/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "schema1": "http://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "workflowhub": "https://workflowhub.eu/workflows/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://usegalaxy.eu",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.org",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.cz",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.ca",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.no",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.org.au",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://galaxy.mesocentre.uca.fr",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "galaxytool:sortmerna",
+      "@type": "schema1:SoftwareApplication",
+      "bioschemas:output": [
+        "bam",
+        "tabular",
+        "txt"
+      ],
+      "schema1:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3941"
+        },
+        {
+          "@id": "edam:topic_3174"
+        }
+      ],
+      "schema1:codeRepository": {
+        "@id": "http://bioinfo.lifl.fr/RNA/sortmerna/"
+      },
+      "schema1:dateCreated": "2015-02-28",
+      "schema1:description": "SortMeRNA is a software designed to rapidly filter ribosomal RNA fragments from metatransriptomic data produced by next-generation sequencers.",
+      "schema1:encodingFormat": [
+        "bam",
+        "tabular",
+        "txt"
+      ],
+      "schema1:featureList": [
+        {
+          "@id": "edam:operation_0346"
+        },
+        {
+          "@id": "edam:operation_2451"
+        },
+        {
+          "@id": "edam:topic_0159"
+        },
+        {
+          "@id": "edam:operation_0258"
+        }
+      ],
+      "schema1:identifier": [
+        {
+          "@id": "biotools:sortmerna"
+        },
+        {
+          "@id": "bioconda:sortmerna"
+        }
+      ],
+      "schema1:isPartOf": [
+        {
+          "@id": "workflowhub:1466?version=2"
+        },
+        {
+          "@id": "workflowhub:1444?version=2"
+        },
+        {
+          "@id": "https://usegalaxy.fr/published/workflow?id=e6991d64e851b09e"
+        },
+        {
+          "@id": "https://usegalaxy.fr/published/workflow?id=c4f6062e51d0f45e"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=69eddfde874af35b"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=f9175e670d8dfaa1"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=72e3e5fdc766e24a"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=9472be79da012999"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=87cc0cd143a12c41"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=5f0faac42b0a5062"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=096b75501c8e0888"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=fd90652d475ed739"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=d05c6f0f3205fbd2"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=fdca6c9d394986bf"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=385cc7df70d7916b"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=e423c80058601e78"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=4d32b1b3ac0a7161"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=a8f829deb69b30ab"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=f6e8a63283262518"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=dfc2c53ac3103eff"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=7ab70660e6235cf0"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=994e5ff1df7d6c9e"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=2cf09adb1ed6c3ec"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=401746888e8b3aa8"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=9382f9bbbdddb5ad"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=a8417c63e9e22afb"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=9cbba5de2cbeeb0f"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=c3aa516e78ca4191"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=408a31694e9c85e6"
+        },
+        {
+          "@id": "https://galaxy.mesocentre.uca.fr"
+        },
+        {
+          "@id": "https://galaxy.pasteur.fr"
+        },
+        {
+          "@id": "https://galaxytrakr.org"
+        },
+        {
+          "@id": "https://usegalaxy.be"
+        },
+        {
+          "@id": "https://usegalaxy.ca"
+        },
+        {
+          "@id": "https://usegalaxy.cz"
+        },
+        {
+          "@id": "https://usegalaxy.eu"
+        },
+        {
+          "@id": "https://usegalaxy.fr"
+        },
+        {
+          "@id": "https://usegalaxy.no"
+        },
+        {
+          "@id": "https://usegalaxy.org.au"
+        },
+        {
+          "@id": "https://usegalaxy.org"
+        }
+      ],
+      "schema1:keywords": "RNA",
+      "schema1:name": "sortmerna",
+      "schema1:softwareVersion": "7.0.0",
+      "schema1:url": {
+        "@id": "https://github.com/bgruening/galaxytools/tree/master/tools/rna_tools/sortmerna"
+      }
+    },
+    {
+      "@id": "https://galaxytrakr.org",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.be",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://galaxy.pasteur.fr",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.fr",
+      "@type": "schema1:WebSite"
+    }
+  ]
+}

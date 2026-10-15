@@ -1,0 +1,69 @@
+{
+    "Author": "Anne-Maud Ferreira [cre, aut] (ORCID: <https://orcid.org/0000-0002-4749-746X>), Catherine Blish [aut], Susan Holmes [aut]",
+    "Date/Publication": "2026-05-14",
+    "Depends": [
+        "R (>= 4.1)"
+    ],
+    "Description": "This package is a tool to predict the power of CyTOF experiments in the context of differential state analyses. The package provides a shiny app with two options to predict the power of an experiment: i. generation of in-sicilico CyTOF data, using users input ii. browsing in a grid of parameters for which the power was already precomputed.",
+    "Imports": [
+        "CytoGLMM",
+        "DT",
+        "SummarizedExperiment",
+        "diffcyt",
+        "dplyr",
+        "ggplot2",
+        "magrittr",
+        "methods",
+        "rlang",
+        "shiny",
+        "shinyFeedback",
+        "shinyMatrix",
+        "shinyjs",
+        "stats",
+        "tibble",
+        "tidyr"
+    ],
+    "License": "LGPL-3",
+    "MD5sum": "a546435822b07a9cccc6949bac87a1c8",
+    "Maintainer": "Anne-Maud Ferreira <anne-maud.ferreira@epfedu.fr>",
+    "NeedsCompilation": "no",
+    "Package": "CyTOFpower",
+    "Rank": 1878,
+    "Rfiles": [
+        "vignettes/CyTOFpower/inst/doc/CyTOFpower.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "Power analysis for CyTOF experiments",
+    "Version": "1.18.1",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "CellBiology",
+        "FlowCytometry",
+        "SingleCell",
+        "Software",
+        "StatisticalMethod"
+    ],
+    "dependencyCount": "240",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "73b70ea",
+    "git_last_commit_date": "2026-05-13",
+    "git_url": "https://git.bioconductor.org/packages/CyTOFpower",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/CyTOFpower_1.18.1.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/CyTOFpower_1.18.1.tgz",
+    "source.ver": "src/contrib/CyTOFpower_1.18.1.tar.gz",
+    "vignetteTitles": [
+        "Power analysis for CyTOF experiments"
+    ],
+    "vignettes": [
+        "vignettes/CyTOFpower/inst/doc/CyTOFpower.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/CyTOFpower_1.18.1.zip"
+}

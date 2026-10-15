@@ -1,0 +1,57 @@
+about:
+  description: 'Gene-regulatory network (GRN) modeling seeks to infer dependencies
+    between genes and thereby provide insight into the regulatory relationships that
+    exist within a cell. This package provides a computational Bayesian approach to
+    GRN estimation from perturbation experiments using a ternary network model, in
+    which gene expression is discretized into one of 3 states: up, unchanged, or down).
+    The ternarynet package includes a parallel implementation of the replica exchange
+    Monte Carlo algorithm for fitting network models, using MPI.'
+  home: https://bioconductor.org/packages/3.22/bioc/html/ternarynet.html
+  license: GPL (>= 2)
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: Ternary Network Estimation
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:ternarynet
+  parent_recipe:
+    name: bioconductor-ternarynet
+    path: recipes/bioconductor-ternarynet
+    version: 1.24.0
+package:
+  name: bioconductor-ternarynet
+  version: 1.54.0
+requirements:
+  build:
+  - null
+  - null
+  - make
+  host:
+  - bioconductor-biocparallel >=1.44.0,<1.45.0
+  - r-base
+  - r-igraph
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-biocparallel >=1.44.0,<1.45.0
+  - r-base
+  - r-igraph
+source:
+  md5: 6771731fe4217f001a7f3dd33810df72
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/ternarynet_1.54.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/ternarynet/ternarynet_1.54.0.tar.gz
+  - https://bioarchive.galaxyproject.org/ternarynet_1.54.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-ternarynet/bioconductor-ternarynet_1.54.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('ternarynet')"

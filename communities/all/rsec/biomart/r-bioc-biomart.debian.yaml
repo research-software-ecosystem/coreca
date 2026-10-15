@@ -1,0 +1,24 @@
+package: r-bioc-biomart
+distribution: debian
+release: sid
+component: main
+version: 2.68.0
+source: r-bioc-biomart
+homepage: https://bioconductor.org/packages/biomaRt/
+license: unknown
+blend: debian-med
+description_md5: 698b6f28be0360c30996afd3f09cba9e
+registries:
+- entry: biomart
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1038/nprot.2009.97
+- key: doi
+  rank: 1
+  value: 10.1093/bioinformatics/bti525
+popcon:
+- insts: 226
+  olde: 176
+  recent: 26
+  vote: 24

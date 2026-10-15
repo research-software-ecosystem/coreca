@@ -1,0 +1,12 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix schema1: <http://schema.org/> .
+
+bioconda:phame a schema1:SoftwareApplication ;
+    schema1:alternateName "A tool to derive SNP matrices and phylogenetic tree from raw reads, contigs, and full genomes." ;
+    schema1:citation "doi:10.1038/s41598-020-58356-1" ;
+    schema1:description "A tool to derive SNP matrices and phylogenetic tree from raw reads, contigs, and full genomes." ;
+    schema1:license "GPL-3.0-or-later" ;
+    schema1:name "phame" ;
+    schema1:softwareVersion "1.0.4" ;
+    schema1:url "https://github.com/LANL-Bioinformatics/PhaME" .
+

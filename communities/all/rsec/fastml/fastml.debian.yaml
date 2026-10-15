@@ -1,0 +1,26 @@
+package: fastml
+distribution: debian
+release: sid
+component: main
+version: '3.11'
+source: fastml
+homepage: http://fastml.tau.ac.il/
+license: unknown
+blend: debian-med
+description_md5: 92de131cd4b319687b7cc386f50bb894
+registries:
+- entry: OMICS_08650
+  name: OMICtools
+- entry: fastml
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/nar/gks498
+- key: doi
+  rank: 1
+  value: 10.1093/bioinformatics/18.8.1116
+popcon:
+- insts: 118
+  olde: 90
+  recent: 23
+  vote: 5

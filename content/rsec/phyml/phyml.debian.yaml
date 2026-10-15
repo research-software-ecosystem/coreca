@@ -1,0 +1,40 @@
+package: phyml
+distribution: debian
+release: sid
+component: main
+version: 3.3.20250515
+source: phyml
+homepage: http://www.atgc-montpellier.fr/phyml
+license: unknown
+blend: debian-med
+description_md5: e17d56691eaa63bb88fc849229a6c8a4
+registries:
+- entry: OMICS_04241
+  name: OMICtools
+- entry: SRC_014629
+  name: SciCrunch
+- entry: PhyML
+  name: bio.tools
+- entry: phyml
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/molbev/msq060
+- key: doi
+  rank: 1
+  value: 10.1080/10635150390235520
+tags:
+- tag: biology::peptidic
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: role::program
+- tag: use::analysing
+- tag: use::comparing
+- tag: works-with::biological-sequence
+popcon:
+- insts: 256
+  olde: 219
+  recent: 25
+  vote: 12

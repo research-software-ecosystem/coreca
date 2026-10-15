@@ -1,0 +1,55 @@
+about:
+  dev_url: https://github.com/pangenome/odgi
+  doc_url: https://github.com/pangenome/odgi/blob/v0.9.4/README.md
+  home: https://github.com/pangenome/odgi
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: An optimized dynamic genome/graph implementation.
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - doi:10.1093/bioinformatics/btac308
+  - biotools:odgi
+  - usegalaxy-eu:odgi_viz
+  - usegalaxy-eu:odgi_build
+  recipe-maintainers:
+  - AndreaGuarracino
+package:
+  name: odgi
+  version: 0.9.4
+requirements:
+  build:
+  - null
+  - cmake
+  - make
+  - pkg-config
+  - python >=3
+  - pybind11-global
+  - tapi
+  host:
+  - llvm-openmp
+  - libgomp
+  - zlib
+  - jemalloc
+  run:
+  - llvm-openmp
+  - libgomp
+  - python >=3
+  - jemalloc
+  - pybind11
+  - libstdcxx-ng
+source:
+  patches:
+  - 0001-CMakeLists.txt
+  sha256: e50dde6dd833f2294179398c801e1545915cb4653a15c329c8ddea50b12bc281
+  url: https://github.com/pangenome/odgi/releases/download/v0.9.4/odgi-v0.9.4.tar.gz
+test:
+  commands:
+  - odgi 2>&1

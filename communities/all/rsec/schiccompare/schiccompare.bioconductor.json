@@ -1,0 +1,76 @@
+{
+    "Author": "My Nguyen [aut, cre] (ORCID: <https://orcid.org/0009-0003-1118-7085>), Mikhail Dozmorov [aut] (ORCID: <https://orcid.org/0000-0002-0086-8358>)",
+    "BugReports": "https://github.com/dozmorovlab/ScHiCcompare/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.5.0)"
+    ],
+    "Description": "This package provides functions for differential chromatin interaction analysis between two single-cell Hi-C data groups. It includes tools for imputation, normalization, and differential analysis of chromatin interactions. The package implements pooling techniques for imputation and offers methods to normalize and test for differential interactions across single-cell Hi-C datasets.",
+    "Imports": [
+        "BiocParallel",
+        "HiCcompare",
+        "data.table",
+        "dplyr",
+        "ggplot2",
+        "grDevices",
+        "graphics",
+        "gtools",
+        "lattice",
+        "mclust",
+        "mice",
+        "miceadds",
+        "ranger",
+        "rlang",
+        "rstatix",
+        "stats",
+        "tidyr",
+        "utils"
+    ],
+    "License": "MIT + file LICENSE",
+    "MD5sum": "e9efbcac1c1144d4e9a671c515552e61",
+    "Maintainer": "My Nguyen <hamy.12398@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "scHiCcompare",
+    "Rank": 2222,
+    "Rfiles": [
+        "vignettes/scHiCcompare/inst/doc/ScHiCcompare.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "DT",
+        "gridExtra",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Differential Analysis of Single-cell Hi-C Data",
+    "URL": "https://github.com/dozmorovlab/ScHiCcompare",
+    "Version": "1.4.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "HiC",
+        "Normalization",
+        "Sequencing",
+        "SingleCell",
+        "Software"
+    ],
+    "dependencyCount": "142",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "e578bc9",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/scHiCcompare",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/scHiCcompare_1.4.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/scHiCcompare_1.4.0.tgz",
+    "source.ver": "src/contrib/scHiCcompare_1.4.0.tar.gz",
+    "vignetteTitles": [
+        "Chromatin Differential Analysis of scHiC -scHiCcompare Vignette"
+    ],
+    "vignettes": [
+        "vignettes/scHiCcompare/inst/doc/ScHiCcompare.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/scHiCcompare_1.4.0.zip"
+}

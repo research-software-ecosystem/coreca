@@ -1,0 +1,25 @@
+package: sniffles
+distribution: debian
+release: sid
+component: main
+version: 2.8.0
+source: sniffles
+homepage: https://github.com/fritzsedlazeck/Sniffles
+license: unknown
+blend: debian-med
+description_md5: 806b33009be76eb32e541e6f5133b648
+registries:
+- entry: OMICS_16283
+  name: OMICtools
+- entry: sniffles
+  name: bio.tools
+- entry: sniffles
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1101/169557
+popcon:
+- insts: 114
+  olde: 86
+  recent: 24
+  vote: 4

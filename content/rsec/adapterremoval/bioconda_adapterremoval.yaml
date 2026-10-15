@@ -1,0 +1,48 @@
+about:
+  dev_url: https://github.com/MikkelSchubert/adapterremoval
+  doc_url: https://adapterremoval.readthedocs.io/en/stable
+  home: https://github.com/MikkelSchubert/adapterremoval
+  license: GPL-3.0-or-later
+  license_family: GPL3
+  license_file: LICENSE
+  summary: The AdapterRemoval v2 tool for merging and clipping reads.
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:adapterremoval
+  - usegalaxy-eu:adapter_removal
+  - doi:10.1186/s13104-016-1900-2
+package:
+  name: adapterremoval
+  version: 3.0.2
+requirements:
+  build:
+  - make
+  - null
+  - null
+  - pkg-config
+  - cmake
+  - meson
+  - ninja
+  host:
+  - isa-l
+  - libdeflate
+  - zlib
+  - bzip2
+  - wget
+  - sphinx
+  - perl
+  run:
+  - isa-l
+source:
+  sha256: 905f7c3289f743a90d228226ad6a50aec101343830bfdef5608ec9bb69af0ca7
+  url: https://github.com/MikkelSchubert/adapterremoval/archive/v3.0.2.tar.gz
+test:
+  commands:
+  - adapterremoval3 -h

@@ -1,0 +1,24 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix debianmed: <https://salsa.debian.org/med-team/> .
+@prefix schema1: <http://schema.org/> .
+@prefix scicrunch: <https://scicrunch.org/resolver/> .
+
+debianmed:bioperl a schema1:SoftwareApplication ;
+    schema1:citation "doi:10.1101/gr.361602" ;
+    schema1:identifier biotools:bioperl,
+        bioconda:perl-bioperl-core,
+        scicrunch:SCR_002989,
+        "omictools:OMICS_04849" ;
+    schema1:keywords "devel::lang:perl",
+        "devel::library",
+        "field::biology",
+        "field::biology:bioinformatics",
+        "implemented-in::perl",
+        "role::devel-lib",
+        "role::shared-lib" ;
+    schema1:license "unknown" ;
+    schema1:name "bioperl" ;
+    schema1:softwareVersion "1.7.8" ;
+    schema1:url <http://www.bioperl.org/> .
+

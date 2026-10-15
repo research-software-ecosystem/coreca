@@ -1,0 +1,35 @@
+package: velvet
+distribution: debian
+release: sid
+component: main
+version: 1.2.10
+source: velvet
+homepage: https://github.com/dzerbino/velvet
+license: unknown
+blend: debian-med
+description_md5: a5956a7ea4ec700abd1d8ef9244b6fe8
+registries:
+- entry: OMICS_00038
+  name: OMICtools
+- entry: SCR_010755
+  name: SciCrunch
+- entry: velvet
+  name: bio.tools
+- entry: velvet
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1101/gr.074492.107
+tags:
+- tag: biology::nuceleic-acids
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: role::program
+- tag: use::analysing
+popcon:
+- insts: 135
+  olde: 106
+  recent: 22
+  vote: 7

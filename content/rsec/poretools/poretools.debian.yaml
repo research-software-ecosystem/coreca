@@ -1,0 +1,25 @@
+package: poretools
+distribution: debian
+release: sid
+component: main
+version: 0.6.0
+source: poretools
+homepage: https://poretools.readthedocs.org
+license: unknown
+blend: debian-med
+description_md5: 6a67f2f87b107c1e0c6f0b9e52f4a2fe
+registries:
+- entry: OMICS_07584
+  name: OMICtools
+- entry: poretools
+  name: bio.tools
+- entry: poretools
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btu555
+popcon:
+- insts: 112
+  olde: 84
+  recent: 22
+  vote: 6

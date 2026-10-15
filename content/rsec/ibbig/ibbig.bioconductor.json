@@ -1,0 +1,52 @@
+{
+    "Author": "Daniel Gusenleitner, Aedin Culhane",
+    "Date/Publication": "2025-10-30",
+    "Depends": [
+        "biclust"
+    ],
+    "Description": "iBBiG is a bi-clustering algorithm which is optimizes for binary data analysis. We apply it to meta-gene set analysis of large numbers of gene expression datasets. The iterative algorithm extracts groups of phenotypes from multiple studies that are associated with similar gene sets. iBBiG does not require prior knowledge of the number or scale of clusters and allows discovery of clusters with diverse sizes",
+    "Imports": [
+        "ade4",
+        "stats4",
+        "xtable"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "c7682b5d8a979aeed847cc93c05f7d43",
+    "Maintainer": "Aedin Culhane <aedin@jimmy.harvard.edu>",
+    "NeedsCompilation": "yes",
+    "Package": "iBBiG",
+    "Rank": 2011,
+    "Rfiles": [
+        "vignettes/iBBiG/inst/doc/tutorial.R"
+    ],
+    "Suggests": [
+        "methods"
+    ],
+    "Title": "Iterative Binary Biclustering of Genesets",
+    "URL": "http://bcb.dfci.harvard.edu/~aedin/publications/",
+    "Version": "1.55.0",
+    "biocViews": [
+        "Annotation",
+        "Clustering",
+        "GeneSetEnrichment",
+        "Software"
+    ],
+    "dependencyCount": "16",
+    "git_branch": "devel",
+    "git_last_commit": "c01d20f",
+    "git_last_commit_date": "2025-10-29",
+    "git_url": "https://git.bioconductor.org/packages/iBBiG",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/iBBiG_1.55.0.tgz",
+    "source.ver": "src/contrib/iBBiG_1.55.0.tar.gz",
+    "vignetteTitles": [
+        "iBBiG User Manual"
+    ],
+    "vignettes": [
+        "vignettes/iBBiG/inst/doc/tutorial.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/iBBiG_1.55.0.zip"
+}

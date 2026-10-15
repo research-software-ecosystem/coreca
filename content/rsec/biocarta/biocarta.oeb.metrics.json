@@ -1,0 +1,96 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:biocarta/web/www.biocarta.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1089/152791601750294344",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": true,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://www.blogger.com/blogin?u%3Dhttp://www.biocarta.com/&followup=https://www.blogger.com/blogin?u%3Dhttp://www.biocarta.com/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https://www.blogger.com/blogin?u%3Dhttp://www.biocarta.com/&followup=https://www.blogger.com/blogin?u%3Dhttp://www.biocarta.com/&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S331031:1788141325912374"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.blogger.com/blogin?u=http://www.biocarta.com/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biocarta",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": true,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://www.blogger.com/blogin?u%3Dhttp://www.biocarta.com/&followup=https://www.blogger.com/blogin?u%3Dhttp://www.biocarta.com/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://accounts.google.com/v3/signin/identifier?continue=https://www.blogger.com/blogin?u%3Dhttp://www.biocarta.com/&followup=https://www.blogger.com/blogin?u%3Dhttp://www.biocarta.com/&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1438952158:1788141325769872"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.blogger.com/blogin?u=http://www.biocarta.com/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,20 @@
+package: tiddit
+distribution: debian
+release: sid
+component: main
+version: 3.6.1
+source: tiddit
+homepage: https://github.com/SciLifeLab/TIDDIT
+license: unknown
+blend: debian-med
+description_md5: 37a0087022d5d71f800476b54f88b669
+registries:
+- entry: tiddit
+  name: bio.tools
+- entry: tiddit
+  name: conda:bioconda
+popcon:
+- insts: 114
+  olde: 82
+  recent: 27
+  vote: 5

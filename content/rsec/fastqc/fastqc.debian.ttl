@@ -1,0 +1,24 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix bioschemas: <http://bioschemas.org/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix debianmed: <https://salsa.debian.org/med-team/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix scicrunch: <https://scicrunch.org/resolver/> .
+
+debianmed:fastqc a schema1:SoftwareApplication ;
+    bioschemas:input edam:data_2044 ;
+    bioschemas:output edam:data_2048 ;
+    schema1:additionalType edam:data_2044,
+        edam:data_2048 ;
+    schema1:applicationSubCategory edam:topic_3168 ;
+    schema1:featureList edam:operation_3218 ;
+    schema1:identifier biotools:fastqc,
+        bioconda:fastqc,
+        scicrunch:SCR_014583,
+        "omictools:OMICS_01043" ;
+    schema1:license "unknown" ;
+    schema1:name "fastqc" ;
+    schema1:softwareVersion "0.12.1" ;
+    schema1:url <https://www.bioinformatics.babraham.ac.uk/projects/fastqc/> .
+

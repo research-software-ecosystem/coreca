@@ -1,0 +1,114 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:plantpepdb/undefined/www.nipgr.ac.in",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 54,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2021
+                                }
+                            ],
+                            "doi": "10.1038/s41598-020-59165-2",
+                            "pmcid": "PMC7010657",
+                            "pmid": "32042035",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "PlantPepDB: A manually curated plant peptide database.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://nipgr.ac.in/PlantPepDB/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://14.139.61.8/PlantPepDB/index.php"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/plantpepdb",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://nipgr.ac.in/PlantPepDB/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://14.139.61.8/PlantPepDB/index.php"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

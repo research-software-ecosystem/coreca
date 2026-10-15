@@ -1,0 +1,25 @@
+package: prank
+distribution: debian
+release: sid
+component: main
+version: '250331'
+source: prank
+homepage: https://ariloytynoja.github.io/prank-msa/
+license: unknown
+blend: debian-med
+description_md5: 81d40a4b23a326a689d9cc8359a09fb6
+registries:
+- entry: OMICS_12425
+  name: OMICtools
+- entry: prank
+  name: bio.tools
+- entry: prank
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1007/978-1-62703-646-7_10
+popcon:
+- insts: 251
+  olde: 215
+  recent: 25
+  vote: 11

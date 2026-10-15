@@ -1,0 +1,68 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:tcr-pred/web/way2drug.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 13,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1111/imm.13641",
+                            "pmid": "36929656",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "TCR-Pred: A new web-application for prediction of epitope and MHC specificity for CDR3 TCR sequences using molecular fragment descriptors.",
+                            "year": 2023
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.way2drug.com/TCR-pred/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

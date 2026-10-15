@@ -1,0 +1,36 @@
+package: gmap
+distribution: debian
+release: sid
+component: main
+version: 2025-07-31+ds
+source: gmap
+homepage: http://research-pub.gene.com/gmap
+license: unknown
+blend: debian-med
+description_md5: d1daaf58e59d1f735c184407a7d778b3
+registries:
+- entry: OMICS_15072
+  name: OMICtools
+- entry: SCR_008992
+  name: SciCrunch
+- entry: gmap
+  name: bio.tools
+- entry: gmap
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btq057
+- key: doi
+  rank: 1
+  value: 10.1093/bioinformatics/bti310
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: field::biology:structural
+- tag: role::program
+- tag: use::analysing
+popcon:
+- insts: 217
+  olde: 188
+  recent: 23
+  vote: 6

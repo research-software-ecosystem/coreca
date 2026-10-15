@@ -1,0 +1,60 @@
+{
+    "Archs": "x64",
+    "Author": "Mohammad Tanvir Ahamed [aut, trl], Anna Danielsson [aut], Szilárd Nemes [aut, trl], Helena Carén [aut, cre, cph]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biobase",
+        "R (>= 3.0.0)"
+    ],
+    "Description": "Classification of pediatric tumors into biologically defined subtypes is challenging and multifaceted approaches are needed. For this aim, we developed a diagnostic classifier based on DNA methylation profiles. We offer MethPed as an easy-to-use toolbox that allows researchers and clinical diagnosticians to test single samples as well as large cohorts for subclass prediction of pediatric brain tumors.  The current version of MethPed can classify the following tumor diagnoses/subgroups: Diffuse Intrinsic Pontine Glioma (DIPG), Ependymoma, Embryonal tumors with multilayered rosettes (ETMR), Glioblastoma (GBM), Medulloblastoma (MB) - Group 3 (MB_Gr3), Group 4 (MB_Gr3), Group WNT (MB_WNT), Group SHH (MB_SHH) and Pilocytic Astrocytoma (PiloAstro).",
+    "Imports": [
+        "grDevices",
+        "graphics",
+        "randomForest",
+        "stats"
+    ],
+    "License": "GPL-2",
+    "MD5sum": "eff74c5d78acad84b0205c53ab48ad7e",
+    "Maintainer": "Helena Carén <helenacarenlab@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "MethPed",
+    "Rank": 582,
+    "Rfiles": [
+        "vignettes/MethPed/inst/doc/MethPed-vignette.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "impute",
+        "knitr",
+        "markdown"
+    ],
+    "Title": "A DNA methylation classifier tool for the identification of pediatric brain tumor subtypes",
+    "Version": "1.40.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Classification",
+        "DNAMethylation",
+        "Epigenetics",
+        "ImmunoOncology",
+        "Software"
+    ],
+    "dependencyCount": "9",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "0d2a1ca",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/MethPed",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/MethPed_1.40.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/MethPed_1.40.0.tgz",
+    "source.ver": "src/contrib/MethPed_1.40.0.tar.gz",
+    "vignetteTitles": [
+        "MethPed User Guide"
+    ],
+    "vignettes": [
+        "vignettes/MethPed/inst/doc/MethPed-vignette.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/MethPed_1.40.0.zip"
+}

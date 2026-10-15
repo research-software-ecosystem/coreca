@@ -1,0 +1,43 @@
+about:
+  description: It fits correlation motif model to multiple studies to detect study
+    specific differential expression patterns.
+  home: https://bioconductor.org/packages/3.22/bioc/html/Cormotif.html
+  license: GPL-2
+  license_file: /lib/R/share/licenses/GPL-2
+  summary: Correlation Motif Fit
+build:
+  noarch: generic
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:cormotif
+  parent_recipe:
+    name: bioconductor-cormotif
+    path: recipes/bioconductor-cormotif
+    version: 1.26.0
+package:
+  name: bioconductor-cormotif
+  version: 1.56.0
+requirements:
+  host:
+  - bioconductor-affy >=1.88.0,<1.89.0
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - r-base
+  run:
+  - bioconductor-affy >=1.88.0,<1.89.0
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - r-base
+source:
+  md5: faef3ea9a98c0ff5acc7624838818e13
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Cormotif_1.56.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/Cormotif/Cormotif_1.56.0.tar.gz
+  - https://bioarchive.galaxyproject.org/Cormotif_1.56.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-cormotif/bioconductor-cormotif_1.56.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('Cormotif')"

@@ -1,0 +1,53 @@
+about:
+  description: This is a package for the discovery of regulatory regions from Bis-seq
+    data
+  home: https://bioconductor.org/packages/3.22/bioc/html/MethylSeekR.html
+  license: GPL (>=2)
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: Segmentation of Bis-seq data
+build:
+  noarch: generic
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:methylseekr
+  parent_recipe:
+    name: bioconductor-methylseekr
+    path: recipes/bioconductor-methylseekr
+    version: 1.20.0
+package:
+  name: bioconductor-methylseekr
+  version: 1.50.0
+requirements:
+  host:
+  - bioconductor-bsgenome >=1.78.0,<1.79.0
+  - bioconductor-geneplotter >=1.88.0,<1.89.0
+  - bioconductor-genomeinfodb >=1.46.0,<1.47.0
+  - bioconductor-genomicranges >=1.62.0,<1.63.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-rtracklayer >=1.70.0,<1.71.0
+  - r-base
+  - r-mhsmm >=0.4.4
+  run:
+  - bioconductor-bsgenome >=1.78.0,<1.79.0
+  - bioconductor-geneplotter >=1.88.0,<1.89.0
+  - bioconductor-genomeinfodb >=1.46.0,<1.47.0
+  - bioconductor-genomicranges >=1.62.0,<1.63.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-rtracklayer >=1.70.0,<1.71.0
+  - r-base
+  - r-mhsmm >=0.4.4
+source:
+  md5: 9ecaf49b89d5d5db9aa12b8f80e952b8
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/MethylSeekR_1.50.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/MethylSeekR/MethylSeekR_1.50.0.tar.gz
+  - https://bioarchive.galaxyproject.org/MethylSeekR_1.50.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-methylseekr/bioconductor-methylseekr_1.50.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('MethylSeekR')"

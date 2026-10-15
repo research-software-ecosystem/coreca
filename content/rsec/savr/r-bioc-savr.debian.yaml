@@ -1,0 +1,22 @@
+package: r-bioc-savr
+distribution: debian
+release: trixie
+component: main
+version: 1.37.0
+source: r-bioc-savr
+homepage: https://bioconductor.org/packages/savR/
+license: unknown
+blend: debian-med
+description_md5: 41647e83e261e34e8a6692653c3e35be
+registries:
+- entry: OMICS_15992
+  name: OMICtools
+- entry: savr
+  name: bio.tools
+- entry: bioconductor-savr
+  name: conda:bioconda
+popcon:
+- insts: 125
+  olde: 96
+  recent: 24
+  vote: 5

@@ -1,0 +1,106 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:new_basis_set_exchange/web/www.basissetexchange.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "api": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 462,
+                            "citations": [
+                                {
+                                    "count": 25,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 49,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 65,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 73,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 74,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 77,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 99,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1021/acs.jcim.9b00725",
+                            "pmid": "31600445",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "New Basis Set Exchange: An Open, Up-to-Date Resource for the Molecular Sciences Community.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/new_basis_set_exchange",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

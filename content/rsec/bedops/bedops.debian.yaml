@@ -1,0 +1,29 @@
+package: bedops
+distribution: debian
+release: sid
+component: main
+version: 2.4.42
+source: bedops
+homepage: https://github.com/bedops/bedops
+license: unknown
+blend: debian-med
+description_md5: d807739d5283c1d13f5877adcff218cd
+registries:
+- entry: OMICS_00949
+  name: OMICtools
+- entry: SCR_012865
+  name: SciCrunch
+- entry: Bedops
+  name: bio.tools
+- entry: bedops
+  name: conda:bioconda
+- entry: bedops
+  name: guix
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/bts277
+popcon:
+- insts: 127
+  olde: 96
+  recent: 22
+  vote: 9

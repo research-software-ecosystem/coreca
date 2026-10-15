@@ -1,0 +1,40 @@
+package: pymol
+distribution: debian
+release: sid
+component: main
+version: 3.1.0
+source: pymol
+homepage: https://www.pymol.org
+license: unknown
+blend: debian-med
+description_md5: bfc8e8676a87c0058529a662aef95313
+edam_scopes:
+- name: summary
+  function:
+  - Residue distance calculation
+  - Structure visualization
+registries:
+- entry: OMICS_03802
+  name: OMICtools
+- entry: SCR_000305
+  name: SciCrunch
+- entry: pymol
+  name: bio.tools
+tags:
+- tag: field::biology:structural
+- tag: field::chemistry
+- tag: implemented-in::python
+- tag: interface::3d
+- tag: interface::x11
+- tag: role::program
+- tag: scope::utility
+- tag: uitoolkit::tk
+- tag: use::learning
+- tag: use::viewing
+- tag: works-with::image
+- tag: x11::application
+popcon:
+- insts: 898
+  olde: 805
+  recent: 40
+  vote: 53

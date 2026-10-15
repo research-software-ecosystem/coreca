@@ -1,0 +1,21 @@
+package: r-bioc-genomeinfodb
+distribution: debian
+release: sid
+component: main
+version: 1.48.0
+source: r-bioc-genomeinfodb
+homepage: https://bioconductor.org/packages/GenomeInfoDb/
+license: unknown
+blend: debian-med
+description_md5: 7414d106909c3bcba38696369714dbce
+registries:
+- entry: genomeinfodb
+  name: bio.tools
+- entry: bioconductor-genomeinfodb
+  name: conda:bioconda
+popcon:
+- insts: 1228
+  nofiles: 1
+  olde: 958
+  recent: 126
+  vote: 143

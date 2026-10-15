@@ -1,0 +1,113 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:senequest/undefined/Senequest.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1955,
+                            "citations": [
+                                {
+                                    "count": 6,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 118,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 201,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 253,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 311,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 333,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 348,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 379,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1016/j.cell.2019.10.005",
+                            "pmid": "31675495",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Cellular Senescence: Defining a Path Forward.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://Senequest.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/senequest",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://Senequest.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,76 @@
+{
+    "Author": "Martin Morgan [aut, cre] (ORCID: <https://orcid.org/0000-0002-5874-8148>)",
+    "BugReports": "https://github.com/mtmorgan/DirichletMultinomial/issues",
+    "Date/Publication": "2026-09-28",
+    "Depends": [
+        "IRanges",
+        "S4Vectors"
+    ],
+    "Description": "Dirichlet-multinomial mixture models can be used to describe variability in microbial metagenomic data. This package is an interface to code originally made available by Holmes, Harris, and Quince, 2012, PLoS ONE 7(2): 1-15, as discussed further in the man page for this package, ?DirichletMultinomial.",
+    "Imports": [
+        "BiocGenerics",
+        "methods",
+        "stats4"
+    ],
+    "License": "LGPL-3",
+    "MD5sum": "44312e88cdd943c00d64ed6ffcf503c1",
+    "Maintainer": "Martin Morgan <mtmorgan.xyz@gmail.com>",
+    "NeedsCompilation": "yes",
+    "Package": "DirichletMultinomial",
+    "Rank": 101,
+    "Rfiles": [
+        "vignettes/DirichletMultinomial/inst/doc/DirichletMultinomial.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "DT",
+        "MASS",
+        "RColorBrewer",
+        "knitr",
+        "lattice",
+        "parallel",
+        "rmarkdown"
+    ],
+    "SystemRequirements": "gsl",
+    "Title": "Dirichlet-Multinomial Mixture Model Machine Learning for Microbiome Data",
+    "URL": "https://mtmorgan.github.io/DirichletMultinomial/",
+    "Version": "1.54.1",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Classification",
+        "Clustering",
+        "ImmunoOncology",
+        "Metagenomics",
+        "Microbiome",
+        "Sequencing",
+        "Software"
+    ],
+    "dependencyCount": "9",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "87fc3ae",
+    "git_last_commit_date": "2026-09-26",
+    "git_url": "https://git.bioconductor.org/packages/DirichletMultinomial",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "TFBSTools",
+        "mia",
+        "miaViz"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/DirichletMultinomial_1.54.1.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/DirichletMultinomial_1.54.1.tgz",
+    "source.ver": "src/contrib/DirichletMultinomial_1.54.1.tar.gz",
+    "suggestsMe": [
+        "MicrobiotaProcess",
+        "bluster"
+    ],
+    "vignetteTitles": [
+        "DirichletMultinomial for Clustering and Classification of Microbiome Data"
+    ],
+    "vignettes": [
+        "vignettes/DirichletMultinomial/inst/doc/DirichletMultinomial.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/DirichletMultinomial_1.54.1.zip"
+}

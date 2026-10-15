@@ -1,0 +1,23 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix debianmed: <https://salsa.debian.org/med-team/> .
+@prefix schema1: <http://schema.org/> .
+@prefix scicrunch: <https://scicrunch.org/resolver/> .
+
+debianmed:gmap a schema1:SoftwareApplication ;
+    schema1:citation "doi:10.1093/bioinformatics/bti310",
+        "doi:10.1093/bioinformatics/btq057" ;
+    schema1:identifier biotools:gmap,
+        bioconda:gmap,
+        scicrunch:SCR_008992,
+        "omictools:OMICS_15072" ;
+    schema1:keywords "field::biology",
+        "field::biology:bioinformatics",
+        "field::biology:structural",
+        "role::program",
+        "use::analysing" ;
+    schema1:license "unknown" ;
+    schema1:name "gmap" ;
+    schema1:softwareVersion "2025-07-31+ds" ;
+    schema1:url <http://research-pub.gene.com/gmap> .
+

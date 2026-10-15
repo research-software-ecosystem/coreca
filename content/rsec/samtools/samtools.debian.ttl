@@ -1,0 +1,32 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix debianmed: <https://salsa.debian.org/med-team/> .
+@prefix guix: <https://packages.guix.gnu.org/packages/> .
+@prefix schema1: <http://schema.org/> .
+@prefix scicrunch: <https://scicrunch.org/resolver/> .
+
+debianmed:samtools a schema1:SoftwareApplication ;
+    schema1:citation "doi:10.1093/bioinformatics/btp352" ;
+    schema1:identifier biotools:samtools,
+        bioconda:samtools,
+        guix:samtools,
+        scicrunch:SCR_002105,
+        "omictools:OMICS_00090" ;
+    schema1:keywords "field::biology",
+        "implemented-in::c",
+        "interface::commandline",
+        "network::client",
+        "protocol::ftp",
+        "protocol::http",
+        "role::program",
+        "scope::utility",
+        "uitoolkit::ncurses",
+        "use::analysing",
+        "use::calculating",
+        "use::filtering",
+        "works-with::biological-sequence" ;
+    schema1:license "unknown" ;
+    schema1:name "samtools" ;
+    schema1:softwareVersion "1.24" ;
+    schema1:url <https://www.htslib.org/> .
+

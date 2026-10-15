@@ -1,0 +1,111 @@
+about:
+  description: Monocle performs differential expression and time-series analysis for
+    single-cell expression experiments. It orders individual cells according to progress
+    through a biological process, without knowing ahead of time which genes define
+    progress through that process. Monocle also performs differential expression analysis,
+    clustering, visualization, and other useful tasks on single cell expression data.  It
+    is designed to work with RNA-Seq and qPCR data, but could be used with other types
+    as well.
+  home: https://bioconductor.org/packages/3.22/bioc/html/monocle.html
+  license: Artistic-2.0
+  summary: Clustering, differential expression, and trajectory analysis for single-
+    cell RNA-Seq
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:monocle
+  parent_recipe:
+    name: bioconductor-monocle
+    path: recipes/bioconductor-monocle
+    version: 2.8.0
+package:
+  name: bioconductor-monocle
+  version: 2.38.0
+requirements:
+  build:
+  - null
+  - null
+  - make
+  host:
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-biocviews >=1.78.0,<1.79.0
+  - bioconductor-hsmmsinglecell >=1.30.0,<1.31.0
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - r-base
+  - r-cluster
+  - r-combinat
+  - r-ddrtree >=0.1.4
+  - r-dplyr
+  - r-fastica
+  - r-ggplot2 >=1.0.0
+  - r-igraph >=1.0.1
+  - r-irlba >=2.0.0
+  - r-leidenbase >=0.1.9
+  - r-mass
+  - r-matrix >=1.2-6
+  - r-matrixstats
+  - r-pheatmap
+  - r-plyr
+  - r-proxy
+  - r-rann >=2.5
+  - r-rcpp >=0.12.0
+  - r-reshape2
+  - r-rtsne
+  - r-slam
+  - r-stringr
+  - r-tibble
+  - r-vgam >=1.0-6
+  - r-viridis
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-biocviews >=1.78.0,<1.79.0
+  - bioconductor-hsmmsinglecell >=1.30.0,<1.31.0
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - r-base
+  - r-cluster
+  - r-combinat
+  - r-ddrtree >=0.1.4
+  - r-dplyr
+  - r-fastica
+  - r-ggplot2 >=1.0.0
+  - r-igraph >=1.0.1
+  - r-irlba >=2.0.0
+  - r-leidenbase >=0.1.9
+  - r-mass
+  - r-matrix >=1.2-6
+  - r-matrixstats
+  - r-pheatmap
+  - r-plyr
+  - r-proxy
+  - r-rann >=2.5
+  - r-rcpp >=0.12.0
+  - r-reshape2
+  - r-rtsne
+  - r-slam
+  - r-stringr
+  - r-tibble
+  - r-vgam >=1.0-6
+  - r-viridis
+source:
+  md5: 13ab3cb95ed9bb194e375e1284898031
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/monocle_2.38.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/monocle/monocle_2.38.0.tar.gz
+  - https://bioarchive.galaxyproject.org/monocle_2.38.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-monocle/bioconductor-monocle_2.38.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('monocle')"

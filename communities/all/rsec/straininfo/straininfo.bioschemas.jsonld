@@ -1,0 +1,166 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/database/baaf059",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/straininfo",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": {
+        "@id": "_:Nfcac6e6a67484f6aaefb5c7b83ca087c"
+      },
+      "bsc:output": [
+        {
+          "@id": "_:Nbc114e7c3fe7424a96d32b3e8f90dc04"
+        },
+        {
+          "@id": "_:N6d5909ff3d4f42bba39ea3d1f8212c7d"
+        },
+        {
+          "@id": "_:N3e506027c6dd4cb68f717d25dbfcdbec"
+        },
+        {
+          "@id": "_:Na68812b2ba57440faf581522ee732826"
+        },
+        {
+          "@id": "_:Nc396c5c3f6a745d0b7a6ff73deebffbe"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3473"
+        },
+        {
+          "@id": "edam:topic_3301"
+        },
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_0637"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/database/baaf059"
+        },
+        {
+          "@id": "https://doi.org/10.1109/TKDE.2005.131"
+        }
+      ],
+      "sc:contributor": "ugent.be",
+      "sc:description": "StrainInfo provides resolution of microbial strain identifiers by storing culture collection numbers, their relations, and culture-associated data.",
+      "sc:featureList": {
+        "@id": "edam:operation_2421"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "CC-BY-4.0",
+      "sc:name": "StrainInfo",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "Leibniz-Institut DSMZ-Deutsche Sammlung von Mikroorganismen und Zellkulturen GmbH",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://straininfo.dsmz.de/doc"
+        },
+        {
+          "@id": "https://www.youtube.com/watch?v=utcq5G9xtbk"
+        }
+      ],
+      "sc:url": "https://straininfo.dsmz.de"
+    },
+    {
+      "@id": "_:Nfcac6e6a67484f6aaefb5c7b83ca087c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2379"
+      },
+      "sc:name": "Strain identifier"
+    },
+    {
+      "@id": "_:Nbc114e7c3fe7424a96d32b3e8f90dc04",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3505"
+      },
+      "sc:name": "Bibliography"
+    },
+    {
+      "@id": "_:N6d5909ff3d4f42bba39ea3d1f8212c7d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2337"
+      },
+      "sc:name": "Resource metadata"
+    },
+    {
+      "@id": "_:N3e506027c6dd4cb68f717d25dbfcdbec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1093"
+      },
+      "sc:name": "Sequence accession"
+    },
+    {
+      "@id": "_:Na68812b2ba57440faf581522ee732826",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2379"
+      },
+      "sc:name": "Strain identifier"
+    },
+    {
+      "@id": "_:Nc396c5c3f6a745d0b7a6ff73deebffbe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3028"
+      },
+      "sc:name": "Taxonomy"
+    },
+    {
+      "@id": "https://doi.org/10.1109/TKDE.2005.131",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

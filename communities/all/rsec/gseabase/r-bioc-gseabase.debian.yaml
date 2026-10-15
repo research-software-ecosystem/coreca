@@ -1,0 +1,20 @@
+package: r-bioc-gseabase
+distribution: debian
+release: sid
+component: main
+version: 1.74.0+ds
+source: r-bioc-gseabase
+homepage: https://bioconductor.org/packages/GSEABase/
+license: unknown
+blend: debian-med
+description_md5: 85e0fd5a6d06be5b79a4f0970b8f1a34
+registries:
+- entry: gseabase
+  name: bio.tools
+- entry: bioconductor-gseabase
+  name: conda:bioconda
+popcon:
+- insts: 13
+  olde: 10
+  recent: 1
+  vote: 2

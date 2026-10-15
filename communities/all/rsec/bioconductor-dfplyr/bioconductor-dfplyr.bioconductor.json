@@ -1,0 +1,71 @@
+{
+    "Author": "Jonathan Carroll [aut, cre] (ORCID: <https://orcid.org/0000-0002-1404-5264>), Pierre-Paul Axisa [ctb]",
+    "BugReports": "https://github.com/jonocarroll/DFplyr/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.1.0)",
+        "dplyr"
+    ],
+    "Description": "Provides `dplyr` verbs (`mutate`, `select`, `filter`, etc...) supporting `S4Vectors::DataFrame` objects. Importantly, this is achieved without conversion to an intermediate `tibble`. Adds grouping infrastructure to `DataFrame` which is respected by the transformation verbs.",
+    "Imports": [
+        "BiocGenerics",
+        "S4Vectors",
+        "methods",
+        "rlang",
+        "tidyselect"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "b21b7ef5b3cb8b969e6c7cdc2179ed4a",
+    "Maintainer": "Jonathan Carroll <rpkg@jcarroll.com.au>",
+    "NeedsCompilation": "no",
+    "Package": "DFplyr",
+    "Rank": 2066,
+    "Rfiles": [
+        "vignettes/DFplyr/inst/doc/example_usage.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "GenomeInfoDb",
+        "GenomicRanges",
+        "IRanges",
+        "knitr",
+        "rmarkdown",
+        "sessioninfo",
+        "testthat (>= 3.0.0)",
+        "tibble"
+    ],
+    "Title": "A `DataFrame` (`S4Vectors`) backend for `dplyr`",
+    "URL": "https://github.com/jonocarroll/DFplyr",
+    "Version": "1.6.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataRepresentation",
+        "Infrastructure",
+        "Software"
+    ],
+    "dependencyCount": "23",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "fbb4f81",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/DFplyr",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "drugfindR"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/DFplyr_1.6.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/DFplyr_1.6.0.tgz",
+    "source.ver": "src/contrib/DFplyr_1.6.0.tar.gz",
+    "suggestsMe": [
+        "toppgene"
+    ],
+    "vignetteTitles": [
+        "Example Usage"
+    ],
+    "vignettes": [
+        "vignettes/DFplyr/inst/doc/example_usage.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/DFplyr_1.6.0.zip"
+}

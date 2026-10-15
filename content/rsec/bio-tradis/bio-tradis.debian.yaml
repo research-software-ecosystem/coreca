@@ -1,0 +1,27 @@
+package: bio-tradis
+distribution: debian
+release: sid
+component: main
+version: 1.4.5
+source: bio-tradis
+homepage: https://github.com/sanger-pathogens/Bio-Tradis
+license: unknown
+blend: debian-med
+description_md5: ca2a4f3e521e51ca04cc5d201dc14492
+registries:
+- entry: OMICS_11083
+  name: OMICtools
+- entry: SCR_015993
+  name: SciCrunch
+- entry: Bio-Tradis
+  name: bio.tools
+- entry: biotradis
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btw022
+popcon:
+- insts: 115
+  olde: 87
+  recent: 23
+  vote: 5

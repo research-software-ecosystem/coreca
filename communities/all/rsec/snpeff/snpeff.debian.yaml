@@ -1,0 +1,27 @@
+package: snpeff
+distribution: debian
+release: sid
+component: main
+version: 5.4.b
+source: snpeff
+homepage: https://pcingola.github.io/SnpEff/
+license: unknown
+blend: debian-med
+description_md5: 11554ad652b85830dc017ab4d21c9b35
+registries:
+- entry: OMICS_00186
+  name: OMICtools
+- entry: SCR_005191
+  name: SciCrunch
+- entry: snpeff
+  name: bio.tools
+- entry: snpeff
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.4161/fly.19695
+popcon:
+- insts: 117
+  olde: 87
+  recent: 25
+  vote: 5

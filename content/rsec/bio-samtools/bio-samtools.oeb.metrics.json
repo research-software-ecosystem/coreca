@@ -1,0 +1,169 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:bio-samtools/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 57,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2024
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btv178",
+                            "pmid": "25819670",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "bio-samtools 2: a package for analysis and visualization of sequence and alignment data with SAMtools in Ruby.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/rjpbonnal/bioruby-samtools"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true,
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT4553491S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bio-samtools",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/rjpbonnal/bioruby-samtools"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT4553491S"
+            }
+        }
+    }
+]

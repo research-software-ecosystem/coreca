@@ -1,0 +1,24 @@
+package: sickle
+distribution: debian
+release: sid
+component: main
+version: 1.33+git20150314.f3d6ae3
+source: sickle
+homepage: https://github.com/najoshi/sickle
+license: unknown
+blend: debian-med
+description_md5: 669442b6169b604f66a4edae2b8390cc
+registries:
+- entry: OMICS_01077
+  name: OMICtools
+- entry: SCR_006800
+  name: SciCrunch
+- entry: sickle
+  name: bio.tools
+- entry: sickle
+  name: conda:bioconda
+popcon:
+- insts: 116
+  olde: 88
+  recent: 23
+  vote: 5

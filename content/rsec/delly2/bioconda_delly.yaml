@@ -1,0 +1,48 @@
+about:
+  dev_url: https://github.com/dellytools/delly
+  doc_url: https://github.com/dellytools/delly/blob/v2.7.0/README.md
+  home: https://github.com/dellytools/delly
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Structural variant discovery by integrated paired-end and split-read analysis
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - doi:10.1093/bioinformatics/bts378
+  - biotools:delly2
+  - usegalaxy-eu:delly_cnv
+  - usegalaxy-eu:delly_classify
+  - usegalaxy-eu:delly_lr
+  - usegalaxy-eu:delly_call
+  - usegalaxy-eu:delly_merge
+  - usegalaxy-eu:delly_filter
+package:
+  name: delly
+  version: 2.7.0
+requirements:
+  build:
+  - make
+  - null
+  - null
+  host:
+  - zlib
+  - bzip2
+  - boost-cpp
+  - xz
+  - htslib
+  run:
+  - boost-cpp
+  - htslib
+source:
+  sha256: e0965d4a6f9f5336f7697049d40b6621fa0946dcc1747ff93cee1abfdb842e20
+  url: https://github.com/dellytools/delly/archive/v2.7.0.tar.gz
+test:
+  commands:
+  - delly --help

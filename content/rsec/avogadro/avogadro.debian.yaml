@@ -1,0 +1,30 @@
+package: avogadro
+distribution: debian
+release: sid
+component: main
+version: 2.0.0
+source: avogadro
+homepage: https://two.avogadro.cc/
+license: unknown
+blend: debian-med
+description_md5: f18c3f1991d48f1decf97743ceaac81f
+registries:
+- entry: OMICS_04967
+  name: OMICtools
+- entry: SCR_015983
+  name: SciCrunch
+- entry: Avogadro
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1186/1758-2946-4-17
+tags:
+- tag: field::chemistry
+- tag: role::program
+- tag: uitoolkit::qt
+- tag: use::viewing
+popcon:
+- insts: 811
+  olde: 719
+  recent: 42
+  vote: 50

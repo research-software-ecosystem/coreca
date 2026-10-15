@@ -1,0 +1,25 @@
+package: maqview
+distribution: debian
+release: sid
+component: main
+version: 0.2.5
+source: maqview
+homepage: https://maq.sourceforge.net/maqview.shtml
+license: unknown
+blend: debian-med
+description_md5: b67a08902647452b367b5b63bddf0779
+registries:
+- entry: OMICS_00889
+  name: OMICtools
+- entry: SCR_005632
+  name: SciCrunch
+- entry: Maqview
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1101/gr.078212.108
+popcon:
+- insts: 118
+  olde: 89
+  recent: 23
+  vote: 6

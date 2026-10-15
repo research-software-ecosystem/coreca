@@ -1,0 +1,45 @@
+package: mothur
+distribution: debian
+release: sid
+component: main
+version: 1.48.6
+source: mothur
+homepage: https://www.mothur.org
+license: unknown
+blend: debian-med
+description_md5: 1668c70fa8f269cd3253a2880e162cd2
+topics:
+- Microbial ecology
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - FASTQ
+  output:
+  - data: Report
+    formats:
+    - Text
+    - SVG
+    - newick
+  function:
+  - Analysis
+registries:
+- entry: OMICS_01518
+  name: OMICtools
+- entry: SCR_011947
+  name: SciCrunch
+- entry: mothur
+  name: bio.tools
+- entry: mothur
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1128/AEM.01541-09
+tags:
+- tag: role::program
+popcon:
+- insts: 126
+  olde: 97
+  recent: 24
+  vote: 5

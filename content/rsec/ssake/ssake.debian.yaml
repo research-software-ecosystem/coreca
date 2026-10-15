@@ -1,0 +1,50 @@
+package: ssake
+distribution: debian
+release: sid
+component: main
+version: 4.0.1
+source: ssake
+homepage: https://www.bcgsc.ca/platform/bioinfo/software/ssake
+license: unknown
+blend: debian-med
+description_md5: 21b61abaf6cd2455dd2f4d4ccf5c4e33
+topics:
+- Sequence assembly
+edam_scopes:
+- name: summary
+  input:
+  - data: Nucleic acid sequence
+    formats:
+    - FASTQ
+  output:
+  - data: Sequence assembly
+    formats:
+    - FASTA
+  function:
+  - Genome assembly
+registries:
+- entry: OMICS_00033
+  name: OMICtools
+- entry: SCR_010753
+  name: SciCrunch
+- entry: ssake
+  name: bio.tools
+- entry: ssake
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btl629
+tags:
+- tag: biology::nuceleic-acids
+- tag: field::biology
+- tag: implemented-in::perl
+- tag: implemented-in::python
+- tag: interface::shell
+- tag: role::program
+- tag: scope::utility
+- tag: use::analysing
+popcon:
+- insts: 117
+  olde: 89
+  recent: 23
+  vote: 5

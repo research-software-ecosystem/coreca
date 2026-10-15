@@ -1,0 +1,109 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2023-11-30T14:08:03.251001Z",
+    "biotoolsCURIE": "biotools:deepcyps",
+    "biotoolsID": "deepcyps",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "lingwang@scut.edu.cn",
+            "name": "Ling Wang",
+            "typeEntity": "Person"
+        }
+    ],
+    "description": "A deep learning platform for enhanced cytochrome P450 activity prediction.",
+    "editPermission": {
+        "type": "public"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Small molecule structure",
+                        "uri": "http://edamontology.org/data_1463"
+                    },
+                    "format": [
+                        {
+                            "term": "SMILES",
+                            "uri": "http://edamontology.org/format_1196"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Molecular docking",
+                    "uri": "http://edamontology.org/operation_0478"
+                },
+                {
+                    "term": "Protein modelling",
+                    "uri": "http://edamontology.org/operation_0477"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Protein interaction data",
+                        "uri": "http://edamontology.org/data_0906"
+                    }
+                }
+            ]
+        }
+    ],
+    "homepage": "https://deepcyps.idruglab.cn/",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2026-08-01T10:09:24.687154Z",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/idrugLab/FP-GNN_CYP"
+        }
+    ],
+    "name": "DEEPCYPs",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "Pub2Tools",
+    "publication": [
+        {
+            "doi": "10.3389/fphar.2023.1099093",
+            "pmcid": "PMC10123292",
+            "pmid": "37101544",
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Drug development",
+            "uri": "http://edamontology.org/topic_3373"
+        },
+        {
+            "term": "Drug discovery",
+            "uri": "http://edamontology.org/topic_3336"
+        },
+        {
+            "term": "Drug metabolism",
+            "uri": "http://edamontology.org/topic_3375"
+        },
+        {
+            "term": "Endocrinology and metabolism",
+            "uri": "http://edamontology.org/topic_3407"
+        },
+        {
+            "term": "Machine learning",
+            "uri": "http://edamontology.org/topic_3474"
+        }
+    ]
+}

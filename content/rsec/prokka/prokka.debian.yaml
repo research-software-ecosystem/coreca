@@ -1,0 +1,27 @@
+package: prokka
+distribution: debian
+release: sid
+component: main
+version: 1.14.6
+source: prokka
+homepage: https://github.com/tseemann/prokka
+license: unknown
+blend: debian-med
+description_md5: 7bfacc33e3d6f88d25c778b4c2028609
+registries:
+- entry: OMICS_04220
+  name: OMICtools
+- entry: SCR_014732
+  name: SciCrunch
+- entry: prokka
+  name: bio.tools
+- entry: prokka
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btu153
+popcon:
+- insts: 113
+  olde: 84
+  recent: 24
+  vote: 5

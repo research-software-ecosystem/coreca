@@ -1,0 +1,41 @@
+about:
+  dev_url: https://github.com/COMBINE-lab/cuttlefish
+  doc_url: https://combine-lab.github.io/cuttlefish/
+  home: https://github.com/COMBINE-lab/cuttlefish
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Construction of the (colored) compacted de Bruijn graph efficiently.
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - osx-arm64
+  - linux-aarch64
+  identifiers:
+  - doi:10.1093/bioinformatics/btab309
+  - doi:10.1186/s13059-022-02743-6
+  - doi:10.1101/2025.02.02.636161
+  - biotools:cuttlefish
+  recipe-maintainers:
+  - jamshed
+  - rob-p
+package:
+  name: cuttlefish
+  version: 3.1.0
+requirements:
+  build:
+  - null
+  - null
+  - null
+  - make
+source:
+  sha256: 10eb5b1d7ec4ba4bcb76a10e0d14bace4a2a624f9d8927647b5b82eabe3320b2
+  url: https://github.com/COMBINE-lab/cuttlefish/archive/refs/tags/v3.1.0.tar.gz
+test:
+  commands:
+  - cuttlefish build --help
+  - cuttlefish help
+  - cuttlefish version

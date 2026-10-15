@@ -1,0 +1,27 @@
+package: snakemake
+distribution: debian
+release: sid
+component: main
+version: 7.32.4
+source: snakemake
+homepage: https://snakemake.readthedocs.io/
+license: unknown
+blend: debian-med
+description_md5: 7f9c57469c639aa1e67301b2a7ed865e
+registries:
+- entry: OMICS_02299
+  name: OMICtools
+- entry: SCR_003475
+  name: SciCrunch
+- entry: snakemake
+  name: bio.tools
+- entry: snakemake
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/bts480
+popcon:
+- insts: 502
+  olde: 359
+  recent: 95
+  vote: 48

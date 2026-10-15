@@ -1,0 +1,25 @@
+package: clonalorigin
+distribution: debian
+release: sid
+component: main
+version: '1.0'
+source: clonalorigin
+homepage: https://github.com/xavierdidelot/clonalorigin
+license: unknown
+blend: debian-med
+description_md5: b298d0959363ca20b9f4e69cb5aa4fcf
+registries:
+- entry: OMICS_18881
+  name: OMICtools
+- entry: SCR_016061
+  name: SciCrunch
+- entry: ClonalOrigin
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1534/genetics.110.120121
+popcon:
+- insts: 116
+  olde: 89
+  recent: 22
+  vote: 5

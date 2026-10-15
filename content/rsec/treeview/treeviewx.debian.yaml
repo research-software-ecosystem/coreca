@@ -1,0 +1,38 @@
+package: treeviewx
+distribution: debian
+release: sid
+component: main
+version: 0.5.1+git20100823.7e4d0e9
+source: treeviewx
+homepage: https://github.com/rdmpage/treeviewx
+license: unknown
+blend: debian-med
+description_md5: fb6691de71db05c7b776b75305449fbf
+registries:
+- entry: OMICS_13038
+  name: OMICtools
+- entry: TreeView
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/12.4.357
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c++
+- tag: interface::x11
+- tag: role::program
+- tag: scope::utility
+- tag: uitoolkit::wxwidgets
+- tag: use::viewing
+- tag: works-with-format::pdf
+- tag: works-with-format::plaintext
+- tag: works-with-format::postscript
+- tag: works-with-format::svg
+- tag: works-with::TODO
+- tag: x11::application
+popcon:
+- insts: 125
+  olde: 94
+  recent: 23
+  vote: 8

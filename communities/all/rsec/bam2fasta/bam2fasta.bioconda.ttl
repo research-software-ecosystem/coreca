@@ -1,0 +1,12 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix schema1: <http://schema.org/> .
+
+bioconda:bam2fasta a schema1:SoftwareApplication ;
+    schema1:alternateName "bam2fasta: cli tool to convert bam to fastas" ;
+    schema1:description "bam2fasta: cli tool to convert bam to fastas" ;
+    schema1:license "MIT" ;
+    schema1:maintainer "pranathi7" ;
+    schema1:name "bam2fasta" ;
+    schema1:softwareVersion "1.0.8" ;
+    schema1:url "https://github.com/czbiohub/bam2fasta" .
+

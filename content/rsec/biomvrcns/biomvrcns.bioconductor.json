@@ -1,0 +1,62 @@
+{
+    "Archs": "x64",
+    "Author": "Yang Du",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "GenomicRanges",
+        "Gviz",
+        "IRanges"
+    ],
+    "Description": "In this package, a Hidden Semi Markov Model (HSMM) and one homogeneous segmentation model are designed and implemented for segmentation genomic data, with the aim of assisting in transcripts detection using high throughput technology like RNA-seq or tiling array, and copy number analysis using aCGH or sequencing.",
+    "Imports": [
+        "methods",
+        "mvtnorm"
+    ],
+    "License": "GPL (>= 2)",
+    "MD5sum": "b66a4ab99ddbe9dfd4659a751039177d",
+    "Maintainer": "Yang Du <tooyoung@gmail.com>",
+    "NeedsCompilation": "yes",
+    "Package": "biomvRCNS",
+    "Rank": 843,
+    "Rfiles": [
+        "vignettes/biomvRCNS/inst/doc/biomvRCNS.R"
+    ],
+    "Suggests": [
+        "GenomicFeatures",
+        "Rsamtools",
+        "TxDb.Hsapiens.UCSC.hg19.knownGene",
+        "cluster",
+        "dynamicTreeCut",
+        "parallel"
+    ],
+    "Title": "Copy Number study and Segmentation for multivariate biological data",
+    "Version": "1.52.0",
+    "biocViews": [
+        "CopyNumberVariation",
+        "Genetics",
+        "Microarray",
+        "Sequencing",
+        "Software",
+        "Visualization",
+        "aCGH"
+    ],
+    "dependencyCount": "152",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "1b01825",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/biomvRCNS",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/biomvRCNS_1.52.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/biomvRCNS_1.52.0.tgz",
+    "source.ver": "src/contrib/biomvRCNS_1.52.0.tar.gz",
+    "vignetteTitles": [
+        "biomvRCNS package introduction"
+    ],
+    "vignettes": [
+        "vignettes/biomvRCNS/inst/doc/biomvRCNS.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/biomvRCNS_1.52.0.zip"
+}

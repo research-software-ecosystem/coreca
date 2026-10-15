@@ -1,0 +1,76 @@
+{
+    "Author": "Vince Carey",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.5.0)",
+        "SummarizedExperiment"
+    ],
+    "Description": "Define a SummarizedExperiment and exploratory app for Ivy-GAP glioblastoma image, expression, and clinical data.",
+    "Imports": [
+        "S4Vectors",
+        "UpSetR",
+        "ggplot2",
+        "graphics",
+        "hwriter",
+        "plotly",
+        "shiny",
+        "stats",
+        "survival",
+        "survminer",
+        "utils"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "fe266047d858d49e8cde046e2c27da54",
+    "Maintainer": "VJ Carey <stvjc@channing.harvard.edu>",
+    "NeedsCompilation": "no",
+    "Package": "ivygapSE",
+    "Rank": 1716,
+    "Rfiles": [
+        "vignettes/ivygapSE/inst/doc/ivygapSE.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "DT",
+        "codetools",
+        "digest",
+        "grid",
+        "knitr",
+        "limma",
+        "magick",
+        "png",
+        "randomForest",
+        "rmarkdown",
+        "statmod",
+        "testthat"
+    ],
+    "Title": "A SummarizedExperiment for Ivy-GAP data",
+    "Version": "1.34.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "GeneExpression",
+        "Sequencing",
+        "Software",
+        "Survival",
+        "Transcription",
+        "Visualization"
+    ],
+    "dependencyCount": "152",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "edba63d",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/ivygapSE",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/ivygapSE_1.34.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/ivygapSE_1.34.0.tgz",
+    "source.ver": "src/contrib/ivygapSE_1.34.0.tar.gz",
+    "vignetteTitles": [
+        "ivygapSE -- SummarizedExperiment for Ivy-GAP"
+    ],
+    "vignettes": [
+        "vignettes/ivygapSE/inst/doc/ivygapSE.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/ivygapSE_1.34.0.zip"
+}

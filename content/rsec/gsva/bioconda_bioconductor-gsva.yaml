@@ -1,0 +1,91 @@
+about:
+  description: Gene Set Variation Analysis (GSVA) is a non-parametric, unsupervised
+    method for estimating variation of gene set enrichment through the samples of
+    a expression data set. GSVA performs a change in coordinate systems, transforming
+    the data from a gene by sample matrix to a gene-set by sample matrix, thereby
+    allowing the evaluation of pathway enrichment for each sample. This new matrix
+    of GSVA enrichment scores facilitates applying standard analytical methods like
+    functional enrichment, survival analysis, clustering, CNV-pathway analysis or
+    cross-tissue pathway analysis, in a pathway-centric manner.
+  home: https://bioconductor.org/packages/3.22/bioc/html/GSVA.html
+  license: Artistic-2.0
+  summary: Gene Set Variation Analysis for Microarray and RNA-Seq Data
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:gsva
+  parent_recipe:
+    name: bioconductor-gsva
+    path: recipes/bioconductor-gsva
+    version: 1.28.0
+package:
+  name: bioconductor-gsva
+  version: 2.4.9
+requirements:
+  build:
+  - null
+  - null
+  - make
+  host:
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-biocparallel >=1.44.0,<1.45.0
+  - bioconductor-biocsingular >=1.26.0,<1.27.0
+  - bioconductor-delayedarray >=0.36.0,<0.37.0
+  - bioconductor-gseabase >=1.72.0,<1.73.0
+  - bioconductor-hdf5array >=1.38.0,<1.39.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-matrixgenerics >=1.22.0,<1.23.0
+  - bioconductor-s4arrays >=1.10.0,<1.11.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-singlecellexperiment >=1.32.0,<1.33.0
+  - bioconductor-sparsearray >=1.10.0,<1.11.0
+  - bioconductor-sparsematrixstats >=1.22.0,<1.23.0
+  - bioconductor-spatialexperiment >=1.20.0,<1.21.0
+  - bioconductor-summarizedexperiment >=1.40.0,<1.41.0
+  - r-base
+  - r-cli
+  - r-matrix >=1.5-0
+  - r-memuse
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-biocparallel >=1.44.0,<1.45.0
+  - bioconductor-biocsingular >=1.26.0,<1.27.0
+  - bioconductor-delayedarray >=0.36.0,<0.37.0
+  - bioconductor-gseabase >=1.72.0,<1.73.0
+  - bioconductor-hdf5array >=1.38.0,<1.39.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-matrixgenerics >=1.22.0,<1.23.0
+  - bioconductor-s4arrays >=1.10.0,<1.11.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-singlecellexperiment >=1.32.0,<1.33.0
+  - bioconductor-sparsearray >=1.10.0,<1.11.0
+  - bioconductor-sparsematrixstats >=1.22.0,<1.23.0
+  - bioconductor-spatialexperiment >=1.20.0,<1.21.0
+  - bioconductor-summarizedexperiment >=1.40.0,<1.41.0
+  - r-base
+  - r-cli
+  - r-matrix >=1.5-0
+  - r-memuse
+source:
+  sha256: d1e385b964d4d6817dba2594ab696bd1ede2c46bce20c4de1842cdbe37d698a6
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/GSVA_2.4.9.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/GSVA/GSVA_2.4.9.tar.gz
+  - https://bioarchive.galaxyproject.org/GSVA_2.4.9.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-gsva/bioconductor-gsva_2.4.9_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('GSVA')"

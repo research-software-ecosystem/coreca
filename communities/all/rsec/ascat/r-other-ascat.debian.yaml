@@ -1,0 +1,23 @@
+package: r-other-ascat
+distribution: debian
+release: sid
+component: main
+version: 3.2.0
+source: r-other-ascat
+homepage: https://github.com/Crick-CancerGenomics/ascat
+license: unknown
+blend: debian-med
+description_md5: d6e36e46f4a8e8a488fcc87a3cc6f134
+registries:
+- entry: ascat
+  name: bio.tools
+- entry: ascat
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1073/pnas.1009843107
+popcon:
+- insts: 114
+  olde: 86
+  recent: 23
+  vote: 5

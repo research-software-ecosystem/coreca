@@ -1,0 +1,33 @@
+{
+    "additionDate": "2024-02-23T01:01:27.707985Z",
+    "biotoolsCURIE": "biotools:anndata",
+    "biotoolsID": "anndata",
+    "description": "From https://anndata.readthedocs.io/en/latest/\n\"Python package for handling annotated data matrices in memory and on disk, positioned between pandas and xarray.\"",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://anndata.readthedocs.io/en/latest/"
+        }
+    ],
+    "editPermission": {
+        "type": "public"
+    },
+    "homepage": "https://github.com/scverse/anndata",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2026-07-10T02:41:41.032876Z",
+    "license": "BSD-3-Clause",
+    "name": "anndata",
+    "owner": "admin",
+    "publication": [
+        {
+            "doi": "10.1101/2021.12.16.473007"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ]
+}

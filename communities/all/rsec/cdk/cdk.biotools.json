@@ -1,0 +1,160 @@
+{
+    "additionDate": "2015-12-01T14:33:26Z",
+    "biotoolsCURIE": "biotools:cdk",
+    "biotoolsID": "cdk",
+    "collectionID": [
+        "ELIXIR-NL"
+    ],
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "name": "Christoph Steinbeck",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "Egon Willighagen",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "John May",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "Rajarshi Guha",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "maastrichtuniversity.nl",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        },
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://sourceforge.net/p/cdk/mailman/?source=navbar"
+        }
+    ],
+    "description": "Open source Java library for bio- and cheminformatics.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/cdk/cdk/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://github.com/cdk/cdk/",
+    "language": [
+        "Java"
+    ],
+    "lastUpdate": "2025-12-29T19:08:00.918429Z",
+    "license": "LGPL-2.1",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "http://github.com/cdk/cdk/"
+        },
+        {
+            "type": [
+                "Social media"
+            ],
+            "url": "https://fosstodon.org/@cdk"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "The Chemistry Development Kit",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "egonw",
+    "publication": [
+        {
+            "doi": "10.1186/s13321-017-0220-4",
+            "metadata": {
+                "citationCount": 381,
+                "date": "2017-06-06T00:00:00Z",
+                "journal": "Journal of Cheminformatics",
+                "title": "The Chemistry Development Kit (CDK) v2.0: atom typing, depiction, molecular formulas, and substructure searching"
+            },
+            "pmcid": "PMC5461230",
+            "pmid": "29086040"
+        },
+        {
+            "doi": "10.1021/ci025584y",
+            "metadata": {
+                "citationCount": 935,
+                "date": "2003-01-01T00:00:00Z",
+                "journal": "Journal of Chemical Information and Computer Sciences",
+                "title": "The Chemistry Development Kit (CDK): An open-source Java library for chemo- and bioinformatics"
+            },
+            "pmcid": "PMC4901983",
+            "pmid": "12653513",
+            "type": [
+                "Primary"
+            ]
+        },
+        {
+            "doi": "10.2174/138161206777585274",
+            "metadata": {
+                "citationCount": 445,
+                "date": "2006-06-01T00:00:00Z",
+                "journal": "Current Pharmaceutical Design",
+                "title": "Recent developments of the Chemistry Development Kit (CDK) - An open-source Java library for chemo- and bioinformatics"
+            },
+            "pmid": "16796559",
+            "type": [
+                "Other"
+            ]
+        }
+    ],
+    "toolType": [
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Bioinformatics",
+            "uri": "http://edamontology.org/topic_0091"
+        },
+        {
+            "term": "Cheminformatics",
+            "uri": "http://edamontology.org/topic_2258"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1"
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "Author": "Philippe Hauchamps [aut, cre] (ORCID: <https://orcid.org/0000-0003-2865-1852>), Laurent Gatto [aut] (ORCID: <https://orcid.org/0000-0002-1520-2268>), Dan Lin [ctb]",
+    "BugReports": "https://github.com/UCLouvain-CBIO/CytoMDS/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biobase",
+        "R (>= 4.4)"
+    ],
+    "Description": "This package implements a low dimensional visualization of a set of cytometry samples, in order to visually assess the 'distances' between them. This, in turn, can greatly help the user to identify quality issues like batch effects or outlier samples, and/or check the presence of potential sample clusters that might align with the exeprimental design. The CytoMDS algorithm combines, on the one hand, the concept of Earth Mover's Distance (EMD), a.k.a. Wasserstein metric and, on the other hand, the Multi Dimensional Scaling (MDS) algorithm for the low dimensional projection. Also, the package provides some diagnostic tools for both checking the quality of the MDS projection, as well as tools to help with the interpretation of the axes of the projection.",
+    "Imports": [
+        "BiocParallel",
+        "CytoPipeline",
+        "flowCore",
+        "ggforce",
+        "ggplot2",
+        "ggrepel",
+        "methods",
+        "patchwork",
+        "pracma",
+        "reshape2",
+        "rlang",
+        "smacof",
+        "stats",
+        "transport",
+        "withr"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "953400fd4280e589de9c624d1a79f2d3",
+    "Maintainer": "Philippe Hauchamps <philippe.hauchamps@uclouvain.be>",
+    "NeedsCompilation": "no",
+    "Package": "CytoMDS",
+    "Rank": 1843,
+    "Rfiles": [
+        "vignettes/CytoMDS/inst/doc/CytoMDS.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "HDCytoData",
+        "diffviewer",
+        "knitr",
+        "rmarkdown",
+        "testthat (>= 3.0.0)",
+        "vdiffr"
+    ],
+    "Title": "Low Dimensions projection of cytometry samples",
+    "URL": "https://uclouvain-cbio.github.io/CytoMDS",
+    "Version": "1.8.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DimensionReduction",
+        "FlowCytometry",
+        "MultidimensionalScaling",
+        "QualityControl",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "192",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "2a65577",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/CytoMDS",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "MDSvis"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/CytoMDS_1.8.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/CytoMDS_1.8.0.tgz",
+    "source.ver": "src/contrib/CytoMDS_1.8.0.tar.gz",
+    "vignetteTitles": [
+        "Low Dimensional Projection of Cytometry Samples"
+    ],
+    "vignettes": [
+        "vignettes/CytoMDS/inst/doc/CytoMDS.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/CytoMDS_1.8.0.zip"
+}

@@ -1,0 +1,97 @@
+{
+    "Archs": "x64",
+    "Author": "Mark Dunning, Mike Smith, Jonathan Cairns, Andy Lynch, Matt Ritchie",
+    "Date/Publication": "2026-08-31",
+    "Depends": [
+        "Biobase (>= 2.17.8)",
+        "BiocGenerics (>= 0.3.2)",
+        "R (>= 3.5.0)",
+        "hexbin"
+    ],
+    "Description": "The package is able to read bead-level data (raw TIFFs and text files) output by BeadScan as well as bead-summary data from BeadStudio. Methods for quality assessment and low-level analysis are provided.",
+    "Imports": [
+        "AnnotationDbi",
+        "BeadDataPackR",
+        "GenomicRanges",
+        "IRanges",
+        "ggplot2",
+        "limma",
+        "methods",
+        "reshape2",
+        "stats4"
+    ],
+    "License": "MIT + file LICENSE",
+    "MD5sum": "a1e507a43aa2bd0e4df9d1ef3d0fc5f0",
+    "Maintainer": "Mark Dunning <m.dunning@imperial.ac.uk>",
+    "NeedsCompilation": "yes",
+    "Package": "beadarray",
+    "Rank": 275,
+    "Rfiles": [
+        "vignettes/beadarray/inst/doc/ImageProcessing.R",
+        "vignettes/beadarray/inst/doc/beadarray.R",
+        "vignettes/beadarray/inst/doc/beadlevel.R",
+        "vignettes/beadarray/inst/doc/beadsummary.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "TxDb.Hsapiens.UCSC.hg19.knownGene",
+        "affy",
+        "beadarrayExampleData",
+        "ggbio",
+        "gridExtra",
+        "hwriter",
+        "illuminaHumanv3.db",
+        "knitr",
+        "lumi",
+        "vsn"
+    ],
+    "Title": "Quality assessment and low-level analysis for Illumina BeadArray data",
+    "Version": "2.62.2",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Microarray",
+        "OneChannel",
+        "Preprocessing",
+        "QualityControl",
+        "Software"
+    ],
+    "dependencyCount": "65",
+    "dependsOnMe": [
+        "beadarrayExampleData"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "dd8f01f",
+    "git_last_commit_date": "2026-08-31",
+    "git_url": "https://git.bioconductor.org/packages/beadarray",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "BeadArrayUseCases",
+        "arrayQualityMetrics",
+        "blima",
+        "epigenomix"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/beadarray_2.62.2.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/beadarray_2.62.2.tgz",
+    "source.ver": "src/contrib/beadarray_2.62.2.tar.gz",
+    "suggestsMe": [
+        "blimaTestingData",
+        "lumi",
+        "maGUI"
+    ],
+    "vignetteTitles": [
+        "Analysis of Bead-level Data using beadarray",
+        "Analysis of bead-summary data",
+        "Image Analysis with beadarray",
+        "Introduction to beadarray"
+    ],
+    "vignettes": [
+        "vignettes/beadarray/inst/doc/ImageProcessing.html",
+        "vignettes/beadarray/inst/doc/beadarray.html",
+        "vignettes/beadarray/inst/doc/beadlevel.html",
+        "vignettes/beadarray/inst/doc/beadsummary.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/beadarray_2.62.2.zip"
+}

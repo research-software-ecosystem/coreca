@@ -1,0 +1,77 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:europe_pmc_plus_manuscript_submission_system:1/web/plus.europepmc.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "help": true,
+                "terms_of_use": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://plus.europepmc.org/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://plus.europepmc.org/emss/login/uls.cgi?rss=wt&url=/plus/menu.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/europe_pmc_plus_manuscript_submission_system",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://plus.europepmc.org/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://plus.europepmc.org/emss/login/uls.cgi?rss=wt&url=/plus/menu.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

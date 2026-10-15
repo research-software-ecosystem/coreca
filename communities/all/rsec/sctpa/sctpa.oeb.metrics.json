@@ -1,0 +1,93 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:sctpa/undefined/sctpa.bio-data.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2020.01.15.907592",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://sctpa.bio-data.cn/sctpa"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://sctpa.bio-data.cn/sctpa/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://sctpa.bio-data.cn/sctpa/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/sctpa",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://sctpa.bio-data.cn/sctpa"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://sctpa.bio-data.cn/sctpa/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://sctpa.bio-data.cn/sctpa/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

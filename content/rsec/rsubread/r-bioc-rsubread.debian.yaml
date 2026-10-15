@@ -1,0 +1,25 @@
+package: r-bioc-rsubread
+distribution: debian
+release: sid
+component: main
+version: 2.26.0
+source: r-bioc-rsubread
+homepage: https://bioconductor.org/packages/Rsubread/
+license: unknown
+blend: debian-med
+description_md5: 9877bc848af9159e51e183ad3b389e66
+registries:
+- entry: OMICS_01255
+  name: OMICtools
+- entry: rsubread
+  name: bio.tools
+- entry: bioconductor-rsubread
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/nar/gkz114
+popcon:
+- insts: 104
+  olde: 85
+  recent: 2
+  vote: 17

@@ -1,0 +1,20 @@
+package: r-bioc-biomformat
+distribution: debian
+release: sid
+component: main
+version: 1.40.0
+source: r-bioc-biomformat
+homepage: https://bioconductor.org/packages/biomformat/
+license: unknown
+blend: debian-med
+description_md5: a170a6dba439df360d9b88863fe25f45
+registries:
+- entry: biomformat
+  name: bio.tools
+- entry: bioconductor-biomformat
+  name: conda:bioconda
+popcon:
+- insts: 125
+  olde: 94
+  recent: 26
+  vote: 5

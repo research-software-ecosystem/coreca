@@ -1,0 +1,26 @@
+package: r-cran-genabel
+distribution: debian
+release: bookworm
+component: main
+version: 1.8-0
+source: r-cran-genabel
+homepage: https://cran.r-project.org/package=GenABEL
+license: unknown
+blend: debian-med
+description_md5: 1e3024d52450ff5fdf0bd698020dac07
+registries:
+- entry: OMICS_00234
+  name: OMICtools
+- entry: SCR_001842
+  name: SciCrunch
+- entry: GENABEL
+  name: bio.tools
+- entry: r-genabel
+  name: conda:conda-forge
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btm108
+popcon:
+- insts: 29
+  olde: 26
+  vote: 3

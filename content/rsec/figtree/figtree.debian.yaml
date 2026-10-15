@@ -1,0 +1,24 @@
+package: figtree
+distribution: debian
+release: sid
+component: main
+version: 1.4.4
+source: figtree
+homepage: http://tree.bio.ed.ac.uk/software/figtree/
+license: unknown
+blend: debian-med
+description_md5: e06f51cdb4e8a7021940de0d58824055
+registries:
+- entry: OMICS_04268
+  name: OMICtools
+- entry: SCR_008515
+  name: SciCrunch
+- entry: FigTree
+  name: bio.tools
+- entry: figtree
+  name: conda:bioconda
+popcon:
+- insts: 146
+  olde: 109
+  recent: 25
+  vote: 12

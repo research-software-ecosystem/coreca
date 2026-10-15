@@ -1,0 +1,44 @@
+about:
+  dev_url: https://github.com/galaxyproject/galaxy
+  doc_url: https://docs.galaxyproject.org
+  home: https://galaxyproject.org
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: The Galaxy object store framework and default implementations.
+build:
+  noarch: python
+  number: 0
+  run_exports:
+  - null
+  script: ' -m pip install . --no-deps --no-build-isolation --no-cache-dir -vvv'
+extra:
+  identifiers:
+  - biotools:galaxy
+  - doi:10.1093/nar/gky379
+  recipe-maintainers:
+  - bernt-matthias
+  - nsoranzo
+package:
+  name: galaxy-objectstore
+  version: 26.1.1
+requirements:
+  host:
+  - pip
+  - python >=3.8
+  - setuptools
+  - setuptools-scm >=8
+  run:
+  - python >=3.8
+  - galaxy-tool-util-models >=26.1
+  - galaxy-util >=26.1
+  - pyyaml
+  - pydantic >=2.7.4
+source:
+  sha256: 45fa61cce89a61c49211bca8392227ad15e95f54a2f9324c28735cdf47576e0e
+  url: https://pypi.io/packages/source/g/galaxy-objectstore/galaxy_objectstore-26.1.1.tar.gz
+test:
+  imports:
+  - galaxy
+  - galaxy.objectstore
+  - galaxy.objectstore.cloud

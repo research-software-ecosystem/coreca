@@ -1,0 +1,261 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:fedbiomed:4.4/cmd/fedbiomed.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "api": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1007/978-3-031-78841-3_2",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 10,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2026
+                                }
+                            ],
+                            "doi": "10.1038/s41746-025-01434-3",
+                            "pmcid": "PMC11802793",
+                            "pmid": "39915633",
+                            "ref_count": 32,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2021
+                                }
+                            ],
+                            "title": "Real world federated learning with a knowledge distilled transformer for cardiac CT imaging.",
+                            "year": 2025
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:fedbiomed:6.1/cmd/fedbiomed.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "api": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1007/978-3-031-78841-3_2",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 10,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2026
+                                }
+                            ],
+                            "doi": "10.1038/s41746-025-01434-3",
+                            "pmcid": "PMC11802793",
+                            "pmid": "39915633",
+                            "ref_count": 32,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2021
+                                }
+                            ],
+                            "title": "Real world federated learning with a knowledge distilled transformer for cardiac CT imaging.",
+                            "year": 2025
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/fedbiomed",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

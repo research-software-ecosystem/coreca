@@ -1,0 +1,144 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:musket:1.1/cmd/musket.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 142,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2019
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bts690",
+                            "pmid": "23202746",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Musket: a multistage k-mer spectrum-based error corrector for Illumina sequence data.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://musket.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/musket",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://musket.sourceforge.net/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

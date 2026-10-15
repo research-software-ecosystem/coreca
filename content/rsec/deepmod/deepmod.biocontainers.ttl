@@ -1,0 +1,9 @@
+@prefix biocontainers: <https://biocontainers.pro/tools/> .
+@prefix schema1: <http://schema.org/> .
+
+biocontainers:deepmod a schema1:SoftwareApplication ;
+    schema1:description "A deep-learning method for dna modifcation (5mc and 6ma) prediction." ;
+    schema1:license "Not available" ;
+    schema1:name "deepmod" ;
+    schema1:url "https://github.com/WGLab/DeepMod" .
+

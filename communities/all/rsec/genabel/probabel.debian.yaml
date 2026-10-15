@@ -1,0 +1,25 @@
+package: probabel
+distribution: debian
+release: sid
+component: main
+version: 0.5.0
+source: probabel
+homepage: http://www.genabel.org
+license: unknown
+blend: debian-med
+description_md5: 46cc8699558a3d5d3ab397f8dd25c53e
+registries:
+- entry: OMICS_00234
+  name: OMICtools
+- entry: SCR_001842
+  name: SciCrunch
+- entry: GENABEL
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1186/1471-2105-11-134
+popcon:
+- insts: 116
+  olde: 85
+  recent: 28
+  vote: 3

@@ -1,0 +1,25 @@
+package: patman
+distribution: debian
+release: sid
+component: main
+version: 1.2.2
+source: patman
+homepage: https://bioinf.eva.mpg.de/patman/
+license: unknown
+blend: debian-med
+description_md5: 1ab99bd112c0ec1ecd180cac2fa27a91
+registries:
+- entry: OMICS_00997
+  name: OMICtools
+- entry: SCR_011821
+  name: SciCrunch
+- entry: patman
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btn223
+popcon:
+- insts: 116
+  olde: 89
+  recent: 23
+  vote: 4

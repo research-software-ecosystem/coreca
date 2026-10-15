@@ -1,0 +1,31 @@
+package: genometester
+distribution: debian
+release: sid
+component: main
+version: 4.0+git20221122.71e6625
+source: genometester
+homepage: https://github.com/bioinfo-ut/GenomeTester4
+license: unknown
+blend: debian-med
+description_md5: 3c679b6fcf4c5f8458c173887f22d60c
+registries:
+- entry: OMICS_02363w
+  name: OMICtools
+- entry: genometester
+  name: bio.tools
+- entry: genometester4
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/s13742-015-0097-y
+- key: doi
+  rank: 1
+  value: 10.1038/s41598-017-02487-5
+- key: doi
+  rank: 2
+  value: 10.1007/978-1-59745-528-2_10
+popcon:
+- insts: 115
+  olde: 86
+  recent: 23
+  vote: 6

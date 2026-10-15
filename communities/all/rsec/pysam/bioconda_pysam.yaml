@@ -1,0 +1,44 @@
+about:
+  home: https://github.com/pysam-developers/pysam
+  license: MIT
+  summary: Pysam is a Python module for reading and manipulating SAM/BAM/VCF/BCF files.
+    It's a lightweight wrapper of the htslib C-API, the same one that powers samtools,
+    bcftools, and tabix.
+build:
+  binary_relocation: false
+  number: 0
+  run_exports:
+  - null
+  skip: true
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:pysam
+  - doi:10.1093/bioinformatics/btp352
+package:
+  name: pysam
+  version: 0.24.1
+requirements:
+  build:
+  - null
+  - null
+  - make
+  host:
+  - cython
+  - python
+  - setuptools
+  - zlib
+  - xz
+  - bzip2
+  - libdeflate
+  - libcurl
+  - openssl
+  run:
+  - null
+source:
+  patches:
+  - arm_hwcap.patch
+  sha256: 78d65401f5dac1533167b20e8f697572a4aac5471fdca2abc699c6c8a101215b
+  url: https://github.com/pysam-developers/pysam/archive/v0.24.1.tar.gz

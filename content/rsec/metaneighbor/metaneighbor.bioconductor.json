@@ -1,0 +1,49 @@
+{
+    "Author": "Megan Crow [aut, cre], Sara Ballouz [ctb], Manthan Shah [ctb], Stephan Fischer [ctb], Jesse Gillis [aut]",
+    "Depends": [
+        "R(>= 3.5)"
+    ],
+    "Description": "MetaNeighbor allows users to quantify cell type replicability across datasets using neighbor voting.",
+    "Imports": [
+        "Matrix (>= 1.2)",
+        "RColorBrewer (>= 1.1.2)",
+        "SingleCellExperiment",
+        "SummarizedExperiment (>= 1.12)",
+        "beanplot (>= 1.2)",
+        "dplyr",
+        "ggplot2",
+        "gplots (>= 3.0.1)",
+        "grDevices",
+        "graphics",
+        "igraph",
+        "matrixStats (>= 0.54)",
+        "methods",
+        "stats (>= 3.4)",
+        "tibble",
+        "tidyr",
+        "utils (>= 3.4)"
+    ],
+    "License": "MIT + file LICENSE",
+    "Maintainer": "Stephan Fischer <fischer@cshl.edu>",
+    "Package": "MetaNeighbor",
+    "PackageStatus": "Deprecated",
+    "Rank": 2162,
+    "Suggests": [
+        "UpSetR",
+        "knitr (>= 1.17)",
+        "rmarkdown (>= 1.6)",
+        "testthat (>= 1.0.2)"
+    ],
+    "Title": "Single cell replicability analysis",
+    "Version": "1.32.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "GO",
+        "GeneExpression",
+        "ImmunoOncology",
+        "MultipleComparison",
+        "SingleCell",
+        "Software",
+        "Transcriptomics"
+    ]
+}

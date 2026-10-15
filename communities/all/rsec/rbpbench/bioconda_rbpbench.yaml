@@ -1,0 +1,53 @@
+about:
+  home: https://github.com/michauhl/RBPBench
+  license: MIT
+  license_file: LICENSE
+  summary: "RBPBench is a multi-function tool to evaluate CLIP-seq and other related\
+    \ genomic region \ndata using a comprehensive collection of known RNA-binding\
+    \ protein (RBP) binding motifs. \nRBPBench can be used for a variety of purposes,\
+    \ from RBP motif search (database or \nuser-supplied RBP motifs) in genomic regions,\
+    \ over motif enrichment and co-occurrence \nanalysis, in-depth comparisons over\
+    \ multiple datasets via sequence and genomic annotation \nstatistics, to benchmarking\
+    \ CLIP-seq peak caller methods as well as comparisons across \ncell types and\
+    \ CLIP-seq protocols. RBPBench supports both sequence and structure motifs, \n\
+    as well as regular expressions (sequence and structure patterns). Moreover, users\
+    \ can \neasily provide their own motif collections.\n"
+build:
+  noarch: python
+  number: 0
+  run_exports:
+  - null
+  script: $PYTHON -m pip install . --ignore-installed --no-deps -vv
+extra:
+  identifiers:
+  - biotools:rbpbench
+package:
+  name: rbpbench
+  version: 1.1.2
+requirements:
+  host:
+  - python <3.12
+  - pip
+  run:
+  - python <3.12
+  - logomaker
+  - markdown
+  - meme >=5.0
+  - scipy
+  - plotly
+  - textdistance
+  - venn
+  - matplotlib-venn
+  - infernal
+  - bedtools
+  - upsetplot >=0.9
+  - packaging
+  - scikit-learn
+  - goatools
+  - pybigwig
+source:
+  sha256: 4f93861d4cabbfab7edcd7f2516ce0d1b7f63c2a8d84bc110b605f099e1b4cc2
+  url: https://github.com/michauhl/RBPBench/archive/v1.1.2.tar.gz
+test:
+  commands:
+  - rbpbench -h

@@ -1,0 +1,25 @@
+package: genomethreader
+distribution: debian
+release: sid
+component: main
+version: 1.7.3
+source: genomethreader
+homepage: https://genomethreader.org
+license: unknown
+blend: debian-med
+description_md5: 10343b593bae7c426badf0d09d241389
+registries:
+- entry: OMICS_07783
+  name: OMICtools
+- entry: genomethreader
+  name: bio.tools
+- entry: genomethreader
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1016/j.infsof.2005.09.005
+popcon:
+- insts: 114
+  olde: 84
+  recent: 24
+  vote: 6

@@ -1,0 +1,40 @@
+package: igv
+distribution: debian
+release: sid
+component: main
+version: 2.19.8
+source: igv
+homepage: https://www.broadinstitute.org/igv/
+license: unknown
+blend: debian-med
+description_md5: c007bd50ee1f6b5e2ff534544a24c883
+registries:
+- entry: OMICS_00917
+  name: OMICtools
+- entry: SCR_012211
+  name: SciCrunch
+- entry: igv
+  name: bio.tools
+- entry: igv
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1038/nbt.1754
+- key: doi
+  rank: 1
+  value: 10.1093/bib/bbs017
+tags:
+- tag: field::biology
+- tag: implemented-in::java
+- tag: interface::x11
+- tag: network::client
+- tag: protocol::http
+- tag: role::program
+- tag: scope::utility
+- tag: use::viewing
+- tag: works-with::biological-sequence
+popcon:
+- insts: 213
+  olde: 165
+  recent: 27
+  vote: 21

@@ -1,0 +1,77 @@
+{
+    "additionDate": "2024-08-01T14:47:05.112963Z",
+    "biotoolsCURIE": "biotools:foldmason",
+    "biotoolsID": "foldmason",
+    "cost": "Free of charge",
+    "description": "FoldMason is a fast multiple structure aligner based on Foldseek's 3Di alphabet.",
+    "editPermission": {
+        "type": "public"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Protein structure",
+                        "uri": "http://edamontology.org/data_1460"
+                    }
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Multiple structure alignment",
+                    "uri": "http://edamontology.org/operation_0504"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Protein structure alignment",
+                        "uri": "http://edamontology.org/data_1481"
+                    }
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/steineggerlab/foldmason",
+    "language": [
+        "C++"
+    ],
+    "lastUpdate": "2025-11-10T08:31:48.303126Z",
+    "license": "GPL-3.0",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/steineggerlab/foldmason"
+        },
+        {
+            "type": [
+                "Service"
+            ],
+            "url": "https://search.foldseek.com/foldmason"
+        }
+    ],
+    "name": "FoldMason",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "milot-mirdita",
+    "publication": [
+        {
+            "doi": "10.1101/2024.08.01.606130v1"
+        }
+    ],
+    "relation": [
+        {
+            "biotoolsID": "foldseek",
+            "type": "uses"
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Web application"
+    ]
+}

@@ -1,0 +1,54 @@
+about:
+  description: Classes and statistical methods for large SNP association studies.
+    This extends the earlier snpMatrix package, allowing for uncertainty in genotypes.
+  home: https://bioconductor.org/packages/3.22/bioc/html/snpStats.html
+  license: GPL-3
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: SnpMatrix and XSnpMatrix classes and methods
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:snpstats
+  - doi:10.1038/nmeth.3252
+  parent_recipe:
+    name: bioconductor-snpstats
+    path: recipes/bioconductor-snpstats
+    version: 1.30.0
+package:
+  name: bioconductor-snpstats
+  version: 1.60.0
+requirements:
+  build:
+  - null
+  - make
+  host:
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - r-base
+  - r-matrix
+  - r-survival
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - r-base
+  - r-matrix
+  - r-survival
+source:
+  md5: edcd52705c16690e1b44b50918b5adc4
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/snpStats_1.60.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/snpStats/snpStats_1.60.0.tar.gz
+  - https://bioarchive.galaxyproject.org/snpStats_1.60.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-snpstats/bioconductor-snpstats_1.60.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('snpStats')"

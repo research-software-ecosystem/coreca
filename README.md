@@ -46,19 +46,29 @@ The extraction, filtering and curation are done following the workflow below and
     ```
     $ python bin/extract_workflowhub.py \
         extract \
-        --all content/workflowhub/workflows_full.json
+        --all communities/all/workflowhub/workflows_full.json
     ```
+
+- Create the metadata folder for your community
+    ```
+    community="biodiversity"
+    mkdir communities/${community}
+    mkdir communities/${community}/metadata
+    ```
+
+- Create the keywords file for you community in the newly created metadata folder
 
 - Filter workflows based on keywords and EDAM terms
 
     ```
+    community="microbiome"
     $ python bin/extract_workflowhub.py \
         filter \
-        --all content/workflowhub/workflows_full.json \
-        --filtered content/workflowhub/workflows_filtered.json \
-        --tsv-filtered content/workflowhub/workflows_filtered.tsv \
-        --tags keywords.yml \
-        --status content/workflowhub/workflows_status.tsv
+        --all communities/all/workflowhub/workflows_full.json \
+        --filtered communities/${community}/workflowhub/workflows_filtered.json \
+        --tsv-filtered communities/${community}/workflowhub/workflows_filtered.tsv \
+        --tags communities/${community}/metadata/keywords.yml \
+        --status communities/${community}/workflowhub/workflows_status.tsv
     ```
 
     As explained in the decision tree above, workflows are filtered first on EDAM terms (topics and operations), then on tags, workflow name and finally description based on the keywords provided in `keywords.yml` file.
@@ -66,17 +76,26 @@ The extraction, filtering and curation are done following the workflow below and
 
 # Tools from RSEc
 
-- Extract all metadata from RSEc/content/data 
+- Extract all metadata from RSEc
 
     ```
-    $ python bin/extract_rsec.py 
+    $ python bin/extract_rsec.py \
+        extract \
+        --all communities/all/rsec/
     ```
 
 - Filter RSEc tools based on keywords and EDAM terms, place them in content/rsec
 
     ```
-    $ python bin/filter_rsec.py
+    community="microbiome"
+    $ python bin/extract_rsec.py \
+        filter \
+        --all communities/all/rsec/ \
+        --json communities/${community}/rsec/validated_tools_metadata.json \
+        --tsv communities/${community}/rsec/validated_tools_summary.tsv \
+        --keywords communities/${community}/metadata/keywords.yml
     ```
+
     As explained in the decision tree above, workflows are filtered first on EDAM terms (topics and operations), then on tags, workflow name and finally description based on the keywords provided in `keywords.yml` file. 
     Workflows are filtered first on EDAM terms (topics and operations), then on tags, workflow name and finally description based on the keywords provided in "keywords.yml". 
 

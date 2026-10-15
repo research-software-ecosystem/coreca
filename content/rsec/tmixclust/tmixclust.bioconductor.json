@@ -1,0 +1,66 @@
+{
+    "Author": "Monica Golumbeanu <golumbeanu.monica@gmail.com>",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.4)"
+    ],
+    "Description": "Implementation of a clustering method for time series gene expression data based on mixed-effects models with Gaussian variables and non-parametric cubic splines estimation. The method can robustly account for the high levels of noise present in typical gene expression time series datasets.",
+    "Imports": [
+        "Biobase",
+        "BiocParallel",
+        "SPEM",
+        "cluster",
+        "flexclust",
+        "grDevices",
+        "graphics",
+        "gss",
+        "mvtnorm",
+        "stats",
+        "utils",
+        "zoo"
+    ],
+    "License": "GPL (>=2)",
+    "MD5sum": "23f1f363dd3d55c45ae544a455c9ca5a",
+    "Maintainer": "Monica Golumbeanu <golumbeanu.monica@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "TMixClust",
+    "Rank": 1364,
+    "Rfiles": [
+        "vignettes/TMixClust/inst/doc/TMixClust.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Time Series Clustering of Gene Expression with Gaussian Mixed-Effects Models and Smoothing Splines",
+    "Version": "1.34.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Clustering",
+        "GeneExpression",
+        "Software",
+        "StatisticalMethod",
+        "TimeCourse"
+    ],
+    "dependencyCount": "41",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "ac55364",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/TMixClust",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/TMixClust_1.34.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/TMixClust_1.34.0.tgz",
+    "source.ver": "src/contrib/TMixClust_1.34.0.tar.gz",
+    "vignetteTitles": [
+        "Clustering time series gene expression data with TMixClust"
+    ],
+    "vignettes": [
+        "vignettes/TMixClust/inst/doc/TMixClust.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/TMixClust_1.34.0.zip"
+}

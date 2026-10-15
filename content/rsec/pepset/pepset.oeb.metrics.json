@@ -1,0 +1,105 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pepset/undefined/cadd.zju.edu.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 71,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 23,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1021/acs.jctc.9b01208",
+                            "pmid": "32324992",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Comprehensive Evaluation of Fourteen Docking Programs on Protein-Peptide Complexes.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 502,
+                "redirects": [
+                    {
+                        "status": 308,
+                        "url": "https://cadd.zju.edu.cn/pepset/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/pepset",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 502,
+                "redirects": [
+                    {
+                        "status": 308,
+                        "url": "https://cadd.zju.edu.cn/pepset/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,92 @@
+{
+    "accessibility": "Restricted access",
+    "additionDate": "2025-03-17T14:01:59.601345Z",
+    "biotoolsCURIE": "biotools:exposome_maps",
+    "biotoolsID": "exposome_maps",
+    "collectionID": [
+        "EHEN",
+        "EXPANSE"
+    ],
+    "cost": "Free of charge (with restrictions)",
+    "credit": [
+        {
+            "email": "R.C.H.Vermeulen@uu.nl",
+            "name": "Roel Vermeulen",
+            "orcidid": "https://orcid.org/0000-0003-4082-8163",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "z.s.r.m.boudewijns@uu.nl",
+            "name": "Zimbo Boudewijns",
+            "orcidid": "https://orcid.org/0000-0002-9383-9571",
+            "typeRole": [
+                "Maintainer"
+            ]
+        },
+        {
+            "email": "l.q.roga@uu.nl",
+            "name": "Lloyd Roga",
+            "typeRole": [
+                "Developer"
+            ]
+        }
+    ],
+    "description": "Exposome Maps is a data catalogue of geospatially resolved datasets on environmental exposure estimates. It contains more than 20,000 datasets on several Exposome dimensions including Physico-Chemical Environment, Built Environment, Food Environment, and Social Environment. It provides harmonized data collections across Europe for following environmental factors: PM10, PM2.5, NO2, O3, Temperature, Ultra Violet Radiation, Road Traffic Noise, Urbanicity, NDVI (Normalized Difference Vegetation Index ), MSAVI (Modified Soil Adjusted Vegetation Index), Green spaces, Blue spaces, Imperviousness, Light at night, Walkability Index.",
+    "documentation": [
+        {
+            "note": "Description of Environmental variables available through Exposome Maps",
+            "type": [
+                "User manual"
+            ],
+            "url": "https://surfdrive.surf.nl/files/index.php/s/uqUORDrd428H2F9"
+        },
+        {
+            "note": "Exposome-NL data platform Data Access and Publication Policy",
+            "type": [
+                "Terms of use"
+            ],
+            "url": "https://surfdrive.surf.nl/files/index.php/s/fI0Gmuu5O1MJAI9"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "hkucukali"
+        ],
+        "type": "group"
+    },
+    "homepage": "https://exposome.uu.nl/",
+    "lastUpdate": "2026-02-04T00:46:44.590787Z",
+    "license": "Other",
+    "link": [
+        {
+            "note": "Project information page",
+            "type": [
+                "Other"
+            ],
+            "url": "https://expanseproject.eu/"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "Exposome Maps",
+    "owner": "Channel2291",
+    "publication": [
+        {
+            "doi": "10.1097/EE9.0000000000000162"
+        },
+        {
+            "doi": "10.1126/science.aay3164"
+        }
+    ],
+    "topic": [
+        {
+            "term": "Environmental sciences",
+            "uri": "http://edamontology.org/topic_3855"
+        },
+        {
+            "term": "FAIR data",
+            "uri": "http://edamontology.org/topic_4012"
+        }
+    ]
+}

@@ -1,0 +1,245 @@
+{
+  "@context": {
+    "biii": "https://biii.eu/",
+    "bioconda": "https://github.com/bioconda/bioconda-recipes/tree/master/recipes/",
+    "bioschemas": "http://bioschemas.org/",
+    "biotools": "https://bio.tools/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "galaxytool": "https://github.com/galaxyproject/tools-iuc/tree/master/tools/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "schema1": "http://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "workflowhub": "https://workflowhub.eu/workflows/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://usegalaxy.eu",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "galaxytool:goseq",
+      "@type": "schema1:SoftwareApplication",
+      "bioschemas:output": [
+        "tabular",
+        "pdf",
+        "rdata"
+      ],
+      "schema1:applicationSubCategory": {
+        "@id": "edam:topic_3170"
+      },
+      "schema1:codeRepository": {
+        "@id": "https://bioconductor.org/packages/release/bioc/html/goseq.html"
+      },
+      "schema1:dateCreated": "2016-11-12",
+      "schema1:description": "goseq does selection-unbiased testing for category enrichment amongst differentially expressed (DE) genes for RNA-seq data",
+      "schema1:encodingFormat": [
+        "tabular",
+        "pdf",
+        "rdata"
+      ],
+      "schema1:featureList": {
+        "@id": "edam:operation_3672"
+      },
+      "schema1:identifier": [
+        {
+          "@id": "biotools:goseq"
+        },
+        {
+          "@id": "bioconda:bioconductor-goseq"
+        }
+      ],
+      "schema1:isPartOf": [
+        {
+          "@id": "workflowhub:1713?version=2"
+        },
+        {
+          "@id": "workflowhub:1708?version=1"
+        },
+        {
+          "@id": "workflowhub:1699?version=1"
+        },
+        {
+          "@id": "workflowhub:1684?version=1"
+        },
+        {
+          "@id": "workflowhub:1194?version=1"
+        },
+        {
+          "@id": "workflowhub:689?version=1"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=f9aea278cd2b5ee4"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=e18ef811e7ad487d"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=e7e26967cf6cb8d8"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=c1a6d11e1eab6a42"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=20ada53472782c9b"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=12bf85cdc8102bb5"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=732fa536cdc70c96"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=fa83e26e05418370"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=032ad839dab7ae70"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=63c91ea322cd2819"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=9c7a218993788493"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=3dd83e9ceaa9b749"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=053f09b017c85ace"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=742120336d5ff997"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=420a332da24fb9e9"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=4f0814ec9f9f8425"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=71bad95f72c9f30d"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=e1fd89e7248b6661"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=75113a1b41904d2a"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=5490661d0153962b"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=9f6e62f465589ca3"
+        },
+        {
+          "@id": "https://galaxy.mesocentre.uca.fr"
+        },
+        {
+          "@id": "https://mississippi.sorbonne-universite.fr"
+        },
+        {
+          "@id": "http://galaxy.inf.ethz.ch"
+        },
+        {
+          "@id": "https://usegalaxy.be"
+        },
+        {
+          "@id": "https://usegalaxy.ca"
+        },
+        {
+          "@id": "https://usegalaxy.cz"
+        },
+        {
+          "@id": "https://usegalaxy.eu"
+        },
+        {
+          "@id": "https://usegalaxy.fr"
+        },
+        {
+          "@id": "https://usegalaxy.no"
+        },
+        {
+          "@id": "https://usegalaxy.org.au"
+        },
+        {
+          "@id": "https://usegalaxy.org"
+        }
+      ],
+      "schema1:keywords": [
+        "Statistics",
+        "RNA",
+        "Micro-array Analysis"
+      ],
+      "schema1:name": "goseq",
+      "schema1:softwareVersion": "@TOOL_VERSION@+galaxy@VERSION_SUFFIX@",
+      "schema1:url": {
+        "@id": "https://github.com/galaxyproject/tools-iuc/tree/main/tools/goseq"
+      }
+    },
+    {
+      "@id": "https://usegalaxy.org",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.cz",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "http://galaxy.inf.ethz.ch",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.no",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://mississippi.sorbonne-universite.fr",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.org.au",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://galaxy.mesocentre.uca.fr",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.ca",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.be",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.fr",
+      "@type": "schema1:WebSite"
+    }
+  ]
+}

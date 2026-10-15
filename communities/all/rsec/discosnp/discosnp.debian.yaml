@@ -1,0 +1,24 @@
+package: discosnp
+distribution: debian
+release: sid
+component: main
+version: 2.6.2
+source: discosnp
+homepage: http://colibread.inria.fr/discosnp/
+license: unknown
+blend: debian-med
+description_md5: b7d019a485b07265b1579844c0093c10
+registries:
+- entry: OMICS_00267
+  name: OMICtools
+- entry: SCR_002612
+  name: SciCrunch
+- entry: discosnp
+  name: bio.tools
+- entry: discosnp
+  name: conda:bioconda
+popcon:
+- insts: 116
+  olde: 88
+  recent: 23
+  vote: 5

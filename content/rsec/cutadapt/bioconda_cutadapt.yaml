@@ -1,0 +1,46 @@
+about:
+  dev_url: https://github.com/marcelm/cutadapt
+  home: https://cutadapt.readthedocs.io/
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Trim adapters from high-throughput sequencing reads
+build:
+  number: 2
+  run_exports:
+  - null
+  script: ' -m pip install . --no-deps --no-build-isolation -vvv'
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:cutadapt
+  - doi:10.14806/ej.17.1.200
+  - usegalaxy-eu:cutadapt
+  recipe-maintainers:
+  - marcelm
+package:
+  name: cutadapt
+  version: '5.2'
+requirements:
+  build:
+  - null
+  - null
+  host:
+  - pip
+  - python
+  - cython
+  - setuptools-scm
+  run:
+  - python
+  - xopen >=1.6.0
+  - dnaio >=1.2.3
+source:
+  sha256: 2394deead42ecae5fe0fdf369e35f3e2afed770e14059582272779c2e8295d3c
+  url: https://pypi.org/packages/source/c/cutadapt/cutadapt-5.2.tar.gz
+test:
+  commands:
+  - cutadapt --version
+  imports:
+  - cutadapt

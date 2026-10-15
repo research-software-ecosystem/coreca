@@ -1,0 +1,42 @@
+package: kmc
+distribution: debian
+release: sid
+component: main
+version: 3.2.4
+source: kmc
+homepage: https://sun.aei.polsl.pl/kmc
+license: unknown
+blend: debian-med
+description_md5: ebf89f936ea92086de01b356a765be39
+topics:
+- Sequence composition, complexity and repeats
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - FASTQ
+    - FASTA
+  output:
+  - data: Base word frequencies table
+    formats:
+    - Textual format
+  function:
+  - k-mer counting
+registries:
+- entry: OMICS_02095
+  name: OMICtools
+- entry: SCR_001245
+  name: SciCrunch
+- entry: KMC
+  name: bio.tools
+- entry: kmc
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btv022
+popcon:
+- insts: 125
+  olde: 97
+  recent: 24
+  vote: 4

@@ -1,0 +1,30 @@
+about:
+  home: https://proteowizard.sourceforge.net
+  license: Apache 2.0
+  license_family: APACHE
+  summary: Tools for dealing with mass spectrometry files (e.g., mzML, mzXML, mzIdentML,
+    MGF).
+build:
+  number: 0
+  run_exports:
+  - null
+  script: mkdir $PREFIX/bin && ln -s $CXX $BUILD_PREFIX/bin/g++ && ./quickbuild.sh
+    -j --cxx=$CXX address-model=64 runtime-link=shared executables && ls build-linux-x86_64/gcc-release-x86_64/
+    && cp build-linux-x86_64/gcc-release-x86_64/* /$PREFIX/bin
+  skip: true
+extra:
+  identifiers:
+  - biotools:proteowizard
+  - doi:10.1038/nbt.2377
+package:
+  name: proteowizard
+  version: 3_0_25292_c9a6a18
+requirements:
+  build:
+  - null
+source:
+  sha256: 107b31123f76d0c82f1905de1217ad51ec3754cfca9d33579c4f83f84b4cafe7
+  url: https://mc-tca-01.s3.us-west-2.amazonaws.com/ProteoWizard/bt81/3705508/pwiz-src-without-v-3_0_25292_c9a6a18.tar.bz2
+test:
+  commands:
+  - LC_ALL=C LANG=C msconvert --help

@@ -1,0 +1,59 @@
+{
+    "Author": "Aaron Lun [aut, cre, cph]",
+    "Date/Publication": "2026-04-28",
+    "Description": "Provides a centralized conda installation for use by other Bioconductor packages. If conda is not already available on the system, it is downloaded and installed from the Miniforge project; otherwise, no action is performed. Historically, this package was used to provide a Python installation for basilisk, hence the name.",
+    "Imports": [
+        "dir.expiry",
+        "methods",
+        "tools",
+        "utils"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "68dc2bb9d9fa69c88c6ba834643d4f07",
+    "Maintainer": "Aaron Lun <infinite.monkeys.with.keyboards@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "basilisk.utils",
+    "Rank": 154,
+    "Rfiles": [
+        "vignettes/basilisk.utils/inst/doc/purpose.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Centralized Conda Installation for Bioconductor Packages",
+    "Version": "1.24.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Infrastructure",
+        "Software"
+    ],
+    "dependencyCount": "5",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "19a6b8f",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/basilisk.utils",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "HiCool",
+        "scifer"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/basilisk.utils_1.24.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/basilisk.utils_1.24.0.tgz",
+    "source.ver": "src/contrib/basilisk.utils_1.24.0.tar.gz",
+    "suggestsMe": [
+        "Ibex"
+    ],
+    "vignetteTitles": [
+        "conda for Bioconductor"
+    ],
+    "vignettes": [
+        "vignettes/basilisk.utils/inst/doc/purpose.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/basilisk.utils_1.24.0.zip"
+}

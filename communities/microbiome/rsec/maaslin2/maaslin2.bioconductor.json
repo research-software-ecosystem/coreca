@@ -1,0 +1,88 @@
+{
+    "Author": "Himel Mallick [aut], Ali Rahnavard [aut], Thomas Kuntz [aut], Sagun Maharjan [aut, cre]",
+    "BugReports": "https://github.com/biobakery/maaslin2/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.6)"
+    ],
+    "Description": "MaAsLin2 is comprehensive R package for efficiently determining multivariable association between clinical metadata and microbial meta'omic features. MaAsLin2 relies on general linear models to accommodate most modern epidemiological study designs, including cross-sectional and longitudinal, and offers a variety of data exploration, normalization, and transformation methods. MaAsLin2 is the next generation of MaAsLin.",
+    "Imports": [
+        "MASS",
+        "biglm",
+        "car",
+        "chemometrics",
+        "cplm",
+        "data.table",
+        "dplyr",
+        "edgeR",
+        "ggplot2",
+        "glmmTMB",
+        "grDevices",
+        "hash",
+        "lme4",
+        "lmerTest",
+        "logging",
+        "metagenomeSeq",
+        "optparse",
+        "pbapply",
+        "pcaPP",
+        "pheatmap",
+        "pscl",
+        "robustbase",
+        "stats",
+        "tibble",
+        "utils",
+        "vegan"
+    ],
+    "License": "MIT + file LICENSE",
+    "MD5sum": "9dd5b4e319e380176cba12082b554996",
+    "Maintainer": "Sagun Maharjan <sagunmaharjann@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "Maaslin2",
+    "Rank": 270,
+    "Rfiles": [
+        "vignettes/Maaslin2/inst/doc/maaslin2.R"
+    ],
+    "Suggests": [
+        "knitr",
+        "markdown",
+        "rmarkdown",
+        "testthat (>= 2.1.0)"
+    ],
+    "Title": "\"Multivariable Association Discovery in Population-scale Meta-omics Studies\"",
+    "URL": "http://huttenhower.sph.harvard.edu/maaslin2",
+    "Version": "1.26.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Metagenomics",
+        "Microbiome",
+        "Normalization",
+        "Software"
+    ],
+    "dependencyCount": "133",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "0616fc9",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/Maaslin2",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "Macarron",
+        "benchdamic"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/Maaslin2_1.26.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/Maaslin2_1.26.0.tgz",
+    "source.ver": "src/contrib/Maaslin2_1.26.0.tar.gz",
+    "suggestsMe": [
+        "ggpicrust2"
+    ],
+    "vignetteTitles": [
+        "Maaslin2"
+    ],
+    "vignettes": [
+        "vignettes/Maaslin2/inst/doc/maaslin2.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/Maaslin2_1.26.0.zip"
+}

@@ -1,0 +1,25 @@
+package: obitools
+distribution: debian
+release: sid
+component: main
+version: 3.0.1~b26
+source: obitools
+homepage: https://metabarcoding.org/obitools3
+license: unknown
+blend: debian-med
+description_md5: 68ea11346ef1e83a1eff2f3815aee847
+registries:
+- entry: OMICS_32696
+  name: OMICtools
+- entry: OBITools
+  name: bio.tools
+- entry: obitools
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1111/1755-0998.12428
+popcon:
+- insts: 112
+  olde: 83
+  recent: 24
+  vote: 5

@@ -1,0 +1,89 @@
+{
+    "Author": "Laurent Gatto [aut, cre] (ORCID: <https://orcid.org/0000-0002-1520-2268>), Johannes Rainer [aut] (ORCID: <https://orcid.org/0000-0002-6977-7147>), Sebastian Gibb [aut] (ORCID: <https://orcid.org/0000-0001-7406-4443>), Samuel Wieczorek [ctb], Thomas Burger [ctb], Guillaume Deflandre [ctb] (ORCID: <https://orcid.org/0009-0008-1257-2416>)",
+    "BugReports": "https://github.com/RforMassSpectrometry/PSM/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "PTMods (>= 0.99.4)",
+        "R (>= 4.1.0)",
+        "S4Vectors"
+    ],
+    "Description": "The PSMatch package helps proteomics practitioners to load, handle and manage Peptide Spectrum Matches. It provides functions to model peptide-protein relations as adjacency matrices and connected components, visualise these as graphs and make informed decision about shared peptide filtering. The package also provides functions to calculate and visualise MS2 fragment ions.",
+    "Imports": [
+        "BiocGenerics",
+        "BiocParallel",
+        "Matrix",
+        "MsCoreUtils",
+        "ProtGenerics (>= 1.27.1)",
+        "QFeatures",
+        "Spectra (>= 1.17.10)",
+        "igraph",
+        "methods",
+        "stats",
+        "utils"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "5d9ab339b8c4eddf61e3ac32893e210e",
+    "Maintainer": "Laurent Gatto <laurent.gatto@uclouvain.be>",
+    "NeedsCompilation": "no",
+    "Package": "PSMatch",
+    "Rank": 145,
+    "Rfiles": [
+        "vignettes/PSMatch/inst/doc/AdjacencyMatrix.R",
+        "vignettes/PSMatch/inst/doc/Fragments.R",
+        "vignettes/PSMatch/inst/doc/PSM.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "MsDataHub",
+        "SummarizedExperiment",
+        "factoextra",
+        "knitr",
+        "mzID",
+        "mzR",
+        "rmarkdown",
+        "rpx",
+        "testthat",
+        "vdiffr (>= 1.0.0)"
+    ],
+    "Title": "Handling and Managing Peptide Spectrum Matches",
+    "URL": "https://github.com/RforMassSpectrometry/PSM",
+    "Version": "1.16.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Infrastructure",
+        "MassSpectrometry",
+        "Proteomics",
+        "Software"
+    ],
+    "dependencyCount": "112",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "ba33712",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/PSMatch",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "MSnbase",
+        "omXplore",
+        "topdownr"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/PSMatch_1.16.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/PSMatch_1.16.0.tgz",
+    "source.ver": "src/contrib/PSMatch_1.16.0.tar.gz",
+    "suggestsMe": [
+        "MsDataHub"
+    ],
+    "vignetteTitles": [
+        "MS2 fragment ions",
+        "Understanding protein groups with adjacency matrices",
+        "Working with PSM data"
+    ],
+    "vignettes": [
+        "vignettes/PSMatch/inst/doc/AdjacencyMatrix.html",
+        "vignettes/PSMatch/inst/doc/Fragments.html",
+        "vignettes/PSMatch/inst/doc/PSM.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/PSMatch_1.16.0.zip"
+}

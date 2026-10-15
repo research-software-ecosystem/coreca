@@ -1,0 +1,55 @@
+about:
+  description: This Rcpp-based package implements a highly efficient data structure
+    and algorithm for performing alignment of short reads from CRISPR or shRNA screens
+    to reference barcode library. Sequencing error are considered and matching qualities
+    are evaluated based on Phred scores. A Bayes' classifier is employed to predict
+    the originating barcode of a read. The package supports provision of user-defined
+    probability models for evaluating matching qualities. The package also supports
+    multi-threading.
+  home: https://bioconductor.org/packages/3.22/bioc/html/bcSeq.html
+  license: GPL (>= 2)
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: Fast Sequence Mapping in High-Throughput shRNA and CRISPR Screens
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:bcSeq
+package:
+  name: bioconductor-bcseq
+  version: 1.32.0
+requirements:
+  build:
+  - null
+  - null
+  - make
+  host:
+  - bioconductor-biostrings >=2.78.0,<2.79.0
+  - r-base
+  - r-matrix
+  - r-rcpp >=0.12.12
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-biostrings >=2.78.0,<2.79.0
+  - r-base
+  - r-matrix
+  - r-rcpp >=0.12.12
+source:
+  md5: c894c15874b09f4edb211b7d32498057
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/bcSeq_1.32.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/bcSeq/bcSeq_1.32.0.tar.gz
+  - https://bioarchive.galaxyproject.org/bcSeq_1.32.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-bcseq/bioconductor-bcseq_1.32.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('bcSeq')"

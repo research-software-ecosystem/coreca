@@ -1,0 +1,24 @@
+package: r-bioc-biobase
+distribution: debian
+release: sid
+component: main
+version: 2.72.0
+source: r-bioc-biobase
+homepage: https://bioconductor.org/packages/Biobase/
+license: unknown
+blend: debian-med
+description_md5: 6f75d1857794428b053e6187b56bc1e4
+registries:
+- entry: OMICS_29442
+  name: OMICtools
+- entry: biobase
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1186/gb-2004-5-10-r80
+popcon:
+- insts: 1560
+  nofiles: 2
+  olde: 1236
+  recent: 133
+  vote: 189

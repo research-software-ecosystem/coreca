@@ -1,0 +1,78 @@
+{
+    "Author": "Zuguang Gu [aut, cre] (ORCID: <https://orcid.org/0000-0002-7395-8709>)",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "ComplexHeatmap (>= 2.11.0)",
+        "GenomicRanges",
+        "R (>= 4.0.0)",
+        "grid",
+        "methods"
+    ],
+    "Description": "Enriched heatmap is a special type of heatmap which visualizes the enrichment of genomic signals on specific target regions. Here we implement enriched heatmap by ComplexHeatmap package. Since this type of heatmap is just a normal heatmap but with some special settings, with the functionality of ComplexHeatmap, it would be much easier to customize the heatmap as well as concatenating to a list of heatmaps to show correspondance between different data sources.",
+    "Imports": [
+        "GetoptLong",
+        "IRanges",
+        "Rcpp",
+        "circlize (>= 0.4.5)",
+        "locfit",
+        "matrixStats",
+        "stats",
+        "utils"
+    ],
+    "License": "MIT + file LICENSE",
+    "LinkingTo": [
+        "Rcpp"
+    ],
+    "MD5sum": "1b5a64d096dbba7cc61558bada517a74",
+    "Maintainer": "Zuguang Gu <guzuguang@suat-sz.edu.cn>",
+    "NeedsCompilation": "yes",
+    "Package": "EnrichedHeatmap",
+    "Rank": 238,
+    "Suggests": [
+        "RColorBrewer",
+        "genefilter",
+        "knitr",
+        "markdown",
+        "rmarkdown",
+        "testthat (>= 0.3)"
+    ],
+    "Title": "Making Enriched Heatmaps",
+    "URL": "https://github.com/jokergoo/EnrichedHeatmap",
+    "Version": "1.42.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Coverage",
+        "GenomeAnnotation",
+        "Sequencing",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "35",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "afc472f",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/EnrichedHeatmap",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "profileplyr"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/EnrichedHeatmap_1.42.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/EnrichedHeatmap_1.42.0.tgz",
+    "source.ver": "src/contrib/EnrichedHeatmap_1.42.0.tar.gz",
+    "suggestsMe": [
+        "ComplexHeatmap",
+        "InteractiveComplexHeatmap",
+        "epistack",
+        "extraChIPs"
+    ],
+    "vignetteTitles": [
+        "The EnrichedHeatmap package"
+    ],
+    "vignettes": [
+        "vignettes/EnrichedHeatmap/inst/doc/EnrichedHeatmap.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/EnrichedHeatmap_1.42.0.zip"
+}

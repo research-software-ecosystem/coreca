@@ -1,0 +1,81 @@
+{
+    "Archs": "x64",
+    "Author": "Oliver Bembom [aut], Robert Ivanek [aut, cre] (ORCID: <https://orcid.org/0000-0002-8403-056X>)",
+    "BugReports": "https://github.com/ivanek/seqLogo/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.2)",
+        "grid",
+        "methods"
+    ],
+    "Description": "seqLogo takes the position weight matrix of a DNA sequence motif and plots the corresponding sequence logo as introduced by Schneider and Stephens (1990).",
+    "Imports": [
+        "grDevices",
+        "stats4"
+    ],
+    "License": "LGPL (>= 2)",
+    "MD5sum": "66e37cb3b8f1ba877a3cd9bc1ef8be46",
+    "Maintainer": "Robert Ivanek <robert.ivanek@unibas.ch>",
+    "NeedsCompilation": "no",
+    "Package": "seqLogo",
+    "Rank": 128,
+    "Rfiles": [
+        "vignettes/seqLogo/inst/doc/seqLogo.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Sequence logos for DNA sequence alignments",
+    "Version": "1.78.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "SequenceMatching",
+        "Software"
+    ],
+    "dependencyCount": "4",
+    "dependsOnMe": [
+        "generegulation"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "a7902a4",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/seqLogo",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "IntEREst",
+        "PWMEnrich",
+        "RCAS",
+        "SPLINTER",
+        "TENET",
+        "TFBSTools",
+        "kmeRtone",
+        "riboSeqR",
+        "scanMiR"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/seqLogo_1.78.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/seqLogo_1.78.0.tgz",
+    "source.ver": "src/contrib/seqLogo_1.78.0.tar.gz",
+    "suggestsMe": [
+        "BCRANK",
+        "DiffLogo",
+        "MAGAR",
+        "MotifDb",
+        "PMScanR",
+        "igvR",
+        "motifcounter",
+        "universalmotif"
+    ],
+    "vignetteTitles": [
+        "Sequence logos for DNA sequence alignments"
+    ],
+    "vignettes": [
+        "vignettes/seqLogo/inst/doc/seqLogo.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/seqLogo_1.78.0.zip"
+}

@@ -1,0 +1,52 @@
+package: clustalx
+distribution: debian
+release: sid
+component: main
+version: '2.1'
+source: clustalx
+homepage: http://www.clustal.org/clustal2/
+license: unknown
+blend: debian-med
+description_md5: a79728f91dcfed21b62f89dea1743319
+topics:
+- Sequence analysis
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+  output:
+  - data: Sequence alignment
+  function:
+  - Multiple equence alignment
+registries:
+- entry: OMICS_02562
+  name: OMICtools
+- entry: SCR_002909
+  name: SciCrunch
+- entry: clustal2
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btm404
+tags:
+- tag: biology::format:aln
+- tag: biology::nuceleic-acids
+- tag: biology::peptidic
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::x11
+- tag: role::program
+- tag: scope::utility
+- tag: uitoolkit::motif
+- tag: use::analysing
+- tag: use::comparing
+- tag: use::viewing
+- tag: works-with-format::plaintext
+- tag: works-with::TODO
+- tag: x11::application
+popcon:
+- insts: 149
+  olde: 119
+  recent: 24
+  vote: 6

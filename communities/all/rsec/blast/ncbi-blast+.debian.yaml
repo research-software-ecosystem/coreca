@@ -1,0 +1,32 @@
+package: ncbi-blast+
+distribution: debian
+release: sid
+component: main
+version: 2.17.0+ds
+source: ncbi-blast+
+homepage: https://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/
+license: unknown
+blend: debian-med
+description_md5: 395e56c55c29f8e445efe977ed605c4b
+registries:
+- entry: OMICS_01436
+  name: OMICtools
+- entry: SCR_004870
+  name: SciCrunch
+- entry: blast
+  name: bio.tools
+- entry: blast
+  name: conda:bioconda
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c++
+- tag: interface::commandline
+- tag: role::program
+- tag: use::analysing
+- tag: works-with::biological-sequence
+popcon:
+- insts: 830
+  olde: 656
+  recent: 92
+  vote: 82

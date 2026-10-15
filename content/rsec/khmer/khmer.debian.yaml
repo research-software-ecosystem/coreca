@@ -1,0 +1,34 @@
+package: khmer
+distribution: debian
+release: bookworm
+component: main
+version: 3.0.0~a3
+source: khmer
+homepage: https://khmer.readthedocs.org
+license: unknown
+blend: debian-med
+description_md5: fcb7ec9befc5e3aef9f670bd332040fb
+registries:
+- entry: OMICS_02560
+  name: OMICtools
+- entry: SCR_001156
+  name: SciCrunch
+- entry: khmer
+  name: bio.tools
+- entry: khmer
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.12688/f1000research.6924.1
+- key: doi
+  rank: 1
+  value: 10.1073/pnas.1121464109
+- key: doi
+  rank: 3
+  value: 10.1371/journal.pone.0101271
+- key: doi
+  rank: 4
+  value: 10.1186/1471-2105-9-11
+popcon:
+- insts: 5
+  olde: 5

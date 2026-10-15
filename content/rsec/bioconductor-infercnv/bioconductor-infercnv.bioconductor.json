@@ -1,0 +1,105 @@
+{
+    "Author": "Timothy Tickle [aut], Itay Tirosh [aut], Christophe Georgescu [aut, cre], Maxwell Brown [aut], Brian Haas [aut]",
+    "BugReports": "https://github.com/broadinstitute/inferCNV/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R(>= 4.0)"
+    ],
+    "Description": "Using single-cell RNA-Seq expression to visualize CNV in cells.",
+    "Imports": [
+        "BiocGenerics",
+        "HiddenMarkov",
+        "Matrix",
+        "RANN",
+        "RColorBrewer",
+        "Seurat",
+        "SingleCellExperiment",
+        "SummarizedExperiment",
+        "ape",
+        "argparse",
+        "caTools",
+        "coda",
+        "coin",
+        "digest",
+        "doParallel",
+        "dplyr",
+        "edgeR",
+        "fastcluster",
+        "fitdistrplus",
+        "foreach",
+        "futile.logger",
+        "future",
+        "ggplot2",
+        "gplots",
+        "grDevices",
+        "graphics",
+        "gridExtra",
+        "igraph",
+        "methods",
+        "parallel",
+        "parallelDist",
+        "phyclust",
+        "reshape2",
+        "rjags",
+        "stats",
+        "tidyr",
+        "utils"
+    ],
+    "License": "BSD_3_clause + file LICENSE",
+    "MD5sum": "2a581b7d1b4b0f3fa043878b1e935a7e",
+    "Maintainer": "Christophe Georgescu <cgeorges@broadinstitute.org>",
+    "NeedsCompilation": "no",
+    "Package": "infercnv",
+    "Rank": 187,
+    "Rfiles": [
+        "vignettes/infercnv/inst/doc/inferCNV.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "SystemRequirements": "JAGS 4.x.y",
+    "Title": "Infer Copy Number Variation from Single-Cell RNA-Seq Data",
+    "URL": "https://github.com/broadinstitute/inferCNV/wiki",
+    "Version": "1.28.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Bayesian",
+        "CopyNumberVariation",
+        "Genetics",
+        "GenomicVariation",
+        "HiddenMarkovModel",
+        "SingleCell",
+        "Software",
+        "StatisticalMethod",
+        "StructuralVariation",
+        "Transcriptomics",
+        "VariantDetection"
+    ],
+    "dependencyCount": "194",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "b421d94",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/infercnv",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "atacInferCnv"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/infercnv_1.28.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/infercnv_1.28.0.tgz",
+    "source.ver": "src/contrib/infercnv_1.28.0.tar.gz",
+    "suggestsMe": [
+        "SCpubr"
+    ],
+    "vignetteTitles": [
+        "Visualizing Large-scale Copy Number Variation in Single-Cell RNA-Seq Expression Data"
+    ],
+    "vignettes": [
+        "vignettes/infercnv/inst/doc/inferCNV.html"
+    ]
+}

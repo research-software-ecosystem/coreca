@@ -1,0 +1,63 @@
+about:
+  description: Toolbox for larger-than-memory scientific computing and visualization,
+    providing efficient out-of-core data structures using files or shared memory,
+    for dense and sparse vectors, matrices, and arrays, with applications to nonuniformly
+    sampled signals and images.
+  home: https://bioconductor.org/packages/3.22/bioc/html/matter.html
+  license: Artistic-2.0 | file LICENSE
+  license_file: LICENSE
+  summary: Out-of-core statistical computing and signal processing
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:matter
+  - doi:10.1038/nmeth.3252
+  parent_recipe:
+    name: bioconductor-matter
+    path: recipes/bioconductor-matter
+    version: 1.6.0
+package:
+  name: bioconductor-matter
+  version: 2.12.0
+requirements:
+  build:
+  - null
+  - null
+  - make
+  host:
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-biocparallel >=1.44.0,<1.45.0
+  - bioconductor-protgenerics >=1.42.0,<1.43.0
+  - r-base
+  - r-bh
+  - r-digest
+  - r-irlba
+  - r-matrix
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-biocparallel >=1.44.0,<1.45.0
+  - bioconductor-protgenerics >=1.42.0,<1.43.0
+  - r-base
+  - r-bh
+  - r-digest
+  - r-irlba
+  - r-matrix
+source:
+  md5: 5242739d18d1c034c0d0c7a903d1be7f
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/matter_2.12.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/matter/matter_2.12.0.tar.gz
+  - https://bioarchive.galaxyproject.org/matter_2.12.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-matter/bioconductor-matter_2.12.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('matter')"

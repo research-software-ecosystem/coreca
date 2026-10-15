@@ -1,0 +1,48 @@
+about:
+  doc_url: https://binette.readthedocs.io
+  home: https://github.com/genotoul-bioinfo/binette
+  license: GPL-3.0-only
+  license_family: GPL
+  license_file: LICENSE
+  summary: A fast and accurate binning refinement tool to constructs high quality
+    MAGs from the output of multiple binning tools.
+build:
+  noarch: python
+  number: 1
+  run_exports:
+  - null
+  script: -m pip install --no-deps --ignore-installed -vv .
+extra:
+  identifiers:
+  - biotools:binette
+  - usegalaxy-eu:binette
+  - doi:10.21105/joss.06782
+  recipe-maintainers:
+  - JeanMainguy
+package:
+  name: binette
+  version: 1.2.1
+requirements:
+  host:
+  - python
+  - pip
+  - setuptools
+  run:
+  - checkm2 >=1.1,<2.0
+  - numpy >=1.24,<3.0
+  - diamond >=2.1,<3
+  - pandas >=2,<3
+  - networkx >=3.0,<4.0
+  - pyfastx >=2,<3
+  - pyrodigal >=3.0,<3.7.0
+  - typer >=0.9,<1.0
+  - pyroaring >=1.0.0,<2.0.0
+  - rich >=12.0.0,<14.0.0
+source:
+  sha256: dce9d8fdd0c68da0724a725d5048196f5aa618d5c1e7a04527d618b8a7872bf7
+  url: https://github.com/genotoul-bioinfo/binette/archive/refs/tags/v1.2.1.tar.gz
+test:
+  commands:
+  - binette -h
+  imports:
+  - binette

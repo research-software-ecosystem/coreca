@@ -1,0 +1,154 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2017-08-03T18:45:53Z",
+    "biotoolsCURIE": "biotools:hbat",
+    "biotoolsID": "hbat",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "name": "Abhishek Tiwari",
+            "orcidid": "https://orcid.org/0000-0003-2222-2395",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://www.abhishek-tiwari.com"
+        }
+    ],
+    "description": "HBAT (Hydrogen Bond Analysis Tool) is a package to automate the analysis of potential hydrogen bonds and similar type of weak interactions in macromolecular structures, available in Protein Data Bank (PDB) file format. HBAT uses a geometric approach to identify molecular interactions by analysing distance and angular criteria.\n\nHBAT 1.1 was released in 2007 as closed source Windows binary and continue to be available via SourceForge. \n\nHBAT 2.0 was introduced in 2025 and a completed rewrite of original implementation with cross-platform support. HBAT 2.0 is open sourced under MIT License.",
+    "documentation": [
+        {
+            "type": [
+                "API documentation",
+                "Citation instructions",
+                "Command-line options",
+                "General",
+                "Installation instructions",
+                "Quick start guide"
+            ],
+            "url": "https://hbat.abhishek-tiwari.com"
+        }
+    ],
+    "download": [
+        {
+            "note": "Cross-platform PyPI Python Package",
+            "type": "Software package",
+            "url": "https://pypi.org/project/hbat/",
+            "version": "2.x"
+        },
+        {
+            "note": "Mac and Linux Binaries including  AppImage, .deb, standalone executables.",
+            "type": "Binaries",
+            "url": "https://github.com/abhishektiwari/hbat/releases",
+            "version": "2.x"
+        },
+        {
+            "note": "Windows Binaries download from SourceForge",
+            "type": "Binaries",
+            "url": "https://sourceforge.net/projects/hbat/",
+            "version": "1.0, 1.1"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "cmd": "hbat input.pdb",
+            "input": [
+                {
+                    "data": {
+                        "term": "Protein structure",
+                        "uri": "http://edamontology.org/data_1460"
+                    },
+                    "format": [
+                        {
+                            "term": "PDB",
+                            "uri": "http://edamontology.org/format_1476"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Protein structure analysis",
+                    "uri": "http://edamontology.org/operation_2406"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Protein hydrogen bonds",
+                        "uri": "http://edamontology.org/data_1549"
+                    }
+                }
+            ]
+        }
+    ],
+    "homepage": "https://hbat.abhishek-tiwari.com",
+    "language": [
+        "Perl",
+        "Python"
+    ],
+    "lastUpdate": "2025-11-29T17:30:01.186940Z",
+    "license": "MIT",
+    "link": [
+        {
+            "type": [
+                "Issue tracker",
+                "Repository"
+            ],
+            "url": "https://github.com/abhishektiwari/hbat"
+        },
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/hbat-1-1-hydrogen-bond-analysis-tool.html"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "HBAT",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "abhishektiwari",
+    "publication": [
+        {
+            "doi": "10.3233/ISI-2007-00337",
+            "note": "Peer-reviewed paper for HBAT 1.0",
+            "pmid": "18467777",
+            "type": [
+                "Primary"
+            ]
+        },
+        {
+            "doi": "10.5281/zenodo.17645321",
+            "note": "Preprint for HBAT 2.x software",
+            "type": [
+                "Other"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Protein structure analysis",
+            "uri": "http://edamontology.org/topic_2814"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.1, 1.0",
+        "2.x"
+    ]
+}

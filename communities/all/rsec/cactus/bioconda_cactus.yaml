@@ -1,0 +1,113 @@
+about:
+  dev_url: https://github.com/ComparativeGenomicsToolkit/cactus
+  doc_url: https://github.com/ComparativeGenomicsToolkit/cactus/blob/v3.3.0/README.md
+  home: https://github.com/ComparativeGenomicsToolkit/cactus
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
+  summary: Cactus is a reference-free whole-genome multiple alignment program based
+    upon notion of Cactus graphs.
+build:
+  entry_points:
+  - cactus = cactus.progressive.cactus_progressive:main
+  - cactus-preprocess = cactus.preprocessor.cactus_preprocessor:main
+  - cactus-prepare = cactus.progressive.cactus_prepare:main
+  - cactus-prepare-toil = cactus.progressive.cactus_prepare:main_toil
+  - cactus-blast = cactus.blast.cactus_blast:main
+  - cactus-refmap = cactus.refmap.cactus_refmap:main
+  - cactus-minigraph = cactus.refmap.cactus_minigraph:main
+  - cactus-graphmap = cactus.refmap.cactus_graphmap:main
+  - cactus-graphmap-split = cactus.refmap.cactus_graphmap_split:main
+  - cactus-graphmap-join = cactus.refmap.cactus_graphmap_join:main
+  - cactus-align = cactus.setup.cactus_align:main
+  - cactus-align-batch = cactus.setup.cactus_align:main_batch
+  - cactus-update-prepare = cactus.update.cactus_update_prepare:main
+  - cactus-terra-helper = cactus.progressive.cactus_terra_helper:main
+  - cactus-hal2maf = cactus.maf.cactus_hal2maf:main
+  - cactus-hal2chains = cactus.maf.cactus_hal2chains:main
+  - cactus-maf2bigmaf = cactus.maf.cactus_maf2bigmaf:main
+  - cactus-pangenome = cactus.refmap.cactus_pangenome:main
+  number: 0
+  run_exports:
+  - null
+  skip: true
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:cactus
+  - usegalaxy-eu:cactus_cactus
+  - usegalaxy-eu:cactus_export
+  - doi:10.1038/s41586-020-2871-y
+  - doi:10.1101/gr.123356.111
+  - doi:10.1089/cmb.2010.0252
+package:
+  name: cactus
+  version: 3.3.0
+requirements:
+  build:
+  - null
+  - null
+  - null
+  - make
+  - autoconf
+  - automake
+  - libtool
+  - pkg-config
+  - llvm-openmp
+  - libgomp
+  - sed
+  host:
+  - python
+  - pip
+  - setuptools <82
+  - libxml2
+  - hdf5
+  - libdeflate
+  - zlib
+  - bzip2
+  - decorator
+  - networkx >=2,<2.8.1
+  - cigar
+  - biopython
+  - pysam
+  - jemalloc
+  - toil
+  - backports.zoneinfo
+  - lz4
+  run:
+  - llvm-openmp
+  - libgomp
+  - python
+  - setuptools <82
+  - libxml2
+  - decorator
+  - networkx >=2,<2.8.1
+  - cigar
+  - biopython
+  - pysam
+  - jemalloc
+  - toil
+  - backports.zoneinfo
+  - samtools
+  - bcftools
+  - parallel
+  - lastz
+  - pytest
+  - rsync
+  - minimap2
+  - minigraph
+  - gfatools
+  - dna-nn
+  - bedtools
+source:
+  patches:
+  - include.mk.patch
+  - makefile.patch
+  sha256: b3253a324ee96721f287262070454a8ef0d23444d7a1403aece98141eea014d1
+  url: https://github.com/ComparativeGenomicsToolkit/cactus/releases/download/v3.3.0/cactus-v3.3.0.tar.gz
+test:
+  commands:
+  - cactus -h
+  - test -x ${PREFIX}/bin/cactus

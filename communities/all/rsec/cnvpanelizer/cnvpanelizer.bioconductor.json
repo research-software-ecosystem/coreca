@@ -1,0 +1,77 @@
+{
+    "Author": "Cristiano Oliveira [aut], Thomas Wolf [aut, cre], Albrecht Stenzinger [ctb], Volker Endris [ctb], Nicole Pfarr [ctb], Benedikt Brors [ths], Wilko Weichert [ths]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "GenomicRanges",
+        "R (>= 3.2.0)"
+    ],
+    "Description": "A method that allows for the use of a collection of non-matched normal tissue samples. Our approach uses a non-parametric bootstrap subsampling of the available reference samples to estimate the distribution of read counts from targeted sequencing. As inspired by random forest, this is combined with a procedure that subsamples the amplicons associated with each of the targeted genes. The obtained information allows us to reliably classify the copy number aberrations on the gene level.",
+    "Imports": [
+        "BiocGenerics",
+        "GenomeInfoDb",
+        "IRanges",
+        "NOISeq",
+        "Rsamtools",
+        "S4Vectors",
+        "foreach",
+        "ggplot2",
+        "gplots",
+        "grDevices",
+        "graphics",
+        "grid",
+        "methods",
+        "openxlsx",
+        "plyr",
+        "reshape2",
+        "shiny",
+        "shinyFiles",
+        "shinyjs",
+        "stats",
+        "stringr",
+        "testthat",
+        "utils"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "044f1ae66e02de0fad9a85f7925f2ab9",
+    "Maintainer": "Thomas Wolf <thomas_wolf71@gmx.de>",
+    "NeedsCompilation": "no",
+    "Package": "CNVPanelizer",
+    "Rank": 1018,
+    "Rfiles": [
+        "vignettes/CNVPanelizer/inst/doc/CNVPanelizer.R"
+    ],
+    "Suggests": [
+        "RUnit",
+        "knitr"
+    ],
+    "Title": "Reliable CNV detection in targeted sequencing applications",
+    "Version": "1.44.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Classification",
+        "CopyNumberVariation",
+        "Coverage",
+        "Normalization",
+        "Sequencing",
+        "Software"
+    ],
+    "dependencyCount": "113",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "c4d1b8c",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/CNVPanelizer",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/CNVPanelizer_1.44.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/CNVPanelizer_1.44.0.tgz",
+    "source.ver": "src/contrib/CNVPanelizer_1.44.0.tar.gz",
+    "vignetteTitles": [
+        "CNVPanelizer"
+    ],
+    "vignettes": [
+        "vignettes/CNVPanelizer/inst/doc/CNVPanelizer.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/CNVPanelizer_1.44.0.zip"
+}

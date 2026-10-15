@@ -1,0 +1,20 @@
+package: mindthegap
+distribution: debian
+release: sid
+component: main
+version: 2.3.0
+source: mindthegap
+homepage: https://github.com/GATB/MindTheGap
+license: unknown
+blend: debian-med
+description_md5: 5d07b44122645144d6449f79c6fd6d87
+registries:
+- entry: OMICS_05472
+  name: OMICtools
+- entry: mindthegap
+  name: bio.tools
+- entry: mindthegap
+  name: conda:bioconda
+popcon:
+- insts: 12
+  olde: 12

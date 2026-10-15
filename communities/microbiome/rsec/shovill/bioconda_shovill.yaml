@@ -1,0 +1,45 @@
+about:
+  home: https://github.com/tseemann/shovill
+  license: GPL2
+  license_file: LICENSE
+  summary: Microbial assembly pipeline for Illumina paired-end reads
+build:
+  noarch: generic
+  number: 1
+  run_exports:
+  - null
+extra:
+  identifiers:
+  - biotools:shovill
+  - usegalaxy-eu:shovill
+package:
+  name: shovill
+  version: 1.4.2
+requirements:
+  run:
+  - python <3.12
+  - perl >=5.32.0
+  - perl-file-spec
+  - perl-findbin
+  - spades >=3.14,<4
+  - skesa >=2.5
+  - megahit >=1.2.9
+  - velvet >=1.2.10
+  - lighter >=1.1
+  - bwa >=0.7.17
+  - kmc >=3.2
+  - flash >=1.2
+  - pilon >=1.22
+  - samclip >=0.4
+  - trimmomatic >=0.36
+  - samtools >=1.10
+  - seqkit
+  - csvtk
+  - pigz
+source:
+  sha256: 2bbf2abc1d85ace3c989a177506eaf83e82cdfe2038b5b83de5274517bebf926
+  url: https://github.com/tseemann/shovill/archive/v1.4.2.tar.gz
+test:
+  commands:
+  - shovill --version | grep -F '1.4.2'
+  - shovill --check

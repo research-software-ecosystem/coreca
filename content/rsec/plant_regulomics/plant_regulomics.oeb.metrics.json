@@ -1,0 +1,105 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:plant_regulomics/undefined/bioinfo.sibs.ac.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 54,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2022
+                                }
+                            ],
+                            "doi": "10.1111/tpj.14526",
+                            "pmid": "31494994",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Plant Regulomics: a data-driven interface for retrieving upstream regulators from plant multi-omics data.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bioinfo.sibs.ac.cn/plant-regulomics/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/plant_regulomics",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bioinfo.sibs.ac.cn/plant-regulomics/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

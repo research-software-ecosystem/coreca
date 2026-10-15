@@ -1,0 +1,96 @@
+{
+    "additionDate": "2026-08-30T02:52:58.803755Z",
+    "biotoolsCURIE": "biotools:bioconductor-spectra",
+    "biotoolsID": "bioconductor-spectra",
+    "collectionID": [
+        "BioConductor"
+    ],
+    "credit": [
+        {
+            "name": "Andrea Vicini",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "Carolin Huber",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "Johannes Rainer",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer",
+                "Maintainer"
+            ]
+        },
+        {
+            "name": "Michael Witting",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "Nir Shachaf",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "name": "Philippine Louail",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        }
+    ],
+    "description": "MetaboCoreUtils defines metabolomics-related core functionality provided as low-level functions to allow a data structure-independent usage across various R packages. This includes functions to calculate between ion (adduct) and compound mass-to-charge ratios and masses or functions to work with chemical formulas. The package provides also a set of adduct definitions and information on some commercially available internal standard mixes commonly used in MS experiments.",
+    "documentation": [
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "https://bioconductor.org/packages/MetaboAnnotation"
+        }
+    ],
+    "download": [
+        {
+            "type": "Source code",
+            "url": "https://github.com/RforMassSpectrometry/MetaboAnnotation"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://bioconductor.org/packages/MetaboAnnotation",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2026-10-02T15:55:23.448645Z",
+    "license": "Artistic-2.0",
+    "name": "Spectra",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "gh2biotools",
+    "publication": [
+        {
+            "doi": "10.3390/metabo12020173"
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Library"
+    ],
+    "version": [
+        "1.16.0"
+    ]
+}

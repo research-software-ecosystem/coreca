@@ -1,0 +1,130 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2019-08-09T13:06:36Z",
+    "biotoolsCURIE": "biotools:DrugComb",
+    "biotoolsID": "DrugComb",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "jing.tang@helsinki.fi",
+            "name": "Jing Tang",
+            "orcidid": "https://orcid.org/0000-0001-7480-7710",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        }
+    ],
+    "description": "The data portal for drug combination and monotherapy sensitivity screenings.\n[v1.5] DrugComb update: a more comprehensive drug sensitivity data repository and analysis portal. https://doi.org/10.1093/nar/gkab438\n[v1.4] DrugComb: an integrative cancer drug combination data portal. https://doi.org/10.1093/nar/gkz337",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://researchportal.helsinki.fi/en/datasets/drugcomb/"
+        },
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "https://researchportal.helsinki.fi/en/datasets/drugcomb/"
+        }
+    ],
+    "download": [
+        {
+            "note": "https://zenodo.org/records/11102665",
+            "type": "Downloads page",
+            "url": "https://zenodo.org/records/11102665",
+            "version": "1.4 summary"
+        },
+        {
+            "note": "https://zenodo.org/records/15235991",
+            "type": "Downloads page",
+            "url": "https://zenodo.org/records/15235991",
+            "version": "1.5 summary"
+        },
+        {
+            "note": "https://zenodo.org/records/18449193",
+            "type": "Downloads page",
+            "url": "https://doi.org/10.5281/zenodo.18449193",
+            "version": "1.4 raw"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "jtang920"
+        ],
+        "type": "group"
+    },
+    "homepage": "https://researchportal.helsinki.fi/en/datasets/drugcomb/",
+    "lastUpdate": "2026-02-01T17:44:46.966665Z",
+    "license": "Unlicense",
+    "link": [
+        {
+            "note": "alternative links",
+            "type": [
+                "Repository"
+            ],
+            "url": "https://researchportal.helsinki.fi/en/datasets/drugcomb/"
+        },
+        {
+            "type": [
+                "Social media"
+            ],
+            "url": "https://twitter.com/DrugComb"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "DrugComb",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "jtang920",
+    "publication": [
+        {
+            "doi": "10.1093/NAR/GKZ337",
+            "pmcid": "PMC6602441",
+            "pmid": "31066443",
+            "type": [
+                "Primary"
+            ],
+            "version": "1.4"
+        },
+        {
+            "doi": "10.1093/nar/gkab438",
+            "pmcid": "PMC8218202",
+            "pmid": "34060634",
+            "version": "1.5"
+        }
+    ],
+    "relation": [
+        {
+            "biotoolsID": "synergyfinder",
+            "type": "uses"
+        }
+    ],
+    "toolType": [
+        "Database portal",
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Drug discovery",
+            "uri": "http://edamontology.org/topic_3336"
+        },
+        {
+            "term": "Drug metabolism",
+            "uri": "http://edamontology.org/topic_3375"
+        },
+        {
+            "term": "Informatics",
+            "uri": "http://edamontology.org/topic_0605"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "1.5"
+    ]
+}

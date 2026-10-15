@@ -1,0 +1,76 @@
+{
+    "Archs": "x64",
+    "Author": "Allison Vuong [aut], Dariusz Scigocki [aut], Marcin Kamianowski [aut], Aleksander Chlebowski [ctb], Janina Smola [aut], Arkadiusz Gladki [cre, aut] (ORCID: <https://orcid.org/0000-0002-7059-6378>), Bartosz Czech [aut] (ORCID: <https://orcid.org/0000-0002-9908-3007>)",
+    "BugReports": "https://github.com/gdrplatform/gDRstyle/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.2)"
+    ],
+    "Description": "Package fills a helper package role for whole gDR suite. It helps to support good development practices by keeping style requirements and style tests for other packages. It also contains build helpers to make all package requirements met.",
+    "Imports": [
+        "BiocCheck",
+        "BiocManager",
+        "BiocStyle",
+        "checkmate",
+        "desc",
+        "git2r",
+        "lintr (>= 3.0.0)",
+        "pkgbuild",
+        "rcmdcheck",
+        "remotes",
+        "rjson",
+        "withr",
+        "yaml"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "8da61129e0a206c6d788a5cabb841c40",
+    "Maintainer": "Arkadiusz Gladki <gladki.arkadiusz@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "gDRstyle",
+    "Rank": 1851,
+    "Rfiles": [
+        "vignettes/gDRstyle/inst/doc/gDRstyle.R",
+        "vignettes/gDRstyle/inst/doc/style_guide.R"
+    ],
+    "Suggests": [
+        "knitr",
+        "pkgdown",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "A package with style requirements for the gDR suite",
+    "URL": "https://github.com/gdrplatform/gDRstyle, https://gdrplatform.github.io/gDRstyle/",
+    "Version": "1.10.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Infrastructure",
+        "Software"
+    ],
+    "dependencyCount": "103",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "f4a33ad",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/gDRstyle",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/gDRstyle_1.10.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/gDRstyle_1.10.0.tgz",
+    "source.ver": "src/contrib/gDRstyle_1.10.0.tar.gz",
+    "suggestsMe": [
+        "gDR",
+        "gDRcore",
+        "gDRimport",
+        "gDRtestData",
+        "gDRutils"
+    ],
+    "vignetteTitles": [
+        "gDR-style-guide",
+        "gDRstyle-package"
+    ],
+    "vignettes": [
+        "vignettes/gDRstyle/inst/doc/gDRstyle.html",
+        "vignettes/gDRstyle/inst/doc/style_guide.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/gDRstyle_1.10.0.zip"
+}

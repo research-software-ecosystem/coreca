@@ -1,0 +1,3247 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:flye/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 181,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 22,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 24,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 26,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 31,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 31,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1099/mgen.0.000294",
+                            "pmcid": "PMC6807382",
+                            "pmid": "31483244",
+                            "ref_count": 35,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2015
+                                }
+                            ],
+                            "title": "Comparison of long-read sequencing technologies in the hybrid assembly of complex bacterial genomes.",
+                            "year": 2019
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 666,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2027
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 87,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 88,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 135,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 144,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 159,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1038/s41592-020-00971-x",
+                            "pmcid": "PMC10699202",
+                            "pmid": "33020656",
+                            "ref_count": 58,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2019
+                                }
+                            ],
+                            "title": "metaFlye: scalable long-read metagenome assembly using repeat graphs.",
+                            "year": 2020
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3869,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 29,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 142,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 315,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 405,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 573,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 750,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 753,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 892,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1038/s41587-019-0072-8",
+                            "pmid": "30936562",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Assembly of long, error-prone reads using repeat graphs.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:flye/workflow/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 181,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 22,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 24,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 26,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 31,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 31,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1099/mgen.0.000294",
+                            "pmcid": "PMC6807382",
+                            "pmid": "31483244",
+                            "ref_count": 35,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2015
+                                }
+                            ],
+                            "title": "Comparison of long-read sequencing technologies in the hybrid assembly of complex bacterial genomes.",
+                            "year": 2019
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 666,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2027
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 87,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 88,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 135,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 144,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 159,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1038/s41592-020-00971-x",
+                            "pmcid": "PMC10699202",
+                            "pmid": "33020656",
+                            "ref_count": 58,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2019
+                                }
+                            ],
+                            "title": "metaFlye: scalable long-read metagenome assembly using repeat graphs.",
+                            "year": 2020
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3869,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 29,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 142,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 315,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 405,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 573,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 750,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 753,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 892,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1038/s41587-019-0072-8",
+                            "pmid": "30936562",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Assembly of long, error-prone reads using repeat graphs.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:flye:2.9.6/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 181,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 22,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 24,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 26,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 31,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 31,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1099/mgen.0.000294",
+                            "pmcid": "PMC6807382",
+                            "pmid": "31483244",
+                            "ref_count": 35,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2015
+                                }
+                            ],
+                            "title": "Comparison of long-read sequencing technologies in the hybrid assembly of complex bacterial genomes.",
+                            "year": 2019
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 666,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2027
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 87,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 88,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 135,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 144,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 159,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1038/s41592-020-00971-x",
+                            "pmcid": "PMC10699202",
+                            "pmid": "33020656",
+                            "ref_count": 58,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2019
+                                }
+                            ],
+                            "title": "metaFlye: scalable long-read metagenome assembly using repeat graphs.",
+                            "year": 2020
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3869,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 29,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 142,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 315,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 405,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 573,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 750,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 753,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 892,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1038/s41587-019-0072-8",
+                            "pmid": "30936562",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Assembly of long, error-prone reads using repeat graphs.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {}
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:flye:2.9.6/workflow/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 181,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 22,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 24,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 26,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 31,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 31,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1099/mgen.0.000294",
+                            "pmcid": "PMC6807382",
+                            "pmid": "31483244",
+                            "ref_count": 35,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2015
+                                }
+                            ],
+                            "title": "Comparison of long-read sequencing technologies in the hybrid assembly of complex bacterial genomes.",
+                            "year": 2019
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 666,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2027
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 87,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 88,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 135,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 144,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 159,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1038/s41592-020-00971-x",
+                            "pmcid": "PMC10699202",
+                            "pmid": "33020656",
+                            "ref_count": 58,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2019
+                                }
+                            ],
+                            "title": "metaFlye: scalable long-read metagenome assembly using repeat graphs.",
+                            "year": 2020
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3869,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 29,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 142,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 315,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 405,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 573,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 750,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 753,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 892,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1038/s41587-019-0072-8",
+                            "pmid": "30936562",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Assembly of long, error-prone reads using repeat graphs.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {}
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.9.2/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.9.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 218,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 24,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 25,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 36,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2024
+                                }
+                            ],
+                            "doi": "10.1073/pnas.1604560113",
+                            "pmcid": "PMC5206522",
+                            "pmid": "27956617",
+                            "ref_count": 49,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1989
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1995
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2015
+                                }
+                            ],
+                            "title": "Assembly of long error-prone reads using de Bruijn graphs.",
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.9.4/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 218,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 24,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 25,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 36,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2024
+                                }
+                            ],
+                            "doi": "10.1073/pnas.1604560113",
+                            "pmcid": "PMC5206522",
+                            "pmid": "27956617",
+                            "ref_count": 49,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1989
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1995
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2015
+                                }
+                            ],
+                            "title": "Assembly of long error-prone reads using de Bruijn graphs.",
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.9.5/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 218,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 24,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 25,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 36,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2024
+                                }
+                            ],
+                            "doi": "10.1073/pnas.1604560113",
+                            "pmcid": "PMC5206522",
+                            "pmid": "27956617",
+                            "ref_count": 49,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1989
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1995
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2015
+                                }
+                            ],
+                            "title": "Assembly of long error-prone reads using de Bruijn graphs.",
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.9.6/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 218,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 24,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 25,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 36,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2024
+                                }
+                            ],
+                            "doi": "10.1073/pnas.1604560113",
+                            "pmcid": "PMC5206522",
+                            "pmid": "27956617",
+                            "ref_count": 49,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1989
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1995
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2015
+                                }
+                            ],
+                            "title": "Assembly of long error-prone reads using de Bruijn graphs.",
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.3.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.3.2/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.3.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.3.4/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.3.5/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.3.6/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.3.7/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.4.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.4.2/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.4/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.5/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.6/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.7.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.7/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.8.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.8.2/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.8.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.8/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.9.1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:flye:2.9/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/flye",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/mikolmogorov/Flye"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT860048S"
+            }
+        }
+    }
+]

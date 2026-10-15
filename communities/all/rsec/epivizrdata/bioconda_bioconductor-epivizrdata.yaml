@@ -1,0 +1,59 @@
+about:
+  description: Serve data from Bioconductor Objects through a WebSocket connection.
+  home: https://bioconductor.org/packages/3.22/bioc/html/epivizrData.html
+  license: MIT + file LICENSE
+  license_file: LICENSE
+  summary: Data Management API for epiviz interactive visualization app
+build:
+  noarch: generic
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:epivizrdata
+  - doi:10.1038/nmeth.3252
+  parent_recipe:
+    name: bioconductor-epivizrdata
+    path: recipes/bioconductor-epivizrdata
+    version: 1.8.0
+package:
+  name: bioconductor-epivizrdata
+  version: 1.38.0
+requirements:
+  host:
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-ensembldb >=2.34.0,<2.35.0
+  - bioconductor-epivizrserver >=1.38.0,<1.39.0
+  - bioconductor-genomicfeatures >=1.62.0,<1.63.0
+  - bioconductor-genomicranges >=1.62.0,<1.63.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-organismdbi >=1.52.0,<1.53.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-seqinfo >=1.0.0,<1.1.0
+  - bioconductor-summarizedexperiment >=1.40.0,<1.41.0
+  - r-base
+  run:
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-ensembldb >=2.34.0,<2.35.0
+  - bioconductor-epivizrserver >=1.38.0,<1.39.0
+  - bioconductor-genomicfeatures >=1.62.0,<1.63.0
+  - bioconductor-genomicranges >=1.62.0,<1.63.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-organismdbi >=1.52.0,<1.53.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-seqinfo >=1.0.0,<1.1.0
+  - bioconductor-summarizedexperiment >=1.40.0,<1.41.0
+  - r-base
+source:
+  md5: fdec69f2f113fff9c1aa530a7f4a7b6f
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/epivizrData_1.38.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/epivizrData/epivizrData_1.38.0.tar.gz
+  - https://bioarchive.galaxyproject.org/epivizrData_1.38.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-epivizrdata/bioconductor-epivizrdata_1.38.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('epivizrData')"

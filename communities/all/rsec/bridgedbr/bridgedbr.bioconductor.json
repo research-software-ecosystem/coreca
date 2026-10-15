@@ -1,0 +1,60 @@
+{
+    "Author": "Christ Leemans <christleemans@gmail.com>, Egon Willighagen <egon.willighagen@gmail.com>, Denise Slenter, Anwesha Bohler <anweshabohler@gmail.com>, Lars Eijssen <l.eijssen@maastrichtuniversity.nl>, Tooba Abbassi-Daloii",
+    "BugReports": "https://github.com/bridgedb/BridgeDbR/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.3.0)",
+        "rJava"
+    ],
+    "Description": "Use BridgeDb functions and load identifier mapping databases in R. It uses GitHub, Zenodo, and Figshare if you use this package to download identifier mappings files.",
+    "Imports": [
+        "curl"
+    ],
+    "License": "AGPL-3",
+    "MD5sum": "2e0080b4ac172b4b1a23ff4fc82cb5e1",
+    "Maintainer": "Egon Willighagen <egon.willighagen@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "BridgeDbR",
+    "Rank": 944,
+    "Rfiles": [
+        "vignettes/BridgeDbR/inst/doc/secondary.R",
+        "vignettes/BridgeDbR/inst/doc/tutorial.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Code for using BridgeDb identifier mapping framework from within R",
+    "URL": "https://github.com/bridgedb/BridgeDbR",
+    "Version": "2.22.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Annotation",
+        "Cheminformatics",
+        "Metabolomics",
+        "Software"
+    ],
+    "dependencyCount": "3",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "f66739c",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/BridgeDbR",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/BridgeDbR_2.22.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/BridgeDbR_2.22.0.tgz",
+    "source.ver": "src/contrib/BridgeDbR_2.22.0.tar.gz",
+    "vignetteTitles": [
+        "1. Tutorial",
+        "2. Secondary IDs"
+    ],
+    "vignettes": [
+        "vignettes/BridgeDbR/inst/doc/secondary.html",
+        "vignettes/BridgeDbR/inst/doc/tutorial.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/BridgeDbR_2.22.0.zip"
+}

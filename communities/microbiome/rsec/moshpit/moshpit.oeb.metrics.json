@@ -1,0 +1,52 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:moshpit/undefined/moshpit.readthedocs.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/2025.01.27.635007",
+                            "pmcid": "PMC11838374",
+                            "pmid": "39975011",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "MOSHPIT: accessible, reproducible metagenome data science on the QIIME 2 framework.",
+                            "year": 2025
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://moshpit.qiime2.org/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://moshpit.qiime2.org/en/stable/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,50 @@
+about:
+  description: Functions for plotting genomic data
+  home: https://bioconductor.org/packages/3.22/bioc/html/geneplotter.html
+  license: Artistic-2.0
+  summary: Graphics related functions for Bioconductor
+build:
+  noarch: generic
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:geneplotter
+  - doi:10.1038/nmeth.3252
+  parent_recipe:
+    name: bioconductor-geneplotter
+    path: recipes/bioconductor-geneplotter
+    version: 1.58.0
+package:
+  name: bioconductor-geneplotter
+  version: 1.88.0
+requirements:
+  host:
+  - bioconductor-annotate >=1.88.0,<1.89.0
+  - bioconductor-annotationdbi >=1.72.0,<1.73.0
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - r-base
+  - r-lattice
+  - r-rcolorbrewer
+  run:
+  - bioconductor-annotate >=1.88.0,<1.89.0
+  - bioconductor-annotationdbi >=1.72.0,<1.73.0
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - r-base
+  - r-lattice
+  - r-rcolorbrewer
+source:
+  md5: 4b8fc2ee134935254e5e2a725c9047eb
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/geneplotter_1.88.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/geneplotter/geneplotter_1.88.0.tar.gz
+  - https://bioarchive.galaxyproject.org/geneplotter_1.88.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-geneplotter/bioconductor-geneplotter_1.88.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('geneplotter')"

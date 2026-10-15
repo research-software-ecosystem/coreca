@@ -1,0 +1,43 @@
+about:
+  dev_url: https://github.com/sfu-compbio/mrsfast
+  doc_url: https://sfu-compbio.github.io/mrsfast
+  home: https://github.com/sfu-compbio/mrsfast
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: mrsFAST - micro-read substitution-only Fast Alignment Search Tool.
+build:
+  number: 6
+  run_exports:
+  - null
+  skip: true
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:mrsfast
+  - biotools:mrsfast-ultra
+  - doi:10.1038/nmeth0810-576
+package:
+  name: mrsfast
+  version: 3.4.2
+requirements:
+  build:
+  - null
+  - null
+  - make
+  - zlib
+  - groff
+  host:
+  - zlib
+source:
+  patches:
+  - Makefile.patch
+  - paired-end-buffer-init.patch
+  sha256: f3a1d4d734465ad810ff90aca35599b47b655ce0e851da36f924a5dfb45db4ba
+  url: https://github.com/sfu-compbio/mrsfast/archive/v3.4.2.zip
+test:
+  commands:
+  - mrsfast --help
+  - test -x ${PREFIX}/bin/mrsfast

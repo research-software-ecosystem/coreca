@@ -1,0 +1,95 @@
+{
+    "Archs": "x64",
+    "Author": "Jacques Serizay [aut, cre] (ORCID: <https://orcid.org/0000-0002-4295-0624>)",
+    "BugReports": "https://github.com/js2264/HiContacts/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "HiCExperiment",
+        "R (>= 4.2)"
+    ],
+    "Description": "HiContacts provides a collection of tools to analyse and visualize Hi-C datasets imported in R by HiCExperiment.",
+    "Imports": [
+        "BiocGenerics",
+        "BiocIO",
+        "BiocParallel",
+        "GenomeInfoDb",
+        "GenomicRanges",
+        "IRanges",
+        "InteractionSet",
+        "Matrix",
+        "RSpectra",
+        "S4Vectors",
+        "SummarizedExperiment",
+        "dplyr",
+        "ggplot2",
+        "ggrastr",
+        "methods",
+        "readr",
+        "scales",
+        "stats",
+        "stringr",
+        "tibble",
+        "tidyr",
+        "utils"
+    ],
+    "License": "MIT + file LICENSE",
+    "MD5sum": "b2f0b879e1442e86902648997ee9cd96",
+    "Maintainer": "Jacques Serizay <jacquesserizay@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "HiContacts",
+    "Rank": 950,
+    "Rfiles": [
+        "vignettes/HiContacts/inst/doc/HiContacts.R"
+    ],
+    "Suggests": [
+        "BSgenome.Scerevisiae.UCSC.sacCer3",
+        "BiocStyle",
+        "Biostrings",
+        "GenomicFeatures",
+        "HiContactsData",
+        "Rfast",
+        "WGCNA",
+        "knitr",
+        "patchwork",
+        "rmarkdown",
+        "rtracklayer",
+        "terra",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "Analysing cool files in R with HiContacts",
+    "URL": "https://github.com/js2264/HiContacts",
+    "Version": "1.14.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DNA3DStructure",
+        "HiC",
+        "Software"
+    ],
+    "dependencyCount": "104",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "84fe4c2",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/HiContacts",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "OHCA"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/HiContacts_1.14.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/HiContacts_1.14.0.tgz",
+    "source.ver": "src/contrib/HiContacts_1.14.0.tar.gz",
+    "suggestsMe": [
+        "HiCExperiment",
+        "HiCool",
+        "HiSpaR"
+    ],
+    "vignetteTitles": [
+        "Introduction to HiContacts"
+    ],
+    "vignettes": [
+        "vignettes/HiContacts/inst/doc/HiContacts.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/HiContacts_1.14.0.zip"
+}

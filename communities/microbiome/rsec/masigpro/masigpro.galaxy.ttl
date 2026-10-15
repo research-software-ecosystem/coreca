@@ -1,0 +1,49 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix bioschemas: <http://bioschemas.org/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix galaxytool: <https://github.com/galaxyproject/tools-iuc/tree/master/tools/> .
+@prefix schema1: <http://schema.org/> .
+
+galaxytool:masigpro a schema1:SoftwareApplication ;
+    bioschemas:output "pdf",
+        "tabular",
+        "txt" ;
+    schema1:applicationSubCategory edam:topic_0203,
+        edam:topic_3170,
+        edam:topic_3321,
+        edam:topic_3518 ;
+    schema1:codeRepository <https://www.bioconductor.org/packages/release/bioc/html/maSigPro.html> ;
+    schema1:dateCreated "2017-05-09" ;
+    schema1:description "Identify significantly differential expression profiles in time-course microarray experiments" ;
+    schema1:encodingFormat "pdf",
+        "tabular",
+        "txt" ;
+    schema1:featureList edam:operation_3659 ;
+    schema1:identifier biotools:masigpro,
+        bioconda:coreutils ;
+    schema1:isPartOf <https://usegalaxy.be>,
+        <https://usegalaxy.ca>,
+        <https://usegalaxy.cz>,
+        <https://usegalaxy.eu>,
+        <https://usegalaxy.no>,
+        <https://usegalaxy.org> ;
+    schema1:keywords "RNA",
+        "Statistics",
+        "Transcriptomics" ;
+    schema1:name "masigpro" ;
+    schema1:softwareVersion "@TOOL_VERSION@.1+galaxy@VERSION_SUFFIX@" ;
+    schema1:url <https://github.com/galaxyproject/tools-iuc/tree/main/tools/masigpro> .
+
+<https://usegalaxy.be> a schema1:WebSite .
+
+<https://usegalaxy.ca> a schema1:WebSite .
+
+<https://usegalaxy.cz> a schema1:WebSite .
+
+<https://usegalaxy.eu> a schema1:WebSite .
+
+<https://usegalaxy.no> a schema1:WebSite .
+
+<https://usegalaxy.org> a schema1:WebSite .
+

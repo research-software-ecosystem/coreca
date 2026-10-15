@@ -1,0 +1,12 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix schema1: <http://schema.org/> .
+
+bioconda:mutmap a schema1:SoftwareApplication ;
+    schema1:alternateName "MutMap: pipeline to identify causative mutations responsible for a phenotype." ;
+    schema1:citation "doi:10.1038/nbt.2095" ;
+    schema1:description "MutMap: pipeline to identify causative mutations responsible for a phenotype." ;
+    schema1:license "GPL-3.0-or-later" ;
+    schema1:name "mutmap" ;
+    schema1:softwareVersion "2.4.0" ;
+    schema1:url "https://github.com/YuSugihara/MutMap" .
+

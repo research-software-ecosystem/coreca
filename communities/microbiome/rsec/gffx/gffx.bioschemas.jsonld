@@ -1,0 +1,223 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/2025.08.08.669426",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/gffx",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N66cde77c0a584666b64ecaccc77b52ea"
+        },
+        {
+          "@id": "_:N38a3526c0428415f8ec57f5b58bd1bab"
+        },
+        {
+          "@id": "_:Nf126454faecf49c6b7e8fbff6e1a4abf"
+        },
+        {
+          "@id": "_:Na5a8e894b3ca416ba09d2b108466c14a"
+        },
+        {
+          "@id": "_:N31f1e63cb4da46ae850c8b50b5861c98"
+        },
+        {
+          "@id": "_:Nb40e3e8514f04a50b941bcb59ef520de"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N3ace12e524e54e7a977c18e817e0e318"
+        },
+        {
+          "@id": "_:N10544193263940f489642aff23b3d4a2"
+        },
+        {
+          "@id": "_:N8fe2f4ec4cba42d589d2fad9e300fe62"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Bioinformatics portal",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_0219"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/2025.08.08.669426"
+      },
+      "sc:description": "GFFx is a Rust-based toolkit for ultra-fast and scalable genome annotation access. GFFx introduces a compact, model-aware indexing system inspired by binning strategies and leverages Rust’s strengths in execution speed, memory safety, and multithreading. It supports feature- and region-based feature extraction and coverage profiling with significant improvements in runtime and scalability over existing tools.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3230"
+        },
+        {
+          "@id": "edam:operation_2422"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Apache-2.0",
+      "sc:name": "GFFx",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/Baohua-Chen/GFFx/blob/main/README.md"
+      },
+      "sc:softwareVersion": "v0.4.0",
+      "sc:url": "https://github.com/Baohua-Chen/GFFx"
+    },
+    {
+      "@id": "_:N66cde77c0a584666b64ecaccc77b52ea",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1916"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2572"
+        },
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3462"
+        },
+        {
+          "@id": "edam:format_2573"
+        }
+      ],
+      "sc:name": "Alignment"
+    },
+    {
+      "@id": "_:N38a3526c0428415f8ec57f5b58bd1bab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:Nf126454faecf49c6b7e8fbff6e1a4abf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2872"
+      },
+      "sc:name": "ID list"
+    },
+    {
+      "@id": "_:Na5a8e894b3ca416ba09d2b108466c14a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N31f1e63cb4da46ae850c8b50b5861c98",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2012"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3003"
+      },
+      "sc:name": "Sequence coordinates"
+    },
+    {
+      "@id": "_:Nb40e3e8514f04a50b941bcb59ef520de",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N3ace12e524e54e7a977c18e817e0e318",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2914"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3751"
+      },
+      "sc:name": "Sequence features metadata"
+    },
+    {
+      "@id": "_:N10544193263940f489642aff23b3d4a2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:N8fe2f4ec4cba42d589d2fad9e300fe62",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2305"
+      },
+      "sc:name": "Sequence features"
+    }
+  ]
+}

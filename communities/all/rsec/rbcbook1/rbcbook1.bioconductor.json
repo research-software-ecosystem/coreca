@@ -1,0 +1,45 @@
+{
+    "Author": "Vince Carey <stvjc@channing.harvard.edu> and Wolfgang Huber <huber@ebi.ac.uk>",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biobase",
+        "R (>= 2.10)",
+        "graph",
+        "rpart"
+    ],
+    "Description": "tools for building book",
+    "License": "Artistic-2.0",
+    "MD5sum": "501e8d3baf42778fc7fa61187c436805",
+    "Maintainer": "Vince Carey <stvjc@channing.harvard.edu>",
+    "NeedsCompilation": "no",
+    "Package": "RbcBook1",
+    "Rank": 370,
+    "Rfiles": [
+        "vignettes/RbcBook1/inst/doc/RbcBook1.R"
+    ],
+    "Title": "Support for Springer monograph on Bioconductor",
+    "URL": "http://www.biostat.harvard.edu/~carey",
+    "Version": "1.80.0",
+    "biocViews": [
+        "Software"
+    ],
+    "dependencyCount": "11",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "fff5468",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/RbcBook1",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/RbcBook1_1.80.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/RbcBook1_1.80.0.tgz",
+    "source.ver": "src/contrib/RbcBook1_1.80.0.tar.gz",
+    "vignetteTitles": [
+        "RbcBook1 Primer"
+    ],
+    "vignettes": [
+        "vignettes/RbcBook1/inst/doc/RbcBook1.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/RbcBook1_1.80.0.zip"
+}

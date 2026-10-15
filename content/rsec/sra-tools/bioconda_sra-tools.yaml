@@ -1,0 +1,62 @@
+about:
+  description: '"The SRA Toolkit and SDK from NCBI is a collection of tools and libraries
+
+    for using data in the INSDC Sequence Read Archives."
+
+    '
+  dev_url: https://github.com/ncbi/sra-tools
+  doc_url: https://github.com/ncbi/sra-tools/wiki
+  home: https://github.com/ncbi/sra-tools
+  license: Public Domain
+  summary: The SRA Toolkit and SDK from NCBI.
+build:
+  number: 2
+  run_exports:
+  - null
+  skip: true
+  string: _
+extra:
+  additional-platforms:
+  - osx-arm64
+  identifiers:
+  - biotools:sra-tools
+  notes: " The tool requires glibc \u2265 2.28 at runtime. After installation, you\
+    \ should run the configuration tool: ./vdb-config -i This tool will setup your\
+    \ download/cache area for downloaded files and references."
+  recipe-maintainers:
+  - rajwanir2
+  skip-lints:
+  - should_be_noarch_generic
+package:
+  name: sra-tools
+  version: 3.4.1
+requirements:
+  run:
+  - ca-certificates
+  - curl
+  - ossuuid
+  - perl
+  - perl-xml-libxml
+  - perl-uri
+source:
+- folder: sra-tools
+  sha256: f4850a32975596ca0755d928b166ecb0095918284ea992fba10f1acb3fcff64d
+  url: https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/3.4.1/sratoolkit.3.4.1-alma_linux64.tar.gz
+- folder: sra-tools
+  sha256: 8e19acfc0be8544b982b5233ae3f9469df31a317e50d63e984de034587e77488
+  url: https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/3.4.1/sratoolkit.3.4.1-mac-x86_64.tar.gz
+- folder: sra-tools
+  sha256: b38ec90f9c99805533c90684310b0495288890559c5af194f1074b72f4e95255
+  url: https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/3.4.1/sratoolkit.3.4.1-mac-arm64.tar.gz
+test:
+  commands:
+  - test -x "${PREFIX}/bin/prefetch"
+  - test -x "${PREFIX}/bin/fastq-dump"
+  - test -x "${PREFIX}/bin/vdb-config"
+  - test -x "${PREFIX}/bin/fasterq-dump"
+  - prefetch --version
+  - fastq-dump --version
+  - vdb-config --version
+  - fasterq-dump --version
+  - prefetch SRR000001
+  - fasterq-dump SRR000001 --stdout --concatenate-reads | head -n 10

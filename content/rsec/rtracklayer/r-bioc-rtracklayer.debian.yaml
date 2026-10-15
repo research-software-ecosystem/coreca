@@ -1,0 +1,25 @@
+package: r-bioc-rtracklayer
+distribution: debian
+release: sid
+component: main
+version: 1.72.0+ds
+source: r-bioc-rtracklayer
+homepage: https://bioconductor.org/packages/rtracklayer/
+license: unknown
+blend: debian-med
+description_md5: 584b389dc8361ea2de736a9b4701b612
+registries:
+- entry: OMICS_09883
+  name: OMICtools
+- entry: rtracklayer
+  name: bio.tools
+- entry: bioconductor-rtracklayer
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btp328
+popcon:
+- insts: 238
+  olde: 185
+  recent: 27
+  vote: 26

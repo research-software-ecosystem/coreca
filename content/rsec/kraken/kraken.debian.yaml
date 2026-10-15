@@ -1,0 +1,25 @@
+package: kraken
+distribution: debian
+release: sid
+component: main
+version: 1.1.1
+source: kraken
+homepage: http://ccb.jhu.edu/software/kraken/
+license: unknown
+blend: debian-med
+description_md5: 4dc49da345dc88dcd656d9a30393ce7e
+registries:
+- entry: OMICS_04481
+  name: OMICtools
+- entry: kraken
+  name: bio.tools
+- entry: kraken
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/gb-2014-15-3-r46
+popcon:
+- insts: 131
+  olde: 102
+  recent: 24
+  vote: 5

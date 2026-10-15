@@ -1,0 +1,35 @@
+package: phylip
+distribution: debian
+release: sid
+component: main
+version: '3.697'
+source: phylip
+homepage: https://evolution.genetics.washington.edu/phylip.html
+license: unknown
+blend: debian-med
+description_md5: 3fdeb4b0f56b2d6898a24f0f783f47ae
+registries:
+- entry: OMICS_04240
+  name: OMICtools
+- entry: SCR_006244
+  name: SciCrunch
+- entry: PHYLIP
+  name: bio.tools
+- entry: phylip
+  name: conda:bioconda
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::analysing
+- tag: use::comparing
+- tag: works-with-format::plaintext
+- tag: works-with::TODO
+popcon:
+- insts: 257
+  olde: 224
+  recent: 25
+  vote: 8

@@ -1,0 +1,51 @@
+about:
+  description: Perform step by step methylation analysis of Next Generation Sequencing
+    data.
+  home: https://bioconductor.org/packages/3.22/bioc/html/MethTargetedNGS.html
+  license: Artistic-2.0
+  summary: Perform Methylation Analysis on Next Generation Sequencing Data
+build:
+  noarch: generic
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:methtargetedngs
+  - doi:10.1038/nmeth.3252
+  parent_recipe:
+    name: bioconductor-methtargetedngs
+    path: recipes/bioconductor-methtargetedngs
+    version: 1.12.0
+package:
+  name: bioconductor-methtargetedngs
+  version: 1.42.0
+requirements:
+  host:
+  - bioconductor-biostrings >=2.78.0,<2.79.0
+  - bioconductor-pwalign >=1.6.0,<1.7.0
+  - r-base
+  - r-gplots
+  - r-seqinr
+  - r-stringr
+  - hmmer >=3
+  run:
+  - bioconductor-biostrings >=2.78.0,<2.79.0
+  - bioconductor-pwalign >=1.6.0,<1.7.0
+  - r-base
+  - r-gplots
+  - r-seqinr
+  - r-stringr
+  - hmmer >=3
+source:
+  md5: 3860ee1b9d205f60200dd62c3de3bae9
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/MethTargetedNGS_1.42.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/MethTargetedNGS/MethTargetedNGS_1.42.0.tar.gz
+  - https://bioarchive.galaxyproject.org/MethTargetedNGS_1.42.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-methtargetedngs/bioconductor-methtargetedngs_1.42.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('MethTargetedNGS')"

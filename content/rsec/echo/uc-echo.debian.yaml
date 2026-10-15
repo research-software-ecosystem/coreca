@@ -1,0 +1,41 @@
+package: uc-echo
+distribution: debian
+release: sid
+component: main
+version: '1.12'
+source: uc-echo
+homepage: https://uc-echo.sourceforge.net/
+license: unknown
+blend: debian-med
+description_md5: 2b8d605b1e0d9655e1b24a1bc58abf3f
+topics:
+- Data management
+- Sequencing
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - Text
+    - FASTQ
+  output:
+  - data: Sequence
+    formats:
+    - FASTQ
+  function:
+  - Sequencing quality control
+registries:
+- entry: OMICS_01102
+  name: OMICtools
+- entry: SCR_011851
+  name: SciCrunch
+- entry: echo
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1101/gr.111351.110
+popcon:
+- insts: 111
+  olde: 82
+  recent: 23
+  vote: 6

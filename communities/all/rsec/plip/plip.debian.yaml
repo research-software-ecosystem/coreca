@@ -1,0 +1,23 @@
+package: plip
+distribution: debian
+release: sid
+component: main
+version: 2.4.0
+source: plip
+homepage: https://projects.biotec.tu-dresden.de/plip-web/plip/
+license: unknown
+blend: debian-med
+description_md5: 84b81cb2e83aeaef44c40dfb85d52090
+registries:
+- entry: OMICS_08028
+  name: OMICtools
+- entry: plip
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/nar/gkv315
+popcon:
+- insts: 116
+  olde: 86
+  recent: 22
+  vote: 8

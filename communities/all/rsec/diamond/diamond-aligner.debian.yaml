@@ -1,0 +1,28 @@
+package: diamond-aligner
+distribution: debian
+release: sid
+component: main
+version: 2.2.6
+source: diamond-aligner
+homepage: https://github.com/bbuchfink/diamond
+license: unknown
+blend: debian-med
+description_md5: 61d25e105442131bbed8226a4c37df31
+registries:
+- entry: OMICS_08011
+  name: OMICtools
+- entry: SCR_016071
+  name: SciCrunch
+- entry: Diamond
+  name: bio.tools
+- entry: diamond
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1038/nmeth.3176
+popcon:
+- insts: 155
+  nofiles: 1
+  olde: 125
+  recent: 24
+  vote: 5

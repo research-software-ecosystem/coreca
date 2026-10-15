@@ -1,0 +1,21 @@
+package: mrtrix3
+distribution: debian
+release: sid
+component: main
+version: 3.0.8
+source: mrtrix3
+homepage: https://www.mrtrix.org
+license: unknown
+blend: debian-med
+description_md5: 964e3efc7d8a8c7964b0809c29eee57b
+registries:
+- entry: mrtrix3
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1016/j.neuroimage.2019.116137
+popcon:
+- insts: 126
+  olde: 111
+  recent: 6
+  vote: 9

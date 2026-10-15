@@ -1,0 +1,35 @@
+about:
+  dev_url: https://github.com/brentp/vcfanno
+  doc_url: https://github.com/brentp/vcfanno/blob/v0.3.9/README.md
+  home: https://github.com/brentp/vcfanno
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Annotate a VCF with other VCFs/BEDs/tabixed files.
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - doi:10.1186/s13059-016-0973-5
+  - biotools:vcfanno
+  - usegalaxy-eu:vcfanno
+package:
+  name: vcfanno
+  version: 0.3.9
+requirements:
+  build:
+  - null
+  - null
+  - go-licenses
+  - make
+source:
+  sha256: a5119f39a70a3872067e00be2f20ac69ec8c2688fc9f4cf603b3de12c90cba4d
+  url: https://github.com/brentp/vcfanno/archive/refs/tags/v0.3.9.tar.gz
+test:
+  commands:
+  - vcfanno 2>&1 | grep 'vcfanno'

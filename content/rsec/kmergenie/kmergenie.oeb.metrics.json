@@ -1,0 +1,326 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:kmergenie/cmd/kmergenie.bx.psu.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 425,
+                            "citations": [
+                                {
+                                    "count": 12,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 33,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 36,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 38,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 39,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 39,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 40,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 44,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 44,
+                                    "year": 2019
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btt310",
+                            "pmid": "23732276",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Informed and automated k-mer size selection for genome assembly.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:kmergenie:1.7016/cmd/kmergenie.bx.psu.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 425,
+                            "citations": [
+                                {
+                                    "count": 12,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 33,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 36,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 38,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 39,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 39,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 40,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 44,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 44,
+                                    "year": 2019
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btt310",
+                            "pmid": "23732276",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Informed and automated k-mer size selection for genome assembly.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:kmergenie:1.7051/cmd/kmergenie.bx.psu.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 425,
+                            "citations": [
+                                {
+                                    "count": 12,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 33,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 36,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 38,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 39,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 39,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 40,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 44,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 44,
+                                    "year": 2019
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btt310",
+                            "pmid": "23732276",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Informed and automated k-mer size selection for genome assembly.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/kmergenie",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

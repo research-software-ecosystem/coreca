@@ -1,0 +1,61 @@
+{
+    "Author": "Aaron Lun [aut, cre]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "VariantAnnotation",
+        "alabaster.base"
+    ],
+    "Description": "Save variant calling SummarizedExperiment to file and load them back as VCF objects. This is a more portable alternative to serialization of such objects into RDS files. Each artifact is associated with metadata for further interpretation; downstream applications can enrich this metadata with context-specific properties.",
+    "Imports": [
+        "Rsamtools",
+        "S4Vectors",
+        "alabaster.se",
+        "alabaster.string",
+        "methods"
+    ],
+    "License": "MIT + file LICENSE",
+    "MD5sum": "581c138db67dd403c554925f6806e3dc",
+    "Maintainer": "Aaron Lun <infinite.monkeys.with.keyboards@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "alabaster.vcf",
+    "Rank": 2066,
+    "Rfiles": [
+        "vignettes/alabaster.vcf/inst/doc/userguide.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Save and Load Variant Data to/from File",
+    "Version": "1.12.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataImport",
+        "DataRepresentation",
+        "Software"
+    ],
+    "dependencyCount": "95",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "c7924d6",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/alabaster.vcf",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "alabaster"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/alabaster.vcf_1.12.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/alabaster.vcf_1.12.0.tgz",
+    "source.ver": "src/contrib/alabaster.vcf_1.12.0.tar.gz",
+    "vignetteTitles": [
+        "Saving and loading VCFs"
+    ],
+    "vignettes": [
+        "vignettes/alabaster.vcf/inst/doc/userguide.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/alabaster.vcf_1.12.0.zip"
+}

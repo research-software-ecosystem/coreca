@@ -1,0 +1,64 @@
+{
+    "Archs": "x64",
+    "Author": "Alex Sanchez, Jordi Ocana and Miquel Salicru",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "AnnotationDbi",
+        "Biobase",
+        "CompQuadForm",
+        "GO.db",
+        "stringr"
+    ],
+    "Description": "The package implements methods to compare lists of genes based on comparing the corresponding 'functional profiles'.",
+    "License": "GPL-2",
+    "MD5sum": "e8c28eb5ecd8a296ecbe9d0a8455d9bc",
+    "Maintainer": "Alex Sanchez <asanchez@ub.edu>",
+    "NeedsCompilation": "no",
+    "Package": "goProfiles",
+    "Rank": 535,
+    "Rfiles": [
+        "vignettes/goProfiles/inst/doc/goProfiles.R"
+    ],
+    "Suggests": [
+        "org.Hs.eg.db"
+    ],
+    "Title": "goProfiles: an R package for the statistical analysis of functional profiles",
+    "Version": "1.74.0",
+    "biocViews": [
+        "Annotation",
+        "GO",
+        "GeneExpression",
+        "GeneSetEnrichment",
+        "GraphAndNetwork",
+        "Microarray",
+        "MultipleComparison",
+        "Pathways",
+        "Software"
+    ],
+    "dependencyCount": "47",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "d3ff44c",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/goProfiles",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "goSorensen"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/goProfiles_1.74.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/goProfiles_1.74.0.tgz",
+    "source.ver": "src/contrib/goProfiles_1.74.0.tar.gz",
+    "vignetteTitles": [
+        "goProfiles Vignette",
+        "goProfiles-comparevisual.pdf",
+        "goProfiles-plotProfileMF.pdf"
+    ],
+    "vignettes": [
+        "vignettes/goProfiles/inst/doc/goProfiles-comparevisual.pdf",
+        "vignettes/goProfiles/inst/doc/goProfiles-plotProfileMF.pdf",
+        "vignettes/goProfiles/inst/doc/goProfiles.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/goProfiles_1.74.0.zip"
+}

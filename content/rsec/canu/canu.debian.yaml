@@ -1,0 +1,41 @@
+package: canu
+distribution: debian
+release: sid
+component: main
+version: '2.2'
+source: canu
+homepage: https://canu.readthedocs.org/en/latest/
+license: unknown
+blend: debian-med
+description_md5: b3bd7163822a1d72471857eecd4e7a6e
+registries:
+- entry: OMICS_14592
+  name: OMICtools
+- entry: SCR_015880
+  name: SciCrunch
+- entry: CANU
+  name: bio.tools
+- entry: canu
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1101/gr.215087.116
+- key: doi
+  rank: 1
+  value: 10.1093/bioinformatics/btw753
+- key: doi
+  rank: 2
+  value: 10.1038/nbt.3238
+- key: doi
+  rank: 3
+  value: 10.1126/science.287.5461.2196
+- key: doi
+  rank: 4
+  value: 10.1038/nmeth.4035
+- key: doi
+  rank: 5
+  value: 10.1038/nmeth.2474
+popcon:
+- insts: 14
+  olde: 13
+  vote: 1

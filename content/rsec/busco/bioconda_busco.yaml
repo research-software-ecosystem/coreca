@@ -1,0 +1,75 @@
+about:
+  description: BUSCO provides measures for quantitative assessment of genome assembly,
+    gene set, and transcriptome completeness based on evolutionarily informed expectations
+    of gene content from near-universal single-copy orthologs selected from OrthoDB.
+  dev_url: https://gitlab.com/ezlab/busco
+  doc_url: https://busco.ezlab.org/busco_userguide.html
+  home: https://busco.ezlab.org
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Assessment of assembly completeness using Universal Single Copy Orthologs.
+build:
+  noarch: python
+  number: 2
+  run_exports:
+  - null
+extra:
+  container:
+    extended-base: true
+  identifiers:
+  - biotools:busco
+  - doi:10.1093/bioinformatics/btv351
+  - usegalaxy-eu:busco
+  recipe-maintainers:
+  - berkelem
+package:
+  name: busco
+  version: 6.1.0
+requirements:
+  host:
+  - python >=3.3
+  - numpy <2.4
+  - pip
+  - wget
+  - blast >=2.10.1
+  - hmmer >=3.1b2
+  - augustus >=3.3
+  - biopython >=1.79
+  - prodigal
+  - sepp ==4.5.5
+  - metaeuk >=6.a5d39d9
+  - pandas
+  - bbmap
+  - miniprot
+  - requests
+  - matplotlib-base
+  run:
+  - python >=3.3
+  - numpy <2.4
+  - wget
+  - blast >=2.10.1
+  - hmmer >=3.1b2
+  - augustus >=3.3
+  - biopython >=1.79
+  - prodigal
+  - sepp ==4.5.5
+  - metaeuk >=6.a5d39d9
+  - pandas
+  - bbmap
+  - miniprot
+  - requests
+  - matplotlib-base
+  - fonts-conda-ecosystem
+source:
+  patches:
+  - 0001-Add-default-config-path-within-prefix-updated.patch
+  - 0001-Set-conda-distribution.patch
+  - 0002-configure-bbtools-memory.patch
+  sha256: 7aa3b6adfe98f5da9adf6d312722c165cbdea7959af5be7a692ecadd1e81194e
+  url: https://gitlab.com/ezlab/busco/-/archive/6.1.0/busco-6.1.0.tar.gz
+test:
+  commands:
+  - busco -h
+  source_files:
+  - test_data

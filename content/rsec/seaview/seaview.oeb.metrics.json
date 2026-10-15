@@ -1,0 +1,279 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:seaview:4/app/doua.prabi.fr",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2491,
+                            "citations": [
+                                {
+                                    "count": 9,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 67,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 81,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 102,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 123,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 127,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 137,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 144,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 144,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 174,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 181,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 181,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 184,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 196,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 200,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 201,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 210,
+                                    "year": 2021
+                                }
+                            ],
+                            "doi": "10.1093/molbev/msp259",
+                            "pmid": "19854763",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "SeaView version 4: A multiplatform graphical user interface for sequence alignment and phylogenetic tree building.",
+                            "year": 2009
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://doua.prabi.fr/software/seaview"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:seaview:4/cmd/doua.prabi.fr",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2491,
+                            "citations": [
+                                {
+                                    "count": 9,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 67,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 81,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 102,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 123,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 127,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 137,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 144,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 144,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 174,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 181,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 181,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 184,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 196,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 200,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 201,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 210,
+                                    "year": 2021
+                                }
+                            ],
+                            "doi": "10.1093/molbev/msp259",
+                            "pmid": "19854763",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "SeaView version 4: A multiplatform graphical user interface for sequence alignment and phylogenetic tree building.",
+                            "year": 2009
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://doua.prabi.fr/software/seaview"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/seaview",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://doua.prabi.fr/software/seaview"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

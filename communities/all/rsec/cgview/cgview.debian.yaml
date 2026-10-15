@@ -1,0 +1,27 @@
+package: cgview
+distribution: debian
+release: sid
+component: main
+version: 0.0.20100111
+source: cgview
+homepage: http://wishart.biology.ualberta.ca/cgview/
+license: unknown
+blend: debian-med
+description_md5: 43e679418d17db04183ad02e8a2c137e
+registries:
+- entry: OMICS_00905
+  name: OMICtools
+- entry: SCR_011779
+  name: SciCrunch
+- entry: cgview
+  name: bio.tools
+- entry: cgview
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/bti054
+popcon:
+- insts: 119
+  olde: 89
+  recent: 25
+  vote: 5

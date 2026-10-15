@@ -1,0 +1,149 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:e-pix_web/web/demo.ths-greifswald.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.21203/RS.3.RS-1053445/V1",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://demo.ths-greifswald.de/epix-web/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/e-pix_web",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://demo.ths-greifswald.de/epix-web/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://demo.ths-greifswald.de/epix-web/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

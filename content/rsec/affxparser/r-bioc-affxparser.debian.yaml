@@ -1,0 +1,20 @@
+package: r-bioc-affxparser
+distribution: debian
+release: sid
+component: main
+version: 1.84.0
+source: r-bioc-affxparser
+homepage: https://bioconductor.org/packages/affxparser/
+license: unknown
+blend: debian-med
+description_md5: 2244bf416242e68121ca8e6d119880e0
+registries:
+- entry: affxparser
+  name: bio.tools
+- entry: bioconductor-affxparser
+  name: conda:bioconda
+popcon:
+- insts: 18
+  olde: 15
+  recent: 1
+  vote: 2

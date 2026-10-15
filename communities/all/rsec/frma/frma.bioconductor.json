@@ -1,0 +1,71 @@
+{
+    "Author": "Matthew N. McCall <mccallm@gmail.com>, Rafael A. Irizarry <rafa@jhu.edu>, with contributions from Terry Therneau",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biobase (>= 2.6.0)",
+        "R (>= 2.10.0)"
+    ],
+    "Description": "Preprocessing and analysis for single microarrays and microarray batches.",
+    "Imports": [
+        "Biobase",
+        "BiocGenerics",
+        "DBI",
+        "MASS",
+        "affy",
+        "methods",
+        "oligo",
+        "oligoClasses",
+        "preprocessCore",
+        "utils"
+    ],
+    "License": "GPL (>= 2)",
+    "MD5sum": "a9431ae031197d9000b837e0cd2a4ffb",
+    "Maintainer": "Matthew N. McCall <mccallm@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "frma",
+    "Rank": 522,
+    "Rfiles": [
+        "vignettes/frma/inst/doc/frma.R"
+    ],
+    "Suggests": [
+        "frmaExampleData",
+        "hgu133afrmavecs"
+    ],
+    "Title": "Frozen RMA and Barcode",
+    "URL": "http://bioconductor.org",
+    "Version": "1.64.0",
+    "biocViews": [
+        "Microarray",
+        "Preprocessing",
+        "Software"
+    ],
+    "dependencyCount": "55",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "36a6abf",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/frma",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "ChIPXpress",
+        "DeSousa2013",
+        "rat2302frmavecs"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/frma_1.64.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/frma_1.64.0.tgz",
+    "source.ver": "src/contrib/frma_1.64.0.tar.gz",
+    "suggestsMe": [
+        "antiProfilesData",
+        "ath1121501frmavecs",
+        "frmaTools"
+    ],
+    "vignetteTitles": [
+        "frma: Preprocessing for single arrays and array batches"
+    ],
+    "vignettes": [
+        "vignettes/frma/inst/doc/frma.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/frma_1.64.0.zip"
+}

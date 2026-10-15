@@ -1,0 +1,113 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:quantumatk/undefined/docs.quantumatk.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 246,
+                            "citations": [
+                                {
+                                    "count": 15,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 22,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 29,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 37,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 40,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 43,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 60,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1088/1361-648X/ab4007",
+                            "pmid": "31470430",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "QuantumATK: an integrated platform of electronic and atomic-scale modelling tools.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=31470430"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/31470430/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/quantumatk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=31470430"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://pubmed.ncbi.nlm.nih.gov/31470430/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

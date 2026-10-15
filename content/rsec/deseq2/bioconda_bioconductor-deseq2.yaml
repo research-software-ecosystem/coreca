@@ -1,0 +1,78 @@
+about:
+  description: Estimate variance-mean dependence in count data from high-throughput
+    sequencing assays and test for differential expression based on a model using
+    the negative binomial distribution.
+  home: https://bioconductor.org/packages/3.22/bioc/html/DESeq2.html
+  license: LGPL (>= 3)
+  license_file: /lib/R/share/licenses/LGPL-3
+  summary: Differential gene expression analysis based on the negative binomial distribution
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:deseq2
+  - doi:10.1186/s13059-014-0550-8
+  - usegalaxy-eu:deseq2
+  parent_recipe:
+    name: bioconductor-deseq2
+    path: recipes/bioconductor-deseq2
+    version: 1.20.0
+package:
+  name: bioconductor-deseq2
+  version: 1.50.2
+requirements:
+  build:
+  - null
+  - null
+  - make
+  host:
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-biocparallel >=1.44.0,<1.45.0
+  - bioconductor-genomicranges >=1.62.0,<1.63.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-matrixgenerics >=1.22.0,<1.23.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-summarizedexperiment >=1.40.0,<1.41.0
+  - r-base
+  - r-ggplot2 >=3.4.0
+  - r-locfit
+  - r-matrixstats
+  - r-rcpp >=0.11.0
+  - r-rcpparmadillo
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-biocparallel >=1.44.0,<1.45.0
+  - bioconductor-genomicranges >=1.62.0,<1.63.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-matrixgenerics >=1.22.0,<1.23.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-summarizedexperiment >=1.40.0,<1.41.0
+  - r-base
+  - r-ggplot2 >=3.4.0
+  - r-locfit
+  - r-matrixstats
+  - r-rcpp >=0.11.0
+  - r-rcpparmadillo
+source:
+  md5: 25808f3c95fae4e5a1e0baa8e8035e6e
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/DESeq2_1.50.2.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/DESeq2/DESeq2_1.50.2.tar.gz
+  - https://bioarchive.galaxyproject.org/DESeq2_1.50.2.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-deseq2/bioconductor-deseq2_1.50.2_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('DESeq2')"

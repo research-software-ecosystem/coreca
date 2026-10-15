@@ -1,0 +1,40 @@
+package: dialign
+distribution: debian
+release: sid
+component: main
+version: 2.2.1
+source: dialign
+homepage: https://dialign.gobics.de/
+license: unknown
+blend: debian-med
+description_md5: c167148e4fcfc2b9286f16796115d6a0
+registries:
+- entry: OMICS_00973
+  name: OMICtools
+- entry: SCR_003041
+  name: SciCrunch
+- entry: Dialign
+  name: bio.tools
+- entry: dialign2
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/15.3.211
+tags:
+- tag: biology::format:aln
+- tag: biology::nuceleic-acids
+- tag: biology::peptidic
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::analysing
+- tag: use::comparing
+- tag: works-with-format::plaintext
+popcon:
+- insts: 284
+  olde: 251
+  recent: 24
+  vote: 9

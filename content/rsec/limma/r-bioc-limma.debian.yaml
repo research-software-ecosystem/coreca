@@ -1,0 +1,25 @@
+package: r-bioc-limma
+distribution: debian
+release: sid
+component: main
+version: 3.68.5
+source: r-bioc-limma
+homepage: https://bioconductor.org/packages/limma/
+license: unknown
+blend: debian-med
+description_md5: ad097f4aab2409392838013c057a2e48
+registries:
+- entry: OMICS_00769
+  name: OMICtools
+- entry: SCR_010943
+  name: SciCrunch
+- entry: limma
+  name: bio.tools
+- entry: bioconductor-limma
+  name: conda:bioconda
+popcon:
+- insts: 1267
+  nofiles: 1
+  olde: 990
+  recent: 129
+  vote: 147

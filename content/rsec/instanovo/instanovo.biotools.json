@@ -1,0 +1,242 @@
+{
+    "accessibility": "Open access (with restrictions)",
+    "additionDate": "2025-12-09T09:22:22.735091Z",
+    "biotoolsCURIE": "biotools:instanovo",
+    "biotoolsID": "instanovo",
+    "collectionID": [
+        "ms-utils",
+        "proteomics"
+    ],
+    "cost": "Free of charge (with restrictions)",
+    "credit": [
+        {
+            "email": "j.vangoey@instadeep.com",
+            "name": "Jeroen Van Goey",
+            "orcidid": "https://orcid.org/0000-0003-4480-5567",
+            "typeRole": [
+                "Maintainer"
+            ]
+        },
+        {
+            "email": "k.eloff@instadeep.com",
+            "name": "Kevin Eloff",
+            "orcidid": "https://orcid.org/0000-0003-1355-8743",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "konka@dtu.dk",
+            "name": "Konstantinos Kalogeropoulos",
+            "orcidid": "https://orcid.org/0000-0003-3907-9281",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "r.catzel@instadeep.com",
+            "name": "Rachel Catzel",
+            "orcidid": "https://orcid.org/0000-0002-2983-9833",
+            "typeRole": [
+                "Maintainer"
+            ]
+        },
+        {
+            "email": "tpaje@dtu.dk",
+            "name": "Timothy P. Jenkins",
+            "orcidid": "https://orcid.org/0000-0003-2979-5663",
+            "typeRole": [
+                "Support"
+            ]
+        }
+    ],
+    "description": "InstaNovo is a transformer neural network with the ability to translate fragment ion peaks into the sequence of amino acids that make up the studied peptide(s).",
+    "documentation": [
+        {
+            "type": [
+                "API documentation"
+            ],
+            "url": "https://instadeepai.github.io/InstaNovo/API/summary/"
+        },
+        {
+            "type": [
+                "Citation instructions"
+            ],
+            "url": "https://instadeepai.github.io/InstaNovo/citation/"
+        },
+        {
+            "type": [
+                "Command-line options"
+            ],
+            "url": "https://instadeepai.github.io/InstaNovo/reference/cli/"
+        },
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://instadeepai.github.io/InstaNovo/"
+        },
+        {
+            "type": [
+                "Installation instructions"
+            ],
+            "url": "https://instadeepai.github.io/InstaNovo/tutorials/getting_started/#installation"
+        },
+        {
+            "type": [
+                "Quick start guide"
+            ],
+            "url": "https://instadeepai.github.io/InstaNovo/tutorials/getting_started/"
+        }
+    ],
+    "download": [
+        {
+            "type": "Source code",
+            "url": "https://github.com/instadeepai/InstaNovo/releases/tag/1.2.2",
+            "version": "1.1.2"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "function": [
+        {
+            "cmd": "instanovo predict --data-path /path/to/your/spectra.mgf --output-path predictions.csv",
+            "input": [
+                {
+                    "data": {
+                        "term": "Mass spectrum",
+                        "uri": "http://edamontology.org/data_0943"
+                    },
+                    "format": [
+                        {
+                            "term": "MGF",
+                            "uri": "http://edamontology.org/format_3651"
+                        },
+                        {
+                            "term": "mzML",
+                            "uri": "http://edamontology.org/format_3244"
+                        },
+                        {
+                            "term": "mzXML",
+                            "uri": "http://edamontology.org/format_3654"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "de Novo sequencing",
+                    "uri": "http://edamontology.org/operation_3644"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Protein sequence record",
+                        "uri": "http://edamontology.org/data_2886"
+                    },
+                    "format": [
+                        {
+                            "term": "CSV",
+                            "uri": "http://edamontology.org/format_3752"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/instadeepai/instanovo",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2025-12-09T21:41:17.117080Z",
+    "license": "Apache-2.0",
+    "link": [
+        {
+            "type": [
+                "Discussion forum"
+            ],
+            "url": "https://github.com/instadeepai/InstaNovo/discussions"
+        },
+        {
+            "type": [
+                "Issue tracker"
+            ],
+            "url": "https://github.com/instadeepai/InstaNovo/issues"
+        },
+        {
+            "type": [
+                "Other"
+            ],
+            "url": "https://instanovo.ai/"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/instadeepai/instanovo"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "InstaNovo",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "BioGeek",
+    "publication": [
+        {
+            "doi": "10.1038/s42256-025-01019-5",
+            "metadata": {
+                "citationCount": 7,
+                "date": "2025-04-01T00:00:00Z",
+                "journal": "Nature Machine Intelligence",
+                "title": "InstaNovo enables diffusion-powered de novo peptide sequencing in large-scale proteomics experiments"
+            },
+            "type": [
+                "Primary"
+            ],
+            "version": "1.1.4"
+        }
+    ],
+    "relation": [
+        {
+            "biotoolsID": "matchms",
+            "type": "uses"
+        },
+        {
+            "biotoolsID": "pyteomics",
+            "type": "uses"
+        },
+        {
+            "biotoolsID": "spectrum_utils",
+            "type": "uses"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Machine learning",
+            "uri": "http://edamontology.org/topic_3474"
+        },
+        {
+            "term": "Proteins",
+            "uri": "http://edamontology.org/topic_0078"
+        },
+        {
+            "term": "Proteomics",
+            "uri": "http://edamontology.org/topic_0121"
+        },
+        {
+            "term": "Proteomics experiment",
+            "uri": "http://edamontology.org/topic_3520"
+        }
+    ],
+    "version": [
+        "1.2.2"
+    ]
+}

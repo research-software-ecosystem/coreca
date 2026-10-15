@@ -1,0 +1,85 @@
+{
+    "Archs": "x64",
+    "Author": "Vivek Bhardwaj [aut, cre]",
+    "BugReports": "https://github.com/vivekbhr/icetea/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.0)"
+    ],
+    "Description": "icetea (Integrating Cap Enrichment with Transcript Expression Analysis) provides functions for end-to-end analysis of multiple 5'-profiling methods such as CAGE, RAMPAGE and MAPCap, beginning from raw reads to detection of transcription start sites using replicates. It also allows performing differential TSS detection between group of samples, therefore, integrating the mRNA cap enrichment information with transcript expression analysis.",
+    "Imports": [
+        "BiocGenerics",
+        "BiocParallel",
+        "Biostrings",
+        "DESeq2",
+        "GenomicAlignments",
+        "GenomicFeatures",
+        "GenomicRanges",
+        "IRanges",
+        "Rsamtools",
+        "S4Vectors",
+        "ShortRead",
+        "SummarizedExperiment",
+        "TxDb.Dmelanogaster.UCSC.dm6.ensGene",
+        "VariantAnnotation",
+        "csaw",
+        "edgeR",
+        "ggplot2",
+        "grDevices",
+        "graphics",
+        "limma",
+        "methods",
+        "rtracklayer",
+        "stats",
+        "utils"
+    ],
+    "License": "GPL-3 + file LICENSE",
+    "MD5sum": "a788fcc24bdc85a590e38360b2fea59c",
+    "Maintainer": "Vivek Bhardwaj <v.bhardwaj@hubrecht.eu>",
+    "NeedsCompilation": "no",
+    "Package": "icetea",
+    "Rank": 1064,
+    "Rfiles": [
+        "vignettes/icetea/inst/doc/mapcap_analysis.R"
+    ],
+    "Suggests": [
+        "GenomeInfoDb",
+        "Rsubread (>= 1.29.0)",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Integrating Cap Enrichment with Transcript Expression Analysis",
+    "URL": "https://github.com/vivekbhr/icetea",
+    "Version": "1.30.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DifferentialExpression",
+        "GeneExpression",
+        "ImmunoOncology",
+        "RNASeq",
+        "Sequencing",
+        "Software",
+        "Transcription",
+        "Transcriptomics"
+    ],
+    "dependencyCount": "106",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "0845793",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/icetea",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/icetea_1.30.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/icetea_1.30.0.tgz",
+    "source.ver": "src/contrib/icetea_1.30.0.tar.gz",
+    "vignetteTitles": [
+        "Analysing transcript 5'-profiling data using icetea"
+    ],
+    "vignettes": [
+        "vignettes/icetea/inst/doc/mapcap_analysis.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/icetea_1.30.0.zip"
+}

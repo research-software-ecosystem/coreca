@@ -1,0 +1,294 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:abcpred/web/webs.iiitd.edu.in",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 775,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 6,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 23,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 23,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 51,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 68,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 71,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 87,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 91,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 105,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 112,
+                                    "year": 2022
+                                }
+                            ],
+                            "doi": "10.1002/prot.21078",
+                            "pmid": "16894596",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Prediction of continuous B-cell epitopes in an antigen using recurrent neural network.",
+                            "year": 2006
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://webs.iiitd.edu.in/raghava/abcpred/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:abcpred/web/crdd.osdd.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 775,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 6,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 23,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 23,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 51,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 68,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 71,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 87,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 91,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 105,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 112,
+                                    "year": 2022
+                                }
+                            ],
+                            "doi": "10.1002/prot.21078",
+                            "pmid": "16894596",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Prediction of continuous B-cell epitopes in an antigen using recurrent neural network.",
+                            "year": 2006
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/abcpred",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://webs.iiitd.edu.in/raghava/abcpred/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,25 @@
+package: bandage
+distribution: debian
+release: sid
+component: main
+version: 0.9.0
+source: bandage
+homepage: https://rrwick.github.io/Bandage
+license: unknown
+blend: debian-med
+description_md5: 9af951ab68be41713a64aa1da15f4934
+registries:
+- entry: OMICS_09013
+  name: OMICtools
+- entry: bandage
+  name: bio.tools
+- entry: bandage
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btv383
+popcon:
+- insts: 113
+  olde: 86
+  recent: 23
+  vote: 4

@@ -1,0 +1,25 @@
+package: lagan
+distribution: debian
+release: sid
+component: main
+version: '2.0'
+source: lagan
+homepage: http://lagan.stanford.edu/lagan_web/index.shtml
+license: unknown
+blend: debian-med
+description_md5: 710bdad90a9a05831e9f802a498646b7
+registries:
+- entry: OMICS_08469
+  name: OMICtools
+- entry: SCR_008558
+  name: SciCrunch
+- entry: LAGAN
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1101/gr.926603
+popcon:
+- insts: 193
+  olde: 158
+  recent: 26
+  vote: 9

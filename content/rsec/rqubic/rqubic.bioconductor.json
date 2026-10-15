@@ -1,0 +1,47 @@
+{
+    "Author": "Jitao David Zhang [aut, cre, ctb] (ORCID: <https://orcid.org/0000-0002-3085-0909>)",
+    "Date/Publication": "2025-10-30",
+    "Description": "This package implements the QUBIC algorithm introduced by Li et al. for the qualitative biclustering with gene expression data.",
+    "Imports": [
+        "Biobase",
+        "BiocGenerics",
+        "biclust",
+        "methods"
+    ],
+    "License": "GPL-2",
+    "MD5sum": "347697989b25addd1ac58bdf7b9f481f",
+    "Maintainer": "Jitao David Zhang <jitao_david.zhang@roche.com>",
+    "NeedsCompilation": "yes",
+    "Package": "rqubic",
+    "Rank": 1771,
+    "Rfiles": [
+        "vignettes/rqubic/inst/doc/rqubic.R"
+    ],
+    "Suggests": [
+        "RColorBrewer"
+    ],
+    "Title": "Qualitative biclustering algorithm for expression data analysis in R",
+    "Version": "1.57.0",
+    "biocViews": [
+        "Clustering",
+        "Software"
+    ],
+    "dependencyCount": "8",
+    "git_branch": "devel",
+    "git_last_commit": "06f9692",
+    "git_last_commit_date": "2025-10-29",
+    "git_url": "https://git.bioconductor.org/packages/rqubic",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/rqubic_1.57.0.tgz",
+    "source.ver": "src/contrib/rqubic_1.57.0.tar.gz",
+    "vignetteTitles": [
+        "Qualitative Biclustering with Bioconductor Package rqubic"
+    ],
+    "vignettes": [
+        "vignettes/rqubic/inst/doc/rqubic.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/rqubic_1.57.0.zip"
+}

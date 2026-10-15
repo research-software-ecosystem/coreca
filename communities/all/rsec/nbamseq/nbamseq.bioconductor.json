@@ -1,0 +1,65 @@
+{
+    "Author": "Xu Ren [aut, cre], Pei Fen Kuan [aut]",
+    "BugReports": "https://github.com/reese3928/NBAMSeq/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.6)",
+        "S4Vectors",
+        "SummarizedExperiment"
+    ],
+    "Description": "High-throughput sequencing experiments followed by differential expression analysis is a widely used approach to detect genomic biomarkers. A fundamental step in differential expression analysis is to model the association between gene counts and covariates of interest. NBAMSeq a flexible statistical model based on the generalized additive model and allows for information sharing across genes in variance estimation.",
+    "Imports": [
+        "BiocParallel",
+        "DESeq2",
+        "genefilter",
+        "methods",
+        "mgcv(>= 1.8-24)",
+        "stats"
+    ],
+    "License": "GPL-2",
+    "MD5sum": "ad35afb10f423c89b03341a8c936c3e9",
+    "Maintainer": "Xu Ren <xuren2120@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "NBAMSeq",
+    "Rank": 1634,
+    "Rfiles": [
+        "vignettes/NBAMSeq/inst/doc/NBAMSeq-vignette.R"
+    ],
+    "Suggests": [
+        "ggplot2",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Negative Binomial Additive Model for RNA-Seq Data",
+    "URL": "https://github.com/reese3928/NBAMSeq",
+    "Version": "1.28.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Coverage",
+        "DifferentialExpression",
+        "GeneExpression",
+        "RNASeq",
+        "Sequencing",
+        "Software"
+    ],
+    "dependencyCount": "84",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "7526963",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/NBAMSeq",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/NBAMSeq_1.28.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/NBAMSeq_1.28.0.tgz",
+    "source.ver": "src/contrib/NBAMSeq_1.28.0.tar.gz",
+    "vignetteTitles": [
+        "Negative Binomial Additive Model for RNA-Seq Data"
+    ],
+    "vignettes": [
+        "vignettes/NBAMSeq/inst/doc/NBAMSeq-vignette.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/NBAMSeq_1.28.0.zip"
+}

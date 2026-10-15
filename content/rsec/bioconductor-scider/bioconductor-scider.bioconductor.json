@@ -1,0 +1,86 @@
+{
+    "Author": "Mengbo Li, Ning Liu, Quoc Hoang Nguyen, Yunshun Chen",
+    "BugReports": "https://github.com/ChenLaboratory/scider/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.3)"
+    ],
+    "Description": "scider is an user-friendly R package providing functions to model the global density of cells in a slide of spatial transcriptomics data. All functions in the package are built based on the SpatialExperiment object, allowing integration into various spatial transcriptomics-related packages from Bioconductor. After modelling density, the package allows for several downstream analysis, including colocalization analysis, boundary detection analysis and differential density analysis.",
+    "Imports": [
+        "BiocNeighbors",
+        "DropletUtils",
+        "Matrix",
+        "RBioFormats",
+        "S4Vectors",
+        "SingleCellExperiment",
+        "SpatialExperiment",
+        "SpatialPack",
+        "SummarizedExperiment",
+        "arrow",
+        "dbscan",
+        "ggplot2",
+        "grDevices",
+        "hexDensity",
+        "hexbin",
+        "igraph",
+        "irlba",
+        "isoband",
+        "janitor",
+        "knitr",
+        "lwgeom",
+        "methods",
+        "pheatmap",
+        "plotly",
+        "sf",
+        "shiny",
+        "spatstat.explore",
+        "spatstat.geom",
+        "stats",
+        "utils",
+        "uwot"
+    ],
+    "License": "GPL-3 + file LICENSE",
+    "MD5sum": "1344a174d2a3edeb5a2d2d509dc0a44b",
+    "Maintainer": "Yunshun Chen <yuchen@wehi.edu.au>",
+    "NeedsCompilation": "yes",
+    "Package": "scider",
+    "Rank": 1903,
+    "Rfiles": [
+        "vignettes/scider/inst/doc/scider_userGuide.R"
+    ],
+    "Suggests": [
+        "edgeR",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "Spatial cell-type inter-correlation by density in R",
+    "URL": "https://github.com/ChenLaboratory/scider, https://chenlaboratory.github.io/scider/",
+    "Version": "1.10.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Software",
+        "Spatial",
+        "Transcriptomics"
+    ],
+    "dependencyCount": "190",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "d0a091a",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/scider",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "OSTA"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/scider_1.9.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/scider_1.9.0.tgz",
+    "source.ver": "src/contrib/scider_1.10.0.tar.gz",
+    "vignetteTitles": [
+        "scider_introduction"
+    ],
+    "vignettes": [
+        "vignettes/scider/inst/doc/scider_userGuide.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/scider_1.10.0.zip"
+}

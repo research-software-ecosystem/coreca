@@ -1,0 +1,39 @@
+about:
+  dev_url: https://github.com/daler/gffutils
+  doc_url: http://daler.github.io/gffutils/
+  home: https://github.com/daler/gffutils
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Work with GFF and GTF files in a flexible database framework
+build:
+  noarch: python
+  number: 0
+  run_exports:
+  - null
+  script: ' -m pip install . --ignore-installed --no-deps -vv'
+extra:
+  identifiers:
+  - biotools:GFFutils
+package:
+  name: gffutils
+  version: '0.14'
+requirements:
+  host:
+  - pip
+  - python
+  - setuptools
+  run:
+  - argcomplete >=1.9.4
+  - argh >=0.26.2
+  - pyfaidx >=0.5.5.2
+  - python
+  - simplejson
+source:
+  sha256: 0246a16373453a5a1faf6696553557f2ebf49b2f91a7730cb59d46b5cbd1d9b1
+  url: https://pypi.io/packages/source/g/gffutils/gffutils-0.14.tar.gz
+test:
+  commands:
+  - gffutils-cli -h
+  imports:
+  - gffutils

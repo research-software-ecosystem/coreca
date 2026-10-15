@@ -1,0 +1,69 @@
+{
+    "Archs": "x64",
+    "Author": "Koki Tsuyuzaki, Itoshi Nikaido, Gota Morota",
+    "BugReports": "https://github.com/rikenbit/meshr/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.1.0)"
+    ],
+    "Description": "A set of annotation maps describing the entire MeSH assembled using data from MeSH.",
+    "Imports": [
+        "BiocGenerics",
+        "BiocStyle",
+        "Category",
+        "MeSHDbi",
+        "RSQLite",
+        "S4Vectors",
+        "fdrtool",
+        "knitr",
+        "markdown",
+        "methods",
+        "rmarkdown",
+        "stats",
+        "utils"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "422e766d809f256f413eb89bce289105",
+    "Maintainer": "Koki Tsuyuzaki <k.t.the-answer@hotmail.co.jp>",
+    "NeedsCompilation": "no",
+    "Package": "meshr",
+    "Rank": 631,
+    "Rfiles": [
+        "vignettes/meshr/inst/doc/MeSH.R"
+    ],
+    "Title": "Tools for conducting enrichment analysis of MeSH",
+    "Version": "2.18.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Annotation",
+        "AnnotationData",
+        "Bioinformatics",
+        "FunctionalAnnotation",
+        "MeSHDb",
+        "MultipleComparisons",
+        "Software",
+        "Statistics"
+    ],
+    "dependencyCount": "82",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "7ef94bf",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/meshr",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "scTensor"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/meshr_2.18.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/meshr_2.18.0.tgz",
+    "source.ver": "src/contrib/meshr_2.18.0.tar.gz",
+    "vignetteTitles": [
+        "AnnotationHub-style MeSH ORA Framework from BioC 3.14"
+    ],
+    "vignettes": [
+        "vignettes/meshr/inst/doc/MeSH.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/meshr_2.18.0.zip"
+}

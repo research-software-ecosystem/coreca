@@ -1,0 +1,287 @@
+{
+    "Description": "PRINSEQ is a tool for easy and rapid quality control and data processing of metagenomic and metatranscriptomic datasets",
+    "EDAM_operations": [
+        "Read pre-processing",
+        "Sequence trimming",
+        "Sequence contamination filtering"
+    ],
+    "EDAM_reduced_operations": [
+        "Read pre-processing",
+        "Sequence trimming",
+        "Sequence contamination filtering"
+    ],
+    "EDAM_reduced_topics": [
+        "Transcriptomics",
+        "Metagenomics"
+    ],
+    "EDAM_topics": [
+        "Transcriptomics",
+        "Metagenomics",
+        "Genomics"
+    ],
+    "Homepage": "http://prinseq.sourceforge.net/manual.html",
+    "Latest_suite_conda_package_version": "0.20.4",
+    "Number_of_tools_on_ChemFlow": 0,
+    "Number_of_tools_on_Coloc-stats": 0,
+    "Number_of_tools_on_GASLINI": 0,
+    "Number_of_tools_on_Galaxy@AuBi": 1,
+    "Number_of_tools_on_Galaxy@Pasteur": 0,
+    "Number_of_tools_on_GalaxyTrakr": 1,
+    "Number_of_tools_on_HyPhy_HIV_NGS_Tools": 0,
+    "Number_of_tools_on_IPK_Galaxy_Blast_Suite": 0,
+    "Number_of_tools_on_ImmPort_Galaxy": 0,
+    "Number_of_tools_on_InteractoMIX": 0,
+    "Number_of_tools_on_Lebanese_University_Galaxy": 0,
+    "Number_of_tools_on_MBAC_Metabiome_Portal": 0,
+    "Number_of_tools_on_Mandoiu_Lab": 0,
+    "Number_of_tools_on_Oqtans": 1,
+    "Number_of_tools_on_Palfinder": 0,
+    "Number_of_tools_on_PepSimili": 0,
+    "Number_of_tools_on_PhagePromotor": 0,
+    "Number_of_tools_on_UseGalaxy.be": 1,
+    "Number_of_tools_on_UseGalaxy.ca": 1,
+    "Number_of_tools_on_UseGalaxy.cz": 1,
+    "Number_of_tools_on_UseGalaxy.eu": 1,
+    "Number_of_tools_on_UseGalaxy.fr": 1,
+    "Number_of_tools_on_UseGalaxy.no": 1,
+    "Number_of_tools_on_UseGalaxy.org.au": 0,
+    "Number_of_tools_on_UseGalaxy.org_(Main)": 1,
+    "Number_of_tools_on_Viral_Variant_Visualizer_(VVV)": 0,
+    "Related_Tutorials": [
+        "https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/mgnify-amplicon/tutorial.html"
+    ],
+    "Related_Workflows": [
+        {
+            "create_time": "2025-08-11",
+            "latest_version": "1",
+            "link": "https://workflowhub.eu/workflows/1854?version=1",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control PE"
+        },
+        {
+            "create_time": "2025-08-11",
+            "latest_version": "1",
+            "link": "https://workflowhub.eu/workflows/1850?version=1",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control SE"
+        },
+        {
+            "create_time": "2026-09-22",
+            "latest_version": "7",
+            "link": "https://workflowhub.eu/workflows/1272?version=7",
+            "name": "mgnify-amplicon-pipeline-v5-quality-control-paired-end/main"
+        },
+        {
+            "create_time": "2026-09-09",
+            "latest_version": "7",
+            "link": "https://workflowhub.eu/workflows/1271?version=7",
+            "name": "mgnify-amplicon-pipeline-v5-quality-control-single-end/main"
+        },
+        {
+            "create_time": "2026-09-17",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=327d0d9e9779522c",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control SE (release v0.7)"
+        },
+        {
+            "create_time": "2026-09-10",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=065b7ac421e66c80",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control SE (release v0.6)"
+        },
+        {
+            "create_time": "2026-09-10",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=9e98ead6c96fb981",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control PE (release v0.7)"
+        },
+        {
+            "create_time": "2026-08-27",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=798e0f3903fa6790",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control PE (release v0.6)"
+        },
+        {
+            "create_time": "2026-08-27",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=d545efa5023ffc67",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control SE (release v0.5)"
+        },
+        {
+            "create_time": "2026-08-06",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=9fe63e95e69e0fe0",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control SE (release v0.4)"
+        },
+        {
+            "create_time": "2026-08-06",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=3940075faf6b880e",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control PE (release v0.5)"
+        },
+        {
+            "create_time": "2026-07-16",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=846fa28b246c0a82",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control PE (release v0.4)"
+        },
+        {
+            "create_time": "2025-02-06",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=0609a4b1941d1a68",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control PE (release v0.1)"
+        },
+        {
+            "create_time": "2025-02-06",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=d6ff6be33b8bfe85",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control SE (release v0.1)"
+        },
+        {
+            "create_time": "2025-02-27",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=76e9cd837ea5e7da",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control SE (release v0.2)"
+        },
+        {
+            "create_time": "2025-03-13",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=9fddc44294236e8f",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control PE (release v0.2)"
+        },
+        {
+            "create_time": "2025-03-13",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=da19c0eaa757fa39",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control SE (release v0.3)"
+        },
+        {
+            "create_time": "2023-12-13",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=8f415b0c409f56f7",
+            "name": "MGnify amplicon QC"
+        },
+        {
+            "create_time": "2026-09-24",
+            "latest_version": "1",
+            "link": "https://usegalaxy.org/published/workflow?id=e06d4e19e3b9bd7f",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control PE (release v0.9)"
+        },
+        {
+            "create_time": "2026-09-17",
+            "latest_version": "1",
+            "link": "https://usegalaxy.org/published/workflow?id=268d25d3fe983ca7",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control PE (release v0.7)"
+        },
+        {
+            "create_time": "2026-09-17",
+            "latest_version": "1",
+            "link": "https://usegalaxy.org/published/workflow?id=e6a955926f3334f6",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control SE (release v0.6)"
+        },
+        {
+            "create_time": "2026-09-17",
+            "latest_version": "1",
+            "link": "https://usegalaxy.org/published/workflow?id=a6d8a07c0a37c867",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control SE (release v0.7)"
+        },
+        {
+            "create_time": "2026-08-27",
+            "latest_version": "1",
+            "link": "https://usegalaxy.org/published/workflow?id=26bc174b11478214",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control PE (release v0.6)"
+        },
+        {
+            "create_time": "2026-08-27",
+            "latest_version": "1",
+            "link": "https://usegalaxy.org/published/workflow?id=494917f7700729ed",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control SE (release v0.5)"
+        },
+        {
+            "create_time": "2026-08-06",
+            "latest_version": "1",
+            "link": "https://usegalaxy.org/published/workflow?id=d2a2b4d78e216c06",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control SE (release v0.4)"
+        },
+        {
+            "create_time": "2026-08-06",
+            "latest_version": "1",
+            "link": "https://usegalaxy.org/published/workflow?id=61e256ab111e5095",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control PE (release v0.5)"
+        },
+        {
+            "create_time": "2026-07-16",
+            "latest_version": "1",
+            "link": "https://usegalaxy.org/published/workflow?id=02d3d00ddf34903b",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control PE (release v0.4)"
+        },
+        {
+            "create_time": "2025-02-06",
+            "latest_version": "1",
+            "link": "https://usegalaxy.org/published/workflow?id=a71fcbc60caae8b6",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control PE (release v0.1)"
+        },
+        {
+            "create_time": "2025-02-06",
+            "latest_version": "1",
+            "link": "https://usegalaxy.org/published/workflow?id=5f878c4cc3bff68c",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control SE (release v0.1)"
+        },
+        {
+            "create_time": "2025-03-06",
+            "latest_version": "1",
+            "link": "https://usegalaxy.org/published/workflow?id=afb67b4b9952f57d",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control SE (release v0.2)"
+        },
+        {
+            "create_time": "2025-03-13",
+            "latest_version": "1",
+            "link": "https://usegalaxy.org/published/workflow?id=20b7ae4b517a80fd",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control PE (release v0.2)"
+        },
+        {
+            "create_time": "2025-03-13",
+            "latest_version": "1",
+            "link": "https://usegalaxy.org/published/workflow?id=46f184a0e95f3c1c",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control SE (release v0.3)"
+        }
+    ],
+    "Suite_ID": "prinseq",
+    "Suite_conda_package": "prinseq",
+    "Suite_first_commit_date": "2016-05-30",
+    "Suite_owner": "iuc",
+    "Suite_parsed_folder": "https://github.com/galaxyproject/tools-iuc/tree/master/tools/prinseq",
+    "Suite_runs_(last_5_years)_(usegalaxy.eu)": 15643,
+    "Suite_runs_(last_5_years)_(usegalaxy.fr)": 17,
+    "Suite_runs_(last_5_years)_(usegalaxy.org)": 10523,
+    "Suite_runs_(last_5_years)_(usegalaxy.org.au)": 0,
+    "Suite_runs_(last_5_years)_on_main_servers": 26183,
+    "Suite_runs_(usegalaxy.eu)": 16651,
+    "Suite_runs_(usegalaxy.fr)": 17,
+    "Suite_runs_(usegalaxy.org)": 12474,
+    "Suite_runs_(usegalaxy.org.au)": 0,
+    "Suite_runs_on_main_servers": 29142,
+    "Suite_source": "https://github.com/galaxyproject/tools-iuc/tree/main/tools/prinseq",
+    "Suite_users_(last_5_years)_(usegalaxy.eu)": 345,
+    "Suite_users_(last_5_years)_(usegalaxy.fr)": 11,
+    "Suite_users_(last_5_years)_(usegalaxy.org)": 1317,
+    "Suite_users_(last_5_years)_(usegalaxy.org.au)": 0,
+    "Suite_users_(last_5_years)_on_main_servers": 1673,
+    "Suite_users_(usegalaxy.eu)": 412,
+    "Suite_users_(usegalaxy.fr)": 11,
+    "Suite_users_(usegalaxy.org)": 1501,
+    "Suite_users_(usegalaxy.org.au)": 0,
+    "Suite_users_on_main_servers": 1924,
+    "Suite_version": "@TOOL_VERSION",
+    "Suite_version_status": "To update",
+    "ToolShed_categories": [
+        "Fastq Manipulation",
+        "Metagenomics"
+    ],
+    "Tool_IDs": [
+        "prinseq"
+    ],
+    "Tool_output_formats": [],
+    "biii_ID": null,
+    "bio.tool_ID": "prinseq",
+    "bio.tool_description": "PRINSEQ is a sequence processing tool that can be used to filter, reformat and trim genomic and metagenomic sequence data. It generates summary statistics of the input in graphical and tabular formats that can be used for quality control steps. PRINSEQ is available as both standalone and web-based versions.",
+    "bio.tool_name": "PRINSEQ"
+}

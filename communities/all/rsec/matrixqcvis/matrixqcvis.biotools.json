@@ -1,0 +1,155 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2021-11-06T22:47:59.994136Z",
+    "biotoolsCURIE": "biotools:matrixqcvis",
+    "biotoolsID": "matrixqcvis",
+    "confidence_flag": "tool",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "name": "Wolfgang Huber"
+        },
+        {
+            "name": "Thomas Naake",
+            "orcidid": "https://orcid.org/0000-0001-7917-5580"
+        }
+    ],
+    "description": "shiny-based interactive data quality exploration for omics data.",
+    "documentation": [
+        {
+            "type": [
+                "API documentation"
+            ],
+            "url": "https://bioconductor.org/packages/release/bioc/manuals/MatrixQCvis/man/MatrixQCvis.pdf"
+        },
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "https://bioconductor.org/packages/release/bioc/vignettes/MatrixQCvis/inst/doc/MatrixQCvis.html"
+        }
+    ],
+    "download": [
+        {
+            "type": "Software package",
+            "url": "https://bioconda.github.io/recipes/bioconductor-matrixqcvis/README.html"
+        },
+        {
+            "type": "Source code",
+            "url": "https://github.com/tnaake/MatrixQCvis/"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "recetox-specdatri"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Count matrix",
+                        "uri": "http://edamontology.org/data_3917"
+                    },
+                    "format": [
+                        {
+                            "term": "DSV",
+                            "uri": "http://edamontology.org/format_3751"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Expression analysis",
+                    "uri": "http://edamontology.org/operation_2495"
+                },
+                {
+                    "term": "Quantification",
+                    "uri": "http://edamontology.org/operation_3799"
+                },
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Plot",
+                        "uri": "http://edamontology.org/data_2884"
+                    },
+                    "format": [
+                        {
+                            "term": "Image format",
+                            "uri": "http://edamontology.org/format_3547"
+                        }
+                    ]
+                },
+                {
+                    "data": {
+                        "term": "Quality control report",
+                        "uri": "http://edamontology.org/data_3914"
+                    },
+                    "format": [
+                        {
+                            "term": "Image format",
+                            "uri": "http://edamontology.org/format_3547"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "https://www.bioconductor.org/packages/release/bioc/html/MatrixQCvis.html",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2025-11-05T07:03:25.084499Z",
+    "license": "GPL-3.0",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://www.bioconductor.org/packages/release/bioc/html/MatrixQCvis.html"
+        }
+    ],
+    "name": "MatrixQCvis",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "Jennifer",
+    "publication": [
+        {
+            "doi": "10.1101/2021.06.17.448827"
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Metabolomics",
+            "uri": "http://edamontology.org/topic_3172"
+        },
+        {
+            "term": "Proteomics",
+            "uri": "http://edamontology.org/topic_0121"
+        },
+        {
+            "term": "Transcriptomics",
+            "uri": "http://edamontology.org/topic_3308"
+        },
+        {
+            "term": "Workflows",
+            "uri": "http://edamontology.org/topic_0769"
+        }
+    ],
+    "validated": 1
+}

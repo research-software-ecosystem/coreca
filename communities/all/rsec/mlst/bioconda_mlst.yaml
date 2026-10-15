@@ -1,0 +1,38 @@
+about:
+  home: https://github.com/tseemann/mlst
+  license: GPL-2.0
+  license_family: GPL
+  license_file: LICENSE
+  summary: Scan contig files against PubMLST typing schemes
+build:
+  noarch: generic
+  number: 0
+  run_exports:
+  - null
+extra:
+  identifiers:
+  - biotools:mlst
+package:
+  name: mlst
+  version: 2.35.0
+requirements:
+  run:
+  - any2fasta
+  - blast >=2.16.0
+  - libxcrypt1
+  - perl
+  - perl-bioperl >=1.7.2
+  - perl-file-which
+  - perl-json
+  - perl-list-moreutils
+  - perl-moo
+  - zlib
+source:
+  sha256: 9f1291ed02494b7a862e0d56d8f501f500d7a4a207fe4244962b743df1c3dcc4
+  url: https://github.com/tseemann/mlst/archive/v2.35.0.tar.gz
+test:
+  commands:
+  - mlst --version
+  - mlst --check
+  - mlst --help
+  - mlst --list 2>&1 | grep leptospira > /dev/null

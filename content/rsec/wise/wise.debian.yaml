@@ -1,0 +1,34 @@
+package: wise
+distribution: debian
+release: sid
+component: main
+version: 2.4.1
+source: wise
+homepage: https://www.ebi.ac.uk/~birney/wise2/
+license: unknown
+blend: debian-med
+description_md5: 05a1cea55c0eba36881cfc9891c0d3b1
+registries:
+- entry: OMICS_11233
+  name: OMICtools
+- entry: Wise
+  name: bio.tools
+- entry: wise2
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1101/gr.1865504
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::comparing
+- tag: works-with::TODO
+popcon:
+- insts: 256
+  olde: 219
+  recent: 26
+  vote: 11

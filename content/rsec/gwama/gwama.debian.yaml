@@ -1,0 +1,30 @@
+package: gwama
+distribution: debian
+release: sid
+component: main
+version: 2.2.2
+source: gwama
+homepage: https://genomics.ut.ee/en/tools
+license: unknown
+blend: debian-med
+description_md5: db863b4b12508d1f49402a76e1c5de8f
+registries:
+- entry: OMICS_00235
+  name: OMICtools
+- entry: SCR_006624
+  name: SciCrunch
+- entry: GWAMA
+  name: bio.tools
+- entry: gwama
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/1471-2105-11-288
+- key: doi
+  rank: 1
+  value: 10.1002/gepi.20540
+popcon:
+- insts: 115
+  olde: 88
+  recent: 23
+  vote: 4

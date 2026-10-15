@@ -1,0 +1,39 @@
+about:
+  dev_url: https://github.com/somme89/rapidNJ
+  doc_url: https://github.com/somme89/rapidNJ/blob/master/README
+  home: https://birc.au.dk/software/rapidnj
+  license: GPL-2.0-only
+  license_family: GPL
+  license_file: LICENSE
+  summary: RapidNJ is an algorithmic engineered implementation of canonical neighbour-joining.
+    It uses an efficient search heuristic to speed-up the core computations of the
+    neighbour-joining method that enables RapidNJ to outperform other state-of-the-art
+    neighbour-joining implementations.
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - doi:10.1007/978-3-540-87361-7_10
+  - biotools:rapidnj
+  skip-lints:
+  - compiler_needs_stdlib_c
+package:
+  name: rapidnj
+  version: 2.3.3
+requirements:
+  build:
+  - make
+  - null
+source:
+  patches:
+  - 0001-Makefile.patch
+  sha256: 57ea662a3589459528beaa96de011bd1b389630484d9e3215a942bdb19518f21
+  url: https://github.com/somme89/rapidNJ/archive/ed2d36e219d9db16778b941b5054c0fd021b528a.tar.gz
+test:
+  commands:
+  - rapidnj -h 2>&1 | grep "neighbour-joining"

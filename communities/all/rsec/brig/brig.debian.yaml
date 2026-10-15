@@ -1,0 +1,25 @@
+package: brig
+distribution: debian
+release: sid
+component: main
+version: '0.95'
+source: brig
+homepage: http://sourceforge.net/projects/brig/
+license: unknown
+blend: debian-med
+description_md5: 321f9b5456dd4ba31ba9deafce380718
+registries:
+- entry: OMICS_00929
+  name: OMICtools
+- entry: SCR_007802
+  name: SciCrunch
+- entry: brig
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1186/1471-2164-12-402
+popcon:
+- insts: 112
+  olde: 85
+  recent: 23
+  vote: 4

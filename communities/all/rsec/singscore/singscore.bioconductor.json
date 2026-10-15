@@ -1,0 +1,90 @@
+{
+    "Archs": "x64",
+    "Author": "Dharmesh D. Bhuva [aut] (ORCID: <https://orcid.org/0000-0002-6398-9157>), Ruqian Lyu [aut, ctb], Momeneh Foroutan [aut, ctb] (ORCID: <https://orcid.org/0000-0002-1440-0457>), Malvika Kharbanda [aut, cre] (ORCID: <https://orcid.org/0000-0001-9726-3023>)",
+    "BugReports": "https://github.com/DavisLaboratory/singscore/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.6)"
+    ],
+    "Description": "A simple single-sample gene signature scoring method that uses rank-based statistics to analyze the sample's gene expression profile. It scores the expression activities of gene sets at a single-sample level.",
+    "Imports": [
+        "Biobase",
+        "BiocParallel",
+        "GSEABase",
+        "RColorBrewer",
+        "S4Vectors",
+        "SummarizedExperiment",
+        "edgeR",
+        "ggplot2",
+        "ggrepel",
+        "grDevices",
+        "graphics",
+        "magrittr",
+        "matrixStats",
+        "methods",
+        "plotly",
+        "plyr",
+        "reshape",
+        "reshape2",
+        "stats",
+        "tidyr"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "35529670a8cf97cef113f7718f65b763",
+    "Maintainer": "Malvika Kharbanda <kharbanda.m@wehi.edu.au>",
+    "NeedsCompilation": "no",
+    "Package": "singscore",
+    "Rank": 175,
+    "Rfiles": [
+        "vignettes/singscore/inst/doc/singscore.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "covr",
+        "hexbin",
+        "knitr",
+        "pkgdown",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Rank-based single-sample gene set scoring method",
+    "URL": "https://davislaboratory.github.io/singscore",
+    "Version": "1.32.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "GeneExpression",
+        "GeneSetEnrichment",
+        "Software"
+    ],
+    "dependencyCount": "120",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "120a1f9",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/singscore",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "GSABenchmark",
+        "TBSignatureProfiler",
+        "pathMED",
+        "xCell2"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/singscore_1.32.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/singscore_1.32.0.tgz",
+    "source.ver": "src/contrib/singscore_1.32.0.tar.gz",
+    "suggestsMe": [
+        "clustermole",
+        "mastR",
+        "msigdb",
+        "vissE"
+    ],
+    "vignetteTitles": [
+        "Single sample scoring"
+    ],
+    "vignettes": [
+        "vignettes/singscore/inst/doc/singscore.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/singscore_1.32.0.zip"
+}

@@ -1,0 +1,215 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/prolfquapp",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N47e564a5dfa9430582f7ef215ff0ccd4"
+        },
+        {
+          "@id": "_:N6e8472cb5d7a40c0a635fa511984ccb5"
+        },
+        {
+          "@id": "_:Nbaafb8483f2a4496adf9b03d4e6a0bf3"
+        },
+        {
+          "@id": "_:N6707a63bbf7440a1ac239a8771adafbf"
+        },
+        {
+          "@id": "_:N053c5663024e4580a70d3ffce94566cf"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N41b2bd93d1584a6cb3739d9dc25a4c65"
+        },
+        {
+          "@id": "_:N41ce59c489054fedb540a8c50364fd8d"
+        },
+        {
+          "@id": "_:N2c1e8c58959147bab7420522259476ea"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0121"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1021/acs.jproteome.4c00911"
+      },
+      "sc:description": "A command-line tool for differential expression analysis in quantitative proteomics",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3741"
+        },
+        {
+          "@id": "edam:operation_0571"
+        },
+        {
+          "@id": "edam:operation_2428"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "prolfquapp",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://github.com/prolfqua/prolfquapp/blob/master/README.md"
+      },
+      "sc:softwareVersion": "0.1.6",
+      "sc:url": "https://github.com/prolfqua/prolfquapp"
+    },
+    {
+      "@id": "_:N47e564a5dfa9430582f7ef215ff0ccd4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3475"
+        }
+      ],
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:N6e8472cb5d7a40c0a635fa511984ccb5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nbaafb8483f2a4496adf9b03d4e6a0bf3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3475"
+        }
+      ],
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:N6707a63bbf7440a1ac239a8771adafbf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N053c5663024e4580a70d3ffce94566cf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3620"
+      },
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:N41b2bd93d1584a6cb3739d9dc25a4c65",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3620"
+        }
+      ],
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:N41ce59c489054fedb540a8c50364fd8d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2603"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3508"
+        }
+      ],
+      "sc:name": "Expression data"
+    },
+    {
+      "@id": "_:N2c1e8c58959147bab7420522259476ea",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3914"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Quality control report"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acs.jproteome.4c00911",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

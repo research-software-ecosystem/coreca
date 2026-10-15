@@ -1,0 +1,93 @@
+{
+    "Archs": "x64",
+    "Author": "Martin Morgan [aut], Sean Davis [aut, cre], Marcel Ramos [ctb]",
+    "BugReports": "https://github.com/Bioconductor/GenomicDataCommons/issues/new",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.1.0)"
+    ],
+    "Description": "Programmatically access the NIH / NCI Genomic Data Commons RESTful service.",
+    "Imports": [
+        "GenomicRanges",
+        "IRanges",
+        "dplyr",
+        "httr",
+        "jsonlite",
+        "rappdirs",
+        "readr",
+        "rlang",
+        "stats",
+        "tibble",
+        "tidyr",
+        "utils",
+        "xml2"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "e3e31cca4bcc20811e9068d3fd5e83e2",
+    "Maintainer": "Sean Davis <seandavi@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "GenomicDataCommons",
+    "Rank": 250,
+    "Rfiles": [
+        "vignettes/GenomicDataCommons/inst/doc/overview.R",
+        "vignettes/GenomicDataCommons/inst/doc/questions-and-answers.R",
+        "vignettes/GenomicDataCommons/inst/doc/somatic_mutations.R"
+    ],
+    "Suggests": [
+        "BiocParallel",
+        "BiocStyle",
+        "DT",
+        "GenomicAlignments",
+        "R.utils",
+        "Rsamtools",
+        "TxDb.Hsapiens.UCSC.hg38.knownGene",
+        "VariantAnnotation",
+        "data.table",
+        "ggplot2",
+        "knitr",
+        "listviewer",
+        "maftools",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "NIH / NCI Genomic Data Commons Access",
+    "URL": "https://bioconductor.org/packages/GenomicDataCommons, http://github.com/Bioconductor/GenomicDataCommons, http://bioconductor.github.io/GenomicDataCommons/",
+    "Version": "1.36.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataImport",
+        "Sequencing",
+        "Software"
+    ],
+    "dependencyCount": "51",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "6af3abf",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/GenomicDataCommons",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "GDCRNATools",
+        "TCGAutils"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/GenomicDataCommons_1.36.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/GenomicDataCommons_1.36.0.tgz",
+    "source.ver": "src/contrib/GenomicDataCommons_1.36.0.tar.gz",
+    "suggestsMe": [
+        "autonomics",
+        "imageTCGA"
+    ],
+    "vignetteTitles": [
+        "Introduction to Accessing the NCI Genomic Data Commons",
+        "Questions and answers from over the years",
+        "Somatic Mutation Data"
+    ],
+    "vignettes": [
+        "vignettes/GenomicDataCommons/inst/doc/overview.html",
+        "vignettes/GenomicDataCommons/inst/doc/questions-and-answers.html",
+        "vignettes/GenomicDataCommons/inst/doc/somatic_mutations.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/GenomicDataCommons_1.36.0.zip"
+}

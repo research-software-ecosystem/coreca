@@ -1,0 +1,271 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/nnunet",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N900a68b4560640fbafb14283ddf0b818"
+        },
+        {
+          "@id": "_:N056206ae99ea433a969d45c93712a9f1"
+        },
+        {
+          "@id": "_:N99ff2e995e734fefbe4f89b22a4e3c5b"
+        },
+        {
+          "@id": "_:N10c8c2b36020441a9324fbecea4cc29e"
+        },
+        {
+          "@id": "_:Nf5f7aaf188dc41a3acede216a841fbcd"
+        },
+        {
+          "@id": "_:N367a325b1eae464d96bdcc17fcaeb2e3"
+        },
+        {
+          "@id": "_:N345ad62c946b4fb8a56cf0a5d09fc6d2"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N7412156f38df420485e48e28511443fd"
+        },
+        {
+          "@id": "_:Nf5368299f3e74f5fae13d6b2a6535087"
+        },
+        {
+          "@id": "_:N134664b16dee402b9d2890a2c0bed414"
+        },
+        {
+          "@id": "_:Nc14e62c6056147a3ad687d677d21e975"
+        },
+        {
+          "@id": "_:N4d70b8a26eaf46919277f231020040d8"
+        },
+        {
+          "@id": "_:Nbc47185ed85a4089901bd052e5fff33f"
+        },
+        {
+          "@id": "_:N092b4195f4d94fb0af087b188149e6b5"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Command-line tool",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/s41592-020-01008-z"
+      },
+      "sc:contributor": "DKFZ Heidelberg",
+      "sc:description": "nnU-Net is a self-configuring method for deep learning-based biomedical image segmentation, developed by the Applied Computer Vision Lab (ACVL) of Helmholtz Imaging and the Division of Medical Image Computing at the German Cancer Research Center (DKFZ). It is designed to automatically adapt to a given dataset, analyzing the provided training cases to configure a matching U-Net-based segmentation pipeline without requiring expertise from the user.\nThe tool provides pretrained models for \nPancreas and Pancreas tumor segmentation, Colon cancer primaries segmentation, Abdominal organ segmentation, Liver and liver tumor segmentation, Kidney and kidney tumor segmentation, Brain Tumor segmentation and Hippocampus (MR data) segmentation",
+      "sc:featureList": {
+        "@id": "edam:operation_3553"
+      },
+      "sc:license": "Apache-2.0",
+      "sc:name": "nnUNet",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": "DKFZ Heidelberg",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://github.com/MIC-DKFZ/nnunet-eucaim-docker/"
+        },
+        {
+          "@id": "https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1"
+        }
+      ],
+      "sc:softwareVersion": "1.0",
+      "sc:url": "https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1"
+    },
+    {
+      "@id": "_:N900a68b4560640fbafb14283ddf0b818",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:N056206ae99ea433a969d45c93712a9f1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:N99ff2e995e734fefbe4f89b22a4e3c5b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:N10c8c2b36020441a9324fbecea4cc29e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:Nf5f7aaf188dc41a3acede216a841fbcd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:N367a325b1eae464d96bdcc17fcaeb2e3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:N345ad62c946b4fb8a56cf0a5d09fc6d2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:N7412156f38df420485e48e28511443fd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:Nf5368299f3e74f5fae13d6b2a6535087",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:N134664b16dee402b9d2890a2c0bed414",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:Nc14e62c6056147a3ad687d677d21e975",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:N4d70b8a26eaf46919277f231020040d8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:Nbc47185ed85a4089901bd052e5fff33f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "_:N092b4195f4d94fb0af087b188149e6b5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3424"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3548"
+      },
+      "sc:name": "Raw image"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41592-020-01008-z",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

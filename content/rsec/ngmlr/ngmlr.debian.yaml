@@ -1,0 +1,27 @@
+package: ngmlr
+distribution: debian
+release: sid
+component: main
+version: 0.2.7+git20210816.a2a31fb
+source: ngmlr
+homepage: https://github.com/philres/ngmlr
+license: unknown
+blend: debian-med
+description_md5: 123cfd4d1fd08d8ff1fa4fa20510d1b6
+registries:
+- entry: SCR_017620
+  name: SciCrunch
+- entry: ngmlr
+  name: bio.tools
+- entry: ngmlr
+  name: conda:bioconda
+- entry: ngmlr
+  name: guix
+bib:
+- key: doi
+  value: 10.1038/s41592-018-0001-7
+popcon:
+- insts: 113
+  olde: 86
+  recent: 23
+  vote: 4

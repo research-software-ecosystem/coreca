@@ -1,0 +1,23 @@
+package: vt
+distribution: debian
+release: sid
+component: main
+version: 0.57721+ds
+source: vt
+homepage: https://genome.sph.umich.edu/wiki/Vt
+license: unknown
+blend: debian-med
+description_md5: 64a323ea15dddc144c1570bf0e8f8f87
+registries:
+- entry: vt
+  name: bio.tools
+- entry: vt
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics
+popcon:
+- insts: 120
+  olde: 91
+  recent: 23
+  vote: 6

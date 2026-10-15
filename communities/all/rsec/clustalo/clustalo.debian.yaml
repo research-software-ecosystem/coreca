@@ -1,0 +1,58 @@
+package: clustalo
+distribution: debian
+release: sid
+component: main
+version: 1.2.4
+source: clustalo
+homepage: http://www.clustal.org/omega/
+license: unknown
+blend: debian-med
+description_md5: 9540b24eeb67b4fa0ede8ba6ca470ce9
+topics:
+- Sequence analysis
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - EMBL format
+    - FASTA
+    - GCG
+    - GenBank format
+    - nbrf/pir
+    - PHYLIP format
+    - UniProtKB format
+  - data: Gene tree
+  output:
+  - data: Alignment
+    formats:
+    - FASTA-aln
+    - PHYLIP format
+    - selex
+    - Stockholm format
+    - Vienna local RNA secondary structure format
+  - data: Phylogenetic tree
+    formats:
+    - Phylip tree format
+  function:
+  - Multiple sequence alignment
+registries:
+- entry: OMICS_00972
+  name: OMICtools
+- entry: SCR_001591
+  name: SciCrunch
+- entry: clustalo
+  name: bio.tools
+- entry: clustalo
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1038/msb.2011.75
+- key: doi
+  rank: 1
+  value: 10.1002/pro.3290
+popcon:
+- insts: 311
+  olde: 263
+  recent: 30
+  vote: 18

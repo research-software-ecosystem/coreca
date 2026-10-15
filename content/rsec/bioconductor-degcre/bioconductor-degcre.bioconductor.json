@@ -1,0 +1,77 @@
+{
+    "Author": "Brian S. Roberts [aut, cre] (ORCID: <https://orcid.org/0009-0001-2914-6826>)",
+    "BugReports": "https://github.com/brianSroberts/DegCre/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.4)"
+    ],
+    "Description": "DegCre generates associations between differentially expressed genes (DEGs) and cis-regulatory elements (CREs) based on non-parametric concordance between differential data. The user provides GRanges of DEG TSS and CRE regions with differential p-value and optionally log-fold changes and DegCre returns an annotated Hits object with associations and their calculated probabilities. Additionally, the package provides functionality for visualization and conversion to other formats.",
+    "Imports": [
+        "BiocGenerics",
+        "BiocParallel",
+        "GenomicRanges",
+        "IRanges",
+        "InteractionSet",
+        "S4Vectors",
+        "Seqinfo",
+        "TxDb.Hsapiens.UCSC.hg38.knownGene",
+        "grDevices",
+        "graphics",
+        "org.Hs.eg.db",
+        "plotgardener",
+        "qvalue",
+        "stats",
+        "utils"
+    ],
+    "License": "MIT + file LICENSE",
+    "MD5sum": "696ac6a347803628d1fd69d4d6320ca1",
+    "Maintainer": "Brian S. Roberts <brianroberts1976@yahoo.com>",
+    "NeedsCompilation": "no",
+    "Package": "DegCre",
+    "Rank": 1913,
+    "Rfiles": [
+        "vignettes/DegCre/inst/doc/degcre_introduction_and_examples.R"
+    ],
+    "Suggests": [
+        "BSgenome",
+        "BSgenome.Hsapiens.UCSC.hg38",
+        "BiocStyle",
+        "TxDb.Mmusculus.UCSC.mm10.knownGene",
+        "knitr",
+        "magick",
+        "rmarkdown",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "Probabilistic association of DEGs to CREs from differential data",
+    "URL": "https://github.com/brianSroberts/DegCre",
+    "Version": "1.8.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "ATACSeq",
+        "ChIPSeq",
+        "DNaseSeq",
+        "GeneExpression",
+        "GeneRegulation",
+        "RNASeq",
+        "Software"
+    ],
+    "dependencyCount": "120",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "849d519",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/DegCre",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/DegCre_1.8.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/DegCre_1.8.0.tgz",
+    "source.ver": "src/contrib/DegCre_1.8.0.tar.gz",
+    "vignetteTitles": [
+        "DegCre Introduction and Examples"
+    ],
+    "vignettes": [
+        "vignettes/DegCre/inst/doc/degcre_introduction_and_examples.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/DegCre_1.8.0.zip"
+}

@@ -1,0 +1,41 @@
+package: pbsim
+distribution: debian
+release: sid
+component: main
+version: 1.0.3+git20180330.e014b1d
+source: pbsim
+homepage: https://github.com/pfaucon/PBSIM-PacBio-Simulator
+license: unknown
+blend: debian-med
+description_md5: dded62dc1453f70445810541a02fa07e
+topics:
+- Sequence analysis
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - FASTA
+  output:
+  - data: Sequence
+    formats:
+    - FASTQ
+  function:
+  - Probabilistic sequence generation
+registries:
+- entry: OMICS_00253
+  name: OMICtools
+- entry: SCR_002512
+  name: SciCrunch
+- entry: PBSIM
+  name: bio.tools
+- entry: pbsim
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/bts649
+popcon:
+- insts: 115
+  olde: 88
+  recent: 23
+  vote: 4

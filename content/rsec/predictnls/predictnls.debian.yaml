@@ -1,0 +1,25 @@
+package: predictnls
+distribution: debian
+release: sid
+component: main
+version: 1.0.20
+source: predictnls
+homepage: https://rostlab.org/services/predictNLS/
+license: unknown
+blend: debian-med
+description_md5: cde7ecac57e039484021f256614e949f
+registries:
+- entry: OMICS_01633
+  name: OMICtools
+- entry: SCR_008553
+  name: SciCrunch
+- entry: predictnls
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/embo-reports/kvd092
+popcon:
+- insts: 118
+  olde: 91
+  recent: 23
+  vote: 4

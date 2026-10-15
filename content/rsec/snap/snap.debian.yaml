@@ -1,0 +1,24 @@
+package: snap
+distribution: debian
+release: sid
+component: main
+version: '2013-11-29'
+source: snap
+homepage: https://github.com/KorfLab/SNAP
+license: unknown
+blend: debian-med
+description_md5: 6d9a04153222c1b616dbca686c88945d
+registries:
+- entry: OMICS_07771
+  name: OMICtools
+- entry: SNAP
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1186/1471-2105-5-59
+popcon:
+- insts: 3168
+  nofiles: 3
+  olde: 1259
+  recent: 69
+  vote: 1837

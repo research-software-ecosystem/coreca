@@ -1,0 +1,27 @@
+package: r-bioc-phyloseq
+distribution: debian
+release: sid
+component: main
+version: 1.56.0
+source: r-bioc-phyloseq
+homepage: https://bioconductor.org/packages/phyloseq/
+license: unknown
+blend: debian-med
+description_md5: ce1efdc42d4cdfd64fc0152b75e33d3f
+registries:
+- entry: OMICS_01520
+  name: OMICtools
+- entry: SCR_013080
+  name: SciCrunch
+- entry: phyloseq
+  name: bio.tools
+- entry: bioconductor-phyloseq
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1371/journal.pone.0061217
+popcon:
+- insts: 123
+  olde: 92
+  recent: 26
+  vote: 5

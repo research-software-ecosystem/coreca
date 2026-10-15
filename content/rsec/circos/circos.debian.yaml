@@ -1,0 +1,32 @@
+package: circos
+distribution: debian
+release: sid
+component: main
+version: 0.69.9
+source: circos
+homepage: https://circos.ca/
+license: unknown
+blend: debian-med
+description_md5: b1d5e394e1ff44315fac8498f49a2505
+registries:
+- entry: OMICS_00932
+  name: OMICtools
+- entry: SCR_011798
+  name: SciCrunch
+- entry: circos
+  name: bio.tools
+- entry: circos
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1101/gr.092759.109
+tags:
+- tag: field::biology:bioinformatics
+- tag: implemented-in::perl
+- tag: role::program
+- tag: use::viewing
+popcon:
+- insts: 136
+  olde: 107
+  recent: 23
+  vote: 6

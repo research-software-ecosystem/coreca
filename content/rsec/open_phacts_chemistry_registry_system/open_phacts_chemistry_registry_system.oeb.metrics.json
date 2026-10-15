@@ -1,0 +1,133 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:open_phacts_chemistry_registry_system/db/ops.rsc.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "citation": true,
+                "general": true,
+                "terms_of_use": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 120,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 24,
+                                    "year": 2015
+                                }
+                            ],
+                            "doi": "10.1016/j.drudis.2012.05.016",
+                            "pmid": "22683805",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Open PHACTS: semantic interoperability for drug discovery.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/open_phacts_chemistry_registry_system",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

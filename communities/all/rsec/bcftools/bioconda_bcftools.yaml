@@ -1,0 +1,59 @@
+about:
+  description: 'BCFtools is a set of utilities that manipulate variant calls in the
+    Variant
+
+    Call Format (VCF) and its binary counterpart BCF. All commands work transparently
+
+    with both VCFs and BCFs, both uncompressed and BGZF-compressed. Most commands
+
+    accept VCF, bgzipped VCF and BCF with filetype detected automatically even when
+
+    streaming from a pipe. Indexed VCF and BCF will work in all situations. Un-indexed
+
+    VCF and BCF and streams will work in most, but not all situations.
+
+    '
+  dev_url: https://github.com/samtools/bcftools
+  doc_url: https://samtools.github.io/bcftools/bcftools.html
+  home: https://github.com/samtools/bcftools
+  license: GPL-3.0-or-later
+  license_family: GPL3
+  license_file: LICENSE
+  summary: BCFtools, utilities for manipulating variant calls in VCF and BCF formats.
+build:
+  number: 4
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:bcftools
+  - usegalaxy-eu:bcftools_merge
+  - doi:10.1093/bioinformatics/btp352
+package:
+  name: bcftools
+  version: '1.24'
+requirements:
+  build:
+  - make
+  - null
+  - null
+  host:
+  - htslib
+  - zlib
+  - gsl >=2.6,<2.7
+  - libxcrypt
+  run:
+  - perl
+source:
+  sha256: 8caddc22610ee2851666047c859bb91da0c1e32d0c2ec553db6f153ad130e46f
+  url: https://github.com/samtools/bcftools/releases/download/1.24/bcftools-1.24.tar.bz2
+test:
+  commands:
+  - bcftools -h
+  - bcftools --version
+  - bcftools plugin -lv
+  - bcftools -h | grep polysomy
+  - vcfutils.pl 2>&1 | grep vcfutils

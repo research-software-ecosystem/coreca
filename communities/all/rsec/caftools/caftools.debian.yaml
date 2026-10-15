@@ -1,0 +1,18 @@
+package: caftools
+distribution: debian
+release: bullseye
+component: non-free
+version: 2.0.3
+source: caftools
+homepage: https://www.sanger.ac.uk/science/tools/caf
+license: unknown
+blend: debian-med
+description_md5: 4572e84506b4508911af8411e3cd9d5f
+registries:
+- entry: OMICS_24974
+  name: OMICtools
+- entry: CAFTOOLS
+  name: bio.tools
+popcon:
+- insts: 1
+  olde: 1

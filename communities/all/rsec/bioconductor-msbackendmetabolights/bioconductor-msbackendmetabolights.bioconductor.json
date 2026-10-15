@@ -1,0 +1,69 @@
+{
+    "Author": "Johannes Rainer [aut, cre] (ORCID: <https://orcid.org/0000-0002-6977-7147>), Philippine Louail [aut] (ORCID: <https://orcid.org/0009-0007-5429-6846>)",
+    "BugReports": "https://github.com/RforMassSpectrometry/MsBackendMetaboLights/issues",
+    "Date/Publication": "2026-05-22",
+    "Depends": [
+        "R (>= 4.2.0)",
+        "Spectra (>= 1.15.12)"
+    ],
+    "Description": "MetaboLights is one of the main public repositories for storage of metabolomics experiments, which includes analysis results as well as raw data. The MsBackendMetaboLights package provides functionality to retrieve and represent mass spectrometry (MS) data from MetaboLights. Data files are downloaded and cached locally avoiding repetitive downloads. MS data from metabolomics experiments can thus be directly and seamlessly integrated into R-based analysis workflows with the Spectra and MsBackendMetaboLights package.",
+    "Imports": [
+        "BiocFileCache",
+        "MsCoreUtils (>= 1.23.8)",
+        "ProtGenerics",
+        "S4Vectors",
+        "curl",
+        "methods",
+        "progress",
+        "utils"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "fd5b8c67ff8fd508840b00a1a736858f",
+    "Maintainer": "Johannes Rainer <Johannes.Rainer@eurac.edu>",
+    "NeedsCompilation": "no",
+    "Package": "MsBackendMetaboLights",
+    "Rank": 2201,
+    "Rfiles": [
+        "vignettes/MsBackendMetaboLights/inst/doc/MsBackendMetaboLights.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "mzR",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Retrieve Mass Spectrometry Data from MetaboLights",
+    "URL": "https://github.com/RforMassSpectrometry/MsBackendMetaboLights",
+    "Version": "1.6.1",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataImport",
+        "Infrastructure",
+        "MassSpectrometry",
+        "Metabolomics",
+        "Proteomics",
+        "Software"
+    ],
+    "dependencyCount": "69",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "ac730a7",
+    "git_last_commit_date": "2026-05-22",
+    "git_url": "https://git.bioconductor.org/packages/MsBackendMetaboLights",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/MsBackendMetaboLights_1.6.1.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/MsBackendMetaboLights_1.6.0.tgz",
+    "source.ver": "src/contrib/MsBackendMetaboLights_1.6.1.tar.gz",
+    "suggestsMe": [
+        "Chromatograms"
+    ],
+    "vignetteTitles": [
+        "Retrieve and Use Mass Spectrometry Data from MetaboLights"
+    ],
+    "vignettes": [
+        "vignettes/MsBackendMetaboLights/inst/doc/MsBackendMetaboLights.html"
+    ]
+}

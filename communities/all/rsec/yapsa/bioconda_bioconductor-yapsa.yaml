@@ -1,0 +1,97 @@
+about:
+  description: This package provides functions and routines for supervised analyses
+    of mutational signatures (i.e., the signatures have to be known, cf. L. Alexandrov
+    et al., Nature 2013 and L. Alexandrov et al., Bioaxiv 2018). In particular, the
+    family of functions LCD (LCD = linear combination decomposition) can use optimal
+    signature-specific cutoffs which takes care of different detectability of the
+    different signatures. Moreover, the package provides different sets of mutational
+    signatures, including the COSMIC and PCAWG SNV signatures and the PCAWG Indel
+    signatures; the latter infering that with YAPSA, the concept of supervised analysis
+    of mutational signatures is extended to Indel signatures. YAPSA also provides
+    confidence intervals as computed by profile likelihoods and can perform signature
+    analysis on a stratified mutational catalogue (SMC = stratify mutational catalogue)
+    in order to analyze enrichment and depletion patterns for the signatures in different
+    strata.
+  home: https://bioconductor.org/packages/3.22/bioc/html/YAPSA.html
+  license: GPL-3
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: Yet Another Package for Signature Analysis
+build:
+  noarch: generic
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:yapsa
+  - doi:10.1038/nmeth.3252
+  parent_recipe:
+    name: bioconductor-yapsa
+    path: recipes/bioconductor-yapsa
+    version: 1.6.0
+package:
+  name: bioconductor-yapsa
+  version: 1.36.1
+requirements:
+  host:
+  - bioconductor-biostrings >=2.78.0,<2.79.0
+  - bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0
+  - bioconductor-complexheatmap >=2.26.0,<2.27.0
+  - bioconductor-genomicranges >=1.62.0,<1.63.0
+  - bioconductor-gtrellis >=1.42.0,<1.43.0
+  - bioconductor-keggrest >=1.50.0,<1.51.0
+  - bioconductor-seqinfo >=1.0.0,<1.1.0
+  - bioconductor-somaticsignatures >=2.46.0,<2.47.0
+  - bioconductor-variantannotation >=1.56.0,<1.57.0
+  - r-base
+  - r-circlize
+  - r-corrplot
+  - r-dendextend
+  - r-doparallel
+  - r-dplyr
+  - r-getoptlong
+  - r-ggbeeswarm
+  - r-ggplot2
+  - r-gridextra
+  - r-limsolve
+  - r-magrittr
+  - r-pmcmrplus
+  - r-pracma
+  - r-reshape2
+  run:
+  - bioconductor-biostrings >=2.78.0,<2.79.0
+  - bioconductor-bsgenome.hsapiens.ucsc.hg19 >=1.4.0,<1.5.0
+  - bioconductor-complexheatmap >=2.26.0,<2.27.0
+  - bioconductor-genomicranges >=1.62.0,<1.63.0
+  - bioconductor-gtrellis >=1.42.0,<1.43.0
+  - bioconductor-keggrest >=1.50.0,<1.51.0
+  - bioconductor-seqinfo >=1.0.0,<1.1.0
+  - bioconductor-somaticsignatures >=2.46.0,<2.47.0
+  - bioconductor-variantannotation >=1.56.0,<1.57.0
+  - r-base
+  - r-circlize
+  - r-corrplot
+  - r-dendextend
+  - r-doparallel
+  - r-dplyr
+  - r-getoptlong
+  - r-ggbeeswarm
+  - r-ggplot2
+  - r-gridextra
+  - r-limsolve
+  - r-magrittr
+  - r-pmcmrplus
+  - r-pracma
+  - r-reshape2
+source:
+  md5: 07d3d90255df97a53a85aae6ea7d4592
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/YAPSA_1.36.1.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/YAPSA/YAPSA_1.36.1.tar.gz
+  - https://bioarchive.galaxyproject.org/YAPSA_1.36.1.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-yapsa/bioconductor-yapsa_1.36.1_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('YAPSA')"

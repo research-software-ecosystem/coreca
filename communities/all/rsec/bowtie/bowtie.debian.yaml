@@ -1,0 +1,100 @@
+package: bowtie
+distribution: debian
+release: sid
+component: main
+version: 1.3.1
+source: bowtie
+homepage: https://bowtie-bio.sourceforge.net/
+license: unknown
+blend: debian-med
+description_md5: 0321cd443ac01259f647358becd22626
+topics:
+- Genomics
+edam_scopes:
+- name: summary
+  input:
+  - data: Nucleic acid sequence (raw)
+    format:
+    - FASTA
+    - FASTQ
+  output:
+  - data: Sequence alignment (nucleic acid)
+    format:
+    - SAM
+  function:
+  - Genome indexing
+  - Sequence alignment generation
+- name: bowtie-build
+  input:
+  - data: Nucleic acid sequence (raw)
+    format:
+    - FASTA
+  output:
+  - data: Genome index
+    format:
+    - Bowtie index format EBWT
+    - Bowtie long index format EBTWL
+  function: Genome indexing (Burrows-Wheeler)
+- name: bowtie-inspect
+  input:
+  - data: Genome index
+    format:
+    - Bowtie index format EBWT
+    - Bowtie long index format EBTWL
+  output:
+  - data: Nucleic acid sequence (raw)
+    format:
+    - FASTA
+    - plain text format (unformatted)
+  function:
+  - Sequence retrieval
+  - Metadata retrieval
+  - Data index analysis
+- name: bowtie
+  input:
+  - data: Genome index
+  - data: Nucleic acid sequence (raw)
+    format:
+    - plain text format (unformatted)
+    - FASTA
+    - FASTQ
+  output:
+  - data: Sequence alignment (nucleic acid)
+  - data: Sequence alignment report
+    format:
+    - SAM
+    - Bowtie alignment report format
+  function:
+  - Sequence database search (by sequence using word-based methods)
+  - Sequence alignment generation
+registries:
+- entry: OMICS_00653
+  name: OMICtools
+- entry: SCR_005476
+  name: SciCrunch
+- entry: bowtie
+  name: bio.tools
+- entry: bowtie
+  name: conda:bioconda
+- entry: bowtie1
+  name: guix
+bib:
+- key: doi
+  value: 10.1186/gb-2009-10-3-r25
+tags:
+- tag: biology::nuceleic-acids
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c++
+- tag: interface::commandline
+- tag: role::program
+- tag: science::calculation
+- tag: scope::utility
+- tag: use::analysing
+- tag: use::comparing
+- tag: works-with::biological-sequence
+popcon:
+- insts: 357
+  nofiles: 1
+  olde: 319
+  recent: 23
+  vote: 14

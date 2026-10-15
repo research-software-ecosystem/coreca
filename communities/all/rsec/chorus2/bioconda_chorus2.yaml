@@ -1,0 +1,56 @@
+about:
+  dev_url: https://github.com/zhangtaolab/Chorus2
+  doc_url: https://chorus2.readthedocs.io/en/dev/
+  home: https://github.com/zhangtaolab/Chorus2
+  license: MIT
+  summary: A pipeline to select oligonucleotides for fluorescence in situ hbridization
+    (Oligo-FISH).
+build:
+  noarch: python
+  number: 3
+  run_exports:
+  - null
+  script: -m pip install . --no-deps -v
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:chorus2
+  recipe-maintainers:
+  - zhangtaolab
+  - forrestzhang
+  - ljq12697
+package:
+  name: chorus2
+  version: '2.1'
+requirements:
+  host:
+  - python >=3,<3.10
+  - pip
+  run:
+  - python >=3,<3.10
+  - pybigwig
+  - numpy
+  - pyfasta
+  - pybedtools
+  - pandas <2
+  - primer3-py >=1.0.0
+  - matplotlib-base >=3.5.0
+  - pyqt <6
+  - pyqt <5.11
+  - sip >=4
+  - kmer-jellyfish >1
+  - bwa >=0.7.3a,<=0.7.8
+  - bwa
+  - samtools
+  - bcftools
+source:
+  sha256: e1f36437790bf82314331b3491f7528fe88e20bd527371f2bcf4dbb13b9815a8
+  url: https://github.com/zhangtaolab/Chorus2/archive/v2.1.tar.gz
+test:
+  commands:
+  - Chorus2 --version
+  imports:
+  - Choruslib
+  - ChorusGUI

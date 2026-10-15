@@ -1,0 +1,59 @@
+{
+    "Author": "Vince Carey [cre, aut]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.0)",
+        "SummarizedExperiment",
+        "methods",
+        "reticulate"
+    ],
+    "Description": "This package provides interfaces to selected sklearn elements, and demonstrates fault tolerant use of python modules requiring extensive iteration.",
+    "Imports": [
+        "basilisk"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "48850d65b2fbe33f41111f72d32405d7",
+    "Maintainer": "Vince Carey <stvjc@channing.harvard.edu>",
+    "NeedsCompilation": "no",
+    "Package": "BiocSklearn",
+    "Rank": 1716,
+    "Rfiles": [
+        "vignettes/BiocSklearn/inst/doc/BiocSklearn.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "HDF5Array",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "SystemRequirements": "python (>= 2.7), sklearn, numpy, pandas, h5py",
+    "Title": "interface to python sklearn via Rstudio reticulate",
+    "Version": "1.34.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DimensionReduction",
+        "Infrastructure",
+        "Software",
+        "StatisticalMethod"
+    ],
+    "dependencyCount": "39",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "5fd12a0",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/BiocSklearn",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/BiocSklearn_1.34.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/BiocSklearn_1.34.0.tgz",
+    "source.ver": "src/contrib/BiocSklearn_1.34.0.tar.gz",
+    "vignetteTitles": [
+        "BiocSklearn overview"
+    ],
+    "vignettes": [
+        "vignettes/BiocSklearn/inst/doc/BiocSklearn.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/BiocSklearn_1.34.0.zip"
+}

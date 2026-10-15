@@ -1,0 +1,25 @@
+package: sibelia
+distribution: debian
+release: sid
+component: main
+version: 3.0.7
+source: sibelia
+homepage: https://bioinf.spbau.ru/sibelia
+license: unknown
+blend: debian-med
+description_md5: a4c578f4b700f62ce2e93b7cb7dc2b0c
+registries:
+- entry: OMICS_11719
+  name: OMICtools
+- entry: sibelia
+  name: bio.tools
+- entry: sibelia
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1007/978-3-642-40453-5_17
+popcon:
+- insts: 112
+  olde: 84
+  recent: 23
+  vote: 5

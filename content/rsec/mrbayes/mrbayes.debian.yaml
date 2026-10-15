@@ -1,0 +1,33 @@
+package: mrbayes
+distribution: debian
+release: sid
+component: main
+version: 3.2.7a
+source: mrbayes
+homepage: http://mrbayes.csit.fsu.edu/
+license: unknown
+blend: debian-med
+description_md5: 3042004cf4140cc8d89cbd6d7860f485
+registries:
+- entry: OMICS_04237
+  name: OMICtools
+- entry: SCR_012067
+  name: SciCrunch
+- entry: MrBayes
+  name: bio.tools
+- entry: mrbayes
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/sysbio/sys029
+- key: doi
+  rank: 1
+  value: 10.1093/bioinformatics/btg180
+- key: doi
+  rank: 2
+  value: 10.1093/bioinformatics/17.8.754
+popcon:
+- insts: 158
+  olde: 127
+  recent: 23
+  vote: 8

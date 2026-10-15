@@ -1,0 +1,33 @@
+package: r-bioc-hilbertvis
+distribution: debian
+release: sid
+component: main
+version: 1.70.0
+source: r-bioc-hilbertvis
+homepage: https://bioconductor.org/packages/HilbertVis
+license: unknown
+blend: debian-med
+description_md5: baabf6eeff5e5ed9a6902e8cc589b0dd
+registries:
+- entry: OMICS_00627
+  name: OMICtools
+- entry: SCR_007862
+  name: SciCrunch
+- entry: hilbertvis
+  name: bio.tools
+- entry: bioconductor-hilbertvis
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btp152
+tags:
+- tag: biology::nuceleic-acids
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::r
+- tag: use::analysing
+popcon:
+- insts: 125
+  olde: 93
+  recent: 25
+  vote: 7

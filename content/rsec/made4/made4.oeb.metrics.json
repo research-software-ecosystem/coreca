@@ -1,0 +1,1023 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:made4:1.48.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 208,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bti394",
+                            "pmid": "15797915",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "MADE4: an R package for multivariate analysis of gene expression data.",
+                            "year": 2005
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/made4.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:made4:1.48.0/lib/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 208,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bti394",
+                            "pmid": "15797915",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "MADE4: an R package for multivariate analysis of gene expression data.",
+                            "year": 2005
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/made4.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:made4:1.44.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/made4.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:made4:1.50.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.5/bioc/html/made4.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:made4:1.52.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.6/bioc/html/made4.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:made4:1.54.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/3.7/bioc/html/made4.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:made4:1.56.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:made4:1.58.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/made4.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:made4:1.60.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:made4:1.61.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:made4:1.64.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:made4:1.66.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:made4:1.68.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:made4:1.72.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:made4:1.74.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:made4:1.76.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:made4:1.86.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "project": {
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 208,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bti394",
+                            "pmid": "15797915",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "MADE4: an R package for multivariate analysis of gene expression data.",
+                            "year": 2005
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:made4:1.86.0/lib/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "project": {
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 208,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bti394",
+                            "pmid": "15797915",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "MADE4: an R package for multivariate analysis of gene expression data.",
+                            "year": 2005
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/made4",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioconductor.org/packages/release/bioc/html/made4.html"
+                    },
+                    {
+                        "status": 302,
+                        "url": "http://bioconductor.org/packages/release/bioc/html/made4.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]
