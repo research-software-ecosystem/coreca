@@ -101,6 +101,8 @@ The extraction, filtering and curation are done following the workflow below and
 
 # Bioconda
 
+TODO : Test and improve
+
 - Extract all bioconda metadata as a JSON file
 
     ```
