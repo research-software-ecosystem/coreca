@@ -40,7 +40,6 @@ The extraction, filtering and curation are done following the workflow below and
 
 Example of a keywords file (from the microbiome community) : 
 
-    ```
     edam:
         topics:
             - Metagenomics
@@ -69,7 +68,6 @@ Example of a keywords file (from the microbiome community) :
         - ITS
         - OTU
         - ASV
-    ```
 
 ## Prepare environment
 
