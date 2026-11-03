@@ -22,6 +22,55 @@ The extraction, filtering and curation are done following the workflow below and
 ![A workflow diagram illustrating the process for populating the RSEC Atlas, starting with 'Scrapping' resources from Bioconda, WorkflowHub, and Elixir, which yields over 40,000 tools and 1,300 workflows. This pool is reduced by the 'Filtering for Microbiome Resources' step to about 5,000 tools and 600 workflows. After 'Community Curation,' the items are 'Displayed on RSEC Atlas.' A detailed flowchart on the right explains the filtering logic: it sequentially checks if EDAM topics are found, if defined keywords are in the tags, if keywords are in the title, and finally if keywords are in the description. A 'Yes' at any step classifies the item as a 'MiCoCo resource,' while a 'No' at all steps classifies it as 'Not a MiCoCo resource.'](doc/main_figure_poster.png)
 
 # Create a CoReCa for your community
+## Prepare files
+
+- Create the metadata folder for your community
+    ```
+    #Change by indicating the name of your community
+    community="biodiversity"
+    mkdir communities/${community}
+    mkdir communities/${community}/metadata
+    ```
+
+- Create the keywords file for you community in the newly created metadata folder
+
+    ```
+    vi communities/${community}/metadata/keywords.yml
+    ```
+
+Example of a keywords file (from the microbiome community) : 
+
+    ```
+    edam:
+        topics:
+            - Metagenomics
+            - Metatranscriptomics
+            - Metabarcoding
+        operations:
+            - Read binning
+
+    keywords:
+        - metage.*
+        - metabar.*
+        - metat.*
+        - metap.*
+        - plasmid.*
+        - binn.*
+        - microbiom.*
+        - microbiot.*
+        - 16S
+        - Amplicon
+        - profil.*
+        - amr
+        - antimicrobial.*
+        - MAGs
+
+    acronyms:
+        - ITS
+        - OTU
+        - ASV
+    ```
+
 ## Prepare environment
 
 - Install virtualenv (if not already there)
@@ -48,7 +97,7 @@ The extraction, filtering and curation are done following the workflow below and
     $ python3 -m pip install -r requirements.txt
     ```
 
-## Extract workflows from WorkflowHub
+## Workflows from WorkflowHub
 
 - Extract all workflows metadata from WorkflowHub as a JSON file
 
@@ -58,19 +107,10 @@ The extraction, filtering and curation are done following the workflow below and
         --all communities/all/workflowhub/workflows_full.json
     ```
 
-- Create the metadata folder for your community
-    ```
-    community="biodiversity"
-    mkdir communities/${community}
-    mkdir communities/${community}/metadata
-    ```
-
-- Create the keywords file for you community in the newly created metadata folder
-
-- Filter workflows based on keywords and EDAM terms
+- Filter community workflows based on keywords and EDAM terms
+    This step filters workflows on EDAM terms (topics and operations), then on tags, workflow name and finally description based on the keywords provided in `keywords.yml` file.
 
     ```
-    community="microbiome"
     $ python bin/extract_workflowhub.py \
         filter \
         --all communities/all/workflowhub/workflows_full.json \
@@ -80,12 +120,12 @@ The extraction, filtering and curation are done following the workflow below and
         --status communities/${community}/workflowhub/workflows_status.tsv
     ```
 
-    As explained in the decision tree above, workflows are filtered first on EDAM terms (topics and operations), then on tags, workflow name and finally description based on the keywords provided in `keywords.yml` file.
-
 - Curate workflows based on community curation
-    
+    This step curates the filtered workflows, to keep only workflows with a 'TRUE' label in the 'To keep' column of the communities/${community}/workflowhub/workflows_status.tsv file. 
+
+    Update the 'To keep' column of the communities/${community}/workflowhub/workflows_status.tsv file
+
     ```
-    community="microbiome"
     $ python bin/extract_workflowhub.py \
         curate \
         --filtered communities/${community}/workflowhub/workflows_filtered.json \
@@ -93,7 +133,6 @@ The extraction, filtering and curation are done following the workflow below and
         --tsv-curated communities/${community}/workflowhub/workflows_curated.tsv \
         --status communities/${community}/workflowhub/workflows_status.tsv
     ```
-    This keeps only workflows with a 'TUE' label in the 'To keep' column. 
 
 - Extract tools used in curated workflows as JSON
 
@@ -115,9 +154,9 @@ The extraction, filtering and curation are done following the workflow below and
     ```
 
 - Filter RSEc tools based on keywords and EDAM terms
+    This step filters RSEc tools based on the keywords provided in `keywords.yml` file.
 
     ```
-    community="microbiome"
     $ python bin/extract_rsec.py \
         filter \
         --all communities/all/rsec/ \
@@ -125,9 +164,6 @@ The extraction, filtering and curation are done following the workflow below and
         --tsv communities/${community}/rsec/validated_tools_summary.tsv \
         --keywords communities/${community}/metadata/keywords.yml
     ```
-
-    As explained in the decision tree above, workflows are filtered first on EDAM terms (topics and operations), then on tags, workflow name and finally description based on the keywords provided in `keywords.yml` file. 
-    Workflows are filtered first on EDAM terms (topics and operations), then on tags, workflow name and finally description based on the keywords provided in "keywords.yml". 
 
 ## Bioconda
 
@@ -154,10 +190,10 @@ The extraction, filtering and curation are done following the workflow below and
     ```
 
 - Filter bioconda recipies based on keywords and EDAM terms
+    This step filters bioconda recepies based on the keywords provided in `keywords.yml` file.
 
     ```
-    community="microbiome"
-    python bin/bioconda_manager.py \
+    $ python bin/bioconda_manager.py \
         filter \
         --all communities/all/bioconda/bioconda_full.json \
         --json-filtered communities/${community}/bioconda/bioconda_filtered.json \
@@ -167,10 +203,12 @@ The extraction, filtering and curation are done following the workflow below and
     ```
 
 - Curate bioconda recipies based on community curation
+    This step curates the filtered bioconda recepies, to keep only bioconda recipies with a 'TRUE' label in the 'To keep' column of the communities/${community}/bioconda/bioconda_status.tsv file. 
+
+    Update the 'To keep' column of the communities/${community}/bioconda/bioconda_status.tsv file
 
     ```
-    community="microbiome"
-    python bin/bioconda_manager.py \
+    $ python bin/bioconda_manager.py \
         curate \
         --filtered communities/${community}/bioconda/bioconda_filtered.json \
         --json-curated communities/${community}/bioconda/bioconda_curated.json \
