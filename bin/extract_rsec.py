@@ -5,7 +5,6 @@ import re
 import shutil
 import sys
 import time
-import utils
 from pathlib import Path
 from typing import (
     Any,
@@ -18,9 +17,7 @@ import yaml
 from utils import (
     clone_rsec_data,
     generate_tsv_summary,
-    # KEYWORDS_FILEPATH,
     load_keywords_from_yaml,
-    # RSEC_DIR,
     RSEC_REPO_URL,
     TARGET_SUBDIR_IN_REPO,
     TEMP_CLONE_DIR,
