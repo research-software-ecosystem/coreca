@@ -18,9 +18,9 @@ import yaml
 from utils import (
     clone_rsec_data,
     generate_tsv_summary,
-    #KEYWORDS_FILEPATH,
+    # KEYWORDS_FILEPATH,
     load_keywords_from_yaml,
-    #RSEC_DIR,
+    # RSEC_DIR,
     RSEC_REPO_URL,
     TARGET_SUBDIR_IN_REPO,
     TEMP_CLONE_DIR,
@@ -204,7 +204,7 @@ class ToolSet:
         # output paths for reporting files, all in the same directory as json_out
         self.output_dir = self.json_out.parent
         self.report_txt_out = self.output_dir / "filtering_report.txt"
-        
+
         self.tools: List[Tool] = []
         self.report_counts = {
             "total_folders": 0,
@@ -213,12 +213,12 @@ class ToolSet:
             "validated_filter_3": 0,
             "did_not_pass_any": 0,
         }
-        
+
         # keywords loading
         self.kw_file = Path(kw_file)
         kw = load_keywords_from_yaml(self.kw_file)
         self.kw_data = kw
-        
+
     def _prepare_output_dir(self) -> None:
         self.output_dir.mkdir(parents=True, exist_ok=True)
         for f in [self.json_out, self.report_txt_out, self.tsv_out]:
@@ -231,7 +231,7 @@ class ToolSet:
         to_delete, validated_meta = [], []
 
         print(f"Start of filtering in : {self.output_dir}")
-        #Copy all items to community directory
+        # Copy all items to community directory
         all_items = [item for item in self.root_dir.iterdir() if item.is_dir() and item.name != self.output_dir.name]
         total = len(all_items)
 
@@ -301,7 +301,6 @@ class ToolSet:
 # -------------------------------------------------------------
 
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description=(
@@ -322,7 +321,7 @@ if __name__ == "__main__":
         choices=[0, 1, 2, 3, 4],
         help="Verbosity level (0=CRITICAL, 1=ERROR, 2=WARN, 3=INFO, 4=DEBUG)",
     )
-    
+
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     # Extract subcommand
@@ -368,16 +367,15 @@ if __name__ == "__main__":
         ),
     )
 
-
     args = parser.parse_args()
     utils.setup_logger(args.verbose)
 
     if args.command == "extract":
         # Default paths if not provided via CLI
-        #kw_path = Path(args.keywords)
-        #output_dir = Path(args.all) / "infos"
-        #json_path = Path(args.json_output) if args.json_output else output_dir / "validated_tools_metadata.json"
-        #tsv_path = Path(args.tsv_output) if args.tsv_output else output_dir / "validated_tools_summary.tsv"
+        # kw_path = Path(args.keywords)
+        # output_dir = Path(args.all) / "infos"
+        # json_path = Path(args.json_output) if args.json_output else output_dir / "validated_tools_metadata.json"
+        # tsv_path = Path(args.tsv_output) if args.tsv_output else output_dir / "validated_tools_summary.tsv"
 
         # --- STEP 1 : Cloning ---
         try:
