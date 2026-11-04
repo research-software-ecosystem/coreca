@@ -724,14 +724,14 @@ class TestToolSet(RsecTestCase):
             "keywords": ["genomics"],
             "acronyms": [],
         }
-        #kw_content = {
-        #    "edam": {"operations": [], "topics": []},
-        #    "keywords": [],
-        #    "acronyms": [],
-        #}
+        # kw_content = {
+        #     "edam": {"operations": [], "topics": []},
+        #     "keywords": [],
+        #     "acronyms": [],
+        # }
         tmp_path = self.tmp_path
         kw = _make_keywords_yaml(tmp_path, content=kw_content)
-        #doomed = _make_tool_folder(tmp_path, "doomed")
+        # doomed = _make_tool_folder(tmp_path, "doomed")
         doomed = _make_tool_folder(
             tmp_path,
             "doomed",

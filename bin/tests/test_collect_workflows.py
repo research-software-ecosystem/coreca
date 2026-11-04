@@ -8,7 +8,6 @@ from unittest.mock import (
 import sys
 from pathlib import Path
 
-
 # ---------------------------------------------------------------------------
 # Make sure Python can find the source modules in bin/
 # This works whether you run pytest from the project root or from tests/.

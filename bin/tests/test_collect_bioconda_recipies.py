@@ -23,6 +23,7 @@ from bioconda_manager import (
     BiocondaRecipes,
 )
 
+
 class TestBiocondaRecipe(unittest.TestCase):
     def setUp(self) -> None:
         # Sample Bioconda recipe
