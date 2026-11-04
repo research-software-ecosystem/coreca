@@ -1,12 +1,12 @@
 """Unit tests for extract_workflowhub.py"""
 
+import sys
 import unittest
+from pathlib import Path
 from unittest.mock import (
     Mock,
     patch,
 )
-import sys
-from pathlib import Path
 
 # ---------------------------------------------------------------------------
 # Make sure Python can find the source modules in bin/
