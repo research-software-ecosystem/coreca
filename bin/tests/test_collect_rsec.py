@@ -1359,3 +1359,6 @@ class TestGenerateTsvSummary(RsecTestCase):
         generate_tsv_summary(json_path, tsv_path)
         for row in self._read_tsv(tsv_path):
             assert row["to_keep"] == "True"
+
+if __name__ == "__main__":
+    unittest.main()

@@ -259,7 +259,7 @@ class ToolSet:
                 else:
                     self.report_counts["validated_filter_3"] += 1
             else:
-                to_delete.append(item)
+                to_delete.append(self.root_dir / item.name)
                 self.report_counts["did_not_pass_any"] += 1
 
         sys.stdout.write("\n")
