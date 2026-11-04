@@ -17,10 +17,6 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 # ---------------------------------------------------------------------------
 # Import the classes and utils functions under test
 # ---------------------------------------------------------------------------
-from extract_rsec import (  # noqa: E402
-    Tool,
-    ToolSet,
-)
 import utils
 from bioconda_manager import (
     BiocondaRecipe,
