@@ -11,6 +11,7 @@ from typing import (
     Dict,
     List,
     Optional,
+    Union,
 )
 
 import yaml
@@ -193,10 +194,16 @@ class Tool:
 
 
 class ToolSet:
-    def __init__(self, root_dir: Path, json_out: Path, tsv_out: Path, kw_file: Path) -> None:
-        # self.root_dir = Path(root_dir)
-        # self.json_out = Path(json_out)
-        # self.tsv_out = Path(tsv_out)
+    def __init__(
+        self,
+        root_dir: Union[str, Path],
+        json_out: Union[str, Path],
+        tsv_out: Union[str, Path],
+        kw_file: Union[str, Path],
+    ) -> None:
+        self.root_dir = Path(root_dir)
+        self.json_out = Path(json_out)
+        self.tsv_out = Path(tsv_out)
 
         # output paths for reporting files, all in the same directory as json_out
         self.output_dir = self.json_out.parent
