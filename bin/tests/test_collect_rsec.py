@@ -31,6 +31,9 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 # ---------------------------------------------------------------------------
 # Import the classes and utils functions under test
 # ---------------------------------------------------------------------------
+from extract_rsec import (  # noqa: E402
+    Tool,
+)
 from utils import (  # noqa: E402
     clone_rsec_data,
     generate_tsv_summary,
