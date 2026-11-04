@@ -15,6 +15,7 @@ from typing import (
 
 import yaml
 from utils import (
+    setup_logger,
     clone_rsec_data,
     generate_tsv_summary,
     load_keywords_from_yaml,
