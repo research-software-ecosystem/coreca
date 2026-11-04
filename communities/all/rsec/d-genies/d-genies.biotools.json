@@ -1,0 +1,176 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2018-07-29T10:31:55Z",
+    "biotoolsCURIE": "biotools:d-genies",
+    "biotoolsID": "d-genies",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "christophe.klopp@inrae.fr",
+            "name": "Christophe Klopp",
+            "orcidid": "https://orcid.org/0000-0001-7126-5477",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "Philippe Bordron",
+            "orcidid": "https://orcid.org/0000-0003-1975-0920",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer",
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "Floréal Cabanettes",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "GenoToul bioinformatics facility",
+            "typeEntity": "Division",
+            "typeRole": [
+                "Provider"
+            ],
+            "url": "http://bioinfo.genotoul.fr/"
+        },
+        {
+            "name": "Vincent Dominguez",
+            "typeRole": [
+                "Developer"
+            ]
+        }
+    ],
+    "description": "D-GENIES – for Dot plot large Genomes in an Interactive, Efficient and Simple way – is an online tool designed to compare two genomes. It supports large genome and you can interact with the dot plot to improve the visualization.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://dgenies.readthedocs.io/en/latest/index.html"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "pbordron"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "DNA sequence",
+                        "uri": "http://edamontology.org/data_3494"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "DNA sequence",
+                        "uri": "http://edamontology.org/data_3494"
+                    }
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Genome alignment",
+                    "uri": "http://edamontology.org/operation_3182"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Nucleic acid sequence alignment",
+                        "uri": "http://edamontology.org/data_1383"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Sequence similarity plot",
+                        "uri": "http://edamontology.org/data_2161"
+                    }
+                }
+            ]
+        },
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Nucleic acid sequence alignment",
+                        "uri": "http://edamontology.org/data_1383"
+                    }
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Dot plot plotting",
+                    "uri": "http://edamontology.org/operation_0490"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Sequence similarity plot",
+                        "uri": "http://edamontology.org/data_2161"
+                    }
+                }
+            ]
+        }
+    ],
+    "homepage": "https://dgenies.toulouse.inrae.fr/",
+    "language": [
+        "Python",
+        "Shell"
+    ],
+    "lastUpdate": "2026-08-26T08:42:34.626251Z",
+    "license": "GPL-3.0",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/genotoul-bioinfo/dgenies"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "D-GENIES",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "pbordron",
+    "publication": [
+        {
+            "doi": "10.7717/peerj.4958",
+            "pmcid": "PMC5991294",
+            "pmid": "29888139",
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Data visualisation",
+            "uri": "http://edamontology.org/topic_0092"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        }
+    ],
+    "validated": 1
+}

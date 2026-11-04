@@ -1,0 +1,58 @@
+{
+    "Author": "Paal O. Westermark",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R(>= 3.3)"
+    ],
+    "Description": "Regularization and score distributions for position count matrices.",
+    "Imports": [
+        "BiocGenerics",
+        "Rcpp",
+        "graphics",
+        "methods"
+    ],
+    "License": "MIT + file LICENSE",
+    "LinkingTo": [
+        "Rcpp"
+    ],
+    "MD5sum": "1998debb247d5df5f12f12199f887852",
+    "Maintainer": "Paal O. Westermark <pal-olof.westermark@charite.de>",
+    "NeedsCompilation": "yes",
+    "Package": "profileScoreDist",
+    "Rank": 1577,
+    "Rfiles": [
+        "vignettes/profileScoreDist/inst/doc/profileScoreDist-vignette.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "MotifDb",
+        "knitr"
+    ],
+    "Title": "Profile score distributions",
+    "Version": "1.40.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "GeneRegulation",
+        "Software",
+        "StatisticalMethod"
+    ],
+    "dependencyCount": "7",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "caa686b",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/profileScoreDist",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/profileScoreDist_1.40.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/profileScoreDist_1.40.0.tgz",
+    "source.ver": "src/contrib/profileScoreDist_1.40.0.tar.gz",
+    "vignetteTitles": [
+        "Using profileScoreDist"
+    ],
+    "vignettes": [
+        "vignettes/profileScoreDist/inst/doc/profileScoreDist-vignette.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/profileScoreDist_1.40.0.zip"
+}

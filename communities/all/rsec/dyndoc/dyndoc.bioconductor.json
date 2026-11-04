@@ -1,0 +1,41 @@
+{
+    "Author": "R. Gentleman, Jeff Gentry",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "methods",
+        "utils"
+    ],
+    "Description": "A set of functions to create and interact with dynamic documents and vignettes.",
+    "Imports": [
+        "methods"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "6c584666eea5d0e5f49d93cef628d34c",
+    "Maintainer": "Bioconductor Package Maintainer <maintainer@bioconductor.org>",
+    "NeedsCompilation": "no",
+    "Package": "DynDoc",
+    "Rank": 198,
+    "Title": "Dynamic document tools",
+    "Version": "1.90.0",
+    "biocViews": [
+        "Infrastructure",
+        "ReportWriting",
+        "Software"
+    ],
+    "dependencyCount": "2",
+    "dependsOnMe": [
+        "tkWidgets"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "79c806e",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/DynDoc",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/DynDoc_1.90.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/DynDoc_1.90.0.tgz",
+    "source.ver": "src/contrib/DynDoc_1.90.0.tar.gz",
+    "win.binary.ver": "bin/windows/contrib/4.6/DynDoc_1.90.0.zip"
+}

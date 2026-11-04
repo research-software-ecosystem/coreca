@@ -1,0 +1,26 @@
+package: openms
+distribution: debian
+release: sid
+component: main
+version: 2.6.0+cleaned1
+source: openms
+homepage: https://www.openms.de
+license: unknown
+blend: debian-med
+description_md5: 1680992c26afae25b0ca399cdfebd8ee
+registries:
+- entry: OMICS_02387
+  name: OMICtools
+- entry: SCR_012042
+  name: SciCrunch
+- entry: openms
+  name: bio.tools
+- entry: openms
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/1471-2105-9-163
+popcon:
+- insts: 122
+  nofiles: 120
+  olde: 2

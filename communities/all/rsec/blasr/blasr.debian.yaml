@@ -1,0 +1,29 @@
+package: blasr
+distribution: debian
+release: sid
+component: main
+version: 5.3.5
+source: blasr
+homepage: https://github.com/PacificBiosciences/blasr
+license: unknown
+blend: debian-med
+description_md5: 243f2d6424b8e4087435c6d8581f6b16
+registries:
+- entry: OMICS_05134
+  name: OMICtools
+- entry: SCR_000764
+  name: SciCrunch
+- entry: Blasr
+  name: bio.tools
+- entry: blasr
+  name: conda:bioconda
+- entry: blasr
+  name: guix
+bib:
+- key: doi
+  value: 10.1186/1471-2105-13-23
+popcon:
+- insts: 120
+  olde: 92
+  recent: 24
+  vote: 4

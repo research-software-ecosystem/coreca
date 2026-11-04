@@ -1,0 +1,45 @@
+package: trimmomatic
+distribution: debian
+release: sid
+component: main
+version: '0.39'
+source: trimmomatic
+homepage: http://www.usadellab.org/cms/index.php?page=trimmomatic
+license: unknown
+blend: debian-med
+description_md5: fb8a901542618dcc98ce51bd3dfb107e
+topics:
+- Sequencing
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - FASTQ
+  output:
+  - data: Sequence
+    formats:
+    - FASTQ
+  - data: Report
+    formats:
+    - Text
+  function:
+  - Sequence trimmimg
+  - Sequencing quality control
+registries:
+- entry: OMICS_01097
+  name: OMICtools
+- entry: SCR_011848
+  name: SciCrunch
+- entry: trimmomatic
+  name: bio.tools
+- entry: trimmomatic
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btu170
+popcon:
+- insts: 331
+  olde: 295
+  recent: 24
+  vote: 12

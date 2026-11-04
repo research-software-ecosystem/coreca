@@ -1,0 +1,141 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/orange_network",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Blaž Zupan",
+      "bsc:input": [
+        {
+          "@id": "_:N43291dd8c9094721a4c4e597604132d8"
+        },
+        {
+          "@id": "_:N53f36970e7144e13b50e482ea8ba4e4c"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Na1ea3fba32f34d31b638c25d78a760b5"
+        },
+        {
+          "@id": "_:Ne58be08f36594032a550a09434228410"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Desktop application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3473"
+        },
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_3474"
+        }
+      ],
+      "sc:author": "Jernej Kernc",
+      "sc:description": "A network analysis extension for a data mining software Orange. Network add-on includes components for network generation, network analysis, clustering and access to SNAP network database. All features can be combined with powerful visualizations, bioinformatics tools and data mining techniques from the core Orange data mining framework.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_1781"
+        },
+        {
+          "@id": "edam:operation_3083"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "GPL-3.0",
+      "sc:name": "Orange Network",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": [
+        "ELIXIR-SI-hackathon",
+        "Laboratory for Bioinformatics, University of Ljubljana"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://orange-network.readthedocs.org"
+      },
+      "sc:softwareVersion": "1.1.2",
+      "sc:url": "http://orange.biolab.si"
+    },
+    {
+      "@id": "_:N43291dd8c9094721a4c4e597604132d8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:N53f36970e7144e13b50e482ea8ba4e4c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:Na1ea3fba32f34d31b638c25d78a760b5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:Ne58be08f36594032a550a09434228410",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Matrix"
+    }
+  ]
+}

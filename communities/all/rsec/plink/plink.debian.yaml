@@ -1,0 +1,33 @@
+package: plink
+distribution: debian
+release: sid
+component: main
+version: '1.07'
+source: plink
+homepage: http://zzz.bwh.harvard.edu/plink/
+license: unknown
+blend: debian-med
+description_md5: 0b2b918c34eb1b80efe9854bb4994923
+registries:
+- entry: OMICS_00206
+  name: OMICtools
+- entry: SCR_001757
+  name: SciCrunch
+- entry: PLINK
+  name: bio.tools
+- entry: plink
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1086/519795
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c++
+- tag: interface::commandline
+- tag: role::program
+popcon:
+- insts: 204
+  olde: 90
+  recent: 20
+  vote: 94

@@ -1,0 +1,32 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix bioschemas: <http://bioschemas.org/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix debianmed: <https://salsa.debian.org/med-team/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix guix: <https://packages.guix.gnu.org/packages/> .
+@prefix schema1: <http://schema.org/> .
+@prefix scicrunch: <https://scicrunch.org/resolver/> .
+
+debianmed:rna-star a schema1:SoftwareApplication ;
+    bioschemas:input edam:data_0848,
+        edam:data_3002,
+        edam:data_3497 ;
+    bioschemas:output edam:data_2048 ;
+    schema1:additionalType edam:data_0848,
+        edam:data_2048,
+        edam:data_3002,
+        edam:data_3497 ;
+    schema1:applicationSubCategory edam:operation_2403,
+        edam:topic_0080 ;
+    schema1:citation "doi:10.1093/bioinformatics/bts635" ;
+    schema1:featureList edam:operation_3182 ;
+    schema1:identifier biotools:star,
+        bioconda:star,
+        guix:star,
+        scicrunch:SCR_015899,
+        "omictools:OMICS_01254" ;
+    schema1:license "unknown" ;
+    schema1:name "rna-star" ;
+    schema1:softwareVersion "2.7.11b" ;
+    schema1:url <https://github.com/alexdobin/STAR/> .
+

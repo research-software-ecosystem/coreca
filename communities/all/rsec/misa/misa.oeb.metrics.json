@@ -1,0 +1,192 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:misa/cmd/pgrc.ipk-gatersleben.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1169,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 26,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 33,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 42,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 46,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 51,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 52,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 58,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 60,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 76,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 79,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 81,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 83,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 86,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 87,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 106,
+                                    "year": 2022
+                                }
+                            ],
+                            "doi": "10.1007/s00122-002-1031-0",
+                            "pmid": "12589540",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Exploiting EST databases for the development and characterization of gene-derived SSR-markers in barley (Hordeum vulgare L.).",
+                            "year": 2002
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pgrc.ipk-gatersleben.de/misa/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://webblast.ipk-gatersleben.de/misa/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/misa",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pgrc.ipk-gatersleben.de/misa/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://webblast.ipk-gatersleben.de/misa/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

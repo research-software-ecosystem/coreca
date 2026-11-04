@@ -1,0 +1,25 @@
+package: pscan-chip
+distribution: debian
+release: sid
+component: main
+version: '1.1'
+source: pscan-chip
+homepage: http://www.beaconlab.it/pscan_chip_dev/
+license: unknown
+blend: debian-med
+description_md5: 7d9dfc67111eeb94ca580e301b5b2847
+registries:
+- entry: OMICS_00490
+  name: OMICtools
+- entry: SCR_010885
+  name: SciCrunch
+- entry: pscanchip
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/nar/gkt448
+popcon:
+- insts: 116
+  olde: 89
+  recent: 23
+  vote: 4

@@ -1,0 +1,20 @@
+package: proftmb
+distribution: debian
+release: sid
+component: main
+version: 1.1.12
+source: proftmb
+homepage: https://rostlab.org/
+license: unknown
+blend: debian-med
+description_md5: 8f76d051ad154ac0bdee7aa59976639c
+registries:
+- entry: OMICS_16019
+  name: OMICtools
+- entry: proftmb
+  name: bio.tools
+popcon:
+- insts: 116
+  olde: 89
+  recent: 23
+  vote: 4

@@ -1,0 +1,66 @@
+{
+    "Author": "AJ Vaestermark, JR Walters.",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.6)"
+    ],
+    "Description": "doseR package is a next generation sequencing package for sex chromosome dosage compensation which can be applied broadly to detect shifts in gene expression among an arbitrary number of pre-defined groups of loci. doseR is a differential gene expression package for count data, that detects directional shifts in expression for multiple, specific subsets of genes, broad utility in systems biology research. doseR has been prepared to manage the nature of the data and the desired set of inferences. doseR uses S4 classes to store count data from sequencing experiment. It contains functions to normalize and filter count data, as well as to plot and calculate statistics of count data. It contains a framework for linear modeling of count data. The package has been tested using real and simulated data.",
+    "Imports": [
+        "RUnit",
+        "S4Vectors",
+        "SummarizedExperiment",
+        "digest",
+        "edgeR",
+        "graphics",
+        "lme4",
+        "matrixStats",
+        "mclust",
+        "methods",
+        "stats"
+    ],
+    "License": "GPL",
+    "MD5sum": "0db6535b4d9d2ff6da71a403c7537e04",
+    "Maintainer": "ake.vastermark <ake.vastermark@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "doseR",
+    "Rank": 1195,
+    "Rfiles": [
+        "vignettes/doseR/inst/doc/doseR.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown"
+    ],
+    "Title": "doseR",
+    "Version": "1.28.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataRepresentation",
+        "DifferentialExpression",
+        "GeneExpression",
+        "Infrastructure",
+        "Sequencing",
+        "Software",
+        "SystemsBiology"
+    ],
+    "dependencyCount": "45",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "f516d0c",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/doseR",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/doseR_1.28.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/doseR_1.28.0.tgz",
+    "source.ver": "src/contrib/doseR_1.28.0.tar.gz",
+    "vignetteTitles": [
+        "\"doseR\""
+    ],
+    "vignettes": [
+        "vignettes/doseR/inst/doc/doseR.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/doseR_1.28.0.zip"
+}

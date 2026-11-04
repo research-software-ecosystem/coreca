@@ -1,0 +1,49 @@
+about:
+  description: Routines for parsing Affymetrix data files based upon file format information.
+    Primary focus is on accessing the CEL and CDF file formats.
+  home: https://bioconductor.org/packages/3.22/bioc/html/affyio.html
+  license: LGPL (>= 2)
+  license_file: /lib/R/share/licenses/LGPL-3
+  summary: Tools for parsing Affymetrix data files
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:affyio
+  - doi:10.1038/nmeth.3252
+  parent_recipe:
+    name: bioconductor-affyio
+    path: recipes/bioconductor-affyio
+    version: 1.50.0
+package:
+  name: bioconductor-affyio
+  version: 1.80.0
+requirements:
+  build:
+  - null
+  - automake
+  - make
+  host:
+  - r-base
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - r-base
+source:
+  md5: 0c5147bb9f0b683c9296156ee07a77d0
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/affyio_1.80.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/affyio/affyio_1.80.0.tar.gz
+  - https://bioarchive.galaxyproject.org/affyio_1.80.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-affyio/bioconductor-affyio_1.80.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('affyio')"

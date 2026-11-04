@@ -1,0 +1,85 @@
+{
+    "Author": "Robert Gentleman [aut], Rohit Satyam [ctb] (Converted geneplotter vignette from Sweave to RMarkdown / HTML.), Bioconductor Package Maintainer [cre]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biobase",
+        "BiocGenerics",
+        "R (>= 2.10)",
+        "annotate",
+        "lattice",
+        "methods"
+    ],
+    "Description": "Functions for plotting genomic data",
+    "Imports": [
+        "AnnotationDbi",
+        "RColorBrewer",
+        "grDevices",
+        "graphics",
+        "grid",
+        "stats",
+        "utils"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "45339619dad75ed1706406ed542c6811",
+    "Maintainer": "Bioconductor Package Maintainer <maintainer@bioconductor.org>",
+    "NeedsCompilation": "no",
+    "Package": "geneplotter",
+    "Rank": 121,
+    "Rfiles": [
+        "vignettes/geneplotter/inst/doc/byChroms.R",
+        "vignettes/geneplotter/inst/doc/visualize.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "Rgraphviz",
+        "fibroEset",
+        "hgu133a.db",
+        "hgu95av2.db",
+        "hu6800.db",
+        "knitr"
+    ],
+    "Title": "Graphics related functions for Bioconductor",
+    "Version": "1.90.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "48",
+    "dependsOnMe": [
+        "HD2013SGI"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "5aeaf77",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/geneplotter",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": true,
+    "importsMe": [
+        "DEXSeq",
+        "MethylSeekR",
+        "biocGraph"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/geneplotter_1.90.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/geneplotter_1.90.0.tgz",
+    "source.ver": "src/contrib/geneplotter_1.90.0.tar.gz",
+    "suggestsMe": [
+        "Category",
+        "EnrichmentBrowser",
+        "GOstats",
+        "Hiiragi2013",
+        "Single.mTEC.Transcriptomes",
+        "biocGraph"
+    ],
+    "vignetteTitles": [
+        "How to Assemble a chromLocation Object",
+        "Visualization of Microarray Data"
+    ],
+    "vignettes": [
+        "vignettes/geneplotter/inst/doc/byChroms.html",
+        "vignettes/geneplotter/inst/doc/visualize.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/geneplotter_1.90.0.zip"
+}

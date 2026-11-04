@@ -1,0 +1,60 @@
+{
+    "Author": "Zhicheng Ji, Hongkai Ji",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R(>= 2.10.0)",
+        "RColorBrewer",
+        "ggplot2",
+        "gplots",
+        "reshape2",
+        "rhdf5",
+        "shiny",
+        "sp"
+    ],
+    "Description": "GSCA takes as input several lists of activated and repressed genes. GSCA then searches through a compendium of publicly available gene expression profiles for biological contexts that are enriched with a specified pattern of gene expression. GSCA provides both traditional R functions and interactive, user-friendly user interface.",
+    "Imports": [
+        "graphics"
+    ],
+    "License": "GPL(>=2)",
+    "MD5sum": "ca65676e64dc56c1a81c4f29b13f09c7",
+    "Maintainer": "Zhicheng Ji <zji4@jhu.edu>",
+    "NeedsCompilation": "no",
+    "Package": "GSCA",
+    "Rank": 1134,
+    "Rfiles": [
+        "vignettes/GSCA/inst/doc/GSCA.R"
+    ],
+    "Suggests": [
+        "Affyhgu133A2Expr",
+        "Affyhgu133Plus2Expr",
+        "Affyhgu133aExpr",
+        "Affymoe4302Expr"
+    ],
+    "Title": "GSCA: Gene Set Context Analysis",
+    "Version": "2.42.0",
+    "biocViews": [
+        "GUI",
+        "GeneExpression",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "65",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "98d6c01",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/GSCA",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/GSCA_2.42.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/GSCA_2.42.0.tgz",
+    "source.ver": "src/contrib/GSCA_2.42.0.tar.gz",
+    "vignetteTitles": [
+        "GSCA"
+    ],
+    "vignettes": [
+        "vignettes/GSCA/inst/doc/GSCA.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/GSCA_2.42.0.zip"
+}

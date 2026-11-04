@@ -1,0 +1,22 @@
+package: r-cran-sctransform
+distribution: debian
+release: sid
+component: main
+version: 0.4.3
+source: r-cran-sctransform
+homepage: https://cran.r-project.org/package=sctransform
+license: unknown
+blend: debian-med
+description_md5: 9d4209991cd42878ad22e608ca2cb8dd
+registries:
+- entry: OMICS_31041
+  name: OMICtools
+- entry: sctransform
+  name: bio.tools
+- entry: r-sctransform
+  name: conda:conda-forge
+popcon:
+- insts: 136
+  olde: 104
+  recent: 25
+  vote: 7

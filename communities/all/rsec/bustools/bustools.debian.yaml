@@ -1,0 +1,25 @@
+package: bustools
+distribution: debian
+release: sid
+component: main
+version: 0.45.1
+source: bustools
+homepage: https://bustools.github.io/
+license: unknown
+blend: debian-med
+description_md5: bcf093f753bea7e5a120ad263ad7abba
+registries:
+- entry: OMICS_33004
+  name: OMICtools
+- entry: BUStools
+  name: bio.tools
+- entry: bustools
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1101/673285
+popcon:
+- insts: 116
+  olde: 88
+  recent: 24
+  vote: 4

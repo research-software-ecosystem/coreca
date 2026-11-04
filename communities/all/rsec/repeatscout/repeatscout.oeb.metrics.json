@@ -1,0 +1,251 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:repeatscout/undefined/bix.ucsd.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1359,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 25,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 28,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 32,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 36,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 47,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 53,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 58,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 59,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 81,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 90,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 92,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 123,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 127,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 136,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 153,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 173,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bti1018",
+                            "pmid": "15961478",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "De novo identification of repeat families in large genomes.",
+                            "year": 2005
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://dianedufresneexpo.ca/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:repeatscout:1.0.5/cmd/repeatscout.bioprojects.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://inclusivehealthconference.ca/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.covidcareathome.ca/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:repeatscout:1.0.6/cmd/repeatscout.bioprojects.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://inclusivehealthconference.ca/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.covidcareathome.ca/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/repeatscout",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://inclusivehealthconference.ca/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.covidcareathome.ca/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

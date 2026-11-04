@@ -1,0 +1,43 @@
+package: cd-hit
+distribution: debian
+release: sid
+component: main
+version: 4.8.1
+source: cd-hit
+homepage: http://weizhongli-lab.org/cd-hit/
+license: unknown
+blend: debian-med
+description_md5: ad9ee03ef4098028c26f1091e913dcda
+topics:
+- Genomics
+edam_scopes:
+- name: summary
+  input:
+  - data: Nucleic acid sequence (raw)
+    format:
+    - FASTA
+    - FASTQ
+  output:
+  - data: Sequence alignment (nucleic acid)
+    format:
+    - FASTA
+  function:
+  - Sequence clustering
+  - Sequence alignment
+registries:
+- entry: OMICS_05157
+  name: OMICtools
+- entry: SCR_007105
+  name: SciCrunch
+- entry: cd-hit
+  name: bio.tools
+- entry: cd-hit
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btl158
+popcon:
+- insts: 149
+  olde: 118
+  recent: 23
+  vote: 8

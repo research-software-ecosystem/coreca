@@ -1,0 +1,94 @@
+{
+    "Author": "William Hutchison [aut, cre] (ORCID: <https://orcid.org/0009-0001-6242-4269>), Stefano Mangiola [aut]",
+    "BugReports": "https://github.com/william-hutchison/tidySpatialExperiment/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.3.0)",
+        "SpatialExperiment",
+        "tidySingleCellExperiment",
+        "ttservice"
+    ],
+    "Description": "tidySpatialExperiment provides a bridge between the SpatialExperiment package and the tidyverse ecosystem. It creates an invisible layer that allows you to interact with a SpatialExperiment object as if it were a tibble; enabling the use of functions from dplyr, tidyr, ggplot2 and plotly. But, underneath, your data remains a SpatialExperiment object.",
+    "Imports": [
+        "BiocGenerics",
+        "S4Vectors",
+        "SingleCellExperiment",
+        "SummarizedExperiment",
+        "cli",
+        "dplyr",
+        "fansi",
+        "ggplot2 (>= 4.0.0)",
+        "lifecycle",
+        "magick",
+        "methods",
+        "pillar",
+        "pkgconfig",
+        "plotly",
+        "purrr",
+        "rlang",
+        "shiny",
+        "stringr",
+        "tibble",
+        "tidygate (>= 1.0.13)",
+        "tidyr",
+        "tidyselect",
+        "utils",
+        "vctrs"
+    ],
+    "License": "GPL (>= 3)",
+    "MD5sum": "88407398c93005fa9dbae282246bf037",
+    "Maintainer": "William Hutchison <hutchison.w@wehi.edu.au>",
+    "NeedsCompilation": "no",
+    "Package": "tidySpatialExperiment",
+    "Rank": 1577,
+    "Rfiles": [
+        "vignettes/tidySpatialExperiment/inst/doc/overview.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "DropletUtils",
+        "cowplot",
+        "igraph",
+        "knitr",
+        "markdown",
+        "scater",
+        "testthat",
+        "tidySummarizedExperiment"
+    ],
+    "Title": "SpatialExperiment with tidy principles",
+    "URL": "https://github.com/william-hutchison/tidySpatialExperiment, https://william-hutchison.github.io/tidySpatialExperiment/",
+    "Version": "1.8.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "GeneExpression",
+        "Infrastructure",
+        "RNASeq",
+        "Sequencing",
+        "SingleCell",
+        "Software",
+        "Spatial",
+        "Transcriptomics"
+    ],
+    "dependencyCount": "113",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "c9f08a6",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/tidySpatialExperiment",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "tidyomics"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/tidySpatialExperiment_1.8.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/tidySpatialExperiment_1.8.0.tgz",
+    "source.ver": "src/contrib/tidySpatialExperiment_1.8.0.tar.gz",
+    "vignetteTitles": [
+        "Overview"
+    ],
+    "vignettes": [
+        "vignettes/tidySpatialExperiment/inst/doc/overview.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/tidySpatialExperiment_1.8.0.zip"
+}

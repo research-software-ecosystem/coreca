@@ -1,0 +1,65 @@
+{
+    "Author": "Tyler Smith <tyler@plantarum.ca>",
+    "BugReports": "https://github.com/plantarum/flowPloidy/issues",
+    "Date/Publication": "2026-04-28",
+    "Description": "Determine sample ploidy via flow cytometry histogram analysis. Reads Flow Cytometry Standard (FCS) files via the flowCore bioconductor package, and provides functions for determining the DNA ploidy of samples based on internal standards.",
+    "Imports": [
+        "caTools",
+        "car",
+        "flowCore",
+        "graphics",
+        "knitr",
+        "methods",
+        "minpack.lm",
+        "rmarkdown",
+        "shiny",
+        "stats",
+        "utils"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "795325ed0aa19de27752cca72fc5187f",
+    "Maintainer": "Tyler Smith <tyler@plantarum.ca>",
+    "NeedsCompilation": "no",
+    "Package": "flowPloidy",
+    "Rank": 1514,
+    "Rfiles": [
+        "vignettes/flowPloidy/inst/doc/flowPloidy-gettingStarted.R",
+        "vignettes/flowPloidy/inst/doc/histogram-tour.R"
+    ],
+    "Suggests": [
+        "flowPloidyData",
+        "testthat"
+    ],
+    "Title": "Analyze flow cytometer data to determine sample ploidy",
+    "URL": "https://github.com/plantarum/flowPloidy",
+    "Version": "1.38.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "FlowCytometry",
+        "GUI",
+        "Regression",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "122",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "390a644",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/flowPloidy",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/flowPloidy_1.38.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/flowPloidy_1.38.0.tgz",
+    "source.ver": "src/contrib/flowPloidy_1.38.0.tar.gz",
+    "vignetteTitles": [
+        "flowPloidy: FCM Histograms",
+        "flowPloidy: Getting Started"
+    ],
+    "vignettes": [
+        "vignettes/flowPloidy/inst/doc/flowPloidy-gettingStarted.pdf",
+        "vignettes/flowPloidy/inst/doc/histogram-tour.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/flowPloidy_1.38.0.zip"
+}

@@ -1,0 +1,27 @@
+package: beast2-mcmc
+distribution: debian
+release: sid
+component: main
+version: 2.7.8
+source: beast2-mcmc
+homepage: https://www.beast2.org
+license: unknown
+blend: debian-med
+description_md5: 2785321ab12649989f68aa400b6cbd7d
+registries:
+- entry: OMICS_04233
+  name: OMICtools
+- entry: SCR_010228
+  name: SciCrunch
+- entry: beast
+  name: bio.tools
+- entry: beast2
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1371/journal.pcbi.1003537
+popcon:
+- insts: 117
+  olde: 90
+  recent: 23
+  vote: 4

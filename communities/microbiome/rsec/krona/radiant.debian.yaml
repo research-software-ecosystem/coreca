@@ -1,0 +1,27 @@
+package: radiant
+distribution: debian
+release: sid
+component: main
+version: 2.8.1
+source: radiant
+homepage: https://github.com/marbl/Krona
+license: unknown
+blend: debian-med
+description_md5: ebbe6c64ad9b1f2094c661efc9e77f4e
+registries:
+- entry: OMICS_01498
+  name: OMICtools
+- entry: SCR_012785
+  name: SciCrunch
+- entry: krona
+  name: bio.tools
+- entry: krona
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/1471-2105-12-385
+popcon:
+- insts: 120
+  olde: 92
+  recent: 24
+  vote: 4

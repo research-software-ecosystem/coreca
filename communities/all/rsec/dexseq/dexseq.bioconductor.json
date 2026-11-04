@@ -1,0 +1,100 @@
+{
+    "Author": "Simon Anders [aut], Alejandro Reyes [aut, ccp] (Maintainer until 2026.), Hugo Gruson [cre]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "AnnotationDbi",
+        "Biobase",
+        "BiocParallel",
+        "DESeq2 (>= 1.39.6)",
+        "GenomicRanges (>= 1.23.7)",
+        "IRanges (>= 2.5.17)",
+        "S4Vectors (>= 0.23.18)",
+        "SummarizedExperiment"
+    ],
+    "Description": "The package is focused on finding differential exon usage using RNA-seq exon counts between samples with different experimental designs. It provides functions that allows the user to make the necessary statistical tests based on a model that uses the negative binomial distribution to estimate the variance between biological replicates and generalized linear models for testing. The package also provides functions for the visualization and exploration of the results.",
+    "Imports": [
+        "BiocGenerics",
+        "Rsamtools",
+        "biomaRt",
+        "genefilter",
+        "geneplotter",
+        "hwriter",
+        "methods",
+        "statmod",
+        "stringr"
+    ],
+    "License": "GPL (>= 3)",
+    "MD5sum": "95516e90d92d91220340283d3bc08278",
+    "Maintainer": "Hugo Gruson <hugo.gruson@embl.de>",
+    "NeedsCompilation": "no",
+    "Package": "DEXSeq",
+    "Rank": 185,
+    "Rfiles": [
+        "vignettes/DEXSeq/inst/doc/DEXSeq.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "GenomeInfoDb",
+        "GenomicAlignments",
+        "GenomicFeatures",
+        "glmGamPoi",
+        "knitr",
+        "pasilla (>= 0.2.22)",
+        "pasillaBamSubset",
+        "rmarkdown",
+        "roxygen2",
+        "testthat",
+        "txdbmaker"
+    ],
+    "Title": "Inference of differential exon usage in RNA-Seq",
+    "Version": "1.58.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "AlternativeSplicing",
+        "DifferentialExpression",
+        "DifferentialSplicing",
+        "GeneExpression",
+        "ImmunoOncology",
+        "RNASeq",
+        "Sequencing",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "107",
+    "dependsOnMe": [
+        "IsoformSwitchAnalyzeR",
+        "pasilla",
+        "rnaseqDTU"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "847ca9b",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/DEXSeq",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "IntEREst",
+        "diffUTR",
+        "pairedGSEA"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/DEXSeq_1.58.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/DEXSeq_1.58.0.tgz",
+    "source.ver": "src/contrib/DEXSeq_1.58.0.tar.gz",
+    "suggestsMe": [
+        "BioPlex",
+        "GenomicRanges",
+        "bambu",
+        "satuRn",
+        "stageR",
+        "subSeq"
+    ],
+    "vignetteTitles": [
+        "Inferring differential exon usage in RNA-Seq data with the DEXSeq package"
+    ],
+    "vignettes": [
+        "vignettes/DEXSeq/inst/doc/DEXSeq.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/DEXSeq_1.58.0.zip"
+}

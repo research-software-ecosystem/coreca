@@ -1,0 +1,420 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:liquorice/cmd/liquorice.computational-epigenetics.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 5,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2026
+                                }
+                            ],
+                            "doi": "10.1093/bioadv/vbac017",
+                            "pmcid": "PMC9710688",
+                            "pmid": "36699368",
+                            "ref_count": 14,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2019
+                                }
+                            ],
+                            "title": "LIQUORICE: detection of epigenetic signatures in liquid biopsies based on whole-genome sequencing data.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://liquorice.readthedocs.io/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://liquorice.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://liquorice.readthedocs.io/en/latest/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:liquorice:0.5.6/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://liquorice.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://liquorice.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://liquorice.readthedocs.io/en/latest/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:liquorice:0.5.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://liquorice.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://liquorice.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://liquorice.readthedocs.io/en/latest/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:liquorice:0.5.4/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://liquorice.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://liquorice.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://liquorice.readthedocs.io/en/latest/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:liquorice:0.5.5/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://liquorice.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://liquorice.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://liquorice.readthedocs.io/en/latest/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/liquorice",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": false,
+            "sourcecode": {
+                "free": null,
+                "interpreted": null,
+                "license": null,
+                "public": true,
+                "readme": false,
+                "repository": {
+                    "anonymous": null,
+                    "online": null
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": false,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://liquorice.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://liquorice.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://liquorice.readthedocs.io/en/latest/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": null,
+                "resolve_time": null
+            }
+        }
+    }
+]

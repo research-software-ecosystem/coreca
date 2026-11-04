@@ -1,0 +1,25 @@
+package: optimir
+distribution: debian
+release: sid
+component: main
+version: '1.2'
+source: optimir
+homepage: https://github.com/FlorianThibord/OptimiR
+license: unknown
+blend: debian-med
+description_md5: 759e6ff9eaeea6644852b82160c2085c
+registries:
+- entry: OMICS_33123
+  name: OMICtools
+- entry: optimir
+  name: bio.tools
+- entry: optimir
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1261/rna.069708.118
+popcon:
+- insts: 112
+  olde: 84
+  recent: 21
+  vote: 7

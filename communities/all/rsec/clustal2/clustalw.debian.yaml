@@ -1,0 +1,51 @@
+package: clustalw
+distribution: debian
+release: sid
+component: main
+version: '2.1'
+source: clustalw
+homepage: http://www.clustal.org/clustal2/
+license: unknown
+blend: debian-med
+description_md5: 633246bd8fd1b951f15985f7cbfb1909
+topics:
+- Sequence analysis
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+  output:
+  - data: Sequence alignment
+  function:
+  - Multiple equence alignment
+registries:
+- entry: OMICS_02562
+  name: OMICtools
+- entry: SCR_002909
+  name: SciCrunch
+- entry: clustal2
+  name: bio.tools
+- entry: clustalw
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btm404
+tags:
+- tag: biology::format:aln
+- tag: biology::nuceleic-acids
+- tag: biology::peptidic
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c++
+- tag: interface::commandline
+- tag: interface::text-mode
+- tag: role::program
+- tag: scope::utility
+- tag: use::comparing
+- tag: works-with-format::plaintext
+- tag: works-with::TODO
+popcon:
+- insts: 321
+  olde: 284
+  recent: 26
+  vote: 11

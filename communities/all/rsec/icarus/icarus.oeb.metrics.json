@@ -1,0 +1,414 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:icarus/cmd/quast.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 86,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2023
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btw379",
+                            "pmid": "27378299",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Icarus: visualizer for de novo assembly evaluation.",
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://quast.sourceforge.net/icarus.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:icarus/web/quast.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 86,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2023
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btw379",
+                            "pmid": "27378299",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Icarus: visualizer for de novo assembly evaluation.",
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://quast.sourceforge.net/icarus.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:icarus:none/cmd/quast.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 86,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2023
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btw379",
+                            "pmid": "27378299",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Icarus: visualizer for de novo assembly evaluation.",
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://quast.sourceforge.net/icarus.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:icarus:none/web/quast.sourceforge.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 86,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2023
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btw379",
+                            "pmid": "27378299",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Icarus: visualizer for de novo assembly evaluation.",
+                            "year": 2016
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://quast.sourceforge.net/icarus.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/icarus",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://quast.sourceforge.net/icarus.html"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

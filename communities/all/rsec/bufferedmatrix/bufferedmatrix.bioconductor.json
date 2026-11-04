@@ -1,0 +1,51 @@
+{
+    "Archs": "x64",
+    "Author": "Ben Bolstad <bmb@bmbolstad.com>",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 2.6.0)",
+        "methods"
+    ],
+    "Description": "A tabular style data object where most data is stored outside main memory. A buffer is used to speed up access to data.",
+    "License": "LGPL (>= 2)",
+    "MD5sum": "78fa493975e7d571a6b5a9c399ec4dab",
+    "Maintainer": "Ben Bolstad <bmb@bmbolstad.com>",
+    "NeedsCompilation": "yes",
+    "Package": "BufferedMatrix",
+    "Rank": 1356,
+    "Rfiles": [
+        "vignettes/BufferedMatrix/inst/doc/BufferedMatrix.R"
+    ],
+    "Title": "A matrix data storage object held in temporary files",
+    "URL": "https://github.com/bmbolstad/BufferedMatrix",
+    "Version": "1.76.0",
+    "biocViews": [
+        "Infrastructure",
+        "Software"
+    ],
+    "dependencyCount": "1",
+    "dependsOnMe": [
+        "BufferedMatrixMethods"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "9d72964",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/BufferedMatrix",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "linksToMe": [
+        "BufferedMatrixMethods"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/BufferedMatrix_1.76.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/BufferedMatrix_1.76.0.tgz",
+    "source.ver": "src/contrib/BufferedMatrix_1.76.0.tar.gz",
+    "vignetteTitles": [
+        "BufferedMatrix: Introduction"
+    ],
+    "vignettes": [
+        "vignettes/BufferedMatrix/inst/doc/BufferedMatrix.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/BufferedMatrix_1.76.0.zip"
+}

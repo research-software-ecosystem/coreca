@@ -1,0 +1,67 @@
+{
+    "Author": "Christine Hou [aut] (ORCID: <https://orcid.org/0009-0001-5350-0629>), Kinnary Shah [aut, cre], Jacqueline R. Thompson [aut], Stephanie C. Hicks [aut, fnd] (ORCID: <https://orcid.org/0000-0002-7858-0231>)",
+    "BugReports": "https://github.com/christinehou11/BatchSVG/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.5.0)"
+    ],
+    "Description": "BatchSVG is a method to identify batch-biased spatially variable genes (SVGs) in spatial transcriptomics data. The batch variable can be defined as sample, donor sex, or other batch effects of interest. The BatchSVG method is based on the binomial deviance model (Townes et al, 2019).",
+    "Imports": [
+        "RColorBrewer",
+        "SummarizedExperiment",
+        "cowplot",
+        "dplyr",
+        "ggplot2",
+        "ggrepel",
+        "rlang",
+        "scales",
+        "scry",
+        "stats"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "ac700f7e9b05be83f8a1548b787db0ed",
+    "Maintainer": "Kinnary Shah <kinnaryshahh@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "BatchSVG",
+    "Rank": 2183,
+    "Rfiles": [
+        "vignettes/BatchSVG/inst/doc/spe.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown",
+        "spatialLIBD",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "Identify Batch-Biased Spatially Variable Genes",
+    "URL": "https://github.com/christinehou11/BatchSVG, https://christinehou11.github.io/BatchSVG",
+    "Version": "1.4.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "BatchEffect",
+        "QualityControl",
+        "Software",
+        "Spatial",
+        "Transcriptomics"
+    ],
+    "dependencyCount": "71",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "402c3bd",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/BatchSVG",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/BatchSVG_1.4.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/BatchSVG_1.4.0.tgz",
+    "source.ver": "src/contrib/BatchSVG_1.4.0.tar.gz",
+    "vignetteTitles": [
+        "Tutorial for spe object"
+    ],
+    "vignettes": [
+        "vignettes/BatchSVG/inst/doc/spe.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/BatchSVG_1.4.0.zip"
+}

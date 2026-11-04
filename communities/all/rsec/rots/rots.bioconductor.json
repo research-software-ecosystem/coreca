@@ -1,0 +1,71 @@
+{
+    "Author": "Fatemeh Seyednasrollah, Tomi Suomi, Laura L. Elo",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.6)"
+    ],
+    "Description": "Calculates the Reproducibility-Optimized Test Statistic (ROTS) for differential testing in omics data.",
+    "Imports": [
+        "Biobase",
+        "BiocParallel",
+        "Rcpp",
+        "lme4",
+        "methods",
+        "stats",
+        "survival"
+    ],
+    "License": "GPL (>= 2)",
+    "LinkingTo": [
+        "Rcpp"
+    ],
+    "MD5sum": "c7f5d5db96671ea255afdd828d6c1360",
+    "Maintainer": "Tomi Suomi <tomi.suomi@utu.fi>",
+    "NeedsCompilation": "yes",
+    "Package": "ROTS",
+    "Rank": 668,
+    "Rfiles": [
+        "vignettes/ROTS/inst/doc/ROTS.R"
+    ],
+    "Suggests": [
+        "testthat"
+    ],
+    "Title": "Reproducibility-Optimized Test Statistic",
+    "Version": "2.4.0",
+    "biocViews": [
+        "DifferentialExpression",
+        "GeneExpression",
+        "ImmunoOncology",
+        "Microarray",
+        "Proteomics",
+        "RNASeq",
+        "Software"
+    ],
+    "dependencyCount": "35",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "a2b5020",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/ROTS",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "PECA",
+        "PRONE",
+        "RolDE"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/ROTS_2.4.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/ROTS_2.4.0.tgz",
+    "source.ver": "src/contrib/ROTS_2.4.0.tar.gz",
+    "suggestsMe": [
+        "LimROTS",
+        "wrProteo"
+    ],
+    "vignetteTitles": [
+        "ROTS: Reproducibility Optimized Test Statistic"
+    ],
+    "vignettes": [
+        "vignettes/ROTS/inst/doc/ROTS.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/ROTS_2.4.0.zip"
+}

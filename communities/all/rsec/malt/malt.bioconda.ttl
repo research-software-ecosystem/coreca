@@ -1,0 +1,11 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix schema1: <http://schema.org/> .
+
+bioconda:malt a schema1:SoftwareApplication ;
+    schema1:alternateName "A tool for mapping metagenomic data" ;
+    schema1:description "A tool for mapping metagenomic data" ;
+    schema1:license "GPLv3" ;
+    schema1:name "malt" ;
+    schema1:softwareVersion "0.62" ;
+    schema1:url "http://ab.inf.uni-tuebingen.de/software/malt/" .
+

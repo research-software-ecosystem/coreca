@@ -1,0 +1,59 @@
+{
+    "Author": "Alessandro Lussana [aut, cre]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.6)",
+        "SummarizedExperiment"
+    ],
+    "Description": "Impute a GReX (Genetically Regulated Expression) for a set of genes in a sample of individuals, using a method based on the Total Binding Affinity (TBA). Statistical models to impute GReX can be trained with a training dataset where the real total expression values are known.",
+    "Imports": [
+        "BiocParallel",
+        "MultiAssayExperiment",
+        "crayon"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "289cc713986f61abf1483d08d8b2c88b",
+    "Maintainer": "Alessandro Lussana <alessandro.lussana@protonmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "AffiXcan",
+    "Rank": 1215,
+    "Rfiles": [
+        "vignettes/AffiXcan/inst/doc/AffiXcan.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown"
+    ],
+    "Title": "A Functional Approach To Impute Genetically Regulated Expression",
+    "Version": "1.30.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DimensionReduction",
+        "GeneExpression",
+        "GeneRegulation",
+        "PrincipalComponent",
+        "Regression",
+        "Software",
+        "Transcription"
+    ],
+    "dependencyCount": "56",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "0be3f9a",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/AffiXcan",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/AffiXcan_1.30.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/AffiXcan_1.30.0.tgz",
+    "source.ver": "src/contrib/AffiXcan_1.30.0.tar.gz",
+    "vignetteTitles": [
+        "AffiXcan"
+    ],
+    "vignettes": [
+        "vignettes/AffiXcan/inst/doc/AffiXcan.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/AffiXcan_1.30.0.zip"
+}

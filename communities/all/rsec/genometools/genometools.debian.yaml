@@ -1,0 +1,32 @@
+package: genometools
+distribution: debian
+release: sid
+component: main
+version: 1.6.6+ds
+source: genometools
+homepage: http://genometools.org
+license: unknown
+blend: debian-med
+description_md5: 00c8a03659977f199801c7a670b057b3
+registries:
+- entry: OMICS_16119
+  name: OMICtools
+- entry: genometools
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1109/TCBB.2013.68
+tags:
+- tag: biology::nuceleic-acids
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: implemented-in::lua
+- tag: interface::commandline
+- tag: role::program
+- tag: uitoolkit::ncurses
+popcon:
+- insts: 138
+  olde: 109
+  recent: 23
+  vote: 6

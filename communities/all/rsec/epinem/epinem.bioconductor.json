@@ -1,0 +1,85 @@
+{
+    "Author": "Madeline Diekmann & Martin Pirkl",
+    "BugReports": "https://github.com/cbg-ethz/epiNEM/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.1)"
+    ],
+    "Description": "epiNEM is an extension of the original Nested Effects Models (NEM). EpiNEM is able to take into account double knockouts and infer more complex network signalling pathways. It is tailored towards large scale double knock-out screens.",
+    "Imports": [
+        "BoolNet",
+        "BoutrosLab.plotting.general",
+        "RColorBrewer",
+        "e1071",
+        "grDevices",
+        "graph",
+        "gtools",
+        "igraph",
+        "latex2exp",
+        "lattice",
+        "latticeExtra",
+        "minet",
+        "mnem",
+        "pcalg",
+        "stats",
+        "utils"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "8fe7856325148f25acec2f8aad3a7508",
+    "Maintainer": "Martin Pirkl <martinpirkl@yahoo.de>",
+    "NeedsCompilation": "no",
+    "Package": "epiNEM",
+    "Rank": 1060,
+    "Rfiles": [
+        "vignettes/epiNEM/inst/doc/epiNEM.R"
+    ],
+    "Suggests": [
+        "AnnotationHub",
+        "BiocGenerics",
+        "BiocStyle",
+        "GOSemSim",
+        "RUnit",
+        "STRINGdb",
+        "devtools",
+        "knitr",
+        "org.Sc.sgd.db",
+        "rmarkdown"
+    ],
+    "Title": "epiNEM",
+    "URL": "https://github.com/cbg-ethz/epiNEM/",
+    "Version": "1.36.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Network",
+        "NetworkInference",
+        "Pathways",
+        "Software",
+        "SystemsBiology"
+    ],
+    "dependencyCount": "107",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "73fc1ee",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/epiNEM",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "bnem",
+        "nempi"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/epiNEM_1.36.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/epiNEM_1.36.0.tgz",
+    "source.ver": "src/contrib/epiNEM_1.36.0.tar.gz",
+    "suggestsMe": [
+        "mnem"
+    ],
+    "vignetteTitles": [
+        "epiNEM"
+    ],
+    "vignettes": [
+        "vignettes/epiNEM/inst/doc/epiNEM.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/epiNEM_1.35.0.zip"
+}

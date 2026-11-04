@@ -1,0 +1,171 @@
+{
+    "accessibility": "Open access (with restrictions)",
+    "additionDate": "2026-06-17T13:48:11.660514Z",
+    "biotoolsCURIE": "biotools:dante-tr",
+    "biotoolsID": "dante-tr",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "andrej.balaz@geneton.sk",
+            "name": "Andrej Baláž",
+            "orcidid": "https://orcid.org/0000-0002-3113-3389",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "email": "jaroslav.budis@geneton.sk",
+            "name": "Jaroslav Budiš",
+            "orcidid": "https://orcid.org/0000-0002-8667-6655",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer",
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "ingrid.lojova@savba.sk",
+            "name": "Ingrid Lojová",
+            "orcidid": "https://orcid.org/0000-0001-7659-0850",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "email": "jan.radvanszky@savba.sk",
+            "name": "Ján Radvánszky",
+            "orcidid": "https://orcid.org/0000-0001-9657-1198",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "email": "marcel.kucharik@geneton.sk",
+            "name": "Marcel Kucharik",
+            "orcidid": "https://orcid.org/0000-0002-5373-8282",
+            "typeRole": [
+                "Developer"
+            ]
+        }
+    ],
+    "description": "DANTE is a software tool for genotyping and characterizing tandem repeats (TRs) from both second- and third-generation sequencing data. It supports the analysis of short-read massively parallel sequencing (sr-MPS) and long-read massively parallel sequencing (lr-MPS), enabling accurate repeat characterization across a wide range of loci.\n\nA key feature of DANTE is its ability to determine genotypes at nucleotide resolution, including the characterization and phasing of complex repeat motifs. For sr-MPS data, the tool determines allele size and sequence composition of alleles for which spanning reads are generated. In addition, it identifies alleles that exceed the sequencing read length by estimating their presence from partial read evidence and supports the visualisation of the sequence composition of partial reads. For lr-MPS data, where complete repeat regions are typically sequenced, DANTE determines the allele size and sequence composition of identified alleles.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://github.com/dante-tr/dante-tr/blob/main/README.md"
+        }
+    ],
+    "download": [
+        {
+            "type": "Source code",
+            "url": "https://github.com/dante-tr/dante-tr"
+        }
+    ],
+    "editPermission": {
+        "type": "group"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "DNA sequence",
+                        "uri": "http://edamontology.org/data_3494"
+                    },
+                    "format": [
+                        {
+                            "term": "BAM",
+                            "uri": "http://edamontology.org/format_2572"
+                        },
+                        {
+                            "term": "FASTA-like (text)",
+                            "uri": "http://edamontology.org/format_2200"
+                        },
+                        {
+                            "term": "FASTQ-like format (text)",
+                            "uri": "http://edamontology.org/format_2182"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Genotyping",
+                    "uri": "http://edamontology.org/operation_3196"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Genotype/phenotype report",
+                        "uri": "http://edamontology.org/data_0920"
+                    },
+                    "format": [
+                        {
+                            "term": "HTML",
+                            "uri": "http://edamontology.org/format_2331"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/dante-tr/dante-tr",
+    "language": [
+        "Python",
+        "Rust"
+    ],
+    "lastUpdate": "2026-07-15T11:43:42.697396Z",
+    "license": "CC-BY-NC-SA-4.0",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/dante-tr/dante-tr"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "Dante",
+    "operatingSystem": [
+        "Linux"
+    ],
+    "owner": "andrej",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/bty791",
+            "pmcid": "PMC6166771",
+            "pmid": "30203023",
+            "type": [
+                "Primary"
+            ]
+        },
+        {
+            "doi": "10.1016/j.ab.2025.115793",
+            "pmid": "39894140",
+            "type": [
+                "Usage"
+            ]
+        },
+        {
+            "doi": "10.1016/j.mcp.2024.102005",
+            "pmid": "39710066",
+            "type": [
+                "Usage"
+            ]
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Genetic variation",
+            "uri": "http://edamontology.org/topic_0199"
+        }
+    ]
+}

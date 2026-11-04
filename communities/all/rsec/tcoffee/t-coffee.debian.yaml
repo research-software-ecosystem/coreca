@@ -1,0 +1,39 @@
+package: t-coffee
+distribution: debian
+release: sid
+component: main
+version: 13.45.0.4846264+really13.41.0.28bdc39
+source: t-coffee
+homepage: https://www.tcoffee.org/Projects/tcoffee/index.html
+license: unknown
+blend: debian-med
+description_md5: d9e3464438ee56699a59a136061af5df
+registries:
+- entry: OMICS_00989
+  name: OMICtools
+- entry: SCR_011818
+  name: SciCrunch
+- entry: tcoffee
+  name: bio.tools
+- entry: t-coffee
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1006/jmbi.2000.4042
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::analysing
+- tag: use::comparing
+- tag: works-with-format::TODO
+- tag: works-with-format::plaintext
+- tag: works-with::TODO
+popcon:
+- insts: 281
+  olde: 247
+  recent: 25
+  vote: 9

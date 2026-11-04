@@ -1,0 +1,23 @@
+package: rambo-k
+distribution: debian
+release: sid
+component: main
+version: '1.21'
+source: rambo-k
+homepage: http://rambok.sourceforge.net/
+license: unknown
+blend: debian-med
+description_md5: a05ed8471b33e5174a52d89ac988bf09
+registries:
+- entry: OMICS_10013
+  name: OMICtools
+- entry: RAMBO-K
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1371/journal.pone.0137896
+popcon:
+- insts: 111
+  olde: 82
+  recent: 22
+  vote: 7

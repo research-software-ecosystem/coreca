@@ -1,0 +1,213 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2021-04-21T22:48:24Z",
+    "biotoolsCURIE": "biotools:open-cravat",
+    "biotoolsID": "open-cravat",
+    "collectionID": [
+        "Rare Disease",
+        "Rare disease"
+    ],
+    "confidence_flag": "tool",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "name": "Kyle Moad"
+        },
+        {
+            "name": "Kymberleigh A Pagel"
+        },
+        {
+            "name": "Rachel Karchin"
+        },
+        {
+            "name": "Rick Kim"
+        }
+    ],
+    "description": "OpenCRAVAT is a new open source, scalable decision support system to support variant and gene prioritization. It offers a dynamic GUI, allowing users to easily, download tools from an extensive resource catalog, create customized pipelines, run jobs at speeds that exceed current variant annotation API services, and explore results in a richly detailed viewing environment. OpenCRAVAT is distinguished from similar tools by the amount and diversity of data resources and computational prediction methods available, which span germline, somatic, common, rare, coding and non-coding variants. We have designed the OpenCRAVAT resource catalog to be open and modular to maximize community and developer involvement, and as a result the catalog is being actively developed and growing larger every month.",
+    "documentation": [
+        {
+            "type": [
+                "API documentation",
+                "General",
+                "Installation instructions",
+                "Quick start guide",
+                "User manual"
+            ],
+            "url": "https://docs.opencravat.org/en/latest/index.html"
+        }
+    ],
+    "download": [
+        {
+            "type": "Container file",
+            "url": "https://hub.docker.com/r/karchinlab/opencravat"
+        },
+        {
+            "type": "Downloads page",
+            "url": "https://github.com/KarchinLab/open-cravat/releases/"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "charles7"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "cmd": "oc run -a ANNOTATOR_LIST input.vcf",
+            "input": [
+                {
+                    "data": {
+                        "term": "Sequence variations",
+                        "uri": "http://edamontology.org/data_3498"
+                    },
+                    "format": [
+                        {
+                            "term": "VCF",
+                            "uri": "http://edamontology.org/format_3016"
+                        }
+                    ]
+                }
+            ],
+            "note": "Additional input formats include: list of dbSNP rsIDs, HGVS annotation, and a tab-separated variant annotation format.\n\nOutput is also in text, excel, and a SQLite database. The SQLIte database format can be loaded into `oc gui` as an interactive web application",
+            "operation": [
+                {
+                    "term": "Gene functional annotation",
+                    "uri": "http://edamontology.org/operation_3672"
+                },
+                {
+                    "term": "Genetic variation analysis",
+                    "uri": "http://edamontology.org/operation_3197"
+                },
+                {
+                    "term": "SNP annotation",
+                    "uri": "http://edamontology.org/operation_3661"
+                },
+                {
+                    "term": "Variant calling",
+                    "uri": "http://edamontology.org/operation_3227"
+                },
+                {
+                    "term": "Variant effect prediction",
+                    "uri": "http://edamontology.org/operation_0331"
+                },
+                {
+                    "term": "Variant prioritisation",
+                    "uri": "http://edamontology.org/operation_3226"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Sequence variations",
+                        "uri": "http://edamontology.org/data_3498"
+                    },
+                    "format": [
+                        {
+                            "term": "VCF",
+                            "uri": "http://edamontology.org/format_3016"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "https://opencravat.org",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2026-02-18T22:04:46.355009Z",
+    "license": "MIT",
+    "link": [
+        {
+            "note": "Catalogue of modules for OpenCRAVAT, including annotators, variant effect predictors, etc.",
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "https://run.opencravat.org/submit/nocache/index.html"
+        },
+        {
+            "note": "Web server for running the current version of OpenCRAVAT without needing a local installation.",
+            "type": [
+                "Service"
+            ],
+            "url": "https://run.opencravat.org/"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/KarchinLab/open-cravat"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "open-cravat",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "rachel2",
+    "publication": [
+        {
+            "doi": "10.1200/cci.19.00132",
+            "pmcid": "PMC7113103",
+            "pmid": "32228266"
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Web API",
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Exome sequencing",
+            "uri": "http://edamontology.org/topic_3676"
+        },
+        {
+            "term": "Functional, regulatory and non-coding RNA",
+            "uri": "http://edamontology.org/topic_0659"
+        },
+        {
+            "term": "Genetic variation",
+            "uri": "http://edamontology.org/topic_0199"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Genotype and phenotype",
+            "uri": "http://edamontology.org/topic_0625"
+        },
+        {
+            "term": "Oncology",
+            "uri": "http://edamontology.org/topic_2640"
+        },
+        {
+            "term": "Rare diseases",
+            "uri": "http://edamontology.org/topic_3325"
+        },
+        {
+            "term": "Sequence analysis",
+            "uri": "http://edamontology.org/topic_0080"
+        },
+        {
+            "term": "Structural variation",
+            "uri": "http://edamontology.org/topic_3175"
+        },
+        {
+            "term": "Whole genome sequencing",
+            "uri": "http://edamontology.org/topic_3673"
+        },
+        {
+            "term": "Workflows",
+            "uri": "http://edamontology.org/topic_0769"
+        }
+    ],
+    "version": [
+        "2.16.0",
+        "2.17.0"
+    ]
+}

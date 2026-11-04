@@ -1,0 +1,356 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/npre.2011.6107",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/gatk_base_recalibrator",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Galaxy Support Team",
+      "bsc:input": [
+        {
+          "@id": "_:N8f610f8afa434d909c2a73d4856ffffe"
+        },
+        {
+          "@id": "_:Necc843588b4442a2840ff0b68fe8958d"
+        },
+        {
+          "@id": "_:Nd8d012446c6b458abac393904a763df5"
+        },
+        {
+          "@id": "_:N8a6c104c41504de0b7887d53d22a2808"
+        },
+        {
+          "@id": "_:N68ac258a19374b3b83a3305b9db67049"
+        },
+        {
+          "@id": "_:N9a3abe51a571487595915f0e64c0044d"
+        },
+        {
+          "@id": "_:N63c51c89675d498eb6b38d6a0cc6873f"
+        },
+        {
+          "@id": "_:N563a199a3f1e49be93d099236fe16b29"
+        },
+        {
+          "@id": "_:N56ddc8e3e47144beab35242e73f996fc"
+        },
+        {
+          "@id": "_:N757ef20eb9b14b9e8dffcc860ed8636b"
+        },
+        {
+          "@id": "_:N1228c4cdde8845c7849008de775ca88d"
+        },
+        {
+          "@id": "_:N91ba577dcb974165b3d607343351c1ab"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nc9100b0557ea4da6a355c57712090775"
+        },
+        {
+          "@id": "_:Na6b5e7494ea841a0ace6cf37eacd1a48"
+        },
+        {
+          "@id": "_:Nea6a5ca0adef47ab8d1cb0f221aa63ed"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3168"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1038/npre.2011.6107"
+        },
+        {
+          "@id": "https://doi.org/10.7490/f1000research.1114334.1"
+        }
+      ],
+      "sc:description": "This walker is designed to work as the first pass in a two-pass processing step. It does a by-locus traversal operating only at sites that are not in dbSNP. We assume that all reference mismatches we see are therefore errors and indicative of poor base quality. This walker generates tables based on various user-specified covariates (such as read group, reported quality score, cycle, and dinucleotide).",
+      "sc:featureList": {
+        "@id": "edam:operation_2403"
+      },
+      "sc:name": "gatk_base_recalibrator",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_bqsr_BaseRecalibrator.php"
+      },
+      "sc:softwareVersion": "2.4-9",
+      "sc:url": "https://software.broadinstitute.org/gatk/"
+    },
+    {
+      "@id": "_:N8f610f8afa434d909c2a73d4856ffffe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3016"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Necc843588b4442a2840ff0b68fe8958d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_2330"
+        },
+        {
+          "@id": "edam:format_3016"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nd8d012446c6b458abac393904a763df5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3016"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N8a6c104c41504de0b7887d53d22a2808",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3016"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N68ac258a19374b3b83a3305b9db67049",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3016"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N9a3abe51a571487595915f0e64c0044d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3016"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N63c51c89675d498eb6b38d6a0cc6873f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3003"
+        },
+        {
+          "@id": "edam:format_3475"
+        },
+        {
+          "@id": "edam:format_3016"
+        }
+      ],
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N563a199a3f1e49be93d099236fe16b29",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N56ddc8e3e47144beab35242e73f996fc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:N757ef20eb9b14b9e8dffcc860ed8636b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0863"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "_:N1228c4cdde8845c7849008de775ca88d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:N91ba577dcb974165b3d607343351c1ab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0924"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2572"
+      },
+      "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "_:Nc9100b0557ea4da6a355c57712090775",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Na6b5e7494ea841a0ace6cf37eacd1a48",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "_:Nea6a5ca0adef47ab8d1cb0f221aa63ed",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0006"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

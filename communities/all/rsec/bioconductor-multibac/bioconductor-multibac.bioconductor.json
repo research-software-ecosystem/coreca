@@ -1,0 +1,62 @@
+{
+    "Author": "person(\"Manuel\", \"Ugidos\", email = \"manuelugidos@gmail.com\"), person(\"Sonia\", \"Tarazona\", email = \"sotacam@gmail.com\"), person(\"María José\", \"Nueda\", email = \"mjnueda@ua.es\")",
+    "Date/Publication": "2026-04-28",
+    "Description": "MultiBaC is a strategy to correct batch effects from multiomic datasets distributed across different labs or data acquisition events. MultiBaC is the first Batch effect correction algorithm that dealing with batch effect correction in multiomics datasets. MultiBaC is able to remove batch effects across different omics generated within separate batches provided that at least one common omic data type is included in all the batches considered.",
+    "Imports": [
+        "Matrix",
+        "MultiAssayExperiment",
+        "ggplot2",
+        "grDevices",
+        "graphics",
+        "methods",
+        "pcaMethods",
+        "plotrix",
+        "ropls"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "dc83bb3792c4ef5b1c5c975316966092",
+    "Maintainer": "The package maintainer <manuelugidos@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "MultiBaC",
+    "Rank": 1779,
+    "Rfiles": [
+        "vignettes/MultiBaC/inst/doc/MultiBaC.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "devtools",
+        "knitr",
+        "rmarkdown"
+    ],
+    "Title": "Multiomic Batch effect Correction",
+    "Version": "1.22.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "BatchEffect",
+        "DataRepresentation",
+        "GeneExpression",
+        "PrincipalComponent",
+        "Software",
+        "StatisticalMethod",
+        "Transcription"
+    ],
+    "dependencyCount": "100",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "6d415c2",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/MultiBaC",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/MultiBaC_1.22.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/MultiBaC_1.22.0.tgz",
+    "source.ver": "src/contrib/MultiBaC_1.22.0.tar.gz",
+    "vignetteTitles": [
+        "MultiBaC"
+    ],
+    "vignettes": [
+        "vignettes/MultiBaC/inst/doc/MultiBaC.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/MultiBaC_1.22.0.zip"
+}

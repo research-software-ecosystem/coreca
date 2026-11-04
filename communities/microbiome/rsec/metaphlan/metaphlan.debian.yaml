@@ -1,0 +1,27 @@
+package: metaphlan
+distribution: debian
+release: sid
+component: main
+version: 4.0.4+ds
+source: metaphlan
+homepage: https://github.com/biobakery/MetaPhlAn
+license: unknown
+blend: debian-med
+description_md5: a763566d3ad6d39c5520b905f564f76f
+registries:
+- entry: OMICS_02286
+  name: OMICtools
+- entry: SCR_004915
+  name: SciCrunch
+- entry: MetaPhlAn
+  name: bio.tools
+- entry: metaphlan2
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1038/nmeth.3589
+popcon:
+- insts: 117
+  olde: 88
+  recent: 21
+  vote: 8

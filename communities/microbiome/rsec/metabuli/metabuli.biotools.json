@@ -1,0 +1,100 @@
+{
+    "additionDate": "2023-06-07T03:22:25.847061Z",
+    "biotoolsCURIE": "biotools:metabuli",
+    "biotoolsID": "metabuli",
+    "cost": "Free of charge",
+    "description": "Metabuli: specific and sensitive metagenomic classification via joint analysis of DNA and amino acid",
+    "editPermission": {
+        "authors": [
+            "vashokan"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "DNA sequence",
+                        "uri": "http://edamontology.org/data_3494"
+                    },
+                    "format": [
+                        {
+                            "term": "FASTA",
+                            "uri": "http://edamontology.org/format_1929"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Taxonomic classification",
+                    "uri": "http://edamontology.org/operation_3460"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Taxonomy",
+                        "uri": "http://edamontology.org/data_3028"
+                    }
+                }
+            ]
+        }
+    ],
+    "homepage": "https://metabuli.steineggerlab.com",
+    "language": [
+        "C++"
+    ],
+    "lastUpdate": "2026-02-12T14:21:25.897853Z",
+    "license": "GPL-3.0",
+    "link": [
+        {
+            "note": "github repository",
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/steineggerlab/Metabuli"
+        },
+        {
+            "type": [
+                "Issue tracker"
+            ],
+            "url": "https://github.com/steineggerlab/Metabuli/issues"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "metabuli",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "milot-mirdita",
+    "publication": [
+        {
+            "doi": "10.1038/s41592-024-02273-y",
+            "pmid": "38769467"
+        }
+    ],
+    "relation": [
+        {
+            "biotoolsID": "gtdb",
+            "type": "uses"
+        },
+        {
+            "biotoolsID": "mmseqs2",
+            "type": "uses"
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Desktop application"
+    ],
+    "topic": [
+        {
+            "term": "Taxonomy",
+            "uri": "http://edamontology.org/topic_0637"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "Author": "Aaron Lun [cre, aut]",
+    "BugReports": "https://github.com/ArtifactDB/chihaya-R/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "DelayedArray"
+    ],
+    "Description": "Saves the delayed operations of a DelayedArray to a HDF5 file. This enables efficient recovery of the DelayedArray's contents in other languages and analysis frameworks.",
+    "Imports": [
+        "HDF5Array",
+        "Matrix",
+        "Rcpp",
+        "methods",
+        "rhdf5"
+    ],
+    "License": "GPL-3",
+    "LinkingTo": [
+        "Rcpp",
+        "Rhdf5lib"
+    ],
+    "MD5sum": "f560aac2fcbfbf634e46d0e30d02b3f8",
+    "Maintainer": "Aaron Lun <infinite.monkeys.with.keyboards@gmail.com>",
+    "NeedsCompilation": "yes",
+    "Package": "chihaya",
+    "Rank": 1325,
+    "Rfiles": [
+        "vignettes/chihaya/inst/doc/userguide.R"
+    ],
+    "Suggests": [
+        "BiocGenerics",
+        "BiocSingular",
+        "BiocStyle",
+        "ResidualMatrix",
+        "S4Vectors",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "SystemRequirements": "C++17, GNU make",
+    "Title": "Save Delayed Operations to a HDF5 File",
+    "URL": "https://github.com/ArtifactDB/chihaya-R",
+    "Version": "1.12.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataImport",
+        "DataRepresentation",
+        "Software"
+    ],
+    "dependencyCount": "30",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "3a931db",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/chihaya",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/chihaya_1.12.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/chihaya_1.12.0.tgz",
+    "source.ver": "src/contrib/chihaya_1.12.0.tar.gz",
+    "suggestsMe": [
+        "alabaster.matrix"
+    ],
+    "vignetteTitles": [
+        "User guide"
+    ],
+    "vignettes": [
+        "vignettes/chihaya/inst/doc/userguide.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/chihaya_1.12.0.zip"
+}

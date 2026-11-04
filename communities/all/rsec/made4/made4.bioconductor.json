@@ -1,0 +1,68 @@
+{
+    "Author": "Aedin Culhane",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biobase",
+        "RColorBrewer",
+        "SummarizedExperiment",
+        "gplots",
+        "scatterplot3d"
+    ],
+    "Description": "Multivariate data analysis and graphical display of microarray data. Functions include for supervised dimension reduction (between group analysis) and joint dimension reduction of 2 datasets (coinertia analysis). It contains functions that require R package ade4.",
+    "Imports": [
+        "ade4"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "a1bf837b1194705bfb9b9767831ee6f5",
+    "Maintainer": "Aedin Culhane <Aedin@jimmy.harvard.edu>",
+    "NeedsCompilation": "no",
+    "Package": "made4",
+    "Rank": 373,
+    "Rfiles": [
+        "vignettes/made4/inst/doc/introduction.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "affy",
+        "knitr",
+        "rmarkdown"
+    ],
+    "Title": "Multivariate analysis of microarray data using ADE4",
+    "URL": "http://www.hsph.harvard.edu/aedin-culhane/",
+    "Version": "1.86.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Classification",
+        "Clustering",
+        "DimensionReduction",
+        "GeneExpression",
+        "Microarray",
+        "MultipleComparison",
+        "PrincipalComponent",
+        "Sequencing",
+        "Software",
+        "Transcriptomics"
+    ],
+    "dependencyCount": "38",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "e95e18a",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/made4",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "omicade4"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/made4_1.86.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/made4_1.86.0.tgz",
+    "source.ver": "src/contrib/made4_1.86.0.tar.gz",
+    "vignetteTitles": [
+        "Authoring R Markdown vignettes"
+    ],
+    "vignettes": [
+        "vignettes/made4/inst/doc/introduction.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/made4_1.86.0.zip"
+}

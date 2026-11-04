@@ -1,0 +1,90 @@
+{
+    "Author": "Karim Mezhoud [aut, cre]",
+    "BugReports": "https://github.com/kmezhoud/bioCancer/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.1.0)",
+        "XML (>= 3.98)",
+        "cBioPortalData",
+        "radiant.data (>= 0.9.1)"
+    ],
+    "Description": "This package is a Shiny App to visualize and analyse interactively Multi-Assays of Cancer Genomic Data.",
+    "Imports": [
+        "AlgDesign (>= 1.1.7.3)",
+        "AnnotationDbi",
+        "Biobase",
+        "DOSE",
+        "DT (>= 0.3)",
+        "DiagrammeR(<= 1.01)",
+        "GO.db",
+        "R.methodsS3",
+        "R.oo",
+        "ReactomePA",
+        "clusterProfiler",
+        "dplyr (>= 0.7.2)",
+        "geNetClassifier",
+        "htmlwidgets",
+        "import (>= 1.1.0)",
+        "methods",
+        "org.Bt.eg.db",
+        "org.Hs.eg.db",
+        "plyr",
+        "reactome.db",
+        "shiny (>= 1.0.5)",
+        "shinythemes",
+        "tibble",
+        "tidyr",
+        "visNetwork"
+    ],
+    "License": "AGPL-3 | file LICENSE",
+    "MD5sum": "18f93e643fcaf9c2bc42f63d782f3682",
+    "Maintainer": "Karim Mezhoud <kmezhoud@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "bioCancer",
+    "Rank": 601,
+    "Rfiles": [
+        "vignettes/bioCancer/inst/doc/bioCancer.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "prettydoc",
+        "rmarkdown",
+        "testthat (>= 0.10.0)"
+    ],
+    "Title": "Interactive Multi-Omics Cancers Data Visualization and Analysis",
+    "URL": "https://kmezhoud.github.io/bioCancer/",
+    "Version": "1.40.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataRepresentation",
+        "GUI",
+        "GeneExpression",
+        "GeneTarget",
+        "MultipleComparison",
+        "Network",
+        "Pathways",
+        "Reactome",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "273",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "f784fdb",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/bioCancer",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/bioCancer_1.40.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/bioCancer_1.40.0.tgz",
+    "source.ver": "src/contrib/bioCancer_1.40.0.tar.gz",
+    "vignetteTitles": [
+        "bioCancer: Interactive Multi-OMICS Cancers Data Visualization and Analysis"
+    ],
+    "vignettes": [
+        "vignettes/bioCancer/inst/doc/bioCancer.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/bioCancer_1.40.0.zip"
+}

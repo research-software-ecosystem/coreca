@@ -1,0 +1,188 @@
+{
+  "@context": {
+    "biii": "https://biii.eu/",
+    "bioconda": "https://github.com/bioconda/bioconda-recipes/tree/master/recipes/",
+    "bioschemas": "http://bioschemas.org/",
+    "biotools": "https://bio.tools/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "galaxytool": "https://github.com/galaxyproject/tools-iuc/tree/master/tools/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "schema1": "http://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "workflowhub": "https://workflowhub.eu/workflows/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://usegalaxy.eu",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.org",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "http://galaxy.inf.ethz.ch",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.cz",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.no",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.ca",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.org.au",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.be",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "galaxytool:infernal",
+      "@type": "schema1:SoftwareApplication",
+      "bioschemas:output": [
+        "text",
+        "txt",
+        "cm",
+        "stockholm",
+        "tar",
+        "tabular"
+      ],
+      "schema1:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0160"
+        },
+        {
+          "@id": "edam:topic_0122"
+        }
+      ],
+      "schema1:codeRepository": {
+        "@id": "http://infernal.janelia.org/"
+      },
+      "schema1:dateCreated": "2015-02-28",
+      "schema1:description": "Infernal (\"INFERence of RNA ALignment\") is for searching DNA sequence databases for RNA structure and sequence similarities.",
+      "schema1:encodingFormat": [
+        "text",
+        "txt",
+        "cm",
+        "stockholm",
+        "tar",
+        "tabular"
+      ],
+      "schema1:featureList": [
+        {
+          "@id": "edam:operation_0415"
+        },
+        {
+          "@id": "edam:topic_3073"
+        }
+      ],
+      "schema1:identifier": [
+        {
+          "@id": "biotools:infernal"
+        },
+        {
+          "@id": "bioconda:infernal"
+        }
+      ],
+      "schema1:isPartOf": [
+        {
+          "@id": "workflowhub:1842?version=1"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=5ec0d6d108e02e1a"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=437704898229dfb6"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=e51f857dd851e7d7"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=bc4155d947ea0808"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=9b1b135109072e71"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=8f2d958cee428ca1"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=5cd167ed9e159e73"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=7d343d982f1105bf"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=2e1feecca56bb0b8"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=84b447be2f1c5870"
+        },
+        {
+          "@id": "http://galaxy.inf.ethz.ch"
+        },
+        {
+          "@id": "https://usegalaxy.be"
+        },
+        {
+          "@id": "https://usegalaxy.ca"
+        },
+        {
+          "@id": "https://usegalaxy.cz"
+        },
+        {
+          "@id": "https://usegalaxy.eu"
+        },
+        {
+          "@id": "https://usegalaxy.no"
+        },
+        {
+          "@id": "https://usegalaxy.org.au"
+        },
+        {
+          "@id": "https://usegalaxy.org"
+        }
+      ],
+      "schema1:keywords": "RNA",
+      "schema1:name": "infernal",
+      "schema1:softwareVersion": "1.1.5",
+      "schema1:url": {
+        "@id": "https://github.com/bgruening/galaxytools/tree/master/tools/infernal"
+      }
+    }
+  ]
+}

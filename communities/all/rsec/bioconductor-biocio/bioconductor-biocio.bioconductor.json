@@ -1,0 +1,78 @@
+{
+    "Author": "Martin Morgan [aut], Michael Lawrence [aut], Daniel Van Twisk [aut], Marcel Ramos [cre] (ORCID: <https://orcid.org/0000-0002-3242-0582>)",
+    "BugReports": "https://github.com/Bioconductor/BiocIO/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.3.0)"
+    ],
+    "Description": "The `BiocIO` package contains high-level abstract classes and generics used by developers to build IO funcionality within the Bioconductor suite of packages. Implements `import()` and `export()` standard generics for importing and exporting biological data formats. `import()` supports whole-file as well as chunk-wise iterative import. The `import()` interface optionally provides a standard mechanism for 'lazy' access via `filter()` (on row or element-like components of the file resource), `select()` (on column-like components of the file resource) and `collect()`. The `import()` interface optionally provides transparent access to remote (e.g. via https) as well as local access. Developers can register a file extension, e.g., `.loom` for dispatch from character-based URIs to specific `import()` / `export()` methods based on classes representing file types, e.g., `LoomFile()`.",
+    "Imports": [
+        "BiocGenerics",
+        "S4Vectors",
+        "methods",
+        "tools"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "93365b44bc9a0209ae936a96851c21f4",
+    "Maintainer": "Marcel Ramos <marcel.ramos@sph.cuny.edu>",
+    "NeedsCompilation": "no",
+    "Package": "BiocIO",
+    "Rank": 43,
+    "Rfiles": [
+        "vignettes/BiocIO/inst/doc/BiocIO.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Standard Input and Output for Bioconductor Packages",
+    "Version": "1.22.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Annotation",
+        "DataImport",
+        "Software"
+    ],
+    "dependencyCount": "9",
+    "dependsOnMe": [
+        "BSgenome",
+        "HelloRanges",
+        "LoomExperiment"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "eabf6c7",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/BiocIO",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "BSgenomeForge",
+        "Bioc.gff",
+        "BiocSet",
+        "HiCExperiment",
+        "HiContacts",
+        "HiCool",
+        "TENxIO",
+        "VisiumIO",
+        "XeniumIO",
+        "gmapR",
+        "imageFeatureTCGA",
+        "rtracklayer",
+        "tidyCoverage",
+        "txdbmaker"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/BiocIO_1.22.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/BiocIO_1.22.0.tgz",
+    "source.ver": "src/contrib/BiocIO_1.22.0.tar.gz",
+    "vignetteTitles": [
+        "BiocIO"
+    ],
+    "vignettes": [
+        "vignettes/BiocIO/inst/doc/BiocIO.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/BiocIO_1.22.0.zip"
+}

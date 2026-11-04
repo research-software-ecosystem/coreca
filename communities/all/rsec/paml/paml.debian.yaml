@@ -1,0 +1,29 @@
+package: paml
+distribution: debian
+release: sid
+component: main
+version: 4.9j
+source: paml
+homepage: http://abacus.gene.ucl.ac.uk/software/paml.html
+license: unknown
+blend: debian-med
+description_md5: ea4a5e854840c2f3fb0be17d0120191b
+registries:
+- entry: OMICS_04238
+  name: OMICtools
+- entry: SCR_014932
+  name: SciCrunch
+- entry: paml
+  name: bio.tools
+- entry: paml
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/molbev/msm088
+tags:
+- tag: role::program
+popcon:
+- insts: 197
+  olde: 164
+  recent: 26
+  vote: 7

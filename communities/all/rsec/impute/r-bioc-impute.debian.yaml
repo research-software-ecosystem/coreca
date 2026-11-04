@@ -1,0 +1,22 @@
+package: r-bioc-impute
+distribution: debian
+release: sid
+component: main
+version: 1.86.0
+source: r-bioc-impute
+homepage: https://bioconductor.org/packages/impute/
+license: unknown
+blend: debian-med
+description_md5: 500007af82f14f6cdc75452c7ab36938
+registries:
+- entry: OMICS_31016
+  name: OMICtools
+- entry: impute
+  name: bio.tools
+- entry: bioconductor-impute
+  name: conda:bioconda
+popcon:
+- insts: 146
+  olde: 108
+  recent: 26
+  vote: 12

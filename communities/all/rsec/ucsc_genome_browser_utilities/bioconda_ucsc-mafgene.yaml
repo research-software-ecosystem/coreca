@@ -1,0 +1,48 @@
+about:
+  dev_url: https://github.com/ucscGenomeBrowser/kent
+  doc_url: https://github.com/ucscGenomeBrowser/kent/blob/v490_base/README
+  home: https://hgdownload.cse.ucsc.edu/admin/exe
+  license: Varies; see https://genome.ucsc.edu/license
+  summary: Output protein alignments using maf and genePred.
+build:
+  number: 1
+  run_exports:
+  - null
+  skip: true
+extra:
+  identifiers:
+  - biotools:UCSC_Genome_Browser_Utilities
+  - doi:10.1093/bib/bbs038
+package:
+  name: ucsc-mafgene
+  version: '490'
+requirements:
+  build:
+  - make
+  - null
+  - null
+  host:
+  - libpng
+  - libuuid
+  - mysql-connector-c
+  - libopenssl-static
+  - libiconv
+  - bzip2
+  - liblzma-devel
+  - zlib
+  - curl
+  - libcurl
+  run:
+  - libpng
+  - libuuid
+  - mysql-connector-c
+  - libopenssl-static
+  - libcurl
+source:
+  patches:
+  - 0001-new.patch
+  sha256: fac9e31b52d3daed16558573257e08f776a7422c3c6d960c05486c5a51ba482c
+  url: https://hgdownload.cse.ucsc.edu/admin/exe/userApps.archive/userApps.v490.src.tgz
+test:
+  commands:
+  - test -x ${PREFIX}/bin/mafGene

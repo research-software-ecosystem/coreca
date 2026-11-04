@@ -1,0 +1,77 @@
+about:
+  description: Faster implementation of CRLMM specific to SNP 5.0 and 6.0 arrays,
+    as well as a copy number tool specific to 5.0, 6.0, and Illumina platforms.
+  home: https://bioconductor.org/packages/3.22/bioc/html/crlmm.html
+  license: Artistic-2.0
+  summary: Genotype Calling (CRLMM) and Copy Number Analysis tool for Affymetrix SNP
+    5.0 and 6.0 and Illumina arrays
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:crlmm
+  parent_recipe:
+    name: bioconductor-crlmm
+    path: recipes/bioconductor-crlmm
+    version: 1.38.0
+package:
+  name: bioconductor-crlmm
+  version: 1.68.0
+requirements:
+  build:
+  - null
+  - make
+  host:
+  - bioconductor-affyio >=1.80.0,<1.81.0
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-illuminaio >=0.52.0,<0.53.0
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - bioconductor-oligoclasses >=1.72.0,<1.73.0
+  - bioconductor-preprocesscore >=1.72.0,<1.73.0
+  - r-base
+  - r-beanplot
+  - r-ellipse
+  - r-ff
+  - r-foreach
+  - r-lattice
+  - r-matrixstats
+  - r-mvtnorm
+  - r-rcppeigen >=0.3.1.2.1
+  - r-vgam
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-affyio >=1.80.0,<1.81.0
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-illuminaio >=0.52.0,<0.53.0
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - bioconductor-oligoclasses >=1.72.0,<1.73.0
+  - bioconductor-preprocesscore >=1.72.0,<1.73.0
+  - r-base
+  - r-beanplot
+  - r-ellipse
+  - r-ff
+  - r-foreach
+  - r-lattice
+  - r-matrixstats
+  - r-mvtnorm
+  - r-rcppeigen >=0.3.1.2.1
+  - r-vgam
+source:
+  md5: d010f7ea6b2f072060545a5da105a0dd
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/crlmm_1.68.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/crlmm/crlmm_1.68.0.tar.gz
+  - https://bioarchive.galaxyproject.org/crlmm_1.68.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-crlmm/bioconductor-crlmm_1.68.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('crlmm')"

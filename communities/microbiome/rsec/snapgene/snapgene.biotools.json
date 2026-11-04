@@ -1,0 +1,19 @@
+{
+    "additionDate": "2026-03-13T13:09:40.841224Z",
+    "biotoolsCURIE": "biotools:snapgene",
+    "biotoolsID": "snapgene",
+    "description": "Tool to intuitively design, simulate, and visualise plasmids, primers, and DNA constructs.",
+    "editPermission": {
+        "authors": [
+            "samaa"
+        ],
+        "type": "group"
+    },
+    "homepage": "https://www.snapgene.com/",
+    "lastUpdate": "2026-07-02T09:12:22.360898Z",
+    "name": "SnapGene",
+    "owner": "samaa",
+    "version": [
+        "8.2"
+    ]
+}

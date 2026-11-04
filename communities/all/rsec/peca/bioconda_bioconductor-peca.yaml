@@ -1,0 +1,55 @@
+about:
+  description: Calculates Probe-level Expression Change Averages (PECA) to identify
+    differential expression in Affymetrix gene expression microarray studies or in
+    proteomic studies using peptide-level mesurements respectively.
+  home: https://bioconductor.org/packages/3.22/bioc/html/PECA.html
+  license: GPL (>= 2)
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: Probe-level Expression Change Averaging
+build:
+  noarch: generic
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:peca
+  - doi:10.1007/978-1-4939-6518-2_11
+  parent_recipe:
+    name: bioconductor-peca
+    path: recipes/bioconductor-peca
+    version: 1.16.0
+package:
+  name: bioconductor-peca
+  version: 1.46.0
+requirements:
+  host:
+  - bioconductor-affy >=1.88.0,<1.89.0
+  - bioconductor-genefilter >=1.92.0,<1.93.0
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - bioconductor-preprocesscore >=1.72.0,<1.73.0
+  - bioconductor-rots >=2.2.0,<2.3.0
+  - r-aroma.affymetrix
+  - r-aroma.core
+  - r-base
+  run:
+  - bioconductor-affy >=1.88.0,<1.89.0
+  - bioconductor-genefilter >=1.92.0,<1.93.0
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - bioconductor-preprocesscore >=1.72.0,<1.73.0
+  - bioconductor-rots >=2.2.0,<2.3.0
+  - r-aroma.affymetrix
+  - r-aroma.core
+  - r-base
+source:
+  md5: fce2eefc51a1e3d8fcd7705b5c087e1c
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/PECA_1.46.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/PECA/PECA_1.46.0.tar.gz
+  - https://bioarchive.galaxyproject.org/PECA_1.46.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-peca/bioconductor-peca_1.46.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('PECA')"

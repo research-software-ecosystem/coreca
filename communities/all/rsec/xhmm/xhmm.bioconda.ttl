@@ -1,0 +1,13 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix schema1: <http://schema.org/> .
+
+bioconda:xhmm a schema1:SoftwareApplication ;
+    schema1:alternateName "XHMM (eXome-Hidden Markov Model)." ;
+    schema1:citation "doi:10.1002/0471142905.hg0723s81",
+        "doi:10.1016/j.ajhg.2012.08.005" ;
+    schema1:description "XHMM (eXome-Hidden Markov Model)." ;
+    schema1:license "GPL3" ;
+    schema1:name "xhmm" ;
+    schema1:softwareVersion "0.0.0.2016_01_04.cc14e52" ;
+    schema1:url "http://atgu.mgh.harvard.edu/xhmm/index.shtml" .
+

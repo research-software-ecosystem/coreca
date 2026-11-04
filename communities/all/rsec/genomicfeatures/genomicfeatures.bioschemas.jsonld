@@ -1,0 +1,252 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/genomicfeatures",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N0ecf53a444344251957f32e927001e4b"
+        },
+        {
+          "@id": "_:Nae7ea436ce2840089f30250d49b98026"
+        },
+        {
+          "@id": "_:N1dbc3c7fea5b47c786fdec4dd1838d03"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N8926634f26c742048e3dbf030e881a22"
+        },
+        {
+          "@id": "_:N3602fe706dcf430b9ac22d3e8d7f569c"
+        },
+        {
+          "@id": "_:Ne8fd011b59fa43c08de14d28ec895277"
+        },
+        {
+          "@id": "_:Nb0dcd5a68ce24bd182680b81bbf15f6d"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3169"
+        },
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_3170"
+        }
+      ],
+      "sc:author": [
+        "Hervé Pagès",
+        "Martin Morgan",
+        "Valerie Obenchain"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1003118"
+      },
+      "sc:contributor": [
+        "Fedor Bezrukov",
+        "Halimat C. Atanda",
+        "Robert Castelo"
+      ],
+      "sc:description": "Provides efficient containers for storing and manipulating short genomic alignments (typically obtained by aligning short reads to a reference genome). This includes read counting, computing the coverage, junction detection, and working with the nucleotide content of the alignments.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_2422"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "GenomicFeatures",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://bioconductor.org/packages/GenomicAlignments"
+      },
+      "sc:softwareVersion": "1.48.0",
+      "sc:url": "https://bioconductor.org/packages/GenomicAlignments"
+    },
+    {
+      "@id": "_:N0ecf53a444344251957f32e927001e4b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1270"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1975"
+        },
+        {
+          "@id": "edam:format_2306"
+        },
+        {
+          "@id": "edam:format_3621"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Feature table"
+    },
+    {
+      "@id": "_:Nae7ea436ce2840089f30250d49b98026",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1050"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1975"
+        },
+        {
+          "@id": "edam:format_2306"
+        },
+        {
+          "@id": "edam:format_3621"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "File name"
+    },
+    {
+      "@id": "_:N1dbc3c7fea5b47c786fdec4dd1838d03",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1975"
+        },
+        {
+          "@id": "edam:format_2306"
+        },
+        {
+          "@id": "edam:format_3621"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:N8926634f26c742048e3dbf030e881a22",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3621"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:N3602fe706dcf430b9ac22d3e8d7f569c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3621"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Ne8fd011b59fa43c08de14d28ec895277",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1017"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3621"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Sequence range"
+    },
+    {
+      "@id": "_:Nb0dcd5a68ce24bd182680b81bbf15f6d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0849"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3621"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Sequence record"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1003118",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

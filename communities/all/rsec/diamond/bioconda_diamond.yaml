@@ -1,0 +1,47 @@
+about:
+  dev_url: https://github.com/bbuchfink/diamond
+  doc_url: https://github.com/bbuchfink/diamond/wiki
+  home: https://github.com/bbuchfink/diamond
+  license: GPL-3.0-or-later
+  license_family: GPL3
+  license_file: LICENSE
+  summary: Accelerated BLAST compatible local sequence aligner.
+build:
+  number: 0
+  run_exports:
+  - null
+  skip: true
+extra:
+  additional-platforms:
+  - osx-arm64
+  - linux-aarch64
+  identifiers:
+  - biotools:diamond
+  - usegalaxy-eu:bg_diamond
+  - usegalaxy-eu:bg_diamond_makedb
+  - usegalaxy-eu:bg_diamond_view
+  - doi:10.1038/s41592-021-01101-x
+package:
+  name: diamond
+  version: 2.2.8
+requirements:
+  build:
+  - null
+  - null
+  - cmake
+  - make
+  - autoconf
+  - automake
+  - libtool
+  - pkg-config
+  host:
+  - zlib
+  - zstd-static
+  - sqlite
+  run: null
+source:
+- sha256: a9cc37bd955fa7ed25447278a0b4f97e7036a9abd64f60e6565a56c28219c54c
+  url: https://github.com/bbuchfink/diamond/archive/v2.2.8.tar.gz
+test:
+  commands:
+  - diamond --help 2>&1 > /dev/null

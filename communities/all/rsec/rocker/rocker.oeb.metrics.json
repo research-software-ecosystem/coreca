@@ -1,0 +1,42 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rocker/undefined/enve-omics.ce.gatech.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1128/spectrum.02413-25",
+                            "pmcid": "PMC12671188",
+                            "pmid": "41143534",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "ROCker models for reliable detection and typing of short-read sequences carrying ",
+                            "year": 2025
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,46 @@
+about:
+  dev_url: https://github.com/daler/pybedtools
+  doc_url: https://daler.github.io/pybedtools
+  home: https://github.com/daler/pybedtools
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.txt
+  summary: Wraps BEDTools for use in Python and adds many additional features.
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:pybedtools
+package:
+  name: pybedtools
+  version: 0.12.1
+requirements:
+  build:
+  - null
+  - null
+  host:
+  - python
+  - pip
+  - setuptools
+  - wheel
+  - cython
+  - zlib
+  run:
+  - python
+  - bedtools
+  - numpy
+  - pysam
+source:
+  sha256: f459def3b430b4de6689a800d5d7b38beb313436cfb9d5e966600afca909415a
+  url: https://files.pythonhosted.org/packages/8c/0e/3b645561e25640cd5ffce29e7e1966e67b3ea49b7091910e5e2f43c203db/pybedtools-0.12.1.tar.gz
+test:
+  commands:
+  - python -c "import pybedtools; help(pybedtools.BedTool.intersect)" | grep "Original
+    BEDTools help"
+  imports:
+  - pybedtools

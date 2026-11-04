@@ -1,0 +1,66 @@
+{
+    "Author": "Zicheng Hu",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.5)"
+    ],
+    "Description": "This package provides functions that predict clinical outcomes using single cell data (such as flow cytometry data, RNA single cell sequencing data) without the requirement of cell gating or clustering.",
+    "Imports": [
+        "doParallel",
+        "dplyr",
+        "flowCore",
+        "glmnet",
+        "grDevices",
+        "graphics",
+        "rpart",
+        "rpart.plot",
+        "stats",
+        "utils"
+    ],
+    "License": "GPL-2",
+    "MD5sum": "0b2884104632d6a36d0b9b3d863e13aa",
+    "Maintainer": "Zicheng Hu <zicheng.hu@ucsf.edu>",
+    "NeedsCompilation": "no",
+    "Package": "CytoDx",
+    "Rank": 1878,
+    "Rfiles": [
+        "vignettes/CytoDx/inst/doc/CytoDx_Vignette.R"
+    ],
+    "Suggests": [
+        "knitr",
+        "rmarkdown"
+    ],
+    "Title": "Robust prediction of clinical outcomes using cytometry data without cell gating",
+    "Version": "1.32.0",
+    "VignetteBuilder": "knitr, rmarkdown",
+    "biocViews": [
+        "CellBasedAssays",
+        "CellBiology",
+        "Classification",
+        "FlowCytometry",
+        "ImmunoOncology",
+        "Regression",
+        "Software",
+        "StatisticalMethod",
+        "Survival"
+    ],
+    "dependencyCount": "51",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "6a65eaa",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/CytoDx",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/CytoDx_1.32.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/CytoDx_1.32.0.tgz",
+    "source.ver": "src/contrib/CytoDx_1.32.0.tar.gz",
+    "vignetteTitles": [
+        "Introduction to CytoDx"
+    ],
+    "vignettes": [
+        "vignettes/CytoDx/inst/doc/CytoDx_Vignette.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/CytoDx_1.32.0.zip"
+}

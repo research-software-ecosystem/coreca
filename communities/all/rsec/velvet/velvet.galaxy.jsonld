@@ -1,0 +1,266 @@
+{
+  "@context": {
+    "biii": "https://biii.eu/",
+    "bioconda": "https://github.com/bioconda/bioconda-recipes/tree/master/recipes/",
+    "bioschemas": "http://bioschemas.org/",
+    "biotools": "https://bio.tools/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "galaxytool": "https://github.com/galaxyproject/tools-iuc/tree/master/tools/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "schema1": "http://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "workflowhub": "https://workflowhub.eu/workflows/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://usegalaxy.eu",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.org",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.cz",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.ca",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.org.au",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://galaxy.mesocentre.uca.fr",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.be",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://galaxy.pasteur.fr",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.fr",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "galaxytool:velvet",
+      "@type": "schema1:SoftwareApplication",
+      "bioschemas:output": [
+        "txt",
+        "afg",
+        "fasta",
+        "tabular",
+        "velvet"
+      ],
+      "schema1:applicationSubCategory": [
+        {
+          "@id": "edam:data_0925"
+        },
+        {
+          "@id": "edam:operation_0310"
+        },
+        {
+          "@id": "edam:topic_0196"
+        }
+      ],
+      "schema1:codeRepository": {
+        "@id": "https://www.ebi.ac.uk/~zerbino/velvet/"
+      },
+      "schema1:dateCreated": "2020-06-09",
+      "schema1:description": "de novo genomic assembler specially designed for short read sequencing technologies",
+      "schema1:encodingFormat": [
+        "txt",
+        "afg",
+        "fasta",
+        "tabular",
+        "velvet"
+      ],
+      "schema1:featureList": {
+        "@id": "edam:operation_0524"
+      },
+      "schema1:identifier": [
+        {
+          "@id": "biotools:velvet"
+        },
+        {
+          "@id": "bioconda:velvet"
+        }
+      ],
+      "schema1:isPartOf": [
+        {
+          "@id": "workflowhub:2048?version=1"
+        },
+        {
+          "@id": "workflowhub:1622?version=1"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=56edd22d14392691"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=01dc0619e050dc91"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=6d87481be47902e1"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=842e0ea7b1eb56af"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=b7c2440621968526"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=ef83f7fd2176a244"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=c43c3836f51479c0"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=ae6e37c90b8f2a86"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=2b1cdf79e8df5a78"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=3cf46c167ccb374f"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=1c7af480caf150bd"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=e2ab3d3219a648a7"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=109092d8dbda4398"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=f6bd33dedc7c6c12"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=7a33bc2d0970b502"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=4e1ae78405034ad3"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=e745c45651d829b8"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=51c485af11d90700"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=f926e70bee242785"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=c30f6ca171896908"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=95195be529f6db0d"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=30430b75d05f54eb"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=7fa13ccbf044edc5"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=f25a05070bf97ded"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=83e3ceceb1a92493"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=533dbb3242ee4255"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=ee7a1615f187391d"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=8b6739a000780d99"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=9b75924c483b5f6b"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=fb0986a952c35e0a"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=874492eb776ba813"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=dccc8fb49d61ac33"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=94c7fdcbbc7b428a"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=aee5b5645c51cac3"
+        },
+        {
+          "@id": "https://galaxy.mesocentre.uca.fr"
+        },
+        {
+          "@id": "https://galaxy.pasteur.fr"
+        },
+        {
+          "@id": "https://usegalaxy.be"
+        },
+        {
+          "@id": "https://usegalaxy.ca"
+        },
+        {
+          "@id": "https://usegalaxy.cz"
+        },
+        {
+          "@id": "https://usegalaxy.eu"
+        },
+        {
+          "@id": "https://usegalaxy.fr"
+        },
+        {
+          "@id": "https://usegalaxy.org.au"
+        },
+        {
+          "@id": "https://usegalaxy.org"
+        }
+      ],
+      "schema1:keywords": "Assembly",
+      "schema1:name": "velvet",
+      "schema1:softwareVersion": "1.2.10.3",
+      "schema1:url": {
+        "@id": "https://github.com/galaxyproject/tools-iuc/tree/main/tools/velvet"
+      }
+    }
+  ]
+}

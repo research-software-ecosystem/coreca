@@ -1,0 +1,35 @@
+about:
+  dev_url: https://github.com/yangao07/abPOA
+  doc_url: https://github.com/yangao07/abPOA/blob/v1.5.7/README.md
+  home: https://github.com/yangao07/abPOA
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: 'abPOA: fast SIMD-based partial order alignment using adaptive band.'
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - doi:10.1093/bioinformatics/btaa963
+  - biotools:abpoa
+package:
+  name: abpoa
+  version: 1.5.7
+requirements:
+  build:
+  - make
+  - null
+  - null
+  host:
+  - zlib
+source:
+  sha256: 9c5e7649a4268223ef1fec0318b3f4fa7c118ffa2daac124051c7961e6894bc8
+  url: https://github.com/yangao07/abPOA/releases/download/v1.5.7/abPOA-v1.5.7.tar.gz
+test:
+  commands:
+  - abpoa --version | grep 1.5.7

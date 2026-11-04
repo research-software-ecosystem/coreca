@@ -1,0 +1,85 @@
+{
+    "Archs": "x64",
+    "Author": "Zhi Yang [aut, cre], Yuichi Shiraishi [ctb]",
+    "BugReports": "https://github.com/USCbiostats/HiLDA/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R(>= 4.1)",
+        "ggplot2"
+    ],
+    "Description": "A package built under the Bayesian framework of applying hierarchical latent Dirichlet allocation. It statistically tests whether the mutational exposures of mutational signatures (Shiraishi-model signatures) are different between two groups. The package also provides inference and visualization.",
+    "Imports": [
+        "BSgenome.Hsapiens.UCSC.hg19",
+        "BiocGenerics",
+        "Biostrings",
+        "GenomicFeatures",
+        "GenomicRanges",
+        "R2jags",
+        "Rcpp",
+        "S4Vectors",
+        "TxDb.Hsapiens.UCSC.hg19.knownGene",
+        "XVector",
+        "abind",
+        "cowplot",
+        "forcats",
+        "grDevices",
+        "grid",
+        "methods",
+        "stats",
+        "stringr",
+        "tidyr",
+        "utils"
+    ],
+    "License": "GPL-3",
+    "LinkingTo": [
+        "Rcpp"
+    ],
+    "MD5sum": "65e014f86c06846d2cbfafaeff95eb2d",
+    "Maintainer": "Zhi Yang <zyang895@gmail.com>",
+    "NeedsCompilation": "yes",
+    "Package": "HiLDA",
+    "Rank": 1064,
+    "Rfiles": [
+        "vignettes/HiLDA/inst/doc/HiLDA.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "SystemRequirements": "JAGS 4.0.0",
+    "Title": "Conducting statistical inference on comparing the mutational exposures of mutational signatures by using hierarchical latent Dirichlet allocation",
+    "URL": "https://github.com/USCbiostats/HiLDA, https://doi.org/10.1101/577452",
+    "Version": "1.26.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Bayesian",
+        "Sequencing",
+        "Software",
+        "SomaticMutation",
+        "StatisticalMethod"
+    ],
+    "dependencyCount": "106",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "4addee5",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/HiLDA",
+    "hasINSTALL": true,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "selectKSigs"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/HiLDA_1.26.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/HiLDA_1.26.0.tgz",
+    "source.ver": "src/contrib/HiLDA_1.26.0.tar.gz",
+    "vignetteTitles": [
+        "An introduction to HiLDA"
+    ],
+    "vignettes": [
+        "vignettes/HiLDA/inst/doc/HiLDA.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/HiLDA_1.26.0.zip"
+}

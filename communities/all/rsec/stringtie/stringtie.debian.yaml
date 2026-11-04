@@ -1,0 +1,30 @@
+package: stringtie
+distribution: debian
+release: sid
+component: main
+version: 3.0.3+ds
+source: stringtie
+homepage: https://ccb.jhu.edu/software/stringtie/
+license: unknown
+blend: debian-med
+description_md5: 33fe9cf33d0e879e8926fb896570750e
+registries:
+- entry: OMICS_07226
+  name: OMICtools
+- entry: SCR_016323
+  name: SciCrunch
+- entry: stringtie
+  name: bio.tools
+- entry: stringtie
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1038/nbt.3122
+- key: doi
+  rank: 1
+  value: 10.1038/nprot.2016.095
+popcon:
+- insts: 127
+  olde: 98
+  recent: 24
+  vote: 5

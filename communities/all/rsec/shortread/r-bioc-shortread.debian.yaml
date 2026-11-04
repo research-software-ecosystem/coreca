@@ -1,0 +1,27 @@
+package: r-bioc-shortread
+distribution: debian
+release: sid
+component: main
+version: 1.70.0+ds
+source: r-bioc-shortread
+homepage: https://bioconductor.org/packages/ShortRead/
+license: unknown
+blend: debian-med
+description_md5: 1c554de1b3611a116df744777d39ea79
+registries:
+- entry: OMICS_01076
+  name: OMICtools
+- entry: SCR_006813
+  name: SciCrunch
+- entry: shortread
+  name: bio.tools
+- entry: bioconductor-shortread
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btp450
+popcon:
+- insts: 127
+  olde: 104
+  recent: 2
+  vote: 21

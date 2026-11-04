@@ -1,0 +1,80 @@
+{
+    "Author": "Julian Gehring",
+    "BugReports": "https://support.bioconductor.org",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "GenomicRanges",
+        "NMF",
+        "R (>= 3.5.0)",
+        "VariantAnnotation"
+    ],
+    "Description": "The SomaticSignatures package identifies mutational signatures of single nucleotide variants (SNVs).  It provides a infrastructure related to the methodology described in Nik-Zainal (2012, Cell), with flexibility in the matrix decomposition algorithms.",
+    "Imports": [
+        "Biobase",
+        "Biostrings",
+        "IRanges",
+        "NMF",
+        "S4Vectors",
+        "Seqinfo",
+        "ggbio",
+        "ggplot2",
+        "methods",
+        "pcaMethods",
+        "proxy",
+        "reshape2"
+    ],
+    "License": "MIT + file LICENSE",
+    "MD5sum": "89dd5a257acdf7389a7a11f49feb9352",
+    "Maintainer": "Julian Gehring <jg-bioc@gmx.com>",
+    "NeedsCompilation": "no",
+    "Package": "SomaticSignatures",
+    "Rank": 601,
+    "Rfiles": [
+        "vignettes/SomaticSignatures/inst/doc/SomaticSignatures-vignette.R"
+    ],
+    "Suggests": [
+        "BSgenome.Hsapiens.1000genomes.hs37d5",
+        "GenomeInfoDb",
+        "SomaticCancerAlterations",
+        "fastICA",
+        "ggdendro",
+        "knitr",
+        "parallel",
+        "sva",
+        "testthat"
+    ],
+    "Title": "Somatic Signatures",
+    "URL": "https://github.com/juliangehring/SomaticSignatures",
+    "Version": "2.48.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Clustering",
+        "GenomicVariation",
+        "Sequencing",
+        "Software",
+        "SomaticMutation",
+        "StatisticalMethod",
+        "Visualization"
+    ],
+    "dependencyCount": "145",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "ea2dfc1",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/SomaticSignatures",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "YAPSA"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/SomaticSignatures_2.48.0.tgz",
+    "source.ver": "src/contrib/SomaticSignatures_2.48.0.tar.gz",
+    "vignetteTitles": [
+        "SomaticSignatures"
+    ],
+    "vignettes": [
+        "vignettes/SomaticSignatures/inst/doc/SomaticSignatures-vignette.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/SomaticSignatures_2.48.0.zip"
+}

@@ -1,0 +1,302 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:folklore:3.39.1/rest/folklore.helena.bio",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "project": {
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.5281/zenodo.21105027",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.5281/zenodo.21189571",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.5281/zenodo.21763096",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.5281/zenodo.21922952",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.5281/zenodo.22093164",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2026
+                                }
+                            ],
+                            "doi": "10.3389/fgene.2026.1925492",
+                            "pmcid": "PMC13616446",
+                            "pmid": "42802833",
+                            "ref_count": 24,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2017
+                                }
+                            ],
+                            "title": "A methodological framework for real-world performance studies of clinical variant classification platforms at early organizational stages.",
+                            "year": 2026
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:folklore:3.39.1/web/folklore.helena.bio",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "project": {
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.5281/zenodo.21105027",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.5281/zenodo.21189571",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.5281/zenodo.21763096",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.5281/zenodo.21922952",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.5281/zenodo.22093164",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2026
+                                }
+                            ],
+                            "doi": "10.3389/fgene.2026.1925492",
+                            "pmcid": "PMC13616446",
+                            "pmid": "42802833",
+                            "ref_count": 24,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2017
+                                }
+                            ],
+                            "title": "A methodological framework for real-world performance studies of clinical variant classification platforms at early organizational stages.",
+                            "year": 2026
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

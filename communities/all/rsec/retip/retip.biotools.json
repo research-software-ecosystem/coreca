@@ -1,0 +1,183 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2021-01-18T09:01:58Z",
+    "biotoolsCURIE": "biotools:retip",
+    "biotoolsID": "retip",
+    "confidence_flag": "tool",
+    "cost": "Free of charge",
+    "description": "Retention Time Prediction for Compound Annotation in Untargeted Metabolomics.\n\nRetip is an R package for predicting Retention Time (RT) for small molecules in a high pressure liquid chromatography (HPLC) Mass Spectrometry analysis.\n\nRetip - Retention Time prediction for Metabolomics.\n\nRetip: Retention Time Prediction for Compound Annotation in Untargeted Metabolomics Paolo Bonini, Tobias Kind, Hiroshi Tsugawa, Dinesh Kumar Barupal, and Oliver Fiehn Analytical Chemistry 2020 92 (11), 7515-7522 DOI: 10.1021/acs.analchem.9b05765.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://www.retip.app/"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "recetox-specdatri"
+        ],
+        "type": "group"
+    },
+    "elixirCommunity": [
+        "Metabolomics"
+    ],
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Experimental measurement",
+                        "uri": "http://edamontology.org/data_3108"
+                    },
+                    "format": [
+                        {
+                            "term": "DSV",
+                            "uri": "http://edamontology.org/format_3751"
+                        }
+                    ]
+                },
+                {
+                    "data": {
+                        "term": "Molecule identifier",
+                        "uri": "http://edamontology.org/data_0982"
+                    },
+                    "format": [
+                        {
+                            "term": "SMILES",
+                            "uri": "http://edamontology.org/format_1196"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Modelling and simulation",
+                    "uri": "http://edamontology.org/operation_2426"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Mathematical model",
+                        "uri": "http://edamontology.org/data_0950"
+                    },
+                    "format": [
+                        {
+                            "term": "JSON",
+                            "uri": "http://edamontology.org/format_3464"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Mathematical model",
+                        "uri": "http://edamontology.org/data_0950"
+                    },
+                    "format": [
+                        {
+                            "term": "JSON",
+                            "uri": "http://edamontology.org/format_3464"
+                        }
+                    ]
+                },
+                {
+                    "data": {
+                        "term": "Molecule identifier",
+                        "uri": "http://edamontology.org/data_0982"
+                    },
+                    "format": [
+                        {
+                            "term": "SMILES",
+                            "uri": "http://edamontology.org/format_1196"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Retention time prediction",
+                    "uri": "http://edamontology.org/operation_3633"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Molecular property",
+                        "uri": "http://edamontology.org/data_2087"
+                    },
+                    "format": [
+                        {
+                            "term": "DSV",
+                            "uri": "http://edamontology.org/format_3751"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "https://www.retip.app",
+    "language": [
+        "R"
+    ],
+    "lastUpdate": "2025-11-04T10:46:26.117809Z",
+    "license": "CC-BY-4.0",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/oloBion/Retip"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/oloBion/pyRetip/tree/master"
+        }
+    ],
+    "name": "Retip",
+    "owner": "zsmag19",
+    "publication": [
+        {
+            "doi": "10.1021/ACS.ANALCHEM.9B05765",
+            "metadata": {
+                "citationCount": 177,
+                "date": "2020-06-02T00:00:00Z",
+                "journal": "Analytical Chemistry",
+                "title": "Retip: Retention Time Prediction for Compound Annotation in Untargeted Metabolomics"
+            },
+            "pmid": "32390414"
+        }
+    ],
+    "toolType": [
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Cheminformatics",
+            "uri": "http://edamontology.org/topic_2258"
+        },
+        {
+            "term": "Chemistry",
+            "uri": "http://edamontology.org/topic_3314"
+        },
+        {
+            "term": "Machine learning",
+            "uri": "http://edamontology.org/topic_3474"
+        },
+        {
+            "term": "Metabolomics",
+            "uri": "http://edamontology.org/topic_3172"
+        },
+        {
+            "term": "Proteomics experiment",
+            "uri": "http://edamontology.org/topic_3520"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+package: soapsnp
+distribution: debian
+release: sid
+component: main
+version: '1.03'
+source: soapsnp
+homepage: http://soap.genomics.org.cn/soapsnp.html
+license: unknown
+blend: debian-med
+description_md5: a9ca39a38ef5b5cbc92e0da83695f280
+registries:
+- entry: OMICS_00078
+  name: OMICtools
+- entry: SCR_010602
+  name: SciCrunch
+- entry: soapsnp
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1101/gr.088013.108
+popcon:
+- insts: 115
+  olde: 87
+  recent: 23
+  vote: 5

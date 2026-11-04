@@ -1,0 +1,34 @@
+package: sigma-align
+distribution: debian
+release: sid
+component: main
+version: 1.1.3
+source: sigma-align
+homepage: https://www.imsc.res.in/~rsidd/sigma/
+license: unknown
+blend: debian-med
+description_md5: 1dea6332fc618960ad2945cec45b6681
+registries:
+- entry: OMICS_29594
+  name: OMICtools
+- entry: sigma_align
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1186/1471-2105-7-143
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::analysing
+- tag: use::comparing
+- tag: works-with-format::plaintext
+- tag: works-with::TODO
+popcon:
+- insts: 118
+  olde: 91
+  recent: 23
+  vote: 4

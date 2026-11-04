@@ -1,0 +1,71 @@
+{
+    "Author": "Benjamin Mayne",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "GenomicRanges",
+        "R (>= 3.5.0)",
+        "methods"
+    ],
+    "Description": "Pipeline for the anaysis of a MS-GBS experiment.",
+    "Imports": [
+        "BSgenome",
+        "GenomicAlignments",
+        "GenomicFeatures",
+        "IRanges",
+        "R.utils",
+        "Rsamtools",
+        "S4Vectors",
+        "Seqinfo",
+        "SummarizedExperiment",
+        "easyRNASeq",
+        "edgeR",
+        "ggbio",
+        "ggplot2",
+        "parallel",
+        "plyr",
+        "stats",
+        "utils"
+    ],
+    "License": "GPL-2",
+    "MD5sum": "b204335238b021248bdb5e42bd55abae",
+    "Maintainer": "Benjamin Mayne <benjamin.mayne@adelaide.edu.au>",
+    "NeedsCompilation": "no",
+    "Package": "msgbsR",
+    "Rank": 1325,
+    "Rfiles": [
+        "vignettes/msgbsR/inst/doc/msgbsR_Vignette.R"
+    ],
+    "Suggests": [
+        "BSgenome.Rnorvegicus.UCSC.rn6",
+        "roxygen2"
+    ],
+    "Title": "msgbsR: methylation sensitive genotyping by sequencing (MS-GBS) R functions",
+    "Version": "1.36.0",
+    "biocViews": [
+        "DataImport",
+        "DifferentialMethylation",
+        "Epigenetics",
+        "ImmunoOncology",
+        "MethylSeq",
+        "Software"
+    ],
+    "dependencyCount": "171",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "d3130e6",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/msgbsR",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/msgbsR_1.36.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/msgbsR_1.36.0.tgz",
+    "source.ver": "src/contrib/msgbsR_1.36.0.tar.gz",
+    "vignetteTitles": [
+        "msgbsR_Example"
+    ],
+    "vignettes": [
+        "vignettes/msgbsR/inst/doc/msgbsR_Vignette.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/msgbsR_1.36.0.zip"
+}

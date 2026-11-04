@@ -1,0 +1,36 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix bioschemas: <http://bioschemas.org/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix galaxytool: <https://github.com/galaxyproject/tools-iuc/tree/master/tools/> .
+@prefix schema1: <http://schema.org/> .
+
+galaxytool:art a schema1:SoftwareApplication ;
+    bioschemas:output "fastq",
+        "sam",
+        "txt" ;
+    schema1:applicationSubCategory edam:topic_0091 ;
+    schema1:codeRepository <http://www.niehs.nih.gov/research/resources/software/biostatistics/art/> ;
+    schema1:dateCreated "2015-02-11" ;
+    schema1:description "Simulator for Illumina, 454, and SOLiD sequencing data" ;
+    schema1:encodingFormat "fastq",
+        "sam",
+        "txt" ;
+    schema1:featureList edam:operation_3434 ;
+    schema1:identifier biotools:art,
+        bioconda:art ;
+    schema1:isPartOf <https://galaxytrakr.org>,
+        <https://usegalaxy.ca>,
+        <https://usegalaxy.eu> ;
+    schema1:keywords "Data Source",
+        "Sequence Analysis" ;
+    schema1:name "art" ;
+    schema1:softwareVersion "2016.06.05" ;
+    schema1:url <https://github.com/galaxyproject/tools-iuc/tree/main/tools/art> .
+
+<https://galaxytrakr.org> a schema1:WebSite .
+
+<https://usegalaxy.ca> a schema1:WebSite .
+
+<https://usegalaxy.eu> a schema1:WebSite .
+

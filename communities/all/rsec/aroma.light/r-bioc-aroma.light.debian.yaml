@@ -1,0 +1,27 @@
+package: r-bioc-aroma.light
+distribution: debian
+release: sid
+component: main
+version: 3.42.0
+source: r-bioc-aroma.light
+homepage: https://bioconductor.org/packages/aroma.light/
+license: unknown
+blend: debian-med
+description_md5: 5526c0325421cdfef60a7421816a5a58
+registries:
+- entry: OMICS_01998
+  name: OMICtools
+- entry: SCR_001312
+  name: SciCrunch
+- entry: aroma.light
+  name: bio.tools
+- entry: bioconductor-aroma.light
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/1471-2105-11-245
+popcon:
+- insts: 140
+  olde: 106
+  recent: 26
+  vote: 8

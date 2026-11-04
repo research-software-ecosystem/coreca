@@ -1,0 +1,30 @@
+package: ray
+distribution: debian
+release: sid
+component: main
+version: 2.3.1
+source: ray
+homepage: https://denovoassembler.sourceforge.net/
+license: unknown
+blend: debian-med
+description_md5: 90fa195cc91a005a4c4a249227fbe393
+registries:
+- entry: OMICS_00027
+  name: OMICtools
+- entry: SCR_001916
+  name: SciCrunch
+- entry: ray
+  name: bio.tools
+- entry: ray
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1089/cmb.2009.0238
+- key: doi
+  rank: 1
+  value: 10.1186/gb-2012-13-12-r122
+popcon:
+- insts: 127
+  olde: 98
+  recent: 24
+  vote: 5

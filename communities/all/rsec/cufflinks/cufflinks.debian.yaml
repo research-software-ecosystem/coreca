@@ -1,0 +1,29 @@
+package: cufflinks
+distribution: debian
+release: sid
+component: non-free
+version: 2.2.1+git20190706.dc3b0cb
+source: cufflinks
+homepage: https://cufflinks.cbcb.umd.edu
+license: unknown
+blend: debian-med
+description_md5: c37740a8cd1091b60d5fda1e37d84380
+registries:
+- entry: OMICS_01304
+  name: OMICtools
+- entry: SCR_014597
+  name: SciCrunch
+- entry: cufflinks
+  name: bio.tools
+- entry: cufflinks
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1038/nbt.1621
+- key: doi
+  rank: 1
+  value: 10.1038/nprot.2012.016
+popcon:
+- insts: 21
+  olde: 18
+  recent: 3

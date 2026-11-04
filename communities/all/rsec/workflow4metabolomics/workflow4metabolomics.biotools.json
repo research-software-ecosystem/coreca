@@ -1,0 +1,426 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2017-08-03T19:04:33Z",
+    "biotoolsCURIE": "biotools:workflow4metabolomics",
+    "biotoolsID": "workflow4metabolomics",
+    "collectionID": [
+        "elixir-fr-sdp-2019"
+    ],
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "franck.giacomoni@inrae.fr",
+            "name": "Franck Giacomoni",
+            "orcidid": "https://orcid.org/0000-0001-6063-4214",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://www6.clermont.inrae.fr/unh/Plateaux-Techniques/Metabolisme-et-Spectrometrie-de-Masse"
+        },
+        {
+            "email": "lecorguille@sb-roscoff.fr",
+            "name": "Gildas Le Corguillé",
+            "orcidid": "https://orcid.org/0000-0003-1742-9711",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://abims.sb-roscoff.fr"
+        },
+        {
+            "email": "contact@workflow4metabolomics.org",
+            "name": "Workflow4Metabolomics Team",
+            "typeEntity": "Project",
+            "typeRole": [
+                "Maintainer"
+            ]
+        },
+        {
+            "name": "Etienne A. Thévenot",
+            "orcidid": "https://orcid.org/0000-0003-1019-4577",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www-list.cea.fr/index.php/en/"
+        },
+        {
+            "name": "Pierrick Roger-Melee",
+            "orcidid": "https://orcid.org/0000-0001-8177-4873",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ],
+            "url": "http://www-list.cea.fr/index.php/en/"
+        },
+        {
+            "name": "Yann Guitton",
+            "orcidid": "https://orcid.org/0000-0002-4479-0636",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://www.laberca.org/plateforme-analytique/presentation/"
+        },
+        {
+            "name": "Alexis Delabrière",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ],
+            "url": "http://www-list.cea.fr/index.php/en/"
+        },
+        {
+            "name": "Christophe Caron",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ],
+            "url": "http://abims.sb-roscoff.fr/"
+        },
+        {
+            "name": "Christophe Duperier",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Maintainer"
+            ],
+            "url": "https://www6.clermont.inrae.fr/unh/Plateaux-Techniques/Metabolisme-et-Spectrometrie-de-Masse"
+        },
+        {
+            "name": "Cécile Canlet",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Documentor"
+            ],
+            "url": "https://www6.toulouse.inrae.fr/axiomm"
+        },
+        {
+            "name": "Jean-François Martin",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ],
+            "url": "https://www6.toulouse.inrae.fr/axiomm"
+        },
+        {
+            "name": "Marie Tremblay-Franco",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://www6.toulouse.inrae.fr/axiomm"
+        },
+        {
+            "name": "Marion Landi",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ],
+            "url": "https://www6.clermont.inrae.fr/unh/Plateaux-Techniques/Metabolisme-et-Spectrometrie-de-Masse"
+        },
+        {
+            "name": "Misharl Monsoor",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ],
+            "url": "http://abims.sb-roscoff.fr/"
+        },
+        {
+            "name": "Mélanie Pétéra",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ],
+            "url": "https://www6.clermont.inrae.fr/unh/Plateaux-Techniques/Metabolisme-et-Spectrometrie-de-Masse"
+        },
+        {
+            "name": "Pierre Pericard",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ],
+            "url": "http://abims.sb-roscoff.fr/"
+        },
+        {
+            "name": "Sophie Goulitquer",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ],
+            "url": "http://www.sb-roscoff.fr/en/research-and-training-centre-marine-biology-and-oceanography/services/technological-core-facilities/mass-spectrometry-core-facility"
+        },
+        {
+            "name": "IFB - Institut Français de Bioinformatique",
+            "typeEntity": "Institute",
+            "url": "https://www.france-bioinformatique.fr/en"
+        },
+        {
+            "name": "MetaboHUB - National infrastructure in metabolomics & fluxomics",
+            "typeEntity": "Institute",
+            "url": "https://www.metabohub.fr/home.html"
+        }
+    ],
+    "description": "First fully open-source and collaborative online platform for computational metabolomics. It includes preprocessing, normalization, quality control, statistical analysis of LC/MS, FIA-MS, GC/MS and NMR data.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://workflow4metabolomics.org/howto"
+        },
+        {
+            "type": [
+                "Terms of use"
+            ],
+            "url": "https://workflow4metabolomics.org/privacy_policy"
+        },
+        {
+            "type": [
+                "Training material"
+            ],
+            "url": "https://training.galaxyproject.org/training-material/topics/metabolomics/"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "fgiacomoni",
+            "recetox-specdatri"
+        ],
+        "type": "group"
+    },
+    "elixirNode": [
+        "France"
+    ],
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "NMR spectrum",
+                        "uri": "http://edamontology.org/data_3488"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Mass spectrum",
+                        "uri": "http://edamontology.org/data_0943"
+                    },
+                    "format": [
+                        {
+                            "term": "NetCDF",
+                            "uri": "http://edamontology.org/format_3650"
+                        },
+                        {
+                            "term": "mzData",
+                            "uri": "http://edamontology.org/format_3834"
+                        },
+                        {
+                            "term": "mzML",
+                            "uri": "http://edamontology.org/format_3244"
+                        },
+                        {
+                            "term": "mzXML",
+                            "uri": "http://edamontology.org/format_3654"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Annotation",
+                    "uri": "http://edamontology.org/operation_0226"
+                },
+                {
+                    "term": "Enrichment analysis",
+                    "uri": "http://edamontology.org/operation_3501"
+                },
+                {
+                    "term": "Spectral analysis",
+                    "uri": "http://edamontology.org/operation_3214"
+                },
+                {
+                    "term": "Statistical calculation",
+                    "uri": "http://edamontology.org/operation_2238"
+                },
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Distance matrix",
+                        "uri": "http://edamontology.org/data_2855"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Molecule identifier",
+                        "uri": "http://edamontology.org/data_0982"
+                    },
+                    "format": [
+                        {
+                            "term": "Chemical formula format",
+                            "uri": "http://edamontology.org/format_2035"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Mass spectrometry data",
+                        "uri": "http://edamontology.org/data_2536"
+                    },
+                    "format": [
+                        {
+                            "term": "NetCDF",
+                            "uri": "http://edamontology.org/format_3650"
+                        },
+                        {
+                            "term": "mzML",
+                            "uri": "http://edamontology.org/format_3244"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Chromatogram visualisation",
+                    "uri": "http://edamontology.org/operation_3203"
+                },
+                {
+                    "term": "Mass spectrum visualisation",
+                    "uri": "http://edamontology.org/operation_3694"
+                },
+                {
+                    "term": "Scatter plot plotting",
+                    "uri": "http://edamontology.org/operation_2940"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Plot",
+                        "uri": "http://edamontology.org/data_2884"
+                    }
+                }
+            ]
+        }
+    ],
+    "homepage": "https://workflow4metabolomics.org/",
+    "lastUpdate": "2025-11-04T09:07:00.548978Z",
+    "link": [
+        {
+            "type": [
+                "Galaxy service"
+            ],
+            "url": "https://workflow4metabolomics.usegalaxy.fr"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/workflow4metabolomics"
+        },
+        {
+            "type": [
+                "Social media"
+            ],
+            "url": "https://twitter.com/workflow4metabo"
+        },
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/workflow4metabolomics-v3-metabolomics-data-processing-analysis-and-annotation.html"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "Workflow4Metabolomics",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "lecorguille",
+    "publication": [
+        {
+            "doi": "10.1016/j.biocel.2017.07.002",
+            "metadata": {
+                "citationCount": 114,
+                "date": "2017-12-01T00:00:00Z",
+                "journal": "International Journal of Biochemistry and Cell Biology",
+                "title": "Create, run, share, publish, and reference your LC–MS, FIA–MS, GC–MS, and NMR data analysis workflows with the Workflow4Metabolomics 3.0 Galaxy online infrastructure for metabolomics"
+            },
+            "note": "This paper is also available on the open archive HAL: 10.1016/j.biocel.2017.07.002",
+            "pmid": "28710041",
+            "type": [
+                "Usage"
+            ]
+        },
+        {
+            "doi": "10.1093/bioinformatics/btu813",
+            "metadata": {
+                "citationCount": 361,
+                "date": "2015-05-01T00:00:00Z",
+                "journal": "Bioinformatics",
+                "title": "Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics"
+            },
+            "pmcid": "PMC4410648",
+            "pmid": "25527831",
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "relation": [
+        {
+            "biotoolsID": "camera",
+            "type": "uses"
+        },
+        {
+            "biotoolsID": "galaxy",
+            "type": "uses"
+        },
+        {
+            "biotoolsID": "ipo",
+            "type": "uses"
+        },
+        {
+            "biotoolsID": "msnbase",
+            "type": "uses"
+        },
+        {
+            "biotoolsID": "profia",
+            "type": "uses"
+        },
+        {
+            "biotoolsID": "xcms",
+            "type": "uses"
+        }
+    ],
+    "toolType": [
+        "Bioinformatics portal"
+    ],
+    "topic": [
+        {
+            "term": "Computational biology",
+            "uri": "http://edamontology.org/topic_3307"
+        },
+        {
+            "term": "Metabolomics",
+            "uri": "http://edamontology.org/topic_3172"
+        },
+        {
+            "term": "Systems biology",
+            "uri": "http://edamontology.org/topic_2259"
+        }
+    ],
+    "validated": 1
+}

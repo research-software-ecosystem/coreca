@@ -1,0 +1,33 @@
+about:
+  dev_url: https://github.com/pylelab/USalign
+  doc_url: https://aideepmed.com/TM-align
+  home: https://github.com/pylelab/USalign
+  license: BSD-like
+  license_family: BSD
+  summary: TM-align sequence-order independent protein structure alignment.
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - doi:10.1093/nar/gki524
+  - doi:10.1002/prot.20264
+  - biotools:tm-score
+package:
+  name: tmalign
+  version: '20240303'
+requirements:
+  build:
+  - null
+  - make
+source:
+  sha256: 6eadb92b7b562beeb81e25b12e7524a44eef93c6bb33e209bfdb7f4dc63c0fc6
+  url: https://github.com/pylelab/USalign/archive/61b50fbe09235deb70bcec42000b723c4def49ca.tar.gz
+test:
+  commands:
+  - TMalign > /dev/null
+  - TMscore > /dev/null

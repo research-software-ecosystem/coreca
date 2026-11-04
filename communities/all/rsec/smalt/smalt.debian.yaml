@@ -1,0 +1,24 @@
+package: smalt
+distribution: debian
+release: sid
+component: main
+version: 0.7.6
+source: smalt
+homepage: https://www.sanger.ac.uk/science/tools/smalt-0
+license: unknown
+blend: debian-med
+description_md5: da0bc05ee32e6ad65fb07ec4330d5b6d
+registries:
+- entry: OMICS_00686
+  name: OMICtools
+- entry: SCR_000544
+  name: SciCrunch
+- entry: Smalt
+  name: bio.tools
+- entry: smalt
+  name: conda:bioconda
+popcon:
+- insts: 123
+  olde: 95
+  recent: 24
+  vote: 4

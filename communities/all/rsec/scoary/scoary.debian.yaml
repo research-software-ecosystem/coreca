@@ -1,0 +1,25 @@
+package: scoary
+distribution: debian
+release: sid
+component: main
+version: 1.6.16
+source: scoary
+homepage: https://github.com/AdmiralenOla/Scoary
+license: unknown
+blend: debian-med
+description_md5: 7cc373b23ea67fb43af0b4321f3400cc
+registries:
+- entry: OMICS_13120
+  name: OMICtools
+- entry: Scoary
+  name: bio.tools
+- entry: scoary
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/s13059-016-1108-8
+popcon:
+- insts: 112
+  olde: 82
+  recent: 22
+  vote: 8

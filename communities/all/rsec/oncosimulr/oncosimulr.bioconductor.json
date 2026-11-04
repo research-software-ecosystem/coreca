@@ -1,0 +1,75 @@
+{
+    "Author": "Ramon Diaz-Uriarte [aut, cre] (ORCID: <https://orcid.org/0000-0002-6637-9039>), Sergio Sanchez-Carrillo [aut], Juan Antonio Miguel Gonzalez [aut], Mark Taylor [ctb] (plot.stream, plot.stacked), Niklas Endres [ctb] (vignette examples, freq-dep-fitness time), Javier Mu~noz Haro [aut] (interventions), Alberto Gonzalez Klein [aut] (user-specified death rates), Javier Lopez Cano [aut] (user-defined variables), Arash Partow [ctb] (ExprTk), Sophie Brouillet [ctb] (MAGELLAN), Sebastian Matuszewski [ctb] (MAGELLAN), Harry Annoni [ctb] (MAGELLAN), Luca Ferretti [ctb] (MAGELLAN), Guillaume Achaz [ctb] (MAGELLAN), Wolodzko Tymoteusz [ctb] (multivariate hypergeometric), Guillermo Gorines Cordero [ctb] (rfitness), Ivan Lorca Alonso [ctb] (rfitness), Francisco Mu~noz Lopez [ctb] (rfitness), David Roncero Moro~no [ctb] (rfitness), Alvaro Quevedo [ctb] (rfitness), Pablo Perez [ctb] (rfitness), Cristina Devesa [ctb] (rfitness), Alejandro Herrador [ctb] (rfitness), Holger Froehlich [ctb] (simOGraph (transitive closure)), Florian Markowetz [ctb] (simOGraph (transitive closure)), Achim Tresch [ctb] (simOGraph (transitive closure)), Theresa Niederberger [ctb] (simOGraph (transitive closure)), Christian Bender [ctb] (simOGraph (transitive closure)), Matthias Maneck [ctb] (simOGraph (transitive closure)), Claudio Lottaz [ctb] (simOGraph (transitive closure)), Tim Beissbarth [ctb] (simOGraph (transitive closure)), Sara Dorado Alfaro [ctb] (vignette examples), Miguel Hernandez del Valle [ctb] (vignette examples), Alvaro Huertas Garcia [ctb] (vignette examples), Diego Ma~nanes Cayero [ctb] (vignette examples), Alejandro Martin Mu~noz [ctb] (vignette examples), Marta Couce Iglesias [ctb] (vignette examples), Silvia Garcia Cobos [ctb] (vignette examples), Carlos Madariaga Aramendi [ctb] (vignette examples), Ana Rodriguez Ronchel [ctb] (vignette examples), Lucia Sanchez Garcia [ctb] (vignette examples), Yolanda Benitez Quesada [ctb] (vignette examples), Asier Fernandez Pato [ctb] (vignette examples), Esperanza Lopez Lopez [ctb] (vignette examples), Alberto Manuel Parra Perez [ctb] (vignette examples), Jorge Garcia Calleja [ctb] (vignette examples), Ana del Ramo Galian [ctb] (vignette examples), Alejandro de los Reyes Benitez [ctb] (vignette examples), Guillermo Garcia Hoyos [ctb] (vignette examples), Rosalia Palomino Cabrera [ctb] (vignette examples), Rafael Barrero Rodriguez [ctb] (vignette examples), Silvia Talavera Marcos [ctb] (vignette examples)",
+    "BugReports": "https://github.com/rdiaz02/OncoSimul/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.5.0)"
+    ],
+    "Description": "Functions for forward population genetic simulation in asexual populations, with special focus on cancer progression. Fitness can be an arbitrary function of genetic interactions between multiple genes or modules of genes, including epistasis, order restrictions in mutation accumulation, and order effects. Fitness (including just birth, just death, or both birth and death) can also be a function of the relative and absolute frequencies of other genotypes (i.e., frequency-dependent fitness). Mutation rates can differ between genes, and we can include mutator/antimutator genes (to model mutator phenotypes). Simulating multi-species scenarios and therapeutic interventions, including adaptive therapy, is also possible. Simulations use continuous-time models and can include driver and passenger genes and modules. Also included are functions for: simulating random DAGs of the type found in Oncogenetic Trees, Conjunctive Bayesian Networks, and other cancer progression models; plotting and sampling from single or multiple realizations of the simulations, including single-cell sampling; plotting the parent-child relationships of the clones; generating random fitness landscapes (Rough Mount Fuji, House of Cards, additive, NK, Ising, and Eggbox models) and plotting them.",
+    "Imports": [
+        "RColorBrewer",
+        "Rcpp (>= 0.12.4)",
+        "Rgraphviz",
+        "car",
+        "data.table",
+        "dplyr",
+        "ggplot2",
+        "ggrepel",
+        "grDevices",
+        "graph",
+        "gtools",
+        "igraph",
+        "methods",
+        "parallel",
+        "smatr",
+        "stringr"
+    ],
+    "License": "GPL (>= 3)",
+    "LinkingTo": [
+        "Rcpp"
+    ],
+    "MD5sum": "9d8bd75f863091d61053bceeaa59a0ce",
+    "Maintainer": "Ramon Diaz-Uriarte <rdiaz02@gmail.com>",
+    "NeedsCompilation": "yes",
+    "Package": "OncoSimulR",
+    "Rank": 1146,
+    "Rfiles": [
+        "vignettes/OncoSimulR/inst/doc/OncoSimulR.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "Oncotree",
+        "bookdown",
+        "knitr",
+        "pander",
+        "rmarkdown",
+        "testthat (>= 1.0.0)"
+    ],
+    "Title": "Forward Genetic Simulation of Cancer Progression with Epistasis",
+    "URL": "https://github.com/rdiaz02/OncoSimul, https://popmodels.cancercontrol.cancer.gov/gsr/packages/oncosimulr/",
+    "Version": "4.14.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "BiologicalQuestion",
+        "Software",
+        "SomaticMutation"
+    ],
+    "dependencyCount": "86",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "69ba2e1",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/OncoSimulR",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/OncoSimulR_4.14.0.tgz",
+    "source.ver": "src/contrib/OncoSimulR_4.14.0.tar.gz",
+    "vignetteTitles": [
+        "OncoSimulR: forward genetic simulation in asexual populations with arbitrary epistatic interactions and a focus on modeling tumor progression."
+    ],
+    "vignettes": [
+        "vignettes/OncoSimulR/inst/doc/OncoSimulR.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/OncoSimulR_4.14.0.zip"
+}

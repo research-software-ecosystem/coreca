@@ -1,0 +1,70 @@
+{
+    "Archs": "x64",
+    "Author": "Johannes Rainer [aut, cre] (ORCID: <https://orcid.org/0000-0002-6977-7147>), Michael Witting [aut] (ORCID: <https://orcid.org/0000-0002-1462-4426>), Andrea Vicini [aut], Liesa Salzer [ctb] (ORCID: <https://orcid.org/0000-0003-0761-0656>), Sebastian Gibb [aut] (ORCID: <https://orcid.org/0000-0001-7406-4443>), Michael Stravs [ctb] (ORCID: <https://orcid.org/0000-0002-1426-8572>), Roger Gine [aut] (ORCID: <https://orcid.org/0000-0003-0288-9619>), William Kumler [aut] (ORCID: <https://orcid.org/0000-0002-5022-8009>), Philippine Louail [aut] (ORCID: <https://orcid.org/0009-0007-5429-6846>), Gabriele Tomè [aut] (ORCID: <https://orcid.org/0000-0002-3976-6068>, fnd: MetaRbolomics4Galaxy project (CUP: D53C25001030003) co-funded by the Autonomous Province of Bolzano under the Joint Projects South Tyrol–Germany 2025 program.)",
+    "BugReports": "https://github.com/RforMassSpectrometry/MetaboCoreUtils/issues",
+    "Date/Publication": "2026-04-30",
+    "Depends": [
+        "R (>= 4.0)"
+    ],
+    "Description": "MetaboCoreUtils defines metabolomics-related core functionality provided as low-level functions to allow a data structure-independent usage across various R packages. This includes functions to calculate between ion (adduct) and compound mass-to-charge ratios and masses or functions to work with chemical formulas. The package provides also a set of adduct definitions and information on some commercially available internal standard mixes commonly used in MS experiments.",
+    "Imports": [
+        "BiocParallel",
+        "MsCoreUtils",
+        "methods",
+        "stats",
+        "utils"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "27076642b936e25b97dc32461a48d054",
+    "Maintainer": "Johannes Rainer <Johannes.Rainer@eurac.edu>",
+    "NeedsCompilation": "no",
+    "Package": "MetaboCoreUtils",
+    "Rank": 142,
+    "Rfiles": [
+        "vignettes/MetaboCoreUtils/inst/doc/MetaboCoreUtils.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown",
+        "robustbase",
+        "testthat"
+    ],
+    "Title": "Core Utils for Metabolomics Data",
+    "URL": "https://github.com/RforMassSpectrometry/MetaboCoreUtils",
+    "Version": "1.20.1",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Infrastructure",
+        "MassSpectrometry",
+        "Metabolomics",
+        "Software"
+    ],
+    "dependencyCount": "24",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "ae5c096",
+    "git_last_commit_date": "2026-04-30",
+    "git_url": "https://git.bioconductor.org/packages/MetaboCoreUtils",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "CompoundDb",
+        "MetaboAnnotation",
+        "MsQuality",
+        "Spectra",
+        "pubchem.bio",
+        "xcms"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/MetaboCoreUtils_1.20.1.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/MetaboCoreUtils_1.20.1.tgz",
+    "source.ver": "src/contrib/MetaboCoreUtils_1.20.1.tar.gz",
+    "vignetteTitles": [
+        "Core Utils for Metabolomics Data"
+    ],
+    "vignettes": [
+        "vignettes/MetaboCoreUtils/inst/doc/MetaboCoreUtils.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/MetaboCoreUtils_1.20.1.zip"
+}

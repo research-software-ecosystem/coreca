@@ -1,0 +1,2529 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:augustus/cmd/bioinf.uni-greifswald.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": false,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 39,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2020
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btw494",
+                            "pmcid": "PMC5860283",
+                            "pmid": "27466621",
+                            "ref_count": 20,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1999
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2011
+                                }
+                            ],
+                            "title": "Simultaneous gene finding in multiple genomes.",
+                            "year": 2016
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 192,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2014
+                                }
+                            ],
+                            "doi": "10.1186/gb-2006-7-s1-s11",
+                            "pmcid": "PMC1810548",
+                            "pmid": "16925833",
+                            "ref_count": 20,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1996
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1997
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1998
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1999
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2000
+                                }
+                            ],
+                            "title": "AUGUSTUS at EGASP: using EST, protein and genomic alignments for improved gene prediction in the human genome.",
+                            "year": 2006
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 475,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 68,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 72,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 78,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 87,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 99,
+                                    "year": 2024
+                                }
+                            ],
+                            "doi": "10.1007/978-1-4939-9173-0_5",
+                            "pmcid": "PMC6635606",
+                            "pmid": "31020555",
+                            "ref_count": 40,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1990
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2008
+                                }
+                            ],
+                            "title": "Whole-Genome Annotation with BRAKER.",
+                            "year": 2019
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 852,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 23,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 32,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 36,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 46,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 53,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 54,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 75,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 78,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 84,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 90,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 98,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 101,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-7-62",
+                            "pmcid": "PMC1409804",
+                            "pmid": "16469098",
+                            "ref_count": 22,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1993
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1996
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1997
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2003
+                                }
+                            ],
+                            "title": "Gene prediction in eukaryotes with a generalized hidden Markov model that uses hints from external sources.",
+                            "year": 2006
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1007/978-1-4939-9173-0_8",
+                            "pmid": "31020558",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Multi-Genome Annotation with AUGUSTUS.",
+                            "year": 2019
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 252,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 31,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 31,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 39,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 53,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 56,
+                                    "year": 2026
+                                }
+                            ],
+                            "doi": "10.1002/cpbi.57",
+                            "pmid": "30466165",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Predicting Genes in Single Genomes with AUGUSTUS.",
+                            "year": 2018
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 355,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 32,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 34,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 37,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 42,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 49,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btr010",
+                            "pmid": "21216780",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A novel hybrid gene prediction method employing protein multiple sequence alignments.",
+                            "year": 2011
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 936,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 23,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 32,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 37,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 37,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 59,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 64,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 65,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 69,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 71,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 74,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 76,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 82,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 101,
+                                    "year": 2021
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btg1080",
+                            "pmid": "14534192",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Gene prediction with a hidden Markov model and a new intron submodel.",
+                            "year": 2003
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1600,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 22,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 33,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 36,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 38,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 53,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 66,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 77,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 78,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 113,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 130,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 158,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 217,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 239,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 287,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btn013",
+                            "pmid": "18218656",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Using native and syntenically mapped cDNA alignments to improve de novo gene finding.",
+                            "year": 2008
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bioinf.uni-greifswald.de/augustus/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT881865S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:augustus/web/bioinf.uni-greifswald.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "help": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 834,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 33,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 34,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 48,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 54,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 62,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 63,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 65,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 73,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 75,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 76,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 77,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 87,
+                                    "year": 2021
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkh379",
+                            "pmcid": "PMC441517",
+                            "pmid": "15215400",
+                            "ref_count": 20,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1997
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1999
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2000
+                                }
+                            ],
+                            "title": "AUGUSTUS: a web server for gene finding in eukaryotes.",
+                            "year": 2004
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 852,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 23,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 32,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 36,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 46,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 53,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 54,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 75,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 78,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 84,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 90,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 98,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 101,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-7-62",
+                            "pmcid": "PMC1409804",
+                            "pmid": "16469098",
+                            "ref_count": 22,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1993
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1996
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1997
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2003
+                                }
+                            ],
+                            "title": "Gene prediction in eukaryotes with a generalized hidden Markov model that uses hints from external sources.",
+                            "year": 2006
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 946,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 24,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 34,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 39,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 58,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 71,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 77,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 85,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 85,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 86,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 88,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 99,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 118,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/nar/gki458",
+                            "pmcid": "PMC1160219",
+                            "pmid": "15980513",
+                            "ref_count": 9,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 1997
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2004
+                                }
+                            ],
+                            "title": "AUGUSTUS: a web server for gene prediction in eukaryotes that allows user-defined constraints.",
+                            "year": 2005
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1819,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 28,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 42,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 56,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 99,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 108,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 165,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 166,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 199,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 212,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 262,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 357,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkl200",
+                            "pmcid": "PMC1538822",
+                            "pmid": "16845043",
+                            "ref_count": 21,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1990
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1992
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1997
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2004
+                                }
+                            ],
+                            "title": "AUGUSTUS: ab initio prediction of alternative transcripts.",
+                            "year": 2006
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1016/0021-9150(76)90084-8",
+                            "pmid": "182186",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "The formation of deoxycholic acid in patients with type II and IV hyperlipoproteinaemia.",
+                            "year": null
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": true,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bioinf.uni-greifswald.de/augustus/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true,
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT881865S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:augustus:3.1/cmd/bioinf.uni-greifswald.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bioinf.uni-greifswald.de/augustus/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:augustus:3.2.2/cmd/bioinf.uni-greifswald.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bioinf.uni-greifswald.de/augustus/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:augustus:3.2.3/cmd/bioinf.uni-greifswald.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 355,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 32,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 34,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 37,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 42,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 49,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btr010",
+                            "pmid": "21216780",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A novel hybrid gene prediction method employing protein multiple sequence alignments.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bioinf.uni-greifswald.de/augustus/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:augustus:3.3/cmd/bioinf.uni-greifswald.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 355,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 32,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 34,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 37,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 42,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 49,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btr010",
+                            "pmid": "21216780",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A novel hybrid gene prediction method employing protein multiple sequence alignments.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bioinf.uni-greifswald.de/augustus/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:augustus:3.5.0/cmd/bioinf.uni-greifswald.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 355,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 32,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 34,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 37,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 42,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 49,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btr010",
+                            "pmid": "21216780",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A novel hybrid gene prediction method employing protein multiple sequence alignments.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://bioinf.uni-greifswald.de/augustus/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:augustus:3.3.2/cmd/bioinf.uni-greifswald.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 355,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 32,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 34,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 37,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 42,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 49,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btr010",
+                            "pmid": "21216780",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A novel hybrid gene prediction method employing protein multiple sequence alignments.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bioinf.uni-greifswald.de/augustus/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT881865S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:augustus:3.3.3/cmd/bioinf.uni-greifswald.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 355,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 32,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 34,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 37,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 42,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 49,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btr010",
+                            "pmid": "21216780",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A novel hybrid gene prediction method employing protein multiple sequence alignments.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bioinf.uni-greifswald.de/augustus/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT881865S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:augustus:3.4.0/cmd/bioinf.uni-greifswald.de",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": true,
+                "registration": false
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": false,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 355,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 32,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 34,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 37,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 42,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 49,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btr010",
+                            "pmid": "21216780",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A novel hybrid gene prediction method employing protein multiple sequence alignments.",
+                            "year": 2011
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bioinf.uni-greifswald.de/augustus/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT881865S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/augustus",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bioinf.uni-greifswald.de/augustus/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/galaxy:augustus:3.2.3/workflow/toolshed.g2.bx.psu.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "galaxy",
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 58,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 5,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 7,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 17,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btr010",
+                            "pmid": "21216780",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "A novel hybrid gene prediction method employing protein multiple sequence alignments.",
+                            "year": 2011
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 241,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": "2008"
+                                },
+                                {
+                                    "count": 3,
+                                    "year": "2009"
+                                },
+                                {
+                                    "count": 6,
+                                    "year": "2010"
+                                },
+                                {
+                                    "count": 8,
+                                    "year": "2011"
+                                },
+                                {
+                                    "count": 19,
+                                    "year": "2012"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2013"
+                                },
+                                {
+                                    "count": 25,
+                                    "year": "2018"
+                                },
+                                {
+                                    "count": 33,
+                                    "year": "2015"
+                                },
+                                {
+                                    "count": 33,
+                                    "year": "2016"
+                                },
+                                {
+                                    "count": 38,
+                                    "year": "2014"
+                                },
+                                {
+                                    "count": 48,
+                                    "year": "2017"
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btn013",
+                            "pmid": "18218656",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Using native and syntenically mapped cDNA alignments to improve de novo gene finding.",
+                            "year": 2008
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1093/bioinformatics/btg1080",
+                            "ref_count": 0,
+                            "refs": []
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 408,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

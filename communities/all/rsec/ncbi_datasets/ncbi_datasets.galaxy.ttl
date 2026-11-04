@@ -1,0 +1,54 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix bioschemas: <http://bioschemas.org/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix galaxytool: <https://github.com/galaxyproject/tools-iuc/tree/master/tools/> .
+@prefix schema1: <http://schema.org/> .
+
+galaxytool:ncbi_datasets a schema1:SoftwareApplication ;
+    bioschemas:output "fasta",
+        "tabular" ;
+    schema1:codeRepository <https://github.com/ncbi/datasets> ;
+    schema1:dateCreated "2022-01-27" ;
+    schema1:description "NCBI datasets downloads biological sequence data across all domains of life from NCBI." ;
+    schema1:encodingFormat "fasta",
+        "tabular" ;
+    schema1:featureList edam:operation_0338,
+        edam:operation_2409,
+        edam:operation_2422,
+        edam:operation_2427,
+        edam:topic_0163 ;
+    schema1:identifier biotools:ncbi_datasets,
+        bioconda:ncbi-datasets-cli ;
+    schema1:isPartOf <https://galaxytrakr.org>,
+        <https://usegalaxy.be>,
+        <https://usegalaxy.ca>,
+        <https://usegalaxy.cz>,
+        <https://usegalaxy.eu>,
+        <https://usegalaxy.eu/published/workflow?id=c5e6047b3b256b06>,
+        <https://usegalaxy.fr>,
+        <https://usegalaxy.no>,
+        <https://usegalaxy.org>,
+        <https://workflowhub.eu/workflows/1103?version=3>,
+        <https://workflowhub.eu/workflows/1104?version=2> ;
+    schema1:keywords "Data Source" ;
+    schema1:name "ncbi_datasets" ;
+    schema1:softwareVersion "18.33.1" ;
+    schema1:url <https://github.com/galaxyproject/tools-iuc/tree/main/tools/ncbi_datasets> .
+
+<https://galaxytrakr.org> a schema1:WebSite .
+
+<https://usegalaxy.be> a schema1:WebSite .
+
+<https://usegalaxy.ca> a schema1:WebSite .
+
+<https://usegalaxy.cz> a schema1:WebSite .
+
+<https://usegalaxy.eu> a schema1:WebSite .
+
+<https://usegalaxy.fr> a schema1:WebSite .
+
+<https://usegalaxy.no> a schema1:WebSite .
+
+<https://usegalaxy.org> a schema1:WebSite .
+

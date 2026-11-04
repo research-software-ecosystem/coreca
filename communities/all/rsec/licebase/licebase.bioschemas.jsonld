@@ -1,0 +1,409 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0002-2371-5928",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4110-0748",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://bio.tools/LiceBase",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": [
+        {
+          "@id": "https://orcid.org/0000-0003-4110-0748"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2371-5928"
+        }
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:Nb9582e06cb17470b96c9c2c8ae552122"
+        },
+        {
+          "@id": "_:N4275cea691d74bedb10ecc8c24129cdc"
+        },
+        {
+          "@id": "_:Ncacfd7651ad04668a15dbc7d2f28c420"
+        },
+        {
+          "@id": "_:Nd805c64bf1184a6296793f229fe1762e"
+        },
+        {
+          "@id": "_:N56562cbbcbc24d7e8fce14cc7744017e"
+        },
+        {
+          "@id": "_:Nb0d2f19b0c714dacb2cf88d712266568"
+        },
+        {
+          "@id": "_:N2c6562ba49474588a65c71a0371fe569"
+        },
+        {
+          "@id": "_:Nc1557dbd1d4d4eb39be7385577586ba7"
+        },
+        {
+          "@id": "_:N82aacf62cb404f1f8770109f20c9e883"
+        },
+        {
+          "@id": "_:N732e2507153c42cc910e63ab19dc8130"
+        },
+        {
+          "@id": "_:N69e2d61903114946ad6c48a5d5e2b666"
+        },
+        {
+          "@id": "_:Need1ece76e72457397edffbd81c0c623"
+        },
+        {
+          "@id": "_:Na3d1b0768609499ca751e92b937a17a1"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N884b0d78b1fb44aaa35a6a6e5980c0ab"
+        },
+        {
+          "@id": "_:N5c8f21b560a847478cdecd31254ccdf5"
+        },
+        {
+          "@id": "_:N7cb84c1e926f4a04b8fe420a0bfe959a"
+        },
+        {
+          "@id": "_:Nfe400c4ee49e421b975ba32379b701c0"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Database portal",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3810"
+        },
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3387"
+        },
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_3302"
+        }
+      ],
+      "sc:author": [
+        {
+          "@id": "https://orcid.org/0000-0002-2371-5928"
+        },
+        "Wei Zhang",
+        "Sea Lice Research Centre (SLRC)"
+      ],
+      "sc:description": "LiceBase is a genomics database for sea lice (Lepeophtheirus salmonis and Caligus spp.), which are major pathogens affecting the global salmon farming industry. The database contains the genome annotation of the Atlantic salmon louse (L. salmonis) and is designed to help researchers, industry professionals, and other interested parties access and share information about these parasites, with the goal of developing new treatment methods and tools to ensure a sustainable salmon farming industry. LiceBase provides annotated genome reports, genome browsing, RNA interference (RNAi) experiment browsing for several additional species, BLAST search, and in-situ images. The database homepage posts news updates and recent publications related to sea lice and salmonid species.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_0305"
+        },
+        {
+          "@id": "edam:operation_0346"
+        },
+        {
+          "@id": "edam:operation_2421"
+        },
+        {
+          "@id": "edam:operation_3208"
+        }
+      ],
+      "sc:funder": "The Research Council of Norway",
+      "sc:isAccessibleForFree": true,
+      "sc:license": "CC-BY-SA-4.0",
+      "sc:name": "LiceBase",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "University of Bergen",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://licebase.org/privacy_policy"
+        },
+        {
+          "@id": "https://licebase.org/?q=node/760957"
+        },
+        {
+          "@id": "https://licebase.org/about"
+        },
+        {
+          "@id": "https://licebase.org/terms_of_use"
+        }
+      ],
+      "sc:url": "https://licebase.org/"
+    },
+    {
+      "@id": "_:Nb9582e06cb17470b96c9c2c8ae552122",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3108"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "_:N4275cea691d74bedb10ecc8c24129cdc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:Ncacfd7651ad04668a15dbc7d2f28c420",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1868"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Taxon"
+    },
+    {
+      "@id": "_:Nd805c64bf1184a6296793f229fe1762e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Keyword"
+    },
+    {
+      "@id": "_:N56562cbbcbc24d7e8fce14cc7744017e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3723"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Morphology parameter"
+    },
+    {
+      "@id": "_:Nb0d2f19b0c714dacb2cf88d712266568",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3275"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Phenotype name"
+    },
+    {
+      "@id": "_:N2c6562ba49474588a65c71a0371fe569",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:Nc1557dbd1d4d4eb39be7385577586ba7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Database ID"
+    },
+    {
+      "@id": "_:N82aacf62cb404f1f8770109f20c9e883",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1929"
+        },
+        {
+          "@id": "edam:format_1935"
+        },
+        {
+          "@id": "edam:format_2571"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:N732e2507153c42cc910e63ab19dc8130",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1192"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Tool name (BLAST)"
+    },
+    {
+      "@id": "_:N69e2d61903114946ad6c48a5d5e2b666",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2299"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:Need1ece76e72457397edffbd81c0c623",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Keyword"
+    },
+    {
+      "@id": "_:Na3d1b0768609499ca751e92b937a17a1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:N884b0d78b1fb44aaa35a6a6e5980c0ab",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0850"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence set"
+    },
+    {
+      "@id": "_:N5c8f21b560a847478cdecd31254ccdf5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N7cb84c1e926f4a04b8fe420a0bfe959a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0857"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1333"
+      },
+      "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "_:Nfe400c4ee49e421b975ba32379b701c0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2955"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1333"
+        },
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3547"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Sequence report"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+package: presto
+distribution: debian
+release: sid
+component: main
+version: 0.7.6
+source: presto
+homepage: https://presto.readthedocs.io
+license: unknown
+blend: debian-med
+description_md5: 1df336b8ef4efca6890d5fff54328f94
+registries:
+- entry: OMICS_03443
+  name: OMICtools
+- entry: SCR_013285
+  name: SciCrunch
+- entry: pRESTO
+  name: bio.tools
+- entry: presto
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btu138
+popcon:
+- insts: 111
+  olde: 81
+  recent: 23
+  vote: 7

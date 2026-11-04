@@ -1,0 +1,69 @@
+{
+    "Author": "Maria Keays [aut] (ORCID: <https://orcid.org/0000-0003-2034-601X>), Pedro Madrigal [aut] (ORCID: <https://orcid.org/0000-0003-1959-8199>), Anil Thanki [cre] (ORCID: <https://orcid.org/0000-0002-8941-444X>)",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biobase",
+        "BiocStyle",
+        "R (>= 4.2.0)",
+        "RCurl",
+        "S4Vectors",
+        "SummarizedExperiment",
+        "jsonlite",
+        "limma",
+        "methods",
+        "xml2"
+    ],
+    "Description": "This package is for searching for datasets in EMBL-EBI Expression Atlas, and downloading them into R for further analysis. Each Expression Atlas dataset is represented as a SimpleList object with one element per platform. Sequencing data is contained in a SummarizedExperiment object, while microarray data is contained in an ExpressionSet or MAList object.",
+    "Imports": [
+        "XML",
+        "httr",
+        "utils"
+    ],
+    "License": "GPL (>= 3)",
+    "MD5sum": "28c119bedfa065a5457522b2712acdbc",
+    "Maintainer": "Anil Thanki <anilthanki@ebi.ac.uk>",
+    "NeedsCompilation": "no",
+    "Package": "ExpressionAtlas",
+    "Rank": 1085,
+    "Rfiles": [
+        "vignettes/ExpressionAtlas/inst/doc/ExpressionAtlas.R"
+    ],
+    "Suggests": [
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Download datasets from EMBL-EBI Expression Atlas",
+    "Version": "2.4.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "ArrayExpress",
+        "ExperimentData",
+        "ExpressionData",
+        "MicroarrayData",
+        "SequencingData",
+        "Software"
+    ],
+    "dependencyCount": "64",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "5f9865f",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/ExpressionAtlas",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/ExpressionAtlas_2.4.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/ExpressionAtlas_2.4.0.tgz",
+    "source.ver": "src/contrib/ExpressionAtlas_2.4.0.tar.gz",
+    "suggestsMe": [
+        "spatialHeatmap"
+    ],
+    "vignetteTitles": [
+        "ExpressionAtlas"
+    ],
+    "vignettes": [
+        "vignettes/ExpressionAtlas/inst/doc/ExpressionAtlas.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/ExpressionAtlas_2.4.0.zip"
+}

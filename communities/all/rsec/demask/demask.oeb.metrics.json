@@ -1,0 +1,175 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:demask/lib/demask.princeton.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 30,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btaa1030",
+                            "pmcid": "PMC8016454",
+                            "pmid": "33325500",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "DeMaSk: a deep mutational scanning substitution matrix and its use for variant impact prediction.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:demask/web/demask.princeton.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 30,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btaa1030",
+                            "pmcid": "PMC8016454",
+                            "pmid": "33325500",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "DeMaSk: a deep mutational scanning substitution matrix and its use for variant impact prediction.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/demask",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

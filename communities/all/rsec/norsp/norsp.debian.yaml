@@ -1,0 +1,21 @@
+package: norsp
+distribution: debian
+release: sid
+component: main
+version: 1.0.6
+source: norsp
+homepage: 
+  https://rostlab.org/owiki/index.php/NORSp_-_predictor_of_NOn-Regular_Secondary_Structure
+license: unknown
+blend: debian-med
+description_md5: 830f3dbba7486b6cd68dd4678f395003
+registries:
+- entry: OMICS_21452
+  name: OMICtools
+- entry: norsp
+  name: bio.tools
+popcon:
+- insts: 118
+  olde: 91
+  recent: 23
+  vote: 4

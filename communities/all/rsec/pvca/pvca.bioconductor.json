@@ -1,0 +1,60 @@
+{
+    "Author": "Pierre Bushel <bushel@niehs.nih.gov>",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 2.15.1)"
+    ],
+    "Description": "This package contains the function to assess the batch sourcs by fitting all \"sources\" as random effects including two-way interaction terms in the Mixed Model(depends on lme4 package) to selected principal components, which were obtained from the original data correlation matrix. This package accompanies the book \"Batch Effects and Noise in Microarray Experiements, chapter 12.",
+    "Imports": [
+        "Biobase",
+        "Matrix",
+        "lme4",
+        "stats",
+        "vsn"
+    ],
+    "License": "LGPL (>= 2.0)",
+    "MD5sum": "16adb9fb1020985b74ba3567b057024e",
+    "Maintainer": "Jianying LI <li11@niehs.nih.gov>",
+    "NeedsCompilation": "no",
+    "Package": "pvca",
+    "Rank": 549,
+    "Rfiles": [
+        "vignettes/pvca/inst/doc/pvca.R"
+    ],
+    "Suggests": [
+        "golubEsets"
+    ],
+    "Title": "Principal Variance Component Analysis (PVCA)",
+    "Version": "1.52.0",
+    "biocViews": [
+        "BatchEffect",
+        "Microarray",
+        "Software"
+    ],
+    "dependencyCount": "49",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "3f076b9",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/pvca",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "ExpressionNormalizationWorkflow",
+        "proBatch"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/pvca_1.52.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/pvca_1.52.0.tgz",
+    "source.ver": "src/contrib/pvca_1.52.0.tar.gz",
+    "suggestsMe": [
+        "omicsTools"
+    ],
+    "vignetteTitles": [
+        "Batch effect estimation in Microarray data"
+    ],
+    "vignettes": [
+        "vignettes/pvca/inst/doc/pvca.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/pvca_1.52.0.zip"
+}

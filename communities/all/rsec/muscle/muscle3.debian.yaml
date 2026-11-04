@@ -1,0 +1,44 @@
+package: muscle3
+distribution: debian
+release: sid
+component: main
+version: 3.8.1551
+source: muscle3
+homepage: https://www.drive5.com/muscle/
+license: unknown
+blend: debian-med
+description_md5: 521b9559fa42040294d8c55d0fcfda60
+topics:
+- Sequence analysis
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - FASTA
+  output:
+  - data: Alignment
+    formats:
+    - FASTA-aln
+    - ClustalW format
+    - PHYLIP format
+  function:
+  - Multiple sequence alignment
+registries:
+- entry: OMICS_00982
+  name: OMICtools
+- entry: SCR_011812
+  name: SciCrunch
+- entry: muscle
+  name: bio.tools
+- entry: muscle
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/nar/gkh340
+- key: doi
+  rank: 1
+  value: 10.1186/1471-2105-5-113
+popcon:
+- insts: 6
+  olde: 6

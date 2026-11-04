@@ -1,0 +1,44 @@
+about:
+  home: https://github.com/hzi-bifo/RiboDetector
+  license: GPL-3.0-or-later
+  license_family: GPL3
+  license_file: LICENSE
+  summary: Accurate and rapid RiboRNA sequences Detector based on deep learning
+build:
+  entry_points:
+  - ribodetector = ribodetector.detect:main
+  - ribodetector_cpu = ribodetector.detect_cpu:main
+  noarch: python
+  number: 0
+  run_exports:
+  - null
+  script: ' -m pip install . --no-deps --no-build-isolation -vvv'
+extra:
+  identifiers:
+  - biotools:ribodetector
+  recipe-maintainers:
+  - alienzj
+package:
+  name: ribodetector
+  version: 0.3.3
+requirements:
+  host:
+  - pip
+  - python >=3.8,<=3.10
+  run:
+  - python >=3.8,<=3.10
+  - pandas
+  - numpy
+  - tqdm
+  - biopython
+  - onnxruntime
+  - pytorch
+source:
+  sha256: aefd0230ca298f9a0fdba94565f9efad2e7cd4367c0198a9c70b1c886b754e7a
+  url: https://files.pythonhosted.org/packages/ed/92/ddeb9ca3e7cc936669f19d6ad181cca2ce8ca7afab00cbbee9f88ad50a84/ribodetector-0.3.3.tar.gz
+test:
+  commands:
+  - ribodetector --help
+  - ribodetector_cpu --help
+  imports:
+  - ribodetector

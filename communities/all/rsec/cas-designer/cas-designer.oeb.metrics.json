@@ -1,0 +1,132 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cas-designer/cmd/rgenome.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 263,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 26,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 29,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 31,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 31,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 35,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 37,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btv537",
+                            "pmid": "26358729",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Cas-Designer: a web-based tool for choice of CRISPR-Cas9 target sites.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.rgenome.net/cas-designer/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/cas-designer",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.rgenome.net/cas-designer/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

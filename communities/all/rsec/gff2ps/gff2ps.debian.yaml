@@ -1,0 +1,37 @@
+package: gff2ps
+distribution: debian
+release: sid
+component: main
+version: 0.98l
+source: gff2ps
+homepage: https://genome.crg.es/software/gff2ps/
+license: unknown
+blend: debian-med
+description_md5: 4465e6c0db1ba009aa3566978fbb690c
+registries:
+- entry: OMICS_17140
+  name: OMICtools
+- entry: SCR_000462
+  name: SciCrunch
+- entry: gff2ps
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/16.8.743
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::shell
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::converting
+- tag: use::viewing
+- tag: works-with-format::postscript
+- tag: works-with::TODO
+- tag: works-with::image:vector
+popcon:
+- insts: 119
+  olde: 92
+  recent: 23
+  vote: 4

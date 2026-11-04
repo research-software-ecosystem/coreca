@@ -1,0 +1,23 @@
+package: prime-phylo
+distribution: debian
+release: sid
+component: main
+version: 1.0.11
+source: prime-phylo
+homepage: http://prime.sbc.su.se
+license: unknown
+blend: debian-med
+description_md5: d1248884237c1baa3cb1e6264fb39885
+registries:
+- entry: OMICS_29591
+  name: OMICtools
+- entry: PrIME
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1073/pnas.0806251106
+popcon:
+- insts: 115
+  olde: 88
+  recent: 23
+  vote: 4

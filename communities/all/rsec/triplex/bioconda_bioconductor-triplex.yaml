@@ -1,0 +1,59 @@
+about:
+  description: This package provides functions for identification and visualization
+    of potential intramolecular triplex patterns in DNA sequence. The main functionality
+    is to detect the positions of subsequences capable of folding into an intramolecular
+    triplex (H-DNA) in a much larger sequence. The potential H-DNA (triplexes) should
+    be made of as many cannonical nucleotide triplets as possible. The package includes
+    visualization showing the exact base-pairing in 1D, 2D or 3D.
+  home: https://bioconductor.org/packages/3.22/bioc/html/triplex.html
+  license: BSD_2_clause + file LICENSE
+  license_file: LICENSE
+  summary: Search and visualize intramolecular triplex-forming sequences in DNA
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:triplex
+  parent_recipe:
+    name: bioconductor-triplex
+    path: recipes/bioconductor-triplex
+    version: 1.20.0
+package:
+  name: bioconductor-triplex
+  version: 1.50.0
+requirements:
+  build:
+  - null
+  - make
+  host:
+  - bioconductor-biostrings >=2.78.0,<2.79.0
+  - bioconductor-genomicranges >=1.62.0,<1.63.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-xvector >=0.50.0,<0.51.0
+  - r-base
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-biostrings >=2.78.0,<2.79.0
+  - bioconductor-genomicranges >=1.62.0,<1.63.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-xvector >=0.50.0,<0.51.0
+  - r-base
+source:
+  md5: 4be06eac78c450795679436b0c42201a
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/triplex_1.50.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/triplex/triplex_1.50.0.tar.gz
+  - https://bioarchive.galaxyproject.org/triplex_1.50.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-triplex/bioconductor-triplex_1.50.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('triplex')"

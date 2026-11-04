@@ -1,0 +1,45 @@
+{
+    "Author": "Maya McDaniel [aut], Martin Morgan [aut, cre] (ORCID: <https://orcid.org/0000-0002-5874-8148>), Kayla Interdonato [ctb]",
+    "Depends": [
+        "R (>= 4.1)"
+    ],
+    "Description": "This package provides users with the ability to query the Human Cell Atlas data repository for single-cell experiment data. The `projects()`, `files()`, `samples()` and `bundles()` functions retrieve summary information on each of these indexes; corresponding `*_details()` are available for individual entries of each index. File-based resources can be downloaded using `files_download()`. Advanced use of the package allows the user to page through large result sets, and to flexibly query the 'list-of-lists' structure representing query responses.",
+    "Imports": [
+        "BiocFileCache",
+        "DT",
+        "digest",
+        "dplyr",
+        "httr",
+        "jsonlite",
+        "miniUI",
+        "readr",
+        "shiny",
+        "tibble",
+        "tidyr",
+        "tools",
+        "utils"
+    ],
+    "License": "MIT + file LICENSE",
+    "Maintainer": "Martin Morgan <martin.morgan@roswellpark.org>",
+    "Package": "hca",
+    "PackageStatus": "Deprecated",
+    "Rank": 2404,
+    "Suggests": [
+        "BiocStyle",
+        "LoomExperiment",
+        "S4Vectors",
+        "SingleCellExperiment",
+        "SummarizedExperiment",
+        "knitr",
+        "methods",
+        "rmarkdown",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "Exploring the Human Cell Atlas Data Coordinating Platform",
+    "Version": "1.20.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "SingleCell",
+        "Software"
+    ]
+}

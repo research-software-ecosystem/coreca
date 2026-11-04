@@ -1,0 +1,369 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/shic",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Magnus Palmblad",
+      "bsc:input": [
+        {
+          "@id": "_:N986b2cb8a0c54bf5b4ce94672afacb42"
+        },
+        {
+          "@id": "_:Nea169404b32846d7a4cea08a3b5bd1a8"
+        },
+        {
+          "@id": "_:N5667c6f743744fb195e62dd3ef0dc962"
+        },
+        {
+          "@id": "_:N80a54cfaa21b43889027570b61411859"
+        },
+        {
+          "@id": "_:N51f6e9105aa94c1fbad0bf84c02dcfc1"
+        },
+        {
+          "@id": "_:N043fd1efdbab42a29ca3a598c96805e4"
+        },
+        {
+          "@id": "_:N6c372b8c11fb40b7bd426bea2d824fff"
+        },
+        {
+          "@id": "_:N644e36f7b45b411b95cb5892cc4b4df6"
+        },
+        {
+          "@id": "_:N6740b2d13c9445da9357c6afc0f85560"
+        },
+        {
+          "@id": "_:N8bbc2d35d2c0441fb5324aa7a1d5c220"
+        },
+        {
+          "@id": "_:N290861630fd345b49c1d5154138fc028"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N9a22360a2c46454185b833f72c9b54a0"
+        },
+        {
+          "@id": "_:Nf632ae13d1b741d5b35cc48eba01e37f"
+        },
+        {
+          "@id": "_:Nb2ec9a355c634eb789bb1346c1ba9290"
+        },
+        {
+          "@id": "_:Ne3f373687d0541c4880473ceef13dd1e"
+        },
+        {
+          "@id": "_:N0c8ae1baa4534b07961b17a021ff9772"
+        },
+        {
+          "@id": "_:Nf3997bd251b7475ab8ba961c24728942"
+        },
+        {
+          "@id": "_:N322fef8a0acd47ca861ff2c1c7f1dd73"
+        },
+        {
+          "@id": "_:N9e9689ff85804398b7425690a4eb1243"
+        },
+        {
+          "@id": "_:Nb437c0dd68ed485899907da4fda7d2b7"
+        },
+        {
+          "@id": "_:N7a4571ad0ae24c1da15317f661b63d25"
+        },
+        {
+          "@id": "_:N4374b2dbd73d421fb40617817644db05"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Script",
+      "sc:description": "shic is a collection of shims for use in automated workflow composition",
+      "sc:featureList": {
+        "@id": "edam:operation_3434"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "shic",
+      "sc:softwareHelp": {
+        "@id": "https://github.com/magnuspalmblad/shic/blob/main/README.md"
+      },
+      "sc:url": "https://github.com/magnuspalmblad/shic"
+    },
+    {
+      "@id": "_:N986b2cb8a0c54bf5b4ce94672afacb42",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3651"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Nea169404b32846d7a4cea08a3b5bd1a8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N5667c6f743744fb195e62dd3ef0dc962",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3247"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N80a54cfaa21b43889027570b61411859",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3655"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N51f6e9105aa94c1fbad0bf84c02dcfc1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3655"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N043fd1efdbab42a29ca3a598c96805e4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3655"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:N6c372b8c11fb40b7bd426bea2d824fff",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0896"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Protein report"
+    },
+    {
+      "@id": "_:N644e36f7b45b411b95cb5892cc4b4df6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0896"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3747"
+      },
+      "sc:name": "Protein report"
+    },
+    {
+      "@id": "_:N6740b2d13c9445da9357c6afc0f85560",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N8bbc2d35d2c0441fb5324aa7a1d5c220",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0870"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1912"
+      },
+      "sc:name": "Sequence distance matrix"
+    },
+    {
+      "@id": "_:N290861630fd345b49c1d5154138fc028",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0972"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Text mining report"
+    },
+    {
+      "@id": "_:N9a22360a2c46454185b833f72c9b54a0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2536"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3651"
+      },
+      "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "_:Nf632ae13d1b741d5b35cc48eba01e37f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0945"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3247"
+      },
+      "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "_:Nb2ec9a355c634eb789bb1346c1ba9290",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:Ne3f373687d0541c4880473ceef13dd1e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1009"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein name"
+    },
+    {
+      "@id": "_:N0c8ae1baa4534b07961b17a021ff9772",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2764"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein name (UniProt)"
+    },
+    {
+      "@id": "_:Nf3997bd251b7475ab8ba961c24728942",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N322fef8a0acd47ca861ff2c1c7f1dd73",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "ID list"
+    },
+    {
+      "@id": "_:N9e9689ff85804398b7425690a4eb1243",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2872"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "ID list"
+    },
+    {
+      "@id": "_:Nb437c0dd68ed485899907da4fda7d2b7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N7a4571ad0ae24c1da15317f661b63d25",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0870"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1991"
+      },
+      "sc:name": "Sequence distance matrix"
+    },
+    {
+      "@id": "_:N4374b2dbd73d421fb40617817644db05",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1174"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3475"
+      },
+      "sc:name": "ChEBI ID"
+    }
+  ]
+}

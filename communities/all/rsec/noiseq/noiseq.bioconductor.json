@@ -1,0 +1,66 @@
+{
+    "Author": "Sonia Tarazona, Pedro Furio-Tari, Maria Jose Nueda, Alberto Ferrer and Ana Conesa",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biobase (>= 2.13.11)",
+        "Matrix (>= 1.2)",
+        "R (>= 2.13.0)",
+        "methods",
+        "splines (>= 3.0.1)"
+    ],
+    "Description": "Analysis of RNA-seq expression data or other similar kind of data. Exploratory plots to evualuate saturation, count distribution, expression per chromosome, type of detected features, features length, etc. Differential expression between two experimental conditions with no parametric assumptions.",
+    "License": "Artistic-2.0",
+    "MD5sum": "ce024ddd917e125dca553569add28855",
+    "Maintainer": "Sonia Tarazona <sotacam@eio.upv.es>",
+    "NeedsCompilation": "no",
+    "Package": "NOISeq",
+    "Rank": 336,
+    "Rfiles": [
+        "vignettes/NOISeq/inst/doc/NOISeq.R"
+    ],
+    "Title": "Exploratory analysis and differential expression for RNA-seq data",
+    "Version": "2.56.0",
+    "biocViews": [
+        "DifferentialExpression",
+        "ImmunoOncology",
+        "RNASeq",
+        "Sequencing",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "12",
+    "dependsOnMe": [
+        "metaSeq"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "a85acf6",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/NOISeq",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "CNVPanelizer",
+        "ExpHunterSuite",
+        "benchdamic",
+        "broadSeq",
+        "damidBind"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/NOISeq_2.56.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/NOISeq_2.56.0.tgz",
+    "source.ver": "src/contrib/NOISeq_2.56.0.tar.gz",
+    "suggestsMe": [
+        "GeoTcgaData",
+        "compcodeR"
+    ],
+    "vignetteTitles": [
+        "NOISeq User's Guide",
+        "QCreport.pdf"
+    ],
+    "vignettes": [
+        "vignettes/NOISeq/inst/doc/NOISeq.pdf",
+        "vignettes/NOISeq/inst/doc/QCreport.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/NOISeq_2.56.0.zip"
+}

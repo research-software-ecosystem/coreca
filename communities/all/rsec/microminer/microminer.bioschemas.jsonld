@@ -1,0 +1,219 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bib/bbad357",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/microminer",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": [
+        "ProteinsPlus Support",
+        "NAOMI ChemBio Suite Support"
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:Nc69a8b370a384e56aeeafb441616de31"
+        },
+        {
+          "@id": "_:N3c4563b0670941f184db73cb948268c7"
+        },
+        {
+          "@id": "_:N6424fb7102f64c2b90b7f7cf199d2d63"
+        },
+        {
+          "@id": "_:N2867fb1d03894fcbb4d0730c773b2404"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N572ec73da9474cefaeee887638b32940"
+        },
+        {
+          "@id": "_:N65a3a074c52945e295dd9816a5411de8"
+        },
+        {
+          "@id": "_:Nc87104cf91154842be3f5865bf04295a"
+        },
+        {
+          "@id": "_:N266d4e97f1554acfa3c81cb50c036868"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Web service"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_3473"
+        },
+        {
+          "@id": "edam:topic_3336"
+        },
+        {
+          "@id": "edam:topic_0130"
+        },
+        {
+          "@id": "edam:topic_2814"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bib/bbad357"
+      },
+      "sc:description": "MicroMiner assists in identifying single-residue substitutions in protein structure databases. It searches protein residue environments with local sequence and structural similarity based on the SIENA methodology. Users can search for structural mutation in the entire PDB, their in-house structure collection, or (subsets of) the AlphaFold Database. They can use the method to explore the mutation landscape of proteins with experimental or predicted structures. MicroMiner can be applied to single domains or even protein-protein or protein-ligand interfaces. Several filter options to simplify downstream analysis are available.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0509"
+        },
+        {
+          "@id": "edam:operation_0503"
+        },
+        {
+          "@id": "edam:operation_0360"
+        },
+        {
+          "@id": "edam:operation_0339"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Other",
+      "sc:name": "MicroMiner",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "University of Hamburg, ZBH - Center for Bioinformatics",
+      "sc:softwareHelp": {
+        "@id": "https://proteins.plus/help/index"
+      },
+      "sc:url": "https://www.zbh.uni-hamburg.de/en/forschung/amd/software/microminer.html"
+    },
+    {
+      "@id": "_:Nc69a8b370a384e56aeeafb441616de31",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N3c4563b0670941f184db73cb948268c7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N6424fb7102f64c2b90b7f7cf199d2d63",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1461"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1476"
+        },
+        {
+          "@id": "edam:format_3814"
+        }
+      ],
+      "sc:name": "Protein-ligand complex"
+    },
+    {
+      "@id": "_:N2867fb1d03894fcbb4d0730c773b2404",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3814"
+      },
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:N572ec73da9474cefaeee887638b32940",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1497"
+      },
+      "sc:name": "Root-mean-square deviation"
+    },
+    {
+      "@id": "_:N65a3a074c52945e295dd9816a5411de8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:Nc87104cf91154842be3f5865bf04295a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N266d4e97f1554acfa3c81cb50c036868",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1481"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure alignment"
+    }
+  ]
+}

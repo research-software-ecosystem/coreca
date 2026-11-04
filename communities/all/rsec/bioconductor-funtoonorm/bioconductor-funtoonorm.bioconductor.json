@@ -1,0 +1,54 @@
+{
+    "Author": "Celia Greenwood <celia.greenwood@mcgill.ca>,Stepan Grinek <stepan.grinek@ladydavis.ca>, Maxime Turgeon <maxime.turgeon@mail.mcgill.ca>, Kathleen Klein <kathleen.klein@mail.mcgill.ca>",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R(>= 3.4)"
+    ],
+    "Description": "Provides a function to normalize Illumina Infinium Human Methylation 450 BeadChip (Illumina 450K), correcting for tissue and/or cell type.",
+    "Imports": [
+        "GenomeInfoDb",
+        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
+        "IlluminaHumanMethylation450kmanifest",
+        "grDevices",
+        "graphics",
+        "matrixStats",
+        "methods",
+        "minfi",
+        "pls",
+        "stats"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "6c105f610c2c0b81598f9b7980fc2340",
+    "Maintainer": "Kathleen Klein <kathleen.klein@mail.mcgill.ca>",
+    "NeedsCompilation": "no",
+    "Package": "funtooNorm",
+    "Rank": 1170,
+    "Suggests": [
+        "knitr",
+        "minfiData",
+        "prettydoc",
+        "rmarkdown"
+    ],
+    "Title": "Normalization Procedure for Infinium HumanMethylation450 BeadChip Kit",
+    "Version": "1.36.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DNAMethylation",
+        "Normalization",
+        "Preprocessing",
+        "Software"
+    ],
+    "dependencyCount": "149",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "9526945",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/funtooNorm",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/funtooNorm_1.36.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/funtooNorm_1.36.0.tgz",
+    "source.ver": "src/contrib/funtooNorm_1.36.0.tar.gz",
+    "win.binary.ver": "bin/windows/contrib/4.6/funtooNorm_1.36.0.zip"
+}

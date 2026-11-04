@@ -1,0 +1,68 @@
+{
+    "Author": "William T. Barry",
+    "Date/Publication": "2026-05-03",
+    "Depends": [
+        "AnnotationDbi",
+        "Biobase",
+        "R (>= 2.4.0)",
+        "SparseM",
+        "methods"
+    ],
+    "Description": "SAFE is a resampling-based method for testing functional categories in gene expression experiments. SAFE can be applied to 2-sample and multi-class comparisons, or simple linear regressions. Other experimental designs can also be accommodated through user-defined functions.",
+    "License": "GPL (>= 2)",
+    "MD5sum": "bf5d77f1294360cab1bf7dac2bafae5d",
+    "Maintainer": "Ludwig Geistlinger <ludwig.geistlinger@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "safe",
+    "Rank": 289,
+    "Rfiles": [
+        "vignettes/safe/inst/doc/SAFEmanual3.R"
+    ],
+    "Suggests": [
+        "GO.db",
+        "GOstats",
+        "PFAM.db",
+        "Rgraphviz",
+        "breastCancerUPP",
+        "doRNG",
+        "foreach",
+        "hgu133a.db",
+        "reactome.db",
+        "survival"
+    ],
+    "Title": "Significance Analysis of Function and Expression",
+    "Version": "3.52.1",
+    "biocViews": [
+        "DifferentialExpression",
+        "GeneSetEnrichment",
+        "Pathways",
+        "Software",
+        "StatisticalMethod"
+    ],
+    "dependencyCount": "43",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "b85aafc",
+    "git_last_commit_date": "2026-05-01",
+    "git_url": "https://git.bioconductor.org/packages/safe",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "EGSEA",
+        "EnrichmentBrowser"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/safe_3.52.1.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/safe_3.52.1.tgz",
+    "source.ver": "src/contrib/safe_3.52.1.tar.gz",
+    "suggestsMe": [
+        "ReporterScore"
+    ],
+    "vignetteTitles": [
+        "SAFE manual"
+    ],
+    "vignettes": [
+        "vignettes/safe/inst/doc/SAFEmanual3.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/safe_3.52.1.zip"
+}

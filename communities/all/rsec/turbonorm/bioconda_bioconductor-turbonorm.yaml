@@ -1,0 +1,57 @@
+about:
+  description: A fast scatterplot smoother based on B-splines with second-order difference
+    penalty. Functions for microarray normalization of single-colour data i.e. Affymetrix/Illumina
+    and two-colour data supplied as marray MarrayRaw-objects or limma RGList-objects
+    are available.
+  home: https://bioconductor.org/packages/3.22/bioc/html/TurboNorm.html
+  license: LGPL
+  license_file: /lib/R/share/licenses/LGPL-3
+  summary: A fast scatterplot smoother suitable for microarray normalization
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:turbonorm
+  parent_recipe:
+    name: bioconductor-turbonorm
+    path: recipes/bioconductor-turbonorm
+    version: 1.28.0
+package:
+  name: bioconductor-turbonorm
+  version: 1.58.0
+requirements:
+  build:
+  - null
+  - make
+  host:
+  - bioconductor-affy >=1.88.0,<1.89.0
+  - bioconductor-convert >=1.86.0,<1.87.0
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - bioconductor-marray >=1.88.0,<1.89.0
+  - r-base
+  - r-lattice
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-affy >=1.88.0,<1.89.0
+  - bioconductor-convert >=1.86.0,<1.87.0
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - bioconductor-marray >=1.88.0,<1.89.0
+  - r-base
+  - r-lattice
+source:
+  md5: 51184c8b4661217ed80766eba2e0ceef
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/TurboNorm_1.58.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/TurboNorm/TurboNorm_1.58.0.tar.gz
+  - https://bioarchive.galaxyproject.org/TurboNorm_1.58.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-turbonorm/bioconductor-turbonorm_1.58.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('TurboNorm')"

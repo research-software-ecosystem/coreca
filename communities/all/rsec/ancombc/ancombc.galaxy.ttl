@@ -1,0 +1,34 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix galaxytool: <https://github.com/galaxyproject/tools-iuc/tree/master/tools/> .
+@prefix schema1: <http://schema.org/> .
+
+galaxytool:ancombc a schema1:SoftwareApplication ;
+    schema1:applicationSubCategory edam:data_3028,
+        edam:topic_0637,
+        edam:topic_3174,
+        edam:topic_3697 ;
+    schema1:codeRepository <https://github.com/FrederickHuangLin/ANCOMBC> ;
+    schema1:dateCreated "2022-07-16" ;
+    schema1:description "Performs analysis of compositions of microbiomes with bias correction." ;
+    schema1:featureList edam:operation_3200 ;
+    schema1:identifier biotools:ancombc,
+        bioconda:bioconductor-ancombc ;
+    schema1:isPartOf <https://usegalaxy.ca>,
+        <https://usegalaxy.cz>,
+        <https://usegalaxy.eu>,
+        <https://usegalaxy.fr> ;
+    schema1:keywords "Metagenomics" ;
+    schema1:name "ancombc" ;
+    schema1:softwareVersion "1.4.0" ;
+    schema1:url <https://github.com/galaxyproject/tools-iuc/tree/main/tools/ancombc> .
+
+<https://usegalaxy.ca> a schema1:WebSite .
+
+<https://usegalaxy.cz> a schema1:WebSite .
+
+<https://usegalaxy.eu> a schema1:WebSite .
+
+<https://usegalaxy.fr> a schema1:WebSite .
+

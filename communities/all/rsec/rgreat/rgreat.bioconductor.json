@@ -1,0 +1,93 @@
+{
+    "Author": "Zuguang Gu [aut, cre] (ORCID: <https://orcid.org/0000-0002-7395-8709>)",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "GenomicRanges",
+        "IRanges",
+        "R (>= 4.0.0)",
+        "methods"
+    ],
+    "Description": "GREAT (Genomic Regions Enrichment of Annotations Tool) is a type of functional enrichment analysis directly performed on genomic regions. This package implements the GREAT algorithm (the local GREAT analysis), also it supports directly interacting with the GREAT web service (the online GREAT analysis). Both analysis can be viewed by a Shiny application. rGREAT by default supports more than 600 organisms and a large number of gene set collections, as well as self-provided gene sets and organisms from users. Additionally, it implements a general method for dealing with background regions.",
+    "Enhances": [
+        "BioMartGOGeneSets",
+        "UniProtKeywords"
+    ],
+    "Imports": [
+        "AnnotationDbi",
+        "DT",
+        "GO.db",
+        "GenomeInfoDb",
+        "GenomicFeatures",
+        "GetoptLong (>= 0.0.9)",
+        "GlobalOptions",
+        "RColorBrewer",
+        "RCurl",
+        "Rcpp",
+        "S4Vectors",
+        "TxDb.Hsapiens.UCSC.hg19.knownGene",
+        "TxDb.Hsapiens.UCSC.hg38.knownGene",
+        "circlize",
+        "digest",
+        "doParallel",
+        "foreach",
+        "graphics",
+        "org.Hs.eg.db",
+        "progress",
+        "rjson",
+        "shiny",
+        "stats",
+        "utils"
+    ],
+    "License": "MIT + file LICENSE",
+    "LinkingTo": [
+        "Rcpp"
+    ],
+    "MD5sum": "4a0a527f9552ca0f95bdedc44d54109c",
+    "Maintainer": "Zuguang Gu <guzuguang@suat-sz.edu.cn>",
+    "NeedsCompilation": "yes",
+    "Package": "rGREAT",
+    "Rank": 281,
+    "Suggests": [
+        "BiocManager",
+        "KEGGREST",
+        "knitr",
+        "msigdbr",
+        "org.Mm.eg.db",
+        "reactome.db",
+        "rmarkdown",
+        "testthat (>= 0.3)"
+    ],
+    "Title": "GREAT Analysis - Functional Enrichment on Genomic Regions",
+    "URL": "https://github.com/jokergoo/rGREAT, http://great.stanford.edu/public/html/",
+    "Version": "2.14.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Coverage",
+        "GO",
+        "GeneSetEnrichment",
+        "GenomeAnnotation",
+        "Pathways",
+        "Sequencing",
+        "Software",
+        "WholeGenome"
+    ],
+    "dependencyCount": "123",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "a9b8c88",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/rGREAT",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/rGREAT_2.14.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/rGREAT_2.14.0.tgz",
+    "source.ver": "src/contrib/rGREAT_2.14.0.tar.gz",
+    "vignetteTitles": [
+        "The rGREAT package"
+    ],
+    "vignettes": [
+        "vignettes/rGREAT/inst/doc/rGREAT.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/rGREAT_2.14.0.zip"
+}

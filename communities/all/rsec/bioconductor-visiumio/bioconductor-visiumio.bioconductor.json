@@ -1,0 +1,82 @@
+{
+    "Archs": "x64",
+    "Author": "Marcel Ramos [aut, cre] (ORCID: <https://orcid.org/0000-0002-3242-0582>), Estella YiXing Dong [aut, ctb], Dario Righelli [aut, ctb], Helena Crowell [aut, ctb], NCI [fnd] (GrantNo.: U24CA289073)",
+    "BugReports": "https://github.com/waldronlab/VisiumIO/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.5.0)",
+        "TENxIO"
+    ],
+    "Description": "The package allows users to readily import spatial data obtained from either the 10X website or from the Space Ranger pipeline. Supported formats include tar.gz, h5, and mtx files. Multiple files can be imported at once with *List type of functions. The package represents data mainly as SpatialExperiment objects.",
+    "Imports": [
+        "BiocBaseUtils",
+        "BiocGenerics",
+        "BiocIO (>= 1.15.1)",
+        "S4Vectors",
+        "SingleCellExperiment",
+        "SpatialExperiment",
+        "SummarizedExperiment",
+        "jsonlite",
+        "methods",
+        "sf"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "b086ac2e008a2bff5bd3037a931296fd",
+    "Maintainer": "Marcel Ramos <marcel.ramos@sph.cuny.edu>",
+    "NeedsCompilation": "no",
+    "Package": "VisiumIO",
+    "Rank": 1300,
+    "Rfiles": [
+        "vignettes/VisiumIO/inst/doc/VisiumIO.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "arrow",
+        "data.table",
+        "knitr",
+        "readr",
+        "rmarkdown",
+        "tinytest"
+    ],
+    "Title": "Import Visium data from the 10X Space Ranger pipeline",
+    "URL": "https://github.com/waldronlab/VisiumIO",
+    "Version": "1.8.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataImport",
+        "Infrastructure",
+        "SingleCell",
+        "Software",
+        "Spatial"
+    ],
+    "dependencyCount": "96",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "20bb78f",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/VisiumIO",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "OSTA",
+        "XeniumIO"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/VisiumIO_1.8.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/VisiumIO_1.8.0.tgz",
+    "source.ver": "src/contrib/VisiumIO_1.8.0.tar.gz",
+    "suggestsMe": [
+        "Battlefield",
+        "OSTA.data",
+        "SpatialExperiment",
+        "SpatialFeatureExperiment",
+        "ggspavis"
+    ],
+    "vignetteTitles": [
+        "VisiumIO Quick Start Guide"
+    ],
+    "vignettes": [
+        "vignettes/VisiumIO/inst/doc/VisiumIO.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/VisiumIO_1.8.0.zip"
+}

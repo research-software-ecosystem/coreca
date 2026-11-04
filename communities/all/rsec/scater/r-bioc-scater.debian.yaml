@@ -1,0 +1,23 @@
+package: r-bioc-scater
+distribution: debian
+release: sid
+component: main
+version: 1.40.2
+source: r-bioc-scater
+homepage: https://bioconductor.org/packages/scater/
+license: unknown
+blend: debian-med
+description_md5: 52104275ade1dd1ec2c4ad3f6d110453
+registries:
+- entry: scater
+  name: bio.tools
+- entry: bioconductor-scater
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btw777
+popcon:
+- insts: 122
+  olde: 92
+  recent: 24
+  vote: 6

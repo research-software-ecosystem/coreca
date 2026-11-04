@@ -1,0 +1,114 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:ncrnadrug/db/www.jianglab.cn",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 26,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkad1042",
+                            "pmcid": "PMC10767907",
+                            "pmid": "37953323",
+                            "ref_count": 24,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2020
+                                }
+                            ],
+                            "title": "ncRNADrug: a database for validated and predicted ncRNAs associated with drug resistance and targeted by drugs.",
+                            "year": 2024
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 504,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://www.jianglab.cn/ncRNADrug/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

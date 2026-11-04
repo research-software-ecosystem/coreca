@@ -1,0 +1,27 @@
+package: multiqc
+distribution: debian
+release: sid
+component: main
+version: '1.21'
+source: multiqc
+homepage: https://multiqc.info/
+license: unknown
+blend: debian-med
+description_md5: 479ea16466b90a154d8788f4dc9c0ef1
+registries:
+- entry: OMICS_12426
+  name: OMICtools
+- entry: SCR_014982
+  name: SciCrunch
+- entry: multiqc
+  name: bio.tools
+- entry: multiqc
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btw354
+popcon:
+- insts: 216
+  olde: 48
+  recent: 20
+  vote: 148

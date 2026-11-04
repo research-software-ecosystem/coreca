@@ -1,0 +1,18 @@
+package: reprof
+distribution: debian
+release: sid
+component: main
+version: 1.0.1
+source: reprof
+homepage: https://rostlab.org/
+license: unknown
+blend: debian-med
+description_md5: 342238c0d4c4aebefe24e19de814dee8
+registries:
+- entry: reprof
+  name: bio.tools
+popcon:
+- insts: 117
+  olde: 90
+  recent: 23
+  vote: 4

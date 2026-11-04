@@ -1,0 +1,26 @@
+package: saint
+distribution: debian
+release: sid
+component: main
+version: 2.5.0
+source: saint
+homepage: http://saint-apms.sourceforge.net/Main.html
+license: unknown
+blend: debian-med
+description_md5: 3ba2efbfabd78d1b6cea7aa2f61f5d71
+registries:
+- entry: OMICS_16243
+  name: OMICtools
+- entry: SAINT
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1126/science.1176495
+- key: doi
+  rank: 1
+  value: 10.1038/nmeth.1541
+popcon:
+- insts: 117
+  olde: 89
+  recent: 22
+  vote: 6

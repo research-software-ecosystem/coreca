@@ -1,0 +1,111 @@
+{
+    "Author": "Stefano Mangiola [aut, cre] (ORCID: <https://orcid.org/0000-0001-7474-836X>)",
+    "BugReports": "https://github.com/stemangiola/tidySingleCellExperiment/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.4.0)",
+        "SingleCellExperiment",
+        "ttservice (>= 0.4.0)"
+    ],
+    "Description": "'tidySingleCellExperiment' is an adapter that abstracts the 'SingleCellExperiment' container in the form of a 'tibble'. This allows *tidy* data manipulation, nesting, and plotting. For example, a 'tidySingleCellExperiment' is directly compatible with functions from 'tidyverse' packages `dplyr` and `tidyr`, as well as plotting with `ggplot2` and `plotly`. In addition, the package provides various utility functions specific to single-cell omics data analysis (e.g., aggregation of cell-level data to pseudobulks).",
+    "Imports": [
+        "Matrix",
+        "S4Vectors",
+        "SummarizedExperiment",
+        "cli",
+        "dplyr",
+        "ellipsis",
+        "fansi",
+        "ggplot2",
+        "lifecycle",
+        "magrittr",
+        "methods",
+        "pillar",
+        "pkgconfig",
+        "purrr",
+        "rlang",
+        "stats",
+        "stringr",
+        "tibble",
+        "tidyr",
+        "tidyselect",
+        "utils",
+        "vctrs"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "f6aa60bdac8fe15e2021e2a6f3923789",
+    "Maintainer": "Stefano Mangiola <mangiolastefano@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "tidySingleCellExperiment",
+    "Rank": 564,
+    "Rfiles": [
+        "vignettes/tidySingleCellExperiment/inst/doc/introduction.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "GGally",
+        "SingleCellSignalR",
+        "SingleR",
+        "celldex",
+        "dittoSeq",
+        "igraph",
+        "knitr",
+        "markdown",
+        "plotly",
+        "prettydoc",
+        "rbibutils",
+        "rmarkdown",
+        "scater",
+        "scran",
+        "testthat",
+        "tidyHeatmap",
+        "uwot"
+    ],
+    "Title": "Brings SingleCellExperiment to the Tidyverse",
+    "URL": "https://github.com/stemangiola/tidySingleCellExperiment",
+    "Version": "1.22.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "AssayDomain",
+        "Clustering",
+        "DifferentialExpression",
+        "GeneExpression",
+        "Infrastructure",
+        "Normalization",
+        "QualityControl",
+        "RNASeq",
+        "Sequencing",
+        "SingleCell",
+        "Software"
+    ],
+    "dependencyCount": "92",
+    "dependsOnMe": [
+        "tidySpatialExperiment"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "212cc68",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/tidySingleCellExperiment",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "tidyomics"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/tidySingleCellExperiment_1.22.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/tidySingleCellExperiment_1.22.0.tgz",
+    "source.ver": "src/contrib/tidySingleCellExperiment_1.22.0.tar.gz",
+    "suggestsMe": [
+        "CuratedAtlasQueryR",
+        "OMA",
+        "sccomp"
+    ],
+    "vignetteTitles": [
+        "Overview of the tidySingleCellExperiment package"
+    ],
+    "vignettes": [
+        "vignettes/tidySingleCellExperiment/inst/doc/introduction.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/tidySingleCellExperiment_1.22.0.zip"
+}

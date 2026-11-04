@@ -1,0 +1,25 @@
+package: varscan
+distribution: debian
+release: sid
+component: non-free
+version: 2.4.3
+source: varscan
+homepage: https://dkoboldt.github.io/varscan/
+license: unknown
+blend: debian-med
+description_md5: db5aab57fa1c709b6f3f8edc023eda41
+registries:
+- entry: OMICS_00093
+  name: OMICtools
+- entry: SCR_006849
+  name: SciCrunch
+- entry: varscan
+  name: bio.tools
+- entry: varscan
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1101/gr.129684.111
+popcon:
+- insts: 18
+  olde: 18

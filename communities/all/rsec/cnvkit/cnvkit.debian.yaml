@@ -1,0 +1,25 @@
+package: cnvkit
+distribution: debian
+release: sid
+component: main
+version: 0.9.14
+source: cnvkit
+homepage: https://cnvkit.readthedocs.org
+license: unknown
+blend: debian-med
+description_md5: 0b8ab5ba6be9de3379277ab7a92a7b5d
+registries:
+- entry: OMICS_11538
+  name: OMICtools
+- entry: cnvkit
+  name: bio.tools
+- entry: cnvkit
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1371/journal.pcbi.1004873
+popcon:
+- insts: 105
+  olde: 76
+  recent: 22
+  vote: 7

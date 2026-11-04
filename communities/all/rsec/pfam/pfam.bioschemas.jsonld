@@ -1,0 +1,281 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv1344",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/pfam",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": [
+        "Pfam central helpdesk",
+        "How to contact Pfam"
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:N220062fbced049f2b947a5d57a358e8a"
+        },
+        {
+          "@id": "_:N8ff4ba4857c1447483aa300d309e85b7"
+        },
+        {
+          "@id": "_:Na9882e44074b4b3381bfadba0294c8f0"
+        },
+        {
+          "@id": "_:N193234ec1b9240b099e6f6407050f42a"
+        },
+        {
+          "@id": "_:N65cd47a8ee804a8dac9bf9a56fbbf97b"
+        },
+        {
+          "@id": "_:Nebf049bef50949af9d5149f7ba29250f"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N9306ee0c33134b229ec6a334f8145db8"
+        },
+        {
+          "@id": "_:N25410ef9426f4876877594051d0b0e98"
+        },
+        {
+          "@id": "_:N992a95c994a640bb902658856a9693c9"
+        },
+        {
+          "@id": "_:Ndcc4294af0f44471a6b5e03927e2d67e"
+        },
+        {
+          "@id": "_:Nf67ab26162c244baab3b9f1fb6807818"
+        },
+        {
+          "@id": "_:Na6aacccec47147fdb8c08bbc400dec39"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Database portal",
+        "Web API",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_0736"
+        },
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0157"
+        },
+        {
+          "@id": "edam:topic_0160"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:33125078",
+        "pmcid:PMC7779014",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkaa913"
+        },
+        "pubmed:24288371",
+        "pmcid:PMC3965110",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkt1223"
+        },
+        "pubmed:26673716",
+        "pmcid:PMC4702930",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkv1344"
+        },
+        "pubmed:9223186"
+      ],
+      "sc:description": "Database which contains information about protein domains and families. For each entry a protein sequence alignment and a Hidden Markov Model is stored.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_3092"
+        },
+        {
+          "@id": "edam:operation_0253"
+        }
+      ],
+      "sc:license": "CC0-1.0",
+      "sc:name": "Pfam",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "Identifiers.org",
+      "sc:softwareHelp": {
+        "@id": "http://www.ebi.ac.uk/about/terms-of-use"
+      },
+      "sc:url": "http://pfam.xfam.org/"
+    },
+    {
+      "@id": "_:N220062fbced049f2b947a5d57a358e8a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1138"
+      },
+      "sc:name": "Pfam accession number"
+    },
+    {
+      "@id": "_:N8ff4ba4857c1447483aa300d309e85b7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1179"
+      },
+      "sc:name": "NCBI taxonomy ID"
+    },
+    {
+      "@id": "_:Na9882e44074b4b3381bfadba0294c8f0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1138"
+      },
+      "sc:name": "Pfam accession number"
+    },
+    {
+      "@id": "_:N193234ec1b9240b099e6f6407050f42a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2758"
+      },
+      "sc:name": "Pfam clan ID"
+    },
+    {
+      "@id": "_:N65cd47a8ee804a8dac9bf9a56fbbf97b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:Nebf049bef50949af9d5149f7ba29250f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1096"
+      },
+      "sc:name": "Sequence accession (protein)"
+    },
+    {
+      "@id": "_:N9306ee0c33134b229ec6a334f8145db8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "_:N25410ef9426f4876877594051d0b0e98",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0907"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein family report"
+    },
+    {
+      "@id": "_:N992a95c994a640bb902658856a9693c9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0907"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein family report"
+    },
+    {
+      "@id": "_:Ndcc4294af0f44471a6b5e03927e2d67e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0907"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein family report"
+    },
+    {
+      "@id": "_:Nf67ab26162c244baab3b9f1fb6807818",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0858"
+      },
+      "sc:name": "Sequence signature matches"
+    },
+    {
+      "@id": "_:Na6aacccec47147fdb8c08bbc400dec39",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0907"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Protein family report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt1223",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkaa913",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

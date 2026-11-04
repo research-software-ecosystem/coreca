@@ -1,0 +1,27 @@
+package: vsearch
+distribution: debian
+release: sid
+component: main
+version: 2.30.4
+source: vsearch
+homepage: https://github.com/torognes/vsearch/
+license: unknown
+blend: debian-med
+description_md5: 3d5b978a4fdae86c2694b5e3775ea5a8
+registries:
+- entry: OMICS_14601
+  name: OMICtools
+- entry: vsearch
+  name: bio.tools
+- entry: vsearch
+  name: conda:bioconda
+- entry: vsearch
+  name: guix
+bib:
+- key: doi
+  value: 10.7717/peerj.2584
+popcon:
+- insts: 136
+  olde: 108
+  recent: 23
+  vote: 5

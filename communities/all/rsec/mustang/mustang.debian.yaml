@@ -1,0 +1,33 @@
+package: mustang
+distribution: debian
+release: sid
+component: main
+version: 3.2.4
+source: mustang
+homepage: https://lcb.infotech.monash.edu.au/mustang/
+license: unknown
+blend: debian-med
+description_md5: 9fdf717437f6f16fc1e715e6a609aaa6
+registries:
+- entry: OMICS_03642
+  name: OMICtools
+- entry: MUSTANG
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1002/prot.20921
+tags:
+- tag: biology::peptidic
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c++
+- tag: interface::commandline
+- tag: role::program
+- tag: use::analysing
+- tag: use::comparing
+- tag: works-with-format::plaintext
+popcon:
+- insts: 270
+  olde: 233
+  recent: 27
+  vote: 10

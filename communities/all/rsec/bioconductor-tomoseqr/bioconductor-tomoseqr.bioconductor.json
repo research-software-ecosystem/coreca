@@ -1,0 +1,70 @@
+{
+    "Author": "Ryosuke Matsuzawa [aut, cre] (ORCID: <https://orcid.org/0000-0003-2999-4734>)",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.2)"
+    ],
+    "Description": "`tomoseqr` is an R package for analyzing Tomo-seq data. Tomo-seq is a genome-wide RNA tomography method that combines combining high-throughput RNA sequencing with cryosectioning for spatially resolved transcriptomics. `tomoseqr` reconstructs 3D expression patterns from tomo-seq data and visualizes the reconstructed 3D expression patterns.",
+    "Imports": [
+        "BiocFileCache",
+        "animation",
+        "dplyr",
+        "ggplot2",
+        "grDevices",
+        "graphics",
+        "methods",
+        "plotly",
+        "purrr",
+        "readr",
+        "shiny",
+        "stringr",
+        "tibble",
+        "tools"
+    ],
+    "License": "MIT + file LICENSE",
+    "MD5sum": "738dd5e8d54acaac80cdf73f1fbc4abb",
+    "Maintainer": "Ryosuke Matsuzawa <kinakomochi.work@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "tomoseqr",
+    "Rank": 1913,
+    "Rfiles": [
+        "vignettes/tomoseqr/inst/doc/tomoseqr.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "R Package for Analyzing Tomo-seq Data",
+    "Version": "1.16.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "GeneExpression",
+        "RNASeq",
+        "Sequencing",
+        "Software",
+        "Spatial",
+        "Transcriptomics",
+        "Visualization"
+    ],
+    "dependencyCount": "95",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "2a497b6",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/tomoseqr",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/tomoseqr_1.16.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/tomoseqr_1.16.0.tgz",
+    "source.ver": "src/contrib/tomoseqr_1.16.0.tar.gz",
+    "vignetteTitles": [
+        "tomoseqr"
+    ],
+    "vignettes": [
+        "vignettes/tomoseqr/inst/doc/tomoseqr.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/tomoseqr_1.16.0.zip"
+}

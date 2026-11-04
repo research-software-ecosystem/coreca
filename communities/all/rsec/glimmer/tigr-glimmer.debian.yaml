@@ -1,0 +1,44 @@
+package: tigr-glimmer
+distribution: debian
+release: sid
+component: main
+version: 3.02b
+source: tigr-glimmer
+homepage: http://ccb.jhu.edu/software/glimmer/index.shtml
+license: unknown
+blend: debian-med
+description_md5: 4e46d2f7da4e781295e4dea1a7f9aae4
+registries:
+- entry: OMICS_01486
+  name: OMICtools
+- entry: SCR_011931
+  name: SciCrunch
+- entry: glimmer
+  name: bio.tools
+- entry: glimmer
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/nar/26.2.544
+- key: doi
+  rank: 1
+  value: 10.1093/nar/gkr1067
+- key: doi
+  rank: 2
+  value: 10.1093/bioinformatics/btm009
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c++
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::searching
+- tag: works-with-format::TODO
+- tag: works-with-format::plaintext
+- tag: works-with::TODO
+popcon:
+- insts: 202
+  olde: 171
+  recent: 23
+  vote: 8

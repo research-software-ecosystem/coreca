@@ -1,0 +1,73 @@
+{
+    "Author": "Pijush Das Developer [aut, cre], Dr. Susanta Roychudhury User [ctb], Dr. Sucheta Tripathy User [ctb]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.5.0)"
+    ],
+    "Description": "This package provides a novel feature selection algorithm for binary classification using support vector machine recursive feature elimination SVM-RFE and t-statistic. In this feature selection process, the selected features are differentially significant between the two classes and also they are good classifier with higher degree of classification accuracy.",
+    "Imports": [
+        "BiocParallel",
+        "Matrix",
+        "RColorBrewer",
+        "SparseM",
+        "SummarizedExperiment",
+        "biocViews",
+        "e1071",
+        "graphics",
+        "methods",
+        "nlme",
+        "openxlsx",
+        "pheatmap",
+        "stats",
+        "utils"
+    ],
+    "License": "GPL (>= 2)",
+    "MD5sum": "face6b57ac473c3c87ca9423f5d993a4",
+    "Maintainer": "Pijush Das Developer <topijush@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "sigFeature",
+    "Rank": 819,
+    "Rfiles": [
+        "vignettes/sigFeature/inst/doc/vignettes.R"
+    ],
+    "Suggests": [
+        "BiocGenerics",
+        "RUnit",
+        "knitr",
+        "rmarkdown"
+    ],
+    "Title": "sigFeature: Significant feature selection using SVM-RFE & t-statistic",
+    "Version": "1.30.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Classification",
+        "FeatureExtraction",
+        "GeneExpression",
+        "GenePrediction",
+        "Microarray",
+        "Normalization",
+        "Software",
+        "SupportVectorMachine",
+        "Transcription",
+        "mRNAMicroarray"
+    ],
+    "dependencyCount": "64",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "c4860ac",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/sigFeature",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/sigFeature_1.30.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/sigFeature_1.30.0.tgz",
+    "source.ver": "src/contrib/sigFeature_1.30.0.tar.gz",
+    "vignetteTitles": [
+        "sigFeature"
+    ],
+    "vignettes": [
+        "vignettes/sigFeature/inst/doc/vignettes.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/sigFeature_1.30.0.zip"
+}

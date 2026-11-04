@@ -1,0 +1,23 @@
+{
+    "additionDate": "2025-02-09T22:42:19.971275Z",
+    "biotoolsCURIE": "biotools:perbase",
+    "biotoolsID": "perbase",
+    "description": "Per-base metrics on BAM/CRAM files.",
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://github.com/sstadick/perbase",
+    "language": [
+        "Rust"
+    ],
+    "lastUpdate": "2025-12-30T17:51:39.377936Z",
+    "license": "MIT",
+    "name": "perbase",
+    "owner": "camlloyd",
+    "toolType": [
+        "Command-line tool"
+    ],
+    "version": [
+        "0.10.2"
+    ]
+}

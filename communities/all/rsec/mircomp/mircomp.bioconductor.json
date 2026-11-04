@@ -1,0 +1,62 @@
+{
+    "Author": "Matthew N. McCall <mccallm@gmail.com>, Lauren Kemperman <lkemperm@u.rochester.edu>",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biobase (>= 2.22.0)",
+        "R (>= 3.5.0)",
+        "miRcompData"
+    ],
+    "Description": "Based on a large miRNA dilution study, this package provides tools to read in the raw amplification data and use these data to assess the performance of methods that estimate expression from the amplification curves.",
+    "Imports": [
+        "KernSmooth",
+        "graphics",
+        "methods",
+        "stats",
+        "utils"
+    ],
+    "License": "GPL-3 | file LICENSE",
+    "MD5sum": "316f6e8a7af1d48eecd8fcfce226d4a9",
+    "Maintainer": "Matthew N. McCall <mccallm@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "miRcomp",
+    "Rank": 813,
+    "Rfiles": [
+        "vignettes/miRcomp/inst/doc/miRcomp.R"
+    ],
+    "Suggests": [
+        "BiocGenerics",
+        "BiocStyle",
+        "RUnit",
+        "knitr",
+        "rmarkdown",
+        "shiny"
+    ],
+    "Title": "Tools to assess and compare miRNA expression estimatation methods",
+    "Version": "1.42.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Preprocessing",
+        "QualityControl",
+        "Software",
+        "qPCR"
+    ],
+    "dependencyCount": "9",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "ea92f31",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/miRcomp",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/miRcomp_1.42.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/miRcomp_1.42.0.tgz",
+    "source.ver": "src/contrib/miRcomp_1.42.0.tar.gz",
+    "vignetteTitles": [
+        "Assessment and comparison of miRNA expression estimation methods (miRcomp)"
+    ],
+    "vignettes": [
+        "vignettes/miRcomp/inst/doc/miRcomp.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/miRcomp_1.42.0.zip"
+}

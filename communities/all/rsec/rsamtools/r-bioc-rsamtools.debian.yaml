@@ -1,0 +1,20 @@
+package: r-bioc-rsamtools
+distribution: debian
+release: sid
+component: main
+version: 2.28.0
+source: r-bioc-rsamtools
+homepage: https://bioconductor.org/packages/Rsamtools/
+license: unknown
+blend: debian-med
+description_md5: 16bc50d4ff2150209ee7b17da529b215
+registries:
+- entry: rsamtools
+  name: bio.tools
+- entry: bioconductor-rsamtools
+  name: conda:bioconda
+popcon:
+- insts: 265
+  olde: 209
+  recent: 27
+  vote: 29

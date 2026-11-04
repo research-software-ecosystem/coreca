@@ -1,0 +1,56 @@
+about:
+  description: MyGene.Info_ provides simple-to-use REST web services to query/retrieve
+    gene annotation data. It's designed with simplicity and performance emphasized.
+    *mygene*, is an easy-to-use R wrapper to access MyGene.Info_ services.
+  home: https://bioconductor.org/packages/3.22/bioc/html/mygene.html
+  license: Artistic-2.0
+  summary: Access MyGene.Info_ services
+build:
+  noarch: generic
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:mygene
+  - doi:10.1101/009333
+  parent_recipe:
+    name: bioconductor-mygene
+    path: recipes/bioconductor-mygene
+    version: 1.16.2
+package:
+  name: bioconductor-mygene
+  version: 1.46.0
+requirements:
+  host:
+  - bioconductor-genomicfeatures >=1.62.0,<1.63.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-txdbmaker >=1.6.0,<1.7.0
+  - r-base
+  - r-hmisc
+  - r-httr >=0.3
+  - r-jsonlite >=0.9.7
+  - r-plyr
+  - r-sqldf
+  run:
+  - bioconductor-genomicfeatures >=1.62.0,<1.63.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-txdbmaker >=1.6.0,<1.7.0
+  - r-base
+  - r-hmisc
+  - r-httr >=0.3
+  - r-jsonlite >=0.9.7
+  - r-plyr
+  - r-sqldf
+source:
+  md5: ba20a759a98892ea18beff1a2150c61b
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/mygene_1.46.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/mygene/mygene_1.46.0.tar.gz
+  - https://bioarchive.galaxyproject.org/mygene_1.46.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-mygene/bioconductor-mygene_1.46.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('mygene')"

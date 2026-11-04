@@ -1,0 +1,22 @@
+package: r-cran-robustrankaggreg
+distribution: debian
+release: sid
+component: main
+version: 1.2.1
+source: r-cran-robustrankaggreg
+homepage: https://cran.r-project.org/package=RobustRankAggreg
+license: unknown
+blend: debian-med
+description_md5: c64c36436ffde1268ea600a795af9597
+registries:
+- entry: OMICS_14405
+  name: OMICtools
+- entry: robustrankaggregation
+  name: bio.tools
+- entry: r-robustrankaggreg
+  name: conda:conda-forge
+popcon:
+- insts: 20
+  olde: 14
+  recent: 1
+  vote: 5

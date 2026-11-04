@@ -1,0 +1,67 @@
+{
+    "Author": "Abbas Rizvi, Ezgi Karaesmen, Martin Morgan, Lara Sucheston-Campbell",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.4.0)"
+    ],
+    "Description": "gwasurvivr is a package to perform survival analysis using Cox proportional hazard models on imputed genetic data.",
+    "Imports": [
+        "GWASTools",
+        "SNPRelate",
+        "SummarizedExperiment",
+        "VariantAnnotation",
+        "matrixStats",
+        "parallel",
+        "stats",
+        "survival",
+        "utils"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "eba31bebef185968e64b887038bfe1f6",
+    "Maintainer": "Abbas Rizvi <aarizv@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "gwasurvivr",
+    "Rank": 1466,
+    "Rfiles": [
+        "vignettes/gwasurvivr/inst/doc/gwasurvivr_Introduction.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown"
+    ],
+    "Title": "gwasurvivr: an R package for genome wide survival analysis",
+    "URL": "https://github.com/suchestoncampbelllab/gwasurvivr",
+    "Version": "1.30.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "BiomedicalInformatics",
+        "GeneticVariability",
+        "Genetics",
+        "GenomeWideAssociation",
+        "Pharmacogenomics",
+        "Regression",
+        "SNP",
+        "Software",
+        "Survival"
+    ],
+    "dependencyCount": "143",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "63578a1",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/gwasurvivr",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/gwasurvivr_1.30.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/gwasurvivr_1.30.0.tgz",
+    "source.ver": "src/contrib/gwasurvivr_1.30.0.tar.gz",
+    "vignetteTitles": [
+        "gwasurvivr Vignette"
+    ],
+    "vignettes": [
+        "vignettes/gwasurvivr/inst/doc/gwasurvivr_Introduction.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/gwasurvivr_1.30.0.zip"
+}

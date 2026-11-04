@@ -1,0 +1,20 @@
+package: r-bioc-annotationhub
+distribution: debian
+release: sid
+component: main
+version: 4.2.2
+source: r-bioc-annotationhub
+homepage: https://bioconductor.org/packages/AnnotationHub/
+license: unknown
+blend: debian-med
+description_md5: 17eb0cc3b325c1f30c0eca2c3a4b0c28
+registries:
+- entry: OMICS_29380
+  name: OMICtools
+- entry: annotationhub
+  name: bio.tools
+popcon:
+- insts: 108
+  olde: 88
+  recent: 2
+  vote: 18

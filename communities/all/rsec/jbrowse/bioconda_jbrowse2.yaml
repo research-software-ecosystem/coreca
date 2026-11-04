@@ -1,0 +1,32 @@
+about:
+  home: https://jbrowse.org/
+  license: Apache-2.0
+  license_family: Apache
+  summary: The JBrowse 2 Genome Browser
+build:
+  noarch: generic
+  number: 0
+  run_exports:
+  - null
+extra:
+  identifiers:
+  - biotools:jbrowse
+  - doi:10.1101/gr.094607.109
+package:
+  name: jbrowse2
+  version: 4.3.0
+requirements:
+  host:
+  - nodejs >=18,<24
+  run:
+  - nodejs >=18,<24
+  - bcftools
+  - gff3sort
+  - htslib
+  - samtools
+source:
+  sha256: a9d42417102ee088a1cbf85c6d857c1065d66984ea6c56f3115ef9dd56d76702
+  url: https://github.com/GMOD/jbrowse-components/releases/download/v4.3.0/jbrowse-web-v4.3.0.zip
+test:
+  commands:
+  - jbrowse --help | grep "JBrowse CLI"

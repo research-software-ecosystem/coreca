@@ -1,0 +1,39 @@
+package: andi
+distribution: debian
+release: sid
+component: main
+version: '0.14'
+source: andi
+homepage: https://github.com/EvolBioInf/andi
+license: unknown
+blend: debian-med
+description_md5: 6d9fa7b1dfcf137973a4c0d3e60206c4
+topics:
+- Phylogenetics
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - FASTA
+  output:
+  - data: Sequence distance matrix
+    formats:
+    - Phylip distance matrix
+  function:
+  - Sequence distance matrix generation
+registries:
+- entry: OMICS_09287
+  name: OMICtools
+- entry: andi
+  name: bio.tools
+- entry: andi
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btu815
+popcon:
+- insts: 113
+  olde: 86
+  recent: 23
+  vote: 4

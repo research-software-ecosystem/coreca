@@ -1,0 +1,70 @@
+{
+    "Author": "Aaron Lun [cre, aut]",
+    "BugReports": "https://github.com/LTLA/assorthead/issues",
+    "Date/Publication": "2026-10-08",
+    "Description": "Vendors an assortment of useful header-only C++ libraries. Bioconductor packages can use these libraries in their own C++ code by LinkingTo this package without introducing any additional dependencies. The use of a central repository avoids duplicate vendoring of libraries across multiple R packages, and enables better coordination of version updates across cohorts of interdependent C++ libraries.",
+    "License": "MIT + file LICENSE",
+    "MD5sum": "3d29d7ace812a2181e89898b0d871c0a",
+    "Maintainer": "Aaron Lun <infinite.monkeys.with.keyboards@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "assorthead",
+    "Rank": 50,
+    "Rfiles": [
+        "vignettes/assorthead/inst/doc/userguide.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown"
+    ],
+    "Title": "Assorted Header-Only C++ Libraries",
+    "URL": "https://github.com/LTLA/assorthead",
+    "Version": "1.6.4",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Alignment",
+        "DataImport",
+        "DataRepresentation",
+        "DifferentialExpression",
+        "Normalization",
+        "QualityControl",
+        "SingleCell",
+        "Software"
+    ],
+    "dependencyCount": "0",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "fb2bf57",
+    "git_last_commit_date": "2026-10-07",
+    "git_url": "https://git.bioconductor.org/packages/assorthead",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "linksToMe": [
+        "BiocNeighbors",
+        "BiocSingular",
+        "DropletUtils",
+        "PCAtools",
+        "SigBridgeRUtils",
+        "SingleR",
+        "alabaster.base",
+        "beachmat",
+        "beachmat.hdf5",
+        "beachmat.tiledb",
+        "bluster",
+        "bsseq",
+        "glmGamPoi",
+        "scrapper",
+        "scuttle"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/assorthead_1.6.3.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/assorthead_1.6.3.tgz",
+    "source.ver": "src/contrib/assorthead_1.6.4.tar.gz",
+    "vignetteTitles": [
+        "User's Guide"
+    ],
+    "vignettes": [
+        "vignettes/assorthead/inst/doc/userguide.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/assorthead_1.6.3.zip"
+}

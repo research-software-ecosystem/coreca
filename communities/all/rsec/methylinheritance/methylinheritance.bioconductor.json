@@ -1,0 +1,77 @@
+{
+    "Author": "Astrid Deschênes [cre, aut] (ORCID: <https://orcid.org/0000-0001-7846-6749>), Pascal Belleau [aut] (ORCID: <https://orcid.org/0000-0002-0802-1071>), Arnaud Droit [aut]",
+    "BugReports": "https://github.com/adeschen/methylInheritance/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.5)"
+    ],
+    "Description": "Permutation analysis, based on Monte Carlo sampling, for testing the hypothesis that the number of conserved differentially methylated elements, between several generations, is associated to an effect inherited from a treatment and that stochastic effect can be dismissed.",
+    "Imports": [
+        "BiocParallel",
+        "GenomicRanges",
+        "IRanges",
+        "S4Vectors",
+        "ggplot2",
+        "gridExtra",
+        "methods",
+        "methylKit",
+        "parallel",
+        "rebus"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "4c22162897e37f655a03511b2e1244e1",
+    "Maintainer": "Astrid Deschênes <adeschen@hotmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "methylInheritance",
+    "Rank": 941,
+    "Rfiles": [
+        "vignettes/methylInheritance/inst/doc/methylInheritance.R"
+    ],
+    "Suggests": [
+        "BiocGenerics",
+        "BiocStyle",
+        "RUnit",
+        "knitr",
+        "methInheritSim",
+        "rmarkdown",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "Permutation-Based Analysis associating Conserved Differentially Methylated Elements Across Multiple Generations to a Treatment Effect",
+    "URL": "https://github.com/adeschen/methylInheritance",
+    "Version": "1.36.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "BiologicalQuestion",
+        "DNAMethylation",
+        "DifferentialMethylation",
+        "Epigenetics",
+        "ImmunoOncology",
+        "MethylSeq",
+        "Sequencing",
+        "Software",
+        "StatisticalMethod",
+        "WholeGenome"
+    ],
+    "dependencyCount": "106",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "bbb3471",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/methylInheritance",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/methylInheritance_1.36.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/methylInheritance_1.36.0.tgz",
+    "source.ver": "src/contrib/methylInheritance_1.36.0.tar.gz",
+    "suggestsMe": [
+        "methInheritSim"
+    ],
+    "vignetteTitles": [
+        "Permutation-Based Analysis associating Conserved Differentially Methylated Elements Across Multiple Generations to a Treatment Effect"
+    ],
+    "vignettes": [
+        "vignettes/methylInheritance/inst/doc/methylInheritance.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/methylInheritance_1.36.0.zip"
+}

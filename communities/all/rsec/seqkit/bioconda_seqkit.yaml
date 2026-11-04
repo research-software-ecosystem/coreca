@@ -1,0 +1,39 @@
+about:
+  dev_url: https://github.com/shenwei356/seqkit
+  doc_url: https://bioinf.shenwei.me/seqkit
+  home: https://github.com/shenwei356/seqkit
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: A cross-platform and ultrafast toolkit for FASTA/Q file manipulation.
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:seqkit
+  - usegalaxy-eu:seqkit_head
+  - usegalaxy-eu:seqkit_stats
+  - usegalaxy-eu:seqkit_fx2tab
+  - usegalaxy-eu:seqkit_locate
+  - usegalaxy-eu:seqkit_translate
+  - usegalaxy-eu:seqkit_sort
+  - doi:10.1002/imt2.191
+package:
+  name: seqkit
+  version: 2.14.0
+requirements:
+  build:
+  - null
+  - null
+  - go-licenses
+source:
+  sha256: 7df95904ce438c1a1a7b1fc06f20479a169e69209ac59abae8e80c60a1e65d60
+  url: https://github.com/shenwei356/seqkit/archive/refs/tags/v2.14.0.tar.gz
+test:
+  commands:
+  - seqkit version --help

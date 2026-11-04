@@ -1,0 +1,12 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix schema1: <http://schema.org/> .
+
+bioconda:metapi a schema1:SoftwareApplication ;
+    schema1:alternateName "A general metagenomics data mining system focus on robust microbiome research" ;
+    schema1:description "A general metagenomics data mining system focus on robust microbiome research" ;
+    schema1:license "GPL-3.0-only" ;
+    schema1:maintainer "alienzj" ;
+    schema1:name "metapi" ;
+    schema1:softwareVersion "3.0.0" ;
+    schema1:url "https://github.com/ohmeta/metapi" .
+

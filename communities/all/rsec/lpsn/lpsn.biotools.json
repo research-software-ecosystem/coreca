@@ -1,0 +1,119 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2022-12-27T03:15:36.449191Z",
+    "biotoolsCURIE": "biotools:lpsn",
+    "biotoolsID": "lpsn",
+    "confidence_flag": "tool",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "name": "International Committee on Systematics of Prokaryotes (ICSP)",
+            "typeEntity": "Consortium",
+            "typeRole": [
+                "Support"
+            ],
+            "url": "https://the-icsp.org/"
+        },
+        {
+            "name": "Leibniz Institute DSMZ - German Collection of Microorganisms and Cell Cultures",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ],
+            "url": "https://www.dsmz.de"
+        }
+    ],
+    "description": "The List of Prokaryotic names with Standing in Nomenclature (LPSN) provides comprehensive information on the nomenclature of prokaryotes and much more.",
+    "documentation": [
+        {
+            "type": [
+                "FAQ"
+            ],
+            "url": "https://lpsn.dsmz.de/text/faq"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "mgoeker"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Mapping",
+                    "uri": "http://edamontology.org/operation_2429"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://lpsn.dsmz.de/",
+    "lastUpdate": "2025-11-19T14:24:53.723427Z",
+    "name": "LPSN",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "mgoeker",
+    "publication": [
+        {
+            "doi": "10.1099/ijsem.0.006943",
+            "metadata": {
+                "citationCount": 1,
+                "date": "2025-01-01T00:00:00Z",
+                "journal": "International Journal of Systematic and Evolutionary Microbiology",
+                "title": "List of Recommended Names for bacteria of medical importance: report of the Ad Hoc Committee on Mitigating Changes in Prokaryotic Nomenclature"
+            },
+            "pmcid": "PMC12548757",
+            "pmid": "41129200"
+        },
+        {
+            "doi": "10.1093/nar/gkab902",
+            "metadata": {
+                "citationCount": 1496,
+                "date": "2022-01-07T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "TYGS and LPSN: A database tandem for fast and reliable genome-based classification and nomenclature of prokaryotes"
+            },
+            "pmcid": "PMC8728197",
+            "pmid": "34634793",
+            "type": [
+                "Other"
+            ]
+        },
+        {
+            "doi": "10.1093/nar/gkaf1110",
+            "pmid": "41160892"
+        }
+    ],
+    "relation": [
+        {
+            "biotoolsID": "pnu",
+            "type": "isNewVersionOf"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Medicine",
+            "uri": "http://edamontology.org/topic_3303"
+        },
+        {
+            "term": "Model organisms",
+            "uri": "http://edamontology.org/topic_0621"
+        },
+        {
+            "term": "Ontology and terminology",
+            "uri": "http://edamontology.org/topic_0089"
+        },
+        {
+            "term": "Taxonomy",
+            "uri": "http://edamontology.org/topic_0637"
+        }
+    ],
+    "validated": 1
+}

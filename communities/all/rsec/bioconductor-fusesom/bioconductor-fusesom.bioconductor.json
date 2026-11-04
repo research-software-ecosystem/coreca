@@ -1,0 +1,76 @@
+{
+    "Author": "Elijah Willie [aut, cre]",
+    "BugReports": "https://github.com/ecool50/FuseSOM/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.2.0)"
+    ],
+    "Description": "A correlation-based multiview self-organizing map for the characterization of cell types in highly multiplexed in situ imaging cytometry assays (`FuseSOM`) is a tool for unsupervised clustering. `FuseSOM` is robust and achieves high accuracy by combining a `Self Organizing Map` architecture and a `Multiview` integration of correlation based metrics. This allows FuseSOM to cluster highly multiplexed in situ imaging cytometry assays.",
+    "Imports": [
+        "FCPS",
+        "S4Vectors",
+        "SummarizedExperiment",
+        "analogue",
+        "cluster",
+        "coop",
+        "diptest",
+        "fastcluster",
+        "fpc",
+        "ggplot2",
+        "ggplotify",
+        "ggpubr",
+        "methods",
+        "pheatmap",
+        "proxy",
+        "psych",
+        "stats",
+        "stringr"
+    ],
+    "License": "GPL-2",
+    "LinkingTo": [
+        "Rcpp"
+    ],
+    "MD5sum": "113fef0579fe37a493526b9f34b7564e",
+    "Maintainer": "Elijah Willie <ewil3501@uni.sydney.edu.au>",
+    "NeedsCompilation": "yes",
+    "Package": "FuseSOM",
+    "Rank": 1634,
+    "Rfiles": [
+        "vignettes/FuseSOM/inst/doc/Introduction.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "SingleCellExperiment",
+        "knitr",
+        "rmarkdown"
+    ],
+    "Title": "A Correlation Based Multiview Self Organizing Maps Clustering For IMC Datasets",
+    "Version": "1.14.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "CellBasedAssays",
+        "Clustering",
+        "SingleCell",
+        "Software",
+        "Spatial"
+    ],
+    "dependencyCount": "136",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "cacb240",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/FuseSOM",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/FuseSOM_1.14.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/FuseSOM_1.14.0.tgz",
+    "source.ver": "src/contrib/FuseSOM_1.14.0.tar.gz",
+    "vignetteTitles": [
+        "FuseSOM package manual"
+    ],
+    "vignettes": [
+        "vignettes/FuseSOM/inst/doc/Introduction.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/FuseSOM_1.14.0.zip"
+}

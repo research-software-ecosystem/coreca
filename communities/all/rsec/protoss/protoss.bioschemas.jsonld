@@ -1,0 +1,226 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/protoss",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "ProteinsPlus Support",
+      "bsc:input": [
+        {
+          "@id": "_:Nea4924a3f52d449f9ee914935fa79770"
+        },
+        {
+          "@id": "_:N302d142370a947ceb2cafa0f0a301f03"
+        },
+        {
+          "@id": "_:Ne31898c350dc42cba905e351e7b8a3f9"
+        },
+        {
+          "@id": "_:N1d7decbf3e2e41f4925dd47adbf037bd"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N00642cd0069d46219aadd5871c67c2cd"
+        },
+        {
+          "@id": "_:N371a081154e84e50a28e289cfb4853c3"
+        },
+        {
+          "@id": "_:N27f73edf015f420ea33c3a0a0d8d5b79"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Web API",
+        "Web service"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_3336"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_2275"
+        },
+        {
+          "@id": "edam:topic_3534"
+        },
+        {
+          "@id": "edam:topic_0128"
+        },
+        {
+          "@id": "edam:topic_1317"
+        },
+        {
+          "@id": "edam:topic_0082"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:20298519",
+        "pmcid:PMC3225823",
+        {
+          "@id": "https://doi.org/10.1186/1758-2946-1-13"
+        },
+        "pubmed:24694216",
+        "pmcid:PMC4019353",
+        {
+          "@id": "https://doi.org/10.1186/1758-2946-6-12"
+        }
+      ],
+      "sc:description": "Protoss is a fully automated hydrogen atom placement tool for protein-ligand complexes. It adds missing hydrogen atoms to protein structures and detects reasonable protonation states, tautomeric states, and hydrogen coordinates of both protein and ligand molecules by optimizing the hydrogen bond network.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0394"
+        },
+        {
+          "@id": "edam:operation_0477"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Other",
+      "sc:name": "Protoss",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "University of Hamburg, ZBH - Center for Bioinformatics",
+      "sc:softwareHelp": {
+        "@id": "https://proteins.plus/help/index"
+      },
+      "sc:url": "https://www.zbh.uni-hamburg.de/en/forschung/amd/software/protoss.html"
+    },
+    {
+      "@id": "_:Nea4924a3f52d449f9ee914935fa79770",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N302d142370a947ceb2cafa0f0a301f03",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:Ne31898c350dc42cba905e351e7b8a3f9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1461"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1476"
+        },
+        {
+          "@id": "edam:format_3814"
+        }
+      ],
+      "sc:name": "Protein-ligand complex"
+    },
+    {
+      "@id": "_:N1d7decbf3e2e41f4925dd47adbf037bd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3814"
+      },
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:N00642cd0069d46219aadd5871c67c2cd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N371a081154e84e50a28e289cfb4853c3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1461"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1476"
+        },
+        {
+          "@id": "edam:format_3814"
+        }
+      ],
+      "sc:name": "Protein-ligand complex"
+    },
+    {
+      "@id": "_:N27f73edf015f420ea33c3a0a0d8d5b79",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3814"
+      },
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1758-2946-6-12",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1758-2946-1-13",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

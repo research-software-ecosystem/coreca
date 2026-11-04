@@ -1,0 +1,27 @@
+package: hmmer2
+distribution: debian
+release: sid
+component: main
+version: 2.3.2
+source: hmmer2
+homepage: https://hmmer.janelia.org/
+license: unknown
+blend: debian-med
+description_md5: 1a932e8cd9001f44e8b56d46f8c58f4b
+registries:
+- entry: OMICS_00996
+  name: OMICtools
+- entry: SCR_005305
+  name: SciCrunch
+- entry: hmmer2
+  name: bio.tools
+- entry: hmmer2
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/14.9.755
+popcon:
+- insts: 139
+  olde: 110
+  recent: 22
+  vote: 7

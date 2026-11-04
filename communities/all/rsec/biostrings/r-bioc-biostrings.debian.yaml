@@ -1,0 +1,23 @@
+package: r-bioc-biostrings
+distribution: debian
+release: sid
+component: main
+version: 2.80.2
+source: r-bioc-biostrings
+homepage: https://bioconductor.org/packages/Biostrings/
+license: unknown
+blend: debian-med
+description_md5: c6ce993a8403e39843d169e2f04afbf5
+registries:
+- entry: OMICS_29386
+  name: OMICtools
+- entry: biostrings
+  name: bio.tools
+- entry: bioconductor-biostrings
+  name: conda:bioconda
+popcon:
+- insts: 1226
+  nofiles: 2
+  olde: 952
+  recent: 129
+  vote: 143

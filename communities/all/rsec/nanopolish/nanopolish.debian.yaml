@@ -1,0 +1,24 @@
+package: nanopolish
+distribution: debian
+release: sid
+component: main
+version: 0.14.0
+source: nanopolish
+homepage: https://github.com/jts/nanopolish
+license: unknown
+blend: debian-med
+description_md5: c65181cb6cafc3c3d9c0c69affe72640
+registries:
+- entry: OMICS_16545
+  name: OMICtools
+- entry: SCR_016157
+  name: SciCrunch
+- entry: nanopolish
+  name: bio.tools
+- entry: nanopolish
+  name: conda:bioconda
+popcon:
+- insts: 116
+  olde: 86
+  recent: 23
+  vote: 7

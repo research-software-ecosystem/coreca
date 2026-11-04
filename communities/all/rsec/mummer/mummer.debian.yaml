@@ -1,0 +1,57 @@
+package: mummer
+distribution: debian
+release: sid
+component: main
+version: '3.23'
+source: mummer
+homepage: https://mummer.sourceforge.net/
+license: unknown
+blend: debian-med
+description_md5: 38971f03178291c551b90e00bbe5418f
+topics:
+- Sequence analysis
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - FASTA
+  output:
+  - data: Sequence alignment
+    formats:
+    - Alignment format (text)
+  - data: Sequence
+    formats:
+    - FASTA
+  - data: Sequence variations
+    formats:
+    - Textual format
+  function:
+  - Local sequence alignment
+  - Genome alignment
+registries:
+- entry: OMICS_14554
+  name: OMICtools
+- entry: mummer
+  name: bio.tools
+- entry: mummer
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/gb-2004-5-2-r12
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c++
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::comparing
+- tag: works-with-format::TODO
+- tag: works-with-format::plaintext
+- tag: works-with::TODO
+popcon:
+- insts: 246
+  olde: 94
+  recent: 22
+  vote: 130

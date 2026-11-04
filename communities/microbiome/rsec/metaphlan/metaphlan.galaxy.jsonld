@@ -1,0 +1,264 @@
+{
+  "@context": {
+    "biii": "https://biii.eu/",
+    "bioconda": "https://github.com/bioconda/bioconda-recipes/tree/master/recipes/",
+    "bioschemas": "http://bioschemas.org/",
+    "biotools": "https://bio.tools/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "galaxytool": "https://github.com/galaxyproject/tools-iuc/tree/master/tools/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "schema1": "http://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "workflowhub": "https://workflowhub.eu/workflows/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "galaxytool:metaphlan",
+      "@type": "schema1:SoftwareApplication",
+      "bioschemas:output": [
+        "fasta",
+        "json",
+        "tabular",
+        "sam",
+        "biom1",
+        "fastqsanger"
+      ],
+      "schema1:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3174"
+        },
+        {
+          "@id": "edam:topic_0194"
+        }
+      ],
+      "schema1:codeRepository": {
+        "@id": "https://github.com/biobakery/MetaPhlAn"
+      },
+      "schema1:dateCreated": "2021-03-11",
+      "schema1:description": "MetaPhlAn for Metagenomic Phylogenetic Analysis",
+      "schema1:encodingFormat": [
+        "fasta",
+        "json",
+        "tabular",
+        "sam",
+        "biom1",
+        "fastqsanger"
+      ],
+      "schema1:featureList": [
+        {
+          "@id": "edam:data_1872"
+        },
+        {
+          "@id": "edam:operation_3460"
+        }
+      ],
+      "schema1:identifier": [
+        {
+          "@id": "biotools:metaphlan"
+        },
+        {
+          "@id": "bioconda:metaphlan"
+        }
+      ],
+      "schema1:isPartOf": [
+        {
+          "@id": "workflowhub:1470?version=2"
+        },
+        {
+          "@id": "workflowhub:1466?version=2"
+        },
+        {
+          "@id": "workflowhub:1451?version=2"
+        },
+        {
+          "@id": "workflowhub:624?version=1"
+        },
+        {
+          "@id": "https://usegalaxy.fr/published/workflow?id=c4f6062e51d0f45e"
+        },
+        {
+          "@id": "https://usegalaxy.fr/published/workflow?id=09e8293456ee6d99"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=8e13c87e751e88d8"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=052f35a526798020"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=69eddfde874af35b"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=7491883694fff308"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=cb2df493f5e334f7"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=05f5f040337786bf"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=39d36a7ce0ef268d"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=9472be79da012999"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=87cc0cd143a12c41"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=5f0faac42b0a5062"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=b14845359b702444"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=79b4ae4403772098"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=fdca6c9d394986bf"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=4f0daf8e9dd54127"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=4f21205e71cabd37"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=21a17d6c473a88c0"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=4d32b1b3ac0a7161"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=713a5485e2007f90"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=a8f829deb69b30ab"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=19de5cbae7f48103"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=6b7e565258a9da2a"
+        },
+        {
+          "@id": "https://galaxy.mesocentre.uca.fr"
+        },
+        {
+          "@id": "https://galaxytrakr.org"
+        },
+        {
+          "@id": "http://mbac.gmu.edu:8080"
+        },
+        {
+          "@id": "http://galaxy.inf.ethz.ch"
+        },
+        {
+          "@id": "https://usegalaxy.be"
+        },
+        {
+          "@id": "https://usegalaxy.ca"
+        },
+        {
+          "@id": "https://usegalaxy.cz"
+        },
+        {
+          "@id": "https://usegalaxy.eu"
+        },
+        {
+          "@id": "https://usegalaxy.fr"
+        },
+        {
+          "@id": "https://usegalaxy.no"
+        },
+        {
+          "@id": "https://usegalaxy.org.au"
+        },
+        {
+          "@id": "https://usegalaxy.org"
+        }
+      ],
+      "schema1:keywords": "Metagenomics",
+      "schema1:name": "metaphlan",
+      "schema1:softwareVersion": "4.2.6",
+      "schema1:url": {
+        "@id": "https://github.com/galaxyproject/tools-iuc/tree/main/tools/metaphlan"
+      }
+    },
+    {
+      "@id": "https://usegalaxy.eu",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "http://mbac.gmu.edu:8080",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.org",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.cz",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "http://galaxy.inf.ethz.ch",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.no",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.ca",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.org.au",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://galaxy.mesocentre.uca.fr",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://galaxytrakr.org",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.be",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.fr",
+      "@type": "schema1:WebSite"
+    }
+  ]
+}

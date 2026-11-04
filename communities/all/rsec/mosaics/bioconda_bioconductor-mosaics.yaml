@@ -1,0 +1,70 @@
+about:
+  description: This package provides functions for fitting MOSAiCS and MOSAiCS-HMM,
+    a statistical framework to analyze one-sample or two-sample ChIP-seq data of transcription
+    factor binding and histone modification.
+  home: https://bioconductor.org/packages/3.22/bioc/html/mosaics.html
+  license: GPL (>= 2)
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: MOSAiCS (MOdel-based one and two Sample Analysis and Inference for ChIP-Seq)
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:mosaics
+  - doi:10.1198/jasa.2011.ap09706
+  parent_recipe:
+    name: bioconductor-mosaics
+    path: recipes/bioconductor-mosaics
+    version: 2.18.0
+package:
+  name: bioconductor-mosaics
+  version: 2.48.0
+requirements:
+  build:
+  - null
+  - null
+  - make
+  host:
+  - bioconductor-genomicalignments >=1.46.0,<1.47.0
+  - bioconductor-genomicranges >=1.62.0,<1.63.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-rsamtools >=2.26.0,<2.27.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-seqinfo >=1.0.0,<1.1.0
+  - r-base
+  - r-lattice
+  - r-mass
+  - r-rcpp
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  - perl >=5.6.0
+  run:
+  - bioconductor-genomicalignments >=1.46.0,<1.47.0
+  - bioconductor-genomicranges >=1.62.0,<1.63.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-rsamtools >=2.26.0,<2.27.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-seqinfo >=1.0.0,<1.1.0
+  - r-base
+  - r-lattice
+  - r-mass
+  - r-rcpp
+  - perl >=5.6.0
+source:
+  md5: 424e7a221bd65e63aed64f434d291e83
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/mosaics_2.48.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/mosaics/mosaics_2.48.0.tar.gz
+  - https://bioarchive.galaxyproject.org/mosaics_2.48.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-mosaics/bioconductor-mosaics_2.48.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('mosaics')"

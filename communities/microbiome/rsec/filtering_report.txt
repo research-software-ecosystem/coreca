@@ -1,0 +1,6 @@
+Total: 43090
+Kept: 3672
+Deleted: 39418
+Filter 1: 1181
+Filter 2: 746
+Filter 3: 1745

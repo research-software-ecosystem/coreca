@@ -1,0 +1,59 @@
+{
+    "Author": "Tim F. Rayner",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "AnnotationDbi (>= 1.4.0)",
+        "BiocGenerics (>= 0.3.2)",
+        "R (>= 2.9.0)",
+        "annotate (>= 1.20.0)"
+    ],
+    "Description": "The ChromHeatMap package can be used to plot genome-wide data (e.g. expression, CGH, SNP) along each strand of a given chromosome as a heat map. The generated heat map can be used to interactively identify probes and genes of interest.",
+    "Imports": [
+        "Biobase (>= 2.17.8)",
+        "GenomicRanges",
+        "IRanges",
+        "grDevices",
+        "graphics",
+        "methods",
+        "rtracklayer",
+        "stats"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "bb2bb7beac4b4064b0acc96a95ac6a8f",
+    "Maintainer": "Tim F. Rayner <tfrayner@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "ChromHeatMap",
+    "Rank": 726,
+    "Rfiles": [
+        "vignettes/ChromHeatMap/inst/doc/ChromHeatMap.R"
+    ],
+    "Suggests": [
+        "ALL",
+        "hgu95av2.db"
+    ],
+    "Title": "Heat map plotting by genome coordinate",
+    "Version": "1.66.0",
+    "biocViews": [
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "76",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "929b75b",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/ChromHeatMap",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/ChromHeatMap_1.66.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/ChromHeatMap_1.66.0.tgz",
+    "source.ver": "src/contrib/ChromHeatMap_1.66.0.tar.gz",
+    "vignetteTitles": [
+        "Plotting expression data with ChromHeatMap"
+    ],
+    "vignettes": [
+        "vignettes/ChromHeatMap/inst/doc/ChromHeatMap.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/ChromHeatMap_1.66.0.zip"
+}

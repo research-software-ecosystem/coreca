@@ -1,0 +1,245 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bti770",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1002/elps.200900140",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw1132",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkh008",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gky427",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkj056",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/swiss_model",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Protein Structure Bioinformatics Group",
+      "bsc:input": [
+        {
+          "@id": "_:Nbdc23a252ec3430eb341c8d0e230327d"
+        },
+        {
+          "@id": "_:Nb2300e83f9074738ae23ae21a5006967"
+        },
+        {
+          "@id": "_:Nd4a3bf59c2ee4824b9029ebd85e5bd21"
+        },
+        {
+          "@id": "_:Ne1547735b0c84970a240f43dd8b3a98a"
+        },
+        {
+          "@id": "_:Na5742e51bce9494eb355a38b8bfb112c"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N10d1cec2ff734990a71cfd75e5dcd692"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_2275"
+        },
+        {
+          "@id": "edam:topic_2814"
+        },
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_0082"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:12824332",
+        "pmcid:PMC168927",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkg520"
+        },
+        "pubmed:16381875",
+        "pmcid:PMC1347419",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkj056"
+        },
+        "pubmed:24782522",
+        "pmcid:PMC4086089",
+        {
+          "@id": "https://doi.org/10.1093/nar/gku340"
+        },
+        "pubmed:27899672",
+        "pmcid:PMC5210589",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkw1132"
+        },
+        "pubmed:29788355",
+        "pmcid:PMC6030848",
+        {
+          "@id": "https://doi.org/10.1093/nar/gky427"
+        },
+        "pubmed:9504803",
+        {
+          "@id": "https://doi.org/10.1002/elps.1150181505"
+        },
+        "pubmed:19517507",
+        {
+          "@id": "https://doi.org/10.1002/elps.200900140"
+        },
+        "pubmed:16301204",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/bti770"
+        },
+        "pubmed:14681401",
+        "pmcid:PMC308743",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkh008"
+        },
+        "pubmed:9322042"
+      ],
+      "sc:description": "SWISS-MODEL is a fully automated protein structure homology-modelling server, accessible via the ExPASy web server, or from the program DeepView (Swiss Pdb-Viewer). The purpose of this server is to make Protein Modelling accessible to all biochemists and molecular biologists worldwide.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0477"
+        },
+        {
+          "@id": "edam:operation_0479"
+        }
+      ],
+      "sc:name": "SWISS-MODEL",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "https://swissmodel.expasy.org/docs/help"
+      },
+      "sc:url": "https://swissmodel.expasy.org/"
+    },
+    {
+      "@id": "_:Nbdc23a252ec3430eb341c8d0e230327d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "_:Nb2300e83f9074738ae23ae21a5006967",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2291"
+      },
+      "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "_:Nd4a3bf59c2ee4824b9029ebd85e5bd21",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:Ne1547735b0c84970a240f43dd8b3a98a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2974"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Protein sequence (raw)"
+    },
+    {
+      "@id": "_:Na5742e51bce9494eb355a38b8bfb112c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1384"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1929"
+      },
+      "sc:name": "Sequence alignment (protein)"
+    },
+    {
+      "@id": "_:N10d1cec2ff734990a71cfd75e5dcd692",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_1476"
+        },
+        {
+          "@id": "edam:format_1477"
+        }
+      ],
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gku340",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1002/elps.1150181505",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkg520",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

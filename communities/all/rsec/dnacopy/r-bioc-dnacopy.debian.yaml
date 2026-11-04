@@ -1,0 +1,24 @@
+package: r-bioc-dnacopy
+distribution: debian
+release: sid
+component: main
+version: 1.86.0
+source: r-bioc-dnacopy
+homepage: https://www.bioconductor.org/packages/DNAcopy/
+license: unknown
+blend: debian-med
+description_md5: 7f858515379bfc9edfb8e277fc4848de
+registries:
+- entry: OMICS_00720
+  name: OMICtools
+- entry: SCR_012560
+  name: SciCrunch
+- entry: dnacopy
+  name: bio.tools
+- entry: bioconductor-dnacopy
+  name: conda:bioconda
+popcon:
+- insts: 144
+  olde: 109
+  recent: 26
+  vote: 9

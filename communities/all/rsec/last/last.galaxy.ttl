@@ -1,0 +1,47 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix bioschemas: <http://bioschemas.org/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix galaxytool: <https://github.com/galaxyproject/tools-iuc/tree/master/tools/> .
+@prefix schema1: <http://schema.org/> .
+
+galaxytool:last a schema1:SoftwareApplication ;
+    bioschemas:output "lastdb",
+        "maf",
+        "txt" ;
+    schema1:applicationSubCategory edam:topic_0622,
+        edam:topic_0797 ;
+    schema1:codeRepository <http://last.cbrc.jp/> ;
+    schema1:dateCreated "2020-06-17" ;
+    schema1:description "LAST finds similar regions between sequences." ;
+    schema1:encodingFormat "lastdb",
+        "maf",
+        "txt" ;
+    schema1:featureList edam:data_0863,
+        edam:operation_0292,
+        edam:topic_0182 ;
+    schema1:identifier biotools:last,
+        bioconda:last ;
+    schema1:isPartOf <https://usegalaxy.be>,
+        <https://usegalaxy.ca>,
+        <https://usegalaxy.cz>,
+        <https://usegalaxy.eu>,
+        <https://usegalaxy.fr>,
+        <https://usegalaxy.no> ;
+    schema1:keywords "Sequence Analysis" ;
+    schema1:name "last" ;
+    schema1:softwareVersion "1205" ;
+    schema1:url <https://github.com/galaxyproject/tools-iuc/tree/main/tools/last> .
+
+<https://usegalaxy.be> a schema1:WebSite .
+
+<https://usegalaxy.ca> a schema1:WebSite .
+
+<https://usegalaxy.cz> a schema1:WebSite .
+
+<https://usegalaxy.eu> a schema1:WebSite .
+
+<https://usegalaxy.fr> a schema1:WebSite .
+
+<https://usegalaxy.no> a schema1:WebSite .
+

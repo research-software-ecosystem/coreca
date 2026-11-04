@@ -1,0 +1,107 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2015-02-05T13:59:31Z",
+    "biotoolsCURIE": "biotools:itsonedb",
+    "biotoolsID": "itsonedb",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "graziano.pesole@uniba.it",
+            "name": "Graziano Pesole",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "C.N.R. - IBIOM",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Developer",
+                "Maintainer"
+            ],
+            "url": "http://www.ibiom.cnr.it/"
+        },
+        {
+            "name": "C.N.R. - ITB, Bari",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Developer",
+                "Maintainer"
+            ],
+            "url": "http://www.ba.itb.cnr.it"
+        },
+        {
+            "name": "ELIXIR-ITA-CNR",
+            "typeEntity": "Consortium",
+            "typeRole": [
+                "Provider"
+            ],
+            "url": "http://elixir-italy.org/"
+        }
+    ],
+    "description": "A comprehensive collection of the fungal ribosomal RNA Internal Transcribed Spacer 1 (ITS1) sequences aimed at supporting metagenomic surveys of fungal environmental communities.",
+    "documentation": [
+        {
+            "note": "HELP button in the homepage",
+            "type": [
+                "General"
+            ],
+            "url": "https://itsonedb.cloud.ba.infn.it/"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "flavioli"
+        ],
+        "type": "group"
+    },
+    "elixirCommunity": [
+        "Marine Metagenomics"
+    ],
+    "elixirNode": [
+        "Italy"
+    ],
+    "elixirPlatform": [
+        "Data"
+    ],
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Query and retrieval",
+                    "uri": "http://edamontology.org/operation_0224"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://itsonedb.cloud.ba.infn.it/",
+    "lastUpdate": "2026-01-30T10:26:56.768452Z",
+    "maturity": "Mature",
+    "name": "ITSoneDB",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "ELIXIR-ITA-CNR",
+    "publication": [
+        {
+            "doi": "10.1093/bib/bbs036",
+            "pmid": "22786784",
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Metagenomics",
+            "uri": "http://edamontology.org/topic_3174"
+        }
+    ],
+    "validated": 1
+}

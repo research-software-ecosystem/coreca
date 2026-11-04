@@ -1,0 +1,72 @@
+{
+    "Archs": "x64",
+    "Author": "Andrzej Oleś",
+    "BugReports": "https://github.com/aoles/DEFormats/issues",
+    "Date/Publication": "2026-04-28",
+    "Description": "Convert between different data formats used by differential gene expression analysis tools.",
+    "Imports": [
+        "DESeq2",
+        "GenomicRanges",
+        "S4Vectors",
+        "SummarizedExperiment",
+        "checkmate",
+        "data.table",
+        "edgeR (>= 3.13.4)",
+        "methods",
+        "stats"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "12538e2936ed50bbf19ada84bdce2e2e",
+    "Maintainer": "Andrzej Oleś <andrzej.oles@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "DEFormats",
+    "Rank": 558,
+    "Rfiles": [
+        "vignettes/DEFormats/inst/doc/DEFormats.R"
+    ],
+    "Suggests": [
+        "BiocStyle (>= 1.8.0)",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Differential gene expression data formats converter",
+    "URL": "https://github.com/aoles/DEFormats",
+    "Version": "1.40.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DifferentialExpression",
+        "GeneExpression",
+        "ImmunoOncology",
+        "RNASeq",
+        "Sequencing",
+        "Software",
+        "Transcription"
+    ],
+    "dependencyCount": "61",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "bf0660e",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/DEFormats",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "regionReport"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/DEFormats_1.40.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/DEFormats_1.40.0.tgz",
+    "source.ver": "src/contrib/DEFormats_1.40.0.tar.gz",
+    "suggestsMe": [
+        "DeeDeeExperiment",
+        "ideal"
+    ],
+    "vignetteTitles": [
+        "Differential gene expression data formats converter"
+    ],
+    "vignettes": [
+        "vignettes/DEFormats/inst/doc/DEFormats.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/DEFormats_1.40.0.zip"
+}

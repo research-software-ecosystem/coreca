@@ -1,0 +1,35 @@
+{
+    "Author": "Patrick Kimes, Christopher Cabanski",
+    "Depends": [
+        "GenomicRanges",
+        "R (>= 3.1.1)"
+    ],
+    "Description": "Algorithm for testing significance of clustering in RNA-seq data.",
+    "Imports": [
+        "ggplot2",
+        "matlab",
+        "reshape",
+        "sigclust"
+    ],
+    "License": "GPL-3",
+    "Maintainer": "Patrick Kimes <patrick.kimes@gmail.com>",
+    "Package": "SigFuge",
+    "PackageStatus": "Deprecated",
+    "Rank": 2106,
+    "Suggests": [
+        "BiocStyle",
+        "Rsamtools (>= 1.17.0)",
+        "TxDb.Hsapiens.UCSC.hg19.knownGene",
+        "org.Hs.eg.db",
+        "prebsdata"
+    ],
+    "Title": "SigFuge",
+    "Version": "1.50.0",
+    "biocViews": [
+        "Clustering",
+        "ImmunoOncology",
+        "RNASeq",
+        "Software",
+        "Visualization"
+    ]
+}

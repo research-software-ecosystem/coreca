@@ -1,0 +1,130 @@
+{
+    "additionDate": "2017-08-03T19:02:48Z",
+    "biotoolsCURIE": "biotools:tipp",
+    "biotoolsID": "tipp",
+    "credit": [
+        {
+            "email": "warnow@illinois.edu",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.cs.utexas.edu/users/phylo/"
+        }
+    ],
+    "description": "A new marker-based method developed for abundance profiling of metagenomic data.  It uses a collection of 30 universal marker genes and bins the fragments to the marker genes.  For each set of fragments binned to a marker gene, this classifies the fragments by inserting the fragments into the taxonomic tree estimated on the marker gene.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.cs.utexas.edu/users/phylo/software/sepp/tipp-submission/"
+        },
+        {
+            "type": [
+                "General"
+            ],
+            "url": "http://www.cs.utexas.edu/users/phylo/software/sepp/tipp-submission/supplement.pdf"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "vashokan"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "DNA sequence",
+                        "uri": "http://edamontology.org/data_3494"
+                    },
+                    "format": [
+                        {
+                            "term": "FASTQ",
+                            "uri": "http://edamontology.org/format_1930"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Taxonomic classification",
+                    "uri": "http://edamontology.org/operation_3460"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Taxonomy",
+                        "uri": "http://edamontology.org/data_3028"
+                    },
+                    "format": [
+                        {
+                            "term": "DSV",
+                            "uri": "http://edamontology.org/format_3751"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "operation": [
+                {
+                    "term": "Community profiling",
+                    "uri": "http://edamontology.org/operation_3200"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://github.com/c5shen/TIPP3",
+    "lastUpdate": "2026-02-12T14:19:03.990351Z",
+    "link": [
+        {
+            "note": "github repository",
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/c5shen/TIPP3"
+        },
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "http://www.mybiosoftware.com/tipp-taxon-identification-and-phylogenetic-profiling.html"
+        }
+    ],
+    "name": "TIPP",
+    "operatingSystem": [
+        "Linux",
+        "Mac"
+    ],
+    "owner": "mbs_import",
+    "publication": [
+        {
+            "doi": "10.1371/journal.pcbi.1012593",
+            "pmcid": "PMC11970662",
+            "pmid": "40184383"
+        }
+    ],
+    "toolType": [
+        "Command-line tool"
+    ],
+    "topic": [
+        {
+            "term": "Metagenomics",
+            "uri": "http://edamontology.org/topic_3174"
+        },
+        {
+            "term": "Phylogenetics",
+            "uri": "http://edamontology.org/topic_3293"
+        },
+        {
+            "term": "Taxonomy",
+            "uri": "http://edamontology.org/topic_0637"
+        }
+    ],
+    "validated": 1
+}

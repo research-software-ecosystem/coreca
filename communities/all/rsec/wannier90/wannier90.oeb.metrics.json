@@ -1,0 +1,113 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:wannier90/undefined/aiida-wannier90.readthedocs.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 228,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 25,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 38,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 41,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 52,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 52,
+                                    "year": 2026
+                                }
+                            ],
+                            "doi": "10.1088/1361-648X/ab51ff",
+                            "pmid": "31658458",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Wannier90 as a community code: new features and applications.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://aiida-wannier90.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://aiida-wannier90.readthedocs.io/en/latest/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/wannier90",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://aiida-wannier90.readthedocs.io/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://aiida-wannier90.readthedocs.io/en/latest/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,131 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cryosparc/cmd/www.cryosparc.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6703,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 29,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 86,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 149,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 356,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 544,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 705,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 944,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 1173,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 1267,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 1445,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1038/nmeth.4169",
+                            "pmid": "28165473",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "cryoSPARC: algorithms for rapid unsupervised cryo-EM structure determination.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 307,
+                        "url": "https://cryosparc.com/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/cryosparc",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 307,
+                        "url": "https://cryosparc.com/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

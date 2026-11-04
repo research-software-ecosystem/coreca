@@ -1,0 +1,152 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:oat/app/www.ezbiocloud.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 1537,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 38,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 65,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 130,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 144,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 156,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 164,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 193,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 195,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 209,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 229,
+                                    "year": 2024
+                                }
+                            ],
+                            "doi": "10.1099/ijsem.0.000760",
+                            "pmid": "26585518",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "OrthoANI: An improved algorithm and software for calculating average nucleotide identity.",
+                            "year": 2015
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.ezbiocloud.net/sw/oat"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ezbiocloud.net/tools/orthoani"
+                    },
+                    {
+                        "status": 303,
+                        "url": "http://www.ezbiocloud.net/tools/orthoani"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/oat",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 403,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.ezbiocloud.net/sw/oat"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://www.ezbiocloud.net/tools/orthoani"
+                    },
+                    {
+                        "status": 303,
+                        "url": "http://www.ezbiocloud.net/tools/orthoani"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

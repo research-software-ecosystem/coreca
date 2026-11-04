@@ -1,0 +1,82 @@
+{
+    "Archs": "x64",
+    "Author": "Mike Smith [ctb] (ORCID: <https://orcid.org/0000-0002-7800-3848>), Hugo Gruson [cre] (ORCID: <https://orcid.org/0000-0002-4094-1476>), The HDF Group [cph]",
+    "BugReports": "https://github.com/Huber-group-EMBL/Rhdf5lib/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.2.0)"
+    ],
+    "Description": "Provides C and C++ hdf5 libraries.",
+    "License": "Artistic-2.0",
+    "LinkingTo": [
+        "biocmake"
+    ],
+    "MD5sum": "b8e39f4341e805425d50eb77d77ea3f3",
+    "Maintainer": "Hugo Gruson <hugo.gruson@embl.de>",
+    "NeedsCompilation": "yes",
+    "Package": "Rhdf5lib",
+    "Rank": 29,
+    "Rfiles": [
+        "vignettes/Rhdf5lib/inst/doc/Rhdf5lib.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "mockery",
+        "rmarkdown",
+        "tinytest"
+    ],
+    "Title": "hdf5 library as an R package",
+    "URL": "https://github.com/Huber-group-EMBL/Rhdf5lib",
+    "Version": "2.0.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Infrastructure",
+        "Software"
+    ],
+    "dependencyCount": "5",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "21f3087",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/Rhdf5lib",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "epigraHMM",
+        "ondisc",
+        "rhdf5"
+    ],
+    "linksToMe": [
+        "BigDataStatMeth",
+        "CytoML",
+        "DropletUtils",
+        "alabaster.base",
+        "beachmat.hdf5",
+        "chihaya",
+        "epigraHMM",
+        "h5mread",
+        "mbkmeans",
+        "mzR",
+        "ncdfFlow",
+        "ondisc",
+        "rhdf5",
+        "rhdf5filters",
+        "smer",
+        "stPipe"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/Rhdf5lib_2.0.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/Rhdf5lib_2.0.0.tgz",
+    "source.ver": "src/contrib/Rhdf5lib_2.0.0.tar.gz",
+    "suggestsMe": [
+        "mbkmeans"
+    ],
+    "vignetteTitles": [
+        "Linking to Rhdf5lib"
+    ],
+    "vignettes": [
+        "vignettes/Rhdf5lib/inst/doc/Rhdf5lib.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/Rhdf5lib_2.0.0.zip"
+}

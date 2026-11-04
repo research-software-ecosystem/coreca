@@ -1,0 +1,118 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gemme/web/www.lcqb.upmc.fr",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 99,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 28,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/molbev/msz179",
+                            "pmcid": "PMC6805226",
+                            "pmid": "31406981",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "GEMME: A Simple and Fast Global Epistatic Model Predicting Mutational Effects.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.lcqb.upmc.fr/GEMME/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.lcqb.upmc.fr/GEMME"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.lcqb.upmc.fr/GEMME/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/gemme",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.lcqb.upmc.fr/GEMME/"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.lcqb.upmc.fr/GEMME"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.lcqb.upmc.fr/GEMME/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

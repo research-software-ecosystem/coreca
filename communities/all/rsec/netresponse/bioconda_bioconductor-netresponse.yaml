@@ -1,0 +1,68 @@
+about:
+  description: Algorithms for functional network analysis. Includes an implementation
+    of a variational Dirichlet process Gaussian mixture model for nonparametric mixture
+    modeling.
+  home: https://bioconductor.org/packages/3.22/bioc/html/netresponse.html
+  license: GPL (>=2)
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: Functional Network Analysis
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:netresponse
+package:
+  name: bioconductor-netresponse
+  version: 1.70.0
+requirements:
+  build:
+  - null
+  - make
+  host:
+  - bioconductor-biocstyle >=2.38.0,<2.39.0
+  - bioconductor-graph >=1.88.0,<1.89.0
+  - bioconductor-minet >=3.68.0,<3.69.0
+  - bioconductor-qvalue >=2.42.0,<2.43.0
+  - bioconductor-rgraphviz >=2.54.0,<2.55.0
+  - r-base
+  - r-ggplot2
+  - r-igraph
+  - r-mclust
+  - r-plyr
+  - r-rcolorbrewer
+  - r-reshape2
+  - r-rmarkdown
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-biocstyle >=2.38.0,<2.39.0
+  - bioconductor-graph >=1.88.0,<1.89.0
+  - bioconductor-minet >=3.68.0,<3.69.0
+  - bioconductor-qvalue >=2.42.0,<2.43.0
+  - bioconductor-rgraphviz >=2.54.0,<2.55.0
+  - r-base
+  - r-ggplot2
+  - r-igraph
+  - r-mclust
+  - r-plyr
+  - r-rcolorbrewer
+  - r-reshape2
+  - r-rmarkdown
+source:
+  md5: 7c6505ef862b15fe7a4a94eb1239305f
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/netresponse_1.70.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/netresponse/netresponse_1.70.0.tar.gz
+  - https://bioarchive.galaxyproject.org/netresponse_1.70.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-netresponse/bioconductor-netresponse_1.70.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('netresponse')"

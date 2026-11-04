@@ -1,0 +1,50 @@
+{
+    "Archs": "x64",
+    "Author": "Xinan Yang <xyang2@uchicago.edu>; Bin Wang <binw@uchicago.edu>",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.6.2)"
+    ],
+    "Description": "Seq2pathway is a novel tool for functional gene-set (or termed as pathway) analysis of next-generation sequencing data, consisting of \"seq2gene\" and \"gene2path\" components. The seq2gene links sequence-level measurements of genomic regions (including SNPs or point mutation coordinates) to gene-level scores, and the gene2pathway summarizes gene scores to pathway-scores for each sample. The seq2gene has the feasibility to assign both coding and non-exon regions to a broader range of neighboring genes than only the nearest one, thus facilitating the study of functional non-coding regions. The gene2pathway takes into account the quantity of significance for gene members within a pathway compared those outside a pathway. The output of seq2pathway is a general structure of quantitative pathway-level scores, thus allowing one to functional interpret such datasets as RNA-seq, ChIP-seq, GWAS, and derived from other next generational sequencing experiments.",
+    "Imports": [
+        "GSA",
+        "GenomicRanges",
+        "WGCNA",
+        "biomaRt",
+        "nnet",
+        "seq2pathway.data"
+    ],
+    "License": "GPL-2",
+    "MD5sum": "df45a71ef2de6fd216ec46560f96891d",
+    "Maintainer": "Arjun Kinstlick <akinstlick@uchicago.edu>",
+    "NeedsCompilation": "no",
+    "Package": "seq2pathway",
+    "Rank": 1418,
+    "Rfiles": [
+        "vignettes/seq2pathway/inst/doc/seq2pathwaypackage.R"
+    ],
+    "Title": "a novel tool for functional gene-set (or termed as pathway) analysis of next-generation sequencing data",
+    "Version": "1.44.0",
+    "biocViews": [
+        "Software"
+    ],
+    "dependencyCount": "121",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "36eec06",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/seq2pathway",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/seq2pathway_1.44.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/seq2pathway_1.44.0.tgz",
+    "source.ver": "src/contrib/seq2pathway_1.44.0.tar.gz",
+    "vignetteTitles": [
+        "An R package for sequence"
+    ],
+    "vignettes": [
+        "vignettes/seq2pathway/inst/doc/seq2pathwaypackage.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/seq2pathway_1.44.0.zip"
+}

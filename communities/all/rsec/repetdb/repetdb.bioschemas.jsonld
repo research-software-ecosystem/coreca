@@ -1,0 +1,162 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/RepetDB",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N4b53b7c6b0b94899aa86eae9c2e96af1"
+        },
+        {
+          "@id": "_:Ne285d2e0637f469898a85352e8c2d99d"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Ndeec9c35d40a48b2a31354c21230fa5c"
+        },
+        {
+          "@id": "_:N6bd39e10b65e4ddbb419d1db742d0c53"
+        },
+        {
+          "@id": "_:N8b88627828e246d08b0ed75d52c14578"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Database portal",
+        "Web application",
+        "Web service"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:23023984",
+        "pmcid:PMC3516146",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/bts577"
+        }
+      ],
+      "sc:description": "Repeats intermine database",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_2436"
+        },
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_0337"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "LGPL-2.1",
+      "sc:name": "RepetDB",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "http://intermine.readthedocs.org/en/latest/web-services/"
+        },
+        {
+          "@id": "https://flymine.readthedocs.io/en/latest/"
+        }
+      ],
+      "sc:softwareVersion": "1",
+      "sc:url": "http://urgi.versailles.inra.fr/repetdb"
+    },
+    {
+      "@id": "_:N4b53b7c6b0b94899aa86eae9c2e96af1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:Ne285d2e0637f469898a85352e8c2d99d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    },
+    {
+      "@id": "_:Ndeec9c35d40a48b2a31354c21230fa5c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3753"
+      },
+      "sc:name": "Over-representation data"
+    },
+    {
+      "@id": "_:N6bd39e10b65e4ddbb419d1db742d0c53",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3786"
+      },
+      "sc:name": "Query script"
+    },
+    {
+      "@id": "_:N8b88627828e246d08b0ed75d52c14578",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1255"
+      },
+      "sc:name": "Sequence features"
+    }
+  ]
+}

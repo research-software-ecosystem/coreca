@@ -1,0 +1,27 @@
+package: bio-rainbow
+distribution: debian
+release: sid
+component: main
+version: 2.0.4
+source: bio-rainbow
+homepage: http://sourceforge.net/projects/bio-rainbow/
+license: unknown
+blend: debian-med
+description_md5: 9923da0307e9697918f7aeba3ffbc7dd
+registries:
+- entry: OMICS_03722
+  name: OMICtools
+- entry: SCR_002724
+  name: SciCrunch
+- entry: rainbow
+  name: bio.tools
+- entry: rainbow
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/bts482
+popcon:
+- insts: 114
+  olde: 87
+  recent: 23
+  vote: 4

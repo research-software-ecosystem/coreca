@@ -1,0 +1,25 @@
+package: staden
+distribution: debian
+release: sid
+component: main
+version: 2.0.0+b11
+source: staden
+homepage: https://sourceforge.net/projects/staden/
+license: unknown
+blend: debian-med
+description_md5: ab389488bbaa41331fbf3a76064bea10
+registries:
+- entry: OMICS_00894
+  name: OMICtools
+- entry: SCR_005629
+  name: SciCrunch
+- entry: staden
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btq268
+popcon:
+- insts: 122
+  olde: 93
+  recent: 23
+  vote: 6

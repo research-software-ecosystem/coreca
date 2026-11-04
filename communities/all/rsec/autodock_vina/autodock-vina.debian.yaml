@@ -1,0 +1,27 @@
+package: autodock-vina
+distribution: debian
+release: sid
+component: main
+version: 1.2.7
+source: autodock-vina
+homepage: https://vina.scripps.edu
+license: unknown
+blend: debian-med
+description_md5: ccc2890588539c77dfd8813255875f4e
+registries:
+- entry: OMICS_03790
+  name: OMICtools
+- entry: SCR_011958
+  name: SciCrunch
+- entry: AutoDock_Vina
+  name: bio.tools
+- entry: autodock-vina
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1002/jcc.21334
+popcon:
+- insts: 145
+  olde: 112
+  recent: 25
+  vote: 8
