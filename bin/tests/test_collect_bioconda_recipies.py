@@ -1,3 +1,4 @@
+import sys
 import tempfile
 import textwrap
 import unittest
@@ -7,12 +8,24 @@ from typing import (
     Dict,
 )
 
+# ---------------------------------------------------------------------------
+# Make sure Python can find the source modules in bin/
+# This works whether you run pytest from the project root or from tests/.
+# ---------------------------------------------------------------------------
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+# ---------------------------------------------------------------------------
+# Import the classes and utils functions under test
+# ---------------------------------------------------------------------------
+from extract_rsec import (  # noqa: E402
+    Tool,
+    ToolSet,
+)
 import utils
 from bioconda_manager import (
     BiocondaRecipe,
     BiocondaRecipes,
 )
-
 
 class TestBiocondaRecipe(unittest.TestCase):
     def setUp(self) -> None:
@@ -173,7 +186,8 @@ class TestBiocondaRecipes(unittest.TestCase):
 
             # Parse all recipes
             recipes = BiocondaRecipes()
-            recipes.parse_all(str(recipes_dir.parent))
+            # recipes.parse_all(str(recipes_dir.parent))
+            recipes.parse_all(str(recipes_dir))
 
             # Check parsed content
             self.assertEqual(len(recipes.recipes), 3)
