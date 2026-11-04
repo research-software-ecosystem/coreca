@@ -15,7 +15,6 @@ from typing import (
 
 import yaml
 from utils import (
-    setup_logger,
     clone_rsec_data,
     generate_tsv_summary,
     load_keywords_from_yaml,
@@ -366,7 +365,7 @@ if __name__ == "__main__":
     )
 
     args = parser.parse_args()
-    utils.setup_logger(args.verbose)
+    # utils.setup_logger(args.verbose)
 
     if args.command == "extract":
         # Default paths if not provided via CLI
