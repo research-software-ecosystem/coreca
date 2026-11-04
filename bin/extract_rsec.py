@@ -193,10 +193,10 @@ class Tool:
 
 
 class ToolSet:
-    def __init__(self, root_dir: str, json_out: str, tsv_out: str, kw_file: str) -> None:
-        self.root_dir = Path(root_dir)
-        self.json_out = Path(json_out)
-        self.tsv_out = Path(tsv_out)
+    def __init__(self, root_dir: Path, json_out: Path, tsv_out: Path, kw_file: Path) -> None:
+        # self.root_dir = Path(root_dir)
+        # self.json_out = Path(json_out)
+        # self.tsv_out = Path(tsv_out)
 
         # output paths for reporting files, all in the same directory as json_out
         self.output_dir = self.json_out.parent
