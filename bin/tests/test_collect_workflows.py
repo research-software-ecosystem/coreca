@@ -13,7 +13,7 @@ from pathlib import Path
 # Make sure Python can find the source modules in bin/
 # This works whether you run pytest from the project root or from tests/.
 # ---------------------------------------------------------------------------
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 # ---------------------------------------------------------------------------
 # Import the classes and utils functions under test

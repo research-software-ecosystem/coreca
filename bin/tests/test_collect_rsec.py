@@ -33,6 +33,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 # ---------------------------------------------------------------------------
 from extract_rsec import (  # noqa: E402
     Tool,
+    ToolSet,
 )
 from utils import (  # noqa: E402
     clone_rsec_data,
@@ -719,13 +720,27 @@ class TestToolSet(RsecTestCase):
 
     def test_run_filtering_deletes_rejected_folders(self) -> None:
         kw_content = {
-            "edam": {"operations": [], "topics": []},
-            "keywords": [],
+            "edam": {"operations": ["operation_0001"], "topics": ["topic_0154"]},
+            "keywords": ["genomics"],
             "acronyms": [],
         }
+        #kw_content = {
+        #    "edam": {"operations": [], "topics": []},
+        #    "keywords": [],
+        #    "acronyms": [],
+        #}
         tmp_path = self.tmp_path
         kw = _make_keywords_yaml(tmp_path, content=kw_content)
-        doomed = _make_tool_folder(tmp_path, "doomed")
+        #doomed = _make_tool_folder(tmp_path, "doomed")
+        doomed = _make_tool_folder(
+            tmp_path,
+            "doomed",
+            biotools={
+                "name": "doomed",
+                "topic": [{"uri": "edam:not_a_valid_topic"}],
+                "function": [{"operation": [{"uri": "edam:not_a_valid_operation"}]}],
+            },
+        )
         ts = _make_toolset(tmp_path, kw_file=kw)
         ts.run_filtering()
         assert not doomed.exists()
