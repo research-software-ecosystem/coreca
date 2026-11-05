@@ -1,0 +1,32 @@
+package: salmon
+distribution: debian
+release: sid
+component: main
+version: 1.10.3+ds1
+source: salmon
+homepage: https://github.com/COMBINE-lab/salmon
+license: unknown
+blend: debian-med
+description_md5: 2d4c57b85c974a51ce828b2205df95e8
+registries:
+- entry: OMICS_09075
+  name: OMICtools
+- entry: SCR_017036
+  name: SciCrunch
+- entry: salmon
+  name: bio.tools
+- entry: salmon
+  name: conda:bioconda
+- entry: salmon
+  name: guix
+bib:
+- key: doi
+  value: 10.1038/nmeth.4197
+- key: doi
+  rank: 1
+  value: 10.1186/s13059-019-1670-y
+popcon:
+- insts: 138
+  olde: 107
+  recent: 25
+  vote: 6

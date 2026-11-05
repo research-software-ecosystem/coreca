@@ -1,0 +1,12 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix schema1: <http://schema.org/> .
+
+bioconda:extract_fasta_seq a schema1:SoftwareApplication ;
+    schema1:alternateName "To extract specific fasta sequences from a fasta file." ;
+    schema1:description "To extract specific fasta sequences from a fasta file." ;
+    schema1:license "GNU General Public v3 or later (GPLv3+)" ;
+    schema1:maintainer "linzhi2013" ;
+    schema1:name "extract_fasta_seq" ;
+    schema1:softwareVersion "0.0.1" ;
+    schema1:url "https://github.com/linzhi2013/extract_fasta_seq" .
+

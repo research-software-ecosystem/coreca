@@ -1,0 +1,25 @@
+package: prottest
+distribution: debian
+release: sid
+component: main
+version: 3.4.2
+source: prottest
+homepage: https://github.com/ddarriba/prottest3
+license: unknown
+blend: debian-med
+description_md5: 1454155e5ec803ebc286ba865e4e36cf
+registries:
+- entry: OMICS_11547
+  name: OMICtools
+- entry: SCR_014628
+  name: SciCrunch
+- entry: ProtTest
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btr088
+popcon:
+- insts: 111
+  olde: 83
+  recent: 23
+  vote: 5

@@ -1,0 +1,24 @@
+package: wham-align
+distribution: debian
+release: sid
+component: main
+version: 0.1.5
+source: wham-align
+homepage: http://research.cs.wisc.edu/wham
+license: unknown
+blend: debian-med
+description_md5: a0d56a1c39b574e36bc50ae90974b9a6
+registries:
+- entry: OMICS_00697
+  name: OMICtools
+- entry: SCR_005497
+  name: SciCrunch
+- entry: wham
+  name: bio.tools
+- entry: wham
+  name: conda:bioconda
+popcon:
+- insts: 118
+  olde: 90
+  recent: 23
+  vote: 5

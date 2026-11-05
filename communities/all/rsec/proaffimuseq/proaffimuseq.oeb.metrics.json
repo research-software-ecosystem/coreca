@@ -1,0 +1,89 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:proaffimuseq/undefined/web.iitm.ac.in",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 19,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2023
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btz829",
+                            "pmid": "31713585",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "ProAffiMuSeq: sequence-based method to predict the binding free energy change of protein-protein complexes upon mutation using functional classification.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/proaffimuseq",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

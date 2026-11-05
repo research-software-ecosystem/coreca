@@ -1,0 +1,41 @@
+about:
+  dev_url: https://github.com/bactopia/bactopia-variants/
+  home: https://bactopia.github.io/
+  license: MIT
+  license_file: LICENSE
+  summary: Methods used by Bactopia for SNP and InDel analysis
+build:
+  noarch: generic
+  number: 0
+  run_exports:
+  - null
+extra:
+  identifiers:
+  - biotools:bactopia
+  - doi:10.1128/mSystems.00190-20
+  recipe-maintainers:
+  - rpetit3
+package:
+  name: bactopia-variants
+  version: 1.0.4
+requirements:
+  run:
+  - bactopia-py >=2.0.1
+  - coreutils
+  - gsl 2.6
+  - openjdk 11.0.15
+  - pigz
+  - python <3.13
+  - rename
+  - snippy >=4.6.0
+  - snpeff >=4.3,<5
+  - sed
+  - vcf-annotator >=1.0.0
+  - vcflib >=1.0.0_rc3,<=1.0.2
+  - tabixpp 1.1.0
+source:
+  sha256: 92599a591254e6d6085bcd9bb12b74d41d9f7623b8a95a20e74158967bc0a63a
+  url: https://github.com/bactopia/bactopia-variants/archive/v1.0.4.tar.gz
+test:
+  commands:
+  - bactopia-variants

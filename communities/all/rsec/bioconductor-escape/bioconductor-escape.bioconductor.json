@@ -1,0 +1,96 @@
+{
+    "Author": "Nick Borcherding [aut, cre], Jared Andrews [aut], Tobias Hoch [ctb], Alexei Martsinkovskiy [ctb]",
+    "BugReports": "https://github.com/BorchLab/escape/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.1)"
+    ],
+    "Description": "A bridging R package to facilitate gene set enrichment analysis (GSEA) in the context of single-cell RNA sequencing. Using raw count information, Seurat objects, or SingleCellExperiment format, users can perform and visualize ssGSEA, GSVA, AUCell, and UCell-based enrichment calculations across individual cells. Alternatively, escape supports use of rank-based GSEA, such as the use of differential gene expression via fgsea.",
+    "Imports": [
+        "Matrix",
+        "MatrixGenerics",
+        "SummarizedExperiment",
+        "ggdist",
+        "ggplot2 (>= 3.5.0)",
+        "grDevices",
+        "methods",
+        "stats",
+        "utils"
+    ],
+    "License": "MIT + file LICENSE",
+    "MD5sum": "d6d019d875ac99da0568be20c87c4b53",
+    "Maintainer": "Nick Borcherding <ncborch@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "escape",
+    "Rank": 422,
+    "Rfiles": [
+        "vignettes/escape/inst/doc/escape.R"
+    ],
+    "Suggests": [
+        "AUCell",
+        "BiocParallel",
+        "BiocStyle",
+        "DelayedMatrixStats",
+        "GSEABase",
+        "GSVA",
+        "Seurat",
+        "SeuratObject",
+        "SingleCellExperiment",
+        "UCell",
+        "dplyr",
+        "fgsea",
+        "ggpointdensity",
+        "ggraph",
+        "ggridges",
+        "hexbin",
+        "igraph",
+        "irlba",
+        "knitr",
+        "msigdb",
+        "patchwork",
+        "rlang",
+        "rmarkdown",
+        "scran",
+        "spelling",
+        "stringr",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "Easy single cell analysis platform for enrichment",
+    "Version": "2.8.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Annotation",
+        "Classification",
+        "GeneSetEnrichment",
+        "GeneSignaling",
+        "Pathways",
+        "Sequencing",
+        "SingleCell",
+        "Software"
+    ],
+    "dependencyCount": "52",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "30ce58f",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/escape",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "GSABenchmark"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/escape_2.8.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/escape_2.8.0.tgz",
+    "source.ver": "src/contrib/escape_2.8.0.tar.gz",
+    "suggestsMe": [
+        "Cepo"
+    ],
+    "vignetteTitles": [
+        "Escape-ingToWork"
+    ],
+    "vignettes": [
+        "vignettes/escape/inst/doc/escape.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/escape_2.8.0.zip"
+}

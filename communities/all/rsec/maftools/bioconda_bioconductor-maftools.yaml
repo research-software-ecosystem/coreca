@@ -1,0 +1,62 @@
+about:
+  description: Analyze and visualize Mutation Annotation Format (MAF) files from large
+    scale sequencing studies. This package provides various functions to perform most
+    commonly used analyses in cancer genomics and to create feature rich customizable
+    visualzations with minimal effort.
+  home: https://bioconductor.org/packages/3.22/bioc/html/maftools.html
+  license: MIT + file LICENSE
+  license_file: LICENSE
+  summary: Summarize, Analyze and Visualize MAF Files
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:maftools
+  - usegalaxy-eu:maftools
+  parent_recipe:
+    name: bioconductor-maftools
+    path: recipes/bioconductor-maftools
+    version: 1.6.15
+package:
+  name: bioconductor-maftools
+  version: 2.26.0
+requirements:
+  build:
+  - null
+  - make
+  host:
+  - bioconductor-dnacopy >=1.84.0,<1.85.0
+  - bioconductor-rhtslib >=3.6.0,<3.7.0
+  - r-base
+  - r-data.table
+  - r-pheatmap
+  - r-rcolorbrewer
+  - r-survival
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-dnacopy >=1.84.0,<1.85.0
+  - bioconductor-rhtslib >=3.6.0,<3.7.0
+  - r-base
+  - r-data.table
+  - r-pheatmap
+  - r-rcolorbrewer
+  - r-survival
+source:
+  md5: c9d39777e09f29393454200caebbf9cd
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/maftools_2.26.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/maftools/maftools_2.26.0.tar.gz
+  - https://bioarchive.galaxyproject.org/maftools_2.26.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-maftools/bioconductor-maftools_2.26.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('maftools')"

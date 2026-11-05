@@ -1,0 +1,59 @@
+about:
+  dev_url: https://bitbucket.org/berkeleylab/metabat
+  doc_url: https://bitbucket.org/berkeleylab/metabat/src/v2.18/README.md
+  home: https://bitbucket.org/berkeleylab/metabat
+  license: BSD-3-Clause-LBNL
+  license_family: BSD
+  license_file: license.txt
+  summary: Metagenome binning.
+build:
+  number: 0
+  run_exports:
+  - null
+  skip: true
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - doi:10.7717/peerj.1165
+  - biotools:MetaBAT_2
+  - usegalaxy-eu:metabat2
+package:
+  name: metabat2
+  version: 2.18_23_gc869c52
+requirements:
+  build:
+  - null
+  - null
+  - null
+  - cmake
+  - make
+  - autoconf
+  - automake
+  - libtool
+  - pkg-config
+  host:
+  - zlib
+  - htslib
+  - boost-cpp
+  - libdeflate
+  - llvm-openmp
+  - libgomp
+  run:
+  - perl
+  - boost-cpp
+  - llvm-openmp
+  - libgomp
+source:
+- patches:
+  - cmake.patch
+  - cmake-htslib.patch
+  sha256: ab4a4df1a4af3ce315317318a53b242e4f91d03e9ffe356279a69dd5df4d7e3c
+  url: https://bitbucket.org/berkeleylab/metabat/get/c869c524d0f1.zip
+test:
+  commands:
+  - metabat2 -h
+  - metabat1 -h
+  - jgi_summarize_bam_contig_depths -h
+  - contigOverlaps -h

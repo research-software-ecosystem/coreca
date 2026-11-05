@@ -1,0 +1,223 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pydockweb:3.5.1/web/life.bsc.es",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "terms_of_use": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 133,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2020
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btt262",
+                            "pmid": "23661696",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "pyDockWEB: a web server for rigid-body protein-protein docking using electrostatics and desolvation scoring.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pydockweb:1/web/life.bsc.es",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "terms_of_use": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 133,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2020
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btt262",
+                            "pmid": "23661696",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "pyDockWEB: a web server for rigid-body protein-protein docking using electrostatics and desolvation scoring.",
+                            "year": 2013
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/pydockweb",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,75 @@
+{
+    "Author": "Marcus Dittrich and Daniela Beisser",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 2.10.0)",
+        "RBGL",
+        "graph"
+    ],
+    "Description": "This package provides functions for the integrated analysis of protein-protein interaction networks and the detection of functional modules. Different datasets can be integrated into the network by assigning p-values of statistical tests to the nodes of the network. E.g. p-values obtained from the differential expression of the genes from an Affymetrix array are assigned to the nodes of the network. By fitting a beta-uniform mixture model and calculating scores from the p-values, overall scores of network regions can be calculated and an integer linear programming algorithm identifies the maximum scoring subnetwork.",
+    "Imports": [
+        "AnnotationDbi",
+        "Biobase",
+        "igraph (>= 1.0.1)"
+    ],
+    "License": "GPL (>= 2)",
+    "MD5sum": "4e9528cc9e4aedab705671d135803c9b",
+    "Maintainer": "Marcus Dittrich <marcus.dittrich@biozentrum.uni-wuerzburg.de>",
+    "NeedsCompilation": "no",
+    "Package": "BioNet",
+    "Rank": 372,
+    "Rfiles": [
+        "vignettes/BioNet/inst/doc/Tutorial.R"
+    ],
+    "Suggests": [
+        "ALL",
+        "DLBCL",
+        "XML",
+        "genefilter",
+        "hgu95av2.db",
+        "impute",
+        "limma",
+        "rgl",
+        "xtable"
+    ],
+    "Title": "Routines for the functional analysis of biological networks",
+    "URL": "http://bionet.bioapps.biozentrum.uni-wuerzburg.de/",
+    "Version": "1.72.0",
+    "biocViews": [
+        "DataImport",
+        "DifferentialExpression",
+        "GeneExpression",
+        "GraphAndNetwork",
+        "Microarray",
+        "Network",
+        "NetworkEnrichment",
+        "Software"
+    ],
+    "dependencyCount": "50",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "bb160ed",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/BioNet",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "SMITE",
+        "gatom"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/BioNet_1.72.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/BioNet_1.72.0.tgz",
+    "source.ver": "src/contrib/BioNet_1.72.0.tar.gz",
+    "suggestsMe": [
+        "SANTA",
+        "mwcsr"
+    ],
+    "vignetteTitles": [
+        "BioNet Tutorial"
+    ],
+    "vignettes": [
+        "vignettes/BioNet/inst/doc/Tutorial.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/BioNet_1.72.0.zip"
+}

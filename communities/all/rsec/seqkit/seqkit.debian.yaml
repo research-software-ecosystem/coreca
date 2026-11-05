@@ -1,0 +1,23 @@
+package: seqkit
+distribution: debian
+release: sid
+component: main
+version: 2.10.1+ds
+source: seqkit
+homepage: https://github.com/shenwei356/seqkit
+license: unknown
+blend: debian-med
+description_md5: cbf53322980bad60a2f766bd99556176
+registries:
+- entry: seqkit
+  name: bio.tools
+- entry: seqkit
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1371/journal.pone.0163962
+popcon:
+- insts: 150
+  olde: 114
+  recent: 26
+  vote: 10

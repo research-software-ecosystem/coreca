@@ -1,0 +1,38 @@
+package: gff2aplot
+distribution: debian
+release: sid
+component: main
+version: '2.0'
+source: gff2aplot
+homepage: https://genome.crg.es/software/gfftools/GFF2APLOT.html
+license: unknown
+blend: debian-med
+description_md5: f6913bf739701d38714a2d126513514d
+registries:
+- entry: OMICS_19949
+  name: OMICtools
+- entry: gff2aplot
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btg334
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: implemented-in::perl
+- tag: interface::commandline
+- tag: interface::shell
+- tag: role::program
+- tag: scope::utility
+- tag: use::converting
+- tag: use::viewing
+- tag: works-with-format::plaintext
+- tag: works-with-format::postscript
+- tag: works-with::TODO
+- tag: works-with::image:vector
+popcon:
+- insts: 120
+  olde: 93
+  recent: 23
+  vote: 4

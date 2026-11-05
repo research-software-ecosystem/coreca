@@ -1,0 +1,78 @@
+{
+    "Author": "Veit Schwammle [aut, cre]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.2.0)"
+    ],
+    "Description": "Feature-based variance-sensitive clustering of omics data. Optimizes cluster assignment by taking into account individual feature variance. Includes several modules for statistical testing, clustering and enrichment analysis.",
+    "Imports": [
+        "DOSE",
+        "MultiAssayExperiment",
+        "clusterProfiler",
+        "grDevices",
+        "graphics",
+        "httr",
+        "limma",
+        "matrixStats",
+        "parallel",
+        "qvalue",
+        "shiny",
+        "stats"
+    ],
+    "License": "GPL-2",
+    "LinkingTo": [
+        "Rcpp"
+    ],
+    "MD5sum": "7ec83c3777459f80e8649ed7ba6a305b",
+    "Maintainer": "Veit Schwammle <veits@bmb.sdu.dk>",
+    "NeedsCompilation": "yes",
+    "Package": "vsclust",
+    "Rank": 1539,
+    "Rfiles": [
+        "vignettes/vsclust/inst/doc/Integrate_With_Bioconductor_Objects.R",
+        "vignettes/vsclust/inst/doc/Run_VSClust_Workflow.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "httr",
+        "knitr",
+        "magick",
+        "rmarkdown",
+        "testthat (>= 3.0.0)",
+        "yaml"
+    ],
+    "Title": "Feature-based variance-sensitive quantitative clustering",
+    "Version": "1.14.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Annotation",
+        "Clustering",
+        "DifferentialExpression",
+        "Metabolomics",
+        "PrincipalComponent",
+        "Proteomics",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "150",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "6357d6c",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/vsclust",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/vsclust_1.14.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/vsclust_1.14.0.tgz",
+    "source.ver": "src/contrib/vsclust_1.14.0.tar.gz",
+    "vignetteTitles": [
+        "VSClust on Bioconductor object",
+        "VSClust workflow"
+    ],
+    "vignettes": [
+        "vignettes/vsclust/inst/doc/Integrate_With_Bioconductor_Objects.html",
+        "vignettes/vsclust/inst/doc/Run_VSClust_Workflow.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/vsclust_1.14.0.zip"
+}

@@ -1,0 +1,57 @@
+about:
+  description: A toolset for deciphering and managing biological sequences.
+  home: https://bioconductor.org/packages/3.22/bioc/html/DECIPHER.html
+  license: GPL-3
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: Tools for curating, analyzing, and manipulating biological sequences
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:DECIPHER
+  parent_recipe:
+    name: bioconductor-decipher
+    path: recipes/bioconductor-decipher
+    version: 2.8.1
+package:
+  name: bioconductor-decipher
+  version: 3.6.0
+requirements:
+  build:
+  - null
+  - make
+  host:
+  - bioconductor-biostrings >=2.78.0,<2.79.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-xvector >=0.50.0,<0.51.0
+  - r-base
+  - r-dbi
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-biostrings >=2.78.0,<2.79.0
+  - bioconductor-iranges >=2.44.0,<2.45.0
+  - bioconductor-s4vectors >=0.48.0,<0.49.0
+  - bioconductor-xvector >=0.50.0,<0.51.0
+  - r-base
+  - r-dbi
+source:
+  md5: 67ee5063f5795782c21c15f4e38ad2eb
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/DECIPHER_3.6.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/DECIPHER/DECIPHER_3.6.0.tar.gz
+  - https://bioarchive.galaxyproject.org/DECIPHER_3.6.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-decipher/bioconductor-decipher_3.6.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('DECIPHER')"

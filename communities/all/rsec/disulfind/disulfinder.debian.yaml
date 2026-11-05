@@ -1,0 +1,27 @@
+package: disulfinder
+distribution: debian
+release: sid
+component: main
+version: 1.2.11
+source: disulfinder
+homepage: https://disulfind.dsi.unifi.it/
+license: unknown
+blend: debian-med
+description_md5: 5f70380c76687c70f279559ee87b7d0e
+registries:
+- entry: OMICS_04214
+  name: OMICtools
+- entry: SCR_016072
+  name: SciCrunch
+- entry: disulfind
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/nar/gkl266
+tags:
+- tag: role::program
+popcon:
+- insts: 120
+  olde: 93
+  recent: 23
+  vote: 4

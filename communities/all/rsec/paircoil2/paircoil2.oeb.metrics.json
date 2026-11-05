@@ -1,0 +1,180 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:paircoil2/cmd/groups.csail.mit.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 260,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 23,
+                                    "year": 2012
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bti797",
+                            "pmid": "16317077",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Paircoil2: improved prediction of coiled coils from sequence.",
+                            "year": 2005
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://cb.csail.mit.edu//paircoil2/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://cb.csail.mit.edu//paircoil2/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://groups.csail.mit.edu/cb/paircoil2/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/paircoil2",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://cb.csail.mit.edu//paircoil2/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://cb.csail.mit.edu//paircoil2/"
+                    },
+                    {
+                        "status": 301,
+                        "url": "https://groups.csail.mit.edu/cb/paircoil2/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

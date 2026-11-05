@@ -1,0 +1,90 @@
+{
+    "Archs": "x64",
+    "Author": "Lihua Julie Zhu, Michael Lawrence, Ankit Gupta, Hervé Pagès , Alper Kucukural, Manuel Garber, Scot A. Wolfe",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "BiocGenerics",
+        "GenomicRanges",
+        "R (>= 3.5.0)"
+    ],
+    "Description": "The package implements GUIDE-seq and PEtag-seq analysis workflow including functions for filtering UMI and reads with low coverage, obtaining unique insertion sites (proxy of cleavage sites), estimating the locations of the insertion sites, aka, peaks, merging estimated insertion sites from plus and minus strand, and performing off target search of the extended regions around insertion sites with mismatches and indels.",
+    "Imports": [
+        "BSgenome",
+        "Biostrings",
+        "CRISPRseek",
+        "ChIPpeakAnno",
+        "GenomeInfoDb",
+        "GenomicAlignments (>= 1.7.3)",
+        "GenomicFeatures",
+        "IRanges (>= 2.5.5)",
+        "Rsamtools",
+        "S4Vectors (>= 0.9.6)",
+        "data.table",
+        "dplyr",
+        "ggplot2",
+        "hash",
+        "limma",
+        "matrixStats",
+        "methods",
+        "multtest",
+        "openxlsx",
+        "parallel",
+        "patchwork",
+        "purrr",
+        "pwalign",
+        "rio",
+        "rlang",
+        "stringr",
+        "tidyr",
+        "tools"
+    ],
+    "License": "GPL (>= 2)",
+    "MD5sum": "e7eeb6f3c28cf4caca9954ed91e06177",
+    "Maintainer": "Lihua Julie Zhu <julie.zhu@umassmed.edu>",
+    "NeedsCompilation": "no",
+    "Package": "GUIDEseq",
+    "Rank": 420,
+    "Rfiles": [
+        "vignettes/GUIDEseq/inst/doc/GUIDEseq.R"
+    ],
+    "Suggests": [
+        "BSgenome.Hsapiens.UCSC.hg19",
+        "BSgenome.Hsapiens.UCSC.hg38",
+        "BiocStyle",
+        "RUnit",
+        "TxDb.Hsapiens.UCSC.hg19.knownGene",
+        "knitr",
+        "org.Hs.eg.db",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "GUIDE-seq and PEtag-seq analysis pipeline",
+    "Version": "1.42.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "CRISPR",
+        "GeneRegulation",
+        "ImmunoOncology",
+        "Sequencing",
+        "Software",
+        "WorkflowStep"
+    ],
+    "dependencyCount": "179",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "39caeff",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/GUIDEseq",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/GUIDEseq_1.42.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/GUIDEseq_1.42.0.tgz",
+    "source.ver": "src/contrib/GUIDEseq_1.42.0.tar.gz",
+    "vignetteTitles": [
+        "GUIDEseq Vignette"
+    ],
+    "vignettes": [
+        "vignettes/GUIDEseq/inst/doc/GUIDEseq.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/GUIDEseq_1.42.0.zip"
+}

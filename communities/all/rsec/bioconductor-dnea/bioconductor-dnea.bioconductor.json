@@ -1,0 +1,82 @@
+{
+    "Author": "Christopher Patsalis [cre, aut] (ORCID: <https://orcid.org/0009-0003-4585-0017>), Gayatri Iyer [aut], Alla Karnovsky [fnd] (NIH_GRANT: 1U01CA235487), George Michailidis [fnd] (NIH_GRANT: 1U01CA235487)",
+    "BugReports": "https://github.com/Karnovsky-Lab/DNEA/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.2)"
+    ],
+    "Description": "The DNEA R package is the latest implementation of the Differential Network Enrichment Analysis algorithm and is the successor to the Filigree Java-application described in Iyer et al. (2020). The package is designed to take as input an m x n expression matrix for some -omics modality (ie. metabolomics, lipidomics, proteomics, etc.) and jointly estimate the biological network associations of each condition using the DNEA algorithm described in Ma et al. (2019). This approach provides a framework for data-driven enrichment analysis across two experimental conditions that utilizes the underlying correlation structure of the data to determine feature-feature interactions.",
+    "Enhances": [
+        "massdataset"
+    ],
+    "Imports": [
+        "BiocParallel",
+        "Matrix",
+        "SummarizedExperiment",
+        "dplyr",
+        "gdata",
+        "glasso",
+        "igraph (>= 2.0.3)",
+        "janitor",
+        "methods",
+        "netgsa",
+        "stats",
+        "stringr",
+        "utils"
+    ],
+    "License": "MIT + file LICENSE",
+    "MD5sum": "bb3f8a96b9da2e9396788796cac22fcb",
+    "Maintainer": "Christopher Patsalis <chrispatsalis@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "DNEA",
+    "Rank": 2153,
+    "Rfiles": [
+        "vignettes/DNEA/inst/doc/DNEA.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "Hmisc",
+        "airway",
+        "ggplot2",
+        "kableExtra",
+        "knitr",
+        "pheatmap",
+        "rmarkdown",
+        "testthat (>= 3.0.0)",
+        "withr"
+    ],
+    "Title": "Differential Network Enrichment Analysis for Biological Data",
+    "URL": "https://github.com/Karnovsky-Lab/DNEA",
+    "Version": "1.2.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Clustering",
+        "DataImport",
+        "DifferentialExpression",
+        "Lipidomics",
+        "Metabolomics",
+        "Network",
+        "NetworkEnrichment",
+        "Proteomics",
+        "Software"
+    ],
+    "dependencyCount": "129",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "e3a9713",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/DNEA",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/DNEA_1.2.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/DNEA_1.2.0.tgz",
+    "source.ver": "src/contrib/DNEA_1.2.0.tar.gz",
+    "vignetteTitles": [
+        "DNEA"
+    ],
+    "vignettes": [
+        "vignettes/DNEA/inst/doc/DNEA.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/DNEA_1.2.0.zip"
+}

@@ -1,0 +1,29 @@
+package: garlic
+distribution: debian
+release: sid
+component: main
+version: '1.6'
+source: garlic
+homepage: http://www.zucic.org/garlic/
+license: unknown
+blend: debian-med
+description_md5: 9a8e5d3dc375d53b824110c22a526364
+registries:
+- entry: OMICS_21303
+  name: OMICtools
+- entry: Garlic
+  name: bio.tools
+tags:
+- tag: field::biology
+- tag: field::chemistry
+- tag: interface::x11
+- tag: role::program
+- tag: scope::utility
+- tag: uitoolkit::xlib
+- tag: use::viewing
+- tag: x11::application
+popcon:
+- insts: 414
+  olde: 370
+  recent: 24
+  vote: 20

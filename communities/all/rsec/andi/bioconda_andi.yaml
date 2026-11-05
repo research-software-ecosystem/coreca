@@ -1,0 +1,37 @@
+about:
+  home: https://github.com/evolbioinf/andi/
+  license: GPL-3.0-or-later
+  license_family: GPL
+  license_file: COPYING
+  summary: Efficient Estimation of Evolutionary Distances
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  identifiers:
+  - biotools:andi
+  - doi:10.1093/bioinformatics/btu815
+package:
+  name: andi
+  version: '1.15'
+requirements:
+  build:
+  - make
+  - null
+  host:
+  - libdivsufsort
+  - gsl
+  - openblas
+  - mkl
+  run:
+  - libdivsufsort
+  - gsl
+  - openblas
+  - mkl
+source:
+  sha256: ac879545c063992e1e76bf0c088152c9e59ee5b9f32d2b3d1b4bcf4d1b075f22
+  url: https://github.com/EvolBioInf/andi/releases/download/v1.15/andi-1.15.tar.gz
+test:
+  commands:
+  - andi -h

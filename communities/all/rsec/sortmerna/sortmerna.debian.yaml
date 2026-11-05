@@ -1,0 +1,27 @@
+package: sortmerna
+distribution: debian
+release: sid
+component: main
+version: 4.3.7
+source: sortmerna
+homepage: https://github.com/sortmerna/sortmerna
+license: unknown
+blend: debian-med
+description_md5: 785b2b1a824d6d755aab646a5806eba7
+registries:
+- entry: OMICS_02619
+  name: OMICtools
+- entry: SCR_014402
+  name: SciCrunch
+- entry: sortmerna
+  name: bio.tools
+- entry: sortmerna
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/bts611
+popcon:
+- insts: 117
+  olde: 89
+  recent: 23
+  vote: 5

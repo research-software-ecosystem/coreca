@@ -1,0 +1,111 @@
+{
+    "Author": "Cole Trapnell",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biobase",
+        "DDRTree (>= 0.1.4)",
+        "Matrix (>= 1.2-6)",
+        "R (>= 2.10.0)",
+        "VGAM (>= 1.0-6)",
+        "ggplot2 (>= 1.0.0)",
+        "methods"
+    ],
+    "Description": "Monocle performs differential expression and time-series analysis for single-cell expression experiments. It orders individual cells according to progress through a biological process, without knowing ahead of time which genes define progress through that process. Monocle also performs differential expression analysis, clustering, visualization, and other useful tasks on single cell expression data.  It is designed to work with RNA-Seq and qPCR data, but could be used with other types as well.",
+    "Imports": [
+        "BiocGenerics",
+        "HSMMSingleCell (>= 0.101.5)",
+        "MASS",
+        "RANN(>= 2.5)",
+        "Rcpp (>= 0.12.0)",
+        "Rtsne",
+        "biocViews",
+        "cluster",
+        "combinat",
+        "dplyr",
+        "fastICA",
+        "grid",
+        "igraph (>= 1.0.1)",
+        "irlba (>= 2.0.0)",
+        "leidenbase (>= 0.1.9)",
+        "limma",
+        "matrixStats",
+        "parallel",
+        "pheatmap",
+        "plyr",
+        "proxy",
+        "reshape2",
+        "slam",
+        "stats",
+        "stringr",
+        "tibble",
+        "viridis"
+    ],
+    "License": "Artistic-2.0",
+    "LinkingTo": [
+        "Rcpp"
+    ],
+    "MD5sum": "ed0dcfe116008d5edcfe457d1f5365b9",
+    "Maintainer": "Cole Trapnell <coletrap@uw.edu>",
+    "NeedsCompilation": "yes",
+    "Package": "monocle",
+    "Rank": 130,
+    "Rfiles": [
+        "vignettes/monocle/inst/doc/monocle-vignette.R"
+    ],
+    "Suggests": [
+        "Hmisc",
+        "Seurat",
+        "destiny",
+        "knitr",
+        "scater",
+        "testthat"
+    ],
+    "Title": "Clustering, differential expression, and trajectory analysis for single- cell RNA-Seq",
+    "Version": "2.40.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Clustering",
+        "DataImport",
+        "DataRepresentation",
+        "DifferentialExpression",
+        "GeneExpression",
+        "ImmunoOncology",
+        "Infrastructure",
+        "MultipleComparison",
+        "QualityControl",
+        "RNASeq",
+        "Sequencing",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "74",
+    "dependsOnMe": [
+        "cicero"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "2ff88ee",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/monocle",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "uSORT"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/monocle_2.40.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/monocle_2.40.0.tgz",
+    "source.ver": "src/contrib/monocle_2.40.0.tar.gz",
+    "suggestsMe": [
+        "ClusterGVis",
+        "Seurat",
+        "sincell"
+    ],
+    "vignetteTitles": [
+        "Monocle: Cell counting, differential expression, and trajectory analysis for single-cell RNA-Seq experiments"
+    ],
+    "vignettes": [
+        "vignettes/monocle/inst/doc/monocle-vignette.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/monocle_2.40.0.zip"
+}

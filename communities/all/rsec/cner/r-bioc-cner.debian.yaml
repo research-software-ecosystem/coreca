@@ -1,0 +1,22 @@
+package: r-bioc-cner
+distribution: debian
+release: sid
+component: main
+version: 1.48.0
+source: r-bioc-cner
+homepage: https://bioconductor.org/packages/CNEr/
+license: unknown
+blend: debian-med
+description_md5: 7eb745510870e4e5f5cabb41a8e73fdc
+registries:
+- entry: OMICS_33013
+  name: OMICtools
+- entry: cner
+  name: bio.tools
+- entry: cner
+  name: conda:bioconda
+popcon:
+- insts: 123
+  olde: 93
+  recent: 25
+  vote: 5

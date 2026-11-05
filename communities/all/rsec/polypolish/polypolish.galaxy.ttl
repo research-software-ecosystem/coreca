@@ -1,0 +1,61 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix bioschemas: <http://bioschemas.org/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix galaxytool: <https://github.com/galaxyproject/tools-iuc/tree/master/tools/> .
+@prefix schema1: <http://schema.org/> .
+
+galaxytool:polypolish a schema1:SoftwareApplication ;
+    bioschemas:output "fasta",
+        "tabular",
+        "txt" ;
+    schema1:applicationSubCategory edam:data_0925,
+        edam:operation_0310,
+        edam:operation_2429,
+        edam:topic_0102,
+        edam:topic_0157,
+        edam:topic_0196 ;
+    schema1:codeRepository <https://github.com/rrwick/Polypolish> ;
+    schema1:dateCreated "2022-09-22" ;
+    schema1:description "Polish genome assemblies using short-read alignments" ;
+    schema1:encodingFormat "fasta",
+        "tabular",
+        "txt" ;
+    schema1:featureList edam:operation_0523,
+        edam:operation_0525,
+        edam:operation_3195,
+        edam:operation_3198,
+        edam:operation_3440 ;
+    schema1:identifier biotools:Polypolish,
+        bioconda:polypolish ;
+    schema1:isPartOf <https://galaxy.mesocentre.uca.fr>,
+        <https://galaxytrakr.org>,
+        <https://usegalaxy.be>,
+        <https://usegalaxy.ca>,
+        <https://usegalaxy.cz>,
+        <https://usegalaxy.eu>,
+        <https://usegalaxy.eu/published/workflow?id=2c992e509aa5dd9d>,
+        <https://usegalaxy.fr>,
+        <https://usegalaxy.org.au>,
+        <https://workflowhub.eu/workflows/1613?version=2> ;
+    schema1:keywords "Sequence Analysis" ;
+    schema1:name "polypolish" ;
+    schema1:softwareVersion "0.7.1" ;
+    schema1:url <https://github.com/galaxyproject/tools-iuc/tree/main/tools/polypolish> .
+
+<https://galaxy.mesocentre.uca.fr> a schema1:WebSite .
+
+<https://galaxytrakr.org> a schema1:WebSite .
+
+<https://usegalaxy.be> a schema1:WebSite .
+
+<https://usegalaxy.ca> a schema1:WebSite .
+
+<https://usegalaxy.cz> a schema1:WebSite .
+
+<https://usegalaxy.eu> a schema1:WebSite .
+
+<https://usegalaxy.fr> a schema1:WebSite .
+
+<https://usegalaxy.org.au> a schema1:WebSite .
+

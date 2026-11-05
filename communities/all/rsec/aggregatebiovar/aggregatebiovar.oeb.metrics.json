@@ -1,0 +1,99 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:aggregatebiovar/lib/www.bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 17,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btab337",
+                            "pmcid": "PMC8504643",
+                            "pmid": "33970215",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Differential gene expression analysis for multi-subject single-cell RNA-sequencing studies with aggregateBioVar.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {}
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/aggregatebiovar",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

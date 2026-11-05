@@ -1,0 +1,65 @@
+{
+    "Author": "Sara Aibar, Gert Hulselmans, Stein Aerts. Laboratory of Computational Biology.  VIB-KU Leuven Center for Brain & Disease Research. Leuven, Belgium",
+    "BugReports": "https://github.com/aertslab/RcisTarget/issues",
+    "Depends": [
+        "R (>= 3.4)"
+    ],
+    "Description": "RcisTarget identifies transcription factor binding motifs (TFBS) over-represented on a gene list.  In a first step, RcisTarget selects DNA motifs that are significantly over-represented in the surroundings of the transcription start site (TSS) of the genes in the gene-set.  This is achieved by using a database that contains genome-wide cross-species rankings for each motif. The motifs that are then annotated to TFs and those that have a high Normalized Enrichment Score (NES) are retained.  Finally, for each motif and gene-set, RcisTarget predicts the candidate target genes (i.e. genes in the gene-set that are ranked above the leading edge).",
+    "Enhances": [
+        "doMC",
+        "doRNG"
+    ],
+    "Imports": [
+        "AUCell (>= 1.1.6)",
+        "BiocGenerics",
+        "GSEABase",
+        "GenomeInfoDb",
+        "GenomicRanges",
+        "R.utils",
+        "S4Vectors",
+        "SummarizedExperiment",
+        "arrow (>= 2.0.0)",
+        "data.table",
+        "dplyr",
+        "graphics",
+        "methods",
+        "stats",
+        "tibble",
+        "utils",
+        "zoo"
+    ],
+    "License": "GPL-3",
+    "Maintainer": "Gert Hulselmans <Gert.Hulselmans@kuleuven.be>",
+    "Package": "RcisTarget",
+    "PackageStatus": "Deprecated",
+    "Rank": 255,
+    "Suggests": [
+        "Biobase",
+        "BiocParallel",
+        "BiocStyle",
+        "DT",
+        "RcisTarget.hg19.motifDBs.cisbpOnly.500bp",
+        "doParallel",
+        "foreach",
+        "gplots",
+        "igraph",
+        "knitr",
+        "rmarkdown",
+        "rtracklayer",
+        "testthat",
+        "visNetwork"
+    ],
+    "Title": "RcisTarget Identify transcription factor binding motifs enriched on a list of genes or genomic regions",
+    "URL": "http://scenic.aertslab.org",
+    "Version": "1.32.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "GeneRegulation",
+        "GeneSetEnrichment",
+        "GeneTarget",
+        "MotifAnnotation",
+        "Software",
+        "Transcription",
+        "Transcriptomics"
+    ]
+}

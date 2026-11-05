@@ -1,0 +1,26 @@
+package: flye
+distribution: debian
+release: sid
+component: main
+version: 2.9.6
+source: flye
+homepage: https://github.com/fenderglass/Flye
+license: unknown
+blend: debian-med
+description_md5: 3db7e270dab8950024fe6cdcafb3a3bb
+registries:
+- entry: Flye
+  name: bio.tools
+- entry: flye
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1038/s41587-019-0072-8
+- key: doi
+  rank: 1
+  value: 10.1073/pnas.1604560113
+popcon:
+- insts: 115
+  olde: 87
+  recent: 22
+  vote: 6

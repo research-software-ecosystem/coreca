@@ -1,0 +1,98 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2018-06-21T08:37:35Z",
+    "biotoolsCURIE": "biotools:jmztab-m",
+    "biotoolsID": "jmztab-m",
+    "collectionID": [
+        "de.NBI"
+    ],
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "orcidid": "https://orcid.org/0000-0002-6540-6875",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "https://github.com/lifs-tools/jmzTab-m"
+        }
+    ],
+    "description": "Reference implementation for mzTab 2.0 for metabolomics",
+    "documentation": [
+        {
+            "type": [
+                "Installation instructions"
+            ],
+            "url": "https://github.com/lifs-tools/jmzTab-m/blob/master/README.adoc"
+        }
+    ],
+    "download": [
+        {
+            "type": "Software package",
+            "url": "https://github.com/lifs-tools/jmzTab-m/releases"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "elixirNode": [
+        "Germany"
+    ],
+    "homepage": "https://github.com/lifs-tools/jmzTab-m",
+    "lastUpdate": "2026-02-03T10:26:12.147063Z",
+    "license": "Apache-2.0",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://anaconda.org/bioconda/jmztab-m"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/lifs-tools/jmzTab-m"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "jmztab-m",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "de.NBI_Service_Team",
+    "publication": [
+        {
+            "doi": "10.1021/acs.analchem.9b01987",
+            "type": [
+                "Primary"
+            ],
+            "version": "1.0.4"
+        }
+    ],
+    "toolType": [
+        "Command-line tool",
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Metabolomics",
+            "uri": "http://edamontology.org/topic_3172"
+        },
+        {
+            "term": "Ontology and terminology",
+            "uri": "http://edamontology.org/topic_0089"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "0.9.6",
+        "1.0.1",
+        "1.0.2",
+        "1.0.4",
+        "1.0.5",
+        "1.0.6"
+    ]
+}

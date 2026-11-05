@@ -1,0 +1,57 @@
+{
+    "Archs": "x64",
+    "Author": "Fabienne Jabot-Hanin, Hugo Varet and Jean-Philippe Jais",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.5.0)",
+        "methods"
+    ],
+    "Description": "Based on external numerous data files where rfPred scores are pre-calculated on all genomic positions of the human exome, the package gives rfPred scores to missense variants identified by the chromosome, the position (hg19 version), the referent and alternative nucleotids and the uniprot identifier of the protein. Note that for using the package, the user has to download the TabixFile and index (approximately 3.3 Go).",
+    "Imports": [
+        "GenomicRanges",
+        "IRanges",
+        "Rsamtools",
+        "Seqinfo",
+        "data.table",
+        "parallel",
+        "utils"
+    ],
+    "License": "GPL (>=2 )",
+    "MD5sum": "7dd37b160f4bc9e46ae2dbc34dd41f91",
+    "Maintainer": "Hugo Varet <varethugo@gmail.com>",
+    "NeedsCompilation": "yes",
+    "Package": "rfPred",
+    "Rank": 801,
+    "Rfiles": [
+        "vignettes/rfPred/inst/doc/vignette.R"
+    ],
+    "Suggests": [
+        "BiocStyle"
+    ],
+    "Title": "Assign rfPred functional prediction scores to a missense variants list",
+    "Version": "1.50.0",
+    "biocViews": [
+        "Annotation",
+        "Classification",
+        "Software"
+    ],
+    "dependencyCount": "30",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "8ef11e9",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/rfPred",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/rfPred_1.50.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/rfPred_1.50.0.tgz",
+    "source.ver": "src/contrib/rfPred_1.50.0.tar.gz",
+    "vignetteTitles": [
+        "CalculatingrfPredscoreswithpackagerfPred"
+    ],
+    "vignettes": [
+        "vignettes/rfPred/inst/doc/vignette.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/rfPred_1.50.0.zip"
+}

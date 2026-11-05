@@ -1,0 +1,241 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0002-7359-0633",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://bio.tools/multifacetedprotdb",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": [
+        {
+          "@id": "https://orcid.org/0000-0002-0274-5669"
+        },
+        "Elisa Bertolini",
+        "Giulia Babbi",
+        "Rita Casadio"
+      ],
+      "bsc:input": [
+        {
+          "@id": "_:N4de597a3f17b4776b9da79d5ca2e8a0f"
+        },
+        {
+          "@id": "_:N3ff81ca3d2f74d39bf5c6f303d439b5b"
+        },
+        {
+          "@id": "_:Nf325b6139d16461e969f8b9f97de2ba8"
+        },
+        {
+          "@id": "_:N01a46fdb7ab549c79be78b62c78e0684"
+        },
+        {
+          "@id": "_:N5935eb51bde04d2d8cc7623b4e48223d"
+        },
+        {
+          "@id": "_:Nd4db9468c8d04fd38ed65b17540cc7c1"
+        },
+        {
+          "@id": "_:N8584959e14e14838bf953371ed897074"
+        },
+        {
+          "@id": "_:N4a20dd74dfc64d9d9924d6d55ef26e9a"
+        },
+        {
+          "@id": "_:N8863b0131be44e7d97f03da5d494b1c2"
+        },
+        {
+          "@id": "_:Nf57cfe979a804aa386823b5fe05cfaec"
+        },
+        {
+          "@id": "_:N012949324ba64605b61c2f5e722d02f0"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N350f1037ef104a7e88ffad0ca55f28b3"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_1775"
+      },
+      "sc:author": [
+        {
+          "@id": "https://orcid.org/0000-0002-7359-0633"
+        },
+        "Elisa Bertolini",
+        "Giulia Babbi"
+      ],
+      "sc:citation": [
+        "pubmed:37791887",
+        "pmcid:PMC10767882",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkad783"
+        }
+      ],
+      "sc:description": "MultifacetedProtDB is an integrated and manually curated database providing a comprehensive collection of multifunctional UniProt/SwissProt human proteins.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "CC-BY-NC-4.0",
+      "sc:name": "MultifacetedProtDB",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "ELIXIR-ITA-BOLOGNA",
+      "sc:softwareHelp": {
+        "@id": "https://multifacetedprotdb.biocomp.unibo.it/faqs/"
+      },
+      "sc:url": "https://multifacetedprotdb.biocomp.unibo.it/"
+    },
+    {
+      "@id": "_:N4de597a3f17b4776b9da79d5ca2e8a0f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2892"
+      },
+      "sc:name": "Cell type name"
+    },
+    {
+      "@id": "_:N3ff81ca3d2f74d39bf5c6f303d439b5b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3667"
+      },
+      "sc:name": "Disease identifier"
+    },
+    {
+      "@id": "_:Nf325b6139d16461e969f8b9f97de2ba8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3668"
+      },
+      "sc:name": "Disease name"
+    },
+    {
+      "@id": "_:N01a46fdb7ab549c79be78b62c78e0684",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1011"
+      },
+      "sc:name": "EC number"
+    },
+    {
+      "@id": "_:N5935eb51bde04d2d8cc7623b4e48223d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1176"
+      },
+      "sc:name": "GO concept ID"
+    },
+    {
+      "@id": "_:Nd4db9468c8d04fd38ed65b17540cc7c1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2299"
+      },
+      "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:N8584959e14e14838bf953371ed897074",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1133"
+      },
+      "sc:name": "InterPro accession"
+    },
+    {
+      "@id": "_:N4a20dd74dfc64d9d9924d6d55ef26e9a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1155"
+      },
+      "sc:name": "Pathway ID (reactome)"
+    },
+    {
+      "@id": "_:N8863b0131be44e7d97f03da5d494b1c2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1138"
+      },
+      "sc:name": "Pfam accession number"
+    },
+    {
+      "@id": "_:Nf57cfe979a804aa386823b5fe05cfaec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1009"
+      },
+      "sc:name": "Protein name"
+    },
+    {
+      "@id": "_:N012949324ba64605b61c2f5e722d02f0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3021"
+      },
+      "sc:name": "UniProt accession"
+    },
+    {
+      "@id": "_:N350f1037ef104a7e88ffad0ca55f28b3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0896"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        }
+      ],
+      "sc:name": "Protein report"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0274-5669",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkad783",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

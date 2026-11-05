@@ -1,0 +1,71 @@
+{
+    "additionDate": "2020-01-14T09:23:20Z",
+    "biotoolsCURIE": "biotools:enhanceratlas",
+    "biotoolsID": "enhanceratlas",
+    "description": "An updated resource with enhancer annotation in 586 tissue/cell types across nine species.\n\nan updated resource with typical enhancer annotation in 600 tissue/cell types across nine species.",
+    "editPermission": {
+        "type": "public"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Database search",
+                    "uri": "http://edamontology.org/operation_2421"
+                },
+                {
+                    "term": "Peak calling",
+                    "uri": "http://edamontology.org/operation_3222"
+                },
+                {
+                    "term": "Standardisation and normalisation",
+                    "uri": "http://edamontology.org/operation_3435"
+                },
+                {
+                    "term": "Transcriptional regulatory element prediction",
+                    "uri": "http://edamontology.org/operation_0438"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.enhanceratlas.org/",
+    "lastUpdate": "2026-08-01T10:35:21.865570Z",
+    "name": "EnhancerAtlas",
+    "owner": "Kigaard",
+    "publication": [
+        {
+            "doi": "10.1093/nar/gkz980",
+            "pmcid": "PMC7145677",
+            "pmid": "31740966"
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Cell biology",
+            "uri": "http://edamontology.org/topic_2229"
+        },
+        {
+            "term": "Epigenomics",
+            "uri": "http://edamontology.org/topic_3173"
+        },
+        {
+            "term": "Gene transcripts",
+            "uri": "http://edamontology.org/topic_3512"
+        },
+        {
+            "term": "Sequencing",
+            "uri": "http://edamontology.org/topic_3168"
+        },
+        {
+            "term": "Transcription factors and regulatory sites",
+            "uri": "http://edamontology.org/topic_0749"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "2.0"
+    ]
+}

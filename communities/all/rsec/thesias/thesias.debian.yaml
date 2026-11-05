@@ -1,0 +1,33 @@
+package: thesias
+distribution: debian
+release: sid
+component: main
+version: 3.1.1
+source: thesias
+homepage: https://github.com/daissi/thesias
+license: unknown
+blend: debian-med
+description_md5: a4f2cac99b178853c0f33970c1a3c93c
+registries:
+- entry: OMICS_19747
+  name: OMICtools
+- entry: SCR_013449
+  name: SciCrunch
+- entry: THESIAS
+  name: bio.tools
+- entry: thesias
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btm058
+- key: doi
+  rank: 1
+  value: 10.1038/sj.ejhg.5201238
+- key: doi
+  rank: 2
+  value: 10.1093/hmg/11.17.2015
+popcon:
+- insts: 111
+  olde: 84
+  recent: 23
+  vote: 4

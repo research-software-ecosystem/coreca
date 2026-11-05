@@ -1,0 +1,83 @@
+{
+    "Author": "Leo Lahti [aut, cre] (ORCID: <https://orcid.org/0000-0001-5537-637X>), Sudarshan Shetty [aut] (ORCID: <https://orcid.org/0000-0001-7280-9915>)",
+    "BugReports": "https://github.com/microbiome/microbiome/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.6.0)",
+        "ggplot2",
+        "phyloseq"
+    ],
+    "Description": "Utilities for microbiome analysis.",
+    "Imports": [
+        "Biostrings",
+        "Rtsne",
+        "compositions",
+        "dplyr",
+        "reshape2",
+        "scales",
+        "stats",
+        "tibble",
+        "tidyr",
+        "utils",
+        "vegan"
+    ],
+    "License": "BSD_2_clause + file LICENSE",
+    "MD5sum": "aa29c1b7bcf5e4e211acd89d8d24c6e2",
+    "Maintainer": "Leo Lahti <leo.lahti@iki.fi>",
+    "NeedsCompilation": "no",
+    "Package": "microbiome",
+    "Rank": 165,
+    "Rfiles": [
+        "vignettes/microbiome/inst/doc/vignette.R"
+    ],
+    "Suggests": [
+        "BiocGenerics",
+        "BiocStyle",
+        "Cairo",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Microbiome Analytics",
+    "URL": "http://microbiome.github.io/microbiome",
+    "Version": "1.34.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Metagenomics",
+        "Microbiome",
+        "Sequencing",
+        "Software",
+        "SystemsBiology"
+    ],
+    "dependencyCount": "80",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "44a9416",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/microbiome",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "DspikeIn",
+        "MicrobiomeSurv",
+        "benchdamic"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/microbiome_1.34.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/microbiome_1.34.0.tgz",
+    "source.ver": "src/contrib/microbiome_1.34.0.tar.gz",
+    "suggestsMe": [
+        "ANCOMBC",
+        "CrcBiomeScreen",
+        "MeLSI",
+        "dar",
+        "zitools"
+    ],
+    "vignetteTitles": [
+        "microbiome R package"
+    ],
+    "vignettes": [
+        "vignettes/microbiome/inst/doc/vignette.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/microbiome_1.34.0.zip"
+}

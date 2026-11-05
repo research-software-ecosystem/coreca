@@ -1,0 +1,167 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:evitta/suite/tau.cmmt.ubc.ca",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 66,
+                            "citations": [
+                                {
+                                    "count": 9,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2024
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkab366",
+                            "pmcid": "PMC8218201",
+                            "pmid": "34019643",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "eVITTA: a web-based visualization and inference toolbox for transcriptome analysis.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:evitta/web/tau.cmmt.ubc.ca",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 66,
+                            "citations": [
+                                {
+                                    "count": 9,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2024
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkab366",
+                            "pmcid": "PMC8218201",
+                            "pmid": "34019643",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "eVITTA: a web-based visualization and inference toolbox for transcriptome analysis.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/evitta",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

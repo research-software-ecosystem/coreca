@@ -1,0 +1,70 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2023-04-20T14:28:02.353577Z",
+    "biotoolsCURIE": "biotools:foldcomp",
+    "biotoolsID": "foldcomp",
+    "confidence_flag": "tool",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "martin.steinegger@snu.ac.kr",
+            "name": "Martin Steinegger",
+            "typeEntity": "Person"
+        }
+    ],
+    "description": "A library and format for compressing and indexing large protein structure sets.",
+    "editPermission": {
+        "type": "public"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Protein geometry calculation",
+                    "uri": "http://edamontology.org/operation_0249"
+                },
+                {
+                    "term": "Query and retrieval",
+                    "uri": "http://edamontology.org/operation_0224"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://foldcomp.foldseek.com",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2026-02-11T06:23:47.889831Z",
+    "license": "MIT",
+    "name": "Foldcomp",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "Chan019",
+    "publication": [
+        {
+            "doi": "10.1093/bioinformatics/btad153",
+            "pmcid": "PMC10085514",
+            "pmid": "36961332"
+        }
+    ],
+    "toolType": [
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Database management",
+            "uri": "http://edamontology.org/topic_3489"
+        },
+        {
+            "term": "Protein structure analysis",
+            "uri": "http://edamontology.org/topic_2814"
+        },
+        {
+            "term": "Structure prediction",
+            "uri": "http://edamontology.org/topic_0082"
+        }
+    ]
+}

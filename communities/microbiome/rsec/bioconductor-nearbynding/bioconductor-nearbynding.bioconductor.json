@@ -1,0 +1,74 @@
+{
+    "Author": "Veronica Busa [cre]",
+    "Date/Publication": "2025-11-04",
+    "Depends": [
+        "R (>= 4.0)"
+    ],
+    "Description": "Provides a pipeline to discern RNA structure at and proximal to the site of protein binding within regions of the transcriptome defined by the user. CLIP protein-binding data can be input as either aligned BAM or peak-called bedGraph files. RNA structure can either be predicted internally from sequence or users have the option to input their own RNA structure data. RNA structure binding profiles can be visually and quantitatively compared across multiple formats.",
+    "Imports": [
+        "BiocGenerics",
+        "GenomicRanges",
+        "R.utils",
+        "Rsamtools",
+        "S4Vectors",
+        "Seqinfo",
+        "TxDb.Hsapiens.UCSC.hg19.knownGene",
+        "TxDb.Hsapiens.UCSC.hg38.knownGene",
+        "dplyr",
+        "ggplot2",
+        "gplots",
+        "grDevices",
+        "graphics",
+        "magrittr",
+        "matrixStats",
+        "methods",
+        "plyranges",
+        "rlang",
+        "rtracklayer",
+        "stats",
+        "transport",
+        "utils"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "00beb9ed7bfbd66da8b239ad00f67008",
+    "Maintainer": "Veronica Busa <vbusa1@jhmi.edu>",
+    "NeedsCompilation": "no",
+    "Package": "nearBynding",
+    "Rank": 2202,
+    "Rfiles": [
+        "vignettes/nearBynding/inst/doc/nearBynding.R"
+    ],
+    "Suggests": [
+        "knitr",
+        "rmarkdown"
+    ],
+    "SystemRequirements": "bedtools (>= 2.28.0), Stereogene (>= v2.22), CapR (>= 1.1.1)",
+    "Title": "Discern RNA structure proximal to protein binding",
+    "Version": "1.21.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Clustering",
+        "DataRepresentation",
+        "MotifDiscovery",
+        "MultipleComparison",
+        "Software",
+        "StructuralPrediction",
+        "Visualization"
+    ],
+    "dependencyCount": "105",
+    "git_branch": "devel",
+    "git_last_commit": "b814dff",
+    "git_last_commit_date": "2025-10-29",
+    "git_url": "https://git.bioconductor.org/packages/nearBynding",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "source.ver": "src/contrib/nearBynding_1.21.0.tar.gz",
+    "vignetteTitles": [
+        "nearBynding Vignette"
+    ],
+    "vignettes": [
+        "vignettes/nearBynding/inst/doc/nearBynding.pdf"
+    ]
+}

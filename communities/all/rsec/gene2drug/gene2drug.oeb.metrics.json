@@ -1,0 +1,209 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gene2drug/lib/gene2drug.tigem.it",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 47,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2024
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx800",
+                            "pmid": "29236977",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "gene2drug: a computational tool for pathway-based rational drug repositioning.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://gene2drug.tigem.it/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gene2drug/web/gene2drug.tigem.it",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 47,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2024
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btx800",
+                            "pmid": "29236977",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "gene2drug: a computational tool for pathway-based rational drug repositioning.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://gene2drug.tigem.it/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/gene2drug",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://gene2drug.tigem.it/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

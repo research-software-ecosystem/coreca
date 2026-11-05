@@ -1,0 +1,42 @@
+about:
+  dev_url: https://github.com/bactopia/bactopia-gather/
+  home: https://bactopia.github.io/
+  license: MIT
+  license_file: LICENSE
+  summary: The methods used in Bactopia to gather all samples into one place
+build:
+  noarch: generic
+  number: 0
+  run_exports:
+  - null
+extra:
+  identifiers:
+  - biotools:bactopia
+  - doi:10.1128/mSystems.00190-20
+  recipe-maintainers:
+  - rpetit3
+package:
+  name: bactopia-gather
+  version: 1.2.0
+requirements:
+  run:
+  - bactopia-py >=2.2.0
+  - art >=2016.06.05
+  - bbmap >=39.01
+  - coreutils
+  - fastq-dl >=4.0.1
+  - fastq-scan >=1.0.1
+  - genome-dl >=1.0.0
+  - gsl 2.6
+  - mash >=2.3
+  - rename
+  - pigz
+  - python <3.13
+  - sed
+source:
+  sha256: b2fbf805c811d4da6e527dd8249a68b9c26094511afd3414fa4cc3b7d10f627e
+  url: https://github.com/bactopia/bactopia-gather/archive/v1.2.0.tar.gz
+test:
+  commands:
+  - bactopia-gather --version
+  - bactopia-gather

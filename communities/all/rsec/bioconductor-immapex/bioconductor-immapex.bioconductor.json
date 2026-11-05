@@ -1,0 +1,86 @@
+{
+    "Author": "Nick Borcherding [aut, cre, cph], Qile Yang [ctb] (ORCID: <https://orcid.org/0009-0005-0148-2499>)",
+    "BugReports": "https://github.com/BorchLab/immApex/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.3.0)"
+    ],
+    "Description": "A set of tools to for machine and deep learning in R from amino acid and nucleotide sequences focusing on adaptive immune receptors. The package includes pre-processing of sequences, unifying gene nomenclature usage, encoding sequences, and combining models. This package will serve as the basis of future immune receptor sequence functions/packages/models compatible with the scRepertoire ecosystem.",
+    "Imports": [
+        "Matrix",
+        "Rcpp",
+        "SingleCellExperiment",
+        "immReferent",
+        "matrixStats",
+        "methods",
+        "stats",
+        "stringr",
+        "utils"
+    ],
+    "License": "MIT + file LICENSE",
+    "LinkingTo": [
+        "Rcpp"
+    ],
+    "MD5sum": "1ee4a87bc0162ebf1697d0e7f9c2455a",
+    "Maintainer": "Nick Borcherding <ncborch@gmail.com>",
+    "NeedsCompilation": "yes",
+    "Package": "immApex",
+    "Rank": 591,
+    "Rfiles": [
+        "vignettes/immApex/inst/doc/immApex.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "Peptides",
+        "dplyr",
+        "ggplot2",
+        "ggraph",
+        "igraph",
+        "knitr",
+        "markdown",
+        "randomForest",
+        "rmarkdown",
+        "scRepertoire",
+        "spelling",
+        "testthat",
+        "tidygraph",
+        "viridis"
+    ],
+    "Title": "Tools for Adaptive Immune Receptor Sequence-Based Machine and Deep Learning",
+    "URL": "https://github.com/BorchLab/immApex/",
+    "Version": "1.6.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Annotation",
+        "Classification",
+        "ImmunoOncology",
+        "MotifAnnotation",
+        "Sequencing",
+        "SingleCell",
+        "Software"
+    ],
+    "dependencyCount": "54",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "880d138",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/immApex",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "Ibex",
+        "immLynx",
+        "scRepertoire"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/immApex_1.6.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/immApex_1.6.0.tgz",
+    "source.ver": "src/contrib/immApex_1.6.0.tar.gz",
+    "vignetteTitles": [
+        "Machine and Deep Learning Models with immApex"
+    ],
+    "vignettes": [
+        "vignettes/immApex/inst/doc/immApex.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/immApex_1.6.0.zip"
+}

@@ -1,0 +1,145 @@
+{
+    "additionDate": "2025-05-22T17:46:59.585364Z",
+    "biotoolsCURIE": "biotools:mainzelliste",
+    "biotoolsID": "mainzelliste",
+    "collectionID": [
+        "EUCAIM",
+        "Samply",
+        "eucaim"
+    ],
+    "cost": "Free of charge",
+    "description": "Mainzelliste is a web-based first-level pseudonymization service. It allows for the creation of personal identifiers (PID) from identifying attributes (IDAT), and thanks to the record linkage functionality, this is even possible with poor quality identifying data. The functions are available through a RESTful web interface. Mainzelliste also includes built-in consent management and supports FHIR APIs.",
+    "documentation": [
+        {
+            "type": [
+                "API documentation"
+            ],
+            "url": "https://drive.eucaim.cancerimage.eu/s/K84ykkt58Ze4eme"
+        },
+        {
+            "type": [
+                "API documentation"
+            ],
+            "url": "https://medicalinformatics.github.io/mainzelliste.de/api-doc/"
+        },
+        {
+            "type": [
+                "Installation instructions"
+            ],
+            "url": "https://bitbucket.org/medicalinformatics/mainzelliste/src/master/doc/configuration-handbook.md"
+        },
+        {
+            "type": [
+                "Installation instructions"
+            ],
+            "url": "https://bitbucket.org/medicalinformatics/mainzelliste/src/master/docker.md"
+        },
+        {
+            "type": [
+                "Installation instructions"
+            ],
+            "url": "https://drive.eucaim.cancerimage.eu/s/HWfZxafrzwZRMbg"
+        },
+        {
+            "type": [
+                "Installation instructions"
+            ],
+            "url": "https://drive.eucaim.cancerimage.eu/s/NCckRbAjYCj3ReR"
+        },
+        {
+            "type": [
+                "Installation instructions"
+            ],
+            "url": "https://drive.eucaim.cancerimage.eu/s/oxK6GtGg46tfRcc"
+        },
+        {
+            "type": [
+                "Quick start guide"
+            ],
+            "url": "https://bitbucket.org/medicalinformatics/mainzelliste/src/master/doc/getting-started.md"
+        },
+        {
+            "type": [
+                "Quick start guide"
+            ],
+            "url": "https://drive.eucaim.cancerimage.eu/s/8bW9YY4Lz9KaFb7"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "benamor",
+            "tkussel"
+        ],
+        "type": "group"
+    },
+    "homepage": "https://bitbucket.org/medicalinformatics/mainzelliste/",
+    "lastUpdate": "2025-12-10T14:03:09.546308Z",
+    "license": "AGPL-3.0",
+    "link": [
+        {
+            "type": [
+                "Other"
+            ],
+            "url": "https://docs.google.com/spreadsheets/d/1ipAPipeZa-3cBDFwQGn7kr07OsrhKSf_"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://bitbucket.org/medicalinformatics/mainzelliste"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/medicalinformatics/mainzelliste-gui/"
+        },
+        {
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "https://helmholtz.software/software/mainzelliste"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "Mainzelliste",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "enola",
+    "publication": [
+        {
+            "doi": "10.1186/s12911-014-0123-5",
+            "metadata": {
+                "citationCount": 76,
+                "date": "2015-02-07T00:00:00Z",
+                "journal": "BMC Medical Informatics and Decision Making",
+                "title": "A RESTful interface to pseudonymization services in modern web applications"
+            },
+            "pmcid": "PMC4350982",
+            "pmid": "25656224",
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Web API",
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Data identity and mapping",
+            "uri": "http://edamontology.org/topic_3345"
+        },
+        {
+            "term": "Data protection",
+            "uri": "http://edamontology.org/topic_4044"
+        }
+    ],
+    "version": [
+        "v1.13.7"
+    ]
+}

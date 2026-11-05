@@ -1,0 +1,727 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:kegg/web/www.genome.ad.jp",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "api": true,
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 232,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2009
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkn282",
+                            "pmcid": "PMC2447737",
+                            "pmid": "18477636",
+                            "ref_count": 8,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2007
+                                }
+                            ],
+                            "title": "KEGG Atlas mapping for global analysis of metabolic pathways.",
+                            "year": 2008
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2288,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 3,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 210,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 240,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 271,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 316,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 440,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 806,
+                                    "year": 2022
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkaa970",
+                            "pmcid": "PMC7779016",
+                            "pmid": "33125081",
+                            "ref_count": 10,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1971
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2019
+                                }
+                            ],
+                            "title": "KEGG: integrating viruses and cellular organisms.",
+                            "year": 2021
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2972,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 7,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 23,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 32,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 33,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 56,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 61,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 95,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 107,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 115,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 118,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 120,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 136,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 177,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 188,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 193,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 215,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 222,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 245,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 258,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 258,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 260,
+                                    "year": 2022
+                                }
+                            ],
+                            "doi": "10.1093/nar/27.1.29",
+                            "pmcid": "PMC148090",
+                            "pmid": "9847135",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "KEGG: Kyoto Encyclopedia of Genes and Genomes.",
+                            "year": 1999
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 3551,
+                            "citations": [
+                                {
+                                    "count": 7,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 121,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 291,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 417,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 512,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 577,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 689,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 925,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1002/pro.3715",
+                            "pmcid": "PMC6798127",
+                            "pmid": "31441146",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1982
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 1977
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2013
+                                }
+                            ],
+                            "title": "Toward understanding the origin and evolution of cellular organisms.",
+                            "year": 2019
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 22307,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 52,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 62,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 66,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 94,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 162,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 225,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 318,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 345,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 395,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 476,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 665,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 749,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 780,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 813,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 1009,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 1329,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 1902,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 1998,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 2412,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 2434,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 2640,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 3293,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/nar/28.1.27",
+                            "pmcid": "PMC102409",
+                            "pmid": "10592173",
+                            "ref_count": 5,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1998
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1999
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 1997
+                                }
+                            ],
+                            "title": "KEGG: kyoto encyclopedia of genes and genomes.",
+                            "year": 2000
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 672,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 2,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 22,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 24,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 28,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 28,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 31,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 34,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 37,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 39,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 45,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 46,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 49,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 57,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 66,
+                                    "year": 2020
+                                }
+                            ],
+                            "pmid": "12539951",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "The KEGG database.",
+                            "year": 2002
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": true,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.genome.jp/kegg/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/kegg",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": true,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.genome.jp/kegg/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

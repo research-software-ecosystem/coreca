@@ -1,0 +1,989 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:gibbs_motif_sampler/web/ccmbweb.ccv.brown.edu",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true,
+                "help": true,
+                "manual": true,
+                "tutorial": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 28,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2014
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkm265",
+                            "pmcid": "PMC1933196",
+                            "pmid": "17483517",
+                            "ref_count": 14,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1990
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1999
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2007
+                                }
+                            ],
+                            "title": "The Gibbs Centroid Sampler.",
+                            "year": 2007
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 41,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2008
+                                }
+                            ],
+                            "doi": "10.1101/gr.2589004",
+                            "pmcid": "PMC524421",
+                            "pmid": "15466295",
+                            "ref_count": 36,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1990
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1994
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1995
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1998
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1999
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 1993
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 1997
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2003
+                                }
+                            ],
+                            "title": "Decoding human regulatory circuits.",
+                            "year": 2004
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 117,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 1997
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 1996
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 1998
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2007
+                                }
+                            ],
+                            "doi": "10.1002/pro.5560040820",
+                            "pmcid": "PMC2143180",
+                            "pmid": "8520488",
+                            "ref_count": 43,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1970
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1981
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1984
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1986
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1987
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1988
+                                },
+                                {
+                                    "count": 2,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 1989
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 1990
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 1991
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 1992
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 1993
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 1994
+                                }
+                            ],
+                            "title": "Gibbs motif sampling: detection of bacterial outer membrane protein repeats.",
+                            "year": 1995
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 117,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2007
+                                }
+                            ],
+                            "doi": "10.1093/nar/29.3.774",
+                            "pmcid": "PMC30389",
+                            "pmid": "11160901",
+                            "ref_count": 24,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1989
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1993
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1995
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 1990
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 1994
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 1997
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 1999
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 1992
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 1998
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2000
+                                }
+                            ],
+                            "title": "Phylogenetic footprinting of transcription factor binding sites in proteobacterial genomes.",
+                            "year": 2001
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 120,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2007
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkg608",
+                            "pmcid": "PMC169014",
+                            "pmid": "12824370",
+                            "ref_count": 23,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1989
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1993
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1994
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1995
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1996
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1998
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1999
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 1990
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2000
+                                }
+                            ],
+                            "title": "Gibbs Recursive Sampler: finding transcription factor binding sites.",
+                            "year": 2003
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 196,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 22,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 23,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 24,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 26,
+                                    "year": 2004
+                                }
+                            ],
+                            "doi": "10.1038/79965",
+                            "pmid": "11017083",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Human-mouse genome comparisons to locate regulatory sites.",
+                            "year": 2000
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 438,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 4,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 1994
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 1995
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 1999
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 1998
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 1996
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 1997
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 21,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 23,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 23,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 23,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 26,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 32,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 32,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 33,
+                                    "year": 2007
+                                }
+                            ],
+                            "doi": "10.1126/science.8211139",
+                            "pmid": "8211139",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Detecting subtle sequence signals: a Gibbs sampling strategy for multiple alignment.",
+                            "year": 1993
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:gibbs_motif_sampler:1.20.0/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "packages": true,
+            "sourcecode": {}
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/gibbs_motif_sampler",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

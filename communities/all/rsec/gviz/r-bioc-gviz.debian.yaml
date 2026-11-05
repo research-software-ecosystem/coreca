@@ -1,0 +1,25 @@
+package: r-bioc-gviz
+distribution: debian
+release: sid
+component: main
+version: 1.56.0
+source: r-bioc-gviz
+homepage: https://bioconductor.org/packages/Gviz/
+license: unknown
+blend: debian-med
+description_md5: a1192a0bcb8465ef96fce24dbb9e40c0
+registries:
+- entry: OMICS_17191
+  name: OMICtools
+- entry: gviz
+  name: bio.tools
+- entry: bioconductor-gviz
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btp328
+popcon:
+- insts: 132
+  olde: 101
+  recent: 25
+  vote: 6

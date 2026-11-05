@@ -1,0 +1,43 @@
+{
+    "Author": "Yue Wang [aut, cre], Jia Meng [aut]",
+    "Depends": [
+        "R (>= 4.2.0)"
+    ],
+    "Description": "RgnTX allows the integration of transcriptome annotations so as to model the complex alternative splicing patterns. It supports the testing of transcriptome elements without clear isoform association, which is often the real scenario due to technical limitations. It involves functions that do permutaion test for evaluating association between features and transcriptome regions.",
+    "Imports": [
+        "GenomicFeatures",
+        "GenomicRanges",
+        "IRanges",
+        "S4Vectors",
+        "Seqinfo",
+        "TxDb.Hsapiens.UCSC.hg19.knownGene",
+        "ggplot2",
+        "graphics",
+        "methods",
+        "regioneR",
+        "stats"
+    ],
+    "License": "Artistic-2.0",
+    "Maintainer": "Yue Wang <yue.wang19@student.xjtlu.edu.cn>",
+    "Package": "RgnTX",
+    "PackageStatus": "Deprecated",
+    "Rank": 2406,
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "Colocalization analysis of transcriptome elements in the presence of isoform heterogeneity and ambiguity",
+    "Version": "1.14.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "AlternativeSplicing",
+        "MethylSeq",
+        "RNASeq",
+        "Sequencing",
+        "Software",
+        "SplicedAlignment",
+        "Transcription"
+    ]
+}

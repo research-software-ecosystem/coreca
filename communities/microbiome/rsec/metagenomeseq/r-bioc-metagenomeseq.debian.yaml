@@ -1,0 +1,22 @@
+package: r-bioc-metagenomeseq
+distribution: debian
+release: sid
+component: main
+version: 1.54.0
+source: r-bioc-metagenomeseq
+homepage: https://bioconductor.org/packages/metagenomeSeq/
+license: unknown
+blend: debian-med
+description_md5: 94464de5c2c71a4dfa0ee8df6ad57e97
+registries:
+- entry: OMICS_07813
+  name: OMICtools
+- entry: metagenomeseq
+  name: bio.tools
+- entry: metagenomeseq
+  name: conda:bioconda
+popcon:
+- insts: 125
+  olde: 95
+  recent: 25
+  vote: 5

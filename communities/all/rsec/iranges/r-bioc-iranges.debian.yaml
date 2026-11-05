@@ -1,0 +1,21 @@
+package: r-bioc-iranges
+distribution: debian
+release: sid
+component: main
+version: 2.46.0
+source: r-bioc-iranges
+homepage: https://bioconductor.org/packages/IRanges/
+license: unknown
+blend: debian-med
+description_md5: 4a38750a58afcb053f46ca840f6311c1
+registries:
+- entry: iranges
+  name: bio.tools
+- entry: bioconductor-iranges
+  name: conda:bioconda
+popcon:
+- insts: 1238
+  nofiles: 1
+  olde: 961
+  recent: 132
+  vote: 144

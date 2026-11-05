@@ -1,0 +1,25 @@
+package: bitseq
+distribution: debian
+release: sid
+component: main
+version: 0.7.5
+source: bitseq
+homepage: https://github.com/BitSeq/BitSeq
+license: unknown
+blend: debian-med
+description_md5: dd6aa18c8b254ecc1902ba90dfe7c413
+registries:
+- entry: OMICS_01269
+  name: OMICtools
+- entry: SCR_009904
+  name: SciCrunch
+- entry: bitseq
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btv483
+popcon:
+- insts: 113
+  olde: 84
+  recent: 23
+  vote: 6

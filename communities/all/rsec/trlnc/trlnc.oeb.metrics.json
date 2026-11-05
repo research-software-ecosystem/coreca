@@ -1,0 +1,101 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:trlnc/undefined/bio.licpathway.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 18,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2021
+                                }
+                            ],
+                            "doi": "10.1093/bib/bbaa011",
+                            "pmid": "32047897",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "TRlnc: a comprehensive database for human transcriptional regulatory information of lncRNAs.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bio.licpathway.net/TRlnc/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/trlnc",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://bio.licpathway.net/TRlnc/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

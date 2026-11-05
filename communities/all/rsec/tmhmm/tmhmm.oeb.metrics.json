@@ -1,0 +1,514 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:tmhmm:2.0/cmd/cbs.dtu.dk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6835,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 7,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 75,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 80,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 97,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 105,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 125,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 154,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 171,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 199,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 260,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 266,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 267,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 298,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 317,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 329,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 330,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 345,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 353,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 367,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 390,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 391,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 423,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 427,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 498,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 509,
+                                    "year": 2022
+                                }
+                            ],
+                            "doi": "10.1006/jmbi.2000.4315",
+                            "pmid": "11152613",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Predicting transmembrane protein topology with a hidden Markov model: application to complete genomes.",
+                            "year": 2001
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.cbs.dtu.dk/services/TMHMM/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:tmhmm:2.0/soap/cbs.dtu.dk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6835,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 7,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 75,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 80,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 97,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 105,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 125,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 154,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 171,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 199,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 260,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 266,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 267,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 298,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 317,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 329,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 330,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 345,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 353,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 367,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 390,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 391,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 423,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 427,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 498,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 509,
+                                    "year": 2022
+                                }
+                            ],
+                            "doi": "10.1006/jmbi.2000.4315",
+                            "pmid": "11152613",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Predicting transmembrane protein topology with a hidden Markov model: application to complete genomes.",
+                            "year": 2001
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.cbs.dtu.dk/services/TMHMM/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:tmhmm:2.0/web/cbs.dtu.dk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 6835,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 7,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 50,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 75,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 80,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 97,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 105,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 125,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 154,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 171,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 199,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 260,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 266,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 267,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 298,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 317,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 329,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 330,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 345,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 353,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 367,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 390,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 391,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 423,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 427,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 498,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 509,
+                                    "year": 2022
+                                }
+                            ],
+                            "doi": "10.1006/jmbi.2000.4315",
+                            "pmid": "11152613",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Predicting transmembrane protein topology with a hidden Markov model: application to complete genomes.",
+                            "year": 2001
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.cbs.dtu.dk/services/TMHMM/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/tmhmm",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 408,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "http://www.cbs.dtu.dk/services/TMHMM/"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

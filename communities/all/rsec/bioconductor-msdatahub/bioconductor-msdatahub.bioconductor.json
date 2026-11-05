@@ -1,0 +1,80 @@
+{
+    "Author": "Laurent Gatto [aut, cre] (ORCID: <https://orcid.org/0000-0002-1520-2268>), Kristina Gomoryova [ctb] (ORCID: <https://orcid.org/0000-0003-4407-3917>), Johannes Rainer [aut] (ORCID: <https://orcid.org/0000-0002-6977-7147>), Guillaume Deflandre [ctb] (ORCID: <https://orcid.org/0009-0008-1257-2416>)",
+    "BugReports": "https://github.com/RforMassSpectrometry/MsDataHub/issues",
+    "Date/Publication": "2026-08-12",
+    "Description": "The MsDataHub package uses the ExperimentHub infrastructure to distribute raw mass spectrometry data files, peptide spectrum matches or quantitative data from proteomics and metabolomics experiments.",
+    "Imports": [
+        "ExperimentHub",
+        "utils"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "72cf72480c643e9ab0d98b6f57854291",
+    "Maintainer": "Laurent Gatto <laurent.gatto@uclouvain.be>",
+    "NeedsCompilation": "no",
+    "Package": "MsDataHub",
+    "Rank": 1349,
+    "Rfiles": [
+        "vignettes/MsDataHub/inst/doc/MsDataHub.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "DT",
+        "ExperimentHubData",
+        "PSMatch",
+        "QFeatures (>= 1.13.3)",
+        "Spectra",
+        "knitr",
+        "mzR",
+        "rmarkdown",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "Mass Spectrometry Data on ExperimentHub",
+    "URL": "https://rformassspectrometry.github.io/MsDataHub",
+    "Version": "1.12.1",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "ExperimentHubSoftware",
+        "MassSpectrometry",
+        "Metabolomics",
+        "Proteomics",
+        "Software"
+    ],
+    "dependencyCount": "64",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "a7fdffa",
+    "git_last_commit_date": "2026-08-12",
+    "git_url": "https://git.bioconductor.org/packages/MsDataHub",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "MsQuality"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/MsDataHub_1.12.1.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/MsDataHub_1.12.1.tgz",
+    "source.ver": "src/contrib/MsDataHub_1.12.1.tar.gz",
+    "suggestsMe": [
+        "MSnbase",
+        "MetaboAnnotation",
+        "MetaboAnnotatoR",
+        "MsBackendSql",
+        "MsExperiment",
+        "PSMatch",
+        "QFeatures",
+        "Spectra",
+        "SpectraQL",
+        "SpectriPy",
+        "msqrob2",
+        "mzR",
+        "scp",
+        "xcms"
+    ],
+    "vignetteTitles": [
+        "Mass Spectrometry Data on ExperimentHub"
+    ],
+    "vignettes": [
+        "vignettes/MsDataHub/inst/doc/MsDataHub.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/MsDataHub_1.12.1.zip"
+}

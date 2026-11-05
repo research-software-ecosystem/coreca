@@ -1,0 +1,21 @@
+package: metastudent-data
+distribution: debian
+release: sid
+component: main
+version: 2.0.1
+source: metastudent-data
+homepage: https://rostlab.org/owiki/index.php/Metastudent
+license: unknown
+blend: debian-med
+description_md5: 3d66ac64bfbee617e168d06659791de9
+registries:
+- entry: OMICS_20187
+  name: OMICtools
+- entry: metastudent
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1186/1471-2105-14-S3-S7
+popcon:
+- insts: 115
+  nofiles: 115

@@ -1,0 +1,19 @@
+package: illustrate
+distribution: debian
+release: sid
+component: main
+version: 0.0+git20200923.217db48
+source: illustrate
+homepage: https://github.com/ccsb-scripps/Illustrate
+license: unknown
+blend: debian-med
+description_md5: 85ef72d6ce3b69231c84826c022faf74
+registries:
+- entry: Illustrate
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1016/0263-7855(92)80075-o
+popcon:
+- insts: 5
+  olde: 5

@@ -1,0 +1,78 @@
+{
+    "Author": "Andrea Franceschini <andrea.franceschini@isb-sib.ch>",
+    "Date/Publication": "2026-10-05",
+    "Depends": [
+        "R (>= 2.14.0)"
+    ],
+    "Description": "The STRINGdb package provides an R interface to STRING, a protein-protein interaction database and functional enrichment analysis tool (https://string-db.org).",
+    "Imports": [
+        "RColorBrewer",
+        "gplots",
+        "hash",
+        "httr",
+        "igraph",
+        "methods",
+        "plotrix",
+        "plyr",
+        "png",
+        "sqldf"
+    ],
+    "License": "GPL-2",
+    "MD5sum": "7ada6998456d199ddacd36125649209a",
+    "Maintainer": "Damian Szklarczyk <damian.szklarczyk@imls.uzh.ch>",
+    "NeedsCompilation": "no",
+    "Package": "STRINGdb",
+    "Rank": 135,
+    "Rfiles": [
+        "vignettes/STRINGdb/inst/doc/STRINGdb.R"
+    ],
+    "Suggests": [
+        "BiocGenerics",
+        "RUnit"
+    ],
+    "Title": "STRINGdb - Protein-Protein Interaction Networks and Functional Enrichment Analysis",
+    "Version": "2.24.1",
+    "biocViews": [
+        "Network",
+        "Software"
+    ],
+    "dependencyCount": "49",
+    "dependsOnMe": [
+        "PPInfer"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "5175a66",
+    "git_last_commit_date": "2026-09-29",
+    "git_url": "https://git.bioconductor.org/packages/STRINGdb",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "DeSciDe",
+        "GeDi",
+        "IMMAN",
+        "RITAN",
+        "XINA"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/STRINGdb_2.24.1.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/STRINGdb_2.24.1.tgz",
+    "source.ver": "src/contrib/STRINGdb_2.24.1.tar.gz",
+    "suggestsMe": [
+        "GeneNetworkBuilder",
+        "PCAN",
+        "TDbasedUFEadv",
+        "epiNEM",
+        "martini",
+        "netSmooth",
+        "protti",
+        "scGraphVerse"
+    ],
+    "vignetteTitles": [
+        "STRINGdb Vignette"
+    ],
+    "vignettes": [
+        "vignettes/STRINGdb/inst/doc/STRINGdb.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/STRINGdb_2.24.1.zip"
+}

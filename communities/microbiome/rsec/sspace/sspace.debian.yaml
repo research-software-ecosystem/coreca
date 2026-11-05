@@ -1,0 +1,27 @@
+package: sspace
+distribution: debian
+release: sid
+component: main
+version: 2.1.1
+source: sspace
+homepage: https://github.com/nsoranzo/sspace_basic
+license: unknown
+blend: debian-med
+description_md5: 06f04f25cd2bcad772ca2f11e3bf6cbb
+registries:
+- entry: OMICS_00050
+  name: OMICtools
+- entry: SCR_005056
+  name: SciCrunch
+- entry: sspace
+  name: bio.tools
+- entry: sspace
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btq683
+popcon:
+- insts: 114
+  olde: 86
+  recent: 23
+  vote: 5

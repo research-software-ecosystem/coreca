@@ -1,0 +1,155 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:pharmcat:1.6.0/workflow/pharmcat.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": false,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 27,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2019
+                                }
+                            ],
+                            "doi": "10.1002/cpt.928",
+                            "pmcid": "PMC5984125",
+                            "pmid": "29194583",
+                            "ref_count": 11,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2017
+                                }
+                            ],
+                            "title": "PharmCAT: A Pharmacogenomics Clinical Annotation Tool.",
+                            "year": 2017
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pharmcat.clinpgx.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {}
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/pharmcat",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://pharmcat.clinpgx.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

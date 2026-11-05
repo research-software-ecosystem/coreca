@@ -1,0 +1,208 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1126/science.298.5597.1333b",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/insdc",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "ENA Contact details",
+      "bsc:input": [
+        {
+          "@id": "_:Ncfa7b6f6f89e43cca3fb67501558baa5"
+        },
+        {
+          "@id": "_:N44cede4004474f2993992ab0132311d0"
+        },
+        {
+          "@id": "_:Nde73e04e86c144aebfdae95a31de4d50"
+        },
+        {
+          "@id": "_:Na8d956b779ba41029722f19d74131fad"
+        },
+        {
+          "@id": "_:Nd884160056e2431b8393b8b66e2eb4c1"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N965011ddce7a4a5b8e53198c43d6aac6"
+        },
+        {
+          "@id": "_:Nd8449bf1f26a4da3865806130b20e20f"
+        },
+        {
+          "@id": "_:Ne928aed8aeca4a03b11bce167a3c52b0"
+        },
+        {
+          "@id": "_:N7c251a74b1b7433db87a66805b19fb49"
+        },
+        {
+          "@id": "_:N76120b0a2c8a49c1a1e4ffab5a44532b"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0077"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:12436968",
+        {
+          "@id": "https://doi.org/10.1126/science.298.5597.1333b"
+        }
+      ],
+      "sc:description": "This database consists of a joint effort to collect and disseminate databases containing DNA and RNA sequences.  It is a long-standing foundational initiative that operates between DDBJ, EMBL-EBI and NCBI. It covers the spectrum of data raw reads, though alignments and assemblies to functional annotation, enriched with contextual information relating to samples and experimental configurations.",
+      "sc:featureList": {
+        "@id": "edam:operation_2422"
+      },
+      "sc:name": "Nucleotide Sequence Database Collaboration",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "Identifiers.org",
+      "sc:softwareHelp": {
+        "@id": "https://www.ebi.ac.uk/miriam/main/datatypes/MIR:00000029"
+      },
+      "sc:url": "http://identifiers.org/insdc/"
+    },
+    {
+      "@id": "_:Ncfa7b6f6f89e43cca3fb67501558baa5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1103"
+      },
+      "sc:name": "EMBL/GenBank/DDBJ ID"
+    },
+    {
+      "@id": "_:N44cede4004474f2993992ab0132311d0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1103"
+      },
+      "sc:name": "EMBL/GenBank/DDBJ ID"
+    },
+    {
+      "@id": "_:Nde73e04e86c144aebfdae95a31de4d50",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1103"
+      },
+      "sc:name": "EMBL/GenBank/DDBJ ID"
+    },
+    {
+      "@id": "_:Na8d956b779ba41029722f19d74131fad",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1103"
+      },
+      "sc:name": "EMBL/GenBank/DDBJ ID"
+    },
+    {
+      "@id": "_:Nd884160056e2431b8393b8b66e2eb4c1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1103"
+      },
+      "sc:name": "EMBL/GenBank/DDBJ ID"
+    },
+    {
+      "@id": "_:N965011ddce7a4a5b8e53198c43d6aac6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Nd8449bf1f26a4da3865806130b20e20f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:Ne928aed8aeca4a03b11bce167a3c52b0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N7c251a74b1b7433db87a66805b19fb49",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Nucleic acid sequence"
+    },
+    {
+      "@id": "_:N76120b0a2c8a49c1a1e4ffab5a44532b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2977"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Nucleic acid sequence"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+package: abyss
+distribution: debian
+release: sid
+component: main
+version: 2.3.10
+source: abyss
+homepage: https://github.com/bcgsc/abyss
+license: unknown
+blend: debian-med
+description_md5: 7c736de2ab206e6ade42c9f95ff44b4a
+topics:
+- Sequence assembly
+edam_scopes:
+- name: summary
+  function:
+  - Genome assembly
+  - De-novo assembly
+registries:
+- entry: OMICS_00006
+  name: OMICtools
+- entry: SCR_010709
+  name: SciCrunch
+- entry: ABySS
+  name: bio.tools
+- entry: abyss
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1101/gr.214346.116
+- key: doi
+  rank: 1
+  value: 10.1101/gr.089532.108
+tags:
+- tag: role::program
+popcon:
+- insts: 128
+  olde: 99
+  recent: 23
+  vote: 6

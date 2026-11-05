@@ -1,0 +1,513 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkab961",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gky879",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkae959",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv983",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt1058",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/bacdive",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N9995d63db6d64a728ecdf6ecb7408242"
+        },
+        {
+          "@id": "_:Nd31eaa89c2334b23b75bd6edbbc938db"
+        },
+        {
+          "@id": "_:Nad7742009ffd494297d8eca3dd8f4308"
+        },
+        {
+          "@id": "_:N5e057cf28e0d48728635424927cd1f88"
+        },
+        {
+          "@id": "_:N83d7bb0450f4477789b53ddc132d212a"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nf9907fa6c216475cac0060d0db17a066"
+        },
+        {
+          "@id": "_:N35c72daf90fb485ead273b6efee9bce3"
+        },
+        {
+          "@id": "_:Na96ff11546124611a0047c793e59b031"
+        },
+        {
+          "@id": "_:N5cd6b5213c7a4ecebfc85d35f3f23425"
+        },
+        {
+          "@id": "_:Ne35613a92c384beaa786c0b782afc11e"
+        },
+        {
+          "@id": "_:N5fc3133cc71c4c5b9e5e96539ffdf54c"
+        },
+        {
+          "@id": "_:N735854ad307849ca9ed3fb9fd3162348"
+        },
+        {
+          "@id": "_:N0e9567c7eb794fd5980389e22c85112f"
+        },
+        {
+          "@id": "_:Nf9767fdcce7b4263886a770dc7edf77d"
+        },
+        {
+          "@id": "_:N983189fcb2784abf93187f73764574c5"
+        },
+        {
+          "@id": "_:Na3e8366aed094b7f8489191f95e54aee"
+        },
+        {
+          "@id": "_:N9e079e019e0e4909a8f3596e07e80c6c"
+        },
+        {
+          "@id": "_:N098eb123aa7e426ea02c250160b095fa"
+        },
+        {
+          "@id": "_:N2bf3c6aa64e04611a55c684c876317a0"
+        },
+        {
+          "@id": "_:N4c3a73091d354a9c994aab641616a182"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3050"
+        },
+        {
+          "@id": "edam:topic_3339"
+        },
+        {
+          "@id": "edam:topic_3301"
+        },
+        {
+          "@id": "edam:topic_0637"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:24214959",
+        "pmcid:PMC3965005",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkt1058"
+        },
+        "pubmed:26424852",
+        "pmcid:PMC4702946",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkv983"
+        },
+        "pubmed:28487186",
+        {
+          "@id": "https://doi.org/10.1016/j.jbiotec.2017.05.004"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkab961"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkae959"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gky879"
+        }
+      ],
+      "sc:description": "BacDive (The Bacterial Diversity Database) is the worldwide largest database for standardized bacterial and archaeal strain-level information. Its mission is to mobilize and integrate research data on strain level from diverse sources and make it freely accessible.\n\nBacDive is a comprehensive resource containing diverse data on bacterial and archaeal strains, including taxonomy, morphology, physiology, sampling and environmental data and sequence information.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_2421"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "CC-BY-4.0",
+      "sc:name": "BacDive",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "Leibniz-Institut DSMZ-Deutsche Sammlung von Mikroorganismen und Zellkulturen GmbH",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://bacdive.dsmz.de/about"
+        },
+        {
+          "@id": "https://bacdive.dsmz.de/tutorials"
+        }
+      ],
+      "sc:url": "https://bacdive.dsmz.de"
+    },
+    {
+      "@id": "_:N9995d63db6d64a728ecdf6ecb7408242",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1179"
+      },
+      "sc:name": "NCBI taxonomy ID"
+    },
+    {
+      "@id": "_:Nd31eaa89c2334b23b75bd6edbbc938db",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1097"
+      },
+      "sc:name": "Sequence accession (nucleic acid)"
+    },
+    {
+      "@id": "_:Nad7742009ffd494297d8eca3dd8f4308",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:N5e057cf28e0d48728635424927cd1f88",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2912"
+      },
+      "sc:name": "Strain accession"
+    },
+    {
+      "@id": "_:N83d7bb0450f4477789b53ddc132d212a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2379"
+      },
+      "sc:name": "Strain identifier"
+    },
+    {
+      "@id": "_:Nf9907fa6c216475cac0060d0db17a066",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N35c72daf90fb485ead273b6efee9bce3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3719"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Biosafety classification"
+    },
+    {
+      "@id": "_:Na96ff11546124611a0047c793e59b031",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2093"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Data reference"
+    },
+    {
+      "@id": "_:N5cd6b5213c7a4ecebfc85d35f3f23425",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:Ne35613a92c384beaa786c0b782afc11e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3720"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Geographic location"
+    },
+    {
+      "@id": "_:N5fc3133cc71c4c5b9e5e96539ffdf54c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3721"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Isolation source"
+    },
+    {
+      "@id": "_:N735854ad307849ca9ed3fb9fd3162348",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2087"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Molecular property"
+    },
+    {
+      "@id": "_:N0e9567c7eb794fd5980389e22c85112f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3723"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Morphology parameter"
+    },
+    {
+      "@id": "_:Nf9767fdcce7b4263886a770dc7edf77d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1179"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "NCBI taxonomy ID"
+    },
+    {
+      "@id": "_:N983189fcb2784abf93187f73764574c5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0912"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Nucleic acid property"
+    },
+    {
+      "@id": "_:Na3e8366aed094b7f8489191f95e54aee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3718"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Pathogenicity report"
+    },
+    {
+      "@id": "_:N9e079e019e0e4909a8f3596e07e80c6c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3722"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Physiology parameter"
+    },
+    {
+      "@id": "_:N098eb123aa7e426ea02c250160b095fa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1097"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Sequence accession (nucleic acid)"
+    },
+    {
+      "@id": "_:N2bf3c6aa64e04611a55c684c876317a0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2912"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Strain accession"
+    },
+    {
+      "@id": "_:N4c3a73091d354a9c994aab641616a182",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1872"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_2331"
+        },
+        {
+          "@id": "edam:format_3464"
+        },
+        {
+          "@id": "edam:format_2330"
+        }
+      ],
+      "sc:name": "Taxonomic classification"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jbiotec.2017.05.004",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

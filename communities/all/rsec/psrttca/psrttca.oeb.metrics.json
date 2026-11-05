@@ -1,0 +1,81 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:psrttca/web/pmlabstack.pythonanywhere.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 11,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1016/j.compbiomed.2022.106368",
+                            "pmid": "36481763",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "PSRTTCA: A new approach for improving the prediction and characterization of tumor T cell antigens using propensity score representation learning.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/psrttca",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

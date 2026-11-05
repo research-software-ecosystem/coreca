@@ -1,0 +1,121 @@
+{
+    "additionDate": "2021-01-18T09:52:08Z",
+    "biotoolsCURIE": "biotools:ganon",
+    "biotoolsID": "ganon",
+    "confidence_flag": "tool",
+    "credit": [
+        {
+            "email": "bernhard.renard@hpi.de",
+            "name": "Bernhard Y Renard",
+            "typeEntity": "Person"
+        }
+    ],
+    "description": "ganon is designed to index large sets of genomic reference sequences and to classify reads against them efficiently. The tool uses Hierarchical Interleaved Bloom Filters as indices based on k-mers with optional minimizers. It was mainly developed, but not limited, to the metagenomics classification problem: quickly assign sequence fragments to their closest reference among thousands of references. After classification, taxonomic or sequence abundances are estimated and reported.",
+    "editPermission": {
+        "authors": [
+            "vashokan"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "DNA sequence",
+                        "uri": "http://edamontology.org/data_3494"
+                    },
+                    "format": [
+                        {
+                            "term": "FASTQ",
+                            "uri": "http://edamontology.org/format_1930"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Taxonomic classification",
+                    "uri": "http://edamontology.org/operation_3460"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Taxonomy",
+                        "uri": "http://edamontology.org/data_3028"
+                    },
+                    "format": [
+                        {
+                            "term": "DSV",
+                            "uri": "http://edamontology.org/format_3751"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "operation": [
+                {
+                    "term": "Sequence assembly",
+                    "uri": "http://edamontology.org/operation_0310"
+                },
+                {
+                    "term": "k-mer counting",
+                    "uri": "http://edamontology.org/operation_3472"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://pirovc.github.io/ganon/",
+    "language": [
+        "Python"
+    ],
+    "lastUpdate": "2026-02-12T13:50:27.711409Z",
+    "license": "MIT",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/pirovc/ganon_benchmark"
+        }
+    ],
+    "name": "Ganon",
+    "owner": "pirovc",
+    "publication": [
+        {
+            "doi": "10.1093/nargab/lqaf094",
+            "pmcid": "PMC12267982",
+            "pmid": "40677913"
+        }
+    ],
+    "relation": [
+        {
+            "biotoolsID": "gtdb",
+            "type": "uses"
+        }
+    ],
+    "toolType": [
+        "Library"
+    ],
+    "topic": [
+        {
+            "term": "Metagenomics",
+            "uri": "http://edamontology.org/topic_3174"
+        },
+        {
+            "term": "Model organisms",
+            "uri": "http://edamontology.org/topic_0621"
+        },
+        {
+            "term": "Sequence assembly",
+            "uri": "http://edamontology.org/topic_0196"
+        },
+        {
+            "term": "Taxonomy",
+            "uri": "http://edamontology.org/topic_0637"
+        }
+    ],
+    "validated": 1
+}

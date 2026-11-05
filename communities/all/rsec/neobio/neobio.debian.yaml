@@ -1,0 +1,20 @@
+package: neobio
+distribution: debian
+release: sid
+component: main
+version: 0.0.20030929
+source: neobio
+homepage: http://neobio.sourceforge.net/
+license: unknown
+blend: debian-med
+description_md5: 6c262352bcf830190b22d93808dca196
+registries:
+- entry: OMICS_21450
+  name: OMICtools
+- entry: neobio
+  name: bio.tools
+popcon:
+- insts: 113
+  olde: 86
+  recent: 23
+  vote: 4

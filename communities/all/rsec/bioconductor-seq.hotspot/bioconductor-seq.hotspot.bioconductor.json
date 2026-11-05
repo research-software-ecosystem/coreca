@@ -1,0 +1,61 @@
+{
+    "Author": "Sydney Grant [aut, cre], Lei Wei [aut], Gyorgy Paragh [aut]",
+    "BugReports": "https://github.com/sydney-grant/seq.hotSPOT/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 3.5.0)"
+    ],
+    "Description": "seq.hotSPOT provides a resource for designing effective sequencing panels to help improve mutation capture efficacy for ultradeep sequencing projects. Using SNV datasets, this package designs custom panels for any tissue of interest and identify the genomic regions likely to contain the most mutations. Establishing efficient targeted sequencing panels can allow researchers to study mutation burden in tissues at high depth without the economic burden of whole-exome or whole-genome sequencing. This tool was developed to make high-depth sequencing panels to study low-frequency clonal mutations in clinically normal and cancerous tissues.",
+    "Imports": [
+        "R.utils",
+        "base",
+        "hash",
+        "stats",
+        "utils"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "36e68cf3d360913af1307b35a19a3fac",
+    "Maintainer": "Sydney Grant <sydney.grant@roswellpark.org>",
+    "NeedsCompilation": "no",
+    "Package": "seq.hotSPOT",
+    "Rank": 2209,
+    "Rfiles": [
+        "vignettes/seq.hotSPOT/inst/doc/hotSPOT-vignette.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown",
+        "testthat (>= 3.0.0)"
+    ],
+    "Title": "Targeted sequencing panel design based on mutation hotspots",
+    "URL": "https://github.com/sydney-grant/seq.hotSPOT",
+    "Version": "1.12.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DNASeq",
+        "Sequencing",
+        "Software",
+        "Technology",
+        "WholeGenome"
+    ],
+    "dependencyCount": "9",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "b774b03",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/seq.hotSPOT",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/seq.hotSPOT_1.12.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/seq.hotSPOT_1.12.0.tgz",
+    "source.ver": "src/contrib/seq.hotSPOT_1.12.0.tar.gz",
+    "vignetteTitles": [
+        "hotSPOT-vignette"
+    ],
+    "vignettes": [
+        "vignettes/seq.hotSPOT/inst/doc/hotSPOT-vignette.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/seq.hotSPOT_1.12.0.zip"
+}

@@ -1,0 +1,109 @@
+{
+    "Author": "David Clayton <dc208@cam.ac.uk>",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Matrix",
+        "R(>= 2.10.0)",
+        "methods",
+        "survival"
+    ],
+    "Description": "Classes and statistical methods for large SNP association studies. This extends the earlier snpMatrix package, allowing for uncertainty in genotypes.",
+    "Imports": [
+        "BiocGenerics",
+        "grDevices",
+        "graphics",
+        "stats",
+        "utils"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "812b41afe81957274912d2656bfe90c2",
+    "Maintainer": "David Clayton <dc208@cam.ac.uk>",
+    "NeedsCompilation": "yes",
+    "Package": "snpStats",
+    "Rank": 161,
+    "Rfiles": [
+        "vignettes/snpStats/inst/doc/Fst-vignette.R",
+        "vignettes/snpStats/inst/doc/data-input-vignette.R",
+        "vignettes/snpStats/inst/doc/imputation-vignette.R",
+        "vignettes/snpStats/inst/doc/ld-vignette.R",
+        "vignettes/snpStats/inst/doc/pca-vignette.R",
+        "vignettes/snpStats/inst/doc/snpStats-vignette.R",
+        "vignettes/snpStats/inst/doc/tdt-vignette.R"
+    ],
+    "Suggests": [
+        "hexbin"
+    ],
+    "Title": "SnpMatrix and XSnpMatrix classes and methods",
+    "Version": "1.62.0",
+    "biocViews": [
+        "GeneticVariability",
+        "Microarray",
+        "SNP",
+        "Software"
+    ],
+    "dependencyCount": "12",
+    "dependsOnMe": [
+        "MAGAR"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "1919258",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/snpStats",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "DExMA",
+        "GWASbyCluster",
+        "GenomicTools.fileHandler",
+        "RVS",
+        "SNPkit",
+        "TriadSim",
+        "cardelino",
+        "gpcp",
+        "gwascat",
+        "martini",
+        "scoreInvHap"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/snpStats_1.62.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/snpStats_1.62.0.tgz",
+    "source.ver": "src/contrib/snpStats_1.62.0.tar.gz",
+    "suggestsMe": [
+        "GWASTools",
+        "GenomicFiles",
+        "RcppDPR",
+        "VariantAnnotation",
+        "adjclust",
+        "crlmm",
+        "dartR",
+        "dartR.popgen",
+        "genio",
+        "ldblock",
+        "omicRexposome",
+        "omicsPrint",
+        "pegas",
+        "statgenGWAS"
+    ],
+    "vignetteTitles": [
+        "Data input",
+        "Fst",
+        "Imputation and meta-analysis",
+        "LD statistics",
+        "Principal components analysis",
+        "TDT tests",
+        "snpMatrix-differences",
+        "snpStats introduction"
+    ],
+    "vignettes": [
+        "vignettes/snpStats/inst/doc/Fst-vignette.pdf",
+        "vignettes/snpStats/inst/doc/data-input-vignette.pdf",
+        "vignettes/snpStats/inst/doc/differences.pdf",
+        "vignettes/snpStats/inst/doc/imputation-vignette.pdf",
+        "vignettes/snpStats/inst/doc/ld-vignette.pdf",
+        "vignettes/snpStats/inst/doc/pca-vignette.pdf",
+        "vignettes/snpStats/inst/doc/snpStats-vignette.pdf",
+        "vignettes/snpStats/inst/doc/tdt-vignette.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/snpStats_1.62.0.zip"
+}

@@ -1,0 +1,31 @@
+package: raxml
+distribution: debian
+release: sid
+component: main
+version: 8.2.13
+source: raxml
+homepage: https://cme.h-its.org/exelixis/web/software/raxml/index.html
+license: unknown
+blend: debian-med
+description_md5: af25050e26e4eb856b4aa781a142389c
+registries:
+- entry: SCR_006086
+  name: SciCrunch
+- entry: raxml
+  name: bio.tools
+- entry: raxml
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btu033
+- key: doi
+  rank: 1
+  value: 10.1093/bioinformatics/btl446
+tags:
+- tag: field::biology
+- tag: role::program
+popcon:
+- insts: 225
+  olde: 188
+  recent: 27
+  vote: 10

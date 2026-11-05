@@ -1,0 +1,171 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:repair/script/utrecht-university.shinyapps.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 38,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2026
+                                }
+                            ],
+                            "doi": "10.1038/s41593-020-00792-3",
+                            "pmid": "33603229",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Increasing the statistical power of animal experiments with historical control data.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 202,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:repair/web/utrecht-university.shinyapps.io",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 38,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2026
+                                }
+                            ],
+                            "doi": "10.1038/s41593-020-00792-3",
+                            "pmid": "33603229",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Increasing the statistical power of animal experiments with historical control data.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 202,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/repair",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 202,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

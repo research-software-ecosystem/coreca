@@ -1,0 +1,131 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkr246",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/genie",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Jean Fred Fontaine",
+      "bsc:input": [
+        {
+          "@id": "_:Nb703ebacbb5c4681abf7633b4c78f2ae"
+        },
+        {
+          "@id": "_:N5e10b1d23c084bf3b4c7d6476697ff57"
+        },
+        {
+          "@id": "_:N26cf414a55a74d38a0e3e07894339469"
+        },
+        {
+          "@id": "_:N40a235b2dc4647c2a3ad4ddffa0cec41"
+        }
+      ],
+      "bsc:output": {
+        "@id": "_:N8f916941ae254ebf93427a5c5c006628"
+      },
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3473"
+      },
+      "sc:citation": [
+        "pubmed:21609954",
+        "pmcid:PMC3125729",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkr246"
+        }
+      ],
+      "sc:description": "Genes prioritization for topics of interest using gene-related PubMed abstracts.",
+      "sc:featureList": {
+        "@id": "edam:operation_0305"
+      },
+      "sc:name": "Genie",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://cbdm-01.zdv.uni-mainz.de/~jfontain/cms/?page_id=130"
+      },
+      "sc:url": "http://cbdm.uni-mainz.de/medlineranker"
+    },
+    {
+      "@id": "_:Nb703ebacbb5c4681abf7633b4c78f2ae",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1088"
+      },
+      "sc:name": "Article ID"
+    },
+    {
+      "@id": "_:N5e10b1d23c084bf3b4c7d6476697ff57",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1025"
+      },
+      "sc:name": "Gene identifier"
+    },
+    {
+      "@id": "_:N26cf414a55a74d38a0e3e07894339469",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:name": "Keyword"
+    },
+    {
+      "@id": "_:N40a235b2dc4647c2a3ad4ddffa0cec41",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1869"
+      },
+      "sc:name": "Organism identifier"
+    },
+    {
+      "@id": "_:N8f916941ae254ebf93427a5c5c006628",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:name": "Gene report"
+    }
+  ]
+}

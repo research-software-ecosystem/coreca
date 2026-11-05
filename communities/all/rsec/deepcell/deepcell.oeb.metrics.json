@@ -1,0 +1,122 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:deepcell/web/www.deepcell.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "faq": true,
+                "general": true,
+                "manual": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/803205",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 92,
+                            "citations": [
+                                {
+                                    "count": 9,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 18,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1038/s41592-020-01023-0",
+                            "pmcid": "PMC8759612",
+                            "pmid": "33398191",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "DeepCell Kiosk: scaling deep learning-enabled cellular image analysis with Kubernetes.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 308,
+                        "url": "https://www.deepcell.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/deepcell",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 308,
+                        "url": "https://www.deepcell.org/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

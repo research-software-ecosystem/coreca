@@ -1,0 +1,64 @@
+{
+    "Author": "Mehrnoush Malek,M. Jafar Taghiyar",
+    "Date/Publication": "2026-04-28",
+    "Description": "This package provides tools for automated sequential gating analogous to the manual gating strategy based on the density of the data.",
+    "Imports": [
+        "car",
+        "flowCore",
+        "flowViz (>= 1.42)",
+        "gplots",
+        "grDevices",
+        "graphics",
+        "methods",
+        "polyclip",
+        "stats"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "3d86467cb8f5d34ddbc37fc24da18c85",
+    "Maintainer": "Mehrnoush Malek <mehrmalek@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "flowDensity",
+    "Rank": 463,
+    "Rfiles": [
+        "vignettes/flowDensity/inst/doc/flowDensity.R"
+    ],
+    "Suggests": [
+        "knitr",
+        "rmarkdown"
+    ],
+    "SystemRequirements": "xml2, GNU make, C++11",
+    "Title": "Sequential Flow Cytometry Data Gating",
+    "Version": "1.46.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Bioinformatics",
+        "Cancer",
+        "CellBiology",
+        "Clustering",
+        "DataRepresentation",
+        "DensityGating",
+        "FlowCytData",
+        "FlowCytometry",
+        "Software",
+        "StemCell"
+    ],
+    "dependencyCount": "104",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "d3fbcb7",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/flowDensity",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": true,
+    "importsMe": [
+        "CompensAID",
+        "cyanoFilter",
+        "ddPCRclust",
+        "flowCut"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/flowDensity_1.46.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/flowDensity_1.46.0.tgz",
+    "source.ver": "src/contrib/flowDensity_1.46.0.tar.gz",
+    "win.binary.ver": "bin/windows/contrib/4.6/flowDensity_1.46.0.zip"
+}

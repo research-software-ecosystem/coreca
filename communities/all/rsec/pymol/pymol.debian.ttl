@@ -1,0 +1,28 @@
+@prefix biotools: <https://bio.tools/> .
+@prefix debianmed: <https://salsa.debian.org/med-team/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix scicrunch: <https://scicrunch.org/resolver/> .
+
+debianmed:pymol a schema1:SoftwareApplication ;
+    schema1:featureList edam:operation_2950 ;
+    schema1:identifier biotools:pymol,
+        scicrunch:SCR_000305,
+        "omictools:OMICS_03802" ;
+    schema1:keywords "field::biology:structural",
+        "field::chemistry",
+        "implemented-in::python",
+        "interface::3d",
+        "interface::x11",
+        "role::program",
+        "scope::utility",
+        "uitoolkit::tk",
+        "use::learning",
+        "use::viewing",
+        "works-with::image",
+        "x11::application" ;
+    schema1:license "unknown" ;
+    schema1:name "pymol" ;
+    schema1:softwareVersion "3.1.0" ;
+    schema1:url <https://www.pymol.org> .
+

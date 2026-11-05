@@ -1,0 +1,37 @@
+package: raster3d
+distribution: debian
+release: sid
+component: main
+version: 3.0-8
+source: raster3d
+homepage: http://www.bmsc.washington.edu/raster3d/raster3d.html
+license: unknown
+blend: debian-med
+description_md5: 7017e40afb8a84c7aca1cff9519d06ba
+registries:
+- entry: OMICS_05054
+  name: OMICtools
+- entry: Raster3D
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1016/S0076-6879(97)77028-9
+tags:
+- tag: field::biology
+- tag: field::biology:structural
+- tag: implemented-in::fortran
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::application
+- tag: use::converting
+- tag: use::viewing
+- tag: works-with-format::jpg
+- tag: works-with-format::png
+- tag: works-with::3dmodel
+- tag: works-with::image
+- tag: works-with::image:raster
+popcon:
+- insts: 142
+  olde: 110
+  recent: 23
+  vote: 9

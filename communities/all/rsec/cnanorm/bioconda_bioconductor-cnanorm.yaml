@@ -1,0 +1,52 @@
+about:
+  description: Performs ratio, GC content correction and normalization of data obtained
+    using low coverage (one read every 100-10,000 bp) high troughput sequencing. It
+    performs a "discrete" normalization looking for the ploidy of the genome. It will
+    also provide tumour content if at least two ploidy states can be found.
+  home: https://bioconductor.org/packages/3.22/bioc/html/CNAnorm.html
+  license: GPL-2
+  license_file: /lib/R/share/licenses/GPL-2
+  summary: A normalization method for Copy Number Aberration in cancer samples
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - biotools:cnanorm
+  parent_recipe:
+    name: bioconductor-cnanorm
+    path: recipes/bioconductor-cnanorm
+    version: 1.26.0
+package:
+  name: bioconductor-cnanorm
+  version: 1.56.0
+requirements:
+  build:
+  - null
+  - null
+  - make
+  host:
+  - bioconductor-dnacopy >=1.84.0,<1.85.0
+  - r-base
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-dnacopy >=1.84.0,<1.85.0
+  - r-base
+source:
+  md5: ec48c85c7eae0238dd5988deb172a47d
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/CNAnorm_1.56.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/CNAnorm/CNAnorm_1.56.0.tar.gz
+  - https://bioarchive.galaxyproject.org/CNAnorm_1.56.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-cnanorm/bioconductor-cnanorm_1.56.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('CNAnorm')"

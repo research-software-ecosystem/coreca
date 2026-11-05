@@ -1,0 +1,45 @@
+about:
+  dev_url: https://github.com/Reedwarbler/REPdenovo
+  doc_url: https://github.com/simoncchu/REPdenovo/blob/v0.1.0/README.md
+  home: https://github.com/Reedwarbler/REPdenovo
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: REPdenovo is designed for constructing repeats directly from sequence reads.
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - doi:10.1371/journal.pone.0150719
+  - biotools:repdenovo
+package:
+  name: repdenovo
+  version: 0.1.0
+requirements:
+  build:
+  - make
+  - null
+  - null
+  - null
+  host:
+  - zlib
+  - bamtools
+  run:
+  - python
+  - bwa
+  - kmer-jellyfish
+  - velvet
+  - bamtools
+source:
+  patches:
+  - 0001-Makefiles.patch
+  sha256: 1360be49395cb47f962cc267a936f1f6833f0581c53286004e6871f14903e59e
+  url: https://github.com/simoncchu/REPdenovo/archive/refs/tags/v0.1.0.tar.gz
+test:
+  commands:
+  - TERefiner_1

@@ -1,0 +1,123 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkg014",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/ests_source",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nbcdc6bc636c24671bb27b17ffb740e78"
+        },
+        {
+          "@id": "_:N2e542607aa244678815983c2c39970aa"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N95f54feecd604055bbc2cd01fcf18ae1"
+        },
+        {
+          "@id": "_:N0349be44a8a14e68bf565482a2e93401"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3512"
+      },
+      "sc:citation": [
+        "pubmed:12519986",
+        "pmcid:PMC165461",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkg014"
+        }
+      ],
+      "sc:description": "A unification tool which dynamically collects and compiles data from many scientific databases, and thereby attempts to encapsulate the genetics and molecular biology of genes from the genomes of Homo sapiens, Mus musculus, Rattus norvegicus into easy to navigate GeneReports.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "ESTs SOURCE",
+      "sc:provider": "Stanford University",
+      "sc:softwareHelp": {
+        "@id": "http://source-search.princeton.edu/help/SOURCE/results.html"
+      },
+      "sc:url": "http://genome-www5.stanford.edu/cgi-bin/SMD/source/sourceSearch"
+    },
+    {
+      "@id": "_:Nbcdc6bc636c24671bb27b17ffb740e78",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2704"
+      },
+      "sc:name": "Clone ID (IMAGE)"
+    },
+    {
+      "@id": "_:N2e542607aa244678815983c2c39970aa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2292"
+      },
+      "sc:name": "GenBank accession"
+    },
+    {
+      "@id": "_:N95f54feecd604055bbc2cd01fcf18ae1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:N0349be44a8a14e68bf565482a2e93401",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene transcript report"
+    }
+  ]
+}

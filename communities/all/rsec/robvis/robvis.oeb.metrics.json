@@ -1,0 +1,107 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:robvis/undefined/www.riskofbias.info",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 2919,
+                            "citations": [
+                                {
+                                    "count": 14,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 37,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 142,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 292,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 348,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 527,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 760,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 799,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1002/jrsm.1411",
+                            "pmid": "32336025",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Risk-of-bias VISualization (robvis): An R package and Shiny web app for visualizing risk-of-bias assessments.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/robvis",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

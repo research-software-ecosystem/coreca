@@ -1,0 +1,61 @@
+about:
+  dev_url: https://github.com/macs3-project/MACS
+  doc_url: https://macs3-project.github.io/MACS
+  home: https://github.com/macs3-project/MACS
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: Model Based Analysis for ChIP-Seq data.
+build:
+  number: 0
+  run_exports:
+  - null
+  script: -m pip install . --no-deps --no-build-isolation --no-cache-dir -vvv
+  skip: true
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:macs
+  - doi:10.1186/gb-2008-9-9-r137
+  - usegalaxy-eu:peakcalling_macs
+  - usegalaxy-eu:macs2_bdgbroadcall
+  - usegalaxy-eu:macs2_bdgcmp
+  - usegalaxy-eu:macs2_bdgdiff
+  - usegalaxy-eu:macs2_bdgpeakcall
+  - usegalaxy-eu:macs2_callpeak
+  - usegalaxy-eu:macs2_filterdup
+  - usegalaxy-eu:macs2_predictd
+  - usegalaxy-eu:macs2_randsample
+  - usegalaxy-eu:macs2_refinepeak
+package:
+  name: macs3
+  version: 3.0.5
+requirements:
+  build:
+  - null
+  - null
+  host:
+  - python
+  - pip
+  - setuptools >=80
+  - cython >=3.0
+  - numpy >=1.25
+  - zlib
+  run:
+  - python
+  - anndata
+  - numpy >=1.25
+  - pandas
+  - scipy >=1.12
+  - hmmlearn >=0.3.2
+  - scikit-learn >=1.3
+source:
+  sha256: 22cb5e22903ef0598e8078cc19d4593cb43be43870808335c98e0f7298597224
+  url: https://pypi.org/packages/source/M/MACS3/macs3-3.0.5.tar.gz
+test:
+  commands:
+  - macs3 -h
+  imports:
+  - MACS3

@@ -1,0 +1,23 @@
+package: ntcard
+distribution: debian
+release: sid
+component: main
+version: 1.2.2
+source: ntcard
+homepage: https://github.com/bcgsc/ntCard
+license: unknown
+blend: debian-med
+description_md5: c39181c72163c6432a8001fa7573ded4
+registries:
+- entry: ntcard
+  name: bio.tools
+- entry: ntcard
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btw832
+popcon:
+- insts: 113
+  olde: 85
+  recent: 24
+  vote: 4

@@ -1,0 +1,41 @@
+package: ampliconnoise
+distribution: debian
+release: sid
+component: main
+version: '1.29'
+source: ampliconnoise
+homepage: https://github.com/lanzen/ampliconnoise
+license: unknown
+blend: debian-med
+description_md5: cd8d15fcdec00d4fc4f08c519dbff884
+topics:
+- Sequencing
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence trace
+    formats:
+    - SFF
+  output:
+  - data: Sequence
+    formats:
+    - FASTA
+  function:
+  - Sequencing quality control
+registries:
+- entry: OMICS_01112
+  name: OMICtools
+- entry: SCR_007814
+  name: SciCrunch
+- entry: pyronoise
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1186/1471-2105-12-38
+tags:
+- tag: role::program
+popcon:
+- insts: 118
+  olde: 90
+  recent: 23
+  vote: 5

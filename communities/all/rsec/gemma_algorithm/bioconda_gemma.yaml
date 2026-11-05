@@ -1,0 +1,42 @@
+about:
+  dev_url: https://github.com/genetics-statistics/GEMMA
+  doc_url: https://github.com/genetics-statistics/GEMMA/blob/v0.98.5/README.md
+  home: https://github.com/genetics-statistics/GEMMA
+  license: GPL-3.0-or-later
+  license_family: GPL3
+  license_file: LICENSE
+  summary: Linear mixed models (LMMs) for genome-wide association (GWA).
+build:
+  number: 1
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  identifiers:
+  - usegalaxy-eu:gemma
+  - biotools:gemma_algorithm
+  - doi:10.1038/ng.2310
+  skip-lints:
+  - compiler_needs_stdlib_c
+package:
+  name: gemma
+  version: 0.98.5
+requirements:
+  build:
+  - make
+  - null
+  - pkg-config
+  host:
+  - gsl
+  - openblas
+  - eigen
+  - zlib
+  run:
+  - openblas
+source:
+  sha256: 3ed336deee29e370f96ec8f1a240f7b62550e57dcd1694245ce7ec8f42241677
+  url: https://github.com/genetics-statistics/GEMMA/archive/refs/tags/v0.98.5.tar.gz
+test:
+  commands:
+  - gemma

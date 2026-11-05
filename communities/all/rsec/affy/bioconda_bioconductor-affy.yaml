@@ -1,0 +1,60 @@
+about:
+  description: The package contains functions for exploratory oligonucleotide array
+    analysis. The dependence on tkWidgets only concerns few convenience functions.
+    'affy' is fully functional without it.
+  home: https://bioconductor.org/packages/3.22/bioc/html/affy.html
+  license: LGPL (>= 2.0)
+  license_file: /lib/R/share/licenses/LGPL-3
+  summary: Methods for Affymetrix Oligonucleotide Arrays
+build:
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:affy
+  parent_recipe:
+    name: bioconductor-affy
+    path: recipes/bioconductor-affy
+    version: 1.58.0
+package:
+  name: bioconductor-affy
+  version: 1.88.0
+requirements:
+  build:
+  - null
+  - automake
+  - make
+  host:
+  - bioconductor-affyio >=1.80.0,<1.81.0
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-preprocesscore >=1.72.0,<1.73.0
+  - r-base
+  - r-biocmanager
+  - libblas
+  - liblapack
+  - zlib
+  - liblzma-devel
+  run:
+  - bioconductor-affyio >=1.80.0,<1.81.0
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-preprocesscore >=1.72.0,<1.73.0
+  - r-base
+  - r-biocmanager
+source:
+  md5: 85a03c51a040597094ab24e8067e5830
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/affy_1.88.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/affy/affy_1.88.0.tar.gz
+  - https://bioarchive.galaxyproject.org/affy_1.88.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-affy/bioconductor-affy_1.88.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('affy')"

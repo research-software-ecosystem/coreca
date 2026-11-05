@@ -1,0 +1,25 @@
+package: r-bioc-tximport
+distribution: debian
+release: sid
+component: main
+version: 1.40.0
+source: r-bioc-tximport
+homepage: https://bioconductor.org/packages/tximport/
+license: unknown
+blend: debian-med
+description_md5: fd989eb41f5695e0875c23c09c8477be
+registries:
+- entry: OMICS_11762
+  name: OMICtools
+- entry: tximport
+  name: bio.tools
+- entry: bioconductor-tximport
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.12688/f1000research.7563.1
+popcon:
+- insts: 146
+  olde: 112
+  recent: 25
+  vote: 9

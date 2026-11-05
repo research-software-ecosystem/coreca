@@ -1,0 +1,27 @@
+package: macs
+distribution: debian
+release: sid
+component: main
+version: 3.0.5
+source: macs
+homepage: https://github.com/taoliu/MACS/
+license: unknown
+blend: debian-med
+description_md5: ea92f8fedfe04d3f07954aa006c99da9
+registries:
+- entry: OMICS_00446
+  name: OMICtools
+- entry: SCR_013291
+  name: SciCrunch
+- entry: macs
+  name: bio.tools
+- entry: macs2
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/gb-2008-9-9-r137
+popcon:
+- insts: 139
+  olde: 106
+  recent: 25
+  vote: 8

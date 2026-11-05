@@ -101,15 +101,16 @@ class BiocondaRecipe:
 
     def get_status(self) -> bool:
         """Return the status of the recipe."""
-        return bool(self.metadata.get("keep", False))
+        return bool(self.metadata.get("To keep", False))
 
     def update_status(self, status: bool) -> None:
         """Update status"""
-        self.metadata["keep"] = status
+        self.metadata["To keep"] = status
+        self.metadata["Curation date"] = status
 
     def test_about(self, keywords: Dict[str, Any]) -> bool:
         """Test if description and/or summary have keywords"""
-        text = (self.get_description() + " " + self.get_summary()).lower()
+        text = self.get_description() + " " + self.get_summary()
         filtered_on = utils.has_keyword(keywords, text, "description")
         return filtered_on != ""
 
@@ -130,7 +131,7 @@ class BiocondaRecipes:
         def to_keep(x: Path) -> bool:
             return not str(x).endswith("esme/meta.yaml")
 
-        paths = [x for x in Path(directory).glob("./recipes/*/meta.yaml") if to_keep(x)]
+        paths = [x for x in Path(directory).glob("./*/meta.yaml") if to_keep(x)]
         for p in tqdm(paths, desc="Parsing Bioconda recipes", unit="file"):
             recipe = BiocondaRecipe()
             status = recipe.parse(p)
@@ -151,7 +152,7 @@ class BiocondaRecipes:
         logging.info(f"Total recipes: {len(self.recipes)}")
         for name, recipe in self.recipes.items():
             if name in status:
-                recipe.update_status(status[name]["keep"])
+                recipe.update_status(status[name]["To keep"])
             if recipe.get_status() or recipe.test_about(keywords):
                 filtered_recipes[name] = recipe
         self.recipes = filtered_recipes
@@ -341,7 +342,7 @@ def main() -> None:
         recipes.export_to_tsv(
             args.status,
             to_keep_columns=[
-                "keep",
+                "To keep",
                 "about.summary",
                 "about.description",
                 "about.home",
@@ -355,7 +356,7 @@ def main() -> None:
 
         # Load status
         try:
-            status = pd.read_csv(args.status, sep="\t", index_col="name").to_dict("index")
+            status = pd.read_csv(args.status, sep="\t", index_col="package.name").to_dict("index")
         except Exception as ex:
             logging.info(f"Failed to load {args.status} file or no 'name' column with:\n{ex}")
             logging.info("Not assigning tool status for this community !")

@@ -1,0 +1,35 @@
+package: bioperl
+distribution: debian
+release: sid
+component: main
+version: 1.7.8
+source: bioperl
+homepage: http://www.bioperl.org/
+license: unknown
+blend: debian-med
+description_md5: 499a31b1d7a9f73ed26eb29f5425ebf8
+registries:
+- entry: OMICS_04849
+  name: OMICtools
+- entry: SCR_002989
+  name: SciCrunch
+- entry: bioperl
+  name: bio.tools
+- entry: perl-bioperl-core
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1101/gr.361602
+tags:
+- tag: devel::lang:perl
+- tag: devel::library
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::perl
+- tag: role::devel-lib
+- tag: role::shared-lib
+popcon:
+- insts: 248
+  olde: 207
+  recent: 27
+  vote: 14

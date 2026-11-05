@@ -1,0 +1,158 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2015-06-11T13:36:38Z",
+    "biotoolsCURIE": "biotools:metabolights",
+    "biotoolsID": "metabolights",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "name": "EMBL-EBI Databases",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        },
+        {
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ],
+            "url": "http://www.ebi.ac.uk/metabolights/contact"
+        }
+    ],
+    "description": "Database for Metabolomics experiments and derived information.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://www.ebi.ac.uk/metabolights/help"
+        },
+        {
+            "type": [
+                "User manual"
+            ],
+            "url": "https://ebi-metabolights.github.io/guides/"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "n.m.palmblad@lumc.nl",
+            "recetox-specdatri"
+        ],
+        "type": "group"
+    },
+    "elixirCommunity": [
+        "Metabolomics"
+    ],
+    "elixirNode": [
+        "EMBL"
+    ],
+    "elixirPlatform": [
+        "Data"
+    ],
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Mass spectrometry data",
+                        "uri": "http://edamontology.org/data_2536"
+                    },
+                    "format": [
+                        {
+                            "term": "mzML",
+                            "uri": "http://edamontology.org/format_3244"
+                        }
+                    ]
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Data deposition",
+                    "uri": "http://edamontology.org/operation_3431"
+                }
+            ]
+        },
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Accession",
+                        "uri": "http://edamontology.org/data_2091"
+                    }
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Query and retrieval",
+                    "uri": "http://edamontology.org/operation_0224"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "Mass spectrometry data",
+                        "uri": "http://edamontology.org/data_2536"
+                    },
+                    "format": [
+                        {
+                            "term": "Mass spectrometry data format",
+                            "uri": "http://edamontology.org/format_3245"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.ebi.ac.uk/metabolights/",
+    "lastUpdate": "2025-11-04T10:53:53.142342Z",
+    "link": [
+        {
+            "type": [
+                "Helpdesk"
+            ],
+            "url": "https://www.ebi.ac.uk/about/contact/support/metabolights"
+        },
+        {
+            "type": [
+                "Service"
+            ],
+            "url": "https://www.ebi.ac.uk/metabolights/index"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "MetaboLights",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "EMBL-EBI_Databases",
+    "publication": [
+        {
+            "doi": "10.1093/nar/gks1004",
+            "metadata": {
+                "citationCount": 544,
+                "date": "2013-01-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "MetaboLights - An open-access general-purpose repository for metabolomics studies and associated meta-data"
+            },
+            "pmcid": "PMC3531110",
+            "pmid": "23109552",
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Metabolomics",
+            "uri": "http://edamontology.org/topic_3172"
+        }
+    ],
+    "validated": 1
+}

@@ -1,0 +1,41 @@
+package: fastqc
+distribution: debian
+release: sid
+component: main
+version: 0.12.1
+source: fastqc
+homepage: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+license: unknown
+blend: debian-med
+description_md5: 3b9c41bdb218c0f04973c94902b58b8c
+topics:
+- Sequencing
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - FASTQ
+    - BAM
+    - SAM
+  output:
+  - data: Report
+    formats:
+    - Text
+    - HTML
+  function:
+  - Sequencing quality control
+registries:
+- entry: OMICS_01043
+  name: OMICtools
+- entry: SCR_014583
+  name: SciCrunch
+- entry: FastQC
+  name: bio.tools
+- entry: fastqc
+  name: conda:bioconda
+popcon:
+- insts: 298
+  olde: 250
+  recent: 25
+  vote: 23

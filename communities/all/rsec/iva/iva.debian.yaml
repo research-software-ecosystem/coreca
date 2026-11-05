@@ -1,0 +1,25 @@
+package: iva
+distribution: debian
+release: sid
+component: main
+version: 1.0.11+ds
+source: iva
+homepage: https://github.com/sanger-pathogens/iva
+license: unknown
+blend: debian-med
+description_md5: 698e26411c0dbe5917f816e7b7229be9
+registries:
+- entry: OMICS_08188
+  name: OMICtools
+- entry: IVA
+  name: bio.tools
+- entry: iva
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btv120
+popcon:
+- insts: 114
+  olde: 85
+  recent: 23
+  vote: 6

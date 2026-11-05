@@ -1,0 +1,37 @@
+package: probcons
+distribution: debian
+release: sid
+component: main
+version: '1.12'
+source: probcons
+homepage: http://probcons.stanford.edu/
+license: unknown
+blend: debian-med
+description_md5: ec79ca582ac1aa23325a39ec48cbbf02
+registries:
+- entry: OMICS_00986
+  name: OMICtools
+- entry: SCR_011813
+  name: SciCrunch
+- entry: probcons
+  name: bio.tools
+- entry: probcons
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1101/gr.2821705
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c++
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::comparing
+- tag: works-with-format::plaintext
+- tag: works-with::TODO
+popcon:
+- insts: 251
+  olde: 213
+  recent: 27
+  vote: 11

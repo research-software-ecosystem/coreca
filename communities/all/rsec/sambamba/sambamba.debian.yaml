@@ -1,0 +1,27 @@
+package: sambamba
+distribution: debian
+release: sid
+component: main
+version: 1.0.1
+source: sambamba
+homepage: https://github.com/lomereiter/sambamba
+license: unknown
+blend: debian-med
+description_md5: cffb799478d991a3e309bbae0c0e0b13
+registries:
+- entry: OMICS_07586
+  name: OMICtools
+- entry: Sambamba
+  name: bio.tools
+- entry: sambamba
+  name: conda:bioconda
+- entry: sambamba
+  name: guix
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btv098
+popcon:
+- insts: 158
+  olde: 126
+  recent: 25
+  vote: 7

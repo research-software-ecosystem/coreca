@@ -1,0 +1,119 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2022-06-28T10:18:38.987687Z",
+    "biotoolsCURIE": "biotools:xnat-pic",
+    "biotoolsID": "xnat-pic",
+    "confidence_flag": "tool",
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "email": "dario.longo@unito.it",
+            "name": "Dario Livio Longo",
+            "orcidid": "https://orcid.org/0000-0002-6906-9925",
+            "typeEntity": "Person"
+        },
+        {
+            "email": "francesco.gammaraccio@unito.it",
+            "name": "Francesco Gammaraccio",
+            "typeEntity": "Person"
+        },
+        {
+            "name": "Alessandro Paglialonga"
+        },
+        {
+            "name": "Sara Zullino",
+            "orcidid": "https://orcid.org/0000-0003-3066-9357"
+        }
+    ],
+    "description": "XNAT for Preclinical Imaging Centers (XNAT-PIC) is a free and open-source Windows desktop application, which offers several tools to expand the XNAT core functionalities to support the preclinical imaging community and to promote open science practices. XNAT-PIC has been developed in collaboration with the University of Turin (UniTO) and the Institute of Biostructures and Bioimaging, National Research Council of Italy (IBB-CNR), and was supported by EU projects and Euro-BioImaging. https://www.eurobioimaging.eu/image-data-services/tool-development/preclinical-data-tools/",
+    "download": [
+        {
+            "type": "Software package",
+            "url": "https://www.cim.unito.it/website/download/XNAT-PIC-2.0.0-win32.msi",
+            "version": "v2.0"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "Feriel"
+        ],
+        "type": "group"
+    },
+    "function": [
+        {
+            "operation": [
+                {
+                    "term": "Conversion",
+                    "uri": "http://edamontology.org/operation_3434"
+                },
+                {
+                    "term": "Data deposition",
+                    "uri": "http://edamontology.org/operation_3431"
+                },
+                {
+                    "term": "Image annotation",
+                    "uri": "http://edamontology.org/operation_3553"
+                }
+            ]
+        }
+    ],
+    "homepage": "https://www.cim.unito.it/website/research/research_xnat.php",
+    "language": [
+        "MATLAB",
+        "Python"
+    ],
+    "lastUpdate": "2025-11-24T14:39:54.593440Z",
+    "license": "GPL-3.0",
+    "link": [
+        {
+            "type": [
+                "Other"
+            ],
+            "url": "https://github.com/cim-unito/XNAT-PIC"
+        }
+    ],
+    "name": "XNAT-PIC",
+    "operatingSystem": [
+        "Windows"
+    ],
+    "owner": "Jennifer",
+    "publication": [
+        {
+            "doi": "10.1007/s10278-022-00612-z",
+            "metadata": {
+                "citationCount": 4,
+                "date": "2022-08-01T00:00:00Z",
+                "journal": "Journal of Digital Imaging",
+                "title": "XNAT-PIC: Extending XNAT to Preclinical Imaging Centers"
+            },
+            "pmcid": "PMC9485318",
+            "pmid": "35304674"
+        }
+    ],
+    "topic": [
+        {
+            "term": "Data curation and archival",
+            "uri": "http://edamontology.org/topic_0219"
+        },
+        {
+            "term": "Data management",
+            "uri": "http://edamontology.org/topic_3071"
+        },
+        {
+            "term": "FAIR data",
+            "uri": "http://edamontology.org/topic_4012"
+        },
+        {
+            "term": "Medical imaging",
+            "uri": "http://edamontology.org/topic_3384"
+        },
+        {
+            "term": "Preclinical and clinical studies",
+            "uri": "http://edamontology.org/topic_3379"
+        }
+    ],
+    "validated": 1,
+    "version": [
+        "v2.0"
+    ]
+}

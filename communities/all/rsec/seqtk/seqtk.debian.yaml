@@ -1,0 +1,22 @@
+package: seqtk
+distribution: debian
+release: sid
+component: main
+version: '1.4'
+source: seqtk
+homepage: https://github.com/lh3/seqtk
+license: unknown
+blend: debian-med
+description_md5: 308a3dd5ca3e5c5c42215a0c840a4a23
+registries:
+- entry: OMICS_09736
+  name: OMICtools
+- entry: seqtk
+  name: bio.tools
+- entry: seqtk
+  name: conda:bioconda
+popcon:
+- insts: 152
+  olde: 115
+  recent: 25
+  vote: 12

@@ -1,0 +1,90 @@
+{
+    "Author": "Junpeng Zhang [aut, cre]",
+    "BugReports": "https://github.com/zhangjunpeng411/miRSM/issues",
+    "Date/Publication": "2026-09-07",
+    "Depends": [
+        "R (>= 4.4.0)"
+    ],
+    "Description": "The package aims to identify miRNA sponge or ceRNA modules in heterogeneous data. It provides several functions to study miRNA sponge modules at single-sample and multi-sample levels, including popular methods for inferring gene modules (candidate miRNA sponge or ceRNA modules), and two functions to identify miRNA sponge modules at single-sample and multi-sample levels, as well as several functions to conduct modular analysis of miRNA sponge modules.",
+    "Imports": [
+        "BicARE",
+        "Biobase",
+        "DOSE",
+        "GFA",
+        "GSEABase",
+        "MCL",
+        "MatrixCorrelation",
+        "NMF",
+        "PMA",
+        "RColorBrewer",
+        "Rcpp",
+        "ReactomePA",
+        "SOMbrero",
+        "SummarizedExperiment",
+        "WGCNA",
+        "clusterProfiler",
+        "dbscan",
+        "dynamicTreeCut",
+        "energy",
+        "fabia",
+        "flashClust",
+        "grid",
+        "igraph",
+        "isa2",
+        "mclust",
+        "methods",
+        "org.Hs.eg.db",
+        "ppclust",
+        "rJava",
+        "stats",
+        "utils"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "7ed193525a814f85ad2cd809a1b20a67",
+    "Maintainer": "Junpeng Zhang <zjp@dali.edu.cn>",
+    "NeedsCompilation": "yes",
+    "Package": "miRSM",
+    "Rank": 936,
+    "Rfiles": [
+        "vignettes/miRSM/inst/doc/miRSM.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Inferring miRNA sponge modules in heterogeneous data",
+    "URL": "https://github.com/zhangjunpeng411/miRSM",
+    "Version": "2.8.2",
+    "VignetteBuilder": "knitr, rmarkdown",
+    "biocViews": [
+        "BiomedicalInformatics",
+        "Clustering",
+        "GeneExpression",
+        "GeneRegulation",
+        "GeneSetEnrichment",
+        "GeneTarget",
+        "Microarray",
+        "Software"
+    ],
+    "dependencyCount": "238",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "9a5bffa",
+    "git_last_commit_date": "2026-09-05",
+    "git_url": "https://git.bioconductor.org/packages/miRSM",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/miRSM_2.8.2.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/miRSM_2.8.2.tgz",
+    "source.ver": "src/contrib/miRSM_2.8.2.tar.gz",
+    "vignetteTitles": [
+        "miRSM: inferring miRNA sponge modules in heterogeneous data"
+    ],
+    "vignettes": [
+        "vignettes/miRSM/inst/doc/miRSM.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/miRSM_2.8.2.zip"
+}

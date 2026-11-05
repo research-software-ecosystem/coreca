@@ -1,0 +1,23 @@
+package: bifrost
+distribution: debian
+release: sid
+component: main
+version: 1.3.5
+source: bifrost
+homepage: https://github.com/pmelsted/bifrost
+license: unknown
+blend: debian-med
+description_md5: 1c4084a65ddeb7c48cb4c7a3e425b3bc
+registries:
+- entry: Bifrost
+  name: bio.tools
+- entry: bifrost
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1101/695338
+popcon:
+- insts: 111
+  olde: 84
+  recent: 23
+  vote: 4

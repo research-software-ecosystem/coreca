@@ -1,0 +1,23 @@
+package: tophat-recondition
+distribution: debian
+release: sid
+component: main
+version: '1.4'
+source: tophat-recondition
+homepage: https://github.com/cbrueffer/tophat-recondition
+license: unknown
+blend: debian-med
+description_md5: b53fb81f926f4ff8c507481a84854191
+registries:
+- entry: tophat-recondition
+  name: bio.tools
+- entry: tophat-recondition
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/s12859-016-1058-x
+popcon:
+- insts: 115
+  olde: 87
+  recent: 23
+  vote: 5

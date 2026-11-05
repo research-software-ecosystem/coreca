@@ -1,0 +1,105 @@
+{
+    "Author": "Marcel Ramos [aut, cre] (ORCID: <https://orcid.org/0000-0002-3242-0582>), Lucas Schiffer [aut], Sean Davis [ctb], Levi Waldron [aut], NCI [fnd] (GrantNo.: U24CA289073)",
+    "BugReports": "https://github.com/waldronlab/TCGAutils/issues",
+    "Date/Publication": "2026-07-05",
+    "Depends": [
+        "R (>= 4.5.0)"
+    ],
+    "Description": "A suite of helper functions for checking and manipulating TCGA data including data obtained from the curatedTCGAData experiment package. These functions aim to simplify and make working with TCGA data more manageable. Exported functions include those that import data from flat files into Bioconductor objects, convert row annotations, and identifier translation via the GDC API.",
+    "Imports": [
+        "AnnotationDbi",
+        "BiocBaseUtils",
+        "BiocGenerics",
+        "GenomeInfoDb",
+        "GenomicDataCommons",
+        "GenomicFeatures",
+        "GenomicRanges",
+        "IRanges",
+        "MultiAssayExperiment",
+        "RaggedExperiment",
+        "S4Vectors",
+        "Seqinfo",
+        "SummarizedExperiment",
+        "glue",
+        "methods",
+        "rvest",
+        "stats",
+        "stringr",
+        "utils",
+        "xml2"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "8485266b87a6612dabe4861cd4dc82d0",
+    "Maintainer": "Marcel Ramos <marcel.ramos@sph.cuny.edu>",
+    "NeedsCompilation": "no",
+    "Package": "TCGAutils",
+    "Rank": 276,
+    "Rfiles": [
+        "vignettes/TCGAutils/inst/doc/TCGAutils.R"
+    ],
+    "Suggests": [
+        "AnnotationHub",
+        "Bioc.gff",
+        "BiocFileCache",
+        "BiocStyle",
+        "ComplexHeatmap",
+        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
+        "R.utils",
+        "RColorBrewer",
+        "RTCGAToolbox",
+        "TxDb.Hsapiens.UCSC.hg18.knownGene",
+        "TxDb.Hsapiens.UCSC.hg19.knownGene",
+        "curatedTCGAData",
+        "devtools",
+        "dplyr",
+        "httr",
+        "impute",
+        "knitr",
+        "magrittr",
+        "miRNAmeConverter",
+        "org.Hs.eg.db",
+        "readr",
+        "rmarkdown",
+        "rtracklayer",
+        "testthat"
+    ],
+    "Title": "TCGA utility functions for data management",
+    "Version": "1.32.2",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataImport",
+        "Preprocessing",
+        "Software",
+        "WorkflowStep"
+    ],
+    "dependencyCount": "103",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "8508150",
+    "git_last_commit_date": "2026-07-02",
+    "git_url": "https://git.bioconductor.org/packages/TCGAutils",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "RTCGAToolbox",
+        "cBioPortalData",
+        "glmSparseNet",
+        "imageFeatureTCGA",
+        "terraTCGAdata"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/TCGAutils_1.32.2.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/TCGAutils_1.32.2.tgz",
+    "source.ver": "src/contrib/TCGAutils_1.32.2.tar.gz",
+    "suggestsMe": [
+        "CNVRanger",
+        "curatedTCGAData"
+    ],
+    "vignetteTitles": [
+        "TCGAutils Essentials"
+    ],
+    "vignettes": [
+        "vignettes/TCGAutils/inst/doc/TCGAutils.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/TCGAutils_1.32.2.zip"
+}

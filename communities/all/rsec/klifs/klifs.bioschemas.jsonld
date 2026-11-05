@@ -1,0 +1,455 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1021/jm400378w",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/klifs",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": {
+        "@id": "https://orcid.org/0000-0001-5514-6021"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:N7c5f974f7fcc46bd9700e70b54a73c55"
+        },
+        {
+          "@id": "_:N481f207416804d958645be69a267a41d"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N8aa04a5e17a74921a6e0e03457c231ec"
+        },
+        {
+          "@id": "_:N57f27ffe5626423e90c31babd59e5edf"
+        },
+        {
+          "@id": "_:N27add95a17d0474baced42e99875ef07"
+        },
+        {
+          "@id": "_:N6080e32639144608a15e3cdc9a5b857f"
+        },
+        {
+          "@id": "_:N35775bb6d3cb4f528347aa4e966f8d8d"
+        },
+        {
+          "@id": "_:N91c8d5f1300147e9af5a1a30fda48b4d"
+        },
+        {
+          "@id": "_:N44f30a1564c440f1bcd66eee683ee7ae"
+        },
+        {
+          "@id": "_:Ncd45ee80fb664bc6b46987e9e7f6a2d0"
+        },
+        {
+          "@id": "_:Na6ff9ae280494aceb879d0bd0b7cd055"
+        },
+        {
+          "@id": "_:Nebf9665c0c57453fab06dfad2eca2ab5"
+        },
+        {
+          "@id": "_:N8b94a71e0c724b9caeecb15b662aa002"
+        },
+        {
+          "@id": "_:N549eaef5291c40d0b0c1cdc3646c0689"
+        },
+        {
+          "@id": "_:N01880c4bba264c7e9a19dc225eb747a3"
+        },
+        {
+          "@id": "_:N9d3917892b6841e5af1eaa3310472922"
+        },
+        {
+          "@id": "_:N7b3565b795664ecb9a2dc147853b60cb"
+        },
+        {
+          "@id": "_:Na675c3f735974b33b1a1a10e78765dee"
+        },
+        {
+          "@id": "_:N24c82ac5b31c49eea42adb793ba0bf1b"
+        },
+        {
+          "@id": "_:Nd1fd4d658a074c76a05ff576e87f5b15"
+        },
+        {
+          "@id": "_:N2a2dbdcadc3446e2b874ed4cbd18f24e"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Database portal",
+        "Web API",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3369"
+        },
+        {
+          "@id": "edam:topic_2258"
+        },
+        {
+          "@id": "edam:topic_3332"
+        },
+        {
+          "@id": "edam:topic_3336"
+        },
+        {
+          "@id": "edam:topic_0209"
+        },
+        {
+          "@id": "edam:topic_3303"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_3534"
+        },
+        {
+          "@id": "edam:topic_0128"
+        },
+        {
+          "@id": "edam:topic_3510"
+        },
+        {
+          "@id": "edam:topic_2814"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_1317"
+        },
+        {
+          "@id": "edam:topic_0122"
+        }
+      ],
+      "sc:author": {
+        "@id": "https://orcid.org/0000-0001-5514-6021"
+      },
+      "sc:citation": [
+        "pubmed:33084889",
+        "pmcid:PMC7778968",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkaa895"
+        },
+        "pubmed:26496949",
+        "pmcid:PMC4702798",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkv1082"
+        },
+        "pubmed:31677919",
+        {
+          "@id": "https://doi.org/10.1016/j.tips.2019.09.002"
+        },
+        "pubmed:23941661",
+        {
+          "@id": "https://doi.org/10.1021/jm400378w"
+        }
+      ],
+      "sc:description": "KLIFS — Kinase–Ligand Interaction Fingerprints and Structures — is a structural kinase database focusing on how kinase inhibitors interact with their targets. The aim of KLIFS is to support (structure-based) kinase research through the systematic collection, annotation, and processing of kinase structures.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0297"
+        },
+        {
+          "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_3282"
+        },
+        {
+          "@id": "edam:operation_0244"
+        },
+        {
+          "@id": "edam:operation_2492"
+        },
+        {
+          "@id": "edam:operation_0250"
+        },
+        {
+          "@id": "edam:operation_2487"
+        },
+        {
+          "@id": "edam:operation_0482"
+        },
+        {
+          "@id": "edam:operation_0248"
+        },
+        {
+          "@id": "edam:operation_0292"
+        },
+        {
+          "@id": "edam:operation_0564"
+        },
+        {
+          "@id": "edam:operation_0360"
+        },
+        {
+          "@id": "edam:operation_0295"
+        },
+        {
+          "@id": "edam:operation_2480"
+        },
+        {
+          "@id": "edam:operation_2996"
+        },
+        {
+          "@id": "edam:operation_0339"
+        },
+        {
+          "@id": "edam:operation_0570"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Not licensed",
+      "sc:name": "KLIFS",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://klifs.net/swagger"
+        },
+        {
+          "@id": "https://klifs.net/faq.php"
+        }
+      ],
+      "sc:softwareVersion": "3.2",
+      "sc:url": "https://klifs.net"
+    },
+    {
+      "@id": "_:N7c5f974f7fcc46bd9700e70b54a73c55",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2886"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2554"
+      },
+      "sc:name": "Protein sequence record"
+    },
+    {
+      "@id": "_:N481f207416804d958645be69a267a41d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1460"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_1476"
+      },
+      "sc:name": "Protein structure"
+    },
+    {
+      "@id": "_:N8aa04a5e17a74921a6e0e03457c231ec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1712"
+      },
+      "sc:name": "Chemical structure image"
+    },
+    {
+      "@id": "_:N57f27ffe5626423e90c31babd59e5edf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0954"
+      },
+      "sc:name": "Database cross-mapping"
+    },
+    {
+      "@id": "_:N27add95a17d0474baced42e99875ef07",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2080"
+      },
+      "sc:name": "Database search results"
+    },
+    {
+      "@id": "_:N6080e32639144608a15e3cdc9a5b857f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2050"
+      },
+      "sc:name": "Molecular property (general)"
+    },
+    {
+      "@id": "_:N35775bb6d3cb4f528347aa4e966f8d8d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0982"
+      },
+      "sc:name": "Molecule identifier"
+    },
+    {
+      "@id": "_:N91c8d5f1300147e9af5a1a30fda48b4d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0984"
+      },
+      "sc:name": "Molecule name"
+    },
+    {
+      "@id": "_:N44f30a1564c440f1bcd66eee683ee7ae",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0906"
+      },
+      "sc:name": "Protein interaction report"
+    },
+    {
+      "@id": "_:Ncd45ee80fb664bc6b46987e9e7f6a2d0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0897"
+      },
+      "sc:name": "Protein property"
+    },
+    {
+      "@id": "_:Na6ff9ae280494aceb879d0bd0b7cd055",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2992"
+      },
+      "sc:name": "Protein structure image"
+    },
+    {
+      "@id": "_:Nebf9665c0c57453fab06dfad2eca2ab5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1537"
+      },
+      "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "_:N8b94a71e0c724b9caeecb15b662aa002",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1461"
+      },
+      "sc:name": "Protein-ligand complex"
+    },
+    {
+      "@id": "_:N549eaef5291c40d0b0c1cdc3646c0689",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0893"
+      },
+      "sc:name": "Sequence-structure alignment"
+    },
+    {
+      "@id": "_:N01880c4bba264c7e9a19dc225eb747a3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1463"
+      },
+      "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "_:N9d3917892b6841e5af1eaa3310472922",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0890"
+      },
+      "sc:name": "Structural (3D) profile alignment"
+    },
+    {
+      "@id": "_:N7b3565b795664ecb9a2dc147853b60cb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0889"
+      },
+      "sc:name": "Structural profile"
+    },
+    {
+      "@id": "_:Na675c3f735974b33b1a1a10e78765dee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1481"
+      },
+      "sc:name": "Structure alignment (protein)"
+    },
+    {
+      "@id": "_:N24c82ac5b31c49eea42adb793ba0bf1b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0888"
+      },
+      "sc:name": "Structure similarity score"
+    },
+    {
+      "@id": "_:Nd1fd4d658a074c76a05ff576e87f5b15",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1498"
+      },
+      "sc:name": "Tanimoto similarity score"
+    },
+    {
+      "@id": "_:N2a2dbdcadc3446e2b874ed4cbd18f24e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkaa895",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.tips.2019.09.002",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5514-6021",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv1082",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

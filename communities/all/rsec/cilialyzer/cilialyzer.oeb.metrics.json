@@ -1,0 +1,72 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:cilialyzer/workflow/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "manual": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 11,
+                            "citations": [
+                                {
+                                    "count": 3,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1016/j.cmpb.2023.107744",
+                            "pmid": "37598471",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "The Cilialyzer - A freely available open-source software for the analysis of mucociliary activity in respiratory cells.",
+                            "year": 2023
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://github.com/msdev87/Cilialyzer_ghpage"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

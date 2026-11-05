@@ -1,0 +1,32 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix bioschemas: <http://bioschemas.org/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix debianmed: <https://salsa.debian.org/med-team/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix scicrunch: <https://scicrunch.org/resolver/> .
+
+debianmed:cd-hit a schema1:SoftwareApplication ;
+    bioschemas:input edam:data_2975,
+        edam:format_1929,
+        edam:format_1930 ;
+    bioschemas:output edam:format_1929 ;
+    schema1:additionalType edam:data_2975 ;
+    schema1:applicationSubCategory edam:topic_0622 ;
+    schema1:citation "doi:10.1093/bioinformatics/btl158" ;
+    schema1:encodingFormat edam:format_1929,
+        edam:format_1930 ;
+    schema1:featureList edam:data_0863,
+        edam:operation_0291,
+        edam:operation_0292,
+        edam:topic_0164,
+        edam:topic_0182 ;
+    schema1:identifier biotools:cd-hit,
+        bioconda:cd-hit,
+        scicrunch:SCR_007105,
+        "omictools:OMICS_05157" ;
+    schema1:license "unknown" ;
+    schema1:name "cd-hit" ;
+    schema1:softwareVersion "4.8.1" ;
+    schema1:url <http://weizhongli-lab.org/cd-hit/> .
+

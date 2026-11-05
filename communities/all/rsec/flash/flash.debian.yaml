@@ -1,0 +1,23 @@
+package: flash
+distribution: debian
+release: sid
+component: main
+version: 1.2.11
+source: flash
+homepage: https://ccb.jhu.edu/software/FLASH/
+license: unknown
+blend: debian-med
+description_md5: 2b0a1d5b09e058c1ff9c1e57286c0cc5
+registries:
+- entry: flash
+  name: bio.tools
+- entry: flash
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btr507
+popcon:
+- insts: 128
+  olde: 97
+  recent: 24
+  vote: 7

@@ -1,0 +1,73 @@
+{
+    "Archs": "x64",
+    "Author": "Gianni Monaco [aut], Chen Hao [ctb]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.3.0)"
+    ],
+    "Description": "The package is able to perform an automatic or interactive quality control on FCS data acquired using flow cytometry instruments. By evaluating three different properties: 1) flow rate, 2) signal acquisition, 3) dynamic range, the quality control enables the detection and removal of anomalies.",
+    "Imports": [
+        "RColorBrewer",
+        "changepoint",
+        "flowCore",
+        "ggplot2",
+        "graphics",
+        "knitr",
+        "methods",
+        "plyr",
+        "reshape2",
+        "rmarkdown",
+        "scales",
+        "stats",
+        "utils"
+    ],
+    "License": "GPL (>= 2)",
+    "MD5sum": "9480ccb329a49240115b10ccc1bb119e",
+    "Maintainer": "Gianni Monaco <mongianni1@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "flowAI",
+    "Rank": 345,
+    "Rfiles": [
+        "vignettes/flowAI/inst/doc/flowAI.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "shiny",
+        "testthat"
+    ],
+    "Title": "Automatic and interactive quality control for flow cytometry data",
+    "Version": "1.42.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "BiomedicalInformatics",
+        "FlowCytometry",
+        "ImmunoOncology",
+        "QualityControl",
+        "Software"
+    ],
+    "dependencyCount": "68",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "58d8067",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/flowAI",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "CytoPipeline"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/flowAI_1.42.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/flowAI_1.42.0.tgz",
+    "source.ver": "src/contrib/flowAI_1.42.0.tar.gz",
+    "suggestsMe": [
+        "staRgate"
+    ],
+    "vignetteTitles": [
+        "Automatic and GUI methods to do quality control on Flow cytometry Data"
+    ],
+    "vignettes": [
+        "vignettes/flowAI/inst/doc/flowAI.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/flowAI_1.42.0.zip"
+}

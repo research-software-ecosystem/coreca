@@ -1,0 +1,27 @@
+package: freebayes
+distribution: debian
+release: sid
+component: main
+version: 1.3.9
+source: freebayes
+homepage: https://github.com/ekg/freebayes
+license: unknown
+blend: debian-med
+description_md5: b7e8ee9cfe0c2093be3d78a8098290de
+registries:
+- entry: OMICS_00059
+  name: OMICtools
+- entry: SCR_010761
+  name: SciCrunch
+- entry: freebayes
+  name: bio.tools
+- entry: freebayes
+  name: conda:bioconda
+bib:
+- key: doi
+  value: arXiv:1207.3907
+popcon:
+- insts: 127
+  olde: 97
+  recent: 25
+  vote: 5

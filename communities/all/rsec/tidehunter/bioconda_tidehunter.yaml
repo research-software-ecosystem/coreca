@@ -1,0 +1,37 @@
+about:
+  dev_url: https://github.com/yangao07/TideHunter
+  doc_url: https://github.com/yangao07/TideHunter/blob/v1.5.6/README.md
+  home: https://github.com/yangao07/TideHunter
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: 'TideHunter: efficient and sensitive tandem repeat detection from noisy
+    long reads using seed-and-chain.'
+build:
+  number: 1
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:TideHunter
+  - doi:10.1093/bioinformatics/btz376
+package:
+  name: tidehunter
+  version: 1.5.6
+requirements:
+  build:
+  - make
+  - null
+  - null
+  - null
+  host:
+  - zlib
+source:
+  sha256: 14e697b3414a070afecf79b76496ae5e54dd829223c71876ca06f5b45ee31f3c
+  url: https://github.com/yangao07/TideHunter/releases/download/v1.5.6/TideHunter-v1.5.6.tar.gz
+test:
+  commands:
+  - TideHunter --version | grep 1.5.6

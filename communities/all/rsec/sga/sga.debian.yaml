@@ -1,0 +1,27 @@
+package: sga
+distribution: debian
+release: sid
+component: main
+version: 0.10.15
+source: sga
+homepage: https://github.com/jts/sga
+license: unknown
+blend: debian-med
+description_md5: 4551d08cc0a7516892fb0af250b69e37
+registries:
+- entry: OMICS_00028
+  name: OMICtools
+- entry: SCR_001982
+  name: SciCrunch
+- entry: SGA
+  name: bio.tools
+- entry: sga
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1101/gr.126953.111
+popcon:
+- insts: 113
+  olde: 86
+  recent: 23
+  vote: 4

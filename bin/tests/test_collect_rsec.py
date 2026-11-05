@@ -720,13 +720,27 @@ class TestToolSet(RsecTestCase):
 
     def test_run_filtering_deletes_rejected_folders(self) -> None:
         kw_content = {
-            "edam": {"operations": [], "topics": []},
-            "keywords": [],
+            "edam": {"operations": ["operation_0001"], "topics": ["topic_0154"]},
+            "keywords": ["genomics"],
             "acronyms": [],
         }
+        # kw_content = {
+        #     "edam": {"operations": [], "topics": []},
+        #     "keywords": [],
+        #     "acronyms": [],
+        # }
         tmp_path = self.tmp_path
         kw = _make_keywords_yaml(tmp_path, content=kw_content)
-        doomed = _make_tool_folder(tmp_path, "doomed")
+        # doomed = _make_tool_folder(tmp_path, "doomed")
+        doomed = _make_tool_folder(
+            tmp_path,
+            "doomed",
+            biotools={
+                "name": "doomed",
+                "topic": [{"uri": "edam:not_a_valid_topic"}],
+                "function": [{"operation": [{"uri": "edam:not_a_valid_operation"}]}],
+            },
+        )
         ts = _make_toolset(tmp_path, kw_file=kw)
         ts.run_filtering()
         assert not doomed.exists()
@@ -1345,3 +1359,7 @@ class TestGenerateTsvSummary(RsecTestCase):
         generate_tsv_summary(json_path, tsv_path)
         for row in self._read_tsv(tsv_path):
             assert row["to_keep"] == "True"
+
+
+if __name__ == "__main__":
+    unittest.main()

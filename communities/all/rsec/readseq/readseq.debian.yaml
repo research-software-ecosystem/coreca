@@ -1,0 +1,35 @@
+package: readseq
+distribution: debian
+release: sid
+component: main
+version: '1'
+source: readseq
+homepage: http://iubio.bio.indiana.edu/soft/molbio/readseq/
+license: unknown
+blend: debian-med
+description_md5: ea5b579d2401da971810ba00ea4b7cc8
+registries:
+- entry: OMICS_17576
+  name: OMICtools
+- entry: readseq
+  name: bio.tools
+- entry: readseq
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1002/0471250953.bia01es00
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::converting
+- tag: works-with-format::plaintext
+- tag: works-with::TODO
+popcon:
+- insts: 137
+  olde: 108
+  recent: 23
+  vote: 6

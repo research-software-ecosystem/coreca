@@ -1,0 +1,27 @@
+package: fasttree
+distribution: debian
+release: sid
+component: main
+version: 2.1.11
+source: fasttree
+homepage: http://www.microbesonline.org/fasttree/
+license: unknown
+blend: debian-med
+description_md5: 92f3a33129721b36163994961abaa6df
+registries:
+- entry: OMICS_14703
+  name: OMICtools
+- entry: SCR_015501
+  name: SciCrunch
+- entry: fasttree
+  name: bio.tools
+- entry: fasttree
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1371/journal.pone.0009490
+popcon:
+- insts: 160
+  olde: 129
+  recent: 22
+  vote: 9

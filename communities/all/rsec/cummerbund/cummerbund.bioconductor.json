@@ -1,0 +1,54 @@
+{
+    "Author": "L. Goff, C. Trapnell, D. Kelley",
+    "Depends": [
+        "BiocGenerics (>= 0.3.2)",
+        "Gviz",
+        "R (>= 2.7.0)",
+        "RSQLite",
+        "fastcluster",
+        "ggplot2",
+        "reshape2",
+        "rtracklayer"
+    ],
+    "Description": "Allows for persistent storage, access, exploration, and manipulation of Cufflinks high-throughput sequencing data.  In addition, provides numerous plotting functions for commonly used visualizations.",
+    "Imports": [
+        "Biobase",
+        "BiocGenerics",
+        "S4Vectors (>= 0.9.25)",
+        "methods",
+        "plyr"
+    ],
+    "License": "Artistic-2.0",
+    "Maintainer": "Loyal A. Goff <lgoff@csail.mit.edu>",
+    "Package": "cummeRbund",
+    "PackageStatus": "Deprecated",
+    "Rank": 1215,
+    "Suggests": [
+        "GenomicFeatures",
+        "GenomicRanges",
+        "NMFN",
+        "cluster",
+        "plyr",
+        "rjson",
+        "stringr"
+    ],
+    "Title": "Analysis, exploration, manipulation, and visualization of Cufflinks high-throughput sequencing data.",
+    "Version": "2.54.0",
+    "biocViews": [
+        "Bioinformatics",
+        "Clustering",
+        "DataImport",
+        "DataRepresentation",
+        "DifferentialExpression",
+        "GeneExpression",
+        "HighThroughputSequencing",
+        "HighThroughputSequencingData",
+        "Infrastructure",
+        "MultipleComparisons",
+        "QualityControl",
+        "RNAseq",
+        "RNAseqData",
+        "Software",
+        "Visualization"
+    ]
+}

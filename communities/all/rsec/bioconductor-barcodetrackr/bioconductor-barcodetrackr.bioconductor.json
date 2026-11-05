@@ -1,0 +1,53 @@
+{
+    "Author": "Diego Alexander Espinoza [aut, cre], Ryland Mortlock [aut]",
+    "Depends": [
+        "R (>= 4.1)"
+    ],
+    "Description": "barcodetrackR is an R package developed for the analysis and visualization of clonal tracking data. Data required is samples and tag abundances in matrix form. Usually from cellular barcoding experiments, integration site retrieval analyses, or similar technologies.",
+    "Imports": [
+        "RColorBrewer",
+        "S4Vectors",
+        "SummarizedExperiment",
+        "circlize",
+        "cowplot",
+        "dplyr",
+        "ggdendro",
+        "ggplot2",
+        "ggridges",
+        "grDevices",
+        "graphics",
+        "magrittr",
+        "plyr",
+        "proxy",
+        "rlang",
+        "scales",
+        "shiny",
+        "stats",
+        "tibble",
+        "tidyr",
+        "utils",
+        "vegan",
+        "viridis"
+    ],
+    "License": "file LICENSE",
+    "Maintainer": "Diego Alexander Espinoza <diego.espinoza@pennmedicine.upenn.edu>",
+    "Package": "barcodetrackR",
+    "PackageStatus": "Deprecated",
+    "Rank": 2407,
+    "Suggests": [
+        "BiocStyle",
+        "knitr",
+        "magick",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Functions for Analyzing Cellular Barcoding Data",
+    "URL": "https://github.com/dunbarlabNIH/barcodetrackR",
+    "Version": "1.20.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Sequencing",
+        "Software",
+        "Visualization"
+    ]
+}

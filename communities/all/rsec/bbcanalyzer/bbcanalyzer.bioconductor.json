@@ -1,0 +1,55 @@
+{
+    "Author": "Sarah Sandmann",
+    "Date/Publication": "2026-04-28",
+    "Description": "BBCAnalyzer is a package for visualizing the relative or absolute number of bases, deletions and insertions at defined positions in sequence alignment data available as bam files in comparison to the reference bases. Markers for the relative base frequencies, the mean quality of the detected bases, known mutations or polymorphisms and variants called in the data may additionally be included in the plots.",
+    "Imports": [
+        "Biostrings",
+        "GenomicRanges",
+        "IRanges",
+        "Rsamtools",
+        "SummarizedExperiment",
+        "VariantAnnotation",
+        "grDevices"
+    ],
+    "License": "LGPL-3",
+    "MD5sum": "ef3019df6a8659a951415ab56a7eb10e",
+    "Maintainer": "Sarah Sandmann <sarah.sandmann@uni-muenster.de>",
+    "NeedsCompilation": "no",
+    "Package": "BBCAnalyzer",
+    "Rank": 762,
+    "Rfiles": [
+        "vignettes/BBCAnalyzer/inst/doc/BBCAnalyzer.R"
+    ],
+    "Suggests": [
+        "BSgenome.Hsapiens.UCSC.hg19"
+    ],
+    "Title": "BBCAnalyzer: an R/Bioconductor package for visualizing base counts",
+    "Version": "1.42.0",
+    "biocViews": [
+        "Alignment",
+        "Coverage",
+        "GeneticVariability",
+        "SNP",
+        "Sequencing",
+        "Software"
+    ],
+    "dependencyCount": "77",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "c72ccc1",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/BBCAnalyzer",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/BBCAnalyzer_1.42.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/BBCAnalyzer_1.42.0.tgz",
+    "source.ver": "src/contrib/BBCAnalyzer_1.42.0.tar.gz",
+    "vignetteTitles": [
+        "Using BBCAnalyzer"
+    ],
+    "vignettes": [
+        "vignettes/BBCAnalyzer/inst/doc/BBCAnalyzer.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/BBCAnalyzer_1.42.0.zip"
+}

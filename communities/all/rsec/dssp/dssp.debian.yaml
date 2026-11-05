@@ -1,0 +1,22 @@
+package: dssp
+distribution: debian
+release: sid
+component: main
+version: 4.6.1
+source: dssp
+homepage: https://github.com/PDB-REDO/dssp
+license: unknown
+blend: debian-med
+description_md5: e8368751e3e591945febff8664088a8c
+registries:
+- entry: OMICS_06247
+  name: OMICtools
+- entry: SCR_002725
+  name: SciCrunch
+- entry: dssp
+  name: bio.tools
+popcon:
+- insts: 154
+  olde: 121
+  recent: 27
+  vote: 6

@@ -1,0 +1,71 @@
+{
+    "Author": "Matthew N. McCall <mccallm@gmail.com>, Rafael A. Irizarry <rafa@jhu.edu>",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 2.10.0)",
+        "affy"
+    ],
+    "Description": "Tools for advanced use of the frma package.",
+    "Imports": [
+        "Biobase",
+        "DBI",
+        "methods",
+        "preprocessCore",
+        "stats",
+        "utils"
+    ],
+    "License": "GPL (>= 2)",
+    "MD5sum": "499a83203db685e8b5848d79ea814fbd",
+    "Maintainer": "Matthew N. McCall <mccallm@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "frmaTools",
+    "Rank": 956,
+    "Rfiles": [
+        "vignettes/frmaTools/inst/doc/frmaTools.R"
+    ],
+    "Suggests": [
+        "affyPLM",
+        "frma",
+        "frmaExampleData",
+        "hgu133acdf",
+        "hgu133afrmavecs",
+        "hgu133aprobe",
+        "hgu133atagcdf",
+        "hgu133atagprobe",
+        "hgu133plus2cdf",
+        "hgu133plus2probe",
+        "oligo",
+        "pd.huex.1.0.st.v2",
+        "pd.hugene.1.0.st.v1"
+    ],
+    "Title": "Frozen RMA Tools",
+    "URL": "http://bioconductor.org",
+    "Version": "1.64.0",
+    "biocViews": [
+        "Microarray",
+        "Preprocessing",
+        "Software"
+    ],
+    "dependencyCount": "13",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "f7e937f",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/frmaTools",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "DeSousa2013"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/frmaTools_1.64.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/frmaTools_1.64.0.tgz",
+    "source.ver": "src/contrib/frmaTools_1.64.0.tar.gz",
+    "vignetteTitles": [
+        "frmaTools: Create packages containing the vectors used by frma."
+    ],
+    "vignettes": [
+        "vignettes/frmaTools/inst/doc/frmaTools.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/frmaTools_1.64.0.zip"
+}

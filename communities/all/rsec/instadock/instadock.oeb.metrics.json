@@ -1,0 +1,101 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:instadock/app/hassanlab.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 101,
+                            "citations": [
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 20,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 22,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 36,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bib/bbaa279",
+                            "pmid": "33105480",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "InstaDock: A single-click graphical user interface for molecular docking-based virtual high-throughput screening.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://hassanlab.org/instadock/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/instadock",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 404,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://hassanlab.org/instadock/"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,58 @@
+{
+    "Author": "Sylvain Gubian <DL.RSupport@pmi.com>, Alain Sewer <DL.RSupport@pmi.com>, PMP SA",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biobase (>= 2.5.5)",
+        "R (>= 2.10)",
+        "affy (>= 1.26.1)",
+        "limma"
+    ],
+    "Description": "This package contains functions for reading raw data in ImaGene TXT format obtained from Exiqon miRCURY LNA arrays, annotating them with appropriate GAL files, and normalizing them using a spike-in probe-based method. Other platforms and data formats are also supported.",
+    "Imports": [
+        "Biobase(>= 2.5.5)",
+        "affyio(>= 1.13.3)",
+        "preprocessCore(>= 1.10.0)"
+    ],
+    "License": "GPL-2",
+    "MD5sum": "e3256a3a324a4d28741ba5b0b5a3208f",
+    "Maintainer": "Sylvain Gubian <DL.RSupport@pmi.com>",
+    "NeedsCompilation": "no",
+    "Package": "ExiMiR",
+    "Rank": 689,
+    "Rfiles": [
+        "vignettes/ExiMiR/inst/doc/ExiMiR-vignette.R"
+    ],
+    "Suggests": [
+        "mirna10cdf"
+    ],
+    "Title": "R functions for the normalization of Exiqon miRNA array data",
+    "Version": "2.54.0",
+    "biocViews": [
+        "GeneExpression",
+        "Microarray",
+        "OneChannel",
+        "Preprocessing",
+        "Software",
+        "Transcription",
+        "TwoChannel"
+    ],
+    "dependencyCount": "14",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "e275382",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/ExiMiR",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/ExiMiR_2.54.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/ExiMiR_2.54.0.tgz",
+    "source.ver": "src/contrib/ExiMiR_2.54.0.tar.gz",
+    "vignetteTitles": [
+        "Description of ExiMiR"
+    ],
+    "vignettes": [
+        "vignettes/ExiMiR/inst/doc/ExiMiR-vignette.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/ExiMiR_2.54.0.zip"
+}

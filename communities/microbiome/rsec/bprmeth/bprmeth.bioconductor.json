@@ -1,0 +1,68 @@
+{
+    "Author": "Chantriolnt-Andreas Kapourani [aut, cre]",
+    "Depends": [
+        "GenomicRanges",
+        "R (>= 3.5.0)"
+    ],
+    "Description": "The BPRMeth package is a probabilistic method to quantify explicit features of methylation profiles, in a way that would make it easier to formally use such profiles in downstream modelling efforts, such as predicting gene expression levels or clustering genomic regions or cells according to their methylation profiles.",
+    "Imports": [
+        "BiocStyle",
+        "IRanges",
+        "MASS",
+        "Rcpp (>= 0.12.14)",
+        "S4Vectors",
+        "assertthat",
+        "cowplot",
+        "data.table",
+        "doParallel",
+        "e1071",
+        "earth",
+        "foreach",
+        "ggplot2",
+        "graphics",
+        "kernlab",
+        "magrittr",
+        "matrixcalc",
+        "methods",
+        "mvtnorm",
+        "parallel",
+        "randomForest",
+        "stats",
+        "truncnorm"
+    ],
+    "License": "GPL-3 | file LICENSE",
+    "LinkingTo": [
+        "Rcpp",
+        "RcppArmadillo"
+    ],
+    "Maintainer": "Chantriolnt-Andreas Kapourani <kapouranis.andreas@gmail.com>",
+    "Package": "BPRMeth",
+    "PackageStatus": "Deprecated",
+    "Rank": 2066,
+    "Suggests": [
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Model higher-order methylation profiles",
+    "Version": "1.38.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Bayesian",
+        "Clustering",
+        "Coverage",
+        "DNAMethylation",
+        "Epigenetics",
+        "FeatureExtraction",
+        "GeneExpression",
+        "GeneRegulation",
+        "Genetics",
+        "ImmunoOncology",
+        "KEGG",
+        "RNASeq",
+        "Regression",
+        "Sequencing",
+        "SingleCell",
+        "Software"
+    ]
+}

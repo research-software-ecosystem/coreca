@@ -1,0 +1,27 @@
+package: r-bioc-deseq2
+distribution: debian
+release: sid
+component: main
+version: 1.52.0
+source: r-bioc-deseq2
+homepage: https://bioconductor.org/packages/DESeq2/
+license: unknown
+blend: debian-med
+description_md5: 7d4d9dd5bc65d6be9b96d140df99c703
+registries:
+- entry: OMICS_01306
+  name: OMICtools
+- entry: SCR_000154
+  name: SciCrunch
+- entry: deseq2
+  name: bio.tools
+- entry: bioconductor-deseq2
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/s13059-014-0550-8
+popcon:
+- insts: 235
+  olde: 184
+  recent: 27
+  vote: 24

@@ -1,0 +1,67 @@
+{
+    "additionDate": "2026-01-21T04:19:22.375410Z",
+    "biotoolsCURIE": "biotools:rosalution",
+    "biotoolsID": "rosalution",
+    "collectionID": [
+        "Rare Disease"
+    ],
+    "cost": "Free of charge",
+    "credit": [
+        {
+            "name": "Angelina Uno-Antonison",
+            "url": "https://github.com/SeriousHorncat"
+        }
+    ],
+    "description": "Rosalution assists researchers study genetic variation 🧬 in patients 🧑🏾‍🤝‍🧑🏼 by helping select candidate animal models 🐀🐁🐠🪱 to replicate the variation to further research to derive, diagnose, and provide therapies for ultra-rare diseases. Developed by the UAB Center for Computational Genomics and Data Science (CGDS).",
+    "download": [
+        {
+            "type": "Source code",
+            "url": "https://github.com/uab-cgds-worthey/rosalution/releases/tag/0.8.8-er",
+            "version": "0.8.8-er"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "homepage": "https://github.com/uab-cgds-worthey/rosalution",
+    "language": [
+        "JavaScript",
+        "Python"
+    ],
+    "lastUpdate": "2026-03-26T19:36:53.927081Z",
+    "license": "GPL-3.0",
+    "link": [
+        {
+            "type": [
+                "Issue tracker"
+            ],
+            "url": "https://github.com/uab-cgds-worthey/rosalution/issues"
+        },
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/uab-cgds-worthey/rosalution"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "Rosalution",
+    "owner": "sdhutchins",
+    "publication": [
+        {
+            "doi": "10.21105/joss.05443"
+        }
+    ],
+    "toolType": [
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Genetic variation",
+            "uri": "http://edamontology.org/topic_0199"
+        }
+    ],
+    "version": [
+        "0.8.8-er"
+    ]
+}

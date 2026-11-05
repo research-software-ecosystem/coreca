@@ -1,0 +1,25 @@
+package: ipig
+distribution: debian
+release: sid
+component: main
+version: 0.0.r5
+source: ipig
+homepage: http://sourceforge.net/projects/ipig/
+license: unknown
+blend: debian-med
+description_md5: e7fed74addfdd4f7e012d77bd745b91e
+registries:
+- entry: OMICS_06913
+  name: OMICtools
+- entry: SCR_016164
+  name: SciCrunch
+- entry: iPiG
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1371/journal.pone.0050246
+popcon:
+- insts: 116
+  olde: 89
+  recent: 23
+  vote: 4

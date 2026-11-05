@@ -1,3 +1,4 @@
+import sys
 import tempfile
 import textwrap
 import unittest
@@ -7,6 +8,15 @@ from typing import (
     Dict,
 )
 
+# ---------------------------------------------------------------------------
+# Make sure Python can find the source modules in bin/
+# This works whether you run pytest from the project root or from tests/.
+# ---------------------------------------------------------------------------
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+# ---------------------------------------------------------------------------
+# Import the classes and utils functions under test
+# ---------------------------------------------------------------------------
 import utils
 from bioconda_manager import (
     BiocondaRecipe,
@@ -110,6 +120,76 @@ class TestBiocondaRecipe(unittest.TestCase):
         recipe.load(self.sample_recipe)
         self.assertTrue(recipe.test_about(self.keywords))
 
+    def test_acronym_ITS_matches_uppercase(self) -> None:
+        recipe = BiocondaRecipe()
+        recipe.load(
+            {
+                "about": {
+                    "summary": "Analysis of ITS sequences",
+                    "description": "This tool analyzes ribosomal ITS regions for taxonomy",
+                },
+                "package": {"name": "its-analyzer", "version": "1.0"},
+            }
+        )
+        keywords: Dict[str, Any] = {"keywords": [], "acronyms": ["ITS"]}
+        self.assertTrue(recipe.test_about(keywords))
+
+    def test_acronym_ITS_does_not_match_lowercase(self) -> None:
+        recipe = BiocondaRecipe()
+        recipe.load(
+            {
+                "about": {
+                    "summary": "Evaluates system integrity",
+                    "description": "Checks configuration integrity and its parameters",
+                },
+                "package": {"name": "config-checker", "version": "1.0"},
+            }
+        )
+        keywords: Dict[str, Any] = {"keywords": [], "acronyms": ["ITS"]}
+        self.assertFalse(recipe.test_about(keywords))
+
+    def test_acronym_OTU_matches_uppercase(self) -> None:
+        recipe = BiocondaRecipe()
+        recipe.load(
+            {
+                "about": {
+                    "summary": "OTU clustering analysis",
+                    "description": "Performs Operational Taxonomic Unit clustering",
+                },
+                "package": {"name": "otu-clusterer", "version": "1.0"},
+            }
+        )
+        keywords: Dict[str, Any] = {"keywords": [], "acronyms": ["OTU"]}
+        self.assertTrue(recipe.test_about(keywords))
+
+    def test_acronym_ASV_matches_uppercase(self) -> None:
+        recipe = BiocondaRecipe()
+        recipe.load(
+            {
+                "about": {
+                    "summary": "ASV inference from amplicon sequences",
+                    "description": "Pipeline for detecting Amplicon Sequence Variants",
+                },
+                "package": {"name": "asv-pipeline", "version": "1.0"},
+            }
+        )
+        keywords: Dict[str, Any] = {"keywords": [], "acronyms": ["ASV"]}
+        self.assertTrue(recipe.test_about(keywords))
+
+    def test_acronym_multiple_acronyms(self) -> None:
+        recipe = BiocondaRecipe()
+        recipe.load(
+            {
+                "about": {
+                    "summary": "Analysis of ITS and OTU data",
+                    "description": "Compares Internal Transcribed Spacer and OTU assignments",
+                },
+                "package": {"name": "otu-its-compare", "version": "1.0"},
+            }
+        )
+        keywords: Dict[str, Any] = {"keywords": [], "acronyms": ["ITS", "OTU", "ASV"]}
+        self.assertTrue(recipe.test_about(keywords))
+
     def test_export_to_dict(self) -> None:
         recipe = BiocondaRecipe()
         recipe.load(self.sample_recipe)
@@ -173,7 +253,8 @@ class TestBiocondaRecipes(unittest.TestCase):
 
             # Parse all recipes
             recipes = BiocondaRecipes()
-            recipes.parse_all(str(recipes_dir.parent))
+            # recipes.parse_all(str(recipes_dir.parent))
+            recipes.parse_all(str(recipes_dir))
 
             # Check parsed content
             self.assertEqual(len(recipes.recipes), 3)

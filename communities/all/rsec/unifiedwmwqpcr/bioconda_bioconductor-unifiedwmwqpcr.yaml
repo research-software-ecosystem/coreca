@@ -1,0 +1,45 @@
+about:
+  description: This packages implements the unified Wilcoxon-Mann-Whitney Test for
+    qPCR data. This modified test allows for testing differential expression in qPCR
+    data.
+  home: https://bioconductor.org/packages/3.22/bioc/html/unifiedWMWqPCR.html
+  license: GPL (>=2)
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: Unified Wilcoxon-Mann Whitney Test for testing differential expression
+    in qPCR data
+build:
+  noarch: generic
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:unifiedwmwqpcr
+  parent_recipe:
+    name: bioconductor-unifiedwmwqpcr
+    path: recipes/bioconductor-unifiedwmwqpcr
+    version: 1.16.0
+package:
+  name: bioconductor-unifiedwmwqpcr
+  version: 1.46.0
+requirements:
+  host:
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - r-base
+  run:
+  - bioconductor-biocgenerics >=0.56.0,<0.57.0
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - r-base
+source:
+  md5: ea2b269c62cbf3e6ed9047f044312fba
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/unifiedWMWqPCR_1.46.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/unifiedWMWqPCR/unifiedWMWqPCR_1.46.0.tar.gz
+  - https://bioarchive.galaxyproject.org/unifiedWMWqPCR_1.46.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-unifiedwmwqpcr/bioconductor-unifiedwmwqpcr_1.46.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('unifiedWMWqPCR')"

@@ -1,0 +1,41 @@
+about:
+  dev_url: https://github.com/splatlab/mantis
+  home: https://github.com/splatlab/mantis
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: 'Mantis: A Fast, Small, and Exact Large-Scale Sequence-Search Index.'
+build:
+  number: 4
+  run_exports:
+  - null
+  skip: true
+extra:
+  identifiers:
+  - doi:10.1016/j.cels.2018.05.021
+  - biotools:mantis_index
+package:
+  name: mantis
+  version: '0.2'
+requirements:
+  build:
+  - make
+  - null
+  - null
+  - cmake >=3.9
+  - pkg-config
+  host:
+  - openssl
+  - sdsl-lite
+  - zlib
+  run:
+  - openssl
+  - sdsl-lite
+source:
+  patches:
+  - 0001-CXX.patch
+  sha256: f18372be5e7aa84afb3bb595221b64acea025f97f33698bb490047cb2e7b2036
+  url: https://github.com/splatlab/mantis/archive/0fb7dbb60e4a38aa21da7c85f98565786af5fe62.tar.gz
+test:
+  commands:
+  - mantis --version

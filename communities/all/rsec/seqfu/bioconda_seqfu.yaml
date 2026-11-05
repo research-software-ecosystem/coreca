@@ -1,0 +1,58 @@
+about:
+  description: 'A collection of utilities to work with FASTX (FASTA or FASTQ) files
+
+    that accept gzipped input.
+
+    Tools to interleave and deinterleave, to calculate stats, and extract
+
+    portions of sequence datasets.
+
+    '
+  docs: https://corebio.info/seqfu_v1
+  home: https://github.com/quadram-institute-bioscience/seqfu_v1
+  license: GPL-3.0-only
+  license_family: GPL3
+  license_file: LICENSE
+  summary: DNA sequence utilities.
+build:
+  number: 0
+  run_exports:
+  - null
+  skip: true
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:seqfu
+  - doi:10.3390/bioengineering8050059
+  recipe-maintainers:
+  - telatin
+  skip-lints:
+  - compiler_needs_stdlib_c
+package:
+  name: seqfu
+  version: 1.30.0
+requirements:
+  build:
+  - null
+  - null
+  - nim >=2.2.0
+  - make
+  - pkg-config
+  - coreutils
+  host:
+  - curl
+  - pcre
+  - zlib
+  run:
+  - pcre
+source:
+  sha256: 2acabab4696cc4bd48ecd590887e2c90941de46d07685cc1a8899060d1bb7cef
+  url: https://github.com/quadram-institute-bioscience/seqfu_v1/archive/refs/tags/v1.30.0.tar.gz
+test:
+  commands:
+  - seqfu
+  - seqfu stats --help
+  - seqfu --version
+  - seqfu --version | grep '1.30.0'

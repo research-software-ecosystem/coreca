@@ -1,0 +1,504 @@
+{
+    "accessibility": "Open access",
+    "additionDate": "2016-02-03T14:20:28Z",
+    "biotoolsCURIE": "biotools:brenda",
+    "biotoolsID": "brenda",
+    "collectionID": [
+        "DSMZ Digital Diversity",
+        "de.NBI"
+    ],
+    "cost": "Free of charge (with restrictions)",
+    "credit": [
+        {
+            "email": "contact@brenda-enzymes.org",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "gridid": "grid.420081.f",
+            "name": "Leibniz Institute DSMZ-German Collection of Microorganisms and Cell Cultures",
+            "rorid": "02tyer376",
+            "url": "https://www.dsmz.de/"
+        },
+        {
+            "name": "BMBF",
+            "typeEntity": "Funding agency",
+            "typeRole": [
+                "Contributor"
+            ]
+        }
+    ],
+    "description": "Internationally leading information system on all aspects of enzymes, including function, structure, involvement in diseases, application, engineering, and molecular properties. The database includes hundreds of milllions of enzyme data and is compiled from manual literature annotation, data integration from other databases and predicted enzyme functions and locations.",
+    "documentation": [
+        {
+            "type": [
+                "Citation instructions"
+            ],
+            "url": "http://www.brenda-enzymes.org/introduction.php"
+        },
+        {
+            "type": [
+                "FAQ"
+            ],
+            "url": "https://www.brenda-enzymes.org/faq.php"
+        },
+        {
+            "type": [
+                "Terms of use"
+            ],
+            "url": "http://www.brenda-enzymes.org/copy.php"
+        },
+        {
+            "type": [
+                "Training material"
+            ],
+            "url": "https://www.brenda-enzymes.org/help.php"
+        },
+        {
+            "type": [
+                "Training material"
+            ],
+            "url": "https://www.brenda-enzymes.org/tutorial.php"
+        }
+    ],
+    "editPermission": {
+        "authors": [
+            "AJaede",
+            "juh22",
+            "lje"
+        ],
+        "type": "group"
+    },
+    "elixirNode": [
+        "Germany"
+    ],
+    "elixirPlatform": [
+        "Data",
+        "Interoperability",
+        "Tools"
+    ],
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Compound name",
+                        "uri": "http://edamontology.org/data_0990"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "EC number",
+                        "uri": "http://edamontology.org/data_1011"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Enzyme kinetics data",
+                        "uri": "http://edamontology.org/data_2024"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Enzyme name",
+                        "uri": "http://edamontology.org/data_1012"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Gene name",
+                        "uri": "http://edamontology.org/data_2299"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "NCBI taxonomy ID",
+                        "uri": "http://edamontology.org/data_1179"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Ontology name",
+                        "uri": "http://edamontology.org/data_1051"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Organism name",
+                        "uri": "http://edamontology.org/data_2909"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "PDB ID",
+                        "uri": "http://edamontology.org/data_1127"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Pathway or network accession",
+                        "uri": "http://edamontology.org/data_2365"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Pathway or network name",
+                        "uri": "http://edamontology.org/data_2342"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "PubMed ID",
+                        "uri": "http://edamontology.org/data_1187"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Reaction ID",
+                        "uri": "http://edamontology.org/data_2108"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Strain name",
+                        "uri": "http://edamontology.org/data_1046"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "UniProt ID",
+                        "uri": "http://edamontology.org/data_2291"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "UniProt accession",
+                        "uri": "http://edamontology.org/data_3021"
+                    }
+                }
+            ],
+            "operation": [
+                {
+                    "term": "Database search",
+                    "uri": "http://edamontology.org/operation_2421"
+                },
+                {
+                    "term": "Genome feature comparison",
+                    "uri": "http://edamontology.org/operation_3194"
+                },
+                {
+                    "term": "Genome visualisation",
+                    "uri": "http://edamontology.org/operation_3208"
+                },
+                {
+                    "term": "Literature search",
+                    "uri": "http://edamontology.org/operation_0305"
+                },
+                {
+                    "term": "Pathway or network visualisation",
+                    "uri": "http://edamontology.org/operation_3083"
+                },
+                {
+                    "term": "Sequence database search",
+                    "uri": "http://edamontology.org/operation_0338"
+                },
+                {
+                    "term": "Sequence similarity search",
+                    "uri": "http://edamontology.org/operation_0346"
+                },
+                {
+                    "term": "Structural similarity search",
+                    "uri": "http://edamontology.org/operation_0360"
+                },
+                {
+                    "term": "Structure visualisation",
+                    "uri": "http://edamontology.org/operation_0570"
+                },
+                {
+                    "term": "Text mining",
+                    "uri": "http://edamontology.org/operation_0306"
+                },
+                {
+                    "term": "Transmembrane protein prediction",
+                    "uri": "http://edamontology.org/operation_0269"
+                },
+                {
+                    "term": "Transmembrane protein visualisation",
+                    "uri": "http://edamontology.org/operation_2241"
+                },
+                {
+                    "term": "Visualisation",
+                    "uri": "http://edamontology.org/operation_0337"
+                }
+            ],
+            "output": [
+                {
+                    "data": {
+                        "term": "CATH identifier",
+                        "uri": "http://edamontology.org/data_2700"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "EC number",
+                        "uri": "http://edamontology.org/data_1011"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Enzyme kinetics data",
+                        "uri": "http://edamontology.org/data_2024"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Enzyme name",
+                        "uri": "http://edamontology.org/data_1012"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "NCBI taxonomy ID",
+                        "uri": "http://edamontology.org/data_1179"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Organism name",
+                        "uri": "http://edamontology.org/data_2909"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "PDB ID",
+                        "uri": "http://edamontology.org/data_1127"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Pathway or network accession",
+                        "uri": "http://edamontology.org/data_2365"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Pathway or network name",
+                        "uri": "http://edamontology.org/data_2342"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Reaction ID",
+                        "uri": "http://edamontology.org/data_2108"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "SCOP domain identifier",
+                        "uri": "http://edamontology.org/data_1039"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Strain name",
+                        "uri": "http://edamontology.org/data_1046"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "UniProt ID",
+                        "uri": "http://edamontology.org/data_2291"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "UniProt accession",
+                        "uri": "http://edamontology.org/data_3021"
+                    }
+                }
+            ]
+        }
+    ],
+    "homepage": "http://www.brenda-enzymes.org",
+    "lastUpdate": "2026-02-05T07:01:46.010390Z",
+    "license": "CC-BY-4.0",
+    "link": [
+        {
+            "type": [
+                "Helpdesk"
+            ],
+            "url": "https://brenda-enzymes.org/support.php"
+        },
+        {
+            "type": [
+                "Other"
+            ],
+            "url": "https://www.dsmz.de/"
+        },
+        {
+            "type": [
+                "Service"
+            ],
+            "url": "https://hub.dsmz.de/#/"
+        },
+        {
+            "type": [
+                "Service"
+            ],
+            "url": "https://www.brenda-enzymes.org/"
+        }
+    ],
+    "maturity": "Mature",
+    "name": "BRENDA",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "matkrull",
+    "publication": [
+        {
+            "doi": "10.1093/nar/gkaa1025",
+            "pmcid": "PMC7779020",
+            "pmid": "33211880"
+        },
+        {
+            "doi": "10.1093/nar/gky1048",
+            "pmcid": "PMC6323942",
+            "pmid": "30395242"
+        },
+        {
+            "doi": "10.1093/nar/30.1.47",
+            "pmcid": "PMC99121",
+            "pmid": "11752250",
+            "type": [
+                "Other"
+            ]
+        },
+        {
+            "doi": "10.1093/nar/gkaf1113",
+            "pmcid": "PMC12807770",
+            "pmid": "41206471",
+            "type": [
+                "Primary"
+            ]
+        },
+        {
+            "doi": "10.1093/nar/gkh081",
+            "pmcid": "PMC308815",
+            "pmid": "14681450",
+            "type": [
+                "Other"
+            ]
+        },
+        {
+            "doi": "10.1093/nar/gkl972",
+            "pmcid": "PMC1899097",
+            "pmid": "17202167",
+            "type": [
+                "Other"
+            ]
+        },
+        {
+            "doi": "10.1093/nar/gkn820",
+            "pmcid": "PMC2686525",
+            "pmid": "18984617",
+            "type": [
+                "Other"
+            ]
+        },
+        {
+            "doi": "10.1093/nar/gkq1089",
+            "pmcid": "PMC3013686",
+            "pmid": "21062828",
+            "type": [
+                "Other"
+            ]
+        },
+        {
+            "doi": "10.1093/nar/gkq968",
+            "pmcid": "PMC3013802",
+            "pmid": "21030441",
+            "type": [
+                "Other"
+            ]
+        },
+        {
+            "doi": "10.1093/nar/gks1049",
+            "pmcid": "PMC3531171",
+            "pmid": "23203881",
+            "type": [
+                "Other"
+            ]
+        },
+        {
+            "doi": "10.1093/nar/gku1068",
+            "pmcid": "PMC4383907",
+            "pmid": "25378310",
+            "type": [
+                "Other"
+            ]
+        },
+        {
+            "doi": "10.1186/1471-2105-12-329",
+            "pmcid": "PMC3166944",
+            "pmid": "21827651",
+            "type": [
+                "Other"
+            ]
+        },
+        {
+            "doi": "10.1016/j.jbiotec.2017.04.020",
+            "pmid": "28438579"
+        },
+        {
+            "doi": "10.1016/s0968-0004(01)02027-8",
+            "pmid": "11796225",
+            "type": [
+                "Other"
+            ]
+        }
+    ],
+    "relation": [
+        {
+            "biotoolsID": "bto",
+            "type": "includes"
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Biochemistry",
+            "uri": "http://edamontology.org/topic_3292"
+        },
+        {
+            "term": "Bioinformatics",
+            "uri": "http://edamontology.org/topic_0091"
+        },
+        {
+            "term": "Biology",
+            "uri": "http://edamontology.org/topic_3070"
+        },
+        {
+            "term": "Biomedical science",
+            "uri": "http://edamontology.org/topic_3344"
+        },
+        {
+            "term": "Biotechnology",
+            "uri": "http://edamontology.org/topic_3297"
+        },
+        {
+            "term": "Data mining",
+            "uri": "http://edamontology.org/topic_3473"
+        },
+        {
+            "term": "Enzymes",
+            "uri": "http://edamontology.org/topic_0821"
+        }
+    ],
+    "validated": 1
+}

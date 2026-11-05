@@ -1,0 +1,29 @@
+package: bcftools
+distribution: debian
+release: sid
+component: main
+version: '1.24'
+source: bcftools
+homepage: https://samtools.github.io/bcftools/
+license: unknown
+blend: debian-med
+description_md5: 2de6efc9fd60536b3eed1acdf68063bd
+registries:
+- entry: OMICS_13458
+  name: OMICtools
+- entry: SCR_005227
+  name: SciCrunch
+- entry: bcftools
+  name: bio.tools
+- entry: bcftools
+  name: conda:bioconda
+- entry: bcftools
+  name: guix
+bib:
+- key: doi
+  value: 10.1101/090811
+popcon:
+- insts: 302
+  olde: 245
+  recent: 30
+  vote: 27

@@ -1,0 +1,204 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/bionda",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "bioinfoservice@rub.de",
+      "bsc:input": [
+        {
+          "@id": "_:N92d81af888f747be941d7f1b711cde06"
+        },
+        {
+          "@id": "_:Nf8e603a7ef444ca4b87344c769d909cc"
+        },
+        {
+          "@id": "_:N0fd0671f9b124e29886d0234bf4258bd"
+        },
+        {
+          "@id": "_:Nd5c5b1c5eca64cf8ab9deb5ce059ebbb"
+        },
+        {
+          "@id": "_:N7ae8b1570e054f63a84a87eb7b5c2906"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N2936b97d648043b8a521beaa8e6df898"
+        },
+        {
+          "@id": "_:N66cd1b3188c94f3fa0b3c8b9ea9148af"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Database portal",
+        "Web service"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_3360"
+        },
+        {
+          "@id": "edam:topic_3068"
+        },
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:author": "Ruhr-Universitaet Bochum, Medizinisches Proteom-Center (MPC)",
+      "sc:contributor": "Ruhr-Universitaet Bochum, Medizinisches Proteom-Center (MPC)",
+      "sc:description": "The BIONDA biomarker database provides structured information on all biomarker candidates published in PubMed articles. There is no limitation to any kind of diseases. To this end, PubMed article abstracts and renowned databases such as UniProt and Human Disease Ontology are used as sources for BIONDA’s database entries. These are acquired automatically and updated regularly using text mining methods. BIONDA is available freely via a user-friendly web interface. As a specific characteristic, BIONDA’s database entries are rated by a scoring approach estimating biomarker reliability.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2421"
+        },
+        {
+          "@id": "edam:operation_3280"
+        },
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_3625"
+        },
+        {
+          "@id": "edam:operation_0306"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "CC-BY-4.0",
+      "sc:name": "BIONDA - Biomarker Database",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": {
+        "@id": "http://bionda.mpc.ruhr-uni-bochum.de/help.php"
+      },
+      "sc:softwareVersion": "1..1.10",
+      "sc:url": "http://bionda.mpc.rub.de/start.php"
+    },
+    {
+      "@id": "_:N92d81af888f747be941d7f1b711cde06",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2091"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Accession"
+    },
+    {
+      "@id": "_:Nf8e603a7ef444ca4b87344c769d909cc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0976"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Identifier (by type of data)"
+    },
+    {
+      "@id": "_:N0fd0671f9b124e29886d0234bf4258bd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2099"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Name"
+    },
+    {
+      "@id": "_:Nd5c5b1c5eca64cf8ab9deb5ce059ebbb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2353"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2332"
+      },
+      "sc:name": "Ontology data"
+    },
+    {
+      "@id": "_:N7ae8b1570e054f63a84a87eb7b5c2906",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2007"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "UniProt keyword"
+    },
+    {
+      "@id": "_:N2936b97d648043b8a521beaa8e6df898",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N66cd1b3188c94f3fa0b3c8b9ea9148af",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Text data"
+    }
+  ]
+}

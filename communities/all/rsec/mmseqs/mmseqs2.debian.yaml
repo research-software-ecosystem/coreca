@@ -1,0 +1,28 @@
+package: mmseqs2
+distribution: debian
+release: sid
+component: main
+version: 18-8cc5c+ds
+source: mmseqs2
+homepage: https://github.com/soedinglab/MMseqs2
+license: unknown
+blend: debian-med
+description_md5: 822197ebd72a66105eb34f923c612ad8
+registries:
+- entry: OMICS_11001
+  name: OMICtools
+- entry: mmseqs
+  name: bio.tools
+- entry: mmseqs2
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1038/s41467-018-04964-5
+- key: doi
+  rank: 1
+  value: 10.1101/2020.11.27.401018
+popcon:
+- insts: 127
+  olde: 97
+  recent: 24
+  vote: 6

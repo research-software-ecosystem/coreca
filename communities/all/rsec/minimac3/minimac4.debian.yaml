@@ -1,0 +1,31 @@
+package: minimac4
+distribution: debian
+release: sid
+component: main
+version: 4.1.6
+source: minimac4
+homepage: https://genome.sph.umich.edu/wiki/Minimac4
+license: unknown
+blend: debian-med
+description_md5: d57aef9620099bbdbfd44355d369ff4d
+registries:
+- entry: OMICS_08953
+  name: OMICtools
+- entry: SCR_009292
+  name: SciCrunch
+- entry: Minimac3
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1038/ng.3656
+- key: doi
+  rank: 1
+  value: 10.1093/bioinformatics/btu704
+- key: doi
+  rank: 2
+  value: 10.1038/ng.2354
+popcon:
+- insts: 113
+  olde: 87
+  recent: 23
+  vote: 3

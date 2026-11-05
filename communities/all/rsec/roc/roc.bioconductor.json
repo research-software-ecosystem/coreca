@@ -1,0 +1,62 @@
+{
+    "Author": "Vince Carey <stvjc@channing.harvard.edu>, Henning Redestig for C++ language enhancements",
+    "BugReports": "https://github.com/vjcitn/ROC/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 1.9.0)",
+        "methods",
+        "utils"
+    ],
+    "Description": "Provide utilities for ROC, with microarray focus.",
+    "Imports": [
+        "knitr"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "2a1339fe406706463064e39fb46d8712",
+    "Maintainer": "Vince Carey <stvjc@channing.harvard.edu>",
+    "NeedsCompilation": "yes",
+    "Package": "ROC",
+    "Rank": 221,
+    "Suggests": [
+        "Biobase",
+        "BiocStyle",
+        "rmarkdown"
+    ],
+    "Title": "utilities for ROC, with microarray focus",
+    "URL": "https://github.com/vjcitn/ROC",
+    "Version": "1.88.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DifferentialExpression",
+        "Software"
+    ],
+    "dependencyCount": "10",
+    "dependsOnMe": [
+        "TCC",
+        "wateRmelon"
+    ],
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "9c02de3",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/ROC",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "clst"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/ROC_1.88.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/ROC_1.88.0.tgz",
+    "source.ver": "src/contrib/ROC_1.88.0.tar.gz",
+    "suggestsMe": [
+        "genefilter"
+    ],
+    "vignetteTitles": [
+        "Notes on ROC package"
+    ],
+    "vignettes": [
+        "vignettes/ROC/inst/doc/ROCnotes.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/ROC_1.88.0.zip"
+}

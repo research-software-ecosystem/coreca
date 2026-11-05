@@ -1,0 +1,530 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:besst:1/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 0,
+                            "citations": [],
+                            "doi": "10.1101/025650",
+                            "pmcid": null,
+                            "pmid": null,
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": null,
+                            "year": null
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2021
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-15-281",
+                            "pmcid": "PMC4262078",
+                            "pmid": "25128196",
+                            "ref_count": 23,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2012
+                                }
+                            ],
+                            "title": "BESST--efficient scaffolding of large fragmented assemblies.",
+                            "year": 2014
+                        }
+                    ]
+                },
+                {
+                    "entries": [
+                        {
+                            "cit_count": 9,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2016
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/bts441",
+                            "pmid": "22923455",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Improved gap size estimation for scaffolding algorithms.",
+                            "year": 2012
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false,
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT9350917S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/besst",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": null,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT9350917S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:besst:2.2.3/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT9350917S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:besst:2.2.7/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT9350917S"
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/bioconda:besst:2.2.8/cmd/github.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "bioconda",
+        "@type": "metrics",
+        "distribution": {
+            "binaries": {
+                "freeness": null,
+                "registration": null
+            },
+            "packages": true,
+            "source_packages": true,
+            "sourcecode": {
+                "free": true,
+                "interpreted": true,
+                "license": true,
+                "public": true,
+                "readme": true,
+                "repository": {
+                    "anonymous": true,
+                    "online": true
+                }
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": true,
+                "osi": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 68,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2021
+                                }
+                            ],
+                            "doi": "10.1186/1471-2105-15-281",
+                            "pmcid": "PMC4262078",
+                            "pmid": "25128196",
+                            "ref_count": 23,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2012
+                                }
+                            ],
+                            "title": "BESST--efficient scaffolding of large fragmented assemblies.",
+                            "year": 2014
+                        }
+                    ]
+                }
+            ],
+            "readme": true,
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "issue_tracking": {
+                "public_tracker": true,
+                "resolve_time": "PT9350917S"
+            }
+        }
+    }
+]

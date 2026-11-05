@@ -1,0 +1,58 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix bioschemas: <http://bioschemas.org/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix galaxytool: <https://github.com/galaxyproject/tools-iuc/tree/master/tools/> .
+@prefix schema1: <http://schema.org/> .
+
+galaxytool:msstatstmt a schema1:SoftwareApplication ;
+    bioschemas:output "pdf",
+        "tabular",
+        "txt" ;
+    schema1:applicationSubCategory edam:topic_0108,
+        edam:topic_0121,
+        edam:topic_3520 ;
+    schema1:codeRepository <https://github.com/MeenaChoi/MSstats> ;
+    schema1:dateCreated "2020-07-25" ;
+    schema1:description "MSstats tool for analyzing mass spectrometry proteomic datasets" ;
+    schema1:encodingFormat "pdf",
+        "tabular",
+        "txt" ;
+    schema1:featureList edam:operation_3643,
+        edam:operation_3741,
+        edam:operation_3860 ;
+    schema1:identifier biotools:msstatstmt,
+        bioconda:bioconductor-msstats ;
+    schema1:isPartOf <https://galaxy.mesocentre.uca.fr>,
+        <https://usegalaxy.be>,
+        <https://usegalaxy.ca>,
+        <https://usegalaxy.cz>,
+        <https://usegalaxy.eu>,
+        <https://usegalaxy.no>,
+        <https://usegalaxy.org>,
+        <https://usegalaxy.org.au>,
+        <https://usegalaxy.org.au/published/workflow?id=1727d16fa4dec19c>,
+        <https://workflowhub.eu/workflows/1426?version=1>,
+        <https://workflowhub.eu/workflows/1458?version=1>,
+        <https://workflowhub.eu/workflows/1462?version=1> ;
+    schema1:keywords "Proteomics" ;
+    schema1:name "msstatstmt" ;
+    schema1:softwareVersion "@TOOL_VERSION@+galaxy@VERSION_SUFFIX@" ;
+    schema1:url <https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/msstats> .
+
+<https://galaxy.mesocentre.uca.fr> a schema1:WebSite .
+
+<https://usegalaxy.be> a schema1:WebSite .
+
+<https://usegalaxy.ca> a schema1:WebSite .
+
+<https://usegalaxy.cz> a schema1:WebSite .
+
+<https://usegalaxy.eu> a schema1:WebSite .
+
+<https://usegalaxy.no> a schema1:WebSite .
+
+<https://usegalaxy.org> a schema1:WebSite .
+
+<https://usegalaxy.org.au> a schema1:WebSite .
+

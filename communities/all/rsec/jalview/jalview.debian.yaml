@@ -1,0 +1,30 @@
+package: jalview
+distribution: debian
+release: sid
+component: main
+version: 2.11.5.0
+source: jalview
+homepage: https://www.jalview.org
+license: unknown
+blend: debian-med
+description_md5: 92268a8829a03697abafe2eb31617a27
+registries:
+- entry: OMICS_00885
+  name: OMICtools
+- entry: SCR_006459
+  name: SciCrunch
+- entry: jalview
+  name: bio.tools
+- entry: jalview
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btp033
+- key: doi
+  rank: 1
+  value: 10.1093/bioinformatics/btr304
+popcon:
+- insts: 126
+  olde: 96
+  recent: 23
+  vote: 7

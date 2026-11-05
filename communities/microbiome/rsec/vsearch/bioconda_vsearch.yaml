@@ -1,0 +1,51 @@
+about:
+  dev_url: https://github.com/torognes/vsearch
+  doc_url: https://torognes.github.io/vsearch
+  home: https://github.com/torognes/vsearch
+  license: GPL-3.0-or-later OR BSD-2-Clause
+  license_family: GPL3
+  license_file: LICENSE.txt
+  summary: A versatile open source tool for metagenomics (USEARCH alternative).
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:vsearch
+  - usegalaxy-eu:vsearch_search
+  - usegalaxy-eu:vsearch_sorting
+  - usegalaxy-eu:vsearch_chimera_detection
+  - usegalaxy-eu:vsearch_clustering
+  - usegalaxy-eu:vsearch_masking
+  - usegalaxy-eu:vsearch_alignment
+  - usegalaxy-eu:vsearch_dereplication
+  - usegalaxy-eu:vsearch_shuffling
+  - doi:10.7717/peerj.2584
+package:
+  name: vsearch
+  version: 2.32.0
+requirements:
+  build:
+  - make
+  - null
+  - null
+  - null
+  - automake
+  - autoconf
+  - libtool
+  - pkg-config
+  host:
+  - zlib
+  - bzip2
+source:
+  sha256: aa6fecd099ba4970b2685e41e3a97e04f1317d12cb315870e3acdc1cd6b7fe5d
+  url: https://github.com/torognes/vsearch/archive/v2.32.0.tar.gz
+test:
+  commands:
+  - vsearch --version
+  files:
+  - small.fna.gz

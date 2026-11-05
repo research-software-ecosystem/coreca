@@ -1,0 +1,133 @@
+{
+    "additionDate": "2023-11-14T10:18:43.128123Z",
+    "biotoolsCURIE": "biotools:meta-base",
+    "biotoolsID": "meta-base",
+    "credit": [
+        {
+            "email": "arif.canakoglu@polmi.it",
+            "name": "Arif Canakoglu",
+            "orcidid": "https://orcid.org/0000-0003-4528-6586",
+            "typeEntity": "Person"
+        },
+        {
+            "email": "marco.masseroli@polimi.it",
+            "name": "Marco Masseroli",
+            "orcidid": "https://orcid.org/0000-0003-2574-1174",
+            "typeEntity": "Person"
+        },
+        {
+            "email": "stefano.ceri@polimi.it",
+            "name": "Stefano Ceri",
+            "orcidid": "https://orcid.org/0000-0003-0671-2415",
+            "typeEntity": "Person"
+        },
+        {
+            "email": "anna.bernasconi@polimi.it",
+            "name": "Anna Bernasconi",
+            "orcidid": "https://orcid.org/0000-0001-8016-5750",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "ELIXIR-ITA",
+            "typeEntity": "Project",
+            "url": "https://elixir-italy.org/"
+        },
+        {
+            "name": "ELIXIR-ITA-POLIMI",
+            "typeEntity": "Project",
+            "url": "https://www.deib.polimi.it/eng/elixir-iib"
+        }
+    ],
+    "description": "META-BASE is a big repository of genomic datasets homogenized with the Genomic Data Model format, including Encode, TCGA, Roadmap Epigenomics, 1000 Genomes and others.",
+    "editPermission": {
+        "authors": [
+            "ELIXIR-ITA-POLIMI",
+            "abernasconi"
+        ],
+        "type": "group"
+    },
+    "elixirNode": [
+        "Italy"
+    ],
+    "elixirPlatform": [
+        "Data"
+    ],
+    "homepage": "https://github.com/DEIB-GECO/Metadata-Manager/",
+    "lastUpdate": "2026-01-04T12:42:06.911335Z",
+    "link": [
+        {
+            "type": [
+                "Repository"
+            ],
+            "url": "http://geco.deib.polimi.it/datasets/"
+        }
+    ],
+    "name": "META-BASE",
+    "owner": "abernasconi",
+    "publication": [
+        {
+            "doi": "10.1109/tcbb.2020.2998954",
+            "metadata": {
+                "citationCount": 18,
+                "date": "2022-01-01T00:00:00Z",
+                "journal": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
+                "title": "META-BASE: A Novel Architecture for Large-Scale Genomic Metadata Integration"
+            },
+            "pmid": "32750853"
+        }
+    ],
+    "relation": [
+        {
+            "biotoolsID": "gmql",
+            "type": "usedBy"
+        },
+        {
+            "biotoolsID": "pygmql",
+            "type": "usedBy"
+        },
+        {
+            "biotoolsID": "rgmql",
+            "type": "usedBy"
+        }
+    ],
+    "toolType": [
+        "Database portal"
+    ],
+    "topic": [
+        {
+            "term": "Copy number variation",
+            "uri": "http://edamontology.org/topic_3958"
+        },
+        {
+            "term": "Data curation and archival",
+            "uri": "http://edamontology.org/topic_0219"
+        },
+        {
+            "term": "Epigenomics",
+            "uri": "http://edamontology.org/topic_3173"
+        },
+        {
+            "term": "Gene expression",
+            "uri": "http://edamontology.org/topic_0203"
+        },
+        {
+            "term": "Gene structure",
+            "uri": "http://edamontology.org/topic_0114"
+        },
+        {
+            "term": "Genetic variation",
+            "uri": "http://edamontology.org/topic_0199"
+        },
+        {
+            "term": "Genomics",
+            "uri": "http://edamontology.org/topic_0622"
+        },
+        {
+            "term": "Protein binding sites",
+            "uri": "http://edamontology.org/topic_3534"
+        }
+    ]
+}

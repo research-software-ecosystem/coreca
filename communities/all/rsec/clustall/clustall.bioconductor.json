@@ -1,0 +1,79 @@
+{
+    "Author": "Asier Ortega-Legarreta [aut, cre] (ORCID: <https://orcid.org/0009-0000-3563-5362>), Sara Palomino-Echeverria [aut]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.2.0)"
+    ],
+    "Description": "Data driven strategy to find hidden groups of patients with complex diseases using clinical data. ClustAll facilitates the unsupervised identification of multiple robust stratifications. ClustAll, is able to overcome the most common limitations found when dealing with clinical data (missing values, correlated data, mixed data types).",
+    "Imports": [
+        "ComplexHeatmap",
+        "FactoMineR",
+        "RColorBrewer",
+        "bigstatsr",
+        "circlize",
+        "clValid",
+        "cluster",
+        "doSNOW",
+        "dplyr",
+        "flock",
+        "foreach",
+        "fpc",
+        "ggplot2",
+        "grDevices",
+        "grid",
+        "methods",
+        "mice",
+        "modeest",
+        "networkD3",
+        "parallel",
+        "pbapply",
+        "stats",
+        "utils"
+    ],
+    "License": "GPL-2",
+    "MD5sum": "fd937d5784977f999c5181ca99d2de28",
+    "Maintainer": "Asier Ortega-Legarreta <aortegal@navarra.es>",
+    "NeedsCompilation": "no",
+    "Package": "ClustAll",
+    "Rank": 1985,
+    "Rfiles": [
+        "vignettes/ClustAll/inst/doc/Vignette_Clustall.R"
+    ],
+    "Suggests": [
+        "BiocGenerics",
+        "BiocStyle",
+        "RUnit",
+        "knitr",
+        "rmarkdown",
+        "roxygen2"
+    ],
+    "Title": "ClustAll: Data driven strategy to robustly identify stratification of patients within complex diseases",
+    "Version": "1.8.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Clustering",
+        "DimensionReduction",
+        "PrincipalComponent",
+        "Software",
+        "StatisticalMethod"
+    ],
+    "dependencyCount": "193",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "ff17887",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/ClustAll",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/ClustAll_1.8.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/ClustAll_1.8.0.tgz",
+    "source.ver": "src/contrib/ClustAll_1.8.0.tar.gz",
+    "vignetteTitles": [
+        "ClustALL User's Guide"
+    ],
+    "vignettes": [
+        "vignettes/ClustAll/inst/doc/Vignette_Clustall.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/ClustAll_1.8.0.zip"
+}

@@ -1,0 +1,74 @@
+{
+    "Author": "Mike Smith [aut, ccp] (ORCID: <https://orcid.org/0000-0002-7800-3848>, Maintainer from 2022 to 2025.), Hugo Gruson [aut, cre] (ORCID: <https://orcid.org/0000-0002-4094-1476>), Artür Manukyan [ctb], Sharla Gelfand [ctb], German Network for Bioinformatics Infrastructure - de.NBI [fnd]",
+    "BugReports": "https://github.com/Huber-group-EMBL/Rarr/issues",
+    "Date/Publication": "2026-05-31",
+    "Depends": [
+        "R (>= 4.1.0)"
+    ],
+    "Description": "The Zarr specification defines a format for chunked, compressed, N-dimensional arrays.  It's design allows efficient access to subsets of the stored array, and supports both local and cloud storage systems.  Rarr aims to implement this specification in R with minimal reliance on an external tools or libraries.",
+    "Imports": [
+        "R.utils",
+        "curl",
+        "jsonlite",
+        "lifecycle",
+        "paws.storage",
+        "utils"
+    ],
+    "License": "MIT + file LICENSE",
+    "MD5sum": "e6134d0401e2aa2cf7fc37533da398bc",
+    "Maintainer": "Hugo Gruson <hugo.gruson@embl.de>",
+    "NeedsCompilation": "yes",
+    "Package": "Rarr",
+    "Rank": 607,
+    "Rfiles": [
+        "vignettes/Rarr/inst/doc/Rarr.R",
+        "vignettes/Rarr/inst/doc/features.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "ZarrArray",
+        "knitr",
+        "rmarkdown",
+        "testthat (>= 3.0.0)",
+        "withr"
+    ],
+    "SystemRequirements": "GNU make",
+    "Title": "Read Zarr Files in R",
+    "URL": "https://huber-group-embl.github.io/Rarr/, https://github.com/Huber-group-EMBL/Rarr",
+    "Version": "2.0.1",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataImport",
+        "Software"
+    ],
+    "dependencyCount": "29",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "4ed1f2e",
+    "git_last_commit_date": "2026-05-29",
+    "git_url": "https://git.bioconductor.org/packages/Rarr",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "ImageArray",
+        "ZarrArray"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/Rarr_2.0.1.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/Rarr_2.0.1.tgz",
+    "source.ver": "src/contrib/Rarr_2.0.1.tar.gz",
+    "suggestsMe": [
+        "anndataR"
+    ],
+    "vignetteTitles": [
+        "\"Supported Zarr features in Rarr\"",
+        "\"Working with Zarr arrays in R\"",
+        "Design principles for the Rarr package"
+    ],
+    "vignettes": [
+        "vignettes/Rarr/inst/doc/Rarr.html",
+        "vignettes/Rarr/inst/doc/design.html",
+        "vignettes/Rarr/inst/doc/features.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/Rarr_2.0.1.zip"
+}

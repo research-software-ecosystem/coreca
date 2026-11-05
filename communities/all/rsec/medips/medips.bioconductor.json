@@ -1,0 +1,83 @@
+{
+    "Author": "Lukas Chavez, Matthias Lienhard, Joern Dietrich, Isaac Lopez Moyado",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "BSgenome",
+        "R (>= 3.0)",
+        "Rsamtools"
+    ],
+    "Description": "MEDIPS was developed for analyzing data derived from methylated DNA immunoprecipitation (MeDIP) experiments followed by sequencing (MeDIP-seq). However, MEDIPS provides functionalities for the analysis of any kind of quantitative sequencing data (e.g. ChIP-seq, MBD-seq, CMS-seq and others) including calculation of differential coverage between groups of samples and saturation and correlation analysis.",
+    "Imports": [
+        "Biostrings",
+        "DNAcopy",
+        "GenomicRanges",
+        "IRanges",
+        "biomaRt",
+        "edgeR",
+        "graphics",
+        "gtools",
+        "methods",
+        "preprocessCore",
+        "rtracklayer",
+        "stats",
+        "utils"
+    ],
+    "License": "GPL (>=2)",
+    "MD5sum": "00a61686ff0e1822ecf156437f00b084",
+    "Maintainer": "Lukas Chavez <lukaschavez@ucsd.edu>",
+    "NeedsCompilation": "no",
+    "Package": "MEDIPS",
+    "Rank": 499,
+    "Rfiles": [
+        "vignettes/MEDIPS/inst/doc/MEDIPS.R"
+    ],
+    "Suggests": [
+        "BSgenome.Hsapiens.UCSC.hg19",
+        "BiocStyle",
+        "MEDIPSData"
+    ],
+    "Title": "DNA IP-seq data analysis",
+    "Version": "1.64.0",
+    "biocViews": [
+        "ChIPSeq",
+        "CopyNumberVariation",
+        "Coverage",
+        "CpGIsland",
+        "DNAMethylation",
+        "DifferentialExpression",
+        "Genetics",
+        "GenomeAnnotation",
+        "Microarray",
+        "Preprocessing",
+        "QualityControl",
+        "SequenceMatching",
+        "Sequencing",
+        "Software",
+        "Visualization"
+    ],
+    "dependencyCount": "102",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "0101639",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/MEDIPS",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "decemedip"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/MEDIPS_1.64.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/MEDIPS_1.64.0.tgz",
+    "source.ver": "src/contrib/MEDIPS_1.64.0.tar.gz",
+    "suggestsMe": [
+        "MEDIPSData"
+    ],
+    "vignetteTitles": [
+        "MEDIPS"
+    ],
+    "vignettes": [
+        "vignettes/MEDIPS/inst/doc/MEDIPS.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/MEDIPS_1.64.0.zip"
+}

@@ -1,0 +1,25 @@
+package: mcl
+distribution: debian
+release: sid
+component: main
+version: 22-282+ds
+source: mcl
+homepage: https://micans.org/mcl/
+license: unknown
+blend: debian-med
+description_md5: 5ade6456c0a34cadb40315ab8fedf0bb
+registries:
+- entry: mcl
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1007/978-1-61779-361-5_15
+tags:
+- tag: field::mathematics
+- tag: implemented-in::c
+- tag: role::program
+popcon:
+- insts: 549
+  olde: 410
+  recent: 100
+  vote: 39

@@ -1,0 +1,92 @@
+about:
+  description: This package implements the Ensemble of Gene Set Enrichment Analyses
+    (EGSEA) method for gene set testing. EGSEA algorithm utilizes the analysis results
+    of twelve prominent GSE algorithms in the literature to calculate collective significance
+    scores for each gene set.
+  home: https://bioconductor.org/packages/3.22/bioc/html/EGSEA.html
+  license: GPL-3
+  license_file: /lib/R/share/licenses/GPL-3
+  summary: Ensemble of Gene Set Enrichment Analyses
+build:
+  noarch: generic
+  number: 0
+  rpaths:
+  - lib/R/lib/
+  - lib/
+  run_exports: ''
+extra:
+  identifiers:
+  - biotools:egsea
+  - usegalaxy-eu:egsea
+  parent_recipe:
+    name: bioconductor-egsea
+    path: recipes/bioconductor-egsea
+    version: 1.8.0
+package:
+  name: bioconductor-egsea
+  version: 1.38.0
+requirements:
+  host:
+  - bioconductor-annotationdbi >=1.72.0,<1.73.0
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-edger >=4.8.0,<4.9.0
+  - bioconductor-egseadata >=1.38.0,<1.39.0
+  - bioconductor-gage >=2.60.0,<2.61.0
+  - bioconductor-globaltest >=5.64.0,<5.65.0
+  - bioconductor-gsva >=2.4.0,<2.5.0
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - bioconductor-org.hs.eg.db >=3.22.0,<3.23.0
+  - bioconductor-org.mm.eg.db >=3.22.0,<3.23.0
+  - bioconductor-org.rn.eg.db >=3.22.0,<3.23.0
+  - bioconductor-padog >=1.52.0,<1.53.0
+  - bioconductor-pathview >=1.50.0,<1.51.0
+  - bioconductor-safe >=3.50.0,<3.51.0
+  - bioconductor-topgo >=2.62.0,<2.63.0
+  - r-base
+  - r-dt
+  - r-ggplot2 >=1.0.0
+  - r-gplots >=2.14.2
+  - r-htmlutils >=0.1.5
+  - r-htmlwidgets
+  - r-hwriter >=1.2.2
+  - r-metap
+  - r-plotly
+  - r-rcolorbrewer
+  - r-stringi >=0.5.0
+  run:
+  - bioconductor-annotationdbi >=1.72.0,<1.73.0
+  - bioconductor-biobase >=2.70.0,<2.71.0
+  - bioconductor-edger >=4.8.0,<4.9.0
+  - bioconductor-egseadata >=1.38.0,<1.39.0
+  - bioconductor-gage >=2.60.0,<2.61.0
+  - bioconductor-globaltest >=5.64.0,<5.65.0
+  - bioconductor-gsva >=2.4.0,<2.5.0
+  - bioconductor-limma >=3.66.0,<3.67.0
+  - bioconductor-org.hs.eg.db >=3.22.0,<3.23.0
+  - bioconductor-org.mm.eg.db >=3.22.0,<3.23.0
+  - bioconductor-org.rn.eg.db >=3.22.0,<3.23.0
+  - bioconductor-padog >=1.52.0,<1.53.0
+  - bioconductor-pathview >=1.50.0,<1.51.0
+  - bioconductor-safe >=3.50.0,<3.51.0
+  - bioconductor-topgo >=2.62.0,<2.63.0
+  - r-base
+  - r-dt
+  - r-ggplot2 >=1.0.0
+  - r-gplots >=2.14.2
+  - r-htmlutils >=0.1.5
+  - r-htmlwidgets
+  - r-hwriter >=1.2.2
+  - r-metap
+  - r-plotly
+  - r-rcolorbrewer
+  - r-stringi >=0.5.0
+source:
+  md5: 1bf20939f05f108e62a070e348aa2b37
+  url:
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/EGSEA_1.38.0.tar.gz
+  - https://bioconductor.org/packages/3.22/bioc/src/contrib/Archive/EGSEA/EGSEA_1.38.0.tar.gz
+  - https://bioarchive.galaxyproject.org/EGSEA_1.38.0.tar.gz
+  - https://depot.galaxyproject.org/software/bioconductor-egsea/bioconductor-egsea_1.38.0_src_all.tar.gz
+test:
+  commands:
+  - $R -e "library('EGSEA')"

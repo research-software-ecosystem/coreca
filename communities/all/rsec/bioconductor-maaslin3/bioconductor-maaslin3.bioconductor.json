@@ -1,0 +1,90 @@
+{
+    "Author": "William Nickols [aut, cre] (ORCID: <https://orcid.org/0000-0001-8214-9746>), Jacob Nearing [aut]",
+    "BugReports": "https://github.com/biobakery/maaslin3/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.4)"
+    ],
+    "Description": "MaAsLin 3 refines and extends generalized multivariate linear models for meta-omicron association discovery. It finds abundance and prevalence associations between microbiome meta-omics features and complex metadata in population-scale epidemiological studies. The software includes multiple analysis methods (including support for multiple covariates, repeated measures, and ordered predictors), filtering, normalization, and transform options to customize analysis for your specific study.",
+    "Imports": [
+        "BiocGenerics",
+        "RColorBrewer",
+        "collapse",
+        "data.table",
+        "ggnewscale",
+        "ggplot2",
+        "lme4",
+        "lmerTest",
+        "logging",
+        "methods",
+        "mirai",
+        "multcomp",
+        "optparse",
+        "patchwork",
+        "reformulas",
+        "rlang",
+        "scales",
+        "survival"
+    ],
+    "License": "MIT + file LICENSE",
+    "MD5sum": "f7f84edfa8070976c84e45fbbfc88a5a",
+    "Maintainer": "William Nickols <willnickols@g.harvard.edu>",
+    "NeedsCompilation": "no",
+    "Package": "maaslin3",
+    "Rank": 906,
+    "Rfiles": [
+        "vignettes/maaslin3/inst/doc/maaslin3_manual.R",
+        "vignettes/maaslin3/inst/doc/maaslin3_tutorial.R"
+    ],
+    "Suggests": [
+        "SummarizedExperiment",
+        "TreeSummarizedExperiment",
+        "dplyr",
+        "kableExtra",
+        "knitr",
+        "markdown",
+        "rmarkdown",
+        "testthat (>= 2.1.0)"
+    ],
+    "Title": "\"Refining and extending generalized multivariate linear models for meta-omic association discovery\"",
+    "URL": "http://huttenhower.sph.harvard.edu/maaslin3",
+    "Version": "1.4.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Metagenomics",
+        "Microbiome",
+        "MultipleComparison",
+        "Normalization",
+        "Software"
+    ],
+    "dependencyCount": "58",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "f7a411e",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/maaslin3",
+    "hasINSTALL": false,
+    "hasLICENSE": true,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "MMUPHin",
+        "benchdamic"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/maaslin3_1.4.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/maaslin3_1.4.0.tgz",
+    "source.ver": "src/contrib/maaslin3_1.4.0.tar.gz",
+    "suggestsMe": [
+        "OMA",
+        "dar",
+        "miaViz"
+    ],
+    "vignetteTitles": [
+        "Manual",
+        "Tutorial"
+    ],
+    "vignettes": [
+        "vignettes/maaslin3/inst/doc/maaslin3_manual.html",
+        "vignettes/maaslin3/inst/doc/maaslin3_tutorial.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/maaslin3_1.4.0.zip"
+}

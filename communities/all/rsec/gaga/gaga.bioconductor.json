@@ -1,0 +1,58 @@
+{
+    "Archs": "x64",
+    "Author": "David Rossell <rosselldavid@gmail.com>.",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "Biobase",
+        "EBarrays",
+        "R (>= 2.8.0)",
+        "coda",
+        "mgcv"
+    ],
+    "Description": "Implements the GaGa model for high-throughput data analysis, including differential expression analysis, supervised gene clustering and classification. Additionally, it performs sequential sample size calculations using the GaGa and LNNGV models (the latter from EBarrays package).",
+    "Enhances": [
+        "parallel"
+    ],
+    "License": "GPL (>= 2)",
+    "MD5sum": "aa0d071b4aa451660d18a20352832a46",
+    "Maintainer": "David Rossell <rosselldavid@gmail.com>",
+    "NeedsCompilation": "yes",
+    "Package": "gaga",
+    "Rank": 721,
+    "Rfiles": [
+        "vignettes/gaga/inst/doc/gagamanual.R"
+    ],
+    "Title": "GaGa hierarchical model for high-throughput data analysis",
+    "Version": "2.58.0",
+    "biocViews": [
+        "Classification",
+        "DifferentialExpression",
+        "ImmunoOncology",
+        "MassSpectrometry",
+        "MultipleComparison",
+        "OneChannel",
+        "Software"
+    ],
+    "dependencyCount": "17",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "6607181",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/gaga",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "casper"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/gaga_2.58.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/gaga_2.58.0.tgz",
+    "source.ver": "src/contrib/gaga_2.58.0.tar.gz",
+    "vignetteTitles": [
+        "Manual for the gaga library"
+    ],
+    "vignettes": [
+        "vignettes/gaga/inst/doc/gagamanual.pdf"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/gaga_2.58.0.zip"
+}

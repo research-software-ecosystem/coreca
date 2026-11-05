@@ -1,0 +1,45 @@
+package: snpomatic
+distribution: debian
+release: sid
+component: main
+version: '1.0'
+source: snpomatic
+homepage: https://github.com/magnusmanske/snpomatic
+license: unknown
+blend: debian-med
+description_md5: 50b0f5ca57c74cbaa893287c1d0a199d
+topics:
+- Genetic variation
+- Mapping
+edam_scopes:
+- name: summary
+  input:
+  - data: Sequence
+    formats:
+    - FASTA
+    - FASTQ
+  output:
+  - data: Alignment
+    formats:
+    - SAM
+  - data: Sequence features
+    formats:
+    - GFF
+  function:
+  - Read mapping
+  - SNP calling
+registries:
+- entry: OMICS_15114
+  name: OMICtools
+- entry: SNP-o-matic
+  name: bio.tools
+- entry: snpomatic
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btp403
+popcon:
+- insts: 115
+  olde: 88
+  recent: 22
+  vote: 5

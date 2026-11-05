@@ -1,0 +1,51 @@
+about:
+  dev_url: https://github.com/bigbio/pmultiqc
+  doc_url: https://pmultiqc.quantms.org
+  home: https://github.com/bigbio/pmultiqc
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Python package for quality control of proteomics datasets, based on multiqc
+    package.
+build:
+  noarch: python
+  number: 0
+  run_exports:
+  - null
+  script: -m pip install . --no-deps --no-build-isolation --no-cache-dir -vvv
+extra:
+  identifiers:
+  - biotools:pmultiqc
+  recipe-maintainers:
+  - ypriverol
+package:
+  name: pmultiqc
+  version: 0.0.48
+requirements:
+  host:
+  - python >=3.10,<3.14
+  - pip
+  - hatchling
+  - hatch-vcs
+  run:
+  - python >=3.10,<3.14
+  - lxml
+  - multiqc >=1.29,<=1.35
+  - pandas >=1.5
+  - sdrf-pipelines >=0.1.2
+  - pyteomics
+  - psims
+  - pyopenms <=3.4.0
+  - numpy >=1.23
+  - pyarrow
+  - scikit-learn >=1.2
+  - statsmodels
+  - urllib3 >=2.6.1
+source:
+  sha256: 53ea5373f68c0ad1eef24f478c492f5177f8a9861bcc38beea9ad933885f5262
+  url: https://pypi.org/packages/source/p/pmultiqc/pmultiqc-0.0.48.tar.gz
+test:
+  imports:
+  - pmultiqc
+  - pmultiqc.modules
+  - pmultiqc.modules.quantms

@@ -1,0 +1,22 @@
+package: r-cran-gprofiler2
+distribution: debian
+release: sid
+component: main
+version: 0.2.4
+source: r-cran-gprofiler2
+homepage: https://cran.r-project.org/package=gprofiler2
+license: unknown
+blend: debian-med
+description_md5: 6735d237fa3785d2187678fbcbcac7ed
+registries:
+- entry: SCR_006809
+  name: SciCrunch
+- entry: gprofile_r
+  name: bio.tools
+- entry: r-gprofiler2
+  name: conda:conda-forge
+popcon:
+- insts: 124
+  olde: 92
+  recent: 24
+  vote: 8

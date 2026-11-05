@@ -1,0 +1,23 @@
+package: r-bioc-gsva
+distribution: debian
+release: sid
+component: main
+version: 2.6.6+ds
+source: r-bioc-gsva
+homepage: https://bioconductor.org/packages/GSVA/
+license: unknown
+blend: debian-med
+description_md5: 3da7e33cee269ad5132ade65e324473d
+registries:
+- entry: gsva
+  name: bio.tools
+- entry: bioconductor-gsva
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1186/1471-2105-14-7
+popcon:
+- insts: 13
+  olde: 10
+  recent: 1
+  vote: 2

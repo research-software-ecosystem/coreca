@@ -1,0 +1,107 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:idna-abt/web/server.wei-group.net",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true,
+                "repository": {}
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "license": {
+                "open_source": false,
+                "osi": false
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 33,
+                            "citations": [
+                                {
+                                    "count": 4,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btab677",
+                            "pmid": "34601568",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "iDNA-ABT: advanced deep learning model for detecting DNA methylation with adaptive features and transductive information maximization.",
+                            "year": 2021
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://server.wei-group.net/iDNA_ABT"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/idna-abt",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://server.wei-group.net/iDNA_ABT"
+                    }
+                ],
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

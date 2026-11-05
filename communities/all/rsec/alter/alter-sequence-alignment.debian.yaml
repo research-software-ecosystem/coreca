@@ -1,0 +1,25 @@
+package: alter-sequence-alignment
+distribution: debian
+release: sid
+component: main
+version: 1.3.4
+source: alter-sequence-alignment
+homepage: http://sing.ei.uvigo.es/ALTER/
+license: unknown
+blend: debian-med
+description_md5: 07869aa0648b93b3ddd48846fa177214
+registries:
+- entry: OMICS_19786
+  name: OMICtools
+- entry: SCR_015968
+  name: SciCrunch
+- entry: alter
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/nar/gkq321
+popcon:
+- insts: 115
+  olde: 86
+  recent: 23
+  vote: 6

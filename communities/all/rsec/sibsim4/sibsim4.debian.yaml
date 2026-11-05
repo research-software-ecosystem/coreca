@@ -1,0 +1,33 @@
+package: sibsim4
+distribution: debian
+release: sid
+component: main
+version: '0.20'
+source: sibsim4
+homepage: http://sibsim4.sourceforge.net/
+license: unknown
+blend: debian-med
+description_md5: 0ddb1da7cc812b1724bd48ebe261e0e3
+registries:
+- entry: OMICS_21290
+  name: OMICtools
+- entry: SIBsim4
+  name: bio.tools
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: use::TODO
+- tag: use::comparing
+- tag: use::searching
+- tag: works-with-format::TODO
+- tag: works-with-format::plaintext
+- tag: works-with::TODO
+popcon:
+- insts: 119
+  olde: 92
+  recent: 23
+  vote: 4

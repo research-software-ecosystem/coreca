@@ -1,0 +1,109 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:grindb/db/lmc.uab.es",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 30,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2023
+                                }
+                            ],
+                            "doi": "10.1002/humu.24141",
+                            "pmid": "33252190",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "GRIN database: A unified and manually curated repertoire of GRIN variants.",
+                            "year": 2020
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://lmc.uab.cat/grindb"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://alf06.uab.es/grindb"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/grindb",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 302,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "http://lmc.uab.cat/grindb"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://alf06.uab.es/grindb"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

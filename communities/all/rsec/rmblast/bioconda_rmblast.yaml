@@ -1,0 +1,81 @@
+about:
+  doc_url: https://www.repeatmasker.org/rmblast
+  home: https://www.repeatmasker.org/rmblast
+  license: OSL-2.1
+  summary: RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST+
+    suite.
+build:
+  number: 1
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:rmblast
+  recipe-maintainers:
+  - mencian
+  - TobyBaril
+package:
+  name: rmblast
+  version: 2.17.0
+requirements:
+  build:
+  - make
+  - null
+  - null
+  host:
+  - zlib
+  - bzip2
+  - zstd
+  - entrez-direct
+  - ncbi-vdb
+  - curl
+  - sqlite =3
+  run:
+  - entrez-direct
+  - ncbi-vdb
+  - perl
+  - perl-list-moreutils
+  - perl-archive-tar
+  - perl-json
+  - entrez-direct
+source:
+  patches:
+  - isb-2.17.1+-rmblast.patch
+  - configurellvm.patch
+  - get_species_taxids.patch
+  - phonehome.patch
+  - update_configsub.patch
+  - project_tree_builder.patch
+  sha256: 502057a88e9990e34e62758be21ea474cc0ad68d6a63a2e37b2372af1e5ea147
+  url: https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.17.0/ncbi-blast-2.17.0+-src.tar.gz
+test:
+  commands:
+  - rmblastn -help > /dev/null
+  - makeblastdb -help > /dev/null
+  - blastn -help
+  - blastp -help
+  - makeblastdb -help
+  - blastdb_aliastool -version > /dev/null
+  - blastdbcheck -version > /dev/null
+  - blastdbcmd -version > /dev/null
+  - blastn -version > /dev/null
+  - blastp -version > /dev/null
+  - blastx -version > /dev/null
+  - convert2blastmask -version > /dev/null
+  - dustmasker -version > /dev/null
+  - makeblastdb -version > /dev/null
+  - makembindex -version > /dev/null
+  - psiblast -version > /dev/null
+  - rpsblast -version > /dev/null
+  - rpstblastn -version > /dev/null
+  - segmasker -version > /dev/null
+  - tblastn -version > /dev/null
+  - tblastx -version > /dev/null
+  - windowmasker -version > /dev/null
+  - update_blastdb.pl --version > /dev/null
+  - get_species_taxids.sh -h > /dev/null
+  - touch libstdc++.so.6; LD_LIBRARY_PATH=. makeblastdb -help && rm libstdc++.so.6
+  - update_blastdb.pl --help

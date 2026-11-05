@@ -1,0 +1,77 @@
+{
+    "Author": "Deepayan Sarkar [aut], Robert Gentleman [aut], Michael Lawrence [aut], Zizhen Yao [aut], Oluwabukola Bamigbade [ctb] (Converted vignette from Sweave to R Markdown / HTML.), Bioconductor Package Maintainer [cre]",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "BiocGenerics (>= 0.1.0)",
+        "GenomicRanges (>= 1.31.8)",
+        "IRanges (>= 2.13.12)",
+        "R (>= 3.5.0)",
+        "S4Vectors (>= 0.17.25)",
+        "ShortRead",
+        "methods"
+    ],
+    "Description": "Tools for helping process short read data for chipseq experiments.",
+    "Imports": [
+        "BiocGenerics",
+        "GenomicRanges",
+        "IRanges",
+        "ShortRead",
+        "lattice",
+        "methods",
+        "stats"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "e621dfaa2c2914dc8701c22447c69793",
+    "Maintainer": "Bioconductor Package Maintainer <maintainer@bioconductor.org>",
+    "NeedsCompilation": "yes",
+    "Package": "chipseq",
+    "Rank": 290,
+    "Rfiles": [
+        "vignettes/chipseq/inst/doc/Workflow.R"
+    ],
+    "Suggests": [
+        "BSgenome",
+        "BSgenome.Mmusculus.UCSC.mm9",
+        "BiocStyle",
+        "GenomicFeatures",
+        "TxDb.Mmusculus.UCSC.mm9.knownGene",
+        "knitr"
+    ],
+    "Title": "chipseq: A package for analyzing chipseq data",
+    "Version": "1.62.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "ChIPSeq",
+        "Coverage",
+        "DataImport",
+        "QualityControl",
+        "Sequencing",
+        "Software"
+    ],
+    "dependencyCount": "54",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "d5a83b1",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/chipseq",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "importsMe": [
+        "ChIPQC",
+        "transcriptR"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/chipseq_1.62.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/chipseq_1.62.0.tgz",
+    "source.ver": "src/contrib/chipseq_1.62.0.tar.gz",
+    "suggestsMe": [
+        "profileplyr"
+    ],
+    "vignetteTitles": [
+        "Some Basic Analysis of ChIP-Seq Data"
+    ],
+    "vignettes": [
+        "vignettes/chipseq/inst/doc/Workflow.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/chipseq_1.62.0.zip"
+}

@@ -11,15 +11,14 @@ from typing import (
     Dict,
     List,
     Optional,
+    Union,
 )
 
 import yaml
 from utils import (
     clone_rsec_data,
     generate_tsv_summary,
-    KEYWORDS_FILEPATH,
     load_keywords_from_yaml,
-    RSEC_DIR,
     RSEC_REPO_URL,
     TARGET_SUBDIR_IN_REPO,
     TEMP_CLONE_DIR,
@@ -195,14 +194,19 @@ class Tool:
 
 
 class ToolSet:
-    def __init__(self, root_dir: Path, json_out: Path, tsv_out: Path, kw_file: Path):
-        self.root_dir = root_dir
-        self.json_out = json_out
-        self.tsv_out = tsv_out
-        self.kw_file = kw_file
+    def __init__(
+        self,
+        root_dir: Union[str, Path],
+        json_out: Union[str, Path],
+        tsv_out: Union[str, Path],
+        kw_file: Union[str, Path],
+    ) -> None:
+        self.root_dir = Path(root_dir)
+        self.json_out = Path(json_out)
+        self.tsv_out = Path(tsv_out)
 
         # output paths for reporting files, all in the same directory as json_out
-        self.output_dir = json_out.parent
+        self.output_dir = self.json_out.parent
         self.report_txt_out = self.output_dir / "filtering_report.txt"
 
         self.tools: List[Tool] = []
@@ -215,6 +219,7 @@ class ToolSet:
         }
 
         # keywords loading
+        self.kw_file = Path(kw_file)
         kw = load_keywords_from_yaml(self.kw_file)
         self.kw_data = kw
 
@@ -229,9 +234,14 @@ class ToolSet:
         self._prepare_output_dir()
         to_delete, validated_meta = [], []
 
-        print(f"Start of filtering in : {self.root_dir}")
+        print(f"Start of filtering in : {self.output_dir}")
+        # Copy all items to community directory
         all_items = [item for item in self.root_dir.iterdir() if item.is_dir() and item.name != self.output_dir.name]
         total = len(all_items)
+
+        for item in all_items:
+            shutil.copytree(item, self.output_dir / item.name, dirs_exist_ok=True)
+        all_items = [item for item in self.output_dir.iterdir() if item.is_dir() and item.name != self.output_dir.name]
 
         for i, item in enumerate(all_items):
             sys.stdout.write(f"\rProgression : {i+1}/{total} ({item.name})")
@@ -256,7 +266,7 @@ class ToolSet:
                 else:
                     self.report_counts["validated_filter_3"] += 1
             else:
-                to_delete.append(item)
+                to_delete.append(self.root_dir / item.name)
                 self.report_counts["did_not_pass_any"] += 1
 
         sys.stdout.write("\n")
@@ -306,20 +316,44 @@ if __name__ == "__main__":
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
 
-    # CLI arguments
+    parser = argparse.ArgumentParser(description="Extract, filter, and curate Bioconda recipes.")
     parser.add_argument(
-        "--kw",
-        type=str,
-        default=str(KEYWORDS_FILEPATH),
-        metavar="PATH",
-        help=(
-            "Path to the YAML keywords file used for filtering. "
-            "Must contain 'edam.topics', 'edam.operations', 'keywords', and 'acronyms' sections. "
-            f"(default: {KEYWORDS_FILEPATH})"
-        ),
+        "-v",
+        "--verbose",
+        type=int,
+        default=3,
+        choices=[0, 1, 2, 3, 4],
+        help="Verbosity level (0=CRITICAL, 1=ERROR, 2=WARN, 3=INFO, 4=DEBUG)",
     )
-    parser.add_argument(
-        "--json-output",
+
+    subparsers = parser.add_subparsers(dest="command", required=True)
+
+    # Extract subcommand
+    extract_parser = subparsers.add_parser("extract", help="Extract all rsec resources.")
+    extract_parser.add_argument(
+        "--all",
+        "-a",
+        required=True,
+        metavar="PATH",
+        help="Filepath to folder with all rsec info",
+    )
+    # Filter subcommand
+    filter_parser = subparsers.add_parser("filter", help="Filter rsec resources by keywords.")
+    filter_parser.add_argument(
+        "--all",
+        "-a",
+        required=True,
+        metavar="PATH",
+        help="Filepath to folder with all rsec info",
+    )
+    filter_parser.add_argument(
+        "--keywords",
+        "-k",
+        required=True,
+        help="Path to a YAML file with keywords for filtering",
+    )
+    filter_parser.add_argument(
+        "--json",
         type=str,
         metavar="PATH",
         help=(
@@ -327,8 +361,8 @@ if __name__ == "__main__":
             "(default: <rsec_dir>/infos/validated_tools_metadata.json)"
         ),
     )
-    parser.add_argument(
-        "--tsv-output",
+    filter_parser.add_argument(
+        "--tsv",
         type=str,
         metavar="PATH",
         help=(
@@ -338,38 +372,41 @@ if __name__ == "__main__":
     )
 
     args = parser.parse_args()
+    # utils.setup_logger(args.verbose)
 
-    # Default paths if not provided via CLI
-    kw_path = Path(args.kw)
-    output_dir = RSEC_DIR / "infos"
-    json_path = Path(args.json_output) if args.json_output else output_dir / "validated_tools_metadata.json"
-    tsv_path = Path(args.tsv_output) if args.tsv_output else output_dir / "validated_tools_summary.tsv"
+    if args.command == "extract":
+        # Default paths if not provided via CLI
+        # kw_path = Path(args.keywords)
+        # output_dir = Path(args.all) / "infos"
+        # json_path = Path(args.json_output) if args.json_output else output_dir / "validated_tools_metadata.json"
+        # tsv_path = Path(args.tsv_output) if args.tsv_output else output_dir / "validated_tools_summary.tsv"
 
-    # --- STEP 1 : Cloning ---
-    try:
-        if not clone_rsec_data(
-            repo_url=RSEC_REPO_URL,
-            temp_dir=TEMP_CLONE_DIR,
-            target_dir=RSEC_DIR,
-            subdir_in_repo=TARGET_SUBDIR_IN_REPO,
-        ):
-            print("Cloning failed.")
+        # --- STEP 1 : Cloning ---
+        try:
+            if not clone_rsec_data(
+                repo_url=RSEC_REPO_URL,
+                temp_dir=TEMP_CLONE_DIR,
+                target_dir=Path(args.all),
+                subdir_in_repo=TARGET_SUBDIR_IN_REPO,
+            ):
+                print("Cloning failed.")
+                sys.exit(1)
+        except Exception as e:
+            print(f"Cloning error: {e}")
             sys.exit(1)
-    except Exception as e:
-        print(f"Cloning error: {e}")
-        sys.exit(1)
 
-    # --- STEP 2 : Configuration verification ---
-    if not kw_path.is_file():
-        print(f"ERROR : {kw_path} not found .")
-        sys.exit(1)
+    if args.command == "filter":
+        # --- STEP 2 : Configuration verification ---
+        if not Path(args.keywords).is_file():
+            print(f"ERROR : {args.keywords} not found .")
+            sys.exit(1)
 
-    # --- STEP 3 : Filtering ---
-    try:
-        tool_set = ToolSet(root_dir=RSEC_DIR, json_out=json_path, tsv_out=tsv_path, kw_file=kw_path)
-        tool_set.run_filtering()
-        generate_tsv_summary(json_path, tsv_path)
-        print(f"Done : results in : {json_path.parent}")
-    except Exception as e:
-        print(f"Execution error: {e}")
-        sys.exit(1)
+        # --- STEP 3 : Filtering ---
+        try:
+            tool_set = ToolSet(root_dir=args.all, json_out=args.json, tsv_out=args.tsv, kw_file=args.keywords)
+            tool_set.run_filtering()
+            generate_tsv_summary(args.json, args.tsv)
+            print(f"Done : results in : {Path(args.json).parent}")
+        except Exception as e:
+            print(f"Execution error: {e}")
+            sys.exit(1)

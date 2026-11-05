@@ -1,0 +1,163 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:wincoot:1/workbench/www.ysbl.york.ac.uk",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "general": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 19219,
+                            "citations": [
+                                {
+                                    "count": 21,
+                                    "year": -1
+                                },
+                                {
+                                    "count": 27,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 153,
+                                    "year": 2006
+                                },
+                                {
+                                    "count": 362,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 613,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 758,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 881,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 899,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 947,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 951,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 964,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 978,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 978,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 979,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 982,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 999,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 1016,
+                                    "year": 2016
+                                },
+                                {
+                                    "count": 1038,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 1056,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 1119,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 1137,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 1162,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 1199,
+                                    "year": 2010
+                                }
+                            ],
+                            "doi": "10.1107/S0907444904019158",
+                            "pmid": "15572765",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Coot: model-building tools for molecular graphics.",
+                            "year": 2004
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 404,
+                "ssl": null,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": true
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/wincoot",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": false,
+                "license": false,
+                "operational": 404,
+                "ssl": null,
+                "ssl_err": null
+            }
+        }
+    }
+]

@@ -1,0 +1,88 @@
+{
+    "Author": "Erqiang Hu [aut, cre] (ORCID: <https://orcid.org/0000-0002-1798-7513>)",
+    "BugReports": "https://github.com/YuLab-SMU/GeoTcgaData/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "R (>= 4.2.0)"
+    ],
+    "Description": "Gene Expression Omnibus(GEO) and The Cancer Genome Atlas (TCGA) provide us with a wealth of data, such as RNA-seq, DNA Methylation, SNP and Copy number variation data. It's easy to download data from TCGA using the gdc tool, but processing these data into a format suitable for bioinformatics analysis requires more work. This R package was developed to handle these data.",
+    "Imports": [
+        "SummarizedExperiment",
+        "cqn",
+        "data.table",
+        "methods",
+        "plyr",
+        "stats",
+        "topconfects",
+        "utils"
+    ],
+    "License": "Artistic-2.0",
+    "MD5sum": "cc545389779d90f334d1385891fbbf63",
+    "Maintainer": "Erqiang Hu <13766876214@163.com>",
+    "NeedsCompilation": "no",
+    "Package": "GeoTcgaData",
+    "Rank": 1428,
+    "Rfiles": [
+        "vignettes/GeoTcgaData/inst/doc/GeoTcgaData.R"
+    ],
+    "Suggests": [
+        "BiocGenerics",
+        "CATT",
+        "ChAMP",
+        "DESeq2",
+        "GEOquery",
+        "IlluminaHumanMethylation450kanno.ilmn12.hg19",
+        "NOISeq",
+        "S4Vectors",
+        "TCGAbiolinks",
+        "clusterProfiler",
+        "dearseq",
+        "edgeR",
+        "enrichplot",
+        "impute",
+        "knitr",
+        "limma",
+        "minfi",
+        "org.Hs.eg.db",
+        "quantreg",
+        "rmarkdown",
+        "testthat (>= 3.0.0)",
+        "tidyr"
+    ],
+    "Title": "Processing Various Types of Data on GEO and TCGA",
+    "URL": "https://github.com/YuLab-SMU/GeoTcgaData",
+    "Version": "2.12.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "ATACSeq",
+        "CopyNumberVariation",
+        "DNAMethylation",
+        "DifferentialExpression",
+        "DifferentialMethylation",
+        "GeneExpression",
+        "MethylationArray",
+        "Microarray",
+        "RNASeq",
+        "SNP",
+        "Software"
+    ],
+    "dependencyCount": "56",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "4738d3e",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/GeoTcgaData",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/GeoTcgaData_2.12.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/GeoTcgaData_2.12.0.tgz",
+    "source.ver": "src/contrib/GeoTcgaData_2.12.0.tar.gz",
+    "vignetteTitles": [
+        "GeoTcgaData"
+    ],
+    "vignettes": [
+        "vignettes/GeoTcgaData/inst/doc/GeoTcgaData.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/GeoTcgaData_2.12.0.zip"
+}

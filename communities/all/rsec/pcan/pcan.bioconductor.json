@@ -1,0 +1,61 @@
+{
+    "Author": "Matthew Page and Patrice Godard",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "BiocParallel",
+        "R (>= 3.3)"
+    ],
+    "Description": "Phenotypes comparison based on a pathway consensus approach. Assess the relationship between candidate genes and a set of phenotypes based on additional genes related to the candidate (e.g. Pathways or network neighbors).",
+    "Imports": [
+        "grDevices",
+        "stats"
+    ],
+    "License": "CC BY-NC-ND 4.0",
+    "MD5sum": "9999097341ac9afdf213e005ba1a6a51",
+    "Maintainer": "Matthew Page <matthew.page@ucb.com> and Patrice Godard <patrice.godard@gmail.com>",
+    "NeedsCompilation": "no",
+    "Package": "PCAN",
+    "Rank": 897,
+    "Rfiles": [
+        "vignettes/PCAN/inst/doc/PCAN.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "STRINGdb",
+        "knitr",
+        "reactome.db",
+        "rmarkdown"
+    ],
+    "Title": "Phenotype Consensus ANalysis (PCAN)",
+    "Version": "1.40.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "Annotation",
+        "FunctionalPrediction",
+        "Genetics",
+        "Network",
+        "Pathways",
+        "Sequencing",
+        "Software",
+        "VariantAnnotation"
+    ],
+    "dependencyCount": "14",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "47ea9c7",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/PCAN",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": false,
+    "hasREADME": false,
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/PCAN_1.40.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/PCAN_1.40.0.tgz",
+    "source.ver": "src/contrib/PCAN_1.40.0.tar.gz",
+    "vignetteTitles": [
+        "Assessing gene relevance for a set of phenotypes"
+    ],
+    "vignettes": [
+        "vignettes/PCAN/inst/doc/PCAN.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/PCAN_1.40.0.zip"
+}

@@ -1,0 +1,233 @@
+{
+  "@context": {
+    "biii": "https://biii.eu/",
+    "bioconda": "https://github.com/bioconda/bioconda-recipes/tree/master/recipes/",
+    "bioschemas": "http://bioschemas.org/",
+    "biotools": "https://bio.tools/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "galaxytool": "https://github.com/galaxyproject/tools-iuc/tree/master/tools/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "schema1": "http://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "workflowhub": "https://workflowhub.eu/workflows/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://usegalaxy.eu",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.org",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.cz",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.ca",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.no",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.org.au",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://galaxytrakr.org",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "https://usegalaxy.be",
+      "@type": "schema1:WebSite"
+    },
+    {
+      "@id": "galaxytool:mlst",
+      "@type": "schema1:SoftwareApplication",
+      "bioschemas:output": [
+        "tabular",
+        "fasta",
+        "txt"
+      ],
+      "schema1:applicationSubCategory": {
+        "@id": "edam:topic_2830"
+      },
+      "schema1:codeRepository": {
+        "@id": "https://github.com/tseemann/mlst"
+      },
+      "schema1:dateCreated": "2016-12-13",
+      "schema1:description": "Scan contig files against PubMLST typing schemes",
+      "schema1:encodingFormat": [
+        "tabular",
+        "fasta",
+        "txt"
+      ],
+      "schema1:featureList": {
+        "@id": "edam:operation_3840"
+      },
+      "schema1:identifier": [
+        {
+          "@id": "biotools:mlst"
+        },
+        {
+          "@id": "bioconda:mlst"
+        }
+      ],
+      "schema1:isPartOf": [
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=81eeeaa94eb36f36"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=ffd365c037373673"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=d0339e4a794f4922"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=a601e36ce9928094"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=368d1ac0150ea0b6"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=5b940b283d91d99d"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=eb5ab8bc82569eee"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=9219557de92e0203"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=fde21b5f5c169114"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=309fc4fc2e0da89c"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=2b888e200dfd91bc"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=37da7b42cb063a3a"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=49c46d7653d6c349"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=5826e573b6f93762"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=a337bfb2eb1e583f"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=a84bac86ec183d46"
+        },
+        {
+          "@id": "https://usegalaxy.eu/published/workflow?id=42c0da2e86318b37"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=2079960d0a220e11"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=80565301ada0d3eb"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=fb01e1a49793c8be"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=8111bb9bb26bb665"
+        },
+        {
+          "@id": "https://usegalaxy.org/published/workflow?id=c65bec6c332bf740"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=41331c03339e2b19"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=7a0c4804e4d4c905"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=92fcdd490831c6c5"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=59618ed15510f531"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=c997a34b55425155"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=e20172eb0f30d6cd"
+        },
+        {
+          "@id": "https://usegalaxy.org.au/published/workflow?id=914330feb75ea9ab"
+        },
+        {
+          "@id": "https://galaxytrakr.org"
+        },
+        {
+          "@id": "https://usegalaxy.be"
+        },
+        {
+          "@id": "https://usegalaxy.ca"
+        },
+        {
+          "@id": "https://usegalaxy.cz"
+        },
+        {
+          "@id": "https://usegalaxy.eu"
+        },
+        {
+          "@id": "https://usegalaxy.fr"
+        },
+        {
+          "@id": "https://usegalaxy.no"
+        },
+        {
+          "@id": "https://usegalaxy.org.au"
+        },
+        {
+          "@id": "https://usegalaxy.org"
+        }
+      ],
+      "schema1:keywords": "Sequence Analysis",
+      "schema1:name": "mlst",
+      "schema1:softwareVersion": "2.22.0",
+      "schema1:url": {
+        "@id": "https://github.com/galaxyproject/tools-iuc/tree/main/tools/mlst"
+      }
+    },
+    {
+      "@id": "https://usegalaxy.fr",
+      "@type": "schema1:WebSite"
+    }
+  ]
+}

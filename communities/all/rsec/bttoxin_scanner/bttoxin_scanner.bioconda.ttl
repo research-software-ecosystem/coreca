@@ -1,0 +1,12 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix schema1: <http://schema.org/> .
+
+bioconda:bttoxin_scanner a schema1:SoftwareApplication ;
+    schema1:alternateName "A toxin exploration tool for Bacillus thuringiensis" ;
+    schema1:description "A toxin exploration tool for Bacillus thuringiensis" ;
+    schema1:license "GPLv3" ;
+    schema1:maintainer "liaochenlanruo" ;
+    schema1:name "bttoxin_scanner" ;
+    schema1:softwareVersion "2.0.1" ;
+    schema1:url "https://github.com/liaochenlanruo/BtToxin_scanner/blob/master/README.md" .
+

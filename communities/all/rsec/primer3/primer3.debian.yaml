@@ -1,0 +1,36 @@
+package: primer3
+distribution: debian
+release: sid
+component: main
+version: 2.6.1
+source: primer3
+homepage: http://primer3.sourceforge.net
+license: unknown
+blend: debian-med
+description_md5: 063d46e211772f78e703d8d910d9f8a4
+registries:
+- entry: OMICS_02325
+  name: OMICtools
+- entry: SCR_003139
+  name: SciCrunch
+- entry: primer3
+  name: bio.tools
+- entry: primer3
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1385/1-59259-192-2:365
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: interface::commandline
+- tag: role::program
+- tag: scope::utility
+- tag: works-with-format::plaintext
+- tag: works-with::TODO
+popcon:
+- insts: 301
+  olde: 262
+  recent: 26
+  vote: 13

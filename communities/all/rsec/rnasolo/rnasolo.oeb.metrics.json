@@ -1,0 +1,86 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:rnasolo/db/rnasolo.cs.put.poznan.pl",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 35,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1093/bioinformatics/btac386",
+                            "pmcid": "PMC9272803",
+                            "pmid": "35674373",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "RNAsolo: a repository of cleaned PDB-derived RNA 3D structures.",
+                            "year": 2022
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/rnasolo",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

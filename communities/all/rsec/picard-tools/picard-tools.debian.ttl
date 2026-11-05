@@ -1,0 +1,28 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix bioschemas: <http://bioschemas.org/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix debianmed: <https://salsa.debian.org/med-team/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix schema1: <http://schema.org/> .
+@prefix scicrunch: <https://scicrunch.org/resolver/> .
+
+debianmed:picard-tools a schema1:SoftwareApplication ;
+    bioschemas:input edam:data_2044 ;
+    bioschemas:output edam:data_2044,
+        edam:data_2048 ;
+    schema1:additionalType edam:data_2044,
+        edam:data_2048 ;
+    schema1:applicationSubCategory edam:topic_0220,
+        edam:topic_3168 ;
+    schema1:featureList edam:operation_2409,
+        edam:operation_2427,
+        edam:topic_2269 ;
+    schema1:identifier biotools:picard_tools,
+        bioconda:picard,
+        scicrunch:SCR_006525,
+        "omictools:OMICS_01066" ;
+    schema1:license "unknown" ;
+    schema1:name "picard-tools" ;
+    schema1:softwareVersion "3.5.0" ;
+    schema1:url <https://broadinstitute.github.io/picard/> .
+

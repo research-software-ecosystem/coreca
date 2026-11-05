@@ -1,0 +1,61 @@
+about:
+  dev_url: https://github.com/bbushnell/BBTools
+  doc_url: https://bbmap.org
+  home: https://github.com/bbushnell/BBTools
+  license: BSD-3-Clause-LBNL
+  license_file: license.txt
+  summary: BBMap is a short read aligner, as well as various other bioinformatic tools.
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:bbmap
+  - usegalaxy-eu:bbtools_bbmap
+  - usegalaxy-eu:bbtools_callvariants
+  - usegalaxy-eu:bbtools_bbmerge
+  - usegalaxy-eu:bbtools_tadpole
+  - usegalaxy-eu:bbtools_bbduk
+  - usegalaxy-eu:bbtools_bbnorm
+  - doi:10.1371/journal.pone.0185056
+  notes: 'BBMap is a series of Java programs, but they come with a number of custom
+
+    wrapper shell scripts. Each of these is symlinked to the conda bin directory
+
+    during install.
+
+    '
+package:
+  name: bbmap
+  version: '40.02'
+requirements:
+  build:
+  - null
+  - null
+  host:
+  - openjdk >=11.0.1
+  - pbzip2
+  - bzip2
+  - samtools
+  - patchelf
+  run:
+  - openjdk >=11.0.1
+  - samtools
+source:
+  sha256: bb2fc50843a3afe9ef64d3c603a7a11182dbd4a2b2fce8aa3247c427289c302a
+  url: https://github.com/bbushnell/BBTools/archive/refs/tags/v40.02.tar.gz
+test:
+  commands:
+  - bbmap.sh -V 2>&1 | grep "BBMap" > /dev/null
+  - bbmerge.sh -V 2>&1 | grep "BBMerge" > /dev/null
+  - bbduk.sh -V 2>&1 | grep "BBDuk" > /dev/null
+  - bbmask.sh -V 2>&1 | grep "BBMask" > /dev/null
+  - bbnorm.sh --help 2>&1 | grep "BBNorm" > /dev/null
+  files:
+  - test.fa
+  - testdatabase.fa
+  - testexpected.sam

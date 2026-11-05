@@ -1,0 +1,407 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.immuni.2009.10.008",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/aceview",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N97f9f4bd6e1e451ab4cff0ac650e008f"
+        },
+        {
+          "@id": "_:Nd8f0d1d206c84fb58018e378fbaf7086"
+        },
+        {
+          "@id": "_:Ne3ff5e1b738248cba17d34d8c0b7b495"
+        },
+        {
+          "@id": "_:Ncbfa0b27223e4f66bae7090fa7e6a10a"
+        },
+        {
+          "@id": "_:N129e5b297f1d465392c46634764d0558"
+        },
+        {
+          "@id": "_:N1a8af5cddf224a38aafa3e7c995a745c"
+        },
+        {
+          "@id": "_:Nc3ea097c59504e2091b12436cde4bf08"
+        },
+        {
+          "@id": "_:Ne792dcf398b6411497db91cfda82c835"
+        },
+        {
+          "@id": "_:N3eacb02599ac4246b898850b6535f097"
+        },
+        {
+          "@id": "_:N65eef142937a43789e96bcce757e0d29"
+        },
+        {
+          "@id": "_:N11ff5b9af1dd4711a958c60b9b34f764"
+        },
+        {
+          "@id": "_:N2636179346214a42837a71417704a096"
+        },
+        {
+          "@id": "_:Nead246b4bd7c4a0ab3b9ee7de008e60b"
+        },
+        {
+          "@id": "_:Nd64f21c2c1424141b1393300f09769ee"
+        },
+        {
+          "@id": "_:Nbb16b388ea1e4a62a1bc4c8457aa92d8"
+        },
+        {
+          "@id": "_:N26321995374f42aaa70b8f2049e92616"
+        },
+        {
+          "@id": "_:N3c7c9dec642c42e1b50124bd5137de6f"
+        },
+        {
+          "@id": "_:Nc5744660217249f49feb30a4478f592a"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N1497833ea6a44e47be79fc81f45c96cb"
+        },
+        {
+          "@id": "_:N2b89666048534d3496e88793aa31a36a"
+        },
+        {
+          "@id": "_:Na4f5c86136714930a106cba2701b05c7"
+        },
+        {
+          "@id": "_:N6d54097bd88746e7865d414b8f48c96e"
+        },
+        {
+          "@id": "_:N9656bdeed70b4e5895b5d0dd4f4af8b2"
+        },
+        {
+          "@id": "_:N40a3e419389a41efa06c61b861a734d5"
+        },
+        {
+          "@id": "_:N3ed3be539ea644b791e82e652069b57f"
+        },
+        {
+          "@id": "_:Nc4728104417e48cebc593b3af15e9103"
+        },
+        {
+          "@id": "_:N51d5d97500a14619b902cdb9a80c5a25"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_3512"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:20064451",
+        "pmcid:PMC3272079",
+        {
+          "@id": "https://doi.org/10.1016/j.immuni.2009.10.008"
+        }
+      ],
+      "sc:description": "A curated, comprehensive and non-redundant sequence representation of all public mRNA sequences (mRNAs from GenBank or RefSeq, and single pass cDNA sequences from dbEST and Trace).",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "AceView genes database",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "NCBI",
+      "sc:softwareHelp": {
+        "@id": "http://www.ncbi.nlm.nih.gov/IEB/Research/Acembly/FAQandOverview/AboutAceView.htm#FAQ"
+      },
+      "sc:url": "http://www.ncbi.nlm.nih.gov/IEB/Research/Acembly/"
+    },
+    {
+      "@id": "_:N97f9f4bd6e1e451ab4cff0ac650e008f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2704"
+      },
+      "sc:name": "Clone ID (IMAGE)"
+    },
+    {
+      "@id": "_:Nd8f0d1d206c84fb58018e378fbaf7086",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:Ne3ff5e1b738248cba17d34d8c0b7b495",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2803"
+      },
+      "sc:name": "Clone ID (RefSeq)"
+    },
+    {
+      "@id": "_:Ncbfa0b27223e4f66bae7090fa7e6a10a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:N129e5b297f1d465392c46634764d0558",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2292"
+      },
+      "sc:name": "GenBank accession"
+    },
+    {
+      "@id": "_:N1a8af5cddf224a38aafa3e7c995a745c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:Nc3ea097c59504e2091b12436cde4bf08",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1027"
+      },
+      "sc:name": "Gene ID (NCBI)"
+    },
+    {
+      "@id": "_:Ne792dcf398b6411497db91cfda82c835",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:N3eacb02599ac4246b898850b6535f097",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:N65eef142937a43789e96bcce757e0d29",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:N11ff5b9af1dd4711a958c60b9b34f764",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:N2636179346214a42837a71417704a096",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:Nead246b4bd7c4a0ab3b9ee7de008e60b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:Nd64f21c2c1424141b1393300f09769ee",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:Nbb16b388ea1e4a62a1bc4c8457aa92d8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:N26321995374f42aaa70b8f2049e92616",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:N3c7c9dec642c42e1b50124bd5137de6f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1026"
+      },
+      "sc:name": "Gene symbol"
+    },
+    {
+      "@id": "_:Nc5744660217249f49feb30a4478f592a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1045"
+      },
+      "sc:name": "Species name"
+    },
+    {
+      "@id": "_:N1497833ea6a44e47be79fc81f45c96cb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N2b89666048534d3496e88793aa31a36a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Na4f5c86136714930a106cba2701b05c7",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3134"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene transcript report"
+    },
+    {
+      "@id": "_:N6d54097bd88746e7865d414b8f48c96e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N9656bdeed70b4e5895b5d0dd4f4af8b2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N40a3e419389a41efa06c61b861a734d5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:N3ed3be539ea644b791e82e652069b57f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0916"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Gene report"
+    },
+    {
+      "@id": "_:Nc4728104417e48cebc593b3af15e9103",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "_:N51d5d97500a14619b902cdb9a80c5a25",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1276"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Nucleic acid features"
+    }
+  ]
+}

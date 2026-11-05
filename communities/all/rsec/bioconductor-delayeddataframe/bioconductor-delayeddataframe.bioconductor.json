@@ -1,0 +1,65 @@
+{
+    "Archs": "x64",
+    "Author": "Qian Liu [aut, cre], Hervé Pagès [aut], Martin Morgan [aut]",
+    "BugReports": "https://github.com/Bioconductor/DelayedDataFrame/issues",
+    "Date/Publication": "2026-04-28",
+    "Depends": [
+        "DelayedArray (>= 0.7.5)",
+        "R (>= 3.6)",
+        "S4Vectors (>= 0.23.19)"
+    ],
+    "Description": "Based on the standard DataFrame metaphor, we are trying to implement the feature of delayed operation on the DelayedDataFrame, with a slot of lazyIndex, which saves the mapping indexes for each column of DelayedDataFrame. Methods like show, validity check, [/[[ subsetting, rbind/cbind are implemented for DelayedDataFrame to be operated around lazyIndex. The listData slot stays untouched until a realization call e.g., DataFrame constructor OR as.list() is invoked.",
+    "Imports": [
+        "BiocGenerics",
+        "methods",
+        "stats"
+    ],
+    "License": "GPL-3",
+    "MD5sum": "463262b778a4819a2d74aac0c511a910",
+    "Maintainer": "Qian Liu <Qian.Liu@roswellpark.org>",
+    "NeedsCompilation": "no",
+    "Package": "DelayedDataFrame",
+    "Rank": 1343,
+    "Rfiles": [
+        "vignettes/DelayedDataFrame/inst/doc/DelayedDataFrame.R"
+    ],
+    "Suggests": [
+        "BiocStyle",
+        "GDSArray",
+        "SeqArray",
+        "knitr",
+        "rmarkdown",
+        "testthat"
+    ],
+    "Title": "Delayed operation on DataFrame using standard DataFrame metaphor",
+    "URL": "https://github.com/Bioconductor/DelayedDataFrame",
+    "Version": "1.28.0",
+    "VignetteBuilder": "knitr",
+    "biocViews": [
+        "DataRepresentation",
+        "Infrastructure",
+        "Software"
+    ],
+    "dependencyCount": "21",
+    "git_branch": "RELEASE_3_23",
+    "git_last_commit": "a40f9ca",
+    "git_last_commit_date": "2026-04-28",
+    "git_url": "https://git.bioconductor.org/packages/DelayedDataFrame",
+    "hasINSTALL": false,
+    "hasLICENSE": false,
+    "hasNEWS": true,
+    "hasREADME": false,
+    "importsMe": [
+        "VariantExperiment"
+    ],
+    "mac.binary.big-sur-x86_64.ver": "bin/macosx/big-sur-x86_64/contrib/4.6/DelayedDataFrame_1.28.0.tgz",
+    "mac.binary.sonoma-arm64.ver": "bin/macosx/sonoma-arm64/contrib/4.6/DelayedDataFrame_1.28.0.tgz",
+    "source.ver": "src/contrib/DelayedDataFrame_1.28.0.tar.gz",
+    "vignetteTitles": [
+        "DelayedDataFrame"
+    ],
+    "vignettes": [
+        "vignettes/DelayedDataFrame/inst/doc/DelayedDataFrame.html"
+    ],
+    "win.binary.ver": "bin/windows/contrib/4.6/DelayedDataFrame_1.28.0.zip"
+}

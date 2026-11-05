@@ -1,0 +1,256 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0002-9506-9451",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://bio.tools/cluster_based_harmonization",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": {
+        "@id": "https://orcid.org/0000-0002-9506-9451"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:N502e88d2961442c6a7aa6e1188732caf"
+        },
+        {
+          "@id": "_:Nd3736c077fea4a348e8e6132fa04ae4f"
+        },
+        {
+          "@id": "_:N7059ca5632a44394864d4b76ca0de2b5"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N3d2477e7a83a4d92bc3c848df1705edf"
+        },
+        {
+          "@id": "_:Ndcc79252b1784a00818f637634508c42"
+        },
+        {
+          "@id": "_:N780cf5dec1444963bbac8d64d18c552f"
+        },
+        {
+          "@id": "_:Ndae5474711224e43bcc07b763f920664"
+        },
+        {
+          "@id": "_:N6430580c937e446fb15f4b08afa54b84"
+        },
+        {
+          "@id": "_:Nbade7e94383a411ca873242c2d8aef29"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0219"
+        },
+        {
+          "@id": "edam:topic_3382"
+        }
+      ],
+      "sc:author": {
+        "@id": "https://orcid.org/0000-0001-5984-904X"
+      },
+      "sc:description": "The tool is designed to perform radiomics harmonization on large and heterogeneous datasets, where the risk of over-harmonization is present. Instead of directly applying harmonization based on predefined batch labels, the tool first identifies groups of batches that share similar characteristics through clustering of the radiomics data. It then performs harmonization using these cluster-derived labels. The tool allows the harmonization of radiomics variables using two methods: (1) original ComBat (Rabinovic, 2007) method, where each original batch group is considered for the harmonization process and (2) cluster-based ComBat method, where batch groups with similar radiomics characteristics form clusters and the latter are being considered for the harmonization process.",
+      "sc:featureList": {
+        "@id": "edam:operation_3432"
+      },
+      "sc:isAccessibleForFree": true,
+      "sc:license": "CC-BY-NC-ND-4.0",
+      "sc:name": "Cluster based harmonization (EUCAIM-SW-044_T-01-03-006)",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:provider": "GIBI230 - HULAFE",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://drive.eucaim.cancerimage.eu/s/LkczHCMZH5nd8QR"
+        },
+        {
+          "@id": "https://drive.eucaim.cancerimage.eu/s/5bMA2jsZTfS8eoZ"
+        },
+        {
+          "@id": "https://www.youtube.com/watch?v=0GJqNJv-Qf8&list=PL3Q1XjQpjfg_GEmwPDrQeESh6nqCMnYyR&index=31"
+        },
+        {
+          "@id": "https://drive.eucaim.cancerimage.eu/s/Kz3jfQYQZjezpxK"
+        }
+      ],
+      "sc:softwareVersion": "1.1.0",
+      "sc:url": "https://harbor.eucaim.cancerimage.eu/harbor/projects/4/repositories/cluster_based_harmonization/info-tab"
+    },
+    {
+      "@id": "_:N502e88d2961442c6a7aa6e1188732caf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3620"
+        }
+      ],
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:Nd3736c077fea4a348e8e6132fa04ae4f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3464"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N7059ca5632a44394864d4b76ca0de2b5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3620"
+        }
+      ],
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N3d2477e7a83a4d92bc3c848df1705edf",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3620"
+        }
+      ],
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:Ndcc79252b1784a00818f637634508c42",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3620"
+        }
+      ],
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N780cf5dec1444963bbac8d64d18c552f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3835"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:Ndae5474711224e43bcc07b763f920664",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3620"
+        }
+      ],
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:N6430580c937e446fb15f4b08afa54b84",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": [
+        {
+          "@id": "edam:format_3752"
+        },
+        {
+          "@id": "edam:format_3620"
+        }
+      ],
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "_:Nbade7e94383a411ca873242c2d8aef29",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2526"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3835"
+      },
+      "sc:name": "Text data"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5984-904X",
+      "@type": "sc:Person"
+    }
+  ]
+}

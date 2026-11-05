@@ -1,0 +1,167 @@
+{
+    "additionDate": "2016-06-24T11:36:59Z",
+    "biotoolsCURIE": "biotools:oma",
+    "biotoolsID": "oma",
+    "credit": [
+        {
+            "email": "Christophe.Dessimoz@unil.ch",
+            "name": "Christophe Dessimoz",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "email": "contact@omabrowser.org",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Primary contact"
+            ]
+        },
+        {
+            "name": "SIB",
+            "typeEntity": "Institute",
+            "typeRole": [
+                "Provider"
+            ]
+        }
+    ],
+    "description": "Project that aims to identify orthologs among publicly available, complete genomes. With many hundreds of genomes analyzed to date, it is one of the largest projects of its kind.",
+    "documentation": [
+        {
+            "type": [
+                "General"
+            ],
+            "url": "https://omabrowser.org/oma/about/"
+        }
+    ],
+    "editPermission": {
+        "type": "private"
+    },
+    "elixirNode": [
+        "Switzerland"
+    ],
+    "elixirPlatform": [
+        "Data"
+    ],
+    "function": [
+        {
+            "input": [
+                {
+                    "data": {
+                        "term": "Identifier",
+                        "uri": "http://edamontology.org/data_0842"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Protein sequence (raw)",
+                        "uri": "http://edamontology.org/data_2974"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "Text",
+                        "uri": "http://edamontology.org/data_3671"
+                    }
+                },
+                {
+                    "data": {
+                        "term": "UniProt accession",
+                        "uri": "http://edamontology.org/data_3021"
+                    }
+                }
+            ],
+            "note": "orthology prediction and paralogy OMA group",
+            "operation": [
+                {
+                    "term": "Prediction and recognition",
+                    "uri": "http://edamontology.org/operation_2423"
+                }
+            ]
+        }
+    ],
+    "homepage": "http://omabrowser.org/oma/home/",
+    "lastUpdate": "2025-12-22T16:58:22.083280Z",
+    "name": "OMA",
+    "operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+    ],
+    "owner": "adrian.altenhoff",
+    "publication": [
+        {
+            "doi": "10.1093/nar/gkaa1007",
+            "metadata": {
+                "citationCount": 144,
+                "date": "2021-01-08T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "OMA orthology in 2021: Website overhaul, conserved isoforms, ancestral gene order and more"
+            },
+            "pmcid": "PMC7779010",
+            "pmid": "33174605",
+            "type": [
+                "Primary"
+            ]
+        },
+        {
+            "doi": "10.1093/nar/gkad1020",
+            "metadata": {
+                "citationCount": 46,
+                "date": "2024-01-05T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "OMA or tholog y in 2024: impro v ed prokary ot e co v erãg e,ãncestralãnd extant GO enrichment,ã revamped synteny viewerãnd more in the OMA Ecosystem"
+            },
+            "pmcid": "PMC10767875",
+            "pmid": "37962356",
+            "type": [
+                "Primary"
+            ]
+        },
+        {
+            "doi": "10.1093/nar/gku1158",
+            "metadata": {
+                "citationCount": 160,
+                "date": "2015-01-28T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "The OMA orthology database in 2015: Function predictions, better plant support, synteny view and other improvements"
+            },
+            "pmcid": "PMC4383958",
+            "pmid": "25399418",
+            "type": [
+                "Primary"
+            ]
+        },
+        {
+            "doi": "10.1093/nar/gkx1019",
+            "metadata": {
+                "citationCount": 169,
+                "date": "2018-01-01T00:00:00Z",
+                "journal": "Nucleic Acids Research",
+                "title": "The OMA orthology database in 2018: Retrieving evolutionary relationships among all domains of life through richer web and programmatic interfaces"
+            },
+            "pmcid": "PMC5753216",
+            "pmid": "29106550",
+            "type": [
+                "Primary"
+            ]
+        }
+    ],
+    "toolType": [
+        "Database portal",
+        "Desktop application",
+        "Web application"
+    ],
+    "topic": [
+        {
+            "term": "Comparative genomics",
+            "uri": "http://edamontology.org/topic_0797"
+        },
+        {
+            "term": "Evolutionary biology",
+            "uri": "http://edamontology.org/topic_3299"
+        }
+    ],
+    "validated": 1
+}

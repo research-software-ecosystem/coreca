@@ -1,0 +1,23 @@
+package: megadepth
+distribution: debian
+release: sid
+component: main
+version: 1.2.0
+source: megadepth
+homepage: https://github.com/ChristopherWilks/megadepth
+license: unknown
+blend: debian-med
+description_md5: aeef1e8dd852befc766e5e4c03049304
+registries:
+- entry: megadepth
+  name: bio.tools
+- entry: megadepth
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btab152
+popcon:
+- insts: 128
+  olde: 97
+  recent: 25
+  vote: 6

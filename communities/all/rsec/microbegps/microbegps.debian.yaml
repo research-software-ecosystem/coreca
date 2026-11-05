@@ -1,0 +1,23 @@
+package: microbegps
+distribution: debian
+release: sid
+component: main
+version: 1.0.0
+source: microbegps
+homepage: http://sourceforge.net/projects/microbegps/
+license: unknown
+blend: debian-med
+description_md5: 61d3f91093066766c58dc6ddf8b29111
+registries:
+- entry: OMICS_17085
+  name: OMICtools
+- entry: MicrobeGPS
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1371/journal.pone.0117711
+popcon:
+- insts: 109
+  olde: 82
+  recent: 22
+  vote: 5

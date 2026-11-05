@@ -1,0 +1,25 @@
+package: jellyfish1
+distribution: debian
+release: sid
+component: main
+version: 1.1.11
+source: jellyfish1
+homepage: https://www.cbcb.umd.edu/software/jellyfish/
+license: unknown
+blend: debian-med
+description_md5: e6c6a2a63227c526113a1ef4decae328
+registries:
+- entry: OMICS_01056
+  name: OMICtools
+- entry: SCR_005491
+  name: SciCrunch
+- entry: jellyfish
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btr011
+popcon:
+- insts: 134
+  olde: 103
+  recent: 26
+  vote: 5

@@ -1,0 +1,23 @@
+package: r-bioc-genomicalignments
+distribution: debian
+release: sid
+component: main
+version: 1.48.0
+source: r-bioc-genomicalignments
+homepage: https://bioconductor.org/packages/GenomicAlignments/
+license: unknown
+blend: debian-med
+description_md5: e1c4f2aae67802bc8e95cf5b1067edf6
+registries:
+- entry: genomicalignments
+  name: bio.tools
+- entry: bioconductor-genomicalignments
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1371/journal.pcbi.1003118
+popcon:
+- insts: 262
+  olde: 206
+  recent: 27
+  vote: 29

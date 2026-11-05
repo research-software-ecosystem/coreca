@@ -1,0 +1,47 @@
+package: seaview
+distribution: debian
+release: sid
+component: main
+version: 5.1+20251106
+source: seaview
+homepage: https://doua.prabi.fr/software/seaview
+license: unknown
+blend: debian-med
+description_md5: a82e7d5dbc9d5aa2cf6662e48d7aa245
+registries:
+- entry: OMICS_08908
+  name: OMICtools
+- entry: SCR_015059
+  name: SciCrunch
+- entry: seaview
+  name: bio.tools
+bib:
+- key: doi
+  value: 10.1093/molbev/msp259
+- key: doi
+  rank: 1
+  value: 10.1093/bioinformatics/12.6.543
+tags:
+- tag: field::biology
+- tag: field::biology:bioinformatics
+- tag: implemented-in::c
+- tag: implemented-in::c++
+- tag: interface::x11
+- tag: network::client
+- tag: protocol::TODO
+- tag: role::program
+- tag: scope::utility
+- tag: uitoolkit::fltk
+- tag: use::TODO
+- tag: use::comparing
+- tag: use::editing
+- tag: use::printing
+- tag: use::viewing
+- tag: works-with-format::plaintext
+- tag: works-with::biological-sequence
+- tag: x11::application
+popcon:
+- insts: 163
+  olde: 128
+  recent: 24
+  vote: 11

@@ -1,0 +1,53 @@
+about:
+  dev_url: https://github.com/gpertea/stringtie
+  doc_url: https://ccb.jhu.edu/software/stringtie/index.shtml?t=manual
+  home: https://ccb.jhu.edu/software/stringtie
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: StringTie employs efficient algorithms for transcript structure recovery
+    and abundance estimation from bulk RNA-Seq reads aligned to a reference genome.
+build:
+  number: 0
+  run_exports:
+  - null
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:stringtie
+  - usegalaxy-eu:stringtie
+  - doi:10.1038/nbt.3122
+  - doi:10.1038/nprot.2016.095
+  - doi:10.1186/s13059-019-1910-1
+package:
+  name: stringtie
+  version: 3.0.3
+requirements:
+  build:
+  - make
+  - null
+  - null
+  - autoconf
+  - automake
+  - libtool
+  - pkg-config
+  host:
+  - htslib
+  - curl
+  - bzip2
+  - xz
+  - zlib
+  run:
+  - htslib
+  - python
+source:
+  patches:
+  - patch
+  sha256: c33cf39a1a36e8e0a808b419a67d57f1744fd8141b30a85162c4d19dd9d36d42
+  url: https://github.com/gpertea/stringtie/releases/download/v3.0.3/stringtie-3.0.3.tar.gz
+test:
+  commands:
+  - stringtie 2>&1 | grep "Assemble"
+  - prepDE.py --help

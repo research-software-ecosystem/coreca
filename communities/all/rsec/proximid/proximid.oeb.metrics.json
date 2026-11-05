@@ -1,0 +1,137 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:proximid/plugin/www.nature.com",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "distribution": {
+            "sourcecode": {
+                "interpreted": true
+            }
+        },
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 96,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 15,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 19,
+                                    "year": 2022
+                                }
+                            ],
+                            "doi": "10.1038/s41592-018-0009-z",
+                            "pmid": "29786092",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Mapping the physical network of cellular interactions.",
+                            "year": 2018
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41592-018-0009-z&code=c77cfc62-2946-4f17-a51e-5e2ff9f4e5ae"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.nature.com/articles/s41592-018-0009-z?error=cookies_not_supported&code=c77cfc62-2946-4f17-a51e-5e2ff9f4e5ae"
+                    },
+                    {
+                        "status": 303,
+                        "url": "https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41592-018-0009-z"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        },
+        "support": {
+            "email": false
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/proximid",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": true,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 302,
+                        "url": "https://idp.nature.com/transit?redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41592-018-0009-z&code=7fb9d28f-c6a9-49a5-82da-ba6364a3d13f"
+                    },
+                    {
+                        "status": 302,
+                        "url": "https://www.nature.com/articles/s41592-018-0009-z?error=cookies_not_supported&code=7fb9d28f-c6a9-49a5-82da-ba6364a3d13f"
+                    },
+                    {
+                        "status": 303,
+                        "url": "https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41592-018-0009-z"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

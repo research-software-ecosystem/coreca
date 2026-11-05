@@ -1,0 +1,27 @@
+package: bbmap
+distribution: debian
+release: sid
+component: main
+version: '39.20'
+source: bbmap
+homepage: https://sourceforge.net/projects/bbmap/
+license: unknown
+blend: debian-med
+description_md5: 11554aad63e51af31dbc4fe8fe6f1828
+registries:
+- entry: SCR_016968
+  name: SciCrunch
+- entry: bbmap
+  name: bio.tools
+- entry: bbmap
+  name: conda:bioconda
+- entry: bbmap
+  name: guix
+bib:
+- key: doi
+  value: 10.1371/journal.pone.0185056
+popcon:
+- insts: 143
+  olde: 111
+  recent: 25
+  vote: 7

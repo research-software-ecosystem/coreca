@@ -1,0 +1,28 @@
+package: megahit
+distribution: debian
+release: sid
+component: main
+version: 1.2.9
+source: megahit
+homepage: https://github.com/voutcn/megahit
+license: unknown
+blend: debian-med
+description_md5: ca1a5f54b468287b534b0f28a3e5a51a
+registries:
+- entry: OMICS_07234
+  name: OMICtools
+- entry: megahit
+  name: bio.tools
+- entry: megahit
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btv033
+- key: doi
+  rank: 1
+  value: 10.1016/j.ymeth.2016.02.020
+popcon:
+- insts: 115
+  olde: 89
+  recent: 23
+  vote: 3

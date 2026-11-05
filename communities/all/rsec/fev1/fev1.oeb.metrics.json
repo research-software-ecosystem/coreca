@@ -1,0 +1,108 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:fev1/web/resp.core.ubc.ca",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "documentation": {
+                "terms_of_use": true
+            },
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 13,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1016/j.chest.2019.09.003",
+                            "pmid": "31542453",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "An Individualized Prediction Model for Long-term Lung Function Trajectory and Risk of COPD in the General Population.",
+                            "year": 2019
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.ubcresplab.ca/ipress/framinghamfev1"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/fev1",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "redirects": [
+                    {
+                        "status": 301,
+                        "url": "https://www.ubcresplab.ca/ipress/framinghamfev1"
+                    }
+                ],
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

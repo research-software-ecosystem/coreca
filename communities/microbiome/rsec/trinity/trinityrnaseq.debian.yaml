@@ -1,0 +1,27 @@
+package: trinityrnaseq
+distribution: debian
+release: sid
+component: main
+version: 2.15.2
+source: trinityrnaseq
+homepage: https://github.com/trinityrnaseq/trinityrnaseq
+license: unknown
+blend: debian-med
+description_md5: 2ee7f38dbb99a040c33d6619f4f5668b
+registries:
+- entry: OMICS_01327
+  name: OMICtools
+- entry: SCR_013048
+  name: SciCrunch
+- entry: trinity
+  name: bio.tools
+- entry: trinity
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1038/nbt.1883
+popcon:
+- insts: 110
+  olde: 81
+  recent: 23
+  vote: 6

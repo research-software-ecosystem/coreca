@@ -1,0 +1,21 @@
+package: smrtanalysis
+distribution: debian
+release: sid
+component: main
+version: 0~20210112
+source: smrtanalysis
+homepage: 
+  https://www.pacb.com/products-and-services/analytical-software/smrt-analysis/
+license: unknown
+blend: debian-med
+description_md5: 07f41ceb2de8cc7b1a670a30f40ef08a
+registries:
+- entry: OMICS_05142
+  name: OMICtools
+- entry: SCR_002942
+  name: SciCrunch
+- entry: SMRT_Analysis
+  name: bio.tools
+popcon:
+- insts: 111
+  nofiles: 111

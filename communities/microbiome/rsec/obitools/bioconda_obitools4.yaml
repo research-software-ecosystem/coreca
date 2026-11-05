@@ -1,0 +1,76 @@
+about:
+  dev_url: https://github.com/metabarcoding/obitools4
+  doc_url: https://obitools4.metabarcoding.org
+  home: https://github.com/metabarcoding/obitools4
+  license: CECILL-2.1
+  license_file: LICENCE-CECILL-2.1.txt
+  summary: A software package for DNA metabarcoding.
+build:
+  number: 0
+  run_exports:
+  - null
+  skip: true
+extra:
+  additional-platforms:
+  - linux-aarch64
+  - osx-arm64
+  identifiers:
+  - biotools:obitools
+  - doi:10.1111/1755-0998.12428
+  - usegalaxy-eu:obi_tab
+  - usegalaxy-eu:obi_stat
+  - usegalaxy-eu:obi_sort
+  - usegalaxy-eu:obi_convert
+  - usegalaxy-eu:obi_clean
+  - usegalaxy-eu:obi_uniq
+  - usegalaxy-eu:obi_grep
+  - usegalaxy-eu:obi_annotate
+  skip-lints:
+  - compiler_needs_stdlib_c
+package:
+  name: obitools4
+  version: 4.5.0
+requirements:
+  build:
+  - null
+  - null
+  - go-licenses
+  - pkg-config
+  - make
+  host:
+  - zlib
+source:
+  sha256: e68b9cdfef6addc8ab30e93e86a284c518b496b8e9fea2ce646af7e6d414b109
+  url: https://github.com/metabarcoding/obitools4/archive/refs/tags/Release_4.5.0.tar.gz
+test:
+  commands:
+  - obiannotate --help
+  - obiclean --help
+  - obicleandb --help
+  - obicomplement --help
+  - obiconsensus --help
+  - obiconvert --help
+  - obicount --help
+  - obicsv --help
+  - obidemerge --help
+  - obidistribute --help
+  - obigrep --help
+  - obijoin --help
+  - obik --help
+  - obikmermatch --help
+  - obikmersimcount --help
+  - obilandmark --help
+  - obimatrix --help
+  - obimicrosat --help
+  - obimultiplex --help
+  - obipairing --help
+  - obipcr --help
+  - obireffamidx --help
+  - obirefidx --help
+  - obiscript --help
+  - obisplit --help
+  - obisummary --help
+  - obitag --help
+  - obitagpcr --help
+  - obitaxonomy --help
+  - obiuniq --help

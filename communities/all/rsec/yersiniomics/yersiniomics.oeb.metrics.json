@@ -1,0 +1,78 @@
+[
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:yersiniomics/db/yersiniomics.pasteur.fr",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "deprecated": true,
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 9,
+                            "citations": [
+                                {
+                                    "count": 2,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2025
+                                }
+                            ],
+                            "doi": "10.1128/spectrum.03826-22",
+                            "pmcid": "PMC10100798",
+                            "pmid": "36847572",
+                            "ref_count": 0,
+                            "refs": [],
+                            "title": "Yersiniomics, a Multi-Omics Interactive Database for ",
+                            "year": 2023
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/yersiniomics",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": null,
+        "@type": "metrics",
+        "project": {
+            "build": {},
+            "deployment": {},
+            "publications": [],
+            "summary": {
+                "description": true
+            },
+            "website": {
+                "bioschemas": false,
+                "copyright": false,
+                "https": true,
+                "license": false,
+                "operational": 200,
+                "ssl": true,
+                "ssl_err": null
+            }
+        }
+    }
+]

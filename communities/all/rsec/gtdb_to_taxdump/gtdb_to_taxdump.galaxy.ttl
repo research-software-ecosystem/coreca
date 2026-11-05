@@ -1,0 +1,52 @@
+@prefix bioconda: <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/> .
+@prefix bioschemas: <http://bioschemas.org/> .
+@prefix biotools: <https://bio.tools/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix galaxytool: <https://github.com/galaxyproject/tools-iuc/tree/master/tools/> .
+@prefix schema1: <http://schema.org/> .
+
+galaxytool:gtdb_to_taxdump a schema1:SoftwareApplication ;
+    bioschemas:output "tabular" ;
+    schema1:applicationSubCategory edam:topic_3307 ;
+    schema1:codeRepository <https://github.com/nick-youngblut/gtdb_to_taxdump> ;
+    schema1:dateCreated "2024-08-25" ;
+    schema1:description "Convert GTDB taxonomy to NCBI taxdump format" ;
+    schema1:encodingFormat "tabular" ;
+    schema1:featureList edam:operation_2409,
+        edam:operation_2427,
+        edam:operation_2429,
+        edam:operation_3429,
+        edam:topic_0102 ;
+    schema1:identifier biotools:gtdb_to_taxdump,
+        bioconda:gtdb_to_taxdump ;
+    schema1:isPartOf <http://galaxy.inf.ethz.ch>,
+        <https://galaxytrakr.org>,
+        <https://usegalaxy.ca>,
+        <https://usegalaxy.cz>,
+        <https://usegalaxy.eu>,
+        <https://usegalaxy.eu/published/workflow?id=cf0159c14418525e>,
+        <https://usegalaxy.eu/published/workflow?id=e4dabaf57668dbd1>,
+        <https://usegalaxy.fr>,
+        <https://usegalaxy.org>,
+        <https://usegalaxy.org.au> ;
+    schema1:keywords "Metagenomics" ;
+    schema1:name "gtdb_to_taxdump" ;
+    schema1:softwareVersion "0.1.9" ;
+    schema1:url <https://github.com/galaxyproject/tools-iuc/tree/main/tools/gtdb_to_taxdump> .
+
+<http://galaxy.inf.ethz.ch> a schema1:WebSite .
+
+<https://galaxytrakr.org> a schema1:WebSite .
+
+<https://usegalaxy.ca> a schema1:WebSite .
+
+<https://usegalaxy.cz> a schema1:WebSite .
+
+<https://usegalaxy.eu> a schema1:WebSite .
+
+<https://usegalaxy.fr> a schema1:WebSite .
+
+<https://usegalaxy.org> a schema1:WebSite .
+
+<https://usegalaxy.org.au> a schema1:WebSite .
+

@@ -1,0 +1,28 @@
+package: soapaligner
+distribution: debian
+release: sid
+component: main
+version: '2.20'
+source: soapaligner
+homepage: 
+  https://web.archive.org/web/20190127081222/http://soap.genomics.org.cn/soapaligner.html
+license: unknown
+blend: debian-med
+description_md5: 995fc07701a7a25549ee980d96595040
+registries:
+- entry: OMICS_00688
+  name: OMICtools
+- entry: SCR_005503
+  name: SciCrunch
+- entry: soap2
+  name: bio.tools
+- entry: soapaligner
+  name: conda:bioconda
+bib:
+- key: doi
+  value: 10.1093/bioinformatics/btn025
+popcon:
+- insts: 112
+  olde: 86
+  recent: 22
+  vote: 4
