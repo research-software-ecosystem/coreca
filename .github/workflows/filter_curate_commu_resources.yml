@@ -144,9 +144,9 @@ jobs:
           name: filtered-curated-bioconda-recipes
           path: communities/${{ matrix.community }}/bioconda/*
   merge-resources:
-    needs: set-matrix
     runs-on: ubuntu-latest
     needs: 
+      - set-matrix
       - filter-and-curate-workflows
       - filter-rsec-tools
       - filter-and-curate-bioconda-recipes
