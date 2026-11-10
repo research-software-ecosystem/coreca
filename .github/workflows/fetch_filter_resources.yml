@@ -124,7 +124,7 @@ jobs:
       - name: Download RSEc resources
         uses: actions/download-artifact@v6
         with:
-          pattern: *
+          # pattern: *
           merge-multiple: true
           path: communities/all/rsec/
       - name: Download bioconda recipies
