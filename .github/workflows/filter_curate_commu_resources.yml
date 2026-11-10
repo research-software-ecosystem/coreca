@@ -137,7 +137,7 @@ jobs:
             --filtered communities/${{ matrix.community }}/bioconda/bioconda_filtered.json \
             --json-curated communities/${{ matrix.community }}/bioconda/bioconda_curated.json \
             --tsv-curated communities/${{ matrix.community }}/bioconda/bioconda_curated.tsv \
-            --status communities/${{ matrix.community } }/bioconda/bioconda_status.tsv
+            --status communities/${{ matrix.community }}/bioconda/bioconda_status.tsv
       - name: Archive filtered and curated bioconda recipes
         uses: actions/upload-artifact@v5
         with:
