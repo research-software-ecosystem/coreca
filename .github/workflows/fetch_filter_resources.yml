@@ -124,21 +124,21 @@ jobs:
       - name: Download RSEc resources
         uses: actions/download-artifact@v6
         with:
-          pattern: rsec
+          pattern: *
           merge-multiple: true
-          path: communities/all/
+          path: communities/all/rsec/
       - name: Download bioconda recipies
         uses: actions/download-artifact@v6
         with:
           pattern: bioconda
           merge-multiple: true
-          path: communities/all/
+          path: communities/all/bioconda/
       - name: Download workflows
         uses: actions/download-artifact@v6
         with:
-          pattern: workflowhub
+          pattern: workflows
           merge-multiple: true
-          path: communities/all/
+          path: communities/all/workflowhub/
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
