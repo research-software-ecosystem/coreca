@@ -1,0 +1,150 @@
+name: Weekly resource fetching
+
+on:
+  workflow_dispatch:
+  schedule:
+    #Every Sunday at 8:00 am
+    - cron: "0 8 * * 0" 
+  push:
+    branches:
+      - 'main'
+      - 'scorreard_action_update'
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "tools"
+  cancel-in-progress: false
+
+jobs:
+  fetch-recipes:
+    runs-on: ubuntu-latest
+    name: Fetch Bioconda recipes
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Install requirement
+        run: |
+          python -m pip install -r requirements.txt
+          sudo apt-get install jq
+      - name: Extract all conda recipes from Bioconda
+        run: | 
+          python bin/bioconda_manager.py \
+            extract \
+            --all communities/all/bioconda/recipes_all.json
+      - name: Archive conda artifacts
+        uses: actions/upload-artifact@v5
+        with:
+          name: bioconda
+          path: communities/all/bioconda/recipes*
+  fetch-rsec:
+    runs-on: ubuntu-latest
+    name: Fetch RSEc resources
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Install requirement
+        run: python -m pip install -r requirements.txt
+      - name: Fetch RSEc
+        run: | 
+          python bin/extract_rsec.py \
+            extract \
+            --all communities/all/rsec/
+      # The following characters are not allowed in files that are uploaded due to limitations with certain file systems such as NTFS.
+      # To maintain file system agnostic behavior, these characters are intentionally not allowed to prevent potential problems with downloads on different file systems.
+      # The code below changes these characters to underscores.
+      - name: Sanitize artifact paths
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          root = Path("communities/all/rsec")
+          invalid = re.compile(r'["<>|*?:\r\n]')
+
+          # Rename deepest paths first so nested directories are handled safely.
+          for path in sorted(root.rglob("*"), key=lambda p: len(p.parts), reverse=True):
+              safe_name = invalid.sub("_", path.name)
+              if safe_name != path.name:
+                  target = path.with_name(safe_name)
+                  if target.exists():
+                      raise SystemExit(f"Sanitizing {path} would collide with {target}")
+                  path.rename(target)
+          PY
+      - name: Archive tools
+        uses: actions/upload-artifact@v5
+        with:
+          name: tools
+          path: communities/all/rsec/
+  fetch-workflows:
+    runs-on: ubuntu-latest
+    name: Fetch workflows
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Install requirement
+        run: |
+          python -m pip install -r requirements.txt
+          sudo apt-get install jq
+      - name: Extract all workflows metadata from WorkflowHub
+        run: | 
+          python bin/extract_workflowhub.py \
+            extract \
+            --all communities/all/workflowhub/workflows_full.json
+      - name: Archive workflows artifacts
+        uses: actions/upload-artifact@v5
+        with:
+          name: workflows
+          path: communities/all/workflowhub/
+  merge-resources:
+    runs-on: ubuntu-latest
+    needs: 
+      - fetch-recipes
+      - fetch-rsec
+      - fetch-workflows
+    name: Merge resources
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Install requirement
+        run: |
+          python -m pip install -r requirements.txt
+          sudo apt-get install jq
+      - name: Download RSEc resources
+        uses: actions/download-artifact@v6
+        with:
+          # pattern: *
+          merge-multiple: true
+          path: communities/all/rsec/
+      - name: Download bioconda recipies
+        uses: actions/download-artifact@v6
+        with:
+          pattern: bioconda
+          merge-multiple: true
+          path: communities/all/bioconda/
+      - name: Download workflows
+        uses: actions/download-artifact@v6
+        with:
+          pattern: workflows
+          merge-multiple: true
+          path: communities/all/workflowhub/
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: Update resources
+          title: Automatic resources update
+          body: Automatic resource update done via GitHub Action once a week
+          base: main
+          branch: resource-update
+          delete-branch: true
