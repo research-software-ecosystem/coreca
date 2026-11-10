@@ -167,7 +167,7 @@ jobs:
       - name: Download workflows
         uses: actions/download-artifact@v6
         with:
-          # pattern: *
+          pattern: workflows, tools, validated
           merge-multiple: true
           path: communities/${{ matrix.community }}/workflowhub/
       - name: Download rsec tools
