@@ -6,8 +6,8 @@ on:
     branches:
       - 'main'
       - 'scorreard_community_filtering_action'
-    paths:
-      - 'communities/all/**'
+#    paths:
+#      - 'communities/all/**'
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -27,7 +27,7 @@ jobs:
         id: prepare
         run: |
           # List all directories in communities/ and format as a JSON array
-          communities=$(ls -d communities/*/ | xargs -n1 basename | jq -R -s -c 'split("\n")[:-1]')
+          communities=$(ls -d communities/*/ | xargs -n1 basename | grep -vx all | jq -R -s -c 'split("\n")[:-1]')
           echo "communities=$communities" >> $GITHUB_OUTPUT
   filter-and-curate-workflows:
     needs: set-matrix

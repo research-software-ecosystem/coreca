@@ -355,7 +355,7 @@ class Workflows:
             "curation_date": "Curation date",
         }
 
-        df = pd.DataFrame(self.export_workflows_to_dict())
+        df = pd.DataFrame(self.export_workflows_to_dict(), columns=list(renaming.keys()))
 
         for col in [
             "tools",
