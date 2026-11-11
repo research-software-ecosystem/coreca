@@ -1,0 +1,49 @@
+edam:
+  topics:
+    - Metagenomics
+    - Metatranscriptomics
+    - Metabarcoding
+    - Biodiversity
+    - Ecology
+
+  operations:
+    - Read binning
+    - Annotation
+    - Genome assembly
+    - Assembly
+    - Genome annotation
+
+keywords:
+  # Existing biodiversity resource terminology
+  - VGP_curated
+  - Biodiversity
+  - Annotation
+  - Genome assembly
+  - Earth-system
+  - Ecology
+  - Ecological
+  - Assembly
+  - Genome annotation
+  - Entomology
+  - Metagenomics
+
+  # Additional biodiversity-related terminology
+  - Natural history
+  - Taxonomy
+  - Systematics
+  - Phylogenetics
+  - Conservation biology
+  - Species identification
+  - Environmental DNA
+  - eDNA
+  - Biodiversity monitoring
+  - Bioacoustics
+  - Camera traps
+  - Remote sensing
+  - Species distribution modelling
+
+acronyms:
+  - GIS
+  - ERGA
+  - ModGP
+  - eDNA
