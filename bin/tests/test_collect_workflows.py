@@ -94,7 +94,32 @@ class TestWorkflow(unittest.TestCase):
         self.assertEqual(self.workflow.keep, True)
         self.assertEqual(self.workflow.curation_date, "2023-12-01")
         self.assertEqual(self.workflow.filtered_on, "edam")
+    def test_init_from_lifewatch(self) -> None:
+        """Test init_from_lifewatch method."""
+        wf_dict = {
+            "@id": "https://metadatacatalogue.lifewatch.eu/srv/api/records/test-uuid",
+            "url": "https://metadatacatalogue.lifewatch.eu/workflows/test",
+            "name": "Test LifeWatch Workflow",
+            "description": "Test description",
+            "creator": [{"name": "Jane Doe"}],
+            "keywords": ["Biotope", "IJI"],
+            "license": "GPLv3",
+            "dateCreated": "2019-07-04",
+        }
 
+        self.workflow.init_from_lifewatch(wf_dict)
+
+        self.assertEqual(self.workflow.source, "LifeWatch ERIC")
+        self.assertEqual(self.workflow.id, "test-uuid")
+        self.assertEqual(self.workflow.name, "Test LifeWatch Workflow")
+        self.assertEqual(self.workflow.link, "https://metadatacatalogue.lifewatch.eu/workflows/test")
+        self.assertEqual(self.workflow.description, "Test description")
+        self.assertEqual(self.workflow.type, "workflow")
+        self.assertEqual(self.workflow.creators, ["Jane Doe"])
+        self.assertEqual(self.workflow.tags, ["biotope", "iji"])
+        self.assertEqual(self.workflow.license, "GPLv3")
+        self.assertEqual(self.workflow.create_time, "2019-07-04")
+        
     def test_init_from_search(self) -> None:
         """Test init_from_search method"""
         extracted_wf = {
