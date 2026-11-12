@@ -191,7 +191,7 @@ class BiocondaRecipes:
             df = df.set_index("package.name")
 
         if to_keep_columns is not None:
-            df = df[to_keep_columns]
+            df = df.reindex(columns=to_keep_columns)
 
         df.to_csv(output_file, sep="\t")
         logging.info(f"Recipes written as TSV to: {output_file}")
