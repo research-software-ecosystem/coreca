@@ -34,7 +34,7 @@ jobs:
         run: | 
           python bin/bioconda_manager.py \
             extract \
-            --all communities/all/bioconda/recipes_all.json
+            --all communities/all/bioconda/bioconda_full.json
       - name: Archive conda artifacts
         uses: actions/upload-artifact@v5
         with:

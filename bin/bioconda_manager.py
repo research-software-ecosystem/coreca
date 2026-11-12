@@ -164,7 +164,7 @@ class BiocondaRecipes:
         curated_recipes = {}
         for name, recipe in self.recipes.items():
             if name in status:
-                recipe.update_status(status[name])
+                recipe.update_status(status[name].get("To keep", False))
             if recipe.get_status():
                 curated_recipes[name] = recipe
         self.recipes = curated_recipes
