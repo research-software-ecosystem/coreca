@@ -7,6 +7,7 @@ import logging
 import os
 import shutil
 import sys
+from pathlib import Path
 from typing import (
     Any,
     Dict,
@@ -382,7 +383,9 @@ class Workflows:
         if to_keep_columns is not None:
             df = df[to_keep_columns]
 
-        df.to_csv(output_fp, sep="\t", index=False)
+        output_path = Path(output_fp)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        df.to_csv(output_path, sep="\t", index=False)
 
     def extract_tools(self, output_tools: str) -> None:
         """
