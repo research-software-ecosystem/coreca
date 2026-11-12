@@ -35,6 +35,7 @@ from utils import (
 
 logger = logging.getLogger(__name__)
 
+
 class Workflow:
     """
     Class for workflow
