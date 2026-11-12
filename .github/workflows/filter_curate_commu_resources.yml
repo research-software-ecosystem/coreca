@@ -167,20 +167,20 @@ jobs:
       - name: Download workflows
         uses: actions/download-artifact@v6
         with:
-          pattern: workflows, tools, validated
           merge-multiple: true
+          name: filtered-curated-workflows
           path: communities/${{ matrix.community }}/workflowhub/
       - name: Download rsec tools
         uses: actions/download-artifact@v6
         with:
-          pattern: rsec
           merge-multiple: true
+          name: filtered-rsec-tools
           path: communities/${{ matrix.community }}/rsec/
       - name: Download bioconda recipes
         uses: actions/download-artifact@v6
         with:
-          pattern: bioconda recipes
           merge-multiple: true
+          name: filtered-curated-bioconda-recipes
           path: communities/${{ matrix.community }}/bioconda/
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
