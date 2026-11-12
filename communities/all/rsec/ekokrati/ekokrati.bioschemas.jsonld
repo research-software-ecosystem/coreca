@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/ekokrati",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N64f3dfaa2e464c2982575cb1e0bd5bac"
+        "@id": "_:N58b90bc2278342a79d8a10be4b04384f"
       },
       "bsc:output": [
         {
-          "@id": "_:N3bb949342d02468180c8a045a1e9da6d"
+          "@id": "_:Ncb026980c5f74107ac25be33206aaf1a"
         },
         {
-          "@id": "_:N31890cc7521141d1b8bc4d1b891f6e47"
+          "@id": "_:N35aa40ad29794f6ba92f9642ea1148b7"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -67,7 +67,7 @@
       "sc:url": "https://app.ekokrati.se"
     },
     {
-      "@id": "_:N64f3dfaa2e464c2982575cb1e0bd5bac",
+      "@id": "_:N58b90bc2278342a79d8a10be4b04384f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3736"
@@ -75,7 +75,7 @@
       "sc:name": "Ecological data"
     },
     {
-      "@id": "_:N3bb949342d02468180c8a045a1e9da6d",
+      "@id": "_:Ncb026980c5f74107ac25be33206aaf1a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3707"
@@ -83,7 +83,7 @@
       "sc:name": "Biodiversity data"
     },
     {
-      "@id": "_:N31890cc7521141d1b8bc4d1b891f6e47",
+      "@id": "_:N35aa40ad29794f6ba92f9642ea1148b7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3736"

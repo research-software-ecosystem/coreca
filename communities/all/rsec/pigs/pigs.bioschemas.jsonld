@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Paolo Marcatili",
       "bsc:input": {
-        "@id": "_:Naef014c67b7241ec88914b19fa6493ac"
+        "@id": "_:N493026cba8a64222ae0c72bc9dc89529"
       },
       "bsc:output": {
-        "@id": "_:N055903137c734e2793b73f1daa134508"
+        "@id": "_:N8e699646e348449483ce4539e377462a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -82,7 +82,7 @@
       "sc:url": "http://circe.med.uniroma1.it/pigs/"
     },
     {
-      "@id": "_:Naef014c67b7241ec88914b19fa6493ac",
+      "@id": "_:N493026cba8a64222ae0c72bc9dc89529",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -90,7 +90,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N055903137c734e2793b73f1daa134508",
+      "@id": "_:N8e699646e348449483ce4539e377462a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"

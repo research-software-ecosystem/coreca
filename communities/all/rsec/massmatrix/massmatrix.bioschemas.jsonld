@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N2109d96409904b0c89e1349cd0c8c84d"
+          "@id": "_:N01e886463cba4cefaa4c0ec7e9dd3e9d"
         },
         {
-          "@id": "_:N0d500922fc4f421b9d6b3b08984fc7ac"
+          "@id": "_:N5752ca0672914da28644bdc1dfa7a4a7"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ncc7d80cbd7044ab1813d3ecd06d1055a"
+        "@id": "_:N44c1e8eb872246e1a4ef951a02878b64"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -112,7 +112,7 @@
       "sc:url": "http://www.massmatrix.net"
     },
     {
-      "@id": "_:N2109d96409904b0c89e1349cd0c8c84d",
+      "@id": "_:N01e886463cba4cefaa4c0ec7e9dd3e9d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -131,7 +131,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N0d500922fc4f421b9d6b3b08984fc7ac",
+      "@id": "_:N5752ca0672914da28644bdc1dfa7a4a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -142,7 +142,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:Ncc7d80cbd7044ab1813d3ecd06d1055a",
+      "@id": "_:N44c1e8eb872246e1a4ef951a02878b64",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"

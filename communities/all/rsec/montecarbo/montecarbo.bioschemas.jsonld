@@ -36,14 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0001-7596-8161",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1002/jcc.26559",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/montecarbo",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -86,6 +78,14 @@
       "sc:license": "GPL-3.0",
       "sc:name": "MonteCarbo",
       "sc:url": "https://github.com/drsalonsogil/montecarbo"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7596-8161",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1002/jcc.26559",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -67,7 +67,7 @@
       "sc:featureList": {
         "@id": "edam:operation_3463"
       },
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "GeneExpressionSignature",
       "sc:operatingSystem": [
         "Linux",

@@ -36,26 +36,30 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkx925",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/triforc",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Alain Goossens",
       "bsc:input": [
         {
-          "@id": "_:Ne041306c0320493689cc7b06cc41bf49"
+          "@id": "_:N53ddec8e6ba043ceaba5dc513a6c07b8"
         },
         {
-          "@id": "_:N5af0205dd2f44dfc8a647920d0d93b45"
+          "@id": "_:N22ddcd199239471f961328b3f4201747"
         },
         {
-          "@id": "_:N1b25b40687b943fea273b8ee883a1ea4"
+          "@id": "_:N110589345edc4f30bb1253508831cc22"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8749279264344e6fbef9514c9c552909"
+          "@id": "_:Nf6497ba7d3a54457a41c244eefca9036"
         },
         {
-          "@id": "_:Nad9b4ebf38ef414ab767942aa932a930"
+          "@id": "_:Nc65468eab43049b4a2b564c1bc94f332"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -103,7 +107,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/triforc/#/home"
     },
     {
-      "@id": "_:Ne041306c0320493689cc7b06cc41bf49",
+      "@id": "_:N53ddec8e6ba043ceaba5dc513a6c07b8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -111,7 +115,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N5af0205dd2f44dfc8a647920d0d93b45",
+      "@id": "_:N22ddcd199239471f961328b3f4201747",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -122,7 +126,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:N1b25b40687b943fea273b8ee883a1ea4",
+      "@id": "_:N110589345edc4f30bb1253508831cc22",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -133,7 +137,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:N8749279264344e6fbef9514c9c552909",
+      "@id": "_:Nf6497ba7d3a54457a41c244eefca9036",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0962"
@@ -141,16 +145,12 @@
       "sc:name": "Small molecule report"
     },
     {
-      "@id": "_:Nad9b4ebf38ef414ab767942aa932a930",
+      "@id": "_:Nc65468eab43049b4a2b564c1bc94f332",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
       },
       "sc:name": "Sequence report"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkx925",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

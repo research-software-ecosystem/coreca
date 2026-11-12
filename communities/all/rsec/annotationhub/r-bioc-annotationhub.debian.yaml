@@ -14,7 +14,7 @@ registries:
 - entry: annotationhub
   name: bio.tools
 popcon:
-- insts: 108
-  olde: 88
-  recent: 2
-  vote: 18
+- insts: 111
+  olde: 91
+  recent: 4
+  vote: 16

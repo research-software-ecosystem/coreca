@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/netaspgene",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nafee08c9a334449587b48ec8022e7cf5"
+        "@id": "_:Nb79fe796cda546419e6105d1e8d6c8ed"
       },
       "bsc:output": [
         {
-          "@id": "_:Nd96d6f7694214f7cbff8224d8d7a9f7a"
+          "@id": "_:N3509d1c005dc4a21846fa69a6bf8a925"
         },
         {
-          "@id": "_:N21b4963009db48c0b9f6ba93f70dfe0a"
+          "@id": "_:N556da45b08914d5492973ad06500bcf2"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -85,7 +85,7 @@
       "sc:url": "http://cbs.dtu.dk/services/NetAspGene/"
     },
     {
-      "@id": "_:Nafee08c9a334449587b48ec8022e7cf5",
+      "@id": "_:Nb79fe796cda546419e6105d1e8d6c8ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -96,7 +96,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nd96d6f7694214f7cbff8224d8d7a9f7a",
+      "@id": "_:N3509d1c005dc4a21846fa69a6bf8a925",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -107,7 +107,7 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:N21b4963009db48c0b9f6ba93f70dfe0a",
+      "@id": "_:N556da45b08914d5492973ad06500bcf2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"

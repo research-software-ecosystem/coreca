@@ -36,10 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.2196/29920",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/rwd-cockpit",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N497eb25aa9924dd78d674663a7e712fa"
+        "@id": "_:Ne8e441c4cc7246f9a2df8b32cc9d5485"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -86,16 +90,12 @@
       "sc:url": "http://rwd.aihealth.ch/"
     },
     {
-      "@id": "_:N497eb25aa9924dd78d674663a7e712fa",
+      "@id": "_:Ne8e441c4cc7246f9a2df8b32cc9d5485",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
       },
       "sc:name": "Keyword"
-    },
-    {
-      "@id": "https://doi.org/10.2196/29920",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -41,24 +41,24 @@
       "biotools:primaryContact": "Thomas Lütteke",
       "bsc:input": [
         {
-          "@id": "_:N463afc0625874837942cd3140ce612f3"
+          "@id": "_:N4be4d09914ed46268ec23bd9cae19cb8"
         },
         {
-          "@id": "_:N1d5a0f6fb77a4a93ad8ce9b00f1528b8"
+          "@id": "_:Nfdc2718a0be241bd8002c6a27fd62bf1"
         },
         {
-          "@id": "_:Nbbf7aa51d40c46f2bf2c265163fb11cb"
+          "@id": "_:N3befbb1fdc6541449ad6b33f7813dcb5"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9a83ab02b7174848ba88f6c8fb4667c1"
+          "@id": "_:Nebb838aec28349478434becf3a2d9952"
         },
         {
-          "@id": "_:Nc28b497e5e2a41ae9d458b768c51e709"
+          "@id": "_:Nf3e049aaf9a2438bb3edac942b7e9c28"
         },
         {
-          "@id": "_:N7b387d59734c4f4eb777442692f1634d"
+          "@id": "_:Nd78b4634eda34c488480e37754222a91"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -88,7 +88,7 @@
       "sc:url": "http://www.glycosciences.de/sweetdb/index.php"
     },
     {
-      "@id": "_:N463afc0625874837942cd3140ce612f3",
+      "@id": "_:N4be4d09914ed46268ec23bd9cae19cb8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2752"
@@ -96,7 +96,7 @@
       "sc:name": "GlycoMap ID"
     },
     {
-      "@id": "_:N1d5a0f6fb77a4a93ad8ce9b00f1528b8",
+      "@id": "_:Nfdc2718a0be241bd8002c6a27fd62bf1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2796"
@@ -104,7 +104,7 @@
       "sc:name": "LINUCS ID"
     },
     {
-      "@id": "_:Nbbf7aa51d40c46f2bf2c265163fb11cb",
+      "@id": "_:N3befbb1fdc6541449ad6b33f7813dcb5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -112,7 +112,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N9a83ab02b7174848ba88f6c8fb4667c1",
+      "@id": "_:Nebb838aec28349478434becf3a2d9952",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2753"
@@ -123,7 +123,7 @@
       "sc:name": "Carbohydrate conformational map"
     },
     {
-      "@id": "_:Nc28b497e5e2a41ae9d458b768c51e709",
+      "@id": "_:Nf3e049aaf9a2438bb3edac942b7e9c28",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2313"
@@ -134,7 +134,7 @@
       "sc:name": "Carbohydrate report"
     },
     {
-      "@id": "_:N7b387d59734c4f4eb777442692f1634d",
+      "@id": "_:Nd78b4634eda34c488480e37754222a91",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2313"

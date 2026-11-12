@@ -36,11 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btq057",
+      "@id": "https://doi.org/10.1038/nmeth.4106",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1186/1471-2164-15-264",
+      "@id": "https://doi.org/10.1093/bioinformatics/btq057",
       "@type": "sc:CreativeWork"
     },
     {
@@ -57,21 +57,21 @@
       "biotools:primaryContact": "Thomas Wu",
       "bsc:input": [
         {
-          "@id": "_:Nb331376e1947428584beee4457ef4b94"
+          "@id": "_:Nc31e913df59d423c9d7d80daa04e9a03"
         },
         {
-          "@id": "_:N4798b5225bb84c1ea42357b0fa500e41"
+          "@id": "_:N2def856bae1e4a318ac995b4bf07daee"
         },
         {
-          "@id": "_:Ndb6f4300a4b346dabd8227b113af9a5d"
+          "@id": "_:N64b5364ed86a424ba0e75bb2f1a1bc5e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nceeac5bdce3f4b459ee4a15c1f1d3034"
+          "@id": "_:N6b6b0b4a2b744e9eb08965c4029b4a2c"
         },
         {
-          "@id": "_:N3545b3e6b0cf4772aacfb80644f38e0c"
+          "@id": "_:N808cb79c10844eb48c5bca33224551a4"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -130,7 +130,7 @@
       "sc:url": "http://research-pub.gene.com/gmap/"
     },
     {
-      "@id": "_:Nb331376e1947428584beee4457ef4b94",
+      "@id": "_:Nc31e913df59d423c9d7d80daa04e9a03",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -141,7 +141,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N4798b5225bb84c1ea42357b0fa500e41",
+      "@id": "_:N2def856bae1e4a318ac995b4bf07daee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -152,7 +152,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ndb6f4300a4b346dabd8227b113af9a5d",
+      "@id": "_:N64b5364ed86a424ba0e75bb2f1a1bc5e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -163,7 +163,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nceeac5bdce3f4b459ee4a15c1f1d3034",
+      "@id": "_:N6b6b0b4a2b744e9eb08965c4029b4a2c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -174,7 +174,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N3545b3e6b0cf4772aacfb80644f38e0c",
+      "@id": "_:N808cb79c10844eb48c5bca33224551a4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -185,7 +185,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "https://doi.org/10.1038/nmeth.4106",
+      "@id": "https://doi.org/10.1186/1471-2164-15-264",
       "@type": "sc:CreativeWork"
     }
   ]

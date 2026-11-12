@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/schicstackl",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1b6efac0055d4eb4b4b24b2215f58bc4"
+        "@id": "_:N364dbc6c4e144277bf054e0aa4b3ea98"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -89,7 +89,7 @@
       "sc:url": "http://hww.sdu.edu.cn:8002/scHiCStackL/"
     },
     {
-      "@id": "_:N1b6efac0055d4eb4b4b24b2215f58bc4",
+      "@id": "_:N364dbc6c4e144277bf054e0aa4b3ea98",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0919"

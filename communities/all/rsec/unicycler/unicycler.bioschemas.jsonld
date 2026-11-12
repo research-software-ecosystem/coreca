@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ryan R. Wick",
       "bsc:input": {
-        "@id": "_:Nc86350bb38de48bfbffa59c0983ebdf9"
+        "@id": "_:N8668b9d844e4493e8a14e41d628bffb0"
       },
       "bsc:output": {
-        "@id": "_:N2d60f35871f946da800b5d9309d9b65b"
+        "@id": "_:N8d6d1193be564260b851b3595f46a7b8"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -90,7 +90,7 @@
       "sc:url": "https://github.com/rrwick/Unicycler"
     },
     {
-      "@id": "_:Nc86350bb38de48bfbffa59c0983ebdf9",
+      "@id": "_:N8668b9d844e4493e8a14e41d628bffb0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0848"
@@ -101,7 +101,7 @@
       "sc:name": "Raw sequence"
     },
     {
-      "@id": "_:N2d60f35871f946da800b5d9309d9b65b",
+      "@id": "_:N8d6d1193be564260b851b3595f46a7b8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"

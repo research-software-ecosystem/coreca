@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/s41587-020-0503-6",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/shasta",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na0061503653149f69f6ad98d23902055"
+        "@id": "_:N436d6e4dff9147a99cf180d2c0e64baf"
       },
       "bsc:output": {
-        "@id": "_:N3bd28d5d27604945b95538a9474da878"
+        "@id": "_:N573cb84744d645f0a0ca816606f4dffa"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -90,7 +94,7 @@
       "sc:url": "https://github.com/paoloshasta/shasta"
     },
     {
-      "@id": "_:Na0061503653149f69f6ad98d23902055",
+      "@id": "_:N436d6e4dff9147a99cf180d2c0e64baf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -101,7 +105,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:N3bd28d5d27604945b95538a9474da878",
+      "@id": "_:N573cb84744d645f0a0ca816606f4dffa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -110,10 +114,6 @@
         "@id": "edam:format_1930"
       },
       "sc:name": "Sequence assembly"
-    },
-    {
-      "@id": "https://doi.org/10.1038/s41587-020-0503-6",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/monocle",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N7f588fdce05948f0aa3dc9e94947d2fa"
+        "@id": "_:N40a3686c893b4dd4a365408a4180d334"
       },
       "bsc:output": {
-        "@id": "_:N38f52c37e9014241b83708a5c973343a"
+        "@id": "_:N05c0c87387b84a379128d15bf872a954"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -87,7 +87,7 @@
       "sc:url": "https://bioconductor.org/packages/monocle"
     },
     {
-      "@id": "_:N7f588fdce05948f0aa3dc9e94947d2fa",
+      "@id": "_:N40a3686c893b4dd4a365408a4180d334",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -98,7 +98,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N38f52c37e9014241b83708a5c973343a",
+      "@id": "_:N05c0c87387b84a379128d15bf872a954",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1713"

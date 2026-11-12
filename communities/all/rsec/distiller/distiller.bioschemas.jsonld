@@ -36,22 +36,26 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/gb-2009-10-3-r27",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/distiller",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N7007a3d2298a406fb16025c156df4fff"
+          "@id": "_:N72388bdce513404eb4cec61bdc2872d7"
         },
         {
-          "@id": "_:N1d305590ef354b05a174358f798f374e"
+          "@id": "_:Nc6e062c484b44546998db97072948be8"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nfce3cc2085004a7d92939ce65a495f03"
+          "@id": "_:N4bbb875aa96043f289d1baaff0f4775d"
         },
         {
-          "@id": "_:N590e623b4a6d49fcb0352c94953f7903"
+          "@id": "_:N17fd70a903164cfa843d695a6f29d725"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -87,7 +91,7 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/kmarchal/Supplementary_Information_Lemmens_2008/Index.html"
     },
     {
-      "@id": "_:N7007a3d2298a406fb16025c156df4fff",
+      "@id": "_:N72388bdce513404eb4cec61bdc2872d7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3110"
@@ -95,7 +99,7 @@
       "sc:name": "Raw microarray data"
     },
     {
-      "@id": "_:N1d305590ef354b05a174358f798f374e",
+      "@id": "_:Nc6e062c484b44546998db97072948be8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2070"
@@ -103,7 +107,7 @@
       "sc:name": "Sequence motif (nucleic acid)"
     },
     {
-      "@id": "_:Nfce3cc2085004a7d92939ce65a495f03",
+      "@id": "_:N4bbb875aa96043f289d1baaff0f4775d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -111,16 +115,12 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N590e623b4a6d49fcb0352c94953f7903",
+      "@id": "_:N17fd70a903164cfa843d695a6f29d725",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
       },
       "sc:name": "Image"
-    },
-    {
-      "@id": "https://doi.org/10.1186/gb-2009-10-3-r27",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

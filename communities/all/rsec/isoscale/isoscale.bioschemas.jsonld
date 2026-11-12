@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/pmic.201400084",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/isoscale",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Simone Sidoli",
       "bsc:input": {
-        "@id": "_:Nffe0b655322445189ad7e8afb0eb20c7"
+        "@id": "_:N956f3a52b66543918929d232bed6f71f"
       },
       "bsc:output": {
-        "@id": "_:Nce55b9e6a317400483d7c531170ab01d"
+        "@id": "_:N9cc012217b1e4e89b5e5b727b40764f6"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -94,7 +98,7 @@
       "sc:url": "https://github.com/middle-down/Software"
     },
     {
-      "@id": "_:Nffe0b655322445189ad7e8afb0eb20c7",
+      "@id": "_:N956f3a52b66543918929d232bed6f71f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -105,7 +109,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:Nce55b9e6a317400483d7c531170ab01d",
+      "@id": "_:N9cc012217b1e4e89b5e5b727b40764f6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2907"
@@ -114,10 +118,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Protein accession"
-    },
-    {
-      "@id": "https://doi.org/10.1002/pmic.201400084",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

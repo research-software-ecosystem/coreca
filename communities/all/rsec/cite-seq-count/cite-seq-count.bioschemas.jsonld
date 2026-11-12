@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nf141f261299f4a75a476c60c3dc140d2"
+          "@id": "_:N2d6c499762ca4384bc8a582596ca0bb2"
         },
         {
-          "@id": "_:N66a8533d9edd475bb0ab73ef83a6d002"
+          "@id": "_:N604bc68b5ecc4d768c900ba15b04200c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N0567e2b886d04c7ba42bcd96451ace2f"
+          "@id": "_:N4bb3635458114e029e9168c9ad0eec07"
         },
         {
-          "@id": "_:N88995e93f89746d58a268c41a61a13f8"
+          "@id": "_:N87305e54a4a44092b88703d92245625d"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -82,7 +82,7 @@
       "sc:url": "https://hoohm.github.io/CITE-seq-Count/"
     },
     {
-      "@id": "_:Nf141f261299f4a75a476c60c3dc140d2",
+      "@id": "_:N2d6c499762ca4384bc8a582596ca0bb2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -93,7 +93,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N66a8533d9edd475bb0ab73ef83a6d002",
+      "@id": "_:N604bc68b5ecc4d768c900ba15b04200c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1022"
@@ -104,7 +104,7 @@
       "sc:name": "Sequence feature label"
     },
     {
-      "@id": "_:N0567e2b886d04c7ba42bcd96451ace2f",
+      "@id": "_:N4bb3635458114e029e9168c9ad0eec07",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2084"
@@ -115,7 +115,7 @@
       "sc:name": "Nucleic acid report"
     },
     {
-      "@id": "_:N88995e93f89746d58a268c41a61a13f8",
+      "@id": "_:N87305e54a4a44092b88703d92245625d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N556cc5454dc64a35b01b8be7d802e6c5"
+        "@id": "_:N0e6bccd545ba421097ae98b8ac24dfd6"
       },
       "bsc:output": {
-        "@id": "_:N4391399b9f004b0094e224760874c21a"
+        "@id": "_:Ne3f5d12a6e8b4ff9a03e3e7d8e0e5df4"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -77,7 +77,7 @@
       "sc:url": "https://broadinstitute.github.io/picard/"
     },
     {
-      "@id": "_:N556cc5454dc64a35b01b8be7d802e6c5",
+      "@id": "_:N0e6bccd545ba421097ae98b8ac24dfd6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -93,7 +93,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N4391399b9f004b0094e224760874c21a",
+      "@id": "_:Ne3f5d12a6e8b4ff9a03e3e7d8e0e5df4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -104,11 +104,11 @@
       "sc:name": "Report"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

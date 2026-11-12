@@ -43,18 +43,18 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nf8d0db3950e64b628b06176ab3cd9292"
+          "@id": "_:N8e2e77f2d56f4bea8da7fef739e42f98"
         },
         {
-          "@id": "_:N27785daa01984e3ca81bf112b6ff26ad"
+          "@id": "_:Nc31f8caa8534423fa853d8629da2a75f"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1e70f49ee12643e78d24857fe25e98fd"
+          "@id": "_:N585eba4c4213476ea439333454267997"
         },
         {
-          "@id": "_:N9d5fabee2c944a2ebad2dc43157196c2"
+          "@id": "_:N05e41d9fff474f7983b97de28174a9df"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -115,7 +115,7 @@
       "sc:url": "https://www.jalview.org/"
     },
     {
-      "@id": "_:Nf8d0db3950e64b628b06176ab3cd9292",
+      "@id": "_:N8e2e77f2d56f4bea8da7fef739e42f98",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -173,7 +173,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N27785daa01984e3ca81bf112b6ff26ad",
+      "@id": "_:Nc31f8caa8534423fa853d8629da2a75f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0886"
@@ -184,7 +184,7 @@
       "sc:name": "Structure alignment"
     },
     {
-      "@id": "_:N1e70f49ee12643e78d24857fe25e98fd",
+      "@id": "_:N585eba4c4213476ea439333454267997",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -209,7 +209,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N9d5fabee2c944a2ebad2dc43157196c2",
+      "@id": "_:N05e41d9fff474f7983b97de28174a9df",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -249,12 +249,12 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btp033",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://orcid.org/0000-0002-7865-7382",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btp033",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

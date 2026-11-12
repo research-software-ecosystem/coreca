@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N50922e58f1ba4f8d80ef8316ca9b94f2"
+          "@id": "_:Nc9c8a9c0c84442febe3d33b9cfc6ebce"
         },
         {
-          "@id": "_:Nf0392dd997484b91993c7e87c1473023"
+          "@id": "_:Ne7b8f36553cf462ca562a74e3c50136f"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ndbacf15e20ae4584ab0a1a9137826713"
+        "@id": "_:N13a7df794c7d405a9e0917d5b384f2ac"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -108,7 +108,7 @@
       "sc:url": "https://github.com/cmbi/compact-bio"
     },
     {
-      "@id": "_:N50922e58f1ba4f8d80ef8316ca9b94f2",
+      "@id": "_:Nc9c8a9c0c84442febe3d33b9cfc6ebce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -116,7 +116,7 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:Nf0392dd997484b91993c7e87c1473023",
+      "@id": "_:Ne7b8f36553cf462ca562a74e3c50136f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -127,7 +127,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:Ndbacf15e20ae4584ab0a1a9137826713",
+      "@id": "_:N13a7df794c7d405a9e0917d5b384f2ac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1548"

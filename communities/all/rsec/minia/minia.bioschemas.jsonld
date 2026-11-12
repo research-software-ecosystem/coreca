@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1748-7188-9-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/minia",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -43,10 +47,10 @@
         "Rayan Chikhi"
       ],
       "bsc:input": {
-        "@id": "_:N8522ffef50c0453f8df4b746c5e41463"
+        "@id": "_:N0773c236e441452c81c5bd7a14f488d2"
       },
       "bsc:output": {
-        "@id": "_:N9cd97be06b854485b2e3a8e95d18d4cb"
+        "@id": "_:Nfd16cf3f97c0403fab9b8eeea2992d7a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -76,7 +80,7 @@
       "sc:url": "http://minia.genouest.org/"
     },
     {
-      "@id": "_:N8522ffef50c0453f8df4b746c5e41463",
+      "@id": "_:N0773c236e441452c81c5bd7a14f488d2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2975"
@@ -92,7 +96,7 @@
       "sc:name": "Nucleic acid sequence (raw)"
     },
     {
-      "@id": "_:N9cd97be06b854485b2e3a8e95d18d4cb",
+      "@id": "_:Nfd16cf3f97c0403fab9b8eeea2992d7a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -101,10 +105,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence assembly"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1748-7188-9-2",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

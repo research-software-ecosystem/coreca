@@ -21,7 +21,7 @@ bib:
 - key: doi
   value: 10.1093/bioinformatics/14.9.755
 popcon:
-- insts: 139
+- insts: 149
   olde: 110
-  recent: 22
-  vote: 7
+  recent: 27
+  vote: 12

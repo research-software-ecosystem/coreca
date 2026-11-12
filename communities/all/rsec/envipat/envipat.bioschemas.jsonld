@@ -36,21 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/acs.analchem.5b00941",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/envipat",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne9fe35e7b0b04ddfb48737c5ebbaffbf"
+        "@id": "_:N1e638177bb204562ab6c9ea57668b5f2"
       },
       "bsc:output": [
         {
-          "@id": "_:N40a875a7a5ca45ba88ae05e666d3d333"
+          "@id": "_:N3a6df4e6222942aba9b1bc8ba2728a33"
         },
         {
-          "@id": "_:N3ef9a293677440e5b5251c48a2fdec9a"
+          "@id": "_:N3d4d4e93bb9c484ab6eeb6276332bf93"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -101,7 +97,7 @@
       "sc:url": "http://www.envipat.eawag.ch/"
     },
     {
-      "@id": "_:Ne9fe35e7b0b04ddfb48737c5ebbaffbf",
+      "@id": "_:N1e638177bb204562ab6c9ea57668b5f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0846"
@@ -117,7 +113,7 @@
       "sc:name": "Chemical formula"
     },
     {
-      "@id": "_:N40a875a7a5ca45ba88ae05e666d3d333",
+      "@id": "_:N3a6df4e6222942aba9b1bc8ba2728a33",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -133,7 +129,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N3ef9a293677440e5b5251c48a2fdec9a",
+      "@id": "_:N3d4d4e93bb9c484ab6eeb6276332bf93",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -142,6 +138,10 @@
         "@id": "edam:format_3752"
       },
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acs.analchem.5b00941",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

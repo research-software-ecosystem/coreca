@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/FQM_Analysis",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N5907a731610649299d6eae50f11c3ab3"
+        "@id": "_:N11d1d7333d154ca79ca1d9932e317dc0"
       },
       "bsc:output": {
-        "@id": "_:N15581751e0af469585ef19523d214ef8"
+        "@id": "_:Nd35ec2d3dbd44b489265010581b4e2ce"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": {
@@ -68,7 +68,7 @@
       "sc:url": "https://github.com/nwerf/FQM_Analysis"
     },
     {
-      "@id": "_:N5907a731610649299d6eae50f11c3ab3",
+      "@id": "_:N11d1d7333d154ca79ca1d9932e317dc0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -76,7 +76,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N15581751e0af469585ef19523d214ef8",
+      "@id": "_:Nd35ec2d3dbd44b489265010581b4e2ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

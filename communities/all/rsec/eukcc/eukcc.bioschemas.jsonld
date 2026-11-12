@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/s13059-020-02155-4",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/eukcc",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nb15219fd2cae49709e3966d4c015db4f"
+          "@id": "_:N20f5d7761c4746d8a2747aa22cc122ed"
         },
         {
-          "@id": "_:N9d8a5a4f1b694d00b313d1482edcb98e"
+          "@id": "_:Nc77350181b624103baa8adaf8893ef39"
         }
       ],
       "bsc:output": {
-        "@id": "_:N7ce38eb6d609415a9cbb80c9eaa81436"
+        "@id": "_:N9d98e8368ef5422ba2b3076488832ad3"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -66,7 +70,7 @@
       "sc:url": "https://github.com/EBI-Metagenomics/EukCC"
     },
     {
-      "@id": "_:Nb15219fd2cae49709e3966d4c015db4f",
+      "@id": "_:N20f5d7761c4746d8a2747aa22cc122ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -74,7 +78,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N9d8a5a4f1b694d00b313d1482edcb98e",
+      "@id": "_:Nc77350181b624103baa8adaf8893ef39",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -82,16 +86,12 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:N7ce38eb6d609415a9cbb80c9eaa81436",
+      "@id": "_:N9d98e8368ef5422ba2b3076488832ad3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
       },
       "sc:name": "Sequence report"
-    },
-    {
-      "@id": "https://doi.org/10.1186/s13059-020-02155-4",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

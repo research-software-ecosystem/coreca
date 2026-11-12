@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne13265755c804374bb6231646c2dc010"
+          "@id": "_:N41da5f4da8ef42ab894c2cb9f56fed18"
         },
         {
-          "@id": "_:N06e2a128568748839c0ecf42a6b22965"
+          "@id": "_:Ne39037458f9a4d6e8d1a916c89b98ecd"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -94,7 +94,7 @@
       "sc:url": "http://www.xjtlu.edu.cn/biologicalsciences/m6ats"
     },
     {
-      "@id": "_:Ne13265755c804374bb6231646c2dc010",
+      "@id": "_:N41da5f4da8ef42ab894c2cb9f56fed18",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3264"
@@ -102,7 +102,7 @@
       "sc:name": "COSMIC ID"
     },
     {
-      "@id": "_:N06e2a128568748839c0ecf42a6b22965",
+      "@id": "_:Ne39037458f9a4d6e8d1a916c89b98ecd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"

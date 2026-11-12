@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/singlem",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb0b6ab0c58444415a827690aed5b4cb3"
+        "@id": "_:N6e65f6afa72041059ad68f73c9e4d38e"
       },
       "bsc:output": {
-        "@id": "_:N0cda6804578d480c8fb6a21887e6f50d"
+        "@id": "_:N520674ff646b4d7ba652d0f98b70baec"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -70,7 +70,7 @@
       "sc:url": "https://wwood.github.io/singlem/"
     },
     {
-      "@id": "_:Nb0b6ab0c58444415a827690aed5b4cb3",
+      "@id": "_:N6e65f6afa72041059ad68f73c9e4d38e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -86,7 +86,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N0cda6804578d480c8fb6a21887e6f50d",
+      "@id": "_:N520674ff646b4d7ba652d0f98b70baec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"

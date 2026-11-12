@@ -52,23 +52,23 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "SILVA Team",
       "bsc:input": {
-        "@id": "_:N4c39197b03454a43b9ee722ddd33a781"
+        "@id": "_:Nc4ca626c2a4b4a008cf37ceabf6451e3"
       },
       "bsc:output": [
         {
-          "@id": "_:N8879bedbd85e4f5a8ce0d1215c7e9b2e"
+          "@id": "_:Nbcfbe909b43446a48131fe964da2fb74"
         },
         {
-          "@id": "_:N23890a808160414c83a36f2c6cb48133"
+          "@id": "_:Ndeefaa22d92f448f9dd016141e4c0d3a"
         },
         {
-          "@id": "_:Ndf700d3ab3c24c65bef22c0be9cfea08"
+          "@id": "_:N48d06c2e66f34f9f86e1b4e548dad666"
         },
         {
-          "@id": "_:Ncb61d81e37b443d3adef2459dab17a0c"
+          "@id": "_:N790cb67bbdc34431bc0501817aa0c45d"
         },
         {
-          "@id": "_:Nd5c61502cec34aa293b1cc53ad4f11fd"
+          "@id": "_:N9532343febfe48bfbd4ac83d7898827e"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -152,7 +152,7 @@
       "sc:url": "https://ngs.arb-silva.de"
     },
     {
-      "@id": "_:N4c39197b03454a43b9ee722ddd33a781",
+      "@id": "_:Nc4ca626c2a4b4a008cf37ceabf6451e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -163,7 +163,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N8879bedbd85e4f5a8ce0d1215c7e9b2e",
+      "@id": "_:Nbcfbe909b43446a48131fe964da2fb74",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -171,7 +171,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N23890a808160414c83a36f2c6cb48133",
+      "@id": "_:Ndeefaa22d92f448f9dd016141e4c0d3a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -182,7 +182,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:Ndf700d3ab3c24c65bef22c0be9cfea08",
+      "@id": "_:N48d06c2e66f34f9f86e1b4e548dad666",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -198,7 +198,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Ncb61d81e37b443d3adef2459dab17a0c",
+      "@id": "_:N790cb67bbdc34431bc0501817aa0c45d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -209,7 +209,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nd5c61502cec34aa293b1cc53ad4f11fd",
+      "@id": "_:N9532343febfe48bfbd4ac83d7898827e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1246"

@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Luana Licata",
       "bsc:input": {
-        "@id": "_:N46b235ba1b3b4bdb82321e32e2247337"
+        "@id": "_:N3613eecd07a44e41967ddc1c8fef8e2a"
       },
       "bsc:output": {
-        "@id": "_:Nc03d88ceac1b45e88307c3417ca4e29f"
+        "@id": "_:N9499128863f840e3b5d29fe321895ef0"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": {
@@ -75,7 +75,7 @@
       "sc:url": "https://signor.uniroma2.it/CancerGeneNet/"
     },
     {
-      "@id": "_:N46b235ba1b3b4bdb82321e32e2247337",
+      "@id": "_:N3613eecd07a44e41967ddc1c8fef8e2a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -86,7 +86,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Nc03d88ceac1b45e88307c3417ca4e29f",
+      "@id": "_:N9499128863f840e3b5d29fe321895ef0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

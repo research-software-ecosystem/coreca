@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.18129/B9.bioc.STATegRa",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/stategra",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N65cfcf9230d8474f9bde219092030477"
+        "@id": "_:Ne77214d9694c4f57af37f9657240cc52"
       },
       "bsc:output": {
-        "@id": "_:Nba133226327e405c9da2287b8aa55482"
+        "@id": "_:N104911841e3f4f3daa00e953670cf6b2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -68,7 +64,7 @@
       "sc:featureList": {
         "@id": "edam:operation_3436"
       },
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "STATegRa",
       "sc:operatingSystem": [
         "Linux",
@@ -82,7 +78,7 @@
       "sc:url": "https://bioconductor.org/packages/STATegRa"
     },
     {
-      "@id": "_:N65cfcf9230d8474f9bde219092030477",
+      "@id": "_:Ne77214d9694c4f57af37f9657240cc52",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -98,7 +94,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:Nba133226327e405c9da2287b8aa55482",
+      "@id": "_:N104911841e3f4f3daa00e953670cf6b2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -107,6 +103,10 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Heat map"
+    },
+    {
+      "@id": "https://doi.org/10.18129/B9.bioc.STATegRa",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

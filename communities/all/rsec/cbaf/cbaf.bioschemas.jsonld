@@ -62,13 +62,13 @@
       "sc:citation": {
         "@id": "https://doi.org/10.18129/B9.bioc.cbaf"
       },
-      "sc:description": "This package contains functions that allow analysing and comparing omic data across various cancers/cancer subgroups easily. So far, it is compatible with RNA-seq, microRNA-seq, microarray and methylation datasets that are stored on cbioportal.org.",
+      "sc:description": "This package contains functions that allow analysing and comparing various gene groups from different cancers/cancer subgroups easily. So far, it is compatible with RNA-seq, microRNA-seq, microarray and methylation datasets that are stored on cbioportal.org.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2945"
+          "@id": "edam:operation_2424"
         },
         {
-          "@id": "edam:operation_2424"
+          "@id": "edam:operation_2945"
         }
       ],
       "sc:isAccessibleForFree": true,

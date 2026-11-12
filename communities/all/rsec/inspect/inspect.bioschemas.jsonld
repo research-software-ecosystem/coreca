@@ -40,10 +40,6 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.3389/fgene.2020.00759",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1101/gr.260984.120",
       "@type": "sc:CreativeWork"
     },
@@ -78,7 +74,7 @@
       "sc:featureList": {
         "@id": "edam:operation_2478"
       },
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "INSPEcT",
       "sc:operatingSystem": [
         "Linux",
@@ -90,6 +86,10 @@
       },
       "sc:softwareVersion": "1.42.0",
       "sc:url": "https://bioconductor.org/packages/INSPEcT"
+    },
+    {
+      "@id": "https://doi.org/10.3389/fgene.2020.00759",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

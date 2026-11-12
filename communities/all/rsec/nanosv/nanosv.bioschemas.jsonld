@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/nanosv",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N2bccbbcebd784361bb7c3022c5e00398"
+        "@id": "_:N8e19bac613a742b2b82d3b63bf4d8aac"
       },
       "bsc:output": {
-        "@id": "_:N1c414e61fc4c40568b1460d4594f4bd8"
+        "@id": "_:N5a5782d2beaf499bbe53a93d0a142e08"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -79,7 +79,7 @@
       "sc:url": "https://github.com/mroosmalen/nanosv"
     },
     {
-      "@id": "_:N2bccbbcebd784361bb7c3022c5e00398",
+      "@id": "_:N8e19bac613a742b2b82d3b63bf4d8aac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -90,7 +90,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N1c414e61fc4c40568b1460d4594f4bd8",
+      "@id": "_:N5a5782d2beaf499bbe53a93d0a142e08",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"

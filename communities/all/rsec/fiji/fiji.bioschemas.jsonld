@@ -36,21 +36,21 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.2019",
+      "@id": "https://doi.org/10.1016/j.mex.2019.10.018",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1016/j.mex.2019.10.018",
+      "@id": "https://doi.org/10.1038/nmeth.2019",
       "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/Fiji",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9cf2d3d691e54c1ab5212180fe9aa47e"
+        "@id": "_:N0c671412b0d144629bdbe69799233874"
       },
       "bsc:output": {
-        "@id": "_:N484aea734cc2457890479d3bc36f2f35"
+        "@id": "_:N264c989917294a8fb82fb98d0a043755"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": [
@@ -93,7 +93,7 @@
       "sc:url": "https://fiji.sc"
     },
     {
-      "@id": "_:N9cf2d3d691e54c1ab5212180fe9aa47e",
+      "@id": "_:N0c671412b0d144629bdbe69799233874",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -124,7 +124,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N484aea734cc2457890479d3bc36f2f35",
+      "@id": "_:N264c989917294a8fb82fb98d0a043755",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

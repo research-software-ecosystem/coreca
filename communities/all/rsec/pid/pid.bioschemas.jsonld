@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/pid",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8c727458019e4db5a260dec1fb4e25a7"
+        "@id": "_:N8608b8edf8994807be40984bc38487a6"
       },
       "bsc:output": {
-        "@id": "_:Nb5f5afd4534e4c43b5a2b1d1b54c8387"
+        "@id": "_:N07cce6529ff248208df35908b4139cdb"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -67,7 +67,7 @@
       "sc:url": "http://pid.nci.nih.gov/"
     },
     {
-      "@id": "_:N8c727458019e4db5a260dec1fb4e25a7",
+      "@id": "_:N8608b8edf8994807be40984bc38487a6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2344"
@@ -75,7 +75,7 @@
       "sc:name": "Pathway ID (NCI-Nature)"
     },
     {
-      "@id": "_:Nb5f5afd4534e4c43b5a2b1d1b54c8387",
+      "@id": "_:N07cce6529ff248208df35908b4139cdb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2984"

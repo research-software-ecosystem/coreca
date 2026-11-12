@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/NAR/GKAB399",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/mechnetor",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N86d23d70be3240b2a6086b1e320c4b05"
+          "@id": "_:N3fa2d8236b094b3a86037d119da37670"
         },
         {
-          "@id": "_:N8b5c6cc0ef044db8835133d14a5cbcc2"
+          "@id": "_:N3ca31461e21e4cd0956eb661ec0eeaec"
         },
         {
-          "@id": "_:Nc3b12b2119284dca9b29c5e062dc2481"
+          "@id": "_:N7495b2244e9b46fdb6fc4fcb3382fe2d"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -110,7 +114,7 @@
       "sc:url": "http://mechnetor.russelllab.org"
     },
     {
-      "@id": "_:N86d23d70be3240b2a6086b1e320c4b05",
+      "@id": "_:N3fa2d8236b094b3a86037d119da37670",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -118,7 +122,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:N8b5c6cc0ef044db8835133d14a5cbcc2",
+      "@id": "_:N3ca31461e21e4cd0956eb661ec0eeaec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
@@ -126,16 +130,12 @@
       "sc:name": "UniProt ID"
     },
     {
-      "@id": "_:Nc3b12b2119284dca9b29c5e062dc2481",
+      "@id": "_:N7495b2244e9b46fdb6fc4fcb3382fe2d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
       },
       "sc:name": "UniProt accession"
-    },
-    {
-      "@id": "https://doi.org/10.1093/NAR/GKAB399",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

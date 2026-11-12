@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Roman Laskowski",
       "bsc:input": {
-        "@id": "_:Ne1a26e89bac2445aa930e6176e51291c"
+        "@id": "_:N6b2d4c296d0b461ba63731a06ac7976f"
       },
       "bsc:output": {
-        "@id": "_:N83f5a4cfb3bb4f5cb4653bce7e6b42cc"
+        "@id": "_:N71849c4327b34a1d9e61b3f08d243dfe"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -85,7 +85,7 @@
       "sc:url": "http://www.ebi.ac.uk/thornton-srv/databases/pdbsum/Generate.html"
     },
     {
-      "@id": "_:Ne1a26e89bac2445aa930e6176e51291c",
+      "@id": "_:N6b2d4c296d0b461ba63731a06ac7976f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -96,7 +96,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N83f5a4cfb3bb4f5cb4653bce7e6b42cc",
+      "@id": "_:N71849c4327b34a1d9e61b3f08d243dfe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"

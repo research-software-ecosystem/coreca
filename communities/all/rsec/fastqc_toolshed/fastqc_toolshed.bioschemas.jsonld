@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -45,14 +45,14 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N610d875521fc4fc9999ddc48b6bf0069"
+          "@id": "_:N2cd5d7610b4a415b85f5bcf108c325d4"
         },
         {
-          "@id": "_:Na0ea2a0a7f0b4520a04cf180b07ef4c8"
+          "@id": "_:N276d22221e584cb49476102b89d3f019"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nccb21d848dd440d8bd15b42b8cd66049"
+        "@id": "_:N735c5e75cf15479abd4cf5b267ff3891"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -94,7 +94,7 @@
       "sc:url": "https://www.bioinformatics.babraham.ac.uk/projects/fastqc/"
     },
     {
-      "@id": "_:N610d875521fc4fc9999ddc48b6bf0069",
+      "@id": "_:N2cd5d7610b4a415b85f5bcf108c325d4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -116,7 +116,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Na0ea2a0a7f0b4520a04cf180b07ef4c8",
+      "@id": "_:N276d22221e584cb49476102b89d3f019",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -127,7 +127,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nccb21d848dd440d8bd15b42b8cd66049",
+      "@id": "_:N735c5e75cf15479abd4cf5b267ff3891",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -138,7 +138,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

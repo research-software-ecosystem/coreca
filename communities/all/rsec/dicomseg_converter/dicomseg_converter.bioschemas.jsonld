@@ -36,44 +36,40 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s13244-021-01081-8",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/dicomseg_converter",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ned9e097976cb4902a669fb52f8c150a4"
+          "@id": "_:N51f06bf353b3424aa952022efe002969"
         },
         {
-          "@id": "_:Nd3b3f47fc33541f5855d29b99dde0edc"
+          "@id": "_:Nec5547b52957439ba1605d1b1f05030d"
         },
         {
-          "@id": "_:N8e3f118c62c94158a517be3a971cfd8a"
+          "@id": "_:N393df792ddfe49e3a6520fcbc9cfbc4c"
         },
         {
-          "@id": "_:N22934915b6c5429290b3b573f5d9ed17"
+          "@id": "_:N52382522d03a4cbea51076f3c8811da1"
         },
         {
-          "@id": "_:N95d3acc0458c4a07838f579fe0eb45a9"
+          "@id": "_:Na9d924cae17545cc8d67efce8392834c"
         },
         {
-          "@id": "_:Nd5c01b52f06b4989b9eac0011edadd9a"
+          "@id": "_:N0edd0a5accfb4a4395d5a89ce05a4beb"
         },
         {
-          "@id": "_:N0940da8129ae47d59ed43c8a3a1f5697"
+          "@id": "_:Ncec3c932d8274d0385a255b3b390ea15"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf539d87456044a9cb04a51d9e9a0d028"
+          "@id": "_:Nd402e09d4122440789a7bed7b9f78606"
         },
         {
-          "@id": "_:N47fd5366f9584e32acf7b044cf6053e6"
+          "@id": "_:Nff9c3cf0e8ff4de89e5012afddea1f68"
         },
         {
-          "@id": "_:Nb347097d453f421f87d78a1ed760181b"
+          "@id": "_:N133759cf488741c885a9d9874b1f5fbc"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -104,14 +100,19 @@
         "Mac",
         "Windows"
       ],
-      "sc:softwareHelp": {
-        "@id": "https://github.com/marver17/DICOMSEG_Converter"
-      },
+      "sc:softwareHelp": [
+        {
+          "@id": "https://github.com/marver17/DICOMSEG_Converter"
+        },
+        {
+          "@id": "https://www.youtube.com/watch?v=w4CVG1qrqak&list=PL3Q1XjQpjfg_GEmwPDrQeESh6nqCMnYyR&index=37"
+        }
+      ],
       "sc:softwareVersion": "1.4.0",
       "sc:url": "https://github.com/marver17/DICOMSEG_Converter"
     },
     {
-      "@id": "_:Ned9e097976cb4902a669fb52f8c150a4",
+      "@id": "_:N51f06bf353b3424aa952022efe002969",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -119,7 +120,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nd3b3f47fc33541f5855d29b99dde0edc",
+      "@id": "_:Nec5547b52957439ba1605d1b1f05030d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -130,7 +131,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N8e3f118c62c94158a517be3a971cfd8a",
+      "@id": "_:N393df792ddfe49e3a6520fcbc9cfbc4c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -141,7 +142,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N22934915b6c5429290b3b573f5d9ed17",
+      "@id": "_:N52382522d03a4cbea51076f3c8811da1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -152,7 +153,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N95d3acc0458c4a07838f579fe0eb45a9",
+      "@id": "_:Na9d924cae17545cc8d67efce8392834c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -163,7 +164,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nd5c01b52f06b4989b9eac0011edadd9a",
+      "@id": "_:N0edd0a5accfb4a4395d5a89ce05a4beb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -174,7 +175,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N0940da8129ae47d59ed43c8a3a1f5697",
+      "@id": "_:Ncec3c932d8274d0385a255b3b390ea15",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -185,7 +186,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nf539d87456044a9cb04a51d9e9a0d028",
+      "@id": "_:Nd402e09d4122440789a7bed7b9f78606",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -196,7 +197,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N47fd5366f9584e32acf7b044cf6053e6",
+      "@id": "_:Nff9c3cf0e8ff4de89e5012afddea1f68",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -207,7 +208,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nb347097d453f421f87d78a1ed760181b",
+      "@id": "_:N133759cf488741c885a9d9874b1f5fbc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -216,6 +217,10 @@
         "@id": "edam:format_3548"
       },
       "sc:name": "Image"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13244-021-01081-8",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

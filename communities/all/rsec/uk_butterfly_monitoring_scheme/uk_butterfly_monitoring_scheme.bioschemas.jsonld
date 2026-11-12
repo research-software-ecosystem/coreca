@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N0fc60b65deeb443cbf96567e6f0acff8"
+          "@id": "_:Nda5f7d48a27e48ff8c0f33c6e7f708cd"
         },
         {
-          "@id": "_:N63c87fd797bc45deb23d3875c1bc8137"
+          "@id": "_:Nacfa0dd444194e8788ba5a0c4ce08b94"
         }
       ],
       "bsc:output": {
-        "@id": "_:N8e072d2c89174128ae62045c1addf2b3"
+        "@id": "_:N54f7420b0be54356b6d4c8793befd46c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -74,7 +74,7 @@
       "sc:url": "https://ukbms.org"
     },
     {
-      "@id": "_:N0fc60b65deeb443cbf96567e6f0acff8",
+      "@id": "_:Nda5f7d48a27e48ff8c0f33c6e7f708cd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1869"
@@ -82,7 +82,7 @@
       "sc:name": "Organism identifier"
     },
     {
-      "@id": "_:N63c87fd797bc45deb23d3875c1bc8137",
+      "@id": "_:Nacfa0dd444194e8788ba5a0c4ce08b94",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -90,7 +90,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:N8e072d2c89174128ae62045c1addf2b3",
+      "@id": "_:N54f7420b0be54356b6d4c8793befd46c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2193"

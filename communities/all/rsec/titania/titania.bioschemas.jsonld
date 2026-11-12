@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/titania",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N40d4dc2774a846d18921abdb3ee69669"
+        "@id": "_:N0bd86709ad054069966f0f073ab0d1df"
       },
       "bsc:output": {
-        "@id": "_:Ne91a5607d7fa4f769a4ca580df361b4f"
+        "@id": "_:N2a45f79be7e94087bff5c1b8cb8c89ed"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:description": "Suite for In Silico Property Prediction and NAM-Based Modeling",
@@ -53,7 +53,7 @@
       "sc:url": "https://enaloscloud.novamechanics.com/EnalosWebApps/titania/"
     },
     {
-      "@id": "_:N40d4dc2774a846d18921abdb3ee69669",
+      "@id": "_:N0bd86709ad054069966f0f073ab0d1df",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"
@@ -61,7 +61,7 @@
       "sc:name": "SMILES string"
     },
     {
-      "@id": "_:Ne91a5607d7fa4f769a4ca580df361b4f",
+      "@id": "_:N2a45f79be7e94087bff5c1b8cb8c89ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"

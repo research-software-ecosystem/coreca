@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1758-2946-3-33",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/openbabel",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N60fd942c18a341c1b278b90252e764c3"
+        "@id": "_:N42c6871b851247c79f0851bc8a21ec94"
       },
       "bsc:output": [
         {
-          "@id": "_:N555fbff8020b48e5961648805230307e"
+          "@id": "_:N3a4e677a2b874d8986c3111313f38019"
         },
         {
-          "@id": "_:N42b7c253db7b439b8d8e80e2abf90468"
+          "@id": "_:N6b13154fa8dd43e2a0d9637b156b31d2"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -86,7 +90,7 @@
       "sc:url": "http://openbabel.org/"
     },
     {
-      "@id": "_:N60fd942c18a341c1b278b90252e764c3",
+      "@id": "_:N42c6871b851247c79f0851bc8a21ec94",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"
@@ -94,7 +98,7 @@
       "sc:name": "Structure"
     },
     {
-      "@id": "_:N555fbff8020b48e5961648805230307e",
+      "@id": "_:N3a4e677a2b874d8986c3111313f38019",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -102,16 +106,12 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N42b7c253db7b439b8d8e80e2abf90468",
+      "@id": "_:N6b13154fa8dd43e2a0d9637b156b31d2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"
       },
       "sc:name": "Structure"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1758-2946-3-33",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

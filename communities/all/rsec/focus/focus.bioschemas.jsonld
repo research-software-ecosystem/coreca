@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N82a16bdadb214d53a5fc6bdc1678f315"
+          "@id": "_:Nba55e63a38f2409bb9e82d9021ad87f9"
         },
         {
-          "@id": "_:N537c6f226e1b4d009542889377fbdaac"
+          "@id": "_:Nbe6c25daf6d2466ca8e43c13101759c8"
         }
       ],
       "bsc:output": {
-        "@id": "_:N5440690d5f104c4188f69dd6ef78216c"
+        "@id": "_:Nc816c1097bf9454f9a5b52e84ba6c6fc"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -97,7 +97,7 @@
       "sc:url": "https://github.com/metageni/FOCUS"
     },
     {
-      "@id": "_:N82a16bdadb214d53a5fc6bdc1678f315",
+      "@id": "_:Nba55e63a38f2409bb9e82d9021ad87f9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -113,7 +113,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N537c6f226e1b4d009542889377fbdaac",
+      "@id": "_:Nbe6c25daf6d2466ca8e43c13101759c8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -129,7 +129,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N5440690d5f104c4188f69dd6ef78216c",
+      "@id": "_:Nc816c1097bf9454f9a5b52e84ba6c6fc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1872"

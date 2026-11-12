@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/startscan",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na629c220d0144410ad738486142ae9b4"
+        "@id": "_:Ne8d64b7fbfb740f8af2df0d0529a1ada"
       },
       "bsc:output": {
-        "@id": "_:N66c1e210ae8f49238599bc336c32913c"
+        "@id": "_:N35aaa02c9b4b422faf72be0a79f70916"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -77,7 +77,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/software/details/StartScan"
     },
     {
-      "@id": "_:Na629c220d0144410ad738486142ae9b4",
+      "@id": "_:Ne8d64b7fbfb740f8af2df0d0529a1ada",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -88,7 +88,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N66c1e210ae8f49238599bc336c32913c",
+      "@id": "_:N35aaa02c9b4b422faf72be0a79f70916",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2070"

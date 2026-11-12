@@ -40,17 +40,17 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "RECETOX SpecDatRI",
       "bsc:input": {
-        "@id": "_:Nbb8bbc5856c24ecf874a15b508ed7cee"
+        "@id": "_:Necdc83e8040c47018099a3bae672d62e"
       },
       "bsc:output": [
         {
-          "@id": "_:Ndc4d2acb47484061a69b2df8aad96b5c"
+          "@id": "_:N669903dd391b480daf073f32418bc9f4"
         },
         {
-          "@id": "_:N2b78ab1c2fb84d468214473e47d02e3b"
+          "@id": "_:N1592375f523240708c1ad0fdcfb59f82"
         },
         {
-          "@id": "_:N89e317930b864557911f16cec7d1b5d5"
+          "@id": "_:N6a54a1d43f274f1fa1fdada4cce1428d"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,7 +92,7 @@
       "sc:url": "https://github.com/RECETOX/recetox-aplcms"
     },
     {
-      "@id": "_:Nbb8bbc5856c24ecf874a15b508ed7cee",
+      "@id": "_:Necdc83e8040c47018099a3bae672d62e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -103,7 +103,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Ndc4d2acb47484061a69b2df8aad96b5c",
+      "@id": "_:N669903dd391b480daf073f32418bc9f4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -114,7 +114,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:N2b78ab1c2fb84d468214473e47d02e3b",
+      "@id": "_:N1592375f523240708c1ad0fdcfb59f82",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -125,7 +125,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N89e317930b864557911f16cec7d1b5d5",
+      "@id": "_:N6a54a1d43f274f1fa1fdada4cce1428d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"

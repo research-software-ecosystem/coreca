@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "CompOmics",
       "bsc:input": {
-        "@id": "_:Na50ff2e9f4f34b3681d145262811ee0c"
+        "@id": "_:N27eae0ba503048b1931c5f8a0850faab"
       },
       "bsc:output": {
-        "@id": "_:Nf924ecc2ae2a4678b4fb664e67c7fbc7"
+        "@id": "_:Nd236a011af244422b2da2be4877d9226"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -89,7 +89,7 @@
       "sc:url": "http://compomics.github.io/projects/DeepLC"
     },
     {
-      "@id": "_:Na50ff2e9f4f34b3681d145262811ee0c",
+      "@id": "_:N27eae0ba503048b1931c5f8a0850faab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -100,7 +100,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nf924ecc2ae2a4678b4fb664e67c7fbc7",
+      "@id": "_:Nd236a011af244422b2da2be4877d9226",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2979"

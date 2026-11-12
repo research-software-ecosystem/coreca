@@ -36,18 +36,26 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1007/s11306-021-01839-7",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.aca.2019.02.010",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/waveica",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3b9d8b6055a344c8a7fc11e1c07e6af8"
+          "@id": "_:N1dcaf670421741a099652d1c285b0bc5"
         },
         {
-          "@id": "_:N9a095143df7c4be7888212d4236b3b95"
+          "@id": "_:N761b1e0a5018413ca38503b94dc773ff"
         }
       ],
       "bsc:output": {
-        "@id": "_:N6e30aa2bbdb440abbaa1ab9b3dd90d4d"
+        "@id": "_:Na155bc8bc02e42e1800e19ee773afd4f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -78,7 +86,7 @@
       "sc:url": "https://github.com/RECETOX/WaveICA"
     },
     {
-      "@id": "_:N3b9d8b6055a344c8a7fc11e1c07e6af8",
+      "@id": "_:N1dcaf670421741a099652d1c285b0bc5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
@@ -97,7 +105,7 @@
       "sc:name": "Feature table"
     },
     {
-      "@id": "_:N9a095143df7c4be7888212d4236b3b95",
+      "@id": "_:N761b1e0a5018413ca38503b94dc773ff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3113"
@@ -116,7 +124,7 @@
       "sc:name": "Sample annotation"
     },
     {
-      "@id": "_:N6e30aa2bbdb440abbaa1ab9b3dd90d4d",
+      "@id": "_:Na155bc8bc02e42e1800e19ee773afd4f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -133,14 +141,6 @@
         }
       ],
       "sc:name": "Expression data"
-    },
-    {
-      "@id": "https://doi.org/10.1007/s11306-021-01839-7",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/j.aca.2019.02.010",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

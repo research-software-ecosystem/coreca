@@ -50,10 +50,10 @@
         "@id": "http://orcid.org/0000-0002-5293-5321"
       },
       "bsc:input": {
-        "@id": "_:N47b3cf23c05f43a1b3c5e6bac26ef73e"
+        "@id": "_:Na328bfdd7fa244b8ab02c14bac5225bf"
       },
       "bsc:output": {
-        "@id": "_:N6e6fbec87f3c48d4bdc67b3b52d57f6b"
+        "@id": "_:N20bd06dd51ba4354b83b04fd3f24295e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -92,7 +92,7 @@
       "sc:url": "https://pysces.github.io/"
     },
     {
-      "@id": "_:N47b3cf23c05f43a1b3c5e6bac26ef73e",
+      "@id": "_:Na328bfdd7fa244b8ab02c14bac5225bf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3241"
@@ -103,7 +103,7 @@
       "sc:name": "Kinetic model"
     },
     {
-      "@id": "_:N6e6fbec87f3c48d4bdc67b3b52d57f6b",
+      "@id": "_:N20bd06dd51ba4354b83b04fd3f24295e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3869"

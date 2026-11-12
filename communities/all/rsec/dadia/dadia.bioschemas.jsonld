@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1021/ACS.ANALCHEM.0C05022",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/dadia",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -72,10 +76,6 @@
       ],
       "sc:name": "DaDIA",
       "sc:url": "https://github.com/HuanLab/DaDIA.git"
-    },
-    {
-      "@id": "https://doi.org/10.1021/ACS.ANALCHEM.0C05022",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://orcid.org/0000-0001-6295-2435",

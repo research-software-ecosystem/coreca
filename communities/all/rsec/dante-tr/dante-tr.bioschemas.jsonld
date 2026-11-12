@@ -36,16 +36,8 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bty791",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/j.ab.2025.115793",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/j.mcp.2024.102005",
-      "@type": "sc:CreativeWork"
+      "@id": "https://orcid.org/0000-0002-3113-3389",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/dante-tr",
@@ -54,10 +46,10 @@
         "@id": "https://orcid.org/0000-0002-8667-6655"
       },
       "bsc:input": {
-        "@id": "_:N9ecae2b46b334032a89429de8b837a4e"
+        "@id": "_:N78512bb7fff54645b04a1123e3bc3cf9"
       },
       "bsc:output": {
-        "@id": "_:N2d83213f6c4e44d8b25e9fd8abf579ab"
+        "@id": "_:N3f1ad02bcf474de7b6f2ceb3ba17cd49"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -109,7 +101,7 @@
       "sc:url": "https://github.com/dante-tr/dante-tr"
     },
     {
-      "@id": "_:N9ecae2b46b334032a89429de8b837a4e",
+      "@id": "_:N78512bb7fff54645b04a1123e3bc3cf9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -128,7 +120,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N2d83213f6c4e44d8b25e9fd8abf579ab",
+      "@id": "_:N3f1ad02bcf474de7b6f2ceb3ba17cd49",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0920"
@@ -143,8 +135,16 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0002-3113-3389",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1016/j.mcp.2024.102005",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty791",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.ab.2025.115793",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

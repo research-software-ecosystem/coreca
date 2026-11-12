@@ -36,23 +36,19 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkp353",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/medline_ranker",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Jean Fred Fontaine",
       "bsc:input": [
         {
-          "@id": "_:Nace5ffd77ea04cd7af8ae5063a72f88f"
+          "@id": "_:Na0a28b9593974106b7b2f2adfdc0595f"
         },
         {
-          "@id": "_:Ne0b7df028e8247668e4cb56056f73889"
+          "@id": "_:N83f131e48be14a3294217e0e08cece66"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nac446ba8a78c4b05a04e1f220acbe3ed"
+        "@id": "_:N5f033789f81242599772e7b67301b504"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -87,7 +83,7 @@
       "sc:url": "http://cbdm.uni-mainz.de/medlineranker"
     },
     {
-      "@id": "_:Nace5ffd77ea04cd7af8ae5063a72f88f",
+      "@id": "_:Na0a28b9593974106b7b2f2adfdc0595f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1088"
@@ -95,7 +91,7 @@
       "sc:name": "Article ID"
     },
     {
-      "@id": "_:Ne0b7df028e8247668e4cb56056f73889",
+      "@id": "_:N83f131e48be14a3294217e0e08cece66",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -103,12 +99,16 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:Nac446ba8a78c4b05a04e1f220acbe3ed",
+      "@id": "_:N5f033789f81242599772e7b67301b504",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0972"
       },
       "sc:name": "Text mining report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkp353",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -50,10 +50,10 @@
         "@id": "https://orcid.org/0000-0001-8280-8940"
       },
       "bsc:input": {
-        "@id": "_:Na1036da1718b4a08b99a3a580f9aa121"
+        "@id": "_:N7b03fc4a4b834d2aa3718bc015987773"
       },
       "bsc:output": {
-        "@id": "_:Nde2b3d2ff70a47d9be05a11ec26abb6b"
+        "@id": "_:N44b07ff15eb14a8fa67980101e336125"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -94,7 +94,7 @@
       "sc:url": "https://github.com/phelelani/nf-rnaSeqMetagen"
     },
     {
-      "@id": "_:Na1036da1718b4a08b99a3a580f9aa121",
+      "@id": "_:N7b03fc4a4b834d2aa3718bc015987773",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -105,7 +105,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:Nde2b3d2ff70a47d9be05a11ec26abb6b",
+      "@id": "_:N44b07ff15eb14a8fa67980101e336125",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"

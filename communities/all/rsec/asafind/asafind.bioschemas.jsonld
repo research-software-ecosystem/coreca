@@ -36,20 +36,8 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1111/tpj.12734",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1111/tpj.70138",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://orcid.org/0000-0002-8915-8626",
       "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.48550/arXiv.2303.02509",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/asafind",
@@ -59,18 +47,18 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N19533167feba449389bd9d4e16cd2ae7"
+          "@id": "_:Naaa8c6d9553c4130b12560c307ed8f0e"
         },
         {
-          "@id": "_:Nd3a55ba119134f29b51d2e86819bd539"
+          "@id": "_:N348047f2f756444db85658a7b98187af"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N576f4768aa03421796ee82f430b21b23"
+          "@id": "_:N54214be3cf794d5a99a7d45107e814f7"
         },
         {
-          "@id": "_:N8780ac889d2f46b29b53d8ecf9037738"
+          "@id": "_:N43a49a5801574a41aa469c0b3c40f09f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -145,7 +133,7 @@
       "sc:url": "https://asafind.jcu.cz/"
     },
     {
-      "@id": "_:N19533167feba449389bd9d4e16cd2ae7",
+      "@id": "_:Naaa8c6d9553c4130b12560c307ed8f0e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
@@ -153,7 +141,7 @@
       "sc:name": "Feature table"
     },
     {
-      "@id": "_:Nd3a55ba119134f29b51d2e86819bd539",
+      "@id": "_:N348047f2f756444db85658a7b98187af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -164,7 +152,7 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:N576f4768aa03421796ee82f430b21b23",
+      "@id": "_:N54214be3cf794d5a99a7d45107e814f7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -172,7 +160,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N8780ac889d2f46b29b53d8ecf9037738",
+      "@id": "_:N43a49a5801574a41aa469c0b3c40f09f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -180,8 +168,20 @@
       "sc:name": "Protein features"
     },
     {
+      "@id": "https://doi.org/10.1111/tpj.70138",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1111/tpj.12734",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://orcid.org/0000-0002-5876-4391",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.48550/arXiv.2303.02509",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

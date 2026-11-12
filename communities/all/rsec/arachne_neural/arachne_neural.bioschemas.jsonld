@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1371/journal.pcbi.1005467",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/arachne_neural",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Leonid Savtchenko",
       "bsc:input": {
-        "@id": "_:N6d45c9cf27c949ce97ec0899ba58f9d9"
+        "@id": "_:N1a014a67f7884aef98afa979f7bec1f6"
       },
       "bsc:output": {
-        "@id": "_:N2ca821d9e94144188196bb7b6628dec8"
+        "@id": "_:Na486d46b9ee04ffe981ea074978347e6"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -95,7 +91,7 @@
       "sc:url": "https://github.com/LeonidSavtchenko/Arachne"
     },
     {
-      "@id": "_:N6d45c9cf27c949ce97ec0899ba58f9d9",
+      "@id": "_:N1a014a67f7884aef98afa979f7bec1f6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -106,7 +102,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N2ca821d9e94144188196bb7b6628dec8",
+      "@id": "_:Na486d46b9ee04ffe981ea074978347e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -115,6 +111,10 @@
         "@id": "edam:format_2013"
       },
       "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1005467",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

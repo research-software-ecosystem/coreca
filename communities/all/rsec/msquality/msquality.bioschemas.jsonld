@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/msquality",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N5cb52e8e686d4a438c6164cbedb2a7c6"
+        "@id": "_:Nffe223f402ad4be697b83b1d4f4ff17d"
       },
       "bsc:output": {
-        "@id": "_:N7a507d7bbd26465c8d28ba83a34b6014"
+        "@id": "_:N82ce90a539f24361aa1f6c213dc89ae1"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -74,7 +74,7 @@
         "@id": "edam:operation_2428"
       },
       "sc:isAccessibleForFree": true,
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "MsQuality",
       "sc:operatingSystem": [
         "Linux",
@@ -88,7 +88,7 @@
       "sc:url": "https://bioconductor.org/packages/MsQuality"
     },
     {
-      "@id": "_:N5cb52e8e686d4a438c6164cbedb2a7c6",
+      "@id": "_:Nffe223f402ad4be697b83b1d4f4ff17d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -99,7 +99,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N7a507d7bbd26465c8d28ba83a34b6014",
+      "@id": "_:N82ce90a539f24361aa1f6c213dc89ae1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3914"

@@ -36,7 +36,31 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btq538",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0003-1244-7654",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9383-528X",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://doi.org/10.1093/bioinformatics/btw214",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0020284",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw943",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkz1021",
       "@type": "sc:CreativeWork"
     },
     {
@@ -47,20 +71,20 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Ndc663a7303d445d09c435046b265ec81"
+          "@id": "_:N053a53a833c14be18ffba4b9df620760"
         },
         {
-          "@id": "_:Nfecd88942abf44caab7fc8fd308efc65"
+          "@id": "_:N55e0ba1686b140f0a397b9b2ee32c8b9"
         },
         {
-          "@id": "_:N1196f26cb898468196a241e81f958138"
+          "@id": "_:Ndd5e0e5e909a44ebaa43c49f09c95fb5"
         },
         {
-          "@id": "_:N8638fe9fe627402787ff6083cf4d6144"
+          "@id": "_:N1f7c54f14fca4cf29cc9e9f0da18d04a"
         }
       ],
       "bsc:output": {
-        "@id": "_:N5a88c9158bc1436e9436335a2e75ea4a"
+        "@id": "_:N7da65fc16dee45a181bcbb2e6697bc6a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -203,7 +227,7 @@
       "sc:url": "http://www.disgenet.com/"
     },
     {
-      "@id": "_:Ndc663a7303d445d09c435046b265ec81",
+      "@id": "_:N053a53a833c14be18ffba4b9df620760",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -211,7 +235,7 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "_:Nfecd88942abf44caab7fc8fd308efc65",
+      "@id": "_:N55e0ba1686b140f0a397b9b2ee32c8b9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2858"
@@ -219,7 +243,7 @@
       "sc:name": "Ontology concept"
     },
     {
-      "@id": "_:N1196f26cb898468196a241e81f958138",
+      "@id": "_:Ndd5e0e5e909a44ebaa43c49f09c95fb5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -227,7 +251,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N8638fe9fe627402787ff6083cf4d6144",
+      "@id": "_:N1f7c54f14fca4cf29cc9e9f0da18d04a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1106"
@@ -235,7 +259,7 @@
       "sc:name": "dbSNP ID"
     },
     {
-      "@id": "_:N5a88c9158bc1436e9436335a2e75ea4a",
+      "@id": "_:N7da65fc16dee45a181bcbb2e6697bc6a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -254,32 +278,8 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw943",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1093/database/bav028",
       "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1371/journal.pone.0020284",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkz1021",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "http://orcid.org/0000-0003-1244-7654",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btq538",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-9383-528X",
-      "@type": "sc:Person"
     }
   ]
 }

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/sscc",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nba3cfe7b7e3c466abc451fd078037492"
+        "@id": "_:Ncdf99241f0ad4259b0914858804dddb0"
       },
       "bsc:output": {
-        "@id": "_:N66dc7065f4aa437287ecb3bc4ad65ac9"
+        "@id": "_:Nba3ecc3fadd34b03bc5b7c2fbcf24b0e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -82,7 +82,7 @@
       "sc:url": "https://florez-alberto.github.io/SSCC/"
     },
     {
-      "@id": "_:Nba3cfe7b7e3c466abc451fd078037492",
+      "@id": "_:Ncdf99241f0ad4259b0914858804dddb0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1597"
@@ -93,7 +93,7 @@
       "sc:name": "Codon usage table"
     },
     {
-      "@id": "_:N66dc7065f4aa437287ecb3bc4ad65ac9",
+      "@id": "_:Nba3ecc3fadd34b03bc5b7c2fbcf24b0e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"

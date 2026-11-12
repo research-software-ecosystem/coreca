@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N34756a17532b4682bd63637cb36b20c9"
+          "@id": "_:N4317512220f844c88957d0dc2389cec2"
         },
         {
-          "@id": "_:N7dc2b6575146454797bb326849a3c660"
+          "@id": "_:Nd8cb398e91764eaeb659401bf6982089"
         }
       ],
       "bsc:output": {
-        "@id": "_:N3213241ee6484ab58351b7156a4f45c4"
+        "@id": "_:N5450208ac6324c41bb75643beda6de09"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -88,7 +88,7 @@
       "sc:url": "https://github.com/biomarkersParkinson/paradigma"
     },
     {
-      "@id": "_:N34756a17532b4682bd63637cb36b20c9",
+      "@id": "_:N4317512220f844c88957d0dc2389cec2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -104,7 +104,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N7dc2b6575146454797bb326849a3c660",
+      "@id": "_:Nd8cb398e91764eaeb659401bf6982089",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3275"
@@ -115,7 +115,7 @@
       "sc:name": "Phenotype name"
     },
     {
-      "@id": "_:N3213241ee6484ab58351b7156a4f45c4",
+      "@id": "_:N5450208ac6324c41bb75643beda6de09",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

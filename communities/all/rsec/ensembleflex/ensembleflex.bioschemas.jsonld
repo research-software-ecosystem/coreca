@@ -40,45 +40,45 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Na33e5a0ae33c49a8bcd6b4949dfd54d4"
+          "@id": "_:Na33182eb227d45d29c0b3a6a49f169d8"
         },
         {
-          "@id": "_:Nfd4ece7dc9694de8b95f446af60161f7"
+          "@id": "_:Ncb64dbd16ad44bb29537309ce483e3c1"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1bf9b73f1ad64365a9b5ca0ca581a266"
+          "@id": "_:Nb7723efe3ef843b386df7433e9cb0bde"
         },
         {
-          "@id": "_:Ndec53f316ac84d508e919f9cc3481861"
+          "@id": "_:Nb4245e9343054b429e31e41e015e25d3"
         },
         {
-          "@id": "_:Na7974aed6b3e4eedaf27f158a55df92a"
+          "@id": "_:Nbd0b579d191c49629565ae27ea9b8dd0"
         },
         {
-          "@id": "_:N07d1627667d84e1784cf719b373d7282"
+          "@id": "_:N718ee0b34a0047baa83ff3f4cc5c87bf"
         },
         {
-          "@id": "_:N0becd2cb95174fe284cc6d948c56707c"
+          "@id": "_:Nc404d2b95c3a4562829332eb909ebc1e"
         },
         {
-          "@id": "_:Na579361e200b4f328e588deefb9f0721"
+          "@id": "_:N6e560b3d891d4f0da98942ad0f622289"
         },
         {
-          "@id": "_:N6d596377ebb94d2faab0b6b9cc647703"
+          "@id": "_:N03fab70fd8ef4e48ba63fb2b012e49f2"
         },
         {
-          "@id": "_:N6cdef7e87f894242aeab01d62aa7f5d3"
+          "@id": "_:N121de01cc84641fb900193f8081bb76d"
         },
         {
-          "@id": "_:N1aa11ebc823745acba03a5617e16ca16"
+          "@id": "_:Nb31f6e4049dd4e03a14cd43dadae9d4f"
         },
         {
-          "@id": "_:Nb3a738df143d4f318e713d5906ff9eed"
+          "@id": "_:N9eff016e849844069ea513a718820627"
         },
         {
-          "@id": "_:N72a92ace6da3470d845b9ef06c2cd5de"
+          "@id": "_:Nf03dca02a6094b28ba9a700b5cd3134d"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -166,7 +166,7 @@
       "sc:url": "https://github.com/chembl/EnsembleFlex"
     },
     {
-      "@id": "_:Na33e5a0ae33c49a8bcd6b4949dfd54d4",
+      "@id": "_:Na33182eb227d45d29c0b3a6a49f169d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -177,7 +177,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:Nfd4ece7dc9694de8b95f446af60161f7",
+      "@id": "_:Ncb64dbd16ad44bb29537309ce483e3c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1461"
@@ -188,7 +188,7 @@
       "sc:name": "Protein-ligand complex"
     },
     {
-      "@id": "_:N1bf9b73f1ad64365a9b5ca0ca581a266",
+      "@id": "_:Nb7723efe3ef843b386df7433e9cb0bde",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -196,7 +196,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Ndec53f316ac84d508e919f9cc3481861",
+      "@id": "_:Nb4245e9343054b429e31e41e015e25d3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3905"
@@ -204,7 +204,7 @@
       "sc:name": "Histogram"
     },
     {
-      "@id": "_:Na7974aed6b3e4eedaf27f158a55df92a",
+      "@id": "_:Nbd0b579d191c49629565ae27ea9b8dd0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2087"
@@ -212,7 +212,7 @@
       "sc:name": "Molecular property"
     },
     {
-      "@id": "_:N07d1627667d84e1784cf719b373d7282",
+      "@id": "_:N718ee0b34a0047baa83ff3f4cc5c87bf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3842"
@@ -220,7 +220,7 @@
       "sc:name": "Molecular simulation data"
     },
     {
-      "@id": "_:N0becd2cb95174fe284cc6d948c56707c",
+      "@id": "_:Nc404d2b95c3a4562829332eb909ebc1e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -228,7 +228,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Na579361e200b4f328e588deefb9f0721",
+      "@id": "_:N6e560b3d891d4f0da98942ad0f622289",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -236,7 +236,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:N6d596377ebb94d2faab0b6b9cc647703",
+      "@id": "_:N03fab70fd8ef4e48ba63fb2b012e49f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1542"
@@ -244,7 +244,7 @@
       "sc:name": "Protein solvent accessibility"
     },
     {
-      "@id": "_:N6cdef7e87f894242aeab01d62aa7f5d3",
+      "@id": "_:N121de01cc84641fb900193f8081bb76d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1481"
@@ -252,7 +252,7 @@
       "sc:name": "Protein structure alignment"
     },
     {
-      "@id": "_:N1aa11ebc823745acba03a5617e16ca16",
+      "@id": "_:Nb31f6e4049dd4e03a14cd43dadae9d4f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
@@ -260,7 +260,7 @@
       "sc:name": "Protein structure report"
     },
     {
-      "@id": "_:Nb3a738df143d4f318e713d5906ff9eed",
+      "@id": "_:N9eff016e849844069ea513a718820627",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1566"
@@ -268,7 +268,7 @@
       "sc:name": "Protein-ligand interaction report"
     },
     {
-      "@id": "_:N72a92ace6da3470d845b9ef06c2cd5de",
+      "@id": "_:Nf03dca02a6094b28ba9a700b5cd3134d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"

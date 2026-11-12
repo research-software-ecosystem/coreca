@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/PEMA",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N80cf79928a8a45b38cb54a8e0361399d"
+        "@id": "_:Ne0ca137247cd43bdb9c032d253cc3221"
       },
       "bsc:output": {
-        "@id": "_:N18b7aafcf95041188b76dfe1e3cc7942"
+        "@id": "_:N65986e9914964fa39ae6939a5eede04c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -65,7 +65,7 @@
       "sc:url": "https://github.com/hariszaf/pema"
     },
     {
-      "@id": "_:N80cf79928a8a45b38cb54a8e0361399d",
+      "@id": "_:Ne0ca137247cd43bdb9c032d253cc3221",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -76,7 +76,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N18b7aafcf95041188b76dfe1e3cc7942",
+      "@id": "_:N65986e9914964fa39ae6939a5eede04c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3707"

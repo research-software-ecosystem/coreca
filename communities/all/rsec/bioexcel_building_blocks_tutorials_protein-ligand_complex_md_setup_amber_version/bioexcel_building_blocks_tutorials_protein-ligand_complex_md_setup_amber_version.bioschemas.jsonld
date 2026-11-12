@@ -40,8 +40,16 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://orcid.org/0000-0002-8291-8071",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://doi.org/10.1038/s41597-019-0177-4",
       "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0513-0288",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/bioexcel_building_blocks_tutorials_protein-ligand_complex_md_setup_amber_version",
@@ -50,14 +58,14 @@
         "@id": "https://orcid.org/0000-0002-8291-8071"
       },
       "bsc:input": {
-        "@id": "_:N34c86f87e009489e8e65d867448167e0"
+        "@id": "_:N4435a3b562e14fe59ac39336ba51d194"
       },
       "bsc:output": [
         {
-          "@id": "_:Nfe2662e81a51412d8c7d351825f31524"
+          "@id": "_:Na7c0e26a877840dba6c7cb8b640bc61d"
         },
         {
-          "@id": "_:N0971cc5b4c0249c088ec85fa294385ac"
+          "@id": "_:Nf3f2cabdb8c2495bbdbae158c703bee2"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -118,7 +126,7 @@
       "sc:url": "https://mmb.irbbarcelona.org/biobb/workflows/#amber-protein-ligand-complex-md-setup"
     },
     {
-      "@id": "_:N34c86f87e009489e8e65d867448167e0",
+      "@id": "_:N4435a3b562e14fe59ac39336ba51d194",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -129,7 +137,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:Nfe2662e81a51412d8c7d351825f31524",
+      "@id": "_:Na7c0e26a877840dba6c7cb8b640bc61d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3872"
@@ -140,7 +148,7 @@
       "sc:name": "Topology data"
     },
     {
-      "@id": "_:N0971cc5b4c0249c088ec85fa294385ac",
+      "@id": "_:Nf3f2cabdb8c2495bbdbae158c703bee2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3870"
@@ -154,14 +162,6 @@
         }
       ],
       "sc:name": "Trajectory data"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-8291-8071",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-0513-0288",
-      "@type": "sc:Person"
     }
   ]
 }

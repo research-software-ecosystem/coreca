@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/pulps",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc4a25e3fcfed47179d6da3088f4fa167"
+        "@id": "_:Nf2d104b5f7164377b6aa080304bc1101"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -91,7 +91,7 @@
       "sc:url": "http://pulps.zbiolab.cn"
     },
     {
-      "@id": "_:Nc4a25e3fcfed47179d6da3088f4fa167",
+      "@id": "_:Nf2d104b5f7164377b6aa080304bc1101",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ensembl Genomes webteam",
       "bsc:input": {
-        "@id": "_:Nd6c1db5d33b54e84ae844cf5319cee94"
+        "@id": "_:Nafd1964599c944e29d6a851030d13c87"
       },
       "bsc:output": {
-        "@id": "_:N0ae5d0bbb7584eab8ca93a3fbfc09941"
+        "@id": "_:N08e95aba37724dcab9f9cf51293f7e6b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -86,7 +86,7 @@
       "sc:url": "http://protists.ensembl.org/Multi/blastview"
     },
     {
-      "@id": "_:Nd6c1db5d33b54e84ae844cf5319cee94",
+      "@id": "_:Nafd1964599c944e29d6a851030d13c87",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -97,7 +97,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N0ae5d0bbb7584eab8ca93a3fbfc09941",
+      "@id": "_:N08e95aba37724dcab9f9cf51293f7e6b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

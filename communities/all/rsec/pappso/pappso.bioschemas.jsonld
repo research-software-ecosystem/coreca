@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/pappso",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ncd1ac845ff0546829f72c0df706aea9b"
+        "@id": "_:N8ca46b4919f845e5893175a91d5270c4"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -70,7 +70,7 @@
       "sc:url": "http://pappso.inra.fr/bioinfo/"
     },
     {
-      "@id": "_:Ncd1ac845ff0546829f72c0df706aea9b",
+      "@id": "_:N8ca46b4919f845e5893175a91d5270c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

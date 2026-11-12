@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btu205",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/readxplorer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne9f2f21cdc2145709e3f3e2e2083f708"
+          "@id": "_:Nfa03b35030da4fe08500f1f51b810e13"
         },
         {
-          "@id": "_:N2ed75b04e3ae40918a94329360d1a03d"
+          "@id": "_:N69843d2e1e9346998a5d9c8ab05d5f64"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -86,7 +90,7 @@
       "sc:url": "http://readxplorer.org"
     },
     {
-      "@id": "_:Ne9f2f21cdc2145709e3f3e2e2083f708",
+      "@id": "_:Nfa03b35030da4fe08500f1f51b810e13",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -108,7 +112,7 @@
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:N2ed75b04e3ae40918a94329360d1a03d",
+      "@id": "_:N69843d2e1e9346998a5d9c8ab05d5f64",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -117,10 +121,6 @@
         "@id": "edam:format_2572"
       },
       "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btu205",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

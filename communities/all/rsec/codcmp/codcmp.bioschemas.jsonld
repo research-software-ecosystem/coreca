@@ -36,30 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/codcmp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N29e95fb2e8e34ff99dab259e34344434"
+          "@id": "_:N3d4647cdd43349d2a880627b1db782b3"
         },
         {
-          "@id": "_:Ne53d4768d9d640d9b37731697d77ee94"
+          "@id": "_:N3f1cdc96c6f8467a83b8de19929df940"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nff439b125e004886a65932b1256a6907"
+        "@id": "_:N9cfa37eec5ea4631ad13d52cf3e25d8d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -119,7 +107,7 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/codcmp.html"
     },
     {
-      "@id": "_:N29e95fb2e8e34ff99dab259e34344434",
+      "@id": "_:N3d4647cdd43349d2a880627b1db782b3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1597"
@@ -127,7 +115,7 @@
       "sc:name": "Codon usage table"
     },
     {
-      "@id": "_:Ne53d4768d9d640d9b37731697d77ee94",
+      "@id": "_:N3f1cdc96c6f8467a83b8de19929df940",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1597"
@@ -135,12 +123,24 @@
       "sc:name": "Codon usage table"
     },
     {
-      "@id": "_:Nff439b125e004886a65932b1256a6907",
+      "@id": "_:N9cfa37eec5ea4631ad13d52cf3e25d8d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1602"
       },
       "sc:name": "Codon usage fraction difference"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

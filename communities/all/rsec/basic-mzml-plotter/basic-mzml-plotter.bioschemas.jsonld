@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/basic-mzml-plotter",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N56f494d5738f448297bca248d6406159"
+        "@id": "_:Na0700578f6aa432ca0645e78cee43bf7"
       },
       "bsc:output": {
-        "@id": "_:N8bff1a2c2d8245838c3e91c4be2af576"
+        "@id": "_:Nbc39f63d598b4cb0abf09d4a58f1768c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:description": "A basic mzML visualization software for plotting single scans, total- and extracted ion chromatograms.",
@@ -54,7 +54,7 @@
       "sc:url": "https://github.com/BobChallen/Basic-mzml-plotter"
     },
     {
-      "@id": "_:N56f494d5738f448297bca248d6406159",
+      "@id": "_:Na0700578f6aa432ca0645e78cee43bf7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -65,7 +65,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N8bff1a2c2d8245838c3e91c4be2af576",
+      "@id": "_:Nbc39f63d598b4cb0abf09d4a58f1768c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

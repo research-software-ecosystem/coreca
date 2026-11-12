@@ -36,17 +36,20 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s40168-025-02249-w",
-      "@type": "sc:CreativeWork"
+      "@id": "https://orcid.org/0000-0001-6036-0989",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/meteor",
       "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": {
+        "@id": "https://orcid.org/0000-0001-7670-6235"
+      },
       "bsc:input": {
-        "@id": "_:Nbb105583505f4c66b37d1399790b55f8"
+        "@id": "_:N1acfe22b6de5436a9cc3925ce2320b6f"
       },
       "bsc:output": {
-        "@id": "_:N85bd1389fe83459a8568b0764f58db40"
+        "@id": "_:N1301bb9a06a44077a6fc266b06f893ec"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -58,6 +61,15 @@
           "@id": "edam:topic_3697"
         }
       ],
+      "sc:author": [
+        {
+          "@id": "https://orcid.org/0000-0001-7670-6235"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-6036-0989"
+        },
+        "Florence Thirion"
+      ],
       "sc:citation": [
         "pubmed:41199348",
         "pmcid:PMC12590682",
@@ -65,7 +77,7 @@
           "@id": "https://doi.org/10.1186/s40168-025-02249-w"
         }
       ],
-      "sc:description": "Meteor is a plateform for quantitative metagenomics profiling of complex ecosystems. Meteor relies on genes catalogue to perform species-level taxonomic profiling (Bacteria, Archaea and Eukaryotes), functional analysis and strain-level population structure inference.",
+      "sc:description": "METEOR is a plateform for quantitative metagenomics profiling of complex ecosystems. Meteor relies on genes catalogue to perform species-level taxonomic profiling (Bacteria, Archaea and Eukaryotes), functional analysis and strain-level population structure inference.",
       "sc:featureList": {
         "@id": "edam:operation_3460"
       },
@@ -73,7 +85,7 @@
       "sc:url": "https://github.com/metagenopolis/meteor"
     },
     {
-      "@id": "_:Nbb105583505f4c66b37d1399790b55f8",
+      "@id": "_:N1acfe22b6de5436a9cc3925ce2320b6f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -81,7 +93,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N85bd1389fe83459a8568b0764f58db40",
+      "@id": "_:N1301bb9a06a44077a6fc266b06f893ec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -90,6 +102,14 @@
         "@id": "edam:format_3751"
       },
       "sc:name": "Taxonomy"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7670-6235",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s40168-025-02249-w",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

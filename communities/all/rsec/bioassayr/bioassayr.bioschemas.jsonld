@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/bioassayr",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd41616d23496482aa7cf89a69085288b"
+        "@id": "_:N984240f016fa49179ba39411128b2f45"
       },
       "bsc:output": {
-        "@id": "_:N77132eaadb4844588cb6dae14024ddf4"
+        "@id": "_:Nef4278fd8dec4c658fbf887ef3983ac1"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -78,7 +78,7 @@
       "sc:url": "https://bioconductor.org/packages/bioassayR"
     },
     {
-      "@id": "_:Nd41616d23496482aa7cf89a69085288b",
+      "@id": "_:N984240f016fa49179ba39411128b2f45",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1566"
@@ -89,7 +89,7 @@
       "sc:name": "Protein-ligand interaction report"
     },
     {
-      "@id": "_:N77132eaadb4844588cb6dae14024ddf4",
+      "@id": "_:Nef4278fd8dec4c658fbf887ef3983ac1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1566"

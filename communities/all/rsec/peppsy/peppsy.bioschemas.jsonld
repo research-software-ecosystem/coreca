@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/database/baw070",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/peppsy",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nbb4a2d3777b94d80acbb9132be08ae89"
+        "@id": "_:Ne96723dd5bd54ae39b19b11df5313831"
       },
       "bsc:output": {
-        "@id": "_:N3cbb4dd2752e486e934ececb70b6e196"
+        "@id": "_:N24425ecf47b747cc812a05b27f281db8"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -87,7 +91,7 @@
       "sc:url": "http://peppsy.genouest.org"
     },
     {
-      "@id": "_:Nbb4a2d3777b94d80acbb9132be08ae89",
+      "@id": "_:Ne96723dd5bd54ae39b19b11df5313831",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2872"
@@ -98,16 +102,12 @@
       "sc:name": "ID list"
     },
     {
-      "@id": "_:N3cbb4dd2752e486e934ececb70b6e196",
+      "@id": "_:N24425ecf47b747cc812a05b27f281db8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2042"
       },
       "sc:name": "Evidence"
-    },
-    {
-      "@id": "https://doi.org/10.1093/database/baw070",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

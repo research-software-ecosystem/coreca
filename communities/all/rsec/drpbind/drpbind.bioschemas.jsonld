@@ -40,13 +40,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N0b7a04ab34f642d6baeb4e0c749283cb"
+          "@id": "_:N01f4574eec2e4bee9c35eaf7dedba1b3"
         },
         {
-          "@id": "_:Nee4c22dcf80a42e2a695069c33aa239a"
+          "@id": "_:N26dd4af9fe9744caa32fe9529d9856fb"
         },
         {
-          "@id": "_:N09f146c3f3d549da9c9ec6c455257f31"
+          "@id": "_:Ne86b1a14f2224e2bb3cc1fa9fe6d8184"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -80,7 +80,7 @@
       "sc:url": "https://github.com/roneshsharma/DNA-RNA-Protein-Binding/wiki"
     },
     {
-      "@id": "_:N0b7a04ab34f642d6baeb4e0c749283cb",
+      "@id": "_:N01f4574eec2e4bee9c35eaf7dedba1b3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1526"
@@ -88,7 +88,7 @@
       "sc:name": "Protein globularity"
     },
     {
-      "@id": "_:Nee4c22dcf80a42e2a695069c33aa239a",
+      "@id": "_:N26dd4af9fe9744caa32fe9529d9856fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1756"
@@ -96,7 +96,7 @@
       "sc:name": "Protein residue"
     },
     {
-      "@id": "_:N09f146c3f3d549da9c9ec6c455257f31",
+      "@id": "_:Ne86b1a14f2224e2bb3cc1fa9fe6d8184",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

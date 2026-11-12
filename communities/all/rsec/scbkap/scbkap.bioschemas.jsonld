@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/scbkap",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd2c2d1c8118d41b1a6d543b8793ee698"
+        "@id": "_:N5d62d569cc624d2a8aea7bad21927995"
       },
       "bsc:output": {
-        "@id": "_:Na5c389f68ada443695af6690710564b7"
+        "@id": "_:N5fade98792d046da889d8aab6436fc73"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Script",
@@ -99,7 +99,7 @@
       "sc:url": "https://github.com/YuBinLab-QUST/scBKAP"
     },
     {
-      "@id": "_:Nd2c2d1c8118d41b1a6d543b8793ee698",
+      "@id": "_:N5d62d569cc624d2a8aea7bad21927995",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -110,7 +110,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:Na5c389f68ada443695af6690710564b7",
+      "@id": "_:N5fade98792d046da889d8aab6436fc73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3768"

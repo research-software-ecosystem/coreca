@@ -36,21 +36,33 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-7848-8216",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3139-3700",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-6803-0340",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/fireprot-asr",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "FireProt ASR team",
       "bsc:input": {
-        "@id": "_:Ne6cd8c4bc566418f8bb133b49b6aad5e"
+        "@id": "_:Nbd4bc9cc317c49e788964f4b08c7c43c"
       },
       "bsc:output": [
         {
-          "@id": "_:N78cf7047fd4c4610bb4cc749fd703160"
+          "@id": "_:N6da13c998b994cf0a0be5a661e375fb0"
         },
         {
-          "@id": "_:N43778cdc99404e589271f7b0e676a75c"
+          "@id": "_:N81055ef0e1d04a4d8bee9b07abb0e364"
         },
         {
-          "@id": "_:Nabb0f89c71c445b9afdd1ddfd92fe953"
+          "@id": "_:Nd84567558c934cdc8773cbdadcd84071"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -128,7 +140,7 @@
       "sc:url": "https://loschmidt.chemi.muni.cz/fireprotasr/"
     },
     {
-      "@id": "_:Ne6cd8c4bc566418f8bb133b49b6aad5e",
+      "@id": "_:Nbd4bc9cc317c49e788964f4b08c7c43c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -139,7 +151,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N78cf7047fd4c4610bb4cc749fd703160",
+      "@id": "_:N6da13c998b994cf0a0be5a661e375fb0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -150,7 +162,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N43778cdc99404e589271f7b0e676a75c",
+      "@id": "_:N81055ef0e1d04a4d8bee9b07abb0e364",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -161,7 +173,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nabb0f89c71c445b9afdd1ddfd92fe953",
+      "@id": "_:Nd84567558c934cdc8773cbdadcd84071",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1384"
@@ -172,19 +184,7 @@
       "sc:name": "Protein sequence alignment"
     },
     {
-      "@id": "https://orcid.org/0000-0002-7848-8216",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-3139-3700",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://orcid.org/0000-0001-9373-7930",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-6803-0340",
       "@type": "sc:Person"
     }
   ]

@@ -45,10 +45,10 @@
       "biotools:primaryContact": "Jan Baumbach",
       "bsc:input": [
         {
-          "@id": "_:Nc752ec2a56bf471aaad661a5ba856014"
+          "@id": "_:Nb1f255f523694cd2ab67ee58e88ea90a"
         },
         {
-          "@id": "_:Nb198792686714add8ca1009212bdd09e"
+          "@id": "_:N252d2806028946728611ac5a807bd23f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -86,7 +86,7 @@
       "sc:url": "http://biclue.compbio.sdu.dk"
     },
     {
-      "@id": "_:Nc752ec2a56bf471aaad661a5ba856014",
+      "@id": "_:Nb1f255f523694cd2ab67ee58e88ea90a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -94,7 +94,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Nb198792686714add8ca1009212bdd09e",
+      "@id": "_:N252d2806028946728611ac5a807bd23f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

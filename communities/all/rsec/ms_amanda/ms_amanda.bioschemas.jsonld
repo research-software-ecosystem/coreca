@@ -36,26 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/acs.jproteome.7b00836",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1002/rcm.9088",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/ms_amanda",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nba76da38f42c4058a3979dfbc76ed76e"
+          "@id": "_:Nc85f7455d5b7434a970464afee275b25"
         },
         {
-          "@id": "_:Nc88e1ce04b1f43b593adfbbc53f4a59b"
+          "@id": "_:N9e05bec16ce148c4a0b50c320ad237a7"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ne95568128d164cdab02dbd93711bc787"
+        "@id": "_:N8d66989a10e64bf085145a33980a386e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -116,7 +108,7 @@
       "sc:url": "https://ms.imp.ac.at/?action=ms-amanda"
     },
     {
-      "@id": "_:Nba76da38f42c4058a3979dfbc76ed76e",
+      "@id": "_:Nc85f7455d5b7434a970464afee275b25",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -132,7 +124,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:Nc88e1ce04b1f43b593adfbbc53f4a59b",
+      "@id": "_:N9e05bec16ce148c4a0b50c320ad237a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -143,7 +135,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Ne95568128d164cdab02dbd93711bc787",
+      "@id": "_:N8d66989a10e64bf085145a33980a386e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -160,6 +152,14 @@
     },
     {
       "@id": "https://doi.org/10.1021/pr500202e",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1002/rcm.9088",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acs.jproteome.7b00836",
       "@type": "sc:CreativeWork"
     }
   ]

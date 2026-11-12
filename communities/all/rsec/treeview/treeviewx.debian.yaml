@@ -32,7 +32,7 @@ tags:
 - tag: works-with::TODO
 - tag: x11::application
 popcon:
-- insts: 125
-  olde: 94
-  recent: 23
-  vote: 8
+- insts: 132
+  olde: 99
+  recent: 24
+  vote: 9

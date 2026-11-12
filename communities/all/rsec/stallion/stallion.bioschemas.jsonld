@@ -36,10 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bib/bbab376",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/stallion",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N37b883f794b946b3a09715f62b95affa"
+        "@id": "_:Nf9bd94d8c3ab4d16a3287d14a8bbbc83"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -89,7 +93,7 @@
       "sc:url": "http://thegleelab.org/STALLION"
     },
     {
-      "@id": "_:N37b883f794b946b3a09715f62b95affa",
+      "@id": "_:Nf9bd94d8c3ab4d16a3287d14a8bbbc83",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -98,10 +102,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bib/bbab376",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

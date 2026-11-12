@@ -40,7 +40,7 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1002/0471250953.bi0313s48",
+      "@id": "https://doi.org/10.1002/pro.3290",
       "@type": "sc:CreativeWork"
     },
     {
@@ -48,10 +48,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Clustal helpdesk",
       "bsc:input": {
-        "@id": "_:N80156fe11f3842ff967bb99d3705fffe"
+        "@id": "_:N37e359ba0ce64f7fad199749b4b83b51"
       },
       "bsc:output": {
-        "@id": "_:N36d23030482341ce8885cdd30f863868"
+        "@id": "_:N5e586602133d4bb6a8f60a8499f86ef7"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -105,7 +105,7 @@
       "sc:url": "http://www.clustal.org/omega/"
     },
     {
-      "@id": "_:N80156fe11f3842ff967bb99d3705fffe",
+      "@id": "_:N37e359ba0ce64f7fad199749b4b83b51",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -116,7 +116,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N36d23030482341ce8885cdd30f863868",
+      "@id": "_:N5e586602133d4bb6a8f60a8499f86ef7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -127,7 +127,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "https://doi.org/10.1002/pro.3290",
+      "@id": "https://doi.org/10.1002/0471250953.bi0313s48",
       "@type": "sc:CreativeWork"
     }
   ]

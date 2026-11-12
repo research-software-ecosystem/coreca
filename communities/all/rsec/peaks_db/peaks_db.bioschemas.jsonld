@@ -36,35 +36,31 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1074/mcp.m111.010587",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/peaks_db",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nf3fc2214115f407189ba05e37f1616e0"
+          "@id": "_:N1192be283d2e49928f007bed822cb650"
         },
         {
-          "@id": "_:N68b1c0dac940462db2c8ba7402759313"
+          "@id": "_:N27e47cb790a3491f9ad367ca963b803b"
         },
         {
-          "@id": "_:Neb2815bad2634e78ade2768ffa38ae79"
+          "@id": "_:N209d5f6280fe4efe90b20308de4702ed"
         },
         {
-          "@id": "_:Nbff8a840a13d4f96847c50f1b0e6026b"
+          "@id": "_:N797addb280a74791b0e84de5525e4ab1"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N021ee1a9f6a84520ada152ceb6b03239"
+          "@id": "_:Nf963d647ce3a45668e7770dd1c796ef4"
         },
         {
-          "@id": "_:N9b006c1b2d3a4c3caed7392c52f0f984"
+          "@id": "_:Nee480e17a18e4160924a57cb655ecdeb"
         },
         {
-          "@id": "_:Na007f3dbb35942e79ce28a5e32194845"
+          "@id": "_:N8a61d01fb88e421ea11e7292a1c22e74"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -136,7 +132,7 @@
       "sc:url": "http://www.bioinfor.com/peaks/features/peaksdb.html"
     },
     {
-      "@id": "_:Nf3fc2214115f407189ba05e37f1616e0",
+      "@id": "_:N1192be283d2e49928f007bed822cb650",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -164,7 +160,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N68b1c0dac940462db2c8ba7402759313",
+      "@id": "_:N27e47cb790a3491f9ad367ca963b803b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -175,7 +171,7 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:Neb2815bad2634e78ade2768ffa38ae79",
+      "@id": "_:N209d5f6280fe4efe90b20308de4702ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -203,7 +199,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Nbff8a840a13d4f96847c50f1b0e6026b",
+      "@id": "_:N797addb280a74791b0e84de5525e4ab1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -214,7 +210,7 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:N021ee1a9f6a84520ada152ceb6b03239",
+      "@id": "_:Nf963d647ce3a45668e7770dd1c796ef4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -230,7 +226,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N9b006c1b2d3a4c3caed7392c52f0f984",
+      "@id": "_:Nee480e17a18e4160924a57cb655ecdeb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -246,7 +242,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Na007f3dbb35942e79ce28a5e32194845",
+      "@id": "_:N8a61d01fb88e421ea11e7292a1c22e74",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0907"
@@ -260,6 +256,10 @@
         }
       ],
       "sc:name": "Protein family report"
+    },
+    {
+      "@id": "https://doi.org/10.1074/mcp.m111.010587",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -42,10 +42,10 @@
         "@id": "https://orcid.org/0000-0002-0274-5669"
       },
       "bsc:input": {
-        "@id": "_:Nf3901ca91d7a448ea8a4ac81e27592f7"
+        "@id": "_:Naf551aeea772405191ca74fefa2f789c"
       },
       "bsc:output": {
-        "@id": "_:N3031de42f7984739a380e257b2511cfc"
+        "@id": "_:N56553f5671794e539b43e6783dc2f58b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -93,7 +93,7 @@
       "sc:url": "https://benzdb.biocomp.unibo.it"
     },
     {
-      "@id": "_:Nf3901ca91d7a448ea8a4ac81e27592f7",
+      "@id": "_:Naf551aeea772405191ca74fefa2f789c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -104,7 +104,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N3031de42f7984739a380e257b2511cfc",
+      "@id": "_:N56553f5671794e539b43e6783dc2f58b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -115,12 +115,12 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "https://doi.org/10.1093/NAR/GKAB328",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://orcid.org/0000-0002-0274-5669",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/NAR/GKAB328",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

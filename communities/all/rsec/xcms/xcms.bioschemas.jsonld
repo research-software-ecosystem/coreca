@@ -40,21 +40,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nb083c8f7372b449fad828e0d205c74f8"
+          "@id": "_:N87539dec2fd04fc98f676cc61ba91b44"
         },
         {
-          "@id": "_:Nc68a00185b5d44a38a459d494833417c"
+          "@id": "_:N83c77b8f5c224aa8b2843f6f9efdc1ac"
         },
         {
-          "@id": "_:N3c9c1347ac4e402685e449c42fd84e55"
+          "@id": "_:N4a415c1bb84b47be88932f834c6dd687"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nae904377ba664e07b120ba750fa881c0"
+          "@id": "_:N6c6b6fd9ea234e61aa1e0df1de2e7b5d"
         },
         {
-          "@id": "_:N6eb2c6e2bce847a2b8a127a0b29cc1f4"
+          "@id": "_:Nc1e3d418f49945b6b1ab18049d7ddcf8"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -127,7 +127,7 @@
       "sc:url": "https://bioconductor.org/packages/xcms"
     },
     {
-      "@id": "_:Nb083c8f7372b449fad828e0d205c74f8",
+      "@id": "_:N87539dec2fd04fc98f676cc61ba91b44",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -146,7 +146,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nc68a00185b5d44a38a459d494833417c",
+      "@id": "_:N83c77b8f5c224aa8b2843f6f9efdc1ac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -162,10 +162,10 @@
           "@id": "edam:format_3654"
         }
       ],
-      "sc:name": "Mass spectrometry spectra"
+      "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:N3c9c1347ac4e402685e449c42fd84e55",
+      "@id": "_:N4a415c1bb84b47be88932f834c6dd687",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -176,7 +176,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nae904377ba664e07b120ba750fa881c0",
+      "@id": "_:N6c6b6fd9ea234e61aa1e0df1de2e7b5d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -192,7 +192,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N6eb2c6e2bce847a2b8a127a0b29cc1f4",
+      "@id": "_:Nc1e3d418f49945b6b1ab18049d7ddcf8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

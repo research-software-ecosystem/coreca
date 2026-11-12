@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx431",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/deeploc",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Henrik Nielsen",
       "bsc:input": {
-        "@id": "_:N4e39bac66b3d4053ab79884002378097"
+        "@id": "_:N38dfdfaa94da4a1d8c4d28f84562973a"
       },
       "bsc:output": [
         {
-          "@id": "_:Nffd543eeb17c4c18ac975597dab5fce4"
+          "@id": "_:N1235d885583c40139ec64c575ab93cfa"
         },
         {
-          "@id": "_:N3ba7c12ac19a4b0084cafc302c1af376"
+          "@id": "_:N1faa924f7e884e8bb45da774561ed203"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -84,7 +88,7 @@
       "sc:url": "http://www.cbs.dtu.dk/services/DeepLoc/"
     },
     {
-      "@id": "_:N4e39bac66b3d4053ab79884002378097",
+      "@id": "_:N38dfdfaa94da4a1d8c4d28f84562973a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -95,7 +99,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:Nffd543eeb17c4c18ac975597dab5fce4",
+      "@id": "_:N1235d885583c40139ec64c575ab93cfa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -106,7 +110,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N3ba7c12ac19a4b0084cafc302c1af376",
+      "@id": "_:N1faa924f7e884e8bb45da774561ed203",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -115,10 +119,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Protein features"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btx431",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

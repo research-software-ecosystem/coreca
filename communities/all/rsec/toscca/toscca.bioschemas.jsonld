@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioadv/vbae021",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/toscca",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc662497d41734163898535cd4720afa1"
+        "@id": "_:N7e92320087b8417ca1a79d77c118caaa"
       },
       "bsc:output": [
         {
-          "@id": "_:N9da37c17e00e414e9de30b8213915a5f"
+          "@id": "_:N9ee6e777b97d4ea9a4568305c9457e2f"
         },
         {
-          "@id": "_:N48b5103c58f14f65b14d5c36c5debabb"
+          "@id": "_:N6360d667a7a04a5f9721e315946a305a"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -83,7 +87,7 @@
       "sc:url": "https://github.com/nuria-sv/toscca"
     },
     {
-      "@id": "_:Nc662497d41734163898535cd4720afa1",
+      "@id": "_:N7e92320087b8417ca1a79d77c118caaa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3869"
@@ -91,7 +95,7 @@
       "sc:name": "Simulation"
     },
     {
-      "@id": "_:N9da37c17e00e414e9de30b8213915a5f",
+      "@id": "_:N9ee6e777b97d4ea9a4568305c9457e2f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -99,16 +103,12 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N48b5103c58f14f65b14d5c36c5debabb",
+      "@id": "_:N6360d667a7a04a5f9721e315946a305a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
       },
       "sc:name": "Plot"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioadv/vbae021",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

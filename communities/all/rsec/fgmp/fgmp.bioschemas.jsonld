@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ousmane Cissé",
       "bsc:input": {
-        "@id": "_:Na5ad8640afae40c98159a7df6f18dd3b"
+        "@id": "_:N9c3ef31edbec49fbb3738d8b3ee699a3"
       },
       "bsc:output": {
-        "@id": "_:Nc2e014bf0e594e02a084a84cb4b86ad4"
+        "@id": "_:Nd3b314455ab24d64aced94dea3c32eda"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -78,7 +78,7 @@
       "sc:url": "http://github.com/stajichlab/FGMP"
     },
     {
-      "@id": "_:Na5ad8640afae40c98159a7df6f18dd3b",
+      "@id": "_:N9c3ef31edbec49fbb3738d8b3ee699a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -86,7 +86,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:Nc2e014bf0e594e02a084a84cb4b86ad4",
+      "@id": "_:Nd3b314455ab24d64aced94dea3c32eda",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3181"

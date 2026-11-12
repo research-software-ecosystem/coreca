@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkh413",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gki481",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/patchdock",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "PatchDock Administrator",
@@ -105,14 +113,6 @@
         "@id": "http://bioinfo3d.cs.tau.ac.il/PatchDock/help.html"
       },
       "sc:url": "http://bioinfo3d.cs.tau.ac.il/PatchDock/"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkh413",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gki481",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1002/prot.10397",

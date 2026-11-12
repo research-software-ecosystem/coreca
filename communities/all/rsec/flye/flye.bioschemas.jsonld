@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/Flye",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N5cc53b81dbd84653ae40429583d4267a"
+        "@id": "_:N8cc8a10af0ec4d1c85e41d1d279e5917"
       },
       "bsc:output": {
-        "@id": "_:Nf6f8b780cdcd48b8b0bb29940afa247c"
+        "@id": "_:N8ab5b676b9d04e288ca1bbfc49c623b7"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -114,7 +114,7 @@
       "sc:url": "https://github.com/fenderglass/Flye"
     },
     {
-      "@id": "_:N5cc53b81dbd84653ae40429583d4267a",
+      "@id": "_:N8cc8a10af0ec4d1c85e41d1d279e5917",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -125,7 +125,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:Nf6f8b780cdcd48b8b0bb29940afa247c",
+      "@id": "_:N8ab5b676b9d04e288ca1bbfc49c623b7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"

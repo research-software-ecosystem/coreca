@@ -42,24 +42,29 @@
     {
       "@id": "https://bio.tools/WheatIS",
       "@type": "sc:SoftwareApplication",
-      "biotools:primaryContact": "Support service",
       "bsc:input": [
         {
-          "@id": "_:N2ebeed9543ff4c8b99dd3c988aa5bef4"
+          "@id": "_:N1e8f6f081f864bd79b9fd5c7f0d89d24"
         },
         {
-          "@id": "_:Nca9f9569763348c8ae072b6c7e9ed5da"
+          "@id": "_:N94328cdd0d8b49d4b14502b9977e0b27"
+        },
+        {
+          "@id": "_:Na7224694b3fa4896bae204690fa9ab0e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf8ce999aa0ab4ffd86cfb01e539f5573"
+          "@id": "_:N16eb1bc3f8644c829f22430c93a3d2cd"
         },
         {
-          "@id": "_:Nacff0069f48545b4b98cb6f27eb20961"
+          "@id": "_:N40bea2e3b26e4d42a86b0eb708fe40f3"
         },
         {
-          "@id": "_:Ne216e33ca1cf4a969e514ef9bb8c2f62"
+          "@id": "_:Nbd9ed62e52c049708479fc99c7e364e6"
+        },
+        {
+          "@id": "_:N83e964e9f18d474ba8cc98766304586d"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -77,23 +82,21 @@
           "@id": "edam:topic_0091"
         },
         {
-          "@id": "edam:topic_3071"
+          "@id": "edam:topic_0610"
         },
         {
-          "@id": "edam:topic_0610"
+          "@id": "edam:topic_0625"
         },
         {
           "@id": "edam:topic_0780"
         }
       ],
+      "sc:author": "URGI",
       "sc:citation": {
         "@id": "https://doi.org/10.1186/s13059-018-1491-4"
       },
-      "sc:description": "This project aims at building an International Wheat Information System (WheatIS) to support the wheat research community. The main objective is to provide a single-access web based system to access to the available data resources and bioinformatics tools. The web portal indexes and makes findable any kind of data from wheat related species. \nThe WheatIS search is an implementation of DataDiscovery.",
+      "sc:description": "As part of the Wheat Initiative (https://www.wheatinitiative.org/), the WheatIS working group (http://www.wheatis.org/) is developing an international wheat information system to support the wheat research community. “WheatIS Data Discovery” is the web portal that allows users to search for and access wheat data in international databases.\nIt is based on the DataDiscovery tool, which aims to provide researchers with quick and easy access to relevant biological data using specific keywords and filters. This generic tool is easily customizable for specific filters, environments, or data schemas.",
       "sc:featureList": [
-        {
-          "@id": "edam:operation_2421"
-        },
         {
           "@id": "edam:operation_0227"
         },
@@ -101,18 +104,35 @@
           "@id": "edam:operation_3908"
         },
         {
+          "@id": "edam:operation_0224"
+        },
+        {
           "@id": "edam:operation_3625"
+        },
+        {
+          "@id": "edam:operation_0337"
         }
       ],
       "sc:isAccessibleForFree": true,
       "sc:license": "BSD-3-Clause",
       "sc:name": "WheatIS",
+      "sc:operatingSystem": "Linux",
+      "sc:provider": "URGI",
       "sc:softwareHelp": [
+        {
+          "@id": "https://forgemia.inra.fr/urgi-is/data-discovery/blob/master/README.md#contribute"
+        },
         {
           "@id": "https://urgi.versailles.inra.fr/wheatis/join"
         },
         {
           "@id": "https://urgi.versailles.inra.fr/wheatis/about"
+        },
+        {
+          "@id": "https://urgi.versailles.inrae.fr/Data-Services/Data-Access/Federations"
+        },
+        {
+          "@id": "https://forgemia.inra.fr/urgi-is/data-discovery/blob/master/README.md#setup"
         },
         {
           "@id": "https://urgi.versailles.inra.fr/wheatis/legal"
@@ -124,7 +144,7 @@
       "sc:url": "https://urgi.versailles.inrae.fr/wheatis/"
     },
     {
-      "@id": "_:N2ebeed9543ff4c8b99dd3c988aa5bef4",
+      "@id": "_:N1e8f6f081f864bd79b9fd5c7f0d89d24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -132,7 +152,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:Nca9f9569763348c8ae072b6c7e9ed5da",
+      "@id": "_:N94328cdd0d8b49d4b14502b9977e0b27",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -140,7 +160,23 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:Nf8ce999aa0ab4ffd86cfb01e539f5573",
+      "@id": "_:Na7224694b3fa4896bae204690fa9ab0e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2337"
+      },
+      "sc:name": "Resource metadata"
+    },
+    {
+      "@id": "_:N16eb1bc3f8644c829f22430c93a3d2cd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1188"
+      },
+      "sc:name": "DOI"
+    },
+    {
+      "@id": "_:N40bea2e3b26e4d42a86b0eb708fe40f3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -148,7 +184,7 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:Nacff0069f48545b4b98cb6f27eb20961",
+      "@id": "_:Nbd9ed62e52c049708479fc99c7e364e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -156,7 +192,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:Ne216e33ca1cf4a969e514ef9bb8c2f62",
+      "@id": "_:N83e964e9f18d474ba8cc98766304586d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"

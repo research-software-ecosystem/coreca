@@ -41,18 +41,18 @@
       "biotools:primaryContact": "Stefan Klein",
       "bsc:input": [
         {
-          "@id": "_:Nd24a658303884b42ba00de50e26f72d9"
+          "@id": "_:Ne75e7554342a4d0fa062d1959e58cfaf"
         },
         {
-          "@id": "_:Ncec13fe5f5d348a885d9636d5bb22c3d"
+          "@id": "_:N3274325fb1224c4e9e91ccfb4dd2efd8"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N7bb2cf4b9ab84782ac986f262377a47a"
+          "@id": "_:N396d69c6e6884a548b17718d03d38e22"
         },
         {
-          "@id": "_:N929a8ceef2db4895a341e77e679a012e"
+          "@id": "_:Nceed2dada5844c6f9b553e155fa06f16"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -83,7 +83,7 @@
       "sc:url": "https://xnat.health-ri.nl"
     },
     {
-      "@id": "_:Nd24a658303884b42ba00de50e26f72d9",
+      "@id": "_:Ne75e7554342a4d0fa062d1959e58cfaf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -111,7 +111,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Ncec13fe5f5d348a885d9636d5bb22c3d",
+      "@id": "_:N3274325fb1224c4e9e91ccfb4dd2efd8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3546"
@@ -139,7 +139,7 @@
       "sc:name": "Image metadata"
     },
     {
-      "@id": "_:N7bb2cf4b9ab84782ac986f262377a47a",
+      "@id": "_:N396d69c6e6884a548b17718d03d38e22",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -167,7 +167,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N929a8ceef2db4895a341e77e679a012e",
+      "@id": "_:Nceed2dada5844c6f9b553e155fa06f16",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3546"

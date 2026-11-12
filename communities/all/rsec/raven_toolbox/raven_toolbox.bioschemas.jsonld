@@ -40,6 +40,10 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "http://orcid.org/0000-0001-7475-0136",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/raven_toolbox",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -47,21 +51,21 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nf23818efefb648a5ab558787979d8ca0"
+          "@id": "_:Nc00166295cf342b1ab0d76319aa97a22"
         },
         {
-          "@id": "_:N0f8e3bea52c946d1b921b1d9f79989d8"
+          "@id": "_:N2f417cb43a2c449db46a4d85304b0428"
         },
         {
-          "@id": "_:Na52ede3472604c0488a73844911b4c6e"
+          "@id": "_:Nb31f019417b24d438ba3c1ff0693928b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N689bcd50c2e143cba48db42f1a397502"
+          "@id": "_:Nfed6a9cd904b40c5a7eb646eaf4ea349"
         },
         {
-          "@id": "_:Nf6dea8a97f5e46c8b850adf9d61dda3a"
+          "@id": "_:Nce4a08ffc72e471d864812b5ca17a689"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -113,7 +117,7 @@
       "sc:url": "https://github.com/SysBioChalmers/RAVEN"
     },
     {
-      "@id": "_:Nf23818efefb648a5ab558787979d8ca0",
+      "@id": "_:Nc00166295cf342b1ab0d76319aa97a22",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -124,7 +128,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N0f8e3bea52c946d1b921b1d9f79989d8",
+      "@id": "_:N2f417cb43a2c449db46a4d85304b0428",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -140,7 +144,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Na52ede3472604c0488a73844911b4c6e",
+      "@id": "_:Nb31f019417b24d438ba3c1ff0693928b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -151,7 +155,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N689bcd50c2e143cba48db42f1a397502",
+      "@id": "_:Nfed6a9cd904b40c5a7eb646eaf4ea349",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -170,7 +174,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nf6dea8a97f5e46c8b850adf9d61dda3a",
+      "@id": "_:Nce4a08ffc72e471d864812b5ca17a689",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3722"
@@ -179,10 +183,6 @@
         "@id": "edam:format_1957"
       },
       "sc:name": "Physiology parameter"
-    },
-    {
-      "@id": "http://orcid.org/0000-0001-7475-0136",
-      "@type": "sc:Person"
     }
   ]
 }

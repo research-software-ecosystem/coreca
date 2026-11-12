@@ -431,23 +431,19 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 191,
+                            "cit_count": 197,
                             "citations": [
                                 {
                                     "count": 5,
                                     "year": 2019
                                 },
                                 {
-                                    "count": 20,
+                                    "count": 21,
                                     "year": 2020
                                 },
                                 {
                                     "count": 24,
                                     "year": 2021
-                                },
-                                {
-                                    "count": 24,
-                                    "year": 2026
                                 },
                                 {
                                     "count": 26,
@@ -456,6 +452,10 @@
                                 {
                                     "count": 29,
                                     "year": 2025
+                                },
+                                {
+                                    "count": 29,
+                                    "year": 2026
                                 },
                                 {
                                     "count": 30,

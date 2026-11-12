@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Yuval Kluger",
       "bsc:input": {
-        "@id": "_:N211f927f6c2c4d9d9feefe82ceb4ac14"
+        "@id": "_:Neb47a716a2014e63b25045b672639020"
       },
       "bsc:output": {
-        "@id": "_:N0b055722f5614283873c30f54c68a22c"
+        "@id": "_:Nfdc37e2c58804c61afa6700778ad1998"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Script",
@@ -76,7 +76,7 @@
       "sc:url": "https://github.com/KlugerLab/ALRA"
     },
     {
-      "@id": "_:N211f927f6c2c4d9d9feefe82ceb4ac14",
+      "@id": "_:Neb47a716a2014e63b25045b672639020",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -87,7 +87,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N0b055722f5614283873c30f54c68a22c",
+      "@id": "_:Nfdc37e2c58804c61afa6700778ad1998",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"

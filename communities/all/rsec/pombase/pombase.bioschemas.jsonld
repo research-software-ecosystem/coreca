@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/database/baaa028",
+      "@id": "https://doi.org/10.1093/genetics/iyab222",
       "@type": "sc:CreativeWork"
     },
     {
@@ -44,18 +44,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N8fe90ec031724b07803e3b1a0279eca1"
+          "@id": "_:N1609c7b4631c452798e8dcecd27dae7e"
         },
         {
-          "@id": "_:N915a5ae8e0294f1aa066fc1b5e6129cd"
+          "@id": "_:N280aff20806f4a039abb02bc64064180"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nbe2f73d7e140425fa6f8326da0a6227d"
+          "@id": "_:N88d81d5af5ba40349aace3b7fc88eae2"
         },
         {
-          "@id": "_:Nca3b6f1fa3ee46a792ed61f5df517cfc"
+          "@id": "_:N008dc6b509a442889887e7fe9609d0a9"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -117,7 +117,7 @@
       "sc:url": "https://www.pombase.org/"
     },
     {
-      "@id": "_:N8fe90ec031724b07803e3b1a0279eca1",
+      "@id": "_:N1609c7b4631c452798e8dcecd27dae7e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -136,7 +136,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N915a5ae8e0294f1aa066fc1b5e6129cd",
+      "@id": "_:N280aff20806f4a039abb02bc64064180",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -147,7 +147,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nbe2f73d7e140425fa6f8326da0a6227d",
+      "@id": "_:N88d81d5af5ba40349aace3b7fc88eae2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -155,7 +155,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:Nca3b6f1fa3ee46a792ed61f5df517cfc",
+      "@id": "_:N008dc6b509a442889887e7fe9609d0a9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -163,7 +163,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "https://doi.org/10.1093/genetics/iyab222",
+      "@id": "https://doi.org/10.1093/database/baaa028",
       "@type": "sc:CreativeWork"
     }
   ]

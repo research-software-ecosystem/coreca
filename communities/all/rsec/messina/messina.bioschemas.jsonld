@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1371/journal.pone.0005337",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/messina",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nba207311522f41a889c2a57f0024e4d5"
+        "@id": "_:N9f43f565742c4790a84720e21ed8d72b"
       },
       "bsc:output": [
         {
-          "@id": "_:Nd6e04eb123004576a009b47eb22eed78"
+          "@id": "_:N9d350c094eed4a02891ef943da21e3f4"
         },
         {
-          "@id": "_:Ne0f1f581332e4494a9035708679f6d28"
+          "@id": "_:Nee5f95ec54ce4ef5b25b66ce2870c629"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -66,15 +70,10 @@
         }
       ],
       "sc:author": "Mark Pinese",
-      "sc:citation": [
-        {
-          "@id": "https://doi.org/%7B10.1371/journal.pone.0005337%7D"
-        },
-        {
-          "@id": "https://doi.org/10.1371/journal.pone.0005337%7D"
-        }
-      ],
-      "sc:description": "Messina is a collection of algorithms for constructing optimally robust single-gene classifiers, and for identifying differential expression in the presence of outliers or unknown sample subgroups.  The methods have application in identifying lead features to develop into clinical tests (both diagnostic and prognostic), and in identifying differential expression when a fraction of samples show unusual patterns of expression.",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0005337"
+      },
+      "sc:description": "Collection of algorithms for constructing optimally robust single-gene classifiers, and for identifying differential expression in the presence of outliers or unknown sample subgroups. The methods have application in identifying lead features to develop into clinical tests (both diagnostic and prognostic), and in identifying differential expression when a fraction of samples show unusual patterns of expression.",
       "sc:featureList": [
         {
           "@id": "edam:operation_2990"
@@ -100,7 +99,7 @@
       "sc:url": "https://bioconductor.org/packages/messina"
     },
     {
-      "@id": "_:Nba207311522f41a889c2a57f0024e4d5",
+      "@id": "_:N9f43f565742c4790a84720e21ed8d72b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -111,7 +110,7 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:Nd6e04eb123004576a009b47eb22eed78",
+      "@id": "_:N9d350c094eed4a02891ef943da21e3f4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -127,7 +126,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Ne0f1f581332e4494a9035708679f6d28",
+      "@id": "_:Nee5f95ec54ce4ef5b25b66ce2870c629",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -141,14 +140,6 @@
         }
       ],
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://doi.org/10.1371/journal.pone.0005337%7D",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/%7B10.1371/journal.pone.0005337%7D",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

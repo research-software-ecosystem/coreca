@@ -36,26 +36,30 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/gblocks_oneclick",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N9ebe9ffba0eb4624a75d378e5faaccfa"
+          "@id": "_:Neb48fe9344434b149d8025f7468cbab2"
         },
         {
-          "@id": "_:N7e20aeacb65c48eaa521de4a978160c0"
+          "@id": "_:N74fd1ccb1f7a47b5b42922b27cb9e559"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne0a3cf1efd194e7c8c8982e883783fb0"
+          "@id": "_:Ndd690e6cddfa4943a9618d879bc055a3"
         },
         {
-          "@id": "_:N91b8ff6bc60943db893dfc6ce6fb93d6"
+          "@id": "_:Ne805d81c5cab4456b28fe681654bd762"
         },
         {
-          "@id": "_:Ne904472bde2147ceab35bc9b4b681d4d"
+          "@id": "_:N57579bd84f2a4fda902c4b1e59ede522"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -82,7 +86,7 @@
       "sc:url": "http://www.embl-heidelberg.de/~castresa/Gblocks/Gblocks.html"
     },
     {
-      "@id": "_:N9ebe9ffba0eb4624a75d378e5faaccfa",
+      "@id": "_:Neb48fe9344434b149d8025f7468cbab2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -93,7 +97,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N7e20aeacb65c48eaa521de4a978160c0",
+      "@id": "_:N74fd1ccb1f7a47b5b42922b27cb9e559",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -104,7 +108,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Ne0a3cf1efd194e7c8c8982e883783fb0",
+      "@id": "_:Ndd690e6cddfa4943a9618d879bc055a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -115,7 +119,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N91b8ff6bc60943db893dfc6ce6fb93d6",
+      "@id": "_:Ne805d81c5cab4456b28fe681654bd762",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -126,7 +130,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Ne904472bde2147ceab35bc9b4b681d4d",
+      "@id": "_:N57579bd84f2a4fda902c4b1e59ede522",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -138,10 +142,6 @@
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     }
   ]

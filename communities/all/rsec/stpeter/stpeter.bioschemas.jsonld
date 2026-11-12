@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/acs.jproteome.7b00786",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/stpeter",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N5a8dbe1151e64b38ba0fe12afe86d71d"
+        "@id": "_:N457c913b0bb6455c8bd1720553a930a7"
       },
       "bsc:output": {
-        "@id": "_:Nbd2d35fd713b48088ccf4d2d7770e118"
+        "@id": "_:N630c339f774e4f12a4a27811990112ed"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -92,7 +88,7 @@
       "sc:url": "http://tppms.org"
     },
     {
-      "@id": "_:N5a8dbe1151e64b38ba0fe12afe86d71d",
+      "@id": "_:N457c913b0bb6455c8bd1720553a930a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -103,7 +99,7 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "_:Nbd2d35fd713b48088ccf4d2d7770e118",
+      "@id": "_:N630c339f774e4f12a4a27811990112ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -112,6 +108,10 @@
         "@id": "edam:format_3747"
       },
       "sc:name": "Protein report"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acs.jproteome.7b00786",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,22 +36,26 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/S41592-021-01198-0",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/spacem",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nbf61a1b788e14c7d8c300a49f4999297"
+          "@id": "_:N48f3e5b73c56439cb9d95532d3cd87fe"
         },
         {
-          "@id": "_:Nc573b5af49744db79a022d083377879e"
+          "@id": "_:Nab956643a54c4eb4bfdd7355b0e48f5b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd227d66040e045afa6517ac97f329808"
+          "@id": "_:Na161fba5cdba4613a02e01aaf7c742bc"
         },
         {
-          "@id": "_:N0a6eecd48e8c4f69aa5f2d71b641d6c3"
+          "@id": "_:N87d5193cd5a24b6bb3bc270ad3ba292b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -109,7 +113,7 @@
       "sc:url": "https://metaspace2020.eu/project/Rappez_2021_SpaceM"
     },
     {
-      "@id": "_:Nbf61a1b788e14c7d8c300a49f4999297",
+      "@id": "_:N48f3e5b73c56439cb9d95532d3cd87fe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -120,7 +124,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nc573b5af49744db79a022d083377879e",
+      "@id": "_:Nab956643a54c4eb4bfdd7355b0e48f5b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -142,7 +146,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:Nd227d66040e045afa6517ac97f329808",
+      "@id": "_:Na161fba5cdba4613a02e01aaf7c742bc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -164,7 +168,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N0a6eecd48e8c4f69aa5f2d71b641d6c3",
+      "@id": "_:N87d5193cd5a24b6bb3bc270ad3ba292b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -178,10 +182,6 @@
         }
       ],
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://doi.org/10.1038/S41592-021-01198-0",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -52,7 +52,7 @@
         "@id": "https://doi.org/10.1038/s41467-018-04619-5"
       },
       "sc:description": "Tools for TMT based quantitative proteomics data analysis.",
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "qPLEXanalyzer",
       "sc:operatingSystem": [
         "Linux",

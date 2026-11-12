@@ -36,22 +36,26 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.intansv",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/intansv",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3dd59d0c8b944e279a82760b7e27213c"
+          "@id": "_:N7c1dfcc50ced4d91a34e4604b9841dd0"
         },
         {
-          "@id": "_:Nf10bbd79aba54d6e8f12a0379098346f"
+          "@id": "_:Na3581652fd7347e9a67ebebef39c8b30"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nae23dd4f85b04adebc1f4fb60152fe8e"
+          "@id": "_:N9865e860c36f4b96a21b08be33b57065"
         },
         {
-          "@id": "_:N5cba06bd0473480594353aa7a05d9366"
+          "@id": "_:Nf643206afab848fd86510b211879e4b4"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -99,7 +103,7 @@
       "sc:url": "https://bioconductor.org/packages/intansv"
     },
     {
-      "@id": "_:N3dd59d0c8b944e279a82760b7e27213c",
+      "@id": "_:N7c1dfcc50ced4d91a34e4604b9841dd0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1027"
@@ -110,7 +114,7 @@
       "sc:name": "Gene ID (NCBI)"
     },
     {
-      "@id": "_:Nf10bbd79aba54d6e8f12a0379098346f",
+      "@id": "_:Na3581652fd7347e9a67ebebef39c8b30",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -121,7 +125,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:Nae23dd4f85b04adebc1f4fb60152fe8e",
+      "@id": "_:N9865e860c36f4b96a21b08be33b57065",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0954"
@@ -137,7 +141,7 @@
       "sc:name": "Database cross-mapping"
     },
     {
-      "@id": "_:N5cba06bd0473480594353aa7a05d9366",
+      "@id": "_:Nf643206afab848fd86510b211879e4b4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1288"
@@ -151,10 +155,6 @@
         }
       ],
       "sc:name": "Genome map"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.intansv",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N00039b3096ff45aeb4fd4dd0194b246c"
+          "@id": "_:Nfaab087f828b4e9f8cfce2d03d3b99d8"
         },
         {
-          "@id": "_:N41185890d0a0419c815a2e819215990c"
+          "@id": "_:N4acac61fd2c94851ad20844b32521957"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nbfcc05d4c5bb4759aa0ba8c592874bbd"
+        "@id": "_:N1bd6cf7f10e64ae789789c19effa9247"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -71,7 +71,7 @@
       "sc:url": "https://gitlab.com/uniluxembourg/lcsb/systems-ecology/pathofact2"
     },
     {
-      "@id": "_:N00039b3096ff45aeb4fd4dd0194b246c",
+      "@id": "_:Nfaab087f828b4e9f8cfce2d03d3b99d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -79,7 +79,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N41185890d0a0419c815a2e819215990c",
+      "@id": "_:N4acac61fd2c94851ad20844b32521957",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -87,7 +87,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:Nbfcc05d4c5bb4759aa0ba8c592874bbd",
+      "@id": "_:N1bd6cf7f10e64ae789789c19effa9247",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

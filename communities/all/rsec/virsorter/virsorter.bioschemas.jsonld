@@ -36,14 +36,10 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s40168-020-00990-y",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/virsorter",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N18e915a53598419792103f68e721bcd8"
+        "@id": "_:N2ba9d7913f1344a082b896f30886a165"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -67,7 +63,7 @@
       "sc:url": "https://github.com/jiarong/VirSorter2"
     },
     {
-      "@id": "_:N18e915a53598419792103f68e721bcd8",
+      "@id": "_:N2ba9d7913f1344a082b896f30886a165",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -81,6 +77,10 @@
         }
       ],
       "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s40168-020-00990-y",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

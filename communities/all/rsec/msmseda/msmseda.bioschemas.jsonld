@@ -39,17 +39,17 @@
       "@id": "https://bio.tools/msmseda",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N38dc5f4780164e0489f0d0a2fb902d11"
+        "@id": "_:Ncdf1091588fc4f72a312ed5ba345c339"
       },
       "bsc:output": [
         {
-          "@id": "_:N311c8e149f7a4ee1a3dd2afa41bb6924"
+          "@id": "_:N64b2e201331c4d89b4fbadaad5658d60"
         },
         {
-          "@id": "_:N7a7fb168fed6410bbc0cd7782724fdf0"
+          "@id": "_:N3a9a403a62d243e0b726a7046d836de8"
         },
         {
-          "@id": "_:Ndf2a696ea9234698bf7badc1eb56fc94"
+          "@id": "_:N71d3a5c290894fbca4ffaa6dd7f7771e"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,7 +92,7 @@
           "@id": "edam:operation_3214"
         }
       ],
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "msmsEDA",
       "sc:operatingSystem": [
         "Linux",
@@ -106,7 +106,7 @@
       "sc:url": "https://bioconductor.org/packages/msmsEDA"
     },
     {
-      "@id": "_:N38dc5f4780164e0489f0d0a2fb902d11",
+      "@id": "_:Ncdf1091588fc4f72a312ed5ba345c339",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -117,7 +117,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N311c8e149f7a4ee1a3dd2afa41bb6924",
+      "@id": "_:N64b2e201331c4d89b4fbadaad5658d60",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -128,7 +128,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N7a7fb168fed6410bbc0cd7782724fdf0",
+      "@id": "_:N3a9a403a62d243e0b726a7046d836de8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -139,7 +139,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Ndf2a696ea9234698bf7badc1eb56fc94",
+      "@id": "_:N71d3a5c290894fbca4ffaa6dd7f7771e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

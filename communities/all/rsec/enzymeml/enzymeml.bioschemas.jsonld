@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/S41592-022-01763-1",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/enzymeml",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8d304fc253a84e318f3ffe2f6efc616f"
+        "@id": "_:N866edc2b7ac74d10b392a13096c64fe9"
       },
       "bsc:output": [
         {
-          "@id": "_:N43e4a770ef7341adbecb175aef84958b"
+          "@id": "_:N56d75856548f45ea9da3226067225e24"
         },
         {
-          "@id": "_:N9c3277253a5f42cc84e256903cc730aa"
+          "@id": "_:N3e568b9ae63549efa8ec304c3b4001cd"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -96,7 +100,7 @@
       "sc:url": "https://enzymeml.org"
     },
     {
-      "@id": "_:N8d304fc253a84e318f3ffe2f6efc616f",
+      "@id": "_:N866edc2b7ac74d10b392a13096c64fe9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2978"
@@ -107,7 +111,7 @@
       "sc:name": "Reaction data"
     },
     {
-      "@id": "_:N43e4a770ef7341adbecb175aef84958b",
+      "@id": "_:N56d75856548f45ea9da3226067225e24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2024"
@@ -115,16 +119,12 @@
       "sc:name": "Enzyme kinetics data"
     },
     {
-      "@id": "_:N9c3277253a5f42cc84e256903cc730aa",
+      "@id": "_:N3e568b9ae63549efa8ec304c3b4001cd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
       },
       "sc:name": "Mathematical model"
-    },
-    {
-      "@id": "https://doi.org/10.1038/S41592-022-01763-1",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

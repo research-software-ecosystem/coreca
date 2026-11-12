@@ -41,14 +41,14 @@
       "biotools:primaryContact": "Pau Andrio",
       "bsc:input": [
         {
-          "@id": "_:N26244cc0e83d4a5a9dad1599598a8557"
+          "@id": "_:N25b9cf0d9b7c4120b958ab42199ffcaa"
         },
         {
-          "@id": "_:N09ed40f27a0d48349a49513feaabbd3b"
+          "@id": "_:N2f19b8e0a2a141389e6d5d4b78d6f205"
         }
       ],
       "bsc:output": {
-        "@id": "_:N16cdf00439174bb79f9b87cb8e355b85"
+        "@id": "_:N5a86b3ee44254fd2aac1a367f1099e8e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
@@ -93,7 +93,7 @@
       "sc:url": "https://github.com/bioexcel/virtualscreening"
     },
     {
-      "@id": "_:N26244cc0e83d4a5a9dad1599598a8557",
+      "@id": "_:N25b9cf0d9b7c4120b958ab42199ffcaa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -104,7 +104,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N09ed40f27a0d48349a49513feaabbd3b",
+      "@id": "_:N2f19b8e0a2a141389e6d5d4b78d6f205",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"
@@ -115,7 +115,7 @@
       "sc:name": "Structure"
     },
     {
-      "@id": "_:N16cdf00439174bb79f9b87cb8e355b85",
+      "@id": "_:N5a86b3ee44254fd2aac1a367f1099e8e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"

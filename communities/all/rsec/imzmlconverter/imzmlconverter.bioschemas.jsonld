@@ -40,30 +40,30 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nf7d08e9e49e048a298fb8e985c451156"
+          "@id": "_:Nfc512a0348ee435e80b112ccc2f545b1"
         },
         {
-          "@id": "_:Nf2e32da6e5fe4f55873ca1adaebebfb8"
+          "@id": "_:N9e57d071c2264a16b4f429f85ca3250c"
         },
         {
-          "@id": "_:Nc27aa243bf884d2282df65b47cfcf806"
+          "@id": "_:N18fe6015ed3b422584f86e4cbe1cb729"
         },
         {
-          "@id": "_:N1e3612bed078443a8d1d255a5cf5a213"
+          "@id": "_:Ndc901952421941958b5d5ccabccaf142"
         },
         {
-          "@id": "_:N037c4f7d5ddf4afcb53d4a9331571250"
+          "@id": "_:N353f06e2631d41de89386b567b8e3f4d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N46a1ac36973249b8b631b39caa0171b4"
+          "@id": "_:Nc7bc651da5e443f3944d9d536c641fc8"
         },
         {
-          "@id": "_:N8ee5cca0649641198f5b9ea10a684cff"
+          "@id": "_:Naca842dcd51548da8cce7d025d24eed4"
         },
         {
-          "@id": "_:N13b8314ad05d46619104e865f58c4037"
+          "@id": "_:N19f0fac8fee54da49b354f0a035db51e"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -84,7 +84,7 @@
       "sc:url": "https://github.com/AlanRace/imzMLConverter"
     },
     {
-      "@id": "_:Nf7d08e9e49e048a298fb8e985c451156",
+      "@id": "_:Nfc512a0348ee435e80b112ccc2f545b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -95,7 +95,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nf2e32da6e5fe4f55873ca1adaebebfb8",
+      "@id": "_:N9e57d071c2264a16b4f429f85ca3250c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -106,7 +106,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nc27aa243bf884d2282df65b47cfcf806",
+      "@id": "_:N18fe6015ed3b422584f86e4cbe1cb729",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -117,7 +117,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N1e3612bed078443a8d1d255a5cf5a213",
+      "@id": "_:Ndc901952421941958b5d5ccabccaf142",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -128,7 +128,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N037c4f7d5ddf4afcb53d4a9331571250",
+      "@id": "_:N353f06e2631d41de89386b567b8e3f4d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -139,7 +139,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N46a1ac36973249b8b631b39caa0171b4",
+      "@id": "_:Nc7bc651da5e443f3944d9d536c641fc8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -150,7 +150,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N8ee5cca0649641198f5b9ea10a684cff",
+      "@id": "_:Naca842dcd51548da8cce7d025d24eed4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -161,7 +161,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N13b8314ad05d46619104e865f58c4037",
+      "@id": "_:N19f0fac8fee54da49b354f0a035db51e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"

@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/fuzzle_2.0",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N034bf5c03b5a430996e6ab88206ee71f"
+        "@id": "_:N2f186103c1bf4e14aad6327331bed50d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -97,7 +97,7 @@
       "sc:url": "https://fuzzle.uni-bayreuth.de/2.0"
     },
     {
-      "@id": "_:N034bf5c03b5a430996e6ab88206ee71f",
+      "@id": "_:N2f186103c1bf4e14aad6327331bed50d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

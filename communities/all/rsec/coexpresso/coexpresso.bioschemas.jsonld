@@ -41,14 +41,14 @@
       "biotools:primaryContact": "Veit Schwämmle",
       "bsc:input": [
         {
-          "@id": "_:N4c0340f88f7d4caf8b13860974154535"
+          "@id": "_:N7415c6e3570d43479feda49a43ae9314"
         },
         {
-          "@id": "_:N07ac204e39b34af8ab49bb9a121bcdbf"
+          "@id": "_:N2aa161ce05864748b53a057fbdba75c9"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ndab35f98cf8047a892460c3e78be2f3c"
+        "@id": "_:N95460313434041dc863825a949885fdf"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -120,7 +120,7 @@
       "sc:url": "http://computproteomics.bmb.sdu.dk/Apps/CoExpresso/"
     },
     {
-      "@id": "_:N4c0340f88f7d4caf8b13860974154535",
+      "@id": "_:N7415c6e3570d43479feda49a43ae9314",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -131,7 +131,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:N07ac204e39b34af8ab49bb9a121bcdbf",
+      "@id": "_:N2aa161ce05864748b53a057fbdba75c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -142,7 +142,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:Ndab35f98cf8047a892460c3e78be2f3c",
+      "@id": "_:N95460313434041dc863825a949885fdf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

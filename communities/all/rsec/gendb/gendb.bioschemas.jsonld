@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkg312",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/gendb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N96a109dc859845f2aece4253dd1fcc17"
+          "@id": "_:N45944288c76540b8b171a06bc5aeb8d6"
         },
         {
-          "@id": "_:N82b49042f8e14dbfbd8168b8c703bd5d"
+          "@id": "_:Nce9a37c83c5c449fb8ac7b16ae090e1e"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nd2ba0f55a45a4f4da264874891fd7d57"
+        "@id": "_:N1b0cf3d7109442019490f56ffb405420"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workbench",
@@ -81,7 +85,7 @@
       "sc:url": "http://gendb.computational.bio"
     },
     {
-      "@id": "_:N96a109dc859845f2aece4253dd1fcc17",
+      "@id": "_:N45944288c76540b8b171a06bc5aeb8d6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3497"
@@ -92,7 +96,7 @@
       "sc:name": "DNA sequence (raw)"
     },
     {
-      "@id": "_:N82b49042f8e14dbfbd8168b8c703bd5d",
+      "@id": "_:Nce9a37c83c5c449fb8ac7b16ae090e1e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -108,7 +112,7 @@
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:Nd2ba0f55a45a4f4da264874891fd7d57",
+      "@id": "_:N1b0cf3d7109442019490f56ffb405420",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -122,10 +126,6 @@
         }
       ],
       "sc:name": "Nucleic acid sequence record"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkg312",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

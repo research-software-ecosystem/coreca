@@ -40,24 +40,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nb76c05cb71414a5cb6cf3300e94991c0"
+          "@id": "_:Nece3fb6f102d49adb520bc222bd9fce9"
         },
         {
-          "@id": "_:N5b2337e7776c4bd48cea2775f3e87f83"
+          "@id": "_:N7ad81cfb4c9d4a6e8c27f0d4acc9a6a8"
         },
         {
-          "@id": "_:Nd3a33317fda3420eb0b449454983eb0b"
+          "@id": "_:Nbf01f7b11d42401791ecc69cad2ebd6b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N914d81e8bf754d43b6fe15d1cd296f33"
+          "@id": "_:N8a753f6e0012405aacc426943a7a8cba"
         },
         {
-          "@id": "_:Nd1a77937e1d7467ca34320065cec00a8"
+          "@id": "_:Nfe6eca3017364db9b0bbd31f50f57b64"
         },
         {
-          "@id": "_:N2a356c453b564262aa64b3a4041c7b7c"
+          "@id": "_:N1b7663a271b5406998d9c7664960f441"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -117,11 +117,11 @@
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/Biostrings"
       },
-      "sc:softwareVersion": "2.80.1",
+      "sc:softwareVersion": "2.80.2",
       "sc:url": "https://bioconductor.org/packages/Biostrings"
     },
     {
-      "@id": "_:Nb76c05cb71414a5cb6cf3300e94991c0",
+      "@id": "_:Nece3fb6f102d49adb520bc222bd9fce9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3115"
@@ -140,7 +140,7 @@
       "sc:name": "Microarray metadata"
     },
     {
-      "@id": "_:N5b2337e7776c4bd48cea2775f3e87f83",
+      "@id": "_:N7ad81cfb4c9d4a6e8c27f0d4acc9a6a8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -159,7 +159,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nd3a33317fda3420eb0b449454983eb0b",
+      "@id": "_:Nbf01f7b11d42401791ecc69cad2ebd6b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -178,7 +178,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N914d81e8bf754d43b6fe15d1cd296f33",
+      "@id": "_:N8a753f6e0012405aacc426943a7a8cba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3115"
@@ -189,7 +189,7 @@
       "sc:name": "Microarray metadata"
     },
     {
-      "@id": "_:Nd1a77937e1d7467ca34320065cec00a8",
+      "@id": "_:Nfe6eca3017364db9b0bbd31f50f57b64",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -200,7 +200,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N2a356c453b564262aa64b3a4041c7b7c",
+      "@id": "_:N1b7663a271b5406998d9c7664960f441",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"

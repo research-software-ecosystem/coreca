@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.12688/F1000RESEARCH.10446.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/phylommand",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1aae370945654bfe8fe072d4d2ab6fca"
+        "@id": "_:N7106628af7cf46d9a0db5f182ca8171f"
       },
       "bsc:output": {
-        "@id": "_:N79ae25015bbb4f598c3527dce9230ab0"
+        "@id": "_:N15d7d5564d7d478897d9b584c4e81886"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -77,7 +81,7 @@
       "sc:url": "https://github.com/mr-y/phylommand"
     },
     {
-      "@id": "_:N1aae370945654bfe8fe072d4d2ab6fca",
+      "@id": "_:N7106628af7cf46d9a0db5f182ca8171f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2523"
@@ -96,16 +100,12 @@
       "sc:name": "Phylogenetic data"
     },
     {
-      "@id": "_:N79ae25015bbb4f598c3527dce9230ab0",
+      "@id": "_:N15d7d5564d7d478897d9b584c4e81886",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2523"
       },
       "sc:name": "Phylogenetic data"
-    },
-    {
-      "@id": "https://doi.org/10.12688/F1000RESEARCH.10446.1",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

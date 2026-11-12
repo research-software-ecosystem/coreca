@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-9506-9451",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/2d_digital_mammography_harmonization",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,21 +47,21 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N8b593e215e494071bb4db4474a1d8b78"
+          "@id": "_:N3c70bcbcea104a459899bf15c9741dad"
         },
         {
-          "@id": "_:N0063f58ff92241daa001bcba5ff28842"
+          "@id": "_:N1098c8bd91134a7aa64ccc0cb2fbab65"
         },
         {
-          "@id": "_:N23d6ce298a1e4bbd95108de3bdc1ff7f"
+          "@id": "_:Nd1af0ebb5bb24d3e89644ad3689a4fdc"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1fb54f66d1a8420ab5d5995e71f74faa"
+          "@id": "_:N0cf3698d56f7454cbae9b4d9e832631b"
         },
         {
-          "@id": "_:N0c4c820c7024480a9eda4fad6dd6d080"
+          "@id": "_:Ndbc8ff35bdb64526bb00bf248ea9122a"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -104,7 +108,7 @@
       "sc:url": "https://harbor.eucaim.cancerimage.eu/harbor/projects/4/repositories/2d_digital_mammography_harmonization/info-tab"
     },
     {
-      "@id": "_:N8b593e215e494071bb4db4474a1d8b78",
+      "@id": "_:N3c70bcbcea104a459899bf15c9741dad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -115,7 +119,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N0063f58ff92241daa001bcba5ff28842",
+      "@id": "_:N1098c8bd91134a7aa64ccc0cb2fbab65",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -126,7 +130,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N23d6ce298a1e4bbd95108de3bdc1ff7f",
+      "@id": "_:Nd1af0ebb5bb24d3e89644ad3689a4fdc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -137,7 +141,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N1fb54f66d1a8420ab5d5995e71f74faa",
+      "@id": "_:N0cf3698d56f7454cbae9b4d9e832631b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -148,7 +152,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N0c4c820c7024480a9eda4fad6dd6d080",
+      "@id": "_:Ndbc8ff35bdb64526bb00bf248ea9122a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -157,10 +161,6 @@
         "@id": "edam:format_3548"
       },
       "sc:name": "Image"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-9506-9451",
-      "@type": "sc:Person"
     }
   ]
 }

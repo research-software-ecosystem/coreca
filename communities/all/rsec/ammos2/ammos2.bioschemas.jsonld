@@ -36,23 +36,31 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1471-2105-9-438",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkx397",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ammos2",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Maria A. Miteva",
       "bsc:input": [
         {
-          "@id": "_:N0768e1a34cb34d4d877c82d7ffb83536"
+          "@id": "_:N33bccaa7edac4b4d8d7817ad1164eac4"
         },
         {
-          "@id": "_:N81387d9bdc8148638a0b32a098ca46e5"
+          "@id": "_:N7e09e5f0db484ac383b64a0e56ca617b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N18229e1676024419865b77d5906368d7"
+          "@id": "_:Nabca0f95eff44b2f8511556f2d41a942"
         },
         {
-          "@id": "_:N37d5e1850d724174bf50f29c51821c66"
+          "@id": "_:N700c59d770aa4731a3c42b81417e5a02"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -91,7 +99,7 @@
       "sc:url": "http://drugmod.rpbs.univ-paris-diderot.fr/ammosHome.php"
     },
     {
-      "@id": "_:N0768e1a34cb34d4d877c82d7ffb83536",
+      "@id": "_:N33bccaa7edac4b4d8d7817ad1164eac4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -102,7 +110,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N81387d9bdc8148638a0b32a098ca46e5",
+      "@id": "_:N7e09e5f0db484ac383b64a0e56ca617b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -113,7 +121,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N18229e1676024419865b77d5906368d7",
+      "@id": "_:Nabca0f95eff44b2f8511556f2d41a942",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -124,7 +132,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N37d5e1850d724174bf50f29c51821c66",
+      "@id": "_:N700c59d770aa4731a3c42b81417e5a02",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -133,14 +141,6 @@
         "@id": "edam:format_3816"
       },
       "sc:name": "Small molecule structure"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkx397",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1471-2105-9-438",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

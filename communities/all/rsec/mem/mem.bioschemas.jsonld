@@ -45,14 +45,14 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Na44f4af0dc3848c78d9ac7e234f9373f"
+          "@id": "_:N9f7fbe6f73c74eacae66dc2b75b95811"
         },
         {
-          "@id": "_:Nd402cac4a6dd47579d1fa8b5aacd58a6"
+          "@id": "_:N725222f09d54414fbd9a51a3f6aaa8fc"
         }
       ],
       "bsc:output": {
-        "@id": "_:N107b995d10864e88baba4981401eb75e"
+        "@id": "_:N70fc340f1fc249dba8c170643991b1b1"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -109,7 +109,7 @@
       "sc:url": "http://biit.cs.ut.ee/mem/"
     },
     {
-      "@id": "_:Na44f4af0dc3848c78d9ac7e234f9373f",
+      "@id": "_:N9f7fbe6f73c74eacae66dc2b75b95811",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -120,7 +120,7 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:Nd402cac4a6dd47579d1fa8b5aacd58a6",
+      "@id": "_:N725222f09d54414fbd9a51a3f6aaa8fc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -131,7 +131,7 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "_:N107b995d10864e88baba4981401eb75e",
+      "@id": "_:N70fc340f1fc249dba8c170643991b1b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3768"

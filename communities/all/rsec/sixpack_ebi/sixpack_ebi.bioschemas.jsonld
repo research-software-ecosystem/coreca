@@ -40,18 +40,26 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkae241",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkac240",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/sixpack_ebi",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:N1ebe2b86b06d491993800e7af6363244"
+        "@id": "_:N59f73acd53fd451c8005b22e2047bafc"
       },
       "bsc:output": [
         {
-          "@id": "_:N39a33f0edfbc49f0833d1b545e20235b"
+          "@id": "_:N60682d2ffd6d46c5bb0012ab157d1c4e"
         },
         {
-          "@id": "_:N24ca2ef94df54e6694f7ad3a94afc20f"
+          "@id": "_:N960d08dc5b9545c290b7ba365e50aac1"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -109,7 +117,7 @@
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/st/emboss_sixpack"
     },
     {
-      "@id": "_:N1ebe2b86b06d491993800e7af6363244",
+      "@id": "_:N59f73acd53fd451c8005b22e2047bafc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -117,7 +125,7 @@
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:N39a33f0edfbc49f0833d1b545e20235b",
+      "@id": "_:N60682d2ffd6d46c5bb0012ab157d1c4e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -125,20 +133,12 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N24ca2ef94df54e6694f7ad3a94afc20f",
+      "@id": "_:N960d08dc5b9545c290b7ba365e50aac1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
       },
       "sc:name": "Sequence record"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkae241",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkac240",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

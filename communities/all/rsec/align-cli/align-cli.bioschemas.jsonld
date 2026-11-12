@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/align-cli",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd77011938b29488bacad2c0988f73940"
+        "@id": "_:N086b934420214b7c9654363b0f931a33"
       },
       "bsc:output": {
-        "@id": "_:N6de22ae4c8ad4efa9607985b6c553cbe"
+        "@id": "_:Nbe577898404b4531b17846bba565f05e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -64,7 +64,7 @@
       "sc:url": "https://github.com/snijderlab/align-cli"
     },
     {
-      "@id": "_:Nd77011938b29488bacad2c0988f73940",
+      "@id": "_:N086b934420214b7c9654363b0f931a33",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -75,7 +75,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N6de22ae4c8ad4efa9607985b6c553cbe",
+      "@id": "_:Nbe577898404b4531b17846bba565f05e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"

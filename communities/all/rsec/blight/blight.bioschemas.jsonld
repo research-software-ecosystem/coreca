@@ -86,11 +86,11 @@
       "sc:url": "http://github.com/Malfoy/BLight"
     },
     {
-      "@id": "https://orcid.org/0000-0002-7235-7346",
+      "@id": "https://orcid.org/0000-0002-0669-4141",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0002-0669-4141",
+      "@id": "https://orcid.org/0000-0002-7235-7346",
       "@type": "sc:Person"
     }
   ]

@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/bth230",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/BioMercator",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N84419b11155542fdbf7dc75b06e32143"
+          "@id": "_:Nab16377ca016438e935954d1e3ec4772"
         },
         {
-          "@id": "_:Ne5f6e56ace5145989417a44ed820ac8f"
+          "@id": "_:N1b252eb08262461a93bcf28015eb3cc9"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -83,7 +87,7 @@
       "sc:url": "https://sourcesup.renater.fr/projects/biomercator"
     },
     {
-      "@id": "_:N84419b11155542fdbf7dc75b06e32143",
+      "@id": "_:Nab16377ca016438e935954d1e3ec4772",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1288"
@@ -94,7 +98,7 @@
       "sc:name": "Genome map"
     },
     {
-      "@id": "_:Ne5f6e56ace5145989417a44ed820ac8f",
+      "@id": "_:N1b252eb08262461a93bcf28015eb3cc9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1860"
@@ -108,10 +112,6 @@
         }
       ],
       "sc:name": "QTL map"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/bth230",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

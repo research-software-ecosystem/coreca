@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.eds",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/bioconductor-eds",
       "@type": "sc:SoftwareApplication",
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -52,7 +56,7 @@
       },
       "sc:contributor": "Michael Love",
       "sc:description": "This packages provides a single function, readEDS. This is a low-level utility for reading in Alevin EDS format into R. This function is not designed for end-users but instead the package is predominantly for simplifying package dependency graph for other Bioconductor packages.",
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "eds",
       "sc:operatingSystem": [
         "Linux",
@@ -64,10 +68,6 @@
       },
       "sc:softwareVersion": "1.14.0",
       "sc:url": "https://bioconductor.org/packages/eds"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.eds",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/meltdb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc4d227a0422543cb9290340c6451c54c"
+        "@id": "_:Nc2992e040d2b472f80216f29d0e53cb4"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -91,7 +91,7 @@
       "sc:url": "http://meltdb.cebitec.uni-bielefeld.de"
     },
     {
-      "@id": "_:Nc4d227a0422543cb9290340c6451c54c",
+      "@id": "_:Nc2992e040d2b472f80216f29d0e53cb4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"

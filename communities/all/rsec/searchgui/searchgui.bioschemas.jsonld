@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/pmic.201000595",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/searchgui",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N0da67c3a8ec54e4fa6fdd49585663dd0"
+          "@id": "_:Ne58495bf9e344909bda98079f37d21a5"
         },
         {
-          "@id": "_:N457da2b2b33042b698344323aeb5f940"
+          "@id": "_:N8663a81b6fd841f1af2ee7dc9de9cd3c"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nae8d99de313b4ff696df2c5fed632276"
+        "@id": "_:N3c784c19bf5646208c455b78d4e11459"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -109,7 +113,7 @@
       "sc:url": "http://compomics.github.io/projects/searchgui.html"
     },
     {
-      "@id": "_:N0da67c3a8ec54e4fa6fdd49585663dd0",
+      "@id": "_:Ne58495bf9e344909bda98079f37d21a5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -125,7 +129,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N457da2b2b33042b698344323aeb5f940",
+      "@id": "_:N8663a81b6fd841f1af2ee7dc9de9cd3c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -136,7 +140,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nae8d99de313b4ff696df2c5fed632276",
+      "@id": "_:N3c784c19bf5646208c455b78d4e11459",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -150,10 +154,6 @@
         }
       ],
       "sc:name": "Peptide identification"
-    },
-    {
-      "@id": "https://doi.org/10.1002/pmic.201000595",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

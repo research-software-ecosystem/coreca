@@ -48,14 +48,14 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N7bef242bb0c14e4d90727992fab11ee1"
+          "@id": "_:N2fd7e0de11b340028400a5eb40fe3ce4"
         },
         {
-          "@id": "_:N6bf22d1d139e453abbd51678fbad8ce4"
+          "@id": "_:N425bc74cec5047feb83b4977dee71411"
         }
       ],
       "bsc:output": {
-        "@id": "_:N0c8c0d4837c54dccbc606b185b66eaf3"
+        "@id": "_:N2f94b60e24e342f986dd7ecae1de433b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -113,7 +113,7 @@
       "sc:url": "https://cran.r-project.org/web/packages/gProfileR/index.html"
     },
     {
-      "@id": "_:N7bef242bb0c14e4d90727992fab11ee1",
+      "@id": "_:N2fd7e0de11b340028400a5eb40fe3ce4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -124,7 +124,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:N6bf22d1d139e453abbd51678fbad8ce4",
+      "@id": "_:N425bc74cec5047feb83b4977dee71411",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -135,7 +135,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N0c8c0d4837c54dccbc606b185b66eaf3",
+      "@id": "_:N2f94b60e24e342f986dd7ecae1de433b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

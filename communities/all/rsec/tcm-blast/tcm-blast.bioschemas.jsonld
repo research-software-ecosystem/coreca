@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/tcm-blast",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9eaa0c068d0f4c4d83d0100c018a9010"
+        "@id": "_:Ne873481fd97245a9bd4325d3a4a683ab"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -100,7 +100,7 @@
       "sc:url": "http://viroblast.pungentdb.org.cn/TCM-Blast/viroblast.php"
     },
     {
-      "@id": "_:N9eaa0c068d0f4c4d83d0100c018a9010",
+      "@id": "_:Ne873481fd97245a9bd4325d3a4a683ab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"

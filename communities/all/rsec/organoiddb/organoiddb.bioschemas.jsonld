@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkac942",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/organoiddb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N72bc8b1a4fcf43ae96920a1afb918796"
+          "@id": "_:N11123297deac4315866d1e177b1acbd4"
         },
         {
-          "@id": "_:N546c0bbdfbe044ab9407977b5f994c1c"
+          "@id": "_:N0273f78dec5a4057a35e6178e08c44b7"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -94,7 +98,7 @@
       "sc:url": "http://www.inbirg.com/organoid_db/"
     },
     {
-      "@id": "_:N72bc8b1a4fcf43ae96920a1afb918796",
+      "@id": "_:N11123297deac4315866d1e177b1acbd4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -102,16 +106,12 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:N546c0bbdfbe044ab9407977b5f994c1c",
+      "@id": "_:N0273f78dec5a4057a35e6178e08c44b7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1904"
       },
       "sc:name": "Locus ID (EntrezGene)"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkac942",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

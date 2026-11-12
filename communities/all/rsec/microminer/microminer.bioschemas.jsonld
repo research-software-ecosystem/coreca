@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bib/bbad357",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/microminer",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -48,30 +44,30 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Nc69a8b370a384e56aeeafb441616de31"
+          "@id": "_:N163b42227fcc48e390debb35af645874"
         },
         {
-          "@id": "_:N3c4563b0670941f184db73cb948268c7"
+          "@id": "_:N4f342dee34a54d9a80f775d658481aea"
         },
         {
-          "@id": "_:N6424fb7102f64c2b90b7f7cf199d2d63"
+          "@id": "_:Ne08b2fc7fb204e0c9fa0d01ff41e951a"
         },
         {
-          "@id": "_:N2867fb1d03894fcbb4d0730c773b2404"
+          "@id": "_:Na7b68d8577bb4fb6ae800e621411edc3"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N572ec73da9474cefaeee887638b32940"
+          "@id": "_:N91efbcbe5c7440958d8f2e142ee614c6"
         },
         {
-          "@id": "_:N65a3a074c52945e295dd9816a5411de8"
+          "@id": "_:Nb564c8aca4a84916b1755889304ed281"
         },
         {
-          "@id": "_:Nc87104cf91154842be3f5865bf04295a"
+          "@id": "_:Nf9cd3eb55dc441828ab75aafdc138d3c"
         },
         {
-          "@id": "_:N266d4e97f1554acfa3c81cb50c036868"
+          "@id": "_:Nfc8600fbc9334dd097cfee7741a465af"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -129,7 +125,7 @@
       "sc:url": "https://www.zbh.uni-hamburg.de/en/forschung/amd/software/microminer.html"
     },
     {
-      "@id": "_:Nc69a8b370a384e56aeeafb441616de31",
+      "@id": "_:N163b42227fcc48e390debb35af645874",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -137,7 +133,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N3c4563b0670941f184db73cb948268c7",
+      "@id": "_:N4f342dee34a54d9a80f775d658481aea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -148,7 +144,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N6424fb7102f64c2b90b7f7cf199d2d63",
+      "@id": "_:Ne08b2fc7fb204e0c9fa0d01ff41e951a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1461"
@@ -164,7 +160,7 @@
       "sc:name": "Protein-ligand complex"
     },
     {
-      "@id": "_:N2867fb1d03894fcbb4d0730c773b2404",
+      "@id": "_:Na7b68d8577bb4fb6ae800e621411edc3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -175,7 +171,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N572ec73da9474cefaeee887638b32940",
+      "@id": "_:N91efbcbe5c7440958d8f2e142ee614c6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1497"
@@ -183,7 +179,7 @@
       "sc:name": "Root-mean-square deviation"
     },
     {
-      "@id": "_:N65a3a074c52945e295dd9816a5411de8",
+      "@id": "_:Nb564c8aca4a84916b1755889304ed281",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -194,7 +190,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:Nc87104cf91154842be3f5865bf04295a",
+      "@id": "_:Nf9cd3eb55dc441828ab75aafdc138d3c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -205,7 +201,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N266d4e97f1554acfa3c81cb50c036868",
+      "@id": "_:Nfc8600fbc9334dd097cfee7741a465af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1481"
@@ -214,6 +210,10 @@
         "@id": "edam:format_1476"
       },
       "sc:name": "Protein structure alignment"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bib/bbad357",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

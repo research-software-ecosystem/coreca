@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/roi_pca",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Nd48e4cd379444f1bac01b206cbe7c52c"
+        "@id": "_:Nd6b87f9998da4ccdb85b20e71d20ec65"
       },
       "bsc:output": {
-        "@id": "_:N2216940b7a564d0ebf1a47608cfb34f6"
+        "@id": "_:Nc47511d0720542e385e153bc804a8d9f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -86,7 +82,7 @@
       "sc:url": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/screno/ngs_roi2/roi_pca/0.2.2"
     },
     {
-      "@id": "_:Nd48e4cd379444f1bac01b206cbe7c52c",
+      "@id": "_:Nd6b87f9998da4ccdb85b20e71d20ec65",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -97,7 +93,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N2216940b7a564d0ebf1a47608cfb34f6",
+      "@id": "_:Nc47511d0720542e385e153bc804a8d9f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -113,6 +109,10 @@
     },
     {
       "@id": "https://doi.org/10.1155/2012/324249",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

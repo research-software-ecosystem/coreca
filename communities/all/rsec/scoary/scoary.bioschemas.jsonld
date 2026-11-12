@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ola Brynildsrud",
       "bsc:input": {
-        "@id": "_:N5e538dacecf64b5c9e400a99d72c8388"
+        "@id": "_:N0ce32b211e8648ed8828cec2a165c944"
       },
       "bsc:output": {
-        "@id": "_:Nc37712843ac045129012d5cb47713795"
+        "@id": "_:N780f43ab1f81479fb524788e0520119e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -90,7 +90,7 @@
       "sc:url": "https://github.com/AdmiralenOla/Scoary"
     },
     {
-      "@id": "_:N5e538dacecf64b5c9e400a99d72c8388",
+      "@id": "_:N0ce32b211e8648ed8828cec2a165c944",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -101,7 +101,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Nc37712843ac045129012d5cb47713795",
+      "@id": "_:N780f43ab1f81479fb524788e0520119e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"

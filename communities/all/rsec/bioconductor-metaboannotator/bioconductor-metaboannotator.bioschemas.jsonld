@@ -52,7 +52,7 @@
         "@id": "https://doi.org/10.1021/acs.analchem.1c03032"
       },
       "sc:description": "Performs feature annotations on LC-MS All-ion fragmentation datasets using fragment ion libraries.",
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "MetaboAnnotatoR",
       "sc:operatingSystem": [
         "Linux",

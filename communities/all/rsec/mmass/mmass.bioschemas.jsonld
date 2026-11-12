@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1021/ac100818g",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1002/rcm.3444",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1007/978-1-4939-3375-4_13",
       "@type": "sc:CreativeWork"
     },
@@ -44,21 +52,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N8435cbb6c2314a8492499fe57a7e70b7"
+          "@id": "_:N619f50ebc5ef4a4cb6c1867ad9030433"
         },
         {
-          "@id": "_:N7ed6c0af2dd247049e2da463d146ee39"
+          "@id": "_:N8d98d92acd094cbdbf56515c9650fe98"
         },
         {
-          "@id": "_:Nae7c10ab081a44f6b0ba54f9e5a3e646"
+          "@id": "_:Nbd6fc52a859641a8bc60172a456a89af"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne4a2b7f332874457965dfd79b3fcba94"
+          "@id": "_:N381a6aa1a7234c49b8ae94d63f3f1d8a"
         },
         {
-          "@id": "_:N95e63214a68843c19f96a95ae21fe302"
+          "@id": "_:N3581b1e81e984247a2c993b3629d96c1"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -148,7 +156,7 @@
       "sc:url": "http://www.mmass.org/"
     },
     {
-      "@id": "_:N8435cbb6c2314a8492499fe57a7e70b7",
+      "@id": "_:N619f50ebc5ef4a4cb6c1867ad9030433",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -167,7 +175,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N7ed6c0af2dd247049e2da463d146ee39",
+      "@id": "_:N8d98d92acd094cbdbf56515c9650fe98",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -186,7 +194,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Nae7c10ab081a44f6b0ba54f9e5a3e646",
+      "@id": "_:Nbd6fc52a859641a8bc60172a456a89af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0944"
@@ -202,7 +210,7 @@
       "sc:name": "Peptide mass fingerprint"
     },
     {
-      "@id": "_:Ne4a2b7f332874457965dfd79b3fcba94",
+      "@id": "_:N381a6aa1a7234c49b8ae94d63f3f1d8a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -213,7 +221,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N95e63214a68843c19f96a95ae21fe302",
+      "@id": "_:N3581b1e81e984247a2c993b3629d96c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -227,14 +235,6 @@
         }
       ],
       "sc:name": "Peptide identification"
-    },
-    {
-      "@id": "https://doi.org/10.1002/rcm.3444",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1021/ac100818g",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

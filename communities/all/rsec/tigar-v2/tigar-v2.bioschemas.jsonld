@@ -44,13 +44,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nf641ed46e2b543669dba604c51c9fe3c"
+          "@id": "_:N5942f8b3073142c9a7a51eda3cfae797"
         },
         {
-          "@id": "_:Nfc6f30f96a674257929c5bd07e9d7200"
+          "@id": "_:N6cd7071486a94a468e4aa5089613d072"
         },
         {
-          "@id": "_:Neeec1014df674572bcc82635d95bf4e0"
+          "@id": "_:Nad0655891a0e48bfbb37a46296e26bc9"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -101,7 +101,7 @@
       "sc:url": "https://www.synapse.org/TIGAR_V2_Resource_GTExV8"
     },
     {
-      "@id": "_:Nf641ed46e2b543669dba604c51c9fe3c",
+      "@id": "_:N5942f8b3073142c9a7a51eda3cfae797",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -109,7 +109,7 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:Nfc6f30f96a674257929c5bd07e9d7200",
+      "@id": "_:N6cd7071486a94a468e4aa5089613d072",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3273"
@@ -117,7 +117,7 @@
       "sc:name": "Sample ID"
     },
     {
-      "@id": "_:Neeec1014df674572bcc82635d95bf4e0",
+      "@id": "_:Nad0655891a0e48bfbb37a46296e26bc9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0920"

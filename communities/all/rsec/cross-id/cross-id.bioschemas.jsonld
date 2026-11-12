@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/cross-id",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N7dbd942b27b848689f75460076b75a4a"
+        "@id": "_:N355345b0de0b429981454bfb22042b6f"
       },
       "bsc:output": {
-        "@id": "_:N2848eebd73874659a90887e488c47a12"
+        "@id": "_:N4dd8be5df28842e589ca604e98867913"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -70,7 +70,7 @@
       "sc:url": "https://www.hecklab.com/software/xlinkx/"
     },
     {
-      "@id": "_:N7dbd942b27b848689f75460076b75a4a",
+      "@id": "_:N355345b0de0b429981454bfb22042b6f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -78,7 +78,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N2848eebd73874659a90887e488c47a12",
+      "@id": "_:N4dd8be5df28842e589ca604e98867913",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0905"

@@ -47,45 +47,45 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Ne1a2fd27a6954f4592e5159614c357a7"
+          "@id": "_:N3b604d5e5e324f6ca4c3023452e62c55"
         },
         {
-          "@id": "_:Nd8824dcfdbf04efcb0799dabd1fc4446"
+          "@id": "_:Ndbf4d09b2eda40acae3bf43e03f0df0e"
         },
         {
-          "@id": "_:Nf25aad0ba8424580bbdb1eb78be8ca20"
+          "@id": "_:Na517fd969f78470ead5f453d02b38a7d"
         },
         {
-          "@id": "_:N02c728b63a2e4462b4d81b12555fd0bf"
+          "@id": "_:Neb5676857c3f47939835c69bf107493a"
         },
         {
-          "@id": "_:N1230405cb0654993be61a4da9b2d4593"
+          "@id": "_:N598ed3aadf5e4819bd464c84d01145f4"
         },
         {
-          "@id": "_:N299af2de33d645ab8e2d70f745c2ab34"
+          "@id": "_:N4560210b74ce4db8a1311d7e1b634f7c"
         },
         {
-          "@id": "_:N04d260e18e7746cbbddb35ffad07e186"
+          "@id": "_:Nad981ee69e204bb590033eddc4687461"
         },
         {
-          "@id": "_:Nb40043eb6ad445edbb513745a38af868"
+          "@id": "_:Na496ce61a91043f9a7feeb9dbd8c26f8"
         },
         {
-          "@id": "_:N437516ff246d45d7906a22d6fe653c85"
+          "@id": "_:N3cf957be78004c50a794329b57c0d393"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N53dbb9cb57454b879311f673ac0bc729"
+          "@id": "_:Ne9b6cc12c995420fb4bd7db2406015ad"
         },
         {
-          "@id": "_:N3eb7485cbff04d08bf00ddcc9f58c0bd"
+          "@id": "_:N0df9a8317e8640a688e00962a83923e6"
         },
         {
-          "@id": "_:N97a2c27b352846f2a795f351a86d2844"
+          "@id": "_:Nc8f8e434d7a243ab9b227a3a719dfeee"
         },
         {
-          "@id": "_:N31c29148d6064bf8b27510203e9ae272"
+          "@id": "_:N417b8ecd89304a1abbc76cee50a5b1a3"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -127,7 +127,7 @@
       "sc:url": "http://ncbr.muni.cz/neemp"
     },
     {
-      "@id": "_:Ne1a2fd27a6954f4592e5159614c357a7",
+      "@id": "_:N3b604d5e5e324f6ca4c3023452e62c55",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -135,7 +135,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Nd8824dcfdbf04efcb0799dabd1fc4446",
+      "@id": "_:Ndbf4d09b2eda40acae3bf43e03f0df0e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -146,7 +146,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:Nf25aad0ba8424580bbdb1eb78be8ca20",
+      "@id": "_:Na517fd969f78470ead5f453d02b38a7d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1917"
@@ -157,7 +157,7 @@
       "sc:name": "Atomic property"
     },
     {
-      "@id": "_:N02c728b63a2e4462b4d81b12555fd0bf",
+      "@id": "_:Neb5676857c3f47939835c69bf107493a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -168,7 +168,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N1230405cb0654993be61a4da9b2d4593",
+      "@id": "_:N598ed3aadf5e4819bd464c84d01145f4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1917"
@@ -179,7 +179,7 @@
       "sc:name": "Atomic property"
     },
     {
-      "@id": "_:N299af2de33d645ab8e2d70f745c2ab34",
+      "@id": "_:N4560210b74ce4db8a1311d7e1b634f7c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -190,7 +190,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N04d260e18e7746cbbddb35ffad07e186",
+      "@id": "_:Nad981ee69e204bb590033eddc4687461",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -201,7 +201,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Nb40043eb6ad445edbb513745a38af868",
+      "@id": "_:Na496ce61a91043f9a7feeb9dbd8c26f8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -212,7 +212,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N437516ff246d45d7906a22d6fe653c85",
+      "@id": "_:N3cf957be78004c50a794329b57c0d393",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -223,7 +223,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N53dbb9cb57454b879311f673ac0bc729",
+      "@id": "_:Ne9b6cc12c995420fb4bd7db2406015ad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -234,7 +234,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N3eb7485cbff04d08bf00ddcc9f58c0bd",
+      "@id": "_:N0df9a8317e8640a688e00962a83923e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -242,7 +242,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N97a2c27b352846f2a795f351a86d2844",
+      "@id": "_:Nc8f8e434d7a243ab9b227a3a719dfeee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -250,7 +250,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N31c29148d6064bf8b27510203e9ae272",
+      "@id": "_:N417b8ecd89304a1abbc76cee50a5b1a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1917"

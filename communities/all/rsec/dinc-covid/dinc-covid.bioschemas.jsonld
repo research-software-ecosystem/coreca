@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/dinc-covid",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N98f52afdb0714a439a01c35bd54b2133"
+        "@id": "_:Ndc8eb5a9d7dd43e281359d249b13e38f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -95,7 +95,7 @@
       "sc:url": "http://dinc-covid.kavrakilab.org"
     },
     {
-      "@id": "_:N98f52afdb0714a439a01c35bd54b2133",
+      "@id": "_:Ndc8eb5a9d7dd43e281359d249b13e38f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"

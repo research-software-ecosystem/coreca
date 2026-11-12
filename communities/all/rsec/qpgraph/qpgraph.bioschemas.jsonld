@@ -39,17 +39,17 @@
       "@id": "https://bio.tools/qpgraph",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd1e14180e6334b47aed7270f0b4fabec"
+        "@id": "_:N391469587c2549e2a09d93a0d99a610b"
       },
       "bsc:output": [
         {
-          "@id": "_:N6b59a2f3c58a481c97d7b5c081c4bf98"
+          "@id": "_:N8beb4564964740bd9f171d11bf55e27a"
         },
         {
-          "@id": "_:N7c328c03b9904a6da62740cbe2071de0"
+          "@id": "_:Nabc342a57ad649308e4e12f7f133d98a"
         },
         {
-          "@id": "_:N17928c6117f648428eaea16711c8a2b2"
+          "@id": "_:Nf95fa5e8b173440ba28fccab4ea2dd8a"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -99,7 +99,7 @@
       "sc:url": "https://bioconductor.org/packages/qpgraph"
     },
     {
-      "@id": "_:Nd1e14180e6334b47aed7270f0b4fabec",
+      "@id": "_:N391469587c2549e2a09d93a0d99a610b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"
@@ -110,7 +110,7 @@
       "sc:name": "Processed microarray data"
     },
     {
-      "@id": "_:N6b59a2f3c58a481c97d7b5c081c4bf98",
+      "@id": "_:N8beb4564964740bd9f171d11bf55e27a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
@@ -126,7 +126,7 @@
       "sc:name": "P-value"
     },
     {
-      "@id": "_:N7c328c03b9904a6da62740cbe2071de0",
+      "@id": "_:Nabc342a57ad649308e4e12f7f133d98a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -142,7 +142,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N17928c6117f648428eaea16711c8a2b2",
+      "@id": "_:Nf95fa5e8b173440ba28fccab4ea2dd8a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

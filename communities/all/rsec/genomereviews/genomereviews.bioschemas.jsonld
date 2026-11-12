@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/genomereviews",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb0e3ab8f0b174c79855f256b5daf579d"
+        "@id": "_:Ne6a34f8f5a8342c1998b59669e368cd6"
       },
       "bsc:output": {
-        "@id": "_:Ne126470008db4ffea1c3b7cd564cd4d6"
+        "@id": "_:N86081a5360fd488faca9482fbd85ec7e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -64,7 +64,7 @@
       "sc:url": "http://www.ebi.ac.uk/GenomeReviews/"
     },
     {
-      "@id": "_:Nb0e3ab8f0b174c79855f256b5daf579d",
+      "@id": "_:Ne6a34f8f5a8342c1998b59669e368cd6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2751"
@@ -72,7 +72,7 @@
       "sc:name": "GenomeReviews ID"
     },
     {
-      "@id": "_:Ne126470008db4ffea1c3b7cd564cd4d6",
+      "@id": "_:N86081a5360fd488faca9482fbd85ec7e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2711"

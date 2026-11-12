@@ -40,18 +40,22 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1021/acs.jproteome.0c00799",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ursgal",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd4562e47d6384ad4ae410653dc6bf414"
+          "@id": "_:Nd2c621b7d61544eaa978942b981bc8b5"
         },
         {
-          "@id": "_:N341bf26bcb2b42479b4775554eb2d3e2"
+          "@id": "_:Nee2d283a1b144d89bf783701b50e945f"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ncdf42932110f4685b53b153c5177bc85"
+        "@id": "_:N71f493a16b6b455ebf51a93a99e8b543"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -122,7 +126,7 @@
       "sc:url": "https://github.com/ursgal/ursgal"
     },
     {
-      "@id": "_:Nd4562e47d6384ad4ae410653dc6bf414",
+      "@id": "_:Nd2c621b7d61544eaa978942b981bc8b5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -133,7 +137,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:N341bf26bcb2b42479b4775554eb2d3e2",
+      "@id": "_:Nee2d283a1b144d89bf783701b50e945f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3483"
@@ -149,7 +153,7 @@
       "sc:name": "Spectrum"
     },
     {
-      "@id": "_:Ncdf42932110f4685b53b153c5177bc85",
+      "@id": "_:N71f493a16b6b455ebf51a93a99e8b543",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -158,10 +162,6 @@
         "@id": "edam:format_3752"
       },
       "sc:name": "Peptide identification"
-    },
-    {
-      "@id": "https://doi.org/10.1021/acs.jproteome.0c00799",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -40,6 +40,10 @@
       "@type": "sc:Person"
     },
     {
+      "@id": "https://orcid.org/0000-0001-7126-5477",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://doi.org/10.7717/peerj.4958",
       "@type": "sc:CreativeWork"
     },
@@ -56,24 +60,24 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N5f58d2318fa54902a99f3690e189ba6c"
+          "@id": "_:N512040eb2410431dbd43b2f02f56ef04"
         },
         {
-          "@id": "_:N4dff12106dfd4592b5775cfb678700be"
+          "@id": "_:Nc6ed8d012258440b816aa3abd09a309c"
         },
         {
-          "@id": "_:Nf4d6fd3d822544dcaee9b42c61123c56"
+          "@id": "_:N416ca12366764ec0a725a465ef495c86"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nc0090c79f3f5424fbfdb57a0a16a7ce3"
+          "@id": "_:N3825255926114ad1831516a01924a611"
         },
         {
-          "@id": "_:N8c98a321ecd147808d19af1005d02964"
+          "@id": "_:Nb9c4eb99a30245b6b9793a89b641f8e4"
         },
         {
-          "@id": "_:Nb1e4796278394a4f8ea543281befc719"
+          "@id": "_:N2da704878c1c4b27be074de3ae59dd73"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -129,7 +133,7 @@
       "sc:url": "https://dgenies.toulouse.inrae.fr/"
     },
     {
-      "@id": "_:N5f58d2318fa54902a99f3690e189ba6c",
+      "@id": "_:N512040eb2410431dbd43b2f02f56ef04",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -137,7 +141,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N4dff12106dfd4592b5775cfb678700be",
+      "@id": "_:Nc6ed8d012258440b816aa3abd09a309c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -145,7 +149,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:Nf4d6fd3d822544dcaee9b42c61123c56",
+      "@id": "_:N416ca12366764ec0a725a465ef495c86",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -153,7 +157,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:Nc0090c79f3f5424fbfdb57a0a16a7ce3",
+      "@id": "_:N3825255926114ad1831516a01924a611",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -161,7 +165,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N8c98a321ecd147808d19af1005d02964",
+      "@id": "_:Nb9c4eb99a30245b6b9793a89b641f8e4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2161"
@@ -169,16 +173,12 @@
       "sc:name": "Sequence similarity plot"
     },
     {
-      "@id": "_:Nb1e4796278394a4f8ea543281befc719",
+      "@id": "_:N2da704878c1c4b27be074de3ae59dd73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2161"
       },
       "sc:name": "Sequence similarity plot"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-7126-5477",
-      "@type": "sc:Person"
     }
   ]
 }

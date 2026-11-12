@@ -42,10 +42,10 @@
         "@id": "http://orcid.org/0000-0001-7117-994X"
       },
       "bsc:input": {
-        "@id": "_:N2634e5a8f2da4426ab81a404345148de"
+        "@id": "_:Nd11049c043334ebe9949aedcb79c0f75"
       },
       "bsc:output": {
-        "@id": "_:N0a50bdf6f1c243ab9361468ed4044211"
+        "@id": "_:Nf817d394d3804738bbb1d5b5cc96b65b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -88,7 +88,7 @@
       "sc:url": "https://github.com/patrickfuchs/buildH"
     },
     {
-      "@id": "_:N2634e5a8f2da4426ab81a404345148de",
+      "@id": "_:Nd11049c043334ebe9949aedcb79c0f75",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2850"
@@ -104,7 +104,7 @@
       "sc:name": "Lipid structure"
     },
     {
-      "@id": "_:N0a50bdf6f1c243ab9361468ed4044211",
+      "@id": "_:Nf817d394d3804738bbb1d5b5cc96b65b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2850"
@@ -118,21 +118,21 @@
         }
       ],
       "sc:name": "Lipid structure"
-    },
-    {
-      "@id": "http://orcid.org/0000-0003-4177-3619",
-      "@type": "sc:Person"
     },
     {
       "@id": "http://orcid.org/0000-0002-3317-9110",
       "@type": "sc:Person"
     },
     {
-      "@id": "http://orcid.org/0000-0001-7117-994X",
+      "@id": "http://orcid.org/0000-0001-6149-9480",
       "@type": "sc:Person"
     },
     {
-      "@id": "http://orcid.org/0000-0001-6149-9480",
+      "@id": "http://orcid.org/0000-0003-4177-3619",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-7117-994X",
       "@type": "sc:Person"
     }
   ]

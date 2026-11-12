@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/splicinggraphs",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1d046053b5354d2fa6e9fe4da2c09741"
+        "@id": "_:N0b155d63ac454bf788370505e3297525"
       },
       "bsc:output": {
-        "@id": "_:Ndadf5a43a0d54b9bb9452328a8cadcda"
+        "@id": "_:N558a2f07b886412699c8c256bd3971e4"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -81,7 +81,7 @@
       "sc:url": "https://bioconductor.org/packages/SplicingGraphs"
     },
     {
-      "@id": "_:N1d046053b5354d2fa6e9fe4da2c09741",
+      "@id": "_:N0b155d63ac454bf788370505e3297525",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3134"
@@ -92,7 +92,7 @@
       "sc:name": "Gene transcript report"
     },
     {
-      "@id": "_:Ndadf5a43a0d54b9bb9452328a8cadcda",
+      "@id": "_:N558a2f07b886412699c8c256bd3971e4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

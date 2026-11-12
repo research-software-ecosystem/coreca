@@ -40,7 +40,7 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Dmitri Pervouchine",
       "bsc:input": {
-        "@id": "_:Ncacaf3d0b38b47a28d8ff9dc99cafdb9"
+        "@id": "_:Nc6cdf820fa114caaafcc28f511c9a6fb"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -75,7 +75,7 @@
       "sc:url": "https://github.com/pervouchine/ipsa-full"
     },
     {
-      "@id": "_:Ncacaf3d0b38b47a28d8ff9dc99cafdb9",
+      "@id": "_:Nc6cdf820fa114caaafcc28f511c9a6fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"

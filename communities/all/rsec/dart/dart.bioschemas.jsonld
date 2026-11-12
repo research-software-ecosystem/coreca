@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1471-2105-12-403",
+      "@id": "https://doi.org/10.1186/s13059-015-0630-4",
       "@type": "sc:CreativeWork"
     },
     {
@@ -62,7 +62,7 @@
       "sc:featureList": {
         "@id": "edam:operation_2425"
       },
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "DART",
       "sc:operatingSystem": [
         "Linux",
@@ -76,7 +76,7 @@
       "sc:url": "https://bioconductor.org/packages/DART"
     },
     {
-      "@id": "https://doi.org/10.1186/s13059-015-0630-4",
+      "@id": "https://doi.org/10.1186/1471-2105-12-403",
       "@type": "sc:CreativeWork"
     }
   ]

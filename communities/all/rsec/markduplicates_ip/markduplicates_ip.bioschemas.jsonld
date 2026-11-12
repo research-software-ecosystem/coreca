@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
@@ -48,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N8aafb21c18cc42288390669571e3d89a"
+        "@id": "_:N0ec5a038010a45e18c93373384e0ec8b"
       },
       "bsc:output": [
         {
-          "@id": "_:N7655a3feb6674e5ba100d3db0de5dcd2"
+          "@id": "_:Ncbf9214e3f5c48c58c831e95a19b1bee"
         },
         {
-          "@id": "_:N897e244488164d6aa1b2dde79ed11fe6"
+          "@id": "_:N3454ad67972b43baa09611858ec231fb"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -90,7 +86,7 @@
       "sc:url": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/picard_pasteur_wrapper/rgPicardMarkDups/1.56.0"
     },
     {
-      "@id": "_:N8aafb21c18cc42288390669571e3d89a",
+      "@id": "_:N0ec5a038010a45e18c93373384e0ec8b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -106,7 +102,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N7655a3feb6674e5ba100d3db0de5dcd2",
+      "@id": "_:Ncbf9214e3f5c48c58c831e95a19b1bee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -117,7 +113,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N897e244488164d6aa1b2dde79ed11fe6",
+      "@id": "_:N3454ad67972b43baa09611858ec231fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -126,6 +122,10 @@
         "@id": "edam:format_2572"
       },
       "sc:name": "Sequence trace"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

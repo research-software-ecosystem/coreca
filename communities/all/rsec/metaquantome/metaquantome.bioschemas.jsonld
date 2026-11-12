@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1021/ACS.JPROTEOME.0C00960",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1074/mcp.RA118.001240",
       "@type": "sc:CreativeWork"
     },
@@ -44,30 +48,30 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Na525e8ed3b8344ef8d7eb5d0aeccae1e"
+          "@id": "_:N4d71a651ccd64ea5892897b7d9e5d93d"
         },
         {
-          "@id": "_:Neb37681d37c848b4aabcf791d5553783"
+          "@id": "_:Ne7f7f20c11b043ef98288bb31bdeefce"
         },
         {
-          "@id": "_:N886f95ca61b14ed48c6293f52b2c67ac"
+          "@id": "_:N844e6faaa47b4468a4238e61f4148505"
         },
         {
-          "@id": "_:Nab8b4221991b4f0f8ecfe4302e49b949"
+          "@id": "_:Nff0625e7def94e64bca930474ad525d2"
         },
         {
-          "@id": "_:N23a637b49bb64ed5824aa6083a365764"
+          "@id": "_:N096b0f6ab6624847909b666e298d5ff5"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd7fd76edd43e42acbf9600a0c33033f2"
+          "@id": "_:N479d542226734d1498c0605c456c18a3"
         },
         {
-          "@id": "_:N1311661d0c89453483f24872fd7220c1"
+          "@id": "_:N0bbb8edf68dc4eb8ba1ae9f48f9870f2"
         },
         {
-          "@id": "_:N9dc8ce4655d1445e9e63036f95322bb2"
+          "@id": "_:N6144ef1cfd414904a56f34787bed76ce"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -138,7 +142,7 @@
       "sc:url": "https://github.com/galaxyproteomics/metaquantome"
     },
     {
-      "@id": "_:Na525e8ed3b8344ef8d7eb5d0aeccae1e",
+      "@id": "_:N4d71a651ccd64ea5892897b7d9e5d93d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1011"
@@ -149,7 +153,7 @@
       "sc:name": "EC number"
     },
     {
-      "@id": "_:Neb37681d37c848b4aabcf791d5553783",
+      "@id": "_:Ne7f7f20c11b043ef98288bb31bdeefce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -160,7 +164,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N886f95ca61b14ed48c6293f52b2c67ac",
+      "@id": "_:N844e6faaa47b4468a4238e61f4148505",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2583"
@@ -171,7 +175,7 @@
       "sc:name": "GO concept ID (molecular function)"
     },
     {
-      "@id": "_:Nab8b4221991b4f0f8ecfe4302e49b949",
+      "@id": "_:Nff0625e7def94e64bca930474ad525d2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -182,7 +186,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N23a637b49bb64ed5824aa6083a365764",
+      "@id": "_:N096b0f6ab6624847909b666e298d5ff5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1872"
@@ -193,7 +197,7 @@
       "sc:name": "Taxonomic classification"
     },
     {
-      "@id": "_:Nd7fd76edd43e42acbf9600a0c33033f2",
+      "@id": "_:N479d542226734d1498c0605c456c18a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -204,7 +208,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N1311661d0c89453483f24872fd7220c1",
+      "@id": "_:N0bbb8edf68dc4eb8ba1ae9f48f9870f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2583"
@@ -215,7 +219,7 @@
       "sc:name": "GO concept ID (molecular function)"
     },
     {
-      "@id": "_:N9dc8ce4655d1445e9e63036f95322bb2",
+      "@id": "_:N6144ef1cfd414904a56f34787bed76ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -224,10 +228,6 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Taxonomy"
-    },
-    {
-      "@id": "https://doi.org/10.1021/ACS.JPROTEOME.0C00960",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

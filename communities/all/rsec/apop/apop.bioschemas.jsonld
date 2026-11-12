@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/apop",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8b2a810aa7fe486580974a01cb6f0439"
+        "@id": "_:Nbdc5c6e1d23a4abb87d596fc185b54ef"
       },
       "bsc:output": {
-        "@id": "_:N9d6973808e5947d4b4a3d3ce40d42ba8"
+        "@id": "_:N53d8db874c424daa987dbec8471aed8e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -87,7 +87,7 @@
       "sc:url": "https://apop.bb.iastate.edu/"
     },
     {
-      "@id": "_:N8b2a810aa7fe486580974a01cb6f0439",
+      "@id": "_:Nbdc5c6e1d23a4abb87d596fc185b54ef",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -95,7 +95,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N9d6973808e5947d4b4a3d3ce40d42ba8",
+      "@id": "_:N53d8db874c424daa987dbec8471aed8e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0897"

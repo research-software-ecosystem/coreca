@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/cocitestats",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd2faf6137d174c4da6416cc116e0d7b0"
+        "@id": "_:Nd9f32f7a567e4e12bd9695c4c8a38fa1"
       },
       "bsc:output": [
         {
-          "@id": "_:Ne65770c3809c40bb88b5f9d7ebd3988c"
+          "@id": "_:N0c4eff62174f4b3aae91f19f3b25aa23"
         },
         {
-          "@id": "_:N189a973a24ce405781e9ff9ab0e2d93e"
+          "@id": "_:N89c10cb3ce744812a23b348b3bc26431"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -87,7 +87,7 @@
       "sc:url": "https://bioconductor.org/packages/CoCiteStats"
     },
     {
-      "@id": "_:Nd2faf6137d174c4da6416cc116e0d7b0",
+      "@id": "_:Nd9f32f7a567e4e12bd9695c4c8a38fa1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1904"
@@ -98,7 +98,7 @@
       "sc:name": "Locus ID (EntrezGene)"
     },
     {
-      "@id": "_:Ne65770c3809c40bb88b5f9d7ebd3988c",
+      "@id": "_:N0c4eff62174f4b3aae91f19f3b25aa23",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -109,7 +109,7 @@
       "sc:name": "Score"
     },
     {
-      "@id": "_:N189a973a24ce405781e9ff9ab0e2d93e",
+      "@id": "_:N89c10cb3ce744812a23b348b3bc26431",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0972"

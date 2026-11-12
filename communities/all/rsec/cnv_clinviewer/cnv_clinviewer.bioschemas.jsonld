@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/cnv_clinviewer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne01099e8d8a747ec97824e4bee476b7c"
+        "@id": "_:Ndc68a431f86e404fb94a2616c89d4e4b"
       },
       "bsc:output": [
         {
-          "@id": "_:Na047ef4c5ad0494791fd63cf47a4e586"
+          "@id": "_:Nb513cb9dfa46402aafa295d3880fa721"
         },
         {
-          "@id": "_:Na7db42db7aa841078505a095cb47e35a"
+          "@id": "_:N7911296ead6e427198938dbb9fd47471"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -94,7 +94,7 @@
       "sc:url": "https://cnv-ClinViewer.broadinstitute.org"
     },
     {
-      "@id": "_:Ne01099e8d8a747ec97824e4bee476b7c",
+      "@id": "_:Ndc68a431f86e404fb94a2616c89d4e4b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -110,7 +110,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Na047ef4c5ad0494791fd63cf47a4e586",
+      "@id": "_:Nb513cb9dfa46402aafa295d3880fa721",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3953"
@@ -118,7 +118,7 @@
       "sc:name": "Pathway overrepresentation data"
     },
     {
-      "@id": "_:Na7db42db7aa841078505a095cb47e35a",
+      "@id": "_:N7911296ead6e427198938dbb9fd47471",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"

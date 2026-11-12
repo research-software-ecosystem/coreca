@@ -41,24 +41,24 @@
       "biotools:primaryContact": "Chandler Zuo",
       "bsc:input": [
         {
-          "@id": "_:N483ab9c75f724f6780e03b35c4a12632"
+          "@id": "_:N92d8a0a029974c27a934b26035bb433a"
         },
         {
-          "@id": "_:N14220aef31de416a81c4149af824b911"
+          "@id": "_:N7e991ae6fb864c068b08c2bdfb61e109"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N535b134b5a18406b9be87d4706f9af1d"
+          "@id": "_:N95a51b61f0db4582abaee66ad98df837"
         },
         {
-          "@id": "_:Naed9b202ce3046bd98dc538b580e989d"
+          "@id": "_:Nc523e11c7dd64d318a3e7f9988e828af"
         },
         {
-          "@id": "_:N04d537297fbb41aca02140d699856fc8"
+          "@id": "_:N84be93900b2a4226b06d0216a10af4e3"
         },
         {
-          "@id": "_:N46f2d4901ef44bb8978b12ea1d9444eb"
+          "@id": "_:Nac89a8a42c9649d0aaeaebd12ebf39e1"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -107,7 +107,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/CSSP.html"
     },
     {
-      "@id": "_:N483ab9c75f724f6780e03b35c4a12632",
+      "@id": "_:N92d8a0a029974c27a934b26035bb433a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -118,7 +118,7 @@
       "sc:name": "Score"
     },
     {
-      "@id": "_:N14220aef31de416a81c4149af824b911",
+      "@id": "_:N7e991ae6fb864c068b08c2bdfb61e109",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0867"
@@ -129,7 +129,7 @@
       "sc:name": "Sequence alignment report"
     },
     {
-      "@id": "_:N535b134b5a18406b9be87d4706f9af1d",
+      "@id": "_:N95a51b61f0db4582abaee66ad98df837",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -145,7 +145,7 @@
       "sc:name": "Mathematical model"
     },
     {
-      "@id": "_:Naed9b202ce3046bd98dc538b580e989d",
+      "@id": "_:Nc523e11c7dd64d318a3e7f9988e828af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
@@ -161,7 +161,7 @@
       "sc:name": "P-value"
     },
     {
-      "@id": "_:N04d537297fbb41aca02140d699856fc8",
+      "@id": "_:N84be93900b2a4226b06d0216a10af4e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -177,7 +177,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N46f2d4901ef44bb8978b12ea1d9444eb",
+      "@id": "_:Nac89a8a42c9649d0aaeaebd12ebf39e1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

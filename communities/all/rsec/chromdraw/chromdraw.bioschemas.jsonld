@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1007/s10577-015-9513-5",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/chromdraw",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ncb326de412614beb93e228dc0fbcf5ef"
+          "@id": "_:Nea8b7d98153344b3a8dd867cf3832b71"
         },
         {
-          "@id": "_:Nbf84f519cb9c404c97ef5d3adfca1822"
+          "@id": "_:N4784ac726b194a10bb62bdf26b7e06e0"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ncf419af5ccc9421ab79db582f3f5d3e0"
+        "@id": "_:Ncccf2d7f990a4112b55cd95d3d36e5ba"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -64,7 +68,7 @@
       "sc:featureList": {
         "@id": "edam:operation_0573"
       },
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "chromDraw",
       "sc:operatingSystem": [
         "Linux",
@@ -78,7 +82,7 @@
       "sc:url": "https://bioconductor.org/packages/chromDraw"
     },
     {
-      "@id": "_:Ncb326de412614beb93e228dc0fbcf5ef",
+      "@id": "_:Nea8b7d98153344b3a8dd867cf3832b71",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3236"
@@ -94,7 +98,7 @@
       "sc:name": "Cytoband position"
     },
     {
-      "@id": "_:Nbf84f519cb9c404c97ef5d3adfca1822",
+      "@id": "_:N4784ac726b194a10bb62bdf26b7e06e0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -110,7 +114,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:Ncf419af5ccc9421ab79db582f3f5d3e0",
+      "@id": "_:Ncccf2d7f990a4112b55cd95d3d36e5ba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1283"
@@ -124,10 +128,6 @@
         }
       ],
       "sc:name": "Cytogenetic map"
-    },
-    {
-      "@id": "https://doi.org/10.1007/s10577-015-9513-5",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

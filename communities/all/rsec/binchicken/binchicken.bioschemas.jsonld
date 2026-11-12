@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/s41587-025-02738-1",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1038/s41592-025-02901-1",
       "@type": "sc:CreativeWork"
     },
@@ -74,10 +78,6 @@
       },
       "sc:softwareVersion": "v0.13.5",
       "sc:url": "https://aroneys.github.io/binchicken"
-    },
-    {
-      "@id": "https://doi.org/10.1038/s41587-025-02738-1",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

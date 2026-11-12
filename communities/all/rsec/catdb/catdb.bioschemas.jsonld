@@ -36,46 +36,50 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkm757",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/catdb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N4a2f720ecdc2499c9ba546e2eeff56f1"
+          "@id": "_:Nff3931ec53cd40d0af62f1ba11ab8c2d"
         },
         {
-          "@id": "_:N5843424e1ec245078d314ff2ec24f82d"
+          "@id": "_:N8ee97292410b45fcaf373d6dd1406688"
         },
         {
-          "@id": "_:N340c503b8c754b61b9c7ab11f1d2cd44"
+          "@id": "_:N5a028c51b1884b14ba242c83d4c1e1b0"
         },
         {
-          "@id": "_:N1e25f2f869694f288e844b275c813fc7"
+          "@id": "_:N5809d23819d14efabbc7c6016ecae296"
         },
         {
-          "@id": "_:N062dbc10b9b145b7a8331d1cafe13f9c"
+          "@id": "_:Nbfdb91970aa94808a6657c1bd49afec0"
         },
         {
-          "@id": "_:N70be0bba8e9c4935882ee92d45aa8415"
+          "@id": "_:N1986200998284c039806e848cd9bf3ee"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N57bc57edcb2e4320b949eb01c7412dfa"
+          "@id": "_:Nb6679261db5b4502a529de0e71fc4cdc"
         },
         {
-          "@id": "_:N916b41b825c046cdb1b50d5913280572"
+          "@id": "_:N27674fb17a71453288c7544e445e15ac"
         },
         {
-          "@id": "_:Nad659ee1f32046d28f0e03d4856671bd"
+          "@id": "_:Nb534e0a700fb4d90a539d33a90f89389"
         },
         {
-          "@id": "_:N1820999447b8449cbe08778b45735f0d"
+          "@id": "_:Na86a12bd6bdb4d1a93af0070176278a3"
         },
         {
-          "@id": "_:N32597e10beee4876bbb057b1b0ff1f9b"
+          "@id": "_:Ne2ae0d3fdf0e4939b0b88f37e637649d"
         },
         {
-          "@id": "_:N30f846d40ce54fcfa12151e3c9302881"
+          "@id": "_:N6ad20daa4fc14d44addfa00073de1190"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -112,7 +116,7 @@
       "sc:url": "http://urgv.evry.inra.fr/CATdb"
     },
     {
-      "@id": "_:N4a2f720ecdc2499c9ba546e2eeff56f1",
+      "@id": "_:Nff3931ec53cd40d0af62f1ba11ab8c2d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -120,7 +124,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N5843424e1ec245078d314ff2ec24f82d",
+      "@id": "_:N8ee97292410b45fcaf373d6dd1406688",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -128,7 +132,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N340c503b8c754b61b9c7ab11f1d2cd44",
+      "@id": "_:N5a028c51b1884b14ba242c83d4c1e1b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2388"
@@ -136,7 +140,7 @@
       "sc:name": "TAIR accession (At gene)"
     },
     {
-      "@id": "_:N1e25f2f869694f288e844b275c813fc7",
+      "@id": "_:N5809d23819d14efabbc7c6016ecae296",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2388"
@@ -144,7 +148,7 @@
       "sc:name": "TAIR accession (At gene)"
     },
     {
-      "@id": "_:N062dbc10b9b145b7a8331d1cafe13f9c",
+      "@id": "_:Nbfdb91970aa94808a6657c1bd49afec0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2388"
@@ -152,7 +156,7 @@
       "sc:name": "TAIR accession (At gene)"
     },
     {
-      "@id": "_:N70be0bba8e9c4935882ee92d45aa8415",
+      "@id": "_:N1986200998284c039806e848cd9bf3ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2388"
@@ -160,7 +164,7 @@
       "sc:name": "TAIR accession (At gene)"
     },
     {
-      "@id": "_:N57bc57edcb2e4320b949eb01c7412dfa",
+      "@id": "_:Nb6679261db5b4502a529de0e71fc4cdc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -171,7 +175,7 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:N916b41b825c046cdb1b50d5913280572",
+      "@id": "_:N27674fb17a71453288c7544e445e15ac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -182,7 +186,7 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:Nad659ee1f32046d28f0e03d4856671bd",
+      "@id": "_:Nb534e0a700fb4d90a539d33a90f89389",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -193,7 +197,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N1820999447b8449cbe08778b45735f0d",
+      "@id": "_:Na86a12bd6bdb4d1a93af0070176278a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -204,7 +208,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N32597e10beee4876bbb057b1b0ff1f9b",
+      "@id": "_:Ne2ae0d3fdf0e4939b0b88f37e637649d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -215,7 +219,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N30f846d40ce54fcfa12151e3c9302881",
+      "@id": "_:N6ad20daa4fc14d44addfa00073de1190",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -224,10 +228,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Gene report"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkm757",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

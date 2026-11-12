@@ -36,14 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1007/s10586-013-0309-0",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btt389",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/livermore_metagenomics_analysis_toolkit",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Maya B Gokhale",
       "bsc:input": {
-        "@id": "_:Nf50105244fda4c46ac20ea51f05c18e7"
+        "@id": "_:Nd17370b128404d08a6a78d10a86e7a3e"
       },
       "bsc:output": {
-        "@id": "_:Nacbae790f2b34f449bd63d4beb5fb526"
+        "@id": "_:Ne1fe7bb28c674b25a53b5a8ff12d502e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -78,7 +86,7 @@
       "sc:url": "http://computation.llnl.gov/projects/livermore-metagenomics-analysis-toolkit"
     },
     {
-      "@id": "_:Nf50105244fda4c46ac20ea51f05c18e7",
+      "@id": "_:Nd17370b128404d08a6a78d10a86e7a3e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -89,7 +97,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:Nacbae790f2b34f449bd63d4beb5fb526",
+      "@id": "_:Ne1fe7bb28c674b25a53b5a8ff12d502e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -98,14 +106,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Database search results"
-    },
-    {
-      "@id": "https://doi.org/10.1007/s10586-013-0309-0",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btt389",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

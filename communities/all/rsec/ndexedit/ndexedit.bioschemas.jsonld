@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/ndexedit",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne5b1661d2be141298d6252a481e3e5b5"
+        "@id": "_:N73856efce94a47dca8e0f92189ab81f2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -84,7 +84,7 @@
       "sc:url": "https://frankkramer-lab.github.io/NDExEdit"
     },
     {
-      "@id": "_:Ne5b1661d2be141298d6252a481e3e5b5",
+      "@id": "_:N73856efce94a47dca8e0f92189ab81f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

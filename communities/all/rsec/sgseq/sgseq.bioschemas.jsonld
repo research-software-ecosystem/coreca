@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/sgseq",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9322bb292ad14f8bbbd9134d79d72a58"
+        "@id": "_:N7ceac85537cf4feba43092f3bf12801a"
       },
       "bsc:output": [
         {
-          "@id": "_:Nedf6dfde15d141eda29dbcfb01ad2817"
+          "@id": "_:N1d38ca0f420b4200884fe97806ae4385"
         },
         {
-          "@id": "_:N5072a8e6d30b4e209bfda6081d3f7f56"
+          "@id": "_:N4b10d2d857b14f119d7c868ea2a94886"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -84,7 +84,7 @@
       "sc:url": "https://bioconductor.org/packages/SGSeq"
     },
     {
-      "@id": "_:N9322bb292ad14f8bbbd9134d79d72a58",
+      "@id": "_:N7ceac85537cf4feba43092f3bf12801a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -95,7 +95,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:Nedf6dfde15d141eda29dbcfb01ad2817",
+      "@id": "_:N1d38ca0f420b4200884fe97806ae4385",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -106,7 +106,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N5072a8e6d30b4e209bfda6081d3f7f56",
+      "@id": "_:N4b10d2d857b14f119d7c868ea2a94886",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

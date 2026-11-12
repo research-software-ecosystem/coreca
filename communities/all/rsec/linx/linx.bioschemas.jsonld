@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1021/ACS.JPROTEOME.0C00858",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/LinX",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,14 +47,14 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N6c4996b35db9462cbf59855cfb7c2be0"
+          "@id": "_:Nffd5d1da89714b449d413784ecd31fd7"
         },
         {
-          "@id": "_:N93ef7e53d27f4eab8c85e58539435c2d"
+          "@id": "_:N1201775eff4d4a0db00f069889999922"
         }
       ],
       "bsc:output": {
-        "@id": "_:N92ad72dfd42e46889b413000414ebfd9"
+        "@id": "_:N9b264f9b5d9b4dd7be28d8b1b442a867"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -106,7 +110,7 @@
       "sc:url": "http://peterslab.org/downloads.php"
     },
     {
-      "@id": "_:N6c4996b35db9462cbf59855cfb7c2be0",
+      "@id": "_:Nffd5d1da89714b449d413784ecd31fd7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2978"
@@ -117,7 +121,7 @@
       "sc:name": "Reaction data"
     },
     {
-      "@id": "_:N93ef7e53d27f4eab8c85e58539435c2d",
+      "@id": "_:N1201775eff4d4a0db00f069889999922",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -128,7 +132,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N92ad72dfd42e46889b413000414ebfd9",
+      "@id": "_:N9b264f9b5d9b4dd7be28d8b1b442a867",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -141,10 +145,6 @@
     {
       "@id": "https://orcid.org/0000-0001-7569-843X",
       "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1021/ACS.JPROTEOME.0C00858",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

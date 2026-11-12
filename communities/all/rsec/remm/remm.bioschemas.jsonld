@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/remm",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nbfc27130d6494f0baed8290bab600507"
+        "@id": "_:Nf3a235d0f63e4cd69ba7ac78cb25ff0a"
       },
       "bsc:output": {
-        "@id": "_:N0aae90bc3dc24416a4a7061c7f366b79"
+        "@id": "_:N3c1a0bcd438744df89450cbb97c14553"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -100,7 +100,7 @@
       "sc:url": "https://remm.bihealth.org"
     },
     {
-      "@id": "_:Nbfc27130d6494f0baed8290bab600507",
+      "@id": "_:Nf3a235d0f63e4cd69ba7ac78cb25ff0a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -111,7 +111,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N0aae90bc3dc24416a4a7061c7f366b79",
+      "@id": "_:N3c1a0bcd438744df89450cbb97c14553",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

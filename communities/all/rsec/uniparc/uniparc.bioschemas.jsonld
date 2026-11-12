@@ -44,7 +44,7 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Support",
       "bsc:output": {
-        "@id": "_:Nd057725d57ac4bcaa269ba44f69f6c6d"
+        "@id": "_:N322a68a8651d42f0817ec5d217baf7df"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -74,7 +74,7 @@
       "sc:url": "http://www.uniprot.org/uniparc/"
     },
     {
-      "@id": "_:Nd057725d57ac4bcaa269ba44f69f6c6d",
+      "@id": "_:N322a68a8651d42f0817ec5d217baf7df",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"

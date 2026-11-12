@@ -40,16 +40,20 @@
       "@type": "sc:Person"
     },
     {
+      "@id": "https://doi.org/10.12688/f1000research.10225.2",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/afnetwork",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0002-3729-8176"
       },
       "bsc:input": {
-        "@id": "_:Nf61d608de5da449ba73c848356c4ae12"
+        "@id": "_:Nbce044ddd6fa45d8aedd1a92d5be82d8"
       },
       "bsc:output": {
-        "@id": "_:N5d0fcc41fb18407f9f16665971bf6efb"
+        "@id": "_:N76636b615254441790beca07a729948b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -80,7 +84,7 @@
       "sc:url": "http://bioinformatics.org.au/tools/AFnetwork/"
     },
     {
-      "@id": "_:Nf61d608de5da449ba73c848356c4ae12",
+      "@id": "_:Nbce044ddd6fa45d8aedd1a92d5be82d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0870"
@@ -88,7 +92,7 @@
       "sc:name": "Sequence distance matrix"
     },
     {
-      "@id": "_:N5d0fcc41fb18407f9f16665971bf6efb",
+      "@id": "_:N76636b615254441790beca07a729948b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -97,10 +101,6 @@
         "@id": "edam:format_3556"
       },
       "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "https://doi.org/10.12688/f1000research.10225.2",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne6e7cd0789974c14b523628166f94809"
+          "@id": "_:N5fa2aa38950342a9a1c6a866182b8de5"
         },
         {
-          "@id": "_:N6b74309251b84861b470b093eea444c8"
+          "@id": "_:Nd683cac9482d4b5c8521c51f9925eb22"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -85,7 +85,7 @@
       "sc:url": "https://github.com/RasmussenLab/vamb"
     },
     {
-      "@id": "_:Ne6e7cd0789974c14b523628166f94809",
+      "@id": "_:N5fa2aa38950342a9a1c6a866182b8de5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -96,7 +96,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N6b74309251b84861b470b093eea444c8",
+      "@id": "_:Nd683cac9482d4b5c8521c51f9925eb22",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

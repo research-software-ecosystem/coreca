@@ -14,7 +14,7 @@ registries:
 - entry: bioconductor-purecn
   name: conda:bioconda
 popcon:
-- insts: 19
-  olde: 15
-  recent: 1
+- insts: 23
+  olde: 18
+  recent: 2
   vote: 3

@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/chemfh",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N2b7e18f61ed849b59b018ce59d380e46"
+        "@id": "_:Nf5a9b846a1df4b66a5444f8266b5f9f2"
       },
       "bsc:output": [
         {
-          "@id": "_:N4a3fadb08693459abe118d88db1c4e8f"
+          "@id": "_:N30d843b7944e4c6aa3c3dfd3315bc169"
         },
         {
-          "@id": "_:N684ef86d9ca246baa58507d78d1d120c"
+          "@id": "_:Na64215f0f0b84dd4b9dffb568521a76e"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -95,7 +95,7 @@
       "sc:url": "https://chemfh.scbdd.com/"
     },
     {
-      "@id": "_:N2b7e18f61ed849b59b018ce59d380e46",
+      "@id": "_:Nf5a9b846a1df4b66a5444f8266b5f9f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"
@@ -103,7 +103,7 @@
       "sc:name": "SMILES string"
     },
     {
-      "@id": "_:N4a3fadb08693459abe118d88db1c4e8f",
+      "@id": "_:N30d843b7944e4c6aa3c3dfd3315bc169",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1712"
@@ -111,7 +111,7 @@
       "sc:name": "Chemical structure image"
     },
     {
-      "@id": "_:N684ef86d9ca246baa58507d78d1d120c",
+      "@id": "_:Na64215f0f0b84dd4b9dffb568521a76e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1696"

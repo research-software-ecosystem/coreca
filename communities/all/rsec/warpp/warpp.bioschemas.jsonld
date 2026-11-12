@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1021/acs.jcim.8b00271",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/warpp",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -44,18 +48,18 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Nad84c12bd3f04af4971953be7d8e6876"
+          "@id": "_:N094dccc680ba424b949ec92cd77d6581"
         },
         {
-          "@id": "_:N25aebf7d4c884e9ba8b17bc3a1575a90"
+          "@id": "_:Nc7b3da69910c411795e998a4f93f4c6b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9a743ed98b534812a0a97abd9665329e"
+          "@id": "_:N3ffadd28a6ef40ed9aa3eff8fbaaa715"
         },
         {
-          "@id": "_:Nfe3b46b8073c43f886ef0714b742ae84"
+          "@id": "_:N9ffad17345244b1f9cf18937663c40eb"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -126,7 +130,7 @@
       "sc:url": "https://www.zbh.uni-hamburg.de/forschung/amd/software/warpp.html"
     },
     {
-      "@id": "_:Nad84c12bd3f04af4971953be7d8e6876",
+      "@id": "_:N094dccc680ba424b949ec92cd77d6581",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1461"
@@ -142,7 +146,7 @@
       "sc:name": "Protein-ligand complex"
     },
     {
-      "@id": "_:N25aebf7d4c884e9ba8b17bc3a1575a90",
+      "@id": "_:Nc7b3da69910c411795e998a4f93f4c6b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -153,7 +157,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N9a743ed98b534812a0a97abd9665329e",
+      "@id": "_:N3ffadd28a6ef40ed9aa3eff8fbaaa715",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -164,7 +168,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:Nfe3b46b8073c43f886ef0714b742ae84",
+      "@id": "_:N9ffad17345244b1f9cf18937663c40eb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
@@ -173,10 +177,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Protein structure report"
-    },
-    {
-      "@id": "https://doi.org/10.1021/acs.jcim.8b00271",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -44,42 +44,42 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N0a5cd8da6c844007adcdf472d0d51910"
+          "@id": "_:N415af31b02bb41d498ddc2b1b7e4960f"
         },
         {
-          "@id": "_:Ne2412a896f704f4683d8b44e8331bdf1"
+          "@id": "_:N7e219b528c5b45c282b8db71dfeceb4e"
         },
         {
-          "@id": "_:Nb51782dd56ac485bb85cf215074cb0ef"
+          "@id": "_:Nfac987a8d97a43c68c556f4c0c59cf7b"
         },
         {
-          "@id": "_:N4f1bbf8653604c669f5b161da783331a"
+          "@id": "_:N2863be3635b945e2ab0736d539e585b9"
         },
         {
-          "@id": "_:Na3df004a78ce419ba78203f797cd9ba8"
+          "@id": "_:Nde42ba1d51c84c0189a0a124beab8eec"
         },
         {
-          "@id": "_:Nde31206b5b5d41588a9c04d12da64bcb"
+          "@id": "_:N4f4f191482f9405eb63e5694f9f735c6"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Na3465127186548d4926b66c320666ac6"
+          "@id": "_:N3ece64a2cf974f989de4ee0a72debb5f"
         },
         {
-          "@id": "_:Nd37fb8a594744a0d900fb429223abba5"
+          "@id": "_:N55e9461101ec4bebaafd28d57e90d951"
         },
         {
-          "@id": "_:Nb08a021cb9034695aab56293f30c9a29"
+          "@id": "_:N3611e1f44b134294a00cdc2c7f126ecc"
         },
         {
-          "@id": "_:N80d4f8683df14ea39d18a29167b801b8"
+          "@id": "_:N02b9305f6be44a4eb1f5badd3834be6a"
         },
         {
-          "@id": "_:N9b2ccb7e40614e16b98029c6b032b695"
+          "@id": "_:N8e412ebb7f9f4972842c3f2cce9c80c7"
         },
         {
-          "@id": "_:Ndf76d670ebc14073bf183a9e591ddd4b"
+          "@id": "_:Neba9e0c9971044fa80504547b801708e"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -115,7 +115,7 @@
       "sc:url": "http://www.peptideatlas.org"
     },
     {
-      "@id": "_:N0a5cd8da6c844007adcdf472d0d51910",
+      "@id": "_:N415af31b02bb41d498ddc2b1b7e4960f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2398"
@@ -123,7 +123,7 @@
       "sc:name": "Ensembl protein ID"
     },
     {
-      "@id": "_:Ne2412a896f704f4683d8b44e8331bdf1",
+      "@id": "_:N7e219b528c5b45c282b8db71dfeceb4e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2398"
@@ -131,7 +131,7 @@
       "sc:name": "Ensembl protein ID"
     },
     {
-      "@id": "_:Nb51782dd56ac485bb85cf215074cb0ef",
+      "@id": "_:Nfac987a8d97a43c68c556f4c0c59cf7b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2398"
@@ -139,7 +139,7 @@
       "sc:name": "Ensembl protein ID"
     },
     {
-      "@id": "_:N4f1bbf8653604c669f5b161da783331a",
+      "@id": "_:N2863be3635b945e2ab0736d539e585b9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2398"
@@ -147,7 +147,7 @@
       "sc:name": "Ensembl protein ID"
     },
     {
-      "@id": "_:Na3df004a78ce419ba78203f797cd9ba8",
+      "@id": "_:Nde42ba1d51c84c0189a0a124beab8eec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2384"
@@ -155,7 +155,7 @@
       "sc:name": "IPI protein ID"
     },
     {
-      "@id": "_:Nde31206b5b5d41588a9c04d12da64bcb",
+      "@id": "_:N4f4f191482f9405eb63e5694f9f735c6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0989"
@@ -163,7 +163,7 @@
       "sc:name": "Protein identifier"
     },
     {
-      "@id": "_:Na3465127186548d4926b66c320666ac6",
+      "@id": "_:N3ece64a2cf974f989de4ee0a72debb5f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -174,7 +174,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nd37fb8a594744a0d900fb429223abba5",
+      "@id": "_:N55e9461101ec4bebaafd28d57e90d951",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -185,7 +185,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Nb08a021cb9034695aab56293f30c9a29",
+      "@id": "_:N3611e1f44b134294a00cdc2c7f126ecc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -196,7 +196,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N80d4f8683df14ea39d18a29167b801b8",
+      "@id": "_:N02b9305f6be44a4eb1f5badd3834be6a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -207,7 +207,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N9b2ccb7e40614e16b98029c6b032b695",
+      "@id": "_:N8e412ebb7f9f4972842c3f2cce9c80c7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -218,7 +218,7 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "_:Ndf76d670ebc14073bf183a9e591ddd4b",
+      "@id": "_:Neba9e0c9971044fa80504547b801708e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"

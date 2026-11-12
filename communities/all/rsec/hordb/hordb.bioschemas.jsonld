@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N44a8e628852749ac8e38a7f8a2add9de"
+          "@id": "_:N4377c816b61a4ce3ab1134ba48c579ca"
         },
         {
-          "@id": "_:N4c2812be81a349b28881485485121c8e"
+          "@id": "_:N448fbd297bad494786c6127450765fcd"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -95,7 +95,7 @@
       "sc:url": "http://hordb.cpu-bioinfor.org"
     },
     {
-      "@id": "_:N44a8e628852749ac8e38a7f8a2add9de",
+      "@id": "_:N4377c816b61a4ce3ab1134ba48c579ca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2099"
@@ -103,7 +103,7 @@
       "sc:name": "Name"
     },
     {
-      "@id": "_:N4c2812be81a349b28881485485121c8e",
+      "@id": "_:N448fbd297bad494786c6127450765fcd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

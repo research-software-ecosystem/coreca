@@ -36,26 +36,22 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.18129/B9.bioc.flowVS",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/flowvs",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N89ed8fa893a047c2966bb2328d1d8dce"
+          "@id": "_:N87de49d2b06040bd8f2c793344ea905c"
         },
         {
-          "@id": "_:Nf14c7d1af30a4b90b1f2e24cfb54e243"
+          "@id": "_:Nc44aa421fe314602934c1b4667fa799e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf0317d6bbf3945d0b8a4d46fc47e14d1"
+          "@id": "_:N023b758f5ea842d884a1e8b47abb0fe0"
         },
         {
-          "@id": "_:N57f2c4f95fbd419e93320415a228116b"
+          "@id": "_:N96b69f327f014369a98226e4710531f8"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -98,7 +94,7 @@
       "sc:url": "https://bioconductor.org/packages/flowVS"
     },
     {
-      "@id": "_:N89ed8fa893a047c2966bb2328d1d8dce",
+      "@id": "_:N87de49d2b06040bd8f2c793344ea905c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -109,7 +105,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:Nf14c7d1af30a4b90b1f2e24cfb54e243",
+      "@id": "_:Nc44aa421fe314602934c1b4667fa799e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -120,7 +116,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Nf0317d6bbf3945d0b8a4d46fc47e14d1",
+      "@id": "_:N023b758f5ea842d884a1e8b47abb0fe0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -136,7 +132,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N57f2c4f95fbd419e93320415a228116b",
+      "@id": "_:N96b69f327f014369a98226e4710531f8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -150,6 +146,10 @@
         }
       ],
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.18129/B9.bioc.flowVS",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

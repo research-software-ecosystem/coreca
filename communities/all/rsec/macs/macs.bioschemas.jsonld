@@ -36,26 +36,30 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/gb-2008-9-9-r137",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/macs",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "MACS Support",
       "bsc:input": [
         {
-          "@id": "_:N1f602190068b4d9da1ebf3a821b51027"
+          "@id": "_:Ndbb687ed7b954872b91a645a5779feb1"
         },
         {
-          "@id": "_:Nfdf9db1328c744ad921c7386344a49c6"
+          "@id": "_:N20120821cda849cf8e906484b3fe0de3"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N6e884475877d458d844bc14d512ba4b9"
+          "@id": "_:Nc97869c6502b44339993c70ba6e05df3"
         },
         {
-          "@id": "_:Naa269656b18d467db3197170917290a1"
+          "@id": "_:Nabd3c8345bc242669c2d2844f1e81575"
         },
         {
-          "@id": "_:Ne2b43a1f2a9143448038665df4748b5c"
+          "@id": "_:N053678bbe16c41a78d37de8a7f8deb2f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -102,7 +106,7 @@
       "sc:url": "http://liulab.dfci.harvard.edu/MACS/"
     },
     {
-      "@id": "_:N1f602190068b4d9da1ebf3a821b51027",
+      "@id": "_:Ndbb687ed7b954872b91a645a5779feb1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -124,7 +128,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nfdf9db1328c744ad921c7386344a49c6",
+      "@id": "_:N20120821cda849cf8e906484b3fe0de3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -135,7 +139,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N6e884475877d458d844bc14d512ba4b9",
+      "@id": "_:Nc97869c6502b44339993c70ba6e05df3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -151,7 +155,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:Naa269656b18d467db3197170917290a1",
+      "@id": "_:Nabd3c8345bc242669c2d2844f1e81575",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -162,7 +166,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ne2b43a1f2a9143448038665df4748b5c",
+      "@id": "_:N053678bbe16c41a78d37de8a7f8deb2f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -171,10 +175,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://doi.org/10.1186/gb-2008-9-9-r137",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

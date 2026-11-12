@@ -71,7 +71,7 @@
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/enrichplot"
       },
-      "sc:softwareVersion": "1.32.0",
+      "sc:softwareVersion": "1.32.1",
       "sc:url": "https://bioconductor.org/packages/enrichplot"
     },
     {

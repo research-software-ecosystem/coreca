@@ -48,14 +48,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N6c4a006937504ede9712f475a2381c3a"
+          "@id": "_:N2f9db17b4360423a8c41bfc97b2b57cd"
         },
         {
-          "@id": "_:N5813c0db403349de89241b8e0d386aca"
+          "@id": "_:Nd894623be5f94f38829c453e038f4eb8"
         }
       ],
       "bsc:output": {
-        "@id": "_:N17a9390db8d64c77b4c743b6d83d0937"
+        "@id": "_:N66c48bd3ec884952a5ae497dbdbb1080"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -123,7 +123,7 @@
       "sc:url": "https://github.com/dellytools/delly"
     },
     {
-      "@id": "_:N6c4a006937504ede9712f475a2381c3a",
+      "@id": "_:N2f9db17b4360423a8c41bfc97b2b57cd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -134,7 +134,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N5813c0db403349de89241b8e0d386aca",
+      "@id": "_:Nd894623be5f94f38829c453e038f4eb8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -145,7 +145,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N17a9390db8d64c77b4c743b6d83d0937",
+      "@id": "_:N66c48bd3ec884952a5ae497dbdbb1080",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"

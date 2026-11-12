@@ -36,15 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-5703-9673",
+      "@id": "https://orcid.org/0000-0003-3219-8149",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0001-6002-1856",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-7848-8216",
+      "@id": "https://orcid.org/0000-0002-8917-1169",
       "@type": "sc:Person"
     },
     {
@@ -52,30 +48,22 @@
       "@type": "sc:Person"
     },
     {
+      "@id": "https://orcid.org/0000-0002-7848-8216",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://doi.org/10.1093/nar/gkz378",
       "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-6803-0340",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-9677-5078",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-3219-8149",
-      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/caver_web",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "CAVER team",
       "bsc:input": {
-        "@id": "_:Nb0c5bf8ea6fa44e681b6a9b50ca48448"
+        "@id": "_:N65130dbfe25e4cc88c1dd08d138283cd"
       },
       "bsc:output": {
-        "@id": "_:N2380f19885ee4345a4349207fcb4a259"
+        "@id": "_:N65611e7ae4e94f55ba4817fabf4a1263"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -164,7 +152,7 @@
       "sc:url": "https://loschmidt.chemi.muni.cz/caverweb/"
     },
     {
-      "@id": "_:Nb0c5bf8ea6fa44e681b6a9b50ca48448",
+      "@id": "_:N65130dbfe25e4cc88c1dd08d138283cd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -175,7 +163,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N2380f19885ee4345a4349207fcb4a259",
+      "@id": "_:N65611e7ae4e94f55ba4817fabf4a1263",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
@@ -191,7 +179,19 @@
       "sc:name": "Protein structure report"
     },
     {
-      "@id": "https://orcid.org/0000-0002-8917-1169",
+      "@id": "https://orcid.org/0000-0001-6002-1856",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-6803-0340",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5703-9673",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9677-5078",
       "@type": "sc:Person"
     }
   ]

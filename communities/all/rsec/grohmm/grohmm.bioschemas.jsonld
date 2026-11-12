@@ -40,24 +40,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nda48905d0e454049bb3f9d88a7381fbb"
+          "@id": "_:N6591b2b56283470ca25a5fcc2a49c01c"
         },
         {
-          "@id": "_:N398379b5f75d4bd39978f4d5ba7e2225"
+          "@id": "_:N2c4948d675964eb3af9023e0fb99efb9"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N115e64828e2f42338fc2ae8f3ba36c3d"
+          "@id": "_:Nbe476ff78ea744d987775c6b8a71aede"
         },
         {
-          "@id": "_:Nea94639f3f344ca5b88c900daae95f7a"
+          "@id": "_:Nb7e056d711b646df85a731ac1d24a3c9"
         },
         {
-          "@id": "_:N2d1a7007c3a9477da7fcf7a6c7918013"
+          "@id": "_:Nad58b5875a9b44159ec704d0f5411fc2"
         },
         {
-          "@id": "_:N4b71d37107314ad8a7899a1a32f452ca"
+          "@id": "_:N08246613241d4d5e9877c515e8678a9b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -94,7 +94,7 @@
           "@id": "edam:operation_2478"
         }
       ],
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "groHMM",
       "sc:operatingSystem": [
         "Linux",
@@ -108,7 +108,7 @@
       "sc:url": "https://bioconductor.org/packages/groHMM"
     },
     {
-      "@id": "_:Nda48905d0e454049bb3f9d88a7381fbb",
+      "@id": "_:N6591b2b56283470ca25a5fcc2a49c01c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -124,7 +124,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N398379b5f75d4bd39978f4d5ba7e2225",
+      "@id": "_:N2c4948d675964eb3af9023e0fb99efb9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -140,7 +140,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N115e64828e2f42338fc2ae8f3ba36c3d",
+      "@id": "_:Nbe476ff78ea744d987775c6b8a71aede",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -162,7 +162,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:Nea94639f3f344ca5b88c900daae95f7a",
+      "@id": "_:Nb7e056d711b646df85a731ac1d24a3c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -184,7 +184,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N2d1a7007c3a9477da7fcf7a6c7918013",
+      "@id": "_:Nad58b5875a9b44159ec704d0f5411fc2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -206,7 +206,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N4b71d37107314ad8a7899a1a32f452ca",
+      "@id": "_:N08246613241d4d5e9877c515e8678a9b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1017"

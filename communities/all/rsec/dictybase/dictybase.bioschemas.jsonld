@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/dictybase",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf22c66913ca7445e88d7215a0058a157"
+        "@id": "_:Ndb2b11747c834bc9bbbe16dd5e55391c"
       },
       "bsc:output": {
-        "@id": "_:Nd6b5b76580c14d4296d001bc57012e53"
+        "@id": "_:N2f786ae7c5e94b5a920c94ba3ab1271c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -77,7 +77,7 @@
       "sc:url": "http://dictybase.org/"
     },
     {
-      "@id": "_:Nf22c66913ca7445e88d7215a0058a157",
+      "@id": "_:Ndb2b11747c834bc9bbbe16dd5e55391c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -85,7 +85,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:Nd6b5b76580c14d4296d001bc57012e53",
+      "@id": "_:N2f786ae7c5e94b5a920c94ba3ab1271c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"

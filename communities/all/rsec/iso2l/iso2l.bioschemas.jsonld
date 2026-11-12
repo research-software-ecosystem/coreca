@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nddc05e9d6c3f4bdb828323f43b665b69"
+          "@id": "_:Ncf36cff88bdd48c1ae5890c19819e8be"
         },
         {
-          "@id": "_:Nda5bc3bdfc5d4ae28aac53f95c71fb47"
+          "@id": "_:N545a34542e1746cebf098e2aca8784cb"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N502866661f274d74837c28654a57ea00"
+          "@id": "_:N04233163b5da4297bf885f1a8481bb30"
         },
         {
-          "@id": "_:N071daf6a880e4f13aee0855b4e4f9de1"
+          "@id": "_:N373c8b93cd594f7d80d22ada8d037b97"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -87,7 +87,7 @@
       "sc:url": "http://blog.binfalse.de/software/iso2l/"
     },
     {
-      "@id": "_:Nddc05e9d6c3f4bdb828323f43b665b69",
+      "@id": "_:Ncf36cff88bdd48c1ae5890c19819e8be",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1857"
@@ -98,7 +98,7 @@
       "sc:name": "Atomic occupancy"
     },
     {
-      "@id": "_:Nda5bc3bdfc5d4ae28aac53f95c71fb47",
+      "@id": "_:N545a34542e1746cebf098e2aca8784cb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -109,7 +109,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N502866661f274d74837c28654a57ea00",
+      "@id": "_:N04233163b5da4297bf885f1a8481bb30",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -120,7 +120,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N071daf6a880e4f13aee0855b4e4f9de1",
+      "@id": "_:N373c8b93cd594f7d80d22ada8d037b97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

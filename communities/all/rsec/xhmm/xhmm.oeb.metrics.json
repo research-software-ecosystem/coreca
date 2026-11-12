@@ -34,7 +34,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 352,
+                            "cit_count": 361,
                             "citations": [
                                 {
                                     "count": 1,
@@ -45,12 +45,12 @@
                                     "year": 2025
                                 },
                                 {
-                                    "count": 16,
-                                    "year": 2026
+                                    "count": 17,
+                                    "year": 2013
                                 },
                                 {
                                     "count": 17,
-                                    "year": 2013
+                                    "year": 2026
                                 },
                                 {
                                     "count": 22,
@@ -65,12 +65,8 @@
                                     "year": 2014
                                 },
                                 {
-                                    "count": 24,
-                                    "year": 2022
-                                },
-                                {
                                     "count": 26,
-                                    "year": 2020
+                                    "year": 2022
                                 },
                                 {
                                     "count": 28,
@@ -82,18 +78,22 @@
                                 },
                                 {
                                     "count": 30,
-                                    "year": 2021
+                                    "year": 2020
                                 },
                                 {
                                     "count": 31,
                                     "year": 2016
                                 },
                                 {
+                                    "count": 31,
+                                    "year": 2021
+                                },
+                                {
                                     "count": 33,
                                     "year": 2015
                                 },
                                 {
-                                    "count": 36,
+                                    "count": 37,
                                     "year": 2019
                                 }
                             ],

@@ -41,8 +41,8 @@
     }
   ],
   "http://schema.org/citation": [
-    "ilastik",
     "Conservation Tracking",
+    "ilastik",
     {
       "@id": "https://ieeexplore.ieee.org/document/6751475"
     },

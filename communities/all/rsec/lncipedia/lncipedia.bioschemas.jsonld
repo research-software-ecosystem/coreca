@@ -44,21 +44,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N08e2dcda2dd5487e97b68fd602c3489c"
+          "@id": "_:Nb432f9f7ee32485a9d672adb17471c90"
         },
         {
-          "@id": "_:N67afe36b440a4cf8baa6c6cd7757594c"
+          "@id": "_:N6bba04ef532544f09da1596b43b34b86"
         },
         {
-          "@id": "_:Ndac81f20b7a44de2b571a41017a89c5c"
+          "@id": "_:Na7f8703c80074ea8a06ac955fa3def82"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2d5e2be9e33446fd81a4a88e20b177a7"
+          "@id": "_:N635116b12dbe4c238ead13c5821d3c74"
         },
         {
-          "@id": "_:N38cb43acd3e947319e3230a133cb7b10"
+          "@id": "_:N8602aaa5c5c04a8883d2c2ad55f7ce22"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -95,7 +95,7 @@
       "sc:url": "http://www.lncipedia.org/"
     },
     {
-      "@id": "_:N08e2dcda2dd5487e97b68fd602c3489c",
+      "@id": "_:Nb432f9f7ee32485a9d672adb17471c90",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -103,7 +103,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N67afe36b440a4cf8baa6c6cd7757594c",
+      "@id": "_:N6bba04ef532544f09da1596b43b34b86",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -111,7 +111,7 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:Ndac81f20b7a44de2b571a41017a89c5c",
+      "@id": "_:Na7f8703c80074ea8a06ac955fa3def82",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -133,7 +133,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:N2d5e2be9e33446fd81a4a88e20b177a7",
+      "@id": "_:N635116b12dbe4c238ead13c5821d3c74",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -141,7 +141,7 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:N38cb43acd3e947319e3230a133cb7b10",
+      "@id": "_:N8602aaa5c5c04a8883d2c2ad55f7ce22",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"

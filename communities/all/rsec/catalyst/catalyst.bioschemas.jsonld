@@ -36,11 +36,15 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.12688/f1000research.26073.2",
+      "@id": "https://doi.org/10.1016/j.cels.2018.02.010",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1016/j.cels.2018.02.010",
+      "@id": "https://doi.org/10.12688/f1000research.11622.3",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.12688/f1000research.26073.2",
       "@type": "sc:CreativeWork"
     },
     {
@@ -82,7 +86,7 @@
         }
       ],
       "sc:funder": "Bernd Bodenmiller",
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "CATALYST",
       "sc:operatingSystem": [
         "Linux",
@@ -94,10 +98,6 @@
       },
       "sc:softwareVersion": "1.36.0",
       "sc:url": "https://bioconductor.org/packages/CATALYST"
-    },
-    {
-      "@id": "https://doi.org/10.12688/f1000research.11622.3",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

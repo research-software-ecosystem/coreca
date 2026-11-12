@@ -36,23 +36,27 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/gigascience/giab007",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/htslib",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Wellcome Sanger Institute",
       "bsc:input": [
         {
-          "@id": "_:N2ea88e30666849d3b7a353bbbe806d50"
+          "@id": "_:Ne510e863085041409f8360fbc685e0a2"
         },
         {
-          "@id": "_:Nc3f09c505f014145a932e8e31f27915a"
+          "@id": "_:N82d4e35ae31a40088769544052779036"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5237fe82e9b847799c99f435a4b2c092"
+          "@id": "_:N2e6957b77a7440cba89e13a30951561d"
         },
         {
-          "@id": "_:N0308162d410849d899a3dd20fb7b8b96"
+          "@id": "_:N2800d9e1c8fa472196845147c5bc8681"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -123,7 +127,7 @@
       "sc:url": "http://www.htslib.org/"
     },
     {
-      "@id": "_:N2ea88e30666849d3b7a353bbbe806d50",
+      "@id": "_:Ne510e863085041409f8360fbc685e0a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -148,7 +152,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:Nc3f09c505f014145a932e8e31f27915a",
+      "@id": "_:N82d4e35ae31a40088769544052779036",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -164,7 +168,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N5237fe82e9b847799c99f435a4b2c092",
+      "@id": "_:N2e6957b77a7440cba89e13a30951561d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -189,7 +193,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N0308162d410849d899a3dd20fb7b8b96",
+      "@id": "_:N2800d9e1c8fa472196845147c5bc8681",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -203,10 +207,6 @@
         }
       ],
       "sc:name": "Sequence variations"
-    },
-    {
-      "@id": "https://doi.org/10.1093/gigascience/giab007",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

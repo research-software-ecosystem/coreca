@@ -43,21 +43,21 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N05175b296ba74f0bbb83bfe4428d2840"
+          "@id": "_:Nd59d6d142bc34546a60c3d72af5eb4e6"
         },
         {
-          "@id": "_:N76d6d4adc7d144a799c23e6960e592e2"
+          "@id": "_:Nf9cd09bda13f4b17b25478802764a552"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3d9bc1b14aac4c35b2c4f744c9e30a37"
+          "@id": "_:N37fbc3f31844405d856b5a480a623efc"
         },
         {
-          "@id": "_:Ncf7e43a13885459d8769ba7266278d0e"
+          "@id": "_:Ncc43366e406342749cee30db332e3227"
         },
         {
-          "@id": "_:N91e509f08787409aa36211d50135920d"
+          "@id": "_:Nc8fa61486cc04a9abcdb47cd54020fa1"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -112,7 +112,7 @@
       "sc:url": "https://github.com/BU-ISCIII/plasmidID"
     },
     {
-      "@id": "_:N05175b296ba74f0bbb83bfe4428d2840",
+      "@id": "_:Nd59d6d142bc34546a60c3d72af5eb4e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -128,7 +128,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N76d6d4adc7d144a799c23e6960e592e2",
+      "@id": "_:Nf9cd09bda13f4b17b25478802764a552",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -139,7 +139,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:N3d9bc1b14aac4c35b2c4f744c9e30a37",
+      "@id": "_:N37fbc3f31844405d856b5a480a623efc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2084"
@@ -155,7 +155,7 @@
       "sc:name": "Nucleic acid report"
     },
     {
-      "@id": "_:Ncf7e43a13885459d8769ba7266278d0e",
+      "@id": "_:Ncc43366e406342749cee30db332e3227",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -166,7 +166,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N91e509f08787409aa36211d50135920d",
+      "@id": "_:Nc8fa61486cc04a9abcdb47cd54020fa1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2969"

@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/SURFY",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na5d1669f19f9496e954e4c43a0684911"
+        "@id": "_:Na7005669401b4cc1aad06dab43942cb8"
       },
       "bsc:output": {
-        "@id": "_:N39541b250a6545d3b9aa2293580a1614"
+        "@id": "_:Nd0bfab49d69e4a54a59321512ec86bf8"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -78,7 +78,7 @@
       "sc:url": "http://wlab.ethz.ch/surfaceome/"
     },
     {
-      "@id": "_:Na5d1669f19f9496e954e4c43a0684911",
+      "@id": "_:Na7005669401b4cc1aad06dab43942cb8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -89,7 +89,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N39541b250a6545d3b9aa2293580a1614",
+      "@id": "_:Nd0bfab49d69e4a54a59321512ec86bf8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"

@@ -21,7 +21,7 @@ bib:
 - key: doi
   value: 10.1038/ng1847
 popcon:
-- insts: 124
-  olde: 94
-  recent: 22
-  vote: 8
+- insts: 133
+  olde: 95
+  recent: 28
+  vote: 10

@@ -43,10 +43,10 @@
         "Jana Vrbková"
       ],
       "bsc:input": {
-        "@id": "_:N7a4af7b3df00460e83fa216d136165e3"
+        "@id": "_:N006a6f6c19e54d9a9c4f2596186f49fa"
       },
       "bsc:output": {
-        "@id": "_:Nac0e027c81c741bcb578815cb834308a"
+        "@id": "_:N18543a2e7e4348fa9dcfd1db45d3dcda"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -82,7 +82,7 @@
       "sc:url": "http://decryptor.imtm.cz/"
     },
     {
-      "@id": "_:N7a4af7b3df00460e83fa216d136165e3",
+      "@id": "_:N006a6f6c19e54d9a9c4f2596186f49fa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -90,7 +90,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Nac0e027c81c741bcb578815cb834308a",
+      "@id": "_:N18543a2e7e4348fa9dcfd1db45d3dcda",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2762"

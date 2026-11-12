@@ -36,32 +36,28 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/s41592-023-01938-4",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/scenicplus",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N0969cddbeb0441428b158e65f4b4a333"
+          "@id": "_:Nea03314dd2dc4f0fadf7925355c7dc9d"
         },
         {
-          "@id": "_:N16f18e3cc30a42c7ba3fcb2ac2af68f1"
+          "@id": "_:N2741dbc733284c8d86044d208706133d"
         },
         {
-          "@id": "_:N3d5a14e959804793b944f9c70c8bf0ce"
+          "@id": "_:N5c2bb68076df4057a8e80b19439c5099"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N4dc8a58bfc414a70aa9229fe69d4c208"
+          "@id": "_:N47fcb350e86f4f0aa3dc35305449cb59"
         },
         {
-          "@id": "_:Ne0ffc59db7b64a3eba1baa5b151b772b"
+          "@id": "_:N6546430cd8ac4ada97cd88909f8df171"
         },
         {
-          "@id": "_:N447e6783f56c40edb887392174235f48"
+          "@id": "_:Nea7c6d469a274373a3f6df268b51a296"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -105,7 +101,7 @@
       "sc:url": "https://github.com/aertslab/scenicplus"
     },
     {
-      "@id": "_:N0969cddbeb0441428b158e65f4b4a333",
+      "@id": "_:Nea03314dd2dc4f0fadf7925355c7dc9d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -116,7 +112,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N16f18e3cc30a42c7ba3fcb2ac2af68f1",
+      "@id": "_:N2741dbc733284c8d86044d208706133d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -127,7 +123,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N3d5a14e959804793b944f9c70c8bf0ce",
+      "@id": "_:N5c2bb68076df4057a8e80b19439c5099",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -138,7 +134,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N4dc8a58bfc414a70aa9229fe69d4c208",
+      "@id": "_:N47fcb350e86f4f0aa3dc35305449cb59",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -146,7 +142,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Ne0ffc59db7b64a3eba1baa5b151b772b",
+      "@id": "_:N6546430cd8ac4ada97cd88909f8df171",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -154,12 +150,16 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N447e6783f56c40edb887392174235f48",
+      "@id": "_:Nea7c6d469a274373a3f6df268b51a296",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
       },
       "sc:name": "Plot"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41592-023-01938-4",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

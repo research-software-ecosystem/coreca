@@ -22,14 +22,14 @@
             ]
         },
         {
-            "name": "Fabien Claude Lamaze",
+            "name": "Pascal Belleau",
             "typeEntity": "Person",
             "typeRole": [
-                "Contributor"
+                "Developer"
             ]
         },
         {
-            "name": "Pascal Belleau",
+            "name": "Rawane Samb",
             "typeEntity": "Person",
             "typeRole": [
                 "Developer"
@@ -42,13 +42,13 @@
             "type": [
                 "User manual"
             ],
-            "url": "https://bioconductor.org/packages/consensusSeekeR"
+            "url": "https://bioconductor.org/packages/nucleoSim"
         }
     ],
     "download": [
         {
             "type": "Source code",
-            "url": "https://github.com/adeschen/consensusSeekeR"
+            "url": "https://github.com/arnauddroitlab/nucleoSim"
         }
     ],
     "editPermission": {
@@ -64,11 +64,11 @@
             ]
         }
     ],
-    "homepage": "https://bioconductor.org/packages/consensusSeekeR",
+    "homepage": "https://bioconductor.org/packages/nucleoSim",
     "language": [
         "R"
     ],
-    "lastUpdate": "2026-10-11T01:45:06.233531Z",
+    "lastUpdate": "2026-10-18T01:30:07.814214Z",
     "license": "Artistic-2.0",
     "link": [
         {
@@ -104,6 +104,9 @@
     ],
     "owner": "shadi.m",
     "publication": [
+        {
+            "doi": "10.1093/bioinformatics/btr345"
+        },
         {
             "doi": "10.1515/sagmb-2014-0098"
         }

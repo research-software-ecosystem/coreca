@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gki424",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/stitchprofiles",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Eivind Hovig",
       "bsc:input": {
-        "@id": "_:N0e0cd1953c3042e48f184861d86c4201"
+        "@id": "_:Ne35f3660aa744c43af363d79ab1778a6"
       },
       "bsc:output": {
-        "@id": "_:Nc99846e20ee24fd4b3e65b3549df3e63"
+        "@id": "_:N6cee8476132344858ba24c04d71ea2a4"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -101,7 +97,7 @@
       "sc:url": "http://stitchprofiles.uio.no/"
     },
     {
-      "@id": "_:N0e0cd1953c3042e48f184861d86c4201",
+      "@id": "_:Ne35f3660aa744c43af363d79ab1778a6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -112,7 +108,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:Nc99846e20ee24fd4b3e65b3549df3e63",
+      "@id": "_:N6cee8476132344858ba24c04d71ea2a4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2958"
@@ -121,6 +117,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Nucleic acid melting curve"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gki424",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,19 +36,27 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1471-2105-7-454",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1534/genetics.108.092643",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/blossoc",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Thomas Mailund",
       "bsc:input": [
         {
-          "@id": "_:N14615e853bae41f0b00bc269872d3bce"
+          "@id": "_:Nc3e7d1d93119468e907f1ef9ddcc9512"
         },
         {
-          "@id": "_:N5355c493ce6d4d26b94e4e745b731825"
+          "@id": "_:N5a6281b4d10741b49d8af3db5f321156"
         }
       ],
       "bsc:output": {
-        "@id": "_:N2e4f483e6ccb4377b1e52d0d5717aee1"
+        "@id": "_:Ndb3c986954e74d5e901fef089305e319"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -84,7 +92,7 @@
       "sc:url": "http://www.daimi.au.dk/~mailund/Blossoc/"
     },
     {
-      "@id": "_:N14615e853bae41f0b00bc269872d3bce",
+      "@id": "_:Nc3e7d1d93119468e907f1ef9ddcc9512",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1863"
@@ -92,7 +100,7 @@
       "sc:name": "Haplotype map"
     },
     {
-      "@id": "_:N5355c493ce6d4d26b94e4e745b731825",
+      "@id": "_:N5a6281b4d10741b49d8af3db5f321156",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -100,20 +108,12 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:N2e4f483e6ccb4377b1e52d0d5717aee1",
+      "@id": "_:Ndb3c986954e74d5e901fef089305e319",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
       },
       "sc:name": "Image"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1471-2105-7-454",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1534/genetics.108.092643",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

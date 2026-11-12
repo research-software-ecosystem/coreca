@@ -15,7 +15,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 977,
+                            "cit_count": 1007,
                             "citations": [
                                 {
                                     "count": 4,
@@ -51,10 +51,6 @@
                                 },
                                 {
                                     "count": 11,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 11,
                                     "year": 2018
                                 },
                                 {
@@ -63,15 +59,19 @@
                                 },
                                 {
                                     "count": 12,
-                                    "year": 1999
-                                },
-                                {
-                                    "count": 12,
                                     "year": 2016
                                 },
                                 {
                                     "count": 12,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 12,
                                     "year": 2022
+                                },
+                                {
+                                    "count": 14,
+                                    "year": 1999
                                 },
                                 {
                                     "count": 18,
@@ -99,27 +99,23 @@
                                 },
                                 {
                                     "count": 37,
-                                    "year": 2001
-                                },
-                                {
-                                    "count": 37,
                                     "year": 2011
                                 },
                                 {
                                     "count": 43,
-                                    "year": 2000
+                                    "year": 2001
                                 },
                                 {
-                                    "count": 48,
-                                    "year": 2003
+                                    "count": 46,
+                                    "year": 2000
                                 },
                                 {
                                     "count": 51,
                                     "year": 2005
                                 },
                                 {
-                                    "count": 59,
-                                    "year": 2002
+                                    "count": 53,
+                                    "year": 2003
                                 },
                                 {
                                     "count": 59,
@@ -127,6 +123,10 @@
                                 },
                                 {
                                     "count": 65,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 66,
                                     "year": 2006
                                 },
                                 {
@@ -134,7 +134,7 @@
                                     "year": 2008
                                 },
                                 {
-                                    "count": 72,
+                                    "count": 74,
                                     "year": 2007
                                 },
                                 {
@@ -142,7 +142,7 @@
                                     "year": 2009
                                 },
                                 {
-                                    "count": 95,
+                                    "count": 99,
                                     "year": 2004
                                 }
                             ],

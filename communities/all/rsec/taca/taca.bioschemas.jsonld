@@ -44,16 +44,16 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nca06753d5849413abb85a87f8fd881a4"
+          "@id": "_:N0877c0f9dbb64e1dabf8472b197eb036"
         },
         {
-          "@id": "_:N15f6be4200464efcbb48a36336e8be00"
+          "@id": "_:Nb35fe9c93aca45d98c0a974c5c8379d5"
         },
         {
-          "@id": "_:Nae5e17b35a594a08bb0f90868fbeff93"
+          "@id": "_:N20bb791e04e14a1d8faac4bfa18369b2"
         },
         {
-          "@id": "_:N9932c5b9b6ee462ba013acd56f63ca40"
+          "@id": "_:Nc79e94eda2684f78a42154ec501e361f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -107,7 +107,7 @@
       "sc:url": "https://taca.lerner.ccf.org/"
     },
     {
-      "@id": "_:Nca06753d5849413abb85a87f8fd881a4",
+      "@id": "_:N0877c0f9dbb64e1dabf8472b197eb036",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2899"
@@ -115,7 +115,7 @@
       "sc:name": "Drug name"
     },
     {
-      "@id": "_:N15f6be4200464efcbb48a36336e8be00",
+      "@id": "_:Nb35fe9c93aca45d98c0a974c5c8379d5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2326"
@@ -123,7 +123,7 @@
       "sc:name": "DrugBank ID"
     },
     {
-      "@id": "_:Nae5e17b35a594a08bb0f90868fbeff93",
+      "@id": "_:N20bb791e04e14a1d8faac4bfa18369b2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -131,7 +131,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N9932c5b9b6ee462ba013acd56f63ca40",
+      "@id": "_:Nc79e94eda2684f78a42154ec501e361f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1904"

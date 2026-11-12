@@ -40,17 +40,13 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "http://orcid.org/0000-0001-6439-9397",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/IDBAc",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne36d186736da47e2aee9b3529c56baaa"
+        "@id": "_:N64a63013e0054ed2b723e48cc0a02e10"
       },
       "bsc:output": {
-        "@id": "_:Nf3a815a0fac143d593626ba896ee4d9d"
+        "@id": "_:Nbcc2cac7e70141aeba4533497aa8d63d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -125,7 +121,7 @@
       "sc:url": "https://chasemc.github.io/IDBac"
     },
     {
-      "@id": "_:Ne36d186736da47e2aee9b3529c56baaa",
+      "@id": "_:N64a63013e0054ed2b723e48cc0a02e10",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -150,7 +146,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nf3a815a0fac143d593626ba896ee4d9d",
+      "@id": "_:Nbcc2cac7e70141aeba4533497aa8d63d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -159,6 +155,10 @@
         "@id": "edam:format_3621"
       },
       "sc:name": "Data"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-6439-9397",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://doi.org/10.3791/59219",

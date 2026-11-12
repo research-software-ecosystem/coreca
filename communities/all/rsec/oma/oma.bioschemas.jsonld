@@ -36,21 +36,33 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gku1158",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkx1019",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkaa1007",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/oma",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Christophe Dessimoz",
       "bsc:input": [
         {
-          "@id": "_:N53f43256f7894500be5c2bdbace2bb96"
+          "@id": "_:N7f1ba9853033403a872e50138ad29a96"
         },
         {
-          "@id": "_:N5dea91d537294692bbd18e64863cb2fb"
+          "@id": "_:N125a7b78010941bdba4077ed751e7408"
         },
         {
-          "@id": "_:N1ca05ba2535e40abb89aa23a508b02d1"
+          "@id": "_:Ne7828f12b84d41ed9c7984f491cd04bb"
         },
         {
-          "@id": "_:Ne10971efbb5f487a897c51853960c299"
+          "@id": "_:N8b2decc3352343d98b2630a6eb717935"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -106,7 +118,7 @@
       "sc:url": "http://omabrowser.org/oma/home/"
     },
     {
-      "@id": "_:N53f43256f7894500be5c2bdbace2bb96",
+      "@id": "_:N7f1ba9853033403a872e50138ad29a96",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -114,7 +126,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N5dea91d537294692bbd18e64863cb2fb",
+      "@id": "_:N125a7b78010941bdba4077ed751e7408",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -122,7 +134,7 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:N1ca05ba2535e40abb89aa23a508b02d1",
+      "@id": "_:Ne7828f12b84d41ed9c7984f491cd04bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3671"
@@ -130,7 +142,7 @@
       "sc:name": "Text"
     },
     {
-      "@id": "_:Ne10971efbb5f487a897c51853960c299",
+      "@id": "_:N8b2decc3352343d98b2630a6eb717935",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -138,19 +150,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkx1019",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gku1158",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1093/nar/gkad1020",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkaa1007",
       "@type": "sc:CreativeWork"
     }
   ]

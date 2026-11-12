@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/Rootnav_2.0",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9e3b881fc96145799d1543a4aba85297"
+        "@id": "_:N63d18878d9d948fcad156652b85acaf8"
       },
       "bsc:output": {
-        "@id": "_:Nb9284a0b49884b09a0fcb1b43a45157a"
+        "@id": "_:N0309571e252e432c925565a4ec857ab4"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -59,7 +59,7 @@
       "sc:url": "https://github.com/robail-yasrab/RootNav-2.0/"
     },
     {
-      "@id": "_:N9e3b881fc96145799d1543a4aba85297",
+      "@id": "_:N63d18878d9d948fcad156652b85acaf8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -67,7 +67,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nb9284a0b49884b09a0fcb1b43a45157a",
+      "@id": "_:N0309571e252e432c925565a4ec857ab4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"

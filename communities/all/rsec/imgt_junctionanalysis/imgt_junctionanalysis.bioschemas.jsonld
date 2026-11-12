@@ -40,21 +40,17 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1101/pdb.prot5634",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/IMGT_JunctionAnalysis",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N96dec0c478154e3ab68f070a3614c797"
+        "@id": "_:N0f6c934502d64a319ae1862e21a82c03"
       },
       "bsc:output": [
         {
-          "@id": "_:Nb66cccaafde1461da48a8749ccdf836d"
+          "@id": "_:N5e341b81bc91480a95427662336820f3"
         },
         {
-          "@id": "_:N66c8c6f6e3774540a84f4b8018e8ac04"
+          "@id": "_:N81e9154d5fee4987ab5bdedea20d32e2"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -107,7 +103,7 @@
       "sc:url": "http://www.imgt.org/IMGT_jcta"
     },
     {
-      "@id": "_:N96dec0c478154e3ab68f070a3614c797",
+      "@id": "_:N0f6c934502d64a319ae1862e21a82c03",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -118,7 +114,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nb66cccaafde1461da48a8749ccdf836d",
+      "@id": "_:N5e341b81bc91480a95427662336820f3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -129,7 +125,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N66c8c6f6e3774540a84f4b8018e8ac04",
+      "@id": "_:N81e9154d5fee4987ab5bdedea20d32e2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0867"
@@ -138,6 +134,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Sequence alignment report"
+    },
+    {
+      "@id": "https://doi.org/10.1101/pdb.prot5634",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gku1056",

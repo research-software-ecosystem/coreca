@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.3389/fgene.2023.1181592",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/lm_dti",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N65b793e3c3dc48109f8f6ab2f3bde5ef"
+          "@id": "_:N0bf081746edf4c45be52e078bc6386a0"
         },
         {
-          "@id": "_:N2d2dd9057ee44de88dee6f176f57233c"
+          "@id": "_:N56e6c87a59fa48028e8d0014e2dd6914"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -98,7 +94,7 @@
       "sc:url": "http://www.lirmed.com:5038/lm_dti"
     },
     {
-      "@id": "_:N65b793e3c3dc48109f8f6ab2f3bde5ef",
+      "@id": "_:N0bf081746edf4c45be52e078bc6386a0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0993"
@@ -106,12 +102,16 @@
       "sc:name": "Drug identifier"
     },
     {
-      "@id": "_:N2d2dd9057ee44de88dee6f176f57233c",
+      "@id": "_:N56e6c87a59fa48028e8d0014e2dd6914",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
       },
       "sc:name": "Gene name"
+    },
+    {
+      "@id": "https://doi.org/10.3389/fgene.2023.1181592",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

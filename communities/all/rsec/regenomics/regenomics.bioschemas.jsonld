@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd37ff96c358e48b3bb4ab6aa823aac9b"
+          "@id": "_:Ne0be741431ec4fbba98a606172521826"
         },
         {
-          "@id": "_:N87004f6afc194ca3b1627906af4960e0"
+          "@id": "_:N2dd59267d7a14a03a6e3443bf28eb38b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -101,7 +101,7 @@
       "sc:url": "http://plantregeneration.snu.ac.kr/regenomics/?species=Ath"
     },
     {
-      "@id": "_:Nd37ff96c358e48b3bb4ab6aa823aac9b",
+      "@id": "_:Ne0be741431ec4fbba98a606172521826",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -109,7 +109,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:N87004f6afc194ca3b1627906af4960e0",
+      "@id": "_:N2dd59267d7a14a03a6e3443bf28eb38b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1893"

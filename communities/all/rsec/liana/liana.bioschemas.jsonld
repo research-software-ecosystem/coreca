@@ -36,21 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/s41467-022-30755-0",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1038/s41556-024-01469-w",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/liana",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8701dd20240c459594186a71c30a9e64"
+        "@id": "_:Na84360311fd344c1bee256fffbe5672b"
       },
       "bsc:output": {
-        "@id": "_:N4fa7a04b995045938a81ad24ce8f086a"
+        "@id": "_:N75575b1b08bf41eaa4b72aaca0d4b5eb"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -109,7 +101,7 @@
       "sc:url": "https://liana-py.readthedocs.io/en/latest/"
     },
     {
-      "@id": "_:N8701dd20240c459594186a71c30a9e64",
+      "@id": "_:Na84360311fd344c1bee256fffbe5672b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -120,12 +112,20 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N4fa7a04b995045938a81ad24ce8f086a",
+      "@id": "_:N75575b1b08bf41eaa4b72aaca0d4b5eb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3768"
       },
       "sc:name": "Clustered expression profiles"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-022-30755-0",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41556-024-01469-w",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

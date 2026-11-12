@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N4a24dfcf69604071a5cac3717e5a251e"
+          "@id": "_:N9366658faa644b8ca3b297dc1eaa70d3"
         },
         {
-          "@id": "_:N7c2e58a7655945d194e821f95683fbb5"
+          "@id": "_:Nbed22955f3e046ae9b78cb09ce095faa"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -95,7 +95,7 @@
       "sc:url": "https://overprot.ncbr.muni.cz/home"
     },
     {
-      "@id": "_:N4a24dfcf69604071a5cac3717e5a251e",
+      "@id": "_:N9366658faa644b8ca3b297dc1eaa70d3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2700"
@@ -103,7 +103,7 @@
       "sc:name": "CATH identifier"
     },
     {
-      "@id": "_:N7c2e58a7655945d194e821f95683fbb5",
+      "@id": "_:Nbed22955f3e046ae9b78cb09ce095faa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1742"

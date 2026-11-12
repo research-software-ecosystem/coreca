@@ -40,20 +40,16 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0000-0002-6687-7169",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/nmrprocflow",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "https://orcid.org/0000-0002-6687-7169"
       },
       "bsc:input": {
-        "@id": "_:Nc7ec09ece4dd40c1a5947bd2393dd907"
+        "@id": "_:N1e608dc7932f4f7abb7e9443f1c71478"
       },
       "bsc:output": {
-        "@id": "_:Na565f264a9ee4d5e9f210467a36e6f62"
+        "@id": "_:N7b9a6fbd7d18438bbe63d78745d01032"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -103,7 +99,7 @@
       "sc:url": "http://nmrprocflow.org/"
     },
     {
-      "@id": "_:Nc7ec09ece4dd40c1a5947bd2393dd907",
+      "@id": "_:N1e608dc7932f4f7abb7e9443f1c71478",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3488"
@@ -111,12 +107,16 @@
       "sc:name": "NMR spectrum"
     },
     {
-      "@id": "_:Na565f264a9ee4d5e9f210467a36e6f62",
+      "@id": "_:N7b9a6fbd7d18438bbe63d78745d01032",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
       },
       "sc:name": "Matrix"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-6687-7169",
+      "@type": "sc:Person"
     }
   ]
 }

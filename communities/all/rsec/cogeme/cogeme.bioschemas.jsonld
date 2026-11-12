@@ -36,26 +36,22 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1111/j.1364-3703.2005.00317.x",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/cogeme",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nfddc02ba6a82479a9945d9aed375bc68"
+          "@id": "_:N0d8d0350e89b4e439128cdff25c6370f"
         },
         {
-          "@id": "_:N62990b76392244429e1159d7b2041620"
+          "@id": "_:Nb4776e4faaaf41acb251182cc5c46cd8"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N265a8fa12ed146548b112a9719a81f99"
+          "@id": "_:N54dbe3e2f17c49708a69f90d0dab2538"
         },
         {
-          "@id": "_:N53038f0df14d435da3df03be9991eb09"
+          "@id": "_:N803cc36ebc284413aaefa8d7674f699f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -91,7 +87,7 @@
       "sc:url": "http://cogeme.ex.ac.uk/"
     },
     {
-      "@id": "_:Nfddc02ba6a82479a9945d9aed375bc68",
+      "@id": "_:N0d8d0350e89b4e439128cdff25c6370f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2729"
@@ -99,7 +95,7 @@
       "sc:name": "COGEME EST ID"
     },
     {
-      "@id": "_:N62990b76392244429e1159d7b2041620",
+      "@id": "_:Nb4776e4faaaf41acb251182cc5c46cd8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2730"
@@ -107,7 +103,7 @@
       "sc:name": "COGEME unisequence ID"
     },
     {
-      "@id": "_:N265a8fa12ed146548b112a9719a81f99",
+      "@id": "_:N54dbe3e2f17c49708a69f90d0dab2538",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -118,7 +114,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N53038f0df14d435da3df03be9991eb09",
+      "@id": "_:N803cc36ebc284413aaefa8d7674f699f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -127,6 +123,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Sequence record"
+    },
+    {
+      "@id": "https://doi.org/10.1111/j.1364-3703.2005.00317.x",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/topcons",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na783ad5bbe1d4471ba85b26f39f3138b"
+        "@id": "_:N811c948b5da2473e9d501c1ae434ab1a"
       },
       "bsc:output": {
-        "@id": "_:N5f6222e7281a420aa06da47be60231b8"
+        "@id": "_:N319c8a41734342249ece6d1cea89908f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -74,7 +74,7 @@
       "sc:url": "http://topcons.cbr.su.se/"
     },
     {
-      "@id": "_:Na783ad5bbe1d4471ba85b26f39f3138b",
+      "@id": "_:N811c948b5da2473e9d501c1ae434ab1a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -82,7 +82,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N5f6222e7281a420aa06da47be60231b8",
+      "@id": "_:N319c8a41734342249ece6d1cea89908f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

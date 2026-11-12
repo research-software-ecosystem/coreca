@@ -41,30 +41,30 @@
       "biotools:primaryContact": "Paolo Romano",
       "bsc:input": [
         {
-          "@id": "_:N84df5f545b8b4dcaac8c5b21ad91ec1a"
+          "@id": "_:N2d05690df14d4f57981885a0fb7c344c"
         },
         {
-          "@id": "_:N9dc7c94bc8584230ae1ec7729b2d6815"
+          "@id": "_:N6a9e56c26fd941b6a5ced7d753d7b263"
         },
         {
-          "@id": "_:Nb699113ce9da4cfe805a6e71760f0629"
+          "@id": "_:N8dd666e6810245b5b6ba0746e6575a05"
         },
         {
-          "@id": "_:N0e45a8bd9b614ec7a65f7b2fd82a5146"
+          "@id": "_:N17cbc3f2cea14b2c9fd4994674824de0"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nacad330c5e3849d795c8da5f66297af2"
+          "@id": "_:N9f75a9fe9cb4491a85d529f00f7a7639"
         },
         {
-          "@id": "_:N30719527c4a9455b9868d66f9b250446"
+          "@id": "_:N8ec7ecc09d44486a8616ac9d1c7af574"
         },
         {
-          "@id": "_:N4008574cb039415e8a5f551d71e50d34"
+          "@id": "_:Nac132e6fa0ca4a63bce4938efa165fb4"
         },
         {
-          "@id": "_:N2794f215d3a04011ba57448009eb8e5c"
+          "@id": "_:N516b08e572f540f98575d73f6aad03e3"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -96,7 +96,7 @@
       "sc:url": "http://bioinformatics.hsanmartino.it/clima/"
     },
     {
-      "@id": "_:N84df5f545b8b4dcaac8c5b21ad91ec1a",
+      "@id": "_:N2d05690df14d4f57981885a0fb7c344c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2320"
@@ -104,7 +104,7 @@
       "sc:name": "Cell line name (assonant)"
     },
     {
-      "@id": "_:N9dc7c94bc8584230ae1ec7729b2d6815",
+      "@id": "_:N6a9e56c26fd941b6a5ced7d753d7b263",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2317"
@@ -112,7 +112,7 @@
       "sc:name": "Cell line name (exact)"
     },
     {
-      "@id": "_:Nb699113ce9da4cfe805a6e71760f0629",
+      "@id": "_:N8dd666e6810245b5b6ba0746e6575a05",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2319"
@@ -120,7 +120,7 @@
       "sc:name": "Cell line name (no punctuation)"
     },
     {
-      "@id": "_:N0e45a8bd9b614ec7a65f7b2fd82a5146",
+      "@id": "_:N17cbc3f2cea14b2c9fd4994674824de0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2318"
@@ -128,7 +128,7 @@
       "sc:name": "Cell line name (truncated)"
     },
     {
-      "@id": "_:Nacad330c5e3849d795c8da5f66297af2",
+      "@id": "_:N9f75a9fe9cb4491a85d529f00f7a7639",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0963"
@@ -139,7 +139,7 @@
       "sc:name": "Cell line report"
     },
     {
-      "@id": "_:N30719527c4a9455b9868d66f9b250446",
+      "@id": "_:N8ec7ecc09d44486a8616ac9d1c7af574",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0963"
@@ -150,7 +150,7 @@
       "sc:name": "Cell line report"
     },
     {
-      "@id": "_:N4008574cb039415e8a5f551d71e50d34",
+      "@id": "_:Nac132e6fa0ca4a63bce4938efa165fb4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0963"
@@ -161,7 +161,7 @@
       "sc:name": "Cell line report"
     },
     {
-      "@id": "_:N2794f215d3a04011ba57448009eb8e5c",
+      "@id": "_:N516b08e572f540f98575d73f6aad03e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0963"

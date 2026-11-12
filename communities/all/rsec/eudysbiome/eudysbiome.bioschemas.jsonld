@@ -56,7 +56,7 @@
         "@id": "edam:operation_3672"
       },
       "sc:isAccessibleForFree": true,
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "eudysbiome",
       "sc:operatingSystem": [
         "Linux",

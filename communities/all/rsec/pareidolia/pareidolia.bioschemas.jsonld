@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/pareidolia",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc38148a4dcb84b53b14463d1144a8346"
+        "@id": "_:N7c55c892892f4305ab7d6d107e4bcee9"
       },
       "bsc:output": {
-        "@id": "_:Ne384374b54b34a379f3ced782c73a75c"
+        "@id": "_:N81054bca39db4eb3bd5525343a1c94f2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -86,7 +86,7 @@
       "sc:url": "https://github.com/koszullab/pareidolia"
     },
     {
-      "@id": "_:Nc38148a4dcb84b53b14463d1144a8346",
+      "@id": "_:N7c55c892892f4305ab7d6d107e4bcee9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2856"
@@ -97,7 +97,7 @@
       "sc:name": "Structural distance matrix"
     },
     {
-      "@id": "_:Ne384374b54b34a379f3ced782c73a75c",
+      "@id": "_:N81054bca39db4eb3bd5525343a1c94f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0951"

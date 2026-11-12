@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkr313",
+      "@id": "https://doi.org/10.1016/j.tibs.2008.01.001",
       "@type": "sc:CreativeWork"
     },
     {
@@ -48,6 +48,10 @@
       "@type": "sc:Person"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkr313",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ipath",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -55,26 +59,26 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N048ee202622b4c48b185d21cd6205a94"
+          "@id": "_:N0ef3fe7f51334b748a640b369ea5856c"
         },
         {
-          "@id": "_:N167a695d61d1482d8a3a4bdcd5c2c3c0"
+          "@id": "_:N3a77c81c92cf4f39964824f80d3bb7c1"
         },
         {
-          "@id": "_:N1690dda8c34940ab838786c810ae0416"
+          "@id": "_:N39be2d640771457783a37604885b781d"
         },
         {
-          "@id": "_:Na8c33982871340b393c2a740a1bd9e3e"
+          "@id": "_:N401009343c334ca9965524c6b5c33015"
         },
         {
-          "@id": "_:N39ad79a05e254a7e805989c25a11a5f8"
+          "@id": "_:N2d3b048bc4cc42c594660772d0f223ec"
         },
         {
-          "@id": "_:Neacba0a8add44da2bb0824380903c7d1"
+          "@id": "_:N2e838c3498604d5092e71d7d2a52dd49"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nfe4235fe8e4240b3923197d858d203b8"
+        "@id": "_:N33ed48fdae584d629dc3f03cdcaab041"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -130,7 +134,7 @@
       "sc:url": "https://pathways.embl.de/"
     },
     {
-      "@id": "_:N048ee202622b4c48b185d21cd6205a94",
+      "@id": "_:N0ef3fe7f51334b748a640b369ea5856c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1011"
@@ -138,7 +142,7 @@
       "sc:name": "EC number"
     },
     {
-      "@id": "_:N167a695d61d1482d8a3a4bdcd5c2c3c0",
+      "@id": "_:N3a77c81c92cf4f39964824f80d3bb7c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1027"
@@ -146,7 +150,7 @@
       "sc:name": "Gene ID (NCBI)"
     },
     {
-      "@id": "_:N1690dda8c34940ab838786c810ae0416",
+      "@id": "_:N39be2d640771457783a37604885b781d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2384"
@@ -154,7 +158,7 @@
       "sc:name": "IPI protein ID"
     },
     {
-      "@id": "_:Na8c33982871340b393c2a740a1bd9e3e",
+      "@id": "_:N401009343c334ca9965524c6b5c33015",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2343"
@@ -162,7 +166,7 @@
       "sc:name": "Pathway ID (KEGG)"
     },
     {
-      "@id": "_:N39ad79a05e254a7e805989c25a11a5f8",
+      "@id": "_:N2d3b048bc4cc42c594660772d0f223ec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2764"
@@ -170,7 +174,7 @@
       "sc:name": "Protein name (UniProt)"
     },
     {
-      "@id": "_:Neacba0a8add44da2bb0824380903c7d1",
+      "@id": "_:N2e838c3498604d5092e71d7d2a52dd49",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2302"
@@ -178,7 +182,7 @@
       "sc:name": "STRING ID"
     },
     {
-      "@id": "_:Nfe4235fe8e4240b3923197d858d203b8",
+      "@id": "_:N33ed48fdae584d629dc3f03cdcaab041",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -187,10 +191,6 @@
         "@id": "edam:format_3475"
       },
       "sc:name": "Matrix"
-    },
-    {
-      "@id": "https://doi.org/10.1016/j.tibs.2008.01.001",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

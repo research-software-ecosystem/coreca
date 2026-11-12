@@ -40,10 +40,6 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "http://orcid.org/0000-0002-8285-7766",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/msqrob",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -54,18 +50,18 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Nac8a81def5984ab8a3685640273660f3"
+          "@id": "_:Nb93b1759029f4a168283bafa945e680c"
         },
         {
-          "@id": "_:N8152f30055344a0dbbb7acfff22fb59b"
+          "@id": "_:N878b1025e2af4df6836e4f15b28887a6"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8652335f375e4edeaf33344c429a91fd"
+          "@id": "_:Nf8b19fce5c8e467d831f1f379d6713ae"
         },
         {
-          "@id": "_:N680b9f6ba32746f2b3f35f378660585d"
+          "@id": "_:N251552c7c1844b9bb9df85a550c00f2a"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -116,7 +112,7 @@
       "sc:url": "https://github.com/ludgergoeminne/MSqRob"
     },
     {
-      "@id": "_:Nac8a81def5984ab8a3685640273660f3",
+      "@id": "_:Nb93b1759029f4a168283bafa945e680c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"
@@ -132,7 +128,7 @@
       "sc:name": "Experiment report"
     },
     {
-      "@id": "_:N8152f30055344a0dbbb7acfff22fb59b",
+      "@id": "_:N878b1025e2af4df6836e4f15b28887a6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -143,7 +139,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:N8652335f375e4edeaf33344c429a91fd",
+      "@id": "_:Nf8b19fce5c8e467d831f1f379d6713ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -151,7 +147,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N680b9f6ba32746f2b3f35f378660585d",
+      "@id": "_:N251552c7c1844b9bb9df85a550c00f2a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -165,6 +161,10 @@
         }
       ],
       "sc:name": "Report"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-8285-7766",
+      "@type": "sc:Person"
     }
   ]
 }

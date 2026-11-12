@@ -36,26 +36,22 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.48550/arXiv.2512.17517",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/PathBench-MIL",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne0ce87b1cc2643699e52887fc3e2134c"
+          "@id": "_:N1e4a4f45479f4e649c1469fe9e0b9b6a"
         },
         {
-          "@id": "_:N9dd6a82c9d6a4611a66448d4427c1432"
+          "@id": "_:Ndf0c28b40b8a42659c7b4b3c76115bfc"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N19c678b3dd65410ea75ec13708c1e867"
+          "@id": "_:Ndb7943622a2842bbb180cb6d181c9d14"
         },
         {
-          "@id": "_:Nd9cbbf9d97b74508b3ea77415425319b"
+          "@id": "_:N80574cb1c697449494e2ac0b95e2b680"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -70,7 +66,7 @@
       "sc:citation": {
         "@id": "https://doi.org/10.48550/arXiv.2512.17517"
       },
-      "sc:description": "PathBench-MIL is a comprehensive, flexible benchmarking/AutoML framework for multiple instance learning in histopathology",
+      "sc:description": "PathBench-MIL is a comprehensive, flexible benchmarking/AutoML framework for multiple instance learning in histopathology. PathBench-MIL is expected to be deprecated and replaced by PathForge.",
       "sc:featureList": [
         {
           "@id": "edam:operation_2990"
@@ -92,7 +88,7 @@
       "sc:url": "https://github.com/Sbrussee/PathBench-MIL"
     },
     {
-      "@id": "_:Ne0ce87b1cc2643699e52887fc3e2134c",
+      "@id": "_:N1e4a4f45479f4e649c1469fe9e0b9b6a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -103,7 +99,7 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:N9dd6a82c9d6a4611a66448d4427c1432",
+      "@id": "_:Ndf0c28b40b8a42659c7b4b3c76115bfc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -114,7 +110,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N19c678b3dd65410ea75ec13708c1e867",
+      "@id": "_:Ndb7943622a2842bbb180cb6d181c9d14",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3905"
@@ -125,7 +121,7 @@
       "sc:name": "Histogram"
     },
     {
-      "@id": "_:Nd9cbbf9d97b74508b3ea77415425319b",
+      "@id": "_:N80574cb1c697449494e2ac0b95e2b680",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -134,6 +130,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.48550/arXiv.2512.17517",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

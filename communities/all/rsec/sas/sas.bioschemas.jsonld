@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/protein/11.10.855",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/sas",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Roman Laskowski",
       "bsc:input": {
-        "@id": "_:N6cc0727a438e4315bdd4b8c54e4faa78"
+        "@id": "_:N50f4bf64bc6449858d14b5f7da954373"
       },
       "bsc:output": [
         {
-          "@id": "_:N5ae289eed92749a686e9cbe1f96bebd3"
+          "@id": "_:Nc1412908481943a59df7d3362453bf25"
         },
         {
-          "@id": "_:Nfc47ec8a4e6649159945392662c4a449"
+          "@id": "_:N4d115eefe3b345f486cc5bbea28bf7fa"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -99,7 +103,7 @@
       "sc:url": "http://www.ebi.ac.uk/thornton-srv/databases/sas"
     },
     {
-      "@id": "_:N6cc0727a438e4315bdd4b8c54e4faa78",
+      "@id": "_:N50f4bf64bc6449858d14b5f7da954373",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -107,7 +111,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N5ae289eed92749a686e9cbe1f96bebd3",
+      "@id": "_:Nc1412908481943a59df7d3362453bf25",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -118,7 +122,7 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:Nfc47ec8a4e6649159945392662c4a449",
+      "@id": "_:N4d115eefe3b345f486cc5bbea28bf7fa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -127,10 +131,6 @@
         "@id": "edam:format_1476"
       },
       "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "https://doi.org/10.1093/protein/11.10.855",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

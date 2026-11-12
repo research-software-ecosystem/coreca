@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btag055",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/ucell",
       "@type": "sc:SoftwareApplication",
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -68,7 +64,7 @@
       "sc:featureList": {
         "@id": "edam:operation_3435"
       },
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "UCell",
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/UCell"
@@ -78,6 +74,10 @@
     },
     {
       "@id": "https://doi.org/10.1016/j.csbj.2021.06.043",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btag055",
       "@type": "sc:CreativeWork"
     }
   ]

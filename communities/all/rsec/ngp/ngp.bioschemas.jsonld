@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1021/acs.jproteome.1c00136",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ngp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3d4db5c73f354e3e8be5b8a07c022bd0"
+        "@id": "_:N15d4ff95167a4e28b5a90cee4b45ad1d"
       },
       "bsc:output": {
-        "@id": "_:N60e0d6272a524f7da12c17ba4965ff67"
+        "@id": "_:Ne0455ac3e7a34992a86cf57f67ec8ac3"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:citation": [
@@ -60,7 +64,7 @@
       "sc:url": "https://github.com/magnuspalmblad/NGP"
     },
     {
-      "@id": "_:N3d4db5c73f354e3e8be5b8a07c022bd0",
+      "@id": "_:N15d4ff95167a4e28b5a90cee4b45ad1d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -71,7 +75,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N60e0d6272a524f7da12c17ba4965ff67",
+      "@id": "_:Ne0455ac3e7a34992a86cf57f67ec8ac3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3869"
@@ -85,10 +89,6 @@
         }
       ],
       "sc:name": "Simulation"
-    },
-    {
-      "@id": "https://doi.org/10.1021/acs.jproteome.1c00136",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

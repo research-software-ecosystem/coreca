@@ -36,19 +36,23 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/nmeth.4334",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/piqed",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "jessegmeyer@gmail.com",
       "bsc:input": [
         {
-          "@id": "_:N481588a06dc1432b9f1b8faa60910af9"
+          "@id": "_:Nc1559c34982a4c688835e5869a3ab804"
         },
         {
-          "@id": "_:N09b3939071b048ce942160d243bc6339"
+          "@id": "_:N9f9d6adafb2846fca3bd95347d9b4b69"
         }
       ],
       "bsc:output": {
-        "@id": "_:N61e830f7ffc34990b780d6934ef97435"
+        "@id": "_:N9343362cf39a463c8496c234ba54ea90"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -89,7 +93,7 @@
       "sc:url": "https://github.com/jgmeyerucsd/PIQEDia"
     },
     {
-      "@id": "_:N481588a06dc1432b9f1b8faa60910af9",
+      "@id": "_:Nc1559c34982a4c688835e5869a3ab804",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -100,7 +104,7 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:N09b3939071b048ce942160d243bc6339",
+      "@id": "_:N9f9d6adafb2846fca3bd95347d9b4b69",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3483"
@@ -111,7 +115,7 @@
       "sc:name": "Spectrum"
     },
     {
-      "@id": "_:N61e830f7ffc34990b780d6934ef97435",
+      "@id": "_:N9343362cf39a463c8496c234ba54ea90",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -120,10 +124,6 @@
         "@id": "edam:format_2032"
       },
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://doi.org/10.1038/nmeth.4334",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

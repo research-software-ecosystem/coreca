@@ -36,7 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0001-5906-8569",
+      "@id": "https://orcid.org/0000-0003-3644-7827",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3999-9400",
       "@type": "sc:Person"
     },
     {
@@ -48,16 +52,8 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0002-3999-9400",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://doi.org/10.1186/s12859-017-1688-7",
       "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-3644-7827",
-      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/quantgenius",
@@ -72,10 +68,10 @@
         "Miha Svalina"
       ],
       "bsc:input": {
-        "@id": "_:N2054e00039374b4a9adb6a07ea283b1a"
+        "@id": "_:Neb495bb9affd4491b9dffd6a26df5179"
       },
       "bsc:output": {
-        "@id": "_:N676c45490e4e44a1a436df887e1f82f9"
+        "@id": "_:N746cb537b7ff4653816201239f4f22e5"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -136,7 +132,7 @@
       "sc:url": "http://quantgenius.nib.si/"
     },
     {
-      "@id": "_:N2054e00039374b4a9adb6a07ea283b1a",
+      "@id": "_:Neb495bb9affd4491b9dffd6a26df5179",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -147,7 +143,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N676c45490e4e44a1a436df887e1f82f9",
+      "@id": "_:N746cb537b7ff4653816201239f4f22e5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -156,6 +152,10 @@
         "@id": "edam:format_1964"
       },
       "sc:name": "Gene expression data"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5906-8569",
+      "@type": "sc:Person"
     }
   ]
 }

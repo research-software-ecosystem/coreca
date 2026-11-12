@@ -36,31 +36,19 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btp394",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pindel2vcf",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Nfd0bc47dfaaf426a83dc51b507f00f72"
+          "@id": "_:N2870d4997ebc48abbb42c19ed20ce5fb"
         },
         {
-          "@id": "_:N4315e5c365d24d9791fee1484318241e"
+          "@id": "_:Nce2b7090656b415e85a7e4f6d602bc87"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ncee8f0b2ebe5479b9e9a061f9df1ab6e"
+        "@id": "_:N89d58497329b48e1bb8bea3dd947e8ad"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -95,7 +83,7 @@
       "sc:url": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/pindel2vcf/pindel2vcf/0.2.5a3"
     },
     {
-      "@id": "_:Nfd0bc47dfaaf426a83dc51b507f00f72",
+      "@id": "_:N2870d4997ebc48abbb42c19ed20ce5fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -106,7 +94,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N4315e5c365d24d9791fee1484318241e",
+      "@id": "_:Nce2b7090656b415e85a7e4f6d602bc87",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -117,7 +105,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Ncee8f0b2ebe5479b9e9a061f9df1ab6e",
+      "@id": "_:N89d58497329b48e1bb8bea3dd947e8ad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -126,6 +114,18 @@
         "@id": "edam:format_3016"
       },
       "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btp394",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -70,7 +70,7 @@
       "sc:featureList": {
         "@id": "edam:operation_3680"
       },
-      "sc:license": "LGPL-3.0-only",
+      "sc:license": "LGPL-3.0",
       "sc:name": "APAlyzer",
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/APAlyzer"

@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Yves Van de Peer",
       "bsc:input": {
-        "@id": "_:Nabb51351a99545b1b66e1cd0bbc0f997"
+        "@id": "_:N544b08d2c0324fbaa12f4fc2b72dc54d"
       },
       "bsc:output": {
-        "@id": "_:N3753d2661d584125b30a17a83ad31b82"
+        "@id": "_:Nd60ee63f327f457aa243c1456f356bab"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -74,7 +74,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/orcae/"
     },
     {
-      "@id": "_:Nabb51351a99545b1b66e1cd0bbc0f997",
+      "@id": "_:N544b08d2c0324fbaa12f4fc2b72dc54d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -82,7 +82,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N3753d2661d584125b30a17a83ad31b82",
+      "@id": "_:Nd60ee63f327f457aa243c1456f356bab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"

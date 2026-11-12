@@ -42,14 +42,14 @@
         "@id": "https://orcid.org/0000-0002-6687-7169"
       },
       "bsc:input": {
-        "@id": "_:N4bb2d3a69ad14988ae55f87e413598f7"
+        "@id": "_:N8364beaa753347749b6db89510941d2a"
       },
       "bsc:output": [
         {
-          "@id": "_:N3938e35b586843ccafa1f8ae0e8550d0"
+          "@id": "_:Na4332f88fc454f76a8a9e776fe4e6aa1"
         },
         {
-          "@id": "_:Ncd596b4ffa6e45d690bd948253eb6602"
+          "@id": "_:N3cd9def93eb34d5bbc073d2901268303"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -117,7 +117,7 @@
       "sc:url": "https://inrae.github.io/ODAM/"
     },
     {
-      "@id": "_:N4bb2d3a69ad14988ae55f87e413598f7",
+      "@id": "_:N8364beaa753347749b6db89510941d2a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -128,7 +128,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N3938e35b586843ccafa1f8ae0e8550d0",
+      "@id": "_:Na4332f88fc454f76a8a9e776fe4e6aa1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -139,7 +139,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:Ncd596b4ffa6e45d690bd948253eb6602",
+      "@id": "_:N3cd9def93eb34d5bbc073d2901268303",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

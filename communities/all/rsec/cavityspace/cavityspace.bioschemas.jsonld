@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.3390/biom12070967",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/cavityspace",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N99133151f2204ca699b124f15a58673d"
+          "@id": "_:N924899e582124086890cbd179b7a5514"
         },
         {
-          "@id": "_:Na02bcc20f22248628612c1e75526a750"
+          "@id": "_:N21de219be555498c94afa69b7adf512d"
         },
         {
-          "@id": "_:Nb6e0ca7a5e0a40a28273aa72a0cdaf3a"
+          "@id": "_:Ne0a86cb1681c42ecba511aa81331cf33"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -100,7 +104,7 @@
       "sc:url": "http://www.pkumdl.cn:8000/cavityspace/"
     },
     {
-      "@id": "_:N99133151f2204ca699b124f15a58673d",
+      "@id": "_:N924899e582124086890cbd179b7a5514",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -108,7 +112,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:Na02bcc20f22248628612c1e75526a750",
+      "@id": "_:N21de219be555498c94afa69b7adf512d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1009"
@@ -116,16 +120,12 @@
       "sc:name": "Protein name"
     },
     {
-      "@id": "_:Nb6e0ca7a5e0a40a28273aa72a0cdaf3a",
+      "@id": "_:Ne0a86cb1681c42ecba511aa81331cf33",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2764"
       },
       "sc:name": "Protein name (UniProt)"
-    },
-    {
-      "@id": "https://doi.org/10.3390/biom12070967",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

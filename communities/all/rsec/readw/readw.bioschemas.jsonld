@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/readw",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf7856aab0c944ada85c575656748b7e6"
+        "@id": "_:N52fe597da936408e91ff4d7f8ac8cf9e"
       },
       "bsc:output": {
-        "@id": "_:Nf3f19d706ff64a918b5f3a1a58074485"
+        "@id": "_:N5f8a4769b8ad43f09e5e3d5e43d6ae24"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -71,7 +71,7 @@
       "sc:url": "http://tools.proteomecenter.org/ReAdW.php"
     },
     {
-      "@id": "_:Nf7856aab0c944ada85c575656748b7e6",
+      "@id": "_:N52fe597da936408e91ff4d7f8ac8cf9e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -82,7 +82,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Nf3f19d706ff64a918b5f3a1a58074485",
+      "@id": "_:N5f8a4769b8ad43f09e5e3d5e43d6ae24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"

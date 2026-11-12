@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.3390/metabo11020113",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/mmtb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N73586c8396a647dba7aa883470e81bbb"
+        "@id": "_:N4dde9f2ca7614dedb02c660cee9e53ce"
       },
       "bsc:output": {
-        "@id": "_:N470e80907e5540958c986d9262478f67"
+        "@id": "_:N3d02f5784c844ef799d4ab8e45a3cf6d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -87,7 +83,7 @@
       "sc:url": "https://mmtb.brenda-enzymes.org/"
     },
     {
-      "@id": "_:N73586c8396a647dba7aa883470e81bbb",
+      "@id": "_:N4dde9f2ca7614dedb02c660cee9e53ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -95,12 +91,16 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N470e80907e5540958c986d9262478f67",
+      "@id": "_:N3d02f5784c844ef799d4ab8e45a3cf6d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3869"
       },
       "sc:name": "Simulation"
+    },
+    {
+      "@id": "https://doi.org/10.3390/metabo11020113",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

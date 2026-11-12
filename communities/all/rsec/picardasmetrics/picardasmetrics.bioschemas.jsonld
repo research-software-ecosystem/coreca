@@ -36,27 +36,19 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/picardasmetrics",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Nc2350b0f981d4834b978f4cb50415a4c"
+          "@id": "_:Nba7e5ebf423540a2a4e6c38a42aa4675"
         },
         {
-          "@id": "_:N376170ec639e4ccf9d46bc9a1eb5e7c4"
+          "@id": "_:N5b5d97c8b0014a1fa9aeab0a1901ce42"
         }
       ],
       "bsc:output": {
-        "@id": "_:N829bd313fa354e22b8d9a923827be996"
+        "@id": "_:Nf857c3efcfb04346b7b2e4719cc0f6d2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -90,7 +82,7 @@
       "sc:url": "https://broadinstitute.github.io/picard/"
     },
     {
-      "@id": "_:Nc2350b0f981d4834b978f4cb50415a4c",
+      "@id": "_:Nba7e5ebf423540a2a4e6c38a42aa4675",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -106,7 +98,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N376170ec639e4ccf9d46bc9a1eb5e7c4",
+      "@id": "_:N5b5d97c8b0014a1fa9aeab0a1901ce42",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -117,7 +109,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N829bd313fa354e22b8d9a923827be996",
+      "@id": "_:Nf857c3efcfb04346b7b2e4719cc0f6d2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -126,6 +118,14 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

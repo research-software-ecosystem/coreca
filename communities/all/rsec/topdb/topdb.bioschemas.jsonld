@@ -36,38 +36,34 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkm751",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/topdb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N8ccdbcd77d9b40e582b0a95ea7ab05ea"
+          "@id": "_:N17023ca6cd18488aa9673bc6fb96eb9f"
         },
         {
-          "@id": "_:N15268e2067e5453897b28453cfae5c40"
+          "@id": "_:N3018165ac200490dbe70a46ee9c5776b"
         },
         {
-          "@id": "_:Nbbc228a36c8f49bf86d0e4a0bb680716"
+          "@id": "_:Nf9fd22d870dd42cd99f4472ad3ed7054"
         },
         {
-          "@id": "_:Nda7095277871406a98c447aa64b90166"
+          "@id": "_:Nd77d873fee0e4ad19dcf26b831fab675"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nb6929e24f8804c0d98af94cc1267a012"
+          "@id": "_:N4e2d4bf2d2f44b47a39295f7f03f8112"
         },
         {
-          "@id": "_:N263aa4f48b27453e8c1fe2a317b22fa3"
+          "@id": "_:N57c082e7114c4643bc40e84e18757856"
         },
         {
-          "@id": "_:N30ee40f09bb64053b002ddfb609ed8d9"
+          "@id": "_:Ne6959094d1fe4f2ea58107dc59f88211"
         },
         {
-          "@id": "_:Nc889919481f14f0fbc7794e35028ec08"
+          "@id": "_:Ncbf87fca4a244c9caa76521d6f6ea26d"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -98,7 +94,7 @@
       "sc:url": "http://toPDB.enzim.hu"
     },
     {
-      "@id": "_:N8ccdbcd77d9b40e582b0a95ea7ab05ea",
+      "@id": "_:N17023ca6cd18488aa9673bc6fb96eb9f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2789"
@@ -106,7 +102,7 @@
       "sc:name": "Protein ID (TopDB)"
     },
     {
-      "@id": "_:N15268e2067e5453897b28453cfae5c40",
+      "@id": "_:N3018165ac200490dbe70a46ee9c5776b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2789"
@@ -114,7 +110,7 @@
       "sc:name": "Protein ID (TopDB)"
     },
     {
-      "@id": "_:Nbbc228a36c8f49bf86d0e4a0bb680716",
+      "@id": "_:Nf9fd22d870dd42cd99f4472ad3ed7054",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2789"
@@ -122,7 +118,7 @@
       "sc:name": "Protein ID (TopDB)"
     },
     {
-      "@id": "_:Nda7095277871406a98c447aa64b90166",
+      "@id": "_:Nd77d873fee0e4ad19dcf26b831fab675",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2789"
@@ -130,7 +126,7 @@
       "sc:name": "Protein ID (TopDB)"
     },
     {
-      "@id": "_:Nb6929e24f8804c0d98af94cc1267a012",
+      "@id": "_:N4e2d4bf2d2f44b47a39295f7f03f8112",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -141,7 +137,7 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:N263aa4f48b27453e8c1fe2a317b22fa3",
+      "@id": "_:N57c082e7114c4643bc40e84e18757856",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -152,7 +148,7 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:N30ee40f09bb64053b002ddfb609ed8d9",
+      "@id": "_:Ne6959094d1fe4f2ea58107dc59f88211",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -163,7 +159,7 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:Nc889919481f14f0fbc7794e35028ec08",
+      "@id": "_:Ncbf87fca4a244c9caa76521d6f6ea26d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -172,6 +168,10 @@
         "@id": "edam:format_2332"
       },
       "sc:name": "Protein features"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkm751",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

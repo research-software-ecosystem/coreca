@@ -40,26 +40,22 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1002/etc.5591",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/seqapass",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nfb0f351bb2c64731b06d5eec51045c34"
+          "@id": "_:Nbfb76cc232cb4473a950f61f4ba4d8ee"
         },
         {
-          "@id": "_:N33f8c62e7e7f4601939d34a1c2bfc374"
+          "@id": "_:N7b41b5b4f0de42a89a0e609cb254078f"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N45933e7128294314adef7698b033e6ec"
+          "@id": "_:Nd43b8a996cf14fd99aedde0908d30533"
         },
         {
-          "@id": "_:N6f5110faa7884c51a9aca06282ad51ef"
+          "@id": "_:N9b92bb6dc01e4b8aaa47a1a883c46e8d"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -117,7 +113,7 @@
       "sc:url": "https://seqapass.epa.gov/seqapass"
     },
     {
-      "@id": "_:Nfb0f351bb2c64731b06d5eec51045c34",
+      "@id": "_:Nbfb76cc232cb4473a950f61f4ba4d8ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2327"
@@ -125,7 +121,7 @@
       "sc:name": "GI number (protein)"
     },
     {
-      "@id": "_:N33f8c62e7e7f4601939d34a1c2bfc374",
+      "@id": "_:N7b41b5b4f0de42a89a0e609cb254078f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1179"
@@ -133,7 +129,7 @@
       "sc:name": "NCBI taxonomy ID"
     },
     {
-      "@id": "_:N45933e7128294314adef7698b033e6ec",
+      "@id": "_:Nd43b8a996cf14fd99aedde0908d30533",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -141,12 +137,16 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N6f5110faa7884c51a9aca06282ad51ef",
+      "@id": "_:N9b92bb6dc01e4b8aaa47a1a883c46e8d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
       },
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.1002/etc.5591",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

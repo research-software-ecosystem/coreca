@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/nbt.4317",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/SelfTarget",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ncd4a801861ab488191605b730f8197b9"
+        "@id": "_:Nb96fa5921770495a84f905a5dc6f3741"
       },
       "bsc:output": {
-        "@id": "_:N999b7fdf32824ffbb0cf3286511734cc"
+        "@id": "_:N2137d222c7654716a05a15c1c33dc7c0"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -90,7 +94,7 @@
       "sc:url": "https://github.com/felicityallen/SelfTarget"
     },
     {
-      "@id": "_:Ncd4a801861ab488191605b730f8197b9",
+      "@id": "_:Nb96fa5921770495a84f905a5dc6f3741",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -101,7 +105,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N999b7fdf32824ffbb0cf3286511734cc",
+      "@id": "_:N2137d222c7654716a05a15c1c33dc7c0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2084"
@@ -110,10 +114,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Nucleic acid report"
-    },
-    {
-      "@id": "https://doi.org/10.1038/nbt.4317",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

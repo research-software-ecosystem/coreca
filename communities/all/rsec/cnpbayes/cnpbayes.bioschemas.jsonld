@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Jacob Carey",
       "bsc:input": {
-        "@id": "_:Nd03c6b049bb14c4495aba00fed1213fb"
+        "@id": "_:N43b8233dc251470784c64484e65dca8e"
       },
       "bsc:output": [
         {
-          "@id": "_:N178f674af61e401c8036097a85ac5df7"
+          "@id": "_:N6b81454485e44d848119366d79462975"
         },
         {
-          "@id": "_:N71d0fca5e39c4ee4a0ccff02581849d3"
+          "@id": "_:Nf4061f3f074242728e557240df64a165"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -103,7 +103,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/CNPBayes.html"
     },
     {
-      "@id": "_:Nd03c6b049bb14c4495aba00fed1213fb",
+      "@id": "_:N43b8233dc251470784c64484e65dca8e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -114,7 +114,7 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:N178f674af61e401c8036097a85ac5df7",
+      "@id": "_:N6b81454485e44d848119366d79462975",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -125,7 +125,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N71d0fca5e39c4ee4a0ccff02581849d3",
+      "@id": "_:Nf4061f3f074242728e557240df64a165",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

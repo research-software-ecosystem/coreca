@@ -36,31 +36,35 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1101/2023.02.14.528456",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/rice_gene_index",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nae396ac66c4849e190dbc10f452c4d16"
+          "@id": "_:Nbbec1485a3f64d37b992964d55f3ae10"
         },
         {
-          "@id": "_:N19a8735b911a4c798611be1c813b26a0"
+          "@id": "_:Ncce1d2a1faf546b4a9013a06b46af0b7"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N46890f45458f49ba9a40d8b1db54303b"
+          "@id": "_:N99dc5230d71545fab9577f20015c22d6"
         },
         {
-          "@id": "_:N2fa75861b91642628a08f413e50ac96d"
+          "@id": "_:N675e0d42c85546e1b530c3efe8f852cb"
         },
         {
-          "@id": "_:N657400b3e62f4d038808909d39b9d24d"
+          "@id": "_:N75cf8d786a7f4788a1f7fbd1cc6d7821"
         },
         {
-          "@id": "_:N48d10cb1d65140e79706b991479b2971"
+          "@id": "_:N06145b85892d49bb8ab967d9dd38ee41"
         },
         {
-          "@id": "_:N2ee718edcdd8447082e598d0514aa113"
+          "@id": "_:N19508ed7315c4da2a6daf47271fcffe8"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -123,7 +127,7 @@
       "sc:url": "https://riceome.hzau.edu.cn/"
     },
     {
-      "@id": "_:Nae396ac66c4849e190dbc10f452c4d16",
+      "@id": "_:Nbbec1485a3f64d37b992964d55f3ae10",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -131,7 +135,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:N19a8735b911a4c798611be1c813b26a0",
+      "@id": "_:Ncce1d2a1faf546b4a9013a06b46af0b7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -139,7 +143,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N46890f45458f49ba9a40d8b1db54303b",
+      "@id": "_:N99dc5230d71545fab9577f20015c22d6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -147,7 +151,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:N2fa75861b91642628a08f413e50ac96d",
+      "@id": "_:N675e0d42c85546e1b530c3efe8f852cb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3754"
@@ -155,7 +159,7 @@
       "sc:name": "GO-term enrichment data"
     },
     {
-      "@id": "_:N657400b3e62f4d038808909d39b9d24d",
+      "@id": "_:N75cf8d786a7f4788a1f7fbd1cc6d7821",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -163,7 +167,7 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:N48d10cb1d65140e79706b991479b2971",
+      "@id": "_:N06145b85892d49bb8ab967d9dd38ee41",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3148"
@@ -171,16 +175,12 @@
       "sc:name": "Gene family report"
     },
     {
-      "@id": "_:N2ee718edcdd8447082e598d0514aa113",
+      "@id": "_:N19508ed7315c4da2a6daf47271fcffe8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
       },
       "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "https://doi.org/10.1101/2023.02.14.528456",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

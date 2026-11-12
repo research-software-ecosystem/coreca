@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btw304",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/seqlm",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N662b6dabec4c41a0992703fa40419db3"
+        "@id": "_:N187c602628de49b4b069ff8c0e53c16b"
       },
       "bsc:output": {
-        "@id": "_:N05af19b59cd346abacad4f2c9dc7c45a"
+        "@id": "_:N7a5b84d3d3094538a448e0945e447e8b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -78,7 +74,7 @@
       "sc:url": "https://github.com/raivokolde/seqlm"
     },
     {
-      "@id": "_:N662b6dabec4c41a0992703fa40419db3",
+      "@id": "_:N187c602628de49b4b069ff8c0e53c16b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -86,12 +82,16 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N05af19b59cd346abacad4f2c9dc7c45a",
+      "@id": "_:N7a5b84d3d3094538a448e0945e447e8b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
       },
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btw304",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

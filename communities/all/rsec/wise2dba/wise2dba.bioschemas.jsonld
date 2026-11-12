@@ -48,14 +48,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:Ne7a1a3d0e17d4e929d481e02309f1091"
+        "@id": "_:N73732c7a9be94d30949f10ab5fa91f00"
       },
       "bsc:output": [
         {
-          "@id": "_:N17a313c12eb14c71897a8cff808490a0"
+          "@id": "_:N20f6bae5d51b4443a2c55505882552cd"
         },
         {
-          "@id": "_:N659a13db0ed24320b41b804171a9196f"
+          "@id": "_:N5f4bc75f2473467faee59c83d366a4b2"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -107,7 +107,7 @@
       "sc:url": "http://www.ebi.ac.uk/Tools/psa/wise2dba/"
     },
     {
-      "@id": "_:Ne7a1a3d0e17d4e929d481e02309f1091",
+      "@id": "_:N73732c7a9be94d30949f10ab5fa91f00",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -115,7 +115,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N17a313c12eb14c71897a8cff808490a0",
+      "@id": "_:N20f6bae5d51b4443a2c55505882552cd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -123,7 +123,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:N659a13db0ed24320b41b804171a9196f",
+      "@id": "_:N5f4bc75f2473467faee59c83d366a4b2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"

@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.PWMEnrich",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/pwmenrich",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N09a2ee48bbee402dad0b1a43f933b0d8"
+        "@id": "_:N43d9828537c9486eaea922c9620c6bf3"
       },
       "bsc:output": [
         {
-          "@id": "_:N32623a47af334df5aa80f28bd00f44b6"
+          "@id": "_:N014792aaf1534ccbb7133b8f8496d3e6"
         },
         {
-          "@id": "_:N4691b9bd802c4c39a4b177f936f39335"
+          "@id": "_:N957676aadd63417894cab3548b2f4ddc"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -77,7 +81,7 @@
           "@id": "edam:operation_0239"
         }
       ],
-      "sc:license": "LGPL-2-or-later",
+      "sc:license": "LGPL-2.0-or-later",
       "sc:name": "PWMEnrich",
       "sc:operatingSystem": [
         "Linux",
@@ -91,7 +95,7 @@
       "sc:url": "https://bioconductor.org/packages/PWMEnrich"
     },
     {
-      "@id": "_:N09a2ee48bbee402dad0b1a43f933b0d8",
+      "@id": "_:N43d9828537c9486eaea922c9620c6bf3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -102,7 +106,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:N32623a47af334df5aa80f28bd00f44b6",
+      "@id": "_:N014792aaf1534ccbb7133b8f8496d3e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -113,7 +117,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N4691b9bd802c4c39a4b177f936f39335",
+      "@id": "_:N957676aadd63417894cab3548b2f4ddc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -122,10 +126,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Score"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.PWMEnrich",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

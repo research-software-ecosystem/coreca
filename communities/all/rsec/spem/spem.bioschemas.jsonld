@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/spem",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N5c8926f5e9124710a5b634a13c5317aa"
+        "@id": "_:N32206991a8dc485e94b08a520c47fcff"
       },
       "bsc:output": {
-        "@id": "_:N73da4e89862b4eeba6d60ba8a7aebb3c"
+        "@id": "_:N206e2f74632d4466be42a7e9229f41d6"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -68,7 +68,7 @@
           "@id": "edam:operation_3439"
         }
       ],
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "SPEM",
       "sc:operatingSystem": [
         "Linux",
@@ -82,7 +82,7 @@
       "sc:url": "https://bioconductor.org/packages/SPEM"
     },
     {
-      "@id": "_:N5c8926f5e9124710a5b634a13c5317aa",
+      "@id": "_:N32206991a8dc485e94b08a520c47fcff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -93,7 +93,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N73da4e89862b4eeba6d60ba8a7aebb3c",
+      "@id": "_:N206e2f74632d4466be42a7e9229f41d6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

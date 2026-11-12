@@ -40,6 +40,14 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkj006",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkp763",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/emage",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "EMAGE Support",
@@ -111,15 +119,7 @@
       "sc:url": "http://www.emouseatlas.org/emage/"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkp763",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1093/database/bar029",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkj006",
       "@type": "sc:CreativeWork"
     }
   ]

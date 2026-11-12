@@ -36,43 +36,47 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkw294",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/redundans",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N0841fdcbb8d8497b937cfb14ad28bec1"
+          "@id": "_:N19b826c8433d4c1a9e35974eb6c58f3e"
         },
         {
-          "@id": "_:Nc28ddcde589c498abf758f8f11c4d9d5"
+          "@id": "_:Nb3b9102435bc4a2fb1a49376dac7a6de"
         },
         {
-          "@id": "_:Ne0eb79473aed45e1b06840b4bf314037"
+          "@id": "_:N5e114ac2e10f42b28342f06c9c8c0371"
         },
         {
-          "@id": "_:N2148a67c6f584287a21335797f1ded6c"
+          "@id": "_:Nf3197d5616ee4480acab5f0be966feb5"
         },
         {
-          "@id": "_:N2a71ebcbea854493b258a9f5f77c96d9"
+          "@id": "_:N5b8fd550d3574534a831b89dce89a0a0"
         },
         {
-          "@id": "_:N35b6d3e7c16a4d2f8600ab7f159fbdfa"
+          "@id": "_:N19dbfdb648ff41399d3e883be5fe02c1"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nafa0837f159b400d97750d261f756e61"
+          "@id": "_:Nc431e3e92c304c75ad47ea991bc37794"
         },
         {
-          "@id": "_:N81a98244ed884a178512c29ad5c225f6"
+          "@id": "_:N62570bd76f434105b535ccb04267ea24"
         },
         {
-          "@id": "_:Nb5eee32c33894cbeaed2d7f36277eb78"
+          "@id": "_:N525410c570fc4cde978b35675e75a316"
         },
         {
-          "@id": "_:N272fed7867ca4dc4a200c70ecf44cc85"
+          "@id": "_:N12c92bc87c3049e288c38f049d03dc29"
         },
         {
-          "@id": "_:Nc555ed3dbaf740bface7483f51a1392e"
+          "@id": "_:N18a1e834a293413d9b92495ce834343d"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -127,7 +131,7 @@
       "sc:url": "https://github.com/Gabaldonlab/redundans"
     },
     {
-      "@id": "_:N0841fdcbb8d8497b937cfb14ad28bec1",
+      "@id": "_:N19b826c8433d4c1a9e35974eb6c58f3e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -138,7 +142,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:Nc28ddcde589c498abf758f8f11c4d9d5",
+      "@id": "_:Nb3b9102435bc4a2fb1a49376dac7a6de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -149,7 +153,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:Ne0eb79473aed45e1b06840b4bf314037",
+      "@id": "_:N5e114ac2e10f42b28342f06c9c8c0371",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -160,7 +164,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:N2148a67c6f584287a21335797f1ded6c",
+      "@id": "_:Nf3197d5616ee4480acab5f0be966feb5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -171,7 +175,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:N2a71ebcbea854493b258a9f5f77c96d9",
+      "@id": "_:N5b8fd550d3574534a831b89dce89a0a0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -182,7 +186,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:N35b6d3e7c16a4d2f8600ab7f159fbdfa",
+      "@id": "_:N19dbfdb648ff41399d3e883be5fe02c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -193,7 +197,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:Nafa0837f159b400d97750d261f756e61",
+      "@id": "_:Nc431e3e92c304c75ad47ea991bc37794",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -209,7 +213,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:N81a98244ed884a178512c29ad5c225f6",
+      "@id": "_:N62570bd76f434105b535ccb04267ea24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -225,7 +229,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:Nb5eee32c33894cbeaed2d7f36277eb78",
+      "@id": "_:N525410c570fc4cde978b35675e75a316",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -241,7 +245,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:N272fed7867ca4dc4a200c70ecf44cc85",
+      "@id": "_:N12c92bc87c3049e288c38f049d03dc29",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -249,7 +253,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nc555ed3dbaf740bface7483f51a1392e",
+      "@id": "_:N18a1e834a293413d9b92495ce834343d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -258,10 +262,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence assembly"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkw294",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

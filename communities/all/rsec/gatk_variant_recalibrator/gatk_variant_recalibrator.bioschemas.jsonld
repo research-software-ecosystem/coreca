@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1038/npre.2011.6107",
       "@type": "sc:CreativeWork"
     },
@@ -45,21 +49,21 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N6cb5e931a508470984ee58970893953d"
+          "@id": "_:N345d9bf11b4d442cbb2b51544d6b4b8b"
         },
         {
-          "@id": "_:N6e5d98bb14f84b7199e0915329f619e7"
+          "@id": "_:N7702f48902a245f49388b402775f474f"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Na010fe18e44640409c7f3b24b85282c9"
+          "@id": "_:N7475187387fd40af83618a7f8d775d49"
         },
         {
-          "@id": "_:Na3efe7c1a34d4eac953232431f96f70b"
+          "@id": "_:N188d144674bf46a6be3ecfe162b59810"
         },
         {
-          "@id": "_:N6c3953aa42744ad6a5391008a08bbd70"
+          "@id": "_:N83b2cfcd44844b7ebde4c7b0a63c3ab0"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -97,7 +101,7 @@
       "sc:url": "https://software.broadinstitute.org/gatk/"
     },
     {
-      "@id": "_:N6cb5e931a508470984ee58970893953d",
+      "@id": "_:N345d9bf11b4d442cbb2b51544d6b4b8b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -119,7 +123,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N6e5d98bb14f84b7199e0915329f619e7",
+      "@id": "_:N7702f48902a245f49388b402775f474f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -130,7 +134,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Na010fe18e44640409c7f3b24b85282c9",
+      "@id": "_:N7475187387fd40af83618a7f8d775d49",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -141,7 +145,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Na3efe7c1a34d4eac953232431f96f70b",
+      "@id": "_:N188d144674bf46a6be3ecfe162b59810",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -152,7 +156,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N6c3953aa42744ad6a5391008a08bbd70",
+      "@id": "_:N83b2cfcd44844b7ebde4c7b0a63c3ab0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -161,10 +165,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Data"
-    },
-    {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

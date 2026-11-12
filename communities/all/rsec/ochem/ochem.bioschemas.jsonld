@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1007/s10822-011-9440-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ochem",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb13f5728e9f6438ab8f7ca0a4fd83487"
+        "@id": "_:Na86f075837b64460a831a9df274c19a2"
       },
       "bsc:output": {
-        "@id": "_:N0a2804d6a56648deb49f4a7fd0a5e46e"
+        "@id": "_:N81168ede3d0d47ce9207aa9a1f07b49d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web API",
@@ -73,7 +77,7 @@
       "sc:url": "http://www.ochem.eu"
     },
     {
-      "@id": "_:Nb13f5728e9f6438ab8f7ca0a4fd83487",
+      "@id": "_:Na86f075837b64460a831a9df274c19a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2851"
@@ -84,16 +88,12 @@
       "sc:name": "Drug structure"
     },
     {
-      "@id": "_:N0a2804d6a56648deb49f4a7fd0a5e46e",
+      "@id": "_:N81168ede3d0d47ce9207aa9a1f07b49d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
       },
       "sc:name": "Data"
-    },
-    {
-      "@id": "https://doi.org/10.1007/s10822-011-9440-2",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

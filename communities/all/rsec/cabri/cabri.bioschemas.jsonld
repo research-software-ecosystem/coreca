@@ -36,19 +36,23 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.2165/00822942-200594030-00002",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/cabri",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Paolo Romano",
       "bsc:input": [
         {
-          "@id": "_:N1996642beb1e4ea1bb1db900c359cde0"
+          "@id": "_:Ndba5f7db75ed4e688ae48e23a1044fbe"
         },
         {
-          "@id": "_:Nd1d6dd81f8174dbdb5edc21f4bd8fa5d"
+          "@id": "_:N4c378579708a462e88f2c06f5eb46ea7"
         }
       ],
       "bsc:output": {
-        "@id": "_:N99ed3ca3e38a437c89f16f8e4703b25d"
+        "@id": "_:N5e7ddc01c88f471aa71455e3d77dd6fb"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -99,7 +103,7 @@
       "sc:url": "http://www.cabri.org/"
     },
     {
-      "@id": "_:N1996642beb1e4ea1bb1db900c359cde0",
+      "@id": "_:Ndba5f7db75ed4e688ae48e23a1044fbe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2380"
@@ -107,7 +111,7 @@
       "sc:name": "CABRI accession"
     },
     {
-      "@id": "_:Nd1d6dd81f8174dbdb5edc21f4bd8fa5d",
+      "@id": "_:N4c378579708a462e88f2c06f5eb46ea7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2597"
@@ -115,7 +119,7 @@
       "sc:name": "CABRI catalogue name"
     },
     {
-      "@id": "_:N99ed3ca3e38a437c89f16f8e4703b25d",
+      "@id": "_:N5e7ddc01c88f471aa71455e3d77dd6fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0963"
@@ -124,10 +128,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Cell line report"
-    },
-    {
-      "@id": "https://doi.org/10.2165/00822942-200594030-00002",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

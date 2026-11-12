@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.3389/fnins.2011.00008",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/biotranslator",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -120,6 +116,10 @@
     },
     {
       "@id": "https://doi.org/10.1016/j.csbj.2015.03.009",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.3389/fnins.2011.00008",
       "@type": "sc:CreativeWork"
     }
   ]

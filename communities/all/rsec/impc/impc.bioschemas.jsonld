@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Terry Meehan",
       "bsc:input": {
-        "@id": "_:N7f51b73ca0b0498bbc9bc242386063d2"
+        "@id": "_:Nd246eb2763e847e381199a08ffb69ea1"
       },
       "bsc:output": [
         {
-          "@id": "_:N8c42d83c80ed43a1b9248ab054c293e9"
+          "@id": "_:N2fc1f3c934fa4bf09c941c688ec3b9c6"
         },
         {
-          "@id": "_:N59e1cb0b7b6341b0997908b8114d3cf8"
+          "@id": "_:N9d7c13b6f764432298dd0212eeda0843"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -79,7 +79,7 @@
       "sc:url": "http://www.mousephenotype.org"
     },
     {
-      "@id": "_:N7f51b73ca0b0498bbc9bc242386063d2",
+      "@id": "_:Nd246eb2763e847e381199a08ffb69ea1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -87,7 +87,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:N8c42d83c80ed43a1b9248ab054c293e9",
+      "@id": "_:N2fc1f3c934fa4bf09c941c688ec3b9c6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -95,7 +95,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N59e1cb0b7b6341b0997908b8114d3cf8",
+      "@id": "_:N9d7c13b6f764432298dd0212eeda0843",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

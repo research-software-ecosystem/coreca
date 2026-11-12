@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/pmic.201400449",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/maxquant",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N7e46c8dc71e64cfe8cf54b381f41100c"
+        "@id": "_:Na48dcf5a90cf4b6084c0db9487f39dcd"
       },
       "bsc:output": [
         {
-          "@id": "_:N6a396bfa9234436194a6fa05b992c64e"
+          "@id": "_:N8b10a35f11ff4241a2a4740f04303c77"
         },
         {
-          "@id": "_:N0e03934b982542db853c5b31fd0c0a55"
+          "@id": "_:N6ddd8a6b5d2d4936a0dbe5e6bb2e10d8"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -119,7 +123,7 @@
       "sc:url": "http://www.maxquant.org/"
     },
     {
-      "@id": "_:N7e46c8dc71e64cfe8cf54b381f41100c",
+      "@id": "_:Na48dcf5a90cf4b6084c0db9487f39dcd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -141,7 +145,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N6a396bfa9234436194a6fa05b992c64e",
+      "@id": "_:N8b10a35f11ff4241a2a4740f04303c77",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -152,7 +156,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N0e03934b982542db853c5b31fd0c0a55",
+      "@id": "_:N6ddd8a6b5d2d4936a0dbe5e6bb2e10d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -168,7 +172,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "https://doi.org/10.1007/978-1-4939-1142-4_24",
+      "@id": "https://doi.org/10.1021/acs.jproteome.0c00892",
       "@type": "sc:CreativeWork"
     },
     {
@@ -176,11 +180,7 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1002/pmic.201400449",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1021/acs.jproteome.0c00892",
+      "@id": "https://doi.org/10.1007/978-1-4939-1142-4_24",
       "@type": "sc:CreativeWork"
     }
   ]

@@ -40,14 +40,10 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0009-0002-0046-9725",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/biotools-linter",
       "@type": "sc:SoftwareApplication",
       "bsc:output": {
-        "@id": "_:N35a2c3f582764a9c9a1b03e49af47c06"
+        "@id": "_:N8fafaee9f0f24bc59afc8d7df1c4d799"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -91,7 +87,7 @@
       "sc:url": "https://biotools-linter.biodata.ceitec.cz/"
     },
     {
-      "@id": "_:N35a2c3f582764a9c9a1b03e49af47c06",
+      "@id": "_:N8fafaee9f0f24bc59afc8d7df1c4d799",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -100,6 +96,10 @@
         "@id": "edam:format_3603"
       },
       "sc:name": "Matrix"
+    },
+    {
+      "@id": "https://orcid.org/0009-0002-0046-9725",
+      "@type": "sc:Person"
     }
   ]
 }

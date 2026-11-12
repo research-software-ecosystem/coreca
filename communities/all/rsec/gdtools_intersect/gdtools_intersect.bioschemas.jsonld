@@ -48,10 +48,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Nef29d7aa395f40fe9f88419bb666f57f"
+        "@id": "_:Nfd7437cdce71477394df7bffca3e0e8c"
       },
       "bsc:output": {
-        "@id": "_:N7406be6f4eb64c74a4506532c935c19f"
+        "@id": "_:Na50c59d0661945098b5f143385ab5f53"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -98,7 +98,7 @@
       "sc:url": "http://barricklab.org/twiki/pub/Lab/ToolsBacterialGenomeResequencing/documentation/gd_usage.html"
     },
     {
-      "@id": "_:Nef29d7aa395f40fe9f88419bb666f57f",
+      "@id": "_:Nfd7437cdce71477394df7bffca3e0e8c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -109,7 +109,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N7406be6f4eb64c74a4506532c935c19f",
+      "@id": "_:Na50c59d0661945098b5f143385ab5f53",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

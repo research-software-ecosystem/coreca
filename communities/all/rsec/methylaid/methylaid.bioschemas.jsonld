@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/methylaid",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd83eee9f6dac4bfdafb17f41e0a7fd64"
+        "@id": "_:Nca1f34f987bb412397380b4f83694394"
       },
       "bsc:output": [
         {
-          "@id": "_:Nb30d56a6b25a4db3b97c77a48ff6cc10"
+          "@id": "_:N6207a8ac5ff847c487793edfbc9c4274"
         },
         {
-          "@id": "_:N4c66193b1870486c9d5232ed5fd8c8ec"
+          "@id": "_:N8d33b8e9bb7443a39a22b7edb9bb7454"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -98,7 +98,7 @@
       "sc:url": "https://bioconductor.org/packages/MethylAid"
     },
     {
-      "@id": "_:Nd83eee9f6dac4bfdafb17f41e0a7fd64",
+      "@id": "_:Nca1f34f987bb412397380b4f83694394",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3117"
@@ -109,7 +109,7 @@
       "sc:name": "Microarray hybridisation data"
     },
     {
-      "@id": "_:Nb30d56a6b25a4db3b97c77a48ff6cc10",
+      "@id": "_:N6207a8ac5ff847c487793edfbc9c4274",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -120,7 +120,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N4c66193b1870486c9d5232ed5fd8c8ec",
+      "@id": "_:N8d33b8e9bb7443a39a22b7edb9bb7454",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

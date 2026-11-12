@@ -36,21 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.3389/fphar.2022.898519",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/taiget",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nbc154f02b0284b938dcc7c4d42d4a8b8"
+          "@id": "_:N1936212f4cc944af8b866f536f60e271"
         },
         {
-          "@id": "_:Ne4c32759618b47e485bd10e9daf459f8"
+          "@id": "_:N2a21f3f7a48040278cda53ae75e15118"
         },
         {
-          "@id": "_:N371e618d129c44b3a5778a66b6bdaf5f"
+          "@id": "_:Nf7e5c8e906bc47bba97ba58aec207d5b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -101,7 +97,7 @@
       "sc:url": "http://www.taiget.cn/"
     },
     {
-      "@id": "_:Nbc154f02b0284b938dcc7c4d42d4a8b8",
+      "@id": "_:N1936212f4cc944af8b866f536f60e271",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -109,7 +105,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:Ne4c32759618b47e485bd10e9daf459f8",
+      "@id": "_:N2a21f3f7a48040278cda53ae75e15118",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"
@@ -117,12 +113,16 @@
       "sc:name": "SMILES string"
     },
     {
-      "@id": "_:N371e618d129c44b3a5778a66b6bdaf5f",
+      "@id": "_:Nf7e5c8e906bc47bba97ba58aec207d5b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
       },
       "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "https://doi.org/10.3389/fphar.2022.898519",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -16,7 +16,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 522,
+                            "cit_count": 523,
                             "citations": [
                                 {
                                     "count": 3,
@@ -47,7 +47,7 @@
                                     "year": 2022
                                 },
                                 {
-                                    "count": 22,
+                                    "count": 23,
                                     "year": 2021
                                 },
                                 {
@@ -133,7 +133,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1103,
+                            "cit_count": 1106,
                             "citations": [
                                 {
                                     "count": 2,
@@ -180,11 +180,11 @@
                                     "year": 2017
                                 },
                                 {
-                                    "count": 60,
+                                    "count": 61,
                                     "year": 2020
                                 },
                                 {
-                                    "count": 67,
+                                    "count": 68,
                                     "year": 2026
                                 },
                                 {
@@ -204,12 +204,12 @@
                                     "year": 2022
                                 },
                                 {
-                                    "count": 115,
-                                    "year": 2025
+                                    "count": 116,
+                                    "year": 2023
                                 },
                                 {
                                     "count": 116,
-                                    "year": 2023
+                                    "year": 2025
                                 }
                             ],
                             "doi": "10.1093/nar/gkp356",

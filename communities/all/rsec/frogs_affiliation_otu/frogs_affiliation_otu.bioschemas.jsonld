@@ -40,27 +40,23 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/frogs_affiliation_otu",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N376b6364582d4198ab924039ee5dd853"
+          "@id": "_:N201a6e822adc4acdb48fd0ef070a8700"
         },
         {
-          "@id": "_:Ne0bd97662da34a01bd2addf463258b2a"
+          "@id": "_:Nc80a654a9d584f68a2c3420dea4457d3"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N922670b15e3b44448950b939b35485fe"
+          "@id": "_:N9fc74cb2eac14637bded589c4edeca1c"
         },
         {
-          "@id": "_:N01702aea6fda47de8d7e955a9ade3012"
+          "@id": "_:N176485ddf0e5479abe53209369453092"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -103,7 +99,7 @@
       "sc:url": "http://frogs.toulouse.inra.fr/"
     },
     {
-      "@id": "_:N376b6364582d4198ab924039ee5dd853",
+      "@id": "_:N201a6e822adc4acdb48fd0ef070a8700",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -114,7 +110,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ne0bd97662da34a01bd2addf463258b2a",
+      "@id": "_:Nc80a654a9d584f68a2c3420dea4457d3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -125,7 +121,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N922670b15e3b44448950b939b35485fe",
+      "@id": "_:N9fc74cb2eac14637bded589c4edeca1c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -136,7 +132,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N01702aea6fda47de8d7e955a9ade3012",
+      "@id": "_:N176485ddf0e5479abe53209369453092",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -145,6 +141,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

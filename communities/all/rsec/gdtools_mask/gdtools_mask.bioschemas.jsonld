@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -45,14 +45,14 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N252d7a560ccc4f2dad9c86630006fae9"
+          "@id": "_:N70ad5a9f1d71466a9f91cea60106a08d"
         },
         {
-          "@id": "_:Na8317cf7899d4a77be47c5277f250d77"
+          "@id": "_:N3068d21cafb24f4bbd912907055ebfc4"
         }
       ],
       "bsc:output": {
-        "@id": "_:N42355efc16d146c69a9c5787d28331d4"
+        "@id": "_:Nc01e73bdb6a344278ea3e4cd2ac6a759"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -95,7 +95,7 @@
       "sc:url": "http://barricklab.org/twiki/pub/Lab/ToolsBacterialGenomeResequencing/documentation/gd_usage.html"
     },
     {
-      "@id": "_:N252d7a560ccc4f2dad9c86630006fae9",
+      "@id": "_:N70ad5a9f1d71466a9f91cea60106a08d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -106,7 +106,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Na8317cf7899d4a77be47c5277f250d77",
+      "@id": "_:N3068d21cafb24f4bbd912907055ebfc4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -117,7 +117,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N42355efc16d146c69a9c5787d28331d4",
+      "@id": "_:Nc01e73bdb6a344278ea3e4cd2ac6a759",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -128,7 +128,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

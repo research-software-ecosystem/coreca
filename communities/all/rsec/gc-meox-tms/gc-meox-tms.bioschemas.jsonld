@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/acs.analchem.7b01010",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/gc-meox-tms",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "RECETOX SpecDatRI",
       "bsc:input": {
-        "@id": "_:N2725bd9ee1ac41db8d0be041286b380b"
+        "@id": "_:N11b7ec8d2fc94bd1b490327b5d5893f2"
       },
       "bsc:output": {
-        "@id": "_:N569f1e45aca343ac92b1e2a079612fca"
+        "@id": "_:Nedcdbb2ee7754273a1c3fbf2096f146a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -88,7 +84,7 @@
       "sc:url": "https://github.com/RECETOX/gc-meox-tms"
     },
     {
-      "@id": "_:N2725bd9ee1ac41db8d0be041286b380b",
+      "@id": "_:N11b7ec8d2fc94bd1b490327b5d5893f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"
@@ -96,12 +92,16 @@
       "sc:name": "SMILES string"
     },
     {
-      "@id": "_:N569f1e45aca343ac92b1e2a079612fca",
+      "@id": "_:Nedcdbb2ee7754273a1c3fbf2096f146a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"
       },
       "sc:name": "SMILES string"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acs.analchem.7b01010",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btv291",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://orcid.org/0000-0002-7359-0633",
       "@type": "sc:Person"
     },
@@ -57,10 +53,10 @@
         "Piero Fariselli"
       ],
       "bsc:input": {
-        "@id": "_:Naba2bc28f2344de68330b68c2d0bca7c"
+        "@id": "_:Na16a6a2c99a24f52a9fe92b64615c99b"
       },
       "bsc:output": {
-        "@id": "_:N4c31215f6e674ba49ed7fb973a562fa7"
+        "@id": "_:N5c498b3929c94969a150a3b25ada1ea4"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": [
@@ -98,7 +94,7 @@
       "sc:url": "https://inpsmd.biocomp.unibo.it"
     },
     {
-      "@id": "_:Naba2bc28f2344de68330b68c2d0bca7c",
+      "@id": "_:Na16a6a2c99a24f52a9fe92b64615c99b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -106,12 +102,16 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:N4c31215f6e674ba49ed7fb973a562fa7",
+      "@id": "_:N5c498b3929c94969a150a3b25ada1ea4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
       },
       "sc:name": "Protein report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv291",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,21 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btac534",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/mib2_sever",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N03097eee04f44524a55a12ba2cb8cb87"
+          "@id": "_:Nfabe3ffc6c8844a48987fffc8680bf77"
         },
         {
-          "@id": "_:N804a29d9f9d844ca8b9e66ca6763b569"
+          "@id": "_:Nb5dbaf0500d04022bf87271ad95ee80f"
         },
         {
-          "@id": "_:Nc442dea27f524794b0063a43f30a343b"
+          "@id": "_:N7cad28942d0d4f5bb601bc32e6c67cab"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -94,7 +90,7 @@
       "sc:url": "http://bioinfo.cmu.edu.tw/MIB2/"
     },
     {
-      "@id": "_:N03097eee04f44524a55a12ba2cb8cb87",
+      "@id": "_:Nfabe3ffc6c8844a48987fffc8680bf77",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -102,7 +98,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N804a29d9f9d844ca8b9e66ca6763b569",
+      "@id": "_:Nb5dbaf0500d04022bf87271ad95ee80f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
@@ -110,7 +106,7 @@
       "sc:name": "UniProt ID"
     },
     {
-      "@id": "_:Nc442dea27f524794b0063a43f30a343b",
+      "@id": "_:N7cad28942d0d4f5bb601bc32e6c67cab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -119,6 +115,10 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btac534",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

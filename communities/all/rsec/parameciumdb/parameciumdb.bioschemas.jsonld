@@ -36,33 +36,29 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkq918",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/parameciumdb",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Contact Form",
       "bsc:input": [
         {
-          "@id": "_:Nefa6e29d9cbd41ee9e0f2c62fb5d03ea"
+          "@id": "_:N61b39ee53bb54745a0d6ddb40bf66836"
         },
         {
-          "@id": "_:N41411e9eb9c54865a7fe4a9f329a8e55"
+          "@id": "_:N2ff76d9ff7414694bca8d7dcb35576a8"
         },
         {
-          "@id": "_:N53ad9cebc90d40b286219bfec80827c0"
+          "@id": "_:Na6eecd66c03b410baf2dc248fd5e611c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nff5f7590f25349bca178048a3317fda0"
+          "@id": "_:N99e26c864d704fb6a2b1c9d1bbe19a54"
         },
         {
-          "@id": "_:Na940aca0039946408c57b638dc647fe7"
+          "@id": "_:Ne7e5e0a802e3461eb4ed20b9ef0fa369"
         },
         {
-          "@id": "_:Nde592829c33e441fa116abe719d3d2f0"
+          "@id": "_:N23dad89ffa0b4c99ba0d78b4a6fdd1f7"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -123,7 +119,7 @@
       "sc:url": "https://paramecium.i2bc.paris-saclay.fr"
     },
     {
-      "@id": "_:Nefa6e29d9cbd41ee9e0f2c62fb5d03ea",
+      "@id": "_:N61b39ee53bb54745a0d6ddb40bf66836",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -134,7 +130,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N41411e9eb9c54865a7fe4a9f329a8e55",
+      "@id": "_:N2ff76d9ff7414694bca8d7dcb35576a8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -145,7 +141,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N53ad9cebc90d40b286219bfec80827c0",
+      "@id": "_:Na6eecd66c03b410baf2dc248fd5e611c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -156,7 +152,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:Nff5f7590f25349bca178048a3317fda0",
+      "@id": "_:N99e26c864d704fb6a2b1c9d1bbe19a54",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -172,7 +168,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:Na940aca0039946408c57b638dc647fe7",
+      "@id": "_:Ne7e5e0a802e3461eb4ed20b9ef0fa369",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -188,7 +184,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:Nde592829c33e441fa116abe719d3d2f0",
+      "@id": "_:N23dad89ffa0b4c99ba0d78b4a6fdd1f7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -197,6 +193,10 @@
         "@id": "edam:format_1333"
       },
       "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkq918",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-9506-9451",
+      "@id": "https://orcid.org/0000-0001-5984-904X",
       "@type": "sc:Person"
     },
     {
@@ -47,33 +47,33 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N502e88d2961442c6a7aa6e1188732caf"
+          "@id": "_:N94cf0e015fbe420eb26eeadc4853f260"
         },
         {
-          "@id": "_:Nd3736c077fea4a348e8e6132fa04ae4f"
+          "@id": "_:Nf56afef1e9c244369db0f3b6aa7eddfc"
         },
         {
-          "@id": "_:N7059ca5632a44394864d4b76ca0de2b5"
+          "@id": "_:N1d3f5b14c4714b8a972fb6ac44d89cb6"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3d2477e7a83a4d92bc3c848df1705edf"
+          "@id": "_:N9ac0301a4e00420e8a0dc986fce0aa62"
         },
         {
-          "@id": "_:Ndcc79252b1784a00818f637634508c42"
+          "@id": "_:N65e875c08e0449e2a2491b4399553801"
         },
         {
-          "@id": "_:N780cf5dec1444963bbac8d64d18c552f"
+          "@id": "_:Nb0c281774a4a45aebd79abe55139f22d"
         },
         {
-          "@id": "_:Ndae5474711224e43bcc07b763f920664"
+          "@id": "_:N5a95d71ac0364d458fd10df8aa68ef3a"
         },
         {
-          "@id": "_:N6430580c937e446fb15f4b08afa54b84"
+          "@id": "_:Ne1521ff8f5254edbb2ae83619efb9706"
         },
         {
-          "@id": "_:Nbade7e94383a411ca873242c2d8aef29"
+          "@id": "_:N8ea180b3cd9f42bfa33a2344b5684a7f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -120,7 +120,7 @@
       "sc:url": "https://harbor.eucaim.cancerimage.eu/harbor/projects/4/repositories/cluster_based_harmonization/info-tab"
     },
     {
-      "@id": "_:N502e88d2961442c6a7aa6e1188732caf",
+      "@id": "_:N94cf0e015fbe420eb26eeadc4853f260",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -136,7 +136,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Nd3736c077fea4a348e8e6132fa04ae4f",
+      "@id": "_:Nf56afef1e9c244369db0f3b6aa7eddfc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -147,7 +147,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N7059ca5632a44394864d4b76ca0de2b5",
+      "@id": "_:N1d3f5b14c4714b8a972fb6ac44d89cb6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -163,7 +163,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N3d2477e7a83a4d92bc3c848df1705edf",
+      "@id": "_:N9ac0301a4e00420e8a0dc986fce0aa62",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -179,7 +179,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Ndcc79252b1784a00818f637634508c42",
+      "@id": "_:N65e875c08e0449e2a2491b4399553801",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -195,7 +195,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N780cf5dec1444963bbac8d64d18c552f",
+      "@id": "_:Nb0c281774a4a45aebd79abe55139f22d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -206,7 +206,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Ndae5474711224e43bcc07b763f920664",
+      "@id": "_:N5a95d71ac0364d458fd10df8aa68ef3a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -222,7 +222,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N6430580c937e446fb15f4b08afa54b84",
+      "@id": "_:Ne1521ff8f5254edbb2ae83619efb9706",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -238,7 +238,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Nbade7e94383a411ca873242c2d8aef29",
+      "@id": "_:N8ea180b3cd9f42bfa33a2344b5684a7f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -249,7 +249,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "https://orcid.org/0000-0001-5984-904X",
+      "@id": "https://orcid.org/0000-0002-9506-9451",
       "@type": "sc:Person"
     }
   ]

@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkp361",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1093/nar/gkq086",
       "@type": "sc:CreativeWork"
     },
@@ -94,10 +98,6 @@
       "sc:name": "GenoCAD",
       "sc:operatingSystem": "Linux",
       "sc:url": "http://www.genocad.org"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkp361",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1093/bioinformatics/btm446",

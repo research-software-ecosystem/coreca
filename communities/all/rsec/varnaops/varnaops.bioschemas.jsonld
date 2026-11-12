@@ -1,0 +1,374 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/varnaops",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Leonardo Golinelli",
+      "bsc:input": [
+        {
+          "@id": "_:N44c2978adab8426c9e10602f082bcc72"
+        },
+        {
+          "@id": "_:Nefc839defceb4056a23338863f34887d"
+        },
+        {
+          "@id": "_:Nae83f14cbed144d7b71df4bf34d46e18"
+        },
+        {
+          "@id": "_:Nf4db53b70cd740bc8aa39ff18b758097"
+        },
+        {
+          "@id": "_:Ncb1830521fa747eda85d80375942319f"
+        },
+        {
+          "@id": "_:N99628a77c73e49f4b34e702ebce9a55e"
+        },
+        {
+          "@id": "_:N9cbf032ffe8942dd8a2293c06fce2265"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N60b355377b744ac2a2ef729123ed730f"
+        },
+        {
+          "@id": "_:Nfe68a0d19c684324a6ab856da11321e6"
+        },
+        {
+          "@id": "_:N12bc3cb1167045148fc8cf321a6cff68"
+        },
+        {
+          "@id": "_:Nb9cbe505229249c49ff871a234228ad3"
+        },
+        {
+          "@id": "_:N03c3e0cf37ba45478b1e51b87c98c5dd"
+        },
+        {
+          "@id": "_:Nbac40b2008ba43a797c98523f67a44b5"
+        },
+        {
+          "@id": "_:N2575cec548fd487485bd5f0b7887ed39"
+        },
+        {
+          "@id": "_:Ne628c7395d274b47813ce3b752366ebe"
+        },
+        {
+          "@id": "_:N5b25a6b63322444a865ca62edeb50cb2"
+        },
+        {
+          "@id": "_:N3912a02242d24801a61e8d368d23fe08"
+        },
+        {
+          "@id": "_:Na324e05e35904fd8b311643ef60a2c01"
+        },
+        {
+          "@id": "_:Nc404b78b93974341ab11883fdc76e349"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_4028"
+        },
+        {
+          "@id": "edam:topic_3308"
+        }
+      ],
+      "sc:author": "Leonardo Golinelli",
+      "sc:description": "No-code web platform for reproducible single-cell RNA-seq analysis that scales to millions of cells. Users upload an AnnData (.h5ad) count matrix, choose a tissue, and receive a complete HTML report plus the processed results: cell-type prediction by an scANVI classifier trained on 15 human and mouse reference atlases with per-cell confidence, quality control, marker analysis, differential expression across conditions, transcription factor, pathway and gene-set activity scoring, and novel-population detection.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2990"
+        },
+        {
+          "@id": "edam:operation_0226"
+        },
+        {
+          "@id": "edam:operation_2424"
+        },
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_0313"
+        },
+        {
+          "@id": "edam:operation_2428"
+        },
+        {
+          "@id": "edam:operation_2436"
+        },
+        {
+          "@id": "edam:operation_3928"
+        }
+      ],
+      "sc:isAccessibleForFree": false,
+      "sc:license": "Proprietary",
+      "sc:name": "VarnaOps",
+      "sc:provider": "VarnaOps",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://varnaops.com/methods.html"
+        },
+        {
+          "@id": "https://varnaops.com/terms.html"
+        }
+      ],
+      "sc:url": "https://varnaops.com"
+    },
+    {
+      "@id": "_:N44c2978adab8426c9e10602f082bcc72",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:Nefc839defceb4056a23338863f34887d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:Nae83f14cbed144d7b71df4bf34d46e18",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:Nf4db53b70cd740bc8aa39ff18b758097",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:Ncb1830521fa747eda85d80375942319f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:N99628a77c73e49f4b34e702ebce9a55e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:N9cbf032ffe8942dd8a2293c06fce2265",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:N60b355377b744ac2a2ef729123ed730f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:Nfe68a0d19c684324a6ab856da11321e6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N12bc3cb1167045148fc8cf321a6cff68",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:Nb9cbe505229249c49ff871a234228ad3",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N03c3e0cf37ba45478b1e51b87c98c5dd",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:Nbac40b2008ba43a797c98523f67a44b5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N2575cec548fd487485bd5f0b7887ed39",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3603"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:Ne628c7395d274b47813ce3b752366ebe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N5b25a6b63322444a865ca62edeb50cb2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3768"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Clustered expression profiles"
+    },
+    {
+      "@id": "_:N3912a02242d24801a61e8d368d23fe08",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:Na324e05e35904fd8b311643ef60a2c01",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0928"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "_:Nc404b78b93974341ab11883fdc76e349",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Report"
+    }
+  ]
+}

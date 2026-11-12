@@ -36,28 +36,20 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.16966/2470-1025.103",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1007/978-1-61779-842-9_32",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/IMGT_HighV-QUEST",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ndd54b6bdf72f4fe9bd3c31fbb45022fe"
+        "@id": "_:N9e9137ec89394803b9576848dace4fb6"
       },
       "bsc:output": [
         {
-          "@id": "_:N3e7be9c2ab024558b03a84f8ddd9b608"
+          "@id": "_:N3269e4b24a3d42e6ba258e0b4a864dda"
         },
         {
-          "@id": "_:Nf9080ff39fc447a7a9411e5f4813725b"
+          "@id": "_:Ne15da3c326724ad186ec297104dcb99c"
         },
         {
-          "@id": "_:N39df9f03ca774593a6ff64d1041a46b5"
+          "@id": "_:N3167a24650af4cf19914bb1ce8b58406"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -120,7 +112,7 @@
       "sc:url": "http://www.imgt.org/HighV-QUEST/home.action"
     },
     {
-      "@id": "_:Ndd54b6bdf72f4fe9bd3c31fbb45022fe",
+      "@id": "_:N9e9137ec89394803b9576848dace4fb6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -131,7 +123,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N3e7be9c2ab024558b03a84f8ddd9b608",
+      "@id": "_:N3269e4b24a3d42e6ba258e0b4a864dda",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3779"
@@ -142,7 +134,7 @@
       "sc:name": "Annotated text"
     },
     {
-      "@id": "_:Nf9080ff39fc447a7a9411e5f4813725b",
+      "@id": "_:Ne15da3c326724ad186ec297104dcb99c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -153,7 +145,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N39df9f03ca774593a6ff64d1041a46b5",
+      "@id": "_:N3167a24650af4cf19914bb1ce8b58406",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -164,7 +156,15 @@
       "sc:name": "Sequence report"
     },
     {
+      "@id": "https://doi.org/10.16966/2470-1025.103",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1093/nar/gku1056",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1007/978-1-61779-842-9_32",
       "@type": "sc:CreativeWork"
     }
   ]

@@ -16,6 +16,6 @@ registries:
 popcon:
 - insts: 1235
   nofiles: 1
-  olde: 960
-  recent: 130
-  vote: 144
+  olde: 971
+  recent: 122
+  vote: 141

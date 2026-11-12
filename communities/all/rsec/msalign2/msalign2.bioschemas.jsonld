@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/msalign2",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N6c81cae5deb24c9f86f1b1d20cde58d2"
+        "@id": "_:Nb7af5e28eb0044d19192a33485a26e26"
       },
       "bsc:output": {
-        "@id": "_:N507eb419a6a04d3caf1c249ea66afa42"
+        "@id": "_:N3fcacecaffbf4c4e90a9298286a3d7f0"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -81,7 +81,7 @@
       "sc:url": "http://www.ms-utils.org/msalign2/index.html"
     },
     {
-      "@id": "_:N6c81cae5deb24c9f86f1b1d20cde58d2",
+      "@id": "_:Nb7af5e28eb0044d19192a33485a26e26",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -92,7 +92,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N507eb419a6a04d3caf1c249ea66afa42",
+      "@id": "_:N3fcacecaffbf4c4e90a9298286a3d7f0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"

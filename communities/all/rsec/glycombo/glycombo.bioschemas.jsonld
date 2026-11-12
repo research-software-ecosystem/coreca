@@ -36,7 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-9383-1107",
+      "@id": "https://doi.org/10.1021/jasms.4c00188",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5944-6179",
       "@type": "sc:Person"
     },
     {
@@ -46,10 +50,10 @@
         "@id": "https://orcid.org/0000-0001-5944-6179"
       },
       "bsc:input": {
-        "@id": "_:N27ac36fa25fd4f1da3dd6474b9bc1f8d"
+        "@id": "_:Nbed4007b1faa4f18b10cbfcb0397826e"
       },
       "bsc:output": {
-        "@id": "_:Naf9fe818d21249d691f09a46dc78b6d3"
+        "@id": "_:N58b9d7664f3f4e7087868627bfe3fc42"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -80,7 +84,7 @@
       "sc:url": "https://github.com/Protea-Glycosciences/GlyCombo"
     },
     {
-      "@id": "_:N27ac36fa25fd4f1da3dd6474b9bc1f8d",
+      "@id": "_:Nbed4007b1faa4f18b10cbfcb0397826e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -91,7 +95,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:Naf9fe818d21249d691f09a46dc78b6d3",
+      "@id": "_:N58b9d7664f3f4e7087868627bfe3fc42",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1462"
@@ -99,12 +103,8 @@
       "sc:name": "Carbohydrate structure"
     },
     {
-      "@id": "https://orcid.org/0000-0001-5944-6179",
+      "@id": "https://orcid.org/0000-0002-9383-1107",
       "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1021/jasms.4c00188",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

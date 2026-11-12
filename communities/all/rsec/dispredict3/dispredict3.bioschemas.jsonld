@@ -40,13 +40,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N7b1df1317f9a4fb8b03e7d7d38c2e488"
+          "@id": "_:N32369979504d49c4a912d16c447d2369"
         },
         {
-          "@id": "_:Nfef5bdcfd75542708f80255ee8a2a860"
+          "@id": "_:N4c6cdac928be4fa5b57ba60fd963dbbd"
         },
         {
-          "@id": "_:N47c7377459d241d283e93c33088f7280"
+          "@id": "_:N83aa8983de144202a99b45a125250983"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -75,7 +75,7 @@
       "sc:url": "https://cs.uno.edu/~tamjid/Software.html"
     },
     {
-      "@id": "_:N7b1df1317f9a4fb8b03e7d7d38c2e488",
+      "@id": "_:N32369979504d49c4a912d16c447d2369",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1526"
@@ -83,7 +83,7 @@
       "sc:name": "Protein globularity"
     },
     {
-      "@id": "_:Nfef5bdcfd75542708f80255ee8a2a860",
+      "@id": "_:N4c6cdac928be4fa5b57ba60fd963dbbd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2969"
@@ -91,7 +91,7 @@
       "sc:name": "Sequence image"
     },
     {
-      "@id": "_:N47c7377459d241d283e93c33088f7280",
+      "@id": "_:N83aa8983de144202a99b45a125250983",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/automatic_segmentation_tool",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1981b41ecc64460da041efe41bf62d2f"
+        "@id": "_:Nac03023c4ca84863b4de0a4d68509e03"
       },
       "bsc:output": {
-        "@id": "_:N3efa6905383648eb86c425840c531db4"
+        "@id": "_:N4b926e6bb82e4c2ab9c5b6927ebb17bb"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -72,7 +72,7 @@
       "sc:url": "http://telemed.uca.es:443/"
     },
     {
-      "@id": "_:N1981b41ecc64460da041efe41bf62d2f",
+      "@id": "_:Nac03023c4ca84863b4de0a4d68509e03",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -83,7 +83,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N3efa6905383648eb86c425840c531db4",
+      "@id": "_:N4b926e6bb82e4c2ab9c5b6927ebb17bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

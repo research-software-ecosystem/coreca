@@ -40,11 +40,11 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1186/1471-2164-11-571",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1186/1471-2164-11-571",
       "@type": "sc:CreativeWork"
     },
     {
@@ -53,20 +53,20 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Nb66ce1f831cd4f628386199073c68f79"
+          "@id": "_:N992dff0b4e964a03bd17e390fc34942c"
         },
         {
-          "@id": "_:N238e0f40469e424a927ec7e65cbd74f3"
+          "@id": "_:N38e52eca29734ca59f9f280ecf81b2a8"
         },
         {
-          "@id": "_:Nd3b60e5b4d8145bd963551a55ace9e1a"
+          "@id": "_:Na571c8b740ec44dcb28e3bdba02ac6b9"
         },
         {
-          "@id": "_:N1015452612504830a180bedad6db3357"
+          "@id": "_:N8325a8aae80944dbbc4b0b465b6f5468"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nd1d4b3cd77cf4558a0c68576e9f7510e"
+        "@id": "_:N4293215058f04ecaadb13e44e6a432b3"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -110,7 +110,7 @@
       "sc:url": "https://bio.tools/clcbio_genomics_workbench"
     },
     {
-      "@id": "_:Nb66ce1f831cd4f628386199073c68f79",
+      "@id": "_:N992dff0b4e964a03bd17e390fc34942c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -126,7 +126,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N238e0f40469e424a927ec7e65cbd74f3",
+      "@id": "_:N38e52eca29734ca59f9f280ecf81b2a8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -137,7 +137,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nd3b60e5b4d8145bd963551a55ace9e1a",
+      "@id": "_:Na571c8b740ec44dcb28e3bdba02ac6b9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -148,7 +148,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N1015452612504830a180bedad6db3357",
+      "@id": "_:N8325a8aae80944dbbc4b0b465b6f5468",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -159,7 +159,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nd1d4b3cd77cf4558a0c68576e9f7510e",
+      "@id": "_:N4293215058f04ecaadb13e44e6a432b3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

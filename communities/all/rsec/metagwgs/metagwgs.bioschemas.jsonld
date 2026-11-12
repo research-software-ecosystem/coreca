@@ -47,24 +47,24 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N5a5bc4660b5f4f32a9671752cdd599ad"
+          "@id": "_:N927d85574e234129aace5378ef312345"
         },
         {
-          "@id": "_:N71f02b094f34400bb0482064a7312160"
+          "@id": "_:N1e7057c4d5674819bf87af188f714a1d"
         },
         {
-          "@id": "_:N5acbff78fc034fa19f8f6fdec3a1abb3"
+          "@id": "_:N7548c7a3871946e5af0629ac7be49c7d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne6cea26ea076447ba00187f3530c8fec"
+          "@id": "_:N7e9b8d91d9c24a8e9c8fe0bc7d4b407a"
         },
         {
-          "@id": "_:N7aaec01e5f2f486b9373c8aeafe90f0f"
+          "@id": "_:Na32a5019bd8f48afbd65a6ef8073a70f"
         },
         {
-          "@id": "_:Nba0546d6ee924ab29fab11df42252467"
+          "@id": "_:Nb02f66f7e4a3450a83e9370b8801b0fc"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -103,7 +103,7 @@
       "sc:url": "https://forge.inrae.fr/genotoul-bioinfo/metagwgs"
     },
     {
-      "@id": "_:N5a5bc4660b5f4f32a9671752cdd599ad",
+      "@id": "_:N927d85574e234129aace5378ef312345",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -114,7 +114,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N71f02b094f34400bb0482064a7312160",
+      "@id": "_:N1e7057c4d5674819bf87af188f714a1d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -125,7 +125,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N5acbff78fc034fa19f8f6fdec3a1abb3",
+      "@id": "_:N7548c7a3871946e5af0629ac7be49c7d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -136,7 +136,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:Ne6cea26ea076447ba00187f3530c8fec",
+      "@id": "_:N7e9b8d91d9c24a8e9c8fe0bc7d4b407a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3917"
@@ -147,7 +147,7 @@
       "sc:name": "Count matrix"
     },
     {
-      "@id": "_:N7aaec01e5f2f486b9373c8aeafe90f0f",
+      "@id": "_:Na32a5019bd8f48afbd65a6ef8073a70f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -158,7 +158,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:Nba0546d6ee924ab29fab11df42252467",
+      "@id": "_:Nb02f66f7e4a3450a83e9370b8801b0fc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"

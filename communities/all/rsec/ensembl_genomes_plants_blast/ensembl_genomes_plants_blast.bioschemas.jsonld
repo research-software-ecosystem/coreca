@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ensembl Genomes webteam",
       "bsc:input": {
-        "@id": "_:Na7854c8636d34b1eb79e854b6255aa58"
+        "@id": "_:N6ab044ae9da248f5936af3803338881d"
       },
       "bsc:output": [
         {
-          "@id": "_:Nc53112cdb2b7408eb5481343e5f7ac71"
+          "@id": "_:N81efb0b3b66b4163a481b419c6642b9b"
         },
         {
-          "@id": "_:N0d14d72ef1544f6b864f4ec85363bda2"
+          "@id": "_:Nb84695ea75b44cd48b6e566afa399d6e"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -95,7 +95,7 @@
       "sc:url": "http://plants.ensembl.org/Multi/blastview"
     },
     {
-      "@id": "_:Na7854c8636d34b1eb79e854b6255aa58",
+      "@id": "_:N6ab044ae9da248f5936af3803338881d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -106,7 +106,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nc53112cdb2b7408eb5481343e5f7ac71",
+      "@id": "_:N81efb0b3b66b4163a481b419c6642b9b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -114,7 +114,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N0d14d72ef1544f6b864f4ec85363bda2",
+      "@id": "_:Nb84695ea75b44cd48b6e566afa399d6e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"

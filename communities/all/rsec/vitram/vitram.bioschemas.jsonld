@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btp400",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/vitram",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf08a6838b391457f9b15225fe3bd2179"
+        "@id": "_:Ne105f38a6b92401884ddcb28d08863e5"
       },
       "bsc:output": [
         {
-          "@id": "_:N3e191d63301c4a1fada9b4b4ac7fd0ef"
+          "@id": "_:N769cc5289c5045b0beaee9d4c80065aa"
         },
         {
-          "@id": "_:N8ad24c36465b4d1fa465eb72e0755698"
+          "@id": "_:Nf4d08bbf9a594d5da977f504bee4816b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -77,7 +81,7 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/kmarchal/ViTraM/Index.html"
     },
     {
-      "@id": "_:Nf08a6838b391457f9b15225fe3bd2179",
+      "@id": "_:Ne105f38a6b92401884ddcb28d08863e5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -93,7 +97,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N3e191d63301c4a1fada9b4b4ac7fd0ef",
+      "@id": "_:N769cc5289c5045b0beaee9d4c80065aa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -101,16 +105,12 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N8ad24c36465b4d1fa465eb72e0755698",
+      "@id": "_:Nf4d08bbf9a594d5da977f504bee4816b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
       },
       "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btp400",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

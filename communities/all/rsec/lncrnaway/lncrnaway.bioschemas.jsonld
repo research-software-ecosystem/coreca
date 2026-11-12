@@ -40,21 +40,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nb0389cc62ff14bda99356b7d6a71d860"
+          "@id": "_:N80f51d90281448328776da43d9730941"
         },
         {
-          "@id": "_:Ne1200ad74fe840e8ae10a3fd08f0962e"
+          "@id": "_:N9644183f60a4457bb63acc4e55d12ec3"
         },
         {
-          "@id": "_:N2bce754cc12d44409310d0eaf3a4406e"
+          "@id": "_:Ndf1948c4499e48978eabdc7b1c6da8e6"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N062bcd3d031045b8b8d60cdedf459eed"
+          "@id": "_:N8525a84b7a384d50a16e69921bf81ed9"
         },
         {
-          "@id": "_:N35953e97f5b24cdaa810ee8e417b302d"
+          "@id": "_:N3d1438b76c4a4d37b76cfb5b38ace069"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -84,7 +84,7 @@
       "sc:url": "https://www.lncrnaway.com"
     },
     {
-      "@id": "_:Nb0389cc62ff14bda99356b7d6a71d860",
+      "@id": "_:N80f51d90281448328776da43d9730941",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -92,7 +92,7 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:Ne1200ad74fe840e8ae10a3fd08f0962e",
+      "@id": "_:N9644183f60a4457bb63acc4e55d12ec3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -100,7 +100,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N2bce754cc12d44409310d0eaf3a4406e",
+      "@id": "_:Ndf1948c4499e48978eabdc7b1c6da8e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -111,7 +111,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N062bcd3d031045b8b8d60cdedf459eed",
+      "@id": "_:N8525a84b7a384d50a16e69921bf81ed9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0972"
@@ -119,7 +119,7 @@
       "sc:name": "Text mining report"
     },
     {
-      "@id": "_:N35953e97f5b24cdaa810ee8e417b302d",
+      "@id": "_:N3d1438b76c4a4d37b76cfb5b38ace069",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"

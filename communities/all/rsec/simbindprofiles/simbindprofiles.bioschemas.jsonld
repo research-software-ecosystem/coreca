@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Bettina Fischer",
       "bsc:input": {
-        "@id": "_:N3ee4b670ba9644929422a3a5a0f68d35"
+        "@id": "_:N438ff1e51b75466f872e387d70f572f0"
       },
       "bsc:output": {
-        "@id": "_:N79d975508943410abdaf501c9ee90913"
+        "@id": "_:N43d402e947ad486aa5bd5c5f424cfad1"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -83,7 +83,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/SimBindProfiles.html"
     },
     {
-      "@id": "_:N3ee4b670ba9644929422a3a5a0f68d35",
+      "@id": "_:N438ff1e51b75466f872e387d70f572f0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3117"
@@ -94,7 +94,7 @@
       "sc:name": "Microarray hybridisation data"
     },
     {
-      "@id": "_:N79d975508943410abdaf501c9ee90913",
+      "@id": "_:N43d402e947ad486aa5bd5c5f424cfad1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"

@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/edger",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N5e43cba2692143e2b546338a293528c7"
+        "@id": "_:Nd4714abcf4834af99bd538653624f926"
       },
       "bsc:output": [
         {
-          "@id": "_:N8a4a5096146641fc94f0ad0d4b85a581"
+          "@id": "_:N2e0c1ec5ba4f4364bd3e8927c5daf03b"
         },
         {
-          "@id": "_:Nc9dc4c4187e44a89b7d5e79b87981161"
+          "@id": "_:Nbcc3f698efa041a8a544bf786a1db199"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -72,7 +72,7 @@
       "sc:featureList": {
         "@id": "edam:operation_3223"
       },
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "edgeR",
       "sc:operatingSystem": [
         "Linux",
@@ -82,11 +82,11 @@
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/edgeR"
       },
-      "sc:softwareVersion": "4.10.1",
+      "sc:softwareVersion": "4.10.6",
       "sc:url": "https://bioconductor.org/packages/edgeR"
     },
     {
-      "@id": "_:N5e43cba2692143e2b546338a293528c7",
+      "@id": "_:Nd4714abcf4834af99bd538653624f926",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -97,7 +97,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N8a4a5096146641fc94f0ad0d4b85a581",
+      "@id": "_:N2e0c1ec5ba4f4364bd3e8927c5daf03b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
@@ -113,7 +113,7 @@
       "sc:name": "P-value"
     },
     {
-      "@id": "_:Nc9dc4c4187e44a89b7d5e79b87981161",
+      "@id": "_:Nbcc3f698efa041a8a544bf786a1db199",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

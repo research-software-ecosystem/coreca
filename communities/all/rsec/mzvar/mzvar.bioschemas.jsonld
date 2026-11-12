@@ -47,14 +47,14 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N766eb5419f354ed3b6c4a35dfe13f2e5"
+          "@id": "_:Na6abff3572f2423387a643a64f2b124e"
         },
         {
-          "@id": "_:Nc89a517c30ed498b8979adb4cce34f68"
+          "@id": "_:Ne227880c18414e1aa5676752a495dc98"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nd2c21af106b444258c4ddaeb69a25999"
+        "@id": "_:N5cd6a5e29f5b4c5495071c8dedc0da33"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -100,7 +100,7 @@
       "sc:url": "https://bitbucket.org/sib-pig/mzvar-public/src/master/"
     },
     {
-      "@id": "_:N766eb5419f354ed3b6c4a35dfe13f2e5",
+      "@id": "_:Na6abff3572f2423387a643a64f2b124e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -111,7 +111,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:Nc89a517c30ed498b8979adb4cce34f68",
+      "@id": "_:Ne227880c18414e1aa5676752a495dc98",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -122,7 +122,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:Nd2c21af106b444258c4ddaeb69a25999",
+      "@id": "_:N5cd6a5e29f5b4c5495071c8dedc0da33",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"

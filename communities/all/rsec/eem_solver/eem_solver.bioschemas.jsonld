@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Radka Svobodová Vařeková",
       "bsc:input": {
-        "@id": "_:Na4b02dcee8914f62bce185c9473d9df5"
+        "@id": "_:N8687869b8589443c852b6fc854f15864"
       },
       "bsc:output": {
-        "@id": "_:N0c978ca78e564df7b42b6e3aaef1c166"
+        "@id": "_:N60ab311144dd401494801aba92632aff"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -88,7 +88,7 @@
       "sc:url": "http://ncbr.muni.cz/~svobodova/eem_abeem"
     },
     {
-      "@id": "_:Na4b02dcee8914f62bce185c9473d9df5",
+      "@id": "_:N8687869b8589443c852b6fc854f15864",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -96,7 +96,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N0c978ca78e564df7b42b6e3aaef1c166",
+      "@id": "_:N60ab311144dd401494801aba92632aff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1917"

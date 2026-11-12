@@ -36,24 +36,16 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1007/978-3-319-69459-7_10",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1145/3151759.3151809",
-      "@type": "sc:CreativeWork"
+      "@id": "https://orcid.org/0000-0002-2732-9370",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://doi.org/10.1007/978-3-319-47602-5_20",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0000-0002-2732-9370",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-7234-3051",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1145/3151759.3151809",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/linkedpipes_etl",
@@ -62,10 +54,10 @@
         "@id": "https://orcid.org/0000-0001-7234-3051"
       },
       "bsc:input": {
-        "@id": "_:N459ac414b70b4dbc9c692d71fe45ce45"
+        "@id": "_:N0348019367a542ca90acffafbab25233"
       },
       "bsc:output": {
-        "@id": "_:N9475bbeca8a5467ab5f9889d75f7f6a0"
+        "@id": "_:N3dcfd0e5fa1148eda6c88e5639fc0ec4"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -131,7 +123,7 @@
       "sc:url": "https://etl.linkedpipes.com/"
     },
     {
-      "@id": "_:N459ac414b70b4dbc9c692d71fe45ce45",
+      "@id": "_:N0348019367a542ca90acffafbab25233",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -156,7 +148,7 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:N9475bbeca8a5467ab5f9889d75f7f6a0",
+      "@id": "_:N3dcfd0e5fa1148eda6c88e5639fc0ec4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -179,6 +171,14 @@
         }
       ],
       "sc:name": "Data reference"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7234-3051",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1007/978-3-319-69459-7_10",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

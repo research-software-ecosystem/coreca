@@ -47,10 +47,10 @@
         "Emidio Capriotti"
       ],
       "bsc:input": {
-        "@id": "_:N8ed068d93ba1400b93446170ae7c0c7c"
+        "@id": "_:N97c3bb8d8d19471d958d7c96f883360b"
       },
       "bsc:output": {
-        "@id": "_:Na60c80c9468a4570bc54b219f7a01197"
+        "@id": "_:Nf6b9a96d8dba470f8ba01435451ffcfb"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -81,7 +81,7 @@
       "sc:url": "http://snps.biofold.org/phd-snp/"
     },
     {
-      "@id": "_:N8ed068d93ba1400b93446170ae7c0c7c",
+      "@id": "_:N97c3bb8d8d19471d958d7c96f883360b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -92,7 +92,7 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:Na60c80c9468a4570bc54b219f7a01197",
+      "@id": "_:Nf6b9a96d8dba470f8ba01435451ffcfb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1622"

@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1101/gr.121947.111",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/astalavista",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Micha Sammeth",
       "bsc:input": {
-        "@id": "_:N4f0ba31ee5c94f17ba69a35301508806"
+        "@id": "_:N60c9a79502cf496b98a0f1cf7a3e5c9c"
       },
       "bsc:output": {
-        "@id": "_:N8123aa25c9db4b0894b42f37108b205f"
+        "@id": "_:N776560cfa9c24a68a3a678bb2945c34c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -86,7 +90,7 @@
       "sc:url": "http://sammeth.net/confluence/display/ASTA/Home"
     },
     {
-      "@id": "_:N4f0ba31ee5c94f17ba69a35301508806",
+      "@id": "_:N60c9a79502cf496b98a0f1cf7a3e5c9c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -94,7 +98,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N8123aa25c9db4b0894b42f37108b205f",
+      "@id": "_:N776560cfa9c24a68a3a678bb2945c34c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -103,10 +107,6 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Sequence features"
-    },
-    {
-      "@id": "https://doi.org/10.1101/gr.121947.111",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,27 +36,23 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btr045",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pingo",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Steven Maere",
       "bsc:input": [
         {
-          "@id": "_:N7692b543f7ed45f899a06bf0ce487fa7"
+          "@id": "_:N05faa5882d0a4c129b1bf918d51e4990"
         },
         {
-          "@id": "_:Ncf1c4676e1b14e5683cd58e20b3c79a3"
+          "@id": "_:N99c633aa02264cda8b5cf30e93c6ffd1"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N119ec1915d8746e389b2ed148bbdf84e"
+          "@id": "_:Nd026fa6f1bfb40579888da293c533f19"
         },
         {
-          "@id": "_:Ne67e78cb821a4b5391b2a1bb124e2f05"
+          "@id": "_:N0de88e3dd7104f69a00530aec3409c75"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,7 +85,7 @@
       "sc:url": "http://www.psb.ugent.be/esb/PiNGO/Home.html"
     },
     {
-      "@id": "_:N7692b543f7ed45f899a06bf0ce487fa7",
+      "@id": "_:N05faa5882d0a4c129b1bf918d51e4990",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2338"
@@ -97,7 +93,7 @@
       "sc:name": "Ontology identifier"
     },
     {
-      "@id": "_:Ncf1c4676e1b14e5683cd58e20b3c79a3",
+      "@id": "_:N99c633aa02264cda8b5cf30e93c6ffd1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1082"
@@ -105,7 +101,7 @@
       "sc:name": "Pathway or network identifier"
     },
     {
-      "@id": "_:N119ec1915d8746e389b2ed148bbdf84e",
+      "@id": "_:Nd026fa6f1bfb40579888da293c533f19",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -113,12 +109,16 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "_:Ne67e78cb821a4b5391b2a1bb124e2f05",
+      "@id": "_:N0de88e3dd7104f69a00530aec3409c75",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
       },
       "sc:name": "P-value"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btr045",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

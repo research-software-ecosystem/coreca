@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkn729",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/rnavirusdb",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Tulio de Oliveira",
       "bsc:input": {
-        "@id": "_:Ne6eb1665d9344176aacc70fd1edd3e24"
+        "@id": "_:N40463f6a3ab649d8823af8872ecb356d"
       },
       "bsc:output": {
-        "@id": "_:N4dadac471e7844c4b140b422143781fa"
+        "@id": "_:N2614ffd225464c6bbcf8fd852e830c48"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -74,7 +70,7 @@
       "sc:url": "http://bioafrica.mrc.ac.za/rnavirusdb/"
     },
     {
-      "@id": "_:Ne6eb1665d9344176aacc70fd1edd3e24",
+      "@id": "_:N40463f6a3ab649d8823af8872ecb356d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2784"
@@ -82,7 +78,7 @@
       "sc:name": "RNAVirusDB ID"
     },
     {
-      "@id": "_:N4dadac471e7844c4b140b422143781fa",
+      "@id": "_:N2614ffd225464c6bbcf8fd852e830c48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2530"
@@ -91,6 +87,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Organism report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkn729",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

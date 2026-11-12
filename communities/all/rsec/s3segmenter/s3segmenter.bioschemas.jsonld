@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nc6402a55828943c6a13de88e90e13405"
+          "@id": "_:N41a0dbb648ca4612a8d98454e168543c"
         },
         {
-          "@id": "_:N1407e8c5dd22476495d6167513cddda1"
+          "@id": "_:N836a44ced12940459bdd828914ad8499"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nf719094a70d2471aa2329efc62c6bcec"
+        "@id": "_:N8f05cd627f90472ba8dfb7be1caeb016"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Script",
@@ -81,7 +81,7 @@
       "sc:url": "https://github.com/HMS-IDAC/S3segmenter"
     },
     {
-      "@id": "_:Nc6402a55828943c6a13de88e90e13405",
+      "@id": "_:N41a0dbb648ca4612a8d98454e168543c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2019"
@@ -89,7 +89,7 @@
       "sc:name": "Map data"
     },
     {
-      "@id": "_:N1407e8c5dd22476495d6167513cddda1",
+      "@id": "_:N836a44ced12940459bdd828914ad8499",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -100,7 +100,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nf719094a70d2471aa2329efc62c6bcec",
+      "@id": "_:N8f05cd627f90472ba8dfb7be1caeb016",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2019"

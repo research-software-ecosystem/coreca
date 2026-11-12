@@ -36,21 +36,25 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkv489",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/web-beagle",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Eugenio Mattei",
       "bsc:input": {
-        "@id": "_:Nfce3ce5627b0494c92677feecc42bb6a"
+        "@id": "_:N9e3030b159df4dec9c1f8b325ce103fa"
       },
       "bsc:output": [
         {
-          "@id": "_:N7e1c76897b6a480c907701fe3ad181ad"
+          "@id": "_:N0e5ed110a42b45649a6a6f7aace8106a"
         },
         {
-          "@id": "_:Nb46b36878c154705a87dbee2fdae88c9"
+          "@id": "_:Nfe675499c7784d309a6948c4bba15a58"
         },
         {
-          "@id": "_:Nb87cc1d2a42646e8bf80644c0a82702f"
+          "@id": "_:N6875ba9c867d490eaf8c32c6058d2a00"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -95,7 +99,7 @@
       "sc:url": "http://beagle.bio.uniroma2.it/index.php"
     },
     {
-      "@id": "_:Nfce3ce5627b0494c92677feecc42bb6a",
+      "@id": "_:N9e3030b159df4dec9c1f8b325ce103fa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -106,7 +110,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N7e1c76897b6a480c907701fe3ad181ad",
+      "@id": "_:N0e5ed110a42b45649a6a6f7aace8106a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1394"
@@ -114,7 +118,7 @@
       "sc:name": "Alignment score or penalty"
     },
     {
-      "@id": "_:Nb46b36878c154705a87dbee2fdae88c9",
+      "@id": "_:Nfe675499c7784d309a6948c4bba15a58",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -122,7 +126,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nb87cc1d2a42646e8bf80644c0a82702f",
+      "@id": "_:N6875ba9c867d490eaf8c32c6058d2a00",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -131,10 +135,6 @@
         "@id": "edam:format_2200"
       },
       "sc:name": "Text data"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkv489",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/austraits",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N95eeb5fc145e4b288a80c46eb5ca7e0c"
+        "@id": "_:N287762a7158f4652bdfd32bac5e130ea"
       },
       "bsc:output": {
-        "@id": "_:N6aa2ab99a43e4cd5878b5d0f3690ff2b"
+        "@id": "_:N7f2f9240c20f45019efa8011fa52e66d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -82,7 +82,7 @@
       "sc:url": "https://traitecoevo.github.io/austraits"
     },
     {
-      "@id": "_:N95eeb5fc145e4b288a80c46eb5ca7e0c",
+      "@id": "_:N287762a7158f4652bdfd32bac5e130ea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0920"
@@ -93,7 +93,7 @@
       "sc:name": "Genotype/phenotype report"
     },
     {
-      "@id": "_:N6aa2ab99a43e4cd5878b5d0f3690ff2b",
+      "@id": "_:N7f2f9240c20f45019efa8011fa52e66d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

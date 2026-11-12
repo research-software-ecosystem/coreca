@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/Mascot_Distiller",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N854567f3635e47b996704bd463629013"
+        "@id": "_:N3d8c59f490674ca78afe1a2f19592c07"
       },
       "bsc:output": [
         {
-          "@id": "_:N0e6553e7712147c8918168a39434e545"
+          "@id": "_:N8983710262474feeb5bc00776ccb47e9"
         },
         {
-          "@id": "_:Ne86db28aa89a4d97af5ebc48be90ee66"
+          "@id": "_:N6ab7bb06acb04a94b09b56a9bcace4d0"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -85,7 +85,7 @@
       "sc:url": "http://www.matrixscience.com/distiller.html"
     },
     {
-      "@id": "_:N854567f3635e47b996704bd463629013",
+      "@id": "_:N3d8c59f490674ca78afe1a2f19592c07",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -113,7 +113,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N0e6553e7712147c8918168a39434e545",
+      "@id": "_:N8983710262474feeb5bc00776ccb47e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -132,7 +132,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Ne86db28aa89a4d97af5ebc48be90ee66",
+      "@id": "_:N6ab7bb06acb04a94b09b56a9bcace4d0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"

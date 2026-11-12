@@ -36,20 +36,16 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0002-8291-8071",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/naflex",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0002-8291-8071"
       },
       "bsc:input": {
-        "@id": "_:N6af53804df5a4f57a7439343b818987f"
+        "@id": "_:N695433ce052f440eb7008144ee9b12f1"
       },
       "bsc:output": {
-        "@id": "_:N6e97209ee3124c79ad86908b900c2e4e"
+        "@id": "_:Nafca7a738ea248e4bf2d8c370c575716"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workbench",
@@ -96,7 +92,7 @@
       "sc:url": "http://mmb.irbbarcelona.org/NAFlex/"
     },
     {
-      "@id": "_:N6af53804df5a4f57a7439343b818987f",
+      "@id": "_:N695433ce052f440eb7008144ee9b12f1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -112,12 +108,16 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N6e97209ee3124c79ad86908b900c2e4e",
+      "@id": "_:Nafca7a738ea248e4bf2d8c370c575716",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2086"
       },
       "sc:name": "Nucleic acid structure data"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-8291-8071",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkt378",

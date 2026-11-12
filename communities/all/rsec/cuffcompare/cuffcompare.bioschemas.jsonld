@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
@@ -49,18 +45,18 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N13e5770f7a3c41748a791c7d5851cac3"
+          "@id": "_:N3567c2c2abe1481fa357e69092f87ee6"
         },
         {
-          "@id": "_:N794d94d3542740778ea226831336d738"
+          "@id": "_:Na089caf09d69465784cbb1732b94bf04"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3e4dca1afeab4fe2a2b07264a7644097"
+          "@id": "_:Nbe672550cd054a6fabf1d4c8658201b2"
         },
         {
-          "@id": "_:N32ee484407184122916abad533db1dd9"
+          "@id": "_:N53a0b57b7b2d4db78d7fa14dd63f3602"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -100,7 +96,7 @@
       "sc:url": "http://cole-trapnell-lab.github.io/cufflinks/"
     },
     {
-      "@id": "_:N13e5770f7a3c41748a791c7d5851cac3",
+      "@id": "_:N3567c2c2abe1481fa357e69092f87ee6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -116,7 +112,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N794d94d3542740778ea226831336d738",
+      "@id": "_:Na089caf09d69465784cbb1732b94bf04",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -127,7 +123,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N3e4dca1afeab4fe2a2b07264a7644097",
+      "@id": "_:Nbe672550cd054a6fabf1d4c8658201b2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -138,7 +134,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N32ee484407184122916abad533db1dd9",
+      "@id": "_:N53a0b57b7b2d4db78d7fa14dd63f3602",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -150,6 +146,10 @@
     },
     {
       "@id": "https://doi.org/10.1038/nbt.1621",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

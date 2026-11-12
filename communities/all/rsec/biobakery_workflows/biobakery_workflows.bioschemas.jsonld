@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/biobakery_workflows",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N60fad9fa6ca146e1877d2f73dbc80581"
+        "@id": "_:N21d4bffeb5074647b90cd6f88b94a48e"
       },
       "bsc:output": {
-        "@id": "_:N1da9392dc36c415c8fddebc070b0f7e6"
+        "@id": "_:Nfd575d4cbe1441b2b73693f95456fd2b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
@@ -75,7 +75,7 @@
       "sc:url": "http://huttenhower.sph.harvard.edu/biobakery_workflows"
     },
     {
-      "@id": "_:N60fad9fa6ca146e1877d2f73dbc80581",
+      "@id": "_:N21d4bffeb5074647b90cd6f88b94a48e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -86,7 +86,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N1da9392dc36c415c8fddebc070b0f7e6",
+      "@id": "_:Nfd575d4cbe1441b2b73693f95456fd2b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2084"

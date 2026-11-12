@@ -1,0 +1,479 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/biosyn-lab-calculators",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:Nf6ab7e0f597145f69e4b3acbdcc65502"
+        },
+        {
+          "@id": "_:N0bbb5deadbae4c19ab80b080fa5dc117"
+        },
+        {
+          "@id": "_:Nd168af4503374f97b1395a39820b0ce0"
+        },
+        {
+          "@id": "_:N9049259e81da4da58dec479e03c8eff0"
+        },
+        {
+          "@id": "_:Nb6146644add2410ba90640087fc4774d"
+        },
+        {
+          "@id": "_:N7bd1b78a852e4cf7b6d8da10a057670f"
+        },
+        {
+          "@id": "_:N2db4b5c5969f4a9fb8e156dda1892bc5"
+        },
+        {
+          "@id": "_:N7994324280054e1c8381a6e893ca22ec"
+        },
+        {
+          "@id": "_:Nfb565a7f666d45ccb676f87a397a2c88"
+        },
+        {
+          "@id": "_:N9d0cf368f0334d809447ae711bb27bfa"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nae66d42b96f64e1f9217a16414a7ee85"
+        },
+        {
+          "@id": "_:Nc6cd7911b299480d9508f2536137468d"
+        },
+        {
+          "@id": "_:Nb05d78d5f31045919610915d889c30fc"
+        },
+        {
+          "@id": "_:N8a3bb589c57f42af94616982444e694f"
+        },
+        {
+          "@id": "_:N2be048ceebed41b59879856af34f7916"
+        },
+        {
+          "@id": "_:N27008a069b31431fa66d7d2181f587ef"
+        },
+        {
+          "@id": "_:N0f1e2d0d048b445fb12209d31c80bab6"
+        },
+        {
+          "@id": "_:N66c69884ffb34e02bec43e6d6cda7897"
+        },
+        {
+          "@id": "_:N5c11e4bcd74f474ea5f3661eadffca89"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Suite",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3292"
+        },
+        {
+          "@id": "edam:topic_0608"
+        },
+        {
+          "@id": "edam:topic_2229"
+        },
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_3047"
+        },
+        {
+          "@id": "edam:topic_3321"
+        },
+        {
+          "@id": "edam:topic_0077"
+        },
+        {
+          "@id": "edam:topic_0078"
+        }
+      ],
+      "sc:description": "Free browser-based calculators for molecular biology, biochemistry, cell culture and molecular cloning work. Twenty-plus tools cover molarity and dilution, stock and working solutions, DNA and protein molecular weight, primer melting temperature, PCR master mix setup, qPCR efficiency and delta-delta Ct, A260 and A280 concentration, plasmid molecular weight, ligation ratio, transformation efficiency, hemocytometer cell counting, trypan blue viability, seeding density, population doubling time and CFU plate counts, organised into laboratory, DNA & RNA, PCR & qPCR, cell culture, protein and molecular cloning categories. Every result page states the equation, defines each variable and walks a worked example. Each calculator is paired with a method guide explaining the formula, its assumptions and the common mistakes. All computation runs locally in the browser: no input data is uploaded, nothing is stored, and no account is required.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3438"
+        },
+        {
+          "@id": "edam:operation_3434"
+        },
+        {
+          "@id": "edam:operation_2238"
+        },
+        {
+          "@id": "edam:operation_2495"
+        },
+        {
+          "@id": "edam:operation_3435"
+        },
+        {
+          "@id": "edam:operation_3267"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Freeware",
+      "sc:name": "BioSyn Lab Calculators",
+      "sc:softwareHelp": [
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-plasmid-molecular-weight/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-dna-concentration/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/c1v1-equation/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-cfu/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-transformation-efficiency/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/cell-culture/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/dna-rna/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-determine-protein-concentration-a280/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-a-dilution/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-dna-molecular-weight/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-gc-content/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-ligation-ratio/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-protein-isoelectric-point/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/laboratory/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-delta-delta-ct/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-make-a-stock-solution/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-molarity/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/cloning/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/molarity-vs-molality/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/pcr/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-make-a-serial-dilution/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/protein/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-qpcr-efficiency/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-make-a-pcr-master-mix/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-molar-mass/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-protein-molecular-weight/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-seeding-density/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-doubling-time/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-count-cells-with-hemocytometer/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/percent-solution-wv-vv-ww/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-choose-annealing-temperature/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-cell-viability/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-prepare-a-working-solution/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/how-to-calculate-primer-tm/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/what-is-molarity/"
+        },
+        {
+          "@id": "https://biosyn-inc.com/guides/ppm-to-mg-l/"
+        }
+      ],
+      "sc:url": "https://biosyn-inc.com/"
+    },
+    {
+      "@id": "_:Nf6ab7e0f597145f69e4b3acbdcc65502",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2140"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Concentration"
+    },
+    {
+      "@id": "_:N0bbb5deadbae4c19ab80b080fa5dc117",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2140"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Concentration"
+    },
+    {
+      "@id": "_:Nd168af4503374f97b1395a39820b0ce0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2140"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Concentration"
+    },
+    {
+      "@id": "_:N9049259e81da4da58dec479e03c8eff0",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2140"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Concentration"
+    },
+    {
+      "@id": "_:Nb6146644add2410ba90640087fc4774d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2139"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Nucleic acid melting temperature"
+    },
+    {
+      "@id": "_:N7bd1b78a852e4cf7b6d8da10a057670f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0932"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Oligonucleotide probe data"
+    },
+    {
+      "@id": "_:N2db4b5c5969f4a9fb8e156dda1892bc5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1532"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Protein optical density"
+    },
+    {
+      "@id": "_:N7994324280054e1c8381a6e893ca22ec",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2044"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence"
+    },
+    {
+      "@id": "_:Nfb565a7f666d45ccb676f87a397a2c88",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1249"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence length"
+    },
+    {
+      "@id": "_:N9d0cf368f0334d809447ae711bb27bfa",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1249"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence length"
+    },
+    {
+      "@id": "_:Nae66d42b96f64e1f9217a16414a7ee85",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2140"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2331"
+      },
+      "sc:name": "Concentration"
+    },
+    {
+      "@id": "_:Nc6cd7911b299480d9508f2536137468d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2140"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Concentration"
+    },
+    {
+      "@id": "_:Nb05d78d5f31045919610915d889c30fc",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2140"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Concentration"
+    },
+    {
+      "@id": "_:N8a3bb589c57f42af94616982444e694f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2140"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Concentration"
+    },
+    {
+      "@id": "_:N2be048ceebed41b59879856af34f7916",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2139"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Nucleic acid melting temperature"
+    },
+    {
+      "@id": "_:N27008a069b31431fa66d7d2181f587ef",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2140"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Concentration"
+    },
+    {
+      "@id": "_:N0f1e2d0d048b445fb12209d31c80bab6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2140"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Concentration"
+    },
+    {
+      "@id": "_:N66c69884ffb34e02bec43e6d6cda7897",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_1249"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Sequence length"
+    },
+    {
+      "@id": "_:N5c11e4bcd74f474ea5f3661eadffca89",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2140"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_2330"
+      },
+      "sc:name": "Concentration"
+    }
+  ]
+}

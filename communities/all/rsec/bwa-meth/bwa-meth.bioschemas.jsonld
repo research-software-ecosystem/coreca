@@ -36,25 +36,21 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.48550/arXiv.1401.1129",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/bwa-meth",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd9027d94d2454ad48ea299b056a73e12"
+          "@id": "_:N2843f0f2c2834dc0ba26252ed90ef025"
         },
         {
-          "@id": "_:N37ca074ff5034c7ca7b68a805556ab89"
+          "@id": "_:N169d460e6b47441e9f5fb4d3d7a7f29f"
         },
         {
-          "@id": "_:N43a56b90528e41be94825c25f9d54a79"
+          "@id": "_:N889b17a4900b4dfba74eefac672203e8"
         }
       ],
       "bsc:output": {
-        "@id": "_:Na83f15a238b041869c8b8ae529bae411"
+        "@id": "_:N5bc845db3c54492e9d12c9a77e5ea0b3"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -81,7 +77,7 @@
       "sc:url": "https://github.com/brentp/bwa-meth"
     },
     {
-      "@id": "_:Nd9027d94d2454ad48ea299b056a73e12",
+      "@id": "_:N2843f0f2c2834dc0ba26252ed90ef025",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -92,7 +88,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N37ca074ff5034c7ca7b68a805556ab89",
+      "@id": "_:N169d460e6b47441e9f5fb4d3d7a7f29f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -103,7 +99,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N43a56b90528e41be94825c25f9d54a79",
+      "@id": "_:N889b17a4900b4dfba74eefac672203e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -114,7 +110,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Na83f15a238b041869c8b8ae529bae411",
+      "@id": "_:N5bc845db3c54492e9d12c9a77e5ea0b3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -123,6 +119,10 @@
         "@id": "edam:format_2573"
       },
       "sc:name": "Nucleic acid sequence alignment"
+    },
+    {
+      "@id": "https://doi.org/10.48550/arXiv.1401.1129",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

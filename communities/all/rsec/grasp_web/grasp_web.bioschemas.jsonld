@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Na055b9e7dd1b4d658bd6946e432da6da"
+          "@id": "_:Nbcc9d81fa60b435b9a5f4efaff021ee4"
         },
         {
-          "@id": "_:N76e565aa2f1441c5886eebe4c41d7288"
+          "@id": "_:Nf85540a49ccc449dbdeef1bf5d0e9ec3"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -104,7 +104,7 @@
       "sc:url": "http://grasp.scmb.uq.edu.au"
     },
     {
-      "@id": "_:Na055b9e7dd1b4d658bd6946e432da6da",
+      "@id": "_:Nbcc9d81fa60b435b9a5f4efaff021ee4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -112,7 +112,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N76e565aa2f1441c5886eebe4c41d7288",
+      "@id": "_:Nf85540a49ccc449dbdeef1bf5d0e9ec3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

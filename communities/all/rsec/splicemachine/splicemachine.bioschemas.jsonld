@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/bti166",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/splicemachine",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na2e146dd6a084294aed5f8bfdebc86c8"
+        "@id": "_:Nec44fd861df4416c88498eae2638caad"
       },
       "bsc:output": {
-        "@id": "_:Neea70dca8c714b07a05cbee5f52ab478"
+        "@id": "_:Nb2a6337852af4d5fb4b27cc0879dbb17"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -73,7 +77,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/software/details/SpliceMachine"
     },
     {
-      "@id": "_:Na2e146dd6a084294aed5f8bfdebc86c8",
+      "@id": "_:Nec44fd861df4416c88498eae2638caad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -84,16 +88,12 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Neea70dca8c714b07a05cbee5f52ab478",
+      "@id": "_:Nb2a6337852af4d5fb4b27cc0879dbb17",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2070"
       },
       "sc:name": "Sequence motif (nucleic acid)"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/bti166",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

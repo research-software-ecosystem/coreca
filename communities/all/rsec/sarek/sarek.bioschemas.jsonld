@@ -46,14 +46,14 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Nf42bbd68d4ba4932b0764d9dbe5f530d"
+          "@id": "_:N90ac123b52264840a497bc97627ab57d"
         },
         {
-          "@id": "_:N5bbb06df9acb4096afe8ca4927c30df5"
+          "@id": "_:N16d75983d3ba45b8908779b3f1ae2b9c"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nb7a802730547498cb8b17a021135c6b5"
+        "@id": "_:N1f6419d830d34de8ab8943d7462c69b9"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -133,7 +133,7 @@
       "sc:url": "https://nf-co.re/sarek"
     },
     {
-      "@id": "_:Nf42bbd68d4ba4932b0764d9dbe5f530d",
+      "@id": "_:N90ac123b52264840a497bc97627ab57d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -144,7 +144,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N5bbb06df9acb4096afe8ca4927c30df5",
+      "@id": "_:N16d75983d3ba45b8908779b3f1ae2b9c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3497"
@@ -155,7 +155,7 @@
       "sc:name": "DNA sequence (raw)"
     },
     {
-      "@id": "_:Nb7a802730547498cb8b17a021135c6b5",
+      "@id": "_:N1f6419d830d34de8ab8943d7462c69b9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -166,8 +166,8 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "https://orcid.org/0000-0003-2827-9261",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1038/s41587-020-0439-x",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.12688/f1000research.16665.2",
@@ -178,8 +178,8 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1038/s41587-020-0439-x",
-      "@type": "sc:CreativeWork"
+      "@id": "https://orcid.org/0000-0003-2827-9261",
+      "@type": "sc:Person"
     }
   ]
 }

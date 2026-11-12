@@ -36,30 +36,26 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btt592",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/gcmap",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Thomas Sandmann",
       "bsc:input": [
         {
-          "@id": "_:N3ba5dceca681490d87efa3b7034d6741"
+          "@id": "_:N46978a4702754866a7eee50eddcfc776"
         },
         {
-          "@id": "_:Na63ee4328b944f388687e267e6c52f18"
+          "@id": "_:Nb677dc0ea9764e908237355e88a12738"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1987cca4b1134ba7ab636762249adc07"
+          "@id": "_:N13ae0e37f4fb4dfc96c58cd98216e7bb"
         },
         {
-          "@id": "_:N08942d7ee4a340eeac80a9b90b79eaea"
+          "@id": "_:Nce49ee5267eb462fa3e9add1e50bd011"
         },
         {
-          "@id": "_:Nf8fbf338510f47579822c160ea4deb2a"
+          "@id": "_:Na4e71caa73d14762b84921e982a98ae6"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -110,7 +106,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/gCMAP.html"
     },
     {
-      "@id": "_:N3ba5dceca681490d87efa3b7034d6741",
+      "@id": "_:N46978a4702754866a7eee50eddcfc776",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -121,7 +117,7 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:Na63ee4328b944f388687e267e6c52f18",
+      "@id": "_:Nb677dc0ea9764e908237355e88a12738",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -132,7 +128,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N1987cca4b1134ba7ab636762249adc07",
+      "@id": "_:N13ae0e37f4fb4dfc96c58cd98216e7bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -148,7 +144,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N08942d7ee4a340eeac80a9b90b79eaea",
+      "@id": "_:Nce49ee5267eb462fa3e9add1e50bd011",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -164,7 +160,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nf8fbf338510f47579822c160ea4deb2a",
+      "@id": "_:Na4e71caa73d14762b84921e982a98ae6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -178,6 +174,10 @@
         }
       ],
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btt592",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

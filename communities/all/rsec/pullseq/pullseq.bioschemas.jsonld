@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/pullseq",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0e81a24571df473e84e7a4639585cf7e"
+        "@id": "_:N2d0f181a39b04b8d9e0f790fdefbdf76"
       },
       "bsc:output": {
-        "@id": "_:N036c8e9e13b7409cb92f8b5ace338ce5"
+        "@id": "_:N86605f0292b549c6830e0baf0e4820b3"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -64,7 +64,7 @@
       "sc:url": "https://github.com/bcthomas/pullseq"
     },
     {
-      "@id": "_:N0e81a24571df473e84e7a4639585cf7e",
+      "@id": "_:N2d0f181a39b04b8d9e0f790fdefbdf76",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -80,7 +80,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N036c8e9e13b7409cb92f8b5ace338ce5",
+      "@id": "_:N86605f0292b549c6830e0baf0e4820b3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

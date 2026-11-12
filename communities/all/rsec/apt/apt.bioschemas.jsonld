@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Howard Y Chang",
       "bsc:input": {
-        "@id": "_:Nd96897bee9894f52821548c58715b073"
+        "@id": "_:Nda63122fe52146aab75448b422cc0ce5"
       },
       "bsc:output": {
-        "@id": "_:Nbf205de6aea540f2bf90c23e4332834f"
+        "@id": "_:Ne41528d0cf5f406c9629ac7c5f1b267f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -82,7 +82,7 @@
       "sc:url": "https://github.com/ChangLab/ATACPrimerTool"
     },
     {
-      "@id": "_:Nd96897bee9894f52821548c58715b073",
+      "@id": "_:Nda63122fe52146aab75448b422cc0ce5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -93,7 +93,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nbf205de6aea540f2bf90c23e4332834f",
+      "@id": "_:Ne41528d0cf5f406c9629ac7c5f1b267f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

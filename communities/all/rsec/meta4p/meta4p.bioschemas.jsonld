@@ -47,20 +47,20 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nc6b0f62c89174ecdbd3990d94f0da2fe"
+          "@id": "_:N32cf695e07d94a5685a81bef577e9e92"
         },
         {
-          "@id": "_:N3367ec1aa84341cb9a1b845ef089641c"
+          "@id": "_:Nf6e44e22cf43410bb39f4a4abb1a9bf7"
         },
         {
-          "@id": "_:N7439daa3bb5845b0a1bfecdd09b0937d"
+          "@id": "_:N12e7531d9cc140df9a7d75c9ea5c824b"
         },
         {
-          "@id": "_:Nda4570cd4d40490a8761f161ad648b58"
+          "@id": "_:N026e39abda524cc3915804c58fa973d1"
         }
       ],
       "bsc:output": {
-        "@id": "_:N3d6cefc06a4f49c8b19119c716338de7"
+        "@id": "_:N33269952fb07471f93ff6a544257615d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -90,7 +90,7 @@
       "sc:url": "https://github.com/TheMassimo/Meta4P"
     },
     {
-      "@id": "_:Nc6b0f62c89174ecdbd3990d94f0da2fe",
+      "@id": "_:N32cf695e07d94a5685a81bef577e9e92",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1154"
@@ -101,7 +101,7 @@
       "sc:name": "KEGG object identifier"
     },
     {
-      "@id": "_:N3367ec1aa84341cb9a1b845ef089641c",
+      "@id": "_:Nf6e44e22cf43410bb39f4a4abb1a9bf7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -112,7 +112,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N7439daa3bb5845b0a1bfecdd09b0937d",
+      "@id": "_:N12e7531d9cc140df9a7d75c9ea5c824b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -123,7 +123,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nda4570cd4d40490a8761f161ad648b58",
+      "@id": "_:N026e39abda524cc3915804c58fa973d1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -134,7 +134,7 @@
       "sc:name": "Taxonomy"
     },
     {
-      "@id": "_:N3d6cefc06a4f49c8b19119c716338de7",
+      "@id": "_:N33269952fb07471f93ff6a544257615d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"

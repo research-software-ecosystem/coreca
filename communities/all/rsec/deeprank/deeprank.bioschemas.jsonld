@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/DeepRank",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ncf656881a1a647afb1557fc49cf529cc"
+        "@id": "_:Nffad3656099742a2a7bf31173815179f"
       },
       "bsc:output": {
-        "@id": "_:N9a92fd360bae4bb0afab7db6316435d6"
+        "@id": "_:N404512bfa21441838cc4867792372ccf"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -74,7 +74,7 @@
       "sc:url": "https://github.com/DeepRank/deeprank"
     },
     {
-      "@id": "_:Ncf656881a1a647afb1557fc49cf529cc",
+      "@id": "_:Nffad3656099742a2a7bf31173815179f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1461"
@@ -85,7 +85,7 @@
       "sc:name": "Protein-ligand complex"
     },
     {
-      "@id": "_:N9a92fd360bae4bb0afab7db6316435d6",
+      "@id": "_:N404512bfa21441838cc4867792372ccf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0888"

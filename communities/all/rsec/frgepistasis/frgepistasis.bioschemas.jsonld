@@ -40,17 +40,17 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nbeebc5d4de31458d8a0184412f21973b"
+          "@id": "_:N40064a673c26488393103285760de9b0"
         },
         {
-          "@id": "_:N35de3b3334d342d383674fed520bf8ec"
+          "@id": "_:Na53fd915ce9446eb96c75f37989d0d48"
         },
         {
-          "@id": "_:N564d44d4d91b4396a7b6066d136bc883"
+          "@id": "_:N77dc1ad0c5a74f9c843a4c04d66130a0"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ndf2f19fbb6154d7b945c78b4bf97a5a0"
+        "@id": "_:N29ae457b9c1f4af68c342f22653842c1"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -74,7 +74,7 @@
           "@id": "edam:operation_3659"
         }
       ],
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "FRGEpistasis",
       "sc:operatingSystem": [
         "Linux",
@@ -88,7 +88,7 @@
       "sc:url": "https://bioconductor.org/packages/FRGEpistasis"
     },
     {
-      "@id": "_:Nbeebc5d4de31458d8a0184412f21973b",
+      "@id": "_:N40064a673c26488393103285760de9b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0955"
@@ -110,7 +110,7 @@
       "sc:name": "Data index"
     },
     {
-      "@id": "_:N35de3b3334d342d383674fed520bf8ec",
+      "@id": "_:Na53fd915ce9446eb96c75f37989d0d48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0920"
@@ -132,7 +132,7 @@
       "sc:name": "Genotype/phenotype report"
     },
     {
-      "@id": "_:N564d44d4d91b4396a7b6066d136bc883",
+      "@id": "_:N77dc1ad0c5a74f9c843a4c04d66130a0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1017"
@@ -154,7 +154,7 @@
       "sc:name": "Sequence range"
     },
     {
-      "@id": "_:Ndf2f19fbb6154d7b945c78b4bf97a5a0",
+      "@id": "_:N29ae457b9c1f4af68c342f22653842c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"

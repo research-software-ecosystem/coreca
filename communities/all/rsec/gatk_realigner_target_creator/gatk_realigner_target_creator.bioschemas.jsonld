@@ -36,58 +36,50 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/npre.2011.6107",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/gatk_realigner_target_creator",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N1d2495579ac544cba6b5f26f6362d1fe"
+          "@id": "_:N99e7d651f1264c51a23f21488105cca3"
         },
         {
-          "@id": "_:Ndff36c606f014d08b64704340abe670e"
+          "@id": "_:N565e2a5d4b474d369d3e388397e1c391"
         },
         {
-          "@id": "_:Nc5faab431f7f42c8b3e9ab50a6c6ba21"
+          "@id": "_:Nd721938b00de4e62b05c662784bdd3ed"
         },
         {
-          "@id": "_:N0a176bf782b94c688b3083bf416068bf"
+          "@id": "_:N6d61173656db4a2a84ad5f57ee450504"
         },
         {
-          "@id": "_:Ndec4c509eaf648b38c91f2de327eb5fa"
+          "@id": "_:N128929dc434c4a41a1dc5e3c168e4424"
         },
         {
-          "@id": "_:N8f79340a260a445ba74055664fa862d9"
+          "@id": "_:N8dfc7d4058c440de808a4debbe413511"
         },
         {
-          "@id": "_:Nbe19a1d5c81f474f98e239b93f7c9aa8"
+          "@id": "_:N7a2a1e54b1e746bcaf81ac57a776b525"
         },
         {
-          "@id": "_:Na139fe711b4a432e9f006b0ad43f5c6f"
+          "@id": "_:N3ab69cb9c2f04ed4a3b4f4983fc32fa5"
         },
         {
-          "@id": "_:N6774cc9ffe034ff499b799ccf97bc61c"
+          "@id": "_:N429ad2e1c07b42fca6ac80d22cbba5ae"
         },
         {
-          "@id": "_:N210182607cfb4cf7bd08d01de2600406"
+          "@id": "_:Nb370a40ba8cf4ace8d9d32026875b645"
         },
         {
-          "@id": "_:Nbb5bc7f0a7134ed09329394f7fed5dbe"
+          "@id": "_:Na109d650c7a34283bb916d6286f0b3db"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nb8270e5c69f24e66bfd72e4cac3964ee"
+          "@id": "_:N48df75032cd84fb4a68bfa85c543c2d4"
         },
         {
-          "@id": "_:Nd3301fba91384cb3953b467b5049989d"
+          "@id": "_:N1cc93f66218548c4b00411cf7cf4e53b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -120,7 +112,7 @@
       "sc:url": "https://software.broadinstitute.org/gatk/"
     },
     {
-      "@id": "_:N1d2495579ac544cba6b5f26f6362d1fe",
+      "@id": "_:N99e7d651f1264c51a23f21488105cca3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -142,7 +134,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ndff36c606f014d08b64704340abe670e",
+      "@id": "_:N565e2a5d4b474d369d3e388397e1c391",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -164,7 +156,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nc5faab431f7f42c8b3e9ab50a6c6ba21",
+      "@id": "_:Nd721938b00de4e62b05c662784bdd3ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -175,7 +167,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N0a176bf782b94c688b3083bf416068bf",
+      "@id": "_:N6d61173656db4a2a84ad5f57ee450504",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -186,7 +178,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ndec4c509eaf648b38c91f2de327eb5fa",
+      "@id": "_:N128929dc434c4a41a1dc5e3c168e4424",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -197,7 +189,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N8f79340a260a445ba74055664fa862d9",
+      "@id": "_:N8dfc7d4058c440de808a4debbe413511",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -208,7 +200,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:Nbe19a1d5c81f474f98e239b93f7c9aa8",
+      "@id": "_:N7a2a1e54b1e746bcaf81ac57a776b525",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -219,7 +211,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:Na139fe711b4a432e9f006b0ad43f5c6f",
+      "@id": "_:N3ab69cb9c2f04ed4a3b4f4983fc32fa5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -230,7 +222,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N6774cc9ffe034ff499b799ccf97bc61c",
+      "@id": "_:N429ad2e1c07b42fca6ac80d22cbba5ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -241,7 +233,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N210182607cfb4cf7bd08d01de2600406",
+      "@id": "_:Nb370a40ba8cf4ace8d9d32026875b645",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -252,7 +244,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Nbb5bc7f0a7134ed09329394f7fed5dbe",
+      "@id": "_:Na109d650c7a34283bb916d6286f0b3db",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -263,7 +255,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Nb8270e5c69f24e66bfd72e4cac3964ee",
+      "@id": "_:N48df75032cd84fb4a68bfa85c543c2d4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -274,7 +266,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nd3301fba91384cb3953b467b5049989d",
+      "@id": "_:N1cc93f66218548c4b00411cf7cf4e53b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -283,6 +275,14 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1038/npre.2011.6107",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

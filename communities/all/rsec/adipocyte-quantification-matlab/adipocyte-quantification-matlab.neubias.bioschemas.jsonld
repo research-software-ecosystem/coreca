@@ -49,15 +49,15 @@
   },
   "http://schema.org/name": "Adipocyte quantification MATLAB",
   "http://schema.org/publisher": [
-    "Sabah Jassim",
-    "Małgorzata A Kępczyńska",
-    "Claire J Stocker",
-    "Jacqueline F O’Dowd",
-    "Joanne L Selway",
-    "Osman S Osman",
     "Jonathan RS Arch",
+    "Michael A Cawthorne",
+    "Małgorzata A Kępczyńska",
+    "Osman S Osman",
     "Kenneth Langlands",
-    "Michael A Cawthorne"
+    "Joanne L Selway",
+    "Claire J Stocker",
+    "Sabah Jassim",
+    "Jacqueline F O’Dowd"
   ],
   "http://schema.org/softwareRequirements": {
     "@id": "http://biii.eu/node/101"

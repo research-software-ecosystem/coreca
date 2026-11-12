@@ -44,14 +44,14 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N16ed61280e13428c9ed1fd11593ac7d2"
+          "@id": "_:Nb2c0b73c6c714d16acf0b5588477d9c4"
         },
         {
-          "@id": "_:Nfa26f5e301724508be49f093cd2ee466"
+          "@id": "_:N766a900cb4454dd39fcf7d86656b0d15"
         }
       ],
       "bsc:output": {
-        "@id": "_:Neccc55384f5b462e9ac45b1e3dedb96f"
+        "@id": "_:N4fe02fa41dc94df086c4db4d741c90f6"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -102,7 +102,7 @@
       "sc:url": "https://github.com/instadeepai/winnow"
     },
     {
-      "@id": "_:N16ed61280e13428c9ed1fd11593ac7d2",
+      "@id": "_:Nb2c0b73c6c714d16acf0b5588477d9c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -118,7 +118,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:Nfa26f5e301724508be49f093cd2ee466",
+      "@id": "_:N766a900cb4454dd39fcf7d86656b0d15",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -129,7 +129,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Neccc55384f5b462e9ac45b1e3dedb96f",
+      "@id": "_:N4fe02fa41dc94df086c4db4d741c90f6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"

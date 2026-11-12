@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/decoy.pl",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb5882ff5413f4243a0e2044ceb41f4a2"
+        "@id": "_:N7097a65c99704085987f17c7563150b1"
       },
       "bsc:output": {
-        "@id": "_:N5dd2ebba9c25455597b7a825a10218d5"
+        "@id": "_:N9de7f5321f254f13af9e0689980bfb49"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -75,7 +75,7 @@
       "sc:url": "http://www.matrixscience.com/help/decoy_help.html"
     },
     {
-      "@id": "_:Nb5882ff5413f4243a0e2044ceb41f4a2",
+      "@id": "_:N7097a65c99704085987f17c7563150b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -86,7 +86,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N5dd2ebba9c25455597b7a825a10218d5",
+      "@id": "_:N9de7f5321f254f13af9e0689980bfb49",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

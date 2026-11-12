@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkx866",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/plncpro",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3929c5cab8d5492791625eca17aabab0"
+        "@id": "_:N68e1ef66d2594a999dd5e701ea337d90"
       },
       "bsc:output": {
-        "@id": "_:Nd3f6a5bdecde4137a6c368755d75d2a7"
+        "@id": "_:Nddf462fdce5b4ce783d232c570e1a8fb"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -74,7 +78,7 @@
       "sc:url": "https://github.com/urmi-21/PLncPRO"
     },
     {
-      "@id": "_:N3929c5cab8d5492791625eca17aabab0",
+      "@id": "_:N68e1ef66d2594a999dd5e701ea337d90",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -85,16 +89,12 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:Nd3f6a5bdecde4137a6c368755d75d2a7",
+      "@id": "_:Nddf462fdce5b4ce783d232c570e1a8fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
       },
       "sc:name": "Text data"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkx866",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/identpmp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na26809c93fda48fc9b70dc1730cde51e"
+        "@id": "_:N94bca23e2ea4450d801e1dc18f77c9d9"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -93,7 +93,7 @@
       "sc:url": "http://identpmp.aielab.net/"
     },
     {
-      "@id": "_:Na26809c93fda48fc9b70dc1730cde51e",
+      "@id": "_:N94bca23e2ea4450d801e1dc18f77c9d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

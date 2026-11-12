@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/NAR/GKAB1017",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/dbptm_database",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd0e6def9bce14d3ba8828955cbe1ff95"
+          "@id": "_:Ne673ece9fd734ae79295b9229c084f97"
         },
         {
-          "@id": "_:N5c0b1cac161a4dafa20a6cd5b66c99bf"
+          "@id": "_:N88deede29d074c67bb696218bb0aa455"
         },
         {
-          "@id": "_:Nbfeb9703c14e450690c378414ab492d1"
+          "@id": "_:Nbc29cd008ec84a5c84ba16fb360c71ff"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -97,7 +101,7 @@
       "sc:url": "https://awi.cuhk.edu.cn/dbPTM/"
     },
     {
-      "@id": "_:Nd0e6def9bce14d3ba8828955cbe1ff95",
+      "@id": "_:Ne673ece9fd734ae79295b9229c084f97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -105,7 +109,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:N5c0b1cac161a4dafa20a6cd5b66c99bf",
+      "@id": "_:N88deede29d074c67bb696218bb0aa455",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
@@ -113,7 +117,7 @@
       "sc:name": "UniProt ID"
     },
     {
-      "@id": "_:Nbfeb9703c14e450690c378414ab492d1",
+      "@id": "_:Nbc29cd008ec84a5c84ba16fb360c71ff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -122,10 +126,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1093/NAR/GKAB1017",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

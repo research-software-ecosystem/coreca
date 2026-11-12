@@ -43,24 +43,24 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nf111c26c413346abb8212896d9606daf"
+          "@id": "_:Nc2241d40d7ac4daca11f9ade6bb74fa9"
         },
         {
-          "@id": "_:N72d9779fbaae42ec999f7cc1f9e02be0"
+          "@id": "_:N37e5822982ae41fcb05a42273a9ea133"
         },
         {
-          "@id": "_:N3ae1e89e8e7a445b88cc5b8e805be09f"
+          "@id": "_:Ne68d77814ad64d1380da95928708e8b0"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3d1faa06c0ce41c2836c37c112bedbcc"
+          "@id": "_:N52806495214b41aab2a4a047e8d787b7"
         },
         {
-          "@id": "_:Na01ec00bb0ed4783aa421537abe4929e"
+          "@id": "_:N4c484d4a349249d492d4f380fb94bdc6"
         },
         {
-          "@id": "_:N37991d9088bb43eca46ba94e4122e786"
+          "@id": "_:N6804bbc0468b47348fa6811e6eb511ef"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -102,7 +102,7 @@
       "sc:url": "https://diversityworkbench.net/Portal/DiversityGazetteers"
     },
     {
-      "@id": "_:Nf111c26c413346abb8212896d9606daf",
+      "@id": "_:Nc2241d40d7ac4daca11f9ade6bb74fa9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1274"
@@ -113,7 +113,7 @@
       "sc:name": "Map"
     },
     {
-      "@id": "_:N72d9779fbaae42ec999f7cc1f9e02be0",
+      "@id": "_:N37e5822982ae41fcb05a42273a9ea133",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -124,7 +124,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N3ae1e89e8e7a445b88cc5b8e805be09f",
+      "@id": "_:Ne68d77814ad64d1380da95928708e8b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -135,7 +135,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N3d1faa06c0ce41c2836c37c112bedbcc",
+      "@id": "_:N52806495214b41aab2a4a047e8d787b7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1274"
@@ -146,7 +146,7 @@
       "sc:name": "Map"
     },
     {
-      "@id": "_:Na01ec00bb0ed4783aa421537abe4929e",
+      "@id": "_:N4c484d4a349249d492d4f380fb94bdc6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -157,7 +157,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N37991d9088bb43eca46ba94e4122e786",
+      "@id": "_:N6804bbc0468b47348fa6811e6eb511ef",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"

@@ -36,20 +36,24 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btu161",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/massir",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N71a40fe2fc1d44ad8ee9a65359a6575c"
+        "@id": "_:N6bceafad1f7e466f8d00b464b6ece356"
       },
       "bsc:output": [
         {
-          "@id": "_:N81bf4b52873a45c38813f9359a8222e5"
+          "@id": "_:N4d780b2e69a54a97bb94e93c229437ce"
         },
         {
-          "@id": "_:N29ed4f049cba4cbb88a68d5de50f0eb1"
+          "@id": "_:N54cee3eb5242414e8d745308c6cb9ee3"
         },
         {
-          "@id": "_:N207322c6a51540b792dea80fd1a89efb"
+          "@id": "_:N8c9227b92f40420ea027cd30f4f5daea"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -72,7 +76,7 @@
       "sc:featureList": {
         "@id": "edam:operation_2495"
       },
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "massiR",
       "sc:operatingSystem": [
         "Linux",
@@ -86,7 +90,7 @@
       "sc:url": "https://bioconductor.org/packages/massiR"
     },
     {
-      "@id": "_:N71a40fe2fc1d44ad8ee9a65359a6575c",
+      "@id": "_:N6bceafad1f7e466f8d00b464b6ece356",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -97,7 +101,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N81bf4b52873a45c38813f9359a8222e5",
+      "@id": "_:N4d780b2e69a54a97bb94e93c229437ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -108,7 +112,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N29ed4f049cba4cbb88a68d5de50f0eb1",
+      "@id": "_:N54cee3eb5242414e8d745308c6cb9ee3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -119,7 +123,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N207322c6a51540b792dea80fd1a89efb",
+      "@id": "_:N8c9227b92f40420ea027cd30f4f5daea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -128,10 +132,6 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Score"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btu161",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

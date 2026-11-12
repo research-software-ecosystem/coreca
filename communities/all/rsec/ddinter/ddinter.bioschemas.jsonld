@@ -36,14 +36,10 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/NAR/GKAB880",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/ddinter",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc4628b3f137147288b6a2957e9b771f5"
+        "@id": "_:Nc96df2b28e114a45981d8100314abf30"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -85,12 +81,16 @@
       "sc:url": "http://ddinter.scbdd.com/"
     },
     {
-      "@id": "_:Nc4628b3f137147288b6a2957e9b771f5",
+      "@id": "_:Nc96df2b28e114a45981d8100314abf30",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2899"
       },
       "sc:name": "Drug name"
+    },
+    {
+      "@id": "https://doi.org/10.1093/NAR/GKAB880",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

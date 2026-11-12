@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1007/s10142-023-01055-7",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/reffinder",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N783325a1e58744e585e83361406af7f5"
+        "@id": "_:N696d1843c0d540f1ab407aa9b862d429"
       },
       "bsc:output": {
-        "@id": "_:Nfc87a9f4b30147568a658d405672b6ef"
+        "@id": "_:Nac917ff6698d4c1dbc8f486d3427be4e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -90,7 +94,7 @@
       "sc:url": "https://blooge.cn/RefFinder/"
     },
     {
-      "@id": "_:N783325a1e58744e585e83361406af7f5",
+      "@id": "_:N696d1843c0d540f1ab407aa9b862d429",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -101,16 +105,12 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:Nfc87a9f4b30147568a658d405672b6ef",
+      "@id": "_:Nac917ff6698d4c1dbc8f486d3427be4e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0912"
       },
       "sc:name": "Nucleic acid property"
-    },
-    {
-      "@id": "https://doi.org/10.1007/s10142-023-01055-7",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

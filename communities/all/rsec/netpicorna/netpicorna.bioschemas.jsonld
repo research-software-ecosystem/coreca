@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/netpicorna",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf06f758f7c234c239b93a00bf504f876"
+        "@id": "_:N61a4448c90c34122bb8a1a2937ffde99"
       },
       "bsc:output": [
         {
-          "@id": "_:Nca5f8219b4054cfca7bfa65fee242bf1"
+          "@id": "_:N06289abdf61b4342a63a461aa652484f"
         },
         {
-          "@id": "_:Nd91b0b951bf14fb78c876580accf05c8"
+          "@id": "_:N1020409bd5874ef389ec67f03c786ab4"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -86,7 +86,7 @@
       "sc:url": "http://cbs.dtu.dk/services/NetPicoRNA/"
     },
     {
-      "@id": "_:Nf06f758f7c234c239b93a00bf504f876",
+      "@id": "_:N61a4448c90c34122bb8a1a2937ffde99",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -97,7 +97,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nca5f8219b4054cfca7bfa65fee242bf1",
+      "@id": "_:N06289abdf61b4342a63a461aa652484f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -108,7 +108,7 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:Nd91b0b951bf14fb78c876580accf05c8",
+      "@id": "_:N1020409bd5874ef389ec67f03c786ab4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"

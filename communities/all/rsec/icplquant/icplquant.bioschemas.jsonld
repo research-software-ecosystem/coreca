@@ -44,17 +44,17 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N34ef59b09fcb4ff687c82d6918203991"
+          "@id": "_:Nfa5386584cd043b494bccf0de85ace41"
         },
         {
-          "@id": "_:N33b61ca41041429c913e52b5aaaa8e58"
+          "@id": "_:Nf2a3fc63fdc3405a9cbf512b9261fee6"
         },
         {
-          "@id": "_:Ncbb0644707b44249af0c2b75010e7d94"
+          "@id": "_:N74c83ce0d51a4f6c9899cb8b1d565f82"
         }
       ],
       "bsc:output": {
-        "@id": "_:N7529f9381da848af8b2ba122d4e1440b"
+        "@id": "_:N132be892618d4c53a28cab909dde4ede"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -114,7 +114,7 @@
       "sc:url": "https://www.biochem.mpg.de/en/rg/lottspeich/technologies/ICPLQuant"
     },
     {
-      "@id": "_:N34ef59b09fcb4ff687c82d6918203991",
+      "@id": "_:Nfa5386584cd043b494bccf0de85ace41",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -130,7 +130,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N33b61ca41041429c913e52b5aaaa8e58",
+      "@id": "_:Nf2a3fc63fdc3405a9cbf512b9261fee6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -141,7 +141,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Ncbb0644707b44249af0c2b75010e7d94",
+      "@id": "_:N74c83ce0d51a4f6c9899cb8b1d565f82",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0944"
@@ -157,7 +157,7 @@
       "sc:name": "Peptide mass fingerprint"
     },
     {
-      "@id": "_:N7529f9381da848af8b2ba122d4e1440b",
+      "@id": "_:N132be892618d4c53a28cab909dde4ede",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"

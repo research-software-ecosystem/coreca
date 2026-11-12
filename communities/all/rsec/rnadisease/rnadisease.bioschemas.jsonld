@@ -44,13 +44,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N1dbcb914b2cf46dca92c11fe7e0a4d19"
+          "@id": "_:N41691e67b3e8442d9cac848c92f8e474"
         },
         {
-          "@id": "_:N290455488bb141cca154629f91e5dd4e"
+          "@id": "_:N1d38055107934a62b210233667fc7f85"
         },
         {
-          "@id": "_:N98d62a750374404f9594f1638a9b340e"
+          "@id": "_:N754133764ea1442fbe9611571b7968fe"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -105,7 +105,7 @@
       "sc:url": "http://www.rnadisease.org/"
     },
     {
-      "@id": "_:N1dbcb914b2cf46dca92c11fe7e0a4d19",
+      "@id": "_:N41691e67b3e8442d9cac848c92f8e474",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3668"
@@ -113,7 +113,7 @@
       "sc:name": "Disease name"
     },
     {
-      "@id": "_:N290455488bb141cca154629f91e5dd4e",
+      "@id": "_:N1d38055107934a62b210233667fc7f85",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -121,7 +121,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:N98d62a750374404f9594f1638a9b340e",
+      "@id": "_:N754133764ea1442fbe9611571b7968fe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"

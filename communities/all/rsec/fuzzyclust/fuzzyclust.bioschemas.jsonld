@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btq534",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/fuzzyclust",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -47,14 +43,14 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N7c852487e3754a709793397f42efedeb"
+          "@id": "_:Nce9598016c52496284fca0e5888270a4"
         },
         {
-          "@id": "_:Ncf6303cee8db460faaad85d1b2a82e04"
+          "@id": "_:N293c526e240f4632be8e08b38a54f713"
         }
       ],
       "bsc:output": {
-        "@id": "_:N93d608b908c94941a207ac7e581591a8"
+        "@id": "_:Naa59b28d0815483f9c32870e4efffcfa"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -96,7 +92,7 @@
       "sc:url": "http://computproteomics.bmb.sdu.dk/Apps/FuzzyClust"
     },
     {
-      "@id": "_:N7c852487e3754a709793397f42efedeb",
+      "@id": "_:Nce9598016c52496284fca0e5888270a4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -107,7 +103,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Ncf6303cee8db460faaad85d1b2a82e04",
+      "@id": "_:N293c526e240f4632be8e08b38a54f713",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -123,7 +119,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N93d608b908c94941a207ac7e581591a8",
+      "@id": "_:Naa59b28d0815483f9c32870e4efffcfa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -141,6 +137,10 @@
     {
       "@id": "http://orcid.org/0000-0002-9708-6722",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btq534",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

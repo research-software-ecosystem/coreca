@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/rfpred",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N4573f83928d44171adfd506093e21286"
+        "@id": "_:N7c87ae4e8dc746849ab4133d5abd3c59"
       },
       "bsc:output": {
-        "@id": "_:N1b7189994c6c4a55bb6626ce8d3262b7"
+        "@id": "_:Nbcdaaa59b774426fb20291705f9fbc10"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -56,7 +56,7 @@
       "sc:featureList": {
         "@id": "edam:operation_1777"
       },
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "rfPred",
       "sc:operatingSystem": [
         "Linux",
@@ -70,7 +70,7 @@
       "sc:url": "https://bioconductor.org/packages/rfPred"
     },
     {
-      "@id": "_:N4573f83928d44171adfd506093e21286",
+      "@id": "_:N7c87ae4e8dc746849ab4133d5abd3c59",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -81,7 +81,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N1b7189994c6c4a55bb6626ce8d3262b7",
+      "@id": "_:Nbcdaaa59b774426fb20291705f9fbc10",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

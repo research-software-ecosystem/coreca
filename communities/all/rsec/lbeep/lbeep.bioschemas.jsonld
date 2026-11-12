@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/LBEEP",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ncbe9e51cca8d48e4a2510d6fee999c5e"
+        "@id": "_:N5548338541364de5807940b8c729d276"
       },
       "bsc:output": {
-        "@id": "_:Nef033081abee42c78e567dad77a684c2"
+        "@id": "_:Nd4de0cdcdac54721bd0cdb8ba96163af"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -76,7 +76,7 @@
       "sc:url": "https://github.com/brsaran/LBEEP"
     },
     {
-      "@id": "_:Ncbe9e51cca8d48e4a2510d6fee999c5e",
+      "@id": "_:N5548338541364de5807940b8c729d276",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -87,7 +87,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nef033081abee42c78e567dad77a684c2",
+      "@id": "_:Nd4de0cdcdac54721bd0cdb8ba96163af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

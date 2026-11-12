@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/j.mad.2004.09.032",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/msimageview",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ncf540b68072448a2b7c4285dc92bba20"
+        "@id": "_:Nec01d89867cc4bf091e8b94f2ab7898b"
       },
       "bsc:output": {
-        "@id": "_:N96d77d98253d473f9969a9c4fb6415d0"
+        "@id": "_:N85ab2c9eb1d7450cabd664e5368b088f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -83,7 +79,7 @@
       "sc:url": "https://ms-imaging.org/wp/msimageview/"
     },
     {
-      "@id": "_:Ncf540b68072448a2b7c4285dc92bba20",
+      "@id": "_:Nec01d89867cc4bf091e8b94f2ab7898b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -94,7 +90,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N96d77d98253d473f9969a9c4fb6415d0",
+      "@id": "_:N85ab2c9eb1d7450cabd664e5368b088f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -114,6 +110,10 @@
         }
       ],
       "sc:name": "Image"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.mad.2004.09.032",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

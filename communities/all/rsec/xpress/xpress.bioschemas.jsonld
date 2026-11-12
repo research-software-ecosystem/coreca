@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/xpress",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N56d5139ed5d943e780864599b3e1e7e0"
+        "@id": "_:N929facd4e71f4e598709601d952f97ae"
       },
       "bsc:output": {
-        "@id": "_:N147ec8992e524c20ae16e55f01766511"
+        "@id": "_:Nce950319ffe94316b5105936ed0d3992"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -92,7 +92,7 @@
       "sc:url": "http://tools.proteomecenter.org/XPRESS.php"
     },
     {
-      "@id": "_:N56d5139ed5d943e780864599b3e1e7e0",
+      "@id": "_:N929facd4e71f4e598709601d952f97ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -103,7 +103,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N147ec8992e524c20ae16e55f01766511",
+      "@id": "_:Nce950319ffe94316b5105936ed0d3992",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/OpenTFRaw",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N94a4670c73214b328f64f4f528656cb9"
+        "@id": "_:N66dc4f3c44484e32a08bc8a083b19289"
       },
       "bsc:output": {
-        "@id": "_:N1584ded7929246ce99782cc2f61cb307"
+        "@id": "_:N2f2e294d9e314fdb9ec320b786f4265d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -71,7 +71,7 @@
       "sc:url": "https://github.com/Sigilweaver/OpenTFRaw"
     },
     {
-      "@id": "_:N94a4670c73214b328f64f4f528656cb9",
+      "@id": "_:N66dc4f3c44484e32a08bc8a083b19289",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -79,7 +79,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N1584ded7929246ce99782cc2f61cb307",
+      "@id": "_:N2f2e294d9e314fdb9ec320b786f4265d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"

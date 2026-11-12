@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Nb52951f56fe74b60a477771b9caa90bc"
+        "@id": "_:N6596e82ef4174509b21f97624cb39901"
       },
       "bsc:output": {
-        "@id": "_:Nfb55a824924d4d4c853c842f7fba9b2a"
+        "@id": "_:N83bdb053fd4948aabc913f4e591f45d2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -83,7 +83,7 @@
       "sc:url": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/afelten/microbiome_analyses/LCA/0.1%20beta"
     },
     {
-      "@id": "_:Nb52951f56fe74b60a477771b9caa90bc",
+      "@id": "_:N6596e82ef4174509b21f97624cb39901",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -94,7 +94,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nfb55a824924d4d4c853c842f7fba9b2a",
+      "@id": "_:N83bdb053fd4948aabc913f4e591f45d2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -105,7 +105,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

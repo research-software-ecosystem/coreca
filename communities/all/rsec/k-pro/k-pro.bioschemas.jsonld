@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/j.jmb.2023.168245",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/k-pro",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N0da113ec9edd4253b259c27d5364d809"
+          "@id": "_:Nea7c2cc427af43cc87a7cd4b6736bc3a"
         },
         {
-          "@id": "_:N8a0177853fa94f0ab70dda0b27d0737c"
+          "@id": "_:N658ab4a14f4346f781dfb1a0f17a1667"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -95,7 +91,7 @@
       "sc:url": "https://folding.biofold.org/k-pro"
     },
     {
-      "@id": "_:N0da113ec9edd4253b259c27d5364d809",
+      "@id": "_:Nea7c2cc427af43cc87a7cd4b6736bc3a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -103,12 +99,16 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N8a0177853fa94f0ab70dda0b27d0737c",
+      "@id": "_:N658ab4a14f4346f781dfb1a0f17a1667",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
       },
       "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jmb.2023.168245",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

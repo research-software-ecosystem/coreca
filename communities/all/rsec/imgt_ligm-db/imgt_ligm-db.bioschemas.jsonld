@@ -36,24 +36,28 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkj088",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/IMGT_LIGM-DB",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne487a296e6c94bed82033cd8b533b9be"
+          "@id": "_:N9e3556022cf54093aa6f538e038fac32"
         },
         {
-          "@id": "_:N89739a80b1694d5e8cc41a19f7191e3d"
+          "@id": "_:N95cbf77ee55d4ef691f2478978cb0329"
         },
         {
-          "@id": "_:Ndcab54e7783c4311a1d8231df38fc9ad"
+          "@id": "_:N0b38a2b50975443faa9da9e31105f00c"
         },
         {
-          "@id": "_:Nab7128d3d17a4b3babe51b24df5afb84"
+          "@id": "_:Ne12941f40ec24784a359466bf7b42b44"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nb59ba8e8534f4a1d83b4e783aeb0c8be"
+        "@id": "_:Nac8cb01073b94a5f884bcf085fa7390f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -117,7 +121,7 @@
       "sc:url": "http://www.imgt.org/ligmdb/"
     },
     {
-      "@id": "_:Ne487a296e6c94bed82033cd8b533b9be",
+      "@id": "_:N9e3556022cf54093aa6f538e038fac32",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1103"
@@ -128,7 +132,7 @@
       "sc:name": "EMBL/GenBank/DDBJ ID"
     },
     {
-      "@id": "_:N89739a80b1694d5e8cc41a19f7191e3d",
+      "@id": "_:N95cbf77ee55d4ef691f2478978cb0329",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -139,7 +143,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Ndcab54e7783c4311a1d8231df38fc9ad",
+      "@id": "_:N0b38a2b50975443faa9da9e31105f00c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -150,7 +154,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:Nab7128d3d17a4b3babe51b24df5afb84",
+      "@id": "_:Ne12941f40ec24784a359466bf7b42b44",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2858"
@@ -161,7 +165,7 @@
       "sc:name": "Ontology concept"
     },
     {
-      "@id": "_:Nb59ba8e8534f4a1d83b4e783aeb0c8be",
+      "@id": "_:Nac8cb01073b94a5f884bcf085fa7390f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -178,10 +182,6 @@
         }
       ],
       "sc:name": "Database search results"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkj088",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gku1056",

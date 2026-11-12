@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Vojtech Spiwok",
       "bsc:input": {
-        "@id": "_:N315b82bc8c4744c1907f638f79f559e7"
+        "@id": "_:Na979e2d7cb884f188ac3a55e1b87c258"
       },
       "bsc:output": {
-        "@id": "_:N605e2abed16946a1a2eecc603d4dcac4"
+        "@id": "_:Nfbb357f8f8904963bdd9895540461319"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -86,7 +86,7 @@
       "sc:url": "http://metadyn.vscht.cz"
     },
     {
-      "@id": "_:N315b82bc8c4744c1907f638f79f559e7",
+      "@id": "_:Na979e2d7cb884f188ac3a55e1b87c258",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0889"
@@ -97,7 +97,7 @@
       "sc:name": "Structural profile"
     },
     {
-      "@id": "_:N605e2abed16946a1a2eecc603d4dcac4",
+      "@id": "_:Nfbb357f8f8904963bdd9895540461319",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"

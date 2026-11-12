@@ -36,7 +36,15 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1010859",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://orcid.org/0000-0002-4313-3845",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7470-4324",
       "@type": "sc:Person"
     },
     {
@@ -46,10 +54,10 @@
         "@id": "https://orcid.org/0000-0001-7470-4324"
       },
       "bsc:input": {
-        "@id": "_:Ncd12807284534e7f871663b3d20d2c0f"
+        "@id": "_:Nd8dcd768c0184be7a325baf88acbe807"
       },
       "bsc:output": {
-        "@id": "_:Ndd867166409f4504ae6764673eb58402"
+        "@id": "_:Nc13af4ab10034f8b9d1971ac3f23ab78"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -96,7 +104,7 @@
       "sc:url": "https://bio2byte.be/rrmscorer/"
     },
     {
-      "@id": "_:Ncd12807284534e7f871663b3d20d2c0f",
+      "@id": "_:Nd8dcd768c0184be7a325baf88acbe807",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -104,20 +112,12 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:Ndd867166409f4504ae6764673eb58402",
+      "@id": "_:Nc13af4ab10034f8b9d1971ac3f23ab78",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
       },
       "sc:name": "Score"
-    },
-    {
-      "@id": "https://doi.org/10.1371/journal.pcbi.1010859",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-7470-4324",
-      "@type": "sc:Person"
     }
   ]
 }

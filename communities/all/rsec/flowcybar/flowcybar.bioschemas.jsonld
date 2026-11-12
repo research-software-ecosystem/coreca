@@ -39,17 +39,17 @@
       "@id": "https://bio.tools/flowcybar",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nced4875ce25f4482861990184b9867b8"
+        "@id": "_:Nd00197d66d1c4ea1b540f54c8e689f70"
       },
       "bsc:output": [
         {
-          "@id": "_:N7f2981766a844e499abdf71734692d90"
+          "@id": "_:Nbfea14a2e6f64ff09bae6bfb539c5872"
         },
         {
-          "@id": "_:N6f303d39b1f149459cfbb27c57039f80"
+          "@id": "_:N8e1b57135acb45a5a8012515e33f8fb5"
         },
         {
-          "@id": "_:Nbc18270fa7e6452fae645311c8f97d5f"
+          "@id": "_:N5e8a826b2811445ba5196a2eed7bb92a"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -71,13 +71,13 @@
       "sc:citation": {
         "@id": "https://doi.org/10.18129/B9.bioc.flowCyBar"
       },
-      "sc:description": "A package to analyze flow cytometric data using gate information to follow population/community dynamics",
+      "sc:description": "A package to analyze flow cytometric data using gate information to follow population/community dynamics.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_2945"
+          "@id": "edam:operation_3465"
         },
         {
-          "@id": "edam:operation_3465"
+          "@id": "edam:operation_2945"
         },
         {
           "@id": "edam:operation_2409"
@@ -86,7 +86,7 @@
           "@id": "edam:operation_0337"
         }
       ],
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "flowCyBar",
       "sc:operatingSystem": [
         "Linux",
@@ -100,7 +100,7 @@
       "sc:url": "https://bioconductor.org/packages/flowCyBar"
     },
     {
-      "@id": "_:Nced4875ce25f4482861990184b9867b8",
+      "@id": "_:Nd00197d66d1c4ea1b540f54c8e689f70",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -111,7 +111,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N7f2981766a844e499abdf71734692d90",
+      "@id": "_:Nbfea14a2e6f64ff09bae6bfb539c5872",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -127,7 +127,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N6f303d39b1f149459cfbb27c57039f80",
+      "@id": "_:N8e1b57135acb45a5a8012515e33f8fb5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -143,7 +143,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nbc18270fa7e6452fae645311c8f97d5f",
+      "@id": "_:N5e8a826b2811445ba5196a2eed7bb92a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

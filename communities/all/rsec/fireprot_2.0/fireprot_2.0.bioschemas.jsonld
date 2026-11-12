@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bib/bbad425",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/fireprot_2.0",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N19d13d63c4f84bc7b252c2e66ebfb5ee"
+          "@id": "_:N2d05c8bbfc5e43ff887ea9d44027e26c"
         },
         {
-          "@id": "_:N2bb5cbe495984e0ab270ef4a805acc7c"
+          "@id": "_:N47adcec153f94b13ad98e8184f9722d8"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -71,7 +67,7 @@
       "sc:url": "https://loschmidt.chemi.muni.cz/fireprotweb/"
     },
     {
-      "@id": "_:N19d13d63c4f84bc7b252c2e66ebfb5ee",
+      "@id": "_:N2d05c8bbfc5e43ff887ea9d44027e26c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -79,12 +75,16 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N2bb5cbe495984e0ab270ef4a805acc7c",
+      "@id": "_:N47adcec153f94b13ad98e8184f9722d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
       },
       "sc:name": "Protein structure"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bib/bbad425",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

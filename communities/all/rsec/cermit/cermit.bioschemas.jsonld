@@ -40,23 +40,23 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N37ba0aa493e04bd8a1189787df0e9aa9"
+          "@id": "_:N001d08cd7a7c4293aea784a3a2015e23"
         },
         {
-          "@id": "_:N287de478e23d4b6984956f44c7f68d71"
+          "@id": "_:N5bcfc942177b4028824b0c9bf9c195af"
         },
         {
-          "@id": "_:N319749eaaae44876ac1a61597f620e4a"
+          "@id": "_:Nf73abcc7e78d4c4e858bc4962eea55a1"
         },
         {
-          "@id": "_:N80e28ea11486433fa379821356221dd0"
+          "@id": "_:N3b171268b0144f84b4038128edaa00f0"
         },
         {
-          "@id": "_:N17ddc798de864e2dabaaa016508661c0"
+          "@id": "_:N6f2b2dba899346b6afbc4142620ded53"
         }
       ],
       "bsc:output": {
-        "@id": "_:N84f7e177102f40b598dd258f1ac6ab73"
+        "@id": "_:N27a828da5d6743f493985a03b16e0398"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -87,7 +87,7 @@
       "sc:url": "https://ohlerlab.mdc-berlin.de/software/cERMIT_82/"
     },
     {
-      "@id": "_:N37ba0aa493e04bd8a1189787df0e9aa9",
+      "@id": "_:N001d08cd7a7c4293aea784a3a2015e23",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2854"
@@ -95,7 +95,7 @@
       "sc:name": "Position-specific scoring matrix"
     },
     {
-      "@id": "_:N287de478e23d4b6984956f44c7f68d71",
+      "@id": "_:N5bcfc942177b4028824b0c9bf9c195af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2042"
@@ -106,7 +106,7 @@
       "sc:name": "Evidence"
     },
     {
-      "@id": "_:N319749eaaae44876ac1a61597f620e4a",
+      "@id": "_:Nf73abcc7e78d4c4e858bc4962eea55a1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1050"
@@ -117,7 +117,7 @@
       "sc:name": "File name"
     },
     {
-      "@id": "_:N80e28ea11486433fa379821356221dd0",
+      "@id": "_:N3b171268b0144f84b4038128edaa00f0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1050"
@@ -128,7 +128,7 @@
       "sc:name": "File name"
     },
     {
-      "@id": "_:N17ddc798de864e2dabaaa016508661c0",
+      "@id": "_:N6f2b2dba899346b6afbc4142620ded53",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2975"
@@ -139,7 +139,7 @@
       "sc:name": "Nucleic acid sequence (raw)"
     },
     {
-      "@id": "_:N84f7e177102f40b598dd258f1ac6ab73",
+      "@id": "_:N27a828da5d6743f493985a03b16e0398",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2762"

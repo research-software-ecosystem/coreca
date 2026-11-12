@@ -52,7 +52,7 @@
       },
       "sc:contributor": "Supat Thongjuea",
       "sc:description": "The package prepares input scATAC-seq data and adapts for copy number variance profiling with InferCNV package usage. It has also various paramters to control the analysis (e.g. external normal reference usage, meta-cells, bin size, etc) and custom plot visualizations.",
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "atacInferCnv",
       "sc:operatingSystem": [
         "Linux",

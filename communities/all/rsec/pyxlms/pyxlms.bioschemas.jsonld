@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-5332-5701",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://doi.org/10.64898/2025.12.18.695169",
       "@type": "sc:CreativeWork"
     },
@@ -44,17 +48,17 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Proteomics FHOÖ Campus Hagenberg",
       "bsc:input": {
-        "@id": "_:Nb4eeda8b67d14cb7a1b8ba3acf885a74"
+        "@id": "_:Ncae708b3e8584d4da02a44c7f1059be9"
       },
       "bsc:output": [
         {
-          "@id": "_:N26a39e342b8c401db07420851a500f62"
+          "@id": "_:N3162bb6c8d634ef694df49dcc85c435c"
         },
         {
-          "@id": "_:N186011041ea44ec38f7a1355e32fa94e"
+          "@id": "_:N99d024e8c7cf4b4498d118ff964673de"
         },
         {
-          "@id": "_:Ncceb57ff633f48fd8fdafa71c4847304"
+          "@id": "_:N8407fabd40aa4f5d97019eba77a114f9"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -123,7 +127,7 @@
       "sc:url": "https://github.com/hgb-bin-proteomics/pyXLMS"
     },
     {
-      "@id": "_:Nb4eeda8b67d14cb7a1b8ba3acf885a74",
+      "@id": "_:Ncae708b3e8584d4da02a44c7f1059be9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -148,7 +152,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N26a39e342b8c401db07420851a500f62",
+      "@id": "_:N3162bb6c8d634ef694df49dcc85c435c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -156,7 +160,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N186011041ea44ec38f7a1355e32fa94e",
+      "@id": "_:N99d024e8c7cf4b4498d118ff964673de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -164,16 +168,12 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Ncceb57ff633f48fd8fdafa71c4847304",
+      "@id": "_:N8407fabd40aa4f5d97019eba77a114f9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
       },
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-5332-5701",
-      "@type": "sc:Person"
     }
   ]
 }

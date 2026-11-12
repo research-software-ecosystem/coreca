@@ -41,33 +41,33 @@
       "biotools:primaryContact": "Frédéric Lemoine",
       "bsc:input": [
         {
-          "@id": "_:Nec14c749442642b89dfa6037a55e5f44"
+          "@id": "_:N97db5f1846da4e15844b69fe83eca784"
         },
         {
-          "@id": "_:Nbb32d63ecc0b4a0a9f3249e1fa3578ea"
+          "@id": "_:N1959ae0270ba4957a1ced37e474c930b"
         },
         {
-          "@id": "_:N8a4e750f70e34c8baf287386fb003b90"
+          "@id": "_:N284665ae79274a34bd62f92d8f4e3034"
         },
         {
-          "@id": "_:N58bf35ff3e3a4a1aad2a4d85183ed227"
+          "@id": "_:Nf2a11260ea4445d4bf74744c8501908d"
         },
         {
-          "@id": "_:N9ef17b36e30340f1873ec19c680e315f"
+          "@id": "_:N5c8952abc35b41c7aff23a2cb3b1244a"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf1c569f267bb4feeb81b9d091612cd2f"
+          "@id": "_:Nda252bc93a8b4e14b7bdf61f2897b32b"
         },
         {
-          "@id": "_:Nff084d9d70854363999b27e4331271f2"
+          "@id": "_:Nb5e4d01f52b44e34a11787a809b8f7a2"
         },
         {
-          "@id": "_:N73c4698b99a0414b93eccb95eebbc247"
+          "@id": "_:Nd61da91735994e3c8bbe9ffc781386b0"
         },
         {
-          "@id": "_:N7284d44dd5c2422f8cad92b1f0a99581"
+          "@id": "_:N9a6ef51f017f40f49a791dff4ca97608"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -127,7 +127,7 @@
       "sc:url": "https://ngphylogeny.fr/"
     },
     {
-      "@id": "_:Nec14c749442642b89dfa6037a55e5f44",
+      "@id": "_:N97db5f1846da4e15844b69fe83eca784",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -135,7 +135,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nbb32d63ecc0b4a0a9f3249e1fa3578ea",
+      "@id": "_:N1959ae0270ba4957a1ced37e474c930b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -143,7 +143,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N8a4e750f70e34c8baf287386fb003b90",
+      "@id": "_:N284665ae79274a34bd62f92d8f4e3034",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -151,7 +151,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N58bf35ff3e3a4a1aad2a4d85183ed227",
+      "@id": "_:Nf2a11260ea4445d4bf74744c8501908d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -159,7 +159,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N9ef17b36e30340f1873ec19c680e315f",
+      "@id": "_:N5c8952abc35b41c7aff23a2cb3b1244a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3271"
@@ -170,7 +170,7 @@
       "sc:name": "Gene tree"
     },
     {
-      "@id": "_:Nf1c569f267bb4feeb81b9d091612cd2f",
+      "@id": "_:Nda252bc93a8b4e14b7bdf61f2897b32b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -178,7 +178,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nff084d9d70854363999b27e4331271f2",
+      "@id": "_:Nb5e4d01f52b44e34a11787a809b8f7a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3271"
@@ -189,7 +189,7 @@
       "sc:name": "Gene tree"
     },
     {
-      "@id": "_:N73c4698b99a0414b93eccb95eebbc247",
+      "@id": "_:Nd61da91735994e3c8bbe9ffc781386b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -197,7 +197,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N7284d44dd5c2422f8cad92b1f0a99581",
+      "@id": "_:N9a6ef51f017f40f49a791dff4ca97608",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3271"

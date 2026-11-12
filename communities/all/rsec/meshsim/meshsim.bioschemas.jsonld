@@ -36,23 +36,19 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1142/s0219720015420020",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/meshsim",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Jing ZHou",
       "bsc:input": [
         {
-          "@id": "_:Nd736bf5bf52f4dab9573f784e72df8dd"
+          "@id": "_:N9776e7559840436ab2594d9645ae36de"
         },
         {
-          "@id": "_:N186d8c9c764d43e38e8f8cc8d97ebaca"
+          "@id": "_:Nb69ef119729d4baa8d314fc7ae64c1df"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nc85d56248b2d42c285ce514940fe31fb"
+        "@id": "_:N8c438b93186842f388aea909af72c0db"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -96,7 +92,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/MeSHSim.html"
     },
     {
-      "@id": "_:Nd736bf5bf52f4dab9573f784e72df8dd",
+      "@id": "_:N9776e7559840436ab2594d9645ae36de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0582"
@@ -112,7 +108,7 @@
       "sc:name": "Ontology"
     },
     {
-      "@id": "_:N186d8c9c764d43e38e8f8cc8d97ebaca",
+      "@id": "_:Nb69ef119729d4baa8d314fc7ae64c1df",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -128,7 +124,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Nc85d56248b2d42c285ce514940fe31fb",
+      "@id": "_:N8c438b93186842f388aea909af72c0db",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -137,6 +133,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Score"
+    },
+    {
+      "@id": "https://doi.org/10.1142/s0219720015420020",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

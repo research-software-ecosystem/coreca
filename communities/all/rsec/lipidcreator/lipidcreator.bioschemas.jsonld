@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/lipidcreator",
       "@type": "sc:SoftwareApplication",
       "bsc:output": {
-        "@id": "_:N68ebbeab2bd14d1ea07abfe1e01146e8"
+        "@id": "_:N30a3ee11fb484c6c8466ed801039e72a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -64,7 +64,7 @@
       "sc:url": "https://lifs-tools.org/lipidcreator"
     },
     {
-      "@id": "_:N68ebbeab2bd14d1ea07abfe1e01146e8",
+      "@id": "_:N30a3ee11fb484c6c8466ed801039e72a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2812"

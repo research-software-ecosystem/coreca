@@ -36,21 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/j.gpb.2022.04.007",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/ccnwheat",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N409a33bd380f46868b4aa4c453e3ccf6"
+          "@id": "_:N815ef4d705da4eb1a717206700a7803b"
         },
         {
-          "@id": "_:N9eda4e321bb04b7a97ea5adbcd4494a6"
+          "@id": "_:Nc4c10f80a9d24dbf95d8618f708b0159"
         },
         {
-          "@id": "_:N226e0071c97c41148469a07b2cc95cd2"
+          "@id": "_:N10a94c02b35d48c394e3e8bfb796882a"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -104,7 +100,7 @@
       "sc:url": "http://bioinformatics.cau.edu.cn/ccnWheat"
     },
     {
-      "@id": "_:N409a33bd380f46868b4aa4c453e3ccf6",
+      "@id": "_:N815ef4d705da4eb1a717206700a7803b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1176"
@@ -112,7 +108,7 @@
       "sc:name": "GO concept ID"
     },
     {
-      "@id": "_:N9eda4e321bb04b7a97ea5adbcd4494a6",
+      "@id": "_:Nc4c10f80a9d24dbf95d8618f708b0159",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1893"
@@ -120,12 +116,16 @@
       "sc:name": "Locus ID"
     },
     {
-      "@id": "_:N226e0071c97c41148469a07b2cc95cd2",
+      "@id": "_:N10a94c02b35d48c394e3e8bfb796882a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2757"
       },
       "sc:name": "Pfam domain name"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.gpb.2022.04.007",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

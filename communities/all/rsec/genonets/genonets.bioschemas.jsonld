@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkw313",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/genonets",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nef48ef42b4ed404bbd0f01590ff425ed"
+        "@id": "_:N9e4d4101c6764897bccfb957658a297d"
       },
       "bsc:output": {
-        "@id": "_:N9511179f446c4fc6b4c3eac7a08482a8"
+        "@id": "_:N84692300708d4250837ee0ff7d3400fb"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -88,7 +92,7 @@
       "sc:url": "http://ieu-genonets.uzh.ch"
     },
     {
-      "@id": "_:Nef48ef42b4ed404bbd0f01590ff425ed",
+      "@id": "_:N9e4d4101c6764897bccfb957658a297d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0920"
@@ -99,16 +103,12 @@
       "sc:name": "Genotype/phenotype report"
     },
     {
-      "@id": "_:N9511179f446c4fc6b4c3eac7a08482a8",
+      "@id": "_:N84692300708d4250837ee0ff7d3400fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
       },
       "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkw313",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

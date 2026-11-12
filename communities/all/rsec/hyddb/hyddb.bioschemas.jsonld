@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/srep34212",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/hyddb",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Dan Søndergaard",
       "bsc:input": {
-        "@id": "_:Nc8af129ecf624711aa2b7da09bc15f94"
+        "@id": "_:Nde123688ee4541dbb523af1204046ea0"
       },
       "bsc:output": {
-        "@id": "_:N94f82aa2daad4dbd802baaf2bbca4d44"
+        "@id": "_:N12835c4b2f644c508c2d76cb59f6d47e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web service",
@@ -75,7 +79,7 @@
       "sc:url": "http://services.birc.au.dk/hyddb"
     },
     {
-      "@id": "_:Nc8af129ecf624711aa2b7da09bc15f94",
+      "@id": "_:Nde123688ee4541dbb523af1204046ea0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -83,16 +87,12 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:N94f82aa2daad4dbd802baaf2bbca4d44",
+      "@id": "_:N12835c4b2f644c508c2d76cb59f6d47e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
       },
       "sc:name": "Sequence features"
-    },
-    {
-      "@id": "https://doi.org/10.1038/srep34212",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nfd39825b703345d09d2f8d89deafb99a"
+          "@id": "_:N668f8056f52c4205966167f1541ba78b"
         },
         {
-          "@id": "_:Nab1d85cca58c44479dc2fafc1544910b"
+          "@id": "_:Ne1e8423fdd4c4fd4b25950241b900dd8"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -73,7 +73,7 @@
       "sc:url": "https://github.com/laurazara/IgIDivA"
     },
     {
-      "@id": "_:Nfd39825b703345d09d2f8d89deafb99a",
+      "@id": "_:N668f8056f52c4205966167f1541ba78b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -81,7 +81,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Nab1d85cca58c44479dc2fafc1544910b",
+      "@id": "_:Ne1e8423fdd4c4fd4b25950241b900dd8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

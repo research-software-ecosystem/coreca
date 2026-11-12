@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/pride_toolsuite",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N17ca5cc0fb8a411694a8baf695b11cb9"
+        "@id": "_:N6616873fd3314de685b155fb7833aa96"
       },
       "bsc:output": {
-        "@id": "_:N130c5829abd0411d88c2fe1fbb15fbc2"
+        "@id": "_:Nc86911d87c62474a8bdc319f5a026418"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -82,7 +82,7 @@
       "sc:url": "https://github.com/PRIDE-Toolsuite"
     },
     {
-      "@id": "_:N17ca5cc0fb8a411694a8baf695b11cb9",
+      "@id": "_:N6616873fd3314de685b155fb7833aa96",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -93,7 +93,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N130c5829abd0411d88c2fe1fbb15fbc2",
+      "@id": "_:Nc86911d87c62474a8bdc319f5a026418",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

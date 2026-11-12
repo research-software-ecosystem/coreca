@@ -36,7 +36,15 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bth412",
+      "@id": "https://doi.org/10.1093/bioinformatics/bti573",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btl484",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1007/978-1-0716-0159-4_12",
       "@type": "sc:CreativeWork"
     },
     {
@@ -44,14 +52,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nbf33df019e1f4ff0a4ec3a2c506194c8"
+          "@id": "_:N15e26de3b5674c71b7399a419fb4769c"
         },
         {
-          "@id": "_:N4abc4283e401433094c0036cc9a0e927"
+          "@id": "_:Ne1648f4d14744f15b9831117a5052e09"
         }
       ],
       "bsc:output": {
-        "@id": "_:N82eb61bf97a74c58a275ad60196ef908"
+        "@id": "_:N690fb3fb418941d6b0ebf50e40c3f1a9"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -90,7 +98,7 @@
       "sc:url": "https://github.com/seliv55/isodyn"
     },
     {
-      "@id": "_:Nbf33df019e1f4ff0a4ec3a2c506194c8",
+      "@id": "_:N15e26de3b5674c71b7399a419fb4769c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -101,7 +109,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N4abc4283e401433094c0036cc9a0e927",
+      "@id": "_:Ne1648f4d14744f15b9831117a5052e09",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -112,7 +120,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:N82eb61bf97a74c58a275ad60196ef908",
+      "@id": "_:N690fb3fb418941d6b0ebf50e40c3f1a9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -123,15 +131,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bti573",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1007/978-1-0716-0159-4_12",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btl484",
+      "@id": "https://doi.org/10.1093/bioinformatics/bth412",
       "@type": "sc:CreativeWork"
     }
   ]

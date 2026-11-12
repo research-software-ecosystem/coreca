@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "LA-iMages support",
       "bsc:input": {
-        "@id": "_:Nda52311a91d447fcbc579264d4834765"
+        "@id": "_:Neb4acc522d0543e5bde4963225e0fb27"
       },
       "bsc:output": {
-        "@id": "_:N845fea8875c64be98a40a7555cf19c90"
+        "@id": "_:N64e26529d08e405998d96cf6c716d86d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -89,7 +89,7 @@
       "sc:url": "http://www.la-images.net"
     },
     {
-      "@id": "_:Nda52311a91d447fcbc579264d4834765",
+      "@id": "_:Neb4acc522d0543e5bde4963225e0fb27",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -97,7 +97,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N845fea8875c64be98a40a7555cf19c90",
+      "@id": "_:N64e26529d08e405998d96cf6c716d86d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

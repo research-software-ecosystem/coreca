@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/DATABASE/BAAC064",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/probresist",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N4f1eae58ea5141ecaeaf9f8af4015e71"
+          "@id": "_:N93b65b8136dc49f6be8e5f4885ce3d40"
         },
         {
-          "@id": "_:Ne47bc19af03c42b59fc3d3aacf547728"
+          "@id": "_:Nce3dfa8ac3b84c8a850cef7314103121"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,7 +88,7 @@
       "sc:url": "https://probresist.com"
     },
     {
-      "@id": "_:N4f1eae58ea5141ecaeaf9f8af4015e71",
+      "@id": "_:N93b65b8136dc49f6be8e5f4885ce3d40",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0990"
@@ -100,12 +96,16 @@
       "sc:name": "Compound name"
     },
     {
-      "@id": "_:Ne47bc19af03c42b59fc3d3aacf547728",
+      "@id": "_:Nce3dfa8ac3b84c8a850cef7314103121",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
       },
       "sc:name": "Species name"
+    },
+    {
+      "@id": "https://doi.org/10.1093/DATABASE/BAAC064",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,29 +36,25 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1261/rna.043687.113",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/circbase",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ncc2a748cf82246e1a96a1d0e11f64a34"
+          "@id": "_:N198659eb9025458b9d15431f8f7de668"
         },
         {
-          "@id": "_:N5823c2f9a26f4368a95e6ed59cde5f03"
+          "@id": "_:N200c3903638f4812af0527fc681826c7"
         },
         {
-          "@id": "_:N46829889e4c447adabb13484bb9a7bab"
+          "@id": "_:Nae80ecabe9934e51a3c9efbb5a1aa04d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N459bcd2ea90e4ae6bbce15f7c722768d"
+          "@id": "_:N97c89b23fa88491199aed45be1a06f1b"
         },
         {
-          "@id": "_:N60668d62213f479a8c7c37c1158ca427"
+          "@id": "_:Naf6b81a08e6647cdb53c14ae410021a5"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,7 +85,7 @@
       "sc:url": "http://www.circbase.org/"
     },
     {
-      "@id": "_:Ncc2a748cf82246e1a96a1d0e11f64a34",
+      "@id": "_:N198659eb9025458b9d15431f8f7de668",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -97,7 +93,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N5823c2f9a26f4368a95e6ed59cde5f03",
+      "@id": "_:N200c3903638f4812af0527fc681826c7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -105,7 +101,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N46829889e4c447adabb13484bb9a7bab",
+      "@id": "_:Nae80ecabe9934e51a3c9efbb5a1aa04d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -113,7 +109,7 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:N459bcd2ea90e4ae6bbce15f7c722768d",
+      "@id": "_:N97c89b23fa88491199aed45be1a06f1b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
@@ -121,7 +117,7 @@
       "sc:name": "Feature table"
     },
     {
-      "@id": "_:N60668d62213f479a8c7c37c1158ca427",
+      "@id": "_:Naf6b81a08e6647cdb53c14ae410021a5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3496"
@@ -130,6 +126,10 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "RNA sequence (raw)"
+    },
+    {
+      "@id": "https://doi.org/10.1261/rna.043687.113",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,56 +36,52 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/plotcoverage",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N9447e609c15743b19b7d21e02052bb39"
+          "@id": "_:N0d68e6fc5aa944a0820e350c29b1ca73"
         },
         {
-          "@id": "_:N9f382998d430471b98cc2d05dda2b967"
+          "@id": "_:N851034f37f6546ce93a47fbde23d4eaf"
         },
         {
-          "@id": "_:N29c7c104d9414f3cb78bde3fc007a039"
+          "@id": "_:N0453dcf3b1034ec182fdb310fd6c4929"
         },
         {
-          "@id": "_:Na56c34dc69a84e929df45c8770f7752c"
+          "@id": "_:N8a09362a1b3447c390c935e1c42f19c1"
         },
         {
-          "@id": "_:Nbf9cb1f28ac74887924e6f3108d952a7"
+          "@id": "_:Nf964ba849959428b9180d37ba15ad04a"
         },
         {
-          "@id": "_:N95ea416df3df46e6b1ff81e43a8fb775"
+          "@id": "_:Ned037382a4e548be86f359d0b7ee9386"
         },
         {
-          "@id": "_:Ne825a6b8fdb64f698a927579a55489ee"
+          "@id": "_:N98ac29eb1fb14d8a840b1499b565df60"
         },
         {
-          "@id": "_:N5738c610174843bba1d2da77a920a1a2"
+          "@id": "_:N99a5b4bfd7cd447ab7f505a2fc6bbd68"
         },
         {
-          "@id": "_:Nd62dab47fb6a40eca8e4974b5aed7e08"
+          "@id": "_:N35613a91e79a45ccb5f796b5b167ffd2"
         },
         {
-          "@id": "_:N4191d323fab04c7daa50efefca0c39a8"
+          "@id": "_:N119a9c31ef3c4a628f3e0d8fef196dfe"
         },
         {
-          "@id": "_:Nbbf98074b78d4cf6aa430bbd325513e6"
+          "@id": "_:N273fde24029f4351b29acd3be7265a0e"
         },
         {
-          "@id": "_:N296248545b4b4e91a76bfb9c1a89c5f8"
+          "@id": "_:N2d3b2a4590214332bd1222908e6aa030"
         },
         {
-          "@id": "_:N4f291726a2ad444fb0c095f49f5f7502"
+          "@id": "_:Nc7ddecc42bc94ab6bd50dfd05db01839"
         }
       ],
       "bsc:output": {
-        "@id": "_:N75f1af683e894646858086680f19d726"
+        "@id": "_:N14e1fa0ce09642529c9ea60fa94baae0"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -127,7 +123,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:N9447e609c15743b19b7d21e02052bb39",
+      "@id": "_:N0d68e6fc5aa944a0820e350c29b1ca73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -138,7 +134,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N9f382998d430471b98cc2d05dda2b967",
+      "@id": "_:N851034f37f6546ce93a47fbde23d4eaf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -149,7 +145,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N29c7c104d9414f3cb78bde3fc007a039",
+      "@id": "_:N0453dcf3b1034ec182fdb310fd6c4929",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -160,7 +156,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Na56c34dc69a84e929df45c8770f7752c",
+      "@id": "_:N8a09362a1b3447c390c935e1c42f19c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -171,7 +167,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nbf9cb1f28ac74887924e6f3108d952a7",
+      "@id": "_:Nf964ba849959428b9180d37ba15ad04a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -182,7 +178,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N95ea416df3df46e6b1ff81e43a8fb775",
+      "@id": "_:Ned037382a4e548be86f359d0b7ee9386",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -193,7 +189,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ne825a6b8fdb64f698a927579a55489ee",
+      "@id": "_:N98ac29eb1fb14d8a840b1499b565df60",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -204,7 +200,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N5738c610174843bba1d2da77a920a1a2",
+      "@id": "_:N99a5b4bfd7cd447ab7f505a2fc6bbd68",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -215,7 +211,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nd62dab47fb6a40eca8e4974b5aed7e08",
+      "@id": "_:N35613a91e79a45ccb5f796b5b167ffd2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -226,7 +222,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N4191d323fab04c7daa50efefca0c39a8",
+      "@id": "_:N119a9c31ef3c4a628f3e0d8fef196dfe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -237,7 +233,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nbbf98074b78d4cf6aa430bbd325513e6",
+      "@id": "_:N273fde24029f4351b29acd3be7265a0e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -248,7 +244,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N296248545b4b4e91a76bfb9c1a89c5f8",
+      "@id": "_:N2d3b2a4590214332bd1222908e6aa030",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -259,7 +255,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N4f291726a2ad444fb0c095f49f5f7502",
+      "@id": "_:Nc7ddecc42bc94ab6bd50dfd05db01839",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -270,7 +266,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N75f1af683e894646858086680f19d726",
+      "@id": "_:N14e1fa0ce09642529c9ea60fa94baae0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -282,6 +278,10 @@
     },
     {
       "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

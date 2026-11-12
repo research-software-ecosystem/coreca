@@ -40,21 +40,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne71c73f2a083404fac95df066d16dc3d"
+          "@id": "_:Nc90a3be4a0a042a39a178ace96b15556"
         },
         {
-          "@id": "_:Na4a55439ff05473eb95ea8138a295418"
+          "@id": "_:N6da2e66c49ce4b6e9c122b4bd46c2fa6"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3ae7bfc2b4194ba39598ff55731cd3d1"
+          "@id": "_:N886a6fe9f4d74b1bbf7ee7d3a1353dac"
         },
         {
-          "@id": "_:Nb1d62f8f855d43c1a40d56ec8c0cb280"
+          "@id": "_:N1f4e13bc5b124fc6b0d5d7538c0dea62"
         },
         {
-          "@id": "_:N625fc630562a416284db4e4e59527d9f"
+          "@id": "_:N2be6d8e208af4ff5a3a8fa76e5b8d141"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -115,7 +115,7 @@
       "sc:url": "https://mines.legumeinfo.org/soymine"
     },
     {
-      "@id": "_:Ne71c73f2a083404fac95df066d16dc3d",
+      "@id": "_:Nc90a3be4a0a042a39a178ace96b15556",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -123,7 +123,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:Na4a55439ff05473eb95ea8138a295418",
+      "@id": "_:N6da2e66c49ce4b6e9c122b4bd46c2fa6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -131,7 +131,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N3ae7bfc2b4194ba39598ff55731cd3d1",
+      "@id": "_:N886a6fe9f4d74b1bbf7ee7d3a1353dac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3753"
@@ -139,7 +139,7 @@
       "sc:name": "Over-representation data"
     },
     {
-      "@id": "_:Nb1d62f8f855d43c1a40d56ec8c0cb280",
+      "@id": "_:N1f4e13bc5b124fc6b0d5d7538c0dea62",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -147,7 +147,7 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:N625fc630562a416284db4e4e59527d9f",
+      "@id": "_:N2be6d8e208af4ff5a3a8fa76e5b8d141",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"

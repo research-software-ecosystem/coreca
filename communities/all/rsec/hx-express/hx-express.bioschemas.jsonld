@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "J Engen",
       "bsc:input": {
-        "@id": "_:Ne68b69a8e00846e98fc9e809ca798e50"
+        "@id": "_:N90446352449f4269992422dec3d0047c"
       },
       "bsc:output": [
         {
-          "@id": "_:Nb765ba74f4494ad0a8a4da695bd6297e"
+          "@id": "_:Nee5b81c07d554142bc3628d125da72d4"
         },
         {
-          "@id": "_:N2237be797c674a939d3a2fec99c0d30e"
+          "@id": "_:Nd67ce12ac61e44b9932bb06cbcee4d51"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -94,7 +94,7 @@
       "sc:url": "http://www.hxms.com/HXExpress/"
     },
     {
-      "@id": "_:Ne68b69a8e00846e98fc9e809ca798e50",
+      "@id": "_:N90446352449f4269992422dec3d0047c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -105,7 +105,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Nb765ba74f4494ad0a8a4da695bd6297e",
+      "@id": "_:Nee5b81c07d554142bc3628d125da72d4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -116,7 +116,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N2237be797c674a939d3a2fec99c0d30e",
+      "@id": "_:Nd67ce12ac61e44b9932bb06cbcee4d51",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"

@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Alexey Nesvizhskii",
       "bsc:input": {
-        "@id": "_:N5c269cbff6d345b886f80e02e525e37c"
+        "@id": "_:N25cbd78469ac4d62b2698f876ce6d41f"
       },
       "bsc:output": {
-        "@id": "_:N1d818ce34dc14ec398d440861572592c"
+        "@id": "_:N14ece93434a84a69826e53126abc6f26"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -84,7 +84,7 @@
       "sc:url": "http://www.nesvilab.org/software"
     },
     {
-      "@id": "_:N5c269cbff6d345b886f80e02e525e37c",
+      "@id": "_:N25cbd78469ac4d62b2698f876ce6d41f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -106,7 +106,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:N1d818ce34dc14ec398d440861572592c",
+      "@id": "_:N14ece93434a84a69826e53126abc6f26",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"

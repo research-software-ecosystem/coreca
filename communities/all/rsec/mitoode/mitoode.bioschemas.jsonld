@@ -36,8 +36,8 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1471-2105-14-308",
-      "@type": "sc:CreativeWork"
+      "@id": "http://orcid.org/0000-0002-0474-2218",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/mitoode",
@@ -49,14 +49,14 @@
         "Gregoire Pau"
       ],
       "bsc:input": {
-        "@id": "_:N8e9e19464a094f28b25a0e1dab064643"
+        "@id": "_:N4b45dece718b49a88418648ad30b5999"
       },
       "bsc:output": [
         {
-          "@id": "_:N9c0fc90bf0184c299366a527eef14f00"
+          "@id": "_:N7402b8560c164ed79bc7bbc1062268b9"
         },
         {
-          "@id": "_:Nc83fa87236d24b92bcdd095e346239e9"
+          "@id": "_:Na21ba939a513434181c07f1dbee515f5"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -103,7 +103,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/mitoODE.html"
     },
     {
-      "@id": "_:N8e9e19464a094f28b25a0e1dab064643",
+      "@id": "_:N4b45dece718b49a88418648ad30b5999",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -114,7 +114,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N9c0fc90bf0184c299366a527eef14f00",
+      "@id": "_:N7402b8560c164ed79bc7bbc1062268b9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -130,7 +130,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nc83fa87236d24b92bcdd095e346239e9",
+      "@id": "_:Na21ba939a513434181c07f1dbee515f5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -146,8 +146,8 @@
       "sc:name": "Score"
     },
     {
-      "@id": "http://orcid.org/0000-0002-0474-2218",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1186/1471-2105-14-308",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

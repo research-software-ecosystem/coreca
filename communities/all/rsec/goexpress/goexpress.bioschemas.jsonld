@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.GOexpress",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/goexpress",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N4456fed58ecf42c7a134fa6f6bd00c63"
+        "@id": "_:N58c78925b9354af79294403f475e0f7d"
       },
       "bsc:output": [
         {
-          "@id": "_:Nb7abc0a33123432d82edec60d49ee546"
+          "@id": "_:N757787ff5c71477da31a70970f0d5d91"
         },
         {
-          "@id": "_:N23d65194923a49fbafdc67d5f10cad87"
+          "@id": "_:N692bad9c8f76464393c620c162a92d40"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -93,7 +97,7 @@
       "sc:url": "https://bioconductor.org/packages/GOexpress"
     },
     {
-      "@id": "_:N4456fed58ecf42c7a134fa6f6bd00c63",
+      "@id": "_:N58c78925b9354af79294403f475e0f7d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -104,7 +108,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Nb7abc0a33123432d82edec60d49ee546",
+      "@id": "_:N757787ff5c71477da31a70970f0d5d91",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -120,7 +124,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N23d65194923a49fbafdc67d5f10cad87",
+      "@id": "_:N692bad9c8f76464393c620c162a92d40",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
@@ -134,10 +138,6 @@
         }
       ],
       "sc:name": "P-value"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.GOexpress",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

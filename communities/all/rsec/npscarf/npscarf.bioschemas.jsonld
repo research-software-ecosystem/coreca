@@ -45,14 +45,14 @@
       "biotools:primaryContact": "Minh Duc Cao",
       "bsc:input": [
         {
-          "@id": "_:N05ec89e384864e3187cd76b4c9a509bd"
+          "@id": "_:N389a4108dae24d3ba464f7292adcd36e"
         },
         {
-          "@id": "_:N87abab1e81ac4a98af703fc14e2a79f9"
+          "@id": "_:N203e1db7ce8e41ae8aed84985a950cb9"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ne1052be93aa342d6be6282d531199df4"
+        "@id": "_:N5a800c8da5544bd9bd5f95071efeb059"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Plug-in",
@@ -92,7 +92,7 @@
       "sc:url": "https://github.com/mdcao/npScarf"
     },
     {
-      "@id": "_:N05ec89e384864e3187cd76b4c9a509bd",
+      "@id": "_:N389a4108dae24d3ba464f7292adcd36e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -103,7 +103,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:N87abab1e81ac4a98af703fc14e2a79f9",
+      "@id": "_:N203e1db7ce8e41ae8aed84985a950cb9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -114,7 +114,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:Ne1052be93aa342d6be6282d531199df4",
+      "@id": "_:N5a800c8da5544bd9bd5f95071efeb059",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"

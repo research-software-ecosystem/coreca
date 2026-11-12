@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/rt",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na363432aede543d18ff167e44c021914"
+        "@id": "_:N008fc0ebdb154cd9aae78ddc94cd2688"
       },
       "bsc:output": {
-        "@id": "_:N4eaaa2e912884b71b99ca22de9b643ef"
+        "@id": "_:Nec1be01beb4b42c49f5a9d2dab0dbf24"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -81,7 +81,7 @@
       "sc:url": "http://www.ms-utils.org/rt.html"
     },
     {
-      "@id": "_:Na363432aede543d18ff167e44c021914",
+      "@id": "_:N008fc0ebdb154cd9aae78ddc94cd2688",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -100,7 +100,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N4eaaa2e912884b71b99ca22de9b643ef",
+      "@id": "_:Nec1be01beb4b42c49f5a9d2dab0dbf24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2016"

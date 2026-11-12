@@ -36,12 +36,12 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0003-2715-335X",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://doi.org/10.1093/nar/gky427",
       "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2715-335X",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/swiss-model_workspace",
@@ -51,23 +51,23 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nfe4c3cab94524ad99209dc635bd659e2"
+          "@id": "_:N5a7814d0b05c4b28bc73a38e87ce7cb2"
         },
         {
-          "@id": "_:N1bf857210fd94340b298ca5e385649e1"
+          "@id": "_:N53a1b7a52d2b4b73b570662b75fb7f07"
         },
         {
-          "@id": "_:N67eb40deae4d4f24a161dfaeb441499c"
+          "@id": "_:N01c9553adc8c430bbb76737f59053679"
         },
         {
-          "@id": "_:N0fc4086200e04a648fecdfd8307f9a2d"
+          "@id": "_:N521e1196019947eea446c15827c7c3d8"
         },
         {
-          "@id": "_:N8b3867fd8acc43b48dfbe15b4b224231"
+          "@id": "_:Nd8fba6c7004c406eaec1c31030b0634d"
         }
       ],
       "bsc:output": {
-        "@id": "_:N5d6c67d6100a419ebfe2ed59fdc0018c"
+        "@id": "_:N90e5e32abe4c4065a275593d681c8ba6"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -110,7 +110,7 @@
       "sc:url": "https://swissmodel.expasy.org/"
     },
     {
-      "@id": "_:Nfe4c3cab94524ad99209dc635bd659e2",
+      "@id": "_:N5a7814d0b05c4b28bc73a38e87ce7cb2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -118,7 +118,7 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:N1bf857210fd94340b298ca5e385649e1",
+      "@id": "_:N53a1b7a52d2b4b73b570662b75fb7f07",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
@@ -126,7 +126,7 @@
       "sc:name": "UniProt ID"
     },
     {
-      "@id": "_:N67eb40deae4d4f24a161dfaeb441499c",
+      "@id": "_:N01c9553adc8c430bbb76737f59053679",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -134,7 +134,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N0fc4086200e04a648fecdfd8307f9a2d",
+      "@id": "_:N521e1196019947eea446c15827c7c3d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -145,7 +145,7 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:N8b3867fd8acc43b48dfbe15b4b224231",
+      "@id": "_:Nd8fba6c7004c406eaec1c31030b0634d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1384"
@@ -156,7 +156,7 @@
       "sc:name": "Sequence alignment (protein)"
     },
     {
-      "@id": "_:N5d6c67d6100a419ebfe2ed59fdc0018c",
+      "@id": "_:N90e5e32abe4c4065a275593d681c8ba6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"

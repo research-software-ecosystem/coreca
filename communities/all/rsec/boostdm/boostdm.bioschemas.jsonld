@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1101/2020.06.03.130211",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://orcid.org/0000-0002-4651-4168",
       "@type": "sc:Person"
     },
@@ -46,10 +50,10 @@
         "@id": "https://orcid.org/0000-0002-4651-4168"
       },
       "bsc:input": {
-        "@id": "_:Ne5c3e2d1b42944e69927eb292c2b646d"
+        "@id": "_:Nbec7bbd1ca404daebcc9f4c02ade00a7"
       },
       "bsc:output": {
-        "@id": "_:N3c4045def2e4429cac871e819f18b893"
+        "@id": "_:N08a53de8e4a3449f851f58b54e4664d1"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -101,7 +105,7 @@
       "sc:url": "https://www.intogen.org/boostdm"
     },
     {
-      "@id": "_:Ne5c3e2d1b42944e69927eb292c2b646d",
+      "@id": "_:Nbec7bbd1ca404daebcc9f4c02ade00a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -112,7 +116,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N3c4045def2e4429cac871e819f18b893",
+      "@id": "_:N08a53de8e4a3449f851f58b54e4664d1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
@@ -121,10 +125,6 @@
         "@id": "edam:format_3475"
       },
       "sc:name": "Feature table"
-    },
-    {
-      "@id": "https://doi.org/10.1101/2020.06.03.130211",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

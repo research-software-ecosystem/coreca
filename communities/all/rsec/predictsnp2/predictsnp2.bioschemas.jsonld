@@ -36,14 +36,34 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0001-8718-7493",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3139-3700",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7848-8216",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9989-2720",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9677-5078",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/predictsnp2",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "PredictSNP team",
       "bsc:input": {
-        "@id": "_:N31c9ec9ff451406ab2dfc8d1eb350601"
+        "@id": "_:Ne7d45559a22d4995a80200db50ff65d8"
       },
       "bsc:output": {
-        "@id": "_:N0ce2732e5c13465793fc79f8a40d9d5c"
+        "@id": "_:N159522c93c054e23912fc8cc7387a311"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -135,7 +155,7 @@
       "sc:url": "https://loschmidt.chemi.muni.cz/predictsnp2"
     },
     {
-      "@id": "_:N31c9ec9ff451406ab2dfc8d1eb350601",
+      "@id": "_:Ne7d45559a22d4995a80200db50ff65d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -151,7 +171,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N0ce2732e5c13465793fc79f8a40d9d5c",
+      "@id": "_:N159522c93c054e23912fc8cc7387a311",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -167,32 +187,12 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "https://doi.org/10.1371/journal.pcbi.1004962",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-7848-8216",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-3139-3700",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://orcid.org/0000-0001-9373-7930",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0001-8718-7493",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-9989-2720",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-9677-5078",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1371/journal.pcbi.1004962",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

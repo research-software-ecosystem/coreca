@@ -43,13 +43,13 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N5f4ed94f9e994b8990efd41cf188daff"
+          "@id": "_:N639c0f3eb39840f5ab37146a439ea8ec"
         },
         {
-          "@id": "_:N7edf1308f6f3430a9b1311891b460bee"
+          "@id": "_:N4cb0027af7d24816b2696787dde42110"
         },
         {
-          "@id": "_:N67419d21afe34cf08fc23bd1c99290c3"
+          "@id": "_:N1517325b37ca44ccb4463e92f897d32e"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -80,7 +80,7 @@
       "sc:url": "http://phagege.com"
     },
     {
-      "@id": "_:N5f4ed94f9e994b8990efd41cf188daff",
+      "@id": "_:N639c0f3eb39840f5ab37146a439ea8ec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -88,7 +88,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N7edf1308f6f3430a9b1311891b460bee",
+      "@id": "_:N4cb0027af7d24816b2696787dde42110",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1893"
@@ -96,7 +96,7 @@
       "sc:name": "Locus ID"
     },
     {
-      "@id": "_:N67419d21afe34cf08fc23bd1c99290c3",
+      "@id": "_:N1517325b37ca44ccb4463e92f897d32e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"

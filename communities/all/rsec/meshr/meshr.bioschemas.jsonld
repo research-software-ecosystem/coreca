@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N17079fe4fc8b462483d3d4826daaa221"
+          "@id": "_:Naafe55496ca34018a1bae84f07e50d31"
         },
         {
-          "@id": "_:N217887e4b19f40b98e9d4055d564666a"
+          "@id": "_:N76b9b1c39bc0437a8c29f40ef5c2ba8a"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N6ca27f1416ac40f581025d13262ef4b9"
+          "@id": "_:Ndde58fe8d84f4003a64cf1d6328de714"
         },
         {
-          "@id": "_:N0c5e38a0b94b44f7a1e51ef85df58cc3"
+          "@id": "_:N4ff7ee2cad9742798201ae84e39e63e4"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -96,7 +96,7 @@
       "sc:url": "https://bioconductor.org/packages/meshr"
     },
     {
-      "@id": "_:N17079fe4fc8b462483d3d4826daaa221",
+      "@id": "_:Naafe55496ca34018a1bae84f07e50d31",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -112,7 +112,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:N217887e4b19f40b98e9d4055d564666a",
+      "@id": "_:N76b9b1c39bc0437a8c29f40ef5c2ba8a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0582"
@@ -128,7 +128,7 @@
       "sc:name": "Ontology"
     },
     {
-      "@id": "_:N6ca27f1416ac40f581025d13262ef4b9",
+      "@id": "_:Ndde58fe8d84f4003a64cf1d6328de714",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3509"
@@ -139,7 +139,7 @@
       "sc:name": "Ontology mapping"
     },
     {
-      "@id": "_:N0c5e38a0b94b44f7a1e51ef85df58cc3",
+      "@id": "_:N4ff7ee2cad9742798201ae84e39e63e4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

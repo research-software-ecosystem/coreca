@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/resnetkhib",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N587edd39a645409ba12ad335abd4651c"
+        "@id": "_:N9340f1a93bb243adb1b6ebcb76be2d10"
       },
       "bsc:output": {
-        "@id": "_:Na7abebb5b1d24f5ebecd85c8f34ec955"
+        "@id": "_:Na0805708c09e4ffb87f275852bd2b7b0"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -85,7 +85,7 @@
       "sc:url": "https://resnetkhib.erc.monash.edu/"
     },
     {
-      "@id": "_:N587edd39a645409ba12ad335abd4651c",
+      "@id": "_:N9340f1a93bb243adb1b6ebcb76be2d10",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -96,7 +96,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Na7abebb5b1d24f5ebecd85c8f34ec955",
+      "@id": "_:Na0805708c09e4ffb87f275852bd2b7b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

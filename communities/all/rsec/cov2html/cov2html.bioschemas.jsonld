@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1089/OMI.2013.0119",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -44,33 +44,33 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Na36703f5f3d14ff0a96b55c4bbcda38b"
+          "@id": "_:Ne9b46d8644df4cf088d381f3f6780206"
         },
         {
-          "@id": "_:N2b9968988a814a05a4ac71de834016e0"
+          "@id": "_:N01c497e47e0a46288f0ad96afbf2bb71"
         },
         {
-          "@id": "_:Ne339ac13ee3a4d668a083b4f2b3ab16f"
+          "@id": "_:Ne4e4bb04eb184f5e8cb68e5d021245d1"
         },
         {
-          "@id": "_:N799aab9c82354dc294965a9fa60997ca"
+          "@id": "_:N7b61894fdae343b2b2d96aba412663d2"
         },
         {
-          "@id": "_:N643253162037449c94000f0e153f44f4"
+          "@id": "_:N551ba94e21fc4ba2a3d4a5843d6e7a2f"
         },
         {
-          "@id": "_:Nc3f96f609d91482aabc0896bb638e7c8"
+          "@id": "_:N8b362751aa984a478a4319e8f5f69a39"
         },
         {
-          "@id": "_:N2d9fc5e537274456ac66e21518c79f4d"
+          "@id": "_:N21ec09b50ab34ce68bbc68da22fe2f20"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N658bba249c1e4b35acbff53f09136194"
+          "@id": "_:N061c847cf7994e119586ad14707f8318"
         },
         {
-          "@id": "_:Necd4da6f9b0e4255a4b7afac1d8e4351"
+          "@id": "_:Ncbea0dd6df4242f69df36cb9375c41d9"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -123,7 +123,7 @@
       "sc:url": "https://mmonot.eu/COV2HTML"
     },
     {
-      "@id": "_:Na36703f5f3d14ff0a96b55c4bbcda38b",
+      "@id": "_:Ne9b46d8644df4cf088d381f3f6780206",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -134,7 +134,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N2b9968988a814a05a4ac71de834016e0",
+      "@id": "_:N01c497e47e0a46288f0ad96afbf2bb71",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -150,7 +150,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ne339ac13ee3a4d668a083b4f2b3ab16f",
+      "@id": "_:Ne4e4bb04eb184f5e8cb68e5d021245d1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -166,7 +166,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N799aab9c82354dc294965a9fa60997ca",
+      "@id": "_:N7b61894fdae343b2b2d96aba412663d2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -177,7 +177,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N643253162037449c94000f0e153f44f4",
+      "@id": "_:N551ba94e21fc4ba2a3d4a5843d6e7a2f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -188,7 +188,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nc3f96f609d91482aabc0896bb638e7c8",
+      "@id": "_:N8b362751aa984a478a4319e8f5f69a39",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -204,7 +204,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N2d9fc5e537274456ac66e21518c79f4d",
+      "@id": "_:N21ec09b50ab34ce68bbc68da22fe2f20",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -215,7 +215,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N658bba249c1e4b35acbff53f09136194",
+      "@id": "_:N061c847cf7994e119586ad14707f8318",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -226,7 +226,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Necd4da6f9b0e4255a4b7afac1d8e4351",
+      "@id": "_:Ncbea0dd6df4242f69df36cb9375c41d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -237,7 +237,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1089/OMI.2013.0119",
       "@type": "sc:CreativeWork"
     }
   ]

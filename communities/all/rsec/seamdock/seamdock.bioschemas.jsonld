@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/seamdock",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na44ec3bbb3a148a9b64d97ce7a29ee1b"
+        "@id": "_:Nbe468143769b43fa95c8b4df539b4738"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -89,7 +89,7 @@
       "sc:url": "https://bioserv.rpbs.univ-paris-diderot.fr/services/SeamDock/"
     },
     {
-      "@id": "_:Na44ec3bbb3a148a9b64d97ce7a29ee1b",
+      "@id": "_:Nbe468143769b43fa95c8b4df539b4738",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"

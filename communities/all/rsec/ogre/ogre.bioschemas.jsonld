@@ -74,10 +74,10 @@
       "sc:description": "OGRE calculates overlap between user defined genomic region datasets. Any regions can be supplied i.e. genes, SNPs, or reads from sequencing experiments. Key numbers help analyse the extend of overlaps which can also be visualized at a genomic level.",
       "sc:featureList": [
         {
-          "@id": "edam:operation_0362"
+          "@id": "edam:operation_1812"
         },
         {
-          "@id": "edam:operation_1812"
+          "@id": "edam:operation_0362"
         },
         {
           "@id": "edam:operation_0337"

@@ -36,8 +36,16 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-7359-0633",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://doi.org/10.1016/j.jmb.2020.166729",
       "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0274-5669",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/betaware-deep",
@@ -51,10 +59,10 @@
         }
       ],
       "bsc:input": {
-        "@id": "_:Nd3eda46f6e6546388d25340c2406d527"
+        "@id": "_:N1bc3dd119b394e9dafa1999c06cf2a4a"
       },
       "bsc:output": {
-        "@id": "_:N6e56f89428b24e0d888708ea5e75407d"
+        "@id": "_:Ne4da31dc8e1049208b811e7a938a6cf3"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -86,7 +94,7 @@
       "sc:url": "https://busca.biocomp.unibo.it/betaware2/"
     },
     {
-      "@id": "_:Nd3eda46f6e6546388d25340c2406d527",
+      "@id": "_:N1bc3dd119b394e9dafa1999c06cf2a4a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -97,7 +105,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N6e56f89428b24e0d888708ea5e75407d",
+      "@id": "_:Ne4da31dc8e1049208b811e7a938a6cf3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -114,14 +122,6 @@
         }
       ],
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-7359-0633",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-0274-5669",
-      "@type": "sc:Person"
     }
   ]
 }

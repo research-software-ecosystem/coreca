@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkn230",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/graphweb",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -44,10 +48,10 @@
         "Laur Tooming"
       ],
       "bsc:input": {
-        "@id": "_:Nbd4223426db5413390cd2539380e3950"
+        "@id": "_:Nf150a4cbb8a044d387df786294c6a25b"
       },
       "bsc:output": {
-        "@id": "_:N85c4c83f58784c8b9d11c80ec12d7971"
+        "@id": "_:N6fe8214dfd74430a94b033d95775319f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -99,7 +103,7 @@
       "sc:url": "http://biit.cs.ut.ee/graphweb"
     },
     {
-      "@id": "_:Nbd4223426db5413390cd2539380e3950",
+      "@id": "_:Nf150a4cbb8a044d387df786294c6a25b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -110,7 +114,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N85c4c83f58784c8b9d11c80ec12d7971",
+      "@id": "_:N6fe8214dfd74430a94b033d95775319f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2984"
@@ -124,10 +128,6 @@
         }
       ],
       "sc:name": "Pathway or network report"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkn230",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

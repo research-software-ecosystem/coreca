@@ -36,35 +36,31 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkt1144",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/modbase",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd8408fbba3e34198923b508322b7a11b"
+          "@id": "_:Nf79a58ea89694092b3845b12ddc67903"
         },
         {
-          "@id": "_:Na0b8235fefaa4626b4a94d323c3a4b14"
+          "@id": "_:Nb19d8ebedec3429394538e6c73c6bfb6"
         },
         {
-          "@id": "_:Nf7723214a5e8436fb5476cd48ef4581d"
+          "@id": "_:Nd4100d562f704643b15a9247b66b3b2d"
         },
         {
-          "@id": "_:N81770750fc2042ee8dccadf57df0774f"
+          "@id": "_:Nad584dfca53a495f8aad3603831e8a1f"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N449829b5cfa44cf79723a96b5381c1b7"
+          "@id": "_:N8936e493490b45a28e03dd0c47fc4f79"
         },
         {
-          "@id": "_:N59c41c7ac262429a9bba927a048f157a"
+          "@id": "_:Ncb406899daf841f3b129d334b8bc2851"
         },
         {
-          "@id": "_:N9991584e323d44caa923a3b02955dc3f"
+          "@id": "_:Nf5ae072a144d455bbab420c0652154ce"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -95,7 +91,7 @@
       "sc:url": "http://modbase.compbio.ucsf.edu/modbase-cgi/index.cgi"
     },
     {
-      "@id": "_:Nd8408fbba3e34198923b508322b7a11b",
+      "@id": "_:Nf79a58ea89694092b3845b12ddc67903",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -103,7 +99,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:Na0b8235fefaa4626b4a94d323c3a4b14",
+      "@id": "_:Nb19d8ebedec3429394538e6c73c6bfb6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -111,7 +107,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:Nf7723214a5e8436fb5476cd48ef4581d",
+      "@id": "_:Nd4100d562f704643b15a9247b66b3b2d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -119,7 +115,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N81770750fc2042ee8dccadf57df0774f",
+      "@id": "_:Nad584dfca53a495f8aad3603831e8a1f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1106"
@@ -127,7 +123,7 @@
       "sc:name": "dbSNP ID"
     },
     {
-      "@id": "_:N449829b5cfa44cf79723a96b5381c1b7",
+      "@id": "_:N8936e493490b45a28e03dd0c47fc4f79",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
@@ -138,7 +134,7 @@
       "sc:name": "Protein structure report"
     },
     {
-      "@id": "_:N59c41c7ac262429a9bba927a048f157a",
+      "@id": "_:Ncb406899daf841f3b129d334b8bc2851",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -149,7 +145,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N9991584e323d44caa923a3b02955dc3f",
+      "@id": "_:Nf5ae072a144d455bbab420c0652154ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -158,6 +154,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt1144",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

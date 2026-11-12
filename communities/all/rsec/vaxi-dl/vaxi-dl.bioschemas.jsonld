@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N4a846c46b7454cbc92788d05b51109f4"
+          "@id": "_:Nd5c592955beb4bdab365bd1dea18cac0"
         },
         {
-          "@id": "_:N6b7f5a204c294007ad103b550f6c68b2"
+          "@id": "_:Nb26565682a404b8b8152b22a4ca89a1d"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -93,7 +93,7 @@
       "sc:url": "https://vac.kamalrawal.in/vaxidl/"
     },
     {
-      "@id": "_:N4a846c46b7454cbc92788d05b51109f4",
+      "@id": "_:Nd5c592955beb4bdab365bd1dea18cac0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
@@ -101,7 +101,7 @@
       "sc:name": "UniProt ID"
     },
     {
-      "@id": "_:N6b7f5a204c294007ad103b550f6c68b2",
+      "@id": "_:Nb26565682a404b8b8152b22a4ca89a1d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

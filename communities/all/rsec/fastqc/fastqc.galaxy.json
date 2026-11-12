@@ -23,17 +23,18 @@
     "Homepage": "http://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
     "Latest_suite_conda_package_version": "0.13.0",
     "Number_of_tools_on_ChemFlow": 0,
-    "Number_of_tools_on_Coloc-stats": 0,
-    "Number_of_tools_on_GASLINI": 0,
+    "Number_of_tools_on_Codon_Harmonizer": 0,
     "Number_of_tools_on_Galaxy@AuBi": 1,
     "Number_of_tools_on_Galaxy@Pasteur": 1,
     "Number_of_tools_on_GalaxyTrakr": 1,
+    "Number_of_tools_on_HCEMM_Galaxy": 1,
     "Number_of_tools_on_HyPhy_HIV_NGS_Tools": 0,
     "Number_of_tools_on_IPK_Galaxy_Blast_Suite": 0,
     "Number_of_tools_on_ImmPort_Galaxy": 0,
     "Number_of_tools_on_InteractoMIX": 0,
     "Number_of_tools_on_Lebanese_University_Galaxy": 0,
     "Number_of_tools_on_MBAC_Metabiome_Portal": 0,
+    "Number_of_tools_on_MISSISSIPPI": 1,
     "Number_of_tools_on_Mandoiu_Lab": 0,
     "Number_of_tools_on_Oqtans": 1,
     "Number_of_tools_on_Palfinder": 1,
@@ -57,7 +58,6 @@
         "https://training.galaxyproject.org/training-material/topics/ecology/tutorials/de-novo-rad-seq/tutorial.html",
         "https://training.galaxyproject.org/training-material/topics/ecology/tutorials/ref-based-rad-seq/tutorial.html",
         "https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/estrogen-receptor-binding-site-identification/tutorial.html",
-        "https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/formation_of_super-structures_on_xi/tutorial.html",
         "https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/methylation-seq/tutorial.html",
         "https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/crispr-screen/tutorial.html",
         "https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html",
@@ -89,6 +89,12 @@
     ],
     "Related_Workflows": [
         {
+            "create_time": "2026-10-09",
+            "latest_version": "1",
+            "link": "https://workflowhub.eu/workflows/2336?version=1",
+            "name": "Reads_QC"
+        },
+        {
             "create_time": "2024-09-18",
             "latest_version": "2",
             "link": "https://workflowhub.eu/workflows/602?version=2",
@@ -111,12 +117,6 @@
             "latest_version": "2",
             "link": "https://workflowhub.eu/workflows/1613?version=2",
             "name": "Genome Assembly of MRSA using Oxford Nanopore MinION (and Illumina data if available)"
-        },
-        {
-            "create_time": "2025-12-22",
-            "latest_version": "2",
-            "link": "https://workflowhub.eu/workflows/1615?version=2",
-            "name": "GTN - ChIP Seq - Formation Of Super Structures On Xi"
         },
         {
             "create_time": "2025-12-16",
@@ -289,12 +289,6 @@
         {
             "create_time": "2025-06-02",
             "latest_version": "1",
-            "link": "https://workflowhub.eu/workflows/1606?version=1",
-            "name": "Identification of the binding sites of the T-cell acute lymphocytic leukemia protein 1 (TAL1)"
-        },
-        {
-            "create_time": "2025-06-02",
-            "latest_version": "1",
             "link": "https://workflowhub.eu/workflows/1598?version=1",
             "name": "Unicycler training"
         },
@@ -365,9 +359,9 @@
             "name": "Genome assembly workflow for nanopore reads, for TSI"
         },
         {
-            "create_time": "2024-06-26",
-            "latest_version": "1",
-            "link": "https://workflowhub.eu/workflows/1061?version=1",
+            "create_time": "2026-10-17",
+            "latest_version": "2",
+            "link": "https://workflowhub.eu/workflows/1061?version=2",
             "name": "nanopore-pre-processing/main"
         },
         {
@@ -531,6 +525,30 @@
             "latest_version": "1",
             "link": "https://usegalaxy.fr/published/workflow?id=776ef2fa51094ba6",
             "name": "COVID-19: 1- read pre-processing with download"
+        },
+        {
+            "create_time": "2026-10-17",
+            "latest_version": "16",
+            "link": "https://usegalaxy.eu/published/workflow?id=8d55b0a517e6fd10",
+            "name": "Single End  Variant Calling Pipeline (Lukasz Lukasik)"
+        },
+        {
+            "create_time": "2026-10-17",
+            "latest_version": "0",
+            "link": "https://usegalaxy.eu/published/workflow?id=b6e76795ad3502d8",
+            "name": "\u8d28\u91cf\u63a7\u5236"
+        },
+        {
+            "create_time": "2026-10-14",
+            "latest_version": "0",
+            "link": "https://usegalaxy.eu/published/workflow?id=fcd160ddd6036742",
+            "name": "\u6d4b\u5e8f\u6570\u636e\u8d28\u91cf\u63a7\u5236\uff1aFASTQE + FastQC + Cutadapt \u4fee\u526a\uff08\u77ed\u8bfb\u5e8f\uff09"
+        },
+        {
+            "create_time": "2026-10-01",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=0b257388bfaa2961",
+            "name": "MGnify's amplicon pipeline v5.0 - Quality control PE (release v0.9)"
         },
         {
             "create_time": "2026-08-14",
@@ -2759,6 +2777,36 @@
             "name": "NGS Variant with freebayes"
         },
         {
+            "create_time": "2024-12-23",
+            "latest_version": "9",
+            "link": "https://usegalaxy.org/published/workflow?id=a095ee31b6b635ca",
+            "name": "Workflow constructed from history 'Workflow-Galaxy-RNA-fusions-Arriba-VB-11-12.2024'"
+        },
+        {
+            "create_time": "2025-02-07",
+            "latest_version": "3",
+            "link": "https://usegalaxy.org/published/workflow?id=f27fe08e551a102c",
+            "name": "Workflow constructed from history 'Workflow-Galaxy-RNA-fusions-Arriba-VB-11-12.2024_--outFilterMismatchNmax_15(relaxed)"
+        },
+        {
+            "create_time": "2024-11-05",
+            "latest_version": "16",
+            "link": "https://usegalaxy.org/published/workflow?id=fd30cdfe7e38b508",
+            "name": "CRISPR-screens NGS Analysis"
+        },
+        {
+            "create_time": "2026-06-21",
+            "latest_version": "18",
+            "link": "https://usegalaxy.org/published/workflow?id=97b5e2bc469d2d68",
+            "name": "Meta_DiaBiome_v1"
+        },
+        {
+            "create_time": "2026-09-23",
+            "latest_version": "0",
+            "link": "https://usegalaxy.org/published/workflow?id=2a588d39457a53a4",
+            "name": "tp4_RNA-Seq levadura - carga manual + DESeq2 + Volcano + MA (imported from uploaded file)"
+        },
+        {
             "create_time": "2026-09-30",
             "latest_version": "10",
             "link": "https://usegalaxy.org/published/workflow?id=6a6967fcb9201638",
@@ -2835,12 +2883,6 @@
             "latest_version": "2",
             "link": "https://usegalaxy.org/published/workflow?id=ddf021835803ac47",
             "name": "Salmon Isoform Bulk RNAseq Analysis "
-        },
-        {
-            "create_time": "2026-06-21",
-            "latest_version": "16",
-            "link": "https://usegalaxy.org/published/workflow?id=97b5e2bc469d2d68",
-            "name": "Meta_DaiBiome_v1"
         },
         {
             "create_time": "2026-08-27",
@@ -2937,12 +2979,6 @@
             "latest_version": "7",
             "link": "https://usegalaxy.org/published/workflow?id=2079960d0a220e11",
             "name": "pipeline 2"
-        },
-        {
-            "create_time": "2024-11-05",
-            "latest_version": "11",
-            "link": "https://usegalaxy.org/published/workflow?id=fd30cdfe7e38b508",
-            "name": "CRISPR-screens NGS Analysis"
         },
         {
             "create_time": "2026-04-10",

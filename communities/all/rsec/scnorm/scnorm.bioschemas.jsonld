@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Rhonda Bacher",
       "bsc:input": {
-        "@id": "_:N40bdaf0632e64bd89f0d250cd936c1ef"
+        "@id": "_:Nb4657b49e06f44848bcb0e1b4b3f8cf1"
       },
       "bsc:output": {
-        "@id": "_:N9c66380abbd8436e8823fa0e9bd3e974"
+        "@id": "_:Nd93f9c0a3c7647268535ba66b441dc17"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -104,7 +104,7 @@
       "sc:url": "https://www.biostat.wisc.edu/~kendzior/SCNORM/"
     },
     {
-      "@id": "_:N40bdaf0632e64bd89f0d250cd936c1ef",
+      "@id": "_:Nb4657b49e06f44848bcb0e1b4b3f8cf1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -120,7 +120,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N9c66380abbd8436e8823fa0e9bd3e974",
+      "@id": "_:Nd93f9c0a3c7647268535ba66b441dc17",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"

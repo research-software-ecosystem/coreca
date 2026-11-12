@@ -49,10 +49,10 @@
         "Shaohang Xu"
       ],
       "bsc:input": {
-        "@id": "_:N9311e64c36b64c61a0bc87703cf5c794"
+        "@id": "_:N0ebdc48033c64c9cada955d5e36cd098"
       },
       "bsc:output": {
-        "@id": "_:Neff0809129ee43da9f340b9c10e37a72"
+        "@id": "_:N8a07e2f8640d4ec1ba4b9f2f96df4435"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -112,7 +112,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/PGA.html"
     },
     {
-      "@id": "_:N9311e64c36b64c61a0bc87703cf5c794",
+      "@id": "_:N0ebdc48033c64c9cada955d5e36cd098",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -131,7 +131,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:Neff0809129ee43da9f340b9c10e37a72",
+      "@id": "_:N8a07e2f8640d4ec1ba4b9f2f96df4435",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"

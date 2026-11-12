@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1101/2021.09.15.460475",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/minos",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N2fa5ded05c9a45209264bb15f1177e82"
+          "@id": "_:N267459161d134dab93989289f0946fd3"
         },
         {
-          "@id": "_:N80c875ed5fb04eaa8391e74fe923f62a"
+          "@id": "_:N55fc30bc20124462a7d739d9315df0a6"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nd8e41168831743949c03bbaa049cb239"
+        "@id": "_:N437e1e221ba348bca842bfc1332cb976"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -91,7 +95,7 @@
       "sc:url": "https://github.com/iqbal-lab-org/minos"
     },
     {
-      "@id": "_:N2fa5ded05c9a45209264bb15f1177e82",
+      "@id": "_:N267459161d134dab93989289f0946fd3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -107,7 +111,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N80c875ed5fb04eaa8391e74fe923f62a",
+      "@id": "_:N55fc30bc20124462a7d739d9315df0a6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -118,7 +122,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:Nd8e41168831743949c03bbaa049cb239",
+      "@id": "_:N437e1e221ba348bca842bfc1332cb976",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -127,10 +131,6 @@
         "@id": "edam:format_3016"
       },
       "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1101/2021.09.15.460475",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

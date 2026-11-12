@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/genomeinfodb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1986056939b34f44a76729543480ac27"
+        "@id": "_:Na3d2bc46ed0249878a4fa13808c2b016"
       },
       "bsc:output": {
-        "@id": "_:Nfb0212e101884d889e3e2996a7d6c287"
+        "@id": "_:Nea18ebf6fa0348589066dcfb3013dacd"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -94,7 +94,7 @@
       "sc:url": "https://bioconductor.org/packages/GenomeInfoDb"
     },
     {
-      "@id": "_:N1986056939b34f44a76729543480ac27",
+      "@id": "_:Na3d2bc46ed0249878a4fa13808c2b016",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0987"
@@ -105,7 +105,7 @@
       "sc:name": "Chromosome name"
     },
     {
-      "@id": "_:Nfb0212e101884d889e3e2996a7d6c287",
+      "@id": "_:Nea18ebf6fa0348589066dcfb3013dacd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0987"

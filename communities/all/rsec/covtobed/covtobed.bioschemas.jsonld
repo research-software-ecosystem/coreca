@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/covtobed",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N670db6b3ea5d49c1bf945e6f34dbc3a6"
+        "@id": "_:N37b07b72c7dc49d7b3b412898abc69a2"
       },
       "bsc:output": {
-        "@id": "_:Nb9fc4a7238d2417393712facaaf5368e"
+        "@id": "_:Ndbddfe9b4a744844a056c35105861f84"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -70,7 +70,7 @@
       "sc:url": "https://github.com/telatin/covtobed"
     },
     {
-      "@id": "_:N670db6b3ea5d49c1bf945e6f34dbc3a6",
+      "@id": "_:N37b07b72c7dc49d7b3b412898abc69a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -81,7 +81,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:Nb9fc4a7238d2417393712facaaf5368e",
+      "@id": "_:Ndbddfe9b4a744844a056c35105861f84",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"

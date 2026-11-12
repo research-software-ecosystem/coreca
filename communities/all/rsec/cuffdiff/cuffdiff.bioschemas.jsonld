@@ -36,92 +36,100 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nbt.1621",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/cuffdiff",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Nbcefcdd84c184aac99b9c3b33f7911b4"
+          "@id": "_:Nebee1a53943e4dffb594a431d8874f9b"
         },
         {
-          "@id": "_:Naab72df812004a838b10065b51ea82b4"
+          "@id": "_:Ncd3cd52858f54d389a37a781ce84298d"
         },
         {
-          "@id": "_:N96860300a2f14524ad50aef839a20ddb"
+          "@id": "_:N327439f923a5489b8304e68cab42731f"
         },
         {
-          "@id": "_:N7c5c1e2635234464bf88b502bc41c6c8"
+          "@id": "_:N023c55c955da4f6a81aa7f4a549b491e"
         },
         {
-          "@id": "_:N1f0c7974edc447659e91e756266ef077"
+          "@id": "_:N23969b9e6c8f41189af41e68528f9b7c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd1effa6dbbeb4172b110b7abe880e05a"
+          "@id": "_:Nd4d132e872b34a0498d641e681e0dea6"
         },
         {
-          "@id": "_:N3882139c1da940548cd0633fc3b49ded"
+          "@id": "_:Nb0857d62c865413aac20fc540ed01e27"
         },
         {
-          "@id": "_:Nc68936cb22ea43b6a4608dccea133d66"
+          "@id": "_:N3c189972ac8d4b0d83e5a954290740cd"
         },
         {
-          "@id": "_:N7a279017572b4c9e9033de91206ac7fb"
+          "@id": "_:N83f6f2980bf144e9a83dc73dcf7d6d6e"
         },
         {
-          "@id": "_:N186015c56ff848688fb8946e8bed7fd2"
+          "@id": "_:N295ab3048446428a83307fbf6bfeea13"
         },
         {
-          "@id": "_:Nbabbf8dfaa114699a0fa4bd47ff730b2"
+          "@id": "_:N7787d238d8db4d96a6a77b3b3b2b43ff"
         },
         {
-          "@id": "_:Nc650a7876f724d219f6bd60018b77918"
+          "@id": "_:Nc32baf5d5420453bb5eee443b6ade619"
         },
         {
-          "@id": "_:N83a36e2eb2994738bab30181830abce3"
+          "@id": "_:Nf6ec92185a13431084bfcbc6e1a827f5"
         },
         {
-          "@id": "_:Ne7c13aea52d24b28b6a110cd099d5095"
+          "@id": "_:N56da58abcf164ba891d8f35a1420f5e6"
         },
         {
-          "@id": "_:N1ed06f3ea5e44e2c8a4dcb0729f45c4b"
+          "@id": "_:N88502b6402f94cab93a42e88c98dd783"
         },
         {
-          "@id": "_:N54799515e89640a482fdff079c2ffdd3"
+          "@id": "_:N422f522731644f02982ac08714e8c742"
         },
         {
-          "@id": "_:Nf4e30050ca3441c3a122b70392c59a4b"
+          "@id": "_:N0c64652973c1431fb882aadd8c42a52f"
         },
         {
-          "@id": "_:N8db015e879884009aa4ac119743b4c49"
+          "@id": "_:N64e44f4c7c2647ae9ef4bf1b59541aa7"
         },
         {
-          "@id": "_:Ne760c309462047c5a54bab7d79cc3223"
+          "@id": "_:N44a0ee4229af4eb388e8165de3be4aa2"
         },
         {
-          "@id": "_:Nbdb80895a4134491969c176c7dafd557"
+          "@id": "_:N5680d83b48da439c8b957848ff0ce30d"
         },
         {
-          "@id": "_:N2439cc9399f541e981cab48909c832ad"
+          "@id": "_:Neebd1a7c83e04480a96699e518801436"
         },
         {
-          "@id": "_:N9f5cf67b18f7483aa47556864f1b237e"
+          "@id": "_:N70d4ba4d54464ec8b78338e62181c9da"
         },
         {
-          "@id": "_:N8c9bfe05b7b84bc4b526cf0b8c16d331"
+          "@id": "_:Na019875826d64c379ea2299e4c32c743"
         },
         {
-          "@id": "_:Ne5f55634091f41728a1e278c814465e6"
+          "@id": "_:N9d909c8bfda147ada8568b8a7a042baf"
         },
         {
-          "@id": "_:N9fc6b8c48ec9428f82d77f17ad4f1a2b"
+          "@id": "_:Ne053305b0bce4c3d840e5c3dfceb18ee"
         },
         {
-          "@id": "_:N8f5dcb5eae594bc4839df08548aade49"
+          "@id": "_:Nab24db4b681a484d9c21355c6d13772a"
         },
         {
-          "@id": "_:N440f53cdf69748f193836366dc45af88"
+          "@id": "_:N1d2161c9ee7d45a68713e68e1b48dc27"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -166,7 +174,7 @@
       "sc:url": "http://cole-trapnell-lab.github.io/cufflinks/"
     },
     {
-      "@id": "_:Nbcefcdd84c184aac99b9c3b33f7911b4",
+      "@id": "_:Nebee1a53943e4dffb594a431d8874f9b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -182,7 +190,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Naab72df812004a838b10065b51ea82b4",
+      "@id": "_:Ncd3cd52858f54d389a37a781ce84298d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -193,7 +201,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N96860300a2f14524ad50aef839a20ddb",
+      "@id": "_:N327439f923a5489b8304e68cab42731f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -209,7 +217,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N7c5c1e2635234464bf88b502bc41c6c8",
+      "@id": "_:N023c55c955da4f6a81aa7f4a549b491e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -225,7 +233,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N1f0c7974edc447659e91e756266ef077",
+      "@id": "_:N23969b9e6c8f41189af41e68528f9b7c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -236,7 +244,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nd1effa6dbbeb4172b110b7abe880e05a",
+      "@id": "_:Nd4d132e872b34a0498d641e681e0dea6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -247,7 +255,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N3882139c1da940548cd0633fc3b49ded",
+      "@id": "_:Nb0857d62c865413aac20fc540ed01e27",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -258,7 +266,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nc68936cb22ea43b6a4608dccea133d66",
+      "@id": "_:N3c189972ac8d4b0d83e5a954290740cd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -269,7 +277,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N7a279017572b4c9e9033de91206ac7fb",
+      "@id": "_:N83f6f2980bf144e9a83dc73dcf7d6d6e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -280,7 +288,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N186015c56ff848688fb8946e8bed7fd2",
+      "@id": "_:N295ab3048446428a83307fbf6bfeea13",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -291,7 +299,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nbabbf8dfaa114699a0fa4bd47ff730b2",
+      "@id": "_:N7787d238d8db4d96a6a77b3b3b2b43ff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -302,7 +310,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nc650a7876f724d219f6bd60018b77918",
+      "@id": "_:Nc32baf5d5420453bb5eee443b6ade619",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -313,7 +321,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N83a36e2eb2994738bab30181830abce3",
+      "@id": "_:Nf6ec92185a13431084bfcbc6e1a827f5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -324,7 +332,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ne7c13aea52d24b28b6a110cd099d5095",
+      "@id": "_:N56da58abcf164ba891d8f35a1420f5e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -335,7 +343,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N1ed06f3ea5e44e2c8a4dcb0729f45c4b",
+      "@id": "_:N88502b6402f94cab93a42e88c98dd783",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -346,7 +354,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N54799515e89640a482fdff079c2ffdd3",
+      "@id": "_:N422f522731644f02982ac08714e8c742",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -357,7 +365,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf4e30050ca3441c3a122b70392c59a4b",
+      "@id": "_:N0c64652973c1431fb882aadd8c42a52f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -368,7 +376,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N8db015e879884009aa4ac119743b4c49",
+      "@id": "_:N64e44f4c7c2647ae9ef4bf1b59541aa7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -379,7 +387,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ne760c309462047c5a54bab7d79cc3223",
+      "@id": "_:N44a0ee4229af4eb388e8165de3be4aa2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -390,7 +398,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nbdb80895a4134491969c176c7dafd557",
+      "@id": "_:N5680d83b48da439c8b957848ff0ce30d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -401,7 +409,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N2439cc9399f541e981cab48909c832ad",
+      "@id": "_:Neebd1a7c83e04480a96699e518801436",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -412,7 +420,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N9f5cf67b18f7483aa47556864f1b237e",
+      "@id": "_:N70d4ba4d54464ec8b78338e62181c9da",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -423,7 +431,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N8c9bfe05b7b84bc4b526cf0b8c16d331",
+      "@id": "_:Na019875826d64c379ea2299e4c32c743",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -434,7 +442,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ne5f55634091f41728a1e278c814465e6",
+      "@id": "_:N9d909c8bfda147ada8568b8a7a042baf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -445,7 +453,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N9fc6b8c48ec9428f82d77f17ad4f1a2b",
+      "@id": "_:Ne053305b0bce4c3d840e5c3dfceb18ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -456,7 +464,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N8f5dcb5eae594bc4839df08548aade49",
+      "@id": "_:Nab24db4b681a484d9c21355c6d13772a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -467,7 +475,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N440f53cdf69748f193836366dc45af88",
+      "@id": "_:N1d2161c9ee7d45a68713e68e1b48dc27",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -479,14 +487,6 @@
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1038/nbt.1621",
       "@type": "sc:CreativeWork"
     }
   ]

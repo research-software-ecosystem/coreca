@@ -44,7 +44,7 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Jay Hesselberth",
       "bsc:input": {
-        "@id": "_:Nf6f876ffe9a64da39b3e46bfbff62564"
+        "@id": "_:N5a3664d350e542a69c7733ed316391df"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -95,7 +95,7 @@
       "sc:url": "http://valr.hesselberthlab.org"
     },
     {
-      "@id": "_:Nf6f876ffe9a64da39b3e46bfbff62564",
+      "@id": "_:N5a3664d350e542a69c7733ed316391df",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"

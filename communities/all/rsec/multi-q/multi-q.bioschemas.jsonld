@@ -40,21 +40,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N7b04bc976d8f4c5dad4b617232da3eca"
+          "@id": "_:N972b92ceb70346cb89788b49ba860754"
         },
         {
-          "@id": "_:N5f021f481e734f888c652e97d2ca71e3"
+          "@id": "_:N98bcc21798fb4ca0927d4ada320b87f1"
         },
         {
-          "@id": "_:Ne3f68fe20f8e4edba0778e9122489983"
+          "@id": "_:N9ec2f5fee33447e5bede636360c68c41"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N18b8d03a485546f2b4f7f6f367f82751"
+          "@id": "_:N6db820f35e054deb95306a591481b89c"
         },
         {
-          "@id": "_:N39964f025acb448684e2f1b5cd5f7ae6"
+          "@id": "_:Nada7673b55434f029d802bc5ca5b516c"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -97,7 +97,7 @@
       "sc:url": "http://ms.iis.sinica.edu.tw/Multi-Q/"
     },
     {
-      "@id": "_:N7b04bc976d8f4c5dad4b617232da3eca",
+      "@id": "_:N972b92ceb70346cb89788b49ba860754",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -108,7 +108,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N5f021f481e734f888c652e97d2ca71e3",
+      "@id": "_:N98bcc21798fb4ca0927d4ada320b87f1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -119,7 +119,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Ne3f68fe20f8e4edba0778e9122489983",
+      "@id": "_:N9ec2f5fee33447e5bede636360c68c41",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -135,7 +135,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N18b8d03a485546f2b4f7f6f367f82751",
+      "@id": "_:N6db820f35e054deb95306a591481b89c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -146,7 +146,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N39964f025acb448684e2f1b5cd5f7ae6",
+      "@id": "_:Nada7673b55434f029d802bc5ca5b516c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"

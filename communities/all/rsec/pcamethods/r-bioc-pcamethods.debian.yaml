@@ -19,7 +19,7 @@ bib:
 - key: doi
   value: 10.1093/bioinformatics/btm069
 popcon:
-- insts: 137
-  olde: 104
-  recent: 26
-  vote: 7
+- insts: 146
+  olde: 107
+  recent: 30
+  vote: 9

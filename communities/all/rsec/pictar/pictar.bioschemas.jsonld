@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/pictar",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9c1da66ee5d34801aea5c2cd8548b526"
+        "@id": "_:N40158234f3164fbfa29235111aafa20a"
       },
       "bsc:output": {
-        "@id": "_:Ne84f1344c14741249c16a3b9b5e05f7f"
+        "@id": "_:Ne35acdc04e844c698f108f8792e69471"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web service",
@@ -71,7 +71,7 @@
       "sc:url": "http://pictar.mdc-berlin.de/"
     },
     {
-      "@id": "_:N9c1da66ee5d34801aea5c2cd8548b526",
+      "@id": "_:N40158234f3164fbfa29235111aafa20a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2099"
@@ -82,7 +82,7 @@
       "sc:name": "Name"
     },
     {
-      "@id": "_:Ne84f1344c14741249c16a3b9b5e05f7f",
+      "@id": "_:Ne35acdc04e844c698f108f8792e69471",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"

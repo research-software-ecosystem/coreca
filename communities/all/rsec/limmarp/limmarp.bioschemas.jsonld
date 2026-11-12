@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0002-9708-6722",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/limmarp",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -47,14 +43,14 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N96d4d74c06bb4113939588cdfba58986"
+          "@id": "_:Na90c63df97ac4f199af647fe5e650356"
         },
         {
-          "@id": "_:N7cb3aeac67074a76a006785d51f197cc"
+          "@id": "_:N212527d3135c4873a4225d17c7692c25"
         }
       ],
       "bsc:output": {
-        "@id": "_:N477c7951dd274fe8ac1da738907803c7"
+        "@id": "_:N75c7e5b8504e4bea87c5c1f2f07dca00"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -96,7 +92,7 @@
       "sc:url": "http://computproteomics.bmb.sdu.dk/Apps/LimmaRP/"
     },
     {
-      "@id": "_:N96d4d74c06bb4113939588cdfba58986",
+      "@id": "_:Na90c63df97ac4f199af647fe5e650356",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -112,7 +108,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N7cb3aeac67074a76a006785d51f197cc",
+      "@id": "_:N212527d3135c4873a4225d17c7692c25",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -128,7 +124,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N477c7951dd274fe8ac1da738907803c7",
+      "@id": "_:N75c7e5b8504e4bea87c5c1f2f07dca00",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
@@ -146,6 +142,10 @@
     {
       "@id": "https://doi.org/10.1021/pr400045u",
       "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-9708-6722",
+      "@type": "sc:Person"
     }
   ]
 }

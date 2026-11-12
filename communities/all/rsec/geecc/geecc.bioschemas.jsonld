@@ -36,27 +36,23 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.3252",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/geecc",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Markus Boenn",
       "bsc:input": [
         {
-          "@id": "_:Nfb59f8beb9674a0fa93c044fbb78e65c"
+          "@id": "_:N3b2bd0e3b0e14477aa31f579ea5f2ccf"
         },
         {
-          "@id": "_:Nd137e38507f044aba14d4a5865a596b2"
+          "@id": "_:N5faf647ca88d4f969f0a2bfad5e46fe4"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8264827c528e411083c80712dbf9a07a"
+          "@id": "_:N642e198c874a49d4a20611a3432392eb"
         },
         {
-          "@id": "_:N5a3e068618e34541a960ea0d86b8394b"
+          "@id": "_:N53e528dcc3f94f6784d29f15998c4790"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -97,7 +93,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/geecc.html"
     },
     {
-      "@id": "_:Nfb59f8beb9674a0fa93c044fbb78e65c",
+      "@id": "_:N3b2bd0e3b0e14477aa31f579ea5f2ccf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -108,7 +104,7 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:Nd137e38507f044aba14d4a5865a596b2",
+      "@id": "_:N5faf647ca88d4f969f0a2bfad5e46fe4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -119,7 +115,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N8264827c528e411083c80712dbf9a07a",
+      "@id": "_:N642e198c874a49d4a20611a3432392eb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -138,7 +134,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N5a3e068618e34541a960ea0d86b8394b",
+      "@id": "_:N53e528dcc3f94f6784d29f15998c4790",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3509"
@@ -155,6 +151,10 @@
         }
       ],
       "sc:name": "Ontology mapping"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

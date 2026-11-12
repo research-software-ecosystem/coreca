@@ -45,18 +45,18 @@
       "biotools:primaryContact": "GenOuest",
       "bsc:input": [
         {
-          "@id": "_:Nff698a439b8448538036fafe9730c77c"
+          "@id": "_:N759b35a498604b7cba611a36dac0184b"
         },
         {
-          "@id": "_:N28ac694a6a0f4270a9b3f8e58138ad79"
+          "@id": "_:N101bcf49e3264334b3ee61b6966601d8"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nb03dc220fad04a99954d7c9b25f43411"
+          "@id": "_:N4f8f02d336114bffb0651c3da02bd6f2"
         },
         {
-          "@id": "_:N0fee38ed6fbd4c88a95aeffdee88f317"
+          "@id": "_:N2d2772687d0546a892cd83d490f4b100"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -94,7 +94,7 @@
       "sc:url": "http://cyanolyase.genouest.org/"
     },
     {
-      "@id": "_:Nff698a439b8448538036fafe9730c77c",
+      "@id": "_:N759b35a498604b7cba611a36dac0184b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -105,7 +105,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N28ac694a6a0f4270a9b3f8e58138ad79",
+      "@id": "_:N101bcf49e3264334b3ee61b6966601d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -116,7 +116,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nb03dc220fad04a99954d7c9b25f43411",
+      "@id": "_:N4f8f02d336114bffb0651c3da02bd6f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0858"
@@ -127,7 +127,7 @@
       "sc:name": "Sequence signature matches"
     },
     {
-      "@id": "_:N0fee38ed6fbd4c88a95aeffdee88f317",
+      "@id": "_:N2d2772687d0546a892cd83d490f4b100",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

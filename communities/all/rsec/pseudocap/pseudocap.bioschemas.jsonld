@@ -36,26 +36,22 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkq869",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pseudocap",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N56c9e8b3cede4bcbbd92f0ab80a40ad8"
+          "@id": "_:Ne750fcc2163f42a6b1b093522ecf66fb"
         },
         {
-          "@id": "_:N148bf8c0a7e94d749454e6b71b423710"
+          "@id": "_:N9458e6c51aa646dda4680231f4f87e67"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1dd798b375c44189b1b0ec879f0b0527"
+          "@id": "_:N286bbff6619a4ec7a3ec793c2be580ca"
         },
         {
-          "@id": "_:Nd78d02bb331e4821a8baaff787b2f395"
+          "@id": "_:Neb95a5112f0a4292b283aa0953821fd5"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,7 +85,7 @@
       "sc:url": "http://www.pseudomonas.com/"
     },
     {
-      "@id": "_:N56c9e8b3cede4bcbbd92f0ab80a40ad8",
+      "@id": "_:Ne750fcc2163f42a6b1b093522ecf66fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2314"
@@ -97,7 +93,7 @@
       "sc:name": "GI number"
     },
     {
-      "@id": "_:N148bf8c0a7e94d749454e6b71b423710",
+      "@id": "_:N9458e6c51aa646dda4680231f4f87e67",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2744"
@@ -105,7 +101,7 @@
       "sc:name": "Locus ID (PseudoCAP)"
     },
     {
-      "@id": "_:N1dd798b375c44189b1b0ec879f0b0527",
+      "@id": "_:N286bbff6619a4ec7a3ec793c2be580ca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -116,7 +112,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Nd78d02bb331e4821a8baaff787b2f395",
+      "@id": "_:Neb95a5112f0a4292b283aa0953821fd5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -125,6 +121,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Gene report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkq869",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "http://orcid.org/0000-0001-6848-1638",

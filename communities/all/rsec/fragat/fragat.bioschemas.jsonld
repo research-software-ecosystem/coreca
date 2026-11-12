@@ -40,10 +40,6 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btab195",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/fragat",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -89,6 +85,10 @@
       ],
       "sc:name": "FraGAT",
       "sc:url": "https://github.com/ZiqiaoZhang/FraGAT"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btab195",
+      "@type": "sc:CreativeWork"
     }
   ]
 }
