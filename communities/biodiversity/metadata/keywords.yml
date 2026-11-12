@@ -1,7 +1,5 @@
 edam:
   topics:
-    - Metagenomics
-    - Metatranscriptomics
     - Metabarcoding
     - Biodiversity
     - Ecology
