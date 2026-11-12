@@ -181,7 +181,7 @@ jobs:
         with:
           merge-multiple: true
           name: filtered-curated-bioconda-recipes
-          path: communities/${{ matrix.community }}/bioconda/bioconda*
+          path: communities/${{ matrix.community }}/bioconda/
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
