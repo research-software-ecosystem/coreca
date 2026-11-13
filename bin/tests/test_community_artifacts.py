@@ -38,7 +38,11 @@ class TestCommunityArtifacts(unittest.TestCase):
 
     def test_download_selects_only_the_requested_community(self) -> None:
         artifacts = [
-            {"name": self._render(item["name"], community), "community": community}
+            {
+                "name": self._render(item["name"], community),
+                "community": community,
+                "directory": Path(self._render(item["path"], community)).parent,
+            }
             for item in self.uploads
             for community in COMMUNITIES
         ]
@@ -51,6 +55,7 @@ class TestCommunityArtifacts(unittest.TestCase):
                     self.assertEqual(matches[0]["community"], community)
                     destination = Path(self._render(download["path"], community))
                     self.assertEqual(destination.parts[:2], ("communities", community))
+                    self.assertEqual(matches[0]["directory"], destination)
 
 
 if __name__ == "__main__":
