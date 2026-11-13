@@ -94,6 +94,7 @@ class TestWorkflow(unittest.TestCase):
         self.assertEqual(self.workflow.keep, True)
         self.assertEqual(self.workflow.curation_date, "2023-12-01")
         self.assertEqual(self.workflow.filtered_on, "edam")
+        
     def test_init_from_lifewatch(self) -> None:
         """Test init_from_lifewatch method."""
         wf_dict = {
@@ -118,8 +119,7 @@ class TestWorkflow(unittest.TestCase):
         self.assertEqual(self.workflow.creators, ["Jane Doe"])
         self.assertEqual(self.workflow.tags, ["biotope", "iji"])
         self.assertEqual(self.workflow.license, "GPLv3")
-        self.assertEqual(self.workflow.create_time, "2019-07-04")
-        
+        self.assertEqual(self.workflow.create_time, "2019-07-04")  
     def test_init_from_search(self) -> None:
         """Test init_from_search method"""
         extracted_wf = {
