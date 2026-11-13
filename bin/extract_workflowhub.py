@@ -3,9 +3,11 @@
 #!/usr/bin/env python
 
 import argparse
+import logging
 import os
 import shutil
 import sys
+from pathlib import Path
 from typing import (
     Any,
     Dict,
@@ -14,6 +16,7 @@ from typing import (
 )
 
 import pandas as pd
+import utils
 from utils import (
     BASE_DIR,
     clone_rsec_data,
@@ -30,6 +33,8 @@ from utils import (
     tags_has_keyword,
     TEMP_CLONE_DIR,
 )
+
+logger = logging.getLogger(__name__)
 
 
 class Workflow:
@@ -298,6 +303,7 @@ class Workflows:
         Filter workflows by keywords
         """
         to_keep_wf = []
+        logging.info(f"Total workflows: {len(self.workflows)}")
         for w in self.workflows:
             if w.link in wf_status:
                 w.update_status(wf_status[w.link])
@@ -314,11 +320,13 @@ class Workflows:
             elif w.test_description(keywords):
                 to_keep_wf.append(w)
         self.workflows = to_keep_wf
+        logging.info(f"Filtered workflows: {len(self.workflows)}")
 
     def curate_workflows(self, wf_status: Dict) -> None:
         """
         Curate workflows based on community feedback
         """
+        logging.info(f"Filtered workflows: {len(self.workflows)}")
         curated_wfs = []
         for w in self.workflows:
             if w.link in wf_status:
@@ -326,6 +334,7 @@ class Workflows:
             if w.keep:
                 curated_wfs.append(w)
         self.workflows = curated_wfs
+        logging.info(f"Curated workflows: {len(self.workflows)}")
 
     def export_workflows_to_tsv(self, output_fp: str, to_keep_columns: Optional[List[str]] = None) -> None:
         """
@@ -374,7 +383,9 @@ class Workflows:
         if to_keep_columns is not None:
             df = df[to_keep_columns]
 
-        df.to_csv(output_fp, sep="\t", index=False)
+        output_path = Path(output_fp)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        df.to_csv(output_path, sep="\t", index=False)
 
     def extract_tools(self, output_tools: str) -> None:
         """
@@ -400,6 +411,14 @@ class Workflows:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extract Workflows from WorkflowHub")
     subparser = parser.add_subparsers(dest="command")
+    parser.add_argument(
+        "-v",
+        "--verbose",
+        type=int,
+        default=3,
+        choices=[0, 1, 2, 3, 4],
+        help="Verbosity level (0=CRITICAL, 1=ERROR, 2=WARN, 3=INFO, 4=DEBUG)",
+    )
 
     # Extract Workflows
     extract = subparser.add_parser("extract", help="Extract all workflows")
@@ -487,6 +506,7 @@ if __name__ == "__main__":
     extractools.add_argument("--tools", "-t", required=True, help="Filepath to a JSON file to save tools")
 
     args = parser.parse_args()
+    utils.setup_logger(args.verbose)
 
     # Clone workflows JSON from RSEc
     if args.command == "extract":

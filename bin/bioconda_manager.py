@@ -164,7 +164,7 @@ class BiocondaRecipes:
         curated_recipes = {}
         for name, recipe in self.recipes.items():
             if name in status:
-                recipe.update_status(status[name])
+                recipe.update_status(status[name].get("To keep", False))
             if recipe.get_status():
                 curated_recipes[name] = recipe
         self.recipes = curated_recipes
@@ -193,7 +193,9 @@ class BiocondaRecipes:
         if to_keep_columns is not None:
             df = df.reindex(columns=to_keep_columns)
 
-        df.to_csv(output_file, sep="\t")
+        output_path = Path(output_file)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        df.to_csv(output_path, sep="\t")
         logging.info(f"Recipes written as TSV to: {output_file}")
 
 

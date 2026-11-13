@@ -306,7 +306,11 @@ class TestBiocondaRecipes(unittest.TestCase):
         for name, meta in self.sample_conda.items():
             recipes.recipes[name].load(meta)
 
-        status = {"pkg1": {"keep": True}, "pkg3": {"keep": True}}
+        status = {
+            "pkg1": {"To keep": True},
+            "pkg2": {"To keep": False},
+            "pkg3": {"To keep": True},
+        }
 
         recipes.curate(status)
 

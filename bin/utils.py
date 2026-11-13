@@ -61,7 +61,9 @@ def export_to_json(data: List[Dict], output_fp: str) -> None:
     """
     Export to a JSON file
     """
-    with Path(output_fp).open("w") as f:
+    output_path = Path(output_fp)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with output_path.open("w") as f:
         json.dump(data, f, indent=4, sort_keys=True, default=str)
 
 
