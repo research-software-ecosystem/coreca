@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/unite_rdna",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na82dd687642b414590273f0e70bf964f"
+        "@id": "_:N66c2402a48aa42c3a1f4e9af578ca93d"
       },
       "bsc:output": [
         {
-          "@id": "_:N32601da968b24e959fbd1a5f82393140"
+          "@id": "_:Nb4ce2f03309443b89e72fa10772a3535"
         },
         {
-          "@id": "_:N9b7a3171a81146449179d15447b31102"
+          "@id": "_:N0d832308b3bf4ee79fbb67f97e0fae5f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -97,7 +97,7 @@
       "sc:url": "http://unite.ut.ee/"
     },
     {
-      "@id": "_:Na82dd687642b414590273f0e70bf964f",
+      "@id": "_:N66c2402a48aa42c3a1f4e9af578ca93d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2390"
@@ -105,7 +105,7 @@
       "sc:name": "UNITE accession"
     },
     {
-      "@id": "_:N32601da968b24e959fbd1a5f82393140",
+      "@id": "_:Nb4ce2f03309443b89e72fa10772a3535",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -116,7 +116,7 @@
       "sc:name": "Sequence report"
     },
     {
-      "@id": "_:N9b7a3171a81146449179d15447b31102",
+      "@id": "_:N0d832308b3bf4ee79fbb67f97e0fae5f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"

@@ -46,10 +46,10 @@
         "@id": "https://orcid.org/0000-0002-1561-078X"
       },
       "bsc:input": {
-        "@id": "_:N91e160c6ffaf4c59bd5c2c4f542429bc"
+        "@id": "_:N1232dd0a348b4dbcab1a659a9fe3ccf5"
       },
       "bsc:output": {
-        "@id": "_:N414822b4ad024f4fa6d118c8666475f0"
+        "@id": "_:Nd60b3da52749427a88ca3312519f3528"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -99,7 +99,7 @@
       "sc:url": "https://glittr.org"
     },
     {
-      "@id": "_:N91e160c6ffaf4c59bd5c2c4f542429bc",
+      "@id": "_:N1232dd0a348b4dbcab1a659a9fe3ccf5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3669"
@@ -107,7 +107,7 @@
       "sc:name": "Training material"
     },
     {
-      "@id": "_:N414822b4ad024f4fa6d118c8666475f0",
+      "@id": "_:Nd60b3da52749427a88ca3312519f3528",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3669"

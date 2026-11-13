@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/pro.4524",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/lambdapp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N236a4b26e27e49b88e8c0a2bbba293d5"
+          "@id": "_:Na84b099364a4420f8102ade2fc14e0d9"
         },
         {
-          "@id": "_:N1d99ee447b9d42eba1ee5ab4909dc3d4"
+          "@id": "_:N2c0f4b1ca0f54410a5c14c1bca64073c"
         },
         {
-          "@id": "_:Nd9e0a5720c014ed5b34d7e3f05f63bda"
+          "@id": "_:N589c515d755040aca1483a5784334781"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -101,7 +105,7 @@
       "sc:url": "http://embed.predictprotein.org"
     },
     {
-      "@id": "_:N236a4b26e27e49b88e8c0a2bbba293d5",
+      "@id": "_:Na84b099364a4420f8102ade2fc14e0d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
@@ -109,7 +113,7 @@
       "sc:name": "UniProt ID"
     },
     {
-      "@id": "_:N1d99ee447b9d42eba1ee5ab4909dc3d4",
+      "@id": "_:N2c0f4b1ca0f54410a5c14c1bca64073c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -117,7 +121,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:Nd9e0a5720c014ed5b34d7e3f05f63bda",
+      "@id": "_:N589c515d755040aca1483a5784334781",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -126,10 +130,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1002/pro.4524",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

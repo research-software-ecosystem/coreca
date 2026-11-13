@@ -36,22 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1471-2105-12-70",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/compomics-utilities",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Martens Lennart",
       "bsc:input": {
-        "@id": "_:N7c8584ad7f46457e9466fded46d4c6b5"
+        "@id": "_:N69927929e8274ee081ea2cf1d8db5e48"
       },
       "bsc:output": [
         {
-          "@id": "_:N4aa1bfe44cd44d708f2bd7669a268b28"
+          "@id": "_:N6e8410ea27284ab3be40038be1830afc"
         },
         {
-          "@id": "_:N0be50581ab63451983476f5084648485"
+          "@id": "_:N3a23c38bf53d481591ccf701b5704969"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,7 +85,7 @@
       "sc:url": "http://compomics.github.io/projects/compomics-utilities.html"
     },
     {
-      "@id": "_:N7c8584ad7f46457e9466fded46d4c6b5",
+      "@id": "_:N69927929e8274ee081ea2cf1d8db5e48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -97,7 +93,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N4aa1bfe44cd44d708f2bd7669a268b28",
+      "@id": "_:N6e8410ea27284ab3be40038be1830afc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -105,12 +101,16 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N0be50581ab63451983476f5084648485",
+      "@id": "_:N3a23c38bf53d481591ccf701b5704969",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
       },
       "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-12-70",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

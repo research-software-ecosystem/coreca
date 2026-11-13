@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "http://orcid.org/0000-0003-0657-5166",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkq1104",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/phosphoelm",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,24 +51,24 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N69ac173377d64c408a7fed7340fb66a2"
+          "@id": "_:Nd3ed3b0212dc49c880b7bedece341220"
         },
         {
-          "@id": "_:Nbe126721671340b7872be7bde2b477c2"
+          "@id": "_:N9037353ba4ca4f4e80704cb740ac2704"
         },
         {
-          "@id": "_:Nd4e1216338c648348e50418851a7cc85"
+          "@id": "_:N87dbad19c78c41b69f2fd811948b482a"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ncead3afd553747c7b23437717439bf0c"
+          "@id": "_:Nbbf751d29a154e86b63d7899a3b6f714"
         },
         {
-          "@id": "_:N3e3760169c1e41538c3d3d1c943c4bec"
+          "@id": "_:N4dafe505aef94a38bf3e1a088ad2d8b0"
         },
         {
-          "@id": "_:N9def086d89724da8aee7f31069b6503b"
+          "@id": "_:N6b3a67eb1ce5437986d49963839fe149"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -91,7 +99,7 @@
       "sc:url": "http://phospho.elm.eu.org/"
     },
     {
-      "@id": "_:N69ac173377d64c408a7fed7340fb66a2",
+      "@id": "_:Nd3ed3b0212dc49c880b7bedece341220",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2775"
@@ -99,7 +107,7 @@
       "sc:name": "Kinase name"
     },
     {
-      "@id": "_:Nbe126721671340b7872be7bde2b477c2",
+      "@id": "_:N9037353ba4ca4f4e80704cb740ac2704",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1009"
@@ -107,7 +115,7 @@
       "sc:name": "Protein name"
     },
     {
-      "@id": "_:Nd4e1216338c648348e50418851a7cc85",
+      "@id": "_:N87dbad19c78c41b69f2fd811948b482a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1096"
@@ -115,7 +123,7 @@
       "sc:name": "Sequence accession (protein)"
     },
     {
-      "@id": "_:Ncead3afd553747c7b23437717439bf0c",
+      "@id": "_:Nbbf751d29a154e86b63d7899a3b6f714",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2071"
@@ -126,7 +134,7 @@
       "sc:name": "Sequence motif (protein)"
     },
     {
-      "@id": "_:N3e3760169c1e41538c3d3d1c943c4bec",
+      "@id": "_:N4dafe505aef94a38bf3e1a088ad2d8b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2071"
@@ -137,7 +145,7 @@
       "sc:name": "Sequence motif (protein)"
     },
     {
-      "@id": "_:N9def086d89724da8aee7f31069b6503b",
+      "@id": "_:N6b3a67eb1ce5437986d49963839fe149",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2071"
@@ -146,14 +154,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Sequence motif (protein)"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkq1104",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "http://orcid.org/0000-0003-0657-5166",
-      "@type": "sc:Person"
     }
   ]
 }

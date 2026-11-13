@@ -36,14 +36,10 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/S12859-020-03915-6",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/gpar",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N6489871f6cf54732a8f29641e5cb9792"
+        "@id": "_:Nd0837053f41e4cf387f3f6b3d8e6aa51"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -90,12 +86,16 @@
       "sc:url": "http://gpar.idrug.net.cn/"
     },
     {
-      "@id": "_:N6489871f6cf54732a8f29641e5cb9792",
+      "@id": "_:Nd0837053f41e4cf387f3f6b3d8e6aa51",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
       },
       "sc:name": "Expression data"
+    },
+    {
+      "@id": "https://doi.org/10.1186/S12859-020-03915-6",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/SulfAtlas",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N151292fdc0b142a494aae829b52c854f"
+        "@id": "_:N6d6855b7212443c4b7f902baab8420d0"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -90,7 +90,7 @@
       "sc:url": "https://sulfatlas.sb-roscoff.fr/"
     },
     {
-      "@id": "_:N151292fdc0b142a494aae829b52c854f",
+      "@id": "_:N6d6855b7212443c4b7f902baab8420d0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

@@ -44,18 +44,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3ce9b61a2411488fa3587dc52cb2daef"
+          "@id": "_:Nf7d4ab06bdc946f7a532fa2250190eee"
         },
         {
-          "@id": "_:N9bbee143d66745b9a6b6cb15c79b4784"
+          "@id": "_:Nf4047619cb8a49f78568e3e6fed2e171"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3b9b13d7d0f945e58de41e9b799d482c"
+          "@id": "_:Nb513e84ce85145f2bfc9b3ffcd6a2453"
         },
         {
-          "@id": "_:N210aee308f52449cb4e5d433dfb24fc8"
+          "@id": "_:N8c3edc85b16840b8b8e3d4585f610d4a"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -102,7 +102,7 @@
       "sc:url": "https://github.com/dessimozlab/FastOMA"
     },
     {
-      "@id": "_:N3ce9b61a2411488fa3587dc52cb2daef",
+      "@id": "_:Nf7d4ab06bdc946f7a532fa2250190eee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -113,7 +113,7 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:N9bbee143d66745b9a6b6cb15c79b4784",
+      "@id": "_:Nf4047619cb8a49f78568e3e6fed2e171",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -124,7 +124,7 @@
       "sc:name": "Taxonomy"
     },
     {
-      "@id": "_:N3b9b13d7d0f945e58de41e9b799d482c",
+      "@id": "_:Nb513e84ce85145f2bfc9b3ffcd6a2453",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1245"
@@ -132,7 +132,7 @@
       "sc:name": "Sequence cluster (protein)"
     },
     {
-      "@id": "_:N210aee308f52449cb4e5d433dfb24fc8",
+      "@id": "_:N8c3edc85b16840b8b8e3d4585f610d4a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3148"

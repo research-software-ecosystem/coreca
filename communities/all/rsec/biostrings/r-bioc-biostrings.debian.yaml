@@ -16,8 +16,8 @@ registries:
 - entry: bioconductor-biostrings
   name: conda:bioconda
 popcon:
-- insts: 1226
+- insts: 1228
   nofiles: 2
-  olde: 952
-  recent: 129
-  vote: 143
+  olde: 964
+  recent: 121
+  vote: 141

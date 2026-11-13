@@ -36,22 +36,26 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/gigascience/giab049",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/pym2aia",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nbe57cfcc6db640a4916aca81dedc074b"
+          "@id": "_:N55c5d9465a3c48f987b6bf62269a5d01"
         },
         {
-          "@id": "_:Nac3a6c9307e74353b60ab490c812fdc6"
+          "@id": "_:N57f618cdcea24c1188ce2f7b044670c4"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N0c66e19dff6d414a8e8f0f359b56987e"
+          "@id": "_:Nc92a03a5293f4a97934943ad425677c8"
         },
         {
-          "@id": "_:Nd09f13ffdfab49aeb1eef56a026348ed"
+          "@id": "_:N4e93363551e045aca92e0cd19f83fca7"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -91,7 +95,7 @@
       "sc:url": "https://m2aia.de/pym2aia.html"
     },
     {
-      "@id": "_:Nbe57cfcc6db640a4916aca81dedc074b",
+      "@id": "_:N55c5d9465a3c48f987b6bf62269a5d01",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -102,7 +106,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nac3a6c9307e74353b60ab490c812fdc6",
+      "@id": "_:N57f618cdcea24c1188ce2f7b044670c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -113,7 +117,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N0c66e19dff6d414a8e8f0f359b56987e",
+      "@id": "_:Nc92a03a5293f4a97934943ad425677c8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -124,7 +128,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nd09f13ffdfab49aeb1eef56a026348ed",
+      "@id": "_:N4e93363551e045aca92e0cd19f83fca7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -133,10 +137,6 @@
         "@id": "edam:format_3682"
       },
       "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "https://doi.org/10.1093/gigascience/giab049",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

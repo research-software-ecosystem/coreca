@@ -129,7 +129,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 35,
+                            "cit_count": 38,
                             "citations": [
                                 {
                                     "count": 1,
@@ -177,6 +177,10 @@
                                 },
                                 {
                                     "count": 3,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 3,
                                     "year": 2004
                                 },
                                 {
@@ -208,7 +212,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 127,
+                            "cit_count": 130,
                             "citations": [
                                 {
                                     "count": 1,
@@ -311,24 +315,24 @@
                                     "year": 2013
                                 },
                                 {
-                                    "count": 5,
-                                    "year": 2020
+                                    "count": 6,
+                                    "year": 2009
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2009
+                                    "year": 2020
                                 },
                                 {
                                     "count": 7,
                                     "year": 1996
                                 },
                                 {
-                                    "count": 7,
-                                    "year": 2001
-                                },
-                                {
                                     "count": 8,
                                     "year": 2000
+                                },
+                                {
+                                    "count": 9,
+                                    "year": 2001
                                 },
                                 {
                                     "count": 9,
@@ -351,7 +355,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 555,
+                            "cit_count": 564,
                             "citations": [
                                 {
                                     "count": 1,
@@ -378,7 +382,7 @@
                                     "year": 2022
                                 },
                                 {
-                                    "count": 10,
+                                    "count": 12,
                                     "year": 2026
                                 },
                                 {
@@ -450,11 +454,11 @@
                                     "year": 2005
                                 },
                                 {
-                                    "count": 52,
+                                    "count": 56,
                                     "year": 2004
                                 },
                                 {
-                                    "count": 59,
+                                    "count": 62,
                                     "year": 2003
                                 }
                             ],

@@ -40,20 +40,16 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0001-5944-6179",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/glycombocli",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "https://orcid.org/0000-0001-5944-6179"
       },
       "bsc:input": {
-        "@id": "_:N8362532054214ef0b3f43d349f3a620e"
+        "@id": "_:Nc6508a944e9b42b99f94f517298d326f"
       },
       "bsc:output": {
-        "@id": "_:N744a7eba34994f11b4906a85caa4d31d"
+        "@id": "_:Nce32e4e42b8e48889432857319d4e4a2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -91,7 +87,7 @@
       "sc:url": "https://github.com/Protea-Glycosciences/GlyComboCLI"
     },
     {
-      "@id": "_:N8362532054214ef0b3f43d349f3a620e",
+      "@id": "_:Nc6508a944e9b42b99f94f517298d326f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -102,7 +98,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:N744a7eba34994f11b4906a85caa4d31d",
+      "@id": "_:Nce32e4e42b8e48889432857319d4e4a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2900"
@@ -111,6 +107,10 @@
         "@id": "edam:format_3752"
       },
       "sc:name": "Carbohydrate accession"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5944-6179",
+      "@type": "sc:Person"
     }
   ]
 }

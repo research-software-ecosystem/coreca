@@ -36,26 +36,22 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.3390/math10183376",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/dexma",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N5f2301233c154fe6b180fb6de9f6c272"
+          "@id": "_:N5656ac58c693488dafdd2f55206dbeea"
         },
         {
-          "@id": "_:N47ebb387803d4c58a486fc453badd61a"
+          "@id": "_:N1fd3a6be225e41589fde697e6f9f6bd9"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N87a65a01eb5941dca1f50c4bd12e4503"
+          "@id": "_:N3d0fe9df52924daeb0f4f8880fc57a5f"
         },
         {
-          "@id": "_:N9d315c7a10b14d20b352a984e9007d57"
+          "@id": "_:Nb34ed4f2b40e470596d7ce72013743fa"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -88,7 +84,7 @@
         }
       ],
       "sc:isAccessibleForFree": true,
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "DExMA",
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/DExMA"
@@ -97,7 +93,7 @@
       "sc:url": "https://bioconductor.org/packages/DExMA"
     },
     {
-      "@id": "_:N5f2301233c154fe6b180fb6de9f6c272",
+      "@id": "_:N5656ac58c693488dafdd2f55206dbeea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1147"
@@ -105,7 +101,7 @@
       "sc:name": "GEO accession number"
     },
     {
-      "@id": "_:N47ebb387803d4c58a486fc453badd61a",
+      "@id": "_:N1fd3a6be225e41589fde697e6f9f6bd9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -113,7 +109,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N87a65a01eb5941dca1f50c4bd12e4503",
+      "@id": "_:N3d0fe9df52924daeb0f4f8880fc57a5f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -121,12 +117,16 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N9d315c7a10b14d20b352a984e9007d57",
+      "@id": "_:Nb34ed4f2b40e470596d7ce72013743fa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
       },
       "sc:name": "Heat map"
+    },
+    {
+      "@id": "https://doi.org/10.3390/math10183376",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

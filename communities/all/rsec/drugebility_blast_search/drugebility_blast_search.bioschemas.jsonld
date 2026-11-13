@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkv1352",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/drugebility_blast_search",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Mark Davies",
       "bsc:input": {
-        "@id": "_:Na1a76f7906354d258d4def5f5bb5d948"
+        "@id": "_:N367b1395619245ce94d3dbb2652ec9fd"
       },
       "bsc:output": {
-        "@id": "_:Nfe9889ef5a7d49c9a440332f416337b4"
+        "@id": "_:Nfe5c1dfc7ad84250b5317d0fa83915a9"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -92,7 +96,7 @@
       "sc:url": "https://www.ebi.ac.uk/chembl/drugebility/blast"
     },
     {
-      "@id": "_:Na1a76f7906354d258d4def5f5bb5d948",
+      "@id": "_:N367b1395619245ce94d3dbb2652ec9fd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -103,16 +107,12 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nfe9889ef5a7d49c9a440332f416337b4",
+      "@id": "_:Nfe5c1dfc7ad84250b5317d0fa83915a9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1566"
       },
       "sc:name": "Protein-ligand interaction report"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkv1352",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

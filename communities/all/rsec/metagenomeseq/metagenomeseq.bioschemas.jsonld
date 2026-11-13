@@ -36,26 +36,22 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/099457",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/metagenomeseq",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N7463f0c88e114ca1b6febd1b75c1cb3b"
+          "@id": "_:N3a32d8475d074b43b297606ce2899ee0"
         },
         {
-          "@id": "_:Nea9fbe56b6d64e6f9dfcdc5df267532b"
+          "@id": "_:Ndda211b92ddd4da584dc09787ed82840"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N143a9c1411384239a9f1e0c5644dd913"
+          "@id": "_:N26d45806111d4792bf0bb3e8bdad0fd3"
         },
         {
-          "@id": "_:Nd30dc5605890464ab756be3685b980a9"
+          "@id": "_:N4344b78d8e804bf29044035440f1d466"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -102,7 +98,7 @@
       "sc:url": "https://bioconductor.org/packages/metagenomeSeq"
     },
     {
-      "@id": "_:N7463f0c88e114ca1b6febd1b75c1cb3b",
+      "@id": "_:N3a32d8475d074b43b297606ce2899ee0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -118,7 +114,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nea9fbe56b6d64e6f9dfcdc5df267532b",
+      "@id": "_:Ndda211b92ddd4da584dc09787ed82840",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -134,7 +130,7 @@
       "sc:name": "Taxonomy"
     },
     {
-      "@id": "_:N143a9c1411384239a9f1e0c5644dd913",
+      "@id": "_:N26d45806111d4792bf0bb3e8bdad0fd3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
@@ -150,7 +146,7 @@
       "sc:name": "P-value"
     },
     {
-      "@id": "_:Nd30dc5605890464ab756be3685b980a9",
+      "@id": "_:N4344b78d8e804bf29044035440f1d466",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -167,6 +163,10 @@
     },
     {
       "@id": "https://doi.org/10.1038/nmeth.2658",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1101/099457",
       "@type": "sc:CreativeWork"
     }
   ]

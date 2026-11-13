@@ -36,20 +36,24 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv373",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/rchemcpp",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0003-2861-5552"
       },
       "bsc:input": {
-        "@id": "_:N8d57a76c4fab4c0798dec521dfb670fd"
+        "@id": "_:N81c93fc11da347baad9f869baac469b1"
       },
       "bsc:output": [
         {
-          "@id": "_:N075c0527f8ee498cbc64be4b21ab1a0c"
+          "@id": "_:N6791f9e6848545d297dd9b193885f4ed"
         },
         {
-          "@id": "_:N84eef258d43d4acaa2885213056b3819"
+          "@id": "_:N84e235d3ef2149c49c144ed35008ddd8"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,7 +93,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/Rchemcpp.html"
     },
     {
-      "@id": "_:N8d57a76c4fab4c0798dec521dfb670fd",
+      "@id": "_:N81c93fc11da347baad9f869baac469b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -100,7 +104,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N075c0527f8ee498cbc64be4b21ab1a0c",
+      "@id": "_:N6791f9e6848545d297dd9b193885f4ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -111,7 +115,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N84eef258d43d4acaa2885213056b3819",
+      "@id": "_:N84e235d3ef2149c49c144ed35008ddd8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -124,10 +128,6 @@
     {
       "@id": "http://orcid.org/0000-0003-2861-5552",
       "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btv373",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

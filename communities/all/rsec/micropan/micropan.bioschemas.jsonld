@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/micropan",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N51a06158569c48acb6348e223b6d5dcd"
+        "@id": "_:Nbea5c116c4a84db9964e471a9685b76e"
       },
       "bsc:output": {
-        "@id": "_:Nbd57a4db270246f68e19b16546a85c53"
+        "@id": "_:N17c5a9963d8a40e49fbb1f5a3ef1049f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -100,7 +100,7 @@
       "sc:url": "https://cran.r-project.org/web/packages/micropan/index.html"
     },
     {
-      "@id": "_:N51a06158569c48acb6348e223b6d5dcd",
+      "@id": "_:Nbea5c116c4a84db9964e471a9685b76e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3497"
@@ -111,7 +111,7 @@
       "sc:name": "DNA sequence (raw)"
     },
     {
-      "@id": "_:Nbd57a4db270246f68e19b16546a85c53",
+      "@id": "_:N17c5a9963d8a40e49fbb1f5a3ef1049f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"

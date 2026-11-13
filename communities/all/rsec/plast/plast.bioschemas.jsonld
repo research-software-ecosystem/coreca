@@ -36,19 +36,23 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1471-2105-10-329",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/plast",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Dominique Lavenier",
       "bsc:input": [
         {
-          "@id": "_:Nb365b2b72f4c4dd38c6aaea8c05ebdab"
+          "@id": "_:N8506b59f3a7b49e7955f9dd78f81af41"
         },
         {
-          "@id": "_:Nd8b524d36d564a78bc0c8346cd691ce3"
+          "@id": "_:Ned56d53001da4d149cc821a6b97fd60b"
         }
       ],
       "bsc:output": {
-        "@id": "_:N6ed310480649407882863747ac5b99c2"
+        "@id": "_:N0b5f560bfa154d6389ac3eb01b71609c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -82,7 +86,7 @@
       "sc:url": "http://www.irisa.fr/symbiose/projects/plast/"
     },
     {
-      "@id": "_:Nb365b2b72f4c4dd38c6aaea8c05ebdab",
+      "@id": "_:N8506b59f3a7b49e7955f9dd78f81af41",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -93,7 +97,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nd8b524d36d564a78bc0c8346cd691ce3",
+      "@id": "_:Ned56d53001da4d149cc821a6b97fd60b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -104,7 +108,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N6ed310480649407882863747ac5b99c2",
+      "@id": "_:N0b5f560bfa154d6389ac3eb01b71609c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -113,10 +117,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1471-2105-10-329",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

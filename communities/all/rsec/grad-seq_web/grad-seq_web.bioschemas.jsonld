@@ -44,13 +44,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne040048bf0834f9ebe1c4fb66f7246bd"
+          "@id": "_:Nf5edacf4cd5048b28b43e4136fdd2c89"
         },
         {
-          "@id": "_:N3f9f2e535fee4c98ac0762c4940346da"
+          "@id": "_:N66ab5a2eed3e4e2e8542a603a9410e71"
         },
         {
-          "@id": "_:N118ee3ea309246679318d11bcb101fe1"
+          "@id": "_:Nb7014f09bd9d4c9d9ffae88f07b83d6f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -98,7 +98,7 @@
       "sc:url": "https://resources.helmholtz-hiri.de/gradseqef/"
     },
     {
-      "@id": "_:Ne040048bf0834f9ebe1c4fb66f7246bd",
+      "@id": "_:Nf5edacf4cd5048b28b43e4136fdd2c89",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1176"
@@ -106,7 +106,7 @@
       "sc:name": "GO concept ID"
     },
     {
-      "@id": "_:N3f9f2e535fee4c98ac0762c4940346da",
+      "@id": "_:N66ab5a2eed3e4e2e8542a603a9410e71",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -114,7 +114,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:N118ee3ea309246679318d11bcb101fe1",
+      "@id": "_:Nb7014f09bd9d4c9d9ffae88f07b83d6f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"

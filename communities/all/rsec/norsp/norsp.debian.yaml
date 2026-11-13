@@ -15,7 +15,7 @@ registries:
 - entry: norsp
   name: bio.tools
 popcon:
-- insts: 118
-  olde: 91
-  recent: 23
-  vote: 4
+- insts: 125
+  olde: 94
+  recent: 25
+  vote: 6

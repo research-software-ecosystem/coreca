@@ -40,10 +40,6 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://doi.org/10.12688/F1000RESEARCH.4431.2",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/reactomefiviz",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -88,6 +84,10 @@
       },
       "sc:softwareVersion": "7.1.0",
       "sc:url": "http://wiki.reactome.org/index.php/Reactome_FI_Cytoscape_Plugin"
+    },
+    {
+      "@id": "https://doi.org/10.12688/F1000RESEARCH.4431.2",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

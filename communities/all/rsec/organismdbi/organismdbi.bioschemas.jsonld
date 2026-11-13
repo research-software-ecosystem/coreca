@@ -44,20 +44,20 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ncf34031e73574da8b3a89b132d3ee057"
+          "@id": "_:Nd6ca8e84ba4f49f2b96afe0223af447b"
         },
         {
-          "@id": "_:N593133de47554005b322d370081d78a2"
+          "@id": "_:N1dcd5ed635b844d89ccaa9cecdd82024"
         },
         {
-          "@id": "_:N07a11505855d40b383a04ed64da3e0b0"
+          "@id": "_:Nfbb2d2485fa24253a6b9901d113e2d2e"
         },
         {
-          "@id": "_:N71538f8b1cd84b49829407d1019c1651"
+          "@id": "_:Na2fcdc473b1b4be29df6921d86ba8eb1"
         }
       ],
       "bsc:output": {
-        "@id": "_:N9990c07296e04179966c0bf6d378a049"
+        "@id": "_:N1d675b22ae854390989361cab9f737bb"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -110,7 +110,7 @@
       "sc:url": "https://bioconductor.org/packages/OrganismDbi"
     },
     {
-      "@id": "_:Ncf34031e73574da8b3a89b132d3ee057",
+      "@id": "_:Nd6ca8e84ba4f49f2b96afe0223af447b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1056"
@@ -126,7 +126,7 @@
       "sc:name": "Database name"
     },
     {
-      "@id": "_:N593133de47554005b322d370081d78a2",
+      "@id": "_:N1dcd5ed635b844d89ccaa9cecdd82024",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -142,7 +142,7 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "_:N07a11505855d40b383a04ed64da3e0b0",
+      "@id": "_:Nfbb2d2485fa24253a6b9901d113e2d2e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2909"
@@ -158,7 +158,7 @@
       "sc:name": "Organism name"
     },
     {
-      "@id": "_:N71538f8b1cd84b49829407d1019c1651",
+      "@id": "_:Na2fcdc473b1b4be29df6921d86ba8eb1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0989"
@@ -174,7 +174,7 @@
       "sc:name": "Protein identifier"
     },
     {
-      "@id": "_:N9990c07296e04179966c0bf6d378a049",
+      "@id": "_:N1d675b22ae854390989361cab9f737bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/safe",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N331dbb7f5d204e84b9179c122a88f4cb"
+        "@id": "_:Ndf63de64e6f64bf58414c1adc4731931"
       },
       "bsc:output": {
-        "@id": "_:N93897bb362534a71863350f1d0f7801d"
+        "@id": "_:N4554043df24b4252a6db0ba6bb2f9cda"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -73,7 +73,7 @@
       "sc:url": "https://bioconductor.org/packages/safe"
     },
     {
-      "@id": "_:N331dbb7f5d204e84b9179c122a88f4cb",
+      "@id": "_:Ndf63de64e6f64bf58414c1adc4731931",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2872"
@@ -84,7 +84,7 @@
       "sc:name": "ID list"
     },
     {
-      "@id": "_:N93897bb362534a71863350f1d0f7801d",
+      "@id": "_:N4554043df24b4252a6db0ba6bb2f9cda",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"

@@ -40,26 +40,30 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1186/s13059-018-1491-4",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/Plant_DataDiscovery",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Support service",
       "bsc:input": [
         {
-          "@id": "_:N6aa75667a70a4e5fa8697e028443627d"
+          "@id": "_:N5c1dc612f1a345e2be62349a2d763509"
         },
         {
-          "@id": "_:Na05b91e9c5284864ae51ba774dedb159"
+          "@id": "_:Ncfa3237300c64f2a8ad7fdeb9030c077"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N95562922cbd946228877eb1b8e963b6e"
+          "@id": "_:N7266938565934f56bc541092e8bffcff"
         },
         {
-          "@id": "_:Nf42a29b801974558ae0efc29336c4c1c"
+          "@id": "_:Nf50a9d48e9bd4854886d186f65ae3b39"
         },
         {
-          "@id": "_:N47945e0475974f64a12b8c740f90d304"
+          "@id": "_:N8fb66d19a6044097bb71f5457f4557c3"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -129,7 +133,7 @@
       "sc:url": "https://urgi.versailles.inrae.fr/data-discovery/"
     },
     {
-      "@id": "_:N6aa75667a70a4e5fa8697e028443627d",
+      "@id": "_:N5c1dc612f1a345e2be62349a2d763509",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -137,7 +141,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:Na05b91e9c5284864ae51ba774dedb159",
+      "@id": "_:Ncfa3237300c64f2a8ad7fdeb9030c077",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -145,7 +149,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N95562922cbd946228877eb1b8e963b6e",
+      "@id": "_:N7266938565934f56bc541092e8bffcff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -153,7 +157,7 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:Nf42a29b801974558ae0efc29336c4c1c",
+      "@id": "_:Nf50a9d48e9bd4854886d186f65ae3b39",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -161,16 +165,12 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N47945e0475974f64a12b8c740f90d304",
+      "@id": "_:N8fb66d19a6044097bb71f5457f4557c3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
       },
       "sc:name": "Identifier"
-    },
-    {
-      "@id": "https://doi.org/10.1186/s13059-018-1491-4",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

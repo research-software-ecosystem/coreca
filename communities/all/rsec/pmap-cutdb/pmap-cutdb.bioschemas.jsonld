@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/pmap-cutdb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na00600a7e68d4224b56e2206613ef230"
+        "@id": "_:N43e05b114bbf4bfaaa36305762714ed4"
       },
       "bsc:output": {
-        "@id": "_:N22017adaaec14982843862f293ddd384"
+        "@id": "_:Nc7ee513f07c14a65bd0cf65bb5ebb8ea"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -71,7 +71,7 @@
       "sc:url": "http://www.proteolysis.org"
     },
     {
-      "@id": "_:Na00600a7e68d4224b56e2206613ef230",
+      "@id": "_:N43e05b114bbf4bfaaa36305762714ed4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -79,7 +79,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N22017adaaec14982843862f293ddd384",
+      "@id": "_:Nc7ee513f07c14a65bd0cf65bb5ebb8ea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"

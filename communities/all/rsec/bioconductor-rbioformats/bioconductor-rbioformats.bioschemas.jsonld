@@ -53,7 +53,7 @@
       },
       "sc:contributor": "John Lee",
       "sc:description": "An R package which interfaces the OME Bio-Formats Java library to allow reading of proprietary microscopy image data and metadata.",
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "RBioFormats",
       "sc:operatingSystem": [
         "Linux",

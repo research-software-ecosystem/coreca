@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-6166-8640",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://doi.org/10.1038/s41559-022-01939-0",
       "@type": "sc:CreativeWork"
     },
@@ -48,7 +52,7 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0000-0002-6166-8640",
+      "@id": "https://orcid.org/0000-0002-7875-0261",
       "@type": "sc:Person"
     },
     {
@@ -59,42 +63,42 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N29d44ac9bda94875af61f01df546305b"
+          "@id": "_:N787f8b8b7b7047f88aa51749e3f8aa5a"
         },
         {
-          "@id": "_:N6a392a08501e4fad925c829c2dc5ee02"
+          "@id": "_:N3e64f75dffbd4876acb17d74711e9bc0"
         },
         {
-          "@id": "_:N5fc6521a8f8f4907b1e72f890b708679"
+          "@id": "_:Nf8b0a0f2748249fe956e0e4aa33e8c79"
         },
         {
-          "@id": "_:N9b41512442e24d1aa276e4c54562eed8"
+          "@id": "_:N3d6fec37c8ff41f19696d7b1ffa0ac94"
         },
         {
-          "@id": "_:N773e0ff21173491cb4b8ffec4e0296f0"
+          "@id": "_:N27148e37c5f94364a872908b93accb79"
         },
         {
-          "@id": "_:N9e26aef75a0549e19f651aaf219c2d32"
+          "@id": "_:N74d761dfc47248d48131f28120b3cd6f"
         },
         {
-          "@id": "_:N12ec053957ab44f589c6641f96187cd0"
+          "@id": "_:N1b9b59c8de434f0589ebb331c67fd095"
         },
         {
-          "@id": "_:N771011a3951d4820924e67d078fd9086"
+          "@id": "_:N1f990585946f49559e9e9782a4ffe499"
         },
         {
-          "@id": "_:N33a4ef972a1142dcad248886f42d609b"
+          "@id": "_:Nfef40db5ae044ad291150506c0d86c2e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3626e6814fd540678c59fa11ff065d35"
+          "@id": "_:N128d44bca20443fe92e6d4f217186a5d"
         },
         {
-          "@id": "_:Nab8e36f218964cdcb05a998b2b50e974"
+          "@id": "_:Nd38a5c7ffd0f4ffea144cfcbc0630446"
         },
         {
-          "@id": "_:N76b4a696bdc14d7fb1facdf86a474134"
+          "@id": "_:Nf36b090d4dbd4179929c7bb65745187c"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -188,7 +192,7 @@
       "sc:url": "https://github.com/cdanielmachado/carveme"
     },
     {
-      "@id": "_:N29d44ac9bda94875af61f01df546305b",
+      "@id": "_:N787f8b8b7b7047f88aa51749e3f8aa5a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2787"
@@ -196,7 +200,7 @@
       "sc:name": "NCBI genome accession"
     },
     {
-      "@id": "_:N6a392a08501e4fad925c829c2dc5ee02",
+      "@id": "_:N3e64f75dffbd4876acb17d74711e9bc0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -207,7 +211,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N5fc6521a8f8f4907b1e72f890b708679",
+      "@id": "_:Nf8b0a0f2748249fe956e0e4aa33e8c79",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -218,7 +222,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N9b41512442e24d1aa276e4c54562eed8",
+      "@id": "_:N3d6fec37c8ff41f19696d7b1ffa0ac94",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2787"
@@ -226,7 +230,7 @@
       "sc:name": "NCBI genome accession"
     },
     {
-      "@id": "_:N773e0ff21173491cb4b8ffec4e0296f0",
+      "@id": "_:N27148e37c5f94364a872908b93accb79",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3724"
@@ -242,7 +246,7 @@
       "sc:name": "Cultivation parameter"
     },
     {
-      "@id": "_:N9e26aef75a0549e19f651aaf219c2d32",
+      "@id": "_:N74d761dfc47248d48131f28120b3cd6f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -253,7 +257,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N12ec053957ab44f589c6641f96187cd0",
+      "@id": "_:N1b9b59c8de434f0589ebb331c67fd095",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2984"
@@ -264,7 +268,7 @@
       "sc:name": "Pathway or network report"
     },
     {
-      "@id": "_:N771011a3951d4820924e67d078fd9086",
+      "@id": "_:N1f990585946f49559e9e9782a4ffe499",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -275,7 +279,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N33a4ef972a1142dcad248886f42d609b",
+      "@id": "_:Nfef40db5ae044ad291150506c0d86c2e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2984"
@@ -286,7 +290,7 @@
       "sc:name": "Pathway or network report"
     },
     {
-      "@id": "_:N3626e6814fd540678c59fa11ff065d35",
+      "@id": "_:N128d44bca20443fe92e6d4f217186a5d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2984"
@@ -302,7 +306,7 @@
       "sc:name": "Pathway or network report"
     },
     {
-      "@id": "_:Nab8e36f218964cdcb05a998b2b50e974",
+      "@id": "_:Nd38a5c7ffd0f4ffea144cfcbc0630446",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2984"
@@ -318,7 +322,7 @@
       "sc:name": "Pathway or network report"
     },
     {
-      "@id": "_:N76b4a696bdc14d7fb1facdf86a474134",
+      "@id": "_:Nf36b090d4dbd4179929c7bb65745187c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2984"
@@ -330,10 +334,6 @@
     },
     {
       "@id": "https://orcid.org/0000-0002-2063-5383",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-7875-0261",
       "@type": "sc:Person"
     }
   ]

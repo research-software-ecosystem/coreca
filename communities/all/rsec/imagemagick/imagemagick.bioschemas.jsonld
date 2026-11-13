@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/imagemagick",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N6aac33c180ca42ae93982f8e5e870c61"
+        "@id": "_:Na5fa1103ea3e4328989501384a7d1539"
       },
       "bsc:output": {
-        "@id": "_:Ncdb16a4d2ab6408399ec7b62a0662278"
+        "@id": "_:N4655e44791bb452b8e7cc4f2a2edc471"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -61,7 +61,7 @@
       "sc:url": "https://imagemagick.org/"
     },
     {
-      "@id": "_:N6aac33c180ca42ae93982f8e5e870c61",
+      "@id": "_:Na5fa1103ea3e4328989501384a7d1539",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -89,7 +89,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Ncdb16a4d2ab6408399ec7b62a0662278",
+      "@id": "_:N4655e44791bb452b8e7cc4f2a2edc471",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

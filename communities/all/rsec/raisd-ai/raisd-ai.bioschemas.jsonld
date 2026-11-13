@@ -36,17 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.32942/x2gw9b",
+      "@id": "https://doi.org/10.1038/s42003-018-0085-8",
       "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/RAiSD-AI",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Naa5ded8fab7f44be813a7de4dcc7c3a7"
+        "@id": "_:Naac6d38704f44cb08b98e0bf839b03fb"
       },
       "bsc:output": {
-        "@id": "_:N5badd83dc71143f2a7a05eaf702f5958"
+        "@id": "_:Ne8cd15db93e345289d4ecb7a806270aa"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -87,7 +87,7 @@
       "sc:url": "https://github.com/alachins/RAiSD-AI"
     },
     {
-      "@id": "_:Naa5ded8fab7f44be813a7de4dcc7c3a7",
+      "@id": "_:Naac6d38704f44cb08b98e0bf839b03fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -103,7 +103,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N5badd83dc71143f2a7a05eaf702f5958",
+      "@id": "_:Ne8cd15db93e345289d4ecb7a806270aa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -111,7 +111,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "https://doi.org/10.1038/s42003-018-0085-8",
+      "@id": "https://doi.org/10.32942/x2gw9b",
       "@type": "sc:CreativeWork"
     }
   ]

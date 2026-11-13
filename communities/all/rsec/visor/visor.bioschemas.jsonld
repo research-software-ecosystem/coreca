@@ -36,25 +36,33 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-8735-8093",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ719",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/VISOR",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N182e476481294c25a370a1df3686b0ba"
+          "@id": "_:Na7bf4a1083744af8aa53e4688542da90"
         },
         {
-          "@id": "_:Nce3d85d125d84df1b89ac9c1c1d665a1"
+          "@id": "_:N9f8bd1afdcd544539cd34708db5d10f3"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ndc4f20f0074d461880ade35ca6ee5ab3"
+          "@id": "_:N3475fdbb264b4bd3a738041ac64a316a"
         },
         {
-          "@id": "_:N183021dc14f14a66a2472c3ca2ea90ee"
+          "@id": "_:N0b77b95b0bc5493e9c6acc78e42a2b4e"
         },
         {
-          "@id": "_:Nfeb0de7bf0274f768a68011f35a86332"
+          "@id": "_:Neabb57c01e9a477fb637aafdb6a5e93d"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -100,7 +108,7 @@
       "sc:url": "https://github.com/davidebolo1993/VISOR"
     },
     {
-      "@id": "_:N182e476481294c25a370a1df3686b0ba",
+      "@id": "_:Na7bf4a1083744af8aa53e4688542da90",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -111,7 +119,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:Nce3d85d125d84df1b89ac9c1c1d665a1",
+      "@id": "_:N9f8bd1afdcd544539cd34708db5d10f3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2914"
@@ -122,7 +130,7 @@
       "sc:name": "Sequence features metadata"
     },
     {
-      "@id": "_:Ndc4f20f0074d461880ade35ca6ee5ab3",
+      "@id": "_:N3475fdbb264b4bd3a738041ac64a316a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -133,7 +141,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N183021dc14f14a66a2472c3ca2ea90ee",
+      "@id": "_:N0b77b95b0bc5493e9c6acc78e42a2b4e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -144,7 +152,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Nfeb0de7bf0274f768a68011f35a86332",
+      "@id": "_:Neabb57c01e9a477fb637aafdb6a5e93d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -153,14 +161,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Sequence variations"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-8735-8093",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ719",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1101/2021.06.01.446512",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/viqor",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -44,21 +48,21 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Nb5c742c0a3324a118e019f5de5634ea2"
+          "@id": "_:Nbf299b2f40cd4e28b42b4ba19afa96be"
         },
         {
-          "@id": "_:N943c9062726940fe9a5aca520b3b90de"
+          "@id": "_:N0b9881098bc3474495b5e39f09953184"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3d1680110b2a4092858a1a2f787cccbf"
+          "@id": "_:N16a1f2aa350744af9f0e12a2a3ba1fd2"
         },
         {
-          "@id": "_:N440a3aaf97694fb589275d37a945e657"
+          "@id": "_:N5a29c8d10d964fc0ab6e3020ae242217"
         },
         {
-          "@id": "_:N68c0e0cde9634104a1d9acc82957336c"
+          "@id": "_:N3d80c9c83e5e4f389b52281d08fa5277"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -143,7 +147,7 @@
       "sc:url": "http://computproteomics.bmb.sdu.dk:443/app_direct/VIQoR/"
     },
     {
-      "@id": "_:Nb5c742c0a3324a118e019f5de5634ea2",
+      "@id": "_:Nbf299b2f40cd4e28b42b4ba19afa96be",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -159,7 +163,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N943c9062726940fe9a5aca520b3b90de",
+      "@id": "_:N0b9881098bc3474495b5e39f09953184",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -175,7 +179,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:N3d1680110b2a4092858a1a2f787cccbf",
+      "@id": "_:N16a1f2aa350744af9f0e12a2a3ba1fd2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -186,7 +190,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N440a3aaf97694fb589275d37a945e657",
+      "@id": "_:N5a29c8d10d964fc0ab6e3020ae242217",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -197,7 +201,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N68c0e0cde9634104a1d9acc82957336c",
+      "@id": "_:N3d80c9c83e5e4f389b52281d08fa5277",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -211,10 +215,6 @@
         }
       ],
       "sc:name": "Plot"
-    },
-    {
-      "@id": "https://doi.org/10.1101/2021.06.01.446512",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

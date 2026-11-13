@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/s41586-025-09721-5",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1101/2023.05.24.542179",
       "@type": "sc:CreativeWork"
     },
@@ -44,17 +48,13 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1038/s41586-025-09721-5",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/RFantibody",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ncc3173155dad494c99897e3569ae85a0"
+        "@id": "_:N3a7ab1dd7bf74f4bb1f72d73f44d3ce2"
       },
       "bsc:output": {
-        "@id": "_:Naa375b8da23d4b9b85534fbebac421ca"
+        "@id": "_:N5562ce500168458d905b474814183b5b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
@@ -104,7 +104,7 @@
       "sc:url": "https://github.com/RosettaCommons/RFantibody"
     },
     {
-      "@id": "_:Ncc3173155dad494c99897e3569ae85a0",
+      "@id": "_:N3a7ab1dd7bf74f4bb1f72d73f44d3ce2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1468"
@@ -115,7 +115,7 @@
       "sc:name": "Protein domain"
     },
     {
-      "@id": "_:Naa375b8da23d4b9b85534fbebac421ca",
+      "@id": "_:N5562ce500168458d905b474814183b5b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1468"

@@ -36,21 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1128/msystems.00432-22",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/magneto",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc2f29b23486c47b0875e0d9e6262e731"
+        "@id": "_:Na8b90b059d6f49f6b961e82759bc55c6"
       },
       "bsc:output": [
         {
-          "@id": "_:N895a4015df0c45b1a606ca98ed9977a3"
+          "@id": "_:N3e143ef842964d8181fb03421e16cb04"
         },
         {
-          "@id": "_:N5e11250ec7ea476bb9f23d3b66c2f3f8"
+          "@id": "_:Nfac6c41512e648bc8f81683dae7a73c6"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -112,7 +108,7 @@
       "sc:url": "https://gitlab.univ-nantes.fr/bird_pipeline_registry/magneto"
     },
     {
-      "@id": "_:Nc2f29b23486c47b0875e0d9e6262e731",
+      "@id": "_:Na8b90b059d6f49f6b961e82759bc55c6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -128,7 +124,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N895a4015df0c45b1a606ca98ed9977a3",
+      "@id": "_:N3e143ef842964d8181fb03421e16cb04",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -139,7 +135,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N5e11250ec7ea476bb9f23d3b66c2f3f8",
+      "@id": "_:Nfac6c41512e648bc8f81683dae7a73c6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1872"
@@ -148,6 +144,10 @@
         "@id": "edam:format_3475"
       },
       "sc:name": "Taxonomic classification"
+    },
+    {
+      "@id": "https://doi.org/10.1128/msystems.00432-22",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

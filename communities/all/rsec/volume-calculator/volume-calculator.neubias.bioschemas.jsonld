@@ -45,10 +45,10 @@
       "@id": "http://edamontology.org/operation_Shape_features"
     },
     {
-      "@id": "http://edamontology.org/operation_3443"
+      "@id": "http://edamontology.org/operation_Feature_extraction"
     },
     {
-      "@id": "http://edamontology.org/operation_Feature_extraction"
+      "@id": "http://edamontology.org/operation_3443"
     }
   ],
   "http://schema.org/name": "Volume Calculator",

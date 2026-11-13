@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -45,26 +45,26 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Na5237da3efc44dc9962357b55644f6f9"
+          "@id": "_:N60caa8719c7e476aab295273c2923bb4"
         },
         {
-          "@id": "_:N27947a8c920c4fa7a45ced5f69e10da5"
+          "@id": "_:N2aa427e4539e41e8abc80913dac2388b"
         },
         {
-          "@id": "_:N66cc44cb0af44d53b9e2ab728fd949e1"
+          "@id": "_:N16d807a1734a42f59078b46c8636ab14"
         },
         {
-          "@id": "_:N92dcc1db7ce44dbda0e6745000921c49"
+          "@id": "_:Nb452a032f1cc4a6aa492de6e5ce6a3c2"
         },
         {
-          "@id": "_:N9ee6cdf1fdf74a9b8bf7797cffe48562"
+          "@id": "_:N74144a32d15b4e44885626ae197660d3"
         },
         {
-          "@id": "_:Nc155b84958ff42768ea6f0f28bc1ca37"
+          "@id": "_:N66cb220897cc4dada9c63b0bc100cd98"
         }
       ],
       "bsc:output": {
-        "@id": "_:N1deb65666943488da8f5d79669a077ad"
+        "@id": "_:N81cd1d62004d4a46bd185b06acd60ac2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -98,7 +98,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:Na5237da3efc44dc9962357b55644f6f9",
+      "@id": "_:N60caa8719c7e476aab295273c2923bb4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -109,7 +109,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N27947a8c920c4fa7a45ced5f69e10da5",
+      "@id": "_:N2aa427e4539e41e8abc80913dac2388b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -120,7 +120,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N66cc44cb0af44d53b9e2ab728fd949e1",
+      "@id": "_:N16d807a1734a42f59078b46c8636ab14",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -131,7 +131,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N92dcc1db7ce44dbda0e6745000921c49",
+      "@id": "_:Nb452a032f1cc4a6aa492de6e5ce6a3c2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -142,7 +142,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N9ee6cdf1fdf74a9b8bf7797cffe48562",
+      "@id": "_:N74144a32d15b4e44885626ae197660d3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -153,7 +153,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nc155b84958ff42768ea6f0f28bc1ca37",
+      "@id": "_:N66cb220897cc4dada9c63b0bc100cd98",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -164,7 +164,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N1deb65666943488da8f5d79669a077ad",
+      "@id": "_:N81cd1d62004d4a46bd185b06acd60ac2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -175,7 +175,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

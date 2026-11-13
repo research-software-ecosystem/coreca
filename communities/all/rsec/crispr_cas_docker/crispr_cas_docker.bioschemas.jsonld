@@ -36,26 +36,22 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s12859-023-05296-y",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/crispr_cas_docker",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N71c8fa283516487f8c76f9f2d619f954"
+          "@id": "_:N656aa768cae04e2e80848fbea2dc2a78"
         },
         {
-          "@id": "_:Ncebc12702eaa48b68403be6e0f13c453"
+          "@id": "_:N4a09e82166114d50aa33ed55ff85c455"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nccb65e75c221418e9fb9e2286c58fe80"
+          "@id": "_:Nf702130f59da46e585fd8a7696ff61d9"
         },
         {
-          "@id": "_:N6303f6b66aff4202b71c2d9c0876690e"
+          "@id": "_:N43a13974ff364171b55f531bb0d69074"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -110,7 +106,7 @@
       "sc:url": "http://www.crisprcasdocker.org"
     },
     {
-      "@id": "_:N71c8fa283516487f8c76f9f2d619f954",
+      "@id": "_:N656aa768cae04e2e80848fbea2dc2a78",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -126,7 +122,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Ncebc12702eaa48b68403be6e0f13c453",
+      "@id": "_:N4a09e82166114d50aa33ed55ff85c455",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -142,7 +138,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:Nccb65e75c221418e9fb9e2286c58fe80",
+      "@id": "_:Nf702130f59da46e585fd8a7696ff61d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -153,7 +149,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N6303f6b66aff4202b71c2d9c0876690e",
+      "@id": "_:N43a13974ff364171b55f531bb0d69074",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1465"
@@ -162,6 +158,10 @@
         "@id": "edam:format_1476"
       },
       "sc:name": "RNA structure"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-023-05296-y",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,26 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.3390/ijms20184648",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkv306",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/MTiOpenScreen",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne857c5c940ea4fd5802ee3c4a124cfd2"
+          "@id": "_:Ne04182be78b841ed8d67b74f20861dff"
         },
         {
-          "@id": "_:N60a5fe4608a44767ba77db4c0f466668"
+          "@id": "_:N6206b5c14ca7410c879f340cbf36f5ca"
         }
       ],
       "bsc:output": {
-        "@id": "_:N860c02106a8e485baafa2986b1b364f1"
+        "@id": "_:N27d214097e0547d0ad7a6d3c0a7d85fb"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -88,7 +80,7 @@
       "sc:url": "https://mobyle.rpbs.univ-paris-diderot.fr/cgi-bin/portal.py#forms::MTiOpenScreen"
     },
     {
-      "@id": "_:Ne857c5c940ea4fd5802ee3c4a124cfd2",
+      "@id": "_:Ne04182be78b841ed8d67b74f20861dff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -104,7 +96,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N60a5fe4608a44767ba77db4c0f466668",
+      "@id": "_:N6206b5c14ca7410c879f340cbf36f5ca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -120,7 +112,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N860c02106a8e485baafa2986b1b364f1",
+      "@id": "_:N27d214097e0547d0ad7a6d3c0a7d85fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1461"
@@ -129,6 +121,14 @@
         "@id": "edam:format_1476"
       },
       "sc:name": "Protein-ligand complex"
+    },
+    {
+      "@id": "https://doi.org/10.3390/ijms20184648",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv306",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

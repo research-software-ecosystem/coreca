@@ -44,17 +44,17 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Errol Strain",
       "bsc:input": {
-        "@id": "_:N2d6e1b3df08c423a8e676755c2ee1e25"
+        "@id": "_:N896a482b4b0648f4b38a71bb7d26c7dc"
       },
       "bsc:output": [
         {
-          "@id": "_:Nd46e1f8c3d9c4f1f81041d6b6c2fd70c"
+          "@id": "_:N620932a125814bb49602a0f637f10c8c"
         },
         {
-          "@id": "_:N2a37a018f552408bbea51f4f86c850ec"
+          "@id": "_:Nb79b4c87ebaf4d2c9bc375a9b0c31d8a"
         },
         {
-          "@id": "_:N5f65a5b516f944f8bdd07530bd2bb83c"
+          "@id": "_:N69d968a345d04d989e8a08927bf6e199"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -105,7 +105,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/plateCore.html"
     },
     {
-      "@id": "_:N2d6e1b3df08c423a8e676755c2ee1e25",
+      "@id": "_:N896a482b4b0648f4b38a71bb7d26c7dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -116,7 +116,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:Nd46e1f8c3d9c4f1f81041d6b6c2fd70c",
+      "@id": "_:N620932a125814bb49602a0f637f10c8c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -135,7 +135,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N2a37a018f552408bbea51f4f86c850ec",
+      "@id": "_:Nb79b4c87ebaf4d2c9bc375a9b0c31d8a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -154,7 +154,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N5f65a5b516f944f8bdd07530bd2bb83c",
+      "@id": "_:N69d968a345d04d989e8a08927bf6e199",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

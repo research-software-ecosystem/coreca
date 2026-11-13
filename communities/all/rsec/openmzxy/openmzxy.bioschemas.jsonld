@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/openmzxy",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8e5619ee411b41fcbb2ca9e13cce862c"
+        "@id": "_:Nfdbb343b9b25479cbe6dbc00ffac3550"
       },
       "bsc:output": {
-        "@id": "_:N5cba4e1903364d9a937e29923f75f6ca"
+        "@id": "_:Nfb5431a9b80d4849b3bfd0be028b8da8"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -81,7 +81,7 @@
       "sc:url": "http://lababi.bioprocess.org/index.php/lababi-software/79-openmzxy"
     },
     {
-      "@id": "_:N8e5619ee411b41fcbb2ca9e13cce862c",
+      "@id": "_:Nfdbb343b9b25479cbe6dbc00ffac3550",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -92,7 +92,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N5cba4e1903364d9a937e29923f75f6ca",
+      "@id": "_:Nfb5431a9b80d4849b3bfd0be028b8da8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"

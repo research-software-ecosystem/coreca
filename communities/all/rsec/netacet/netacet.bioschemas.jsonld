@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bti130",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/netacet",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Henrik Nielsen",
       "bsc:input": {
-        "@id": "_:N2a97f65172404c1dbf5ae27e3761a0d4"
+        "@id": "_:N4743a009d1c3465ca0fc5f6b5d456cf7"
       },
       "bsc:output": {
-        "@id": "_:N16cdd6e61dec47a79d064364826d48c1"
+        "@id": "_:N26a00c5e215c48cf87c141dec544a279"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -76,7 +72,7 @@
       "sc:url": "http://cbs.dtu.dk/services/NetAcet/"
     },
     {
-      "@id": "_:N2a97f65172404c1dbf5ae27e3761a0d4",
+      "@id": "_:N4743a009d1c3465ca0fc5f6b5d456cf7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -87,7 +83,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N16cdd6e61dec47a79d064364826d48c1",
+      "@id": "_:N26a00c5e215c48cf87c141dec544a279",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -96,6 +92,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Protein features"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bti130",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

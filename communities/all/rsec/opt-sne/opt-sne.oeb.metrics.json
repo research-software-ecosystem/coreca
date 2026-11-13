@@ -22,7 +22,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 219,
+                            "cit_count": 222,
                             "citations": [
                                 {
                                     "count": 1,
@@ -33,20 +33,20 @@
                                     "year": 2019
                                 },
                                 {
-                                    "count": 15,
+                                    "count": 16,
                                     "year": 2020
                                 },
                                 {
-                                    "count": 29,
+                                    "count": 30,
                                     "year": 2021
-                                },
-                                {
-                                    "count": 29,
-                                    "year": 2026
                                 },
                                 {
                                     "count": 30,
                                     "year": 2023
+                                },
+                                {
+                                    "count": 30,
+                                    "year": 2026
                                 },
                                 {
                                     "count": 34,

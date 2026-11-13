@@ -36,29 +36,25 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/CHOmine",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd7961ff34a404f8a8e19f06dd05a2ec0"
+          "@id": "_:Nbb9ec214dc8f4f35abf4aa533f4ab0cf"
         },
         {
-          "@id": "_:Nf99de233756044c59cd136c77116eb80"
+          "@id": "_:N1257ee61c86e4603831d584eed3d94f9"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Na00c0b67a2c24e369edbab33c816fe08"
+          "@id": "_:Nde442f1e0e72484983f6ec2555fe2e92"
         },
         {
-          "@id": "_:N3ca672345c804d898b1849de3f84bbbf"
+          "@id": "_:N2b0de58c0c1146a0b28e83bf86861e10"
         },
         {
-          "@id": "_:N62db53d348fe43828ce896517575bfe4"
+          "@id": "_:N2bb86107b41a4befb49bfcc61415ec37"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -119,7 +115,7 @@
       "sc:url": "https://chomine.boku.ac.at/chomine"
     },
     {
-      "@id": "_:Nd7961ff34a404f8a8e19f06dd05a2ec0",
+      "@id": "_:Nbb9ec214dc8f4f35abf4aa533f4ab0cf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -127,7 +123,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:Nf99de233756044c59cd136c77116eb80",
+      "@id": "_:N1257ee61c86e4603831d584eed3d94f9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -135,7 +131,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:Na00c0b67a2c24e369edbab33c816fe08",
+      "@id": "_:Nde442f1e0e72484983f6ec2555fe2e92",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3753"
@@ -143,7 +139,7 @@
       "sc:name": "Over-representation data"
     },
     {
-      "@id": "_:N3ca672345c804d898b1849de3f84bbbf",
+      "@id": "_:N2b0de58c0c1146a0b28e83bf86861e10",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -151,12 +147,16 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:N62db53d348fe43828ce896517575bfe4",
+      "@id": "_:N2bb86107b41a4befb49bfcc61415ec37",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
       },
       "sc:name": "Sequence features"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

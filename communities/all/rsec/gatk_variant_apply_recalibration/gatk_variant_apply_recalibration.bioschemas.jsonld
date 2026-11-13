@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -45,45 +45,45 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Nb3e8e0dd4ec14b1babfe965118b911d4"
+          "@id": "_:N07951258fe4346a6bfa3fbd17ba55c14"
         },
         {
-          "@id": "_:Nd9b7e601e1ec461084f92f832e7073aa"
+          "@id": "_:Nd9cf49270961463c898dac3c99ad0304"
         },
         {
-          "@id": "_:Na3ccdb46edef4aa19b76965b2da10ff8"
+          "@id": "_:N9bf0683f4bf14e92a7c5c0b52d450fe8"
         },
         {
-          "@id": "_:N31a1e5e7ab6d496baedfea4a23614377"
+          "@id": "_:Nbb74c93f6e0f4f779c39059f1f67cba6"
         },
         {
-          "@id": "_:Nbe916081559f45c7bb620d0ad105e8d8"
+          "@id": "_:N303ea20ed7d44329b69e8ba95bfbca41"
         },
         {
-          "@id": "_:Nf0e0401cf504416b88fac60c0e9f568a"
+          "@id": "_:Nde1a1b485f7e490c84ad1e92c73f3256"
         },
         {
-          "@id": "_:N7fdf095d05d14609b5cd9b24d6a5d4a8"
+          "@id": "_:N19b21b3d47c547a182fe6d5805d21ad4"
         },
         {
-          "@id": "_:N9d91db023a2e44ba8c783a9bfe926ec4"
+          "@id": "_:N166d1d302ef540bc891f898605da20d9"
         },
         {
-          "@id": "_:N87c96bab65a049da8b717fdc5cf137b8"
+          "@id": "_:Nbf3e67d23f5544b29311d7219abf75bb"
         },
         {
-          "@id": "_:Nc6a0718b2b8a477dba5647bce3acb81e"
+          "@id": "_:N6213d234250243d9bd7441337142b337"
         },
         {
-          "@id": "_:N5539390fd51c49b0b0e17fd7da1cc35d"
+          "@id": "_:Nd6a5721086684819afc8c536152e524a"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nb2ba986ee21646629222f3ccb96cb937"
+          "@id": "_:N22b7899df9ca4b0fbf75df6b806571cc"
         },
         {
-          "@id": "_:N0ed1e87ff0bf4aca8101c7f87fc6166c"
+          "@id": "_:N5a90a76a68724404bbee0e4d0e0ad264"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -128,7 +128,7 @@
       "sc:url": "https://software.broadinstitute.org/gatk/"
     },
     {
-      "@id": "_:Nb3e8e0dd4ec14b1babfe965118b911d4",
+      "@id": "_:N07951258fe4346a6bfa3fbd17ba55c14",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -150,7 +150,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nd9b7e601e1ec461084f92f832e7073aa",
+      "@id": "_:Nd9cf49270961463c898dac3c99ad0304",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -172,7 +172,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Na3ccdb46edef4aa19b76965b2da10ff8",
+      "@id": "_:N9bf0683f4bf14e92a7c5c0b52d450fe8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -183,7 +183,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N31a1e5e7ab6d496baedfea4a23614377",
+      "@id": "_:Nbb74c93f6e0f4f779c39059f1f67cba6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -194,7 +194,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nbe916081559f45c7bb620d0ad105e8d8",
+      "@id": "_:N303ea20ed7d44329b69e8ba95bfbca41",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -205,7 +205,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf0e0401cf504416b88fac60c0e9f568a",
+      "@id": "_:Nde1a1b485f7e490c84ad1e92c73f3256",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -216,7 +216,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N7fdf095d05d14609b5cd9b24d6a5d4a8",
+      "@id": "_:N19b21b3d47c547a182fe6d5805d21ad4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -227,7 +227,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N9d91db023a2e44ba8c783a9bfe926ec4",
+      "@id": "_:N166d1d302ef540bc891f898605da20d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -238,7 +238,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N87c96bab65a049da8b717fdc5cf137b8",
+      "@id": "_:Nbf3e67d23f5544b29311d7219abf75bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -249,7 +249,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nc6a0718b2b8a477dba5647bce3acb81e",
+      "@id": "_:N6213d234250243d9bd7441337142b337",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -260,7 +260,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N5539390fd51c49b0b0e17fd7da1cc35d",
+      "@id": "_:Nd6a5721086684819afc8c536152e524a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -271,7 +271,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Nb2ba986ee21646629222f3ccb96cb937",
+      "@id": "_:N22b7899df9ca4b0fbf75df6b806571cc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -282,7 +282,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N0ed1e87ff0bf4aca8101c7f87fc6166c",
+      "@id": "_:N5a90a76a68724404bbee0e4d0e0ad264",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -293,11 +293,11 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1038/ng.806",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1038/ng.806",
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Na3852a50eb7e4c909e33d1828addc576"
+          "@id": "_:N7371f37dc4f64ce0b5220abed479bbce"
         },
         {
-          "@id": "_:N188ed8fceef74ba8b866aa78b6c59a01"
+          "@id": "_:Nb6a38c5fb4a64bb999c9aee090b167ff"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -93,7 +93,7 @@
       "sc:url": "http://sysbio.unl.edu/PITHA"
     },
     {
-      "@id": "_:Na3852a50eb7e4c909e33d1828addc576",
+      "@id": "_:N7371f37dc4f64ce0b5220abed479bbce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -101,7 +101,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N188ed8fceef74ba8b866aa78b6c59a01",
+      "@id": "_:Nb6a38c5fb4a64bb999c9aee090b167ff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"

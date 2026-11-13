@@ -44,10 +44,10 @@
         "Primary Contact"
       ],
       "bsc:input": {
-        "@id": "_:Nc5686595457643609b2b1006dbb17c0e"
+        "@id": "_:Naf2dd5c4c48b40aaa5f13380c86ee60b"
       },
       "bsc:output": {
-        "@id": "_:Nf28c04b71f044e1dbf7d87f845b4788c"
+        "@id": "_:N3e2a66928fa043098ff0195c9b29bc72"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -113,7 +113,7 @@
       "sc:url": "http://ncbr.muni.cz/PatternQuery"
     },
     {
-      "@id": "_:Nc5686595457643609b2b1006dbb17c0e",
+      "@id": "_:Naf2dd5c4c48b40aaa5f13380c86ee60b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -132,7 +132,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:Nf28c04b71f044e1dbf7d87f845b4788c",
+      "@id": "_:N3e2a66928fa043098ff0195c9b29bc72",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"

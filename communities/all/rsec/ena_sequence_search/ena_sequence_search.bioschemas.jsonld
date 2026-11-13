@@ -47,10 +47,10 @@
         "Support"
       ],
       "bsc:input": {
-        "@id": "_:Na774ec2e80b24130addbe7b9609ad204"
+        "@id": "_:N7eccee0fe4ad4ea493877d98c51c203b"
       },
       "bsc:output": {
-        "@id": "_:Nf15923e65d6f47769514f95c5960de38"
+        "@id": "_:N9fde6889881f4c4bbc8232519d20c6cb"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -88,7 +88,7 @@
       "sc:url": "http://www.ebi.ac.uk/ena/data/sequence/search"
     },
     {
-      "@id": "_:Na774ec2e80b24130addbe7b9609ad204",
+      "@id": "_:N7eccee0fe4ad4ea493877d98c51c203b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -96,7 +96,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nf15923e65d6f47769514f95c5960de38",
+      "@id": "_:N9fde6889881f4c4bbc8232519d20c6cb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"

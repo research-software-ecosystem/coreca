@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/j.csbj.2023.10.056",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/alphamod",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N6c239ca65ca84d8ca80055c73febc91d"
+        "@id": "_:Nb6552f9d16924c12be315aaf1514f482"
       },
       "bsc:output": {
-        "@id": "_:N7c77f0a248af4e8f8bbd0c4c756ccb8b"
+        "@id": "_:N3f625326c4534358b34841f5c3e40903"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -94,7 +90,7 @@
       "sc:url": "https://github.com/Fabio-Gil-Z/AlphaMod"
     },
     {
-      "@id": "_:N6c239ca65ca84d8ca80055c73febc91d",
+      "@id": "_:Nb6552f9d16924c12be315aaf1514f482",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -110,7 +106,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N7c77f0a248af4e8f8bbd0c4c756ccb8b",
+      "@id": "_:N3f625326c4534358b34841f5c3e40903",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -119,6 +115,10 @@
         "@id": "edam:format_1476"
       },
       "sc:name": "PDB ID"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.csbj.2023.10.056",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,14 +36,10 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/HR/UHAC213",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/tvir",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8ce542099942418b9c5a8a7e1b3d5c6f"
+        "@id": "_:N451762e4075749fbb89f137ce3d8376f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -96,12 +92,16 @@
       "sc:url": "http://tvir.bio2db.com"
     },
     {
-      "@id": "_:N8ce542099942418b9c5a8a7e1b3d5c6f",
+      "@id": "_:N451762e4075749fbb89f137ce3d8376f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
       },
       "sc:name": "Gene ID"
+    },
+    {
+      "@id": "https://doi.org/10.1093/HR/UHAC213",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.3390/plants12071428",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/lsppred",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N18cd64ded90a4717be444d4b34d9d02b"
+        "@id": "_:N0a37f1aa301844b4a6c1414c8af196dc"
       },
       "bsc:output": {
-        "@id": "_:Nba9c5b5875f448dfb732764f2c9dd7bf"
+        "@id": "_:N8d05506f507a475ab6acb5f6728e217c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -93,7 +97,7 @@
       "sc:url": "http://lsppred.lspdb.org"
     },
     {
-      "@id": "_:N18cd64ded90a4717be444d4b34d9d02b",
+      "@id": "_:N0a37f1aa301844b4a6c1414c8af196dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -104,7 +108,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nba9c5b5875f448dfb732764f2c9dd7bf",
+      "@id": "_:N8d05506f507a475ab6acb5f6728e217c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -113,10 +117,6 @@
         "@id": "edam:format_3752"
       },
       "sc:name": "Score"
-    },
-    {
-      "@id": "https://doi.org/10.3390/plants12071428",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

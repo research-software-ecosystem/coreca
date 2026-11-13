@@ -17,17 +17,18 @@
     "Homepage": "http://quast.bioinf.spbau.ru/",
     "Latest_suite_conda_package_version": "5.3.0",
     "Number_of_tools_on_ChemFlow": 0,
-    "Number_of_tools_on_Coloc-stats": 0,
-    "Number_of_tools_on_GASLINI": 0,
+    "Number_of_tools_on_Codon_Harmonizer": 0,
     "Number_of_tools_on_Galaxy@AuBi": 1,
     "Number_of_tools_on_Galaxy@Pasteur": 1,
     "Number_of_tools_on_GalaxyTrakr": 1,
+    "Number_of_tools_on_HCEMM_Galaxy": 0,
     "Number_of_tools_on_HyPhy_HIV_NGS_Tools": 0,
     "Number_of_tools_on_IPK_Galaxy_Blast_Suite": 0,
     "Number_of_tools_on_ImmPort_Galaxy": 0,
     "Number_of_tools_on_InteractoMIX": 0,
     "Number_of_tools_on_Lebanese_University_Galaxy": 0,
     "Number_of_tools_on_MBAC_Metabiome_Portal": 0,
+    "Number_of_tools_on_MISSISSIPPI": 1,
     "Number_of_tools_on_Mandoiu_Lab": 0,
     "Number_of_tools_on_Oqtans": 1,
     "Number_of_tools_on_Palfinder": 0,
@@ -75,9 +76,9 @@
             "name": "Genome Assembly of MRSA using Illumina MiSeq Data"
         },
         {
-            "create_time": "2026-07-28",
-            "latest_version": "6",
-            "link": "https://workflowhub.eu/workflows/2024?version=6",
+            "create_time": "2026-10-17",
+            "latest_version": "7",
+            "link": "https://workflowhub.eu/workflows/2024?version=7",
             "name": "metagenomic-genes-catalogue/main"
         },
         {
@@ -87,9 +88,9 @@
             "name": "Hybrid Genome Assembly Tutorial Workflow"
         },
         {
-            "create_time": "2025-12-04",
-            "latest_version": "3",
-            "link": "https://workflowhub.eu/workflows/1882?version=3",
+            "create_time": "2026-10-17",
+            "latest_version": "4",
+            "link": "https://workflowhub.eu/workflows/1882?version=4",
             "name": "bacterial-quality-and-contamination-control-post-assembly/main"
         },
         {
@@ -664,9 +665,9 @@
         },
         {
             "create_time": "2026-06-21",
-            "latest_version": "16",
+            "latest_version": "18",
             "link": "https://usegalaxy.org/published/workflow?id=97b5e2bc469d2d68",
-            "name": "Meta_DaiBiome_v1"
+            "name": "Meta_DiaBiome_v1"
         },
         {
             "create_time": "2026-08-06",

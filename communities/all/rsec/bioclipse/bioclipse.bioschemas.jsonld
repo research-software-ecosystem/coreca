@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/bioclipse",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N6990b69de89a4448a6b3d33b781067a2"
+        "@id": "_:Ncc3c23c0abc947e2970bd35c91400499"
       },
       "bsc:output": {
-        "@id": "_:Ned48f9e3b0bd4eb7a291a36b4603cabb"
+        "@id": "_:N057f733e94b44f2b9295b8d58a400096"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -74,7 +74,7 @@
       "sc:url": "http://bioclipse.net/"
     },
     {
-      "@id": "_:N6990b69de89a4448a6b3d33b781067a2",
+      "@id": "_:Ncc3c23c0abc947e2970bd35c91400499",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2087"
@@ -82,7 +82,7 @@
       "sc:name": "Molecular property"
     },
     {
-      "@id": "_:Ned48f9e3b0bd4eb7a291a36b4603cabb",
+      "@id": "_:N057f733e94b44f2b9295b8d58a400096",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2087"

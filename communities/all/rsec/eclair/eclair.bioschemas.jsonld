@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/ECLAIR",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na35dbd8275ed4c46a5cc9112d012ea8a"
+        "@id": "_:N7087473c9b9c4eb3a1347a71fa10e573"
       },
       "bsc:output": [
         {
-          "@id": "_:N8b0f8361308f4739bbda1a412db1ed75"
+          "@id": "_:N53e71d1bc44c4574a3a0077527ecff44"
         },
         {
-          "@id": "_:Nda4a7f30f86642e297c6f6e627659cb0"
+          "@id": "_:N61670968e69642778f347c02761ca099"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -88,7 +88,7 @@
       "sc:url": "https://github.com/GGiecold/ECLAIR"
     },
     {
-      "@id": "_:Na35dbd8275ed4c46a5cc9112d012ea8a",
+      "@id": "_:N7087473c9b9c4eb3a1347a71fa10e573",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -99,7 +99,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N8b0f8361308f4739bbda1a412db1ed75",
+      "@id": "_:N53e71d1bc44c4574a3a0077527ecff44",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3768"
@@ -110,7 +110,7 @@
       "sc:name": "Clustered expression profiles"
     },
     {
-      "@id": "_:Nda4a7f30f86642e297c6f6e627659cb0",
+      "@id": "_:N61670968e69642778f347c02761ca099",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.3290",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/marginalign",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -48,27 +44,27 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Nd1a86cab400c4bf699119c3922f87911"
+          "@id": "_:Nff41e7f7729d440d81d932264a5600b3"
         },
         {
-          "@id": "_:Nd3283603aa4940949a2297c4197737eb"
+          "@id": "_:N7a63f20c0ceb4ffaa4525b42ac1ba016"
         },
         {
-          "@id": "_:Nffbf168811fb48feb6a4d9bfed507c99"
+          "@id": "_:N4448ac413c42483893e97aee99f5edc8"
         },
         {
-          "@id": "_:Nb4022c9fd6b1457aab00eb898ad482f1"
+          "@id": "_:Nfa86229b28f3470aac9e7323bca4f956"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd7833ea3e7d14dd9a3a0d542b9342d96"
+          "@id": "_:N11e2a23cec344876bbabec9e01db79bb"
         },
         {
-          "@id": "_:N960a8e3ed4d349c1a9b1458aef2f5693"
+          "@id": "_:N67298238420f43569c0f61dc3e12816b"
         },
         {
-          "@id": "_:Ne20797e89de4489886aedf495944ab50"
+          "@id": "_:N6d7ee7e5d04d487392881dc7244eb5b6"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -101,7 +97,7 @@
       "sc:url": "https://github.com/benedictpaten/marginAlign"
     },
     {
-      "@id": "_:Nd1a86cab400c4bf699119c3922f87911",
+      "@id": "_:Nff41e7f7729d440d81d932264a5600b3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -112,7 +108,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nd3283603aa4940949a2297c4197737eb",
+      "@id": "_:N7a63f20c0ceb4ffaa4525b42ac1ba016",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -123,7 +119,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nffbf168811fb48feb6a4d9bfed507c99",
+      "@id": "_:N4448ac413c42483893e97aee99f5edc8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -134,7 +130,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:Nb4022c9fd6b1457aab00eb898ad482f1",
+      "@id": "_:Nfa86229b28f3470aac9e7323bca4f956",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -145,7 +141,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:Nd7833ea3e7d14dd9a3a0d542b9342d96",
+      "@id": "_:N11e2a23cec344876bbabec9e01db79bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -156,7 +152,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:N960a8e3ed4d349c1a9b1458aef2f5693",
+      "@id": "_:N67298238420f43569c0f61dc3e12816b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
@@ -167,7 +163,7 @@
       "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:Ne20797e89de4489886aedf495944ab50",
+      "@id": "_:N6d7ee7e5d04d487392881dc7244eb5b6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -176,6 +172,10 @@
         "@id": "edam:format_3016"
       },
       "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3290",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -44,18 +44,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N1259146ba2324c10b074da6513f659f9"
+          "@id": "_:N52805b9b3cc3491688d9d3448ec6cb97"
         },
         {
-          "@id": "_:Nf1667187960347f29e612faeee205174"
+          "@id": "_:N8c9f9b2f45f74fd393536ed23e9481df"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N336ef24f06244fe3807692bedafa2af3"
+          "@id": "_:Nd5817bfc5aba4088953a5e24dbd25339"
         },
         {
-          "@id": "_:N4e03b4cc89b94df593f07a904220dfdb"
+          "@id": "_:N1ddc1c7e6f434ddc8dcb75dba29df0ba"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -100,7 +100,7 @@
       "sc:url": "https://github.com/wdecoster/chopper"
     },
     {
-      "@id": "_:N1259146ba2324c10b074da6513f659f9",
+      "@id": "_:N52805b9b3cc3491688d9d3448ec6cb97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -111,7 +111,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:Nf1667187960347f29e612faeee205174",
+      "@id": "_:N8c9f9b2f45f74fd393536ed23e9481df",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -122,7 +122,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:N336ef24f06244fe3807692bedafa2af3",
+      "@id": "_:Nd5817bfc5aba4088953a5e24dbd25339",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -133,7 +133,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:N4e03b4cc89b94df593f07a904220dfdb",
+      "@id": "_:N1ddc1c7e6f434ddc8dcb75dba29df0ba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

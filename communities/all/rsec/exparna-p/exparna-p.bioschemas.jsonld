@@ -45,14 +45,14 @@
         "Christina Otto"
       ],
       "bsc:input": {
-        "@id": "_:Nc6bf7f0c72f34d59869bdd96cc8dd6a0"
+        "@id": "_:N975147648900451d91bb13836b09833d"
       },
       "bsc:output": [
         {
-          "@id": "_:Nf859703251bf44f784d832ad58821a92"
+          "@id": "_:Nd5e4a7598dea42a28daabd84fde06bb2"
         },
         {
-          "@id": "_:N4f7038fdc4af4f07985c08d7c36e0626"
+          "@id": "_:N7dadaa56b272429d917ede572658ea4d"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -98,7 +98,7 @@
       "sc:url": "http://www.bioinf.uni-freiburg.de/Software/ExpaRNA-P/"
     },
     {
-      "@id": "_:Nc6bf7f0c72f34d59869bdd96cc8dd6a0",
+      "@id": "_:N975147648900451d91bb13836b09833d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -114,7 +114,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:Nf859703251bf44f784d832ad58821a92",
+      "@id": "_:Nd5e4a7598dea42a28daabd84fde06bb2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -125,7 +125,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:N4f7038fdc4af4f07985c08d7c36e0626",
+      "@id": "_:N7dadaa56b272429d917ede572658ea4d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -136,12 +136,12 @@
       "sc:name": "Image"
     },
     {
-      "@id": "http://orcid.org/0000-0001-8231-3323",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://doi.org/10.1186/s12859-014-0404-0",
       "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-8231-3323",
+      "@type": "sc:Person"
     }
   ]
 }

@@ -40,17 +40,17 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N798ae54b1f8d48c7bc373b5aeb2971f4"
+          "@id": "_:N104590a657484405820691690c4f3462"
         },
         {
-          "@id": "_:N1e44377f01c6462f9a78ed95bd5d0624"
+          "@id": "_:N3a1b70a883514ada9519369cf20eebf8"
         },
         {
-          "@id": "_:Nca1b0f859c7f4c329f9d7417a1e49f08"
+          "@id": "_:Nb5917b8b6abf45999916370ca6022004"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nd107f57c626b46c0bf7cc8e67317d631"
+        "@id": "_:N7079c09e3f71458f9bf36fe4ed75804a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -75,7 +75,7 @@
       "sc:url": "https://github.com/AuReMe/emapper2gbk"
     },
     {
-      "@id": "_:N798ae54b1f8d48c7bc373b5aeb2971f4",
+      "@id": "_:N104590a657484405820691690c4f3462",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -86,7 +86,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:N1e44377f01c6462f9a78ed95bd5d0624",
+      "@id": "_:N3a1b70a883514ada9519369cf20eebf8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -97,7 +97,7 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:Nca1b0f859c7f4c329f9d7417a1e49f08",
+      "@id": "_:Nb5917b8b6abf45999916370ca6022004",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -108,7 +108,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:Nd107f57c626b46c0bf7cc8e67317d631",
+      "@id": "_:N7079c09e3f71458f9bf36fe4ed75804a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"

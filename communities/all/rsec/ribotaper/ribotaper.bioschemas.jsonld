@@ -36,25 +36,21 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.3688",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/ribotaper",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne2675e0d5814439c9fe073ebe9d79104"
+          "@id": "_:N4915e4e3d32245cb8f2172aebe33e0aa"
         },
         {
-          "@id": "_:N36354ca780ff4482bd337c35b8f3e3e0"
+          "@id": "_:N223c2ca937cd46308a5821ddd2fc7f3d"
         },
         {
-          "@id": "_:Nea0626b52d9e4b01b3a06e41e8505089"
+          "@id": "_:N3d8e1a04dc1241a79224a084e8369b14"
         }
       ],
       "bsc:output": {
-        "@id": "_:N2ddf2c66672046bbaac6db001ec17f1f"
+        "@id": "_:Nc7a1da3bd79e42bb9f8d8686375c0686"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -80,7 +76,7 @@
       "sc:url": "https://ohlerlab.mdc-berlin.de/software/RiboTaper_126/"
     },
     {
-      "@id": "_:Ne2675e0d5814439c9fe073ebe9d79104",
+      "@id": "_:N4915e4e3d32245cb8f2172aebe33e0aa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -91,7 +87,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N36354ca780ff4482bd337c35b8f3e3e0",
+      "@id": "_:N223c2ca937cd46308a5821ddd2fc7f3d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -102,7 +98,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:Nea0626b52d9e4b01b3a06e41e8505089",
+      "@id": "_:N3d8e1a04dc1241a79224a084e8369b14",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -113,7 +109,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N2ddf2c66672046bbaac6db001ec17f1f",
+      "@id": "_:Nc7a1da3bd79e42bb9f8d8686375c0686",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -130,6 +126,10 @@
         }
       ],
       "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3688",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

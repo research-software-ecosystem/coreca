@@ -39,17 +39,17 @@
       "@id": "https://bio.tools/cdemi",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0305db6961f44c7b96d1418c74decfb2"
+        "@id": "_:N45a3e557182445d6ad945a534afcb0cb"
       },
       "bsc:output": [
         {
-          "@id": "_:N581f84709a6140ea92c3520610550642"
+          "@id": "_:N2c60ee84637e4f99a54d7078d46a3601"
         },
         {
-          "@id": "_:N3508b6029fc94591b10d4a905d812ba8"
+          "@id": "_:N4641a052c1f646d4842f8eb69f747e04"
         },
         {
-          "@id": "_:Nf6080f331d974eb684f34aaf94983542"
+          "@id": "_:N461d1c75e22e411ba4190a17d6f9d3df"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -100,7 +100,7 @@
       "sc:url": "http://rdblab.cn/cdemi/"
     },
     {
-      "@id": "_:N0305db6961f44c7b96d1418c74decfb2",
+      "@id": "_:N45a3e557182445d6ad945a534afcb0cb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -111,7 +111,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N581f84709a6140ea92c3520610550642",
+      "@id": "_:N2c60ee84637e4f99a54d7078d46a3601",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3768"
@@ -119,7 +119,7 @@
       "sc:name": "Clustered expression profiles"
     },
     {
-      "@id": "_:N3508b6029fc94591b10d4a905d812ba8",
+      "@id": "_:N4641a052c1f646d4842f8eb69f747e04",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -127,7 +127,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Nf6080f331d974eb684f34aaf94983542",
+      "@id": "_:N461d1c75e22e411ba4190a17d6f9d3df",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3953"

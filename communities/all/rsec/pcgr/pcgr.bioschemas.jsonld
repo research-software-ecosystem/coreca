@@ -36,18 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-7502-7545",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-8468-2050",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btx817",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pcgr",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -55,24 +43,24 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N80b65716e83a43f386a3ef02d1fa8928"
+          "@id": "_:N77ad83720f7740179842617e1553da73"
         },
         {
-          "@id": "_:N706f5c31f673429f99f150f2584477ba"
+          "@id": "_:N8f4ca8d3b6e24d49bcbebc92470be77b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N0955102788384d83b40a5c3306ca514a"
+          "@id": "_:N70dfd164c94c477b8d53bd7a76a91525"
         },
         {
-          "@id": "_:N2f4e3f8777f846d89fbbcb5d6d207a10"
+          "@id": "_:Nacfa83c7ee644ed68f4253711b537c77"
         },
         {
-          "@id": "_:Nb5bd3c162579439bac81a7ab6b35c482"
+          "@id": "_:N170e592148254acbbde115d7ee46b567"
         },
         {
-          "@id": "_:N332302a29fea43cdb57b2850d2f09977"
+          "@id": "_:Ne2417eb5f4a94a6eace1c2e9c79190d2"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -159,7 +147,7 @@
       "sc:url": "https://github.com/sigven/pcgr"
     },
     {
-      "@id": "_:N80b65716e83a43f386a3ef02d1fa8928",
+      "@id": "_:N77ad83720f7740179842617e1553da73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -170,7 +158,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N706f5c31f673429f99f150f2584477ba",
+      "@id": "_:N8f4ca8d3b6e24d49bcbebc92470be77b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -181,7 +169,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N0955102788384d83b40a5c3306ca514a",
+      "@id": "_:N70dfd164c94c477b8d53bd7a76a91525",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -192,7 +180,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N2f4e3f8777f846d89fbbcb5d6d207a10",
+      "@id": "_:Nacfa83c7ee644ed68f4253711b537c77",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -203,7 +191,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nb5bd3c162579439bac81a7ab6b35c482",
+      "@id": "_:N170e592148254acbbde115d7ee46b567",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -214,7 +202,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N332302a29fea43cdb57b2850d2f09977",
+      "@id": "_:Ne2417eb5f4a94a6eace1c2e9c79190d2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -223,6 +211,18 @@
         "@id": "edam:format_3016"
       },
       "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8468-2050",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7502-7545",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx817",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

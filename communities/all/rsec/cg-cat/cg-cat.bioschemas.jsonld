@@ -40,24 +40,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N32e2a87e08034d5e94e39c1764b71511"
+          "@id": "_:N8ad7af1442734c01816a95d33734b05a"
         },
         {
-          "@id": "_:Nfcdbd2cf209c4ce49952dd1b44c0a09c"
+          "@id": "_:N5ef3a913adc24bbe97d676c73e745175"
         },
         {
-          "@id": "_:N603ef4150f404275bfefe88e6f8693a2"
+          "@id": "_:N2ad669ab08f64667b28a833723894ba5"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5ce658ad35644e17964d42ae6db3a669"
+          "@id": "_:N582e00a5e18b4009b376ea28c166f6cf"
         },
         {
-          "@id": "_:N6305870d8df24cfa8c7abc7743f965db"
+          "@id": "_:Nf801383165764a5a91b1b57648467dbe"
         },
         {
-          "@id": "_:N631ab220d62d4eff87843b75abee0b52"
+          "@id": "_:Naba52f11523345b3853a09335e55d02a"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -110,7 +110,7 @@
       "sc:url": "http://bibiserv.cebitec.uni-bielefeld.de/cgcat"
     },
     {
-      "@id": "_:N32e2a87e08034d5e94e39c1764b71511",
+      "@id": "_:N8ad7af1442734c01816a95d33734b05a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2975"
@@ -121,7 +121,7 @@
       "sc:name": "Nucleic acid sequence (raw)"
     },
     {
-      "@id": "_:Nfcdbd2cf209c4ce49952dd1b44c0a09c",
+      "@id": "_:N5ef3a913adc24bbe97d676c73e745175",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2975"
@@ -132,7 +132,7 @@
       "sc:name": "Nucleic acid sequence (raw)"
     },
     {
-      "@id": "_:N603ef4150f404275bfefe88e6f8693a2",
+      "@id": "_:N2ad669ab08f64667b28a833723894ba5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -143,7 +143,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N5ce658ad35644e17964d42ae6db3a669",
+      "@id": "_:N582e00a5e18b4009b376ea28c166f6cf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0862"
@@ -151,7 +151,7 @@
       "sc:name": "Dotplot"
     },
     {
-      "@id": "_:N6305870d8df24cfa8c7abc7743f965db",
+      "@id": "_:Nf801383165764a5a91b1b57648467dbe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3181"
@@ -159,19 +159,19 @@
       "sc:name": "Sequence assembly report"
     },
     {
-      "@id": "_:N631ab220d62d4eff87843b75abee0b52",
+      "@id": "_:Naba52f11523345b3853a09335e55d02a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3181"
       },
       "sc:name": "Sequence assembly report"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btp690",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1186/1748-7188-5-3",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btp690",
       "@type": "sc:CreativeWork"
     }
   ]

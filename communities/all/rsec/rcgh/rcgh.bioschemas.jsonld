@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/rcgh",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N7a5aa3b869344b74bcbc3c4e6509c136"
+        "@id": "_:N822a70d1590e4a26a54b8c65c4177782"
       },
       "bsc:output": {
-        "@id": "_:Nd138bfb2f49e4fc7a6b5c55e3171b766"
+        "@id": "_:N31f9ec6361e0454b971ac6edd673d4f5"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -83,7 +83,7 @@
       "sc:url": "https://bioconductor.org/packages/rCGH"
     },
     {
-      "@id": "_:N7a5aa3b869344b74bcbc3c4e6509c136",
+      "@id": "_:N822a70d1590e4a26a54b8c65c4177782",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3110"
@@ -94,7 +94,7 @@
       "sc:name": "Raw microarray data"
     },
     {
-      "@id": "_:Nd138bfb2f49e4fc7a6b5c55e3171b766",
+      "@id": "_:N31f9ec6361e0454b971ac6edd673d4f5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"

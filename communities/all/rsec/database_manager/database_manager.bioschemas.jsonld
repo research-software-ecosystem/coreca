@@ -40,27 +40,27 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N33f4d765b1ae4a60a393b4a0b997e3a7"
+          "@id": "_:N95e881de6d254447afdff81be0250eee"
         },
         {
-          "@id": "_:Nb5c6260ca26b4bda9396cb4391146f7a"
+          "@id": "_:N856a124167824a608d8872c9dc8846d5"
         },
         {
-          "@id": "_:N9fad3fff8c244007bda995ddb26808dd"
+          "@id": "_:N9758e1924dfd4aa2b1c35487b8166671"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5bd75e9455df49878ad5f83acececf01"
+          "@id": "_:N46a486fab8c54f51bfddb94fee5591e6"
         },
         {
-          "@id": "_:N1525cbbe29814917ac54e555fa0b9907"
+          "@id": "_:N2319181ce30b48d18a3453539c867c9e"
         },
         {
-          "@id": "_:Ne519c30e817d43b4a0a67b4a31c1b955"
+          "@id": "_:N092fe67abf484becbabc29ef83c0c525"
         },
         {
-          "@id": "_:N9e957eb0e43246919ec464af99b86de7"
+          "@id": "_:Ne70433cc2dde4903b0bfc0125b203d07"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -103,7 +103,7 @@
       "sc:url": "http://pappso.inra.fr/bioinfo/pdm/"
     },
     {
-      "@id": "_:N33f4d765b1ae4a60a393b4a0b997e3a7",
+      "@id": "_:N95e881de6d254447afdff81be0250eee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -114,7 +114,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:Nb5c6260ca26b4bda9396cb4391146f7a",
+      "@id": "_:N856a124167824a608d8872c9dc8846d5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -125,7 +125,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N9fad3fff8c244007bda995ddb26808dd",
+      "@id": "_:N9758e1924dfd4aa2b1c35487b8166671",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0957"
@@ -136,7 +136,7 @@
       "sc:name": "Database metadata"
     },
     {
-      "@id": "_:N5bd75e9455df49878ad5f83acececf01",
+      "@id": "_:N46a486fab8c54f51bfddb94fee5591e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0581"
@@ -147,7 +147,7 @@
       "sc:name": "Database"
     },
     {
-      "@id": "_:N1525cbbe29814917ac54e555fa0b9907",
+      "@id": "_:N2319181ce30b48d18a3453539c867c9e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0957"
@@ -158,7 +158,7 @@
       "sc:name": "Database metadata"
     },
     {
-      "@id": "_:Ne519c30e817d43b4a0a67b4a31c1b955",
+      "@id": "_:N092fe67abf484becbabc29ef83c0c525",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1674"
@@ -169,7 +169,7 @@
       "sc:name": "Sequence database cross-references"
     },
     {
-      "@id": "_:N9e957eb0e43246919ec464af99b86de7",
+      "@id": "_:Ne70433cc2dde4903b0bfc0125b203d07",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1057"

@@ -36,28 +36,32 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkaa793",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/bgee",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N4601632c0c044e82ab12c410e644dacf"
+          "@id": "_:Neb921e3420ae4d0bb8cb4fb52f49d2f0"
         },
         {
-          "@id": "_:N1727857b8a7449288dc3372c966e1926"
+          "@id": "_:N800f82a0532948ea8ddb07dcdbd6d1db"
         },
         {
-          "@id": "_:N0a3111cb647848f4997f93547e61a173"
+          "@id": "_:Nb67ea38bcc8442fe90dca339607e0192"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9af3358f982342b0b82ace83fce8944f"
+          "@id": "_:Neb43293c146f463aa4e6030c202ee7f2"
         },
         {
-          "@id": "_:N9a3e48dd1fe7445f85f1e69ef9ce066f"
+          "@id": "_:N4a1770c2ef78419a8a41179ea3085ac0"
         },
         {
-          "@id": "_:N75ffd99126684b8db19fd36778fa87b4"
+          "@id": "_:N18d00e1ac5fc44319e8f610418e6dd02"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -84,7 +88,7 @@
       "sc:featureList": {
         "@id": "edam:operation_0224"
       },
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "Bgee",
       "sc:operatingSystem": [
         "Linux",
@@ -98,7 +102,7 @@
       "sc:url": "https://bioconductor.org/packages/BgeeDB"
     },
     {
-      "@id": "_:N4601632c0c044e82ab12c410e644dacf",
+      "@id": "_:Neb921e3420ae4d0bb8cb4fb52f49d2f0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -106,7 +110,7 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:N1727857b8a7449288dc3372c966e1926",
+      "@id": "_:N800f82a0532948ea8ddb07dcdbd6d1db",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -114,7 +118,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:N0a3111cb647848f4997f93547e61a173",
+      "@id": "_:Nb67ea38bcc8442fe90dca339607e0192",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -122,7 +126,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N9af3358f982342b0b82ace83fce8944f",
+      "@id": "_:Neb43293c146f463aa4e6030c202ee7f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -130,7 +134,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N9a3e48dd1fe7445f85f1e69ef9ce066f",
+      "@id": "_:N4a1770c2ef78419a8a41179ea3085ac0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -138,16 +142,12 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:N75ffd99126684b8db19fd36778fa87b4",
+      "@id": "_:N18d00e1ac5fc44319e8f610418e6dd02",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
       },
       "sc:name": "Gene report"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkaa793",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

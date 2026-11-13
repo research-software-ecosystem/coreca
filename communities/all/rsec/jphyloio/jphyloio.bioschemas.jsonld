@@ -36,29 +36,33 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/database/bav094",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/jphyloio",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ben C. Stöver",
       "bsc:input": [
         {
-          "@id": "_:N06e095920dc3470eb3f3ba05542db194"
+          "@id": "_:N606eb74f1a434633bd625f57a59ea2be"
         },
         {
-          "@id": "_:Nacf502487d6e4ac2a5edce816b915959"
+          "@id": "_:N9f07dccfebd548d4ac4bb0a8f93a4eb0"
         },
         {
-          "@id": "_:Nf23664442bb642549f73f7ea8f3587e2"
+          "@id": "_:N602bf07c8b634c65aa51a94d20a55b13"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nc0d0d21301c743e2ab5cb3f961b8aa9c"
+          "@id": "_:Ne4f178d78a394934940bcf16d5a48b2d"
         },
         {
-          "@id": "_:N09338fb5e2f0496d8abe13b6f3f4b222"
+          "@id": "_:Ndb317c8f5dc849e2ae513adc4c320aea"
         },
         {
-          "@id": "_:N034d719ab57944ae82d750a4b7933470"
+          "@id": "_:Nd715383c6ce44097a92d7a16ea3ff46b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -125,7 +129,7 @@
       "sc:url": "http://bioinfweb.info/JPhyloIO/"
     },
     {
-      "@id": "_:N06e095920dc3470eb3f3ba05542db194",
+      "@id": "_:N606eb74f1a434633bd625f57a59ea2be",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -153,7 +157,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:Nacf502487d6e4ac2a5edce816b915959",
+      "@id": "_:N9f07dccfebd548d4ac4bb0a8f93a4eb0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -178,7 +182,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:Nf23664442bb642549f73f7ea8f3587e2",
+      "@id": "_:N602bf07c8b634c65aa51a94d20a55b13",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -197,7 +201,7 @@
       "sc:name": "Taxonomy"
     },
     {
-      "@id": "_:Nc0d0d21301c743e2ab5cb3f961b8aa9c",
+      "@id": "_:Ne4f178d78a394934940bcf16d5a48b2d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -219,7 +223,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:N09338fb5e2f0496d8abe13b6f3f4b222",
+      "@id": "_:Ndb317c8f5dc849e2ae513adc4c320aea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -241,7 +245,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N034d719ab57944ae82d750a4b7933470",
+      "@id": "_:Nd715383c6ce44097a92d7a16ea3ff46b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -258,10 +262,6 @@
         }
       ],
       "sc:name": "Taxonomy"
-    },
-    {
-      "@id": "https://doi.org/10.1093/database/bav094",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

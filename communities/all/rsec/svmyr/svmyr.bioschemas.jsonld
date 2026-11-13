@@ -40,6 +40,14 @@
       "@type": "sc:Person"
     },
     {
+      "@id": "https://doi.org/10.1016/J.JMB.2022.167605",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0274-5669",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/svmyr",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -51,10 +59,10 @@
         }
       ],
       "bsc:input": {
-        "@id": "_:N1cb1ba92b76e426b92f45ccd43b17071"
+        "@id": "_:N89d8bbaa51624836b6b28c7b74bca941"
       },
       "bsc:output": {
-        "@id": "_:Nbe542247862543e990422851eee242dd"
+        "@id": "_:N9e8e874dcbad433697291b11e4c36315"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -102,7 +110,7 @@
       "sc:url": "https://busca.biocomp.unibo.it/lipipred"
     },
     {
-      "@id": "_:N1cb1ba92b76e426b92f45ccd43b17071",
+      "@id": "_:N89d8bbaa51624836b6b28c7b74bca941",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -113,7 +121,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nbe542247862543e990422851eee242dd",
+      "@id": "_:N9e8e874dcbad433697291b11e4c36315",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -130,14 +138,6 @@
         }
       ],
       "sc:name": "Protein report"
-    },
-    {
-      "@id": "https://doi.org/10.1016/J.JMB.2022.167605",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-0274-5669",
-      "@type": "sc:Person"
     }
   ]
 }

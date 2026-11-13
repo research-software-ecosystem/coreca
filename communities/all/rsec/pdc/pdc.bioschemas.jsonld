@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/pdc",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na9b43eaeac2d41b9b52e447069db19f5"
+        "@id": "_:N1cead87110c74277b7d786c025687efa"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -93,7 +93,7 @@
       "sc:url": "https://github.com/kad-ecoli/pdc"
     },
     {
-      "@id": "_:Na9b43eaeac2d41b9b52e447069db19f5",
+      "@id": "_:N1cead87110c74277b7d786c025687efa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"

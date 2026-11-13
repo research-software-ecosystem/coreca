@@ -36,7 +36,15 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0003-2827-9261",
+      "@id": "https://orcid.org/0000-0001-9017-591X",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41587-020-0439-x",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3315-2484",
       "@type": "sc:Person"
     },
     {
@@ -44,15 +52,7 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0001-9017-591X",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "http://orcid.org/0000-0002-6503-2180",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-3315-2484",
       "@type": "sc:Person"
     },
     {
@@ -76,10 +76,10 @@
         }
       ],
       "bsc:input": {
-        "@id": "_:N91bd0d6eb7ad4313a41b41f6b8e0289e"
+        "@id": "_:N35bb614a3a5a4a61a46b78e7709ddcaf"
       },
       "bsc:output": {
-        "@id": "_:N20006ad27fd744a9b336f2f0c8d2359e"
+        "@id": "_:Nb35e652d15544f3aa5098cd21726840d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -155,7 +155,7 @@
       "sc:url": "https://nf-co.re/methylseq"
     },
     {
-      "@id": "_:N91bd0d6eb7ad4313a41b41f6b8e0289e",
+      "@id": "_:N35bb614a3a5a4a61a46b78e7709ddcaf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -166,7 +166,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N20006ad27fd744a9b336f2f0c8d2359e",
+      "@id": "_:Nb35e652d15544f3aa5098cd21726840d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -182,11 +182,11 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "https://doi.org/10.1038/s41587-020-0439-x",
-      "@type": "sc:CreativeWork"
+      "@id": "https://orcid.org/0000-0003-4101-2502",
+      "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0003-4101-2502",
+      "@id": "https://orcid.org/0000-0003-2827-9261",
       "@type": "sc:Person"
     }
   ]

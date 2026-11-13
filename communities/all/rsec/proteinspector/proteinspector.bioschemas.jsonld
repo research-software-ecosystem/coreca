@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/proteinspector",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nbd468b1551d24727890a6f884fa8b7a3"
+        "@id": "_:Nb86b3cc98bab42098cd2389393ca4c44"
       },
       "bsc:output": {
-        "@id": "_:N9f19c292f54a42d798fcc754c3ced243"
+        "@id": "_:N5425d14f20c8480ebae8da0a83eed2a1"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -74,7 +74,7 @@
       "sc:url": "https://bitbucket.org/proteinspector/qc_analysis/"
     },
     {
-      "@id": "_:Nbd468b1551d24727890a6f884fa8b7a3",
+      "@id": "_:Nb86b3cc98bab42098cd2389393ca4c44",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -85,7 +85,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N9f19c292f54a42d798fcc754c3ced243",
+      "@id": "_:N5425d14f20c8480ebae8da0a83eed2a1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

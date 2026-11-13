@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nda063901a1804bb193fdb34ea8f48400"
+          "@id": "_:Nb9b19c73f34646dbaf67bfdd1207cc3d"
         },
         {
-          "@id": "_:N17e60ffa3ed04d288f3b54a8f3413089"
+          "@id": "_:N7b9eca765f0f461f9d9a66ae5b9bed2c"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -94,7 +94,7 @@
       "sc:url": "http://cao.labshare.cn/drugrep/"
     },
     {
-      "@id": "_:Nda063901a1804bb193fdb34ea8f48400",
+      "@id": "_:Nb9b19c73f34646dbaf67bfdd1207cc3d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -102,7 +102,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N17e60ffa3ed04d288f3b54a8f3413089",
+      "@id": "_:N7b9eca765f0f461f9d9a66ae5b9bed2c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"

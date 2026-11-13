@@ -17,30 +17,31 @@
     "Homepage": "https://github.com/MadsAlbertsen/ampvis2/",
     "Latest_suite_conda_package_version": null,
     "Number_of_tools_on_ChemFlow": 0,
-    "Number_of_tools_on_Coloc-stats": 0,
-    "Number_of_tools_on_GASLINI": 0,
+    "Number_of_tools_on_Codon_Harmonizer": 0,
     "Number_of_tools_on_Galaxy@AuBi": 0,
     "Number_of_tools_on_Galaxy@Pasteur": 0,
     "Number_of_tools_on_GalaxyTrakr": 0,
+    "Number_of_tools_on_HCEMM_Galaxy": 0,
     "Number_of_tools_on_HyPhy_HIV_NGS_Tools": 0,
     "Number_of_tools_on_IPK_Galaxy_Blast_Suite": 0,
     "Number_of_tools_on_ImmPort_Galaxy": 0,
     "Number_of_tools_on_InteractoMIX": 0,
     "Number_of_tools_on_Lebanese_University_Galaxy": 0,
     "Number_of_tools_on_MBAC_Metabiome_Portal": 0,
+    "Number_of_tools_on_MISSISSIPPI": 0,
     "Number_of_tools_on_Mandoiu_Lab": 0,
-    "Number_of_tools_on_Oqtans": 1,
+    "Number_of_tools_on_Oqtans": 5,
     "Number_of_tools_on_Palfinder": 0,
     "Number_of_tools_on_PepSimili": 0,
     "Number_of_tools_on_PhagePromotor": 0,
     "Number_of_tools_on_UseGalaxy.be": 1,
     "Number_of_tools_on_UseGalaxy.ca": 20,
-    "Number_of_tools_on_UseGalaxy.cz": 19,
+    "Number_of_tools_on_UseGalaxy.cz": 20,
     "Number_of_tools_on_UseGalaxy.eu": 20,
     "Number_of_tools_on_UseGalaxy.fr": 0,
     "Number_of_tools_on_UseGalaxy.no": 0,
     "Number_of_tools_on_UseGalaxy.org.au": 0,
-    "Number_of_tools_on_UseGalaxy.org_(Main)": 1,
+    "Number_of_tools_on_UseGalaxy.org_(Main)": 5,
     "Number_of_tools_on_Viral_Variant_Visualizer_(VVV)": 0,
     "Related_Tutorials": [
         "https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/mgnify-amplicon/tutorial.html"
@@ -57,6 +58,12 @@
             "latest_version": "5",
             "link": "https://workflowhub.eu/workflows/1275?version=5",
             "name": "mapseq-to-ampvis2/main"
+        },
+        {
+            "create_time": "2026-10-01",
+            "latest_version": "1",
+            "link": "https://usegalaxy.eu/published/workflow?id=d6e76e62d4ba420d",
+            "name": "MAPseq to ampvis2 (release v0.5)"
         },
         {
             "create_time": "2026-09-03",
@@ -87,6 +94,12 @@
             "latest_version": "1",
             "link": "https://usegalaxy.eu/published/workflow?id=e91def3fc9738ebb",
             "name": "MAPseq to ampvis2 (release v0.2)"
+        },
+        {
+            "create_time": "2026-10-01",
+            "latest_version": "1",
+            "link": "https://usegalaxy.org/published/workflow?id=96205f8f73279e5f",
+            "name": "MAPseq to ampvis2 (release v0.5)"
         },
         {
             "create_time": "2026-09-17",

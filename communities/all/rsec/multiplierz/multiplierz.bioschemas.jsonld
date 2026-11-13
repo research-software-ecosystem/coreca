@@ -36,32 +36,28 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1471-2105-10-364",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/multiplierz",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N5ece915690a84ebe9d17e10060044eec"
+          "@id": "_:N22738e3e681644aeb53ec5931f00bdae"
         },
         {
-          "@id": "_:N3a548b182375410e9a759dd1c9269932"
+          "@id": "_:Nec2b7f6859724137a5839d7bfc8e4cf5"
         },
         {
-          "@id": "_:N08eb6fc6f65343bbb9bc402dd7d52bc7"
+          "@id": "_:Ncd81ea376d094a869379f85da1fe0286"
         },
         {
-          "@id": "_:N2193d04a2a1f4d1bb3f40c041555c0bb"
+          "@id": "_:Necfaca865ce94482b1bcef3426a11aae"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf2e1826b1c1a4b47b0192422b29af66a"
+          "@id": "_:N0e91b2ff27714680b3b73d6bd92ee535"
         },
         {
-          "@id": "_:Nf788f76e1e1f409bab1e373c132b46d2"
+          "@id": "_:N6762adb58a7145a4bbab7aa920a1073b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -166,7 +162,7 @@
       "sc:url": "http://sourceforge.net/projects/multiplierz/"
     },
     {
-      "@id": "_:N5ece915690a84ebe9d17e10060044eec",
+      "@id": "_:N22738e3e681644aeb53ec5931f00bdae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -191,7 +187,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N3a548b182375410e9a759dd1c9269932",
+      "@id": "_:Nec2b7f6859724137a5839d7bfc8e4cf5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -202,7 +198,7 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:N08eb6fc6f65343bbb9bc402dd7d52bc7",
+      "@id": "_:Ncd81ea376d094a869379f85da1fe0286",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -227,7 +223,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N2193d04a2a1f4d1bb3f40c041555c0bb",
+      "@id": "_:Necfaca865ce94482b1bcef3426a11aae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -238,7 +234,7 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:Nf2e1826b1c1a4b47b0192422b29af66a",
+      "@id": "_:N0e91b2ff27714680b3b73d6bd92ee535",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -249,7 +245,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nf788f76e1e1f409bab1e373c132b46d2",
+      "@id": "_:N6762adb58a7145a4bbab7aa920a1073b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -261,6 +257,10 @@
     },
     {
       "@id": "https://doi.org/10.1074/mcp.M110.003970",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-10-364",
       "@type": "sc:CreativeWork"
     },
     {

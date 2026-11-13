@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gks491",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/carna",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -45,20 +49,20 @@
         "Sebastian Will"
       ],
       "bsc:input": {
-        "@id": "_:Nc289f65601fd4d35aca66b007d4265a8"
+        "@id": "_:Nd31f6c2713944789b31606977258956f"
       },
       "bsc:output": [
         {
-          "@id": "_:N662317985e154421b60e5fbd33bc2b8b"
+          "@id": "_:N81a6728c1cb74b09a09ba245e1fe4acf"
         },
         {
-          "@id": "_:N2b8890a3bc62455f87bf0c221893cbf3"
+          "@id": "_:N891ab50365af4edea5bc38663329aa8e"
         },
         {
-          "@id": "_:N744f9afd66dc4903a65daaca74e928b9"
+          "@id": "_:N78fc1caac09e4c63808cfb4a7c63db17"
         },
         {
-          "@id": "_:N1fc93117abb945a3b3b6b101d6d21528"
+          "@id": "_:N5f13e97ba2664f44af761bba1d932cf2"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -106,7 +110,7 @@
       "sc:url": "http://rna.informatik.uni-freiburg.de/CARNA/"
     },
     {
-      "@id": "_:Nc289f65601fd4d35aca66b007d4265a8",
+      "@id": "_:Nd31f6c2713944789b31606977258956f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -122,7 +126,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N662317985e154421b60e5fbd33bc2b8b",
+      "@id": "_:N81a6728c1cb74b09a09ba245e1fe4acf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -133,7 +137,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:N2b8890a3bc62455f87bf0c221893cbf3",
+      "@id": "_:N891ab50365af4edea5bc38663329aa8e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -152,7 +156,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N744f9afd66dc4903a65daaca74e928b9",
+      "@id": "_:N78fc1caac09e4c63808cfb4a7c63db17",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -163,7 +167,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N1fc93117abb945a3b3b6b101d6d21528",
+      "@id": "_:N5f13e97ba2664f44af761bba1d932cf2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -176,10 +180,6 @@
     {
       "@id": "http://orcid.org/0000-0001-8231-3323",
       "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gks491",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gks596",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/primer3",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Triinu Kõressaar",
       "bsc:input": {
-        "@id": "_:N0e635fead4c84edc8a5e1ff89dfd72f6"
+        "@id": "_:N2e5e1cdadc89459b809f2e3c69f3a423"
       },
       "bsc:output": {
-        "@id": "_:N502dedff17554614aa0264c58137f566"
+        "@id": "_:N36f24b7b083d4332ae9467e9ef42da99"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -75,7 +79,7 @@
       "sc:url": "http://primer3.ut.ee/"
     },
     {
-      "@id": "_:N0e635fead4c84edc8a5e1ff89dfd72f6",
+      "@id": "_:N2e5e1cdadc89459b809f2e3c69f3a423",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -83,16 +87,12 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N502dedff17554614aa0264c58137f566",
+      "@id": "_:N36f24b7b083d4332ae9467e9ef42da99",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1240"
       },
       "sc:name": "PCR primers"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gks596",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

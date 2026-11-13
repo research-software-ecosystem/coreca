@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkad275",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/deepneo",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ncec41e843a124d6fb7bfcade4d482cba"
+        "@id": "_:Ned004c8c38634165bc38f65a1aa1d69d"
       },
       "bsc:output": [
         {
-          "@id": "_:N5b90c580417a480ab8cb362f24b94211"
+          "@id": "_:Nd0f039d094dc49c582b1eb40d549fe4f"
         },
         {
-          "@id": "_:N795672b028c848f7a85c78ac588666c4"
+          "@id": "_:Nff6351f96ae04b5bb94e6ec65bb49785"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -94,7 +98,7 @@
       "sc:url": "https://deepneo.net"
     },
     {
-      "@id": "_:Ncec41e843a124d6fb7bfcade4d482cba",
+      "@id": "_:Ned004c8c38634165bc38f65a1aa1d69d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -105,7 +109,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N5b90c580417a480ab8cb362f24b94211",
+      "@id": "_:Nd0f039d094dc49c582b1eb40d549fe4f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1081"
@@ -113,16 +117,12 @@
       "sc:name": "Genotype and phenotype annotation ID"
     },
     {
-      "@id": "_:N795672b028c848f7a85c78ac588666c4",
+      "@id": "_:Nff6351f96ae04b5bb94e6ec65bb49785",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
       },
       "sc:name": "Protein interaction data"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkad275",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

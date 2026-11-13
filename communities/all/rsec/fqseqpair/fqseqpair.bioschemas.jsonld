@@ -36,23 +36,19 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/fqseqpair",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N27756e412f8845fdb067d197a032f4e6"
+          "@id": "_:N7c344b393498438887a3638fe491131c"
         },
         {
-          "@id": "_:N2d944f4932e4456c8997505d8df914c7"
+          "@id": "_:Nf4142f86cd14423f9f0731335a9e3ceb"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nf964479c0fc84387b5bc5400a4ceb7b2"
+        "@id": "_:N42848109059a4c98a88ba3998eeb6084"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -81,7 +77,7 @@
       "sc:url": "http://ftp.pasteur.fr/pub/gensoft/projects/fqtools/README"
     },
     {
-      "@id": "_:N27756e412f8845fdb067d197a032f4e6",
+      "@id": "_:N7c344b393498438887a3638fe491131c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -100,7 +96,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N2d944f4932e4456c8997505d8df914c7",
+      "@id": "_:Nf4142f86cd14423f9f0731335a9e3ceb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -119,7 +115,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf964479c0fc84387b5bc5400a4ceb7b2",
+      "@id": "_:N42848109059a4c98a88ba3998eeb6084",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -131,6 +127,10 @@
     },
     {
       "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

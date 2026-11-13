@@ -73,7 +73,7 @@
           "@id": "edam:operation_0438"
         }
       ],
-      "sc:license": "LGPL-3.0-only",
+      "sc:license": "LGPL-3.0",
       "sc:name": "epigenomix",
       "sc:operatingSystem": [
         "Linux",

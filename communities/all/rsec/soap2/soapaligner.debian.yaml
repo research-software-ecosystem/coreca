@@ -22,7 +22,7 @@ bib:
 - key: doi
   value: 10.1093/bioinformatics/btn025
 popcon:
-- insts: 112
-  olde: 86
-  recent: 22
-  vote: 4
+- insts: 119
+  olde: 89
+  recent: 25
+  vote: 5

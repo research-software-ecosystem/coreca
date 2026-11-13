@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/0471250953.bi1113s50",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1002/humu.23114",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1038/nmeth.2221",
       "@type": "sc:CreativeWork"
     },
@@ -44,10 +52,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Santiago Marco-Sola",
       "bsc:input": {
-        "@id": "_:N8bb56fe840ac450cbffa091b8dfe758b"
+        "@id": "_:N0cb78ca2b11444cf8b60bf99112d076e"
       },
       "bsc:output": {
-        "@id": "_:Ndc3b67bf5315484796b5057810e13c8e"
+        "@id": "_:Ne37d878560614fc99be9f86e8d534626"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -104,7 +112,7 @@
       "sc:url": "https://github.com/smarco/gem3-mapper"
     },
     {
-      "@id": "_:N8bb56fe840ac450cbffa091b8dfe758b",
+      "@id": "_:N0cb78ca2b11444cf8b60bf99112d076e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1193"
@@ -115,7 +123,7 @@
       "sc:name": "Tool name (FASTA)"
     },
     {
-      "@id": "_:Ndc3b67bf5315484796b5057810e13c8e",
+      "@id": "_:Ne37d878560614fc99be9f86e8d534626",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3671"
@@ -129,14 +137,6 @@
         }
       ],
       "sc:name": "Text"
-    },
-    {
-      "@id": "https://doi.org/10.1002/0471250953.bi1113s50",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1002/humu.23114",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

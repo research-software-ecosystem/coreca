@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.3252",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/gaucho",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -47,20 +43,20 @@
         "Christopher Wardell"
       ],
       "bsc:input": {
-        "@id": "_:N899a40ec82d9462395ad12727ecc9d76"
+        "@id": "_:N47ecb745944f47ecabd41eee7ab47a24"
       },
       "bsc:output": [
         {
-          "@id": "_:Na890eee2a9424efea49de4518c920c64"
+          "@id": "_:N612a22d72ce043e9b07f9293d3fcb83a"
         },
         {
-          "@id": "_:N7c8a6676c9474b36ae43f15fb5dadf84"
+          "@id": "_:N61d82a660c3c41ffb87b4296bc28af87"
         },
         {
-          "@id": "_:Nf8e1c935be204d0899bb98d755a18497"
+          "@id": "_:N92f6d67fe7964492b6201438ccbfb194"
         },
         {
-          "@id": "_:N10662e0cc39e4aee9b0653aa8d460d26"
+          "@id": "_:Na3f2f6404d9642bab6e574c9386a511e"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -109,7 +105,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/gaucho.html"
     },
     {
-      "@id": "_:N899a40ec82d9462395ad12727ecc9d76",
+      "@id": "_:N47ecb745944f47ecabd41eee7ab47a24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3113"
@@ -120,7 +116,7 @@
       "sc:name": "Sample annotation"
     },
     {
-      "@id": "_:Na890eee2a9424efea49de4518c920c64",
+      "@id": "_:N612a22d72ce043e9b07f9293d3fcb83a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0920"
@@ -136,7 +132,7 @@
       "sc:name": "Genotype/phenotype report"
     },
     {
-      "@id": "_:N7c8a6676c9474b36ae43f15fb5dadf84",
+      "@id": "_:N61d82a660c3c41ffb87b4296bc28af87",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -152,7 +148,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Nf8e1c935be204d0899bb98d755a18497",
+      "@id": "_:N92f6d67fe7964492b6201438ccbfb194",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2523"
@@ -168,7 +164,7 @@
       "sc:name": "Phylogenetic data"
     },
     {
-      "@id": "_:N10662e0cc39e4aee9b0653aa8d460d26",
+      "@id": "_:Na3f2f6404d9642bab6e574c9386a511e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -182,6 +178,10 @@
         }
       ],
       "sc:name": "Plot"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

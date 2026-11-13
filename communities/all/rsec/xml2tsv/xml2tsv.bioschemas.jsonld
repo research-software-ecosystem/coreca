@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/xml2tsv",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N96f59079176840019c84b2904b5ec70a"
+        "@id": "_:N66869fafbcbb435f87cd7ac431f4f4c5"
       },
       "bsc:output": {
-        "@id": "_:N6c480dca9c6d40fc994a04cfb1bf4410"
+        "@id": "_:N8acd1d6e47e64de8906bbadf6864444c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:description": "Utility to convert peptide identifications from one format to another.",
@@ -53,7 +53,7 @@
       "sc:url": "https://github.com/bio-tools/biotoolsCompose/blob/master/msutils-poc-domainsetup/src/biotools/biotoolsCompose/poc/sib/xml2tsv.java"
     },
     {
-      "@id": "_:N96f59079176840019c84b2904b5ec70a",
+      "@id": "_:N66869fafbcbb435f87cd7ac431f4f4c5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -69,7 +69,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N6c480dca9c6d40fc994a04cfb1bf4410",
+      "@id": "_:N8acd1d6e47e64de8906bbadf6864444c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"

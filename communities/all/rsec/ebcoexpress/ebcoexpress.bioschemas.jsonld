@@ -36,20 +36,24 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.EBcoexpress",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ebcoexpress",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N30fe258434944a16bdb6c1c7d79ac839"
+        "@id": "_:N3a731b3cde19443b93a00b00ca2aac16"
       },
       "bsc:output": [
         {
-          "@id": "_:Nea53cb28e80c455a86af4db04fd3f98f"
+          "@id": "_:N3f015504e0134a699e0b61da6692f6db"
         },
         {
-          "@id": "_:N8bdf26b0a3d74741aee3b1a179da72e0"
+          "@id": "_:Nf55e670cb7174c1f81e6641132fc641e"
         },
         {
-          "@id": "_:N480943c86ee14b26a154f3e4b8e852a1"
+          "@id": "_:Na34765334ac2405fa67d907964b46fb6"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,7 +93,7 @@
       "sc:url": "https://bioconductor.org/packages/EBcoexpress"
     },
     {
-      "@id": "_:N30fe258434944a16bdb6c1c7d79ac839",
+      "@id": "_:N3a731b3cde19443b93a00b00ca2aac16",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -105,7 +109,7 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:Nea53cb28e80c455a86af4db04fd3f98f",
+      "@id": "_:N3f015504e0134a699e0b61da6692f6db",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -124,7 +128,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N8bdf26b0a3d74741aee3b1a179da72e0",
+      "@id": "_:Nf55e670cb7174c1f81e6641132fc641e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -143,7 +147,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N480943c86ee14b26a154f3e4b8e852a1",
+      "@id": "_:Na34765334ac2405fa67d907964b46fb6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -160,10 +164,6 @@
         }
       ],
       "sc:name": "Plot"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.EBcoexpress",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

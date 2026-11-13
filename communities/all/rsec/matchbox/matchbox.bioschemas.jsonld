@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth756",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1002/pros.21373",
       "@type": "sc:CreativeWork"
     },
@@ -47,17 +43,17 @@
       "@id": "https://bio.tools/matchbox",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd852a0a692424443821c3f1e67edc48a"
+        "@id": "_:N7964f29b56a74f0f838eddf3607640ae"
       },
       "bsc:output": [
         {
-          "@id": "_:N8f5d5260d3ce428980cb7ad8acb14eb9"
+          "@id": "_:N6789273439944918b7b76c46791eb3a2"
         },
         {
-          "@id": "_:Nd6942ee2d5fc4881af9a508edb61102e"
+          "@id": "_:Nd27039450ca74d07a590b9ded94ffec7"
         },
         {
-          "@id": "_:N5be9a1c53b3b4ae485df925e34bbd1c3"
+          "@id": "_:N22b15770fc1a412f90f9c3ea22448f12"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -107,7 +103,7 @@
       "sc:url": "https://bioconductor.org/packages/matchBox"
     },
     {
-      "@id": "_:Nd852a0a692424443821c3f1e67edc48a",
+      "@id": "_:N7964f29b56a74f0f838eddf3607640ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -118,7 +114,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N8f5d5260d3ce428980cb7ad8acb14eb9",
+      "@id": "_:N6789273439944918b7b76c46791eb3a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -134,7 +130,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Nd6942ee2d5fc4881af9a508edb61102e",
+      "@id": "_:Nd27039450ca74d07a590b9ded94ffec7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -150,7 +146,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N5be9a1c53b3b4ae485df925e34bbd1c3",
+      "@id": "_:N22b15770fc1a412f90f9c3ea22448f12",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -164,6 +160,10 @@
         }
       ],
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth756",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

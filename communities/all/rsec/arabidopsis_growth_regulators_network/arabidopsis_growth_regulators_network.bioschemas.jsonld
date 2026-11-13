@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/srep17617",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/arabidopsis_growth_regulators_network",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N646116b02c864b28b508182e98866df9"
+        "@id": "_:Ncb39168fcf1941fcb153c9bac8dbf015"
       },
       "bsc:output": {
-        "@id": "_:N7c5f31e33d9c4faf95d83ccf90431a26"
+        "@id": "_:N4e3d9b2ff3694161af24ef9c54054c74"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -82,7 +78,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/supplementary_data/ehsab/gene_prioritization/"
     },
     {
-      "@id": "_:N646116b02c864b28b508182e98866df9",
+      "@id": "_:Ncb39168fcf1941fcb153c9bac8dbf015",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -90,12 +86,16 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N7c5f31e33d9c4faf95d83ccf90431a26",
+      "@id": "_:N4e3d9b2ff3694161af24ef9c54054c74",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
       },
       "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "https://doi.org/10.1038/srep17617",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

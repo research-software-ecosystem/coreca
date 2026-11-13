@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/0471250953.bia01es00",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/readseq",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:N827e4a8052b74d1880a67d677a3b7100"
+        "@id": "_:N96f2d1d759ea4570b3ce890ff5d0b79f"
       },
       "bsc:output": {
-        "@id": "_:N585577059bd747f0a020034787955bec"
+        "@id": "_:N5f23545c6db449339972c794bf4c0fe4"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -88,7 +92,7 @@
       "sc:url": "http://www.ebi.ac.uk/Tools/sfc/readseq/"
     },
     {
-      "@id": "_:N827e4a8052b74d1880a67d677a3b7100",
+      "@id": "_:N96f2d1d759ea4570b3ce890ff5d0b79f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -96,16 +100,12 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N585577059bd747f0a020034787955bec",
+      "@id": "_:N5f23545c6db449339972c794bf4c0fe4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
       },
       "sc:name": "Sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1002/0471250953.bia01es00",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkac240",

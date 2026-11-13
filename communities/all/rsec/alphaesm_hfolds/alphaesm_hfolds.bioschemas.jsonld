@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1016/j.jmb.2024.168593",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/alphaesm_hfolds",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8e884b1bc4ce4552946980b23440f66a"
+        "@id": "_:N394cdd5718f04d278d01f1112bbad266"
       },
       "bsc:output": {
-        "@id": "_:Nd562d88059e04b14ac02acddebdf19ac"
+        "@id": "_:N02dab271fd2644dfa5a77a838719a82c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -77,7 +81,7 @@
       "sc:url": "https://alpha-esmhfolds.biocomp.unibo.it"
     },
     {
-      "@id": "_:N8e884b1bc4ce4552946980b23440f66a",
+      "@id": "_:N394cdd5718f04d278d01f1112bbad266",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -88,16 +92,12 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:Nd562d88059e04b14ac02acddebdf19ac",
+      "@id": "_:N02dab271fd2644dfa5a77a838719a82c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
       },
       "sc:name": "Protein structure report"
-    },
-    {
-      "@id": "https://doi.org/10.1016/j.jmb.2024.168593",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

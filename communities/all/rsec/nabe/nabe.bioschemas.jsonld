@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/nabe",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8810b80347954609983b228d0e47dcec"
+        "@id": "_:N48fa8c9dd1e947edab7381295169b18c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -99,7 +99,7 @@
       "sc:url": "http://nabe.denglab.org"
     },
     {
-      "@id": "_:N8810b80347954609983b228d0e47dcec",
+      "@id": "_:N48fa8c9dd1e947edab7381295169b18c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"

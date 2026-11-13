@@ -286,7 +286,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 138,
+                            "cit_count": 140,
                             "citations": [
                                 {
                                     "count": 1,
@@ -305,10 +305,6 @@
                                     "year": 2019
                                 },
                                 {
-                                    "count": 9,
-                                    "year": 2026
-                                },
-                                {
                                     "count": 11,
                                     "year": 2016
                                 },
@@ -323,6 +319,10 @@
                                 {
                                     "count": 11,
                                     "year": 2025
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2026
                                 },
                                 {
                                     "count": 12,
@@ -696,7 +696,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 138,
+                            "cit_count": 140,
                             "citations": [
                                 {
                                     "count": 1,
@@ -715,10 +715,6 @@
                                     "year": 2019
                                 },
                                 {
-                                    "count": 9,
-                                    "year": 2026
-                                },
-                                {
                                     "count": 11,
                                     "year": 2016
                                 },
@@ -733,6 +729,10 @@
                                 {
                                     "count": 11,
                                     "year": 2025
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2026
                                 },
                                 {
                                     "count": 12,
@@ -1106,7 +1106,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 138,
+                            "cit_count": 140,
                             "citations": [
                                 {
                                     "count": 1,
@@ -1125,10 +1125,6 @@
                                     "year": 2019
                                 },
                                 {
-                                    "count": 9,
-                                    "year": 2026
-                                },
-                                {
                                     "count": 11,
                                     "year": 2016
                                 },
@@ -1143,6 +1139,10 @@
                                 {
                                     "count": 11,
                                     "year": 2025
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2026
                                 },
                                 {
                                     "count": 12,

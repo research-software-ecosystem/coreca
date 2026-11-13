@@ -36,29 +36,25 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1371/journal.pone.0118684",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/psychoprot",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N93734aa54d0642cd8d400a2e978efcbe"
+          "@id": "_:Na8ae1cbc9dba49dda7b924507213a263"
         },
         {
-          "@id": "_:N71b0243534004629b801b68da8e600c6"
+          "@id": "_:Nd463b2c38bcc4700b17da49bb532bbf7"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3ede62baa67d499f9c4095f7340a1a73"
+          "@id": "_:N8586c15c58c749eab45c085bc0cb469e"
         },
         {
-          "@id": "_:N55f2881f8ac442f185e7145a69fbe702"
+          "@id": "_:Ne2fa663dbba14877a4f84f38e1491e67"
         },
         {
-          "@id": "_:N3f5eee43c0c74a2f905667bb91c3e5e3"
+          "@id": "_:N7e13c73ff8274baa899d1c06434e320e"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -107,7 +103,7 @@
       "sc:url": "http://psychoprot.epfl.ch"
     },
     {
-      "@id": "_:N93734aa54d0642cd8d400a2e978efcbe",
+      "@id": "_:Na8ae1cbc9dba49dda7b924507213a263",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3154"
@@ -118,7 +114,7 @@
       "sc:name": "Protein alignment"
     },
     {
-      "@id": "_:N71b0243534004629b801b68da8e600c6",
+      "@id": "_:Nd463b2c38bcc4700b17da49bb532bbf7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -129,7 +125,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N3ede62baa67d499f9c4095f7340a1a73",
+      "@id": "_:N8586c15c58c749eab45c085bc0cb469e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -137,7 +133,7 @@
       "sc:name": "Mathematical model"
     },
     {
-      "@id": "_:N55f2881f8ac442f185e7145a69fbe702",
+      "@id": "_:Ne2fa663dbba14877a4f84f38e1491e67",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2087"
@@ -145,12 +141,16 @@
       "sc:name": "Molecular property"
     },
     {
-      "@id": "_:N3f5eee43c0c74a2f905667bb91c3e5e3",
+      "@id": "_:N7e13c73ff8274baa899d1c06434e320e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
       },
       "sc:name": "Plot"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0118684",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

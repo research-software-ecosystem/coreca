@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/redhom",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N36d4fa1005034b3fbe2e307edb30dbb6"
+        "@id": "_:N06048dd73a9c4e4e818f73073dfc7b38"
       },
       "bsc:output": {
-        "@id": "_:N50a5ae49395d459780b9c6ecba9318e1"
+        "@id": "_:N908279b36c1f4a938f05e59418071e1d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -76,7 +76,7 @@
       "sc:url": "http://cbs.dtu.dk/services/RedHom/"
     },
     {
-      "@id": "_:N36d4fa1005034b3fbe2e307edb30dbb6",
+      "@id": "_:N06048dd73a9c4e4e818f73073dfc7b38",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -87,7 +87,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N50a5ae49395d459780b9c6ecba9318e1",
+      "@id": "_:N908279b36c1f4a938f05e59418071e1d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

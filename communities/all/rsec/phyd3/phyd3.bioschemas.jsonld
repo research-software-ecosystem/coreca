@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx324",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/phyd3",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -44,18 +48,18 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N7e863d5b2b4e426c9478f2f3dff8e8f0"
+          "@id": "_:N058032d0d66742378a5c67788b7a5075"
         },
         {
-          "@id": "_:N4c5914f29c944bd980bd20de495a93ce"
+          "@id": "_:Nb7ffed677a674572b06df4ebffeffce6"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf8dc111eab5049999f8b6a9736222666"
+          "@id": "_:Na59eaee039b94c1093f01433e3c8fb93"
         },
         {
-          "@id": "_:N28fe254b230f4d0b92994e9e99c9dea6"
+          "@id": "_:Nd6f8e1dac41b4fa487205232a7bf5b73"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -100,7 +104,7 @@
       "sc:url": "https://phyd3.bits.vib.be"
     },
     {
-      "@id": "_:N7e863d5b2b4e426c9478f2f3dff8e8f0",
+      "@id": "_:N058032d0d66742378a5c67788b7a5075",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -116,7 +120,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N4c5914f29c944bd980bd20de495a93ce",
+      "@id": "_:Nb7ffed677a674572b06df4ebffeffce6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2337"
@@ -127,7 +131,7 @@
       "sc:name": "Resource metadata"
     },
     {
-      "@id": "_:Nf8dc111eab5049999f8b6a9736222666",
+      "@id": "_:Na59eaee039b94c1093f01433e3c8fb93",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1707"
@@ -135,7 +139,7 @@
       "sc:name": "Phylogenetic tree image"
     },
     {
-      "@id": "_:N28fe254b230f4d0b92994e9e99c9dea6",
+      "@id": "_:Nd6f8e1dac41b4fa487205232a7bf5b73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -144,10 +148,6 @@
         "@id": "edam:format_3159"
       },
       "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btx324",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

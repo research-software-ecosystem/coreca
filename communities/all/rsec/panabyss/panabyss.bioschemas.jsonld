@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0009-0002-3966-0906",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/panabyss",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,9 +47,17 @@
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
-      "sc:applicationSubCategory": {
-        "@id": "edam:topic_0080"
-      },
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0797"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0160"
+        }
+      ],
       "sc:description": "PanAbyss is a tool for exploring and visualizing pangenome graphs. It allows users to search for and display regions of a pangenome using coordinates on a reference individual or based on annotations. It also enables searching for regions associated with a selected set of individuals (for example, those linked to a phenotype), computing proximity trees, and retrieving sequences from a given region.",
       "sc:isAccessibleForFree": true,
       "sc:license": "GPL-3.0",
@@ -55,15 +67,12 @@
         "Mac",
         "Windows"
       ],
+      "sc:provider": "GenoToul bioinformatics facility",
       "sc:softwareHelp": {
         "@id": "https://github.com/Pange31/PanAbyss/wiki"
       },
       "sc:softwareVersion": "1.4.0",
       "sc:url": "https://github.com/Pange31/PanAbyss"
-    },
-    {
-      "@id": "https://orcid.org/0009-0002-3966-0906",
-      "@type": "sc:Organization"
     }
   ]
 }

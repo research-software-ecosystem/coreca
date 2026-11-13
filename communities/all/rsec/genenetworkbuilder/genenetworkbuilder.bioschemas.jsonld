@@ -84,7 +84,7 @@
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/ChIPpeakAnno"
       },
-      "sc:softwareVersion": "3.46.0",
+      "sc:softwareVersion": "3.46.1",
       "sc:url": "https://bioconductor.org/packages/ChIPpeakAnno"
     }
   ]

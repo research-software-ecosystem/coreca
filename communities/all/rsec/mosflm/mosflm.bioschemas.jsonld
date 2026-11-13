@@ -40,7 +40,7 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Andrew G.W. Leslie",
       "bsc:input": {
-        "@id": "_:Nc8e98313f0444e1ab374475284e7ea05"
+        "@id": "_:Ne4d2ebaf8c9a4a5399ba724597c50837"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -80,7 +80,7 @@
       "sc:url": "http://www.mrc-lmb.cam.ac.uk/harry/mosflm/index.html"
     },
     {
-      "@id": "_:Nc8e98313f0444e1ab374475284e7ea05",
+      "@id": "_:Ne4d2ebaf8c9a4a5399ba724597c50837",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0937"

@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Raivo Kolde",
       "bsc:input": {
-        "@id": "_:Na2a551eeb9a142fda5656407ea78fa5e"
+        "@id": "_:N431b9769b6d644108c0c55d219f4faf3"
       },
       "bsc:output": [
         {
-          "@id": "_:Nc5862561ac6a4987a4266b23d5c668b5"
+          "@id": "_:Nee9550f5746b46d3844eb31f4a4021e2"
         },
         {
-          "@id": "_:N69761e39c71c4be48662b2192d698ea6"
+          "@id": "_:Ne0b7c2a7cd244769bb1a72434f86fa71"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,7 +89,7 @@
       "sc:url": "http://cran.r-project.org/web/packages/RobustRankAggreg/"
     },
     {
-      "@id": "_:Na2a551eeb9a142fda5656407ea78fa5e",
+      "@id": "_:N431b9769b6d644108c0c55d219f4faf3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2872"
@@ -97,7 +97,7 @@
       "sc:name": "ID list"
     },
     {
-      "@id": "_:Nc5862561ac6a4987a4266b23d5c668b5",
+      "@id": "_:Nee9550f5746b46d3844eb31f4a4021e2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2872"
@@ -105,7 +105,7 @@
       "sc:name": "ID list"
     },
     {
-      "@id": "_:N69761e39c71c4be48662b2192d698ea6",
+      "@id": "_:Ne0b7c2a7cd244769bb1a72434f86fa71",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"

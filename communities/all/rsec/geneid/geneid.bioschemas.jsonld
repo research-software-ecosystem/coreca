@@ -36,14 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0001-6261-7370",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1101/gr.10.4.511",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/geneid",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -51,10 +43,10 @@
         "Support"
       ],
       "bsc:input": {
-        "@id": "_:Ne512ac22bca34431abe801f915998c84"
+        "@id": "_:N9f5dd0ac21bd49cdba99c7caa7183032"
       },
       "bsc:output": {
-        "@id": "_:N338d4e02141245368db8ef0bd7b70c19"
+        "@id": "_:N01723545586c4519b73ae28bc78b8e0f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -119,7 +111,7 @@
       "sc:url": "http://genome.crg.es/software/geneid/index.html"
     },
     {
-      "@id": "_:Ne512ac22bca34431abe801f915998c84",
+      "@id": "_:N9f5dd0ac21bd49cdba99c7caa7183032",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -127,7 +119,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N338d4e02141245368db8ef0bd7b70c19",
+      "@id": "_:N01723545586c4519b73ae28bc78b8e0f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -135,8 +127,16 @@
       "sc:name": "Nucleic acid features"
     },
     {
+      "@id": "https://doi.org/10.1101/gr.10.4.511",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1002/0471250953.bi0403s18",
       "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-6261-7370",
+      "@type": "sc:Person"
     }
   ]
 }

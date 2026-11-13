@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Söding Lab",
       "bsc:input": {
-        "@id": "_:N3da8d5c119864768b5338ec324570254"
+        "@id": "_:Ndb4240df3f394140bfc23d8eaf3ebf1c"
       },
       "bsc:output": {
-        "@id": "_:Nf794074bf1c445aabb9a3bf058301e20"
+        "@id": "_:Nef9546c4753c42ddae29374e5b7cfba8"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -101,7 +101,7 @@
       "sc:url": "https://mmseqs.com"
     },
     {
-      "@id": "_:N3da8d5c119864768b5338ec324570254",
+      "@id": "_:Ndb4240df3f394140bfc23d8eaf3ebf1c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -117,7 +117,7 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:Nf794074bf1c445aabb9a3bf058301e20",
+      "@id": "_:Nef9546c4753c42ddae29374e5b7cfba8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1235"

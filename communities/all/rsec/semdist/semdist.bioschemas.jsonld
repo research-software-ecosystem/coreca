@@ -36,25 +36,29 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.SemDist",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/semdist",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N07efc8bf5b2e4af18d8ce120a91b7b47"
+          "@id": "_:Nd4531453ffcd4cc58b23082e93327327"
         },
         {
-          "@id": "_:N6656650740584f57ae44d72fa9ca1449"
+          "@id": "_:N805a5d0c8175463d99e3c999fbc1e7fa"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf135a5ea629c433b960b8196bff04f60"
+          "@id": "_:N489801ae3773453dbda590fb02a4f5df"
         },
         {
-          "@id": "_:Nb3f959e3155848618b24703a32062949"
+          "@id": "_:N7d7da0b01e834e699fea430c5b071bc9"
         },
         {
-          "@id": "_:N6e7b4a974be841b1ac12d3fd5f613512"
+          "@id": "_:N821f93ff90144d40adcab5a83e686bdf"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -96,7 +100,7 @@
       "sc:url": "https://bioconductor.org/packages/SemDist"
     },
     {
-      "@id": "_:N07efc8bf5b2e4af18d8ce120a91b7b47",
+      "@id": "_:Nd4531453ffcd4cc58b23082e93327327",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0582"
@@ -112,7 +116,7 @@
       "sc:name": "Ontology"
     },
     {
-      "@id": "_:N6656650740584f57ae44d72fa9ca1449",
+      "@id": "_:N805a5d0c8175463d99e3c999fbc1e7fa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -128,7 +132,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nf135a5ea629c433b960b8196bff04f60",
+      "@id": "_:N489801ae3773453dbda590fb02a4f5df",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -144,7 +148,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nb3f959e3155848618b24703a32062949",
+      "@id": "_:N7d7da0b01e834e699fea430c5b071bc9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -160,7 +164,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N6e7b4a974be841b1ac12d3fd5f613512",
+      "@id": "_:N821f93ff90144d40adcab5a83e686bdf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -174,10 +178,6 @@
         }
       ],
       "sc:name": "Score"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.SemDist",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

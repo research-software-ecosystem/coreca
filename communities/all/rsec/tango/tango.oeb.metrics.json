@@ -15,8 +15,12 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 761,
+                            "cit_count": 768,
                             "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2004
+                                },
                                 {
                                     "count": 4,
                                     "year": 2006
@@ -78,10 +82,6 @@
                                     "year": 2014
                                 },
                                 {
-                                    "count": 38,
-                                    "year": 2026
-                                },
-                                {
                                     "count": 40,
                                     "year": 2017
                                 },
@@ -90,30 +90,79 @@
                                     "year": 2023
                                 },
                                 {
-                                    "count": 45,
-                                    "year": 2022
+                                    "count": 41,
+                                    "year": 2026
                                 },
                                 {
-                                    "count": 47,
-                                    "year": 2020
+                                    "count": 45,
+                                    "year": 2022
                                 },
                                 {
                                     "count": 47,
                                     "year": 2025
                                 },
                                 {
+                                    "count": 49,
+                                    "year": 2020
+                                },
+                                {
                                     "count": 54,
                                     "year": 2024
                                 },
                                 {
-                                    "count": 62,
+                                    "count": 63,
                                     "year": 2021
                                 }
                             ],
                             "doi": "10.1038/nbt1012",
                             "pmid": "15361882",
-                            "ref_count": 0,
-                            "refs": [],
+                            "ref_count": 27,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 1975
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1993
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1996
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1998
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 1999
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 1995
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 1997
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2001
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2002
+                                }
+                            ],
                             "title": "Prediction of sequence-dependent and mutational effects on the aggregation of peptides and proteins.",
                             "year": 2004
                         }

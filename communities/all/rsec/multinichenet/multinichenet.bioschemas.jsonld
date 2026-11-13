@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/multinichenet",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N332748df0abd44bbb4812513ba2fbf4d"
+        "@id": "_:N5d517f071c4747e09614cdc1d7b0e140"
       },
       "bsc:output": {
-        "@id": "_:Nefd169741bb742c4ac5afb66cc2cc850"
+        "@id": "_:N9aceddbde90b4f3b9126b128b1d43a53"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -88,7 +88,7 @@
       "sc:url": "https://github.com/saeyslab/multinichenetr"
     },
     {
-      "@id": "_:N332748df0abd44bbb4812513ba2fbf4d",
+      "@id": "_:N5d517f071c4747e09614cdc1d7b0e140",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -96,7 +96,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:Nefd169741bb742c4ac5afb66cc2cc850",
+      "@id": "_:N9aceddbde90b4f3b9126b128b1d43a53",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"

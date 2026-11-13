@@ -44,21 +44,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N6ade1621c2f14082a1891fe70974fe27"
+          "@id": "_:N9e6bd0ac81bc454483d8c768ec1921f5"
         },
         {
-          "@id": "_:Ne2f639bc371b49cfa2fc44f65c89d4b1"
+          "@id": "_:N4981fcf9d52b40bda7da7c694e153fe1"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ncd720604d73e459c8529050cab66befe"
+          "@id": "_:N5f02d4e7b0324258b5ca734728e4eff4"
         },
         {
-          "@id": "_:N379463b3f0974da1bb07f9480a3fb9f0"
+          "@id": "_:N33179940930f453ebb8722be8848eafc"
         },
         {
-          "@id": "_:Ne9e202b9acf14e77a582ce8c4b6ef532"
+          "@id": "_:N88620d9d662747bd836878d736a88457"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -112,7 +112,7 @@
       "sc:url": "http://zzdlab.com/PlaASDB/ASDB/index.html"
     },
     {
-      "@id": "_:N6ade1621c2f14082a1891fe70974fe27",
+      "@id": "_:N9e6bd0ac81bc454483d8c768ec1921f5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -120,7 +120,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:Ne2f639bc371b49cfa2fc44f65c89d4b1",
+      "@id": "_:N4981fcf9d52b40bda7da7c694e153fe1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -128,7 +128,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:Ncd720604d73e459c8529050cab66befe",
+      "@id": "_:N5f02d4e7b0324258b5ca734728e4eff4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1176"
@@ -136,7 +136,7 @@
       "sc:name": "GO concept ID"
     },
     {
-      "@id": "_:N379463b3f0974da1bb07f9480a3fb9f0",
+      "@id": "_:N33179940930f453ebb8722be8848eafc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -144,7 +144,7 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:Ne9e202b9acf14e77a582ce8c4b6ef532",
+      "@id": "_:N88620d9d662747bd836878d736a88457",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0897"

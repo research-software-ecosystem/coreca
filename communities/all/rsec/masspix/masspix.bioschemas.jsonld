@@ -41,18 +41,18 @@
       "biotools:primaryContact": "Julian L. Griffin",
       "bsc:input": [
         {
-          "@id": "_:Nc88077b418604fe49807871bbe1f2642"
+          "@id": "_:Nef0d7bb243d8430bad4684766d88aaba"
         },
         {
-          "@id": "_:N5f429544cd7e426ea68376617c141e32"
+          "@id": "_:Nc229aeff0b7e452caf8bd65802ba5558"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N27fad157089b48238345377506619a0b"
+          "@id": "_:Nb411390295b04644937900ac50092f73"
         },
         {
-          "@id": "_:Na046851dbdf64f07a844ab186c8f71e2"
+          "@id": "_:Nae92fc1e9807460db318f0ba35d6ef3e"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -105,7 +105,7 @@
       "sc:url": "https://github.com/hallz/massPix"
     },
     {
-      "@id": "_:Nc88077b418604fe49807871bbe1f2642",
+      "@id": "_:Nef0d7bb243d8430bad4684766d88aaba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2850"
@@ -116,7 +116,7 @@
       "sc:name": "Lipid structure"
     },
     {
-      "@id": "_:N5f429544cd7e426ea68376617c141e32",
+      "@id": "_:Nc229aeff0b7e452caf8bd65802ba5558",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -127,7 +127,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N27fad157089b48238345377506619a0b",
+      "@id": "_:Nb411390295b04644937900ac50092f73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -143,7 +143,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Na046851dbdf64f07a844ab186c8f71e2",
+      "@id": "_:Nae92fc1e9807460db318f0ba35d6ef3e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

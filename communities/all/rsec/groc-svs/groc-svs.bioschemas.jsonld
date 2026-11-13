@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.4366",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/groc-svs",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9d77f7b5695e4b40b62c4a5a9fc629fe"
+        "@id": "_:Ne7982f0b064f4df6a510b20c201155d0"
       },
       "bsc:output": {
-        "@id": "_:N068bacbe8d7840698c6c1d4861046c24"
+        "@id": "_:N478eeafca0164df7b26eeeb6cbe85b13"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -91,7 +87,7 @@
       "sc:url": "https://github.com/grocsvs/grocsvs"
     },
     {
-      "@id": "_:N9d77f7b5695e4b40b62c4a5a9fc629fe",
+      "@id": "_:Ne7982f0b064f4df6a510b20c201155d0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2337"
@@ -102,7 +98,7 @@
       "sc:name": "Resource metadata"
     },
     {
-      "@id": "_:N068bacbe8d7840698c6c1d4861046c24",
+      "@id": "_:N478eeafca0164df7b26eeeb6cbe85b13",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -111,6 +107,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Sequence report"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.4366",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

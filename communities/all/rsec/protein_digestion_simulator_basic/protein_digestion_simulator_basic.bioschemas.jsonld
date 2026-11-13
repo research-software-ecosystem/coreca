@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/protein_digestion_simulator_basic",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0eaaaca7d7a1420694cec3828ba30274"
+        "@id": "_:N656d6f4029b240e3a5fd92d1fd9c9272"
       },
       "bsc:output": {
-        "@id": "_:Ncb16ac5245f04a2c80da1e3a81150f00"
+        "@id": "_:N2a6486d819324270901fafb5f71cf09b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -73,7 +73,7 @@
       "sc:url": "http://omics.pnl.gov/software/protein-digestion-simulator"
     },
     {
-      "@id": "_:N0eaaaca7d7a1420694cec3828ba30274",
+      "@id": "_:N656d6f4029b240e3a5fd92d1fd9c9272",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -89,7 +89,7 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:Ncb16ac5245f04a2c80da1e3a81150f00",
+      "@id": "_:N2a6486d819324270901fafb5f71cf09b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1238"

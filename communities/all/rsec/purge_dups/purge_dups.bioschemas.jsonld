@@ -40,22 +40,18 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://doi.org/10.1101/729962",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/purge_dups",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N232e071c1158464e901d1ef5af793014"
+          "@id": "_:N14be1354295a4973b09c478439ceef33"
         },
         {
-          "@id": "_:N18ed49b5a5f44b06a299e853bab7fdfd"
+          "@id": "_:Nc4e3e35752d74fa3a1aeb3694892bab3"
         }
       ],
       "bsc:output": {
-        "@id": "_:N98b10b260b7744cfbd827cdc7cfd7a16"
+        "@id": "_:N24f3f3619ee4409dae663ec70756d49b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": {
@@ -90,7 +86,7 @@
       "sc:url": "https://github.com/dfguan/purge_dups"
     },
     {
-      "@id": "_:N232e071c1158464e901d1ef5af793014",
+      "@id": "_:N14be1354295a4973b09c478439ceef33",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -101,7 +97,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:N18ed49b5a5f44b06a299e853bab7fdfd",
+      "@id": "_:Nc4e3e35752d74fa3a1aeb3694892bab3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -112,7 +108,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:N98b10b260b7744cfbd827cdc7cfd7a16",
+      "@id": "_:N24f3f3619ee4409dae663ec70756d49b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -121,6 +117,10 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence set (nucleic acid)"
+    },
+    {
+      "@id": "https://doi.org/10.1101/729962",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

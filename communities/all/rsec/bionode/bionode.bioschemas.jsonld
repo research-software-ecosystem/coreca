@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Bionode Team",
       "bsc:input": {
-        "@id": "_:N292ceb580dca480ba2aa38130fdbde6a"
+        "@id": "_:Nb3b4395e64fc4b95b6b7d835f280b629"
       },
       "bsc:output": {
-        "@id": "_:Nf5ff06acc1ff4171a9c1d2cdc1cc4755"
+        "@id": "_:N638841d92686493cbd2d2232f88c86d8"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -74,7 +74,7 @@
       "sc:url": "http://bionode.io"
     },
     {
-      "@id": "_:N292ceb580dca480ba2aa38130fdbde6a",
+      "@id": "_:Nb3b4395e64fc4b95b6b7d835f280b629",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -82,7 +82,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Nf5ff06acc1ff4171a9c1d2cdc1cc4755",
+      "@id": "_:N638841d92686493cbd2d2232f88c86d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"

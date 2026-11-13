@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Panagiotis Moulos",
       "bsc:input": {
-        "@id": "_:N1c181f5f887441dea1a5f676ba015c2e"
+        "@id": "_:N5260593fb3ba4b529cf4df737ec4d81a"
       },
       "bsc:output": {
-        "@id": "_:N408e6b92f6bc456eaf1da1d9ae2a956a"
+        "@id": "_:Nc7872fc31c8240b3829dc74eed532dd6"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -83,7 +83,7 @@
       "sc:url": "https://www.bioconductor.org/packages/release/bioc/html/metaseqR.html"
     },
     {
-      "@id": "_:N1c181f5f887441dea1a5f676ba015c2e",
+      "@id": "_:N5260593fb3ba4b529cf4df737ec4d81a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -99,7 +99,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N408e6b92f6bc456eaf1da1d9ae2a956a",
+      "@id": "_:Nc7872fc31c8240b3829dc74eed532dd6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"

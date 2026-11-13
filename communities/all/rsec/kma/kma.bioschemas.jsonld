@@ -36,26 +36,30 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/s12859-018-2336-6",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/kma",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc6a24aa3b8ce480f93086a30a5f2973a"
+        "@id": "_:Nadabf8b8a83942cc9da63ef0ca6a70b7"
       },
       "bsc:output": [
         {
-          "@id": "_:N63a82d7bf69d4e70a86ecd9f8d63cb28"
+          "@id": "_:N36ed23ab5dc64b24b1d9d680056fc1e9"
         },
         {
-          "@id": "_:Nd250711d10684617b1637e09b7d952b9"
+          "@id": "_:N002b9df1c1b74c7189a99c55f92c7cdc"
         },
         {
-          "@id": "_:N45ba769547f141a9afb6cc77ac73dd18"
+          "@id": "_:N9c69cef1001146fe90aaa71b4fa2a3c7"
         },
         {
-          "@id": "_:N1d43a26edd714cf485f491d291a2de0f"
+          "@id": "_:Nccca93f4ffb940bd8ad8cec01a97bdf6"
         },
         {
-          "@id": "_:Na1c0f27b041d4de18387ca2143fe31c9"
+          "@id": "_:N907593e1ef4d459aaa42076fd2d1a909"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,7 +93,7 @@
       "sc:url": "https://bitbucket.org/genomicepidemiology/kma/src/master/"
     },
     {
-      "@id": "_:Nc6a24aa3b8ce480f93086a30a5f2973a",
+      "@id": "_:Nadabf8b8a83942cc9da63ef0ca6a70b7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -105,7 +109,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N63a82d7bf69d4e70a86ecd9f8d63cb28",
+      "@id": "_:N36ed23ab5dc64b24b1d9d680056fc1e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3917"
@@ -116,7 +120,7 @@
       "sc:name": "Count matrix"
     },
     {
-      "@id": "_:Nd250711d10684617b1637e09b7d952b9",
+      "@id": "_:N002b9df1c1b74c7189a99c55f92c7cdc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2019"
@@ -127,7 +131,7 @@
       "sc:name": "Map data"
     },
     {
-      "@id": "_:N45ba769547f141a9afb6cc77ac73dd18",
+      "@id": "_:N9c69cef1001146fe90aaa71b4fa2a3c7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -138,7 +142,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N1d43a26edd714cf485f491d291a2de0f",
+      "@id": "_:Nccca93f4ffb940bd8ad8cec01a97bdf6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -149,7 +153,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Na1c0f27b041d4de18387ca2143fe31c9",
+      "@id": "_:N907593e1ef4d459aaa42076fd2d1a909",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0858"
@@ -158,10 +162,6 @@
         "@id": "edam:format_1915"
       },
       "sc:name": "Sequence signature matches"
-    },
-    {
-      "@id": "https://doi.org/10.1186/s12859-018-2336-6",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

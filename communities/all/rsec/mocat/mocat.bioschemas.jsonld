@@ -36,18 +36,26 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1371/journal.pone.0047656",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btw183",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/mocat",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Georg Zeller",
       "bsc:input": {
-        "@id": "_:N7275737325c943169aba27f71f4277d5"
+        "@id": "_:Na1aa153a61ea4915baee0a55171cc0fb"
       },
       "bsc:output": [
         {
-          "@id": "_:Na57daa6f9ea948439d44974edf8edae2"
+          "@id": "_:Nb03357affc5540d9bbe7134caf32ad29"
         },
         {
-          "@id": "_:N2ce46f9b907f416cb7a906168f771c66"
+          "@id": "_:N6752ff5c848c4ad988bf0ced872429ff"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -103,7 +111,7 @@
       "sc:url": "http://vm-lux.embl.de/~kultima/MOCAT/"
     },
     {
-      "@id": "_:N7275737325c943169aba27f71f4277d5",
+      "@id": "_:Na1aa153a61ea4915baee0a55171cc0fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2975"
@@ -119,7 +127,7 @@
       "sc:name": "Nucleic acid sequence (raw)"
     },
     {
-      "@id": "_:Na57daa6f9ea948439d44974edf8edae2",
+      "@id": "_:Nb03357affc5540d9bbe7134caf32ad29",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -130,7 +138,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N2ce46f9b907f416cb7a906168f771c66",
+      "@id": "_:N6752ff5c848c4ad988bf0ced872429ff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -139,14 +147,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence assembly"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btw183",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1371/journal.pone.0047656",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,87 +36,83 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s13321-016-0170-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/osdb_api",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Stuart J. Chalk",
       "bsc:input": [
         {
-          "@id": "_:Nf621dd4d1b894edfbff1ec28e5dc2cba"
+          "@id": "_:N540fffeb255147e0926559880c73e4d8"
         },
         {
-          "@id": "_:N9a95a8924b564498b2351bda012148e0"
+          "@id": "_:N252a358178294690bf2c12b954e58f78"
         },
         {
-          "@id": "_:Ne3e9e0264a7d472291bed874355328cd"
+          "@id": "_:N8805c50b540541d4b2dfd809d2e77d3d"
         },
         {
-          "@id": "_:Nf451c751b8a54094942bb14cdd0e4e70"
+          "@id": "_:Na8806271c9eb4464be0e48ec3c100705"
         },
         {
-          "@id": "_:Ncb8392b50f914e7fbf841e341e4e0b56"
+          "@id": "_:Nb96f94bd5bcd49c299b01149fe925757"
         },
         {
-          "@id": "_:Nd8362e421d6140b4988af9ad5998bc2c"
+          "@id": "_:N0ad2da4dbc444f038997b499992a10fe"
         },
         {
-          "@id": "_:Ne5cbbde762604a95b3ac933dbb5b7051"
+          "@id": "_:N6351b90fd8844c54838cf5a38e83e6fb"
         },
         {
-          "@id": "_:Nb2472c59751b4ee4a5ceffb3ac557186"
+          "@id": "_:N158b4adc2f17417590862d3656c5d2a6"
         },
         {
-          "@id": "_:N44ea9953e7dd42568b87391161ebbd7e"
+          "@id": "_:N49eae201474941298b8f4534a31ff800"
         },
         {
-          "@id": "_:N7d104bfa289b43f1a444e6cf7713ff5b"
+          "@id": "_:N83efbd0f75f34c748c0364821e15e237"
         },
         {
-          "@id": "_:Nca6f9a7ee290426696b7509a5998888f"
+          "@id": "_:N93ecb4d7b73647f2a98c8f5d4e467b92"
         },
         {
-          "@id": "_:Nb13141a899c047b58d810907ea537883"
+          "@id": "_:N7e6786e0748e456088607dabf4f34044"
         },
         {
-          "@id": "_:Ne741cf60ab83489893d1d532a0313111"
+          "@id": "_:Neb9b4b9b99e04ff0a4d420781511f8ce"
         },
         {
-          "@id": "_:Nc7da5593b0e5496a9fd801bc1df61c09"
+          "@id": "_:Ne69158e5a7d240b399699cde6afccbc7"
         },
         {
-          "@id": "_:Nc24b5ab2bbb5450499bb160e0ea47cdd"
+          "@id": "_:Ne59ed3f45e7647b2a34a0b0e46c20489"
         },
         {
-          "@id": "_:Nbc28de562bcf4ae29dac39f7a54983c0"
+          "@id": "_:N706c6ce2944e4a5bbaea5accb0de7f0e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9ea85a8fdfc748c999c58d628e2df4da"
+          "@id": "_:N517e063a07874173ac803a404dbff5b6"
         },
         {
-          "@id": "_:Na7f63f953a3f43fbb9d52044fd0757ba"
+          "@id": "_:Ndd5198cca1514526b88dd65e2f71252b"
         },
         {
-          "@id": "_:Nfab9ec5abf01448fb2e00e8225cbe5ce"
+          "@id": "_:Ne588e618d4f7440c94473dd6f782f1dc"
         },
         {
-          "@id": "_:N7b1d64f17e6c4afc84dfff69d85ad384"
+          "@id": "_:N312692dc27404c1fac78170cb6fe656e"
         },
         {
-          "@id": "_:N398663ff492746a8943d5478f77e8565"
+          "@id": "_:N3bc10b5fd2a24a05abfbd705ef4e709e"
         },
         {
-          "@id": "_:Na98527612afd48ad92723820985463ed"
+          "@id": "_:N84351c2b33114985b519e08185ee4892"
         },
         {
-          "@id": "_:N1cc4b3cbea674e93b24f3c5615fdd8d2"
+          "@id": "_:N33574fe2a692479d864e7320cad3e086"
         },
         {
-          "@id": "_:Nc31617197e3b4f62b937651fd88fa371"
+          "@id": "_:N44cf5c57a8654fa3b551d61fa795b2dc"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -147,7 +143,7 @@
       "sc:url": "http://osdb.info"
     },
     {
-      "@id": "_:Nf621dd4d1b894edfbff1ec28e5dc2cba",
+      "@id": "_:N540fffeb255147e0926559880c73e4d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -155,7 +151,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N9a95a8924b564498b2351bda012148e0",
+      "@id": "_:N252a358178294690bf2c12b954e58f78",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -163,7 +159,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ne3e9e0264a7d472291bed874355328cd",
+      "@id": "_:N8805c50b540541d4b2dfd809d2e77d3d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -171,7 +167,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf451c751b8a54094942bb14cdd0e4e70",
+      "@id": "_:Na8806271c9eb4464be0e48ec3c100705",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -179,7 +175,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ncb8392b50f914e7fbf841e341e4e0b56",
+      "@id": "_:Nb96f94bd5bcd49c299b01149fe925757",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -187,7 +183,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nd8362e421d6140b4988af9ad5998bc2c",
+      "@id": "_:N0ad2da4dbc444f038997b499992a10fe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -195,7 +191,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ne5cbbde762604a95b3ac933dbb5b7051",
+      "@id": "_:N6351b90fd8844c54838cf5a38e83e6fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -203,7 +199,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nb2472c59751b4ee4a5ceffb3ac557186",
+      "@id": "_:N158b4adc2f17417590862d3656c5d2a6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -211,7 +207,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N44ea9953e7dd42568b87391161ebbd7e",
+      "@id": "_:N49eae201474941298b8f4534a31ff800",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -219,7 +215,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N7d104bfa289b43f1a444e6cf7713ff5b",
+      "@id": "_:N83efbd0f75f34c748c0364821e15e237",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -227,7 +223,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Nca6f9a7ee290426696b7509a5998888f",
+      "@id": "_:N93ecb4d7b73647f2a98c8f5d4e467b92",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -235,7 +231,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nb13141a899c047b58d810907ea537883",
+      "@id": "_:N7e6786e0748e456088607dabf4f34044",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -243,7 +239,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Ne741cf60ab83489893d1d532a0313111",
+      "@id": "_:Neb9b4b9b99e04ff0a4d420781511f8ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -251,7 +247,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nc7da5593b0e5496a9fd801bc1df61c09",
+      "@id": "_:Ne69158e5a7d240b399699cde6afccbc7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -259,7 +255,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Nc24b5ab2bbb5450499bb160e0ea47cdd",
+      "@id": "_:Ne59ed3f45e7647b2a34a0b0e46c20489",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -267,7 +263,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nbc28de562bcf4ae29dac39f7a54983c0",
+      "@id": "_:N706c6ce2944e4a5bbaea5accb0de7f0e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -275,7 +271,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N9ea85a8fdfc748c999c58d628e2df4da",
+      "@id": "_:N517e063a07874173ac803a404dbff5b6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -294,7 +290,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Na7f63f953a3f43fbb9d52044fd0757ba",
+      "@id": "_:Ndd5198cca1514526b88dd65e2f71252b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -313,7 +309,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nfab9ec5abf01448fb2e00e8225cbe5ce",
+      "@id": "_:Ne588e618d4f7440c94473dd6f782f1dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -321,7 +317,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N7b1d64f17e6c4afc84dfff69d85ad384",
+      "@id": "_:N312692dc27404c1fac78170cb6fe656e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -332,7 +328,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N398663ff492746a8943d5478f77e8565",
+      "@id": "_:N3bc10b5fd2a24a05abfbd705ef4e709e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -351,7 +347,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Na98527612afd48ad92723820985463ed",
+      "@id": "_:N84351c2b33114985b519e08185ee4892",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -370,7 +366,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N1cc4b3cbea674e93b24f3c5615fdd8d2",
+      "@id": "_:N33574fe2a692479d864e7320cad3e086",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -389,7 +385,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nc31617197e3b4f62b937651fd88fa371",
+      "@id": "_:N44cf5c57a8654fa3b551d61fa795b2dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -406,6 +402,10 @@
         }
       ],
       "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13321-016-0170-2",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/ccdigest",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N5d6a971f17d941dda7b6854a0a64b66d"
+        "@id": "_:N4ed73819312142e0b2bcb9eeeebcac77"
       },
       "bsc:output": {
-        "@id": "_:Nbb6f07b80ff548bdaa4416b14961af8c"
+        "@id": "_:N0e59516b291a405bae4642ae82d44253"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -62,7 +62,7 @@
       "sc:url": "https://www.massenspektrometrie.uni-osnabrueck.de/SoftwareTools/CC%3A%3Ain%20silico%20digestion.html"
     },
     {
-      "@id": "_:N5d6a971f17d941dda7b6854a0a64b66d",
+      "@id": "_:N4ed73819312142e0b2bcb9eeeebcac77",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -73,7 +73,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nbb6f07b80ff548bdaa4416b14961af8c",
+      "@id": "_:N0e59516b291a405bae4642ae82d44253",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

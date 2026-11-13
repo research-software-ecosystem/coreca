@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/rbbt-hts",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nbe75ed9c9c504993b1f95073e53fc0a5"
+        "@id": "_:Necb9e198a5f44150b90e5ac936585c15"
       },
       "bsc:output": {
-        "@id": "_:N809f6824d39e4cd0b3b9a58ed28189a2"
+        "@id": "_:N99e54b7ab0ad4830af166101e4b85496"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:description": "Workflow for variant calling and other functionalities",
@@ -61,7 +61,7 @@
       "sc:url": "https://github.com/Rbbt-Workflows/HTS"
     },
     {
-      "@id": "_:Nbe75ed9c9c504993b1f95073e53fc0a5",
+      "@id": "_:Necb9e198a5f44150b90e5ac936585c15",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -69,7 +69,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N809f6824d39e4cd0b3b9a58ed28189a2",
+      "@id": "_:N99e54b7ab0ad4830af166101e4b85496",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"

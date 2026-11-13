@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/ptv",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N326b48b765e2427f9bd862aae796fec9"
+        "@id": "_:N2a11bf96d60c4b7ea03b6362252ad0ef"
       },
       "bsc:output": [
         {
-          "@id": "_:N0b5cb0485a6d40698fc479cd0e45fbbf"
+          "@id": "_:Nd0a70d15331f4466b09117ebb0897c7d"
         },
         {
-          "@id": "_:N9ee7d583d7364eb6b589364e37af0b93"
+          "@id": "_:N65f4e65d33744a73be6a2b1634cff799"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -102,7 +102,7 @@
       "sc:url": "https://gitlab.pasteur.fr/vlegrand/ptv"
     },
     {
-      "@id": "_:N326b48b765e2427f9bd862aae796fec9",
+      "@id": "_:N2a11bf96d60c4b7ea03b6362252ad0ef",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -118,7 +118,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N0b5cb0485a6d40698fc479cd0e45fbbf",
+      "@id": "_:Nd0a70d15331f4466b09117ebb0897c7d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -129,7 +129,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N9ee7d583d7364eb6b589364e37af0b93",
+      "@id": "_:N65f4e65d33744a73be6a2b1634cff799",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0951"

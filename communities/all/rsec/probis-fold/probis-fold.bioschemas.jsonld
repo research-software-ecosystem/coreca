@@ -36,21 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/acs.jcim.2c00947",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/probis-fold",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N13cee5730d6842d68d29dca4a37ed5ad"
+          "@id": "_:N8f506ea9871e4470829b2716c5701401"
         },
         {
-          "@id": "_:N94bffe5dbf804fe2946bd260b89258ab"
+          "@id": "_:Nead417ef7e1a4f7d870c47d52dede00e"
         },
         {
-          "@id": "_:N81b855eff77643069ad07a1ec869d144"
+          "@id": "_:N9fd7aff43edf4e37ac08cde031ec70c3"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -100,7 +96,7 @@
       "sc:url": "http://probis-fold.insilab.org"
     },
     {
-      "@id": "_:N13cee5730d6842d68d29dca4a37ed5ad",
+      "@id": "_:N8f506ea9871e4470829b2716c5701401",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -108,7 +104,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N94bffe5dbf804fe2946bd260b89258ab",
+      "@id": "_:Nead417ef7e1a4f7d870c47d52dede00e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1008"
@@ -116,12 +112,16 @@
       "sc:name": "Polypeptide chain ID"
     },
     {
-      "@id": "_:N81b855eff77643069ad07a1ec869d144",
+      "@id": "_:N9fd7aff43edf4e37ac08cde031ec70c3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2764"
       },
       "sc:name": "Protein name (UniProt)"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acs.jcim.2c00947",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

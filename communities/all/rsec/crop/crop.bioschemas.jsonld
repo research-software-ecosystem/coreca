@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btq725",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -44,17 +44,17 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Na809d2fe94404a4990e92dd24c876d3a"
+        "@id": "_:N119b49d9b3b843118514697abba4f5b9"
       },
       "bsc:output": [
         {
-          "@id": "_:Ne69b86236ad14b5b8edfab9e3c49f36d"
+          "@id": "_:Ne01024be1d66402688ef3fa8ab20d527"
         },
         {
-          "@id": "_:N7f33197e21fe4e78a267e9222b43feb1"
+          "@id": "_:Nec1df61694404b9595da3159c0d0001d"
         },
         {
-          "@id": "_:Nbb2148fb8f5d4b4cafc53b1623c3d4c1"
+          "@id": "_:Nf893f2cb386f42a48cb144961f2347af"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -102,7 +102,7 @@
       "sc:url": "https://code.google.com/archive/p/crop-tingchenlab/"
     },
     {
-      "@id": "_:Na809d2fe94404a4990e92dd24c876d3a",
+      "@id": "_:N119b49d9b3b843118514697abba4f5b9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -113,7 +113,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Ne69b86236ad14b5b8edfab9e3c49f36d",
+      "@id": "_:Ne01024be1d66402688ef3fa8ab20d527",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -124,7 +124,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N7f33197e21fe4e78a267e9222b43feb1",
+      "@id": "_:Nec1df61694404b9595da3159c0d0001d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -135,7 +135,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nbb2148fb8f5d4b4cafc53b1623c3d4c1",
+      "@id": "_:Nf893f2cb386f42a48cb144961f2347af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -146,11 +146,11 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@id": "https://doi.org/10.1093/bioinformatics/btq725",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

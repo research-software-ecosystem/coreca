@@ -31,7 +31,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 481,
+                            "cit_count": 488,
                             "citations": [
                                 {
                                     "count": 3,
@@ -50,15 +50,15 @@
                                     "year": 2023
                                 },
                                 {
-                                    "count": 103,
-                                    "year": 2026
-                                },
-                                {
                                     "count": 104,
                                     "year": 2024
                                 },
                                 {
-                                    "count": 122,
+                                    "count": 109,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 123,
                                     "year": 2025
                                 }
                             ],

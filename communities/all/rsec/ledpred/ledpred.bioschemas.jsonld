@@ -44,21 +44,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd54230467e0647889499f596f5f50670"
+          "@id": "_:Ne4eda080b1064381a4b292cfa9452259"
         },
         {
-          "@id": "_:N651e57c76ddb4704ac794e7cfa468cb9"
+          "@id": "_:N277d01c117524be2a7916047ce134802"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N00dfd0ff9f144730994c305fffe433ba"
+          "@id": "_:N5d6e97d6a7514ab495018aca90d3cd85"
         },
         {
-          "@id": "_:N44f440e46547414b89461bc1e5a644fd"
+          "@id": "_:Nc15b8f276c9d4ee891900d4fbb2ea074"
         },
         {
-          "@id": "_:Ne618a506912d483db99101e78ec38182"
+          "@id": "_:N01194f788ba749268e472db7f481bd99"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -98,7 +98,7 @@
       "sc:url": "https://bioconductor.org/packages/LedPred"
     },
     {
-      "@id": "_:Nd54230467e0647889499f596f5f50670",
+      "@id": "_:Ne4eda080b1064381a4b292cfa9452259",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -117,7 +117,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N651e57c76ddb4704ac794e7cfa468cb9",
+      "@id": "_:N277d01c117524be2a7916047ce134802",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2854"
@@ -136,7 +136,7 @@
       "sc:name": "Position-specific scoring matrix"
     },
     {
-      "@id": "_:N00dfd0ff9f144730994c305fffe433ba",
+      "@id": "_:N5d6e97d6a7514ab495018aca90d3cd85",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -152,7 +152,7 @@
       "sc:name": "Mathematical model"
     },
     {
-      "@id": "_:N44f440e46547414b89461bc1e5a644fd",
+      "@id": "_:Nc15b8f276c9d4ee891900d4fbb2ea074",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -168,7 +168,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Ne618a506912d483db99101e78ec38182",
+      "@id": "_:N01194f788ba749268e472db7f481bd99",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

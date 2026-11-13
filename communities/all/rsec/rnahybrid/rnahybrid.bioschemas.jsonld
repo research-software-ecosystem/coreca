@@ -36,31 +36,35 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1261/rna.5248604",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/rnahybrid",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N6df45732446d4c54b7690c1d9e14565c"
+          "@id": "_:Nef1d1b5ec9af448aad4bd088d7695f28"
         },
         {
-          "@id": "_:N2518b74253ea463a83ed7e836d826b21"
+          "@id": "_:Nff019c0c42474818b85b07e73e824230"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N71f049c8dcb4470db4db39cc53bcd939"
+          "@id": "_:Ncf3d8082b85d476fbc2d7398c5113358"
         },
         {
-          "@id": "_:N191e424b024e464ca767c9d84047214b"
+          "@id": "_:N53cf09c071ef4aee916342247253692a"
         },
         {
-          "@id": "_:Ne03f52287e2b466cbf26e1077c7d5fa0"
+          "@id": "_:N79ff001fe52c4a80ba8b779bf96bad58"
         },
         {
-          "@id": "_:N0055b72fd4f9492fbd96649c9020a111"
+          "@id": "_:Na356c0b27b424d9da3441d4b1d07fbbb"
         },
         {
-          "@id": "_:N315371c53fb84624ba653ef134906e79"
+          "@id": "_:N7013f0e49dee4685aa5c6613418b27db"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -118,7 +122,7 @@
       "sc:url": "http://bibiserv.cebitec.uni-bielefeld.de/rnahybrid"
     },
     {
-      "@id": "_:N6df45732446d4c54b7690c1d9e14565c",
+      "@id": "_:Nef1d1b5ec9af448aad4bd088d7695f28",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2975"
@@ -152,7 +156,7 @@
       "sc:name": "Nucleic acid sequence (raw)"
     },
     {
-      "@id": "_:N2518b74253ea463a83ed7e836d826b21",
+      "@id": "_:Nff019c0c42474818b85b07e73e824230",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2975"
@@ -186,7 +190,7 @@
       "sc:name": "Nucleic acid sequence (raw)"
     },
     {
-      "@id": "_:N71f049c8dcb4470db4db39cc53bcd939",
+      "@id": "_:Ncf3d8082b85d476fbc2d7398c5113358",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1584"
@@ -194,7 +198,7 @@
       "sc:name": "Nucleic acid enthalpy"
     },
     {
-      "@id": "_:N191e424b024e464ca767c9d84047214b",
+      "@id": "_:N53cf09c071ef4aee916342247253692a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1584"
@@ -202,7 +206,7 @@
       "sc:name": "Nucleic acid enthalpy"
     },
     {
-      "@id": "_:Ne03f52287e2b466cbf26e1077c7d5fa0",
+      "@id": "_:N79ff001fe52c4a80ba8b779bf96bad58",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -210,7 +214,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N0055b72fd4f9492fbd96649c9020a111",
+      "@id": "_:Na356c0b27b424d9da3441d4b1d07fbbb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3128"
@@ -218,16 +222,12 @@
       "sc:name": "Nucleic acid structure report"
     },
     {
-      "@id": "_:N315371c53fb84624ba653ef134906e79",
+      "@id": "_:N7013f0e49dee4685aa5c6613418b27db",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0880"
       },
       "sc:name": "RNA secondary structure"
-    },
-    {
-      "@id": "https://doi.org/10.1261/rna.5248604",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

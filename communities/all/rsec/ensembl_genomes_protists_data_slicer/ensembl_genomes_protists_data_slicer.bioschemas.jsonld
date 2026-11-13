@@ -45,13 +45,13 @@
       "biotools:primaryContact": "Ensembl Genomes webteam",
       "bsc:input": [
         {
-          "@id": "_:N5f4e8ffdad624bc6a325dbbd7d56eb80"
+          "@id": "_:N716dc51c5307488b959a6fd282259ecf"
         },
         {
-          "@id": "_:N0161c94cc3054836ab2248c5c8843d6b"
+          "@id": "_:N930c181d6dd94981b2205c2fdb266de5"
         },
         {
-          "@id": "_:N38771c2085b54960aac78c3319691866"
+          "@id": "_:Na3af224ad1f5461082ff2faf14a7b7da"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -90,7 +90,7 @@
       "sc:url": "http://protists.ensembl.org/tools.html"
     },
     {
-      "@id": "_:N5f4e8ffdad624bc6a325dbbd7d56eb80",
+      "@id": "_:N716dc51c5307488b959a6fd282259ecf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -106,7 +106,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N0161c94cc3054836ab2248c5c8843d6b",
+      "@id": "_:N930c181d6dd94981b2205c2fdb266de5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -122,7 +122,7 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:N38771c2085b54960aac78c3319691866",
+      "@id": "_:Na3af224ad1f5461082ff2faf14a7b7da",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"

@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/msmstests",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc02be007268c4dd2864c091c796205e3"
+        "@id": "_:Nea4819006b8f48f49f6040697eea117a"
       },
       "bsc:output": [
         {
-          "@id": "_:N044da50292e44d99b4c8c9e951eb48fd"
+          "@id": "_:N556398b0ed1940f495c50e31aeb84b23"
         },
         {
-          "@id": "_:N98f3d63390d140f4bb39238ea620c59b"
+          "@id": "_:Nda69f6f2cf35477a96ed7b1904a64c81"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -90,7 +90,7 @@
           "@id": "edam:operation_2238"
         }
       ],
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "msmsTests",
       "sc:operatingSystem": [
         "Linux",
@@ -104,7 +104,7 @@
       "sc:url": "https://bioconductor.org/packages/msmsTests"
     },
     {
-      "@id": "_:Nc02be007268c4dd2864c091c796205e3",
+      "@id": "_:Nea4819006b8f48f49f6040697eea117a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -115,7 +115,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N044da50292e44d99b4c8c9e951eb48fd",
+      "@id": "_:N556398b0ed1940f495c50e31aeb84b23",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -126,7 +126,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N98f3d63390d140f4bb39238ea620c59b",
+      "@id": "_:Nda69f6f2cf35477a96ed7b1904a64c81",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

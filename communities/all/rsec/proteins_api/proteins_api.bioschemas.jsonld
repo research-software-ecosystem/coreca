@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkx237",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/proteins_api",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -44,18 +48,18 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N8dbea0d81b7b4eb58243db73643e4063"
+          "@id": "_:N5abd4661a1874d238e508eee7bfb95b4"
         },
         {
-          "@id": "_:N0e838c42a17c4475b84ca2f7ced76197"
+          "@id": "_:N736c7b710bfe45b09dd431f5fc641838"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2b927b89b4264867a595df2f722962ac"
+          "@id": "_:N5f33df6cbfbb423bbab59091ca131f94"
         },
         {
-          "@id": "_:N3c243b6c940d42139cd208fb0dbd13e9"
+          "@id": "_:N590c75766247439b90e8b5e7d85106a1"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -86,7 +90,7 @@
       "sc:url": "http://www.ebi.ac.uk/proteins/api"
     },
     {
-      "@id": "_:N8dbea0d81b7b4eb58243db73643e4063",
+      "@id": "_:N5abd4661a1874d238e508eee7bfb95b4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -94,7 +98,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N0e838c42a17c4475b84ca2f7ced76197",
+      "@id": "_:N736c7b710bfe45b09dd431f5fc641838",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -102,7 +106,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N2b927b89b4264867a595df2f722962ac",
+      "@id": "_:N5f33df6cbfbb423bbab59091ca131f94",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -121,7 +125,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N3c243b6c940d42139cd208fb0dbd13e9",
+      "@id": "_:N590c75766247439b90e8b5e7d85106a1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -138,10 +142,6 @@
         }
       ],
       "sc:name": "Data"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkx237",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

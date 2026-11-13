@@ -36,18 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1752-0509-7-96",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btaa1070",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.13140/RG.2.2.16985.21608",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pickle",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -56,13 +44,13 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N25de15fc54d541f3b4720911ba2b19e7"
+          "@id": "_:N4678ab92c91e45f7acb03d7c8ee814a8"
         },
         {
-          "@id": "_:Nce0891e9b0a74f939c5b3733ca9cc7c1"
+          "@id": "_:N5ae27b4c80ef412794dcef9c2b40f8b8"
         },
         {
-          "@id": "_:N121e100e88dd410f90abff88130f36a9"
+          "@id": "_:N6ee59f224dc644cbafaca8801ce59217"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -133,7 +121,7 @@
       "sc:url": "http://www.pickle.gr"
     },
     {
-      "@id": "_:N25de15fc54d541f3b4720911ba2b19e7",
+      "@id": "_:N4678ab92c91e45f7acb03d7c8ee814a8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2338"
@@ -141,7 +129,7 @@
       "sc:name": "Ontology identifier"
     },
     {
-      "@id": "_:Nce0891e9b0a74f939c5b3733ca9cc7c1",
+      "@id": "_:N5ae27b4c80ef412794dcef9c2b40f8b8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1009"
@@ -149,7 +137,7 @@
       "sc:name": "Protein name"
     },
     {
-      "@id": "_:N121e100e88dd410f90abff88130f36a9",
+      "@id": "_:N6ee59f224dc644cbafaca8801ce59217",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -160,7 +148,19 @@
       "sc:name": "Gene identifier"
     },
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btaa1070",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1752-0509-7-96",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1371/journal.pone.0186039",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.13140/RG.2.2.16985.21608",
       "@type": "sc:CreativeWork"
     }
   ]

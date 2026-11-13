@@ -36,12 +36,16 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s13007-018-0345-0",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "http://orcid.org/0000-0002-1669-6482",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7484-6031",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13007-018-0345-0",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/dinar",
@@ -51,24 +55,24 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N2b66226b7011476bbe8f515497fd8e1a"
+          "@id": "_:N161efd01699c448a9d11a9c2ac4854ca"
         },
         {
-          "@id": "_:N2cd595f33db941f0bed837e5e4475cce"
+          "@id": "_:N18992df93b494aa7bc4baa99faf6df08"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N4959376027f944798cf9e01d34b6d733"
+          "@id": "_:N9bc4e91394df43efa4e10bc1036c7698"
         },
         {
-          "@id": "_:N3a8f651f596448229b218ae9fc574bfe"
+          "@id": "_:N11410f4989ab40b6ab9352b424bf2c8d"
         },
         {
-          "@id": "_:Ncfda7f733b2d427cad1760bcd10b7a5e"
+          "@id": "_:N838c4bd6fea34ceaa54d24c49b70527f"
         },
         {
-          "@id": "_:N9432919da9014e41845d71d6aa37b564"
+          "@id": "_:Nf84bd3c6f378461d8f40fc5effb82a15"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -157,7 +161,7 @@
       "sc:url": "https://github.com/NIB-SI/DiNAR"
     },
     {
-      "@id": "_:N2b66226b7011476bbe8f515497fd8e1a",
+      "@id": "_:N161efd01699c448a9d11a9c2ac4854ca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -165,7 +169,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N2cd595f33db941f0bed837e5e4475cce",
+      "@id": "_:N18992df93b494aa7bc4baa99faf6df08",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -173,7 +177,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N4959376027f944798cf9e01d34b6d733",
+      "@id": "_:N9bc4e91394df43efa4e10bc1036c7698",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -181,7 +185,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N3a8f651f596448229b218ae9fc574bfe",
+      "@id": "_:N11410f4989ab40b6ab9352b424bf2c8d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -189,7 +193,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:Ncfda7f733b2d427cad1760bcd10b7a5e",
+      "@id": "_:N838c4bd6fea34ceaa54d24c49b70527f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -197,16 +201,12 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N9432919da9014e41845d71d6aa37b564",
+      "@id": "_:Nf84bd3c6f378461d8f40fc5effb82a15",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2984"
       },
       "sc:name": "Pathway or network report"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-7484-6031",
-      "@type": "sc:Person"
     }
   ]
 }

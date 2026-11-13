@@ -36,15 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1471-2105-6-252",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/coasim",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Thomas Mailund",
       "bsc:output": {
-        "@id": "_:N9c992b4dcb87414c96344d3b68e2ef59"
+        "@id": "_:N7679774b9e9449e78e356b6e34627000"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -76,12 +72,16 @@
       "sc:url": "http://users-birc.au.dk/mailund/CoaSim/"
     },
     {
-      "@id": "_:N9c992b4dcb87414c96344d3b68e2ef59",
+      "@id": "_:N7679774b9e9449e78e356b6e34627000",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
       },
       "sc:name": "Sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-6-252",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

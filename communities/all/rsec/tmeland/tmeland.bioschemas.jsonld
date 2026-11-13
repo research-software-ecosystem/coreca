@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1109/TCBB.2023.3285395",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1101/2023.06.07.543805",
       "@type": "sc:CreativeWork"
     },
@@ -97,10 +101,6 @@
         "Windows"
       ],
       "sc:url": "https://github.com/JieZheng-ShanghaiTech/TMELand"
-    },
-    {
-      "@id": "https://doi.org/10.1109/TCBB.2023.3285395",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

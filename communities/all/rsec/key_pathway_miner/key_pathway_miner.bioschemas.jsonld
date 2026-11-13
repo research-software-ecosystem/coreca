@@ -41,14 +41,14 @@
       "biotools:primaryContact": "Jan Baumbach",
       "bsc:input": [
         {
-          "@id": "_:Naf5857e8bde44380b67150ec9925e950"
+          "@id": "_:N9ac3d4ddedec476abdb25a0225dc9f8b"
         },
         {
-          "@id": "_:N7bcdc2d364ed4915a0090d6d75af1aec"
+          "@id": "_:N175b164e5dc3498fa353edb989309b3e"
         }
       ],
       "bsc:output": {
-        "@id": "_:N33f729e495b84e578c413490eb759870"
+        "@id": "_:N6a6ef2aca4c249eab51710993aadc6de"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -95,7 +95,7 @@
       "sc:url": "http://keypathwayminer.compbio.sdu.dk/"
     },
     {
-      "@id": "_:Naf5857e8bde44380b67150ec9925e950",
+      "@id": "_:N9ac3d4ddedec476abdb25a0225dc9f8b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -103,7 +103,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N7bcdc2d364ed4915a0090d6d75af1aec",
+      "@id": "_:N175b164e5dc3498fa353edb989309b3e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -111,7 +111,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N33f729e495b84e578c413490eb759870",
+      "@id": "_:N6a6ef2aca4c249eab51710993aadc6de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

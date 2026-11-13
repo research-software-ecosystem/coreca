@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/candycrunch",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N213421ee70e24442a45b8515832ecd38"
+        "@id": "_:Nf92198f70ab04fcda4ba2cfe0c273792"
       },
       "bsc:output": {
-        "@id": "_:Ne43f1791f62c42cd983b61163b1b6e3c"
+        "@id": "_:N73e63fc359a448adbdb5e00f88c665c1"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -72,7 +72,7 @@
       "sc:url": "https://github.com/BojarLab/CandyCrunch"
     },
     {
-      "@id": "_:N213421ee70e24442a45b8515832ecd38",
+      "@id": "_:Nf92198f70ab04fcda4ba2cfe0c273792",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -88,7 +88,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Ne43f1791f62c42cd983b61163b1b6e3c",
+      "@id": "_:N73e63fc359a448adbdb5e00f88c665c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

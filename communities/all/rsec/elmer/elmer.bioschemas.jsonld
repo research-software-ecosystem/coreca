@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Na0171d54ad434b9aaabb3eebf033a9d0"
+          "@id": "_:N3e1245373aa04cb7aaf439201a6d258e"
         },
         {
-          "@id": "_:Nbdb8c3e8bdd640309a64421182b05003"
+          "@id": "_:Nd6c69d07d73846e08d1e7c668632ec32"
         }
       ],
       "bsc:output": {
-        "@id": "_:N6bf2128173ff4563832a78b7eb16c78c"
+        "@id": "_:N151b21295aee4686a623933591b291b1"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -91,7 +91,7 @@
           "@id": "edam:operation_3204"
         }
       ],
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "ELMER",
       "sc:operatingSystem": [
         "Linux",
@@ -105,7 +105,7 @@
       "sc:url": "https://bioconductor.org/packages/ELMER"
     },
     {
-      "@id": "_:Na0171d54ad434b9aaabb3eebf033a9d0",
+      "@id": "_:N3e1245373aa04cb7aaf439201a6d258e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -116,7 +116,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Nbdb8c3e8bdd640309a64421182b05003",
+      "@id": "_:Nd6c69d07d73846e08d1e7c668632ec32",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3273"
@@ -127,7 +127,7 @@
       "sc:name": "Sample ID"
     },
     {
-      "@id": "_:N6bf2128173ff4563832a78b7eb16c78c",
+      "@id": "_:N151b21295aee4686a623933591b291b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

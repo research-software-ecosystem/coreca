@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/postre",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Neba5d8ec53c641bd92212ad871f799f7"
+        "@id": "_:Nbd2f737e46ca4584a76c6eb3eb9f211b"
       },
       "bsc:output": {
-        "@id": "_:N19102aa678ca4f58819661de7c138d58"
+        "@id": "_:Na48923fd53484d3b8634eaa92df543ee"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -96,7 +96,7 @@
       "sc:url": "https://github.com/vicsanga/Postre"
     },
     {
-      "@id": "_:Neba5d8ec53c641bd92212ad871f799f7",
+      "@id": "_:Nbd2f737e46ca4584a76c6eb3eb9f211b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -107,7 +107,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N19102aa678ca4f58819661de7c138d58",
+      "@id": "_:Na48923fd53484d3b8634eaa92df543ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3718"

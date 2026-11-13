@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Martin Prokop",
       "bsc:input": {
-        "@id": "_:N19995d713d3e43eaa96ba51e27e6f6a2"
+        "@id": "_:Na9956a54d5f64d2694de1300abc703bf"
       },
       "bsc:output": {
-        "@id": "_:N20b4c82c48f24039af505a66dac965c0"
+        "@id": "_:N81c733a3582849c49d3f9f9cfd5d8ea1"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -87,7 +87,7 @@
       "sc:url": "http://ncbr.chemi.muni.cz/triton/triton.html"
     },
     {
-      "@id": "_:N19995d713d3e43eaa96ba51e27e6f6a2",
+      "@id": "_:Na9956a54d5f64d2694de1300abc703bf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1759"
@@ -95,7 +95,7 @@
       "sc:name": "PDB model number"
     },
     {
-      "@id": "_:N20b4c82c48f24039af505a66dac965c0",
+      "@id": "_:N81c733a3582849c49d3f9f9cfd5d8ea1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

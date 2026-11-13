@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/clustalo_ws_jabaws",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3e5da9a2bf604c069856603ca827bbb8"
+        "@id": "_:N735f0e69e2d04b0fb2ddcfab6cf0d044"
       },
       "bsc:output": {
-        "@id": "_:N1059eee52d30492980a89f233e4cbb09"
+        "@id": "_:N4bde7618f7084e74ab3aba9736a2f6ce"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web service",
@@ -82,7 +82,7 @@
       "sc:url": "http://www.compbio.dundee.ac.uk/jabaws"
     },
     {
-      "@id": "_:N3e5da9a2bf604c069856603ca827bbb8",
+      "@id": "_:N735f0e69e2d04b0fb2ddcfab6cf0d044",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -93,7 +93,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N1059eee52d30492980a89f233e4cbb09",
+      "@id": "_:N4bde7618f7084e74ab3aba9736a2f6ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

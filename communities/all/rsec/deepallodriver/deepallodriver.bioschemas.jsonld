@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/deepallodriver",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N924ea2518e15428c8582ce2223790256"
+        "@id": "_:Nb5c41b5cdc5746cd968c7f1d59cbc613"
       },
       "bsc:output": {
-        "@id": "_:Nf9e7a6c75c5247398158b737eae80db8"
+        "@id": "_:Nfdc60baec2b54366ba238433d3b22a65"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -92,7 +92,7 @@
       "sc:url": "https://mdl.shsmu.edu.cn/DeepAlloDriver"
     },
     {
-      "@id": "_:N924ea2518e15428c8582ce2223790256",
+      "@id": "_:Nb5c41b5cdc5746cd968c7f1d59cbc613",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -103,7 +103,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nf9e7a6c75c5247398158b737eae80db8",
+      "@id": "_:Nfdc60baec2b54366ba238433d3b22a65",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

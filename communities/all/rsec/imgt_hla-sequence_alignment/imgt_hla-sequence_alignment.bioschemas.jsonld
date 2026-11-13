@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "James Robinson",
       "bsc:input": {
-        "@id": "_:Nacbdc0c43e574695b76bacf893b4a7da"
+        "@id": "_:Nf6a25e677fa24051bfe38783c3884fd1"
       },
       "bsc:output": {
-        "@id": "_:N8d07c804bb174504af7799d993125d2c"
+        "@id": "_:N87c7436f6fa44317aea77e102f1eb508"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -88,7 +88,7 @@
       "sc:url": "http://www.ebi.ac.uk/ipd/imgt/hla/align.html"
     },
     {
-      "@id": "_:Nacbdc0c43e574695b76bacf893b4a7da",
+      "@id": "_:Nf6a25e677fa24051bfe38783c3884fd1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -96,7 +96,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N8d07c804bb174504af7799d993125d2c",
+      "@id": "_:N87c7436f6fa44317aea77e102f1eb508",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

@@ -54,9 +54,9 @@
   },
   "http://schema.org/name": "Focal Adhesion Analysis Server",
   "http://schema.org/publisher": [
+    "Mathew E. Berginski",
     "Klaus M. Hahn",
     "Shawn M. Gomez",
-    "Eric A. Vitriol",
-    "Mathew E. Berginski"
+    "Eric A. Vitriol"
   ]
 }

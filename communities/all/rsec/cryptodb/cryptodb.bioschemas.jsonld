@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/cryptodb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3a4f9e6ee4514b12b5ba9123a6989eae"
+        "@id": "_:N33cca84cad834a30a0eacb9c755b7e17"
       },
       "bsc:output": {
-        "@id": "_:Nd62449a8c00f44038f4c76bf8d28a61a"
+        "@id": "_:N6f215f60610f4f38aae0948c7842357f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -77,7 +77,7 @@
       "sc:url": "http://cryptodb.org/cryptodb/"
     },
     {
-      "@id": "_:N3a4f9e6ee4514b12b5ba9123a6989eae",
+      "@id": "_:N33cca84cad834a30a0eacb9c755b7e17",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -85,7 +85,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:Nd62449a8c00f44038f4c76bf8d28a61a",
+      "@id": "_:N6f215f60610f4f38aae0948c7842357f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"

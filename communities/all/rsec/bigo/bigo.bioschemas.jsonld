@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1109/EMBC44109.2020.9175361",
+      "@id": "https://doi.org/10.1109/EMBC44109.2020.9176246",
       "@type": "sc:CreativeWork"
     },
     {
@@ -86,7 +86,7 @@
       "sc:url": "http://bigoprogram.eu"
     },
     {
-      "@id": "https://doi.org/10.1109/EMBC44109.2020.9176246",
+      "@id": "https://doi.org/10.1109/EMBC44109.2020.9175361",
       "@type": "sc:CreativeWork"
     }
   ]

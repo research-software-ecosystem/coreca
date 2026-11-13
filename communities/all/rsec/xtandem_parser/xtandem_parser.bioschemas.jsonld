@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/xtandem_parser",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N370fcc1999bd49569033290e66349312"
+        "@id": "_:Nbf8386a273074afcb4ac596f97187e40"
       },
       "bsc:output": [
         {
-          "@id": "_:N5061536948cd4b7caac3939b435244d2"
+          "@id": "_:N16cf72aea92c4d83bb562ba1d5afe547"
         },
         {
-          "@id": "_:N3d6df1813ce94492b05b8e0577a45b99"
+          "@id": "_:N1d78d9c149e24b68bf8a057782611d8b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,7 +92,7 @@
       "sc:url": "http://compomics.github.io/projects/xtandem-parser.html"
     },
     {
-      "@id": "_:N370fcc1999bd49569033290e66349312",
+      "@id": "_:Nbf8386a273074afcb4ac596f97187e40",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -103,7 +103,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N5061536948cd4b7caac3939b435244d2",
+      "@id": "_:N16cf72aea92c4d83bb562ba1d5afe547",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -114,7 +114,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N3d6df1813ce94492b05b8e0577a45b99",
+      "@id": "_:N1d78d9c149e24b68bf8a057782611d8b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"

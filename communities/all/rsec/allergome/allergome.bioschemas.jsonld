@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/allergome",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd92d9ad063624f11acd1244f59ade596"
+        "@id": "_:N979e324dc8c04150a3d476c3e2353109"
       },
       "bsc:output": {
-        "@id": "_:Na28e08a8a87a44869a4374f9438370cd"
+        "@id": "_:Nb6f900476ed14e28b3997346e9ea24e9"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -71,7 +71,7 @@
       "sc:url": "http://www.allergome.org/"
     },
     {
-      "@id": "_:Nd92d9ad063624f11acd1244f59ade596",
+      "@id": "_:N979e324dc8c04150a3d476c3e2353109",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -79,7 +79,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Na28e08a8a87a44869a4374f9438370cd",
+      "@id": "_:Nb6f900476ed14e28b3997346e9ea24e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

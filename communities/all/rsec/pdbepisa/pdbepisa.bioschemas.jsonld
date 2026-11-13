@@ -36,22 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/j.jmb.2007.05.022",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pdbepisa",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Michael Wainwright",
       "bsc:input": {
-        "@id": "_:N0042145f5ebd4ca293e8a1831d7981ec"
+        "@id": "_:Ne95dd6d715944821ac64490d684d5b10"
       },
       "bsc:output": [
         {
-          "@id": "_:Ndae098e6436a4add851fc9923f4e7b7e"
+          "@id": "_:Nd39863cc56d0444ab0042f263811ebb5"
         },
         {
-          "@id": "_:N0d0b94370c684f10a7b740ddb6151cea"
+          "@id": "_:Ne4b54bff33c948c6bf009ad68cf3a7e7"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -102,7 +98,7 @@
       "sc:url": "http://pdbe.org/pisa"
     },
     {
-      "@id": "_:N0042145f5ebd4ca293e8a1831d7981ec",
+      "@id": "_:Ne95dd6d715944821ac64490d684d5b10",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -113,7 +109,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:Ndae098e6436a4add851fc9923f4e7b7e",
+      "@id": "_:Nd39863cc56d0444ab0042f263811ebb5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -121,12 +117,16 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:N0d0b94370c684f10a7b740ddb6151cea",
+      "@id": "_:Ne4b54bff33c948c6bf009ad68cf3a7e7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
       },
       "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jmb.2007.05.022",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

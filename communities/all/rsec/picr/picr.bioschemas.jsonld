@@ -36,19 +36,23 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1471-2105-8-401",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/picr",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "PRIDE support",
       "bsc:input": [
         {
-          "@id": "_:Nc0d1adf310d84f338fe26992c3cc06f3"
+          "@id": "_:Nf78ed2eb679d4aeb9fda6fb77d96fd2d"
         },
         {
-          "@id": "_:N3411c371c18841a4819651d1bfce5c4d"
+          "@id": "_:N66bfc7d8931141a49702375a84d04355"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nff2aabbee517458aad93cd8c096caa6f"
+        "@id": "_:Na593fce0841e454f869ae1d9299c441f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -94,7 +98,7 @@
       "sc:url": "http://www.ebi.ac.uk/Tools/picr/"
     },
     {
-      "@id": "_:Nc0d1adf310d84f338fe26992c3cc06f3",
+      "@id": "_:Nf78ed2eb679d4aeb9fda6fb77d96fd2d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2907"
@@ -102,7 +106,7 @@
       "sc:name": "Protein accession"
     },
     {
-      "@id": "_:N3411c371c18841a4819651d1bfce5c4d",
+      "@id": "_:N66bfc7d8931141a49702375a84d04355",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -110,16 +114,12 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nff2aabbee517458aad93cd8c096caa6f",
+      "@id": "_:Na593fce0841e454f869ae1d9299c441f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2907"
       },
       "sc:name": "Protein accession"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1471-2105-8-401",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

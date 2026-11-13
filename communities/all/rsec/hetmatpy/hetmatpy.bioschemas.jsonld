@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/hetmatpy",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N492bbba0b4494146ab79180bf750ab18"
+        "@id": "_:N39616f89c32a47eb91dd71f541ebe41c"
       },
       "bsc:output": {
-        "@id": "_:N1c0bc44ef6994f7bb9044b1f52778bc0"
+        "@id": "_:Nfac83f4b6c644f1e8deb1fed89ebb52a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -83,7 +83,7 @@
       "sc:url": "https://github.com/hetio/hetmatpy"
     },
     {
-      "@id": "_:N492bbba0b4494146ab79180bf750ab18",
+      "@id": "_:N39616f89c32a47eb91dd71f541ebe41c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -91,7 +91,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N1c0bc44ef6994f7bb9044b1f52778bc0",
+      "@id": "_:Nfac83f4b6c644f1e8deb1fed89ebb52a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3917"

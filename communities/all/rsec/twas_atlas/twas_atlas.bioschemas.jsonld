@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N157beaad10784a61bd23a68b0790f523"
+          "@id": "_:Ne0f939445eba434c8021612e8e0c56bb"
         },
         {
-          "@id": "_:N4a4a284879364a0d9a65c3e841a6489c"
+          "@id": "_:Na54dd14eccfc468da55ba6dc5bc80396"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -98,7 +98,7 @@
       "sc:url": "https://ngdc.cncb.ac.cn/twas/"
     },
     {
-      "@id": "_:N157beaad10784a61bd23a68b0790f523",
+      "@id": "_:Ne0f939445eba434c8021612e8e0c56bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -106,7 +106,7 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "_:N4a4a284879364a0d9a65c3e841a6489c",
+      "@id": "_:Na54dd14eccfc468da55ba6dc5bc80396",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0920"

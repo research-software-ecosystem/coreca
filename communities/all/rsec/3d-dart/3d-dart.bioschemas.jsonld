@@ -36,8 +36,8 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkp287",
-      "@type": "sc:CreativeWork"
+      "@id": "http://orcid.org/0000-0001-7369-1322",
+      "@type": "sc:Organization"
     },
     {
       "@id": "https://bio.tools/3d-dart",
@@ -100,8 +100,8 @@
       "sc:url": "https://milou.science.uu.nl/services/3DDART/"
     },
     {
-      "@id": "http://orcid.org/0000-0001-7369-1322",
-      "@type": "sc:Organization"
+      "@id": "https://doi.org/10.1093/nar/gkp287",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

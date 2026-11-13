@@ -36,52 +36,56 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/s41592-020-01008-z",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/nnunet",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N900a68b4560640fbafb14283ddf0b818"
+          "@id": "_:Nd6dc6f3279774c929a4ed56101565f95"
         },
         {
-          "@id": "_:N056206ae99ea433a969d45c93712a9f1"
+          "@id": "_:N26929aa8e75c4eaba2947fb4de08a8b7"
         },
         {
-          "@id": "_:N99ff2e995e734fefbe4f89b22a4e3c5b"
+          "@id": "_:Na1ab871ef93d402795c2a25f8cbbb9fa"
         },
         {
-          "@id": "_:N10c8c2b36020441a9324fbecea4cc29e"
+          "@id": "_:N145f9bef11294663b95ec819dc75aacb"
         },
         {
-          "@id": "_:Nf5f7aaf188dc41a3acede216a841fbcd"
+          "@id": "_:N5af3292dbf384ca9ba89471968674d95"
         },
         {
-          "@id": "_:N367a325b1eae464d96bdcc17fcaeb2e3"
+          "@id": "_:N2141ba0840ff4eb6b422026142af7b0e"
         },
         {
-          "@id": "_:N345ad62c946b4fb8a56cf0a5d09fc6d2"
+          "@id": "_:N8eca06c80279412191c308d439487424"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N7412156f38df420485e48e28511443fd"
+          "@id": "_:Nce92fe31049e4a2285eea1d659ed2b4c"
         },
         {
-          "@id": "_:Nf5368299f3e74f5fae13d6b2a6535087"
+          "@id": "_:N6f19fc02c4aa48f3b8c564f1bd65a380"
         },
         {
-          "@id": "_:N134664b16dee402b9d2890a2c0bed414"
+          "@id": "_:N43c7b92339cb49cd8832dd921eef6bf0"
         },
         {
-          "@id": "_:Nc14e62c6056147a3ad687d677d21e975"
+          "@id": "_:Ncc7141fa25f14cb8ac4477e1c73500d5"
         },
         {
-          "@id": "_:N4d70b8a26eaf46919277f231020040d8"
+          "@id": "_:N3619e5b87da649368021b0104202dd43"
         },
         {
-          "@id": "_:Nbc47185ed85a4089901bd052e5fff33f"
+          "@id": "_:N46fc567ff48c4ead93160781c58ef63a"
         },
         {
-          "@id": "_:N092b4195f4d94fb0af087b188149e6b5"
+          "@id": "_:N5184909ebb554703a66159f113c36139"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -110,7 +114,7 @@
       "sc:url": "https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1"
     },
     {
-      "@id": "_:N900a68b4560640fbafb14283ddf0b818",
+      "@id": "_:Nd6dc6f3279774c929a4ed56101565f95",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -121,7 +125,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:N056206ae99ea433a969d45c93712a9f1",
+      "@id": "_:N26929aa8e75c4eaba2947fb4de08a8b7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -132,7 +136,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:N99ff2e995e734fefbe4f89b22a4e3c5b",
+      "@id": "_:Na1ab871ef93d402795c2a25f8cbbb9fa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -143,7 +147,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:N10c8c2b36020441a9324fbecea4cc29e",
+      "@id": "_:N145f9bef11294663b95ec819dc75aacb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -154,7 +158,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:Nf5f7aaf188dc41a3acede216a841fbcd",
+      "@id": "_:N5af3292dbf384ca9ba89471968674d95",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -165,7 +169,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:N367a325b1eae464d96bdcc17fcaeb2e3",
+      "@id": "_:N2141ba0840ff4eb6b422026142af7b0e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -176,7 +180,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:N345ad62c946b4fb8a56cf0a5d09fc6d2",
+      "@id": "_:N8eca06c80279412191c308d439487424",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -187,7 +191,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:N7412156f38df420485e48e28511443fd",
+      "@id": "_:Nce92fe31049e4a2285eea1d659ed2b4c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -198,7 +202,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:Nf5368299f3e74f5fae13d6b2a6535087",
+      "@id": "_:N6f19fc02c4aa48f3b8c564f1bd65a380",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -209,7 +213,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:N134664b16dee402b9d2890a2c0bed414",
+      "@id": "_:N43c7b92339cb49cd8832dd921eef6bf0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -220,7 +224,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:Nc14e62c6056147a3ad687d677d21e975",
+      "@id": "_:Ncc7141fa25f14cb8ac4477e1c73500d5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -231,7 +235,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:N4d70b8a26eaf46919277f231020040d8",
+      "@id": "_:N3619e5b87da649368021b0104202dd43",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -242,7 +246,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:Nbc47185ed85a4089901bd052e5fff33f",
+      "@id": "_:N46fc567ff48c4ead93160781c58ef63a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -253,7 +257,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:N092b4195f4d94fb0af087b188149e6b5",
+      "@id": "_:N5184909ebb554703a66159f113c36139",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -262,10 +266,6 @@
         "@id": "edam:format_3548"
       },
       "sc:name": "Raw image"
-    },
-    {
-      "@id": "https://doi.org/10.1038/s41592-020-01008-z",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -48,10 +48,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:Ncb7db4de76e6408c8cc884292f8951c9"
+        "@id": "_:N5fcfea81a50242ff901803aa7bf0b8ab"
       },
       "bsc:output": {
-        "@id": "_:Nd6e72c87ce7047839b16f798eb5e93e6"
+        "@id": "_:N1bb8d0c33ced41ac9edadff0380fa446"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -108,7 +108,7 @@
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/psa/emboss_stretcher"
     },
     {
-      "@id": "_:Ncb7db4de76e6408c8cc884292f8951c9",
+      "@id": "_:N5fcfea81a50242ff901803aa7bf0b8ab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -116,7 +116,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nd6e72c87ce7047839b16f798eb5e93e6",
+      "@id": "_:N1bb8d0c33ced41ac9edadff0380fa446",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"

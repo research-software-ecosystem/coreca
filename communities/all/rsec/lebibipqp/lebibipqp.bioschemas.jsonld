@@ -36,33 +36,29 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s12859-015-0692-z",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/lebibipqp",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Jean-Pierre Flandrois",
       "bsc:input": [
         {
-          "@id": "_:N4836d250d5354adda72bb14e0b76087e"
+          "@id": "_:Nf65bfb8392604c38ac7ea9ecbd3fff0b"
         },
         {
-          "@id": "_:N3717da6771fb45eabfd699f95bec7393"
+          "@id": "_:Nec54bb531a894bb1b9386b928b2ca092"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ndc7690a0a7ad4e7fbb8697c2ffee3a47"
+          "@id": "_:N06aa60f60d1b46febed218f36c63294d"
         },
         {
-          "@id": "_:N80a6fb31e1384ad88daa2b6c30fdc11e"
+          "@id": "_:N8227539dd2b64248848f59a19444bdd4"
         },
         {
-          "@id": "_:N74608ba42b1b43df9d26c5f13065859b"
+          "@id": "_:N04194dfdab1543aa91fa28a98846efef"
         },
         {
-          "@id": "_:Nca46f6172a4f43c1ab1d5261692cd289"
+          "@id": "_:N183743df54cb4f37882c2fef33078e48"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -112,7 +108,7 @@
       "sc:url": "https://umr5558-bibiserv.univ-lyon1.fr/lebibi/lebibi.cgi"
     },
     {
-      "@id": "_:N4836d250d5354adda72bb14e0b76087e",
+      "@id": "_:Nf65bfb8392604c38ac7ea9ecbd3fff0b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1056"
@@ -120,7 +116,7 @@
       "sc:name": "Database name"
     },
     {
-      "@id": "_:N3717da6771fb45eabfd699f95bec7393",
+      "@id": "_:Nec54bb531a894bb1b9386b928b2ca092",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -131,7 +127,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Ndc7690a0a7ad4e7fbb8697c2ffee3a47",
+      "@id": "_:N06aa60f60d1b46febed218f36c63294d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3272"
@@ -139,7 +135,7 @@
       "sc:name": "Species tree"
     },
     {
-      "@id": "_:N80a6fb31e1384ad88daa2b6c30fdc11e",
+      "@id": "_:N8227539dd2b64248848f59a19444bdd4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -150,7 +146,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N74608ba42b1b43df9d26c5f13065859b",
+      "@id": "_:N04194dfdab1543aa91fa28a98846efef",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -161,7 +157,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nca46f6172a4f43c1ab1d5261692cd289",
+      "@id": "_:N183743df54cb4f37882c2fef33078e48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -170,6 +166,10 @@
         "@id": "edam:format_1333"
       },
       "sc:name": "Sequence search results"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-015-0692-z",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

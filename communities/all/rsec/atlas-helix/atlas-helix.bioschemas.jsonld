@@ -1,0 +1,227 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/atlas-helix",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": "Helix Research Intelligence",
+      "bsc:input": [
+        {
+          "@id": "_:N9bb1371094d8417b8fa3474edd8e5339"
+        },
+        {
+          "@id": "_:N0d488b27869349bcbab69be88760b4eb"
+        },
+        {
+          "@id": "_:Nbbd0211101dc4222994776b8d8f112f2"
+        },
+        {
+          "@id": "_:Nbed0e3ebcbdd415cbdce5957d69d40a6"
+        },
+        {
+          "@id": "_:N4ed600db9db8406697f411d54fb6008e"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N5bd8a95eb05b44a8ae9f484fec0e579c"
+        },
+        {
+          "@id": "_:N75c85fbfea614b1d88b72be6748a5fe9"
+        },
+        {
+          "@id": "_:N26f757c156cd4f7e91ba20d32549642b"
+        },
+        {
+          "@id": "_:N2aa6412b62694bb9a7ad9766968b72b4"
+        },
+        {
+          "@id": "_:Ne5f11f5392bc41ee8ad4bbf90bebf7a1"
+        },
+        {
+          "@id": "_:N0a9abdf6fe944af797ba82fe947db6b2"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3344"
+        },
+        {
+          "@id": "edam:topic_3366"
+        },
+        {
+          "@id": "edam:topic_3068"
+        },
+        {
+          "@id": "edam:topic_3376"
+        },
+        {
+          "@id": "edam:topic_0218"
+        },
+        {
+          "@id": "edam:topic_0089"
+        },
+        {
+          "@id": "edam:topic_3379"
+        }
+      ],
+      "sc:author": "Helix Research Intelligence",
+      "sc:description": "Atlas assembles an evidence base for a therapeutic research programme from public biomedical sources and keeps the reasoning built on top of it. It retrieves records from PubMed, Europe PMC, PMC Open Access, ClinicalTrials.gov, OpenAlex, Crossref, Unpaywall, CORE, EPO Open Patent Services, SureChEMBL, CORDIS and NIH RePORTER; full text is parsed from JATS or structured with GROBID. Entities found in those records (diseases, genes, proteins, molecules) are recognised, normalised and resolved to canonical identifiers in MONDO, HGNC, UniProt, ChEMBL, MeSH and GSRS, then deduplicated and reconciled across sources. Publications are linked to the clinical trials they report on. The resolved entities and their relationships form a queryable graph; retrieval combines vector search over document chunks with reranking, and every answer carries the citations it was derived from.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_0305"
+        },
+        {
+          "@id": "edam:operation_3907"
+        },
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_0306"
+        },
+        {
+          "@id": "edam:operation_0226"
+        },
+        {
+          "@id": "edam:operation_3280"
+        }
+      ],
+      "sc:isAccessibleForFree": false,
+      "sc:license": "Proprietary",
+      "sc:name": "Atlas",
+      "sc:softwareHelp": {
+        "@id": "https://helixresearch.ai/about"
+      },
+      "sc:softwareVersion": "1.11",
+      "sc:url": "https://helixresearch.ai"
+    },
+    {
+      "@id": "_:N9bb1371094d8417b8fa3474edd8e5339",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3668"
+      },
+      "sc:name": "Disease name"
+    },
+    {
+      "@id": "_:N0d488b27869349bcbab69be88760b4eb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2299"
+      },
+      "sc:name": "Gene name"
+    },
+    {
+      "@id": "_:Nbbd0211101dc4222994776b8d8f112f2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:name": "Keyword"
+    },
+    {
+      "@id": "_:Nbed0e3ebcbdd415cbdce5957d69d40a6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0968"
+      },
+      "sc:name": "Keyword"
+    },
+    {
+      "@id": "_:N4ed600db9db8406697f411d54fb6008e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3671"
+      },
+      "sc:name": "Text"
+    },
+    {
+      "@id": "_:N5bd8a95eb05b44a8ae9f484fec0e579c",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0971"
+      },
+      "sc:name": "Article"
+    },
+    {
+      "@id": "_:N75c85fbfea614b1d88b72be6748a5fe9",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3558"
+      },
+      "sc:name": "Clinical trial report"
+    },
+    {
+      "@id": "_:N26f757c156cd4f7e91ba20d32549642b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0970"
+      },
+      "sc:name": "Citation"
+    },
+    {
+      "@id": "_:N2aa6412b62694bb9a7ad9766968b72b4",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0972"
+      },
+      "sc:name": "Text mining report"
+    },
+    {
+      "@id": "_:Ne5f11f5392bc41ee8ad4bbf90bebf7a1",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0976"
+      },
+      "sc:name": "Identifier (by type of entity)"
+    },
+    {
+      "@id": "_:N0a9abdf6fe944af797ba82fe947db6b2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_0966"
+      },
+      "sc:name": "Ontology term"
+    }
+  ]
+}

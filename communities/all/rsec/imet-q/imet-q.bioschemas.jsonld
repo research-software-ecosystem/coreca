@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ting-Yi Sung",
       "bsc:input": {
-        "@id": "_:N365d489775634f008bd064f65bdc2ffd"
+        "@id": "_:N3c2b04efdf214a5cac47e1a36df405c7"
       },
       "bsc:output": {
-        "@id": "_:N8e1b33bb26444b85a8acc2a5f43a7aa9"
+        "@id": "_:N1d7e91242a0b4192b054f0d455dc9add"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -78,7 +78,7 @@
       "sc:url": "http://ms.iis.sinica.edu.tw/comics/Software_iMet-Q.html"
     },
     {
-      "@id": "_:N365d489775634f008bd064f65bdc2ffd",
+      "@id": "_:N3c2b04efdf214a5cac47e1a36df405c7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -97,7 +97,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N8e1b33bb26444b85a8acc2a5f43a7aa9",
+      "@id": "_:N1d7e91242a0b4192b054f0d455dc9add",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

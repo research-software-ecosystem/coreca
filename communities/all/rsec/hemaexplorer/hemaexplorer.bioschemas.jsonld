@@ -48,10 +48,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Frederik Otzen Bagger",
       "bsc:input": {
-        "@id": "_:N053d670a94884e40b5979347c389c1c0"
+        "@id": "_:Nf99952955e9a4cb49c276dfc6867a6ee"
       },
       "bsc:output": {
-        "@id": "_:N026a6032fa094852af72f1279340acad"
+        "@id": "_:N0f4230d389c64919abd44cbc085ef913"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -103,7 +103,7 @@
       "sc:url": "http://servers.binf.ku.dk/hemaexplorer/"
     },
     {
-      "@id": "_:N053d670a94884e40b5979347c389c1c0",
+      "@id": "_:Nf99952955e9a4cb49c276dfc6867a6ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -111,7 +111,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:N026a6032fa094852af72f1279340acad",
+      "@id": "_:N0f4230d389c64919abd44cbc085ef913",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0862"

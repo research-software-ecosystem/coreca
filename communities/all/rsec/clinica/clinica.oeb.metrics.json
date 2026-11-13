@@ -26,10 +26,10 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 39,
+                            "cit_count": 41,
                             "citations": [
                                 {
-                                    "count": 1,
+                                    "count": 2,
                                     "year": 2021
                                 },
                                 {
@@ -42,15 +42,15 @@
                                 },
                                 {
                                     "count": 9,
-                                    "year": 2025
-                                },
-                                {
-                                    "count": 9,
                                     "year": 2026
                                 },
                                 {
                                     "count": 10,
                                     "year": 2023
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2025
                                 }
                             ],
                             "doi": "10.3389/fninf.2021.689675",
@@ -195,10 +195,10 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 39,
+                            "cit_count": 41,
                             "citations": [
                                 {
-                                    "count": 1,
+                                    "count": 2,
                                     "year": 2021
                                 },
                                 {
@@ -211,15 +211,15 @@
                                 },
                                 {
                                     "count": 9,
-                                    "year": 2025
-                                },
-                                {
-                                    "count": 9,
                                     "year": 2026
                                 },
                                 {
                                     "count": 10,
                                     "year": 2023
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2025
                                 }
                             ],
                             "doi": "10.3389/fninf.2021.689675",
@@ -364,10 +364,10 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 39,
+                            "cit_count": 41,
                             "citations": [
                                 {
-                                    "count": 1,
+                                    "count": 2,
                                     "year": 2021
                                 },
                                 {
@@ -380,15 +380,15 @@
                                 },
                                 {
                                     "count": 9,
-                                    "year": 2025
-                                },
-                                {
-                                    "count": 9,
                                     "year": 2026
                                 },
                                 {
                                     "count": 10,
                                     "year": 2023
+                                },
+                                {
+                                    "count": 10,
+                                    "year": 2025
                                 }
                             ],
                             "doi": "10.3389/fninf.2021.689675",

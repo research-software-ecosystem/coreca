@@ -36,23 +36,19 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btv379",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/birte",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Holger Froehlich",
       "bsc:input": [
         {
-          "@id": "_:Nf359fcf233784d01814da70213eaef57"
+          "@id": "_:N66a61eac3de344aa98ae8feb247803fe"
         },
         {
-          "@id": "_:N05bd4baa15fd458a936a8303597e9838"
+          "@id": "_:N134981eed4a74996a4c7a544a7267e61"
         }
       ],
       "bsc:output": {
-        "@id": "_:N05a2b53d8f3b4cbc90fd9a390a47cde7"
+        "@id": "_:Neb60db7345ad40e992ad0fb03c5b8058"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -94,7 +90,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/birte.html"
     },
     {
-      "@id": "_:Nf359fcf233784d01814da70213eaef57",
+      "@id": "_:N66a61eac3de344aa98ae8feb247803fe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -110,7 +106,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N05bd4baa15fd458a936a8303597e9838",
+      "@id": "_:N134981eed4a74996a4c7a544a7267e61",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -126,7 +122,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:N05a2b53d8f3b4cbc90fd9a390a47cde7",
+      "@id": "_:Neb60db7345ad40e992ad0fb03c5b8058",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -135,6 +131,10 @@
         "@id": "edam:format_2013"
       },
       "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv379",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

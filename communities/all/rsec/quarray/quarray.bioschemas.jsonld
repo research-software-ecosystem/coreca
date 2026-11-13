@@ -40,10 +40,6 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAB119",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/quarray",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -91,6 +87,10 @@
         "@id": "https://quarray.readthedocs.io"
       },
       "sc:url": "https://github.com/c-arthurs/QuArray"
+    },
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTAB119",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

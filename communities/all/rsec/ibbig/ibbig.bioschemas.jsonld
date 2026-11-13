@@ -43,17 +43,17 @@
       "@id": "https://bio.tools/ibbig",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N195005aaaa154ef8adf66615ff457663"
+        "@id": "_:N325a32410ee04b99a5de7179b92a68bf"
       },
       "bsc:output": [
         {
-          "@id": "_:N4c1b90e0ba434f53989c07e7248bb1d0"
+          "@id": "_:Naa007647bc9a49fdbeb038f467925e0f"
         },
         {
-          "@id": "_:N6be53742269f4abb957b0f3c46155daa"
+          "@id": "_:N6a87f4ac03194d1993acdf88a70f4f66"
         },
         {
-          "@id": "_:N2d99d6e431eb4022b4b97cadb38f1c02"
+          "@id": "_:N836502b63e604193b5acb296cb319017"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -95,7 +95,7 @@
       "sc:url": "https://bioconductor.org/packages/iBBiG"
     },
     {
-      "@id": "_:N195005aaaa154ef8adf66615ff457663",
+      "@id": "_:N325a32410ee04b99a5de7179b92a68bf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -106,7 +106,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N4c1b90e0ba434f53989c07e7248bb1d0",
+      "@id": "_:Naa007647bc9a49fdbeb038f467925e0f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -122,7 +122,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N6be53742269f4abb957b0f3c46155daa",
+      "@id": "_:N6a87f4ac03194d1993acdf88a70f4f66",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -138,7 +138,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N2d99d6e431eb4022b4b97cadb38f1c02",
+      "@id": "_:N836502b63e604193b5acb296cb319017",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

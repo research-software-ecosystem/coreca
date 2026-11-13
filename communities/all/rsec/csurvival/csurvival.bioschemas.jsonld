@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/csurvival",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N6ba0902b572d4f5292f72493cf3c45e3"
+        "@id": "_:Nb711b0dbdf664dbfbdc989165f2fa58c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -97,7 +97,7 @@
       "sc:url": "https://tau.cmmt.ubc.ca/cSurvival"
     },
     {
-      "@id": "_:N6ba0902b572d4f5292f72493cf3c45e3",
+      "@id": "_:Nb711b0dbdf664dbfbdc989165f2fa58c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2654"

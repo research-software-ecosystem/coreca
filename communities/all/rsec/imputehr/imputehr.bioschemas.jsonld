@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/imputehr",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Naabce1d95918447b9496a9d3d36f21a2"
+        "@id": "_:N874fe9d0a95b40f0a08c903c51e63505"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -90,7 +90,7 @@
       "sc:url": "https://imputehr.statgen.ncsu.edu"
     },
     {
-      "@id": "_:Naabce1d95918447b9496a9d3d36f21a2",
+      "@id": "_:N874fe9d0a95b40f0a08c903c51e63505",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"

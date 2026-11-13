@@ -36,21 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bib/bbac460",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/cysmoddb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N7174303fbb914e39a33890cc83a23abb"
+          "@id": "_:N9407951f30594d029d4717152d2b341c"
         },
         {
-          "@id": "_:N31555ffe9ec0447c864adb434fddd0cf"
+          "@id": "_:Nf5c0d990d25e4402a6507707fe864667"
         },
         {
-          "@id": "_:Nb29ebff49f624e1db0a9e60f942e9c07"
+          "@id": "_:Nc74fda0aa6524489a85ab1bd4d2230a3"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -101,7 +97,7 @@
       "sc:url": "https://cysmoddb.bioinfogo.org/"
     },
     {
-      "@id": "_:N7174303fbb914e39a33890cc83a23abb",
+      "@id": "_:N9407951f30594d029d4717152d2b341c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -109,7 +105,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:N31555ffe9ec0447c864adb434fddd0cf",
+      "@id": "_:Nf5c0d990d25e4402a6507707fe864667",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1009"
@@ -117,12 +113,16 @@
       "sc:name": "Protein name"
     },
     {
-      "@id": "_:Nb29ebff49f624e1db0a9e60f942e9c07",
+      "@id": "_:Nc74fda0aa6524489a85ab1bd4d2230a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
       },
       "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bib/bbac460",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

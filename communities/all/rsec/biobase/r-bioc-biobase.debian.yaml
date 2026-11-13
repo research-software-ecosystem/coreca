@@ -17,8 +17,8 @@ bib:
 - key: doi
   value: 10.1186/gb-2004-5-10-r80
 popcon:
-- insts: 1560
+- insts: 1552
   nofiles: 2
-  olde: 1236
-  recent: 133
-  vote: 189
+  olde: 1231
+  recent: 136
+  vote: 183

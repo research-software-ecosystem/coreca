@@ -19,7 +19,7 @@ bib:
 - key: doi
   value: 10.1371/journal.pcbi.1004401
 popcon:
-- insts: 109
-  olde: 79
-  recent: 24
-  vote: 6
+- insts: 116
+  olde: 81
+  recent: 27
+  vote: 8

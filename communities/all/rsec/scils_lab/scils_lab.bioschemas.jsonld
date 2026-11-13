@@ -40,21 +40,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne34b5561be7e4166a66c79ce5f7d1e10"
+          "@id": "_:N6957880f5cfa47c5b3be81434555d87b"
         },
         {
-          "@id": "_:N958309c73ea543c7a118f5a160421c32"
+          "@id": "_:Nd9b040703ea347eab0681da7536ba29b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nb7db5fd9c23c401b9f80b52b3d741101"
+          "@id": "_:Nf90d47ff6b3f4820823fa6290cf64c08"
         },
         {
-          "@id": "_:N8a98729c05cd4428a10a2f7bc47e16fd"
+          "@id": "_:N58d7299390724247a86a588cbdad457f"
         },
         {
-          "@id": "_:Nd75c6a829fbc4f50b04194e8467cc73f"
+          "@id": "_:N69cebe9a4c554394b13206b54cbb67e0"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -80,7 +80,7 @@
       "sc:url": "https://www.bruker.com/en/products-and-solutions/mass-spectrometry/ms-software/scils-lab.html"
     },
     {
-      "@id": "_:Ne34b5561be7e4166a66c79ce5f7d1e10",
+      "@id": "_:N6957880f5cfa47c5b3be81434555d87b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -91,7 +91,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N958309c73ea543c7a118f5a160421c32",
+      "@id": "_:Nd9b040703ea347eab0681da7536ba29b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -102,7 +102,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nb7db5fd9c23c401b9f80b52b3d741101",
+      "@id": "_:Nf90d47ff6b3f4820823fa6290cf64c08",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -121,7 +121,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N8a98729c05cd4428a10a2f7bc47e16fd",
+      "@id": "_:N58d7299390724247a86a588cbdad457f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -137,7 +137,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nd75c6a829fbc4f50b04194e8467cc73f",
+      "@id": "_:N69cebe9a4c554394b13206b54cbb67e0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

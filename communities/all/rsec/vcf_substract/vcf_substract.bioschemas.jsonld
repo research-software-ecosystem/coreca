@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1093/bioinformatics/btr330",
       "@type": "sc:CreativeWork"
     },
@@ -53,14 +49,14 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N2fbd235baca9464ba0d97c965b99dba5"
+          "@id": "_:N790966b18b914bac929e9f001abf3b63"
         },
         {
-          "@id": "_:Nf6fc6a074e6543aca5b8ac6e742b4190"
+          "@id": "_:N1866850b25094283af77f4b611719a2e"
         }
       ],
       "bsc:output": {
-        "@id": "_:N8f45bd63398646ecb0bbd06ad2dab84a"
+        "@id": "_:N74d3936f50a942f4aa9c57387ff736ea"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -110,7 +106,7 @@
       "sc:url": "https://bio.tools/vcftools"
     },
     {
-      "@id": "_:N2fbd235baca9464ba0d97c965b99dba5",
+      "@id": "_:N790966b18b914bac929e9f001abf3b63",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -121,7 +117,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Nf6fc6a074e6543aca5b8ac6e742b4190",
+      "@id": "_:N1866850b25094283af77f4b611719a2e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -132,7 +128,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N8f45bd63398646ecb0bbd06ad2dab84a",
+      "@id": "_:N74d3936f50a942f4aa9c57387ff736ea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -141,6 +137,10 @@
         "@id": "edam:format_3016"
       },
       "sc:name": "Sequence variations"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

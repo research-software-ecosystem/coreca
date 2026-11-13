@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.HiCDOC",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/hicdoc",
       "@type": "sc:SoftwareApplication",
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -68,17 +72,13 @@
           "@id": "edam:operation_3960"
         }
       ],
-      "sc:license": "LGPL-3.0-only",
+      "sc:license": "LGPL-3.0",
       "sc:name": "HiCDOC",
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/HiCDOC"
       },
       "sc:softwareVersion": "1.14.0",
       "sc:url": "https://bioconductor.org/packages/HiCDOC"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.HiCDOC",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

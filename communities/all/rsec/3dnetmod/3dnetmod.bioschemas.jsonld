@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/nmeth.4560",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/3dnetmod",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1ad8fecc50c243a98f7ba520f2b4a88a"
+        "@id": "_:Ne2723fbe92784443a0e948735d938390"
       },
       "bsc:output": {
-        "@id": "_:Nc8fc17587c404d42a81d96935d883127"
+        "@id": "_:Nac38345cd26f49718839e21dcb3c3f0f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -76,7 +80,7 @@
       "sc:url": "https://bitbucket.org/creminslab/3dnetmod_method_v1.0_10_06_17"
     },
     {
-      "@id": "_:N1ad8fecc50c243a98f7ba520f2b4a88a",
+      "@id": "_:Ne2723fbe92784443a0e948735d938390",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -87,16 +91,12 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:Nc8fc17587c404d42a81d96935d883127",
+      "@id": "_:Nac38345cd26f49718839e21dcb3c3f0f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
       },
       "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "https://doi.org/10.1038/nmeth.4560",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

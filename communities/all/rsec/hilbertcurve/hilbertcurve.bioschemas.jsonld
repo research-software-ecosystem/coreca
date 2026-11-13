@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/hilbertcurve",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9a5e629d16994f2f8052f6d7cd14762c"
+        "@id": "_:Ndf62d3b2e54147d3a00d929e90ec9b91"
       },
       "bsc:output": {
-        "@id": "_:Na2d09a3d591d43f492a8f9eca83a2a73"
+        "@id": "_:Naa18dede25e04731873eab1c4be4d6a7"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -74,7 +74,7 @@
       "sc:url": "https://bioconductor.org/packages/HilbertCurve"
     },
     {
-      "@id": "_:N9a5e629d16994f2f8052f6d7cd14762c",
+      "@id": "_:Ndf62d3b2e54147d3a00d929e90ec9b91",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1017"
@@ -85,7 +85,7 @@
       "sc:name": "Sequence range"
     },
     {
-      "@id": "_:Na2d09a3d591d43f492a8f9eca83a2a73",
+      "@id": "_:Naa18dede25e04731873eab1c4be4d6a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1279"

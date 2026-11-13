@@ -45,17 +45,17 @@
       "biotools:primaryContact": "Jun Ding",
       "bsc:input": [
         {
-          "@id": "_:N54fe1887467d4a09b7bc7a3af486d200"
+          "@id": "_:N0b870dfb583f4f4f8ecef4ac3fe1cf7a"
         },
         {
-          "@id": "_:Nb72aba186a5349118ec29d0ea412ff99"
+          "@id": "_:N3e9cc969ed7846e684265cd3bdabdad6"
         },
         {
-          "@id": "_:N82b85670a5bf4ab4becf955bb4dbd566"
+          "@id": "_:N5ece17761c134c80b1ead89de1a9a598"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nbec298979b24469a97d8370670cff847"
+        "@id": "_:Ndc49d6db753b41c391827c7717a6bdcc"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -109,7 +109,7 @@
       "sc:url": "https://github.com/phoenixding/idrem"
     },
     {
-      "@id": "_:N54fe1887467d4a09b7bc7a3af486d200",
+      "@id": "_:N0b870dfb583f4f4f8ecef4ac3fe1cf7a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0954"
@@ -120,7 +120,7 @@
       "sc:name": "Database cross-mapping"
     },
     {
-      "@id": "_:Nb72aba186a5349118ec29d0ea412ff99",
+      "@id": "_:N3e9cc969ed7846e684265cd3bdabdad6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -136,7 +136,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N82b85670a5bf4ab4becf955bb4dbd566",
+      "@id": "_:N5ece17761c134c80b1ead89de1a9a598",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -152,7 +152,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nbec298979b24469a97d8370670cff847",
+      "@id": "_:Ndc49d6db753b41c391827c7717a6bdcc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

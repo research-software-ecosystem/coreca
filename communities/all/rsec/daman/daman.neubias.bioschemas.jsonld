@@ -37,10 +37,10 @@
       "@id": "http://edamontology.org/topic_3474"
     },
     {
-      "@id": "http://edamontology.org/topic_Fluorescent_microscopy"
+      "@id": "http://edamontology.org/topic__RDdX0TswBVhmWiS1dI3pghN"
     },
     {
-      "@id": "http://edamontology.org/topic__RDdX0TswBVhmWiS1dI3pghN"
+      "@id": "http://edamontology.org/topic_Fluorescent_microscopy"
     }
   ],
   "http://schema.org/citation": [
@@ -59,8 +59,8 @@
   "http://schema.org/name": "DAMAN",
   "http://schema.org/publisher": [
     "S. Mukherjee",
-    "R. Sarkar",
     "J. -C. Olivo-Marin",
+    "R. Sarkar",
     "E. Labruyère"
   ],
   "http://schema.org/softwareRequirements": {

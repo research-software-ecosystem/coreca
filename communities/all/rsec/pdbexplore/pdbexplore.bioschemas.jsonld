@@ -40,17 +40,17 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Jose Dana",
       "bsc:input": {
-        "@id": "_:Nd7b31ff5850c4044bcbf2a6b5ae2ade0"
+        "@id": "_:N49e721c80844425b98e0d63adfac533b"
       },
       "bsc:output": [
         {
-          "@id": "_:N9df29cdac21f4109b02a8c4cb8b411f3"
+          "@id": "_:Nc13bf2b47d48498c887ea84bdf3f151f"
         },
         {
-          "@id": "_:Nb8c4a1fed0634d77a047303fff265715"
+          "@id": "_:Na2efa45870fd4ef9a8dcf27b064bf637"
         },
         {
-          "@id": "_:N807ebf15eed44ebf981a72a4d43d535f"
+          "@id": "_:N7679ba4949d04181b0b06688a9e0cc1b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -85,7 +85,7 @@
       "sc:url": "http://pdbe.org/FASTA"
     },
     {
-      "@id": "_:Nd7b31ff5850c4044bcbf2a6b5ae2ade0",
+      "@id": "_:N49e721c80844425b98e0d63adfac533b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -93,7 +93,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N9df29cdac21f4109b02a8c4cb8b411f3",
+      "@id": "_:Nc13bf2b47d48498c887ea84bdf3f151f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"
@@ -101,7 +101,7 @@
       "sc:name": "Sequence alignment (pair)"
     },
     {
-      "@id": "_:Nb8c4a1fed0634d77a047303fff265715",
+      "@id": "_:Na2efa45870fd4ef9a8dcf27b064bf637",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1384"
@@ -109,7 +109,7 @@
       "sc:name": "Sequence alignment (protein)"
     },
     {
-      "@id": "_:N807ebf15eed44ebf981a72a4d43d535f",
+      "@id": "_:N7679ba4949d04181b0b06688a9e0cc1b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"

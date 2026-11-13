@@ -47,10 +47,10 @@
         "Giulio Pavesi"
       ],
       "bsc:input": {
-        "@id": "_:Nc3346a5460a14311859f910c09dc7ae7"
+        "@id": "_:Ndd411fe9242945caac8bf02e20c65ab3"
       },
       "bsc:output": {
-        "@id": "_:Nc1a6687766f243dc8debc80267ef1cd2"
+        "@id": "_:N813de580cac34a5893a5bbcb07f28e5e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -81,7 +81,7 @@
       "sc:url": "http://www.beaconlab.it/modtools"
     },
     {
-      "@id": "_:Nc3346a5460a14311859f910c09dc7ae7",
+      "@id": "_:Ndd411fe9242945caac8bf02e20c65ab3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -92,7 +92,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nc1a6687766f243dc8debc80267ef1cd2",
+      "@id": "_:N813de580cac34a5893a5bbcb07f28e5e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2070"

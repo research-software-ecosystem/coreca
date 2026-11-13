@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/molbev/msw080",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1101/075101",
       "@type": "sc:CreativeWork"
     },
@@ -44,18 +48,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne4cbe1165c6047519c6f8da16be233b6"
+          "@id": "_:N6c1cc8f82d8b4b869aeb7cb7ee3ba07d"
         },
         {
-          "@id": "_:N4db997411353443ab3af76190da99d4d"
+          "@id": "_:N8d271c04ca8e4d8abec4c38280f63fcd"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N7d2101c4d0d14b48834c6fded69930da"
+          "@id": "_:N2400b062e9c747858d3da8bea625e9ef"
         },
         {
-          "@id": "_:N9ba364fe5f4448aba1d812d970fd1bb9"
+          "@id": "_:Nbba3703f0a5f44ddb1af941a033af428"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -98,7 +102,7 @@
       "sc:url": "http://phylo.io/index.html"
     },
     {
-      "@id": "_:Ne4cbe1165c6047519c6f8da16be233b6",
+      "@id": "_:N6c1cc8f82d8b4b869aeb7cb7ee3ba07d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -114,7 +118,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N4db997411353443ab3af76190da99d4d",
+      "@id": "_:N8d271c04ca8e4d8abec4c38280f63fcd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -130,7 +134,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N7d2101c4d0d14b48834c6fded69930da",
+      "@id": "_:N2400b062e9c747858d3da8bea625e9ef",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1707"
@@ -138,16 +142,12 @@
       "sc:name": "Phylogenetic tree image"
     },
     {
-      "@id": "_:N9ba364fe5f4448aba1d812d970fd1bb9",
+      "@id": "_:Nbba3703f0a5f44ddb1af941a033af428",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1707"
       },
       "sc:name": "Phylogenetic tree image"
-    },
-    {
-      "@id": "https://doi.org/10.1093/molbev/msw080",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

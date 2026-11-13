@@ -44,7 +44,7 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Pantelis Bagos",
       "bsc:input": {
-        "@id": "_:N06eb6fc6d28c4b409034eb36ffba1795"
+        "@id": "_:N7ff8adcc70454bf98555566c7493a787"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -82,7 +82,7 @@
       "sc:url": "http://www.compgen.org/tools/PRED-SIGNAL"
     },
     {
-      "@id": "_:N06eb6fc6d28c4b409034eb36ffba1795",
+      "@id": "_:N7ff8adcc70454bf98555566c7493a787",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

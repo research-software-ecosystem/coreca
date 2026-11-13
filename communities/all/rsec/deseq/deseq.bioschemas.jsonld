@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/gb-2010-11-10-r106",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -46,14 +46,14 @@
         "@id": "http://orcid.org/0000-0003-4868-1805"
       },
       "bsc:input": {
-        "@id": "_:Nde32bb71a95742b885d0f2bceee77f50"
+        "@id": "_:Ne50ab9fcecb941c8aaa08d9f9a205ec5"
       },
       "bsc:output": [
         {
-          "@id": "_:N8e49c2f510b24a1fb24bdfa122affc23"
+          "@id": "_:Nb26c3f7c49b9485685c11fde21e2de2f"
         },
         {
-          "@id": "_:Nfe415ee835fe439bba93f34ed668cb93"
+          "@id": "_:N315a4976ae1b4b1a95437be6b40c6da1"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -93,7 +93,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/DESeq.html"
     },
     {
-      "@id": "_:Nde32bb71a95742b885d0f2bceee77f50",
+      "@id": "_:Ne50ab9fcecb941c8aaa08d9f9a205ec5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -104,7 +104,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N8e49c2f510b24a1fb24bdfa122affc23",
+      "@id": "_:Nb26c3f7c49b9485685c11fde21e2de2f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -115,7 +115,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nfe415ee835fe439bba93f34ed668cb93",
+      "@id": "_:N315a4976ae1b4b1a95437be6b40c6da1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -126,12 +126,12 @@
       "sc:name": "Data"
     },
     {
-      "@id": "http://orcid.org/0000-0003-4868-1805",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1186/gb-2010-11-10-r106",
+      "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
+      "@id": "http://orcid.org/0000-0003-4868-1805",
+      "@type": "sc:Person"
     }
   ]
 }

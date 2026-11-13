@@ -43,23 +43,23 @@
       "@id": "https://bio.tools/PolySTest",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nafc0fba17ab64f9bb97f37b0ba147c6d"
+        "@id": "_:N6ef3721e224c4ce388e3c432e1a59dea"
       },
       "bsc:output": [
         {
-          "@id": "_:Nad4ba9e6d3b049d4a9fdb9a79bc233d6"
+          "@id": "_:N925a6a9f4a394b47a770a7eb95b33caf"
         },
         {
-          "@id": "_:Nd2e1c5b8058a497a89fa038a32d81bcb"
+          "@id": "_:N40372202aac04a90937ecdfeb5929eb1"
         },
         {
-          "@id": "_:N76d28fc8c30841f2885a944edab9b7aa"
+          "@id": "_:N97afd4da709740a5ab51b1cb767151a1"
         },
         {
-          "@id": "_:N63556db25ce446b3962ae79f95fbce50"
+          "@id": "_:N59b524415006404299f993cc82973d25"
         },
         {
-          "@id": "_:N8a27090995784d31b16034e65fe0b18f"
+          "@id": "_:N737e079514cd4e6b91df01c0df46ecd9"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,7 +89,7 @@
         }
       ],
       "sc:isAccessibleForFree": true,
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "PolySTest",
       "sc:operatingSystem": [
         "Linux",
@@ -102,7 +102,7 @@
       "sc:url": "https://bioconductor.org/packages/PolySTest"
     },
     {
-      "@id": "_:Nafc0fba17ab64f9bb97f37b0ba147c6d",
+      "@id": "_:N6ef3721e224c4ce388e3c432e1a59dea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -118,7 +118,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:Nad4ba9e6d3b049d4a9fdb9a79bc233d6",
+      "@id": "_:N925a6a9f4a394b47a770a7eb95b33caf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -129,7 +129,7 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:Nd2e1c5b8058a497a89fa038a32d81bcb",
+      "@id": "_:N40372202aac04a90937ecdfeb5929eb1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -140,7 +140,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N76d28fc8c30841f2885a944edab9b7aa",
+      "@id": "_:N97afd4da709740a5ab51b1cb767151a1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3905"
@@ -151,7 +151,7 @@
       "sc:name": "Histogram"
     },
     {
-      "@id": "_:N63556db25ce446b3962ae79f95fbce50",
+      "@id": "_:N59b524415006404299f993cc82973d25",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
@@ -162,7 +162,7 @@
       "sc:name": "P-value"
     },
     {
-      "@id": "_:N8a27090995784d31b16034e65fe0b18f",
+      "@id": "_:N737e079514cd4e6b91df01c0df46ecd9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3932"

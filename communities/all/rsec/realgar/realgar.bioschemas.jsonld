@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nedde6a9c1f50473c81cc9a9918764638"
+          "@id": "_:Naf9111c01d2046ecab5b0057b6070878"
         },
         {
-          "@id": "_:N3922027c34c44e708560547b3acba118"
+          "@id": "_:N1246c32263cd4ae28d27d7bf41caf1f4"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -102,7 +102,7 @@
       "sc:url": "http://realgar.org/"
     },
     {
-      "@id": "_:Nedde6a9c1f50473c81cc9a9918764638",
+      "@id": "_:Naf9111c01d2046ecab5b0057b6070878",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -110,7 +110,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N3922027c34c44e708560547b3acba118",
+      "@id": "_:N1246c32263cd4ae28d27d7bf41caf1f4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2805"

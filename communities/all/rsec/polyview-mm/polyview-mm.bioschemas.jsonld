@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bth248",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/polyview-mm",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Contact form",
@@ -104,6 +100,10 @@
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkq445",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bth248",
       "@type": "sc:CreativeWork"
     }
   ]

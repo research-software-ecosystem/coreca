@@ -44,24 +44,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nfbdd29f60efc4fa6a92ce91352d14cbe"
+          "@id": "_:N95a3136dbd104cc2a390fb4bcf130876"
         },
         {
-          "@id": "_:N4426461494d544ee9e802c40682a52bc"
+          "@id": "_:N75612a5f9af4425e81ba421c8115a64f"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N14cf6ee3aa8646a68d0d7bbf2d43969e"
+          "@id": "_:N8c4e293a47a8403d86fe8798b206985a"
         },
         {
-          "@id": "_:N5e975058c90a490ca41b28ad9646a0c7"
+          "@id": "_:N4be1dd61902d411dba750144cf650e9b"
         },
         {
-          "@id": "_:N6432b8257c4b4901b568915c609c0011"
+          "@id": "_:Ne1fb3a5632d34df1b3c3f7a3b6902bc6"
         },
         {
-          "@id": "_:N1bd28c943c6b496aa442a78a8af0352b"
+          "@id": "_:N30969950c2594bb89f8f0aaaea241238"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -103,7 +103,7 @@
       "sc:url": "https://iupred3.elte.hu/"
     },
     {
-      "@id": "_:Nfbdd29f60efc4fa6a92ce91352d14cbe",
+      "@id": "_:N95a3136dbd104cc2a390fb4bcf130876",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -114,7 +114,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N4426461494d544ee9e802c40682a52bc",
+      "@id": "_:N75612a5f9af4425e81ba421c8115a64f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -125,7 +125,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N14cf6ee3aa8646a68d0d7bbf2d43969e",
+      "@id": "_:N8c4e293a47a8403d86fe8798b206985a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -136,7 +136,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N5e975058c90a490ca41b28ad9646a0c7",
+      "@id": "_:N4be1dd61902d411dba750144cf650e9b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -152,7 +152,7 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:N6432b8257c4b4901b568915c609c0011",
+      "@id": "_:Ne1fb3a5632d34df1b3c3f7a3b6902bc6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -163,7 +163,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N1bd28c943c6b496aa442a78a8af0352b",
+      "@id": "_:N30969950c2594bb89f8f0aaaea241238",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

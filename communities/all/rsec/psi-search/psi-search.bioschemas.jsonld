@@ -36,26 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkae241",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkac240",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/psi-search",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:N1506f85e2978434db51a262a924b28c5"
+        "@id": "_:N7c5bb0edbe934896ada8e871ae157aed"
       },
       "bsc:output": [
         {
-          "@id": "_:N4b2b93fd44f7498da17e210a6ad3da89"
+          "@id": "_:N854b5e99c13341718fb6e546fd7ee1b4"
         },
         {
-          "@id": "_:Naad946176f2a40b4876ee34cafdd709a"
+          "@id": "_:Na4b8cc31862f410a8651c5d787dc37db"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -113,7 +105,7 @@
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/sss/psisearch"
     },
     {
-      "@id": "_:N1506f85e2978434db51a262a924b28c5",
+      "@id": "_:N7c5bb0edbe934896ada8e871ae157aed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -121,7 +113,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N4b2b93fd44f7498da17e210a6ad3da89",
+      "@id": "_:N854b5e99c13341718fb6e546fd7ee1b4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2854"
@@ -129,7 +121,7 @@
       "sc:name": "Position-specific scoring matrix"
     },
     {
-      "@id": "_:Naad946176f2a40b4876ee34cafdd709a",
+      "@id": "_:Na4b8cc31862f410a8651c5d787dc37db",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -138,6 +130,14 @@
     },
     {
       "@id": "https://doi.org/10.1093/bioinformatics/bts240",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkae241",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkac240",
       "@type": "sc:CreativeWork"
     }
   ]

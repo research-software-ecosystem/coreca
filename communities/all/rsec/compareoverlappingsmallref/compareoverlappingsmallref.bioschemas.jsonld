@@ -49,44 +49,44 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N6498d8ac12b94b7cabd6ac6bc3745a4e"
+          "@id": "_:N1b99d051f58b4e3c844cbf88a3233f12"
         },
         {
-          "@id": "_:Na326c008b3a84a5eb2d71410bbbe5124"
+          "@id": "_:N419cd5affd0d42ea9978bb1deea0868f"
         },
         {
-          "@id": "_:N1390a962622a440295c475b2719acfb1"
+          "@id": "_:N9eeec59b46784348a389e012f39847ab"
         },
         {
-          "@id": "_:N95a80fcb53ba474eb1c76726fba8b374"
+          "@id": "_:Nbe84f82b28d340c983602070099b112d"
         },
         {
-          "@id": "_:Nae6c7dbb598d42f8a7c54569a2a957c3"
+          "@id": "_:Ne35cd8e587a34c7e8744ee97e06a365a"
         },
         {
-          "@id": "_:Nf078e25c2e6b435295ba5433a29932ba"
+          "@id": "_:N0264464cad4e4132ad4bb26c19a19682"
         },
         {
-          "@id": "_:N6a3ccd13d6854085acd94f2caabdf31c"
+          "@id": "_:N211363ba3ecc4546b6501712862bb70d"
         },
         {
-          "@id": "_:Naafde0aa5e7b41df97adff042e9ddbbd"
+          "@id": "_:Ne2d42f19648949baaf7a8bc9c565b8fd"
         },
         {
-          "@id": "_:Naa57ccdc2d1d4a1f841ef2826bb8167b"
+          "@id": "_:N9bcdf84ee46f4dc1862310f024f9c7b3"
         },
         {
-          "@id": "_:N12d8a5b4e4404fa0a63549d8e41f58a5"
+          "@id": "_:N5a3d5b866f994ddfb2fb7899bdcc52f0"
         },
         {
-          "@id": "_:Nf5c7c8854a6e45db8647b58b9afd0047"
+          "@id": "_:Ncd9589b7436945319a031d901f367034"
         },
         {
-          "@id": "_:Nc40bdf486c564aaf99c6f678857cab0a"
+          "@id": "_:N7196cdcbbe9d4059a9fda1245d9d68b1"
         }
       ],
       "bsc:output": {
-        "@id": "_:N8cc86896d4c9472c863989f44c37000a"
+        "@id": "_:Na478d5f35171430189bd0740ede38017"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -120,7 +120,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:N6498d8ac12b94b7cabd6ac6bc3745a4e",
+      "@id": "_:N1b99d051f58b4e3c844cbf88a3233f12",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -131,7 +131,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:Na326c008b3a84a5eb2d71410bbbe5124",
+      "@id": "_:N419cd5affd0d42ea9978bb1deea0868f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -142,7 +142,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N1390a962622a440295c475b2719acfb1",
+      "@id": "_:N9eeec59b46784348a389e012f39847ab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -153,7 +153,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N95a80fcb53ba474eb1c76726fba8b374",
+      "@id": "_:Nbe84f82b28d340c983602070099b112d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -164,7 +164,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nae6c7dbb598d42f8a7c54569a2a957c3",
+      "@id": "_:Ne35cd8e587a34c7e8744ee97e06a365a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -175,7 +175,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf078e25c2e6b435295ba5433a29932ba",
+      "@id": "_:N0264464cad4e4132ad4bb26c19a19682",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -186,7 +186,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N6a3ccd13d6854085acd94f2caabdf31c",
+      "@id": "_:N211363ba3ecc4546b6501712862bb70d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -197,7 +197,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Naafde0aa5e7b41df97adff042e9ddbbd",
+      "@id": "_:Ne2d42f19648949baaf7a8bc9c565b8fd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -208,7 +208,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Naa57ccdc2d1d4a1f841ef2826bb8167b",
+      "@id": "_:N9bcdf84ee46f4dc1862310f024f9c7b3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -219,7 +219,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N12d8a5b4e4404fa0a63549d8e41f58a5",
+      "@id": "_:N5a3d5b866f994ddfb2fb7899bdcc52f0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -230,7 +230,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf5c7c8854a6e45db8647b58b9afd0047",
+      "@id": "_:Ncd9589b7436945319a031d901f367034",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -241,7 +241,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:Nc40bdf486c564aaf99c6f678857cab0a",
+      "@id": "_:N7196cdcbbe9d4059a9fda1245d9d68b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -252,7 +252,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N8cc86896d4c9472c863989f44c37000a",
+      "@id": "_:Na478d5f35171430189bd0740ede38017",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

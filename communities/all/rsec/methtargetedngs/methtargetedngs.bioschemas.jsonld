@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/methtargetedngs",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N38ee600db93f4eadb57d7ed3b6026a64"
+        "@id": "_:N279450e59dba469aae8b7600cea3e0e8"
       },
       "bsc:output": {
-        "@id": "_:N2c9ec69cdc9141489d914045a81cd88f"
+        "@id": "_:Nd1c714ac236446739e05d57cba31c38c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -78,7 +78,7 @@
       "sc:url": "https://bioconductor.org/packages/MethTargetedNGS"
     },
     {
-      "@id": "_:N38ee600db93f4eadb57d7ed3b6026a64",
+      "@id": "_:N279450e59dba469aae8b7600cea3e0e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -89,7 +89,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N2c9ec69cdc9141489d914045a81cd88f",
+      "@id": "_:Nd1c714ac236446739e05d57cba31c38c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"

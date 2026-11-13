@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1021/acs.jproteome.8b00718",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ppip",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N2604b2028e2c4c6f8273c616a6e83fea"
+          "@id": "_:Nfdede1862d10494aae404b45e582b441"
         },
         {
-          "@id": "_:Nd57fc64553ba48eaa6263b27e16f0359"
+          "@id": "_:Nc41bd359a2ec40c4a2bf01e3faddf1c0"
         }
       ],
       "bsc:output": {
-        "@id": "_:N87c058f5d0f94af19849cb245cdd1864"
+        "@id": "_:Na2bd48373e2f4b3bbfd6e2c39b98013d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -82,7 +86,7 @@
       "sc:url": "https://github.com/Shawn-Xu/PPIP"
     },
     {
-      "@id": "_:N2604b2028e2c4c6f8273c616a6e83fea",
+      "@id": "_:Nfdede1862d10494aae404b45e582b441",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -93,7 +97,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:Nd57fc64553ba48eaa6263b27e16f0359",
+      "@id": "_:Nc41bd359a2ec40c4a2bf01e3faddf1c0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -104,7 +108,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N87c058f5d0f94af19849cb245cdd1864",
+      "@id": "_:Na2bd48373e2f4b3bbfd6e2c39b98013d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -113,10 +117,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Protein sequence (raw)"
-    },
-    {
-      "@id": "https://doi.org/10.1021/acs.jproteome.8b00718",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

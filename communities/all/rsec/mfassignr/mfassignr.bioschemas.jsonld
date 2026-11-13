@@ -44,24 +44,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N062216b3bea246df8c8c3cb36ea6cd05"
+          "@id": "_:Naedcb46ab333438b8ee37a77fd31e1a0"
         },
         {
-          "@id": "_:N2b65da63c71649cbaf39b8d75b037f33"
+          "@id": "_:Nf27ae70c82a6437e8ef2415b1c8dfcfe"
         },
         {
-          "@id": "_:N1e5179557f91466a9a1792888cd396fc"
+          "@id": "_:Nb8552dec418f40f0add3033e655c02e0"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N517b00c6dc334d9fabb1be64b17a8588"
+          "@id": "_:N493e5e5e05c741179c7c024801e11b84"
         },
         {
-          "@id": "_:Nb2e9b958ef8440a0aba9bf630c3d0c80"
+          "@id": "_:N26e03cb0c59e4661869080f802a660e4"
         },
         {
-          "@id": "_:Nb72d16c0985645648335c9f0abe27edf"
+          "@id": "_:N9f345b10d9624e7787802485bfd6d80a"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -107,7 +107,7 @@
       "sc:url": "https://github.com/skschum/MFAssignR"
     },
     {
-      "@id": "_:N062216b3bea246df8c8c3cb36ea6cd05",
+      "@id": "_:Naedcb46ab333438b8ee37a77fd31e1a0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -118,7 +118,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:N2b65da63c71649cbaf39b8d75b037f33",
+      "@id": "_:Nf27ae70c82a6437e8ef2415b1c8dfcfe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -129,7 +129,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:N1e5179557f91466a9a1792888cd396fc",
+      "@id": "_:Nb8552dec418f40f0add3033e655c02e0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -140,7 +140,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:N517b00c6dc334d9fabb1be64b17a8588",
+      "@id": "_:N493e5e5e05c741179c7c024801e11b84",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -151,7 +151,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:Nb2e9b958ef8440a0aba9bf630c3d0c80",
+      "@id": "_:N26e03cb0c59e4661869080f802a660e4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -162,7 +162,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:Nb72d16c0985645648335c9f0abe27edf",
+      "@id": "_:N9f345b10d9624e7787802485bfd6d80a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

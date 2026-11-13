@@ -91,11 +91,11 @@
       "sc:url": "http://www.arachnoserver.org"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkq1058",
+      "@id": "https://doi.org/10.1186/1471-2164-10-375",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1186/1471-2164-10-375",
+      "@id": "https://doi.org/10.1093/nar/gkq1058",
       "@type": "sc:CreativeWork"
     }
   ]

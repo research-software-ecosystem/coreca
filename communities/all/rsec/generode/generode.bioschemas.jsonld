@@ -40,24 +40,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N26ae7f1729164562b4885fe999b11932"
+          "@id": "_:N7ee9e5c1a0434402a3d72b5a429bde1b"
         },
         {
-          "@id": "_:N4e5a11322c85496db08d98557999d479"
+          "@id": "_:Nfe57846c05e54eb4959a49cc47a3db42"
         },
         {
-          "@id": "_:Na3360cd034294dfaaa3b170668bd94f1"
+          "@id": "_:N065190d5ae504ac989ec299046abaa9a"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne779e51e999f4201a3c2b49ef7656129"
+          "@id": "_:N1fb8de47c2064f4e87fa72ad2880b0ad"
         },
         {
-          "@id": "_:Nf9749e4153d04fc58b134a0fc0e6a1c2"
+          "@id": "_:N14e16c9629e44f01b3e6ff5c588349bd"
         },
         {
-          "@id": "_:N6188d60651e5453ab6620f1e41c5ba91"
+          "@id": "_:N744815c2b5d040b9bf2e4156b7361ed2"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -112,7 +112,7 @@
       "sc:url": "https://github.com/NBISweden/GenErode"
     },
     {
-      "@id": "_:N26ae7f1729164562b4885fe999b11932",
+      "@id": "_:N7ee9e5c1a0434402a3d72b5a429bde1b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -123,7 +123,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N4e5a11322c85496db08d98557999d479",
+      "@id": "_:Nfe57846c05e54eb4959a49cc47a3db42",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -134,7 +134,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:Na3360cd034294dfaaa3b170668bd94f1",
+      "@id": "_:N065190d5ae504ac989ec299046abaa9a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -145,7 +145,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:Ne779e51e999f4201a3c2b49ef7656129",
+      "@id": "_:N1fb8de47c2064f4e87fa72ad2880b0ad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -156,7 +156,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Nf9749e4153d04fc58b134a0fc0e6a1c2",
+      "@id": "_:N14e16c9629e44f01b3e6ff5c588349bd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -167,7 +167,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N6188d60651e5453ab6620f1e41c5ba91",
+      "@id": "_:N744815c2b5d040b9bf2e4156b7361ed2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"

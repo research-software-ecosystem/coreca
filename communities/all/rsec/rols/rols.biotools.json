@@ -17,7 +17,20 @@
             "name": "Laurent Gatto",
             "typeEntity": "Person",
             "typeRole": [
-                "Developer",
+                "Developer"
+            ]
+        },
+        {
+            "name": "Levi Waldron",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "name": "Sehyun Oh",
+            "typeEntity": "Person",
+            "typeRole": [
                 "Maintainer"
             ]
         },
@@ -41,7 +54,7 @@
     "download": [
         {
             "type": "Source code",
-            "url": "http://lgatto.github.io/rols/"
+            "url": "https://shbrief.github.io/rols/"
         }
     ],
     "editPermission": {
@@ -89,7 +102,7 @@
     "language": [
         "R"
     ],
-    "lastUpdate": "2026-09-06T02:00:20.626926Z",
+    "lastUpdate": "2026-10-18T01:30:10.431474Z",
     "license": "GPL-2.0",
     "link": [
         {
@@ -123,6 +136,6 @@
     ],
     "validated": 1,
     "version": [
-        "3.8.2"
+        "3.8.3"
     ]
 }

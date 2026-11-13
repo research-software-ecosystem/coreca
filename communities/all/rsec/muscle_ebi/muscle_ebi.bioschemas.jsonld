@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/muscle_ebi",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N27e38fb25a0a4f5b9e57aeb73c4143ca"
+        "@id": "_:N44f8cb839b25492da6800050068a621a"
       },
       "bsc:output": {
-        "@id": "_:Nbd24fefac0a24637888a2e464adc94f9"
+        "@id": "_:N42ccc9982e5d46a68d9d32b1a8e36a66"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -73,7 +73,7 @@
       "sc:url": "https://bioconductor.org/packages/muscle"
     },
     {
-      "@id": "_:N27e38fb25a0a4f5b9e57aeb73c4143ca",
+      "@id": "_:N44f8cb839b25492da6800050068a621a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -81,7 +81,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nbd24fefac0a24637888a2e464adc94f9",
+      "@id": "_:N42ccc9982e5d46a68d9d32b1a8e36a66",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

@@ -36,12 +36,12 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btr108",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://orcid.org/0000-0002-0274-5669",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btr108",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/memloci",
@@ -53,10 +53,10 @@
         "Andrea Pierleoni"
       ],
       "bsc:input": {
-        "@id": "_:N8db0e1c7c440444995d70e1bd7dd3fc7"
+        "@id": "_:Na6cfd85e53cd439899b6e420c99fadd1"
       },
       "bsc:output": {
-        "@id": "_:N44483c482be84ef0a7d65d133e5043e4"
+        "@id": "_:N7be7153ffc8a42ac8e4314ce9a91b042"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -96,7 +96,7 @@
       "sc:url": "https://mu2py.biocomp.unibo.it/memloci"
     },
     {
-      "@id": "_:N8db0e1c7c440444995d70e1bd7dd3fc7",
+      "@id": "_:Na6cfd85e53cd439899b6e420c99fadd1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -107,7 +107,7 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:N44483c482be84ef0a7d65d133e5043e4",
+      "@id": "_:N7be7153ffc8a42ac8e4314ce9a91b042",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

@@ -40,6 +40,10 @@
       "@type": "sc:Person"
     },
     {
+      "@id": "https://doi.org/10.1101/2021.05.26.445802",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/coral-cohort",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -78,10 +82,6 @@
       ],
       "sc:name": "Coral",
       "sc:url": "https://coral.caleydoapp.org"
-    },
-    {
-      "@id": "https://doi.org/10.1101/2021.05.26.445802",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

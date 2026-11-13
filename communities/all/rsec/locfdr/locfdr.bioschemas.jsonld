@@ -40,10 +40,6 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://doi.org/10.1371/JOURNAL.PGEN.1009853",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/locfdr",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -104,6 +100,10 @@
         }
       ],
       "sc:url": "https://cran.r-project.org/package=locfdr"
+    },
+    {
+      "@id": "https://doi.org/10.1371/JOURNAL.PGEN.1009853",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

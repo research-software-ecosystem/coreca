@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/ppml",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nfb3a3e160bf34718bd4948d10f6be709"
+        "@id": "_:N45924f3bfc8a4b8286a12836e3f750ce"
       },
       "bsc:output": {
-        "@id": "_:Nf0d784dd335f47a7a09204b5ae3a3049"
+        "@id": "_:N5c200092911547df971df3cb5c19a0d0"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web service",
@@ -86,7 +86,7 @@
       "sc:url": "http://www.bioinfogenetics.info/PPML/"
     },
     {
-      "@id": "_:Nfb3a3e160bf34718bd4948d10f6be709",
+      "@id": "_:N45924f3bfc8a4b8286a12836e3f750ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2538"
@@ -94,7 +94,7 @@
       "sc:name": "Mutation identifier"
     },
     {
-      "@id": "_:Nf0d784dd335f47a7a09204b5ae3a3049",
+      "@id": "_:N5c200092911547df971df3cb5c19a0d0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

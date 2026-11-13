@@ -36,21 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1111/j.1469-8137.2012.04184.x",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/cornet_arabidopsis",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N51c0f2b2b63d4974a561854d4dd98251"
+        "@id": "_:Nb164bd9beae947e3af8917bcb6f31d2d"
       },
       "bsc:output": [
         {
-          "@id": "_:Nc08ee164711f4207b8ed64d8acdc8e17"
+          "@id": "_:N6db4b431192d4fcebe2c985c34569471"
         },
         {
-          "@id": "_:N903311ba78d84be5901db815eaa7c3b9"
+          "@id": "_:Na58b0a75cd4245ecb05016bc03d8c294"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -91,7 +87,7 @@
       "sc:url": "https://cornet.psb.ugent.be"
     },
     {
-      "@id": "_:N51c0f2b2b63d4974a561854d4dd98251",
+      "@id": "_:Nb164bd9beae947e3af8917bcb6f31d2d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -99,7 +95,7 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "_:Nc08ee164711f4207b8ed64d8acdc8e17",
+      "@id": "_:N6db4b431192d4fcebe2c985c34569471",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
@@ -107,12 +103,16 @@
       "sc:name": "P-value"
     },
     {
-      "@id": "_:N903311ba78d84be5901db815eaa7c3b9",
+      "@id": "_:Na58b0a75cd4245ecb05016bc03d8c294",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
       },
       "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "https://doi.org/10.1111/j.1469-8137.2012.04184.x",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

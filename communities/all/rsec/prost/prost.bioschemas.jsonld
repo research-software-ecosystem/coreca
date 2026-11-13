@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/prost",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1c493ba72dc04b80ae19b26c0f92a771"
+        "@id": "_:N65072207cc614d1981e91d47ba7ac15d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -79,7 +79,7 @@
       "sc:url": "https://prost.erc.monash.edu/seq"
     },
     {
-      "@id": "_:N1c493ba72dc04b80ae19b26c0f92a771",
+      "@id": "_:N65072207cc614d1981e91d47ba7ac15d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

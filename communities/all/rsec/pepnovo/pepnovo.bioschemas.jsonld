@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/pepnovo",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N993515d84c5f457187488642ddcfa20f"
+        "@id": "_:Nd6277307726d4991817960a091af1b10"
       },
       "bsc:output": {
-        "@id": "_:N3ad6516ea0644569b01281f51044204e"
+        "@id": "_:Nebd5bd0bc766430fb34de1bf7c99c386"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -88,7 +88,7 @@
       "sc:url": "http://proteomics.ucsd.edu/ProteoSAFe/"
     },
     {
-      "@id": "_:N993515d84c5f457187488642ddcfa20f",
+      "@id": "_:Nd6277307726d4991817960a091af1b10",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -110,7 +110,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N3ad6516ea0644569b01281f51044204e",
+      "@id": "_:Nebd5bd0bc766430fb34de1bf7c99c386",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"

@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gku396",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/loctree3",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N2dc315db49584a4c9ec64f064d62d6f6"
+        "@id": "_:Ndb99c9d307d14b53ba7a80ea91922e93"
       },
       "bsc:output": {
-        "@id": "_:Nd1ebe50c11fa43b0bbd063afdd82a407"
+        "@id": "_:N4fabe7f90daf46d1a92567ef00bd1da4"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -108,7 +112,7 @@
       "sc:url": "https://rostlab.org/services/loctree3/"
     },
     {
-      "@id": "_:N2dc315db49584a4c9ec64f064d62d6f6",
+      "@id": "_:Ndb99c9d307d14b53ba7a80ea91922e93",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -119,7 +123,7 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:Nd1ebe50c11fa43b0bbd063afdd82a407",
+      "@id": "_:N4fabe7f90daf46d1a92567ef00bd1da4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -131,10 +135,6 @@
     },
     {
       "@id": "https://doi.org/10.1093/bioinformatics/bts390",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gku396",
       "@type": "sc:CreativeWork"
     }
   ]

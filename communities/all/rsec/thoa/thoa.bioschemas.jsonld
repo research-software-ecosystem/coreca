@@ -40,24 +40,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N87255168b2dc469c9ef236176d9d61c4"
+          "@id": "_:Nf998f5d252a240199712d28fa1eee2d9"
         },
         {
-          "@id": "_:Nfa9ca4dd09ef439498a18767b42e0dd4"
+          "@id": "_:N06d9127b50f646a1bced63428d57ad7a"
         },
         {
-          "@id": "_:N79e9a719e9a542b89da236b72f17a296"
+          "@id": "_:N0649265bcd58456e9a11eaef479bd1bb"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N74a6ed3e32a34e14b64b1acfcb0e14e0"
+          "@id": "_:N8442349cbdb84feea65dcb2cf555d30e"
         },
         {
-          "@id": "_:N72980fdb2be64322a661f62682507ec4"
+          "@id": "_:Nfeabd92673e049c5b1bab6e3310a81ba"
         },
         {
-          "@id": "_:N4bf8e9cd5cfd4481960b1e98bd566164"
+          "@id": "_:Nedfe71cdcc524d7c924b6d6d2875df48"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -108,7 +108,7 @@
       "sc:url": "https://www.thoa.io/"
     },
     {
-      "@id": "_:N87255168b2dc469c9ef236176d9d61c4",
+      "@id": "_:Nf998f5d252a240199712d28fa1eee2d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -116,7 +116,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:Nfa9ca4dd09ef439498a18767b42e0dd4",
+      "@id": "_:N06d9127b50f646a1bced63428d57ad7a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -124,7 +124,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N79e9a719e9a542b89da236b72f17a296",
+      "@id": "_:N0649265bcd58456e9a11eaef479bd1bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -132,7 +132,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N74a6ed3e32a34e14b64b1acfcb0e14e0",
+      "@id": "_:N8442349cbdb84feea65dcb2cf555d30e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -140,7 +140,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N72980fdb2be64322a661f62682507ec4",
+      "@id": "_:Nfeabd92673e049c5b1bab6e3310a81ba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -148,7 +148,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N4bf8e9cd5cfd4481960b1e98bd566164",
+      "@id": "_:Nedfe71cdcc524d7c924b6d6d2875df48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"

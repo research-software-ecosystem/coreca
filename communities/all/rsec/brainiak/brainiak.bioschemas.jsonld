@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1371/JOURNAL.PCBI.1007549",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.31219/osf.io/db2ev",
       "@type": "sc:CreativeWork"
     },
@@ -89,10 +93,6 @@
         "@id": "https://brainiak.org/tutorials/"
       },
       "sc:url": "http://brainiak.org"
-    },
-    {
-      "@id": "https://doi.org/10.1371/JOURNAL.PCBI.1007549",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

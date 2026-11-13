@@ -36,19 +36,19 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0003-0513-0288",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-0566-7723",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://orcid.org/0000-0003-2116-3880",
       "@type": "sc:Person"
     },
     {
       "@id": "https://orcid.org/0000-0002-8291-8071",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0513-0288",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0566-7723",
       "@type": "sc:Person"
     },
     {
@@ -59,36 +59,36 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N5e16236cde9942acad4b03fce9dd21cb"
+          "@id": "_:Ndbbf72521a4a4cb2a77dacf1059194a9"
         },
         {
-          "@id": "_:N5350ff9f5c1a4be1aa3ec48709ca88dd"
+          "@id": "_:N1f45ea8d30484923904afc46bbc83a4d"
         },
         {
-          "@id": "_:Nd6408af3e0fb40c3b4673f41d1e36f8c"
+          "@id": "_:Nc9f2d794801948b7bd398ec093b9ba4e"
         },
         {
-          "@id": "_:N1ea11f19804d40fdab416a41738fe6a6"
+          "@id": "_:Nf3fc258bcda64891acbf85e3d5e52c2b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3ef65e43887545c7b27530803c8eb94a"
+          "@id": "_:N734537f6644c403aaffe9641ce68a048"
         },
         {
-          "@id": "_:N27afd72e25b54d47a22b0a335c6b4051"
+          "@id": "_:N0ed082cd5f574ac389c3db05af88f58e"
         },
         {
-          "@id": "_:N2d37eb59f77d436bb2fe0e2fd38f0a9b"
+          "@id": "_:N9f3571c0c5b04aad88198435cb393ffa"
         },
         {
-          "@id": "_:N52c2769bbf3d4996b90a4baa9b8aa639"
+          "@id": "_:Nae584a0a953c4b8e8fe9f7385ac3a904"
         },
         {
-          "@id": "_:N846cbf05a12f4e26bd79a120190c01ff"
+          "@id": "_:Ne1cbcd48632e46e38a7d854b8642769d"
         },
         {
-          "@id": "_:N56c7aa762c0146eaa18d07020f450012"
+          "@id": "_:N190096792b6545f3ac038423e5777244"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -175,7 +175,7 @@
       "sc:url": "https://mmb.irbbarcelona.org/biobb-api/"
     },
     {
-      "@id": "_:N5e16236cde9942acad4b03fce9dd21cb",
+      "@id": "_:Ndbbf72521a4a4cb2a77dacf1059194a9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -186,7 +186,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N5350ff9f5c1a4be1aa3ec48709ca88dd",
+      "@id": "_:N1f45ea8d30484923904afc46bbc83a4d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1459"
@@ -197,7 +197,7 @@
       "sc:name": "Nucleic acid structure"
     },
     {
-      "@id": "_:Nd6408af3e0fb40c3b4673f41d1e36f8c",
+      "@id": "_:Nc9f2d794801948b7bd398ec093b9ba4e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -208,7 +208,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N1ea11f19804d40fdab416a41738fe6a6",
+      "@id": "_:Nf3fc258bcda64891acbf85e3d5e52c2b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3870"
@@ -233,7 +233,7 @@
       "sc:name": "Trajectory data"
     },
     {
-      "@id": "_:N3ef65e43887545c7b27530803c8eb94a",
+      "@id": "_:N734537f6644c403aaffe9641ce68a048",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -249,7 +249,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N27afd72e25b54d47a22b0a335c6b4051",
+      "@id": "_:N0ed082cd5f574ac389c3db05af88f58e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1459"
@@ -260,7 +260,7 @@
       "sc:name": "Nucleic acid structure"
     },
     {
-      "@id": "_:N2d37eb59f77d436bb2fe0e2fd38f0a9b",
+      "@id": "_:N9f3571c0c5b04aad88198435cb393ffa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -271,7 +271,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N52c2769bbf3d4996b90a4baa9b8aa639",
+      "@id": "_:Nae584a0a953c4b8e8fe9f7385ac3a904",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2085"
@@ -290,7 +290,7 @@
       "sc:name": "Structure report"
     },
     {
-      "@id": "_:N846cbf05a12f4e26bd79a120190c01ff",
+      "@id": "_:Ne1cbcd48632e46e38a7d854b8642769d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -309,7 +309,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N56c7aa762c0146eaa18d07020f450012",
+      "@id": "_:N190096792b6545f3ac038423e5777244",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3870"

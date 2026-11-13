@@ -36,36 +36,32 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nbt.3109",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/peptideshaker",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Dominik Kopczynsk",
       "bsc:input": [
         {
-          "@id": "_:Ndd955afb57e94121ae230fe949662a88"
+          "@id": "_:N056246ecc0074505809e4e41502383c1"
         },
         {
-          "@id": "_:Na72f79e302cf47dfa1e9bcc7460eea35"
+          "@id": "_:N14443ba792714f61a7b4ff5d5e952794"
         },
         {
-          "@id": "_:Na4f06e71ee63477aa3ebd72035cc9ff8"
+          "@id": "_:Nb50a951a6f7e4ffebac2f5a713206f8e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N872028ee0a6b4dcbaa5843f16a32b34d"
+          "@id": "_:N5e36e6667f774b9f9595aba8e3dc4052"
         },
         {
-          "@id": "_:N26e05737123a49c59e6f24933a08dd8d"
+          "@id": "_:Nff7a131dff3a464a81163c64de89a9c5"
         },
         {
-          "@id": "_:N4bf605fd710b4072bebf57809e33d7fd"
+          "@id": "_:Na40bfaf8f5914a91be11530154a26d73"
         },
         {
-          "@id": "_:N8fee452fc0d24fc2a6031220d8d5cb09"
+          "@id": "_:Na6332f366eb14df19f849c17d91173e2"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -128,7 +124,7 @@
       "sc:url": "http://compomics.github.io/projects/peptide-shaker.html"
     },
     {
-      "@id": "_:Ndd955afb57e94121ae230fe949662a88",
+      "@id": "_:N056246ecc0074505809e4e41502383c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -139,7 +135,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Na72f79e302cf47dfa1e9bcc7460eea35",
+      "@id": "_:N14443ba792714f61a7b4ff5d5e952794",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -150,7 +146,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Na4f06e71ee63477aa3ebd72035cc9ff8",
+      "@id": "_:Nb50a951a6f7e4ffebac2f5a713206f8e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -161,7 +157,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N872028ee0a6b4dcbaa5843f16a32b34d",
+      "@id": "_:N5e36e6667f774b9f9595aba8e3dc4052",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3754"
@@ -172,7 +168,7 @@
       "sc:name": "GO-term enrichment data"
     },
     {
-      "@id": "_:N26e05737123a49c59e6f24933a08dd8d",
+      "@id": "_:Nff7a131dff3a464a81163c64de89a9c5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -183,7 +179,7 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "_:N4bf605fd710b4072bebf57809e33d7fd",
+      "@id": "_:Na40bfaf8f5914a91be11530154a26d73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2992"
@@ -199,7 +195,7 @@
       "sc:name": "Protein structure image"
     },
     {
-      "@id": "_:N8fee452fc0d24fc2a6031220d8d5cb09",
+      "@id": "_:Na6332f366eb14df19f849c17d91173e2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2969"
@@ -208,6 +204,10 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Sequence image"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nbt.3109",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -41,18 +41,18 @@
       "biotools:primaryContact": "Ivana Ihnatova",
       "bsc:input": [
         {
-          "@id": "_:N816aaa4ca3034a58b1c284c76ed5393a"
+          "@id": "_:N4925ad21bd694398b13d01201ffdb0f1"
         },
         {
-          "@id": "_:Ne9cb0a5c6cfe46c5a0e55f1215c6fdd6"
+          "@id": "_:N1fb3a2c429e54293ae39fec7cd3c3c65"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf14b1924380e48dd9ea75f0e79881a6e"
+          "@id": "_:Nb31d66d8c65e40f1bc6e91f8e9aaa9b0"
         },
         {
-          "@id": "_:Na8761d2d340941cfbe03fe04933988df"
+          "@id": "_:N18598874662b4c2ab15bcc82c1fe3148"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -96,7 +96,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/ToPASeq.html"
     },
     {
-      "@id": "_:N816aaa4ca3034a58b1c284c76ed5393a",
+      "@id": "_:N4925ad21bd694398b13d01201ffdb0f1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -112,7 +112,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Ne9cb0a5c6cfe46c5a0e55f1215c6fdd6",
+      "@id": "_:N1fb3a2c429e54293ae39fec7cd3c3c65",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -128,7 +128,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nf14b1924380e48dd9ea75f0e79881a6e",
+      "@id": "_:Nb31d66d8c65e40f1bc6e91f8e9aaa9b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -139,7 +139,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Na8761d2d340941cfbe03fe04933988df",
+      "@id": "_:N18598874662b4c2ab15bcc82c1fe3148",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0951"

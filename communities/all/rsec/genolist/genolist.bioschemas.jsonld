@@ -40,24 +40,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N297c16c1adbf45f1a268100d2c2b60c5"
+          "@id": "_:N9fa7d3db70754fbabf8a290540fb5406"
         },
         {
-          "@id": "_:N7f14ab27a19f445ab0d8f7050e5e87e3"
+          "@id": "_:N9e04868db6024b5699f1618fafb67539"
         },
         {
-          "@id": "_:Na2af8c9abcbb4258be7c6c67ec1feb4c"
+          "@id": "_:N351844503bad49fea142a33a2e3a2a08"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ncfcfd9de984b486fb47a0ed566f580e7"
+          "@id": "_:Nf9386cd554394b75a25bd2b06b32205f"
         },
         {
-          "@id": "_:N9cd0ef2ff4d14d4f8337e6791f1d6aa2"
+          "@id": "_:N26e0a9ee9ad443be933031d253150dce"
         },
         {
-          "@id": "_:Ne04521d27946497d9add5cbf5dcde4f4"
+          "@id": "_:N6a309a26da3a4b9a83f74d071cb11f7f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -93,7 +93,7 @@
       "sc:url": "http://genolist.pasteur.fr/GenoList"
     },
     {
-      "@id": "_:N297c16c1adbf45f1a268100d2c2b60c5",
+      "@id": "_:N9fa7d3db70754fbabf8a290540fb5406",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2739"
@@ -101,7 +101,7 @@
       "sc:name": "Gene ID (Genolist)"
     },
     {
-      "@id": "_:N7f14ab27a19f445ab0d8f7050e5e87e3",
+      "@id": "_:N9e04868db6024b5699f1618fafb67539",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -109,7 +109,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:Na2af8c9abcbb4258be7c6c67ec1feb4c",
+      "@id": "_:N351844503bad49fea142a33a2e3a2a08",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1868"
@@ -117,7 +117,7 @@
       "sc:name": "Taxon"
     },
     {
-      "@id": "_:Ncfcfd9de984b486fb47a0ed566f580e7",
+      "@id": "_:Nf9386cd554394b75a25bd2b06b32205f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -128,7 +128,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N9cd0ef2ff4d14d4f8337e6791f1d6aa2",
+      "@id": "_:N26e0a9ee9ad443be933031d253150dce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -139,7 +139,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Ne04521d27946497d9add5cbf5dcde4f4",
+      "@id": "_:N6a309a26da3a4b9a83f74d071cb11f7f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"

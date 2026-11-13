@@ -36,11 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     },
     {
@@ -49,27 +49,27 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N5a851f1b5eef497592e5cdc6995c23e1"
+          "@id": "_:N1542715487d841f6a1dc4a8ae0e659c0"
         },
         {
-          "@id": "_:Na345e7c459884f0983a1517ee687b9bf"
+          "@id": "_:N815fadfa5e0549afb6b963e5de882054"
         },
         {
-          "@id": "_:N87b249503d364bcca08809caf8bd9cd5"
+          "@id": "_:N0015c6e62b234730863e4608598283b1"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2270fb3f4249444a817a344beb1fc524"
+          "@id": "_:Na8af3d3bb32647f4bcbc3e14d4606099"
         },
         {
-          "@id": "_:N1b33318d04224ac59398ed5974e82992"
+          "@id": "_:Ncf93c470a40643b4aeef712a757daee5"
         },
         {
-          "@id": "_:N9a373be06a9d497babd0e26fa38947bf"
+          "@id": "_:N9ec34b07c87149a092cb332d21715a4d"
         },
         {
-          "@id": "_:N2d2121129aa243b38cd075b1ed4c4cdb"
+          "@id": "_:Nff02582be4bf4f379804c3d4052a009c"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -109,7 +109,7 @@
       "sc:url": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/fmareuil/annotategenes/annotateGenes/1.0"
     },
     {
-      "@id": "_:N5a851f1b5eef497592e5cdc6995c23e1",
+      "@id": "_:N1542715487d841f6a1dc4a8ae0e659c0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -120,7 +120,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:Na345e7c459884f0983a1517ee687b9bf",
+      "@id": "_:N815fadfa5e0549afb6b963e5de882054",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -131,7 +131,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N87b249503d364bcca08809caf8bd9cd5",
+      "@id": "_:N0015c6e62b234730863e4608598283b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -142,7 +142,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N2270fb3f4249444a817a344beb1fc524",
+      "@id": "_:Na8af3d3bb32647f4bcbc3e14d4606099",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -153,7 +153,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N1b33318d04224ac59398ed5974e82992",
+      "@id": "_:Ncf93c470a40643b4aeef712a757daee5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -164,7 +164,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N9a373be06a9d497babd0e26fa38947bf",
+      "@id": "_:N9ec34b07c87149a092cb332d21715a4d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -175,7 +175,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N2d2121129aa243b38cd075b1ed4c4cdb",
+      "@id": "_:Nff02582be4bf4f379804c3d4052a009c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

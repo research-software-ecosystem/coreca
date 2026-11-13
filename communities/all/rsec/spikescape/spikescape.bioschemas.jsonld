@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1021/acs.jcim.2c01366",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/spikescape",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne1f676ebd3ea4d5e86bd35ecc4ff5265"
+          "@id": "_:Nc3a3a3ef6a5944e1ac64038b328d0999"
         },
         {
-          "@id": "_:N12f4d67692104dd2a86b0bb5751b4ad8"
+          "@id": "_:Nba9b8236585849d18d6fe1e65c808e01"
         }
       ],
       "bsc:output": {
-        "@id": "_:N1471bfbde5c243b2b326c2b6ad52aec6"
+        "@id": "_:N7feb3fd237b94bee8e88b4ca0d3bc404"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -97,7 +101,7 @@
       "sc:url": "https://spikescape.streamlitapp.com/"
     },
     {
-      "@id": "_:Ne1f676ebd3ea4d5e86bd35ecc4ff5265",
+      "@id": "_:Nc3a3a3ef6a5944e1ac64038b328d0999",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1755"
@@ -105,7 +109,7 @@
       "sc:name": "Protein atom"
     },
     {
-      "@id": "_:N12f4d67692104dd2a86b0bb5751b4ad8",
+      "@id": "_:Nba9b8236585849d18d6fe1e65c808e01",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1756"
@@ -113,16 +117,12 @@
       "sc:name": "Protein residue"
     },
     {
-      "@id": "_:N1471bfbde5c243b2b326c2b6ad52aec6",
+      "@id": "_:N7feb3fd237b94bee8e88b4ca0d3bc404",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3905"
       },
       "sc:name": "Histogram"
-    },
-    {
-      "@id": "https://doi.org/10.1021/acs.jcim.2c01366",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

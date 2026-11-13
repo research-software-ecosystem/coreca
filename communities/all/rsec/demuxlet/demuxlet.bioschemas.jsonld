@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N69b8ad643cc94871b66abbce3540227f"
+          "@id": "_:Na2b8e5f4c6dd46c0bf86521451d8395d"
         },
         {
-          "@id": "_:N1ff70b8ce18d4b9c8c0a4b61b3f27ebe"
+          "@id": "_:N82b722c7df4d4ef290e78af4e31523fa"
         }
       ],
       "bsc:output": {
-        "@id": "_:N727283a8433f43e892123c1166986c83"
+        "@id": "_:N81fca0c5e3514093b639b82757dff9a9"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -96,7 +96,7 @@
       "sc:url": "https://github.com/statgen/demuxlet"
     },
     {
-      "@id": "_:N69b8ad643cc94871b66abbce3540227f",
+      "@id": "_:Na2b8e5f4c6dd46c0bf86521451d8395d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -115,7 +115,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:N1ff70b8ce18d4b9c8c0a4b61b3f27ebe",
+      "@id": "_:N82b722c7df4d4ef290e78af4e31523fa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -131,7 +131,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N727283a8433f43e892123c1166986c83",
+      "@id": "_:N81fca0c5e3514093b639b82757dff9a9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

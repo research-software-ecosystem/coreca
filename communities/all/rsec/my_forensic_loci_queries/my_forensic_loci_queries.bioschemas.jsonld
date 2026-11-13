@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/my_forensic_loci_queries",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N5bc4d7c21db94d5691d8e25f6ff55c9b"
+        "@id": "_:Nc9353169413042d285d1a85fbbe8b509"
       },
       "bsc:output": [
         {
-          "@id": "_:N2ee837123e17478aa97403da5584a8e3"
+          "@id": "_:Nab2613a5a0b944c0ab5f661fcc0af954"
         },
         {
-          "@id": "_:Nc103996eea344d9d939aea1ce01da106"
+          "@id": "_:N4931611250d94fb5bef2f7ca89605a38"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -86,7 +86,7 @@
       "sc:url": "https://github.com/beukueb/myflq"
     },
     {
-      "@id": "_:N5bc4d7c21db94d5691d8e25f6ff55c9b",
+      "@id": "_:Nc9353169413042d285d1a85fbbe8b509",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -102,7 +102,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N2ee837123e17478aa97403da5584a8e3",
+      "@id": "_:Nab2613a5a0b944c0ab5f661fcc0af954",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -110,7 +110,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Nc103996eea344d9d939aea1ce01da106",
+      "@id": "_:N4931611250d94fb5bef2f7ca89605a38",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

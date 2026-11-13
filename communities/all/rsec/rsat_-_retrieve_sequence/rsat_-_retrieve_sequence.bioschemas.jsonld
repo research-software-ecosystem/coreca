@@ -36,16 +36,24 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-8799-8584",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gky317",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/RSAT_-_Retrieve_Sequence",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "https://orcid.org/0000-0002-8799-8584"
       },
       "bsc:input": {
-        "@id": "_:N2e3a9d745aa940e89412e6445997c235"
+        "@id": "_:N5284fab202cf48da9b618ece6ffa348f"
       },
       "bsc:output": {
-        "@id": "_:Nfa9ad089a1c94657985fbee760d24cab"
+        "@id": "_:N5c376ea50beb4ad1a56d638d2bbc503b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -81,7 +89,7 @@
       "sc:url": "http://pedagogix-tagc.univ-mrs.fr/rsat/retrieve-seq_form.cgi"
     },
     {
-      "@id": "_:N2e3a9d745aa940e89412e6445997c235",
+      "@id": "_:N5284fab202cf48da9b618ece6ffa348f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -92,7 +100,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:Nfa9ad089a1c94657985fbee760d24cab",
+      "@id": "_:N5c376ea50beb4ad1a56d638d2bbc503b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -109,14 +117,6 @@
         }
       ],
       "sc:name": "DNA sequence"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-8799-8584",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gky317",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,6 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-5307-2484",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkr1169",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/NAR/GKAB1088",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/diseasemeth",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,10 +55,10 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N927057974c8842319c601f485a9c4111"
+          "@id": "_:N4343001b048c424c8ec793dfc5aa3b4d"
         },
         {
-          "@id": "_:N2ae2c49812f4460cb0d0ef0c3f1a3b7d"
+          "@id": "_:N226c0cf84aeb4923b9f3bfecf78bba3f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -106,7 +118,7 @@
       "sc:url": "http://218.8.241.243:8080/DiseaseMeth3.0/index.html"
     },
     {
-      "@id": "_:N927057974c8842319c601f485a9c4111",
+      "@id": "_:N4343001b048c424c8ec793dfc5aa3b4d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -114,24 +126,12 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N2ae2c49812f4460cb0d0ef0c3f1a3b7d",
+      "@id": "_:N226c0cf84aeb4923b9f3bfecf78bba3f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2769"
       },
       "sc:name": "Transcript ID"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-5307-2484",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkr1169",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/NAR/GKAB1088",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

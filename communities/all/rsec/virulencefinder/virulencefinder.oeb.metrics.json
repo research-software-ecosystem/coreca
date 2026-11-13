@@ -12,10 +12,10 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 311,
+                            "cit_count": 315,
                             "citations": [
                                 {
-                                    "count": 24,
+                                    "count": 25,
                                     "year": 2021
                                 },
                                 {
@@ -31,7 +31,7 @@
                                     "year": 2022
                                 },
                                 {
-                                    "count": 60,
+                                    "count": 63,
                                     "year": 2026
                                 },
                                 {
@@ -183,7 +183,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 897,
+                            "cit_count": 902,
                             "citations": [
                                 {
                                     "count": 1,
@@ -218,16 +218,16 @@
                                     "year": 2024
                                 },
                                 {
-                                    "count": 80,
-                                    "year": 2026
-                                },
-                                {
                                     "count": 82,
                                     "year": 2023
                                 },
                                 {
                                     "count": 84,
                                     "year": 2025
+                                },
+                                {
+                                    "count": 85,
+                                    "year": 2026
                                 },
                                 {
                                     "count": 96,
@@ -366,7 +366,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 897,
+                            "cit_count": 902,
                             "citations": [
                                 {
                                     "count": 1,
@@ -401,16 +401,16 @@
                                     "year": 2024
                                 },
                                 {
-                                    "count": 80,
-                                    "year": 2026
-                                },
-                                {
                                     "count": 82,
                                     "year": 2023
                                 },
                                 {
                                     "count": 84,
                                     "year": 2025
+                                },
+                                {
+                                    "count": 85,
+                                    "year": 2026
                                 },
                                 {
                                     "count": 96,
@@ -564,7 +564,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 897,
+                            "cit_count": 902,
                             "citations": [
                                 {
                                     "count": 1,
@@ -599,16 +599,16 @@
                                     "year": 2024
                                 },
                                 {
-                                    "count": 80,
-                                    "year": 2026
-                                },
-                                {
                                     "count": 82,
                                     "year": 2023
                                 },
                                 {
                                     "count": 84,
                                     "year": 2025
+                                },
+                                {
+                                    "count": 85,
+                                    "year": 2026
                                 },
                                 {
                                     "count": 96,

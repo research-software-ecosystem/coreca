@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:N6e5e196b112541d4a531523bdb355955"
+        "@id": "_:Ncea9b02b94cd44688ff00627f42bd898"
       },
       "bsc:output": {
-        "@id": "_:Nc672a7769322412d8cf29cb8ec523092"
+        "@id": "_:Ne6d28b688bbe4c28ab04c1ca1faa3118"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -109,7 +109,7 @@
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/pfa/pratt"
     },
     {
-      "@id": "_:N6e5e196b112541d4a531523bdb355955",
+      "@id": "_:Ncea9b02b94cd44688ff00627f42bd898",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -117,7 +117,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nc672a7769322412d8cf29cb8ec523092",
+      "@id": "_:Ne6d28b688bbe4c28ab04c1ca1faa3118",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2762"

@@ -56,7 +56,7 @@
       ],
       "sc:description": "NAP is a network analysis tool and offers:\n1) Exploration of a network's  topological features\n2) Ranking nodes/edge by topological properties\n3) Simultaneous comparison of topological features between different networks\n4) Basic network visualization",
       "sc:name": "NAP",
-      "sc:url": "http://bib.fleming.gr:3838/NAP/"
+      "sc:url": "https://normaviz.org/"
     }
   ]
 }

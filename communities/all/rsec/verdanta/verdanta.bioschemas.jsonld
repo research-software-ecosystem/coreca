@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N41f15f3f488645d4a629c6163a6c77f1"
+          "@id": "_:N2044c07a0a5a4fb3b6c7d38488da54d8"
         },
         {
-          "@id": "_:N0856fe4bce014285ab776a56d5db82ac"
+          "@id": "_:Nd8422f560d9b439aaa6f68669c3fb832"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf14bd7ebd02f4280bc47c5b06b37dcfa"
+          "@id": "_:N366faa6fb8814532bda5b3fdfd8587fc"
         },
         {
-          "@id": "_:Nd5dbb8d0d6c64875a9908ad019d46792"
+          "@id": "_:N09c9b8dde5a646ed882cc737701f6a28"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,7 +92,7 @@
       "sc:url": "https://verdanta.tech"
     },
     {
-      "@id": "_:N41f15f3f488645d4a629c6163a6c77f1",
+      "@id": "_:N2044c07a0a5a4fb3b6c7d38488da54d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2589"
@@ -100,7 +100,7 @@
       "sc:name": "Hierarchy"
     },
     {
-      "@id": "_:N0856fe4bce014285ab776a56d5db82ac",
+      "@id": "_:Nd8422f560d9b439aaa6f68669c3fb832",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -108,7 +108,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Nf14bd7ebd02f4280bc47c5b06b37dcfa",
+      "@id": "_:N366faa6fb8814532bda5b3fdfd8587fc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -116,7 +116,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:Nd5dbb8d0d6c64875a9908ad019d46792",
+      "@id": "_:N09c9b8dde5a646ed882cc737701f6a28",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

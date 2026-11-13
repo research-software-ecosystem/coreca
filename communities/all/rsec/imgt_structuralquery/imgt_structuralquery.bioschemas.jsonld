@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkh042",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/IMGT_StructuralQuery",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N299ad1cce29c455f9539400366748d8d"
+        "@id": "_:N0a9cd2cfc7e447e68c5562824b671e2e"
       },
       "bsc:output": {
-        "@id": "_:Nb01ea0854e6d4497824e8facc8c6a1f3"
+        "@id": "_:Nb689bd0844d94e95b998e2272456edad"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -88,7 +84,7 @@
       "sc:url": "http://www.imgt.org/3Dstructure-DB/"
     },
     {
-      "@id": "_:N299ad1cce29c455f9539400366748d8d",
+      "@id": "_:N0a9cd2cfc7e447e68c5562824b671e2e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -99,7 +95,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:Nb01ea0854e6d4497824e8facc8c6a1f3",
+      "@id": "_:Nb689bd0844d94e95b998e2272456edad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"
@@ -111,6 +107,10 @@
     },
     {
       "@id": "https://doi.org/10.1093/nar/gku1056",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkh042",
       "@type": "sc:CreativeWork"
     }
   ]

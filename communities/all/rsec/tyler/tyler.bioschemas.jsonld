@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/tyler",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N524129be40bb4fd89f4029d8ac565ed3"
+        "@id": "_:N33dc8820898a46a4b1b3d6027deb4fc0"
       },
       "bsc:output": {
-        "@id": "_:N2917d5a951d844e2b78c6b1c3bf1d2f1"
+        "@id": "_:N7a49f3c73be5435896033aa1d4ce4372"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -92,7 +92,7 @@
       "sc:url": "http://www.inforstation.com/webservers/TYLER/"
     },
     {
-      "@id": "_:N524129be40bb4fd89f4029d8ac565ed3",
+      "@id": "_:N33dc8820898a46a4b1b3d6027deb4fc0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -103,7 +103,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N2917d5a951d844e2b78c6b1c3bf1d2f1",
+      "@id": "_:N7a49f3c73be5435896033aa1d4ce4372",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

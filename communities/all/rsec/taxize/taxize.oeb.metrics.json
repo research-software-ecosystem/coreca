@@ -40,7 +40,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 250,
+                            "cit_count": 254,
                             "citations": [
                                 {
                                     "count": 3,
@@ -59,15 +59,15 @@
                                     "year": 2018
                                 },
                                 {
-                                    "count": 20,
+                                    "count": 21,
                                     "year": 2019
                                 },
                                 {
-                                    "count": 21,
+                                    "count": 22,
                                     "year": 2020
                                 },
                                 {
-                                    "count": 22,
+                                    "count": 23,
                                     "year": 2021
                                 },
                                 {
@@ -75,12 +75,12 @@
                                     "year": 2025
                                 },
                                 {
-                                    "count": 31,
-                                    "year": 2026
+                                    "count": 32,
+                                    "year": 2024
                                 },
                                 {
                                     "count": 32,
-                                    "year": 2024
+                                    "year": 2026
                                 },
                                 {
                                     "count": 36,

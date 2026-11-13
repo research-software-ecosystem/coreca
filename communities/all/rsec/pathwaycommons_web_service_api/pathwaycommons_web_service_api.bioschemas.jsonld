@@ -36,14 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkq1039",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-0185-8861",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/PathwayCommons_web_service_API",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -51,20 +43,20 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N697b1858fa044516a160bec91e5f3ada"
+          "@id": "_:N520a41cc1fc543629cf78884459f26bb"
         },
         {
-          "@id": "_:N6d530231ff094be1b5fc2611d08cf3ad"
+          "@id": "_:N4adf95e688ae42dfb472680cb5982e31"
         },
         {
-          "@id": "_:Nf854c8f31c814881a55073ded35dab16"
+          "@id": "_:Nfced6befc4b743099718b90045e90b86"
         },
         {
-          "@id": "_:N31aa7e69bba9458dbde5e6bc804c2404"
+          "@id": "_:Nb606cbba14d14dbf9ef66f8ad189f1a9"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ncd1ce65bf9494131a2b9bb5ca9dfb5d3"
+        "@id": "_:Nea51d26f2b0e4879abf9538bd0a1ea48"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -99,7 +91,7 @@
       "sc:url": "https://www.pathwaycommons.org/pc2/home"
     },
     {
-      "@id": "_:N697b1858fa044516a160bec91e5f3ada",
+      "@id": "_:N520a41cc1fc543629cf78884459f26bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -110,7 +102,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N6d530231ff094be1b5fc2611d08cf3ad",
+      "@id": "_:N4adf95e688ae42dfb472680cb5982e31",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -121,7 +113,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:Nf854c8f31c814881a55073ded35dab16",
+      "@id": "_:Nfced6befc4b743099718b90045e90b86",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -132,7 +124,7 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:N31aa7e69bba9458dbde5e6bc804c2404",
+      "@id": "_:Nb606cbba14d14dbf9ef66f8ad189f1a9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1047"
@@ -143,7 +135,7 @@
       "sc:name": "URI"
     },
     {
-      "@id": "_:Ncd1ce65bf9494131a2b9bb5ca9dfb5d3",
+      "@id": "_:Nea51d26f2b0e4879abf9538bd0a1ea48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -152,6 +144,14 @@
         "@id": "edam:format_3261"
       },
       "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0185-8861",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkq1039",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

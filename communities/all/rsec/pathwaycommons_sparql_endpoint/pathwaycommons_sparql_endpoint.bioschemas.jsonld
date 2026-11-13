@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0003-0185-8861",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://doi.org/10.1093/nar/gkq1039",
       "@type": "sc:CreativeWork"
     },
@@ -46,10 +50,10 @@
         "@id": "https://orcid.org/0000-0003-0185-8861"
       },
       "bsc:input": {
-        "@id": "_:N63e54c0e38c94cc39bb927f94888b5c8"
+        "@id": "_:N742cfcef5d3e47afa314d5fd5f2849fa"
       },
       "bsc:output": {
-        "@id": "_:N9accc81f97a84151aa8238e41aa18ea6"
+        "@id": "_:Ncf4894dacd174b7592daec4ad2b4a3cf"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "SPARQL endpoint",
@@ -81,7 +85,7 @@
       "sc:url": "http://rdf.pathwaycommons.org/sparql/"
     },
     {
-      "@id": "_:N63e54c0e38c94cc39bb927f94888b5c8",
+      "@id": "_:N742cfcef5d3e47afa314d5fd5f2849fa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -92,7 +96,7 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:N9accc81f97a84151aa8238e41aa18ea6",
+      "@id": "_:Ncf4894dacd174b7592daec4ad2b4a3cf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -115,10 +119,6 @@
         }
       ],
       "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-0185-8861",
-      "@type": "sc:Person"
     }
   ]
 }

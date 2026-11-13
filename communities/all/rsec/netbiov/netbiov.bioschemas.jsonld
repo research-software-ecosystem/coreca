@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Shailesh tripathi",
       "bsc:input": {
-        "@id": "_:Nd57648f22c3049adaa12c5fd8006b4e2"
+        "@id": "_:Nbe8ddf99fa1e40e5845c2804a8affa66"
       },
       "bsc:output": [
         {
-          "@id": "_:N0090327c3c614d48b2764f63ddaf8324"
+          "@id": "_:N2308c6d0184e4e66a92e0c87ecd103ee"
         },
         {
-          "@id": "_:Ncf611e5a7da3478e8859010b9abfa080"
+          "@id": "_:N410a45777b1c4cc7be78184f2a1c5a8a"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -96,7 +96,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/netbiov.html"
     },
     {
-      "@id": "_:Nd57648f22c3049adaa12c5fd8006b4e2",
+      "@id": "_:Nbe8ddf99fa1e40e5845c2804a8affa66",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -107,7 +107,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N0090327c3c614d48b2764f63ddaf8324",
+      "@id": "_:N2308c6d0184e4e66a92e0c87ecd103ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -118,7 +118,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Ncf611e5a7da3478e8859010b9abfa080",
+      "@id": "_:N410a45777b1c4cc7be78184f2a1c5a8a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

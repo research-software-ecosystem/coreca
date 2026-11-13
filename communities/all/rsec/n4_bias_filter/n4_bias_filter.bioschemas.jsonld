@@ -36,22 +36,29 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0001-5242-6060",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/n4_bias_filter",
       "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": {
+        "@id": "https://orcid.org/0000-0001-5242-6060"
+      },
       "bsc:input": [
         {
-          "@id": "_:Ncd4ecc2ad790404fa4de8ea6f2b0f4a9"
+          "@id": "_:N1e852dd0ecf643a4a40eba1ea0ac9c0f"
         },
         {
-          "@id": "_:Nd61b947b69b74d6e99e82f0747ae5b95"
+          "@id": "_:N704fd2014e124fb78bed97776a210e57"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Na36a0b68018848368920295099dd9831"
+          "@id": "_:N9fc997cdeb5046099d666cb8702e01da"
         },
         {
-          "@id": "_:N80e0b9e5039041a6bee2e122a08f06f1"
+          "@id": "_:Nebc384cd6458471b98db429e82bd94d8"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -85,7 +92,8 @@
           "@id": "edam:operation_3443"
         }
       ],
-      "sc:license": "EUPL-1.1",
+      "sc:isAccessibleForFree": true,
+      "sc:license": "EUPL-1.2",
       "sc:name": "N4 Bias Filter",
       "sc:operatingSystem": [
         "Linux",
@@ -94,17 +102,20 @@
       ],
       "sc:softwareHelp": [
         {
-          "@id": "https://docs.google.com/document/d/1Hl6WfsCJ3JLdZvDNixVvF9QWTUOxoH90/edit"
+          "@id": "https://www.youtube.com/watch?v=OXbpJcRntOM"
         },
         {
-          "@id": "https://cbml-gitlab.ics.forth.gr/adovrou/n4biasfilter/-/tree/eucaim?ref_type=heads"
+          "@id": "https://drive.eucaim.cancerimage.eu/s/KgnaA8JAMYedFpd"
         }
       ],
-      "sc:softwareVersion": "1.7",
-      "sc:url": "https://cbml-gitlab.ics.forth.gr/adovrou/n4biasfilter/-/tree/eucaim?ref_type=heads"
+      "sc:softwareVersion": [
+        "1.7",
+        "1.8"
+      ],
+      "sc:url": "https://harbor.eucaim.cancerimage.eu/harbor/projects/4/repositories/n4filter/info-tab"
     },
     {
-      "@id": "_:Ncd4ecc2ad790404fa4de8ea6f2b0f4a9",
+      "@id": "_:N1e852dd0ecf643a4a40eba1ea0ac9c0f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -115,7 +126,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nd61b947b69b74d6e99e82f0747ae5b95",
+      "@id": "_:N704fd2014e124fb78bed97776a210e57",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -126,7 +137,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Na36a0b68018848368920295099dd9831",
+      "@id": "_:N9fc997cdeb5046099d666cb8702e01da",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -137,7 +148,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N80e0b9e5039041a6bee2e122a08f06f1",
+      "@id": "_:Nebc384cd6458471b98db429e82bd94d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3671"
@@ -150,10 +161,6 @@
     {
       "@id": "https://doi.org/10.1016/j.mri.2023.03.012",
       "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-5242-6060",
-      "@type": "sc:Person"
     }
   ]
 }

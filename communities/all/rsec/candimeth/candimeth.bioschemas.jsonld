@@ -41,24 +41,24 @@
       "biotools:primaryContact": "Colum Walsh",
       "bsc:input": [
         {
-          "@id": "_:Nb832544b81b941d88944cd75d0c9a78a"
+          "@id": "_:Nd76728cc28064c94a117979f5e304d9d"
         },
         {
-          "@id": "_:N9b4511be6d0f468fbbf9bfa0b5ebd650"
+          "@id": "_:N1167cc47a05c4893b8d5a295502f15b5"
         },
         {
-          "@id": "_:N2e4f751851e4479b8e6bd92b59e1f914"
+          "@id": "_:Nf4d5248945c345dabcf8d04db97a5aab"
         },
         {
-          "@id": "_:Nb991cb0429d94ff6ae0e319e772be1da"
+          "@id": "_:N9b21d166993c4704acd3aaff135f6eb0"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne235af74f36042b8b80d518b5cddf510"
+          "@id": "_:Nf48fc7db4a604286b4aecf0844a7ae03"
         },
         {
-          "@id": "_:Na302b82e48274a3dad3d810afd07350f"
+          "@id": "_:N329c9abe9ba7495cbd4b11d89ecd0ac5"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -80,7 +80,7 @@
       "sc:url": "http://bit.do/candimeth-github"
     },
     {
-      "@id": "_:Nb832544b81b941d88944cd75d0c9a78a",
+      "@id": "_:Nd76728cc28064c94a117979f5e304d9d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -91,7 +91,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N9b4511be6d0f468fbbf9bfa0b5ebd650",
+      "@id": "_:N1167cc47a05c4893b8d5a295502f15b5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -102,7 +102,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N2e4f751851e4479b8e6bd92b59e1f914",
+      "@id": "_:Nf4d5248945c345dabcf8d04db97a5aab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -113,7 +113,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Nb991cb0429d94ff6ae0e319e772be1da",
+      "@id": "_:N9b21d166993c4704acd3aaff135f6eb0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -124,7 +124,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Ne235af74f36042b8b80d518b5cddf510",
+      "@id": "_:Nf48fc7db4a604286b4aecf0844a7ae03",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -135,7 +135,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Na302b82e48274a3dad3d810afd07350f",
+      "@id": "_:N329c9abe9ba7495cbd4b11d89ecd0ac5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"

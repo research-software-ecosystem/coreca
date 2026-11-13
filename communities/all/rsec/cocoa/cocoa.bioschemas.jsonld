@@ -77,7 +77,7 @@
           "@id": "edam:operation_3206"
         }
       ],
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "COCOA",
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/COCOA"

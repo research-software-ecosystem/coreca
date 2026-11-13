@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/blaze",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf20eac39f3504958b2d9521e8016f642"
+        "@id": "_:Nb198308ea3ed4e12b1398f3bdcb9d2c1"
       },
       "bsc:output": {
-        "@id": "_:N7f535b11d6ac49ab9f614d29329cf247"
+        "@id": "_:Ndb595582973544b6b1f71aa66f7555a6"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Script",
@@ -100,7 +100,7 @@
       "sc:url": "https://github.com/shimlab/BLAZE"
     },
     {
-      "@id": "_:Nf20eac39f3504958b2d9521e8016f642",
+      "@id": "_:Nb198308ea3ed4e12b1398f3bdcb9d2c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -111,7 +111,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N7f535b11d6ac49ab9f614d29329cf247",
+      "@id": "_:Ndb595582973544b6b1f71aa66f7555a6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/gcmodeller",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf931a986120d4d93926c43e3243fce60"
+        "@id": "_:N994471a70cc342e68e71f12a3c062381"
       },
       "bsc:output": {
-        "@id": "_:N033d1c1bb4184fea9cdb35f2e8c3b6aa"
+        "@id": "_:N8947696460f0431ca23bf4f5351d9b7a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -104,7 +104,7 @@
       "sc:url": "https://gcmodeller.org/"
     },
     {
-      "@id": "_:Nf931a986120d4d93926c43e3243fce60",
+      "@id": "_:N994471a70cc342e68e71f12a3c062381",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -126,7 +126,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N033d1c1bb4184fea9cdb35f2e8c3b6aa",
+      "@id": "_:N8947696460f0431ca23bf4f5351d9b7a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3779"

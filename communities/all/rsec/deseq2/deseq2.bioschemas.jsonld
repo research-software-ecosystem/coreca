@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s13059-014-0550-8",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/deseq2",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N96d98e57904e4455ac51ea60133b3cf6"
+        "@id": "_:Nb79ad451347c4de2a7e90039ce7ec6ac"
       },
       "bsc:output": {
-        "@id": "_:Nc82746551df745919edb048fdb71cf3a"
+        "@id": "_:Nc207febe4b55428296d317455bc14774"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -88,7 +84,7 @@
         "RADIANT EU FP7"
       ],
       "sc:isAccessibleForFree": true,
-      "sc:license": "LGPL-3-or-later",
+      "sc:license": "LGPL-3.0-or-later",
       "sc:name": "DESeq2",
       "sc:operatingSystem": [
         "Linux",
@@ -102,7 +98,7 @@
       "sc:url": "https://bioconductor.org/packages/DESeq2"
     },
     {
-      "@id": "_:N96d98e57904e4455ac51ea60133b3cf6",
+      "@id": "_:Nb79ad451347c4de2a7e90039ce7ec6ac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3917"
@@ -113,7 +109,7 @@
       "sc:name": "Count matrix"
     },
     {
-      "@id": "_:Nc82746551df745919edb048fdb71cf3a",
+      "@id": "_:Nc207febe4b55428296d317455bc14774",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -122,6 +118,10 @@
         "@id": "edam:format_3751"
       },
       "sc:name": "Gene name"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13059-014-0550-8",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

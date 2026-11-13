@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/idsl_csa",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N2757d8ca93e247dda7c9cfe782b5bc98"
+        "@id": "_:Nfc23405f4bd0410f9fec3232b72c2c35"
       },
       "bsc:output": {
-        "@id": "_:Ne88b9a517adb4b62a4c4569b49bb62c0"
+        "@id": "_:Nac336f262e694590bb11b7234ae58402"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -101,7 +101,7 @@
       "sc:url": "https://cran.r-project.org/package=IDSL.CSA"
     },
     {
-      "@id": "_:N2757d8ca93e247dda7c9cfe782b5bc98",
+      "@id": "_:Nfc23405f4bd0410f9fec3232b72c2c35",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -120,7 +120,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Ne88b9a517adb4b62a4c4569b49bb62c0",
+      "@id": "_:Nac336f262e694590bb11b7234ae58402",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"

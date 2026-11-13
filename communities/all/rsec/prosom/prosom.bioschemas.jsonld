@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btn172",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/prosom",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne032914628b5452796412ba5eb51b7f1"
+        "@id": "_:N56db8853cc0d429eaee93ca383105467"
       },
       "bsc:output": {
-        "@id": "_:Nb18b1b3376a44314b53a235645dc40b6"
+        "@id": "_:Nb35edfa4494942db9eefa6957836d325"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -78,7 +74,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/software/details/ProSOM"
     },
     {
-      "@id": "_:Ne032914628b5452796412ba5eb51b7f1",
+      "@id": "_:N56db8853cc0d429eaee93ca383105467",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -86,12 +82,16 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nb18b1b3376a44314b53a235645dc40b6",
+      "@id": "_:Nb35edfa4494942db9eefa6957836d325",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2070"
       },
       "sc:name": "Sequence motif (nucleic acid)"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btn172",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

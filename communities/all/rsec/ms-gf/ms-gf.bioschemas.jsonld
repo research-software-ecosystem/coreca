@@ -40,30 +40,30 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N88ccea5525ba4ab3adb952b463b66889"
+          "@id": "_:Nb67a86fce5a9408fa8c2f49ebe9ba61a"
         },
         {
-          "@id": "_:N6eaf10d5154c4cfabafc61bb6c7c86c0"
+          "@id": "_:Na59a5a2c511241d6beacf71012012a3c"
         },
         {
-          "@id": "_:N114a338db9ad4e3a999f9f32ddafe068"
+          "@id": "_:N787e833ab2b24c75a15bd67539a8c756"
         },
         {
-          "@id": "_:Nfab2dee2305144da8e063ee913c3c596"
+          "@id": "_:Ncabe335362ce485e98578b8d9ee20485"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9dde8c001a644510a950cee386d504a5"
+          "@id": "_:N5637cc64075c4132936ccd6e1928d098"
         },
         {
-          "@id": "_:Nc66585f90f794724b828cf8d7d671cb3"
+          "@id": "_:N6a80de63f32941e2abeabb8c4bc75675"
         },
         {
-          "@id": "_:Nb3f182bd70fc4b718e87ee61170ad3aa"
+          "@id": "_:N7d513c6939794e91887004b6ac08ac6a"
         },
         {
-          "@id": "_:Ndf959faead6f42ed8649b26c4ed5fe6c"
+          "@id": "_:N0b135d4f27d34f99ae18d2e2d6679b6c"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -121,7 +121,7 @@
       "sc:url": "http://omics.pnl.gov/software/ms-gf"
     },
     {
-      "@id": "_:N88ccea5525ba4ab3adb952b463b66889",
+      "@id": "_:Nb67a86fce5a9408fa8c2f49ebe9ba61a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1667"
@@ -132,7 +132,7 @@
       "sc:name": "E-value"
     },
     {
-      "@id": "_:N6eaf10d5154c4cfabafc61bb6c7c86c0",
+      "@id": "_:Na59a5a2c511241d6beacf71012012a3c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -143,7 +143,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N114a338db9ad4e3a999f9f32ddafe068",
+      "@id": "_:N787e833ab2b24c75a15bd67539a8c756",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -154,7 +154,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:Nfab2dee2305144da8e063ee913c3c596",
+      "@id": "_:Ncabe335362ce485e98578b8d9ee20485",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3483"
@@ -179,7 +179,7 @@
       "sc:name": "Spectrum"
     },
     {
-      "@id": "_:N9dde8c001a644510a950cee386d504a5",
+      "@id": "_:N5637cc64075c4132936ccd6e1928d098",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -190,7 +190,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:Nc66585f90f794724b828cf8d7d671cb3",
+      "@id": "_:N6a80de63f32941e2abeabb8c4bc75675",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1667"
@@ -201,7 +201,7 @@
       "sc:name": "E-value"
     },
     {
-      "@id": "_:Nb3f182bd70fc4b718e87ee61170ad3aa",
+      "@id": "_:N7d513c6939794e91887004b6ac08ac6a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1667"
@@ -212,7 +212,7 @@
       "sc:name": "E-value"
     },
     {
-      "@id": "_:Ndf959faead6f42ed8649b26c4ed5fe6c",
+      "@id": "_:N0b135d4f27d34f99ae18d2e2d6679b6c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"

@@ -40,20 +40,16 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "http://orcid.org/0000-0003-0007-6796",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/conoserver",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0003-0007-6796"
       },
       "bsc:input": {
-        "@id": "_:N2fdf36e3b31a4e45971b4d47e4ec221f"
+        "@id": "_:N02d0233161474114932b8cded4d17132"
       },
       "bsc:output": {
-        "@id": "_:Ncbfa37fed0a440f784114c4ddfe2050a"
+        "@id": "_:N367f62e83af54d0483e9cf5000fe624f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -83,7 +79,7 @@
       "sc:url": "http://www.conoserver.org/"
     },
     {
-      "@id": "_:N2fdf36e3b31a4e45971b4d47e4ec221f",
+      "@id": "_:N02d0233161474114932b8cded4d17132",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2804"
@@ -91,7 +87,7 @@
       "sc:name": "Protein ID (ConoServer)"
     },
     {
-      "@id": "_:Ncbfa37fed0a440f784114c4ddfe2050a",
+      "@id": "_:N367f62e83af54d0483e9cf5000fe624f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -100,6 +96,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Protein report"
+    },
+    {
+      "@id": "http://orcid.org/0000-0003-0007-6796",
+      "@type": "sc:Person"
     }
   ]
 }

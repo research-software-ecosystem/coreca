@@ -57,7 +57,7 @@
       "sc:featureList": {
         "@id": "edam:operation_0430"
       },
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "GAprediction",
       "sc:operatingSystem": [
         "Linux",

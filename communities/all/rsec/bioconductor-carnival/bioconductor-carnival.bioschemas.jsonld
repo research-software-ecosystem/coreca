@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/s41540-019-0118-z",
+      "@id": "https://doi.org/10.18129/B9.bioc.CARNIVAL",
       "@type": "sc:CreativeWork"
     },
     {
@@ -67,7 +67,7 @@
         "Nikolas Peschke"
       ],
       "sc:description": "An upgraded causal reasoning tool from Melas et al in R with updated assignments of TFs' weights from PROGENy scores. Optimization parameters can be freely adjusted and multiple solutions can be obtained and aggregated.",
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "CARNIVAL",
       "sc:operatingSystem": [
         "Linux",
@@ -81,7 +81,7 @@
       "sc:url": "https://bioconductor.org/packages/CARNIVAL"
     },
     {
-      "@id": "https://doi.org/10.18129/B9.bioc.CARNIVAL",
+      "@id": "https://doi.org/10.1038/s41540-019-0118-z",
       "@type": "sc:CreativeWork"
     }
   ]

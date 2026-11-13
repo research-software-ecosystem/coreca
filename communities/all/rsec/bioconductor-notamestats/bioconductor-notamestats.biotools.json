@@ -91,23 +91,23 @@
             "type": [
                 "User manual"
             ],
-            "url": "https://bioconductor.org/packages/notameViz"
+            "url": "https://bioconductor.org/packages/notameStats"
         }
     ],
     "download": [
         {
             "type": "Source code",
-            "url": "https://github.com/hanhineva-lab/notameViz"
+            "url": "https://github.com/hanhineva-lab/notameStats"
         }
     ],
     "editPermission": {
         "type": "private"
     },
-    "homepage": "https://bioconductor.org/packages/notameViz",
+    "homepage": "https://bioconductor.org/packages/notameStats",
     "language": [
         "R"
     ],
-    "lastUpdate": "2026-10-11T01:43:52.959347Z",
+    "lastUpdate": "2026-10-18T01:28:31.763648Z",
     "license": "MIT",
     "name": "notameStats",
     "operatingSystem": [

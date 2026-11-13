@@ -36,10 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1101/2021.09.03.458832",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/pipenn",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N5971c760a00e45b1bdd8560aff6a84d9"
+        "@id": "_:Nd81ad237f5134a138a1e9aae33655039"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Script",
@@ -86,16 +90,12 @@
       "sc:url": "https://github.com/ibivu/pipenn/"
     },
     {
-      "@id": "_:N5971c760a00e45b1bdd8560aff6a84d9",
+      "@id": "_:Nd81ad237f5134a138a1e9aae33655039",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
       },
       "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1101/2021.09.03.458832",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

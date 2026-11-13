@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/pmic.201400620",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acs.jproteome.8b00483",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ebprot",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -45,7 +53,7 @@
         "Yunbin Zhang"
       ],
       "bsc:input": {
-        "@id": "_:Nf4f3863635ac4e948c7af78d31f94535"
+        "@id": "_:N13943d2147c24569abe07371511b4b05"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Plug-in",
@@ -83,20 +91,12 @@
       "sc:url": "https://github.com/cssblab/EBprot"
     },
     {
-      "@id": "_:Nf4f3863635ac4e948c7af78d31f94535",
+      "@id": "_:N13943d2147c24569abe07371511b4b05",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
       },
       "sc:name": "Peptide identification"
-    },
-    {
-      "@id": "https://doi.org/10.1002/pmic.201400620",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1021/acs.jproteome.8b00483",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -86,7 +86,7 @@
         "CZI",
         "NIH NHGRI"
       ],
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "tximeta",
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/tximeta"

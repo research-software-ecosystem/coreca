@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/igc",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na10216f1acee4ac39736a58ea25204ee"
+        "@id": "_:Nad68aeaf167f4283b779d0dac0e9b006"
       },
       "bsc:output": {
-        "@id": "_:N07ca0a12281649a09956db06b2b0ea7d"
+        "@id": "_:Nfa4fcdd7ca30420cab54fd32a5a460d7"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -67,7 +67,7 @@
       "sc:featureList": {
         "@id": "edam:operation_2495"
       },
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "iGC",
       "sc:operatingSystem": [
         "Linux",
@@ -81,7 +81,7 @@
       "sc:url": "https://bioconductor.org/packages/iGC"
     },
     {
-      "@id": "_:Na10216f1acee4ac39736a58ea25204ee",
+      "@id": "_:Nad68aeaf167f4283b779d0dac0e9b006",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -92,7 +92,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N07ca0a12281649a09956db06b2b0ea7d",
+      "@id": "_:Nfa4fcdd7ca30420cab54fd32a5a460d7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"

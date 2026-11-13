@@ -40,10 +40,6 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0009-0008-4144-718X",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/beyond_venetoclax_cryptic_pocket_pipeline",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -51,24 +47,24 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nb78f5a9449f04c3f8fc00f8146b2c278"
+          "@id": "_:N6a686baeed54472e90fd54d3c2f348d7"
         },
         {
-          "@id": "_:N5f5674049e0e4bcea2b4c2f60ac4f78d"
+          "@id": "_:Nf78232bcf8614eb1a64980b563372dab"
         },
         {
-          "@id": "_:N91b6d6a0b2104f5ead43a0be14261e9a"
+          "@id": "_:N2533583f61224ab89118e927c829cdbe"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N63a00047acd94a2ab96f24b9dc7358be"
+          "@id": "_:Nb3e383d871ed45bfabb3ceb015934a9d"
         },
         {
-          "@id": "_:N9940f3c05eca4000933d54fdb8421cdd"
+          "@id": "_:N873005f85bcb494bbe33ed03b7ad53ef"
         },
         {
-          "@id": "_:N406a7ec02c404f829979d1e2f8573d42"
+          "@id": "_:N35db49cbd4a34080b7658034e3eb1471"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -103,7 +99,7 @@
       "sc:url": "https://sites.google.com/view/sn-biotech/home\""
     },
     {
-      "@id": "_:Nb78f5a9449f04c3f8fc00f8146b2c278",
+      "@id": "_:N6a686baeed54472e90fd54d3c2f348d7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3842"
@@ -111,7 +107,7 @@
       "sc:name": "Molecular simulation data"
     },
     {
-      "@id": "_:N5f5674049e0e4bcea2b4c2f60ac4f78d",
+      "@id": "_:Nf78232bcf8614eb1a64980b563372dab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"
@@ -119,7 +115,7 @@
       "sc:name": "Structure"
     },
     {
-      "@id": "_:N91b6d6a0b2104f5ead43a0be14261e9a",
+      "@id": "_:N2533583f61224ab89118e927c829cdbe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"
@@ -127,7 +123,7 @@
       "sc:name": "Structure"
     },
     {
-      "@id": "_:N63a00047acd94a2ab96f24b9dc7358be",
+      "@id": "_:Nb3e383d871ed45bfabb3ceb015934a9d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2087"
@@ -135,7 +131,7 @@
       "sc:name": "Molecular property"
     },
     {
-      "@id": "_:N9940f3c05eca4000933d54fdb8421cdd",
+      "@id": "_:N873005f85bcb494bbe33ed03b7ad53ef",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"
@@ -143,12 +139,16 @@
       "sc:name": "Structure"
     },
     {
-      "@id": "_:N406a7ec02c404f829979d1e2f8573d42",
+      "@id": "_:N35db49cbd4a34080b7658034e3eb1471",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3842"
       },
       "sc:name": "Molecular simulation data"
+    },
+    {
+      "@id": "https://orcid.org/0009-0008-4144-718X",
+      "@type": "sc:Person"
     }
   ]
 }

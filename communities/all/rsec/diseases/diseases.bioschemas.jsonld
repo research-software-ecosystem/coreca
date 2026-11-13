@@ -45,18 +45,18 @@
       "biotools:primaryContact": "Lars Juhl Jensen",
       "bsc:input": [
         {
-          "@id": "_:N778ac5a59c6c45f682628ab219a226d1"
+          "@id": "_:N367cd8675e5547e3a7454d64c0a1b22d"
         },
         {
-          "@id": "_:Nff96c3039838478aab9981aaecff5710"
+          "@id": "_:Na7e57fbdd03146c1ae1a384beea62629"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N64dba11a29ab4af68eb708959bad6846"
+          "@id": "_:Nebc5bbc772fe494395ed11c96c4eb492"
         },
         {
-          "@id": "_:Nc76d50b39a7342e4a246491feb8e0623"
+          "@id": "_:Nea6e46d9c31e4bdda78cd492f62d144b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -90,7 +90,7 @@
       "sc:url": "https://diseases.jensenlab.org/"
     },
     {
-      "@id": "_:N778ac5a59c6c45f682628ab219a226d1",
+      "@id": "_:N367cd8675e5547e3a7454d64c0a1b22d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3667"
@@ -98,7 +98,7 @@
       "sc:name": "Disease identifier"
     },
     {
-      "@id": "_:Nff96c3039838478aab9981aaecff5710",
+      "@id": "_:Na7e57fbdd03146c1ae1a384beea62629",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -106,7 +106,7 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "_:N64dba11a29ab4af68eb708959bad6846",
+      "@id": "_:Nebc5bbc772fe494395ed11c96c4eb492",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -114,7 +114,7 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "_:Nc76d50b39a7342e4a246491feb8e0623",
+      "@id": "_:Nea6e46d9c31e4bdda78cd492f62d144b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3667"

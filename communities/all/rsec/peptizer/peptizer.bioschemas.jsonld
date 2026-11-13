@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1074/mcp.M800082-MCP200",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/peptizer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N84a8eeba58664480b33de1b8b6d938e2"
+        "@id": "_:N0b80f1dcd3734ff5b0a4b83101b66434"
       },
       "bsc:output": {
-        "@id": "_:N1bbab336068b4044980e323a97c614ec"
+        "@id": "_:Nea9f08ae7b8143b39af5d27c9d40927a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -84,7 +80,7 @@
       "sc:url": "https://github.com/compomics/peptizer"
     },
     {
-      "@id": "_:N84a8eeba58664480b33de1b8b6d938e2",
+      "@id": "_:N0b80f1dcd3734ff5b0a4b83101b66434",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -92,12 +88,16 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N1bbab336068b4044980e323a97c614ec",
+      "@id": "_:Nea9f08ae7b8143b39af5d27c9d40927a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
       },
       "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "https://doi.org/10.1074/mcp.M800082-MCP200",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

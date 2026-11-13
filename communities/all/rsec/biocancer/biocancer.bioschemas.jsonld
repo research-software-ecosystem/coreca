@@ -59,7 +59,7 @@
       "sc:citation": {
         "@id": "https://doi.org/10.18129/B9.bioc.bioCancer"
       },
-      "sc:description": "This package is a Shiny App to visualize and analyse interactively Multi-Assays of Cancer Genomic Data.",
+      "sc:description": "Shiny App to visualize and analyse interactively Multi-Assays of Cancer Genomic Data.",
       "sc:featureList": [
         {
           "@id": "edam:operation_2945"
@@ -68,7 +68,7 @@
           "@id": "edam:operation_0337"
         }
       ],
-      "sc:license": "AGPL-3.0-only",
+      "sc:license": "AGPL-3.0",
       "sc:name": "bioCancer",
       "sc:operatingSystem": [
         "Linux",

@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s12859-022-04605-1",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/csdr",
       "@type": "sc:SoftwareApplication",
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -58,7 +54,7 @@
       },
       "sc:description": "This package contains functionality to run differential gene co-expression across two different conditions. The algorithm is inspired by Voigt et al. 2017 and finds Conserved, Specific and Differentiated genes (hence the name CSD). This package include efficient and variance calculation by bootstrapping and Welford's algorithm.",
       "sc:isAccessibleForFree": true,
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "csdR",
       "sc:operatingSystem": [
         "Linux",
@@ -70,6 +66,10 @@
       },
       "sc:softwareVersion": "1.18.0",
       "sc:url": "https://bioconductor.org/packages/csdR"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-022-04605-1",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

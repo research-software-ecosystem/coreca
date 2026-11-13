@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/regsp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N193b9c831a3e45428273fbc9b2160e56"
+        "@id": "_:Nd155eb6cfbfa4c67b4dd92cba30b21c4"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -92,7 +92,7 @@
       "sc:url": "https://ds.mju.ac.kr/regsp"
     },
     {
-      "@id": "_:N193b9c831a3e45428273fbc9b2160e56",
+      "@id": "_:Nd155eb6cfbfa4c67b4dd92cba30b21c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2091"

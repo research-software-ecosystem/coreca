@@ -40,10 +40,6 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0000-0003-4525-7793",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/disprot",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -51,21 +47,21 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Na9714301e7ab4a9bb59e7ddad82b6c42"
+          "@id": "_:N8ceafce5a2cc4ca9a4e6dee350c7b82b"
         },
         {
-          "@id": "_:N8e48c6f145174804865b99ac93ef26fc"
+          "@id": "_:N37ee67257bb0496485ad51d9244c24c1"
         },
         {
-          "@id": "_:N72a77c31a9334e0d9077c674ac3883e4"
+          "@id": "_:N00d178d7278d47a3b198a40650ec80c2"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd91a7d9f3064498fa7c6f7c3cab93b11"
+          "@id": "_:N0383d3980dff42c2b499a3e3a8b8bda7"
         },
         {
-          "@id": "_:N1ddcaee3153641e4b4ccb70f85934817"
+          "@id": "_:N56432eb49b8f4c0c8ae7b715c0a43a9b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -108,7 +104,7 @@
       "sc:url": "https://disprot.org/"
     },
     {
-      "@id": "_:Na9714301e7ab4a9bb59e7ddad82b6c42",
+      "@id": "_:N8ceafce5a2cc4ca9a4e6dee350c7b82b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2723"
@@ -116,7 +112,7 @@
       "sc:name": "Protein ID (DisProt)"
     },
     {
-      "@id": "_:N8e48c6f145174804865b99ac93ef26fc",
+      "@id": "_:N37ee67257bb0496485ad51d9244c24c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1009"
@@ -124,7 +120,7 @@
       "sc:name": "Protein name"
     },
     {
-      "@id": "_:N72a77c31a9334e0d9077c674ac3883e4",
+      "@id": "_:N00d178d7278d47a3b198a40650ec80c2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -132,7 +128,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:Nd91a7d9f3064498fa7c6f7c3cab93b11",
+      "@id": "_:N0383d3980dff42c2b499a3e3a8b8bda7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -148,7 +144,7 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:N1ddcaee3153641e4b4ccb70f85934817",
+      "@id": "_:N56432eb49b8f4c0c8ae7b715c0a43a9b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
@@ -162,6 +158,10 @@
         }
       ],
       "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4525-7793",
+      "@type": "sc:Person"
     }
   ]
 }

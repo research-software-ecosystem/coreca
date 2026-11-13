@@ -36,7 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0003-3389-2191",
+      "@id": "https://doi.org/10.7554/eLife.70780",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0443-9902",
       "@type": "sc:Person"
     },
     {
@@ -129,15 +133,11 @@
       "sc:url": "https://lotus.naturalproducts.net"
     },
     {
-      "@id": "https://doi.org/10.7554/eLife.70780",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "http://orcid.org/0000-0003-1640-9989",
+      "@id": "http://orcid.org/0000-0003-3389-2191",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0003-0443-9902",
+      "@id": "http://orcid.org/0000-0003-1640-9989",
       "@type": "sc:Person"
     }
   ]

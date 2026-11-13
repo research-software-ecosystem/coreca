@@ -36,22 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1371/journal.pone.0029851",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/lipidxplorer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3fa2611175f0425d94314fb02c6b040f"
+          "@id": "_:N359dbe787e32460eb2e9a378f6d78281"
         },
         {
-          "@id": "_:N8f68fd3ccf0b4b73bd2f3ae5fc0f886e"
+          "@id": "_:N96b38f6ffad44736a97b5d47205d3dcb"
         }
       ],
       "bsc:output": {
-        "@id": "_:N7a30084dbc484838a0c7a14644964252"
+        "@id": "_:N831ad12eaa3c4b57a84ec6b3fef2a902"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -63,9 +59,12 @@
           "@id": "edam:topic_3172"
         }
       ],
-      "sc:citation": {
-        "@id": "https://doi.org/10.1371/journal.pone.0029851"
-      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1371/journal.pone.0029851"
+        },
+        "pubmed:21247462"
+      ],
       "sc:description": "LipidXplorer is a software that supports the quantitative characterization of complex lipidomes by interpreting large datasets of shotgun mass spectra.",
       "sc:featureList": [
         {
@@ -91,12 +90,13 @@
       "sc:softwareVersion": [
         "1.2.8",
         "1.2.8.1",
-        "1.2.9"
+        "1.2.9",
+        "1.5.0"
       ],
       "sc:url": "https://lifs-tools.org/lipidxplorer"
     },
     {
-      "@id": "_:N3fa2611175f0425d94314fb02c6b040f",
+      "@id": "_:N359dbe787e32460eb2e9a378f6d78281",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -118,7 +118,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N8f68fd3ccf0b4b73bd2f3ae5fc0f886e",
+      "@id": "_:N96b38f6ffad44736a97b5d47205d3dcb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -140,7 +140,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N7a30084dbc484838a0c7a14644964252",
+      "@id": "_:N831ad12eaa3c4b57a84ec6b3fef2a902",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -149,6 +149,10 @@
         "@id": "edam:format_3620"
       },
       "sc:name": "Mass spectrometry data"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0029851",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -41,21 +41,21 @@
       "biotools:primaryContact": "Marc Hanauer",
       "bsc:input": [
         {
-          "@id": "_:N25ffdad95b8248c5a883639b1dcfea16"
+          "@id": "_:Nab2d7bef528545bc93ce410a2c565db1"
         },
         {
-          "@id": "_:Ncf88d2c9200d4a93bb539cb5e07eb7e9"
+          "@id": "_:Nac72f507a9884a52a36c291796e445d7"
         },
         {
-          "@id": "_:Nc981432c7b8e444c8f5a021e869ab842"
+          "@id": "_:Na29c0311a0b54e23b9496ad9658d9dd8"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N51d102d2b4bc419186edac13ea94a426"
+          "@id": "_:N2fb9d2abf5264a06bacd3d88bcc36c97"
         },
         {
-          "@id": "_:N969de298f5d54191886a40824fac7ae4"
+          "@id": "_:N8b6fe7db5bb248a1a963837fab605a06"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -115,7 +115,7 @@
       "sc:url": "http://www.orphadata.org/"
     },
     {
-      "@id": "_:N25ffdad95b8248c5a883639b1dcfea16",
+      "@id": "_:Nab2d7bef528545bc93ce410a2c565db1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -126,7 +126,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:Ncf88d2c9200d4a93bb539cb5e07eb7e9",
+      "@id": "_:Nac72f507a9884a52a36c291796e445d7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -137,7 +137,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:Nc981432c7b8e444c8f5a021e869ab842",
+      "@id": "_:Na29c0311a0b54e23b9496ad9658d9dd8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2099"
@@ -148,7 +148,7 @@
       "sc:name": "Name"
     },
     {
-      "@id": "_:N51d102d2b4bc419186edac13ea94a426",
+      "@id": "_:N2fb9d2abf5264a06bacd3d88bcc36c97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2800"
@@ -159,7 +159,7 @@
       "sc:name": "Orpha number"
     },
     {
-      "@id": "_:N969de298f5d54191886a40824fac7ae4",
+      "@id": "_:N8b6fe7db5bb248a1a963837fab605a06",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2800"

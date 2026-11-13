@@ -36,21 +36,21 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@id": "https://doi.org/10.1093/nar/gku301",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gku301",
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
       "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/intermine",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3ef09660227f41eabf9cef28a0dee8b4"
+        "@id": "_:N123328bc5aa84a22af7e7cf4d1b267b1"
       },
       "bsc:output": {
-        "@id": "_:N41f6abee2e8f485a9ce7e191c25efda4"
+        "@id": "_:N9931b88927f74b20929fdc3b9bc823e0"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -116,7 +116,7 @@
       "sc:url": "http://www.intermine.org"
     },
     {
-      "@id": "_:N3ef09660227f41eabf9cef28a0dee8b4",
+      "@id": "_:N123328bc5aa84a22af7e7cf4d1b267b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -127,7 +127,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N41f6abee2e8f485a9ce7e191c25efda4",
+      "@id": "_:N9931b88927f74b20929fdc3b9bc823e0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

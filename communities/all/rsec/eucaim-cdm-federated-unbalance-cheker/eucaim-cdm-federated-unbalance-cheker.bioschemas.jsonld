@@ -43,18 +43,18 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N3ec7a9bad1894488843fef02b6308df3"
+          "@id": "_:Nea260ffdce8f4b3bbf5b1b197ef5bb44"
         },
         {
-          "@id": "_:N1773aa0bd68b410799632152e6312fc9"
+          "@id": "_:N51521bf468fd477b92658e20430f7d42"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9baef0de175b4c0190811eb637aac30a"
+          "@id": "_:N790188b6013f4d018d51f508f91fe059"
         },
         {
-          "@id": "_:Na7ee05b8747140478a6352544b690423"
+          "@id": "_:Nfaf000ae173646c299f46226df51822b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -84,7 +84,7 @@
       "sc:url": "https://gitlab.bsc.es/fl/eucaim-cdm-federated-unbalance"
     },
     {
-      "@id": "_:N3ec7a9bad1894488843fef02b6308df3",
+      "@id": "_:Nea260ffdce8f4b3bbf5b1b197ef5bb44",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -92,7 +92,7 @@
       "sc:name": "Score"
     },
     {
-      "@id": "_:N1773aa0bd68b410799632152e6312fc9",
+      "@id": "_:N51521bf468fd477b92658e20430f7d42",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -100,7 +100,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N9baef0de175b4c0190811eb637aac30a",
+      "@id": "_:N790188b6013f4d018d51f508f91fe059",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -108,7 +108,7 @@
       "sc:name": "Score"
     },
     {
-      "@id": "_:Na7ee05b8747140478a6352544b690423",
+      "@id": "_:Nfaf000ae173646c299f46226df51822b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

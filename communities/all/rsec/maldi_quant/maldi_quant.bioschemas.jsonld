@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0001-7917-2056",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/maldi_quant",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -47,36 +43,36 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nfa5b57ef1ec946a88ea6baf0aeecc580"
+          "@id": "_:Nbe9221dfa71c40dd8bdb8b1cbf79cd0d"
         },
         {
-          "@id": "_:N75bba4888800465fa8b609fcb9530748"
+          "@id": "_:N872c1815d21d4423b5f82548a3ac6609"
         },
         {
-          "@id": "_:N9d53950aeb6446bb9c93ab56be9e0020"
+          "@id": "_:N473e27260e7343e490465dce15cb0dfe"
         },
         {
-          "@id": "_:Nc64def73abc541499ceaf78e00c4338e"
+          "@id": "_:Nc31e265705a04275813c63a94e0dcc42"
         },
         {
-          "@id": "_:Nec330aa7b0c5435188ecf9fc176ba54d"
+          "@id": "_:N3a427b58739c4f57863fca39b2da318e"
         },
         {
-          "@id": "_:N6d2d0538c8af45a0bba7f5eb6995e49d"
+          "@id": "_:N234fa26c4cfb48acb5942002241cecba"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8d12a3f295064bbd835529bee2a3564b"
+          "@id": "_:N476d9b4bc50b4e8b8f4c293a90e63807"
         },
         {
-          "@id": "_:N601c2d497c5a479db3a51aed786a14f0"
+          "@id": "_:Nc851acd765aa4c4bbad931e4b7105813"
         },
         {
-          "@id": "_:N4912f92f1f074698b078118dbf6fb5ae"
+          "@id": "_:N0e0b4302396640f99a0a66e9d91c137f"
         },
         {
-          "@id": "_:Nb6bb7fd72f0540b1a7a627005144adcb"
+          "@id": "_:N2859168dbc0f4c64a1d0eb8ac95fdebb"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -133,7 +129,7 @@
       "sc:url": "https://cran.r-project.org/package=MALDIquant"
     },
     {
-      "@id": "_:Nfa5b57ef1ec946a88ea6baf0aeecc580",
+      "@id": "_:Nbe9221dfa71c40dd8bdb8b1cbf79cd0d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -144,7 +140,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N75bba4888800465fa8b609fcb9530748",
+      "@id": "_:N872c1815d21d4423b5f82548a3ac6609",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -155,7 +151,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N9d53950aeb6446bb9c93ab56be9e0020",
+      "@id": "_:N473e27260e7343e490465dce15cb0dfe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -166,7 +162,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nc64def73abc541499ceaf78e00c4338e",
+      "@id": "_:Nc31e265705a04275813c63a94e0dcc42",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -177,7 +173,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nec330aa7b0c5435188ecf9fc176ba54d",
+      "@id": "_:N3a427b58739c4f57863fca39b2da318e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -188,7 +184,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N6d2d0538c8af45a0bba7f5eb6995e49d",
+      "@id": "_:N234fa26c4cfb48acb5942002241cecba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -199,7 +195,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N8d12a3f295064bbd835529bee2a3564b",
+      "@id": "_:N476d9b4bc50b4e8b8f4c293a90e63807",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -210,7 +206,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N601c2d497c5a479db3a51aed786a14f0",
+      "@id": "_:Nc851acd765aa4c4bbad931e4b7105813",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -221,7 +217,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N4912f92f1f074698b078118dbf6fb5ae",
+      "@id": "_:N0e0b4302396640f99a0a66e9d91c137f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -232,7 +228,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nb6bb7fd72f0540b1a7a627005144adcb",
+      "@id": "_:N2859168dbc0f4c64a1d0eb8ac95fdebb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -244,6 +240,10 @@
     },
     {
       "@id": "https://orcid.org/0000-0001-7406-4443",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7917-2056",
       "@type": "sc:Person"
     },
     {

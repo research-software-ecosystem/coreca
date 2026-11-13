@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/database/baac053",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/structural_signatures",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N661c7aef828e4b378757d35d671b044c"
+          "@id": "_:N6952b3a6dfda4d75bbf5edf7f926408b"
         },
         {
-          "@id": "_:N968a6059e6454edaa1f9d31147eeb7ea"
+          "@id": "_:N9c28145fd553452c9657d10a5548519e"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -102,7 +98,7 @@
       "sc:url": "https://structural-server.kinametrix.com/"
     },
     {
-      "@id": "_:N661c7aef828e4b378757d35d671b044c",
+      "@id": "_:N6952b3a6dfda4d75bbf5edf7f926408b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -110,12 +106,16 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:N968a6059e6454edaa1f9d31147eeb7ea",
+      "@id": "_:N9c28145fd553452c9657d10a5548519e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
       },
       "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "https://doi.org/10.1093/database/baac053",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

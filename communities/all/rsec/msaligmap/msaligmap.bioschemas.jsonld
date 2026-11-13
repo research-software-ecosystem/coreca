@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd6e4243b216d4ba594bf2d9083d4e5b9"
+          "@id": "_:Ndf2837775c5a4a5e804cd59776c29f7c"
         },
         {
-          "@id": "_:N0bbb0471ad484ee38966e127ed5cbc9e"
+          "@id": "_:N32d2ef95a91744aa96e06bed12f84e88"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -100,7 +100,7 @@
       "sc:url": "https://albiorix.bioenv.gu.se/MSALigMap/HomePage.py"
     },
     {
-      "@id": "_:Nd6e4243b216d4ba594bf2d9083d4e5b9",
+      "@id": "_:Ndf2837775c5a4a5e804cd59776c29f7c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -108,7 +108,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N0bbb0471ad484ee38966e127ed5cbc9e",
+      "@id": "_:N32d2ef95a91744aa96e06bed12f84e88",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

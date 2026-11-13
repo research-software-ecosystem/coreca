@@ -40,10 +40,6 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0003-4110-0748",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/LiceBase",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -56,57 +52,57 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Nb9582e06cb17470b96c9c2c8ae552122"
+          "@id": "_:N12e0032fa1f146bb81d769ce08987502"
         },
         {
-          "@id": "_:N4275cea691d74bedb10ecc8c24129cdc"
+          "@id": "_:Nd8fa14f4257441849c88be2bba25dfa2"
         },
         {
-          "@id": "_:Ncacfd7651ad04668a15dbc7d2f28c420"
+          "@id": "_:N78713c648b0c4cfe917cd9041c2b632c"
         },
         {
-          "@id": "_:Nd805c64bf1184a6296793f229fe1762e"
+          "@id": "_:N290556bbb09e4ddcbe9e71e987f189e3"
         },
         {
-          "@id": "_:N56562cbbcbc24d7e8fce14cc7744017e"
+          "@id": "_:N6f5ed7a04d0749d997f5aed158a5f44f"
         },
         {
-          "@id": "_:Nb0d2f19b0c714dacb2cf88d712266568"
+          "@id": "_:N74a02f0592fb4052b13fdabff2d53bcd"
         },
         {
-          "@id": "_:N2c6562ba49474588a65c71a0371fe569"
+          "@id": "_:Nae95c073fcc642bf87660360a294da9a"
         },
         {
-          "@id": "_:Nc1557dbd1d4d4eb39be7385577586ba7"
+          "@id": "_:N6d3cf3ffa2614e93b3202254110f3dde"
         },
         {
-          "@id": "_:N82aacf62cb404f1f8770109f20c9e883"
+          "@id": "_:N49d08c3782064566b2929eaff4cf43e8"
         },
         {
-          "@id": "_:N732e2507153c42cc910e63ab19dc8130"
+          "@id": "_:Nf5de3585b89843b9a925614738c6e687"
         },
         {
-          "@id": "_:N69e2d61903114946ad6c48a5d5e2b666"
+          "@id": "_:N33b6b3887731455b919d6e65fba42bd3"
         },
         {
-          "@id": "_:Need1ece76e72457397edffbd81c0c623"
+          "@id": "_:Nadbd0d725dd14ec0bd2235730b454bc6"
         },
         {
-          "@id": "_:Na3d1b0768609499ca751e92b937a17a1"
+          "@id": "_:N1a3cf7eb07d34bb8bc47a428980badd9"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N884b0d78b1fb44aaa35a6a6e5980c0ab"
+          "@id": "_:N2e181721ce5b420080b287c3252ec794"
         },
         {
-          "@id": "_:N5c8f21b560a847478cdecd31254ccdf5"
+          "@id": "_:N71aa5a7130e54321b6ece457f34777c1"
         },
         {
-          "@id": "_:N7cb84c1e926f4a04b8fe420a0bfe959a"
+          "@id": "_:Nc8478ad4ef2f4220aa1593e36feb0065"
         },
         {
-          "@id": "_:Nfe400c4ee49e421b975ba32379b701c0"
+          "@id": "_:Ncf969e11c7e34a24b132d34f598d9bd2"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -189,7 +185,7 @@
       "sc:url": "https://licebase.org/"
     },
     {
-      "@id": "_:Nb9582e06cb17470b96c9c2c8ae552122",
+      "@id": "_:N12e0032fa1f146bb81d769ce08987502",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -200,7 +196,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N4275cea691d74bedb10ecc8c24129cdc",
+      "@id": "_:Nd8fa14f4257441849c88be2bba25dfa2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -219,7 +215,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:Ncacfd7651ad04668a15dbc7d2f28c420",
+      "@id": "_:N78713c648b0c4cfe917cd9041c2b632c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1868"
@@ -230,7 +226,7 @@
       "sc:name": "Taxon"
     },
     {
-      "@id": "_:Nd805c64bf1184a6296793f229fe1762e",
+      "@id": "_:N290556bbb09e4ddcbe9e71e987f189e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -241,7 +237,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:N56562cbbcbc24d7e8fce14cc7744017e",
+      "@id": "_:N6f5ed7a04d0749d997f5aed158a5f44f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3723"
@@ -252,7 +248,7 @@
       "sc:name": "Morphology parameter"
     },
     {
-      "@id": "_:Nb0d2f19b0c714dacb2cf88d712266568",
+      "@id": "_:N74a02f0592fb4052b13fdabff2d53bcd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3275"
@@ -263,7 +259,7 @@
       "sc:name": "Phenotype name"
     },
     {
-      "@id": "_:N2c6562ba49474588a65c71a0371fe569",
+      "@id": "_:Nae95c073fcc642bf87660360a294da9a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -274,7 +270,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:Nc1557dbd1d4d4eb39be7385577586ba7",
+      "@id": "_:N6d3cf3ffa2614e93b3202254110f3dde",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1048"
@@ -285,7 +281,7 @@
       "sc:name": "Database ID"
     },
     {
-      "@id": "_:N82aacf62cb404f1f8770109f20c9e883",
+      "@id": "_:N49d08c3782064566b2929eaff4cf43e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -307,7 +303,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N732e2507153c42cc910e63ab19dc8130",
+      "@id": "_:Nf5de3585b89843b9a925614738c6e687",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1192"
@@ -318,7 +314,7 @@
       "sc:name": "Tool name (BLAST)"
     },
     {
-      "@id": "_:N69e2d61903114946ad6c48a5d5e2b666",
+      "@id": "_:N33b6b3887731455b919d6e65fba42bd3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -329,7 +325,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:Need1ece76e72457397edffbd81c0c623",
+      "@id": "_:Nadbd0d725dd14ec0bd2235730b454bc6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -340,7 +336,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:Na3d1b0768609499ca751e92b937a17a1",
+      "@id": "_:N1a3cf7eb07d34bb8bc47a428980badd9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -351,7 +347,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:N884b0d78b1fb44aaa35a6a6e5980c0ab",
+      "@id": "_:N2e181721ce5b420080b287c3252ec794",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -362,7 +358,7 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:N5c8f21b560a847478cdecd31254ccdf5",
+      "@id": "_:N71aa5a7130e54321b6ece457f34777c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -373,7 +369,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N7cb84c1e926f4a04b8fe420a0bfe959a",
+      "@id": "_:Nc8478ad4ef2f4220aa1593e36feb0065",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -384,7 +380,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:Nfe400c4ee49e421b975ba32379b701c0",
+      "@id": "_:Ncf969e11c7e34a24b132d34f598d9bd2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -404,6 +400,10 @@
         }
       ],
       "sc:name": "Sequence report"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4110-0748",
+      "@type": "sc:Person"
     }
   ]
 }

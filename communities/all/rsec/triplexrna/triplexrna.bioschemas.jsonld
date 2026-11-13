@@ -41,30 +41,30 @@
       "biotools:primaryContact": "Andrea Bagnacani",
       "bsc:input": [
         {
-          "@id": "_:N2a6f18a48d52491881e1cf2d98742dbd"
+          "@id": "_:Nf34110c13ea74b95ad26b800ba79ba23"
         },
         {
-          "@id": "_:Nced26d2da2294203bc4351242ed8bee0"
+          "@id": "_:N8372afc505b0401da38cc6a4a2820f01"
         },
         {
-          "@id": "_:N5d900b2bbcf54296862c0d26dd6eea00"
+          "@id": "_:N818e1a4969824003aa64eae889855d3a"
         },
         {
-          "@id": "_:Nb2f1471990704f8fab98c3d76934a153"
+          "@id": "_:Nbc8365597a174657b0d2257f6c654c02"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nec8c2d4af73644e7b7227ab594bb90db"
+          "@id": "_:Nc35b0629478443fb911c19ae4d7038d4"
         },
         {
-          "@id": "_:N9718bb07335341f399a5b2edfa5fd5da"
+          "@id": "_:Nc82c023b50be422284e37591e5fc98c5"
         },
         {
-          "@id": "_:N00cdd2d9501c43c7b6f2d371a9b8d600"
+          "@id": "_:N4f9efa4b05084ecebfa09bf143c09954"
         },
         {
-          "@id": "_:N18f039a7c6534bb5bb2e612c7429e56e"
+          "@id": "_:Na3a1498fe360449299e138d985b7f2c3"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -116,7 +116,7 @@
       "sc:url": "https://triplexrna.org"
     },
     {
-      "@id": "_:N2a6f18a48d52491881e1cf2d98742dbd",
+      "@id": "_:Nf34110c13ea74b95ad26b800ba79ba23",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -127,7 +127,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:Nced26d2da2294203bc4351242ed8bee0",
+      "@id": "_:N8372afc505b0401da38cc6a4a2820f01",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2909"
@@ -138,7 +138,7 @@
       "sc:name": "Organism name"
     },
     {
-      "@id": "_:N5d900b2bbcf54296862c0d26dd6eea00",
+      "@id": "_:N818e1a4969824003aa64eae889855d3a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2342"
@@ -149,7 +149,7 @@
       "sc:name": "Pathway or network name"
     },
     {
-      "@id": "_:Nb2f1471990704f8fab98c3d76934a153",
+      "@id": "_:Nbc8365597a174657b0d2257f6c654c02",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2355"
@@ -160,7 +160,7 @@
       "sc:name": "RNA family identifier"
     },
     {
-      "@id": "_:Nec8c2d4af73644e7b7227ab594bb90db",
+      "@id": "_:Nc35b0629478443fb911c19ae4d7038d4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2140"
@@ -171,7 +171,7 @@
       "sc:name": "Concentration"
     },
     {
-      "@id": "_:N9718bb07335341f399a5b2edfa5fd5da",
+      "@id": "_:Nc82c023b50be422284e37591e5fc98c5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -190,7 +190,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N00cdd2d9501c43c7b6f2d371a9b8d600",
+      "@id": "_:N4f9efa4b05084ecebfa09bf143c09954",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -201,7 +201,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N18f039a7c6534bb5bb2e612c7429e56e",
+      "@id": "_:Na3a1498fe360449299e138d985b7f2c3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2166"

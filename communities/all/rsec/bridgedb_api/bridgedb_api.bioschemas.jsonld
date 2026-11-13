@@ -40,30 +40,30 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N40e10b1899964f559d9fcdb7de525f0d"
+          "@id": "_:N2ce02690d6024013bf9fda1f4bb69dd4"
         },
         {
-          "@id": "_:N383cc8da7e1b46adb6abf6fb12ab9bf2"
+          "@id": "_:N7cb14e8c25824c91960a3787e2406732"
         },
         {
-          "@id": "_:N2f47bc0f898b41c08648235f1fc22493"
+          "@id": "_:N96039b2972a744d2be2ecaa98e320a10"
         },
         {
-          "@id": "_:Nca6d38201b914313b02d8c72ddad9981"
+          "@id": "_:Nde746d75382b484d97c0e8ebb4bfe129"
         },
         {
-          "@id": "_:N9b4ece85e2ee46179477dc96774c1cd8"
+          "@id": "_:N0234e29171f6456cb16fa32f77de1da1"
         },
         {
-          "@id": "_:Nc6987982d4b9482aba96ccca9bee181d"
+          "@id": "_:N66b00413b7e549e49bb573c7705b1591"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3e53dd3454f44225a78a3b1abe4b894e"
+          "@id": "_:Nc982e97192cb47bd8e11a766dffa2611"
         },
         {
-          "@id": "_:N743956cd754e46f891d74f0913b08e6a"
+          "@id": "_:N0446b461d99a4e0f803297177469c192"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -99,7 +99,7 @@
       "sc:url": "http://www.bridgedb.org/"
     },
     {
-      "@id": "_:N40e10b1899964f559d9fcdb7de525f0d",
+      "@id": "_:N2ce02690d6024013bf9fda1f4bb69dd4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -107,7 +107,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N383cc8da7e1b46adb6abf6fb12ab9bf2",
+      "@id": "_:N7cb14e8c25824c91960a3787e2406732",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -115,7 +115,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N2f47bc0f898b41c08648235f1fc22493",
+      "@id": "_:N96039b2972a744d2be2ecaa98e320a10",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -123,7 +123,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Nca6d38201b914313b02d8c72ddad9981",
+      "@id": "_:Nde746d75382b484d97c0e8ebb4bfe129",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -131,7 +131,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N9b4ece85e2ee46179477dc96774c1cd8",
+      "@id": "_:N0234e29171f6456cb16fa32f77de1da1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -139,7 +139,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Nc6987982d4b9482aba96ccca9bee181d",
+      "@id": "_:N66b00413b7e549e49bb573c7705b1591",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -147,7 +147,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:N3e53dd3454f44225a78a3b1abe4b894e",
+      "@id": "_:Nc982e97192cb47bd8e11a766dffa2611",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -155,7 +155,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N743956cd754e46f891d74f0913b08e6a",
+      "@id": "_:N0446b461d99a4e0f803297177469c192",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

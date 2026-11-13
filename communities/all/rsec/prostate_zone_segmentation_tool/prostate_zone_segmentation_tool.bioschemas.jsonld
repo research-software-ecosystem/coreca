@@ -36,14 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-1887-0157",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1016/j.compbiomed.2024.108216",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/prostate_zone_segmentation_tool",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -51,18 +43,18 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N57e90e5a3044456194b50cb5dbfb81dc"
+          "@id": "_:N54e94d64017c4fdf8abfa0f773963c52"
         },
         {
-          "@id": "_:Nb8b9e0d9c91d4bfba54ded9d83a55f62"
+          "@id": "_:Na9634d95241240b08d264bd627c8b62c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd1a6a94cc9834103b69836fbed7135a7"
+          "@id": "_:N3167661124bd406b967e4eb6ba4526b1"
         },
         {
-          "@id": "_:Nb1f1a1d8c56a4c7aad2511e987b42e9e"
+          "@id": "_:N6bfe9d0469e347f5b23a6e7ac3fc6c23"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -90,13 +82,18 @@
       "sc:license": "CC-BY-NC-4.0",
       "sc:name": "Prostate zone segmentation tool",
       "sc:operatingSystem": "Linux",
-      "sc:softwareHelp": {
-        "@id": "https://github.com/josegcpa/nnunet_serve"
-      },
+      "sc:softwareHelp": [
+        {
+          "@id": "https://gist.github.com/josegcpa/47ba1bf2bb425db111393e2c135d97e6"
+        },
+        {
+          "@id": "https://youtu.be/WdjWF4w_ZD8?si=ptrzfCNEUT0_uI5x"
+        }
+      ],
       "sc:url": "https://harbor.eucaim.cancerimage.eu/harbor/projects/4/repositories/champ-prostate-zone-segmentation"
     },
     {
-      "@id": "_:N57e90e5a3044456194b50cb5dbfb81dc",
+      "@id": "_:N54e94d64017c4fdf8abfa0f773963c52",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3442"
@@ -112,7 +109,7 @@
       "sc:name": "MRI image"
     },
     {
-      "@id": "_:Nb8b9e0d9c91d4bfba54ded9d83a55f62",
+      "@id": "_:Na9634d95241240b08d264bd627c8b62c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3442"
@@ -128,7 +125,7 @@
       "sc:name": "MRI image"
     },
     {
-      "@id": "_:Nd1a6a94cc9834103b69836fbed7135a7",
+      "@id": "_:N3167661124bd406b967e4eb6ba4526b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -144,7 +141,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nb1f1a1d8c56a4c7aad2511e987b42e9e",
+      "@id": "_:N6bfe9d0469e347f5b23a6e7ac3fc6c23",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3442"
@@ -158,6 +155,14 @@
         }
       ],
       "sc:name": "MRI image"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.compbiomed.2024.108216",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1887-0157",
+      "@type": "sc:Person"
     }
   ]
 }

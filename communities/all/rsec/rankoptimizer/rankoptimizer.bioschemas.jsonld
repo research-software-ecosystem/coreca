@@ -36,29 +36,21 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/rankoptimizer",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N860df2c684064bcd872e5468955ca7f6"
+        "@id": "_:N49de3a94b75945c29107594d4d6c4e6b"
       },
       "bsc:output": [
         {
-          "@id": "_:Na9a5123020494ce9a91fa30544a0aa0f"
+          "@id": "_:Nec1bc2c870c6474d8c8c5cd30fa817bf"
         },
         {
-          "@id": "_:N27849c85b4ef470bb989beafccfe3c4f"
+          "@id": "_:N42aeb9ea8f9e41089e4e94831f60e8f4"
         },
         {
-          "@id": "_:Nc6cd3a215ade4fecb642f095b88df13d"
+          "@id": "_:N4e7beabc30fd4f3ea3f92ca517abe5c4"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -101,7 +93,7 @@
       "sc:url": "https://galaxy.pasteur.fr/tool_runner?tool_id=toolshed.pasteur.fr/repos/odoppelt/taxonomy_analysis/rankoptimizer/0.0.5"
     },
     {
-      "@id": "_:N860df2c684064bcd872e5468955ca7f6",
+      "@id": "_:N49de3a94b75945c29107594d4d6c4e6b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -112,7 +104,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Na9a5123020494ce9a91fa30544a0aa0f",
+      "@id": "_:Nec1bc2c870c6474d8c8c5cd30fa817bf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -123,7 +115,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N27849c85b4ef470bb989beafccfe3c4f",
+      "@id": "_:N42aeb9ea8f9e41089e4e94831f60e8f4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -134,7 +126,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nc6cd3a215ade4fecb642f095b88df13d",
+      "@id": "_:N4e7beabc30fd4f3ea3f92ca517abe5c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -143,6 +135,14 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

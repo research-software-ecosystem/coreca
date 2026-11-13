@@ -36,23 +36,27 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1471-2105-13-48",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/mapsembler",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Pierre Peterlongo",
       "bsc:input": [
         {
-          "@id": "_:N8add0632098a4bc0932ccdb9881c1b84"
+          "@id": "_:N34382ed330474a1d92aa4a1c95730c16"
         },
         {
-          "@id": "_:N91b38e3e2d4b4552a9dbe1c39abb4e3b"
+          "@id": "_:N67ddfd59589a4bc98f632d0545e62624"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N4a8c48ddfd2b483cb22f911628554835"
+          "@id": "_:Nb252916844b44f20a6426802baa15298"
         },
         {
-          "@id": "_:N9240e6203b4e458da13fd14294f58d50"
+          "@id": "_:Nf6a92dc5ab214f42997e5da3069746c9"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -83,7 +87,7 @@
       "sc:url": "https://colibread.inria.fr/mapsembler2/"
     },
     {
-      "@id": "_:N8add0632098a4bc0932ccdb9881c1b84",
+      "@id": "_:N34382ed330474a1d92aa4a1c95730c16",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -94,7 +98,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N91b38e3e2d4b4552a9dbe1c39abb4e3b",
+      "@id": "_:N67ddfd59589a4bc98f632d0545e62624",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2975"
@@ -105,7 +109,7 @@
       "sc:name": "Nucleic acid sequence (raw)"
     },
     {
-      "@id": "_:N4a8c48ddfd2b483cb22f911628554835",
+      "@id": "_:Nb252916844b44f20a6426802baa15298",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -116,7 +120,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N9240e6203b4e458da13fd14294f58d50",
+      "@id": "_:Nf6a92dc5ab214f42997e5da3069746c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -125,10 +129,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1471-2105-13-48",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

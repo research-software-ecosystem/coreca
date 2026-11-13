@@ -44,21 +44,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N13a304cce27b48cda069fb6903bea3f8"
+          "@id": "_:N07582880c2e74307a06177e83f7c9480"
         },
         {
-          "@id": "_:N099594be153346b498b7799776932bf7"
+          "@id": "_:Nf235ce7621d541bdbe6fcbb7f4fcd73d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8d63dea2fdef440399a768e2866230a6"
+          "@id": "_:Nc22559e79b1a46e99b585742d99ba498"
         },
         {
-          "@id": "_:Nd08dd00272c04cdcbe68f71c9d56693e"
+          "@id": "_:Ne0851c687696424c9168898711d51153"
         },
         {
-          "@id": "_:N87fdc43fab2b4fb39a116a8fc4977de3"
+          "@id": "_:N02f6249a75d64e28a61f200b47daec33"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -119,7 +119,7 @@
       "sc:url": "https://mines.legumeinfo.org/lupinmine"
     },
     {
-      "@id": "_:N13a304cce27b48cda069fb6903bea3f8",
+      "@id": "_:N07582880c2e74307a06177e83f7c9480",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -127,7 +127,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N099594be153346b498b7799776932bf7",
+      "@id": "_:Nf235ce7621d541bdbe6fcbb7f4fcd73d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -135,7 +135,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N8d63dea2fdef440399a768e2866230a6",
+      "@id": "_:Nc22559e79b1a46e99b585742d99ba498",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3753"
@@ -143,7 +143,7 @@
       "sc:name": "Over-representation data"
     },
     {
-      "@id": "_:Nd08dd00272c04cdcbe68f71c9d56693e",
+      "@id": "_:Ne0851c687696424c9168898711d51153",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -151,7 +151,7 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:N87fdc43fab2b4fb39a116a8fc4977de3",
+      "@id": "_:N02f6249a75d64e28a61f200b47daec33",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"

@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkz562",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://orcid.org/0000-0002-1368-307X",
       "@type": "sc:Organization"
     },
@@ -63,10 +67,6 @@
         "@id": "https://marome.bionivid.in/help"
       },
       "sc:url": "https://marome.bionivid.in/"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkz562",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,15 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-4022-8531",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://orcid.org/0000-0002-3321-7471",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0002-7635-3473",
+      "@id": "https://orcid.org/0000-0002-4022-8531",
       "@type": "sc:Person"
     },
     {
@@ -54,10 +50,10 @@
         "@id": "https://orcid.org/0000-0002-4022-8531"
       },
       "bsc:input": {
-        "@id": "_:N4bb7769d1652427fad98127d97819c27"
+        "@id": "_:N9dc8b37a7b5344218d9c066b04ad3353"
       },
       "bsc:output": {
-        "@id": "_:N53353a6afd9446048e550691501ba50a"
+        "@id": "_:N6dc79871f04b418db2b4109519cbf2bb"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Script",
@@ -94,7 +90,7 @@
       "sc:url": "https://github.com/ksielemann/QUOD"
     },
     {
-      "@id": "_:N4bb7769d1652427fad98127d97819c27",
+      "@id": "_:N9dc8b37a7b5344218d9c066b04ad3353",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -105,7 +101,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:N53353a6afd9446048e550691501ba50a",
+      "@id": "_:N6dc79871f04b418db2b4109519cbf2bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -114,6 +110,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Score"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7635-3473",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://doi.org/10.1101/2020.04.28.065714",

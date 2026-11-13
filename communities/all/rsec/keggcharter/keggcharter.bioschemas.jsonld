@@ -36,17 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0002-2691-9950",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1016/j.csbj.2022.03.042",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/keggcharter",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N57be0522b5de4ba5afa283c597913160"
+        "@id": "_:N2a56a48f54ae45fda9a959f8f0094fac"
       },
       "bsc:output": {
-        "@id": "_:Nace49e97a6ce45c5b5a5fd23611aa650"
+        "@id": "_:Nd95083e360e44f008d816baa6fd5b159"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -81,7 +81,7 @@
       "sc:url": "https://github.com/iquasere/KEGGCharter"
     },
     {
-      "@id": "_:N57be0522b5de4ba5afa283c597913160",
+      "@id": "_:N2a56a48f54ae45fda9a959f8f0094fac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0907"
@@ -92,7 +92,7 @@
       "sc:name": "Protein family report"
     },
     {
-      "@id": "_:Nace49e97a6ce45c5b5a5fd23611aa650",
+      "@id": "_:Nd95083e360e44f008d816baa6fd5b159",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2984"
@@ -103,8 +103,8 @@
       "sc:name": "Pathway or network report"
     },
     {
-      "@id": "https://doi.org/10.1016/j.csbj.2022.03.042",
-      "@type": "sc:CreativeWork"
+      "@id": "http://orcid.org/0000-0002-2691-9950",
+      "@type": "sc:Person"
     }
   ]
 }

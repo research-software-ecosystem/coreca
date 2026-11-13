@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Rene Warren",
       "bsc:input": {
-        "@id": "_:Nd4b71e3230df4d09ad6b5fe0583090a4"
+        "@id": "_:N755e0ab5f189467aa2486fb76fbf4139"
       },
       "bsc:output": [
         {
-          "@id": "_:N2d514a333b544923ab62acfd4d3bfd16"
+          "@id": "_:Na1d05ee3b4684826ac5d205ba7ba61da"
         },
         {
-          "@id": "_:N898501f267ad4d208522e7ab7fcc0030"
+          "@id": "_:N5c223ab4624e478ab87c498de9e9ca77"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,7 +89,7 @@
       "sc:url": "http://www.bcgsc.ca/platform/bioinfo/software/ssake"
     },
     {
-      "@id": "_:Nd4b71e3230df4d09ad6b5fe0583090a4",
+      "@id": "_:N755e0ab5f189467aa2486fb76fbf4139",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -100,7 +100,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N2d514a333b544923ab62acfd4d3bfd16",
+      "@id": "_:Na1d05ee3b4684826ac5d205ba7ba61da",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -111,7 +111,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N898501f267ad4d208522e7ab7fcc0030",
+      "@id": "_:N5c223ab4624e478ab87c498de9e9ca77",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3181"

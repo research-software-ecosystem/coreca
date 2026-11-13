@@ -44,14 +44,6 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1016/j.jmr.2004.08.024",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1023/a:1021671531438",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/dshift",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Sik Lok LAM",
@@ -106,6 +98,14 @@
         "Windows"
       ],
       "sc:url": "http://www.chem.cuhk.edu.hk/DSHIFT/"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jmr.2004.08.024",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1023/a:1021671531438",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/imt2.43",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/complexheatmap",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb60a3e855ac04b43b2d540c7a45ed9be"
+        "@id": "_:Nccc9d0c6adb749d8b5efe94701a6c464"
       },
       "bsc:output": {
-        "@id": "_:N824b5904a2e34f9b8ac611f7f34799d3"
+        "@id": "_:Nbb76943478124a728d4032d445725a89"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -84,7 +88,7 @@
       "sc:url": "https://bioconductor.org/packages/ComplexHeatmap"
     },
     {
-      "@id": "_:Nb60a3e855ac04b43b2d540c7a45ed9be",
+      "@id": "_:Nccc9d0c6adb749d8b5efe94701a6c464",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -95,7 +99,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N824b5904a2e34f9b8ac611f7f34799d3",
+      "@id": "_:Nbb76943478124a728d4032d445725a89",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -107,10 +111,6 @@
     },
     {
       "@id": "https://doi.org/10.1093/bioinformatics/btw313",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1002/imt2.43",
       "@type": "sc:CreativeWork"
     }
   ]

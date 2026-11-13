@@ -36,20 +36,24 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.flowBin",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/flowbin",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N49b57ca4b8e64d268324079c41a0eeb3"
+        "@id": "_:N6bb53eeedccb4eecb3a6e8400ab43ed9"
       },
       "bsc:output": [
         {
-          "@id": "_:N546466f239b646ddab60c4b7efbb8cdb"
+          "@id": "_:N897b9fc02ce54da98f6b8d720fc044a9"
         },
         {
-          "@id": "_:Nf822e9e13dd6463a90eefafd71de5d37"
+          "@id": "_:Nf6da0addc4904d50b534ce18a7104e99"
         },
         {
-          "@id": "_:Ned50f5532af8490a8a8b789a30606318"
+          "@id": "_:Nae2a550f974b4e7398373076377b7b95"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -97,7 +101,7 @@
       "sc:url": "https://bioconductor.org/packages/flowBin"
     },
     {
-      "@id": "_:N49b57ca4b8e64d268324079c41a0eeb3",
+      "@id": "_:N6bb53eeedccb4eecb3a6e8400ab43ed9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -108,7 +112,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N546466f239b646ddab60c4b7efbb8cdb",
+      "@id": "_:N897b9fc02ce54da98f6b8d720fc044a9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -124,7 +128,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Nf822e9e13dd6463a90eefafd71de5d37",
+      "@id": "_:Nf6da0addc4904d50b534ce18a7104e99",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -140,7 +144,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Ned50f5532af8490a8a8b789a30606318",
+      "@id": "_:Nae2a550f974b4e7398373076377b7b95",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -154,10 +158,6 @@
         }
       ],
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.flowBin",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

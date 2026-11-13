@@ -49,27 +49,27 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N0b0d5264bb7242feb289ddd8e285f436"
+          "@id": "_:N7882a49fc4a34574a76252efdf143dbb"
         },
         {
-          "@id": "_:N592b1dbed3cc43ca89ce2a991b7495fd"
+          "@id": "_:N6add4c77e3ea4ab29b178a2e1de546e7"
         },
         {
-          "@id": "_:Nd597fe9a3a4f4e288cbe1406311cd4cf"
+          "@id": "_:N92c0f3f6fc5644d497a75343f2e3bfbd"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nac0356f9b6a0474895493076c950e51a"
+          "@id": "_:N601af14d5d9f4e78bbfa188dd5d3289b"
         },
         {
-          "@id": "_:N8eebefc2f26e4077b0f4ac151d09fea2"
+          "@id": "_:N7fc4e8eda46f495fa48722bca79a050d"
         },
         {
-          "@id": "_:N539916e023cf4bd7aaa9a5e92d72768c"
+          "@id": "_:N826d7baf76034325aae813ca9100c07f"
         },
         {
-          "@id": "_:Nd5e33991bca640cdb5e9c667ddf122c9"
+          "@id": "_:N71d4f9a58464486eb7f7723c448a18ee"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -110,7 +110,7 @@
       "sc:url": "http://frogs.toulouse.inra.fr/"
     },
     {
-      "@id": "_:N0b0d5264bb7242feb289ddd8e285f436",
+      "@id": "_:N7882a49fc4a34574a76252efdf143dbb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -121,7 +121,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N592b1dbed3cc43ca89ce2a991b7495fd",
+      "@id": "_:N6add4c77e3ea4ab29b178a2e1de546e7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -132,7 +132,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nd597fe9a3a4f4e288cbe1406311cd4cf",
+      "@id": "_:N92c0f3f6fc5644d497a75343f2e3bfbd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -143,7 +143,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nac0356f9b6a0474895493076c950e51a",
+      "@id": "_:N601af14d5d9f4e78bbfa188dd5d3289b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -154,7 +154,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N8eebefc2f26e4077b0f4ac151d09fea2",
+      "@id": "_:N7fc4e8eda46f495fa48722bca79a050d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -165,7 +165,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N539916e023cf4bd7aaa9a5e92d72768c",
+      "@id": "_:N826d7baf76034325aae813ca9100c07f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -176,7 +176,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nd5e33991bca640cdb5e9c667ddf122c9",
+      "@id": "_:N71d4f9a58464486eb7f7723c448a18ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

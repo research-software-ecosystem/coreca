@@ -36,95 +36,91 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/j.immuni.2009.10.008",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/aceview",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N97f9f4bd6e1e451ab4cff0ac650e008f"
+          "@id": "_:N22012f4096d7494d8881b6ce138fec83"
         },
         {
-          "@id": "_:Nd8f0d1d206c84fb58018e378fbaf7086"
+          "@id": "_:N1641cdf845474c8ab6f2d7085876dafb"
         },
         {
-          "@id": "_:Ne3ff5e1b738248cba17d34d8c0b7b495"
+          "@id": "_:N03e6d977359f400c9c148bc45914312d"
         },
         {
-          "@id": "_:Ncbfa0b27223e4f66bae7090fa7e6a10a"
+          "@id": "_:Ndea4cf892dc44dd49f3e13bc084555ce"
         },
         {
-          "@id": "_:N129e5b297f1d465392c46634764d0558"
+          "@id": "_:Ncea74bffd8894e5c96261547da21bf1e"
         },
         {
-          "@id": "_:N1a8af5cddf224a38aafa3e7c995a745c"
+          "@id": "_:Nbacc5494ae0c4558982023f39fd9512f"
         },
         {
-          "@id": "_:Nc3ea097c59504e2091b12436cde4bf08"
+          "@id": "_:N8e4be833e6344b44a6f3345ea5a7c3ae"
         },
         {
-          "@id": "_:Ne792dcf398b6411497db91cfda82c835"
+          "@id": "_:Ne255efb086bd482585e2e5d513b0bb8b"
         },
         {
-          "@id": "_:N3eacb02599ac4246b898850b6535f097"
+          "@id": "_:N9e801fefc35347a3a4d265799a9fab21"
         },
         {
-          "@id": "_:N65eef142937a43789e96bcce757e0d29"
+          "@id": "_:Nbd44679018d548be87a0391b91408a0d"
         },
         {
-          "@id": "_:N11ff5b9af1dd4711a958c60b9b34f764"
+          "@id": "_:Ndb4603a34a1441dbb35ac90b8fbe5340"
         },
         {
-          "@id": "_:N2636179346214a42837a71417704a096"
+          "@id": "_:N92baf53e60484421a5ec452de71c3c89"
         },
         {
-          "@id": "_:Nead246b4bd7c4a0ab3b9ee7de008e60b"
+          "@id": "_:N2e27fb40985d4b19b75cbdd03ac82f88"
         },
         {
-          "@id": "_:Nd64f21c2c1424141b1393300f09769ee"
+          "@id": "_:N9fa565f4e599403994750e705f90395a"
         },
         {
-          "@id": "_:Nbb16b388ea1e4a62a1bc4c8457aa92d8"
+          "@id": "_:N6e5c437a42d34c77a90a734ecbc3844a"
         },
         {
-          "@id": "_:N26321995374f42aaa70b8f2049e92616"
+          "@id": "_:N8e736695dcec40a49b47a22c833de883"
         },
         {
-          "@id": "_:N3c7c9dec642c42e1b50124bd5137de6f"
+          "@id": "_:N8f150ea308414e9087fc3b26a47a5189"
         },
         {
-          "@id": "_:Nc5744660217249f49feb30a4478f592a"
+          "@id": "_:N9667c279c8704779b93ca3db32d3ee18"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1497833ea6a44e47be79fc81f45c96cb"
+          "@id": "_:Ndea171f6558241a89441c6e44b7a4262"
         },
         {
-          "@id": "_:N2b89666048534d3496e88793aa31a36a"
+          "@id": "_:N39f7f2efaf644fa8b252f9cb382879d5"
         },
         {
-          "@id": "_:Na4f5c86136714930a106cba2701b05c7"
+          "@id": "_:Nc81129f7c9c9494f92effd36ce8948cf"
         },
         {
-          "@id": "_:N6d54097bd88746e7865d414b8f48c96e"
+          "@id": "_:N758cd448ea2c4c488ee9ea0294a92fa0"
         },
         {
-          "@id": "_:N9656bdeed70b4e5895b5d0dd4f4af8b2"
+          "@id": "_:Nf906c28ac56e4942bb60726149fda845"
         },
         {
-          "@id": "_:N40a3e419389a41efa06c61b861a734d5"
+          "@id": "_:Nf371f5308f8340f581e42c5a189659eb"
         },
         {
-          "@id": "_:N3ed3be539ea644b791e82e652069b57f"
+          "@id": "_:Nf9e19898b6984a599ead24c2bc6c9e2f"
         },
         {
-          "@id": "_:Nc4728104417e48cebc593b3af15e9103"
+          "@id": "_:Nc41c5b8269db43879b473a39fc30e4e6"
         },
         {
-          "@id": "_:N51d5d97500a14619b902cdb9a80c5a25"
+          "@id": "_:Ne656e0eee7bb42a0939dcfd8a2f96007"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -161,7 +157,7 @@
       "sc:url": "http://www.ncbi.nlm.nih.gov/IEB/Research/Acembly/"
     },
     {
-      "@id": "_:N97f9f4bd6e1e451ab4cff0ac650e008f",
+      "@id": "_:N22012f4096d7494d8881b6ce138fec83",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2704"
@@ -169,7 +165,7 @@
       "sc:name": "Clone ID (IMAGE)"
     },
     {
-      "@id": "_:Nd8f0d1d206c84fb58018e378fbaf7086",
+      "@id": "_:N1641cdf845474c8ab6f2d7085876dafb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -177,7 +173,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:Ne3ff5e1b738248cba17d34d8c0b7b495",
+      "@id": "_:N03e6d977359f400c9c148bc45914312d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2803"
@@ -185,7 +181,7 @@
       "sc:name": "Clone ID (RefSeq)"
     },
     {
-      "@id": "_:Ncbfa0b27223e4f66bae7090fa7e6a10a",
+      "@id": "_:Ndea4cf892dc44dd49f3e13bc084555ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -193,7 +189,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:N129e5b297f1d465392c46634764d0558",
+      "@id": "_:Ncea74bffd8894e5c96261547da21bf1e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2292"
@@ -201,7 +197,7 @@
       "sc:name": "GenBank accession"
     },
     {
-      "@id": "_:N1a8af5cddf224a38aafa3e7c995a745c",
+      "@id": "_:Nbacc5494ae0c4558982023f39fd9512f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -209,7 +205,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:Nc3ea097c59504e2091b12436cde4bf08",
+      "@id": "_:N8e4be833e6344b44a6f3345ea5a7c3ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1027"
@@ -217,7 +213,7 @@
       "sc:name": "Gene ID (NCBI)"
     },
     {
-      "@id": "_:Ne792dcf398b6411497db91cfda82c835",
+      "@id": "_:Ne255efb086bd482585e2e5d513b0bb8b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -225,7 +221,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:N3eacb02599ac4246b898850b6535f097",
+      "@id": "_:N9e801fefc35347a3a4d265799a9fab21",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -233,7 +229,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N65eef142937a43789e96bcce757e0d29",
+      "@id": "_:Nbd44679018d548be87a0391b91408a0d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -241,7 +237,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:N11ff5b9af1dd4711a958c60b9b34f764",
+      "@id": "_:Ndb4603a34a1441dbb35ac90b8fbe5340",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -249,7 +245,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N2636179346214a42837a71417704a096",
+      "@id": "_:N92baf53e60484421a5ec452de71c3c89",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -257,7 +253,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:Nead246b4bd7c4a0ab3b9ee7de008e60b",
+      "@id": "_:N2e27fb40985d4b19b75cbdd03ac82f88",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -265,7 +261,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:Nd64f21c2c1424141b1393300f09769ee",
+      "@id": "_:N9fa565f4e599403994750e705f90395a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -273,7 +269,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:Nbb16b388ea1e4a62a1bc4c8457aa92d8",
+      "@id": "_:N6e5c437a42d34c77a90a734ecbc3844a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -281,7 +277,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N26321995374f42aaa70b8f2049e92616",
+      "@id": "_:N8e736695dcec40a49b47a22c833de883",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -289,7 +285,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:N3c7c9dec642c42e1b50124bd5137de6f",
+      "@id": "_:N8f150ea308414e9087fc3b26a47a5189",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -297,7 +293,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:Nc5744660217249f49feb30a4478f592a",
+      "@id": "_:N9667c279c8704779b93ca3db32d3ee18",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -305,7 +301,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:N1497833ea6a44e47be79fc81f45c96cb",
+      "@id": "_:Ndea171f6558241a89441c6e44b7a4262",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -316,7 +312,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N2b89666048534d3496e88793aa31a36a",
+      "@id": "_:N39f7f2efaf644fa8b252f9cb382879d5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -327,7 +323,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Na4f5c86136714930a106cba2701b05c7",
+      "@id": "_:Nc81129f7c9c9494f92effd36ce8948cf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3134"
@@ -338,7 +334,7 @@
       "sc:name": "Gene transcript report"
     },
     {
-      "@id": "_:N6d54097bd88746e7865d414b8f48c96e",
+      "@id": "_:N758cd448ea2c4c488ee9ea0294a92fa0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -349,7 +345,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N9656bdeed70b4e5895b5d0dd4f4af8b2",
+      "@id": "_:Nf906c28ac56e4942bb60726149fda845",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -360,7 +356,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N40a3e419389a41efa06c61b861a734d5",
+      "@id": "_:Nf371f5308f8340f581e42c5a189659eb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -371,7 +367,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N3ed3be539ea644b791e82e652069b57f",
+      "@id": "_:Nf9e19898b6984a599ead24c2bc6c9e2f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -382,7 +378,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Nc4728104417e48cebc593b3af15e9103",
+      "@id": "_:Nc41c5b8269db43879b473a39fc30e4e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -393,7 +389,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N51d5d97500a14619b902cdb9a80c5a25",
+      "@id": "_:Ne656e0eee7bb42a0939dcfd8a2f96007",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -402,6 +398,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Nucleic acid features"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.immuni.2009.10.008",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/pathicular",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N40e37aeb39eb43b68a7af9f4838de5e1"
+        "@id": "_:Nf1a22f83ddf94e90bbe3ba86dab99545"
       },
       "bsc:output": {
-        "@id": "_:N52cf64996b9849baa10d2bcb5aa6abd2"
+        "@id": "_:N33a9cb9d77b14898b6c7d63bcb2d1b63"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -74,7 +74,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/software/details/Pathicular"
     },
     {
-      "@id": "_:N40e37aeb39eb43b68a7af9f4838de5e1",
+      "@id": "_:Nf1a22f83ddf94e90bbe3ba86dab99545",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -85,7 +85,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N52cf64996b9849baa10d2bcb5aa6abd2",
+      "@id": "_:N33a9cb9d77b14898b6c7d63bcb2d1b63",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

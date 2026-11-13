@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1471-2164-16-s8-s6",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/net-ge",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -50,23 +46,23 @@
         "Samuele Bovo"
       ],
       "bsc:input": {
-        "@id": "_:N9a5e7f1adf12442c9fc120516cfa4027"
+        "@id": "_:N80b5daf332c2492da70f2606a3e0aa13"
       },
       "bsc:output": [
         {
-          "@id": "_:N4d65ab7e4e6e4b3e8344b62238914bc0"
+          "@id": "_:N1331eed1ee804dc6a5c4bfdae1e90822"
         },
         {
-          "@id": "_:N242777b415b74eaeac9c76ae22bb03ee"
+          "@id": "_:Na9375408dd304ecfb566064e3b1365e9"
         },
         {
-          "@id": "_:Nd78cd79469a040dcbf54a4cb47ccd214"
+          "@id": "_:N645f6008d19f4e26a73526db145bd587"
         },
         {
-          "@id": "_:Nb189a46086564434b2b40ed7c2fb386b"
+          "@id": "_:Nc5286dba849749f285108ec9b9200c3c"
         },
         {
-          "@id": "_:Nb42a44c6b1784d25b87a71d80abc5a25"
+          "@id": "_:N0bb42e5cd06d4cf4ba2a09a7981e1b84"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -106,7 +102,7 @@
       "sc:url": "http://net-ge.biocomp.unibo.it/"
     },
     {
-      "@id": "_:N9a5e7f1adf12442c9fc120516cfa4027",
+      "@id": "_:N80b5daf332c2492da70f2606a3e0aa13",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -117,7 +113,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N4d65ab7e4e6e4b3e8344b62238914bc0",
+      "@id": "_:N1331eed1ee804dc6a5c4bfdae1e90822",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1176"
@@ -133,7 +129,7 @@
       "sc:name": "GO concept ID"
     },
     {
-      "@id": "_:N242777b415b74eaeac9c76ae22bb03ee",
+      "@id": "_:Na9375408dd304ecfb566064e3b1365e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2343"
@@ -149,7 +145,7 @@
       "sc:name": "Pathway ID (KEGG)"
     },
     {
-      "@id": "_:Nd78cd79469a040dcbf54a4cb47ccd214",
+      "@id": "_:N645f6008d19f4e26a73526db145bd587",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1155"
@@ -165,7 +161,7 @@
       "sc:name": "Pathway ID (reactome)"
     },
     {
-      "@id": "_:Nb189a46086564434b2b40ed7c2fb386b",
+      "@id": "_:Nc5286dba849749f285108ec9b9200c3c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -181,7 +177,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nb42a44c6b1784d25b87a71d80abc5a25",
+      "@id": "_:N0bb42e5cd06d4cf4ba2a09a7981e1b84",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -194,6 +190,10 @@
     {
       "@id": "http://orcid.org/0000-0002-1838-8918",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2164-16-s8-s6",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

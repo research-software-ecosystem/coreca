@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1101/741280",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.3390/biom10060938",
       "@type": "sc:CreativeWork"
     },
@@ -79,10 +83,6 @@
       ],
       "sc:name": "CoRNeA",
       "sc:url": "https://github.com/krits04/cornea"
-    },
-    {
-      "@id": "https://doi.org/10.1101/741280",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

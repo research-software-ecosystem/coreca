@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkg126",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gks1082",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/atlasgeneticsoncology",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -43,10 +51,10 @@
         "Jean-Loup Huret"
       ],
       "bsc:input": {
-        "@id": "_:N7ec4852d8c0d4c85967dbdd2b5c90d55"
+        "@id": "_:Nde9119848f7948918619c1f93b17ded8"
       },
       "bsc:output": {
-        "@id": "_:N776ad23a915845a4abc3fa86394a0217"
+        "@id": "_:N21b0f67ec41a410789864fed5420d7ad"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -93,7 +101,7 @@
       "sc:url": "http://atlasgeneticsoncology.org"
     },
     {
-      "@id": "_:N7ec4852d8c0d4c85967dbdd2b5c90d55",
+      "@id": "_:Nde9119848f7948918619c1f93b17ded8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -101,7 +109,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N776ad23a915845a4abc3fa86394a0217",
+      "@id": "_:N21b0f67ec41a410789864fed5420d7ad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0971"
@@ -115,14 +123,6 @@
         }
       ],
       "sc:name": "Article"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkg126",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gks1082",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,32 +36,28 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/ACS.ANALCHEM.9B05765",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/retip",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nf837e2f016834cac8de989856769d930"
+          "@id": "_:Nfe9563bb87d94a2ea946c896546beedd"
         },
         {
-          "@id": "_:N5676d3ebf9714f949a098d455294f689"
+          "@id": "_:N345d82a5f34048bfbf4c1480ef239862"
         },
         {
-          "@id": "_:N6e2e81ce22df48749433b99221f67664"
+          "@id": "_:N028ad31dedd84e15b0a03729057e6264"
         },
         {
-          "@id": "_:N75d8af9bbcfc48be83494744ae49d136"
+          "@id": "_:Nf3d7e43e56b244b398b68cac6cae3e60"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N48e42744fce3404abdc70a97f26105bd"
+          "@id": "_:N2f46510fcece49338268af81ea544d01"
         },
         {
-          "@id": "_:Nd7a7cddc651b4a729009dff011529849"
+          "@id": "_:Nf2558cb1304d4bfcbe183f098b82c027"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -107,7 +103,7 @@
       "sc:url": "https://www.retip.app"
     },
     {
-      "@id": "_:Nf837e2f016834cac8de989856769d930",
+      "@id": "_:Nfe9563bb87d94a2ea946c896546beedd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -118,7 +114,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N5676d3ebf9714f949a098d455294f689",
+      "@id": "_:N345d82a5f34048bfbf4c1480ef239862",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0982"
@@ -129,7 +125,7 @@
       "sc:name": "Molecule identifier"
     },
     {
-      "@id": "_:N6e2e81ce22df48749433b99221f67664",
+      "@id": "_:N028ad31dedd84e15b0a03729057e6264",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -140,7 +136,7 @@
       "sc:name": "Mathematical model"
     },
     {
-      "@id": "_:N75d8af9bbcfc48be83494744ae49d136",
+      "@id": "_:Nf3d7e43e56b244b398b68cac6cae3e60",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0982"
@@ -151,7 +147,7 @@
       "sc:name": "Molecule identifier"
     },
     {
-      "@id": "_:N48e42744fce3404abdc70a97f26105bd",
+      "@id": "_:N2f46510fcece49338268af81ea544d01",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -162,7 +158,7 @@
       "sc:name": "Mathematical model"
     },
     {
-      "@id": "_:Nd7a7cddc651b4a729009dff011529849",
+      "@id": "_:Nf2558cb1304d4bfcbe183f098b82c027",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2087"
@@ -171,6 +167,10 @@
         "@id": "edam:format_3751"
       },
       "sc:name": "Molecular property"
+    },
+    {
+      "@id": "https://doi.org/10.1021/ACS.ANALCHEM.9B05765",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

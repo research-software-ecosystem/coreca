@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/centrifuger",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb8ac26b8c6544b489b85b67058aff693"
+        "@id": "_:N566803239bf8469e95222079bc5eccca"
       },
       "bsc:output": {
-        "@id": "_:N2c28483bf176472c8a29cbf3053f3060"
+        "@id": "_:N1ac920fbcbec43b7b89a00e16da79e4a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -83,7 +83,7 @@
       "sc:url": "https://github.com/mourisl/centrifuger"
     },
     {
-      "@id": "_:Nb8ac26b8c6544b489b85b67058aff693",
+      "@id": "_:N566803239bf8469e95222079bc5eccca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -94,7 +94,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N2c28483bf176472c8a29cbf3053f3060",
+      "@id": "_:N1ac920fbcbec43b7b89a00e16da79e4a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"

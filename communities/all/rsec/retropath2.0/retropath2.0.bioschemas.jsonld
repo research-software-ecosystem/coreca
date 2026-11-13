@@ -40,17 +40,17 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N8ccc7b9d913d4c27ab28483a34030119"
+          "@id": "_:Nca3eaec4657b466699883761626bf022"
         },
         {
-          "@id": "_:Nb5ff75cf726b404b9830e8a6c783a1eb"
+          "@id": "_:Nfc26f76e8c8a4e17a3870da2f89b1776"
         },
         {
-          "@id": "_:N2ec7453273494402ae5e337ac71a4beb"
+          "@id": "_:N1d377182a9884604befa8f407a98e009"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nf6841ac1997f402daa3458596673a561"
+        "@id": "_:Nde859f38ecb24355809861ddc10817b1"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Bioinformatics portal",
@@ -78,7 +78,7 @@
       "sc:url": "https://www.myexperiment.org/workflows/4987.html"
     },
     {
-      "@id": "_:N8ccc7b9d913d4c27ab28483a34030119",
+      "@id": "_:Nca3eaec4657b466699883761626bf022",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0846"
@@ -89,7 +89,7 @@
       "sc:name": "Chemical formula"
     },
     {
-      "@id": "_:Nb5ff75cf726b404b9830e8a6c783a1eb",
+      "@id": "_:Nfc26f76e8c8a4e17a3870da2f89b1776",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0846"
@@ -100,7 +100,7 @@
       "sc:name": "Chemical formula"
     },
     {
-      "@id": "_:N2ec7453273494402ae5e337ac71a4beb",
+      "@id": "_:N1d377182a9884604befa8f407a98e009",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"
@@ -111,7 +111,7 @@
       "sc:name": "SMILES string"
     },
     {
-      "@id": "_:Nf6841ac1997f402daa3458596673a561",
+      "@id": "_:Nde859f38ecb24355809861ddc10817b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0846"

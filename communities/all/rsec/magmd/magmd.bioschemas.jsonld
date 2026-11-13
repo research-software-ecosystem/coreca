@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/magmd",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N47853cfd83cf49c5997ee70e467552c4"
+        "@id": "_:N85dd645859954ee6aa3e14c55f33cb36"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -89,7 +89,7 @@
       "sc:url": "http://www.unimd.org/magmd"
     },
     {
-      "@id": "_:N47853cfd83cf49c5997ee70e467552c4",
+      "@id": "_:N85dd645859954ee6aa3e14c55f33cb36",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2909"

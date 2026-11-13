@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/xtb_molecular_optimization",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nec06c9490f4e4c74814b09f60833b123"
+        "@id": "_:N15289988d82e4acc9c8c79376fc910f4"
       },
       "bsc:output": {
-        "@id": "_:Nf0dd6233f6c74b91ac986afb9144385d"
+        "@id": "_:N0c5f4b4fe8664b7692678f5f1fd1174e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -63,7 +63,7 @@
       "sc:url": "https://github.com/grimme-lab/xtb"
     },
     {
-      "@id": "_:Nec06c9490f4e4c74814b09f60833b123",
+      "@id": "_:N15289988d82e4acc9c8c79376fc910f4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1743"
@@ -74,7 +74,7 @@
       "sc:name": "Atomic coordinate"
     },
     {
-      "@id": "_:Nf0dd6233f6c74b91ac986afb9144385d",
+      "@id": "_:N0c5f4b4fe8664b7692678f5f1fd1174e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1743"

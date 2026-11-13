@@ -36,10 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.3389/FMICB.2023.1117027",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/deeplbcepred",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na61055d994834afcbb538a53bf6c73ed"
+        "@id": "_:N1d7b861f15a045e681eb7a03fb7cd94b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -83,7 +87,7 @@
       "sc:url": "http://www.biolscience.cn/DeepLBCEPred/"
     },
     {
-      "@id": "_:Na61055d994834afcbb538a53bf6c73ed",
+      "@id": "_:N1d7b861f15a045e681eb7a03fb7cd94b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -92,10 +96,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Protein sequence"
-    },
-    {
-      "@id": "https://doi.org/10.3389/FMICB.2023.1117027",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

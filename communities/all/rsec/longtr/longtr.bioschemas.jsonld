@@ -36,22 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s13059-024-03319-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/LongTR",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nc80377ea7e8a4ccdbf36e21b4c45be29"
+          "@id": "_:N47053c088bb64ea68741db08b60c2078"
         },
         {
-          "@id": "_:N62d1f7bfac7a4e3996e6df2f44123123"
+          "@id": "_:N0bf8295fc11a4074ac09b17eb201a3b9"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ne0f8763bfacc45028dcbc3e585880ecc"
+        "@id": "_:Nea84d71c063a4ae3b7b153aac23147c7"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -87,7 +83,7 @@
       "sc:url": "https://github.com/gymrek-lab/LongTR"
     },
     {
-      "@id": "_:Nc80377ea7e8a4ccdbf36e21b4c45be29",
+      "@id": "_:N47053c088bb64ea68741db08b60c2078",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -103,7 +99,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:N62d1f7bfac7a4e3996e6df2f44123123",
+      "@id": "_:N0bf8295fc11a4074ac09b17eb201a3b9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -114,7 +110,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:Ne0f8763bfacc45028dcbc3e585880ecc",
+      "@id": "_:Nea84d71c063a4ae3b7b153aac23147c7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0920"
@@ -123,6 +119,10 @@
         "@id": "edam:format_3016"
       },
       "sc:name": "Genotype/phenotype report"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13059-024-03319-2",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

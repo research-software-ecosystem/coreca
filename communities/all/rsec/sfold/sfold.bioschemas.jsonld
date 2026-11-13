@@ -40,6 +40,14 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/29.5.1034",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkh449",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/sfold",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Contact form",
@@ -91,14 +99,6 @@
         "@id": "http://sfold.wadsworth.org/cgi-bin/index.pl"
       },
       "sc:url": "http://sfold.wadsworth.org"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkh449",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/29.5.1034",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1016/s0097-8485(99)00010-8",

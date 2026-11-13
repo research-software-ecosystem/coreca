@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0001-8231-3323",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/antarna",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -49,10 +45,10 @@
         "Robert Kleinkauf"
       ],
       "bsc:input": {
-        "@id": "_:N9ad32678901744e5948089e1a20dafff"
+        "@id": "_:Ne44d2b21c7f74cb182cd72d9eb2aa77f"
       },
       "bsc:output": {
-        "@id": "_:Nd6ce5208515a450ca05ec7ce9d1ac5e6"
+        "@id": "_:N1c0fa77ca7784eac9f6f3b7427acb7d5"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -94,7 +90,7 @@
       "sc:url": "http://rna.informatik.uni-freiburg.de/AntaRNA/"
     },
     {
-      "@id": "_:N9ad32678901744e5948089e1a20dafff",
+      "@id": "_:Ne44d2b21c7f74cb182cd72d9eb2aa77f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0880"
@@ -105,7 +101,7 @@
       "sc:name": "RNA secondary structure"
     },
     {
-      "@id": "_:Nd6ce5208515a450ca05ec7ce9d1ac5e6",
+      "@id": "_:N1c0fa77ca7784eac9f6f3b7427acb7d5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -118,6 +114,10 @@
     {
       "@id": "https://doi.org/10.1093/bioinformatics/btv319",
       "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-8231-3323",
+      "@type": "sc:Person"
     }
   ]
 }

@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/065565",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/matrix-clustering",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -48,17 +44,17 @@
         "Morgane Thomas-Chollier"
       ],
       "bsc:input": {
-        "@id": "_:N727b1c49d88c4a02b086a2c8adc239cc"
+        "@id": "_:N66d4e09fbe884e94b03f3099f0e2cbbd"
       },
       "bsc:output": [
         {
-          "@id": "_:N2a202e98cc5648cfa54fa92a2725503d"
+          "@id": "_:N778f09ed39664fa39b95a3f2400ad34d"
         },
         {
-          "@id": "_:N25741fb2f26e47668457dc3a87338e17"
+          "@id": "_:N1162ca6823ce4f90b95c1c7f67899a3c"
         },
         {
-          "@id": "_:Nddb02ee54e514e39b1ba448ecf3093a2"
+          "@id": "_:N99632940156f4663887fb285717fb198"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -105,7 +101,7 @@
       "sc:url": "http://rsat.eu/"
     },
     {
-      "@id": "_:N727b1c49d88c4a02b086a2c8adc239cc",
+      "@id": "_:N66d4e09fbe884e94b03f3099f0e2cbbd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1361"
@@ -121,7 +117,7 @@
       "sc:name": "Position frequency matrix"
     },
     {
-      "@id": "_:N2a202e98cc5648cfa54fa92a2725503d",
+      "@id": "_:N778f09ed39664fa39b95a3f2400ad34d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -129,7 +125,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N25741fb2f26e47668457dc3a87338e17",
+      "@id": "_:N1162ca6823ce4f90b95c1c7f67899a3c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1246"
@@ -137,7 +133,7 @@
       "sc:name": "Sequence cluster (nucleic acid)"
     },
     {
-      "@id": "_:Nddb02ee54e514e39b1ba448ecf3093a2",
+      "@id": "_:N99632940156f4663887fb285717fb198",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1361"
@@ -146,6 +142,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Position frequency matrix"
+    },
+    {
+      "@id": "https://doi.org/10.1101/065565",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1371/journal.pone.0043117",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/phymyco-db",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "GenOuest",
       "bsc:input": {
-        "@id": "_:Ne20fe5cbc338412ba670f18c4eb10f75"
+        "@id": "_:N9c3f374dafb0484fb3579fd5a0902f17"
       },
       "bsc:output": {
-        "@id": "_:N6e440bd9468e4733940f81b5382a8b75"
+        "@id": "_:N20c9a446393c4c54a2a82850727775fc"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -79,7 +75,7 @@
       "sc:url": "http://phymycodb.genouest.org/"
     },
     {
-      "@id": "_:Ne20fe5cbc338412ba670f18c4eb10f75",
+      "@id": "_:N9c3f374dafb0484fb3579fd5a0902f17",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -90,7 +86,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N6e440bd9468e4733940f81b5382a8b75",
+      "@id": "_:N20c9a446393c4c54a2a82850727775fc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -99,6 +95,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0043117",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

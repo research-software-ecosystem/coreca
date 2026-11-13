@@ -36,28 +36,8 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-1262-2611",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-8639-7592",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1002/cpz1.46",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkw398",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://orcid.org/0000-0002-5918-6327",
       "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkz365",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/chopchop",
@@ -72,29 +52,29 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Nc439085f86bc4e7190df26dce63d4698"
+          "@id": "_:N3d571746fa9149b68ffa2db32554993f"
         },
         {
-          "@id": "_:N52bbcb583b41405e95fb58bf9f2b9eb0"
+          "@id": "_:N1898758fea514255b33ec574e7a33ce0"
         },
         {
-          "@id": "_:Ndb643a76c81c4273bfc598c8b1af300e"
+          "@id": "_:Na452876b1faf4d0e92c0b08e1580c44d"
         },
         {
-          "@id": "_:N9ebd6edc6b474e53817e0b9b409db2ff"
+          "@id": "_:N1494accb175742f689bb913ce6454e46"
         },
         {
-          "@id": "_:Neab1f4395ede449ca7d77fb9abcdd062"
+          "@id": "_:Na4f8599dec5d4bba9bd8cc717bcbf5e0"
         },
         {
-          "@id": "_:Nf3c0e178b591475bb6ebe74a25b61c48"
+          "@id": "_:Na31bfcf5937041a5b5b72340f78331bc"
         },
         {
-          "@id": "_:N2fd5433c03a94d3381edc1d2d22453af"
+          "@id": "_:Na28e111e22964c0a83fde2a40fae54f4"
         }
       ],
       "bsc:output": {
-        "@id": "_:N8a296b5dd49c478d8fa8b312b2bec2f5"
+        "@id": "_:N85ee674ced7e4a25a2a5fa246888926f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -201,7 +181,7 @@
       "sc:url": "http://chopchop.cbu.uib.no/"
     },
     {
-      "@id": "_:Nc439085f86bc4e7190df26dce63d4698",
+      "@id": "_:N3d571746fa9149b68ffa2db32554993f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -209,7 +189,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:N52bbcb583b41405e95fb58bf9f2b9eb0",
+      "@id": "_:N1898758fea514255b33ec574e7a33ce0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -217,7 +197,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:Ndb643a76c81c4273bfc598c8b1af300e",
+      "@id": "_:Na452876b1faf4d0e92c0b08e1580c44d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
@@ -228,7 +208,7 @@
       "sc:name": "Feature table"
     },
     {
-      "@id": "_:N9ebd6edc6b474e53817e0b9b409db2ff",
+      "@id": "_:N1494accb175742f689bb913ce6454e46",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -239,7 +219,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:Neab1f4395ede449ca7d77fb9abcdd062",
+      "@id": "_:Na4f8599dec5d4bba9bd8cc717bcbf5e0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -247,7 +227,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:Nf3c0e178b591475bb6ebe74a25b61c48",
+      "@id": "_:Na31bfcf5937041a5b5b72340f78331bc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1190"
@@ -255,7 +235,7 @@
       "sc:name": "Tool name"
     },
     {
-      "@id": "_:N2fd5433c03a94d3381edc1d2d22453af",
+      "@id": "_:Na28e111e22964c0a83fde2a40fae54f4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3497"
@@ -274,7 +254,7 @@
       "sc:name": "DNA sequence (raw)"
     },
     {
-      "@id": "_:N8a296b5dd49c478d8fa8b312b2bec2f5",
+      "@id": "_:N85ee674ced7e4a25a2a5fa246888926f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -282,7 +262,27 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkz365",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1262-2611",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw398",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1093/nar/gku410",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8639-7592",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1002/cpz1.46",
       "@type": "sc:CreativeWork"
     }
   ]

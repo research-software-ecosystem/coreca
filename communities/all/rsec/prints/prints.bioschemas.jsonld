@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Professor T.K.Attwood",
       "bsc:input": {
-        "@id": "_:Na8d675e8838a4eb69c0ecc5d118279a0"
+        "@id": "_:Na34ed1d09c404a4d972dcaa0897a4cb9"
       },
       "bsc:output": {
-        "@id": "_:N8a61d929f6a348a99699be6b8d338be1"
+        "@id": "_:N752273f7795b4fcba57f853b1c1f262a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -80,7 +80,7 @@
       "sc:url": "http://umber.sbs.man.ac.uk/dbbrowser/PRINTS/"
     },
     {
-      "@id": "_:Na8d675e8838a4eb69c0ecc5d118279a0",
+      "@id": "_:Na34ed1d09c404a4d972dcaa0897a4cb9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1137"
@@ -88,7 +88,7 @@
       "sc:name": "PRINTS code"
     },
     {
-      "@id": "_:N8a61d929f6a348a99699be6b8d338be1",
+      "@id": "_:N752273f7795b4fcba57f853b1c1f262a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1355"

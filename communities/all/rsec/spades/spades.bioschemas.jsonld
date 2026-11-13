@@ -40,32 +40,28 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/spades",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ndb7fb6cdf34a4de98510a9f685d0db1b"
+          "@id": "_:N4eadf613c47a4723af93b07a03b23dd5"
         },
         {
-          "@id": "_:N8a090ac74b29408db94b26a73c812d02"
+          "@id": "_:N68d42b1f4d674c399cff432ee3d449ee"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N232d505798614a80939710a1accd1090"
+          "@id": "_:N72cab2bd72c94a54b9c528a71f0aac14"
         },
         {
-          "@id": "_:N730e0619167e41b7931864da32fe4882"
+          "@id": "_:N6e55fa858d744c9cbe5bc3c4340b405c"
         },
         {
-          "@id": "_:Nf3c0d159354048ff9fa8cee0a6f8a5f3"
+          "@id": "_:N5cff3a823ff64953ba7698750c243820"
         },
         {
-          "@id": "_:Nf9e2e85d0e734c10bb7c8e8f5bf0df46"
+          "@id": "_:N7e72a64a26944d67ab9921393861d12f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -99,7 +95,7 @@
       "sc:url": "http://cab.spbu.ru/software/spades/"
     },
     {
-      "@id": "_:Ndb7fb6cdf34a4de98510a9f685d0db1b",
+      "@id": "_:N4eadf613c47a4723af93b07a03b23dd5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -110,7 +106,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N8a090ac74b29408db94b26a73c812d02",
+      "@id": "_:N68d42b1f4d674c399cff432ee3d449ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -121,7 +117,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N232d505798614a80939710a1accd1090",
+      "@id": "_:N72cab2bd72c94a54b9c528a71f0aac14",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -132,7 +128,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N730e0619167e41b7931864da32fe4882",
+      "@id": "_:N6e55fa858d744c9cbe5bc3c4340b405c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -143,7 +139,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf3c0d159354048ff9fa8cee0a6f8a5f3",
+      "@id": "_:N5cff3a823ff64953ba7698750c243820",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -154,7 +150,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf9e2e85d0e734c10bb7c8e8f5bf0df46",
+      "@id": "_:N7e72a64a26944d67ab9921393861d12f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -163,6 +159,10 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence alignment"
+    },
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

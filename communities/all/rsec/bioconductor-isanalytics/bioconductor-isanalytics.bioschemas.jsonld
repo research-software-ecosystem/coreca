@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bib/bbac551",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.18129/B9.bioc.ISAnalytics",
       "@type": "sc:CreativeWork"
     },
@@ -73,10 +77,6 @@
       },
       "sc:softwareVersion": "1.22.0",
       "sc:url": "https://bioconductor.org/packages/ISAnalytics"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bib/bbac551",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

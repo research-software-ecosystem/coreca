@@ -30,7 +30,7 @@ tags:
 - tag: role::program
 - tag: use::analysing
 popcon:
-- insts: 217
-  olde: 188
-  recent: 23
-  vote: 6
+- insts: 228
+  olde: 194
+  recent: 27
+  vote: 7

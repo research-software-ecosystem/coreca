@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne5b8081c055647e0ac8427840dccf938"
+          "@id": "_:N76a5af31f4134ceea3a2bf7975a67ee5"
         },
         {
-          "@id": "_:N92db31f3697145ada36418a7e38c5d13"
+          "@id": "_:N4756a2f306774fb193fda2a92292ff0e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ndee77584415b4fd8bd9d7771270de016"
+          "@id": "_:N16d3d2078f4b43e481ec97a4cfc821a5"
         },
         {
-          "@id": "_:Ne36bde60f8dd438e9ae38666a8130792"
+          "@id": "_:Nf22ca5feab7d40a7b63b1bd8c6c0f618"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -74,7 +74,7 @@
       "sc:url": "https://metlin.scripps.edu/"
     },
     {
-      "@id": "_:Ne5b8081c055647e0ac8427840dccf938",
+      "@id": "_:N76a5af31f4134ceea3a2bf7975a67ee5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2605"
@@ -85,7 +85,7 @@
       "sc:name": "Compound ID (KEGG)"
     },
     {
-      "@id": "_:N92db31f3697145ada36418a7e38c5d13",
+      "@id": "_:N4756a2f306774fb193fda2a92292ff0e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0844"
@@ -96,7 +96,7 @@
       "sc:name": "Molecular mass"
     },
     {
-      "@id": "_:Ndee77584415b4fd8bd9d7771270de016",
+      "@id": "_:N16d3d2078f4b43e481ec97a4cfc821a5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0982"
@@ -107,7 +107,7 @@
       "sc:name": "Molecule identifier"
     },
     {
-      "@id": "_:Ne36bde60f8dd438e9ae38666a8130792",
+      "@id": "_:Nf22ca5feab7d40a7b63b1bd8c6c0f618",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"

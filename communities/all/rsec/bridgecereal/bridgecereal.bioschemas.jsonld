@@ -39,17 +39,17 @@
       "@id": "https://bio.tools/bridgecereal",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3bc47c67cc5c4b4c9d6185d41f20b537"
+        "@id": "_:N25b3a4aecfe74afd86033b761eb66234"
       },
       "bsc:output": [
         {
-          "@id": "_:N455150b6feb144afa639f79f86dd7e78"
+          "@id": "_:N9a2ce8b794b7469dba7a6a288ed70f9e"
         },
         {
-          "@id": "_:N700df3c0264c43d8a16c35fbaf97ba73"
+          "@id": "_:N0e8f482f95ee4c82be6ad5a448359e90"
         },
         {
-          "@id": "_:N65c18e04836544eab2f8e3395ab147a0"
+          "@id": "_:N26f92ba9d262408080f84e5e5302b29c"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -109,7 +109,7 @@
       "sc:url": "https://bridgecereal.scinet.usda.gov"
     },
     {
-      "@id": "_:N3bc47c67cc5c4b4c9d6185d41f20b537",
+      "@id": "_:N25b3a4aecfe74afd86033b761eb66234",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -117,7 +117,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:N455150b6feb144afa639f79f86dd7e78",
+      "@id": "_:N9a2ce8b794b7469dba7a6a288ed70f9e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -125,7 +125,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N700df3c0264c43d8a16c35fbaf97ba73",
+      "@id": "_:N0e8f482f95ee4c82be6ad5a448359e90",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -133,7 +133,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N65c18e04836544eab2f8e3395ab147a0",
+      "@id": "_:N26f92ba9d262408080f84e5e5302b29c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0865"

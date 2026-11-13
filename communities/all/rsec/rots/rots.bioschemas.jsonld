@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1371/journal.pcbi.1005562",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/rots",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nee977bc533a74040b9266abda1bc6c4c"
+        "@id": "_:Nd613500c49d34de8a6ce4c5a5339eb10"
       },
       "bsc:output": {
-        "@id": "_:Nc60f9a2b3a7f4442b6d7392a2602f3a4"
+        "@id": "_:N8eb4579624064a2e914b089e50bffad5"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -91,7 +87,7 @@
       "sc:url": "https://bioconductor.org/packages/ROTS"
     },
     {
-      "@id": "_:Nee977bc533a74040b9266abda1bc6c4c",
+      "@id": "_:Nd613500c49d34de8a6ce4c5a5339eb10",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -107,7 +103,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Nc60f9a2b3a7f4442b6d7392a2602f3a4",
+      "@id": "_:N8eb4579624064a2e914b089e50bffad5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -116,6 +112,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Mathematical model"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1005562",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

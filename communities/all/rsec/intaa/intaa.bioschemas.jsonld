@@ -36,11 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkab377",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-7038-544X",
+      "@id": "https://orcid.org/0000-0002-6066-973X",
       "@type": "sc:Person"
     },
     {
@@ -48,16 +44,16 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkx352",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://orcid.org/0000-0003-4288-0344",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0002-6066-973X",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1093/nar/gkab377",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkx352",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/intaa",
@@ -66,10 +62,10 @@
         "@id": "https://orcid.org/0000-0002-7038-544X"
       },
       "bsc:input": {
-        "@id": "_:N936b817ecb29401a9b8ae336b7774f7a"
+        "@id": "_:Nb949c65ae3a841e38ac8f96c757fc4e3"
       },
       "bsc:output": {
-        "@id": "_:N1720e0a217844e71b6d454b24ee7a2ba"
+        "@id": "_:Nc7b9a3563a26435ab3ef58441de5ee72"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -125,7 +121,7 @@
       "sc:url": "http://bioinfo.uochb.cas.cz/INTAA/"
     },
     {
-      "@id": "_:N936b817ecb29401a9b8ae336b7774f7a",
+      "@id": "_:Nb949c65ae3a841e38ac8f96c757fc4e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -136,7 +132,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N1720e0a217844e71b6d454b24ee7a2ba",
+      "@id": "_:Nc7b9a3563a26435ab3ef58441de5ee72",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -150,6 +146,10 @@
         }
       ],
       "sc:name": "Protein features"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7038-544X",
+      "@type": "sc:Person"
     }
   ]
 }

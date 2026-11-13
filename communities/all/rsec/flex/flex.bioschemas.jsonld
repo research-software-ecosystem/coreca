@@ -40,10 +40,6 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0000-0002-1026-5972",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/flex",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -95,6 +91,10 @@
       "sc:license": "GPL-3.0",
       "sc:name": "FLEX",
       "sc:url": "https://github.com/csbio/FLEX_R"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1026-5972",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://orcid.org/0000-0002-6556-9594",

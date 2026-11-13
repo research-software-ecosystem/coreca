@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/s41467-021-24515-9",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/strainberry",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne15a8ab6d6d342848057c1b401726d04"
+        "@id": "_:N52ea0b19f53d4dd3a95c03c74f5176b0"
       },
       "bsc:output": {
-        "@id": "_:N0d0261c19c9e4936baec638c9bd9c5cd"
+        "@id": "_:N3c86e362a9e1434eb423959297a89774"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -78,7 +82,7 @@
       "sc:url": "https://github.com/rvicedomini/strainberry"
     },
     {
-      "@id": "_:Ne15a8ab6d6d342848057c1b401726d04",
+      "@id": "_:N52ea0b19f53d4dd3a95c03c74f5176b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -94,7 +98,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:N0d0261c19c9e4936baec638c9bd9c5cd",
+      "@id": "_:N3c86e362a9e1434eb423959297a89774",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -108,10 +112,6 @@
         }
       ],
       "sc:name": "Sequence assembly"
-    },
-    {
-      "@id": "https://doi.org/10.1038/s41467-021-24515-9",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

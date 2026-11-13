@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/acsbiomedchemau.1c00048",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/radicalsam.org",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N7114b84a1acd44e89db4f417415a1bb3"
+          "@id": "_:N282e5f41d5584e0c9c6971a1d6f5dbc9"
         },
         {
-          "@id": "_:N21168751be874adc8df3190c7142abc1"
+          "@id": "_:N32b013be2df045a6945add392cc13494"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -87,7 +83,7 @@
       "sc:url": "http://RadicalSAM.org"
     },
     {
-      "@id": "_:N7114b84a1acd44e89db4f417415a1bb3",
+      "@id": "_:N282e5f41d5584e0c9c6971a1d6f5dbc9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -95,12 +91,16 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N21168751be874adc8df3190c7142abc1",
+      "@id": "_:N32b013be2df045a6945add392cc13494",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
       },
       "sc:name": "UniProt ID"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acsbiomedchemau.1c00048",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

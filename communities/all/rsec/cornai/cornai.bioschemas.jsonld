@@ -40,20 +40,20 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Elin Axelsson",
       "bsc:input": {
-        "@id": "_:N0024952a0b264647b163f4b23166013c"
+        "@id": "_:N52de13f5a28b460f84a883d473776b39"
       },
       "bsc:output": [
         {
-          "@id": "_:Nc7c286165b9a40558bc96c2dad907ab9"
+          "@id": "_:N447ef87d2cd2431c919d11f102c9ee0f"
         },
         {
-          "@id": "_:N7efc4404dd36492388348ac03ee1f553"
+          "@id": "_:N071795e6803c407e92a2cf9f9638f6cb"
         },
         {
-          "@id": "_:N6e981a8b485a42d4b562e20b6431fafc"
+          "@id": "_:N1b3e2ff7ca114eb6815b82554da72197"
         },
         {
-          "@id": "_:Nec32a4d753904a36a6e94ad25c339842"
+          "@id": "_:Nd8cf9cadf14a4bbcb09cfc956d0c9fb8"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -111,7 +111,7 @@
       "sc:url": "https://bioconductor.org/packages/3.4/bioc/html/coRNAi.html"
     },
     {
-      "@id": "_:N0024952a0b264647b163f4b23166013c",
+      "@id": "_:N52de13f5a28b460f84a883d473776b39",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -122,7 +122,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:Nc7c286165b9a40558bc96c2dad907ab9",
+      "@id": "_:N447ef87d2cd2431c919d11f102c9ee0f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -138,7 +138,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N7efc4404dd36492388348ac03ee1f553",
+      "@id": "_:N071795e6803c407e92a2cf9f9638f6cb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
@@ -154,7 +154,7 @@
       "sc:name": "P-value"
     },
     {
-      "@id": "_:N6e981a8b485a42d4b562e20b6431fafc",
+      "@id": "_:N1b3e2ff7ca114eb6815b82554da72197",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -170,7 +170,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nec32a4d753904a36a6e94ad25c339842",
+      "@id": "_:Nd8cf9cadf14a4bbcb09cfc956d0c9fb8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

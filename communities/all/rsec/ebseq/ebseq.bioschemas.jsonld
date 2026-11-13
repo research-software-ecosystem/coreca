@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/ebseq",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N2f7d876ec0cf44a9a5f6320fd3bd8afd"
+        "@id": "_:Neff00324b083456590b5e36cae981581"
       },
       "bsc:output": [
         {
-          "@id": "_:Nab5bb7a377ab48e696444477d60c6b84"
+          "@id": "_:N118ebfc781574aa09df049c9ecf79676"
         },
         {
-          "@id": "_:Nd55b9b98ede545b5bd3ea6a9445de1f8"
+          "@id": "_:N7db4b1cd60af441ab96b1fd0bc60252f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -109,7 +109,7 @@
       "sc:url": "https://bioconductor.org/packages/EBSeq"
     },
     {
-      "@id": "_:N2f7d876ec0cf44a9a5f6320fd3bd8afd",
+      "@id": "_:Neff00324b083456590b5e36cae981581",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -125,7 +125,7 @@
       "sc:name": "Gene expression profile"
     },
     {
-      "@id": "_:Nab5bb7a377ab48e696444477d60c6b84",
+      "@id": "_:N118ebfc781574aa09df049c9ecf79676",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -141,7 +141,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nd55b9b98ede545b5bd3ea6a9445de1f8",
+      "@id": "_:N7db4b1cd60af441ab96b1fd0bc60252f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

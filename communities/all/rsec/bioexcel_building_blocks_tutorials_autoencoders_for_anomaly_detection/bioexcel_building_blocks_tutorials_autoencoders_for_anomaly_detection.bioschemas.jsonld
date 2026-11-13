@@ -40,7 +40,7 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0009-0000-3463-6806",
+      "@id": "https://orcid.org/0000-0002-8291-8071",
       "@type": "sc:Person"
     },
     {
@@ -51,18 +51,18 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N7ea254237b03400593f004d168d2c988"
+          "@id": "_:Na65e2e40ed7e4b76b9f8b5957a4d2b28"
         },
         {
-          "@id": "_:N4b89404f29d04596b14ca4f3fc46de2c"
+          "@id": "_:Nf4f629079f82450c8b2129ae786b868c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N7679ef0886334ced98865d2aad9c83b6"
+          "@id": "_:Ncc969d6e2ba64342ae0f2652d4ac8a92"
         },
         {
-          "@id": "_:Nc3cdb72555e74e898f3e82f19eeaf362"
+          "@id": "_:N56327cfbfe3b4b50a45fe79e8680b98a"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -128,7 +128,7 @@
       "sc:url": "https://mmb.irbbarcelona.org/biobb/workflows/#autoencoders-for-anomaly-detection"
     },
     {
-      "@id": "_:N7ea254237b03400593f004d168d2c988",
+      "@id": "_:Na65e2e40ed7e4b76b9f8b5957a4d2b28",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3872"
@@ -136,7 +136,7 @@
       "sc:name": "Topology data"
     },
     {
-      "@id": "_:N4b89404f29d04596b14ca4f3fc46de2c",
+      "@id": "_:Nf4f629079f82450c8b2129ae786b868c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3870"
@@ -144,7 +144,7 @@
       "sc:name": "Trajectory data"
     },
     {
-      "@id": "_:N7679ef0886334ced98865d2aad9c83b6",
+      "@id": "_:Ncc969d6e2ba64342ae0f2652d4ac8a92",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3842"
@@ -160,7 +160,7 @@
       "sc:name": "Molecular simulation data"
     },
     {
-      "@id": "_:Nc3cdb72555e74e898f3e82f19eeaf362",
+      "@id": "_:N56327cfbfe3b4b50a45fe79e8680b98a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -175,11 +175,11 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0000-0002-8291-8071",
+      "@id": "https://orcid.org/0000-0003-0513-0288",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0003-0513-0288",
+      "@id": "https://orcid.org/0009-0000-3463-6806",
       "@type": "sc:Person"
     }
   ]

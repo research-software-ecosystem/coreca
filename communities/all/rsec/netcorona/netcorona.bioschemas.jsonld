@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1471-2105-5-72",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/netcorona",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ole Lund",
       "bsc:input": {
-        "@id": "_:N363b10d5d0a6435b98cbb4b8317336fe"
+        "@id": "_:Nadd6d7abd96e45edb4da2dd0614c749c"
       },
       "bsc:output": [
         {
-          "@id": "_:N6690d70778c74e43ac259fa6ebb783e0"
+          "@id": "_:N30867a6cdfd2459d87c0fce710fff428"
         },
         {
-          "@id": "_:N8d1cd290b72346749dc6e125abca6012"
+          "@id": "_:N3afa1162e9314b848f76910518e6fc79"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -81,7 +85,7 @@
       "sc:url": "http://cbs.dtu.dk/services/NetCorona/"
     },
     {
-      "@id": "_:N363b10d5d0a6435b98cbb4b8317336fe",
+      "@id": "_:Nadd6d7abd96e45edb4da2dd0614c749c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -92,7 +96,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N6690d70778c74e43ac259fa6ebb783e0",
+      "@id": "_:N30867a6cdfd2459d87c0fce710fff428",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -103,7 +107,7 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:N8d1cd290b72346749dc6e125abca6012",
+      "@id": "_:N3afa1162e9314b848f76910518e6fc79",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -112,10 +116,6 @@
         "@id": "edam:format_2333"
       },
       "sc:name": "Sequence report"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1471-2105-5-72",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

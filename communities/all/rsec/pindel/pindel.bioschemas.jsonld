@@ -48,14 +48,14 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Nb4ccbc40f2574f6f9bc54b59415b68fd"
+          "@id": "_:N9b498072b1464eea8705da4f47d67a0b"
         },
         {
-          "@id": "_:N2e092825ac334c398a37e0f51b9d48f5"
+          "@id": "_:N4bcd9e2f95504c869b28ad4111fec133"
         }
       ],
       "bsc:output": {
-        "@id": "_:N795b06858afc48c1ad125008a913ad5f"
+        "@id": "_:Nb29c6562e62644bb87e4136f9fd455bc"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -98,7 +98,7 @@
       "sc:url": "http://gmt.genome.wustl.edu/packages/pindel/"
     },
     {
-      "@id": "_:Nb4ccbc40f2574f6f9bc54b59415b68fd",
+      "@id": "_:N9b498072b1464eea8705da4f47d67a0b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -109,7 +109,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N2e092825ac334c398a37e0f51b9d48f5",
+      "@id": "_:N4bcd9e2f95504c869b28ad4111fec133",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -120,7 +120,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N795b06858afc48c1ad125008a913ad5f",
+      "@id": "_:Nb29c6562e62644bb87e4136f9fd455bc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

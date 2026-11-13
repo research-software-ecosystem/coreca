@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/reder",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N246710b592ba4c318b8722eda00ebab9"
+        "@id": "_:N425219c4272645eb9c38d98d56c0eb06"
       },
       "bsc:output": {
-        "@id": "_:Nfcbee9cb4a8d4532830247f9d747973e"
+        "@id": "_:N4817a4e15b7b42938ec6ccadc3fc9ec1"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -73,7 +73,7 @@
           "@id": "edam:operation_3083"
         }
       ],
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "RedeR",
       "sc:operatingSystem": [
         "Linux",
@@ -87,7 +87,7 @@
       "sc:url": "https://bioconductor.org/packages/RedeR"
     },
     {
-      "@id": "_:N246710b592ba4c318b8722eda00ebab9",
+      "@id": "_:N425219c4272645eb9c38d98d56c0eb06",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -103,7 +103,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nfcbee9cb4a8d4532830247f9d747973e",
+      "@id": "_:N4817a4e15b7b42938ec6ccadc3fc9ec1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

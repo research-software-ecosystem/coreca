@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-3746-9676",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/runbiosimulations",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc0263303da324d978e54f97444b800b6"
+        "@id": "_:Ned498cdc03db4abea941888e476182a8"
       },
       "bsc:output": {
-        "@id": "_:Nb37224ea38454dd6a81a3e60c0c81f15"
+        "@id": "_:N6971a46879274ff29d474a790385869b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": [
@@ -97,7 +101,7 @@
       "sc:url": "https://run.biosimulations.org"
     },
     {
-      "@id": "_:Nc0263303da324d978e54f97444b800b6",
+      "@id": "_:Ned498cdc03db4abea941888e476182a8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3869"
@@ -108,7 +112,7 @@
       "sc:name": "Simulation"
     },
     {
-      "@id": "_:Nb37224ea38454dd6a81a3e60c0c81f15",
+      "@id": "_:N6971a46879274ff29d474a790385869b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3869"
@@ -125,10 +129,6 @@
     },
     {
       "@id": "https://orcid.org/0000-0001-5801-5510",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-3746-9676",
       "@type": "sc:Person"
     },
     {

@@ -45,36 +45,36 @@
       "biotools:primaryContact": "ENA Contact details",
       "bsc:input": [
         {
-          "@id": "_:Ncfa7b6f6f89e43cca3fb67501558baa5"
+          "@id": "_:N078592837bc64c1787523cc275fc244c"
         },
         {
-          "@id": "_:N44cede4004474f2993992ab0132311d0"
+          "@id": "_:N452e938b45864b788a0904f66294fd77"
         },
         {
-          "@id": "_:Nde73e04e86c144aebfdae95a31de4d50"
+          "@id": "_:N2ac787135b8d46d2823256ac7358764b"
         },
         {
-          "@id": "_:Na8d956b779ba41029722f19d74131fad"
+          "@id": "_:N8dc5c8f225564b0b9f94cf1b7ca63e2f"
         },
         {
-          "@id": "_:Nd884160056e2431b8393b8b66e2eb4c1"
+          "@id": "_:Nf3a4d5857abb47d48e36c682c74ba10c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N965011ddce7a4a5b8e53198c43d6aac6"
+          "@id": "_:N7bc7f401d71c4924933c2818dd124b12"
         },
         {
-          "@id": "_:Nd8449bf1f26a4da3865806130b20e20f"
+          "@id": "_:N2383506411194b94a8edef9be56ce249"
         },
         {
-          "@id": "_:Ne928aed8aeca4a03b11bce167a3c52b0"
+          "@id": "_:Nf822cca1e6264809bffd7ba440114e09"
         },
         {
-          "@id": "_:N7c251a74b1b7433db87a66805b19fb49"
+          "@id": "_:N6fa9ea98a8464ad58b99392bbd625d17"
         },
         {
-          "@id": "_:N76120b0a2c8a49c1a1e4ffab5a44532b"
+          "@id": "_:Ncc6783d49e12425a9f1335e103412049"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -110,7 +110,7 @@
       "sc:url": "http://identifiers.org/insdc/"
     },
     {
-      "@id": "_:Ncfa7b6f6f89e43cca3fb67501558baa5",
+      "@id": "_:N078592837bc64c1787523cc275fc244c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1103"
@@ -118,7 +118,7 @@
       "sc:name": "EMBL/GenBank/DDBJ ID"
     },
     {
-      "@id": "_:N44cede4004474f2993992ab0132311d0",
+      "@id": "_:N452e938b45864b788a0904f66294fd77",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1103"
@@ -126,7 +126,7 @@
       "sc:name": "EMBL/GenBank/DDBJ ID"
     },
     {
-      "@id": "_:Nde73e04e86c144aebfdae95a31de4d50",
+      "@id": "_:N2ac787135b8d46d2823256ac7358764b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1103"
@@ -134,7 +134,7 @@
       "sc:name": "EMBL/GenBank/DDBJ ID"
     },
     {
-      "@id": "_:Na8d956b779ba41029722f19d74131fad",
+      "@id": "_:N8dc5c8f225564b0b9f94cf1b7ca63e2f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1103"
@@ -142,7 +142,7 @@
       "sc:name": "EMBL/GenBank/DDBJ ID"
     },
     {
-      "@id": "_:Nd884160056e2431b8393b8b66e2eb4c1",
+      "@id": "_:Nf3a4d5857abb47d48e36c682c74ba10c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1103"
@@ -150,7 +150,7 @@
       "sc:name": "EMBL/GenBank/DDBJ ID"
     },
     {
-      "@id": "_:N965011ddce7a4a5b8e53198c43d6aac6",
+      "@id": "_:N7bc7f401d71c4924933c2818dd124b12",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -161,7 +161,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nd8449bf1f26a4da3865806130b20e20f",
+      "@id": "_:N2383506411194b94a8edef9be56ce249",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -172,7 +172,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Ne928aed8aeca4a03b11bce167a3c52b0",
+      "@id": "_:Nf822cca1e6264809bffd7ba440114e09",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -183,7 +183,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N7c251a74b1b7433db87a66805b19fb49",
+      "@id": "_:N6fa9ea98a8464ad58b99392bbd625d17",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -194,7 +194,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N76120b0a2c8a49c1a1e4ffab5a44532b",
+      "@id": "_:Ncc6783d49e12425a9f1335e103412049",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"

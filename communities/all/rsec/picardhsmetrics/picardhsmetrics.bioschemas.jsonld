@@ -36,22 +36,26 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/picardhsmetrics",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N143908550fda4515b81bd1a0036b7d64"
+          "@id": "_:N3523b0197d2e45e8a5710b57d59f2320"
         },
         {
-          "@id": "_:N5297faa498364b828518083ad11200e2"
+          "@id": "_:Ne1745dc97b604a58a78af75da03c2295"
         },
         {
-          "@id": "_:Nd960f72ea246494f99f085785a6334f8"
+          "@id": "_:N004f79b8ee10413194dfe1c3a6b85129"
         }
       ],
       "bsc:output": {
-        "@id": "_:N22a10bb0d70c49f19b868274905a1ae7"
+        "@id": "_:Ne2a8567517c641d08e7642cac00351db"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -85,7 +89,7 @@
       "sc:url": "https://broadinstitute.github.io/picard/"
     },
     {
-      "@id": "_:N143908550fda4515b81bd1a0036b7d64",
+      "@id": "_:N3523b0197d2e45e8a5710b57d59f2320",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -101,7 +105,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N5297faa498364b828518083ad11200e2",
+      "@id": "_:Ne1745dc97b604a58a78af75da03c2295",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -117,7 +121,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nd960f72ea246494f99f085785a6334f8",
+      "@id": "_:N004f79b8ee10413194dfe1c3a6b85129",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -133,7 +137,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N22a10bb0d70c49f19b868274905a1ae7",
+      "@id": "_:Ne2a8567517c641d08e7642cac00351db",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -145,10 +149,6 @@
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     }
   ]

@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv386",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/damidseq_pipeline",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Owen Marshall",
       "bsc:input": {
-        "@id": "_:Nf71d30d5818743be9eec9c61aeccea0b"
+        "@id": "_:N494ced2966e64825836497208aab0297"
       },
       "bsc:output": {
-        "@id": "_:Ne25e87ed3d03415bb503ade4e707e625"
+        "@id": "_:Nc31b6cbde8a9451a843be70fe72ac9ed"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -92,7 +96,7 @@
       "sc:url": "http://owenjm.github.io/damidseq_pipeline/"
     },
     {
-      "@id": "_:Nf71d30d5818743be9eec9c61aeccea0b",
+      "@id": "_:N494ced2966e64825836497208aab0297",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -108,7 +112,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Ne25e87ed3d03415bb503ade4e707e625",
+      "@id": "_:Nc31b6cbde8a9451a843be70fe72ac9ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -122,10 +126,6 @@
         }
       ],
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btv386",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

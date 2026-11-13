@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nb522a7b439f04dcfb1bfbbea6c617833"
+          "@id": "_:N5fbf82da79ed4f3fb84c371bded47fc8"
         },
         {
-          "@id": "_:Nbb1f1d37058047dbb4bd6aa780216e27"
+          "@id": "_:N498a5ddd3d9e455b8341f42279c8d4aa"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -98,7 +98,7 @@
       "sc:url": "http://funagepro.molgenrug.nl"
     },
     {
-      "@id": "_:Nb522a7b439f04dcfb1bfbbea6c617833",
+      "@id": "_:N5fbf82da79ed4f3fb84c371bded47fc8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1893"
@@ -106,7 +106,7 @@
       "sc:name": "Locus ID"
     },
     {
-      "@id": "_:Nbb1f1d37058047dbb4bd6aa780216e27",
+      "@id": "_:N498a5ddd3d9e455b8341f42279c8d4aa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

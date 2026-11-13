@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Thomas Mailund",
       "bsc:input": {
-        "@id": "_:Nbd294173813c4b39819505ae0cd89ab2"
+        "@id": "_:N3b0000b5d1304460824967695a680bbb"
       },
       "bsc:output": {
-        "@id": "_:N5b524d7c139745a1b56be6d0c3b83c67"
+        "@id": "_:N336c7763770541f5a10fcc3636a64422"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -64,7 +64,7 @@
       "sc:url": "http://www.daimi.au.dk/~mailund/split-dist.html"
     },
     {
-      "@id": "_:Nbd294173813c4b39819505ae0cd89ab2",
+      "@id": "_:N3b0000b5d1304460824967695a680bbb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -75,7 +75,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N5b524d7c139745a1b56be6d0c3b83c67",
+      "@id": "_:N336c7763770541f5a10fcc3636a64422",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"

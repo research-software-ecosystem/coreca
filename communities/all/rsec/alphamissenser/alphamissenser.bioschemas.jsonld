@@ -88,7 +88,7 @@
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/AlphaMissenseR"
       },
-      "sc:softwareVersion": "1.8.0",
+      "sc:softwareVersion": "1.8.1",
       "sc:url": "https://bioconductor.org/packages/AlphaMissenseR"
     },
     {

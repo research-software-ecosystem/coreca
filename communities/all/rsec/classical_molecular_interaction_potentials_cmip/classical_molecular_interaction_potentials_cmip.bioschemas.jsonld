@@ -40,20 +40,16 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0000-0002-0566-7723",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/classical_molecular_interaction_potentials_cmip",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "https://orcid.org/0000-0002-0566-7723"
       },
       "bsc:input": {
-        "@id": "_:Nd5493e3ff6044ebd82d4dfd2a4b3bd56"
+        "@id": "_:N4858994932c9400b9c4bc4513f0e5c96"
       },
       "bsc:output": {
-        "@id": "_:Nfab9c350442f431e961788b073805363"
+        "@id": "_:Nff2c7c0f5f574a27be61fbec3da7f5d7"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -103,7 +99,7 @@
       "sc:url": "https://mmb.irbbarcelona.org/gitlab/gelpi/CMIP"
     },
     {
-      "@id": "_:Nd5493e3ff6044ebd82d4dfd2a4b3bd56",
+      "@id": "_:N4858994932c9400b9c4bc4513f0e5c96",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -114,7 +110,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:Nfab9c350442f431e961788b073805363",
+      "@id": "_:Nff2c7c0f5f574a27be61fbec3da7f5d7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -128,6 +124,10 @@
         }
       ],
       "sc:name": "Protein interaction data"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0566-7723",
+      "@type": "sc:Person"
     }
   ]
 }

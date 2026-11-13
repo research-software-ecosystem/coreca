@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/protfun",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8fba2bae7246494aaad681145c79a693"
+        "@id": "_:N3d2da77b1e48446a87e37f4d7b17b81a"
       },
       "bsc:output": {
-        "@id": "_:Nb431f4f27e9740baace451fb5c568040"
+        "@id": "_:N85882260bbef458aa3685b28d2cc40b7"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -82,7 +82,7 @@
       "sc:url": "http://cbs.dtu.dk/services/ProtFun/"
     },
     {
-      "@id": "_:N8fba2bae7246494aaad681145c79a693",
+      "@id": "_:N3d2da77b1e48446a87e37f4d7b17b81a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -93,7 +93,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nb431f4f27e9740baace451fb5c568040",
+      "@id": "_:N85882260bbef458aa3685b28d2cc40b7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

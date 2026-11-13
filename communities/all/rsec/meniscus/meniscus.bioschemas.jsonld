@@ -1,0 +1,189 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.22258400",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/meniscus",
+      "@type": "sc:SoftwareApplication",
+      "bsc:input": [
+        {
+          "@id": "_:N1c85468537b24f9b8214f38e86e2d742"
+        },
+        {
+          "@id": "_:Ned5efd12157d490ba0deca0dd340f62d"
+        },
+        {
+          "@id": "_:N2c207acabd37463ab6cf12232720f03b"
+        },
+        {
+          "@id": "_:N7579450b4ae84d12876c032362334240"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:Nb8dd6252a22c44da941399e05ccd8517"
+        },
+        {
+          "@id": "_:N6b85a3b4986c4f0491661e4b88e4aa76"
+        },
+        {
+          "@id": "_:Ne81a64e06120450f9d58143a93485fbe"
+        },
+        {
+          "@id": "_:Na26c2771f87640fb8f49ba1d39bbb26e"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Desktop application",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_4019"
+      },
+      "sc:author": {
+        "@id": "https://orcid.org/0009-0000-5240-7775"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.5281/zenodo.22258400"
+      },
+      "sc:description": "Meniscus turns a raw microplate-reader export into a defensible quantitative\nresult. It reads eight instrument formats, provides plate layout editing,\nfits standard curves with six models including 4PL and 5PL, back-calculates\nsample concentrations, and issues a quality-control verdict against stated\nthresholds. Every reported number can be expanded into the substituted\nformula that produced it. Analysis runs entirely in the browser with no\nupload and no backend. Numerical routines are validated against independent\nSciPy and NumPy implementations, published openly.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2428"
+        },
+        {
+          "@id": "edam:operation_3438"
+        },
+        {
+          "@id": "edam:operation_3659"
+        },
+        {
+          "@id": "edam:operation_0337"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "Proprietary",
+      "sc:name": "Meniscus",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://meniscus.app/cite/"
+        },
+        {
+          "@id": "https://meniscus.app/instruments/"
+        }
+      ],
+      "sc:url": "https://meniscus.app"
+    },
+    {
+      "@id": "_:N1c85468537b24f9b8214f38e86e2d742",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3108"
+      },
+      "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "_:Ned5efd12157d490ba0deca0dd340f62d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3108"
+      },
+      "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "_:N2c207acabd37463ab6cf12232720f03b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3108"
+      },
+      "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "_:N7579450b4ae84d12876c032362334240",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3108"
+      },
+      "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "_:Nb8dd6252a22c44da941399e05ccd8517",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:N6b85a3b4986c4f0491661e4b88e4aa76",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Ne81a64e06120450f9d58143a93485fbe",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Na26c2771f87640fb8f49ba1d39bbb26e",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "https://orcid.org/0009-0000-5240-7775",
+      "@type": "sc:Person"
+    }
+  ]
+}

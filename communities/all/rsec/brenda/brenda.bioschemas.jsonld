@@ -36,100 +36,136 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkq968",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/s0968-0004(01)02027-8",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gku1068",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkaa1025",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkn820",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jbiotec.2017.04.020",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkh081",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/30.1.47",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gky1048",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/brenda",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N59922a5d03d94ae6aaba6aaeb9688b56"
+          "@id": "_:N1a6e276ecb2f4d19847ab0d5fe03f72b"
         },
         {
-          "@id": "_:Nc8fdb7115f4b4856ae8cb89ee30b8bcc"
+          "@id": "_:N9b33ed1a666b4e43b9a027e9f6dff638"
         },
         {
-          "@id": "_:Ncc693d1565c94d18a0df5bee262f61fa"
+          "@id": "_:Nfc5109b934e14a15be875350c4b73b3c"
         },
         {
-          "@id": "_:N3efbee5583c24ce7b79f656dbfc4fa12"
+          "@id": "_:Na162af0b37514475ba6d2a057def749c"
         },
         {
-          "@id": "_:N27150a0616b34e028f43a043ce073378"
+          "@id": "_:N3aba6430d10442d5a4b94b08edd41b19"
         },
         {
-          "@id": "_:N6e0f632a66a445328eafc5152b733729"
+          "@id": "_:N9b954ff378c741c986c1c1b2d28ca35e"
         },
         {
-          "@id": "_:N396d03b3b9364f099dd4fcb6f93e5745"
+          "@id": "_:Nbac7547a0286441d8af82741f2a69037"
         },
         {
-          "@id": "_:Nc6a7353ad41b4bd0b7802c899e61fad7"
+          "@id": "_:Na03001ac82684363b4ce0a92b6b064b9"
         },
         {
-          "@id": "_:Nb90dea590c4f454c8018ed3fed57e2a7"
+          "@id": "_:N201fbd56c76b408abb28fa0ec419cb12"
         },
         {
-          "@id": "_:N0aaa358be8a84849950c4304c49de7e9"
+          "@id": "_:Nef3359fdb0424680ae381c30d77062be"
         },
         {
-          "@id": "_:N18d3736500f146e3926339fca32ef8ca"
+          "@id": "_:N7e084030f08644598ac795daa7aa65a6"
         },
         {
-          "@id": "_:Nc39b894297594eef8910cc244043b77e"
+          "@id": "_:Ne5f91e7529734c869ded97fc852e8e26"
         },
         {
-          "@id": "_:N9aca44aea32a4e69bb5bb6755df53ac2"
+          "@id": "_:N633c0eb4fa314ece962b5c8ec7b2ecf2"
         },
         {
-          "@id": "_:N95423d3dd09a467dbaa5a7343ae175df"
+          "@id": "_:Nc12934d865654260a5907d78850cccb7"
         },
         {
-          "@id": "_:Nb276ab005b6f4e068311d04f5636c8b6"
+          "@id": "_:N71782ced320749ebb7ad3244e41623bc"
         },
         {
-          "@id": "_:N279546b287674cf0ae9e2b2a4fc1f0c7"
+          "@id": "_:Nc8a53114badf4723a1880b47554839dc"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne0b89e15a5b34b75a32afcc3b655c8e9"
+          "@id": "_:N514000f2530e4560b1b85bff6cea0971"
         },
         {
-          "@id": "_:N9a0e9c05146344b6a5af993f97442d8b"
+          "@id": "_:N76701199671d48d7bd931e257be09f46"
         },
         {
-          "@id": "_:Nc17a8d92855148b5894900f392c41e66"
+          "@id": "_:Naf867528d6584f0fa33366491096721e"
         },
         {
-          "@id": "_:Ne9078f12c3f5470194c6f2a4dfa5e21a"
+          "@id": "_:Na7ef755b1c6a478b9f40c22689159807"
         },
         {
-          "@id": "_:N0c15d143739c44108bbe6e0ae98a2cbf"
+          "@id": "_:N2d822e0d36884a9db08d12bfc1014445"
         },
         {
-          "@id": "_:N0bdcf2a7fffe44eaa9be982a82837c9c"
+          "@id": "_:N0e0ad6ec38174414a235521100e489b2"
         },
         {
-          "@id": "_:N96dde214256a42b99cb844a0f77b0a86"
+          "@id": "_:N74d58c2a57524427bcc70e00dc362921"
         },
         {
-          "@id": "_:Nfbbe96c6a20f459680226bf5228e4f68"
+          "@id": "_:N398e8dd2561f49aab07233a7dab49099"
         },
         {
-          "@id": "_:N954e0202ae024c09886849e6fc9a9af5"
+          "@id": "_:Nbbffe969e22f41b0b0be34a802193c1d"
         },
         {
-          "@id": "_:Nddcbed193b504cfc917e532901ae773a"
+          "@id": "_:N173217ecaa374c2c8e56a06c5135f0a7"
         },
         {
-          "@id": "_:N43acc9c55ab6429fb1a7da422b3e88b2"
+          "@id": "_:N9611dc985217424baa47dd96e113b151"
         },
         {
-          "@id": "_:N7a2d1b35812d4bc0bc82680f57e1d1a8"
+          "@id": "_:N3ec623b40e1f41e5bd236fa1811b4a00"
         },
         {
-          "@id": "_:N05aa7b33e22c4de88b560ba2e0a507de"
+          "@id": "_:N2dea18fc889e4e9590b13a7330aff60c"
         },
         {
-          "@id": "_:Nccfd5c561b9a4a8e8530e449e411874b"
+          "@id": "_:N2409ad44208641a798a799cd5e608b1c"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -299,7 +335,7 @@
       "sc:url": "http://www.brenda-enzymes.org"
     },
     {
-      "@id": "_:N59922a5d03d94ae6aaba6aaeb9688b56",
+      "@id": "_:N1a6e276ecb2f4d19847ab0d5fe03f72b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0990"
@@ -307,7 +343,7 @@
       "sc:name": "Compound name"
     },
     {
-      "@id": "_:Nc8fdb7115f4b4856ae8cb89ee30b8bcc",
+      "@id": "_:N9b33ed1a666b4e43b9a027e9f6dff638",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1011"
@@ -315,7 +351,7 @@
       "sc:name": "EC number"
     },
     {
-      "@id": "_:Ncc693d1565c94d18a0df5bee262f61fa",
+      "@id": "_:Nfc5109b934e14a15be875350c4b73b3c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2024"
@@ -323,7 +359,7 @@
       "sc:name": "Enzyme kinetics data"
     },
     {
-      "@id": "_:N3efbee5583c24ce7b79f656dbfc4fa12",
+      "@id": "_:Na162af0b37514475ba6d2a057def749c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1012"
@@ -331,7 +367,7 @@
       "sc:name": "Enzyme name"
     },
     {
-      "@id": "_:N27150a0616b34e028f43a043ce073378",
+      "@id": "_:N3aba6430d10442d5a4b94b08edd41b19",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -339,7 +375,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:N6e0f632a66a445328eafc5152b733729",
+      "@id": "_:N9b954ff378c741c986c1c1b2d28ca35e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1179"
@@ -347,7 +383,7 @@
       "sc:name": "NCBI taxonomy ID"
     },
     {
-      "@id": "_:N396d03b3b9364f099dd4fcb6f93e5745",
+      "@id": "_:Nbac7547a0286441d8af82741f2a69037",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1051"
@@ -355,7 +391,7 @@
       "sc:name": "Ontology name"
     },
     {
-      "@id": "_:Nc6a7353ad41b4bd0b7802c899e61fad7",
+      "@id": "_:Na03001ac82684363b4ce0a92b6b064b9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2909"
@@ -363,7 +399,7 @@
       "sc:name": "Organism name"
     },
     {
-      "@id": "_:Nb90dea590c4f454c8018ed3fed57e2a7",
+      "@id": "_:N201fbd56c76b408abb28fa0ec419cb12",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -371,7 +407,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N0aaa358be8a84849950c4304c49de7e9",
+      "@id": "_:Nef3359fdb0424680ae381c30d77062be",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2365"
@@ -379,7 +415,7 @@
       "sc:name": "Pathway or network accession"
     },
     {
-      "@id": "_:N18d3736500f146e3926339fca32ef8ca",
+      "@id": "_:N7e084030f08644598ac795daa7aa65a6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2342"
@@ -387,7 +423,7 @@
       "sc:name": "Pathway or network name"
     },
     {
-      "@id": "_:Nc39b894297594eef8910cc244043b77e",
+      "@id": "_:Ne5f91e7529734c869ded97fc852e8e26",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1187"
@@ -395,7 +431,7 @@
       "sc:name": "PubMed ID"
     },
     {
-      "@id": "_:N9aca44aea32a4e69bb5bb6755df53ac2",
+      "@id": "_:N633c0eb4fa314ece962b5c8ec7b2ecf2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2108"
@@ -403,7 +439,7 @@
       "sc:name": "Reaction ID"
     },
     {
-      "@id": "_:N95423d3dd09a467dbaa5a7343ae175df",
+      "@id": "_:Nc12934d865654260a5907d78850cccb7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1046"
@@ -411,7 +447,7 @@
       "sc:name": "Strain name"
     },
     {
-      "@id": "_:Nb276ab005b6f4e068311d04f5636c8b6",
+      "@id": "_:N71782ced320749ebb7ad3244e41623bc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
@@ -419,7 +455,7 @@
       "sc:name": "UniProt ID"
     },
     {
-      "@id": "_:N279546b287674cf0ae9e2b2a4fc1f0c7",
+      "@id": "_:Nc8a53114badf4723a1880b47554839dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -427,7 +463,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:Ne0b89e15a5b34b75a32afcc3b655c8e9",
+      "@id": "_:N514000f2530e4560b1b85bff6cea0971",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2700"
@@ -435,7 +471,7 @@
       "sc:name": "CATH identifier"
     },
     {
-      "@id": "_:N9a0e9c05146344b6a5af993f97442d8b",
+      "@id": "_:N76701199671d48d7bd931e257be09f46",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1011"
@@ -443,7 +479,7 @@
       "sc:name": "EC number"
     },
     {
-      "@id": "_:Nc17a8d92855148b5894900f392c41e66",
+      "@id": "_:Naf867528d6584f0fa33366491096721e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2024"
@@ -451,7 +487,7 @@
       "sc:name": "Enzyme kinetics data"
     },
     {
-      "@id": "_:Ne9078f12c3f5470194c6f2a4dfa5e21a",
+      "@id": "_:Na7ef755b1c6a478b9f40c22689159807",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1012"
@@ -459,7 +495,7 @@
       "sc:name": "Enzyme name"
     },
     {
-      "@id": "_:N0c15d143739c44108bbe6e0ae98a2cbf",
+      "@id": "_:N2d822e0d36884a9db08d12bfc1014445",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1179"
@@ -467,7 +503,7 @@
       "sc:name": "NCBI taxonomy ID"
     },
     {
-      "@id": "_:N0bdcf2a7fffe44eaa9be982a82837c9c",
+      "@id": "_:N0e0ad6ec38174414a235521100e489b2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2909"
@@ -475,7 +511,7 @@
       "sc:name": "Organism name"
     },
     {
-      "@id": "_:N96dde214256a42b99cb844a0f77b0a86",
+      "@id": "_:N74d58c2a57524427bcc70e00dc362921",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -483,7 +519,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:Nfbbe96c6a20f459680226bf5228e4f68",
+      "@id": "_:N398e8dd2561f49aab07233a7dab49099",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2365"
@@ -491,7 +527,7 @@
       "sc:name": "Pathway or network accession"
     },
     {
-      "@id": "_:N954e0202ae024c09886849e6fc9a9af5",
+      "@id": "_:Nbbffe969e22f41b0b0be34a802193c1d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2342"
@@ -499,7 +535,7 @@
       "sc:name": "Pathway or network name"
     },
     {
-      "@id": "_:Nddcbed193b504cfc917e532901ae773a",
+      "@id": "_:N173217ecaa374c2c8e56a06c5135f0a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2108"
@@ -507,7 +543,7 @@
       "sc:name": "Reaction ID"
     },
     {
-      "@id": "_:N43acc9c55ab6429fb1a7da422b3e88b2",
+      "@id": "_:N9611dc985217424baa47dd96e113b151",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1039"
@@ -515,7 +551,7 @@
       "sc:name": "SCOP domain identifier"
     },
     {
-      "@id": "_:N7a2d1b35812d4bc0bc82680f57e1d1a8",
+      "@id": "_:N3ec623b40e1f41e5bd236fa1811b4a00",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1046"
@@ -523,7 +559,7 @@
       "sc:name": "Strain name"
     },
     {
-      "@id": "_:N05aa7b33e22c4de88b560ba2e0a507de",
+      "@id": "_:N2dea18fc889e4e9590b13a7330aff60c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
@@ -531,7 +567,7 @@
       "sc:name": "UniProt ID"
     },
     {
-      "@id": "_:Nccfd5c561b9a4a8e8530e449e411874b",
+      "@id": "_:N2409ad44208641a798a799cd5e608b1c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -539,15 +575,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "https://doi.org/10.1186/1471-2105-12-329",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/j.jbiotec.2017.04.020",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkn820",
+      "@id": "https://doi.org/10.1093/nar/gkl972",
       "@type": "sc:CreativeWork"
     },
     {
@@ -559,39 +587,11 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkaa1025",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkh081",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkl972",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gky1048",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkq968",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/30.1.47",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gku1068",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1093/nar/gkq1089",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1016/s0968-0004(01)02027-8",
+      "@id": "https://doi.org/10.1186/1471-2105-12-329",
       "@type": "sc:CreativeWork"
     }
   ]

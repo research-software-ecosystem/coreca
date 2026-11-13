@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/dig2",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N17eb341863bb4820b8013d59bc2ebcb1"
+        "@id": "_:N5393a2c38ae14afc98c52563f60bc00b"
       },
       "bsc:output": {
-        "@id": "_:N1dde31482bf947aaa1362d1d6e352ac0"
+        "@id": "_:N58a56fc83d1346fb8e6960092525ba87"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -65,7 +65,7 @@
       "sc:url": "http://www.ms-utils.org/dig2/dig2.html"
     },
     {
-      "@id": "_:N17eb341863bb4820b8013d59bc2ebcb1",
+      "@id": "_:N5393a2c38ae14afc98c52563f60bc00b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1193"
@@ -76,7 +76,7 @@
       "sc:name": "Tool name (FASTA)"
     },
     {
-      "@id": "_:N1dde31482bf947aaa1362d1d6e352ac0",
+      "@id": "_:N58a56fc83d1346fb8e6960092525ba87",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1238"

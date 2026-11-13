@@ -36,25 +36,21 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/192302",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/hichipper",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Caleb Lareau",
       "bsc:input": {
-        "@id": "_:N0e68f7bc428c4956b1f9ed83cefe309f"
+        "@id": "_:N6702759ef80345cf9d483ccd93c47096"
       },
       "bsc:output": [
         {
-          "@id": "_:Nb8233934388e4a8e94db5db389a1d1c8"
+          "@id": "_:N0e94a6a44aa1499db437c62faa7581c8"
         },
         {
-          "@id": "_:Nc9ab023e6ea340c88b0aa9723eb38924"
+          "@id": "_:N202717a81de041e98d942c1ebaf2c1e8"
         },
         {
-          "@id": "_:Nca8389b17695473d9c138f8e5bc4c795"
+          "@id": "_:N24719c0316c14d14b880a16dbd652041"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -98,7 +94,7 @@
       "sc:url": "http://aryee.mgh.harvard.edu/hichipper/"
     },
     {
-      "@id": "_:N0e68f7bc428c4956b1f9ed83cefe309f",
+      "@id": "_:N6702759ef80345cf9d483ccd93c47096",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -109,7 +105,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nb8233934388e4a8e94db5db389a1d1c8",
+      "@id": "_:N0e94a6a44aa1499db437c62faa7581c8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0889"
@@ -117,7 +113,7 @@
       "sc:name": "Structural profile"
     },
     {
-      "@id": "_:Nc9ab023e6ea340c88b0aa9723eb38924",
+      "@id": "_:N202717a81de041e98d942c1ebaf2c1e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -128,7 +124,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nca8389b17695473d9c138f8e5bc4c795",
+      "@id": "_:N24719c0316c14d14b880a16dbd652041",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -137,6 +133,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.1101/192302",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

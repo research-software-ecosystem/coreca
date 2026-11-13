@@ -36,24 +36,20 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1471-2105-15-141",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/dmrforpairs",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0002-2528-8077"
       },
       "bsc:input": {
-        "@id": "_:Nbb7a9e403ec345158b5b87fea510363d"
+        "@id": "_:N0a65cf12c7f74b24903837d71252bdb0"
       },
       "bsc:output": [
         {
-          "@id": "_:N600c4124b8a54c31b692d05096a4b1d4"
+          "@id": "_:N0b80da47ac97482e8362e9a9d2467626"
         },
         {
-          "@id": "_:N8afdcedd43fb44b28fb2553d5d971a9c"
+          "@id": "_:N4363feef48b64bffb8c651f21cd75b91"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -102,7 +98,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/DMRforPairs.html"
     },
     {
-      "@id": "_:Nbb7a9e403ec345158b5b87fea510363d",
+      "@id": "_:N0a65cf12c7f74b24903837d71252bdb0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -113,7 +109,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N600c4124b8a54c31b692d05096a4b1d4",
+      "@id": "_:N0b80da47ac97482e8362e9a9d2467626",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -135,7 +131,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N8afdcedd43fb44b28fb2553d5d971a9c",
+      "@id": "_:N4363feef48b64bffb8c651f21cd75b91",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -155,6 +151,10 @@
         }
       ],
       "sc:name": "Sequence features"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-15-141",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "http://orcid.org/0000-0002-2528-8077",

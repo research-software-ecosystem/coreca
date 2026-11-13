@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkv1352",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/biomodels_database_converters",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Camille Laibe",
       "bsc:input": {
-        "@id": "_:Ndd2931cc17ff4b9cbb8f0da06a2b0043"
+        "@id": "_:N90d3b42a9e4243879ece54c24eeaad2b"
       },
       "bsc:output": {
-        "@id": "_:N81501d0738fb42a9ab48c105b092248d"
+        "@id": "_:Nce1a3687d1c346dbb4eb664d26cdb18e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -77,7 +81,7 @@
       "sc:url": "http://www.ebi.ac.uk/compneur-srv/converters/converters"
     },
     {
-      "@id": "_:Ndd2931cc17ff4b9cbb8f0da06a2b0043",
+      "@id": "_:N90d3b42a9e4243879ece54c24eeaad2b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -88,7 +92,7 @@
       "sc:name": "Mathematical model"
     },
     {
-      "@id": "_:N81501d0738fb42a9ab48c105b092248d",
+      "@id": "_:Nce1a3687d1c346dbb4eb664d26cdb18e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -102,10 +106,6 @@
         }
       ],
       "sc:name": "Mathematical model"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkv1352",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

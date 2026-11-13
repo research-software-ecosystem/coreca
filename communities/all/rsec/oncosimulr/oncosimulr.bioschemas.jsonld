@@ -36,11 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btx077",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1371/journal.pcbi.1007246",
+      "@id": "https://doi.org/10.1186/s12859-015-0466-7",
       "@type": "sc:CreativeWork"
     },
     {
@@ -51,14 +47,14 @@
       "@id": "https://bio.tools/oncosimulr",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N52145ab8609d4693bf2962201aca81c9"
+        "@id": "_:N94eff7be675a43af848dc978eed241b2"
       },
       "bsc:output": [
         {
-          "@id": "_:N7e65bf968cfc46b9a2669cf86602c24e"
+          "@id": "_:N2f7f7887d12e4f009a80f8918d8112d5"
         },
         {
-          "@id": "_:N2cc7bbd645d6432e82fa36285357a736"
+          "@id": "_:Nae23073ca8224cfc970a6eba48ac0d0b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -147,7 +143,7 @@
         "Wolodzko Tymoteusz",
         "Yolanda Benitez Quesada"
       ],
-      "sc:description": "Functions for forward population genetic simulation in asexual populations, with special focus on cancer progression. Fitness can be an arbitrary function of genetic interactions between multiple genes or modules of genes, including epistasis, order restrictions in mutation accumulation, and order effects. Fitness (including just birth, just death, or both birth and death) can also be a function of the relative and absolute frequencies of other genotypes (i.e., frequency-dependent fitness). Mutation rates can differ between genes, and we can include mutator/antimutator genes (to model mutator phenotypes). Simulating multi-species scenarios and therapeutic interventions, including adaptive therapy, is also possible. Simulations use continuous-time models and can include driver and passenger genes and modules. Also included are functions for: simulating random DAGs of the type found in Oncogenetic Trees, Conjunctive Bayesian Networks, and other cancer progression models; plotting and sampling from single or multiple realizations of the simulations, including single-cell sampling; plotting the parent-child relationships of the clones; generating random fitness landscapes (Rough Mount Fuji, House of Cards, additive, NK, Ising, and Eggbox models) and plotting them.",
+      "sc:description": "Functions for forward population genetic simulation in asexual populations, with special focus on cancer progression. Also included are functions for simulating random DAGs of the type found in Oncogenetic Trees, Conjunctive Bayesian Networks, and other tumor progression models, and for plotting and sampling from single or multiple realizations of the simulations, including single-cell sampling, as well as functions for plotting the true phylogenetic relationships of the clones.",
       "sc:featureList": {
         "@id": "edam:operation_2426"
       },
@@ -165,7 +161,7 @@
       "sc:url": "https://bioconductor.org/packages/OncoSimulR"
     },
     {
-      "@id": "_:N52145ab8609d4693bf2962201aca81c9",
+      "@id": "_:N94eff7be675a43af848dc978eed241b2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3722"
@@ -176,7 +172,7 @@
       "sc:name": "Physiology parameter"
     },
     {
-      "@id": "_:N7e65bf968cfc46b9a2669cf86602c24e",
+      "@id": "_:N2f7f7887d12e4f009a80f8918d8112d5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -187,7 +183,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N2cc7bbd645d6432e82fa36285357a736",
+      "@id": "_:Nae23073ca8224cfc970a6eba48ac0d0b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -198,7 +194,11 @@
       "sc:name": "Score"
     },
     {
-      "@id": "https://doi.org/10.1186/s12859-015-0466-7",
+      "@id": "https://doi.org/10.1093/bioinformatics/btx077",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1007246",
       "@type": "sc:CreativeWork"
     }
   ]

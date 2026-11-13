@@ -49,48 +49,48 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Nff23c10fbc914668ae2b0dc6fccef2d0"
+          "@id": "_:Nfe5876b86f7548c386b4dde2c355a9ba"
         },
         {
-          "@id": "_:N51e77336669a48f6847dbfa17f290b86"
+          "@id": "_:N3a0d08ce17ed4cefbf9e24d1f6901f0a"
         },
         {
-          "@id": "_:Nb8817f6c205c4c7ea65b26b90051e23b"
+          "@id": "_:Ne7612c2cc5b04e3db5ec982ba1a6ec20"
         },
         {
-          "@id": "_:N90ea0eafc69c4c54a3d12736bad3747e"
+          "@id": "_:N15ee51b190874835b0f7c12c937882f9"
         },
         {
-          "@id": "_:N29e2027f3c054fa9a680417f2d7bf7c5"
+          "@id": "_:N186c4916b9e240bb839522bb090cc04b"
         },
         {
-          "@id": "_:N69d95aeb466c40a09bd424732c69da92"
+          "@id": "_:N754c7610481648238e27331e90811af3"
         },
         {
-          "@id": "_:Nd10dd94c6b274c7a81a2e05f5608445b"
+          "@id": "_:N79e399d85ad345c4998ab0f3353975c9"
         },
         {
-          "@id": "_:Nd1b0b6d1ee0e4512a382b7176b819bc4"
+          "@id": "_:Nbf9312bd61c8458890cd08756ee22a0c"
         },
         {
-          "@id": "_:Nf5dd5cacb8a8480fa3033fdccc4c06f3"
+          "@id": "_:Ne4bcb80e93d441508ffc210e972c3321"
         },
         {
-          "@id": "_:Nf4ba50c780c145f592bf093e6dc6567b"
+          "@id": "_:Nfb989a67f5d241e788b66c89c2cfd28a"
         },
         {
-          "@id": "_:N793cc5abedc34bb6bd72675eefd73802"
+          "@id": "_:N88d94588028b4305a08a3da5185495e0"
         },
         {
-          "@id": "_:N529277bea8f44431b6a91fa02ea20f93"
+          "@id": "_:Ne8a30166a57141d89fdf332b22d77679"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N57c86b899b1241788d0ce48740e5aa75"
+          "@id": "_:N3c273a956023436a88c7feeb066cc991"
         },
         {
-          "@id": "_:Nd4640bd6dbc447a4a051d48f0bf5e750"
+          "@id": "_:N25927d1a239945b5b00a6ad461ecf2f3"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -130,7 +130,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:Nff23c10fbc914668ae2b0dc6fccef2d0",
+      "@id": "_:Nfe5876b86f7548c386b4dde2c355a9ba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -141,7 +141,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N51e77336669a48f6847dbfa17f290b86",
+      "@id": "_:N3a0d08ce17ed4cefbf9e24d1f6901f0a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -152,7 +152,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:Nb8817f6c205c4c7ea65b26b90051e23b",
+      "@id": "_:Ne7612c2cc5b04e3db5ec982ba1a6ec20",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -163,7 +163,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N90ea0eafc69c4c54a3d12736bad3747e",
+      "@id": "_:N15ee51b190874835b0f7c12c937882f9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -174,7 +174,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N29e2027f3c054fa9a680417f2d7bf7c5",
+      "@id": "_:N186c4916b9e240bb839522bb090cc04b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -185,7 +185,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N69d95aeb466c40a09bd424732c69da92",
+      "@id": "_:N754c7610481648238e27331e90811af3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -196,7 +196,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nd10dd94c6b274c7a81a2e05f5608445b",
+      "@id": "_:N79e399d85ad345c4998ab0f3353975c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -207,7 +207,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nd1b0b6d1ee0e4512a382b7176b819bc4",
+      "@id": "_:Nbf9312bd61c8458890cd08756ee22a0c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -218,7 +218,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf5dd5cacb8a8480fa3033fdccc4c06f3",
+      "@id": "_:Ne4bcb80e93d441508ffc210e972c3321",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -229,7 +229,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf4ba50c780c145f592bf093e6dc6567b",
+      "@id": "_:Nfb989a67f5d241e788b66c89c2cfd28a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -240,7 +240,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N793cc5abedc34bb6bd72675eefd73802",
+      "@id": "_:N88d94588028b4305a08a3da5185495e0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -251,7 +251,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N529277bea8f44431b6a91fa02ea20f93",
+      "@id": "_:Ne8a30166a57141d89fdf332b22d77679",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -262,7 +262,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N57c86b899b1241788d0ce48740e5aa75",
+      "@id": "_:N3c273a956023436a88c7feeb066cc991",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -273,7 +273,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nd4640bd6dbc447a4a051d48f0bf5e750",
+      "@id": "_:N25927d1a239945b5b00a6ad461ecf2f3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

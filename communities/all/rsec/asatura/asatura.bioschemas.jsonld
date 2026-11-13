@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/asatura",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nacc396bc2bd0406485febdd003be53a3"
+        "@id": "_:N64bd102a231b45b7b3ca7b48b8f02f33"
       },
       "bsc:output": {
-        "@id": "_:N48e16b797b6247c4b9503c6c6dfed515"
+        "@id": "_:Na015d44aaf9a4320bf86e82e19c2c743"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -77,7 +77,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/software/details/ASaturA"
     },
     {
-      "@id": "_:Nacc396bc2bd0406485febdd003be53a3",
+      "@id": "_:N64bd102a231b45b7b3ca7b48b8f02f33",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -85,7 +85,7 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:N48e16b797b6247c4b9503c6c6dfed515",
+      "@id": "_:Na015d44aaf9a4320bf86e82e19c2c743",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2523"

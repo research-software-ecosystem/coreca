@@ -42,10 +42,10 @@
         "@id": "https://orcid.org/0000-0001-9650-8965"
       },
       "bsc:input": {
-        "@id": "_:Nf8b22707f7e248769085f204d301cb4a"
+        "@id": "_:N0158230320844435939a707824223003"
       },
       "bsc:output": {
-        "@id": "_:Ne7fbee83bb7e440a930145d45382ed4e"
+        "@id": "_:N2df96a98afd64c2ebcd4166caf871373"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -76,7 +76,7 @@
       "sc:url": "http://cbs.dtu.dk/services/NetStart/"
     },
     {
-      "@id": "_:Nf8b22707f7e248769085f204d301cb4a",
+      "@id": "_:N0158230320844435939a707824223003",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -87,7 +87,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Ne7fbee83bb7e440a930145d45382ed4e",
+      "@id": "_:N2df96a98afd64c2ebcd4166caf871373",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

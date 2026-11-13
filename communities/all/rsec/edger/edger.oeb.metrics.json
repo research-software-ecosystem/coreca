@@ -24,7 +24,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 918,
+                            "cit_count": 928,
                             "citations": [
                                 {
                                     "count": 1,
@@ -59,7 +59,7 @@
                                     "year": 2022
                                 },
                                 {
-                                    "count": 117,
+                                    "count": 125,
                                     "year": 2026
                                 },
                                 {
@@ -67,11 +67,11 @@
                                     "year": 2023
                                 },
                                 {
-                                    "count": 177,
+                                    "count": 178,
                                     "year": 2025
                                 },
                                 {
-                                    "count": 190,
+                                    "count": 191,
                                     "year": 2024
                                 }
                             ],
@@ -129,7 +129,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3185,
+                            "cit_count": 3210,
                             "citations": [
                                 {
                                     "count": 7,
@@ -156,7 +156,7 @@
                                     "year": 2016
                                 },
                                 {
-                                    "count": 122,
+                                    "count": 129,
                                     "year": 2026
                                 },
                                 {
@@ -164,19 +164,19 @@
                                     "year": 2017
                                 },
                                 {
-                                    "count": 224,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 229,
+                                    "count": 230,
                                     "year": 2025
                                 },
                                 {
-                                    "count": 264,
+                                    "count": 231,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 265,
                                     "year": 2024
                                 },
                                 {
-                                    "count": 279,
+                                    "count": 280,
                                     "year": 2019
                                 },
                                 {
@@ -184,7 +184,7 @@
                                     "year": 2023
                                 },
                                 {
-                                    "count": 390,
+                                    "count": 398,
                                     "year": 2020
                                 },
                                 {
@@ -254,7 +254,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 25720,
+                            "cit_count": 25948,
                             "citations": [
                                 {
                                     "count": 1,
@@ -273,7 +273,7 @@
                                     "year": 2011
                                 },
                                 {
-                                    "count": 123,
+                                    "count": 124,
                                     "year": 2012
                                 },
                                 {
@@ -289,7 +289,7 @@
                                     "year": 2015
                                 },
                                 {
-                                    "count": 1033,
+                                    "count": 1035,
                                     "year": 2016
                                 },
                                 {
@@ -297,40 +297,40 @@
                                     "year": 2017
                                 },
                                 {
-                                    "count": 1517,
+                                    "count": 1539,
                                     "year": 2018
                                 },
                                 {
-                                    "count": 1757,
+                                    "count": 1851,
                                     "year": 2026
                                 },
                                 {
-                                    "count": 1941,
+                                    "count": 1967,
                                     "year": 2019
                                 },
                                 {
-                                    "count": 2346,
+                                    "count": 2387,
                                     "year": 2020
                                 },
                                 {
-                                    "count": 2693,
+                                    "count": 2694,
                                     "year": 2025
                                 },
                                 {
-                                    "count": 2695,
+                                    "count": 2696,
                                     "year": 2023
                                 },
                                 {
-                                    "count": 2719,
+                                    "count": 2722,
                                     "year": 2024
                                 },
                                 {
-                                    "count": 2920,
-                                    "year": 2021
+                                    "count": 2931,
+                                    "year": 2022
                                 },
                                 {
-                                    "count": 2922,
-                                    "year": 2022
+                                    "count": 2948,
+                                    "year": 2021
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btp616",
@@ -405,7 +405,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 918,
+                            "cit_count": 928,
                             "citations": [
                                 {
                                     "count": 1,
@@ -440,7 +440,7 @@
                                     "year": 2022
                                 },
                                 {
-                                    "count": 117,
+                                    "count": 125,
                                     "year": 2026
                                 },
                                 {
@@ -448,11 +448,11 @@
                                     "year": 2023
                                 },
                                 {
-                                    "count": 177,
+                                    "count": 178,
                                     "year": 2025
                                 },
                                 {
-                                    "count": 190,
+                                    "count": 191,
                                     "year": 2024
                                 }
                             ],
@@ -510,7 +510,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 3185,
+                            "cit_count": 3210,
                             "citations": [
                                 {
                                     "count": 7,
@@ -537,7 +537,7 @@
                                     "year": 2016
                                 },
                                 {
-                                    "count": 122,
+                                    "count": 129,
                                     "year": 2026
                                 },
                                 {
@@ -545,19 +545,19 @@
                                     "year": 2017
                                 },
                                 {
-                                    "count": 224,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 229,
+                                    "count": 230,
                                     "year": 2025
                                 },
                                 {
-                                    "count": 264,
+                                    "count": 231,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 265,
                                     "year": 2024
                                 },
                                 {
-                                    "count": 279,
+                                    "count": 280,
                                     "year": 2019
                                 },
                                 {
@@ -565,7 +565,7 @@
                                     "year": 2023
                                 },
                                 {
-                                    "count": 390,
+                                    "count": 398,
                                     "year": 2020
                                 },
                                 {
@@ -635,7 +635,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 25720,
+                            "cit_count": 25948,
                             "citations": [
                                 {
                                     "count": 1,
@@ -654,7 +654,7 @@
                                     "year": 2011
                                 },
                                 {
-                                    "count": 123,
+                                    "count": 124,
                                     "year": 2012
                                 },
                                 {
@@ -670,7 +670,7 @@
                                     "year": 2015
                                 },
                                 {
-                                    "count": 1033,
+                                    "count": 1035,
                                     "year": 2016
                                 },
                                 {
@@ -678,40 +678,40 @@
                                     "year": 2017
                                 },
                                 {
-                                    "count": 1517,
+                                    "count": 1539,
                                     "year": 2018
                                 },
                                 {
-                                    "count": 1757,
+                                    "count": 1851,
                                     "year": 2026
                                 },
                                 {
-                                    "count": 1941,
+                                    "count": 1967,
                                     "year": 2019
                                 },
                                 {
-                                    "count": 2346,
+                                    "count": 2387,
                                     "year": 2020
                                 },
                                 {
-                                    "count": 2693,
+                                    "count": 2694,
                                     "year": 2025
                                 },
                                 {
-                                    "count": 2695,
+                                    "count": 2696,
                                     "year": 2023
                                 },
                                 {
-                                    "count": 2719,
+                                    "count": 2722,
                                     "year": 2024
                                 },
                                 {
-                                    "count": 2920,
-                                    "year": 2021
+                                    "count": 2931,
+                                    "year": 2022
                                 },
                                 {
-                                    "count": 2922,
-                                    "year": 2022
+                                    "count": 2948,
+                                    "year": 2021
                                 }
                             ],
                             "doi": "10.1093/bioinformatics/btp616",
@@ -1566,7 +1566,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 520,
+                            "cit_count": 544,
                             "citations": [
                                 {
                                     "count": 1,
@@ -1577,11 +1577,11 @@
                                     "year": 2024
                                 },
                                 {
-                                    "count": 196,
+                                    "count": 197,
                                     "year": 2025
                                 },
                                 {
-                                    "count": 306,
+                                    "count": 329,
                                     "year": 2026
                                 }
                             ],
@@ -1697,7 +1697,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 520,
+                            "cit_count": 544,
                             "citations": [
                                 {
                                     "count": 1,
@@ -1708,11 +1708,11 @@
                                     "year": 2024
                                 },
                                 {
-                                    "count": 196,
+                                    "count": 197,
                                     "year": 2025
                                 },
                                 {
-                                    "count": 306,
+                                    "count": 329,
                                     "year": 2026
                                 }
                             ],
@@ -1828,7 +1828,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 520,
+                            "cit_count": 544,
                             "citations": [
                                 {
                                     "count": 1,
@@ -1839,11 +1839,11 @@
                                     "year": 2024
                                 },
                                 {
-                                    "count": 196,
+                                    "count": 197,
                                     "year": 2025
                                 },
                                 {
-                                    "count": 306,
+                                    "count": 329,
                                     "year": 2026
                                 }
                             ],
@@ -1959,7 +1959,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 520,
+                            "cit_count": 544,
                             "citations": [
                                 {
                                     "count": 1,
@@ -1970,11 +1970,11 @@
                                     "year": 2024
                                 },
                                 {
-                                    "count": 196,
+                                    "count": 197,
                                     "year": 2025
                                 },
                                 {
-                                    "count": 306,
+                                    "count": 329,
                                     "year": 2026
                                 }
                             ],
@@ -2090,7 +2090,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 520,
+                            "cit_count": 544,
                             "citations": [
                                 {
                                     "count": 1,
@@ -2101,11 +2101,11 @@
                                     "year": 2024
                                 },
                                 {
-                                    "count": 196,
+                                    "count": 197,
                                     "year": 2025
                                 },
                                 {
-                                    "count": 306,
+                                    "count": 329,
                                     "year": 2026
                                 }
                             ],
@@ -2221,7 +2221,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 520,
+                            "cit_count": 544,
                             "citations": [
                                 {
                                     "count": 1,
@@ -2232,11 +2232,273 @@
                                     "year": 2024
                                 },
                                 {
-                                    "count": 196,
+                                    "count": 197,
                                     "year": 2025
                                 },
                                 {
-                                    "count": 306,
+                                    "count": 329,
+                                    "year": 2026
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkaf018",
+                            "pmcid": "PMC11754124",
+                            "pmid": "39844453",
+                            "ref_count": 64,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2016
+                                }
+                            ],
+                            "title": "edgeR v4: powerful differential analysis of sequencing data with expanded functionality and improved support for small counts and larger datasets.",
+                            "year": 2025
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:edger:4.10.6/cmd/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "project": {
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 544,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2027
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 197,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 329,
+                                    "year": 2026
+                                }
+                            ],
+                            "doi": "10.1093/nar/gkaf018",
+                            "pmcid": "PMC11754124",
+                            "pmid": "39844453",
+                            "ref_count": 64,
+                            "refs": [
+                                {
+                                    "count": 1,
+                                    "year": 2002
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2005
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2013
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2018
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 1,
+                                    "year": 2022
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2000
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2004
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2007
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2020
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2021
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2023
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2009
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2010
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2014
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2015
+                                },
+                                {
+                                    "count": 5,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2011
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2012
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2016
+                                }
+                            ],
+                            "title": "edgeR v4: powerful differential analysis of sequencing data with expanded functionality and improved support for small counts and larger datasets.",
+                            "year": 2025
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "@id": "https://openebench.bsc.es/monitor/metrics/biotools:edger:4.10.6/lib/bioconductor.org",
+        "@license": "https://creativecommons.org/licenses/by/4.0/",
+        "@nmsp": "biotools",
+        "@type": "metrics",
+        "project": {
+            "publications": [
+                {
+                    "entries": [
+                        {
+                            "cit_count": 544,
+                            "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2027
+                                },
+                                {
+                                    "count": 17,
+                                    "year": 2024
+                                },
+                                {
+                                    "count": 197,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 329,
                                     "year": 2026
                                 }
                             ],

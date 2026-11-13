@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/minirmd",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N7e7961133cc74afcb39f92a4a1299df8"
+        "@id": "_:Neef3205dbdfa4761a64d3a708d64c2ef"
       },
       "bsc:output": {
-        "@id": "_:N047eafb11aaa44d187f29cfcc55d46ad"
+        "@id": "_:N2b991b90d41f476a95edf1fcb3f16579"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -63,7 +63,7 @@
       "sc:url": "https://github.com/yuansliu/minirmd"
     },
     {
-      "@id": "_:N7e7961133cc74afcb39f92a4a1299df8",
+      "@id": "_:Neef3205dbdfa4761a64d3a708d64c2ef",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -74,7 +74,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N047eafb11aaa44d187f29cfcc55d46ad",
+      "@id": "_:N2b991b90d41f476a95edf1fcb3f16579",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"

@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/blast_api_ebi",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N39d64e35558a47afb71e72a68a73fb21"
+        "@id": "_:Nd6fac0b8eab64a338c10146043af451d"
       },
       "bsc:output": {
-        "@id": "_:N2b41afc346df4020a491823192319129"
+        "@id": "_:Nd8c66ebfda0e4e02be4eb999878eb724"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web API",
@@ -78,7 +78,7 @@
       "sc:url": "https://www.ebi.ac.uk/seqdb/confluence/pages/viewpage.action?pageId=54653532"
     },
     {
-      "@id": "_:N39d64e35558a47afb71e72a68a73fb21",
+      "@id": "_:Nd6fac0b8eab64a338c10146043af451d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -86,7 +86,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N2b41afc346df4020a491823192319129",
+      "@id": "_:Nd8c66ebfda0e4e02be4eb999878eb724",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"

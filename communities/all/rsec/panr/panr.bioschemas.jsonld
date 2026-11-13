@@ -40,24 +40,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ndea049561c9d487ea2afb7cc470344c1"
+          "@id": "_:Nde6cc368900f41cdbc499afa6a129f5d"
         },
         {
-          "@id": "_:N52a42b7c12c6473bbe38b25b9bce78fe"
+          "@id": "_:Ncf7fd2099b5d4e9e9e279b8940105130"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N437ca04dff8546b8afc5a7480182ef14"
+          "@id": "_:Nbc1b8c0d75694bbc9777b99a77ec7a0c"
         },
         {
-          "@id": "_:N627db28137a64ce6a200283498c97c37"
+          "@id": "_:N18cde723548e4bccb8e4d85b9f4bce64"
         },
         {
-          "@id": "_:Ndf4a269ad787476fbf16d29ac3145d38"
+          "@id": "_:Nb44e0d1dc33b49d4977dd2214b9ff339"
         },
         {
-          "@id": "_:Nc13204dc7b0d4542b573bb9e2be72edb"
+          "@id": "_:N57dd68eb4f5146e0a767beb177e3f49e"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -105,7 +105,7 @@
       "sc:url": "https://bioconductor.org/packages/PANR"
     },
     {
-      "@id": "_:Ndea049561c9d487ea2afb7cc470344c1",
+      "@id": "_:Nde6cc368900f41cdbc499afa6a129f5d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -116,7 +116,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N52a42b7c12c6473bbe38b25b9bce78fe",
+      "@id": "_:Ncf7fd2099b5d4e9e9e279b8940105130",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"
@@ -127,7 +127,7 @@
       "sc:name": "Processed microarray data"
     },
     {
-      "@id": "_:N437ca04dff8546b8afc5a7480182ef14",
+      "@id": "_:Nbc1b8c0d75694bbc9777b99a77ec7a0c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -146,7 +146,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N627db28137a64ce6a200283498c97c37",
+      "@id": "_:N18cde723548e4bccb8e4d85b9f4bce64",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -165,7 +165,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Ndf4a269ad787476fbf16d29ac3145d38",
+      "@id": "_:Nb44e0d1dc33b49d4977dd2214b9ff339",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -184,7 +184,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nc13204dc7b0d4542b573bb9e2be72edb",
+      "@id": "_:N57dd68eb4f5146e0a767beb177e3f49e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

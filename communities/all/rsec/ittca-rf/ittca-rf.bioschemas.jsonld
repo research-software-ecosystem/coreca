@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/ittca-rf",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3bd593fd7f704d6b8530d1826135b960"
+        "@id": "_:Nb96336f9cde140a7adb52c60d0426edb"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -89,7 +89,7 @@
       "sc:url": "http://lab.malab.cn/~acy/iTTCA"
     },
     {
-      "@id": "_:N3bd593fd7f704d6b8530d1826135b960",
+      "@id": "_:Nb96336f9cde140a7adb52c60d0426edb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

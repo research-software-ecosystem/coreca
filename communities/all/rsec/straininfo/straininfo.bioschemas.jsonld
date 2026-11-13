@@ -40,26 +40,30 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1109/TKDE.2005.131",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/straininfo",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nfcac6e6a67484f6aaefb5c7b83ca087c"
+        "@id": "_:Nccbec114fbcf46d38fdf13ce38972f08"
       },
       "bsc:output": [
         {
-          "@id": "_:Nbc114e7c3fe7424a96d32b3e8f90dc04"
+          "@id": "_:N95c7f635368944d5abaad8c7e39a16b8"
         },
         {
-          "@id": "_:N6d5909ff3d4f42bba39ea3d1f8212c7d"
+          "@id": "_:N0e7e209c3b754c288c875105e41b1c9c"
         },
         {
-          "@id": "_:N3e506027c6dd4cb68f717d25dbfcdbec"
+          "@id": "_:Nde05796de2264594bd115943581f7866"
         },
         {
-          "@id": "_:Na68812b2ba57440faf581522ee732826"
+          "@id": "_:Nf458de1b119e400ea4343c5f167f4174"
         },
         {
-          "@id": "_:Nc396c5c3f6a745d0b7a6ff73deebffbe"
+          "@id": "_:N4c22fc306f5847abaededb82564c74d8"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -111,7 +115,7 @@
       "sc:url": "https://straininfo.dsmz.de"
     },
     {
-      "@id": "_:Nfcac6e6a67484f6aaefb5c7b83ca087c",
+      "@id": "_:Nccbec114fbcf46d38fdf13ce38972f08",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2379"
@@ -119,7 +123,7 @@
       "sc:name": "Strain identifier"
     },
     {
-      "@id": "_:Nbc114e7c3fe7424a96d32b3e8f90dc04",
+      "@id": "_:N95c7f635368944d5abaad8c7e39a16b8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3505"
@@ -127,7 +131,7 @@
       "sc:name": "Bibliography"
     },
     {
-      "@id": "_:N6d5909ff3d4f42bba39ea3d1f8212c7d",
+      "@id": "_:N0e7e209c3b754c288c875105e41b1c9c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2337"
@@ -135,7 +139,7 @@
       "sc:name": "Resource metadata"
     },
     {
-      "@id": "_:N3e506027c6dd4cb68f717d25dbfcdbec",
+      "@id": "_:Nde05796de2264594bd115943581f7866",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1093"
@@ -143,7 +147,7 @@
       "sc:name": "Sequence accession"
     },
     {
-      "@id": "_:Na68812b2ba57440faf581522ee732826",
+      "@id": "_:Nf458de1b119e400ea4343c5f167f4174",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2379"
@@ -151,16 +155,12 @@
       "sc:name": "Strain identifier"
     },
     {
-      "@id": "_:Nc396c5c3f6a745d0b7a6ff73deebffbe",
+      "@id": "_:N4c22fc306f5847abaededb82564c74d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
       },
       "sc:name": "Taxonomy"
-    },
-    {
-      "@id": "https://doi.org/10.1109/TKDE.2005.131",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

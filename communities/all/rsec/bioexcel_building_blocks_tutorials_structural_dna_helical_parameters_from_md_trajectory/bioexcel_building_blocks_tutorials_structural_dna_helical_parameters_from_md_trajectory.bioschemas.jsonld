@@ -40,8 +40,8 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1038/s41597-019-0177-4",
-      "@type": "sc:CreativeWork"
+      "@id": "https://orcid.org/0000-0002-8291-8071",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/bioexcel_building_blocks_tutorials_structural_dna_helical_parameters_from_md_trajectory",
@@ -50,17 +50,17 @@
         "@id": "https://orcid.org/0000-0002-8291-8071"
       },
       "bsc:input": {
-        "@id": "_:Nbcad7d3b05d44cb18deb32a850622694"
+        "@id": "_:N4997e3bb87454cfc87b1d9dbf80d1d8a"
       },
       "bsc:output": [
         {
-          "@id": "_:Ne644baea2edb4024bffc936c75e35a42"
+          "@id": "_:Nf5476e1614994976afc5e2e45d0ef3af"
         },
         {
-          "@id": "_:N25a1b840a91b4eb8a139e70038e46d93"
+          "@id": "_:N21852a58443e4f3487d82967c5a4a9eb"
         },
         {
-          "@id": "_:N5d5b6607923345a9a42c2521b9703481"
+          "@id": "_:Nd8d895c8c1564705b1f998601faba454"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -113,7 +113,7 @@
       "sc:url": "https://mmb.irbbarcelona.org/biobb/workflows/#structural-dna-helical-parameters"
     },
     {
-      "@id": "_:Nbcad7d3b05d44cb18deb32a850622694",
+      "@id": "_:N4997e3bb87454cfc87b1d9dbf80d1d8a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3870"
@@ -129,7 +129,7 @@
       "sc:name": "Trajectory data"
     },
     {
-      "@id": "_:Ne644baea2edb4024bffc936c75e35a42",
+      "@id": "_:Nf5476e1614994976afc5e2e45d0ef3af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3905"
@@ -140,7 +140,7 @@
       "sc:name": "Histogram"
     },
     {
-      "@id": "_:N25a1b840a91b4eb8a139e70038e46d93",
+      "@id": "_:N21852a58443e4f3487d82967c5a4a9eb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -151,7 +151,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N5d5b6607923345a9a42c2521b9703481",
+      "@id": "_:Nd8d895c8c1564705b1f998601faba454",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0912"
@@ -162,8 +162,8 @@
       "sc:name": "Nucleic acid property"
     },
     {
-      "@id": "https://orcid.org/0000-0002-8291-8071",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1038/s41597-019-0177-4",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://orcid.org/0000-0003-0513-0288",

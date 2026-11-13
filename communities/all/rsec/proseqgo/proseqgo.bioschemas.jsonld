@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/proseqgo",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N708a43eec43049eeb7db182a02a94ec4"
+        "@id": "_:N6d34bad95f6f4e32a41ce00db8386fae"
       },
       "bsc:output": {
-        "@id": "_:N79836d0b07054d8da93db2dfecdf848d"
+        "@id": "_:N0464348da2dc4248b841d098d2c6ad58"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -60,7 +60,7 @@
       "sc:url": "https://proseqgo.com/"
     },
     {
-      "@id": "_:N708a43eec43049eeb7db182a02a94ec4",
+      "@id": "_:N6d34bad95f6f4e32a41ce00db8386fae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -68,7 +68,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N79836d0b07054d8da93db2dfecdf848d",
+      "@id": "_:N0464348da2dc4248b841d098d2c6ad58",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2858"

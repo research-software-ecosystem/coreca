@@ -36,6 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0003-0160-9312",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btac125",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1101/2021.11.12.466787",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/bamtocov",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,14 +55,14 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N7d32d752b4eb4948924f111bf47ac8a8"
+          "@id": "_:N9a4688c7b0b540778f0ef6ed1398217c"
         },
         {
-          "@id": "_:N8ac6de3579ac4c4f9ff801ee2b502105"
+          "@id": "_:N9e7ad97712f649559b7cdc6e83f2535f"
         }
       ],
       "bsc:output": {
-        "@id": "_:N63d8c1c938fe4f16ad0dce5cb30fc0b9"
+        "@id": "_:Ne8f23d7f5e7b4907964839298a469385"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -85,7 +97,7 @@
       "sc:url": "https://telatin.github.io/bamtocov/"
     },
     {
-      "@id": "_:N7d32d752b4eb4948924f111bf47ac8a8",
+      "@id": "_:N9a4688c7b0b540778f0ef6ed1398217c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -96,7 +108,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N8ac6de3579ac4c4f9ff801ee2b502105",
+      "@id": "_:N9e7ad97712f649559b7cdc6e83f2535f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -112,7 +124,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N63d8c1c938fe4f16ad0dce5cb30fc0b9",
+      "@id": "_:Ne8f23d7f5e7b4907964839298a469385",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -128,20 +140,8 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "https://orcid.org/0000-0003-0160-9312",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btac125",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://orcid.org/0000-0001-7619-281X",
       "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1101/2021.11.12.466787",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

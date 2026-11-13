@@ -41,30 +41,30 @@
       "biotools:primaryContact": "Josep Ll. Gelpi",
       "bsc:input": [
         {
-          "@id": "_:Ndc8face055314114aef9ae2903b7f650"
+          "@id": "_:N1199cbb078d1453d9c363df1a66ddf8a"
         },
         {
-          "@id": "_:N29bb83fd23bd433aae5b5645bc93e610"
+          "@id": "_:N877606884b0f4a5bbcb45973f39698a1"
         },
         {
-          "@id": "_:N0633fe9329074272983d558bc68b91fa"
+          "@id": "_:N66221a88565b4e069548f747b166df38"
         },
         {
-          "@id": "_:N8da4511f50bf49ba992f494840f4b66c"
+          "@id": "_:N39e5186a273a46b0bdac12a1f02d4b45"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N37d93a732de64e008874f646e6cf9cba"
+          "@id": "_:N5e1de85bb2864c4284fdda8e8f4c326e"
         },
         {
-          "@id": "_:N3380b2171157490ba185751041fd3518"
+          "@id": "_:N93f0b407b90547bd9a914047e7767a5c"
         },
         {
-          "@id": "_:N1fb2abf7f57a4743842ed725fcc93f9e"
+          "@id": "_:N412ca191250e428fbe3e2e70cb03929d"
         },
         {
-          "@id": "_:N0c37292d57ef497f85c862a445ec1502"
+          "@id": "_:N0f4f5fc0de6f47ce9487b992c6bded5f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -91,7 +91,7 @@
       "sc:url": "http://mmb.irbbarcelona.org/api"
     },
     {
-      "@id": "_:Ndc8face055314114aef9ae2903b7f650",
+      "@id": "_:N1199cbb078d1453d9c363df1a66ddf8a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1011"
@@ -102,7 +102,7 @@
       "sc:name": "EC number"
     },
     {
-      "@id": "_:N29bb83fd23bd433aae5b5645bc93e610",
+      "@id": "_:N877606884b0f4a5bbcb45973f39698a1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1005"
@@ -113,7 +113,7 @@
       "sc:name": "HET group name"
     },
     {
-      "@id": "_:N0633fe9329074272983d558bc68b91fa",
+      "@id": "_:N66221a88565b4e069548f747b166df38",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -124,7 +124,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N8da4511f50bf49ba992f494840f4b66c",
+      "@id": "_:N39e5186a273a46b0bdac12a1f02d4b45",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -135,7 +135,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N37d93a732de64e008874f646e6cf9cba",
+      "@id": "_:N5e1de85bb2864c4284fdda8e8f4c326e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -146,7 +146,7 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:N3380b2171157490ba185751041fd3518",
+      "@id": "_:N93f0b407b90547bd9a914047e7767a5c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -157,7 +157,7 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:N1fb2abf7f57a4743842ed725fcc93f9e",
+      "@id": "_:N412ca191250e428fbe3e2e70cb03929d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -168,7 +168,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N0c37292d57ef497f85c862a445ec1502",
+      "@id": "_:N0f4f5fc0de6f47ce9487b992c6bded5f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"

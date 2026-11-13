@@ -36,29 +36,25 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/CowpeaMine",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N967fcb964ca748e49818277a011995d6"
+          "@id": "_:N1dac421282764ff89f27fd9a528c0955"
         },
         {
-          "@id": "_:Nd188af778a2d4ff0a065f4f0404e7c58"
+          "@id": "_:N525cf495dd3b451da2ffe3ae6bc71501"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N6008f11a94b545488f07f8d40f776c12"
+          "@id": "_:N07b14a90b6e24abc9e512415c166971d"
         },
         {
-          "@id": "_:N7d619bc3a880494ea77e59b902189aec"
+          "@id": "_:Ne38c6396f491424fb23bc93a7227e127"
         },
         {
-          "@id": "_:N7ac79e5d598945d79b08695de31ce7b6"
+          "@id": "_:Naac30a800fc747e09e683d28355a0cb6"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -119,7 +115,7 @@
       "sc:url": "https://mines.legumeinfo.org/cowpeamine"
     },
     {
-      "@id": "_:N967fcb964ca748e49818277a011995d6",
+      "@id": "_:N1dac421282764ff89f27fd9a528c0955",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -127,7 +123,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:Nd188af778a2d4ff0a065f4f0404e7c58",
+      "@id": "_:N525cf495dd3b451da2ffe3ae6bc71501",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -135,7 +131,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N6008f11a94b545488f07f8d40f776c12",
+      "@id": "_:N07b14a90b6e24abc9e512415c166971d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3753"
@@ -143,7 +139,7 @@
       "sc:name": "Over-representation data"
     },
     {
-      "@id": "_:N7d619bc3a880494ea77e59b902189aec",
+      "@id": "_:Ne38c6396f491424fb23bc93a7227e127",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -151,12 +147,16 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:N7ac79e5d598945d79b08695de31ce7b6",
+      "@id": "_:Naac30a800fc747e09e683d28355a0cb6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
       },
       "sc:name": "Sequence features"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

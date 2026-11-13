@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1471-2105-13-288",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/panalyzer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nabaccf91b515482e839818410449c849"
+        "@id": "_:N05faa4cc155f4f34ac014138d4cd0483"
       },
       "bsc:output": {
-        "@id": "_:Nf8d6c4b586b444e4adfc7a6b2128469d"
+        "@id": "_:Na2378ecf49be40109cee9347ad281907"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -88,7 +92,7 @@
       "sc:url": "https://code.google.com/archive/p/ehu-bio/wikis/PAnalyzer.wiki"
     },
     {
-      "@id": "_:Nabaccf91b515482e839818410449c849",
+      "@id": "_:N05faa4cc155f4f34ac014138d4cd0483",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -104,7 +108,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Nf8d6c4b586b444e4adfc7a6b2128469d",
+      "@id": "_:Na2378ecf49be40109cee9347ad281907",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0907"
@@ -121,10 +125,6 @@
         }
       ],
       "sc:name": "Protein family report"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1471-2105-13-288",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

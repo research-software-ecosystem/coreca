@@ -36,8 +36,8 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0001-9092-8336",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1099/mgen.0.000211",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/PlaScope",
@@ -47,18 +47,18 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nb4db582b68da4336941730cc93310800"
+          "@id": "_:N7b06003871674d2eb9b6f946a50f9aae"
         },
         {
-          "@id": "_:N301ddcc7ef6c49a1bc254631da139edc"
+          "@id": "_:N606a0c40417448ea8cc2f89ef0c8d2c0"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5ccd0aaca811428189ed1c3a4b15bed0"
+          "@id": "_:Nff8961bd546649b783897e35f0c40229"
         },
         {
-          "@id": "_:Nd13ebc8be3fb4054a139e392be09019d"
+          "@id": "_:N325a42b5dbbb4af2a9e3572d59e05db1"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -105,7 +105,7 @@
       "sc:url": "https://github.com/labgem/PlaScope"
     },
     {
-      "@id": "_:Nb4db582b68da4336941730cc93310800",
+      "@id": "_:N7b06003871674d2eb9b6f946a50f9aae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -116,7 +116,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:N301ddcc7ef6c49a1bc254631da139edc",
+      "@id": "_:N606a0c40417448ea8cc2f89ef0c8d2c0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -127,7 +127,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N5ccd0aaca811428189ed1c3a4b15bed0",
+      "@id": "_:Nff8961bd546649b783897e35f0c40229",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1354"
@@ -138,7 +138,7 @@
       "sc:name": "Sequence profile"
     },
     {
-      "@id": "_:Nd13ebc8be3fb4054a139e392be09019d",
+      "@id": "_:N325a42b5dbbb4af2a9e3572d59e05db1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1354"
@@ -149,8 +149,8 @@
       "sc:name": "Sequence profile"
     },
     {
-      "@id": "https://doi.org/10.1099/mgen.0.000211",
-      "@type": "sc:CreativeWork"
+      "@id": "https://orcid.org/0000-0001-9092-8336",
+      "@type": "sc:Person"
     }
   ]
 }

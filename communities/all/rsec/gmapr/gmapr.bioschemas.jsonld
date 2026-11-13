@@ -36,25 +36,29 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.gmapR",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/gmapr",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N07ff05c0e4d84baab540c7f32394e75a"
+          "@id": "_:Nebadd702fa524d6eb500a90b50e0474f"
         },
         {
-          "@id": "_:N6f7acb7918fa4a3cbfc88308d46c6086"
+          "@id": "_:N583fcc614e5d426da6760a66e253cbe7"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne77b5762f15642939e62888504ee0d64"
+          "@id": "_:N61cfca7c30ff4fa1986a194d5a09691f"
         },
         {
-          "@id": "_:N6d5f5072752844f0bb36c222c42164cf"
+          "@id": "_:Na45e2a2692594191937587d1329a27a0"
         },
         {
-          "@id": "_:N6ece4947eed14f3f932a7e86009407fc"
+          "@id": "_:N061a94a22338447f9075ffdb60783b3c"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -96,7 +100,7 @@
       "sc:url": "https://bioconductor.org/packages/gmapR"
     },
     {
-      "@id": "_:N07ff05c0e4d84baab540c7f32394e75a",
+      "@id": "_:Nebadd702fa524d6eb500a90b50e0474f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -115,7 +119,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:N6f7acb7918fa4a3cbfc88308d46c6086",
+      "@id": "_:N583fcc614e5d426da6760a66e253cbe7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -134,7 +138,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:Ne77b5762f15642939e62888504ee0d64",
+      "@id": "_:N61cfca7c30ff4fa1986a194d5a09691f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -150,7 +154,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N6d5f5072752844f0bb36c222c42164cf",
+      "@id": "_:Na45e2a2692594191937587d1329a27a0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -166,7 +170,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:N6ece4947eed14f3f932a7e86009407fc",
+      "@id": "_:N061a94a22338447f9075ffdb60783b3c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0867"
@@ -180,10 +184,6 @@
         }
       ],
       "sc:name": "Sequence alignment report"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.gmapR",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

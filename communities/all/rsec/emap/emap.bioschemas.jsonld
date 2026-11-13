@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/emap",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N041a40f57cba4b00b1585313035f3e90"
+        "@id": "_:N2a4b54909a784ee2af8460aa319cd575"
       },
       "bsc:output": {
-        "@id": "_:Nade69a5ca1694aed848e1e5a915378df"
+        "@id": "_:Ncc6b2f7596d346f4b49a353f43ecdd12"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -78,7 +78,7 @@
       "sc:url": "http://www.emouseatlas.org/emap/home.html"
     },
     {
-      "@id": "_:N041a40f57cba4b00b1585313035f3e90",
+      "@id": "_:N2a4b54909a784ee2af8460aa319cd575",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1149"
@@ -86,7 +86,7 @@
       "sc:name": "EMAGE ID"
     },
     {
-      "@id": "_:Nade69a5ca1694aed848e1e5a915378df",
+      "@id": "_:Ncc6b2f7596d346f4b49a353f43ecdd12",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1713"

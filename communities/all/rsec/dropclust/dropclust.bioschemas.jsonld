@@ -40,21 +40,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nb692834633974bd4a508dc395465f7d7"
+          "@id": "_:Nb7566d92832149038dc7bdf9c7e7ffe8"
         },
         {
-          "@id": "_:Ne9edc7468882413ebf5b43957b47ac31"
+          "@id": "_:Nd46ebc86711b4072a161b1853385fe13"
         },
         {
-          "@id": "_:Na74603b6aaec49efb03b7ac8e4d41c46"
+          "@id": "_:Ncf59b77a08364cca98c3552159707bb6"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nfbb3575ccbb84e9e9f65c484a3b2d4b0"
+          "@id": "_:N7c137d80f0df418aa04ea7d8143848b5"
         },
         {
-          "@id": "_:N30f0e0ba536b4e9196a595361723e0ac"
+          "@id": "_:N8f60bd46a5744d67a7bd7327da21b288"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -106,7 +106,7 @@
       "sc:url": "https://debsinha.shinyapps.io/dropClust/"
     },
     {
-      "@id": "_:Nb692834633974bd4a508dc395465f7d7",
+      "@id": "_:Nb7566d92832149038dc7bdf9c7e7ffe8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -117,7 +117,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:Ne9edc7468882413ebf5b43957b47ac31",
+      "@id": "_:Nd46ebc86711b4072a161b1853385fe13",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -128,7 +128,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Na74603b6aaec49efb03b7ac8e4d41c46",
+      "@id": "_:Ncf59b77a08364cca98c3552159707bb6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -139,7 +139,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Nfbb3575ccbb84e9e9f65c484a3b2d4b0",
+      "@id": "_:N7c137d80f0df418aa04ea7d8143848b5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -147,7 +147,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N30f0e0ba536b4e9196a595361723e0ac",
+      "@id": "_:N8f60bd46a5744d67a7bd7327da21b288",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

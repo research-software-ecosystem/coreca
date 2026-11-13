@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/sppg",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N5ee33595f14844ed9dff890f022ea86e"
+        "@id": "_:N4b279a108ab548d49567d82e1b9f963f"
       },
       "bsc:output": {
-        "@id": "_:N7f7c787594124390810dbe2a0fa08182"
+        "@id": "_:N3f5c83069466439484b4e75e0e3e89e6"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workbench",
@@ -75,7 +75,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/cgi-bin/SPPG/index.htpl"
     },
     {
-      "@id": "_:N5ee33595f14844ed9dff890f022ea86e",
+      "@id": "_:N4b279a108ab548d49567d82e1b9f963f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -83,7 +83,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:N7f7c787594124390810dbe2a0fa08182",
+      "@id": "_:N3f5c83069466439484b4e75e0e3e89e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1075"

@@ -48,17 +48,17 @@
         "Marie-Agnès Dillies"
       ],
       "bsc:input": {
-        "@id": "_:N503159847a0b44a799a38b777cf77216"
+        "@id": "_:Ne17364d2bccc4cde8bc407cd51158d02"
       },
       "bsc:output": [
         {
-          "@id": "_:N51c3223d126b4c819cefd7e43af88920"
+          "@id": "_:N712a2b13329946e28f94a662527ebd22"
         },
         {
-          "@id": "_:N587c7393f2804a71a322e2230fa14de3"
+          "@id": "_:N45bb57384a18440ba0ae5042ecdaf319"
         },
         {
-          "@id": "_:N727ee9483f1d403e8fd4c3d0b5a8e1a4"
+          "@id": "_:Nb40a07ad3d9241fbac1abfb396e36913"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -120,7 +120,7 @@
       "sc:url": "https://github.com/PF2-pasteur-fr/SARTools"
     },
     {
-      "@id": "_:N503159847a0b44a799a38b777cf77216",
+      "@id": "_:Ne17364d2bccc4cde8bc407cd51158d02",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -131,7 +131,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N51c3223d126b4c819cefd7e43af88920",
+      "@id": "_:N712a2b13329946e28f94a662527ebd22",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -139,7 +139,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N587c7393f2804a71a322e2230fa14de3",
+      "@id": "_:N45bb57384a18440ba0ae5042ecdaf319",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"
@@ -150,7 +150,7 @@
       "sc:name": "Experiment report"
     },
     {
-      "@id": "_:N727ee9483f1d403e8fd4c3d0b5a8e1a4",
+      "@id": "_:Nb40a07ad3d9241fbac1abfb396e36913",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"

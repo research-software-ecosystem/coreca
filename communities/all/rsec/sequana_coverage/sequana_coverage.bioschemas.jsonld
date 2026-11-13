@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/gigascience/giy110",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/sequana_coverage",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Thomas Cokelaer",
       "bsc:input": {
-        "@id": "_:N9123795e9d8446fa881bb6315951d1d6"
+        "@id": "_:N46a8b4d71063429fa9857690c9155d52"
       },
       "bsc:output": {
-        "@id": "_:N0c87c9c5fc384c498bfa33c61db1247c"
+        "@id": "_:N2e02bfa3abab4f0f89123484633888c8"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -89,7 +93,7 @@
       "sc:url": "http://sequana.readthedocs.io"
     },
     {
-      "@id": "_:N9123795e9d8446fa881bb6315951d1d6",
+      "@id": "_:N46a8b4d71063429fa9857690c9155d52",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2854"
@@ -108,7 +112,7 @@
       "sc:name": "Position-specific scoring matrix"
     },
     {
-      "@id": "_:N0c87c9c5fc384c498bfa33c61db1247c",
+      "@id": "_:N2e02bfa3abab4f0f89123484633888c8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -117,10 +121,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://doi.org/10.1093/gigascience/giy110",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

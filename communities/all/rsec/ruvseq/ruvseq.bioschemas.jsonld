@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/ruvseq",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf0f294d39cc44579abc58f89fd14093e"
+        "@id": "_:N971db41745fb4cf798f90b89d95356c7"
       },
       "bsc:output": {
-        "@id": "_:Nb3d2305ea18a4af19f4fd83ce52045e1"
+        "@id": "_:N443986816ecf4e7a9f1d807944aec7f0"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -83,7 +83,7 @@
       "sc:url": "https://bioconductor.org/packages/RUVSeq"
     },
     {
-      "@id": "_:Nf0f294d39cc44579abc58f89fd14093e",
+      "@id": "_:N971db41745fb4cf798f90b89d95356c7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -94,7 +94,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:Nb3d2305ea18a4af19f4fd83ce52045e1",
+      "@id": "_:N443986816ecf4e7a9f1d807944aec7f0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

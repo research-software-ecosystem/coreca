@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -45,14 +45,14 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Nf008c3ae8a7f4edd8b449fdbe6227ee4"
+          "@id": "_:Nba110b8ec39c420e9bb811755b080d1f"
         },
         {
-          "@id": "_:Nc23ea884ebc74005b37e03b1a0f23b61"
+          "@id": "_:Naf85b1a7c4d8400cbc43a1acbae014cc"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nc317cec8622d417a9338b4438786a971"
+        "@id": "_:Nca1fa47cd2bc4af7b61691714f1b4a13"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -88,7 +88,7 @@
       "sc:url": "http://www.htslib.org/"
     },
     {
-      "@id": "_:Nf008c3ae8a7f4edd8b449fdbe6227ee4",
+      "@id": "_:Nba110b8ec39c420e9bb811755b080d1f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -99,7 +99,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nc23ea884ebc74005b37e03b1a0f23b61",
+      "@id": "_:Naf85b1a7c4d8400cbc43a1acbae014cc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -110,7 +110,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Nc317cec8622d417a9338b4438786a971",
+      "@id": "_:Nca1fa47cd2bc4af7b61691714f1b4a13",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -121,7 +121,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

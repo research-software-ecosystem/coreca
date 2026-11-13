@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/gene_updater",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc45ba50cec8d4d52af46754d08bdae7a"
+        "@id": "_:N5c117c73971e4863af10f8ef6b9a1c5c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -97,7 +97,7 @@
       "sc:url": "https://kuanrongchan-date-to-gene-converter-date-gene-tool-oodr7h.streamlitapp.com"
     },
     {
-      "@id": "_:Nc45ba50cec8d4d52af46754d08bdae7a",
+      "@id": "_:N5c117c73971e4863af10f8ef6b9a1c5c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"

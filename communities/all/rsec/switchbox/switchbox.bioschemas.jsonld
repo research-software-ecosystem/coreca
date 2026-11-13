@@ -47,10 +47,10 @@
       "@id": "https://bio.tools/switchbox",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N512e28350acc4954b4b2395785bed38c"
+        "@id": "_:Nccefb115ff4c4cf6af12722339052261"
       },
       "bsc:output": {
-        "@id": "_:N4145079ad0ec435eabdf6c9f0669b867"
+        "@id": "_:N524f40a7cc414d769d3e5a902d9298f5"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -77,7 +77,7 @@
       "sc:featureList": {
         "@id": "edam:operation_3664"
       },
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "switchBox",
       "sc:operatingSystem": [
         "Linux",
@@ -91,7 +91,7 @@
       "sc:url": "https://bioconductor.org/packages/switchBox"
     },
     {
-      "@id": "_:N512e28350acc4954b4b2395785bed38c",
+      "@id": "_:Nccefb115ff4c4cf6af12722339052261",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -102,7 +102,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N4145079ad0ec435eabdf6c9f0669b867",
+      "@id": "_:N524f40a7cc414d769d3e5a902d9298f5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btw660",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/mirnameconverter",
       "@type": "sc:SoftwareApplication",
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -62,7 +58,7 @@
       "sc:citation": {
         "@id": "https://doi.org/10.1093/bioinformatics/btw660"
       },
-      "sc:description": "Translating mature miRNA names to different miRBase versions, sequence retrieval, checking names for validity and detecting miRBase version of a given set of names (data from http://www.mirbase.org/).",
+      "sc:description": "Package containing an S4 class for translating mature miRNA names to different miRBase versions, sequence retrieval, checking names for validity and detecting miRBase version of a given set of names.",
       "sc:featureList": [
         {
           "@id": "edam:operation_0335"
@@ -83,6 +79,10 @@
       },
       "sc:softwareVersion": "1.40.0",
       "sc:url": "https://bioconductor.org/packages/miRNAmeConverter"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btw660",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

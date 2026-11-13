@@ -35,22 +35,22 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1900,
+                            "cit_count": 1918,
                             "citations": [
                                 {
                                     "count": 11,
                                     "year": 2017
                                 },
                                 {
-                                    "count": 28,
+                                    "count": 30,
                                     "year": 2018
                                 },
                                 {
-                                    "count": 41,
+                                    "count": 43,
                                     "year": 2019
                                 },
                                 {
-                                    "count": 93,
+                                    "count": 94,
                                     "year": 2020
                                 },
                                 {
@@ -62,12 +62,12 @@
                                     "year": 2022
                                 },
                                 {
-                                    "count": 273,
-                                    "year": 2026
-                                },
-                                {
                                     "count": 281,
                                     "year": 2023
+                                },
+                                {
+                                    "count": 286,
+                                    "year": 2026
                                 },
                                 {
                                     "count": 368,

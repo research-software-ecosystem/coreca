@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/phycomine",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1f648b001c18424aad772bb1d27a33ce"
+        "@id": "_:Na4172489d4b14799947041572abc65d9"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -92,7 +92,7 @@
       "sc:url": "https://phycomine.iq.usp.br"
     },
     {
-      "@id": "_:N1f648b001c18424aad772bb1d27a33ce",
+      "@id": "_:Na4172489d4b14799947041572abc65d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"

@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N23123c8acae546b5851da0a0e6469fcb"
+          "@id": "_:Ncf4cf22a990547a28ee6a3daec634f05"
         },
         {
-          "@id": "_:N912d3d37a3744e8b839f6bf1f03aec95"
+          "@id": "_:N1c418369103a4832a631261b6ec7fd86"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -91,7 +91,7 @@
       "sc:url": "https://awi.cuhk.edu.cn/KinasePhos/index.html"
     },
     {
-      "@id": "_:N23123c8acae546b5851da0a0e6469fcb",
+      "@id": "_:Ncf4cf22a990547a28ee6a3daec634f05",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -99,7 +99,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N912d3d37a3744e8b839f6bf1f03aec95",
+      "@id": "_:N1c418369103a4832a631261b6ec7fd86",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

@@ -41,20 +41,20 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N035d1b8e9f8c48728cc4099ad1392ef6"
+          "@id": "_:N93104cc464f648afa71dfa945e5d00dc"
         },
         {
-          "@id": "_:Nf94aa7192ccd453ebb6bf09e87f42fe1"
+          "@id": "_:Nd73e4415646d48639c30cbc1104bd26e"
         },
         {
-          "@id": "_:N39ce8e1c3c924bc7ad7619b602e53663"
+          "@id": "_:N0a958513a24840b19f87516392df23e2"
         },
         {
-          "@id": "_:N264ea21c26414e9c802d5c9120b434a4"
+          "@id": "_:Nda8460286ebf40838dab9182780482fb"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nda12a35d75db46f9a89f0e093b4f16e8"
+        "@id": "_:N979435a7898048a3a780953c4c801b9b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -88,7 +88,7 @@
       "sc:url": "http://www.htslib.org/"
     },
     {
-      "@id": "_:N035d1b8e9f8c48728cc4099ad1392ef6",
+      "@id": "_:N93104cc464f648afa71dfa945e5d00dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -99,7 +99,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf94aa7192ccd453ebb6bf09e87f42fe1",
+      "@id": "_:Nd73e4415646d48639c30cbc1104bd26e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -110,7 +110,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N39ce8e1c3c924bc7ad7619b602e53663",
+      "@id": "_:N0a958513a24840b19f87516392df23e2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -121,7 +121,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N264ea21c26414e9c802d5c9120b434a4",
+      "@id": "_:Nda8460286ebf40838dab9182780482fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -132,7 +132,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:Nda12a35d75db46f9a89f0e093b4f16e8",
+      "@id": "_:N979435a7898048a3a780953c4c801b9b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -143,11 +143,11 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

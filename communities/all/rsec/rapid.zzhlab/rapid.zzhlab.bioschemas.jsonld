@@ -36,10 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.3389/FIMMU.2021.717496",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/rapid.zzhlab",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N4ad56ccbaeb74a6d9d790a9c9e688e90"
+        "@id": "_:N1d127f92a80943e49ca49161309a3f57"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -95,7 +99,7 @@
       "sc:url": "https://rapid.zzhlab.org/"
     },
     {
-      "@id": "_:N4ad56ccbaeb74a6d9d790a9c9e688e90",
+      "@id": "_:N1d127f92a80943e49ca49161309a3f57",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -104,10 +108,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence"
-    },
-    {
-      "@id": "https://doi.org/10.3389/FIMMU.2021.717496",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

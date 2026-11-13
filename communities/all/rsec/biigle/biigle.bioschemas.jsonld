@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "BIIGLE Support Team",
       "bsc:input": {
-        "@id": "_:N213ff540f33c4535b57bc9a596d74476"
+        "@id": "_:Nc2eb13cbcb6a4d2482761512b4823641"
       },
       "bsc:output": {
-        "@id": "_:N746841b14bec467ba27813289b91e5ae"
+        "@id": "_:N8756408673fd428b9cebb7f51beecd31"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -107,7 +107,7 @@
       "sc:url": "https://biigle.de"
     },
     {
-      "@id": "_:N213ff540f33c4535b57bc9a596d74476",
+      "@id": "_:Nc2eb13cbcb6a4d2482761512b4823641",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -129,7 +129,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N746841b14bec467ba27813289b91e5ae",
+      "@id": "_:N8756408673fd428b9cebb7f51beecd31",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3546"

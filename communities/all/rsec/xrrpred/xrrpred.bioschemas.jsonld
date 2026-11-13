@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/xrrpred",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd72793fb524949bbba8aafa41620d7e9"
+        "@id": "_:N1ba750dc4c0b4ebbbb4c64aa88836f94"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -95,7 +95,7 @@
       "sc:url": "http://biomine.cs.vcu.edu/servers/XRRPred/"
     },
     {
-      "@id": "_:Nd72793fb524949bbba8aafa41620d7e9",
+      "@id": "_:N1ba750dc4c0b4ebbbb4c64aa88836f94",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

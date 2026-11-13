@@ -44,18 +44,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nbe28c7412eb0440493ab07fca7fb54d9"
+          "@id": "_:Nc2690da99b144accaa863173d2be0bca"
         },
         {
-          "@id": "_:Nfe3647feb4aa49eb92f9878f7c44e2de"
+          "@id": "_:N2c723581ed38434d8bda4bd0e3dd46de"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N86458c490bfe4f77bd13e8cd11270e32"
+          "@id": "_:N30bcd975cedd4c11afef5a24461b9898"
         },
         {
-          "@id": "_:Nbf0e51e74d2844d2b8be7fcdb2b264b0"
+          "@id": "_:N024766bc587148ba944386d39c93c90c"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -93,7 +93,7 @@
           "@id": "edam:operation_2238"
         }
       ],
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "a4",
       "sc:operatingSystem": [
         "Linux",
@@ -107,7 +107,7 @@
       "sc:url": "https://bioconductor.org/packages/a4"
     },
     {
-      "@id": "_:Nbe28c7412eb0440493ab07fca7fb54d9",
+      "@id": "_:Nc2690da99b144accaa863173d2be0bca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"
@@ -118,7 +118,7 @@
       "sc:name": "Processed microarray data"
     },
     {
-      "@id": "_:Nfe3647feb4aa49eb92f9878f7c44e2de",
+      "@id": "_:N2c723581ed38434d8bda4bd0e3dd46de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3113"
@@ -129,7 +129,7 @@
       "sc:name": "Sample annotation"
     },
     {
-      "@id": "_:N86458c490bfe4f77bd13e8cd11270e32",
+      "@id": "_:N30bcd975cedd4c11afef5a24461b9898",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"
@@ -140,7 +140,7 @@
       "sc:name": "Processed microarray data"
     },
     {
-      "@id": "_:Nbf0e51e74d2844d2b8be7fcdb2b264b0",
+      "@id": "_:N024766bc587148ba944386d39c93c90c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3113"

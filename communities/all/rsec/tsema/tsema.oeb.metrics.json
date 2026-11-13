@@ -105,12 +105,8 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 180,
+                            "cit_count": 181,
                             "citations": [
-                                {
-                                    "count": 2,
-                                    "year": 2018
-                                },
                                 {
                                     "count": 3,
                                     "year": -1
@@ -126,6 +122,10 @@
                                 {
                                     "count": 3,
                                     "year": 2017
+                                },
+                                {
+                                    "count": 3,
+                                    "year": 2018
                                 },
                                 {
                                     "count": 3,

@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/qcmetrics",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc415d627142445e294687d66969e7f2e"
+        "@id": "_:N083d76dd02f44baca40c23cc07c1c073"
       },
       "bsc:output": {
-        "@id": "_:Nf03669f4b514451da0e0582639773480"
+        "@id": "_:N7d9c117cc2a649f999a96a1edc36041c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -95,7 +95,7 @@
           "@id": "edam:operation_2428"
         }
       ],
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "qcmetrics",
       "sc:operatingSystem": [
         "Linux",
@@ -109,7 +109,7 @@
       "sc:url": "https://bioconductor.org/packages/qcmetrics"
     },
     {
-      "@id": "_:Nc415d627142445e294687d66969e7f2e",
+      "@id": "_:N083d76dd02f44baca40c23cc07c1c073",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -120,7 +120,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:Nf03669f4b514451da0e0582639773480",
+      "@id": "_:N7d9c117cc2a649f999a96a1edc36041c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

@@ -47,30 +47,30 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nfc86428134db4cd3b1d301bd9e7a0c75"
+          "@id": "_:N51a4fbd805284b0f919442e40c6ad99a"
         },
         {
-          "@id": "_:N983bc04340fd4fdab51e5b4d2d127d41"
+          "@id": "_:N09e5f90dea9d4ea9826487f4cb54b8ab"
         },
         {
-          "@id": "_:Nf2ae62438db04b6fb5f0a2c036b920a2"
+          "@id": "_:N87b61f7d68d142138f392d6ddc897bcd"
         },
         {
-          "@id": "_:Ned4792099e624a4db4ea3c6221996b30"
+          "@id": "_:N5efbd542667e486b8e9bbc9a37e5f167"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8ad2d2ce91244e6a88714d20ae52f409"
+          "@id": "_:N6388c0f3b7794438afc8b1c4a7ecd156"
         },
         {
-          "@id": "_:Nafa2d535fecd4c7395bc59d810b8753b"
+          "@id": "_:Ncb60873f23a14d78924a5a1a60595d33"
         },
         {
-          "@id": "_:N34ab1ff738d1418faeb7a30eeb0bbc25"
+          "@id": "_:Ncb97801791a24862978fb2212ad5b372"
         },
         {
-          "@id": "_:N75faef855e23481592caac42fe78ed2c"
+          "@id": "_:Ne73c9461eaf848cf9adc0933382a70d2"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -119,7 +119,7 @@
       "sc:url": "https://github.com/BU-ISCIII/taranis"
     },
     {
-      "@id": "_:Nfc86428134db4cd3b1d301bd9e7a0c75",
+      "@id": "_:N51a4fbd805284b0f919442e40c6ad99a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -130,7 +130,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N983bc04340fd4fdab51e5b4d2d127d41",
+      "@id": "_:N09e5f90dea9d4ea9826487f4cb54b8ab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -141,7 +141,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nf2ae62438db04b6fb5f0a2c036b920a2",
+      "@id": "_:N87b61f7d68d142138f392d6ddc897bcd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"
@@ -152,7 +152,7 @@
       "sc:name": "Sequence assembly"
     },
     {
-      "@id": "_:Ned4792099e624a4db4ea3c6221996b30",
+      "@id": "_:N5efbd542667e486b8e9bbc9a37e5f167",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -163,7 +163,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:N8ad2d2ce91244e6a88714d20ae52f409",
+      "@id": "_:N6388c0f3b7794438afc8b1c4a7ecd156",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2855"
@@ -174,7 +174,7 @@
       "sc:name": "Distance matrix"
     },
     {
-      "@id": "_:Nafa2d535fecd4c7395bc59d810b8753b",
+      "@id": "_:Ncb60873f23a14d78924a5a1a60595d33",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2084"
@@ -190,7 +190,7 @@
       "sc:name": "Nucleic acid report"
     },
     {
-      "@id": "_:N34ab1ff738d1418faeb7a30eeb0bbc25",
+      "@id": "_:Ncb97801791a24862978fb2212ad5b372",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -201,7 +201,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N75faef855e23481592caac42fe78ed2c",
+      "@id": "_:Ne73c9461eaf848cf9adc0933382a70d2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3914"

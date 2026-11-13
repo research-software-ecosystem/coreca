@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1371/journal.pcbi.1002829",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/discotope",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ole Lund",
       "bsc:input": {
-        "@id": "_:N44e53c7f65254b039586aca63d13f124"
+        "@id": "_:Nabf0d94bb89e48b08d548f3961a9b7c6"
       },
       "bsc:output": {
-        "@id": "_:N6d8f910cc44e45f5a591d7b9239c44ee"
+        "@id": "_:Nb4e804c9cef04acd9054ef4e7e0f0bc8"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -81,7 +77,7 @@
       "sc:url": "http://cbs.dtu.dk/services/DiscoTope/"
     },
     {
-      "@id": "_:N44e53c7f65254b039586aca63d13f124",
+      "@id": "_:Nabf0d94bb89e48b08d548f3961a9b7c6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"
@@ -92,7 +88,7 @@
       "sc:name": "Structure"
     },
     {
-      "@id": "_:N6d8f910cc44e45f5a591d7b9239c44ee",
+      "@id": "_:Nb4e804c9cef04acd9054ef4e7e0f0bc8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -101,6 +97,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Protein features"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1002829",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/plasmodb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd65e119bbe544aa28c8eee1707afe5bd"
+        "@id": "_:N60047e4553ab4664865ed2074f71db45"
       },
       "bsc:output": {
-        "@id": "_:N28903b1bb9534a1495de39fc93d7ed78"
+        "@id": "_:Nbc754416adf74547ba56f50a5671026c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -76,7 +76,7 @@
       "sc:url": "http://plasmodb.org/plasmo/"
     },
     {
-      "@id": "_:Nd65e119bbe544aa28c8eee1707afe5bd",
+      "@id": "_:N60047e4553ab4664865ed2074f71db45",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -84,7 +84,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:N28903b1bb9534a1495de39fc93d7ed78",
+      "@id": "_:Nbc754416adf74547ba56f50a5671026c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
