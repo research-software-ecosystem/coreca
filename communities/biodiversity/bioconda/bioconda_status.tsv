@@ -1,0 +1,1149 @@
+package.name	To keep	about.summary	about.description	about.home
+mpa-server	False	Independent platform for interpretation of proteomics identification results	"MetaProteomeAnalyzer (MPA) is a scientific software for analyzing and visualizing metaproteomics (and also
+proteomics) data. The tool presents a MS/MS spectrum data processing application for protein identification in
+combination with a user-friendly interactive graphical interface. The metaproteomics data analysis software is
+developed in the Java programming language and provides various features for user-defined querying of the
+results.
+"	https://github.com/compomics/meta-proteome-analyzer
+vicmag	False	A visualization tool for circular metagenome-assembled genomes	"VicMAG is a visualization tool for circular metagenome-assembled genomes
+focusing on virulence genes, antimicrobial resistance genes, plasmids,
+and viral regions.
+"	https://github.com/TsudaYusuke/VicMAG
+rgi	False	This tool provides a preliminary annotation of your DNA sequence(s) based upon the data available in The Comprehensive Antibiotic Resistance Database (CARD). Hits to genes tagged with Antibiotic Resistance ontology terms will be highlighted. As CARD expands to include more pathogens, genomes, plasmids, and ontology terms this tool will grow increasingly powerful in providing first-pass detection of antibiotic resistance associated genes. See license at CARD website.		https://card.mcmaster.ca
+mi-pimento	False	A PrIMEr infereNce TOolkit to facilitate large-scale calling of metabarcoding amplicon sequence variants.	"A toolkit for performing primer inference in sequencing reads.
+"	https://github.com/EBI-Metagenomics/PIMENTO
+condiga	False	ConDiGA: Contigs Directed Gene Annotation for accurate protein sequence database construction in metaproteomics	"ConDiGA is a taxonomic annotation pipeline for metagenomic data to construct accurate protein sequence databases for deep metaproteomic coverage.
+"	https://github.com/metagentools/ConDiGA
+dart-adna	False	DART - Damage-Aware Read Translation for ancient DNA metagenomics.		https://github.com/genomewalker/dart
+gmwi2	False	Enhanced Health Status Prediction from Gut Microbiome Taxonomic Profiles	"GMWI2 (Gut Microbiome Wellness Index 2) is a robust and biologically interpretable predictor of health status based on gut microbiome taxonomic profiles. 
+On a stool metagenome sample, this command-line tool performs four major steps:
+(1) Quality control;
+(2) Taxonomic profiling using MetaPhlAn3 (v3.0.13) with the mpa\_v30\_CHOCOPhlAn_201901 marker database;
+(3) Transformation of taxonomic relative abundances into a binary presence/absence profile;
+(4) Computation of the GMWI2 score using a Lasso-penalized logistic regression model trained on a meta-dataset of 8,069 health status labeled stool shotgun metagenomes."	https://github.com/danielchang2002/GMWI2
+bioconductor-siamcat	False	Statistical Inference of Associations between Microbial Communities And host phenoTypes	Pipeline for Statistical Inference of Associations between Microbial Communities And host phenoTypes (SIAMCAT). A primary goal of analyzing microbiome data is to determine changes in community composition that are associated with environmental factors. In particular, linking human microbiome composition to host phenotypes such as diseases has become an area of intense research. For this, robust statistical modeling and biomarker extraction toolkits are crucially needed. SIAMCAT provides a full pipeline supporting data preprocessing, statistical association testing, statistical modeling (LASSO logistic regression) including tools for evaluation and interpretation of these models (such as cross validation, parameter selection, ROC analysis and diagnostic model plots).	https://bioconductor.org/packages/3.22/bioc/html/SIAMCAT.html
+deeparg	False	A deep learning based approach to predict Antibiotic Resistance Genes (ARGs) from metagenomes		https://github.com/gaarangoa/deeparg
+fjord	False	ONT amplicon sequencing pipeline for bacterial identification	"FJORD (Flexible Joint Operational pipeline for Reference-based Diagnostics)
+is an amplicon sequencing pipeline for bacterial identification from Oxford
+Nanopore Technologies long-read data. It maps reads to a GTDB-formatted
+reference database, generates consensus sequences, clusters similar
+sequences with IUPAC-aware consolidation, and assigns taxonomy via BLAST.
+"	https://github.com/adnsvrtsn/fjord
+itsxpress	False	ITSxpress: Software to rapidly trim the Internally Transcribed Spacer (ITS) region from FASTQ files.		https://github.com/usda-ars-gbru/itsxpress
+binny	False	An automated binning algorithm to recover high-quality genomes from complex metagenomic datasets. Note: This is a development version.		https://github.com/a-h-b/binny
+plasann	False	A tool for plasmid annotation and visualization.	"A comprehensive tool for annotating plasmid sequences, identifying coding
+sequences, detecting origins of replication and transfer, and generating
+plasmid maps.
+
+For Mac (Apple Silicon) users, please install these additional dependencies:
+- brew install blast
+- brew install brewsci/bio/prodigal
+
+Please ensure both tools are available in your PATH before running PlasAnn.
+"	https://github.com/ajlopatkin/PlasAnn
+metapop	False	A pipeline for the macro- and micro-diversity analyses and visualization of metagenomic-derived populations		https://https://github.com/metaGmetapop/metapop
+vamb	False	Variational autoencoder for metagenomic binning.		https://github.com/RasmussenLab/vamb
+virmet	False	A pipeline for viral metagenomics	"VirMet is a Python package for viral metagenomics analysis in clinical applications.
+It includes command-line utilities and depends on common bioinformatics tools.
+"	https://github.com/medvir/VirMet
+themis	False	Themis: metagenomic profiler		https://github.com/xujialupaoli/Themis
+r-ampvis2	False	Tools for visualising amplicon data		https://github.com/MadsAlbertsen/ampvis2
+bioconductor-variantexperiment	False	A RangedSummarizedExperiment Container for VCF/GDS Data with GDS Backend	VariantExperiment is a Bioconductor package for saving data in VCF/GDS format into RangedSummarizedExperiment object. The high-throughput genetic/genomic data are saved in GDSArray objects. The annotation data for features/samples are saved in DelayedDataFrame format with mono-dimensional GDSArray in each column. The on-disk representation of both assay data and annotation data achieves on-disk reading and processing and saves memory space significantly. The interface of RangedSummarizedExperiment data format enables easy and common manipulations for high-throughput genetic/genomic data with common SummarizedExperiment metaphor in R and Bioconductor.	https://bioconductor.org/packages/3.22/bioc/html/VariantExperiment.html
+bioconductor-screenr	False	Package to Perform High Throughput Biological Screening	ScreenR is a package suitable to perform hit identification in loss of function High Throughput Biological Screenings performed using barcoded shRNA-based libraries. ScreenR combines the computing power of software such as edgeR with the simplicity of use of the Tidyverse metapackage. ScreenR executes a pipeline able to find candidate hits from barcode counts, and integrates a wide range of visualization modes for each step of the analysis.	https://bioconductor.org/packages/3.22/bioc/html/ScreenR.html
+metaquant	False	Quantitative microbiome analysis		The package home page
+plasflow	False	PlasFlow - predicting plasmid sequences in metagenomic data		https://github.com/smaegol/PlasFlow
+interval-binning	False	A Python implementation of the interval binning scheme		https://github.com/martijnvermaat/binning
+fishtaco	False	FishTaco: a metagenomic computational framework, aiming to identify the taxa that are driving functional shifts in microbiomes.		https://github.com/borenstein-lab/fishtaco/
+qimba	False	Toolkit for metabarcoding analyses		https://github.com/quadram-institute-bioscience/qimba
+metapi	False	A general metagenomics data mining system focus on robust microbiome research		https://github.com/ohmeta/metapi
+protal	False	Reference-based metagenomic analysis.	"Protal is a computational tool for taxonomic profiling and strain-resolved analyses of bacterial communities from
+metagenomic shotgun sequencing data (short-reads). Following a reference-based approach, protal uses the same
+120 universal marker genes GTDB uses to build their phylogeny (TIGRFAM, PFAM) and thus integrates well with other
+120 universal marker genes GTDB uses to build their phylogeny (TIGRFAM, PFAM) and thus integrates well with other
+tools working in the GTDB taxonomy space."	https://github.com/4less/protal
+ssuplex	False	Fast SSU rRNA extraction and origin sorting (bacterial, archaeal, eukaryotic, mitochondrial, chloroplast) for eDNA reads.	"SSUplex extracts small-subunit rRNA (16S/18S) sequences from environmental
+sequencing reads and sorts them by origin so each set can be routed to the
+appropriate downstream classifier. It is a Rust reimplementation of the
+Metaxa2 SSU extraction and origin-classification step, using nhmmer to scan
+both strands. HMM profiles are not bundled; build them from the Metaxa2 SSU
+profile database as described in the README.
+"	https://github.com/ayobi/ssuplex
+bioconductor-adapt	False	Analysis of Microbiome Differential Abundance by Pooling Tobit Models	ADAPT carries out differential abundance analysis for microbiome metagenomics data in phyloseq format. It has two innovations. One is to treat zero counts as left censored and use Tobit models for log count ratios. The other is an innovative way to find non-differentially abundant taxa as reference, then use the reference taxa to find the differentially abundant ones.	https://bioconductor.org/packages/3.22/bioc/html/ADAPT.html
+isescan	False	A python pipeline to identify IS (Insertion Sequence) elements in genomes and metagenomes		https://github.com/xiezhq/ISEScan
+metamaps	False	MetaMaps is a tool for long-read metagenomic analysis		https://github.com/DiltheyLab/MetaMaps
+graphmb	False	GraphMB is a Metagenomic Binner developed for long-read assemblies, that takes advantage of graph machine learning algorithms and the assembly graph generated during assembly.		https://github.com/MicrobialDarkMatter/GraphMB
+bioconductor-reconsi	False	Resampling Collapsed Null Distributions for Simultaneous Inference	Improves simultaneous inference under dependence of tests by estimating a collapsed null distribution through resampling. Accounting for the dependence between tests increases the power while reducing the variability of the false discovery proportion. This dependence is common in genomics applications, e.g. when combining flow cytometry measurements with microbiome sequence counts.	https://bioconductor.org/packages/3.22/bioc/html/reconsi.html
+maxbin2	False	MaxBin is software for binning assembled metagenomic sequences based on an Expectation-Maximization algorithm.		https://sourceforge.net/projects/maxbin
+rfplasmid	False	RFPlasmid predicts plasmid contigs from assemblies using single copy marker genes, plasmid genes, and kmers.		https://github.com/aldertzomer/RFPlasmid
+magebin	False	Masked adaptive graph-evidence binning for viral metagenomes		https://github.com/RanaweeraHK/MAGE-Bin
+bioconductor-massarray	False	Analytical Tools for MassArray Data	This package is designed for the import, quality control, analysis, and visualization of methylation data generated using Sequenom's MassArray platform.  The tools herein contain a highly detailed amplicon prediction for optimal assay design. Also included are quality control measures of data, such as primer dimer and bisulfite conversion efficiency estimation. Methylation data are calculated using the same algorithms contained in the EpiTyper software package.  Additionally, automatic SNP-detection can be used to flag potentially confounded data from specific CG sites.  Visualization includes barplots of methylation data as well as UCSC Genome Browser-compatible BED tracks.  Multiple assays can be positionally combined for integrated analysis.	https://bioconductor.org/packages/3.22/bioc/html/MassArray.html
+camisim2	False	CAMISIM models abundance distributions of microbial communities and simulates metagenome datasets.		https://github.com/CAMI-challenge/CAMISIM
+checkv	False	Assess the quality of metagenome-assembled viral genomes.		https://bitbucket.org/berkeleylab/checkv
+crisprlungo	False	A software pipeline for analyzing single-anchor amplicon sequencing and quantifying complex genome editing outcomes		https://github.com/pinellolab/CRISPRlungo
+r-metalonda	False	Identify time intervals of differentially abundant metagenomics features in longitudinal studies.		https://github.com/aametwally/MetaLonDA
+tatouscan	False	A command-line tool for identifying toxin-antitoxin (TA) systems in genomes and metagenomes. 		https://github.com/JeanMainguy/tatouscan
+idba_subasm	False	Fork of IDBA with modifications to perform subassembly for the read cloud metagenomic assembler Athena		https://github.com/abishara/idba
+r-biomartr	False	Perform large scale genomic data retrieval and functional annotation retrieval. This package aims to provide users with a standardized way to automate genome, proteome, 'RNA', coding sequence ('CDS'), 'GFF', and metagenome retrieval from 'NCBI RefSeq', 'NCBI Genbank', 'ENSEMBL', 'ENSEMBLGENOMES', and 'UniProt' databases. Furthermore, an interface to the 'BioMart' database (Smedley et al. (2009) <doi:10.1186/1471-2164-10-22>) allows users to retrieve functional annotation for genomic loci. In addition, users can download entire databases such as 'NCBI RefSeq' (Pruitt et al. (2007) <doi:10.1093/nar/gkl842>), 'NCBI nr', 'NCBI nt', 'NCBI Genbank' (Benson et al. (2013) <doi:10.1093/nar/gks1195>), etc. as well as 'ENSEMBL' and 'ENSEMBLGENOMES' with only one command.		https://docs.ropensci.org/biomartr, https://github.com/ropensci/biomartr
+bioconductor-microbiotaprocess	False	A comprehensive R package for managing and analyzing microbiome and other ecological data within the tidy framework	MicrobiotaProcess is an R package for analysis, visualization and biomarker discovery of microbial datasets. It introduces MPSE class, this make it more interoperable with the existing computing ecosystem. Moreover, it introduces a tidy microbiome data structure paradigm and analysis grammar. It provides a wide variety of microbiome data analysis procedures under the unified and common framework (tidy-like framework).	https://bioconductor.org/packages/3.22/bioc/html/MicrobiotaProcess.html
+zipstrain	False	Fast strain-level metagenomics		https://github.com/OlmLab/ZipStrain
+desman	False	De novo Extraction of Strains from MetAgeNomes		https://github.com/chrisquince/DESMAN
+haystac	False	Species identification pipeline for both single species and metagenomic samples.		https://github.com/antonisdim/haystac
+bioconductor-ifaa	False	Robust Inference for Absolute Abundance in Microbiome Analysis	This package offers a robust approach to make inference on the association of covariates with the absolute abundance (AA) of microbiome in an ecosystem. It can be also directly applied to relative abundance (RA) data to make inference on AA because the ratio of two RA is equal to the ratio of their AA. This algorithm can estimate and test the associations of interest while adjusting for potential confounders. The estimates of this method have easy interpretation like a typical regression analysis. High-dimensional covariates are handled with regularization and it is implemented by parallel computing. False discovery rate is automatically controlled by this approach. Zeros do not need to be imputed by a positive value for the analysis. The IFAA package also offers the 'MZILN' function for estimating and testing associations of abundance ratios with covariates.	https://bioconductor.org/packages/3.22/bioc/html/IFAA.html
+groopm	False	Metagenomic binning suite.		https://github.com/centre-for-microbiome-research/GroopM
+sylph-tax	False	Integrating taxonomic information into the sylph metagenome profiler.		https://github.com/bluenote-1577/sylph-tax
+bmtool	False	bmtool is part of BMTagger aka Best Match Tagger, for removing human reads from metagenomics datasets		ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/bmtagger/
+refseq-plasmid-dl	False	A command-line tool to download and curate RefSeq plasmid sequences from NCBI.		https://github.com/erinyoung/refseq-plasmid-dl
+bioconductor-etec16s	False	Individual-specific changes in the human gut microbiota after challenge with enterotoxigenic Escherichia coli and subsequent ciprofloxacin treatment	16S rRNA gene sequencing data to study changes in the faecal microbiota of 12 volunteers during a human challenge study with ETEC (H10407) and subsequent treatment with ciprofloxacin.	https://bioconductor.org/packages/3.22/data/experiment/html/etec16s.html
+unassigner	False	Type strain identification for 16S reads		https://github.com/PennChopMicrobiomeProgram/unassigner
+bronko	False	bronko is an ultra-rapid mapping free variant caller for viral amplicon sequencing data		https://github.com/treangenlab/bronko
+biotransformer	False	Predicts small molecule metabolism.	"BioTransformer is a software tool that predicts small molecule metabolism in mammals, their gut microbiota,
+as well as the soil/aquatic microbiota. BioTransformer also assists scientists in metabolite identification,
+based on the metabolism prediction.
+"	https://bitbucket.org/wishartlab/biotransformer3.0jar/src
+bioconductor-phyloseq	False	Handling and analysis of high-throughput microbiome census data	phyloseq provides a set of classes and tools to facilitate the import, storage, analysis, and graphical display of microbiome census data.	https://bioconductor.org/packages/3.22/bioc/html/phyloseq.html
+modifi	False	DNA modification detection from PacBio SMRT metagenomic data.	"MODIFI detects DNA base modifications and infers host-mobile genetic
+element (MGE) linkages from PacBio metagenomic sequencing data. It supports
+modification calling, motif discovery, and host-MGE association for both
+subreads and HiFi read types. Native motif finding uses pbmotifmaker (from
+pbtk) on Linux if installed; otherwise use the bundled MultiMotifMaker.jar
+(OpenJDK). On macOS, install PacBio tools separately or rely on the JAR fallback.
+"	https://github.com/sachdevalab/MODIFI
+bioconductor-miatime	False	Microbiome Time Series Analysis	The `miaTime` package provides tools for microbiome time series analysis based on (Tree)SummarizedExperiment infrastructure.	https://bioconductor.org/packages/3.22/bioc/html/miaTime.html
+athena_meta	False	Athena read cloud assembler for metagenomes		https://github.com/abishara/athena_meta/
+fg-stitch	False	An aligner for long reads against one or more reference/expected vector/plasmid/construct(s).		https://github.com/fulcrumgenomics/stitch
+pyeuk	False	MLST/cgMLST typing, dropout-robust genetic distance estimation, and outbreak clustering for eukaryotic and microbial pathogens.	"PyEuk is a Python framework for molecular typing, genetic distance
+estimation, and foodborne/waterborne outbreak cluster detection in
+eukaryotic and microbial pathogens, including Cyclospora cayetanensis,
+Cryptosporidium parvum/hominis, and general MLST/cgMLST schemes. It
+provides reference-free de novo locus and haplotype discovery from
+assembled contigs, a weighted identity-by-state (wIBS) distance engine
+with selectable allele weighting, pairwise-complete dropout tolerance
+and optional PSD Gram matrix projection, and unsupervised Ward
+hierarchical clustering with either knee-based selection of the
+cluster count or a distance-threshold cut for surveillance cohorts
+whose structure is mostly singletons. An amplicon front end turns
+aligned reads into the haplotype sheet directly: analysis windows are
+derived from the reads themselves, and each haplotype is read off a
+single read that spans the window end to end, so linkage between
+positions is observed on one molecule rather than inferred across
+molecules.
+"	https://github.com/spond/pyeuk
+spestimator	False	A tool to predict bacterial species from fasta files using RefSeq 16S.		https://github.com/erinyoung/Spestimator
+uniqsketch	False	UniqSketch: sensitive and resource-efficient strain-level detection in metagenomes.		https://github.com/amazon-science/uniqsketch
+plannotate	False	Webserver and command line tool for annotating engineered plasmids.		https://github.com/mmcguffi/pLannotate
+marker-magu	False	Marker-MAGu: Trans-Kingdom Marker Gene Pipeline for Taxonomic Profiling of Human Metagenomes		https://github.com/cmmr/Marker-MAGu
+mosca	False	MOSCA - Meta-Omics Software for Community Analysis	"MOSCA (portuguese for fly) is a pipeline designed for performing metagenomics (MG),
+metatranscriptomics (MT) and metaproteomics (MP) integrated data analysis, 
+in a mostly local and fully automated workflow. Metagenomics is used to build 
+a reference database for MT and MP, beginning with preprocessing of data for
+removal of Illumina adapters and lower quality regions, folowed by assembly
+of reads into contigs, gene calling on the contigs and homology-based and 
+domain-based annotation of identified proteins, using the UniProt and COG 
+databases, respectively. If available, MT reads are then aligned to the ORFs 
+for gene expression quantification, and MP spectra are submitted for
+Peptide-to-Spectrum matching, with the annotated ORFs as reference database.
+Final steps include differential expression analysis for both MT and MP, and
+metabolic pathways analysis through KEGG Pathways.
+"	https://github.com/iquasere/MOSCA
+mmlong2	False	An all-in-one genome-centric metagenomics workflow using long reads		https://github.com/Serka-M/mmlong2
+prokbert	False	ProkBERT is a genomic language model specifically designed for microbiome applications. It leverages the power of machine learning to decipher complex microbial interactions, predict functionalities, and uncover novel patterns in extensive datasets. The ProkBERT model family, built on transfer learning and self-supervised methodologies, capitalizes on the abundant genomic data available.		https://github.com/nbrg-ppcu/prokbert
+viromeqc	False	Provides an enrichment score for VLP viromes with respect to metagenomes		https://github.com/SegataLab/viromeqc
+bioconductor-bdmmacorrect	False	Meta-analysis for the metagenomic read counts data from different cohorts	Metagenomic sequencing techniques enable quantitative analyses of the microbiome. However, combining the microbial data from these experiments is challenging due to the variations between experiments. The existing methods for correcting batch effects do not consider the interactions between variables—microbial taxa in microbial studies—and the overdispersion of the microbiome data. Therefore, they are not applicable to microbiome data. We develop a new method, Bayesian Dirichlet-multinomial regression meta-analysis (BDMMA), to simultaneously model the batch effects and detect the microbial taxa associated with phenotypes. BDMMA automatically models the dependence among microbial taxa and is robust to the high dimensionality of the microbiome and their association sparsity.	https://bioconductor.org/packages/3.17/bioc/html/BDMMAcorrect.html
+bioconductor-metabinr	False	Abundance and Compositional Based Binning of Metagenomes	Provide functions for performing abundance and compositional based binning on metagenomic samples, directly from FASTA or FASTQ files. Functions are implemented in Java and called via rJava. Parallel implementation that operates directly on input FASTA/FASTQ files for fast execution.	https://bioconductor.org/packages/3.22/bioc/html/metabinR.html
+ccfind	False	Circular Complete genome FINDer	"ccfind is a general tool to detect circular complete genomes
+with clues of terminal redundancy. It was originally designed
+for identification of complete virus genomes from metagenome assembly.
+"	https://github.com/yosuken/ccfind
+plasmidid	False	Pipeline for plasmid identification and reconstruction	PlasmidID is a mapping-based, assembly-assisted plasmid identification tool that analyzes and gives graphic solution for plasmid identification.	https://github.com/BU-ISCIII/plasmidID
+coconet-binning	False	A contig binning tool from viral metagenomes		https://github.com/Puumanamana/CoCoNet
+maaslin3	False	"""Refining and extending generalized multivariate linear models for meta-omic association discovery"""	MaAsLin 3 refines and extends generalized multivariate linear models for meta-omicron association discovery. It finds abundance and prevalence associations between microbiome meta-omics features and complex metadata in population-scale epidemiological studies. The software includes multiple analysis methods (including support for multiple covariates, repeated measures, and ordered predictors), filtering, normalization, and transform options to customize analysis for your specific study.	https://github.com/biobakery/maaslin3
+binspreader	False	"BinSPreader is a tool for improving existing binning using assembly
+graph and other sources of connectivity information
+"	"BinSPreader is a novel tool that attempts to refine metagenome-assembled
+genomes (MAGs) obtained from existing tools. BinSPreader exploits the
+assembly graph topology and other connectivity information, such as
+paired-end and Hi-C reads, to refine the existing binning, correct binning
+errors, propagate binning from longer contigs to shorter contigs and infer
+contigs belonging to multiple bins.
+"	https://cab.spbu.ru/software/binspreader/
+bygul	False	Bygul is an amplicon read simulating tool that can generate different sample read proportions based on user input.		https://github.com/andersen-lab/Bygul
+bioconductor-monalisa	False	Binned Motif Enrichment Analysis and Visualization	Useful functions to work with sequence motifs in the analysis of genomics data. These include methods to annotate genomic regions or sequences with predicted motif hits and to identify motifs that drive observed changes in accessibility or expression. Functions to produce informative visualizations of the obtained results are also provided.	https://bioconductor.org/packages/3.22/bioc/html/monaLisa.html
+genefior	False	GeneFíor: A customisable and multi-tool approach for gene detection	"GeneFíor orchestrates multiple alignment tools (BLAST, DIAMOND, Bowtie2, BWA, Minimap2 and MMseqs2) 
+to search DNA and protein sequences against AMR and user-provided databases with transparent, 
+coverage-based validation.
+"	https://github.com/NickJD/Genefior
+macrel	False	A pipeline for AMP (antimicrobial peptide) prediction	"Used for the prediction of AMPs in (meta)genomes.
+"	https://github.com/BigDataBiology/macrel
+saurus-cli	False	Command-line interface for the SAURUS Staphylococcus aureus genomic surveillance database	"SAURUS-CLI provides programmatic, reproducible access to 139,257
+Staphylococcus aureus genomes typed by MLST, spa, SCCmec (two
+independent callers), agr, and capsule serotype, plus AMR genes,
+virulence factors, plasmid replicons, and BioSample-derived
+metadata (country, source, host, collection year).
+
+The full data bundle ships inside the package. After installation,
+queries run locally with no downloads, no API keys, and no network
+access required. SAURUS-CLI is part of the ARGUS initiative, a
+family of open genomic surveillance tools covering the six WHO
+priority ESKAPE pathogens.
+"	https://saurus-db.org/
+apscale	False	Advanced Pipeline for Simple yet Comprehensive AnaLysEs of DNA metabarcoding data.		https://github.com/DominikBuchner/apscale
+sensityper	False	Genomic antimicrobial susceptibility prediction and treatment recommendation for Neisseria gonorrhoeae		https://github.com/leosanbu/sensityper
+semibin	False	Metagenomic binning with siamese neural networks		https://github.com/BigDataBiology/SemiBin
+pgcgap	False	A prokaryotic genomics and comparative genomics analysis pipeline	PGCGAP is a pipeline for prokaryotic comparative genomics analysis. It can take the pair-end reads, ONT reads or PacBio reads as input. In addition to genome assembly, gene prediction and annotation, it can also get common comparative genomics analysis results such as phylogenetic trees of single-core proteins and core SNPs, pan-genome, whole-genome Average Nucleotide Identity (ANI), orthogroups and orthologs, COG annotations, substitutions (SNPs) and insertions/deletions (indels), and antimicrobial and virulence genes mining with only one line of commands.	https://github.com/liaochenlanruo/pgcgap/blob/master/README.md
+unitem	False	Ensemble binning strategies for combining the output of multiple binning methods.		https://github.com/dparks1134/UniteM
+bioconductor-chic.data	False	ChIC package data	This package contains annotation and metagene profile data for the ChIC package.	https://bioconductor.org/packages/3.18/data/experiment/html/ChIC.data.html
+bioconductor-amplican	False	Automated analysis of CRISPR experiments	`amplican` performs alignment of the amplicon reads, normalizes gathered data, calculates multiple statistics (e.g. cut rates, frameshifts) and presents results in form of aggregated reports. Data and statistics can be broken down by experiments, barcodes, user defined groups, guides and amplicons allowing for quick identification of potential problems.	https://bioconductor.org/packages/3.22/bioc/html/amplican.html
+metavelvet-sl	False	MetaVelvet-SL : An extension of Velvet assembler to de novo metagenomic assembler utilizing supervised learning		http://metavelvet.dna.bio.keio.ac.jp/MSL.html
+bioconductor-taxsea	False	Taxon Set Enrichment Analysis	TaxSEA is an R package for Taxon Set Enrichment Analysis, which utilises a Kolmogorov-Smirnov test analyses to investigate differential abundance analysis output for whether there are alternations in a-priori defined sets of taxa from public databases (BugSigDB, MiMeDB, GutMGene, mBodyMap, BacDive and GMRepoV2) and collated from the literature. TaxSEA takes as input a list of taxonomic identifiers (e.g. species names, NCBI IDs etc.) and a rank (E.g. fold change, correlation coefficient). TaxSEA be applied to any microbiota taxonomic profiling technology (array-based, 16S rRNA gene sequencing, shotgun metagenomics & metatranscriptomics etc.) and enables researchers to rapidly contextualize their findings within the broader literature to accelerate interpretation of results.	https://bioconductor.org/packages/3.22/bioc/html/TaxSEA.html
+marti	False	Metagenomic Analysis in Real Time	MARTi is a software package designed for performing real-time analysis of metagenomic samples using nanopore sequencing.If you’re not working in real-time, MARTi may still be a quick and easy analysis solution for you. And if you’re not using nanopore sequencing, you may still benefit from using MARTi to analyse your data.	https://github.com/richardmleggett/MARTi
+quantpi	False	A general profiling system focus on robust microbiome research		https://github.com/ohmeta/quantpi
+bmtagger	False	BMTagger aka Best Match Tagger is for removing human reads from metagenomics datasets		ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/bmtagger/
+metabat2	False	Metagenome binning.		https://bitbucket.org/berkeleylab/metabat
+mgkit	False	Metagenomics Framework		https://github.com/frubino/mgkit
+clovers	False	Protein-coding gene prediction for single and metagenomic prokaryotic sequences	"CLOVERS is an ab initio protein-coding gene finder for prokaryotic
+genomes. It combines Z-curve features, GC-specific heuristic MLP models,
+a genome-specific RBF-SVM, and TriTISA+ start-site revision to annotate
+complete or draft single genomes as well as metagenomic assemblies.
+"	https://github.com/zetong-zhang/clovers
+expam	False	Metagenomic profiling using a reference phylogeny		https://github.com/seansolari/expam
+bioconductor-snphood	False	SNPhood: Investigate, quantify and visualise the epigenomic neighbourhood of SNPs using NGS data	To date, thousands of single nucleotide polymorphisms (SNPs) have been found to be associated with complex traits and diseases. However, the vast majority of these disease-associated SNPs lie in the non-coding part of the genome, and are likely to affect regulatory elements, such as enhancers and promoters, rather than function of a protein. Thus, to understand the molecular mechanisms underlying genetic traits and diseases, it becomes increasingly important to study the effect of a SNP on nearby molecular traits such as chromatin environment or transcription factor (TF) binding. Towards this aim, we developed SNPhood, a user-friendly *Bioconductor* R package to investigate and visualize the local neighborhood of a set of SNPs of interest for NGS data such as chromatin marks or transcription factor binding sites from ChIP-Seq or RNA- Seq experiments. SNPhood comprises a set of easy-to-use functions to extract, normalize and summarize reads for a genomic region, perform various data quality checks, normalize read counts using additional input files, and to cluster and visualize the regions according to the binding pattern. The regions around each SNP can be binned in a user-defined fashion to allow for analysis of very broad patterns as well as a detailed investigation of specific binding shapes. Furthermore, SNPhood supports the integration with genotype information to investigate and visualize genotype-specific binding patterns. Finally, SNPhood can be employed for determining, investigating, and visualizing allele-specific binding patterns around the SNPs of interest.	https://bioconductor.org/packages/3.22/bioc/html/SNPhood.html
+metaphyler	False	Estimating Bacterial Composition from Metagenomic Sequences		http://metaphyler.cbcb.umd.edu/
+gretel	False	An algorithm for recovering haplotypes from metagenomes		https://github.com/SamStudio8/gretel
+metabuli	False	Metabuli: specific and sensitive metagenomic classification via joint analysis of DNA and amino acid.		https://github.com/steineggerlab/Metabuli
+eskrim	False	ESKRIM: EStimate with K-mers the RIchness in a Microbiome.	ESKRIM is a reference-free tool that compares microbial richness in shotgun metagenomic samples by counting k-mers.	https://forgemia.inra.fr/metagenopolis/eskrim
+pmlst_ssi	False	Plasmid Multi-Locus Sequence Typing		https://github.com/ssi-dk/pmlst
+bioconductor-miadash	False	Dashboard for the interactive analysis and exploration of microbiome data	miaDash provides a Graphical User Interface for the exploration of microbiome data. This way, no knowledge of programming is required to perform analyses. Datasets can be imported, manipulated, analysed and visualised with a user-friendly interface.	https://bioconductor.org/packages/3.22/bioc/html/miaDash.html
+pathracer	False	PathRacer is a tool for alignment of profile HMM against assembly graph.	"PathRacer is a novel standalone tool that aligns profile HMM directly to the assembly graph (performing the codon translation on fly for amino acid 
+pHMMs). The tool provides the set of most probable paths traversed by a HMM through the whole assembly graph, regardless whether the sequence of 
+interested is encoded on the single contig or scattered across the set of edges, therefore significantly improving the recovery of sequences of 
+interest even from fragmented metagenome assemblies.
+"	http://cab.spbu.ru/software/pathracer/
+hymet2	False	HYMET (Hybrid Metagenomic Tool) for taxonomic identification of metagenomic sequences.	"HYMET is a taxonomic identification tool designed for metagenomic sequence analysis. 
+It uses a combination of tools including Mash, Mashmap, Minimap2, and custom classification 
+algorithms to identify the taxonomic origin of metagenomic sequences with high accuracy.
+"	https://github.com/inesbmartins02/HYMET2
+krakenuniq	False	Metagenomics classifier with unique k-mer counting for more specific results		https://github.com/fbreitwieser/krakenuniq
+amira	False	A tool to detect acquired AMR genes directly from long read sequencing data.		https://github.com/Danderson123/Amira
+hops	False	Java tool to work with ancient metagenomics		https://github.com/rhuebler/HOPS/
+metaxaqr	False	Improved Identification and Taxonomic Classification of Small and Large Subunit rRNA in Metagenomic Data.		http://microbiology.se/software/metaxaQR/
+coverm	False	CoverM aims to be a configurable, easy to use and fast DNA read coverage and relative abundance calculator focused on metagenomics applications.	CoverM aims to be a configurable, easy to use and fast DNA read coverage and relative abundance calculator focused on metagenomics application.	https://github.com/wwood/CoverM
+itbins	False	itBins is a superfast cli-tool for the automated refinement of metagenome-assembled genomes (MAGs).		https://codeberg.org/JMK/itBins
+singlem	False	At heart, SingleM is a tool for profiling shotgun metagenomes. It was originally designed to determine the relative abundance of bacterial and archaeal taxa in a sample. As of version 0.19.0, it can also be used to profile dsDNA phages (see Lyrebird). It shows good accuracy in estimating the relative abundances of community members, and has a particular strength in dealing with novel lineages. The method it uses also makes it suitable for some related tasks, such as assessing eukaryotic contamination, finding bias in genome recovery, and lineage-targeted MAG recovery. It can also be used as the basis for choosing metagenomes which, when coassembled, maximise the recovery of novel MAGs (see Bin Chicken).		https://github.com/wwood/singlem
+panphlan	False	PanPhlAn is a strain-level metagenomic profiling tool for identifying the gene composition and *in-vivo* transcriptional activity of individual strains in metagenomic samples.		http://github.com/SegataLab/panphlan/
+primerclip	False	Swift Accel-Amplicon primer trimming tool for fast alignment-based primer trimming		https://github.com/swiftbiosciences/primerclip
+weebill	False	Compression-focused fork of sylph, a fast species-level metagenomic profiler.		https://github.com/wwood/weebill
+ngspeciesid	False	Reference-free clustering and consensus forming of long-read amplicon sequencing	"NGSpeciesID is a tool for clustering and consensus forming of long-read
+amplicon sequencing data (has been used with both PacBio and Oxford Nanopore
+data). The repository is a modified version of isONclust, where consensus,
+primer-removal, and polishing feautures have been added."	https://github.com/ksahlin/NGSpeciesID
+acinetoscope	False	AcinetoScope: Comprehensive A. baumannii genomic typing pipeline with parallel execution	"AcinetoScope is a complete, automated genomic analysis pipeline for Acinetobacter
+baumannii, featuring parallel execution for rapid processing of bacterial genomes.
+The pipeline integrates multiple analysis modules into a unified workflow: FASTA QC
+with FASTANI species confirmation, dual MLST (Pasteur and Oxford), Kaptive K/O
+locus typing, AMRFinderPlus resistance detection, ABRicate multi-database screening,
+APT plasmid typing, mobileOG-db MGE profiling, and gene-centric plus sample-centric
+interactive HTML reports.
+
+The mobileOG-db payload (~1 GB) is fetched at runtime with `acinetoscope --pull-mge-db`.
+Docker and Singularity images bundle the data and need neither step.
+"	https://github.com/bbeckley-hub/acinetoscope
+r-mmgenome	False	Tools for extracting individual genomes from metagenomes		https://github.com/MadsAlbertsen/mmgenome
+bioconductor-cellbarcode	False	Cellular DNA Barcode Analysis toolkit	The package CellBarcode performs Cellular DNA Barcode analysis. It can handle all kinds of DNA barcodes, as long as the barcode is within a single sequencing read and has a pattern that can be matched by a regular expression. \code{CellBarcode} can handle barcodes with flexible lengths, with or without UMI (unique molecular identifier). This tool also can be used for pre-processing some amplicon data such as CRISPR gRNA screening, immune repertoire sequencing, and metagenome data.	https://bioconductor.org/packages/3.22/bioc/html/CellBarcode.html
+eukfinder	False	Eukfinder is a tool for detecting eukaryotic sequences in metagenomic data.		https://github.com/RogerLab/Eukfinder
+bioconductor-metagenomeseq	False	Statistical analysis for sparse high-throughput sequencing	metagenomeSeq is designed to determine features (be it Operational Taxanomic Unit (OTU), species, etc.) that are differentially abundant between two or more groups of multiple samples. metagenomeSeq is designed to address the effects of both normalization and under-sampling of microbial communities on disease association detection and the testing of feature correlations.	https://bioconductor.org/packages/3.22/bioc/html/metagenomeSeq.html
+samestr	False	SameStr identifies shared strains between pairs of metagenomic samples based on the similarity of SNV profiles.		https://github.com/danielpodlesny/samestr/
+sativa-epang	False	SATIVA with EPA-ng as the placement engine	"SATIVA (Kozlov et al. 2016) detects taxonomically mislabelled sequences by placing every
+reference sequence back into a tree built without it. This fork of amkozlov/sativa
+v0.9.3 replaces the RAxML placement (-f O) with EPA-ng (Barbera et al. 2019) in both the
+leave-one-out and the final confirmation, and leaves SATIVA's classification and
+decision logic alone: the EPA-ng edges are mapped back onto SATIVA's own B= numbering by
+leaf bipartition.
+
+Against unmodified SATIVA v0.9.3 on ITS alignments: 257 s to 15.4 s at 1600 sequences,
+1536 s to 87 s at 5402, with 0.98 recall and 0.90 precision at 800 sequences.
+
+The leave-one-out can also be run in three steps (-stage loo-tasks, loo-place,
+loo-score), so a workflow manager can prepare the folds, place them elsewhere and pass
+the results back. The output is identical either way.
+
+The command is `sativa-epang`; the `sativa` package provides unmodified SATIVA as
+`sativa.py`, and the two can be installed side by side.
+"	https://github.com/Aaramis/sativa-epang
+hecatomb	False	Hecatomb: and end-to-end platform for viral metagenomics	"Hecatomb accelerates viral metagenomics research by assembling contigs and accurately identifying viruses from a
+range of sequencing data types.
+"	https://github.com/shandley/hecatomb
+ditasic	False	DiTASiC is designed as a comprehensive approach for abundance estimation and differential abundance assessment of individual taxa in metagenomics samples.		https://rki_bioinformatics.gitlab.io/ditasic/
+strainflye	False	Pipeline for analyzing rare mutations in metagenomes assembled using long and accurate reads		https://github.com/fedarko/strainFlye
+bioconductor-rbec	False	Rbec: a tool for analysis of amplicon sequencing data from synthetic microbial communities	Rbec is a adapted version of DADA2 for analyzing amplicon sequencing data from synthetic communities (SynComs), where the reference sequences for each strain exists. Rbec can not only accurately profile the microbial compositions in SynComs, but also predict the contaminants in SynCom samples.	https://bioconductor.org/packages/3.22/bioc/html/Rbec.html
+msi	False	Metabarcoding sequences identification - from nanopore reads to taxa tables.		https://github.com/nunofonseca/msi
+magpurify	False	Identify and remove incorrectly binned contigs from metagenome-assembled genomes.		https://github.com/snayfach/MAGpurify
+mumu	False	Post-clustering curation of metabarcoding data (C++ reimplementation of lulu)	"mumu is a fast, stand-alone C++20 reimplementation of the R package lulu.
+It performs post-clustering curation of amplicon-based metabarcoding data
+by detecting spurious OTUs and merging them with their parent OTUs based
+on co-occurrence patterns and sequence similarity.
+"	https://github.com/frederic-mahe/mumu
+bioconductor-anansi	False	Annotation-Based Analysis of Specific Interactions	Studies including both microbiome and metabolomics data are becoming more common. Often, it would be helpful to integrate both datasets in order to see if they corroborate each others patterns. All vs all association is imprecise and likely to yield spurious associations. This package takes a knowledge-based approach to constrain association search space, only considering metabolite-function pairs that have been recorded in a pathway database. This package also provides a framework to assess differential association.	https://bioconductor.org/packages/3.22/bioc/html/anansi.html
+haplotype-lso	False	Haplotype Candidatus Liberibacter solanacearum (Lso) samples from targeted amplicon capillary sequencing data		https://github.com/holtgrewe/haplotype-lso
+bioconductor-msd16s	False	Healthy and moderate to severe diarrhea 16S expression data	Gut 16S sequencing expression data from 992 healthy and moderate-to-severe diarrhetic samples used in 'Diarrhea in young children from low-income countries leads to large-scale alterations in intestinal microbiota composition'.	https://bioconductor.org/packages/3.22/data/experiment/html/msd16s.html
+sipros	False	Tools for stable isotopic mass spectrometry-based metaproteomics	"""Tools for stable isotopic mass spectrometry-based metaproteomics research developed by Sipros team.""
+"	https://github.com/thepanlab/sipros5/
+bmfilter	False	bmfilter is part of BMTagger aka Best Match Tagger, for removing human reads from metagenomics datasets		ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/bmtagger/
+pmlst	False	Plasmid Multi-Locus Sequence Typing		https://bitbucket.org/genomicepidemiology/pmlst
+abromics_galaxy_json_extractor	False	Tool to convert Galaxy AMR output to abromics project		https://gitlab.com/ifb-elixirfr/abromics
+scagaire	False	Scagaire allows you to take in gene predictions from a metagenomic sample and filter them by bacterial/pathogenic species		https://github.com/quadram-institute-bioscience/scagaire
+phigaro	False	Phigaro is a scalable command-line tool for predicting phages and prophages.	Phigaro is a standalone command-line application that is able to detect prophage regions taking raw genome and metagenome assemblies as an input. It also produces dynamic annotated “prophage genome maps” and marks possible transposon insertion spots inside prophages. It is applicable for mining prophage regions from large metagenomic datasets.	https://github.com/bobeobibo/phigaro
+bioconductor-metaproviz	False	METabolomics pre-PRocessing, functiOnal analysis and VIZualisation	MetaProViz can analyse standard metabolomics and exometabolomics data (CoRe). It performs pre-processing including feature filtering, missing value imputation, normalisation and outlier detection. It performs functional analysis including differential metabolite analysis (DMA), clustering based on regulatory rules (MCA) and contains different visualisation methods to extract biological interpretable graphs and saves them in a publication ready format.	https://github.com/saezlab/MetaProViz
+bioconductor-metagene2	False	A package to produce metagene plots	This package produces metagene plots to compare coverages of sequencing experiments at selected groups of genomic regions. It can be used for such analyses as assessing the binding of DNA-interacting proteins at promoter regions or surveying antisense transcription over the length of a gene. The metagene2 package can manage all aspects of the analysis, from normalization of coverages to plot facetting according to experimental metadata. Bootstraping analysis is used to provide confidence intervals of per-sample mean coverages.	https://bioconductor.org/packages/3.22/bioc/html/metagene2.html
+emits	False	EM abundance estimation for fungal ITS communities from long-read sequencing		https://github.com/ayobi/emits
+rtk2	False	rtk2 - a CLI rarefaction toolkit for OTU tables.		https://github.com/hildebra/rtk2
+simka	False	Simka and simkaMin are de novo comparative metagenomics tools. Simka represents each dataset as a k-mer spectrum and computes several classical ecological distances between them. SimkaMin outputs approximate (but very similar) results by subsampling the kmer space and requires much less computational resources.		https://github.com/GATB/simka
+fargene	False	Fragmented Antibiotic Resistance Gene iENntifiEr takes either fragmented metagenomic data or longer sequences as input and predicts and delivers full-length antiobiotic resistance genes as output		https://github.com/fannyhb/fargene
+bioconductor-microbiomebenchmarkdata	False	Datasets for benchmarking in microbiome research	The MicrobiomeBenchmarkData package provides functionality to access microbiome datasets suitable for benchmarking. These datasets have some biological truth, which allows to have expected results for comparison. The datasets come from various published sources and are provided as TreeSummarizedExperiment objects. Currently, only datasets suitable for benchmarking differential abundance methods are available.	https://bioconductor.org/packages/3.22/data/experiment/html/MicrobiomeBenchmarkData.html
+assembly_uploader	False	Python scripts to upload primary metagenome and metatranscriptome assemblies to ENA on a per-study basis. The scripts generate xmls to register a new study and create manifests necessary for submission with webin-cli.		https://github.com/EBI-Metagenomics/assembly_uploader
+metacache	False	MetaCache is a classification system for mapping genomic sequences (short reads, long reads, contigs, ...) from metagenomic samples to their most likely taxon of origin.		https://github.com/muellan/metacache
+bioconductor-ecolitk	False	Meta-data and tools for E. coli	Meta-data and tools to work with E. coli. The tools are mostly plotting functions to work with circular genomes. They can used with other genomes/plasmids.	https://bioconductor.org/packages/3.22/bioc/html/ecolitk.html
+cerberus-mg	False	Three-headed host removal for metagenomic data: assembly, profiling and privacy-scrubbed outputs from one run.	"Cerberus is an opinionated all-in-one host-decontamination pipeline that
+produces three outputs from a single run: a paired-end assembly-ready
+FASTQ pair (conservative — a pair is dropped only when both mates map to
+the host), a single merged FASTQ for taxonomic profiling (aggressive — the
+pair is dropped as soon as either mate maps), and a privacy-scrubbed
+output for public release, from which host reads are removed by three
+mechanisms in series: a Kraken2 host database, a bbduk human k-mer pass,
+and minimap2 alignment against a masked T2T-CHM13v2.0 + HLA reference.
+
+Because all three mechanisms derive from the same reference assemblies,
+Cerberus reports the measured residual host removal per mechanism rather
+than asserting that no host reads remain. Every run writes an HTML report
+with the resolved parameters, per-stage read accounting and verification
+of each output file.
+
+Works on Illumina paired-end short reads, ONT long reads, and PacBio
+HiFi/CLR, autotuning its parameters from a prescan of the input.
+"	https://github.com/iowa69/cerberus
+sanntis	False	SMBGC Annotation using Neural Networks Trained on Interpro Signatures	"Tool for identifying biosynthetic gene clusters (BGCs) in genomic and metagenomic data from InterProScan
+domain annotations. Takes a nucleotide FASTA, a GenBank file or a protein FASTA with its GFF3, each optionally
+with a precomputed InterProScan TSV; writes GFF3, antiSMASH sideloader JSON and tables.
+"	https://github.com/Finn-Lab/SanntiS
+bioconductor-cbea	False	Competitive Balances for Taxonomic Enrichment Analysis in R	This package implements CBEA, a method to perform set-based analysis for microbiome relative abundance data. This approach constructs a competitive balance between taxa within the set and remainder taxa per sample. More details can be found in the Nguyen et al. 2021+ manuscript. Additionally, this package adds support functions to help users perform taxa-set enrichment analyses using existing gene set analysis methods. In the future we hope to also provide curated knowledge driven taxa sets.	https://bioconductor.org/packages/3.20/bioc/html/CBEA.html
+extract_fullseq	False	extract_fullseq is part of BMTagger aka Best Match Tagger, for removing human reads from metagenomics datasets		ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/bmtagger/
+meta-apo	False	Meta-Apo improves accuracy of 16S-amplicon-based prediction of microbiome function		https://github.com/qibebt-bioinfo/meta-apo
+taseq	False	Downstream analysis for targetted amplicon sequencing.		https://github.com/KChigira/taseq/
+reneo	False	Reneo: Unraveling Viral Genomes from Metagenomes	"Reneo recovers high-quality genomes from viral communities (including both prokaryotic and eukaryotic viruses) found within metagenomes.
+"	https://github.com/Vini2/phables
+bracken	False	Bracken (Bayesian Reestimation of Abundance with KrakEN) is a highly accurate statistical method that computes the abundance of species in DNA sequences from a metagenomics sample.		https://github.com/jenniferlu717/Bracken
+deeptaxa-rrna	False	Hybrid CNN-BERT deep learning framework for taxonomic classification of 16S rRNA gene sequences	"DeepTaxa is a hybrid CNN-BERT deep learning framework for multi-rank
+taxonomic classification of 16S rRNA gene sequences across the seven
+Linnean ranks (domain through species). It is distributed on PyPI and
+Bioconda as ""deeptaxa-rrna""; the import package and command-line tool
+are both named ""deeptaxa"".
+"	https://github.com/systems-genomics-lab/deeptaxa
+cobra-meta	False	COBRA is a tool to get higher quality viral genomes assembled from metagenomes.		https://github.com/linxingchen/cobra
+komb	False	Characterizing metagenomes using K-Core decomposition		https://gitlab.com/treangenlab/komb
+fetchmgs	False	FetchMGs extracts the 40 marker genes from genomes and metagenomes in an easy and accurate manner.		https://github.com/motu-tool/FetchMGs
+lemur	False	Lemur is a tool for rapid and accurate taxonomic profiling on long-read metagenomic datasets		https://github.com/treangenlab/lemur
+magneto	False	MAGNETO is an automated snakemake workflow dedicated to MAG reconstruction from metagenomic data.		https://gitlab.univ-nantes.fr/bird_pipeline_registry/magneto
+abritamr	False	Idenify bacterial AMR genes and SNPs in genome assemblies		https://github.com/MDU-PHL/abritamr
+centrifuge	False	Classifier for metagenomic sequences. Supports classifier scripts		https://github.com/DaehwanKimLab/centrifuge
+canopy	False	Canopy - Metagenomics Canopy Clustering Implementation		https://github.com/hildebra/canopy2/
+bioconductor-miaviz	False	Microbiome Analysis Plotting and Visualization	The miaViz package implements functions to visualize TreeSummarizedExperiment objects especially in the context of microbiome analysis. Part of the mia family of R/Bioconductor packages.	https://bioconductor.org/packages/3.22/bioc/html/miaViz.html
+plasmidtron	False	PlasmidTron: assembling the cause of phenotypes from NGS data		https://github.com/sanger-pathogens/plasmidtron
+motus	False	Marker gene-based OTU (mOTU) profiling		http://motus-tool.org/
+metatrawl	False	Scalable profiling and strain-level comparison of metagenomic samples.		https://github.com/OlmLab/MetaTrawl
+alleleflux	False	A tool for fine-grained evolutionary analysis of microbial populations and communities	"AlleleFlux is a python package for analyzing allele frequencies trajectories
+in metagenomic data. It profiles MAG (Metagenome-Assembled Genome) populations 
+across samples, detecting parallel evolution through allele frequency changes.
+"	https://github.com/MoellerLabPU/AlleleFlux
+semeta	False	"SeMeta is a new software for taxonomic assignment of metagenomic reads. It
+supports both single-end and paired-end reads. The software is implemented
+in C++
+"		http://it.hcmute.edu.vn/bioinfo/metapro/SeMeta.html
+metagenome-atlas	False	ATLAS - Three commands to start analysing your metagenome data	"Atlas is a easy to use metagenomic pipeline
+# Quick Start
+
+Three commands to start analysing your metagenome data:
+```
+    mamba install -c bioconda -c conda-forge metagenome-atlas
+    atlas init --db-dir databases path/to/fastq/files
+    atlas run
+```
+All databases and dependencies are installed on the fly in the directory `db-dir`.
+You want to run these three commands on the example_data on the GitHub repo.
+If you have more time, then we recommend you configure atlas according to your needs.
+  - check the `samples.tsv`
+  - edit the `config.yaml`
+  - run atlas on any cluster system
+For more details see documentation.
+"	https://github.com/metagenome-atlas
+iqkm	False	Identification and quantification of KEGG Modules in metagenomes/genomes		https://github.com/lijingdi/iqKM
+whokaryote	False	Classify metagenomic contigs as eukaryotic or prokaryotic	"Whokaryote uses a random forest classifier that uses gene-structure based
+features and optionally Tiara predictions to predict whether a contig is
+from a eukaryote or from a prokaryote. You can use Whokaryote to determine
+which contigs need eukaryotic gene prediction and which need prokaryotic
+gene prediction.
+"	https://github.com/LottePronk/whokaryote
+coptr	False	Accurate and robust inference of microbial growth dynamics from metagenomic sequencing reads.		https://github.com/tyjo/coptr
+amplicontyper	False	Tool for training model and classifying reads from environmental ONT amplicon sequencing.	"Tool for training model and classifying reads from environmental ONT amplicon sequencing. 
+"	https://github.com/AntonS-bio/AmpliconTyper
+disco	False	Multi-threaded Distributed Memory Overlap-Layout-Consensus (OLC) Metagenome Assembler.		https://github.com/abiswas-odu/Disco
+metaeuk	False	MetaEuk - sensitive, high-throughput gene discovery and annotation for large-scale eukaryotic metagenomics		https://github.com/soedinglab/metaeuk
+fununifrac	False	A repository to implement UniFrac, but on functional profiles of metagenomic data.		https://github.com/KoslickiLab/FunUniFrac
+k-slam	False	k-SLAM is a program for alignment based metagenomic analysis of large sets of high-throughput sequence data.		https://github.com/aindj/k-SLAM
+metaamrplus	False	MetaAMRplus: AMR + metal resistance + colocalisation analysis		https://github.com/migshaw03/MetaAMRplus
+pisces	False	Somatic and germline variant caller for amplicon data. Recommended caller for tumor-only workflows.		https://github.com/Illumina/Pisces
+vomix-mega	False	An ultra-fast & modular end-to-end pipeline for terabyte-scale viral metagenomics analysis.		https://github.com/holab-hku/vOMIX-MEGA
+mnbc-me	False	MNBC-ME is a tool for mobile elements detection	MNBC-ME is tool for identification of both short and long ME-originated reads across a wide variety of read types. It also identifies potential low-level host taxa for plasmid reads, and source taxa for chromosomal and viral reads.	https://github.com/ComputationalPathogens/MNBC-ME
+tadrep	False	TaDRep: Targeted Detection and Reconstruction of Plasmids		https://github.com/oschwengers/tadrep
+megahit	False	MEGAHIT: An ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph.		https://github.com/voutcn/megahit
+virconsens	False	Tool to create a consensus sequence from mapped virus Nanopore data	"Virconsens is a tool to create a consensus sequence from Nanopore amplicon reads mapped to a reference in a mapping .bam file. It works by reading the mapping file position-by-position and counting the mutations, insertions and deletions. The mutation or deletion (or original nucleotide from the reference) with the highest count is considered the “consensus” at that position.
+"	https://github.com/dnieuw/virconsens
+plasmidhawk	False	Plasmidhawk is a program for detecting lab-of-origin of input plasmids by building an annotated pangenome of training plasmids.		https://gitlab.com/treangenlab/plasmidhawk
+mobiorigin	False	Sequence-and-marker classification of bacterial replicons	MobiOrigin assigns bacterial DNA fragments to chromosome, plasmid, phage, or an explicit unclassified state and provides optional biological annotation and deterministic visualization. Frozen models and biological databases are installed separately with cryptographic verification.	https://github.com/Raza-pl/MobiOrigin
+spacerextractor	False	Extract CRISPR spacers from metagenome short reads.		https://code.jgi.doe.gov/SRoux/spacerextractor
+crispressosea	False	CRISPRessoSea: a tool for processing CRISPR genome editing from multiple pooled amplicon sequencing experiments.		https://github.com/clementlab/CRISPRessoSea
+spingo	False	Species level IdentificatioN of metaGenOmic amplicons		https://github.com/GuyAllard/SPINGO
+bioconductor-mbecs	False	Evaluation and correction of batch effects in microbiome data-sets	The Microbiome Batch Effect Correction Suite (MBECS) provides a set of functions to evaluate and mitigate unwated noise due to processing in batches. To that end it incorporates a host of batch correcting algorithms (BECA) from various packages. In addition it offers a correction and reporting pipeline that provides a preliminary look at the characteristics of a data-set before and after correcting for batch effects.	https://bioconductor.org/packages/3.22/bioc/html/MBECS.html
+bioconductor-microbiomedasim	False	Microbiome Differential Abundance Simulation	A toolkit for simulating differential microbiome data designed for longitudinal analyses. Several functional forms may be specified for the mean trend. Observations are drawn from a multivariate normal model. The objective of this package is to be able to simulate data in order to accurately compare different longitudinal methods for differential abundance.	https://bioconductor.org/packages/3.22/bioc/html/microbiomeDASim.html
+clame	False	CLAME is a binning software for metagenomic reads. It immplements a fm-index search algorithm for nucleotide sequence alignment. Then it uses strongly connected component strategy to bin sequences with similar DNA composition.		https://github.com/andvides/CLAME
+annoreport	False	Summary and visualization tool for MAG gene annotation workflows	"annoreport summarizes annotated gene products across all bins from Prokka
+or Bakta metagenome annotation workflows. It auto-detects the annotation
+tool, enriches top gene products via the UniProt REST API, clusters genes
+by functional category, and produces an interactive HTML report and TSV
+summary table.
+"	https://github.com/keplerridge/annoreport
+abundancebin	False	Abundance-based tool for binning metagenomic sequences.	"AbundanceBin is an abundance-based tool for binning metagenomic sequences,
+such that the reads classified in a bin belong to species of identical or
+very similar abundances. AbundanceBin also gives estimations of species
+abundances and their genome sizes — two important characteristic parameters
+for a microbial community.
+"	https://omics.informatics.indiana.edu/AbundanceBin
+metamdbg	False	MetaMDBG: a lightweight assembler for long and accurate metagenomics reads.		https://github.com/GaetanBenoitDev/metaMDBG
+fungar	False	FUNGAR: antifungal resistance detection pipeline.	"FUNGAR is a Bash pipeline for detecting antifungal resistance mutations
+directly from metagenomic short reads using DIAMOND and curated mutation databases.
+"	https://github.com/resgen-br/fungar
+metaplatanus	False	MetaPlatanus: A hybrid metagenome assembler		https://github.com/rkajitani/metaplatanus
+vambcore	False	Performant backend functions for the Vamb binning tool.		https://github.com/jakobnissen/vambcore
+kmcp	False	accurate metagenomic profiling of both prokaryotic and viral populations by pseudo-mapping		https://github.com/shenwei356/kmcp
+lrcorrect	False	Fast, deterministic self-correction of small long-read sets (plasmids, small genomes)		https://github.com/gbouras13/lrcorrect
+r-sigtree	False	Provides tools to identify and visualize branches in a phylogenetic tree that are significantly responsive to some intervention, taking as primary inputs a phylogenetic tree (of class phylo) and a data frame (or matrix) of corresponding tip (OTU) labels and p-values.		https://CRAN.R-project.org/package=SigTree
+metav	False	Rapid detection and classification of viruses in metagenomics sequencing.		https://github.com/ZhijianZhou01/metav
+platypus-conquistador	False	Platypus Conquistador: Confirming specific taxonomic groups within your metagenomic samples.		https://github.com/biocore/Platypus-Conquistador
+funtaxfinder	False	Screen functional microbial ASVs from PICRUSt2 KO predictions	"FunTaxFinder screens ASVs according to selected KEGG Orthology identifiers
+from PICRUSt2 per-sequence prediction tables. It produces matched ASV
+abundance tables, KO hit matrices, taxonomy annotations, optional
+rank-specific subsets, and optional FAPROTAX cross-validation.
+"	https://github.com/Zhoufengwu/funtaxfinder
+plasclass	False	Classification of plasmid sequences		https://github.com/Shamir-Lab/PlasClass
+metalign	False	Metalign: efficient alignment-based metagenomic profiling via containment min hash		https://github.com/nlapier2/Metalign
+ivar	False	iVar is a computational package that contains functions broadly useful for viral amplicon-based sequencing.		https://github.com/andersen-lab/ivar
+assaycode	False	Compatibility metapackage for the assaycode command included with DotMatch.	"This metapackage installs the matching DotMatch release, which provides the
+assaycode compatibility command for compiling and inspecting assay
+specifications alongside the main dotmatch command.
+"	https://dnncha.github.io/dotmatch
+mgcalibrator	False	Calibrate metagenomic coverage (BAM, SingleM or Sylph output) to absolute abundances using DNA input mass.	"MGCalibrator converts sequencing-derived coverage information into absolute
+abundances (number of copies) using the DNA mass of each sample and the number
+of sequenced bases. Input can be BAM files, SingleM output together with the raw
+FASTQ files, or Sylph output (.sylphmpa) together with the raw FASTQ files.
+"	https://github.com/NimroddeWit/MGCalibrator
+mapseq	False	Open source metagenomic 16S/18S read classifier enabling comparative metagenomics.		https://github.com/jfmrod/MAPseq
+bioconductor-metascope	False	Tools and functions for preprocessing 16S and metagenomic sequencing microbiome data	This package contains tools and methods for preprocessing microbiome data. Functionality includes library generation, demultiplexing, alignment, and microbe identification.  It is in part an R translation of the PathoScope 2.0 pipeline.	https://bioconductor.org/packages/3.22/data/experiment/html/MetaScope.html
+autometa	False	Automated extraction of genomes from shotgun metagenomes	"An automated binning pipeline for metagenomes, in particular host-associated and highly complex ones.
+Miller, I. J.; Rees, E. R.; Ross, J.; Miller, I.; Baxa, J.; Lopera, J.; Kerby, R. L.; Rey, F. E.; Kwan, J. C. 
+Autometa: Automated extraction of microbial genomes from individual shotgun metagenomes. 
+Nucleic Acids Research, 2019. DOI: https://doi.org/10.1093/nar/gkz148
+"	https://github.com/KwanLab/Autometa
+ganon	False	ganon2 classifies genomic sequences against large sets of references efficiently	"ganon2 classifies genomic sequences against large sets of references efficiently,
+with integrated download and update of databases (refseq/genbank), taxonomic profiling
+(ncbi/gtdb), binning and hierarchical classification, customized reporting and more
+"	https://github.com/pirovc/ganon
+meta_eukaryome_detect	False	Pathogen, Parasite, Eukaryote and Virus detection in metagenomes.		https://github.com/grp-bork/meta_eukaryome_detect
+bioconductor-wrench	False	Wrench normalization for sparse count data	Wrench is a package for normalization sparse genomic count data, like that arising from 16s metagenomic surveys.	https://bioconductor.org/packages/3.22/bioc/html/Wrench.html
+slacken	False	Slacken is a very scalable implementation of the Kraken 2 metagenomic classification method, based on Apache Spark.		https://github.com/JNP-Solutions/Slacken
+metacat	False	Metagenome Clustering and Association Tool	"MetaCAT bins metagenome assemblies into microbial genomes and associates
+the resulting genomes and their variants with host traits. This package
+provides the core MetaCAT commands; the optional checkm2 and gtdbtk
+subcommands additionally require those tools (and their databases) to be
+installed and available on PATH.
+"	https://github.com/liu-congcong/MetaCAT
+binchicken	False	Targeted recovery of low abundance metagenome assembled genomes through intelligent coassembly		https://github.com/aroneys/binchicken
+bioconductor-mmuphin	False	Meta-analysis Methods with Uniform Pipeline for Heterogeneity in Microbiome Studies	MMUPHin is an R package for meta-analysis tasks of microbiome cohorts. It has function interfaces for: a) covariate-controlled batch- and cohort effect adjustment, b) meta-analysis differential abundance testing, c) meta-analysis unsupervised discrete structure (clustering) discovery, and d) meta-analysis unsupervised continuous structure discovery.	https://bioconductor.org/packages/3.18/bioc/html/MMUPHin.html
+crass	False	Crass (The CRISPR Assembler) is a program that searches through raw metagenomic reads for Clustered Regularly Interspersed Short Palindromic Repeats		https://github.com/ctSkennerton/crass
+sam-tagger	False	SAM/BAM tagger and amplicon-sequencing QC statistics generator.	"sam-tagger adds amplicon-QC tags to SAM/BAM alignments and emits
+per-reference QC, error-statistics, and pileup Parquet. Four focused
+subcommands (annotate, error-stats, pileup, qc-summary) with fixed I/O
+contracts. Reads the minimap2 `cs` tag; per-reference primer/sub-read/NB
+parameters come from a wide CSV config.
+"	https://github.com/jiangyun-fun/sam-tagger
+valet	False	Pipeline for detecting mis-assemblies in metagenomic assemblies		https://github.com/marbl/VALET
+jorg	False	MAG circularization and iterative bin improvement workflow using MIRA	"JORG is a shell-based workflow for iterative metagenome-assembled genome
+circularization and bin improvement using mirabait, MIRA, and seqtk.
+"	https://github.com/lmlui/Jorg
+transcriptm	False	Metagenomics analyses.		https://github.com/elfrouin/transcriptM
+catch_chimera	False	CATCh is an ensemble classifier for chimera detection in 16S rRNA sequencing studies. The present bioconda recipe installs the 'CATCh_v1.run' binary, as suggested on authors website.		https://science.sckcen.be/en/Institutes/EHS/MCB/MIC/Bioinformatics/CATCh
+bioconductor-plsdabatch	False	PLSDA-batch	A novel framework to correct for batch effects prior to any downstream analysis in microbiome data based on Projection to Latent Structures Discriminant Analysis. The main method is named “PLSDA-batch”. It first estimates treatment and batch variation with latent components, then subtracts batch-associated components from the data whilst preserving biological variation of interest. PLSDA-batch is highly suitable for microbiome data as it is non-parametric, multivariate and allows for ordination and data visualisation. Combined with centered log-ratio transformation for addressing uneven library sizes and compositional structure, PLSDA-batch addresses all characteristics of microbiome data that existing correction methods have ignored so far. Two other variants are proposed for 1/ unbalanced batch x treatment designs that are commonly encountered in studies with small sample sizes, and for 2/ selection of discriminative variables amongst treatment groups to avoid overfitting in classification problems. These two variants have widened the scope of applicability of PLSDA-batch to different data settings.	https://bioconductor.org/packages/3.22/bioc/html/PLSDAbatch.html
+metaphlan	False	Metagenomic Phylogenetic Analysis.	"MetaPhlAn is a computational tool for profiling the composition of microbial
+communities (Bacteria, Archaea and Eukaryotes) from metagenomic
+shotgun sequencing data with species level resolution. From version 2.0
+MetaPhlAn is also able to identify specific strains (in the not-so-frequent
+cases in which the sample contains a previously sequenced strains) and to
+track strains across samples for all species.
+"	https://github.com/biobakery/metaphlan
+vclust	False	Fast and accurate tool for calculating ANI and clustering virus genomes and metagenomes.		https://github.com/refresh-bio/vclust
+metaphor	False	Metaphor - Metagenomic Pipeline for Short Reads	"
+# Metaphor - Metagenomic Pipeline for sHOrt Reads
+
+
+Metaphor is a Snakemake-based, general-purpose workflow for assembly and binning of metagenomes. To learn how to use it, please refer to the [docs page](https://metaphor-workflow.readthedocs.io/).
+"	https://github.com/vinisalazar/metaphor
+plascope	False	PlaScope is a targeted approach to assess the plasmidome of bacteria.		https://github.com/labgem/PlaScope
+bakdrive	False	Bakdrive finds a minimum set of driver species from real metagenomic samples and simulates fecal microbial transplantation (FMT) process		https://gitlab.com/treangenlab/bakdrive
+sparcc	False	SparCC is a python module for computing correlations in compositional data (16S, metagenomics, etc).		https://bitbucket.org/yonatanf/sparcc
+ncbi-amrfinderplus	False	AMRFinderPlus finds antimicrobial resistance and other genes in protein or nucleotide sequences.	"This software and the accompanying database are designed to
+find acquired antimicrobial resistance genes in bacterial protein or
+nucleotide sequences as well as known point mutations for several taxa. With
+AMRFinderPlus we have added select members of additional classes of genes
+such as virulence factors, biocide, heat, acid, and metal resistance genes.
+"	https://github.com/ncbi/amr
+marvd2	False	Metagenomic Archaeal Virus Detector 2		https://bitbucket.org/MAVERICLab/marvd2
+intemap	False	Integrated metagenomic assembly pipeline for short reads		http://cqb.pku.edu.cn/ZhuLab/InteMAP/index.html
+microscape	False	Downstream analysis tools for amplicon sequencing — filtering, ordination, phylogeny, networks	"microscape provides downstream analysis tools for amplicon sequencing data,
+designed to work with papa2's output. Includes sequence table QC filtering,
+MIMARKS metadata loading, taxonomic renormalization, phylogenetic tree
+construction (MAFFT + NJ), Bray-Curtis ordination (t-SNE/PCA), SparCC-style
+correlation networks, and JSON export for visualization.
+"	https://github.com/rec3141/microscape
+bioconductor-genomicplot	False	Plot profiles of next generation sequencing data in genomic features	Visualization of next generation sequencing (NGS) data is essential for interpreting high-throughput genomics experiment results. 'GenomicPlot' facilitates plotting of NGS data in various formats (bam, bed, wig and bigwig); both coverage and enrichment over input can be computed and displayed with respect to genomic features (such as UTR, CDS, enhancer), and user defined genomic loci or regions. Statistical tests on signal intensity within user defined regions of interest can be performed and represented as boxplots or bar graphs. Parallel processing is used to speed up computation on multicore platforms. In addition to genomic plots which is suitable for displaying of coverage of genomic DNA (such as ChIPseq data), metagenomic (without introns) plots can also be made for RNAseq or CLIPseq data as well.	https://bioconductor.org/packages/3.22/bioc/html/GenomicPlot.html
+grid	False	Growth Rate Index (GRiD) measures bacterial growth rate from reference genomes (including draft quality genomes) and metagenomic bins at ultra-low sequencing coverage (> 0.2x).		https://github.com/ohlab/GRiD
+hitac	False	A hierarchical taxonomic classifier for fungal ITS sequences	"HiTaC is a software for hierarchical taxonomic classification
+for fungal ITS sequences. It is pure python code compatible with
+Python 3.8+ and requires hiclass, numpy, pandas, scikit-bio and
+scikit-learn.
+"	https://gitlab.com/dacs-hpi/hitac
+hydra-amr	False	Unified AMR, virulence, point-mutation, heteroresistance, MLST and lineage typing	"Hydra screens bacterial assemblies and raw reads for acquired resistance and
+virulence genes, organism-specific resistance point mutations, multi-locus
+sequence types and lineage typing schemes, in one pass over one set of
+databases, replacing a pipeline of four or five single-purpose tools.
+
+It reports heteroresistance directly from reads: allele fractions are
+measured at every catalogued mutation position, so a resistance mutation
+carried by only some copies of a multi-copy locus - the usual situation for
+the 23S rRNA mutations behind linezolid resistance - is detected even though
+the assembly consensus is wild type. A FASTQ-only sample is also sequence
+typed, by mapping reads to the scheme's loci and reading the consensus back
+against every allele, and each resistance gene it carries is compared with
+the closest reference so its mutations are reported with the fraction of
+reads supporting them.
+
+Acquired genes are screened against NCBI, CARD, ResFinder, ARG-ANNOT,
+MEGARes, VFDB, PlasmidFinder, EcOH and E. coli VF together, with curated
+drug-class and gene-family annotation transferred onto every one of them.
+Results come out as TSV, CSV, JSON, XLSX or a self-contained HTML report
+with clustered heatmaps, pivoted on samples or genes, showing
+presence/absence, percent identity, coverage, read depth or allele fraction,
+plus flat one-row-per-hit layouts that existing downstream scripts can read.
+
+Reference databases are not redistributed. After installation, `hydra db
+download` fetches them from their own upstream sources and converts them -
+the NCBI protein and point-mutation references, NCBI, CARD, ResFinder,
+PlasmidFinder and VFDB gene catalogues, every PubMLST 7-locus scheme, and the
+lineage typing loci and species sketches - so a fresh machine needs one
+command and no other tool. `hydra db import` builds them instead from
+reference data already present, and `hydra db bundle` packs them for machines
+with neither a source nor a network. Each database keeps its own licence,
+which `hydra db info` prints along with its citation.
+"	https://github.com/iowa69/hydra
+zamp	False	zAMP: bioinformatic pipeline designed for convenient, reproducible and scalable amplicon-based metagenomics		https://github.com/metagenlab/zAMP/
+enviroampdesigner	False	Tool for training model and classifying reads from environmental ONT amplicon sequencing.	"Tool for training model and classifying reads from environmental ONT amplicon sequencing. 
+"	https://github.com/AntonS-bio/EnviroAmpDesigner
+mtsv-tools	False	mtsv_tools contains core tools for alignment-based metagenomic/metatranscriptomic assignment.		https://github.com/FofanovLab/mtsv_tools
+ptrimmer	False	Used to trim off the primer sequence from mutiplex amplicon sequencing		https://github.com/DMU-lilab/pTrimmer
+checkm2	False	Assessing the quality of metagenome-derived genome bins using machine learning.		https://github.com/chklovski/CheckM2
+resmico	False	Increasing the quality of metagenome-assembled genomes with deep learning		https://github.com/leylabmpi/ResMiCo
+metator	False	Metagenomic binning based on Hi-C data.		https://github.com/koszullab/metator
+stag	False	A hierarchical taxonomic classifier for metagenomic sequences		https://github.com/zellerlab/stag
+bioconductor-microbiome	False	Microbiome Analytics	Utilities for microbiome analysis.	https://bioconductor.org/packages/3.22/bioc/html/microbiome.html
+metabinkit	False	Set of programs to perform taxonomic binning.		https://github.com/envmetagen/metabinkit
+samsifter	False	Workflow editor for metagenomic analysis		http://pypi.python.org/pypi/SamSifter/
+myloasm	False	myloasm - high-resolution metagenome assembly for (noisy) long reads.		https://github.com/bluenote-1577/myloasm
+abawaca	False	abawaca is a binning program for metagenomics.		https://github.com/CK7/abawaca
+snoopy	False	Metagenomic SNP caller for strain-level variant detection in long reads.	SNooPy detects strain-level nucleotide polymorphisms in long read metagenomic data.	https://github.com/RolandFaure/snoopy
+melon	False	Melon: metagenomic long-read-based taxonomic identification and quantification using marker genes		https://github.com/xinehc/melon
+metacerberus-lite	False	MetaCerberus with reduced dependencies: Versatile Functional Ontology Assignments for Metagenomes via Hidden Markov Model (HMM) searching with environmental focus of shotgun meta'omics data		https://github.com/raw-lab/metacerberus
+pilea	False	Pilea: profiling bacterial growth dynamics from metagenomes with sketching		https://github.com/xinehc/pilea
+obitools4	False	A software package for DNA metabarcoding.		https://github.com/metabarcoding/obitools4
+snikt	False	Identify and remove adapter/systemic contamination in metagenomic sequencing DNA/RNA data.		https://github.com/piyuranjan/SNIKT
+vardictcpp	False	Memory-lean C++ reimplementation of the VarDict variant caller, byte-identical to VarDictJava.	"vardictcpp is a from-scratch C++17 reimplementation of VarDict
+(AstraZeneca-NGS VarDictJava 1.8.3) built on htslib. It reproduces VarDict's
+SNV, indel and structural-variant calls byte-for-byte across the simple,
+amplicon, --fisher, structural-variant, paired-somatic and splice-aware
+modes, while running several times faster and using roughly an order of
+magnitude less memory. It accepts VarDict's command-line option syntax and
+emits VarDict's TSV column order, and can also write VCF natively (--vcf),
+so it is a drop-in replacement in existing pipelines.
+"	https://github.com/MHH-Bioinformatics-Hematology/vardictcpp
+amplici	False	AmpliCI: Cluster amplicon sequences in a fastq file with or without UMIs.		https://github.com/DormanLab/AmpliCI
+rappas	False	RAPPAS (Rapid Alignment-free Phylogenetic PLacement via Ancestral Sequences) is a program dedicated to Phylogenetic Placement of (meta)genomic reads on a reference tree. As apposed to previous PP programs, RAPPAS is based on the phylo-kmers idea, detailed in tis manuscript and uses a 2 step approach divided into a) the database build, and b) the placement itself. The main advantage of RAPPAS is that it is alignment free, which means that after step (a) (the DB build) is performed, metagenomic reads can be directly placed on a referene tree WITHOUT aligning them to the reference alignment on which the tree was built (as required by other approaches). The second advantage of RAPPAS is its algorithm based on phylo-kmers matches, making its execution time linear with respect to the length of the placed sequences.		https://github.com/blinard-BIOINFO/RAPPAS
+metafx	False	MetaFX (METAgenomic Feature eXtraction) is a library for feature extraction from whole-genome metagenome sequencing data and classification of groups of samples.		https://github.com/ctlab/metafx
+pling	False	Pling computes the rearrangement distance between plasmids and clusters on their basis 		https://github.com/iqbal-lab-org/pling
+crocodeel	False	CroCoDeEL is a tool that detects cross-sample contamination in shotgun metagenomic data	"CroCoDeEL is a tool that detects cross-sample (aka well-to-well) contamination in shotgun metagenomic data.
+It accurately identifies contaminated samples but also pinpoints contamination sources and estimates contamination rates.
+CroCoDeEL relies only on species abundance tables and does not need negative controls.
+"	https://github.com/metagenopolis/crocodeel
+harmonize_amr	False	HarmonizeAMR integrates antimicrobial resistance results from multiple tools into a unified and interpretable representation.		https://gitlab.com/FLI_Bioinfo/harmonize_amr
+ngless	False	A tool for short-read processing with a focus on metagenomics		https://ngless.embl.de
+ccmetagen	False	CCMetagen: comprehensive and accurate identification of eukaryotes and prokaryotes in metagenomic data.		https://github.com/vrmarcelino/CCMetagen
+vsearch	False	A versatile open source tool for metagenomics (USEARCH alternative).		https://github.com/torognes/vsearch
+bioconductor-finfomds	False	Multidimensional Scaling with F-ratio for microbiome visualization	F-informed MDS is a new multidimensional scaling-based ordination method that configures data distribution based on the F-statistic (i.e., the ratio of dispersion between groups with shared or differing labels).	https://bioconductor.org/packages/3.22/bioc/html/FinfoMDS.html
+msamtools	False	Microbiome-oriented tools for filtering, profiling, and summarizing SAM/BAM alignments		https://github.com/arumugamlab/msamtools
+latentstrainanalysis	False	Partitioning and analysis methods for large, complex sequence datasets	"LSA was developed as a pre-assembly tool for partitioning metagenomic reads.
+It uses a hyperplane hashing function and streaming SVD in order to find
+covariance relations between k-mers. The code, and the process outline in
+LSFScripts in particular, have been optimized to scale to massive data
+sets in fixed memory with a highly distributed computing environment.
+"	https://github.com/brian-cleary/LatentStrainAnalysis
+metacluster	False	MetaCluster5.1 is a new software for binning short pair-end reads	"MetaCluster5.1 is an unsupervised binning method that can (1) samples with
+low-abundance species, or (2) samples (even with high-abundance) with many
+extremely-low-abundance species. The input file should be in fasta format.
+Every odd-number read and its next read are supposed to be pair-end reads.
+"	http://i.cs.hku.hk/~alse/MetaCluster/
+sylph	False	sylph quickly enables querying of genomes against even low-coverage shotgun metagenomes to find nearest neighbour ANI.		https://github.com/bluenote-1577/sylph
+argnorm	False	Normalize antibiotic resistance genes (ARGs) abundance tables (e.g., from metagenomics) by using the ARO ontology (developed by CARD).		https://github.com/BigDataBiology/argNorm
+phamb	False	phamb discovery approach used to isolate metagenome derived viromes and High-quality viral genomes		https://github.com/RasmussenLab/phamb
+bioconductor-mscoreutils	False	Core Utils for Mass Spectrometry Data	MsCoreUtils defines low-level functions for mass spectrometry data and is independent of any high-level data structures. These functions include mass spectra processing functions (noise estimation, smoothing, binning, baseline estimation), quantitative aggregation functions (median polish, robust summarisation, ...), missing data imputation, data normalisation (quantiles, vsn, ...), misc helper functions, that are used across high-level data structure within the R for Mass Spectrometry packages.	https://bioconductor.org/packages/3.22/bioc/html/MsCoreUtils.html
+amrfior	False	AMRfíor: A customisable and multi-tool approach for antimicrobial resistance gene detection	"AMRfíor orchestrates multiple alignment tools (BLAST, DIAMOND, Bowtie2, BWA, Minimap2) 
+to search DNA and protein sequences against AMR databases with transparent, 
+coverage-based validation.
+"	https://github.com/NickJD/AMRfior
+roundabout	False	A pipeline for plasmid outbreak clustering and visualization.		https://github.com/erinyoung/roundabout/
+phables	False	Phables: from fragmented assemblies to high-quality bacteriophage genomes.	Phables resolves bacteriophage genomes using phage bubbles in viral metagenomic data.	https://github.com/Vini2/phables
+r-virfinder	False	VirFinder: a novel k-mer based tool for identifying viral sequences from assembled metagenomic data.		https://github.com/jessieren/VirFinder
+ngs45	False	Recover the 45S nrDNA transcribed unit from Illumina short reads	"ngs45 recovers the 45S nrDNA transcribed unit (18S-ITS1-5.8S-ITS2-26S) and
+ITS barcode from Illumina short reads: it baits rDNA reads against a conserved
+45S seed, assembles them with SPAdes, resolves a single repeat unit, trims to
+the mature 18S/26S boundaries with Rfam SSU/LSU covariance models, annotates
+the ITS regions, and reports intragenomic ribotype heterozygosity (a
+hybridisation / allopolyploidy signal). Short-read counterpart of easy45 (HiFi).
+"	https://github.com/maidinhvn/ngs45
+bioconductor-sccomp	False	Differential Composition and Variability Analysis for Single-Cell Data	Comprehensive R package for differential composition and variability analysis in single-cell RNA sequencing, CyTOF, and microbiome data. Provides robust Bayesian modeling with outlier detection, random effects, and advanced statistical methods for cell type proportion analysis. Features include probabilistic outlier identification, mixed-effect modeling, differential variability testing, and comprehensive visualization tools. Perfect for cancer research, immunology, developmental biology, and single-cell genomics applications.	https://bioconductor.org/packages/3.22/bioc/html/sccomp.html
+pcne	False	Estimates plasmid copy number from assembled genome.		https://github.com/riccabolla/PCNE
+super-focus	False	SUPER-FOCUS - A tool for agile functional analysis of shotgun metagenomic data	"SUPER-FOCUS uses fast protein aligners (DIAMOND or MMseqs2)
+to profile the functional composition of shotgun metagenomic samples against
+the SEED subsystems database.
+"	https://github.com/metageni/SUPER-FOCUS
+metabinner	False	Ensemble binning method to recover individual genomes from complex microbial communities		https://github.com/ziyewang/MetaBinner
+dudes	False	DUDes: a top-down taxonomic profiler for metagenomics and metaproteomics		https://github.com/pirovc/dudes
+args_oap	False	ARGs-OAP: Online Analysis Pipeline for Antibiotic Resistance Genes Detection from Metagenomic Data Using an Integrated Structured ARG Database		https://github.com/xinehc/args_oap
+ampliclip	False	Tool to softclip reads in bam files based on amplicon primers	"Ampliclip is a tool to softclip reads in bam files based on amplicon primers.
+It identifies primer locations using sequence alignment and correctly adjusts
+the CIGAR strings of overlapping reads.
+"	https://github.com/dnieuw/ampliclip
+skani	False	skani is a fast and robust tool for calculating ANI between metagenome assembled genomes and contigs.		https://github.com/bluenote-1577/skani
+taxmapper	False	Analysis pipeline for metagenomic, microeukaryotic sequencing data.		https://bitbucket.org/dbeisser/taxmapper
+bioconductor-ribocrypt	False	Interactive visualization in genomics	R Package for interactive visualization and browsing NGS data. It contains a browser for both transcript and genomic coordinate view. In addition a QC and general metaplots are included, among others differential translation plots and gene expression plots. The package is still under development.	https://bioconductor.org/packages/3.22/bioc/html/RiboCrypt.html
+bioconductor-rcm	False	Fit row-column association models with the negative binomial distribution for the microbiome	Combine ideas of log-linear analysis of contingency table, flexible response function estimation and empirical Bayes dispersion estimation for explorative visualization of microbiome datasets. The package includes unconstrained as well as constrained analysis. In addition, diagnostic plot to detect lack of fit are available.	https://bioconductor.org/packages/3.22/bioc/html/RCM.html
+ecolityper	False	Comprehensive E. coli Typing Pipeline: MLST, Serotyping, CH Typing, Phylogrouping, AMR, and Virulence Analysis	"EcoliTyper is a comprehensive bioinformatics pipeline for complete Escherichia coli
+genomic characterization. It integrates multiple typing schemes including MLST,
+serotyping (O and H antigens), CH typing (FumC and FimH), ezClermont phylogrouping,
+antibiotic resistance detection (AMRFinderPlus), virulence and plasmid screening
+(ABRicate), and mobile genetic element profiling (mobileOG-db).
+"	https://github.com/bbeckley-hub/EcoliTyper
+r-graphstatsr	False	A Shiny app to easily generate advanced graphics and perform some non-parametric tests, designed for metabolomics data analysis and developed by MetaBoHUB-Metatoul.		https://forge.inrae.fr/etienne.rifa/graphstats
+itsx	False	ITSx is an open source software utility to extract the highly variable ITS1 and ITS2 subregions from ITS sequences, which is commonly used as a molecular barcode for e.g. fungi.		http://microbiology.se/software/itsx/
+eukrep	False	Classification of Eukaryotic and Prokaryotic sequences from metagenomic datasets		https://github.com/patrickwest/EukRep
+contigtax	False	Assign taxonomy to metagenomic contigs (previously know as tango)		https://github.com/NBISweden/contigtax
+reago	False	An assembly tool for 16S ribosomal RNA recovery from metagenomic data		https://github.com/chengyuan/reago-1.1
+esviritu	False	Read mapping pipeline for detection and measurement of human and animal virus pathogens from short read metagenomic environmental or clinical samples.		https://github.com/cmmr/EsViritu
+ginpipepy	False	Package for temporal binning of dated sequences in BAM format and fast population size estimate computation		https://github.com/KleistLab/ginpipepy
+bioconductor-ribodipa	False	Differential pattern analysis for Ribo-seq data	This package performs differential pattern analysis for Ribo-seq data. It identifies genes with significantly different patterns in the ribosome footprint between two conditions. RiboDiPA contains five major components including bam file processing, P-site mapping, data binning, differential pattern analysis and footprint visualization.	https://bioconductor.org/packages/3.22/bioc/html/RiboDiPA.html
+nano16s	False	Taxonomic profiling of Oxford Nanopore full-length 16S rRNA amplicon data	"A Snakemake workflow for taxonomic profiling of Oxford Nanopore full-length
+16S rRNA amplicon data. Runs on an ordinary laptop or workstation with a
+single install command and no container or cluster requirement.
+
+Includes a builder for an up-to-date Emu reference database from the current
+NCBI 16S RefSeq Targeted Loci collection. The database is downloaded and
+built by `nano16s db build` after installation rather than shipped in the
+package, since it is refreshed on NCBI's schedule rather than the tool's.
+"	https://github.com/lz245/nano16s
+r-tidytacos	False	Functions to manipulate and visualize microbial community data	Tidytacos (tidy TAxonomic COmpositionS) is an R package for the exploration of microbial community data. Such community data consists of read counts generated by amplicon sequencing (e.g. a region of the 16S rRNA gene) or metagenome (shotgun) sequencing. Each read count represents a number of sequencing reads identified for some taxon (an ASV, OTU, species, or higher-level taxon) in a sample.	https://lebeerlab.github.io/tidytacos/
+bioconductor-delayeddataframe	False	Delayed operation on DataFrame using standard DataFrame metaphor	Based on the standard DataFrame metaphor, we are trying to implement the feature of delayed operation on the DelayedDataFrame, with a slot of lazyIndex, which saves the mapping indexes for each column of DelayedDataFrame. Methods like show, validity check, [/[[ subsetting, rbind/cbind are implemented for DelayedDataFrame to be operated around lazyIndex. The listData slot stays untouched until a realization call e.g., DataFrame constructor OR as.list() is invoked.	https://bioconductor.org/packages/3.22/bioc/html/DelayedDataFrame.html
+hymet	False	HYMET provides hybrid Mash+minimap2 metagenomic classification with benchmark and case-study tooling.	"HYMET couples Mash candidate filtering, minimap2 alignment, and a weighted LCA resolver to classify contigs
+and reads. The project bundles the new Python CLI (`bin/hymet`), the legacy Perl pipeline, CAMI benchmark
+harnesses, and case-study analysis scripts so users can reproduce the published experiments directly.
+"	https://github.com/ieeta-pt/HYMET
+bioconductor-metagene	False	A package to produce metagene plots	This package produces metagene plots to compare the behavior of DNA-interacting proteins at selected groups of genes/features. Bam files are used to increase the resolution. Multiple combination of group of bam files and/or group of genomic regions can be compared in a single analysis. Bootstraping analysis is used to compare the groups and locate regions with statistically different enrichment profiles.	https://bioconductor.org/packages/3.17/bioc/html/metagene.html
+bioconductor-mia	False	Microbiome analysis	mia implements tools for microbiome analysis based on the SummarizedExperiment, SingleCellExperiment and TreeSummarizedExperiment infrastructure. Data wrangling and analysis in the context of taxonomic data is the main scope. Additional functions for common task are implemented such as community indices calculation and summarization.	https://bioconductor.org/packages/3.22/bioc/html/mia.html
+coidb	False	A tool to obtain and maintain a database of COI metabarcode references		https://github.com/johnne/coidb
+metasnek	False	Misc functions for metagenomics pipelines		https://github.com/beardymcjohnface/metasnek
+vardictrust	False	Fast, memory-safe, idiomatic Rust rewrite of VarDictJava v1.8.3	"VarDictRust is an ultra-fast, memory-safe, idiomatic-Rust variant caller
+producing 100% parity against VarDictJava v1.8.3 across germline, somatic,
+and amplicon sequencing assays, scaling to deep whole-genome sequencing (WGS).
+"	https://github.com/palakpsheth/VarDictRust
+strainy	False	Assembly-based metagenomic strain phasing using long reads.		https://github.com/katerinakazantseva/strainy
+metaprokka	False	A fork of Prokka using Prodigal-GV for phage annotation and metagenome/metavirome tweaks		https://github.com/telatin/metaprokka
+metaclassifier	False	MetaClassifier is an integrated pipeline for classifying and quantifying DNA metabarcoding data into taxonomy groups	MetaClassifier is an integrated pipeline for identifying the floral composition of honey using DNA metabarcoding to determine the plants that honey bees visit. MetaClassifier utilizes a database of marker sequences and their corresponding taxonomy lineage information to classify high-throughput metabarcoding sample sequencing reads data into taxonomic groups and quantify taxon abundance. MetaClassifier can also be employed in other studies that utilize barcoding, metabarcoding, and metagenomics techniques to characterize richness, abundance, relatedness, and interactions in ecological communities.	https://github.com/ewafula/MetaClassifier
+bioconductor-curatedmetagenomicdata	False	Curated Metagenomic Data of the Human Microbiome	The curatedMetagenomicData package provides standardized, curated human microbiome data for novel analyses. It includes gene families, marker abundance, marker presence, pathway abundance, pathway coverage, and relative abundance for samples collected from different body sites. The bacterial, fungal, and archaeal taxonomic abundances for each sample were calculated with MetaPhlAn3, and metabolic functional potential was calculated with HUMAnN3. The manually curated sample metadata and standardized metagenomic data are available as (Tree)SummarizedExperiment objects.	https://bioconductor.org/packages/3.22/data/experiment/html/curatedMetagenomicData.html
+graph2pro-var	False	meta-proteogenomic identification from mass spec and metagenomic/transcriptomic data		https://github.com/COL-IU/graph2pro-var
+qiimetomaaslin	False	Data munging script to change text Qiime OTU tables to pcl-formatted, maaslin-compatible text files		https://huttenhower.sph.harvard.edu/maaslin
+calour	False	exploratory and interactive microbiome analyses based on heatmaps	"Calour is a python package for processing, analysis and interactive
+exploration of microbiome (and other matrix form data),
+incorporating external databases.
+"	https://biocore.github.io/calour/
+mgems	False	mGEMS - sequencing data binning based on probabilistic classification		https://github.com/PROBIC/mGEMS
+bioconductor-dar	False	Differential Abundance Analysis by Consensus	Differential abundance testing in microbiome data challenges both parametric and non-parametric statistical methods, due to its sparsity, high variability and compositional nature. Microbiome-specific statistical methods often assume classical distribution models or take into account compositional specifics. These produce results that range within the specificity vs sensitivity space in such a way that type I and type II error that are difficult to ascertain in real microbiome data when a single method is used. Recently, a consensus approach based on multiple differential abundance (DA) methods was recently suggested in order to increase robustness. With dar, you can use dplyr-like pipeable sequences of DA methods and then apply different consensus strategies. In this way we can obtain more reliable results in a fast, consistent and reproducible way.	https://bioconductor.org/packages/3.22/bioc/html/dar.html
+bioconductor-philr	False	Phylogenetic partitioning based ILR transform for metagenomics data	PhILR is short for Phylogenetic Isometric Log-Ratio Transform. This package provides functions for the analysis of compositional data (e.g., data representing proportions of different variables/parts). Specifically this package allows analysis of compositional data where the parts can be related through a phylogenetic tree (as is common in microbiota survey data) and makes available the Isometric Log Ratio transform built from the phylogenetic tree and utilizing a weighted reference measure.	https://bioconductor.org/packages/3.22/bioc/html/philr.html
+amplicon_coverage_plot	False	Generate an amplicon coverage plot	"generate an interactive barplot given amplicon info in bed/bedpe format and coverage information in cov/bam file.
+"	https://github.com/chienchi/amplicon_coverage_plot
+amplisim	False	Plain simple amplicon sequence simulator for in-silico genomic sequencing assays.		https://github.com/rki-mf1/amplisim
+focus	False	FOCUS - An Agile Profiler for Metagenomic Data	"FOCUS uses k-mer counting (Jellyfish) and non-negative least squares (NNLS)
+to estimate the relative abundance of organisms in a metagenome without
+assembly or read mapping.
+"	https://github.com/metageni/FOCUS
+bioconductor-mbomic	False	Integrative analysis of the microbiome and metabolome	The mbOmic package contains a set of analysis functions for microbiomics and metabolomics data, designed to analyze the inter-omic correlation between microbiology and metabolites. Integrative analysis of the microbiome and metabolome is the aim of mbOmic. Additionally, the identification of enterotype using the gut microbiota abundance is preliminaryimplemented.	https://bioconductor.org/packages/3.17/bioc/html/mbOmic.html
+gplas	False	gplas is a tool to bin plasmid-predicted contigs based on sequence composition, coverage and assembly graph information. It extends the possibility of accurately binning predicted plasmid contigs into several discrete plasmid components.		https://gitlab.com/sirarredondo/gplas
+markermag	False	linking MAGs with 16S rRNA marker genes		https://pypi.org/project/MarkerMAG/
+mogs	False	MOGS (Metagenome Ocurrence-based Genetic Screening)	This tool is designed to run a linear regression on bacterial data, similar to a GWAS in human genetics.	https://gitlab.pasteur.fr/statistical-genetics/MOGS
+bioconductor-qsutils	False	Quasispecies Diversity	Set of utility functions for viral quasispecies analysis with NGS data. Most functions are equally useful for metagenomic studies. There are three main types: (1) data manipulation and exploration—functions useful for converting reads to haplotypes and frequencies, repairing reads, intersecting strand haplotypes, and visualizing haplotype alignments. (2) diversity indices—functions to compute diversity and entropy, in which incidence, abundance, and functional indices are considered. (3) data simulation—functions useful for generating random viral quasispecies data.	https://bioconductor.org/packages/3.22/bioc/html/QSutils.html
+genome_profiler	False	Prokaryotic genome and plasmid profiling pipeline.		https://github.com/Syrinx55/GenomeProfiler
+metafun	False	Scalable and agile analysis pipeline for metagenomic and comparative genomic analysis	metaFun is a comprehensive pipeline for metagenomic analysis including quality control, assembly, binning, taxonomy profiling, and functional analysis. Version 1.0.0 adds WMS_STRAIN module for strain-level microbial diversity analysis.	https://github.com/aababc1/metaFun
+metasmash	False	metaSMASH - scalable metagenome-scale BGC mining, a fork of antiSMASH.	"metaSMASH is a fork of antiSMASH that scales biosynthetic gene cluster
+mining to metagenome-scale inputs with bounded memory usage.
+"	https://github.com/canerbagci/metasmash
+cat	False	"CAT/BAT: tool for taxonomic classification of contigs and metagenome-assembled genomes (MAGs)
+"		https://github.com/MGXlab/CAT_pack
+galah	False	Galah aims to be a more scalable metagenome assembled genome (MAG) dereplication method.		https://github.com/wwood/galah
+bioconductor-brgenomics	False	Tools for the Efficient Analysis of High-Resolution Genomics Data	This package provides useful and efficient utilites for the analysis of high-resolution genomic data using standard Bioconductor methods and classes. BRGenomics is feature-rich and simplifies a number of post-alignment processing steps and data handling. Emphasis is on efficient analysis of multiple datasets, with support for normalization and blacklisting. Included are functions for: spike-in normalizing data; generating basepair-resolution readcounts and coverage data (e.g. for heatmaps); importing and processing bam files (e.g. for conversion to bigWig files); generating metaplots/metaprofiles (bootstrapped mean profiles) with confidence intervals; conveniently calling DESeq2 without using sample-blind estimates of genewise dispersion; among other features.	https://bioconductor.org/packages/3.18/bioc/html/BRGenomics.html
+aviary	False	aviary - Metagenomics pipeline using long and short reads.	"Aviary is an easy to use hybrid assembler and metagenomic pipeline
+
+For more details see documentation: https://rhysnewell.github.io/aviary."	https://github.com/rhysnewell/aviary
+virprof	False	Virus Identification, Quantification and Genome Recovery from RNA-Seq NGS data	"VirProf is a dual RNA-seq analysis pipeline integrating host
+expression profile generation with virus identification,
+quantification, and genome recovery from host tissue RNA
+sequencing data. VirProf combines an unguided metagenomic assembly
+workflow with interleaved host read depletion followed by BLAST
+based binning, scaffolding and classification. Application of
+VirProf to poly-A selected RNA-seq data from nasal swabs with
+respiratory virus qPCR data, revealed that VirProf was able to a)
+quantify a range of viral infections at detection limits and
+precision comparable to qPCR and b) recover complete, accurate
+viral genomes suitable for phylogenetic analysis.
+"	https://github.com/seiboldlab/virprof
+bioconductor-dada2	False	Accurate, high-resolution sample inference from amplicon sequencing data	The dada2 package infers exact amplicon sequence variants (ASVs) from high-throughput amplicon sequencing data, replacing the coarser and less accurate OTU clustering approach. The dada2 pipeline takes as input demultiplexed fastq files, and outputs the sequence variants and their sample-wise abundances after removing substitution and chimera errors. Taxonomic classification is available via a native implementation of the RDP naive Bayesian classifier, and species-level assignment to 16S rRNA gene fragments by exact matching.	https://bioconductor.org/packages/3.22/bioc/html/dada2.html
+papa2	False	Python-first amplicon denoising — byte-identical to R's DADA2	"papa2 is a complete Python port of the DADA2 amplicon denoising pipeline.
+All 37 R functions have Python equivalents, producing byte-identical results
+with no R dependency. Includes quality filtering, dereplication, error
+learning, denoising, paired-end merging, chimera removal, and taxonomy
+assignment backed by a compiled C/C++ core.
+"	https://github.com/rec3141/papa2
+r-netcomi	False	Network Construction and Comparison for Microbiome Data.	NetCoMi offers functions for constructing, analyzing, and comparing microbial association networks as well as dissimilarity-based networks for microbial compositional data. It also includes functionality for constructing differential association networks.	https://github.com/stefpeschel/NetCoMi
+colorid_bv	False	Experiments with using BIGSI data structure for metagenomic and QC applications		https://github.com/hcdenbakker/colorid_bv
+eukbin	False	BUSCO-guided binning for eukaryotic metagenomes	"EukBin is a specialized binning tool for eukaryotic metagenomes that combines
+repeat-masked tetranucleotide frequency (TNF), multi-sample coverage information,
+BUSCO marker gene constraints, and deep learning (β-VAE with contrastive loss)
+with ploidy-aware refinement.
+
+Key features:
+- Repeat-masked TNF features to handle repeat-rich eukaryotic genomes
+- BUSCO-guided constraints for accurate bin estimation
+- Ploidy-aware refinement (haplotig detection for diploid/polyploid genomes)
+- Deep learning with β-VAE and contrastive loss
+- Supports multi-sample binning
+
+This package includes:
+- eukbin run: Complete binning pipeline (M1-M6 modules)
+- eukbin evaluate: Quality assessment for any binning tool
+- eukbin report: Multi-tool comparison report
+"	https://github.com/weiwei12456/eukbin
+squeegee	False	squeegee, de novo computational contamination detection tool for metagenomic samples		https://gitlab.com/treangenlab/squeegee
+sourmash	False	Quickly search, compare, and analyze genomic and metagenomic data sets.		https://github.com/sourmash-bio/sourmash
+itsxrust	False	HMMER-based ITS subregion extraction for long-read fungal metabarcoding.		https://github.com/ayobi/ITSxRust
+perseus	False	Perseus: Lineage-aware Kraken2 refinement for long-read metagenomics		https://github.com/matnguyen/Perseus
+agtools	False	agtools: A Software Framework to Manipulate Assembly Graphs	"agtools is a Python framework for manipulating assembly graphs for downstream metagenomic applications, with a focus on the Graphical Fragment Assembly (GFA) format.
+"	https://github.com/Vini2/agtools
+metabintools	False	A toolkit for collating and manipulating metagenome bins.		https://github.com/sanger-tol/metabintools
+lotus3	False	LotuS3 is a lightweight amplicon sequencing pipeline supporting 16S/18S/ITS		https://lotus3.earlham.ac.uk/
+dbgraph	False	A graph-centric approach for metagenome-guided peptide identification in metaproteomics. 	Includes program DBGraph2Pro and DBGraphPep2Pro. Creates a peptide and protein database from graph generated from nucleotide sequencing data using MEGAHIT or MetaSpades. A graph-centric approach for metagenome-guided peptide identification in metaproteomics. 	https://github.com/jj-umn/graph2pro-var
+eukdetect	False	Detect eukaryotes from shotgun metagenomic sequencing data	"EukDetect detects and quantifies eukaryotic microbes in shotgun metagenomic
+sequencing data using a curated database of conserved marker genes. Reads are
+aligned to the marker database, filtered on alignment length, mapping quality,
+sequence complexity and duplication, and assigned to species. Reads that are
+better explained by a close relative are reassigned using a per-read sequence
+identity test, and abundance is reported as reads per kilobase of marker
+sequence.
+"	https://github.com/allind/EukDetect
+bioconductor-mina	False	Microbial community dIversity and Network Analysis	An increasing number of microbiome datasets have been generated and analyzed with the help of rapidly developing sequencing technologies. At present, analysis of taxonomic profiling data is mainly conducted using composition-based methods, which ignores interactions between community members. Besides this, a lack of efficient ways to compare microbial interaction networks limited the study of community dynamics. To better understand how community diversity is affected by complex interactions between its members, we developed a framework (Microbial community dIversity and Network Analysis, mina), a comprehensive framework for microbial community diversity analysis and network comparison. By defining and integrating network-derived community features, we greatly reduce noise-to-signal ratio for diversity analyses. A bootstrap and permutation-based method was implemented to assess community network dissimilarities and extract discriminative features in a statistically principled way.	https://bioconductor.org/packages/3.22/bioc/html/mina.html
+carpedeam	False	CarpeDeam - A metagenomic assembler for heavily damaged ancient datasets.		https://github.com/LouisPwr/CarpeDeam
+bioconductor-mixomics	False	Omics Data Integration Project	Multivariate methods are well suited to large omics data sets where the number of variables (e.g. genes, proteins, metabolites) is much larger than the number of samples (patients, cells, mice). They have the appealing properties of reducing the dimension of the data by using instrumental variables (components), which are defined as combinations of all variables. Those components are then used to produce useful graphical outputs that enable better understanding of the relationships and correlation structures between the different data sets that are integrated. mixOmics offers a wide range of multivariate methods for the exploration and integration of biological datasets with a particular focus on variable selection. The package proposes several sparse multivariate models we have developed to identify the key variables that are highly correlated, and/or explain the biological outcome of interest. The data that can be analysed with mixOmics may come from high throughput sequencing technologies, such as omics data (transcriptomics, metabolomics, proteomics, metagenomics etc) but also beyond the realm of omics (e.g. spectral imaging). The methods implemented in mixOmics can also handle missing values without having to delete entire rows with missing data. A non exhaustive list of methods include variants of generalised Canonical Correlation Analysis, sparse Partial Least Squares and sparse Discriminant Analysis. Recently we implemented integrative methods to combine multiple data sets: N-integration with variants of Generalised Canonical Correlation Analysis and P-integration with variants of multi-group Partial Least Squares.	https://bioconductor.org/packages/3.22/bioc/html/mixOmics.html
+metasbt	False	Microbial genomes characterization with Sequence Bloom Trees.	"A scalable framework for automatically indexing microbial genomes and accurately 
+characterizing metagenome-assembled genomes with Sequence Bloom Trees
+"	https://github.com/cumbof/MetaSBT
+gdmicro	False	GDmicro - Use GCN and Deep adaptation network to classify host disease status based on human gut microbiome data		https://github.com/liaoherui/GDmicro
+bioconductor-rnaseqcovarimpute	False	Impute Covariate Data in RNA Sequencing Studies	The RNAseqCovarImpute package makes linear model analysis for RNA sequencing read counts compatible with multiple imputation (MI) of missing covariates. A major problem with implementing MI in RNA sequencing studies is that the outcome data must be included in the imputation prediction models to avoid bias. This is difficult in omics studies with high-dimensional data. The first method we developed in the RNAseqCovarImpute package surmounts the problem of high-dimensional outcome data by binning genes into smaller groups to analyze pseudo-independently. This method implements covariate MI in gene expression studies by 1) randomly binning genes into smaller groups, 2) creating M imputed datasets separately within each bin, where the imputation predictor matrix includes all covariates and the log counts per million (CPM) for the genes within each bin, 3) estimating gene expression changes using `limma::voom` followed by `limma::lmFit` functions, separately on each M imputed dataset within each gene bin, 4) un-binning the gene sets and stacking the M sets of model results before applying the `limma::squeezeVar` function to apply a variance shrinking Bayesian procedure to each M set of model results, 5) pooling the results with Rubins’ rules to produce combined coefficients, standard errors, and P-values, and 6) adjusting P-values for multiplicity to account for false discovery rate (FDR). A faster method uses principal component analysis (PCA) to avoid binning genes while still retaining outcome information in the MI models. Binning genes into smaller groups requires that the MI and limma-voom analysis is run many times (typically hundreds). The more computationally efficient MI PCA method implements covariate MI in gene expression studies by 1) performing PCA on the log CPM values for all genes using the Bioconductor `PCAtools` package, 2) creating M imputed datasets where the imputation predictor matrix includes all covariates and the optimum number of PCs to retain (e.g., based on Horn’s parallel analysis or the number of PCs that account for >80% explained variation), 3) conducting the standard limma-voom pipeline with the `voom` followed by `lmFit` followed by `eBayes` functions on each M imputed dataset, 4) pooling the results with Rubins’ rules to produce combined coefficients, standard errors, and P-values, and 5) adjusting P-values for multiplicity to account for false discovery rate (FDR).	https://bioconductor.org/packages/3.22/bioc/html/RNAseqCovarImpute.html
+resfinder	False	ResFinder identifies acquired antimicrobial resistance genes in total or partial sequenced isolates of bacteria.		https://bitbucket.org/genomicepidemiology/resfinder
+crabs	False	Crabs (Creating Reference databases for Amplicon-Based Sequencing) is a program to download and curate reference databases for eDNA metabarcoding analyses.		https://github.com/gjeunen/reference_database_creator
+bioconductor-legato	False	LegATo: Longitudinal mEtaGenomic Analysis Toolkit	LegATo is a suite of open-source software tools for longitudinal microbiome analysis. It is extendable to several different study forms with optimal ease-of-use for researchers. Microbiome time-series data presents distinct challenges including complex covariate dependencies and variety of longitudinal study designs. This toolkit will allow researchers to determine which microbial taxa are affected over time by perturbations such as onset of disease or lifestyle choices, and to predict the effects of these perturbations over time, including changes in composition or stability of commensal bacteria.	https://bioconductor.org/packages/3.22/data/experiment/html/LegATo.html
+comparem2	False	Rapid microbial genomes-to-report pipeline	"CompareM2 runs fourteen analysis tools over a set of microbial assemblies
+and renders one self-contained HTML report: assembly statistics,
+completeness, taxonomy, annotation, AMR genes, sequence types, ANI, a
+pangenome, phylogenies and draft metabolic models.
+"	https://github.com/cmkobel/CompareM2
+bioconductor-benchdamic	False	Benchmark of differential abundance methods on microbiome data	Starting from a microbiome dataset (16S or WMS with absolute count values) it is possible to perform several analysis to assess the performances of many differential abundance detection methods. A basic and standardized version of the main differential abundance analysis methods is supplied but the user can also add his method to the benchmark. The analyses focus on 4 main aspects: i) the goodness of fit of each method's distributional assumptions on the observed count data, ii) the ability to control the false discovery rate, iii) the within and between method concordances, iv) the truthfulness of the findings if any apriori knowledge is given. Several graphical functions are available for result visualization.	https://bioconductor.org/packages/3.18/bioc/html/benchdamic.html
+scapp	False	Plasmid assembly in metagenomes		https://github.com/Shamir-Lab/SCAPP
+opfi	False	A package for discovery, annotation, and analysis of gene clusters in genomics or metagenomics datasets.		https://github.com/wilkelab/Opfi
+archer	False	Pre-process amplicon data before running CLIMB workflows.		https://github.com/will-rowe/archer
+metacortex	False	MetaCortex is an assembler for metagenomic, or environmental sequence data.		https://github.com/SR-Martin/metacortex
+amplify	False	Attentive deep learning model for antimicrobial peptide prediction		https://github.com/BirolLab/AMPlify
+strainify	False	Strain-level abundance analysis tool for short-read metagenomics	"Strainify is an accurate strain-level abundance analysis tool for short-read
+metagenomics. It uses whole-genome alignments (Parsnp) to identify variant
+sites, maps metagenomic reads to a reference, and estimates strain abundances
+via a maximum likelihood model. It is designed to perform well on complex microbial
+communities and at low sequencing depths, where strain-resolved signal is
+sparse and closely related strains are easily confused.
+"	https://github.com/treangenlab/Strainify
+marbel	False	Marbel generates realistic in silico metatranscriptomic dataset based on specified parameters.		https://github.com/jlab/marbel
+bioconductor-microstasis	False	Microbiota STability ASsessment via Iterative cluStering	The toolkit 'µSTASIS', or microSTASIS, has been developed for the stability analysis of microbiota in a temporal framework by leveraging on iterative clustering. Concretely, the core function uses Hartigan-Wong k-means algorithm as many times as possible for stressing out paired samples from the same individuals to test if they remain together for multiple numbers of clusters over a whole data set of individuals. Moreover, the package includes multiple functions to subset samples from paired times, validate the results or visualize the output.	https://bioconductor.org/packages/3.20/bioc/html/microSTASIS.html
+bioconductor-flowbin	False	Combining multitube flow cytometry data by binning	Software to combine flow cytometry data that has been multiplexed into multiple tubes with common markers between them, by establishing common bins across tubes in terms of the common markers, then determining expression within each tube for each bin in terms of the tube-specific markers.	https://bioconductor.org/packages/3.22/bioc/html/flowBin.html
+marvel	False	MARVEL: Metagenomic Analyses and Retrieval of Viral Elements 		http://github.com/quadram-institute-bioscience/marvel/
+grimer	False	GRIMER performs analysis of microbiome studies and generates a portable and interactive dashboard	"GRIMER performs analysis of microbiome studies and generates a portable and interactive dashboard 
+integrating annotation, taxonomy and metadata with focus on contamination detection. 
+"	https://github.com/pirovc/grimer
+das_tool	False	"Recovery of genomes from metagenomes via a dereplication,
+aggregation and scoring strategy.
+"	"DAS Tool is an automated method that integrates the results of a
+flexible number of binning algorithms to calculate an optimized,
+non-redundant set of bins from a single assembly.
+"	https://github.com/cmks/DAS_Tool
+hifiasm_meta	False	Metagenome assembler for Hifi reads, based on hifiasm.		https://github.com/xfengnefx/hifiasm-meta
+remag	False	Recovery of high-quality eukaryotic genomes from complex metagenomes	"REMAG is a specialized metagenomic binning tool designed for recovering 
+high-quality eukaryotic genomes from mixed prokaryotic-eukaryotic samples. 
+It uses contrastive learning with Siamese neural networks to generate 
+meaningful contig embeddings for clustering.
+"	https://github.com/danielzmbp/remag
+r-strainspy	False	Strain level microbiome wide association studies	"Fits statistical models to detect microbial strains associated with a
+phenotype. For small sample sizes, models can be fitted using empirical
+Bayes maximum a posteriori (MAP) priors to improve detection power.
+Supports various experimental design scenarios, including repeated
+measures.
+"	https://github.com/gtonkinhill/strainspy
+bindash	False	Fast and precise comparison of genomes and metagenomes (in the order of terabytes) on a typical personal laptop.		https://github.com/zhaoxiaofei/bindash
+metacarp	False	MetaCARP (Metagenomic Contamination-Assessment-of-Retail-Products) is a workflow to screen shotgun metagenomic sequencing data.		https://github.com/BioinformaticsPlatformWIV-ISP/MetaCARP
+gbintk	False	GraphBin-Tk: assembly graph-based metagenomic binning toolkit	"GraphBin-Tk is a toolkit that combines assembly graph-based metagenomic bin-refinement and binning techniques GraphBin, GraphBin2 and MetaCoAG.
+"	https://github.com/metagentools/gbintk
+recentrifuge	False	Robust comparative analysis and contamination removal for metagenomics.		https://github.com/khyox/recentrifuge
+prophane	False	Annotate your metaproteomic search results		https://gitlab.com/s.fuchs/prophane/
+guacamole-bio	False	GC-aware species abundance estimation from metagenomic data.		https://github.com/CIBIV/GuaCAMOLE
+yacht	False	YACHT is a mathematically rigorous hypothesis test for the presence or absence of organisms in a metagenomic sample, based on average nucleotide identity (ANI).		https://github.com/KoslickiLab/YACHT
+plasnet	False	Clustering, visualising and exploring plasmid networks		https://github.com/leoisl/plasnet
+bioconductor-microbiomeexplorer	False	Microbiome Exploration App	The MicrobiomeExplorer R package is designed to facilitate the analysis and visualization of marker-gene survey feature data. It allows a user to perform and visualize typical microbiome analytical workflows either through the command line or an interactive Shiny application included with the package. In addition to applying common analytical workflows the application enables automated analysis report generation.	https://bioconductor.org/packages/3.22/bioc/html/microbiomeExplorer.html
+metapointfinder	False	MetaPointFinder is a tool for detecting and scoring resistance- associated point mutations directly from long-read and short-read metagenomics sequencing data, using the AMRFinder database as reference.		https://github.com/aldertzomer/metapointfinder
+frogs	False	FROGS is a workflow designed to metabarcoding sequence analysis	FROGS produces an ASVs count matrix from high depth sequencing amplicon data. This is the official release 5.1.0 of FROGS. To fully install FROGS dependencies, please refer to the frogs-conda-requirements.txt and frogsfunc-conda-requirements.txt available at https://github.com/geraldinepascal/FROGS	https://github.com/geraldinepascal/FROGS
+checkm-genome	False	Assess the quality of microbial genomes recovered from isolates, single cells, and metagenomes.		https://github.com/Ecogenomics/CheckM
+bioconductor-microbiomemarker	False	microbiome biomarker analysis toolkit	To date, a number of methods have been developed for microbiome marker discovery based on metagenomic profiles, e.g. LEfSe. However, all of these methods have its own advantages and disadvantages, and none of them is considered standard or universal. Moreover, different programs or softwares may be development using different programming languages, even in different operating systems. Here, we have developed an all-in-one R package microbiomeMarker that integrates commonly used differential analysis methods as well as three machine learning-based approaches, including Logistic regression, Random forest, and Support vector machine, to facilitate the identification of microbiome markers.	https://bioconductor.org/packages/3.18/bioc/html/microbiomeMarker.html
+pantax	False	Strain-level metagenomic profiling using pangenome graphs with PanTax		https://github.com/LuoGroup2023/PanTax
+phlame	False	Novelty-aware intraspecies profiling of metagenome samples.		https://github.com/quevan/phlame
+mg-toolkit	False	Metagenomics toolkit.		https://www.ebi.ac.uk/metagenomics
+binette	False	A fast and accurate binning refinement tool to constructs high quality MAGs from the output of multiple binning tools.		https://github.com/genotoul-bioinfo/binette
+amptk	False	AMPtk: Amplicon tool kit for processing high throughput amplicon sequencing data.		https://github.com/nextgenusfs/amptk
+bigmag	False	BIgMAG: dashboard for extracting insights from MAG quality metrics		https://github.com/jeffe107/BIgMAG
+dms	False	Comprehensive taxonomic and phylogenetic comparison of shotgun metagenomes at the species level.		https://github.com/qibebt-bioinfo/dynamic-meta-storms
+centrifuger	False	Lossless compression of microbial genomes for efficient and accurate metagenomic sequence classification.		https://github.com/mourisl/centrifuger
+emuse	False	Report generator for the TRANA 16S rRNA taxonomic profiling pipeline		https://github.com/kclinmicro/emuse
+metacoag	False	MetaCoAG: Binning Metagenomic Contigs via Composition, Coverage and Assembly Graphs	"MetaCoAG is a metagenomic contig binning tool that makes use of the connectivity information found in assembly graphs.
+"	https://github.com/metagentools/MetaCoAG
+bioconductor-dirichletmultinomial	False	Dirichlet-Multinomial Mixture Model Machine Learning for Microbiome Data	Dirichlet-multinomial mixture models can be used to describe variability in microbial metagenomic data. This package is an interface to code originally made available by Holmes, Harris, and Quince, 2012, PLoS ONE 7(2): 1-15, as discussed further in the man page for this package, ?DirichletMultinomial.	https://bioconductor.org/packages/3.22/bioc/html/DirichletMultinomial.html
+unifrac-binaries	False	Fast phylogenetic diversity calculations	"UniFrac is a commonly phylogenetic diversity distance metric used in
+microbiome research. The metric relates two microbiome samples together
+within the context of an evolutionary history, and produces a distance
+that corresponds to how similar two samples by the amount of overlapping
+branch length. This package contains command line utilities and
+a shared library.
+"	https://github.com/biocore/unifrac-binaries
+malt	False	A tool for mapping metagenomic data		http://ab.inf.uni-tuebingen.de/software/malt/
+smeg	False	Strain-level Metagenomic Estimation of Growth rate (SMEG) measures growth rates of microbial strains from complex metagenomic dataset		https://github.com/ohlab/SMEG
+mess	False	Snakemake pipeline for simulating shotgun metagenomic samples		https://github.com/metagenlab/MeSS
+transgenescan	False	Software tool for finding genes in assembled transcripts from metatranscriptomic sequences.		https://github.com/COL-IU/TransGeneScan
+hamroaster	False	An analysis pipeline to compare the output of different AMR detection tools and provide metrics of their performance		https://github.com/ewissel/hAMRoaster
+tracs	False	Tracs - Fast pairwise transmission inference from single genome and/or metagenomic data		https://github.com/gtonkinhill/tracs
+metawatt	False	MetaWatt is a metagenomic binning tool	"The Metawatt binner is a graphical binning tool that makes use of
+multivariate statistics of tetranucleotide frequencies and differential
+coverage based binning. It also performs taxonomic assessment of binning
+quality (via diamond BLASTx). Created bins can be edited and exported as
+fasta. The Metawatt is implemented in Java SWING and minimally depends on
+Diamond, HMMer3.1, BBMap, Prodigal and the Batik library for the export of
+SVG graphics.
+"	https://sourceforge.net/projects/metawatt/
+cami-opal	False	OPAL assesses and compares the performance of taxonomic metagenome profilers.		http://cami-challenge.org
+phyloblitz	False	Rapid SSU rRNA marker gene screening of long read metagenomes.		https://github.com/kbseah/phyloblitz
+metamate	False	metaMATE: your metabarcoding friend!		https://github.com/tjcreedy/metamate
+viramp-hub	False	VirAmp-Hub lets you manipulate/convert viral amplicon/primer scheme information.		https://github.com/wm75/viramp-hub
+livekraken	False	LiveKraken is a real-time metagenomic classifier for Illumina sequencing data.		https://gitlab.com/SimonHTausch/LiveKraken
+metaxa	False	Improved Identification and Taxonomic Classification of Small and Large Subunit rRNA in Metagenomic Data.		http://microbiology.se/software/metaxa2/
+centrifuge-core	False	Classifier for metagenomic sequences. Does not include evaluation scripts		http://www.ccb.jhu.edu/software/centrifuge
+megagta	False	HMM-guided metagenomic gene-targeted assembler using iterative de Bruijn graphs		https://github.com/HKU-BAL/megagta
+viralflye	False	viralFlye is a pipeline to recover high-quality viral genomes from long-read metagenomic sequencing.		https://github.com/Dmitry-Antipov/viralFlye/
+unifrac	False	Fast phylogenetic diversity calculations.	"UniFrac is a commonly phylogenetic diversity distance metric used in 
+microbiome research. The metric relates two microbiome samples together
+within the context of an evolutionary history, and produces a distance
+that corresponds to how similar two samples by the amount of overlapping
+branch length.
+"	https://github.com/biocore/unifrac
+fegenie	False	HMM-based identification and categorization of iron genes and iron gene operons in genomes and metagenomes.		https://github.com/Arkadiy-Garber/FeGenie
+mob_suite	False	MOB-suite is a set of tools for finding, typing and reconstruction of plasmids from draft and complete genome assemblies.		https://pypi.org/project/mob-suite/
+somatem	False	Best practices pipeline for long-read metagenomics analysis.		https://github.com/treangenlab/somatem
+ctat-metagenomics	False	ctat-metagenomics uses centrifuge		https://github.com/NCIP/ctat-metagenomics
+tdkc	False	Ultrafast and memory-efficient target pathogen sequence classifier.	"TDKC (Target Distilled K-mer Classifier) is a metagenomic sequence
+classifier designed for fast, memory-efficient target pathogen
+diagnostics.
+"	https://github.com/543090lee/TDKC
+plasrisk	False	Data-driven multi-mode risk assessment for bacterial plasmids	"PlasRisk provides three scoring modes for bacterial plasmid risk
+assessment. The default output (--mode lite) is a FASTA-only 5-dimension
+core (S_ARG, S_BMG, S_MOB, S_SIZE, S_VF) with discrimination equivalent
+to the full model. --mode full adds host range (S_HOST), replicon type
+(S_REP), geographic spread (S_GEO), habitat breadth (S_HAB), and
+temporal growth rate (S_GROW). --mode ordinal reproduces the original
+PIPdb 8-item ordinal combined risk index (Zhu et al., Nucleic Acids Res.
+2025). S_ARG can optionally use the WHO AWaRe 2025 category table
+(--aware-version 2025); the legacy mapping used for the frozen component
+matrix remains the default. Weights were derived by data-driven consensus
+(Random Forest MDG, LASSO, grid-search optimization) on 792,964 PIPdb
+plasmid sequence clusters. PlasRisk accepts FASTA input and uses abricate
+for annotation when available; sequence-derived dimensions fall back to
+replicon empirical medians when annotation is unavailable.
+"	https://github.com/LLQ95/PlasRisk
+musicc	False	MUSICC: A marker genes based framework for metagenomic normalization and accurate profiling of gene abundances in the microbiome.		http://elbo.gs.washington.edu/software_musicc.html
+kraken	False	Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies.		https://ccb.jhu.edu/software/kraken
+longtrack	False	Track FMT strains using long-read metagenomic assemblies.		https://github.com/fanglab/LongTrack
+meta-sparse	False	SPARSE indexes reference genomes in public databases into hierarchical clusters and uses it to predict origins of metagenomic reads.		https://github.com/zheminzhou/SPARSE/
+fcp	False	Homology- and composition-based classifiers for assigning a taxonomic attribution to metagenomic fragments.		https://github.com/dparks1134/FragmentClassificationPackage
+bioconductor-microbiomedatasets	False	Experiment Hub based microbiome datasets	microbiomeDataSets is a collection of microbiome datasets loaded from Bioconductor'S ExperimentHub infrastructure. The datasets serve as reference for workflows and vignettes published adjacent to the microbiome analysis tools on Bioconductor. Additional datasets can be added overtime and additions from authors are welcome.	https://bioconductor.org/packages/3.22/data/experiment/html/microbiomeDataSets.html
+ampd-up	False	De novo antimicrobial peptide sequence generation with recurrent neural networks		https://github.com/bcgsc/AMPd-Up
+r-ampvis	False	A package to visualise amplicon data		https://github.com/MadsAlbertsen/ampvis
+megapath	False	Sensitive and rapid pathogen detection	"MegaPath: sensitive and rapid pathogen detection using metagenomic NGS data; MegaPath-Amplicon: filtering module for metagenomic amplicon data
+"	https://github.com/HKU-BAL/MegaPath
+diting	False	A Snakemake-based pipeline to infer and compare biogeochemical pathways in metagenomic data		https://github.com/SilentGene/DiTing
+sourcepredict	False	Classification and prediction of the origin of metagenomic samples.		https://github.com/maxibor/sourcepredict
+bioconductor-pathostat	False	PathoStat Statistical Microbiome Analysis Package	The purpose of this package is to perform Statistical Microbiome Analysis on metagenomics results from sequencing data samples. In particular, it supports analyses on the PathoScope generated report files. PathoStat provides various functionalities including Relative Abundance charts, Diversity estimates and plots, tests of Differential Abundance, Time Series visualization, and Core OTU analysis.	https://bioconductor.org/packages/3.22/bioc/html/PathoStat.html
+bioconductor-iseetree	False	Interactive visualisation for microbiome data	iSEEtree is an extension of iSEE for the TreeSummarizedExperiment data container. It provides interactive panel designs to explore hierarchical datasets, such as the microbiome and cell lines.	https://bioconductor.org/packages/3.22/bioc/html/iSEEtree.html
+metamlst	False	A computational pipeline for MLST typing from metagenomic data		https://github.com/SegataLab/metamlst
+metawrap-mg	False	MetaWRAP is a pipeline for genome-resolved metagenomic data analysis		https://github.com/bxlab/metaWRAP
+metaquantome	False	Quantitative metaproteomics analysis of taxonomy and function.		https://github.com/galaxyproteomics/metaquantome
+kaiju	False	Fast and sensitive taxonomic classification for metagenomics.		https://github.com/bioinformatics-centre/kaiju
+bioconductor-hmp2data	False	16s rRNA sequencing data from the Human Microbiome Project 2	HMP2Data is a Bioconductor package of the Human Microbiome Project 2 (HMP2) 16S rRNA sequencing data. Processed data is provided as phyloseq, SummarizedExperiment, and MultiAssayExperiment class objects. Individual matrices and data.frames used for building these S4 class objects are also provided in the package.	https://bioconductor.org/packages/3.22/data/experiment/html/HMP2Data.html
+plassembler	False	Quickly and accurately assemble plasmids in hybrid sequenced bacterial isolates.		https://github.com/gbouras13/plassembler
+lorikeet-genome	False	Metagenomic Variant Calling & Diversity Analysis	Lorikeet aims to call variants in metagenomes using local reassembly of haplotypes.	https://github.com/rhysnewell/Lorikeet
+pantax-dbg	False	PanTax-DBG: species- and strain-level metagenomic profiling with bundled modified DBG backends		https://github.com/xujialupaoli/PanTax-DBG
+floria	False	Floria is method for recovering strain-level haplotypes and clusters of reads from metagenomic short or long read sequencing data by haplotype phasing.		https://github.com/bluenote-1577/floria
+bamm	False	Metagenomics-focused BAM file manipulation.		https://github.com/Ecogenomics/BamM
+binlorry	False	BinLorry, a flexible tool for binning and filtering sequencing reads		https://github.com/rambaut/binlorry
+platon	False	Plasmid contig classification and characterization for short read draft assemblies.		https://github.com/oschwengers/platon
+trident	False	Bayesian re-estimation of taxon and accession abundances from metagenomic classifier output		https://github.com/wgobrien/Trident
+metameta	False	MetaMeta - pipeline for integrating metagenome analysis tools to improve taxonomic profiling		https://github.com/pirovc/metameta/
+metahict	False	Genome-resolved metagenomic Hi-C analysis with Nextflow DSL2		https://github.com/dyxstat/METAHICT
+irep	False	calculate iRep replication rates from metagenome sequencing		https://github.com/christophertbrown/iRep
+metacooc	False	Co-occurrence analysis of microorganisms in metagenomes.		https://github.com/bcoltman/metacooc
+rdptools	False	Metaproject for RDP Tools		http://rdp.cme.msu.edu/misc/resources.jsp
+bioconductor-eudysbiome	False	Cartesian plot and contingency test on 16S Microbial data	eudysbiome a package that permits to annotate the differential genera as harmful/harmless based on their ability to contribute to host diseases (as indicated in literature) or unknown based on their ambiguous genus classification. Further, the package statistically measures the eubiotic (harmless genera increase or harmful genera decrease) or dysbiotic(harmless genera decrease or harmful genera increase) impact of a given treatment or environmental change on the (gut-intestinal, GI) microbiome in comparison to the microbiome of the reference condition.	https://bioconductor.org/packages/3.22/bioc/html/eudysbiome.html
+gentle	False	Software suite for DNA cloning.	"GENtle provides a GUI for amino acid editing, plasmid maps,
+restriction and ligation, alignments, sequencer data import,
+calculators, gel image display, PCR, and much more.
+"	https://github.com/GENtle-persons/gentle-m
+euktect	False	Eukaryotic MAG quality assessment using HyenaDNA (CPU-only)	"Euktect uses the HyenaDNA deep learning model to assess the quality of
+Eukaryotic Metagenome-Assembled Genomes (MAGs). This CPU-only build does
+not require CUDA or GPU hardware.
+"	https://github.com/NameFilled/Euktect
+meteor	False	Meteor is a plateform for quantitative metagenomics profiling of complex ecosystems.	"Meteor is a plateform for quantitative metagenomics profiling of complex ecosystems. Meteor relies on genes catalogue to perform species-level taxonomic profiling (Bacteria, Archaea and Eukaryotes), functional analysis and strain-level population structure inference.
+"	https://github.com/metagenopolis/meteor
+metagem	False	Generate context specific genome-scale metabolic models and predict metabolic interactions directly from metagenomic data		https://github.com/franciscozorrilla/metaGEM
+mags-visualization	False	Visualization toolkit for MAG quality, taxonomy, clustering, abundance patterns and functional annotation.		https://github.com/usegalaxy-eu/MAGs-visualization
+strainscan	False	One efficient and accurate strain-level microbiome composition analysis tool based on reference genomes and k-mers.		https://github.com/liaoherui/StrainScan
+prophyle	False	ProPhyle is an accurate, resource-frugal and deterministic phylogeny-based metagenomic classifier.		https://github.com/karel-brinda/prophyle
+bioconductor-microbiomeprofiler	False	An R/shiny package for microbiome functional enrichment analysis	This is an R/shiny package to perform functional enrichment analysis for microbiome data. This package was based on clusterProfiler. Moreover, MicrobiomeProfiler support KEGG enrichment analysis, COG enrichment analysis, Microbe-Disease association enrichment analysis, Metabo-Pathway analysis.	https://bioconductor.org/packages/3.22/bioc/html/MicrobiomeProfiler.html
+patholive	False	A real-time pathogen diagnostics tool for metagenomic Illumina sequencing data.		https://gitlab.com/SimonHTausch/PathoLive
+phageflow	False	Modular bacteriophage genomics pipeline for complete genome recovery	"PhageFlow is a modular pipeline for recovering complete and high-quality
+phage genomes from Illumina paired-end sequencing. It supports purified
+phage preparations, viromes, and environmental metagenomes.
+"	https://github.com/fcabezasmera/PhageFlow
+figaro	False	An efficient and objective tool for optimizing microbiome rRNA gene trimming parameters		https://github.com/Zymo-Research/figaro
+argo	False	Argo: species-resolved profiling of antibiotic resistance genes in complex metagenomes through long-read overlapping		https://github.com/xinehc/argo
+prinseq	False	PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic sequence data		http://prinseq.sourceforge.net/
+rosella	False	Metagenomic binning pipeline and algorithm using UMAP and HDBSCAN		https://github.com/rhysnewell/rosella.git
+savont	False	Amplicon sequencing variants (ASVs) and taxonomic profiling from modern long-read (nanopore + PacBio) amplicon sequencing with > 98% accuracy.		https://github.com/bluenote-1577/savont
+mtsv	False	MTSv is a suite of metagenomic binning and analysis tools.		https://github.com/FofanovLab/MTSv
+bioconductor-decontam	False	Identify Contaminants in Marker-gene and Metagenomics Sequencing Data	Simple statistical identification of contaminating sequence features in marker-gene or metagenomics data. Works on any kind of feature derived from environmental sequencing data (e.g. ASVs, OTUs, taxonomic groups, MAGs,...). Requires DNA quantitation data or sequenced negative control samples.	https://bioconductor.org/packages/3.22/bioc/html/decontam.html
+kmetashot	False	Fast taxonomic classifier for metagenome bins/MAGs based on k-mer/minimizer		https://github.com/gdefazio/kMetaShot
+mpa-portable	False	MPA Portable is a light-weight and stand-alone software for the identification of proteins and in-depth analysis of metaproteomics (and also proteomics) data.		https://github.com/compomics/meta-proteome-analyzer
+genotopep	False	Reproducible peptide candidate generation from genome and metagenome assemblies or protein FASTA files.		https://github.com/ljunwon1114/GenoToPep
+cgt	False	Calculate a core genome threshold (cgt) from metagenome data.		https://github.com/bacpop/cgt
+metacompass	False	MetaCompass: Reference-guided Assembly of Metagenomes.		https://github.com/marbl/MetaCompass
+bioconductor-hmp16sdata	False	16S rRNA Sequencing Data from the Human Microbiome Project	HMP16SData is a Bioconductor ExperimentData package of the Human Microbiome Project (HMP) 16S rRNA sequencing data for variable regions 1–3 and 3–5. Raw data files are provided in the package as downloaded from the HMP Data Analysis and Coordination Center. Processed data is provided as SummarizedExperiment class objects via ExperimentHub.	https://bioconductor.org/packages/3.22/data/experiment/html/HMP16SData.html
+bioconductor-mgnifyr	False	R interface to EBI MGnify metagenomics resource	Utility package to facilitate integration and analysis of EBI MGnify data in R. The package can be used to import microbial data for instance into TreeSummarizedExperiment (TreeSE). In TreeSE format, the data is directly compatible with miaverse framework.	https://bioconductor.org/packages/3.22/bioc/html/MGnifyR.html
+graphbin	False	GraphBin: Refined binning of metagenomic contigs using assembly graphs	"GraphBin is a metagenomic contig bin-refinement tool that makes use of assembly graphs.
+"	https://github.com/Vini2/GraphBin
+lotus2	False	LotuS2 is a lightweight complete 16S/18S/ITS pipeline. Deprecated in favour of LotuS3.		http://lotus2.earlham.ac.uk/
+bioconductor-miasim	False	Microbiome Data Simulation	Microbiome time series simulation with generalized Lotka-Volterra model, Self-Organized Instability (SOI), and other models. Hubbell's Neutral model is used to determine the abundance matrix. The resulting abundance matrix is applied to (Tree)SummarizedExperiment objects.	https://bioconductor.org/packages/3.22/bioc/html/miaSim.html
+metacontextify	False	Automated environmental annotation of marine metagenomic samples		https://github.com/MaartenLangen/metacontextify
+mglex	False	MGLEX - MetaGenome Likelihood EXtractor		https://github.com/fungs/mglex
+thapbi-pict	False	THAPBI Phytophthora ITS1 Classifier Tool (PICT).	"THAPBI Phytophthora ITS1 Classifier Tool (PICT) an ITS1-based
+diagnostic/profiling tool from the UK BBSRC funded Tree Health
+and Plant Biosecurity Initiative (THAPBI) Phyto-Threats project,
+focused on identifying Phytophthora species present in Illumina
+sequenced environmental samples.
+"	https://github.com/peterjc/thapbi-pict
+metaplex	False	Read Processing and Quality Control Toolkit for Dual-Indexed Metabarcoding		https://github.com/NGabry/MetaPlex
+obitools	False	The OBITools package is a set of programs specifically designed for analyzing NGS data in a DNA metabarcoding context, taking into account taxonomic information		http://metabarcoding.org/obitools
+bioconductor-metaphor	False	Metabolic Pathway Analysis of RNA	MetaPhOR was developed to enable users to assess metabolic dysregulation using transcriptomic-level data (RNA-sequencing and Microarray data) and produce publication-quality figures. A list of differentially expressed genes (DEGs), which includes fold change and p value, from DESeq2 or limma, can be used as input, with sample size for MetaPhOR, and will produce a data frame of scores for each KEGG pathway. These scores represent the magnitude and direction of transcriptional change within the pathway, along with estimated p-values.MetaPhOR then uses these scores to visualize metabolic profiles within and between samples through a variety of mechanisms, including: bubble plots, heatmaps, and pathway models.	https://bioconductor.org/packages/3.22/bioc/html/MetaPhOR.html
+automappa	False	Automappa: An interactive interface for exploration of metagenomes.	"An interactive interface for exploration and refinment of metagenomes into metagenome-assembled genomes.
+"	https://github.com/WiscEvan/Automappa
+phylophlan	False	Precise phylogenetic analysis of microbial isolates and genomes from metagenomes	"PhyloPhlAn 3.0 is an integrated pipeline for large-scale phylogenetic 
+profiling of genomes and metagenomes. PhyloPhlAn 3.0 is an accurate, rapid,
+and easy-to-use method for large-scale microbial genome characterization 
+and phylogenetic analysis at multiple levels of resolution. PhyloPhlAn 3.0 
+can assign both genomes and metagenome-assembled genomes (MAGs) to 
+species-level genome bins (SGBs). PhyloPhlAn 3.0 can reconstruct 
+strain-level phylogenies using clade-specific maximally informative 
+phylogenetic markers, and can also scale to very-large phylogenies 
+comprising >17,000 microbial species."	https://github.com/biobakery/phylophlan
+paladin	False	Protein Alignment and Detection Interface.	PALADIN is a protein sequence alignment tool designed for the accurate functional characterization of metagenomes.	https://github.com/ToniWestbrook/paladin
+graftm	False	GraftM is a pipeline used for identifying and classifying marker gene reads from metagenomic datasets		http://geronimp.github.io/graftM
+mvip	False	MVP v.1.0, a user-friendly pipeline written in Python and providing a simple framework to perform standard viromics analyses. MVP combines multiple tools to enable viral genome identification, characterization of genome quality, filtering, clustering, taxonomic and functional annotation, genome binning, and comprehensive summaries of results that can be used for downstream ecological analyses. Overall, MVP provides a standardized and reproducible pipeline for both extensive and robust characterization of viruses from large-scale sequencing data including metagenomes, metatranscriptomes, viromes and isolate genomes.		https://gitlab.com/ccoclet/mvp
+edentity	False	eDentity metabarcoding pipeline		https://pypi.org/project/edentity/
+ampligone	False	Ampligone is a tool which accurately removes primer sequences from FastQ NGS reads in an amplicon sequencing experiment		https://rivm-bioinformatics.github.io/AmpliGone/
+bioconductor-perfect	False	Permutation filtration for microbiome data	PERFect is a novel permutation filtering approach designed to address two unsolved problems in microbiome data processing: (i) define and quantify loss due to filtering by implementing thresholds, and (ii) introduce and evaluate a permutation test for filtering loss to provide a measure of excessive filtering.	https://bioconductor.org/packages/3.17/bioc/html/PERFect.html
+hylight	False	Strain aware assembly of low coverage metagenomes.		https://github.com/LuoGroup2023/HyLight
+bioconductor-mpfe	False	Estimation of the amplicon methylation pattern distribution from bisulphite sequencing data	Estimate distribution of methylation patterns from a table of counts from a bisulphite sequencing experiment given a non-conversion rate and read error rate.	https://bioconductor.org/packages/3.22/bioc/html/MPFE.html
+viotucluster	False	High-speed all-in-one viromics analysis pipeline for metagenomic data.		https://github.com/liusihang/ViOTUcluster
+tiptoft	False	Predict plasmids from uncorrected long read data.		https://github.com/andrewjpage/tiptoft
+graphbin2	False	GraphBin2: Refined and Overlapped Binning of Metagenomic Contigs Using Assembly Graphs	"GraphBin2 is a metagenomic contig bin-refinement tool that makes use of assembly graphs and can assign contigs to multiple bins.
+"	https://github.com/metagentools/GraphBin2
+metamobilepicker	False	MetaMobilePicker: identification of MGEs and ARGs based in metagenomic samples		https://gitlab.com/jkerkvliet/metamobilepicker
+dampa	False	DAMPA designs probes for use in targetted metagenomics. It leverages pangenome graphs to increase speed and accuracy.		https://github.com/MultipathogenGenomics/dampa
+metavelvet	False	MetaVelvet : An extension of Velvet assembler to de novo metagenome assembly from short sequence reads		http://metavelvet.dna.bio.keio.ac.jp
+nonpareil	False	Estimate average coverage and create curves for metagenomic datasets.		https://github.com/lmrodriguezr/nonpareil
+enteroscope	False	EnteroScope: Comprehensive Enterobacter cloacae complex genomic typing pipeline with parallel execution	"EnteroScope is a complete, automated genomic analysis pipeline for Enterobacter cloacae complex,
+featuring parallel execution for rapid processing of bacterial genomes. The pipeline integrates
+multiple analysis modules into a unified workflow:
+
+• Quality Control (FASTA QC) – Comprehensive sequence validation
+• Multi-Locus Sequence Typing (MLST) – Enterobacter cloacae specific scheme
+• Antimicrobial Resistance (AMR) – Resistance gene detection via AMRfinderPlus
+• Virulence & Plasmid Profiling (ABRicate) – Multi-database screening (CARD, ResFinder, VFDB, NCBI, MEGARes, BacMet, PlasmidFinder)
+• Critical Genes Flagging – Priority markers for infection control (carbapenemases, ESBLs, colistin, tigecycline)
+• Interactive HTML Reports – Gene-centric integrated analysis
+• Cross-genome pattern discovery
+
+Key Features:
+🚀 Parallel Execution – QC and MLST run simultaneously for maximum speed
+📊 Interactive Reports – HTML summaries with search, sort, export, print
+🧬 Multi-Database Integration – AMRfinderPlus + ABRicate with 10+ databases
+⚡ Easy Deployment – Single command analysis with automatic result aggregation
+🎯 Critical Gene Tracking – Carbapenemases (KPC, NDM, OXA-48), ESBLs, mcr, tet(X), biofilm, efflux pumps
+
+Designed for clinical microbiology, outbreak investigation, and genomic surveillance,
+EnteroScope provides clinical labs and researchers with a complete solution for
+Enterobacter cloacae complex genomic characterization from raw sequencing data to publication-ready reports.
+"	https://github.com/bbeckley-hub/enteroscope
+bioconductor-sparsedossa	False	Sparse Data Observations for Simulating Synthetic Abundance	The package is to provide a model based Bayesian method to characterize and simulate microbiome data. sparseDOSSA's model captures the marginal distribution of each microbial feature as a truncated, zero-inflated log-normal distribution, with parameters distributed as a parent log-normal distribution. The model can be effectively fit to reference microbial datasets in order to parameterize their microbes and communities, or to simulate synthetic datasets of similar population structure. Most importantly, it allows users to include both known feature-feature and feature-metadata correlation structures and thus provides a gold standard to enable benchmarking of statistical methods for metagenomic data analysis.	https://bioconductor.org/packages/3.17/bioc/html/sparseDOSSA.html
+tb-ml	False	A simple tool for creating machine learning antimicrobial resistance prediction pipelines using Docker containers for M. tuberculosis.		https://github.com/jodyphelan/tb-ml
+metatracer	False	MetaTracer metatranscriptomic analysis pipeline.		https://github.com/FofanovLab/MetaTracer
+metaprob	False	assembly-assisted tool for un-supervised metagenomic binning	"MetaProb is a novel assembly-assisted tool for un-supervised metagenomic
+binning. The novelty of MetaProb derives from solving a few important
+problems: how to divide reads into groups of independent reads, so that
+l-mer frequencies are not overestimated; how to convert l-mer counts into
+probabilistic sequence signatures, that will correct for variable
+distribution of l-mers, and for unbalanced groups of reads, in order to
+produce better estimates of the underlying genome statistic. We show that
+MetaProb is effective for both simulated and real datasets. It can
+accurately (with F-measures of 87 for short reads and 97 long reads) and
+efficiently bin short and long reads with varying abundance ratios.
+"	https://bitbucket.org/samu661/metaprob/
+bioconductor-sqldataframe	False	Representation of SQL tables in DataFrame metaphor	Implements bindings for SQL tables that are compatible with Bioconductor S4 data structures, namely the DataFrame and DelayedArray. This allows SQL-derived data to be easily used inside other Bioconductor objects (e.g., SummarizedExperiments) while keeping everything on disk.	https://bioconductor.org/packages/3.20/bioc/html/SQLDataFrame.html
+metacerberus	False	Versatile Functional Ontology Assignments for Metagenomes via Hidden Markov Model (HMM) searching with environmental focus of shotgun meta'omics data		https://github.com/raw-lab/metacerberus
+metacontam	False	Contamination detection tool for metagenomic sequencing data		https://github.com/Lifemining-lab/Metacontam
+bioconductor-ramr	False	Detection of Rare Aberrantly Methylated Regions in Array and NGS Data	ramr is an R package for detection of epimutations (i.e., infrequent aberrant DNA methylation events) in large data sets obtained by methylation profiling using array or high-throughput methylation sequencing. In addition, package provides functions to visualize found aberrantly methylated regions (AMRs), to generate sets of all possible regions to be used as reference sets for enrichment analysis, and to generate biologically relevant test data sets for performance evaluation of AMR/DMR search algorithms.	https://bioconductor.org/packages/3.22/bioc/html/ramr.html
+pipits	False	PIPITS: An automated pipeline for analyses of fungal internal transcribed spacer (ITS) sequences from the Illumina sequencing platform.		https://github.com/hsgweon/pipits
+slimm	False	SLIMM - Species Level Identification of Microbes from Metagenomes		https://github.com/seqan/slimm/blob/master/README.md
+kraken2	False	Kraken2 is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies.		https://ccb.jhu.edu/software/kraken2
+sunbeamlib	False	A robust, extensible metagenomic sequencing pipeline.		https://github.com/sunbeam-labs/sunbeam
+comebin	False	COMEBin allows effective binning of metagenomic contigs using COntrastive Multi-viEw representation learning		https://github.com/ziyewang/COMEBin
+vrhyme	False	Binning Virus Genomes from Metagenomes.		https://github.com/AnantharamanLab/vRhyme
+staphscope	False	Advanced Staphylococcus aureus Typing & Lineage Analysis Platform.	"StaphScope is a comprehensive bioinformatics tool for Staphylococcus aureus
+genomic analysis including MLST typing, spa typing, SCCmec analysis (CGE and
+RPet callers), capsule typing, agr typing, antimicrobial resistance detection,
+virulence factors, plasmid profiling, mobile genetic element profiling, and
+lineage prediction from whole genome sequencing data.
+"	https://github.com/bbeckley-hub/staphscope-typing-tool
+metawepp	False	metaWEPP: Improving the resolution of metagenomic analysis using WEPP	"metaWEPP extends existing metagenomic tools beyond species-level resolution by enabling near-haplotype detection, abundance estimation, and novel variant detection in multi-species samples. It first uses a standard classifier to segregate reads by species, then applies the Wastewater-Based Epidemiology using Phylogenetic Placements (WEPP) pipeline to each species-specific reads sample. By performing parsimonious read placement on species-specific mutation-annotated trees (MATs), metaWEPP identifies haplotypes that best explain the observed data and flags Unaccounted Alleles—mutations observed in the sample but unexplained by the selected haplotypes—that may indicate novel variants.
+The pipeline enables high-resolution surveillance across diverse pathogens and includes an interactive dashboard for visualizing identified haplotypes within their global phylogenies, along with detailed read-level analysis of emerging variants in complex metagenomic datasets."	https://github.com/TurakhiaLab/metaWEPP
+parallel-meta-suite	False	Parallel-META Suite for comprehensive microbiome analysis		https://github.com/qdu-bioinfo/parallel-meta-suite
+bioconductor-trident	False	TrIdent - Transduction Identification	The `TrIdent` R package automates the analysis of transductomics data by detecting, classifying, and characterizing read coverage patterns associated with potential transduction events. Transductomics is a DNA sequencing-based method for the detection and characterization of transduction events in pure cultures and complex communities. Transductomics relies on mapping sequencing reads from a viral-like particle (VLP)-fraction of a sample to contigs assembled from the metagenome (whole-community) of the same sample. Reads from bacterial DNA carried by VLPs will map back to the bacterial contigs of origin creating read coverage patterns indicative of ongoing transduction.	https://bioconductor.org/packages/3.22/bioc/html/TrIdent.html
+bioconductor-maaslin3	False	"""Refining and extending generalized multivariate linear models for meta-omic association discovery"""	MaAsLin 3 refines and extends generalized multivariate linear models for meta-omicron association discovery. It finds abundance and prevalence associations between microbiome meta-omics features and complex metadata in population-scale epidemiological studies. The software includes multiple analysis methods (including support for multiple covariates, repeated measures, and ordered predictors), filtering, normalization, and transform options to customize analysis for your specific study.	https://bioconductor.org/packages/3.22/bioc/html/maaslin3.html
+kneaddata	False	KneadData is a tool designed to perform quality control on metagenomic sequencing data.	"KneadData is a tool designed to perform quality control on metagenomic sequencing data, especially data from microbiome experiments. In these experiments, samples are typically taken from a host in hopes of learning something about the microbial community on the host. However, metagenomic sequencing data from such experiments will often contain a high ratio of host to bacterial reads. This tool aims to perform principled in silico separation of bacterial reads from these ""contaminant"" reads, be they from the host, from bacterial 16S sequences, or other user-defined sources."	https://huttenhower.sph.harvard.edu/kneaddata
+baktfold	False	Rapid & standardized annotation of bacterial genomes, MAGs & plasmids using protein structural information		https://github.com/gbouras13/baktfold
+bioconductor-rrdp	False	Interface to the RDP Classifier	This package installs and interfaces the naive Bayesian classifier for 16S rRNA sequences developed by the Ribosomal Database Project (RDP). With this package the classifier trained with the standard training set can be used or a custom classifier can be trained.	https://bioconductor.org/packages/3.22/bioc/html/rRDP.html
+cami-amber	False	AMBER: Assessment of Metagenome BinnERs		https://github.com/CAMI-challenge/AMBER
+plasmidcommunity	False	Klebsiella pneumoniae Plasmid Classification, Assignment, and Transmission Risk Prediction		https://github.com/wuxinmiao5/PlasmidCommunity
+bioconductor-animalcules	False	Interactive microbiome analysis toolkit	animalcules is an R package for utilizing up-to-date data analytics, visualization methods, and machine learning models to provide users an easy-to-use interactive microbiome analysis framework. It can be used as a standalone software package or users can explore their data with the accompanying interactive R Shiny application. Traditional microbiome analysis such as alpha/beta diversity and differential abundance analysis are enhanced, while new methods like biomarker identification are introduced by animalcules. Powerful interactive and dynamic figures generated by animalcules enable users to understand their data better and discover new insights.	https://bioconductor.org/packages/3.22/bioc/html/animalcules.html
+bioconductor-lefser	False	R implementation of the LEfSE method for microbiome biomarker discovery	lefser is the R implementation of the popular microbiome biomarker discovery too, LEfSe. It uses the Kruskal-Wallis test, Wilcoxon-Rank Sum test, and Linear Discriminant Analysis to find biomarkers from two-level classes (and optional sub-classes).	https://bioconductor.org/packages/3.22/bioc/html/lefser.html
+getitd	False	Detection of FLT3-ITDs (internal tandem duplications) from amplicon NGS data.	"getITD detects and characterises FLT3 internal tandem duplications (ITDs) from
+high-throughput amplicon sequencing data, supporting minimal residual disease
+monitoring in acute myeloid leukemia. It aligns reads to a wild-type amplicon
+reference, identifies and merges insertions, and reports ITDs with variant allele
+frequencies and genomic/protein annotation.
+"	https://github.com/tjblaette/getitd
+groot	False	A tool for resistome profiling of metagenomic samples.		https://github.com/will-rowe/groot
+kmertools	False	kmertools: DNA Vectorisation Tool	kmertools is a k-mer based feature extraction tool designed to support metagenomics and other bioinformatics analytics.	https://github.com/anuradhawick/kmertools
+cayman	False	A command-line profiling tool for profiling CAZyme abundances in metagenomic datasets.		https://github.com/zellerlab/cayman
+fmh-funprofiler	False	fmh-funprofiler is a pipeline that leverages FracMinHash (implemented in sourmash) to functionally profile metagenomic samples, offering a faster and more memory-efficient alternative to alignment-based methods.		https://github.com/KoslickiLab/fmh-funprofiler
+bioconductor-hicdcplus	False	Hi-C Direct Caller Plus	Systematic 3D interaction calls and differential analysis for Hi-C and HiChIP. The HiC-DC+ (Hi-C/HiChIP direct caller plus) package enables principled statistical analysis of Hi-C and HiChIP data sets – including calling significant interactions within a single experiment and performing differential analysis between conditions given replicate experiments – to facilitate global integrative studies. HiC-DC+ estimates significant interactions in a Hi-C or HiChIP experiment directly from the raw contact matrix for each chromosome up to a specified genomic distance, binned by uniform genomic intervals or restriction enzyme fragments, by training a background model to account for random polymer ligation and systematic sources of read count variation.	https://bioconductor.org/packages/3.22/bioc/html/HiCDCPlus.html
+hamronization	False	Tool to convert and summarize AMR gene detection outputs using the hAMRonization specification		https://github.com/pha4ge/hAMRonization
+adtoolbox	False	Modeling and optimization of anaerobic digestion, from sequencing reads to ADM1/e-ADM simulation	"ADToolbox turns metagenomics evidence into model-ready anaerobic digestion
+simulations. It maps 16S amplicon data through GTDB and a curated
+enzyme-to-reaction database, or profiles shotgun reads directly, to produce
+the microbial COD allocation an extended ADM (e-ADM) model needs -- then
+simulates, visualizes, and calibrates the model against experimental data.
+"	https://github.com/chan-csu/ADToolbox
+bioconductor-otubase	False	Provides structure and functions for the analysis of OTU data	Provides a platform for Operational Taxonomic Unit based analysis	https://bioconductor.org/packages/3.22/bioc/html/OTUbase.html
+scgbinner	False	A deep learning-based metagenomic binning method		https://github.com/htaohan/SCGBinner
+kraken-ea	False	Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies. This is a modified version allowing for splitting of fastq files based on read classifications.		https://github.com/ExpressionAnalysis/kraken/tree/v0.10.5-beta-ea.3
+rtk	False	rtk - rarefaction toolkit for OTU tables.		https://github.com/hildebra/Rarefaction
+fairy	False	fairy calculates all-to-all approximate coverage for multi-sample metagenomic binning > 100x faster than alignment.		https://github.com/bluenote-1577/fairy
+strainr2	False	StrainR2 accurately deconvolutes strain-level abundances in synthetic microbial communities using metagenomic sequencing reads		https://github.com/BisanzLab/StrainR2
+bakta	False	Rapid & standardized annotation of bacterial genomes, MAGs & plasmids.		https://github.com/oschwengers/bakta
+madre	False	Strain-level metagenomic classification with Metagenome Assembly driven Database Reduction approach.		https://github.com/lbcb-sci/MADRe
+bioconductor-ancombc	False	Microbiome differential abudance and correlation analyses with bias correction	ANCOMBC is a package containing differential abundance (DA) and correlation analyses for microbiome data. Specifically, the package includes Analysis of Compositions of Microbiomes with Bias Correction 2 (ANCOM-BC2), Analysis of Compositions of Microbiomes with Bias Correction (ANCOM-BC), and Analysis of Composition of Microbiomes (ANCOM) for DA analysis, and Sparse Estimation of Correlations among Microbiomes (SECOM) for correlation analysis. Microbiome data are typically subject to two sources of biases: unequal sampling fractions (sample-specific biases) and differential sequencing efficiencies (taxon-specific biases). Methodologies included in the ANCOMBC package are designed to correct these biases and construct statistically consistent estimators.	https://bioconductor.org/packages/3.23/bioc/html/ANCOMBC.html
+midas	False	An integrated pipeline for estimating strain-level genomic variation from metagenomic data		https://github.com/snayfach/MIDAS
+bioconductor-zitools	False	Analysis of zero-inflated count data	zitools allows for zero inflated count data analysis by either using down-weighting of excess zeros or by replacing an appropriate proportion of excess zeros with NA. Through overloading frequently used statistical functions (such as mean, median, standard deviation), plotting functions (such as boxplots or heatmap) or differential abundance tests, it allows a wide range of downstream analyses for zero-inflated data in a less biased manner. This becomes applicable in the context of microbiome analyses, where the data is often overdispersed and zero-inflated, therefore making data analysis extremly challenging.	https://bioconductor.org/packages/3.22/bioc/html/zitools.html
+pstrain	False	An Iterative Microbial Strains Profiling Algorithm for Shotgun Metagenomic Sequencing Data		https://github.com/wshuai294/PStrain
+bioconductor-metadict	False	Microbiome data integration method via shared dictionary learning	MetaDICT is a method for the integration of microbiome data. This method is designed to remove batch effects and preserve biological variation while integrating heterogeneous datasets. MetaDICT can better avoid overcorrection when unobserved confounding variables are present.	https://bioconductor.org/packages/3.22/bioc/html/MetaDICT.html
+bioconductor-deltacapturec	False	This Package Discovers Meso-scale Chromatin Remodeling from 3C Data	This package discovers meso-scale chromatin remodelling from 3C data.  3C data is local in nature.  It givens interaction counts between restriction enzyme digestion fragments and a preferred 'viewpoint' region.  By binning this data and using permutation testing, this package can test whether there are statistically significant changes in the interaction counts between the data from two cell types or two treatments.	https://bioconductor.org/packages/3.22/bioc/html/deltaCaptureC.html
+commet	False	Comparing and combining multiple metagenomic datasets.		https://github.com/pierrepeterlongo/commet
+notramp	False	Super-fast Normalization and Trimming for Amplicon Sequencing Data (Long- and Short-read)	"NoTrAmp is a Tool for super fast trimming and read-depth normalization of amplicon reads. It is designed to be used in amplicon-tiling panels (or similar multiplexed amplicon sequencing approaches) to cap coverage of each amplicon (if desired) and to trim amplicons to their appropriate length removing barcodes, adpaters and primers (if desired) in a single clipping step.
+
+NoTrAmp is suitable for use with both long (e.g. ONT/PacBio) and short reads (e.g Illumina). When using reads that are significantly shorter than amplicon sizes, you should adjust the minimum required alignment length using the --set_min_len argument.
+
+See the projects [home](https://github.com/simakro/NoTrAmp) for usage and additional documentation."	https://github.com/simakro/NoTrAmp.git
+metagene_annotator	False	MetaGeneAnnotator is a gene-finding program for prokaryote and phage		http://metagene.nig.ac.jp/
+noise2read	False	Turn noise to read	"noise2read, originated in a computable rule translated from PCR erring mechanism that: a rare read is erroneous if it has a neighboring read of high abundance, turns erroneous reads into their original state without bringing up any non-existing sequences into the short read set(&lt 300bp) including DNA and RNA sequencing (DNA/RNA-seq), small RNA, unique molecular identifiers (UMI) and amplicon sequencing data.
+"	https://github.com/Jappy0/noise2read
+keggcharter	False	A tool for representing genomic potential and transcriptomic expression into KEGG pathways	"KEGGCharter takes as input a quantification table of proteins with corresponding
+KEGG IDs available and maps that information into KEGG metabolic maps using 
+the KEGG API. Both genomic potential (from either genomics or metagenomics)
+and gene expression quantification (from either (meta)transcriptomics or
+(meta)proteomics) can be represented. Genomic information is mapped in a binary
+exists or not rule, for each taxon available KEGGCharter will assign a color
+which will be included in the boxes corresponding to functions present in that
+taxon. Gene expression quantification is mapped as differential expression
+where quantification between the several columns specified is represented as
+a single row heatmap for each function present in the data.
+"	https://github.com/iquasere/KEGGCharter
+align_trim	False	ARTIC align_trim: A tool for trimming amplicon sequencing primers from aligned reads.		https://github.com/artic-network/align_trim
+plasmidfinder	False	PlasmidFinder allows identification of plasmids in total or partial sequenced isolates of bacteria.		https://bitbucket.org/genomicepidemiology/plasmidfinder
+deepmased	False	Deep learning for Metagenome Assembly Error Detection	"Deep learning for Metagenome Assembly Error Detection
+ See README for more information."	https://github.com/leylabmpi/DeepMAsED
+export2graphlan	False	Conversion software tool for annotating tree with GraPhlAn	"export2graphlan is a conversion software tool for producing both annotation and tree file for GraPhlAn.
+It automatically generate the input tree and the annotation file for GraPhlAn, starting from the
+input/output of MetaPhlAn, LEfSe, and HUMAnN. It supports also the biom file format. The annotation file
+will highlight specific sub-trees/clades automatically inferred from input file(s) provided. The two output
+file of export2graphlan should then be used with GraPhlAn."	https://github.com/segatalab/export2graphlan
+swarm	False	A robust and fast clustering method for amplicon-based studies.		https://github.com/torognes/swarm
+hyplas	False	Hybrid long- short- plasmid assembler.		https://github.com/cchauve/hyplas
+binning_refiner	False	Improving genome bins through the combination of different binning programs		https://github.com/songweizhi/Binning_refiner
+plasmar	False	Plasmid Like Assembly Sequence Matching Algorithm for Resistance (PLASMAR)		https://https://github.com/rastanton/PLASMAR
