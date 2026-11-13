@@ -113,9 +113,7 @@ class Workflow:
             creators = [creators]
 
         self.creators = [
-            creator.get("name", "")
-            for creator in creators
-            if isinstance(creator, dict) and creator.get("name")
+            creator.get("name", "") for creator in creators if isinstance(creator, dict) and creator.get("name")
         ]
 
         # Keywords
@@ -123,16 +121,12 @@ class Workflow:
         if isinstance(keywords, str):
             keywords = [keywords]
 
-        self.tags = [
-            tag.lower() for tag in keywords
-            if isinstance(tag, str)
-        ]
+        self.tags = [tag.lower() for tag in keywords if isinstance(tag, str)]
         self.license = wf.get("license", "")
         # Creation date
         created = wf.get("dateCreated", "")
         if created:
             self.create_time = format_date(created)
-    
 
     def init_from_search(self, wf: dict, source: str) -> None:
         """
