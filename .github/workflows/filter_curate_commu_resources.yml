@@ -72,7 +72,7 @@ jobs:
       - name: Archive workflows filtered curated and associated tools
         uses: actions/upload-artifact@v5
         with:
-          name: filtered-curated-workflows
+          name: filtered-curated-workflows-${{ matrix.community }}
           path: communities/${{ matrix.community }}/workflowhub/*
   filter-rsec-tools:
     needs: set-matrix
@@ -102,7 +102,7 @@ jobs:
       - name: Archive filtered rsec tools
         uses: actions/upload-artifact@v5
         with:
-          name: filtered-rsec-tools
+          name: filtered-rsec-tools-${{ matrix.community }}
           path: communities/${{ matrix.community }}/rsec/validated_tools*
   filter-and-curate-bioconda-recipes:
     needs: set-matrix
@@ -141,7 +141,7 @@ jobs:
       - name: Archive filtered and curated bioconda recipes
         uses: actions/upload-artifact@v5
         with:
-          name: filtered-curated-bioconda-recipes
+          name: filtered-curated-bioconda-recipes-${{ matrix.community }}
           path: communities/${{ matrix.community }}/bioconda/*
   merge-resources:
     runs-on: ubuntu-latest
@@ -167,20 +167,17 @@ jobs:
       - name: Download workflows
         uses: actions/download-artifact@v6
         with:
-          merge-multiple: true
-          name: filtered-curated-workflows
+          name: filtered-curated-workflows-${{ matrix.community }}
           path: communities/${{ matrix.community }}/workflowhub/
       - name: Download rsec tools
         uses: actions/download-artifact@v6
         with:
-          merge-multiple: true
-          name: filtered-rsec-tools
+          name: filtered-rsec-tools-${{ matrix.community }}
           path: communities/${{ matrix.community }}/rsec/
       - name: Download bioconda recipes
         uses: actions/download-artifact@v6
         with:
-          merge-multiple: true
-          name: filtered-curated-bioconda-recipes
+          name: filtered-curated-bioconda-recipes-${{ matrix.community }}
           path: communities/${{ matrix.community }}/bioconda/
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
