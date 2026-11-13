@@ -94,6 +94,43 @@ class Workflow:
         if "keep" in wf:
             self.keep = wf["keep"]
 
+ # New LIFewatch function
+    def init_from_lifewatch(self, wf: dict) -> None:
+        """
+        Initialize a Workflow instance from a LifeWatch ERIC record.
+        """
+        self.source = "LifeWatch ERIC"
+        # Basic information
+        api_id = wf.get("@id") or ""
+        self.id = api_id.rstrip("/").split("/")[-1] if api_id else ""
+        self.link = wf.get("url", "")
+        self.name = wf.get("name", "")
+        self.description = wf.get("description", "")
+        self.type = "workflow"
+        # Creators
+        creators = wf.get("creator") or []
+        if isinstance(creators, dict):
+            creators = [creators]
+        self.creators = [
+            creator.get("name", "")
+            for creator in creators
+            if isinstance(creator, dict) and creator.get("name")
+        ]
+        # Keywords
+        keywords = wf.get("keywords") or []
+        if isinstance(keywords, str):
+            keywords = [keywords]
+        self.tags = [
+            tag.lower() for tag in keywords
+            if isinstance(tag, str)
+        ]
+        # Licence
+        self.license = wf.get("license", "")
+        # Creation date
+        created = wf.get("dateCreated", "")
+        if created:
+            self.create_time = format_date(created)
+    
     # NOT USED
     def init_from_search(self, wf: dict, source: str) -> None:
         """
