@@ -44,23 +44,23 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N11c5aabce0224dd9b66e9477a8ecf930"
+          "@id": "_:N4fec50c9e3ec441aad91c76af4fa7215"
         },
         {
-          "@id": "_:N2f376dc5e59b45f39220fd827514f176"
+          "@id": "_:N109319c8e8ea43e6922c9d128c706ae6"
         },
         {
-          "@id": "_:N31e9c154a7724f7f901dc7481c085f18"
+          "@id": "_:Na850d210cbda414c8a363e3cf3f39c42"
         },
         {
-          "@id": "_:N1a3acef3b33b459ab248ab5baf29905a"
+          "@id": "_:Na6acaa353c6a405a97f247d38917eab0"
         },
         {
-          "@id": "_:N7d2f0e9d4aa048f48a1f1565adb0df65"
+          "@id": "_:Nfcb0a0367622468b99a7b613cc756d5d"
         }
       ],
       "bsc:output": {
-        "@id": "_:N5f5f814758754390a4d14e9c55304af5"
+        "@id": "_:N39fc7d189a8b4fe1981d83010c86fd6c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -104,7 +104,7 @@
       "sc:url": "https://bioconductor.org/packages/customProDB"
     },
     {
-      "@id": "_:N11c5aabce0224dd9b66e9477a8ecf930",
+      "@id": "_:N4fec50c9e3ec441aad91c76af4fa7215",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -126,7 +126,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N2f376dc5e59b45f39220fd827514f176",
+      "@id": "_:N109319c8e8ea43e6922c9d128c706ae6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3264"
@@ -148,7 +148,7 @@
       "sc:name": "COSMIC ID"
     },
     {
-      "@id": "_:N31e9c154a7724f7f901dc7481c085f18",
+      "@id": "_:Na850d210cbda414c8a363e3cf3f39c42",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -170,7 +170,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N1a3acef3b33b459ab248ab5baf29905a",
+      "@id": "_:Na6acaa353c6a405a97f247d38917eab0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -192,7 +192,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N7d2f0e9d4aa048f48a1f1565adb0df65",
+      "@id": "_:Nfcb0a0367622468b99a7b613cc756d5d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1106"
@@ -214,7 +214,7 @@
       "sc:name": "dbSNP ID"
     },
     {
-      "@id": "_:N5f5f814758754390a4d14e9c55304af5",
+      "@id": "_:N39fc7d189a8b4fe1981d83010c86fd6c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"

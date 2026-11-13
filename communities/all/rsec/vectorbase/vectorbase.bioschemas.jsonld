@@ -43,10 +43,10 @@
         "VectorBase contact email"
       ],
       "bsc:input": {
-        "@id": "_:Nbd94870e93aa4a09aea77b03e8534af8"
+        "@id": "_:Nf05fc501997f49639caa3eb16a6e3461"
       },
       "bsc:output": {
-        "@id": "_:Nb783b1319ef84880b02e5f8a56f3c229"
+        "@id": "_:N58f1649523944a36b2d7746c887ac4ac"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -85,7 +85,7 @@
       "sc:url": "http://www.vectorbase.org/"
     },
     {
-      "@id": "_:Nbd94870e93aa4a09aea77b03e8534af8",
+      "@id": "_:Nf05fc501997f49639caa3eb16a6e3461",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2759"
@@ -93,7 +93,7 @@
       "sc:name": "Gene ID (VectorBase)"
     },
     {
-      "@id": "_:Nb783b1319ef84880b02e5f8a56f3c229",
+      "@id": "_:N58f1649523944a36b2d7746c887ac4ac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2749"

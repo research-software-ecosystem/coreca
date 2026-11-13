@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/NAR/GKAB433",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/noisyr",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3e9466a6f7d74c07a69caaf79f8fbe1e"
+        "@id": "_:N8341cdfec5144784a1197933a61a6e82"
       },
       "bsc:output": {
-        "@id": "_:Nb9e96d7145ee49c593c31a9f097864cd"
+        "@id": "_:Na8b057f5c5174c45a0c9ef7bc71d9425"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -102,7 +106,7 @@
       "sc:url": "https://CRAN.R-project.org/package=noisyr"
     },
     {
-      "@id": "_:N3e9466a6f7d74c07a69caaf79f8fbe1e",
+      "@id": "_:N8341cdfec5144784a1197933a61a6e82",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -113,7 +117,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:Nb9e96d7145ee49c593c31a9f097864cd",
+      "@id": "_:Na8b057f5c5174c45a0c9ef7bc71d9425",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -122,10 +126,6 @@
         "@id": "edam:format_2572"
       },
       "sc:name": "Alignment"
-    },
-    {
-      "@id": "https://doi.org/10.1093/NAR/GKAB433",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

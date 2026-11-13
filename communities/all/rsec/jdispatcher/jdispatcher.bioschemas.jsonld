@@ -40,6 +40,14 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkac240",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkz268",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/jdispatcher",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
@@ -121,14 +129,6 @@
         }
       ],
       "sc:url": "http://www.ebi.ac.uk/jdispatcher/"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkac240",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkz268",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

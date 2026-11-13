@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/dark_proteome_database",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N16cabb8d843344d68049e1c8aacacc2a"
+        "@id": "_:Nee3bb20acb45402d93a49a6dc047644d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Script",
@@ -63,7 +63,7 @@
       "sc:url": "http://no.url"
     },
     {
-      "@id": "_:N16cabb8d843344d68049e1c8aacacc2a",
+      "@id": "_:Nee3bb20acb45402d93a49a6dc047644d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1274"

@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/igdiscover",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc32da55331514724973dceaef8003450"
+        "@id": "_:Nded6ed03cc044639863863635c035043"
       },
       "bsc:output": [
         {
-          "@id": "_:Nc452709626ab453a980528d07bbe9256"
+          "@id": "_:N4af9ef42adba4981bf37b246fe332f8d"
         },
         {
-          "@id": "_:N450e3e171b014ea39806bca0e0ced6b3"
+          "@id": "_:N811aea48b6114a6e90277a5161a16030"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -84,7 +84,7 @@
       "sc:url": "http://igdiscover.se/"
     },
     {
-      "@id": "_:Nc32da55331514724973dceaef8003450",
+      "@id": "_:Nded6ed03cc044639863863635c035043",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3496"
@@ -100,7 +100,7 @@
       "sc:name": "RNA sequence (raw)"
     },
     {
-      "@id": "_:Nc452709626ab453a980528d07bbe9256",
+      "@id": "_:N4af9ef42adba4981bf37b246fe332f8d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -108,7 +108,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N450e3e171b014ea39806bca0e0ced6b3",
+      "@id": "_:N811aea48b6114a6e90277a5161a16030",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"

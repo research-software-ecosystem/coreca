@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1756-0381-3-1",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/hypergeny",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N9bed2255f99e40c68fb44645f8221df2"
+        "@id": "_:N789e4bff26764d4faae37f0bd273b328"
       },
       "bsc:output": {
-        "@id": "_:Nb18a812a20f544caba685aeef5bdf98f"
+        "@id": "_:N61b95ae2da6043d6aeea90057d1baa34"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -82,7 +78,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/software/details/HyperGeny"
     },
     {
-      "@id": "_:N9bed2255f99e40c68fb44645f8221df2",
+      "@id": "_:N789e4bff26764d4faae37f0bd273b328",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -90,12 +86,16 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:Nb18a812a20f544caba685aeef5bdf98f",
+      "@id": "_:N61b95ae2da6043d6aeea90057d1baa34",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
       },
       "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1756-0381-3-1",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

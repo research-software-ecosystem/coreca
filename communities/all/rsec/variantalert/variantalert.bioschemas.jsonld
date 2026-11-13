@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/variantalert",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd18a64f3c50e4cacaf52226a38500bbf"
+        "@id": "_:N6a992227cbe44e94913a7a5a050ed88a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -88,7 +88,7 @@
       "sc:url": "https://variant-alert.crs4.it/"
     },
     {
-      "@id": "_:Nd18a64f3c50e4cacaf52226a38500bbf",
+      "@id": "_:N6a992227cbe44e94913a7a5a050ed88a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0919"

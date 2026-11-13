@@ -40,20 +40,24 @@
       "@type": "sc:Person"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkq535",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/cphmodels",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0001-7885-4311"
       },
       "bsc:input": {
-        "@id": "_:N2df73f25dd1d43b1a42da3adf8b1e2c2"
+        "@id": "_:N2057746a583041c59e98bb2899ea9a4e"
       },
       "bsc:output": [
         {
-          "@id": "_:Nf0c4e058a01b4efa8c6ec914c0b24476"
+          "@id": "_:Ncba4381c07af4093a964d66b4083c868"
         },
         {
-          "@id": "_:N16e7ea40f38b44cda23e5e3c6b9ffeac"
+          "@id": "_:N370d69a183a9458ba1b51f5aab753f18"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,7 +93,7 @@
       "sc:url": "http://cbs.dtu.dk/services/CPHmodels/"
     },
     {
-      "@id": "_:N2df73f25dd1d43b1a42da3adf8b1e2c2",
+      "@id": "_:N2057746a583041c59e98bb2899ea9a4e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -100,7 +104,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nf0c4e058a01b4efa8c6ec914c0b24476",
+      "@id": "_:Ncba4381c07af4093a964d66b4083c868",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -111,7 +115,7 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:N16e7ea40f38b44cda23e5e3c6b9ffeac",
+      "@id": "_:N370d69a183a9458ba1b51f5aab753f18",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2085"
@@ -120,10 +124,6 @@
         "@id": "edam:format_1476"
       },
       "sc:name": "Structure report"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkq535",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

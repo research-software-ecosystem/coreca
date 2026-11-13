@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/funcoup",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc31b02d25709484d8e29befc095c2b28"
+        "@id": "_:N3f9365c88dfe45f2a57bf1a7bbf576dc"
       },
       "bsc:output": {
-        "@id": "_:Nc1535ea88b68481cb339883861ca1886"
+        "@id": "_:Nae06869b58f14690802b1a6cb7e4eb47"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -78,7 +78,7 @@
       "sc:url": "http://funcoup.sbc.su.se/"
     },
     {
-      "@id": "_:Nc31b02d25709484d8e29befc095c2b28",
+      "@id": "_:N3f9365c88dfe45f2a57bf1a7bbf576dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -86,7 +86,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:Nc1535ea88b68481cb339883861ca1886",
+      "@id": "_:Nae06869b58f14690802b1a6cb7e4eb47",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

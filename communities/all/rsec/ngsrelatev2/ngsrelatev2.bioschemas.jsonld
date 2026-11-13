@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0003-1941-5495",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/ngsRelateV2",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -97,10 +101,6 @@
     },
     {
       "@id": "https://orcid.org/0000-0001-7576-5380",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-1941-5495",
       "@type": "sc:Person"
     }
   ]

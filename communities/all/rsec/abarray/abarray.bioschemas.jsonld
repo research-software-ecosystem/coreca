@@ -36,26 +36,22 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.18129/B9.bioc.ABarray",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/abarray",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N643944b082404c69841dcf0e3ecc3462"
+          "@id": "_:N612be91c97344d5e83c04c666b6bfd90"
         },
         {
-          "@id": "_:N4b2d6be1fb61431ca30d26d8f6630564"
+          "@id": "_:N7cdf265e0605422fa23de4eecea4b1ec"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ndb3060013e2b4c2c87945231c90feca0"
+          "@id": "_:N995f7ce602d841df9f8fe042e6c2c5aa"
         },
         {
-          "@id": "_:Nc3edc9b9319b4c8a9916ffb25c1b1175"
+          "@id": "_:N9f2663aa9297488490bec31d74cbedde"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -112,7 +108,7 @@
       "sc:url": "https://bioconductor.org/packages/ABarray"
     },
     {
-      "@id": "_:N643944b082404c69841dcf0e3ecc3462",
+      "@id": "_:N612be91c97344d5e83c04c666b6bfd90",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -123,7 +119,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N4b2d6be1fb61431ca30d26d8f6630564",
+      "@id": "_:N7cdf265e0605422fa23de4eecea4b1ec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2337"
@@ -134,7 +130,7 @@
       "sc:name": "Resource metadata"
     },
     {
-      "@id": "_:Ndb3060013e2b4c2c87945231c90feca0",
+      "@id": "_:N995f7ce602d841df9f8fe042e6c2c5aa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -145,7 +141,7 @@
       "sc:name": "Mathematical model"
     },
     {
-      "@id": "_:Nc3edc9b9319b4c8a9916ffb25c1b1175",
+      "@id": "_:N9f2663aa9297488490bec31d74cbedde",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -154,6 +150,10 @@
         "@id": "edam:format_3617"
       },
       "sc:name": "Plot"
+    },
+    {
+      "@id": "https://doi.org/10.18129/B9.bioc.ABarray",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

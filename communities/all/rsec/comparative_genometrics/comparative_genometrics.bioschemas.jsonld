@@ -45,18 +45,18 @@
       "biotools:primaryContact": "Claude-Alain Roten",
       "bsc:input": [
         {
-          "@id": "_:N23f8e15b194047c8854811a81f50d183"
+          "@id": "_:N2a52e20c762b45b4a194fc4d2ef3a518"
         },
         {
-          "@id": "_:N2ebc0b6f62e04e31b6e43e93535a3099"
+          "@id": "_:N89dfeb8e883c4de5951f67b95991fa24"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2cedc3bae7f342fdbf2e26e2a50b4be8"
+          "@id": "_:N0c7da164212448ddbbc600b9ef141f44"
         },
         {
-          "@id": "_:N8c2fb85fa5b24350a5aa2912a7ca618d"
+          "@id": "_:Ndc8f0cb24dd547f5912727a953cbecae"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -88,7 +88,7 @@
       "sc:url": "http://www2.unil.ch/comparativegenometrics/"
     },
     {
-      "@id": "_:N23f8e15b194047c8854811a81f50d183",
+      "@id": "_:N2a52e20c762b45b4a194fc4d2ef3a518",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2787"
@@ -96,7 +96,7 @@
       "sc:name": "NCBI genome accession"
     },
     {
-      "@id": "_:N2ebc0b6f62e04e31b6e43e93535a3099",
+      "@id": "_:N89dfeb8e883c4de5951f67b95991fa24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2787"
@@ -104,7 +104,7 @@
       "sc:name": "NCBI genome accession"
     },
     {
-      "@id": "_:N2cedc3bae7f342fdbf2e26e2a50b4be8",
+      "@id": "_:N0c7da164212448ddbbc600b9ef141f44",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3128"
@@ -115,7 +115,7 @@
       "sc:name": "Nucleic acid structure report"
     },
     {
-      "@id": "_:N8c2fb85fa5b24350a5aa2912a7ca618d",
+      "@id": "_:Ndc8f0cb24dd547f5912727a953cbecae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3128"

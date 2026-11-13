@@ -47,10 +47,10 @@
         "Sasha A. Singh"
       ],
       "bsc:input": {
-        "@id": "_:Ne34bd06831424ebf82171d932c64a05a"
+        "@id": "_:N6133e8c95f5044f283ed3e529450e8e3"
       },
       "bsc:output": {
-        "@id": "_:N46ed61668c2744368f3990be62ca27ed"
+        "@id": "_:N2d7cdb287145433fb7aa4e60c1bd0b39"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -87,7 +87,7 @@
       "sc:url": "https://www.bioconductor.org/packages/devel/bioc/html/XINA.html"
     },
     {
-      "@id": "_:Ne34bd06831424ebf82171d932c64a05a",
+      "@id": "_:N6133e8c95f5044f283ed3e529450e8e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -98,7 +98,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N46ed61668c2744368f3990be62ca27ed",
+      "@id": "_:N2d7cdb287145433fb7aa4e60c1bd0b39",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

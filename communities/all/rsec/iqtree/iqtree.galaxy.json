@@ -17,17 +17,18 @@
     "Homepage": "http://www.iqtree.org/",
     "Latest_suite_conda_package_version": "3.1.4",
     "Number_of_tools_on_ChemFlow": 0,
-    "Number_of_tools_on_Coloc-stats": 0,
-    "Number_of_tools_on_GASLINI": 0,
+    "Number_of_tools_on_Codon_Harmonizer": 0,
     "Number_of_tools_on_Galaxy@AuBi": 1,
     "Number_of_tools_on_Galaxy@Pasteur": 1,
     "Number_of_tools_on_GalaxyTrakr": 1,
+    "Number_of_tools_on_HCEMM_Galaxy": 0,
     "Number_of_tools_on_HyPhy_HIV_NGS_Tools": 1,
     "Number_of_tools_on_IPK_Galaxy_Blast_Suite": 0,
     "Number_of_tools_on_ImmPort_Galaxy": 0,
     "Number_of_tools_on_InteractoMIX": 0,
     "Number_of_tools_on_Lebanese_University_Galaxy": 0,
     "Number_of_tools_on_MBAC_Metabiome_Portal": 0,
+    "Number_of_tools_on_MISSISSIPPI": 0,
     "Number_of_tools_on_Mandoiu_Lab": 0,
     "Number_of_tools_on_Oqtans": 1,
     "Number_of_tools_on_Palfinder": 0,
@@ -50,9 +51,9 @@
     ],
     "Related_Workflows": [
         {
-            "create_time": "2026-02-12",
-            "latest_version": "3",
-            "link": "https://workflowhub.eu/workflows/1260?version=3",
+            "create_time": "2026-10-17",
+            "latest_version": "4",
+            "link": "https://workflowhub.eu/workflows/1260?version=4",
             "name": "influenza-isolates-consensus-and-subtyping/main"
         },
         {
@@ -266,6 +267,12 @@
             "name": "nCoV: comparison"
         },
         {
+            "create_time": "2026-09-30",
+            "latest_version": "14",
+            "link": "https://usegalaxy.org.au/published/workflow?id=ac500def8cec8e83",
+            "name": "Pangenome Workflow"
+        },
+        {
             "create_time": "2019-02-11",
             "latest_version": "13",
             "link": "https://usegalaxy.org.au/published/workflow?id=3fd2195b6928d5e0",
@@ -298,8 +305,8 @@
     "Suite_users_(usegalaxy.org)": 3035,
     "Suite_users_(usegalaxy.org.au)": 1337,
     "Suite_users_on_main_servers": 7084,
-    "Suite_version": "3.1.3",
-    "Suite_version_status": "To update",
+    "Suite_version": "3.1.4",
+    "Suite_version_status": "Up-to-date",
     "ToolShed_categories": [
         "Phylogenetics"
     ],

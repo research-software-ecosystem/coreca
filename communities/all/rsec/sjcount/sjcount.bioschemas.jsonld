@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Dmitri Pervouchine",
       "bsc:input": {
-        "@id": "_:N6bf2592f5d52437bb641064475d65fd4"
+        "@id": "_:N81016314876e40c4beba749940e86bbe"
       },
       "bsc:output": {
-        "@id": "_:N4fa403eb18244ccdbc6e2300913bd38d"
+        "@id": "_:N6a6f6d6b105448f5aa36f30019e2c242"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -73,7 +73,7 @@
       "sc:url": "https://github.com/pervouchine/sjcount-full"
     },
     {
-      "@id": "_:N6bf2592f5d52437bb641064475d65fd4",
+      "@id": "_:N81016314876e40c4beba749940e86bbe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -84,7 +84,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:N4fa403eb18244ccdbc6e2300913bd38d",
+      "@id": "_:N6a6f6d6b105448f5aa36f30019e2c242",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"

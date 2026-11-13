@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/decontaminator",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N467c357005cb460498b8482dcccacf2f"
+        "@id": "_:N85556801205d48ef89cf04dc00b24ca7"
       },
       "bsc:output": {
-        "@id": "_:N70c15a25553a42c3987db34d9fa1f579"
+        "@id": "_:N5b87cfd25cf948a2808a5be7080ce5d6"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -59,7 +59,7 @@
       "sc:url": "https://github.com/cbib/decontaminator"
     },
     {
-      "@id": "_:N467c357005cb460498b8482dcccacf2f",
+      "@id": "_:N85556801205d48ef89cf04dc00b24ca7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -70,7 +70,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N70c15a25553a42c3987db34d9fa1f579",
+      "@id": "_:N5b87cfd25cf948a2808a5be7080ce5d6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"

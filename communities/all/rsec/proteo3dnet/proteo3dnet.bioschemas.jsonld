@@ -40,24 +40,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N27cc514fddf045f39993c8caea21b042"
+          "@id": "_:Ndf3df9c140b84c59846131d5c1a4fcd9"
         },
         {
-          "@id": "_:Nd499c180e24c4142bcfcbbf1398b3c25"
+          "@id": "_:N3b0acea47699479d8350ec0bae35fd49"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nb35168bfc11b4da09d2e331c3566d9a7"
+          "@id": "_:N08ca8b1cfea9426d8bb5c5efe2f44701"
         },
         {
-          "@id": "_:N72884a4aa32c4e3b8b7afc8d29c4205b"
+          "@id": "_:N2b4a986d275b444d9a472967c57b2557"
         },
         {
-          "@id": "_:Ne81aeef85349404ab97b1af4e3a9a8cf"
+          "@id": "_:N70ecdb82d27e49e48d2e5f047bccd351"
         },
         {
-          "@id": "_:Nfdf548564b1347c18883fbfa0f4e5486"
+          "@id": "_:Nb5f8c15134ad4a7c9b42a97668259cdf"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,7 +92,7 @@
       "sc:url": "https://mobyle.rpbs.univ-paris-diderot.fr/cgi-bin/portal.py#forms::Proteo3Dnet"
     },
     {
-      "@id": "_:N27cc514fddf045f39993c8caea21b042",
+      "@id": "_:Ndf3df9c140b84c59846131d5c1a4fcd9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -103,7 +103,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nd499c180e24c4142bcfcbbf1398b3c25",
+      "@id": "_:N3b0acea47699479d8350ec0bae35fd49",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -114,7 +114,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:Nb35168bfc11b4da09d2e331c3566d9a7",
+      "@id": "_:N08ca8b1cfea9426d8bb5c5efe2f44701",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2628"
@@ -125,7 +125,7 @@
       "sc:name": "BioGRID interaction ID"
     },
     {
-      "@id": "_:N72884a4aa32c4e3b8b7afc8d29c4205b",
+      "@id": "_:N2b4a986d275b444d9a472967c57b2557",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -136,7 +136,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:Ne81aeef85349404ab97b1af4e3a9a8cf",
+      "@id": "_:N70ecdb82d27e49e48d2e5f047bccd351",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -147,7 +147,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nfdf548564b1347c18883fbfa0f4e5486",
+      "@id": "_:Nb5f8c15134ad4a7c9b42a97668259cdf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"

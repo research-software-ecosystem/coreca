@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkab831",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/metaplatanus",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf9174110af904bdb8a27e02812bae2ac"
+        "@id": "_:N8b2b3368ac0e49669d09ed3ee0e4a82d"
       },
       "bsc:output": [
         {
-          "@id": "_:N78c59e5cdee64bf79d8a48c00eb56654"
+          "@id": "_:N8d4a340a8a674cf29b840d0b1ca426c8"
         },
         {
-          "@id": "_:Nd4b2721997b14f4dadfc4e35e7dfd4ad"
+          "@id": "_:N340c9550ba714018a28046ed762f7b3a"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -95,7 +99,7 @@
       "sc:url": "https://github.com/rkajitani/MetaPlatanus"
     },
     {
-      "@id": "_:Nf9174110af904bdb8a27e02812bae2ac",
+      "@id": "_:N8b2b3368ac0e49669d09ed3ee0e4a82d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -106,7 +110,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N78c59e5cdee64bf79d8a48c00eb56654",
+      "@id": "_:N8d4a340a8a674cf29b840d0b1ca426c8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -117,7 +121,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nd4b2721997b14f4dadfc4e35e7dfd4ad",
+      "@id": "_:N340c9550ba714018a28046ed762f7b3a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -126,10 +130,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkab831",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/fragmentation_analyzer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0e566856486548229596fadd35c8a560"
+        "@id": "_:N56f98acc476446c4859219b6b7a32f74"
       },
       "bsc:output": {
-        "@id": "_:N539dcd85a8f54bee9624b47a1ceaa60c"
+        "@id": "_:N4e73d126de754879b85bdac534d68c71"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -76,7 +76,7 @@
       "sc:url": "http://compomics.github.io/projects/fragmentation-analyzer.html"
     },
     {
-      "@id": "_:N0e566856486548229596fadd35c8a560",
+      "@id": "_:N56f98acc476446c4859219b6b7a32f74",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -84,7 +84,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N539dcd85a8f54bee9624b47a1ceaa60c",
+      "@id": "_:N4e73d126de754879b85bdac534d68c71",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2165"

@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/beclear",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N07532e772f344775963e5bcd9242a6ff"
+        "@id": "_:N4d6ad6148f4a4168b7c43174303dfd6e"
       },
       "bsc:output": {
-        "@id": "_:N1ea7605dad264dd0895bb6bbc6c979f0"
+        "@id": "_:Nec3e1e13b2614bc79be6c96355faa8bb"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -78,7 +78,7 @@
           "@id": "edam:operation_2425"
         }
       ],
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "BEclear",
       "sc:operatingSystem": [
         "Linux",
@@ -92,7 +92,7 @@
       "sc:url": "https://bioconductor.org/packages/BEclear"
     },
     {
-      "@id": "_:N07532e772f344775963e5bcd9242a6ff",
+      "@id": "_:N4d6ad6148f4a4168b7c43174303dfd6e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -103,7 +103,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N1ea7605dad264dd0895bb6bbc6c979f0",
+      "@id": "_:Nec3e1e13b2614bc79be6c96355faa8bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

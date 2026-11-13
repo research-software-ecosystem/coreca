@@ -47,10 +47,10 @@
       "@id": "https://bio.tools/effectivet3",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N40626bf1fc794a03a3aee36392dade72"
+        "@id": "_:Nc9912fbe3fa243e1a6dbadda55b72b11"
       },
       "bsc:output": {
-        "@id": "_:Na576bac8d7cf4b42b3f7f85b5a4dc051"
+        "@id": "_:Na15ebe7ccc8c4212b9fbf0af700b2ed6"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -89,7 +89,7 @@
       "sc:url": "http://www.effectivedb.org/method/effectivet3"
     },
     {
-      "@id": "_:N40626bf1fc794a03a3aee36392dade72",
+      "@id": "_:Nc9912fbe3fa243e1a6dbadda55b72b11",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -100,7 +100,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Na576bac8d7cf4b42b3f7f85b5a4dc051",
+      "@id": "_:Na15ebe7ccc8c4212b9fbf0af700b2ed6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"

@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.3389/fmolb.2019.00025",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/Anncolvar",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Vojtech Spiwok",
       "bsc:input": {
-        "@id": "_:N33967c83384244d68b3a0c61da51d3bc"
+        "@id": "_:N0ae076f490314138b6558c3f0bfbec5e"
       },
       "bsc:output": {
-        "@id": "_:Nc86da26a78cb4ebcbac42b39d3304b54"
+        "@id": "_:N769e603973e44db08a9f54b92c4b6560"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -87,7 +83,7 @@
       "sc:url": "https://github.com/spiwokv/anncolvar"
     },
     {
-      "@id": "_:N33967c83384244d68b3a0c61da51d3bc",
+      "@id": "_:N0ae076f490314138b6558c3f0bfbec5e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3870"
@@ -98,7 +94,7 @@
       "sc:name": "Trajectory data"
     },
     {
-      "@id": "_:Nc86da26a78cb4ebcbac42b39d3304b54",
+      "@id": "_:N769e603973e44db08a9f54b92c4b6560",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2087"
@@ -107,6 +103,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Molecular property"
+    },
+    {
+      "@id": "https://doi.org/10.3389/fmolb.2019.00025",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

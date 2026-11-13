@@ -36,14 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/TODO",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.biocthis",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/bioconductor-biocthis",
       "@type": "sc:SoftwareApplication",
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -61,7 +53,7 @@
         }
       ],
       "sc:contributor": "Marcel Ramos",
-      "sc:description": "This package expands the usethis package with the goal of helping automate the process of creating R packages for Bioconductor or making them Bioconductor-friendly.",
+      "sc:description": "The qsvaR package contains functions for removing the effect of degration in rna-seq data from postmortem brain tissue. The package is equipped to help users generate principal components associated with degradation. The components can be used in differential expression analysis to remove the effects of degradation.",
       "sc:license": "Artistic-2.0",
       "sc:name": "biocthis",
       "sc:operatingSystem": [
@@ -74,6 +66,14 @@
       },
       "sc:softwareVersion": "1.22.0",
       "sc:url": "https://bioconductor.org/packages/biocthis"
+    },
+    {
+      "@id": "https://doi.org/10.18129/B9.bioc.biocthis",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1101/TODO",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

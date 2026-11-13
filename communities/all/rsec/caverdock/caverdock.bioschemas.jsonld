@@ -36,11 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-5703-9673",
+      "@id": "https://orcid.org/0000-0002-6281-7505",
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0002-7848-8216",
+      "@id": "https://orcid.org/0000-0001-6399-5453",
       "@type": "sc:Person"
     },
     {
@@ -56,15 +56,7 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0000-0002-6281-7505",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-6399-5453",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-6803-0340",
+      "@id": "https://orcid.org/0000-0002-7848-8216",
       "@type": "sc:Person"
     },
     {
@@ -73,14 +65,14 @@
       "biotools:primaryContact": "CaverDock team",
       "bsc:input": [
         {
-          "@id": "_:N8d60187344d64aa1aae6264cee2dfdc0"
+          "@id": "_:Nb9f2003dcd6648ea9f039f74abf84613"
         },
         {
-          "@id": "_:Nc9e74a3063794fbf8f4bf5d72d124fad"
+          "@id": "_:N94389e73cbd845678d6f968205b1dfda"
         }
       ],
       "bsc:output": {
-        "@id": "_:N598c01f4c8b947fd98fcf44eeb0b699e"
+        "@id": "_:Nc5bc68b33abd476f8f5e6389d3939ddd"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -173,7 +165,7 @@
       "sc:url": "https://loschmidt.chemi.muni.cz/caverdock/"
     },
     {
-      "@id": "_:N8d60187344d64aa1aae6264cee2dfdc0",
+      "@id": "_:Nb9f2003dcd6648ea9f039f74abf84613",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -184,7 +176,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:Nc9e74a3063794fbf8f4bf5d72d124fad",
+      "@id": "_:N94389e73cbd845678d6f968205b1dfda",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -195,7 +187,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N598c01f4c8b947fd98fcf44eeb0b699e",
+      "@id": "_:Nc5bc68b33abd476f8f5e6389d3939ddd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
@@ -209,6 +201,14 @@
         }
       ],
       "sc:name": "Protein structure report"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-6803-0340",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5703-9673",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://orcid.org/0000-0001-9677-5078",

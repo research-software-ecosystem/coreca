@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/ms-isotope",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N2c9eed2a71e14d719922ca37acf6994d"
+        "@id": "_:N7bc77e86d9464e0499463cdbe00eafc5"
       },
       "bsc:output": {
-        "@id": "_:N1c6382ae65c8442d9c980591e34bec55"
+        "@id": "_:N5e6ab737a6624420ac05469511559473"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -76,7 +76,7 @@
       "sc:url": "http://prospector.ucsf.edu/prospector/cgi-bin/msform.cgi?form=msisotope"
     },
     {
-      "@id": "_:N2c9eed2a71e14d719922ca37acf6994d",
+      "@id": "_:N7bc77e86d9464e0499463cdbe00eafc5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -87,7 +87,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N1c6382ae65c8442d9c980591e34bec55",
+      "@id": "_:N5e6ab737a6624420ac05469511559473",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

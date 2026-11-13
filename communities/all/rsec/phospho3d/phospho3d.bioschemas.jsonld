@@ -47,10 +47,10 @@
         "Andreas Zanzoni"
       ],
       "bsc:input": {
-        "@id": "_:N1e27cab38a7e4692806e1850a61b47a2"
+        "@id": "_:N9ee33ca718c8413da4eb2a196a91bfeb"
       },
       "bsc:output": {
-        "@id": "_:N55d368ef5b7b45ee87d330d97584e0db"
+        "@id": "_:Nab557ae622b84163aa08bea8b0f6ae58"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -86,7 +86,7 @@
       "sc:url": "http://www.phospho3d.org/"
     },
     {
-      "@id": "_:N1e27cab38a7e4692806e1850a61b47a2",
+      "@id": "_:N9ee33ca718c8413da4eb2a196a91bfeb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -94,7 +94,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N55d368ef5b7b45ee87d330d97584e0db",
+      "@id": "_:Nab557ae622b84163aa08bea8b0f6ae58",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

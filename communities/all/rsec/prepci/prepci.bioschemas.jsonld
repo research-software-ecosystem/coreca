@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/pro.4594",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/prepci",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N5010c2ff963c40e88f12fdd3de80f229"
+          "@id": "_:N78da3f16de2443319074702fb2b22bff"
         },
         {
-          "@id": "_:N26fd0560eeb846b28728db309e5a50bf"
+          "@id": "_:Ne54748381d0f4bf48381a7f202c6cb2d"
         },
         {
-          "@id": "_:N5e9ec06a41604a71b2fbf552b9938d78"
+          "@id": "_:N83602fa826df4c6bbc512594bbd99255"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -103,7 +107,7 @@
       "sc:url": "https://honiglab.c2b2.columbia.edu/prepci.html"
     },
     {
-      "@id": "_:N5010c2ff963c40e88f12fdd3de80f229",
+      "@id": "_:N78da3f16de2443319074702fb2b22bff",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -111,7 +115,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:N26fd0560eeb846b28728db309e5a50bf",
+      "@id": "_:Ne54748381d0f4bf48381a7f202c6cb2d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"
@@ -119,16 +123,12 @@
       "sc:name": "SMILES string"
     },
     {
-      "@id": "_:N5e9ec06a41604a71b2fbf552b9938d78",
+      "@id": "_:N83602fa826df4c6bbc512594bbd99255",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
       },
       "sc:name": "UniProt ID"
-    },
-    {
-      "@id": "https://doi.org/10.1002/pro.4594",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

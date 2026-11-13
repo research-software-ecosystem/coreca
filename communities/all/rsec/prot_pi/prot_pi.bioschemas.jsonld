@@ -40,30 +40,30 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N40ce960cf74d41458b8f2437060c7cc7"
+          "@id": "_:Nfe8e1896b01f4d6fabad541b8e898077"
         },
         {
-          "@id": "_:Nd3c0b06bd541407bb942f8fa4619451f"
+          "@id": "_:N50fdde99da4c47eab3ff991fe07fcb0f"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne0878f7b075a49588525a77e7c6ebffd"
+          "@id": "_:N5e1c1b84ed534712a0180a71630edebb"
         },
         {
-          "@id": "_:Nb9dd3de3c9894eadbe3b9eacabe4f1b9"
+          "@id": "_:N1269bc032bed46e3bd8741109a008016"
         },
         {
-          "@id": "_:Nff1dc3c175a244c2bb9a8a416fe8ddbf"
+          "@id": "_:Nc088938b9b1c4d1aa9c222056f1a3c37"
         },
         {
-          "@id": "_:Nb3ed0dd8c0a44e529a85b82f3d634c0b"
+          "@id": "_:N13dfb2592def492181158c54d16b11b8"
         },
         {
-          "@id": "_:N5f91d979282f43ae80a959c285cca272"
+          "@id": "_:N37dfbed97a2d4839b438c98dc6517529"
         },
         {
-          "@id": "_:N54860af317c040c6b4903de89b15bcd9"
+          "@id": "_:Nd317ce54270f42b9adf6dfea30092c08"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -110,7 +110,7 @@
       "sc:url": "https://www.protpi.ch"
     },
     {
-      "@id": "_:N40ce960cf74d41458b8f2437060c7cc7",
+      "@id": "_:Nfe8e1896b01f4d6fabad541b8e898077",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0846"
@@ -121,7 +121,7 @@
       "sc:name": "Chemical formula"
     },
     {
-      "@id": "_:Nd3c0b06bd541407bb942f8fa4619451f",
+      "@id": "_:N50fdde99da4c47eab3ff991fe07fcb0f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -132,7 +132,7 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:Ne0878f7b075a49588525a77e7c6ebffd",
+      "@id": "_:N5e1c1b84ed534712a0180a71630edebb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1520"
@@ -151,7 +151,7 @@
       "sc:name": "Peptide hydrophobic moment"
     },
     {
-      "@id": "_:Nb9dd3de3c9894eadbe3b9eacabe4f1b9",
+      "@id": "_:N1269bc032bed46e3bd8741109a008016",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2979"
@@ -170,7 +170,7 @@
       "sc:name": "Peptide property"
     },
     {
-      "@id": "_:Nff1dc3c175a244c2bb9a8a416fe8ddbf",
+      "@id": "_:Nc088938b9b1c4d1aa9c222056f1a3c37",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2970"
@@ -189,7 +189,7 @@
       "sc:name": "Protein hydropathy data"
     },
     {
-      "@id": "_:Nb3ed0dd8c0a44e529a85b82f3d634c0b",
+      "@id": "_:N13dfb2592def492181158c54d16b11b8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1528"
@@ -208,7 +208,7 @@
       "sc:name": "Protein isoelectric point"
     },
     {
-      "@id": "_:N5f91d979282f43ae80a959c285cca272",
+      "@id": "_:N37dfbed97a2d4839b438c98dc6517529",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0897"
@@ -227,7 +227,7 @@
       "sc:name": "Protein property"
     },
     {
-      "@id": "_:N54860af317c040c6b4903de89b15bcd9",
+      "@id": "_:Nd317ce54270f42b9adf6dfea30092c08",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1522"

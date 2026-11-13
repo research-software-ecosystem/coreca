@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/biospytial",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N46a4e3b898514adc9d68de1c84f451ff"
+        "@id": "_:N448f997a3c234597b4397032aff4d44c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Suite",
@@ -81,7 +81,7 @@
       "sc:url": "https://github.com/molgor/biospytial"
     },
     {
-      "@id": "_:N46a4e3b898514adc9d68de1c84f451ff",
+      "@id": "_:N448f997a3c234597b4397032aff4d44c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3707"

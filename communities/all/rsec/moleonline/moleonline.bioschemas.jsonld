@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gky309",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1093/nar/gks363",
       "@type": "sc:CreativeWork"
     },
@@ -49,18 +53,18 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N78e21333a8fe45268a5645e46214af97"
+          "@id": "_:Ncd592e27c4bd466f9efc4a5637356b2a"
         },
         {
-          "@id": "_:N31c34bf0691d48c99d37f29fead9fb79"
+          "@id": "_:N242465fbe58146ec94354859591999a6"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9be28994e81c431ebf364a6b0a7e2564"
+          "@id": "_:Ne11af90601b543738d0d43c283253261"
         },
         {
-          "@id": "_:Nedcfb6c3f6914f799e6a48fffd50e5ec"
+          "@id": "_:N305e94abe0d24598a2c8903282924058"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -166,7 +170,7 @@
       "sc:url": "https://mole.upol.cz/"
     },
     {
-      "@id": "_:N78e21333a8fe45268a5645e46214af97",
+      "@id": "_:Ncd592e27c4bd466f9efc4a5637356b2a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -177,7 +181,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N31c34bf0691d48c99d37f29fead9fb79",
+      "@id": "_:N242465fbe58146ec94354859591999a6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -193,7 +197,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N9be28994e81c431ebf364a6b0a7e2564",
+      "@id": "_:Ne11af90601b543738d0d43c283253261",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1539"
@@ -204,7 +208,7 @@
       "sc:name": "Protein structural quality report"
     },
     {
-      "@id": "_:Nedcfb6c3f6914f799e6a48fffd50e5ec",
+      "@id": "_:N305e94abe0d24598a2c8903282924058",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -221,10 +225,6 @@
         }
       ],
       "sc:name": "Protein structure"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gky309",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

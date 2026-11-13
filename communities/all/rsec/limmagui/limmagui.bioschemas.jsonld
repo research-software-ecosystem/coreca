@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/limmagui",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne7af985120fc460c8a1fac74e66ad83c"
+        "@id": "_:Nc494d18fa94643cc9e536a0ec413efcb"
       },
       "bsc:output": [
         {
-          "@id": "_:N1a15f42aac4046c5b5ec2b91f8254419"
+          "@id": "_:N6ee496a03b06463098837e1f322c45ce"
         },
         {
-          "@id": "_:N5f9dda49074840c6bf85592f4f4c93e9"
+          "@id": "_:N7e6308dad1b5490bbe4a3956e09d8e75"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -71,7 +71,7 @@
       "sc:featureList": {
         "@id": "edam:operation_3680"
       },
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "limmaGUI",
       "sc:operatingSystem": [
         "Linux",
@@ -85,7 +85,7 @@
       "sc:url": "https://bioconductor.org/packages/limmaGUI"
     },
     {
-      "@id": "_:Ne7af985120fc460c8a1fac74e66ad83c",
+      "@id": "_:Nc494d18fa94643cc9e536a0ec413efcb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -96,7 +96,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N1a15f42aac4046c5b5ec2b91f8254419",
+      "@id": "_:N6ee496a03b06463098837e1f322c45ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -112,7 +112,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N5f9dda49074840c6bf85592f4f4c93e9",
+      "@id": "_:N7e6308dad1b5490bbe4a3956e09d8e75",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

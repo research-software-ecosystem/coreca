@@ -47,10 +47,10 @@
       "@id": "https://bio.tools/guildify",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N178bf7634766485095a9ba14cdb65c58"
+        "@id": "_:N12225b10a0e8444abb3e52d21fb53cda"
       },
       "bsc:output": {
-        "@id": "_:Ne0d0737953e44600916be09eacd30596"
+        "@id": "_:Nfc28fccf25b04945ba575c58ccd16659"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web API",
@@ -97,7 +97,7 @@
       "sc:url": "http://sbi.imim.es/web/GUILDify.php"
     },
     {
-      "@id": "_:N178bf7634766485095a9ba14cdb65c58",
+      "@id": "_:N12225b10a0e8444abb3e52d21fb53cda",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2339"
@@ -108,7 +108,7 @@
       "sc:name": "Ontology concept name"
     },
     {
-      "@id": "_:Ne0d0737953e44600916be09eacd30596",
+      "@id": "_:Nfc28fccf25b04945ba575c58ccd16659",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

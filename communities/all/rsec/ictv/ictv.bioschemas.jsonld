@@ -40,6 +40,10 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1099/jgv.0.001840",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ictv",
       "@type": "sc:SoftwareApplication",
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -84,10 +88,6 @@
         "@id": "https://talk.ictvonline.org/information/"
       },
       "sc:url": "http://www.ictvonline.org/"
-    },
-    {
-      "@id": "https://doi.org/10.1099/jgv.0.001840",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

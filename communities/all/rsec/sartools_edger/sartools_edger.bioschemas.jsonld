@@ -36,14 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1371/journal.pone.0157022",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
@@ -53,24 +45,24 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N703e4ae9720244c09b65cc997713c5db"
+          "@id": "_:Nd8816c39a314407baa9f23b84ea77592"
         },
         {
-          "@id": "_:Nd270040ee79f4571b369d39fa7bdfad4"
+          "@id": "_:N15a76cacbc784823896b4d5daac3f571"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N297f685be60e49feb49bb40a03c06f78"
+          "@id": "_:N4598db24325f4774a54de0f15915ed73"
         },
         {
-          "@id": "_:N1db7b3b430c64b3da210caeff49aebe0"
+          "@id": "_:Ncb7e6bd919a24fb78b790014376e29f5"
         },
         {
-          "@id": "_:Nafd1a04c34324ffbb797f1d4d995ac7f"
+          "@id": "_:Nebb00e4d0cc542919e507758912e792c"
         },
         {
-          "@id": "_:N22f850c989fc4bf0984bb331a1f0ef6e"
+          "@id": "_:N9cf92c96d42345d689287e125f47f921"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -115,7 +107,7 @@
       "sc:url": "https://github.com/PF2-pasteur-fr/SARTools"
     },
     {
-      "@id": "_:N703e4ae9720244c09b65cc997713c5db",
+      "@id": "_:Nd8816c39a314407baa9f23b84ea77592",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -126,7 +118,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nd270040ee79f4571b369d39fa7bdfad4",
+      "@id": "_:N15a76cacbc784823896b4d5daac3f571",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -137,7 +129,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N297f685be60e49feb49bb40a03c06f78",
+      "@id": "_:N4598db24325f4774a54de0f15915ed73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -148,7 +140,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N1db7b3b430c64b3da210caeff49aebe0",
+      "@id": "_:Ncb7e6bd919a24fb78b790014376e29f5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -159,7 +151,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nafd1a04c34324ffbb797f1d4d995ac7f",
+      "@id": "_:Nebb00e4d0cc542919e507758912e792c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -170,7 +162,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N22f850c989fc4bf0984bb331a1f0ef6e",
+      "@id": "_:N9cf92c96d42345d689287e125f47f921",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -179,6 +171,14 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0157022",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

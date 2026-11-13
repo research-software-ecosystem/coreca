@@ -40,7 +40,7 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Antonio Rosato",
       "bsc:input": {
-        "@id": "_:N13445810ad0d466795d6d8c188d4e5c8"
+        "@id": "_:Ne24132dc673846d39b218d0198623a73"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -71,7 +71,7 @@
       "sc:url": "http://metalweb.cerm.unifi.it/"
     },
     {
-      "@id": "_:N13445810ad0d466795d6d8c188d4e5c8",
+      "@id": "_:Ne24132dc673846d39b218d0198623a73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"

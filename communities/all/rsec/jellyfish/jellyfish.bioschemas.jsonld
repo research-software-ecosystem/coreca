@@ -47,10 +47,10 @@
         "Guillaume Marçais"
       ],
       "bsc:input": {
-        "@id": "_:N26dc12e78e0442eabe6aa337130f637d"
+        "@id": "_:N0097a2e3bd3f4aef8f62b1f05c6f95e3"
       },
       "bsc:output": {
-        "@id": "_:N35790d572d9044e2940c6af5d8a69486"
+        "@id": "_:Nde9a5f1e76be4c20a4dc701b82443c50"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -92,7 +92,7 @@
       "sc:url": "http://www.genome.umd.edu/jellyfish.html"
     },
     {
-      "@id": "_:N26dc12e78e0442eabe6aa337130f637d",
+      "@id": "_:N0097a2e3bd3f4aef8f62b1f05c6f95e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -108,7 +108,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:N35790d572d9044e2940c6af5d8a69486",
+      "@id": "_:Nde9a5f1e76be4c20a4dc701b82443c50",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3917"

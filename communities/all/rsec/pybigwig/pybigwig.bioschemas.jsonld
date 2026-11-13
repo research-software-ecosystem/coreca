@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/pybigwig",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Neb1c6aea484040939520fe124485eda0"
+        "@id": "_:N3d126b30c6db49da94f48810a93a2439"
       },
       "bsc:output": {
-        "@id": "_:N04762f4a15a6444c8e2bfc6dc6217485"
+        "@id": "_:N67f4aa9ddc4146e6b9a3c69945ea7ec2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -64,7 +64,7 @@
       "sc:url": "https://github.com/deeptools/pyBigWig"
     },
     {
-      "@id": "_:Neb1c6aea484040939520fe124485eda0",
+      "@id": "_:N3d126b30c6db49da94f48810a93a2439",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -80,7 +80,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N04762f4a15a6444c8e2bfc6dc6217485",
+      "@id": "_:N67f4aa9ddc4146e6b9a3c69945ea7ec2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"

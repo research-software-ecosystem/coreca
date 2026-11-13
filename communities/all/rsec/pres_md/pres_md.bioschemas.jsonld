@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/toxsci/kfac078",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/pres_md",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N95331807221947159d8e207b62a64178"
+          "@id": "_:Nd6a0f22f4a904dc29c6c5a51ab0f555f"
         },
         {
-          "@id": "_:Nd7e4b6ebe72c471f9d57aa5eff8211c9"
+          "@id": "_:N55b729a5fca444d5b7aada792154c321"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -80,7 +84,7 @@
       "sc:url": "https://presmd.mml.unc.edu/"
     },
     {
-      "@id": "_:N95331807221947159d8e207b62a64178",
+      "@id": "_:Nd6a0f22f4a904dc29c6c5a51ab0f555f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"
@@ -88,16 +92,12 @@
       "sc:name": "SMILES string"
     },
     {
-      "@id": "_:Nd7e4b6ebe72c471f9d57aa5eff8211c9",
+      "@id": "_:N55b729a5fca444d5b7aada792154c321",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
       },
       "sc:name": "Small molecule structure"
-    },
-    {
-      "@id": "https://doi.org/10.1093/toxsci/kfac078",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

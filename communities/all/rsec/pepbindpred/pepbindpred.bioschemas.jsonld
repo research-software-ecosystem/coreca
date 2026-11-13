@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/pepbindpred",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd79e89a1529e48c1b902b432d7f56b46"
+        "@id": "_:Nddea8980150e4d2db4c8ea624e02162d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -87,7 +87,7 @@
       "sc:url": "http://bioware.ucd.ie/~compass/biowareweb/Server_pages/pepbindpred.php"
     },
     {
-      "@id": "_:Nd79e89a1529e48c1b902b432d7f56b46",
+      "@id": "_:Nddea8980150e4d2db4c8ea624e02162d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"

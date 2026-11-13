@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/barleyexpdb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N4750f8fe6d2c41fdb6e2dd5af9049a40"
+        "@id": "_:N2107747852dd424397df6c0695a2106b"
       },
       "bsc:output": {
-        "@id": "_:N499b98fc7bb74e9e9fd5f299a06a326e"
+        "@id": "_:N237d36f2c4904f118cba6d2a84250619"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -95,7 +95,7 @@
       "sc:url": "http://barleyexp.com/"
     },
     {
-      "@id": "_:N4750f8fe6d2c41fdb6e2dd5af9049a40",
+      "@id": "_:N2107747852dd424397df6c0695a2106b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -106,7 +106,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N499b98fc7bb74e9e9fd5f299a06a326e",
+      "@id": "_:N237d36f2c4904f118cba6d2a84250619",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"

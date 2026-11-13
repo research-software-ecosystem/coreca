@@ -1,8 +1,8 @@
 {
     "Description": "Scater (Single-Cell Analysis Toolkit for gene Expression data in R) is acollection of tools for doing various analyses of single-cell RNA-seq geneexpression data, with a focus on quality control and visualization.",
     "EDAM_operations": [
-        "Sequence visualisation",
         "Sequencing quality control",
+        "Sequence visualisation",
         "Read pre-processing"
     ],
     "EDAM_reduced_operations": [
@@ -20,19 +20,20 @@
         "RNA-Seq"
     ],
     "Homepage": "http://bioconductor.org/packages/scater/",
-    "Latest_suite_conda_package_version": "1.38.1",
+    "Latest_suite_conda_package_version": "1.40.2",
     "Number_of_tools_on_ChemFlow": 0,
-    "Number_of_tools_on_Coloc-stats": 0,
-    "Number_of_tools_on_GASLINI": 0,
+    "Number_of_tools_on_Codon_Harmonizer": 0,
     "Number_of_tools_on_Galaxy@AuBi": 0,
     "Number_of_tools_on_Galaxy@Pasteur": 0,
     "Number_of_tools_on_GalaxyTrakr": 0,
+    "Number_of_tools_on_HCEMM_Galaxy": 0,
     "Number_of_tools_on_HyPhy_HIV_NGS_Tools": 0,
     "Number_of_tools_on_IPK_Galaxy_Blast_Suite": 0,
     "Number_of_tools_on_ImmPort_Galaxy": 0,
     "Number_of_tools_on_InteractoMIX": 0,
     "Number_of_tools_on_Lebanese_University_Galaxy": 0,
     "Number_of_tools_on_MBAC_Metabiome_Portal": 0,
+    "Number_of_tools_on_MISSISSIPPI": 0,
     "Number_of_tools_on_Mandoiu_Lab": 0,
     "Number_of_tools_on_Oqtans": 5,
     "Number_of_tools_on_Palfinder": 0,

@@ -45,21 +45,21 @@
       "biotools:primaryContact": "Ben Stöver",
       "bsc:input": [
         {
-          "@id": "_:N95647d3a019445fb981aca6b3bbe7c3c"
+          "@id": "_:Na8695deafe354d16ae4f29d50ebbe1cb"
         },
         {
-          "@id": "_:Nd544ad5be17f482dbee5b733e620a0d0"
+          "@id": "_:N5e612a8f8633416fa36f18b18929ac97"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9e3090c7bb15408199fec1fd3f738871"
+          "@id": "_:N3c189e4418b54c73859e62168a5e49d5"
         },
         {
-          "@id": "_:Ndd87e0abf2ac470889ed2b20982fb488"
+          "@id": "_:N8cbc226dda174145b39c571776159d6a"
         },
         {
-          "@id": "_:N6a9c60de74174b33a9146b9392ecb3ce"
+          "@id": "_:N25d3057b36dc42f5822adb469d1d5915"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -134,7 +134,7 @@
       "sc:url": "http://treegraph.bioinfweb.info/"
     },
     {
-      "@id": "_:N95647d3a019445fb981aca6b3bbe7c3c",
+      "@id": "_:Na8695deafe354d16ae4f29d50ebbe1cb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -159,7 +159,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:Nd544ad5be17f482dbee5b733e620a0d0",
+      "@id": "_:N5e612a8f8633416fa36f18b18929ac97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -170,7 +170,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N9e3090c7bb15408199fec1fd3f738871",
+      "@id": "_:N3c189e4418b54c73859e62168a5e49d5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -189,7 +189,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:Ndd87e0abf2ac470889ed2b20982fb488",
+      "@id": "_:N8cbc226dda174145b39c571776159d6a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1707"
@@ -214,7 +214,7 @@
       "sc:name": "Phylogenetic tree image"
     },
     {
-      "@id": "_:N6a9c60de74174b33a9146b9392ecb3ce",
+      "@id": "_:N25d3057b36dc42f5822adb469d1d5915",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"

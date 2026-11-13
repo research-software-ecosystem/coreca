@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/multimed",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N90cbef6e841c4bb7b4f3f60438a4b276"
+        "@id": "_:Nbfd90b25da4d4681b776496a62dbc12b"
       },
       "bsc:output": [
         {
-          "@id": "_:Na2fba2b70b8241d4bd4477331a425c19"
+          "@id": "_:N169c22109d6b436eb60859c9a4b753c7"
         },
         {
-          "@id": "_:Necf91662e7dc4f7589c67969c3f2a9c1"
+          "@id": "_:N9256da9b20bf4635afa68c92dbb733b5"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -87,7 +87,7 @@
       "sc:url": "https://bioconductor.org/packages/MultiMed"
     },
     {
-      "@id": "_:N90cbef6e841c4bb7b4f3f60438a4b276",
+      "@id": "_:Nbfd90b25da4d4681b776496a62dbc12b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -98,7 +98,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:Na2fba2b70b8241d4bd4477331a425c19",
+      "@id": "_:N169c22109d6b436eb60859c9a4b753c7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
@@ -109,7 +109,7 @@
       "sc:name": "P-value"
     },
     {
-      "@id": "_:Necf91662e7dc4f7589c67969c3f2a9c1",
+      "@id": "_:N9256da9b20bf4635afa68c92dbb733b5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0951"

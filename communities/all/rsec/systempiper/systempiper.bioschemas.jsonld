@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s12859-016-1241-0",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/systempiper",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N92f95358edb54a788f226456aa678d01"
+        "@id": "_:N324dee084cdc4583a980d81e023d0c50"
       },
       "bsc:output": {
-        "@id": "_:N6163028c72894766a5a823a228aa5676"
+        "@id": "_:Nfdff93e8ed6d4eca8de040a310ce962d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -87,7 +83,7 @@
       "sc:url": "https://bioconductor.org/packages/systemPipeR"
     },
     {
-      "@id": "_:N92f95358edb54a788f226456aa678d01",
+      "@id": "_:N324dee084cdc4583a980d81e023d0c50",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -109,7 +105,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N6163028c72894766a5a823a228aa5676",
+      "@id": "_:Nfdff93e8ed6d4eca8de040a310ce962d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -122,7 +118,11 @@
           "@id": "edam:format_2573"
         }
       ],
-      "sc:name": "Sequence alignment (nucleic acid)"
+      "sc:name": "Nucleic acid sequence alignment"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-016-1241-0",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

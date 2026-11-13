@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Alexandre Kuhn",
       "bsc:input": {
-        "@id": "_:Nc32429285c054a42a652fb459d970f08"
+        "@id": "_:N20f4daf85e774ceeb69e2189965e5515"
       },
       "bsc:output": {
-        "@id": "_:N59e660feeac4435e95ee9c979d91b5e7"
+        "@id": "_:N2fe8e9d7c4334cce8a97b35571d65752"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -90,7 +90,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/PSEA.html"
     },
     {
-      "@id": "_:Nc32429285c054a42a652fb459d970f08",
+      "@id": "_:N20f4daf85e774ceeb69e2189965e5515",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -101,7 +101,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N59e660feeac4435e95ee9c979d91b5e7",
+      "@id": "_:N2fe8e9d7c4334cce8a97b35571d65752",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

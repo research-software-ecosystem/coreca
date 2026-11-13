@@ -52,10 +52,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:N48e8d7abfd174ce9b316274dcdad6a52"
+        "@id": "_:N63397a48d9004105b918766a80fbcd29"
       },
       "bsc:output": {
-        "@id": "_:N358498f5548c422e8a8eb3fb6acf5593"
+        "@id": "_:Nea8f936d88a147a49b1d2b3abe4416da"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -112,7 +112,7 @@
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/psa/emboss_water"
     },
     {
-      "@id": "_:N48e8d7abfd174ce9b316274dcdad6a52",
+      "@id": "_:N63397a48d9004105b918766a80fbcd29",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -120,7 +120,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N358498f5548c422e8a8eb3fb6acf5593",
+      "@id": "_:Nea8f936d88a147a49b1d2b3abe4416da",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"

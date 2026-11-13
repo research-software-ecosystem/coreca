@@ -36,11 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1002/0471250953.bi1112s47",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1002/0471250953.bi1112s47",
       "@type": "sc:CreativeWork"
     },
     {
@@ -48,10 +48,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N06732a48ecf34a84afe8699034896832"
+        "@id": "_:N47c16bd32dcd47349b0cb5b852dfdeb0"
       },
       "bsc:output": {
-        "@id": "_:Nc249b656e2e447088b0eed18f3cdb300"
+        "@id": "_:N7f139e3e2f9547e1a1e1eb2fb913d9da"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -93,7 +93,7 @@
       "sc:url": "https://github.com/arq5x/bedtools4"
     },
     {
-      "@id": "_:N06732a48ecf34a84afe8699034896832",
+      "@id": "_:N47c16bd32dcd47349b0cb5b852dfdeb0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -109,7 +109,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nc249b656e2e447088b0eed18f3cdb300",
+      "@id": "_:N7f139e3e2f9547e1a1e1eb2fb913d9da",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

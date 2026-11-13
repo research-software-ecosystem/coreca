@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/nmeth.4260",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/xcms_online",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ndd2605cb8f78413bad154879df6bf2c9"
+        "@id": "_:Nc996adc7897d4a6bb0c056c1da268c6f"
       },
       "bsc:output": {
-        "@id": "_:Ndce8829f4f5042dd8b8735eeccb6f20d"
+        "@id": "_:N786d5b02473e4ad2a102a84653b1aea2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -83,7 +87,7 @@
       "sc:url": "http://xcmsonline.scripps.edu/landing_page.php?pgcontent=mainPage"
     },
     {
-      "@id": "_:Ndd2605cb8f78413bad154879df6bf2c9",
+      "@id": "_:Nc996adc7897d4a6bb0c056c1da268c6f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3483"
@@ -94,7 +98,7 @@
       "sc:name": "Spectrum"
     },
     {
-      "@id": "_:Ndce8829f4f5042dd8b8735eeccb6f20d",
+      "@id": "_:N786d5b02473e4ad2a102a84653b1aea2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -103,10 +107,6 @@
         "@id": "edam:format_2013"
       },
       "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "https://doi.org/10.1038/nmeth.4260",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

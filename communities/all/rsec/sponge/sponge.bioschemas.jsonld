@@ -79,7 +79,7 @@
           "@id": "edam:operation_0445"
         }
       ],
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "SPONGE",
       "sc:operatingSystem": [
         "Linux",

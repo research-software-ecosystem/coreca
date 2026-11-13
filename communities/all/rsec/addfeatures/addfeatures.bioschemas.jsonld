@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/addfeatures",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1adfcc51cc894e5da982e47eebfd0b91"
+        "@id": "_:N8529152389f045edae6f4694a69b2853"
       },
       "bsc:output": {
-        "@id": "_:Nd81b1bceb30842ba909b37df47aea39a"
+        "@id": "_:N56f7bc63c4a04ac4a9a714baf97aadde"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -62,7 +62,7 @@
       "sc:url": "https://github.com/magnuspalmblad/addFeatures"
     },
     {
-      "@id": "_:N1adfcc51cc894e5da982e47eebfd0b91",
+      "@id": "_:N8529152389f045edae6f4694a69b2853",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -73,7 +73,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nd81b1bceb30842ba909b37df47aea39a",
+      "@id": "_:N56f7bc63c4a04ac4a9a714baf97aadde",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"

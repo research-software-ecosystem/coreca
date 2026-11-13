@@ -36,19 +36,23 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/fastaextract",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Nb063fb3f39d6437c88795db26c88a4f5"
+          "@id": "_:N3c62757e6fad418a914b8614e3e4e567"
         },
         {
-          "@id": "_:N84a3c3e469fd4f058c0daca825ddcffb"
+          "@id": "_:N26200b8805804d8391ca31f98b07ea3c"
         }
       ],
       "bsc:output": {
-        "@id": "_:N4fc6be8a5d4f4131b0ead82868ace1c7"
+        "@id": "_:Ndee7cc3ba16a41159636b643b8ca543c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -93,7 +97,7 @@
       "sc:url": "https://github.com/C3BI-pasteur-fr/fastaextract"
     },
     {
-      "@id": "_:Nb063fb3f39d6437c88795db26c88a4f5",
+      "@id": "_:N3c62757e6fad418a914b8614e3e4e567",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -104,7 +108,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N84a3c3e469fd4f058c0daca825ddcffb",
+      "@id": "_:N26200b8805804d8391ca31f98b07ea3c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -115,7 +119,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N4fc6be8a5d4f4131b0ead82868ace1c7",
+      "@id": "_:Ndee7cc3ba16a41159636b643b8ca543c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -127,10 +131,6 @@
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     }
   ]

@@ -39,20 +39,20 @@
       "@id": "https://bio.tools/mgx",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3efcb256923a430e82ac00bf26c6ed90"
+        "@id": "_:N2fc9fad78f23476eaa8cd34454c63888"
       },
       "bsc:output": [
         {
-          "@id": "_:N94067ad0cb004995a8b92f74787d6d5e"
+          "@id": "_:N4354eb6b2503455689bae2678f07e99c"
         },
         {
-          "@id": "_:Ncfc0dfa715224a0b8d998758a4d08581"
+          "@id": "_:N55f7f5db22934a8880ec12688908b5ae"
         },
         {
-          "@id": "_:Na5dca645b6d842c59423d3ac0b34f601"
+          "@id": "_:N73dfbb17452c4905b8850877ad327e95"
         },
         {
-          "@id": "_:N1f650d16390a47e79fa041d8cda6e4f8"
+          "@id": "_:Nab116d434c9246599b9c16b5a408bf25"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,7 +92,7 @@
       "sc:url": "https://mgx-metagenomics.github.io/"
     },
     {
-      "@id": "_:N3efcb256923a430e82ac00bf26c6ed90",
+      "@id": "_:N2fc9fad78f23476eaa8cd34454c63888",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2975"
@@ -117,7 +117,7 @@
       "sc:name": "Nucleic acid sequence (raw)"
     },
     {
-      "@id": "_:N94067ad0cb004995a8b92f74787d6d5e",
+      "@id": "_:N4354eb6b2503455689bae2678f07e99c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -125,7 +125,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Ncfc0dfa715224a0b8d998758a4d08581",
+      "@id": "_:N55f7f5db22934a8880ec12688908b5ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -133,7 +133,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Na5dca645b6d842c59423d3ac0b34f601",
+      "@id": "_:N73dfbb17452c4905b8850877ad327e95",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -141,7 +141,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N1f650d16390a47e79fa041d8cda6e4f8",
+      "@id": "_:Nab116d434c9246599b9c16b5a408bf25",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"

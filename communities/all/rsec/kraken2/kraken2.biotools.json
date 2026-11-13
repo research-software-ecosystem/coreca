@@ -51,7 +51,8 @@
     "editPermission": {
         "authors": [
             "Keiler_Collier",
-            "vashokan"
+            "vashokan",
+            "vashokan2"
         ],
         "type": "group"
     },
@@ -103,7 +104,7 @@
         "C++",
         "Perl"
     ],
-    "lastUpdate": "2026-01-28T10:34:30.102754Z",
+    "lastUpdate": "2026-11-12T14:13:00.596486Z",
     "license": "MIT",
     "link": [
         {
@@ -123,7 +124,16 @@
     "owner": "anand-anshu",
     "publication": [
         {
-            "doi": "10.1101/762302"
+            "doi": "10.1101/762302",
+            "type": [
+                "Preprint"
+            ]
+        },
+        {
+            "doi": "10.1186/s13059-019-1891-0",
+            "type": [
+                "Primary"
+            ]
         }
     ],
     "relation": [

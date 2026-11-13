@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btm525",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/mastr",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Stinus Lindgreen",
       "bsc:input": {
-        "@id": "_:N317a98f81cd4496585d60830df666968"
+        "@id": "_:Ne360d021ff754cbda9fe214dd76d99e6"
       },
       "bsc:output": [
         {
-          "@id": "_:N1d7f60bc9dd04a3f8923ca695bb530bf"
+          "@id": "_:Nd32ed72ce4b54aabb7ad67bc029fcc28"
         },
         {
-          "@id": "_:N288f613eaad64fbb8c0b6e7ac566589d"
+          "@id": "_:N0c67df969e6b46a793142e9abbf66c82"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -87,7 +91,7 @@
       "sc:url": "http://servers.binf.ku.dk/mastr/"
     },
     {
-      "@id": "_:N317a98f81cd4496585d60830df666968",
+      "@id": "_:Ne360d021ff754cbda9fe214dd76d99e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -98,7 +102,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N1d7f60bc9dd04a3f8923ca695bb530bf",
+      "@id": "_:Nd32ed72ce4b54aabb7ad67bc029fcc28",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -106,16 +110,12 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:N288f613eaad64fbb8c0b6e7ac566589d",
+      "@id": "_:N0c67df969e6b46a793142e9abbf66c82",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0880"
       },
       "sc:name": "RNA secondary structure"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btm525",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

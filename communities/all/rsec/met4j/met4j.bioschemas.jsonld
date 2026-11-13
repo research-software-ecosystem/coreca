@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/met4j",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nba00f2e39b77426fa6dbe8dbf3bd4d20"
+        "@id": "_:N2904b754cad84fd891cad45f97c93222"
       },
       "bsc:output": {
-        "@id": "_:Nd3b2b52aee034d9b9941d5da04cde239"
+        "@id": "_:N7a291c0aceab4b8d94d6a69a128c544c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -72,7 +72,7 @@
       "sc:url": "https://forgemia.inra.fr/metexplore/met4j"
     },
     {
-      "@id": "_:Nba00f2e39b77426fa6dbe8dbf3bd4d20",
+      "@id": "_:N2904b754cad84fd891cad45f97c93222",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -83,7 +83,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nd3b2b52aee034d9b9941d5da04cde239",
+      "@id": "_:N7a291c0aceab4b8d94d6a69a128c544c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

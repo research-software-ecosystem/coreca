@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1002/humu.21047",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/ws_snps_and_go",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -50,20 +46,20 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Ne41591ef45e74777bb2e4d3225351c7a"
+          "@id": "_:Nd9a1eafcf0934f97acaa630c9a35cfd5"
         },
         {
-          "@id": "_:N638876ba4b3549cdafbaf897149544ec"
+          "@id": "_:N20abbc87381645fa8c3cbb025fd3726f"
         },
         {
-          "@id": "_:N7029e5732f734dc2aca1193cd3fe0eac"
+          "@id": "_:N3108f30194774e10aada92d012aaf0e6"
         },
         {
-          "@id": "_:N70824075febd4eaba868a6fbaa11113f"
+          "@id": "_:N04fd993ca2b74c1cbe867039a2d576fd"
         }
       ],
       "bsc:output": {
-        "@id": "_:N2dd35fe2db394cd59f16b95343ccf11d"
+        "@id": "_:N4c86e21162284204bb0fd59049fb52fd"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -114,7 +110,7 @@
       "sc:url": "http://snps.biofold.org/snps-and-go"
     },
     {
-      "@id": "_:Ne41591ef45e74777bb2e4d3225351c7a",
+      "@id": "_:Nd9a1eafcf0934f97acaa630c9a35cfd5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1176"
@@ -125,7 +121,7 @@
       "sc:name": "GO concept ID"
     },
     {
-      "@id": "_:N638876ba4b3549cdafbaf897149544ec",
+      "@id": "_:N20abbc87381645fa8c3cbb025fd3726f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2209"
@@ -136,7 +132,7 @@
       "sc:name": "Mutation ID"
     },
     {
-      "@id": "_:N7029e5732f734dc2aca1193cd3fe0eac",
+      "@id": "_:N3108f30194774e10aada92d012aaf0e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -147,7 +143,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N70824075febd4eaba868a6fbaa11113f",
+      "@id": "_:N04fd993ca2b74c1cbe867039a2d576fd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1467"
@@ -158,7 +154,7 @@
       "sc:name": "Protein chain"
     },
     {
-      "@id": "_:N2dd35fe2db394cd59f16b95343ccf11d",
+      "@id": "_:N4c86e21162284204bb0fd59049fb52fd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1622"
@@ -167,6 +163,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Disease report"
+    },
+    {
+      "@id": "https://doi.org/10.1002/humu.21047",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1186/1471-2105-12-s4-s3",

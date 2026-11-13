@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/t-bio.info",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb8fad230a4a84976a6b94890ad0015ac"
+        "@id": "_:N488ee7aa7f3042c095124c8412137c23"
       },
       "bsc:output": {
-        "@id": "_:Ndc2ec9ec76e948138c61404bf56705b7"
+        "@id": "_:N91dc48b6db9d43f9b236cc2eca16508f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -86,7 +86,7 @@
       "sc:url": "https://server.t-bio.info"
     },
     {
-      "@id": "_:Nb8fad230a4a84976a6b94890ad0015ac",
+      "@id": "_:N488ee7aa7f3042c095124c8412137c23",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -102,7 +102,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Ndc2ec9ec76e948138c61404bf56705b7",
+      "@id": "_:N91dc48b6db9d43f9b236cc2eca16508f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2087"

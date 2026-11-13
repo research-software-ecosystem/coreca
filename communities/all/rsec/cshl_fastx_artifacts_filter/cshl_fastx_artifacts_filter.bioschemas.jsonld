@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N83aea93fbd60422ca03c8c64acf730ec"
+        "@id": "_:N7f61a31490474737bcf4126c412ad75b"
       },
       "bsc:output": {
-        "@id": "_:Ncffb424d3b7947db83d54fe49ed0d358"
+        "@id": "_:N110fa1cc47364cacb3c62e0b7c69ccc4"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -79,7 +79,7 @@
       "sc:url": "http://hannonlab.cshl.edu/fastx_toolkit/"
     },
     {
-      "@id": "_:N83aea93fbd60422ca03c8c64acf730ec",
+      "@id": "_:N7f61a31490474737bcf4126c412ad75b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -101,7 +101,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ncffb424d3b7947db83d54fe49ed0d358",
+      "@id": "_:N110fa1cc47364cacb3c62e0b7c69ccc4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -112,7 +112,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

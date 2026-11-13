@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/s12859-019-2923-1",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ddgun",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N8cacfb7951384f5381e5aa5b8c3bc0b7"
+          "@id": "_:N3c86f301c51840c69172d6922da1146d"
         },
         {
-          "@id": "_:N17261e47239143218958e023d44fe357"
+          "@id": "_:Nacf1d9f38347475b96191731ae9a239f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -82,7 +86,7 @@
       "sc:url": "https://github.com/biofold/ddgun"
     },
     {
-      "@id": "_:N8cacfb7951384f5381e5aa5b8c3bc0b7",
+      "@id": "_:N3c86f301c51840c69172d6922da1146d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -93,7 +97,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N17261e47239143218958e023d44fe357",
+      "@id": "_:Nacf1d9f38347475b96191731ae9a239f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -102,10 +106,6 @@
         "@id": "edam:format_1476"
       },
       "sc:name": "Protein structure"
-    },
-    {
-      "@id": "https://doi.org/10.1186/s12859-019-2923-1",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkac325",

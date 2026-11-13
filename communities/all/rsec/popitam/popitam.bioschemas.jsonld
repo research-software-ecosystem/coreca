@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ndd486aad2907413c84f429d8f1aa0e1a"
+          "@id": "_:N50f639f9b35f4247a0e7406194706599"
         },
         {
-          "@id": "_:N30ea7ddb1da14bf4bed4b10b4deee5e2"
+          "@id": "_:N712e898c061f46deb16f8db2792026d9"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nd7910bf16350450b9998785ded2a9f79"
+        "@id": "_:Nd469a157275d4e67833b81defdb965b0"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -108,7 +108,7 @@
       "sc:url": "https://github.com/chernan/popitam"
     },
     {
-      "@id": "_:Ndd486aad2907413c84f429d8f1aa0e1a",
+      "@id": "_:N50f639f9b35f4247a0e7406194706599",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -124,7 +124,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N30ea7ddb1da14bf4bed4b10b4deee5e2",
+      "@id": "_:N712e898c061f46deb16f8db2792026d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -135,7 +135,7 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:Nd7910bf16350450b9998785ded2a9f79",
+      "@id": "_:Nd469a157275d4e67833b81defdb965b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"

@@ -36,7 +36,19 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0001-5514-6021",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkaa895",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1021/jm400378w",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.tips.2019.09.002",
       "@type": "sc:CreativeWork"
     },
     {
@@ -47,69 +59,69 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N7c5f974f7fcc46bd9700e70b54a73c55"
+          "@id": "_:Nfa209974b11d45158c783ea5ddb7d479"
         },
         {
-          "@id": "_:N481f207416804d958645be69a267a41d"
+          "@id": "_:N2200aac6984348ad8601c97a820f06b1"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8aa04a5e17a74921a6e0e03457c231ec"
+          "@id": "_:N1720f1e5c23e40bd9bb397b781847388"
         },
         {
-          "@id": "_:N57f27ffe5626423e90c31babd59e5edf"
+          "@id": "_:Ne4f04bfe8b23421b9be3d32bf4df4099"
         },
         {
-          "@id": "_:N27add95a17d0474baced42e99875ef07"
+          "@id": "_:Nc0934dad8f2642b1a32a831668297889"
         },
         {
-          "@id": "_:N6080e32639144608a15e3cdc9a5b857f"
+          "@id": "_:Nea22250248a44f13937c83f96e906327"
         },
         {
-          "@id": "_:N35775bb6d3cb4f528347aa4e966f8d8d"
+          "@id": "_:N606e46f1f5534c069d0bcb3728b18492"
         },
         {
-          "@id": "_:N91c8d5f1300147e9af5a1a30fda48b4d"
+          "@id": "_:N117fbc1ab82f407ea545e19c7b97ef45"
         },
         {
-          "@id": "_:N44f30a1564c440f1bcd66eee683ee7ae"
+          "@id": "_:Ne853290146ed48ffbcc7d615b6884e4c"
         },
         {
-          "@id": "_:Ncd45ee80fb664bc6b46987e9e7f6a2d0"
+          "@id": "_:N93c1e540b4894d9cafcd8680b9b81ce2"
         },
         {
-          "@id": "_:Na6ff9ae280494aceb879d0bd0b7cd055"
+          "@id": "_:N2c3ffb8ce218451f835644bea51c2cf8"
         },
         {
-          "@id": "_:Nebf9665c0c57453fab06dfad2eca2ab5"
+          "@id": "_:Nd7b26c4bc2794c89b678f4d70ba001f2"
         },
         {
-          "@id": "_:N8b94a71e0c724b9caeecb15b662aa002"
+          "@id": "_:N5d12e6a85af34987a2b5e1ebb4f7796d"
         },
         {
-          "@id": "_:N549eaef5291c40d0b0c1cdc3646c0689"
+          "@id": "_:N1537a68921e541c491289494f6e4a7f9"
         },
         {
-          "@id": "_:N01880c4bba264c7e9a19dc225eb747a3"
+          "@id": "_:N995a148f31124e94927489e44163ede1"
         },
         {
-          "@id": "_:N9d3917892b6841e5af1eaa3310472922"
+          "@id": "_:Nfe7d03a7a44c4050b0f2c24c82e0b55b"
         },
         {
-          "@id": "_:N7b3565b795664ecb9a2dc147853b60cb"
+          "@id": "_:N991db1bb927648dd9df7b53254709d61"
         },
         {
-          "@id": "_:Na675c3f735974b33b1a1a10e78765dee"
+          "@id": "_:N10d94fb16aa34345af22e137c40ead73"
         },
         {
-          "@id": "_:N24c82ac5b31c49eea42adb793ba0bf1b"
+          "@id": "_:N7787e437bc6a43d6b1d632de1418df77"
         },
         {
-          "@id": "_:Nd1fd4d658a074c76a05ff576e87f5b15"
+          "@id": "_:Ne428bb4e8e8449eeb2552cffd2e1a227"
         },
         {
-          "@id": "_:N2a2dbdcadc3446e2b874ed4cbd18f24e"
+          "@id": "_:N065cde53ec594c9682adf5661b9b6382"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -262,7 +274,7 @@
       "sc:url": "https://klifs.net"
     },
     {
-      "@id": "_:N7c5f974f7fcc46bd9700e70b54a73c55",
+      "@id": "_:Nfa209974b11d45158c783ea5ddb7d479",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -273,7 +285,7 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:N481f207416804d958645be69a267a41d",
+      "@id": "_:N2200aac6984348ad8601c97a820f06b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -284,7 +296,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N8aa04a5e17a74921a6e0e03457c231ec",
+      "@id": "_:N1720f1e5c23e40bd9bb397b781847388",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1712"
@@ -292,7 +304,7 @@
       "sc:name": "Chemical structure image"
     },
     {
-      "@id": "_:N57f27ffe5626423e90c31babd59e5edf",
+      "@id": "_:Ne4f04bfe8b23421b9be3d32bf4df4099",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0954"
@@ -300,7 +312,7 @@
       "sc:name": "Database cross-mapping"
     },
     {
-      "@id": "_:N27add95a17d0474baced42e99875ef07",
+      "@id": "_:Nc0934dad8f2642b1a32a831668297889",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -308,7 +320,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N6080e32639144608a15e3cdc9a5b857f",
+      "@id": "_:Nea22250248a44f13937c83f96e906327",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2050"
@@ -316,7 +328,7 @@
       "sc:name": "Molecular property (general)"
     },
     {
-      "@id": "_:N35775bb6d3cb4f528347aa4e966f8d8d",
+      "@id": "_:N606e46f1f5534c069d0bcb3728b18492",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0982"
@@ -324,7 +336,7 @@
       "sc:name": "Molecule identifier"
     },
     {
-      "@id": "_:N91c8d5f1300147e9af5a1a30fda48b4d",
+      "@id": "_:N117fbc1ab82f407ea545e19c7b97ef45",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0984"
@@ -332,7 +344,7 @@
       "sc:name": "Molecule name"
     },
     {
-      "@id": "_:N44f30a1564c440f1bcd66eee683ee7ae",
+      "@id": "_:Ne853290146ed48ffbcc7d615b6884e4c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -340,7 +352,7 @@
       "sc:name": "Protein interaction report"
     },
     {
-      "@id": "_:Ncd45ee80fb664bc6b46987e9e7f6a2d0",
+      "@id": "_:N93c1e540b4894d9cafcd8680b9b81ce2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0897"
@@ -348,7 +360,7 @@
       "sc:name": "Protein property"
     },
     {
-      "@id": "_:Na6ff9ae280494aceb879d0bd0b7cd055",
+      "@id": "_:N2c3ffb8ce218451f835644bea51c2cf8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2992"
@@ -356,7 +368,7 @@
       "sc:name": "Protein structure image"
     },
     {
-      "@id": "_:Nebf9665c0c57453fab06dfad2eca2ab5",
+      "@id": "_:Nd7b26c4bc2794c89b678f4d70ba001f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"
@@ -364,7 +376,7 @@
       "sc:name": "Protein structure report"
     },
     {
-      "@id": "_:N8b94a71e0c724b9caeecb15b662aa002",
+      "@id": "_:N5d12e6a85af34987a2b5e1ebb4f7796d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1461"
@@ -372,7 +384,7 @@
       "sc:name": "Protein-ligand complex"
     },
     {
-      "@id": "_:N549eaef5291c40d0b0c1cdc3646c0689",
+      "@id": "_:N1537a68921e541c491289494f6e4a7f9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0893"
@@ -380,7 +392,7 @@
       "sc:name": "Sequence-structure alignment"
     },
     {
-      "@id": "_:N01880c4bba264c7e9a19dc225eb747a3",
+      "@id": "_:N995a148f31124e94927489e44163ede1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -388,7 +400,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N9d3917892b6841e5af1eaa3310472922",
+      "@id": "_:Nfe7d03a7a44c4050b0f2c24c82e0b55b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0890"
@@ -396,7 +408,7 @@
       "sc:name": "Structural (3D) profile alignment"
     },
     {
-      "@id": "_:N7b3565b795664ecb9a2dc147853b60cb",
+      "@id": "_:N991db1bb927648dd9df7b53254709d61",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0889"
@@ -404,7 +416,7 @@
       "sc:name": "Structural profile"
     },
     {
-      "@id": "_:Na675c3f735974b33b1a1a10e78765dee",
+      "@id": "_:N10d94fb16aa34345af22e137c40ead73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1481"
@@ -412,7 +424,7 @@
       "sc:name": "Structure alignment (protein)"
     },
     {
-      "@id": "_:N24c82ac5b31c49eea42adb793ba0bf1b",
+      "@id": "_:N7787e437bc6a43d6b1d632de1418df77",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0888"
@@ -420,7 +432,7 @@
       "sc:name": "Structure similarity score"
     },
     {
-      "@id": "_:Nd1fd4d658a074c76a05ff576e87f5b15",
+      "@id": "_:Ne428bb4e8e8449eeb2552cffd2e1a227",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1498"
@@ -428,24 +440,12 @@
       "sc:name": "Tanimoto similarity score"
     },
     {
-      "@id": "_:N2a2dbdcadc3446e2b874ed4cbd18f24e",
+      "@id": "_:N065cde53ec594c9682adf5661b9b6382",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
       },
       "sc:name": "Text data"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkaa895",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/j.tips.2019.09.002",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-5514-6021",
-      "@type": "sc:Person"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkv1082",

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/Query_Tabular",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N076ea36c473046abb08af0787bcaae97"
+        "@id": "_:Nca096351a15f4b29adce55a44a42c607"
       },
       "bsc:output": {
-        "@id": "_:Nc4d08d1c3d1d401595b88fe24d0452cf"
+        "@id": "_:Nc0d4a3d098a24e8ebb6f47a2746b32ce"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -82,7 +82,7 @@
       "sc:url": "https://github.com/galaxyproject/tools-iuc/tree/master/tools/query_tabular"
     },
     {
-      "@id": "_:N076ea36c473046abb08af0787bcaae97",
+      "@id": "_:Nca096351a15f4b29adce55a44a42c607",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3671"
@@ -93,7 +93,7 @@
       "sc:name": "Text"
     },
     {
-      "@id": "_:Nc4d08d1c3d1d401595b88fe24d0452cf",
+      "@id": "_:Nc0d4a3d098a24e8ebb6f47a2746b32ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3671"

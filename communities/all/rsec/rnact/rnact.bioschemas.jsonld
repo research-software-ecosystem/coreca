@@ -44,6 +44,10 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://orcid.org/0000-0003-0607-5663",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/RNAct",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -51,20 +55,20 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N8e0c2ce524d6437ea99781992381d46f"
+          "@id": "_:Nb72da15e7ff9497fbf4960f3d8171cfb"
         },
         {
-          "@id": "_:N6b3095566ead4c1c9bbe2e1118f77cbb"
+          "@id": "_:N2398eccba8ee4907b8809b02c954198f"
         },
         {
-          "@id": "_:N2ed2774fdcd1443696be4ad9ac6f341c"
+          "@id": "_:N6f5898658a0c4035a9b7b66225aeac44"
         },
         {
-          "@id": "_:N107e7c06034246a7ac378312c573589a"
+          "@id": "_:Nd0a5eb67b5304355a4c970b6edac9154"
         }
       ],
       "bsc:output": {
-        "@id": "_:N2cfeef565a7c4ea9bab2dfe5da8e21f2"
+        "@id": "_:N8997d4ea5c5a4aa2b91df9aabf2f3e87"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -105,7 +109,7 @@
       "sc:url": "https://rnact.tartaglialab.com"
     },
     {
-      "@id": "_:N8e0c2ce524d6437ea99781992381d46f",
+      "@id": "_:Nb72da15e7ff9497fbf4960f3d8171cfb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -113,7 +117,7 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:N6b3095566ead4c1c9bbe2e1118f77cbb",
+      "@id": "_:N2398eccba8ee4907b8809b02c954198f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2725"
@@ -121,7 +125,7 @@
       "sc:name": "Ensembl transcript ID"
     },
     {
-      "@id": "_:N2ed2774fdcd1443696be4ad9ac6f341c",
+      "@id": "_:N6f5898658a0c4035a9b7b66225aeac44",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -129,7 +133,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N107e7c06034246a7ac378312c573589a",
+      "@id": "_:Nd0a5eb67b5304355a4c970b6edac9154",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -137,7 +141,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N2cfeef565a7c4ea9bab2dfe5da8e21f2",
+      "@id": "_:N8997d4ea5c5a4aa2b91df9aabf2f3e87",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -149,10 +153,6 @@
     },
     {
       "@id": "http://orcid.org/0000-0001-6358-8380",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0003-0607-5663",
       "@type": "sc:Person"
     }
   ]

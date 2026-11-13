@@ -36,15 +36,15 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1006/jmbi.2001.4466",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1093/nar/24.19.3836",
       "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gki488",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1006/jmbi.2001.4466",
       "@type": "sc:CreativeWork"
     },
     {

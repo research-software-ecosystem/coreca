@@ -36,22 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/pr0604054",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/myrimatch",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N5a1841c9e65441d39071c20f8d7fa4f2"
+          "@id": "_:N318cb1ddaf9146ed98b51dc8e0cab40a"
         },
         {
-          "@id": "_:Nc5ced866f25940afb49952e30ea05178"
+          "@id": "_:N0eabc70ee6854ea69ee84b3de38bb15e"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nc960b8c4e4694363b38e35f7c95bf15f"
+        "@id": "_:N894f3625b5bd43b6b05379445a5fe66d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -99,7 +95,7 @@
       "sc:url": "https://medschool.vanderbilt.edu/msrc-bioinformatics/myrimatch-source"
     },
     {
-      "@id": "_:N5a1841c9e65441d39071c20f8d7fa4f2",
+      "@id": "_:N318cb1ddaf9146ed98b51dc8e0cab40a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -127,7 +123,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Nc5ced866f25940afb49952e30ea05178",
+      "@id": "_:N0eabc70ee6854ea69ee84b3de38bb15e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -138,7 +134,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:Nc960b8c4e4694363b38e35f7c95bf15f",
+      "@id": "_:N894f3625b5bd43b6b05379445a5fe66d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -147,6 +143,10 @@
         "@id": "edam:format_3655"
       },
       "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "https://doi.org/10.1021/pr0604054",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

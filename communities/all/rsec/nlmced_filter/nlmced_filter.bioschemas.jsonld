@@ -36,13 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/mrm.28676",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1504/IJCVR.2018.090012",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/nlmced_filter",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3ea4f531c1ed4de7ac250565598a7ff4"
+        "@id": "_:Nec1a9818897a4f3abdf1d6587c2112b4"
       },
       "bsc:output": {
-        "@id": "_:Nb5e57f28bd1a4607818d566a28435ff5"
+        "@id": "_:N0df9ae07881e4242b781cc902fe6be77"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Script",
@@ -82,14 +90,19 @@
         "Mac",
         "Windows"
       ],
-      "sc:softwareHelp": {
-        "@id": "https://drive.eucaim.cancerimage.eu/s/L5iwmo6WknyLoWw"
-      },
+      "sc:softwareHelp": [
+        {
+          "@id": "https://drive.eucaim.cancerimage.eu/s/L5iwmo6WknyLoWw"
+        },
+        {
+          "@id": "https://youtu.be/OXbpJcRntOM?si=NIc2IyoLqZIJfE_C"
+        }
+      ],
       "sc:softwareVersion": "1.0",
       "sc:url": "https://github.com/FerielRamdhane/NLmCED-Filter/tree/main"
     },
     {
-      "@id": "_:N3ea4f531c1ed4de7ac250565598a7ff4",
+      "@id": "_:Nec1a9818897a4f3abdf1d6587c2112b4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -100,7 +113,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nb5e57f28bd1a4607818d566a28435ff5",
+      "@id": "_:N0df9ae07881e4242b781cc902fe6be77",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -117,14 +130,6 @@
         }
       ],
       "sc:name": "Image"
-    },
-    {
-      "@id": "https://doi.org/10.1002/mrm.28676",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1504/IJCVR.2018.090012",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

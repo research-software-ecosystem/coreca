@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/dicomtypetranslation",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8e72369832e74f1e8aae17b942c254e9"
+        "@id": "_:Nd7fc4d5308d941bb8c5a49274e462a3a"
       },
       "bsc:output": {
-        "@id": "_:N36a7415c288046f08d9b8d789f86594a"
+        "@id": "_:N819fb92afb82469889fbd6b0aad5d330"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -56,7 +56,7 @@
       "sc:url": "https://github.com/HicServices/DicomTypeTranslation"
     },
     {
-      "@id": "_:N8e72369832e74f1e8aae17b942c254e9",
+      "@id": "_:Nd7fc4d5308d941bb8c5a49274e462a3a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3442"
@@ -67,7 +67,7 @@
       "sc:name": "MRI image"
     },
     {
-      "@id": "_:N36a7415c288046f08d9b8d789f86594a",
+      "@id": "_:N819fb92afb82469889fbd6b0aad5d330",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"

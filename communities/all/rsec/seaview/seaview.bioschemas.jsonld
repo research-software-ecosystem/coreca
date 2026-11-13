@@ -36,36 +36,32 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/molbev/msp259",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/seaview",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Manolo Gouy",
       "bsc:input": [
         {
-          "@id": "_:N51c58cee5eb5409196fca7cebcf080f9"
+          "@id": "_:Nf29316f5aa054b01a551345628addd08"
         },
         {
-          "@id": "_:N101e6433e36d49d8b7d289507a2ca088"
+          "@id": "_:N1d7a4d112c8c405aacdc908d0572958d"
         },
         {
-          "@id": "_:N6284ccd48784411e9122e680bd74cfaf"
+          "@id": "_:N00113ced7c044d9bbfc2584dbe53b46a"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N6eb5000ea2cd418ebf4a20cc7df41ac9"
+          "@id": "_:N3ae17eec6316446cad03b30a370045ec"
         },
         {
-          "@id": "_:N603609b6edf14e28b11d6e03d81095ed"
+          "@id": "_:N301401adecb54d8884a6e0155f105cc9"
         },
         {
-          "@id": "_:N510156ac6a094775ae38029c42bff079"
+          "@id": "_:N307bd8f53b3d41c2a507f3f8cb719590"
         },
         {
-          "@id": "_:N0ec4fed175334727baccbe3cf5d9f0a4"
+          "@id": "_:N99ee306bf2514a1f8ec99ce1d1a155ae"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -125,7 +121,7 @@
       "sc:url": "http://doua.prabi.fr/software/seaview"
     },
     {
-      "@id": "_:N51c58cee5eb5409196fca7cebcf080f9",
+      "@id": "_:Nf29316f5aa054b01a551345628addd08",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -133,7 +129,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N101e6433e36d49d8b7d289507a2ca088",
+      "@id": "_:N1d7a4d112c8c405aacdc908d0572958d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -141,7 +137,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N6284ccd48784411e9122e680bd74cfaf",
+      "@id": "_:N00113ced7c044d9bbfc2584dbe53b46a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -149,7 +145,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N6eb5000ea2cd418ebf4a20cc7df41ac9",
+      "@id": "_:N3ae17eec6316446cad03b30a370045ec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -157,7 +153,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N603609b6edf14e28b11d6e03d81095ed",
+      "@id": "_:N301401adecb54d8884a6e0155f105cc9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1707"
@@ -165,7 +161,7 @@
       "sc:name": "Phylogenetic tree image"
     },
     {
-      "@id": "_:N510156ac6a094775ae38029c42bff079",
+      "@id": "_:N307bd8f53b3d41c2a507f3f8cb719590",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -173,12 +169,16 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N0ec4fed175334727baccbe3cf5d9f0a4",
+      "@id": "_:N99ee306bf2514a1f8ec99ce1d1a155ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1711"
       },
       "sc:name": "Sequence alignment image"
+    },
+    {
+      "@id": "https://doi.org/10.1093/molbev/msp259",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

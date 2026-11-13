@@ -45,14 +45,14 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N88393b7499414048b59c57ff9c2c38d3"
+          "@id": "_:Na97d22d4537849f695fc681aa6c2343c"
         },
         {
-          "@id": "_:Nfefd61de03a443ffbf5c296ceefbe7c1"
+          "@id": "_:N4833fbf1b0ec41149c6290a626a675a7"
         }
       ],
       "bsc:output": {
-        "@id": "_:Na95d89ba06684b6482f5616ad265dd0b"
+        "@id": "_:N337e4115bd6343448890a78c74ed32e8"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -127,7 +127,7 @@
       "sc:url": "http://ncbr.muni.cz/PatternQuery"
     },
     {
-      "@id": "_:N88393b7499414048b59c57ff9c2c38d3",
+      "@id": "_:Na97d22d4537849f695fc681aa6c2343c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -138,7 +138,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:Nfefd61de03a443ffbf5c296ceefbe7c1",
+      "@id": "_:N4833fbf1b0ec41149c6290a626a675a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"
@@ -157,7 +157,7 @@
       "sc:name": "Structure"
     },
     {
-      "@id": "_:Na95d89ba06684b6482f5616ad265dd0b",
+      "@id": "_:N337e4115bd6343448890a78c74ed32e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"

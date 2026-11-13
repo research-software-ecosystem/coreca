@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0001-6046-610X",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/shovill",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Naceb5ed55f56415bbe0adce84a6d0abb"
+        "@id": "_:Na8c9582061e54d75858695864597dde5"
       },
       "bsc:output": {
-        "@id": "_:N5c3eda49a29c4be8b1874f524e51e8c0"
+        "@id": "_:N4d36cb3146814ae897302f8e25b615bb"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -90,7 +86,7 @@
       "sc:url": "https://github.com/tseemann/shovill"
     },
     {
-      "@id": "_:Naceb5ed55f56415bbe0adce84a6d0abb",
+      "@id": "_:Na8c9582061e54d75858695864597dde5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -101,7 +97,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N5c3eda49a29c4be8b1874f524e51e8c0",
+      "@id": "_:N4d36cb3146814ae897302f8e25b615bb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -110,6 +106,10 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "DNA sequence"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-6046-610X",
+      "@type": "sc:Person"
     }
   ]
 }

@@ -88,7 +88,7 @@ bib:
 - key: doi
   value: 10.1038/nmeth.1923
 popcon:
-- insts: 378
+- insts: 388
   olde: 329
-  recent: 26
-  vote: 23
+  recent: 28
+  vote: 31

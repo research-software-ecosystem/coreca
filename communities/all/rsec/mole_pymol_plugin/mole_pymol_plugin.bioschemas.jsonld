@@ -46,18 +46,18 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N6419db5cbcb54e04b6f5c8e261aa6bb1"
+          "@id": "_:N8a8a0283a3fd4d1087c0e1088364918d"
         },
         {
-          "@id": "_:Nf9a231c613cb40d59f0e4ca179737aea"
+          "@id": "_:Nf0b80bcb1e574af8a0a251f9a93f8e77"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N82e1814dd5e642b39f234463bdf5f79e"
+          "@id": "_:Nca71465ff09647c3b5afcf88a6deb11d"
         },
         {
-          "@id": "_:N6c35751afd2d46fe8dab78265241936a"
+          "@id": "_:N0d99a8e8efd94336823f211233fda132"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -125,7 +125,7 @@
       "sc:url": "http://webchem.ncbr.muni.cz/Platform/AppsBin/Mole/2.13.9.6/Mole2_pymol.zip"
     },
     {
-      "@id": "_:N6419db5cbcb54e04b6f5c8e261aa6bb1",
+      "@id": "_:N8a8a0283a3fd4d1087c0e1088364918d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -136,7 +136,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:Nf9a231c613cb40d59f0e4ca179737aea",
+      "@id": "_:Nf0b80bcb1e574af8a0a251f9a93f8e77",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -147,7 +147,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N82e1814dd5e642b39f234463bdf5f79e",
+      "@id": "_:Nca71465ff09647c3b5afcf88a6deb11d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1539"
@@ -158,7 +158,7 @@
       "sc:name": "Protein structural quality report"
     },
     {
-      "@id": "_:N6c35751afd2d46fe8dab78265241936a",
+      "@id": "_:N0d99a8e8efd94336823f211233fda132",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"

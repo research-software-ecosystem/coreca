@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/idia",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0e8276aaea1f466ebabe0d09676c8896"
+        "@id": "_:N056d017a57ec49368ea9881812d8c94e"
       },
       "bsc:output": {
-        "@id": "_:N170ce384bac54babb74c7b9c6ffaf434"
+        "@id": "_:Na6401f80777e462182dd507608f55329"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -90,7 +90,7 @@
       "sc:url": "https://github.com/Biocomputing-Research-Group/IDIA"
     },
     {
-      "@id": "_:N0e8276aaea1f466ebabe0d09676c8896",
+      "@id": "_:N056d017a57ec49368ea9881812d8c94e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -101,7 +101,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:N170ce384bac54babb74c7b9c6ffaf434",
+      "@id": "_:Na6401f80777e462182dd507608f55329",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"

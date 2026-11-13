@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
       "@type": "sc:CreativeWork"
     },
     {
@@ -44,7 +44,7 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
       "@type": "sc:CreativeWork"
     },
     {
@@ -52,14 +52,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N4173b229f45a4518b1a45f6b66be2d08"
+          "@id": "_:Nc346c3454bf14b4c8f7b59278748f4cc"
         },
         {
-          "@id": "_:N2e2f3731a9ab44d09e27b33ba10973ec"
+          "@id": "_:Na843be32bbeb4b33b914633113ac7c10"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nb1309805a3a8469092d809cdc0d037aa"
+        "@id": "_:Nbf727b11eefe4e11a90f578fbcc8156a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -124,7 +124,7 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/vectorstrip.html"
     },
     {
-      "@id": "_:N4173b229f45a4518b1a45f6b66be2d08",
+      "@id": "_:Nc346c3454bf14b4c8f7b59278748f4cc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -132,7 +132,7 @@
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:N2e2f3731a9ab44d09e27b33ba10973ec",
+      "@id": "_:Na843be32bbeb4b33b914633113ac7c10",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -140,7 +140,7 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:Nb1309805a3a8469092d809cdc0d037aa",
+      "@id": "_:Nbf727b11eefe4e11a90f578fbcc8156a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"

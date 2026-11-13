@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/flowfp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne6ea8082134a4f5e9142724990159bee"
+        "@id": "_:Nb2f579e8b38b421d935b2095987e24f2"
       },
       "bsc:output": [
         {
-          "@id": "_:N58c0c1420bb24863b13153ff3b0e90ed"
+          "@id": "_:N2ab77d0fc9a84ac0a45f1446a1b89f7a"
         },
         {
-          "@id": "_:Nd5ea12bc0a22407085f6a77c9e1a8ca6"
+          "@id": "_:Na1b5d7d43efd4371b9c4c99fb26ace74"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -97,7 +97,7 @@
       "sc:url": "https://bioconductor.org/packages/flowFP"
     },
     {
-      "@id": "_:Ne6ea8082134a4f5e9142724990159bee",
+      "@id": "_:Nb2f579e8b38b421d935b2095987e24f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -108,7 +108,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N58c0c1420bb24863b13153ff3b0e90ed",
+      "@id": "_:N2ab77d0fc9a84ac0a45f1446a1b89f7a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -124,7 +124,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nd5ea12bc0a22407085f6a77c9e1a8ca6",
+      "@id": "_:Na1b5d7d43efd4371b9c4c99fb26ace74",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

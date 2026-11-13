@@ -36,21 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gks1284",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/segway",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd0e717b2f5ed4121ac73209333a7a197"
+        "@id": "_:N99abad68fbc64ddba8d204bd816d08c9"
       },
       "bsc:output": [
         {
-          "@id": "_:N3e4f05bac32240788412e51a71b990f0"
+          "@id": "_:N7cad4df279544ee5b010c80c4166d40e"
         },
         {
-          "@id": "_:N4e07944780a64a4ab47d2d87e2ae8e4f"
+          "@id": "_:N87b24057b8824a41aa7e6dad6c000861"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -113,7 +109,7 @@
       "sc:url": "http://segway.hoffmanlab.org/"
     },
     {
-      "@id": "_:Nd0e717b2f5ed4121ac73209333a7a197",
+      "@id": "_:N99abad68fbc64ddba8d204bd816d08c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -124,7 +120,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N3e4f05bac32240788412e51a71b990f0",
+      "@id": "_:N7cad4df279544ee5b010c80c4166d40e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -135,7 +131,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N4e07944780a64a4ab47d2d87e2ae8e4f",
+      "@id": "_:N87b24057b8824a41aa7e6dad6c000861",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -146,12 +142,16 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "http://orcid.org/0000-0002-4517-1562",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://doi.org/10.1038/nmeth.1937",
       "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gks1284",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-4517-1562",
+      "@type": "sc:Person"
     }
   ]
 }

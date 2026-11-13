@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.metabolomicsWorkbenchR",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/bioconductor-metabolomicsworkbenchr",
       "@type": "sc:SoftwareApplication",
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -51,7 +55,7 @@
         "@id": "https://doi.org/10.18129/B9.bioc.metabolomicsWorkbenchR"
       },
       "sc:description": "This package provides functions for interfacing with the Metabolomics Workbench RESTful API. Study, compound, protein and gene information can be searched for using the API. Methods to obtain study data in common Bioconductor formats such as SummarizedExperiment and MultiAssayExperiment are also included.",
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "metabolomicsWorkbenchR",
       "sc:operatingSystem": [
         "Linux",
@@ -63,10 +67,6 @@
       },
       "sc:softwareVersion": "1.22.0",
       "sc:url": "https://bioconductor.org/packages/metabolomicsWorkbenchR"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.metabolomicsWorkbenchR",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

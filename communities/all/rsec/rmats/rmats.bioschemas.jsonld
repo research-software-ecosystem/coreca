@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1073/pnas.1419161111",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/rmats",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N08e348048fb44c8d90af7bf8db82461e"
+        "@id": "_:N383fdf742cc740bbbf041331d4d61535"
       },
       "bsc:output": [
         {
-          "@id": "_:N22af67d9899344c8a67355506fe4c9e6"
+          "@id": "_:N87d7fd6a538e4132914a3974427a9b93"
         },
         {
-          "@id": "_:Nacc84e4c1b4b463eadd2303612041b09"
+          "@id": "_:Nb9ae10f3f09d4cd88a24f5f849839891"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -83,7 +87,7 @@
       "sc:url": "http://rnaseq-mats.sourceforge.net/"
     },
     {
-      "@id": "_:N08e348048fb44c8d90af7bf8db82461e",
+      "@id": "_:N383fdf742cc740bbbf041331d4d61535",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -99,7 +103,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N22af67d9899344c8a67355506fe4c9e6",
+      "@id": "_:N87d7fd6a538e4132914a3974427a9b93",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
@@ -107,16 +111,12 @@
       "sc:name": "P-value"
     },
     {
-      "@id": "_:Nacc84e4c1b4b463eadd2303612041b09",
+      "@id": "_:Nb9ae10f3f09d4cd88a24f5f849839891",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3932"
       },
       "sc:name": "Q-value"
-    },
-    {
-      "@id": "https://doi.org/10.1073/pnas.1419161111",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

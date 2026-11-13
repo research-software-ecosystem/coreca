@@ -36,44 +36,40 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gks1170",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/genomernai",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N2b10d05f043546ab9784efc398de31ff"
+          "@id": "_:N306fb243d831466196eada15c7fc352c"
         },
         {
-          "@id": "_:Ne4772cce6e214dd5ba464ee223f5351b"
+          "@id": "_:N246c39c46742437eb16dc87df8844895"
         },
         {
-          "@id": "_:N3d619d2eefcd4b1db0ed4401cbd3be37"
+          "@id": "_:Nf34a75b5ead4455ca58009b1c84a37c2"
         },
         {
-          "@id": "_:N68478d58629b416ca7105bc800a0ce10"
+          "@id": "_:N09599387dca6496d9e04b08bec417a94"
         },
         {
-          "@id": "_:N249d215af70d4181a6b02b3dd3abf074"
+          "@id": "_:N086a6ec5dbcc42f9a4c1a0dad5f1cdbf"
         },
         {
-          "@id": "_:Ndac80850b5454fa59db5c98a4580e9cc"
+          "@id": "_:N739a0b9f9904492fbb2a5c4c2745c579"
         },
         {
-          "@id": "_:N3c1dea0cf1784f0995dee4a4f42b4aed"
+          "@id": "_:N44acbc7729ea423e88151c87a3765ec8"
         },
         {
-          "@id": "_:Nc2db2f4827e84d3597452fef44e2e745"
+          "@id": "_:Nda527c82f280426c88bf0a8302b8055e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N604a36bfe02f4d08b8e2a1c4defa51fd"
+          "@id": "_:Ne578536c0dbd46ebb32e13557b7a39e1"
         },
         {
-          "@id": "_:Nb4c0be5392c54d26aa9acba4e81714ce"
+          "@id": "_:Nd817939dd1784249a81cbd2d6e872b48"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -130,7 +126,7 @@
       "sc:url": "http://www.genomernai.org/"
     },
     {
-      "@id": "_:N2b10d05f043546ab9784efc398de31ff",
+      "@id": "_:N306fb243d831466196eada15c7fc352c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -138,7 +134,7 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:Ne4772cce6e214dd5ba464ee223f5351b",
+      "@id": "_:N246c39c46742437eb16dc87df8844895",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1089"
@@ -146,7 +142,7 @@
       "sc:name": "FlyBase ID"
     },
     {
-      "@id": "_:N3d619d2eefcd4b1db0ed4401cbd3be37",
+      "@id": "_:Nf34a75b5ead4455ca58009b1c84a37c2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1027"
@@ -154,7 +150,7 @@
       "sc:name": "Gene ID (NCBI)"
     },
     {
-      "@id": "_:N68478d58629b416ca7105bc800a0ce10",
+      "@id": "_:N09599387dca6496d9e04b08bec417a94",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -162,7 +158,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N249d215af70d4181a6b02b3dd3abf074",
+      "@id": "_:N086a6ec5dbcc42f9a4c1a0dad5f1cdbf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -170,7 +166,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Ndac80850b5454fa59db5c98a4580e9cc",
+      "@id": "_:N739a0b9f9904492fbb2a5c4c2745c579",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2118"
@@ -178,7 +174,7 @@
       "sc:name": "Person identifier"
     },
     {
-      "@id": "_:N3c1dea0cf1784f0995dee4a4f42b4aed",
+      "@id": "_:N44acbc7729ea423e88151c87a3765ec8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3275"
@@ -186,7 +182,7 @@
       "sc:name": "Phenotype name"
     },
     {
-      "@id": "_:Nc2db2f4827e84d3597452fef44e2e745",
+      "@id": "_:Nda527c82f280426c88bf0a8302b8055e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1187"
@@ -194,7 +190,7 @@
       "sc:name": "PubMed ID"
     },
     {
-      "@id": "_:N604a36bfe02f4d08b8e2a1c4defa51fd",
+      "@id": "_:Ne578536c0dbd46ebb32e13557b7a39e1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -202,12 +198,16 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:Nb4c0be5392c54d26aa9acba4e81714ce",
+      "@id": "_:Nd817939dd1784249a81cbd2d6e872b48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
       },
       "sc:name": "Plot"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gks1170",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

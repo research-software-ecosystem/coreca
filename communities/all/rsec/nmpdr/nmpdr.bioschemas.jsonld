@@ -36,26 +36,22 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkl947",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/nmpdr",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N2e0e270f6ee247babd7f78c60a8d651d"
+          "@id": "_:N058b5aeff8a04a3388f45a274ab4c838"
         },
         {
-          "@id": "_:N6e9dd7e7fd794d75829f83e92e7273c7"
+          "@id": "_:N5d3990e1fb354549bfaeb8052b00ff4d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N0783699d3e90463a8796173b3d573548"
+          "@id": "_:Na28b7b52f99846e49dce5d629c70181a"
         },
         {
-          "@id": "_:N31f583b195024b64ba3f4293355f683f"
+          "@id": "_:N9f552b7fc5e84238ad8505c124f02eee"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -91,7 +87,7 @@
       "sc:url": "http://www.nmpdr.org"
     },
     {
-      "@id": "_:N2e0e270f6ee247babd7f78c60a8d651d",
+      "@id": "_:N058b5aeff8a04a3388f45a274ab4c838",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2737"
@@ -99,7 +95,7 @@
       "sc:name": "FIG ID"
     },
     {
-      "@id": "_:N6e9dd7e7fd794d75829f83e92e7273c7",
+      "@id": "_:N5d3990e1fb354549bfaeb8052b00ff4d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1179"
@@ -107,7 +103,7 @@
       "sc:name": "NCBI taxonomy ID"
     },
     {
-      "@id": "_:N0783699d3e90463a8796173b3d573548",
+      "@id": "_:Na28b7b52f99846e49dce5d629c70181a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -118,7 +114,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N31f583b195024b64ba3f4293355f683f",
+      "@id": "_:N9f552b7fc5e84238ad8505c124f02eee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -127,6 +123,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Gene report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkl947",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

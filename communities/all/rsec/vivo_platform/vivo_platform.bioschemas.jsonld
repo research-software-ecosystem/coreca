@@ -36,11 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/2025.10.14.682266",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-5244-9569",
+      "@id": "https://orcid.org/0000-0003-0553-0695",
       "@type": "sc:Person"
     },
     {
@@ -48,8 +44,8 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0003-0553-0695",
-      "@type": "sc:Person"
+      "@id": "https://doi.org/10.1101/2025.10.14.682266",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://orcid.org/0000-0002-9918-3374",
@@ -63,14 +59,14 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N00043ff62ed54d37995a3ada3cba9edd"
+          "@id": "_:N221cfac4ad04485fb65dd0eae5986a9d"
         },
         {
-          "@id": "_:N3afe30a8748448e29d4f20f35dce0709"
+          "@id": "_:N5360f61f7af1438cbd438704549d3f45"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nf5c6d80f07f240af80d630933284e4a9"
+        "@id": "_:Nd1cfd4600a5b451ab7bb2f77e0ac6cd2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -144,7 +140,7 @@
       "sc:url": "https://gcanudo-barreras.github.io/ViVo-Platform/"
     },
     {
-      "@id": "_:N00043ff62ed54d37995a3ada3cba9edd",
+      "@id": "_:N221cfac4ad04485fb65dd0eae5986a9d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3723"
@@ -155,7 +151,7 @@
       "sc:name": "Morphology parameter"
     },
     {
-      "@id": "_:N3afe30a8748448e29d4f20f35dce0709",
+      "@id": "_:N5360f61f7af1438cbd438704549d3f45",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3722"
@@ -166,7 +162,7 @@
       "sc:name": "Physiology parameter"
     },
     {
-      "@id": "_:Nf5c6d80f07f240af80d630933284e4a9",
+      "@id": "_:Nd1cfd4600a5b451ab7bb2f77e0ac6cd2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -183,6 +179,10 @@
         }
       ],
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5244-9569",
+      "@type": "sc:Person"
     }
   ]
 }

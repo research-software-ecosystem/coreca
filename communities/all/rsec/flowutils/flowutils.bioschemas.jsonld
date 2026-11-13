@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Josef Spidlen",
       "bsc:input": {
-        "@id": "_:N5040819eed9545bfb9634855f5d8b3e1"
+        "@id": "_:N13aa6033ccd941b2b1471aacadb6c4c8"
       },
       "bsc:output": {
-        "@id": "_:N0582d26dfdad49f398fb8de68c313266"
+        "@id": "_:N9993d2f4deb843f4b71a10a0a68fcf19"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -94,7 +94,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/flowUtils.html"
     },
     {
-      "@id": "_:N5040819eed9545bfb9634855f5d8b3e1",
+      "@id": "_:N13aa6033ccd941b2b1471aacadb6c4c8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -110,7 +110,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N0582d26dfdad49f398fb8de68c313266",
+      "@id": "_:N9993d2f4deb843f4b71a10a0a68fcf19",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"

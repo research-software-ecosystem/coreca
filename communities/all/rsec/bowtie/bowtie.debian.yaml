@@ -93,8 +93,7 @@ tags:
 - tag: use::comparing
 - tag: works-with::biological-sequence
 popcon:
-- insts: 357
-  nofiles: 1
-  olde: 319
-  recent: 23
-  vote: 14
+- insts: 366
+  olde: 320
+  recent: 25
+  vote: 21

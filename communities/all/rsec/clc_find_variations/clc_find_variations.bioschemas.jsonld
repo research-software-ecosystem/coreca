@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2164-11-571",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     },
@@ -44,14 +52,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N980af04b992949feae6d1d7c08de4f2a"
+        "@id": "_:N37208bf9ab16440aa7783c23740061b9"
       },
       "bsc:output": [
         {
-          "@id": "_:N01664f114827406d8882b989d5b81f71"
+          "@id": "_:Ndc19250132fe4f92a2c15f640c157837"
         },
         {
-          "@id": "_:Nfdea3cffb4eb414a8144b26dbe6711f4"
+          "@id": "_:N81ec1b8bc9ec43a0882015667ae953e9"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -96,7 +104,7 @@
       "sc:url": "https://bio.tools/clcbio_genomics_workbench"
     },
     {
-      "@id": "_:N980af04b992949feae6d1d7c08de4f2a",
+      "@id": "_:N37208bf9ab16440aa7783c23740061b9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -107,7 +115,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N01664f114827406d8882b989d5b81f71",
+      "@id": "_:Ndc19250132fe4f92a2c15f640c157837",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -118,7 +126,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nfdea3cffb4eb414a8144b26dbe6711f4",
+      "@id": "_:N81ec1b8bc9ec43a0882015667ae953e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -127,14 +135,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1471-2164-11-571",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,25 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/helixturnhelix",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1de7739aef3343d7b708dfa8576d9a61"
+        "@id": "_:Nd46a956869e54571a2a2fa48afc24a5e"
       },
       "bsc:output": {
-        "@id": "_:N5ebfc57ad8b34fe288c87666f5acb58e"
+        "@id": "_:N08e57fa03d5a4242b948521aecace878"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -119,7 +107,7 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/helixturnhelix.html"
     },
     {
-      "@id": "_:N1de7739aef3343d7b708dfa8576d9a61",
+      "@id": "_:Nd46a956869e54571a2a2fa48afc24a5e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -127,12 +115,24 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:N5ebfc57ad8b34fe288c87666f5acb58e",
+      "@id": "_:N08e57fa03d5a4242b948521aecace878",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
       },
       "sc:name": "Protein features"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

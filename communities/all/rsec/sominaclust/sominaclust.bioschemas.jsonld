@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/sominaclust",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N53176a1b685b47d38c914b92915f1e07"
+        "@id": "_:N343b8e2f6b9e474b861c43eb4a5b904b"
       },
       "bsc:output": {
-        "@id": "_:N8928423cf5864e53b09181bc8ed41253"
+        "@id": "_:N2641979ae8314d71beac8eb75972757a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -73,7 +73,7 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/sominaclust"
     },
     {
-      "@id": "_:N53176a1b685b47d38c914b92915f1e07",
+      "@id": "_:N343b8e2f6b9e474b861c43eb4a5b904b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2538"
@@ -81,7 +81,7 @@
       "sc:name": "Mutation identifier"
     },
     {
-      "@id": "_:N8928423cf5864e53b09181bc8ed41253",
+      "@id": "_:N2641979ae8314d71beac8eb75972757a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1246"

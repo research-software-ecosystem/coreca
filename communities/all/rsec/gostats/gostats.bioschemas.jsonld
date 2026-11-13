@@ -40,21 +40,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N8dc565127df54231b22ecb894c06281b"
+          "@id": "_:N5340b440607f4abd85af5a066a7865ce"
         },
         {
-          "@id": "_:N28247ee7011e42e89ab949f2f6bc9ee2"
+          "@id": "_:N4a1faaa072ce49998ded79cccb9343b4"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N23d279e320df4bd588ed8e5742539819"
+          "@id": "_:N3bdfe3cc72fb46af971f2abe8b10ad77"
         },
         {
-          "@id": "_:Nfce89fd313054ed08785234adddb1e13"
+          "@id": "_:N458ceb192d5d4755bc21eca0a25add46"
         },
         {
-          "@id": "_:Nc5938b139c2e45b9b4a4f619e9f786c7"
+          "@id": "_:N35ef36b3087f42b2a6cfc77a79d0ffe3"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -95,7 +95,7 @@
       "sc:url": "https://bioconductor.org/packages/GOstats"
     },
     {
-      "@id": "_:N8dc565127df54231b22ecb894c06281b",
+      "@id": "_:N5340b440607f4abd85af5a066a7865ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -111,7 +111,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:N28247ee7011e42e89ab949f2f6bc9ee2",
+      "@id": "_:N4a1faaa072ce49998ded79cccb9343b4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0582"
@@ -127,7 +127,7 @@
       "sc:name": "Ontology"
     },
     {
-      "@id": "_:N23d279e320df4bd588ed8e5742539819",
+      "@id": "_:N3bdfe3cc72fb46af971f2abe8b10ad77",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -146,7 +146,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nfce89fd313054ed08785234adddb1e13",
+      "@id": "_:N458ceb192d5d4755bc21eca0a25add46",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -165,7 +165,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nc5938b139c2e45b9b4a4f619e9f786c7",
+      "@id": "_:N35ef36b3087f42b2a6cfc77a79d0ffe3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

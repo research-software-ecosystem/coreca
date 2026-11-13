@@ -41,10 +41,10 @@
       "biotools:primaryContact": "Jérôme Waldispühl",
       "bsc:input": [
         {
-          "@id": "_:N684afbec57ca4a5ba3133f0cd8493c89"
+          "@id": "_:Nff22d95d8c3049d4bfb6f1afb1ce00a2"
         },
         {
-          "@id": "_:Nc573d52f22e64e4d8bed626679fe7304"
+          "@id": "_:N26550ad3e0db4409a9b6c1363e54f4eb"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -86,7 +86,7 @@
       "sc:url": "http://rnamoip.cs.mcgill.ca/"
     },
     {
-      "@id": "_:N684afbec57ca4a5ba3133f0cd8493c89",
+      "@id": "_:Nff22d95d8c3049d4bfb6f1afb1ce00a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3496"
@@ -97,7 +97,7 @@
       "sc:name": "RNA sequence (raw)"
     },
     {
-      "@id": "_:Nc573d52f22e64e4d8bed626679fe7304",
+      "@id": "_:N26550ad3e0db4409a9b6c1363e54f4eb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"

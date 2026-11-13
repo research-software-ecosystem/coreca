@@ -44,21 +44,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N5f4447bd383c4f71a5cbee50d4002b64"
+          "@id": "_:N9a4e44a30406406c9fbb96b052821c5d"
         },
         {
-          "@id": "_:N489ec7f72a314fb5aebe27e52b0c7827"
+          "@id": "_:N9373d3532e624f489721f2fba3005e3c"
         },
         {
-          "@id": "_:N49dae8060b70493fb2aa93a15ee91c2d"
+          "@id": "_:N37e360092f9940999eefbeb5993efca0"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3287714154474ed5bc4c54fb66dfed23"
+          "@id": "_:Nf596dee7d9a640e1a3159a4eaf55678b"
         },
         {
-          "@id": "_:N57a3f1fc062941d7a70def32e47c2515"
+          "@id": "_:Nf10bdfdf94734583b567a6154bc31e87"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -96,7 +96,7 @@
       "sc:url": "http://hdx.florida.scripps.edu/hdx_workbench/Home.html"
     },
     {
-      "@id": "_:N5f4447bd383c4f71a5cbee50d4002b64",
+      "@id": "_:N9a4e44a30406406c9fbb96b052821c5d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -107,7 +107,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N489ec7f72a314fb5aebe27e52b0c7827",
+      "@id": "_:N9373d3532e624f489721f2fba3005e3c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -118,7 +118,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N49dae8060b70493fb2aa93a15ee91c2d",
+      "@id": "_:N37e360092f9940999eefbeb5993efca0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -129,7 +129,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N3287714154474ed5bc4c54fb66dfed23",
+      "@id": "_:Nf596dee7d9a640e1a3159a4eaf55678b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2992"
@@ -140,7 +140,7 @@
       "sc:name": "Protein structure image"
     },
     {
-      "@id": "_:N57a3f1fc062941d7a70def32e47c2515",
+      "@id": "_:Nf10bdfdf94734583b567a6154bc31e87",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1537"

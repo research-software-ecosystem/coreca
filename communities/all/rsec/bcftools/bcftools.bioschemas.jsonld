@@ -47,10 +47,10 @@
       "@id": "https://bio.tools/bcftools",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N888c290377fa4472bcfbf5792291d418"
+        "@id": "_:N0bb28dd35c4d48d1b65e8fa98b1e8438"
       },
       "bsc:output": {
-        "@id": "_:N5ee51dd8b5054d1a9539539f56c364b2"
+        "@id": "_:N5ddb7595999e46638aa68b6affb3f13c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -147,7 +147,7 @@
       "sc:url": "http://www.htslib.org/"
     },
     {
-      "@id": "_:N888c290377fa4472bcfbf5792291d418",
+      "@id": "_:N0bb28dd35c4d48d1b65e8fa98b1e8438",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -163,7 +163,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N5ee51dd8b5054d1a9539539f56c364b2",
+      "@id": "_:N5ddb7595999e46638aa68b6affb3f13c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"

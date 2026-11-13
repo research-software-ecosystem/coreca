@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N7c5103da0cea444ab03ded97d960cfcb"
+          "@id": "_:N76710db13baa483093e218e85ef6577c"
         },
         {
-          "@id": "_:Nd4b5bf0dae6146348466dddefbdbb67c"
+          "@id": "_:N68454c3baee54aa3a601c2f5c1e5e341"
         }
       ],
       "bsc:output": {
-        "@id": "_:N1c42fa268ad14fb399964b8512d64d85"
+        "@id": "_:N4d06cb0040b4470abf12f3c04bf7d330"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -89,7 +89,7 @@
       "sc:url": "http://www.imgt.org/3Dstructure-DB/cgi/DomainDisplay.cgi"
     },
     {
-      "@id": "_:N7c5103da0cea444ab03ded97d960cfcb",
+      "@id": "_:N76710db13baa483093e218e85ef6577c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -97,7 +97,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:Nd4b5bf0dae6146348466dddefbdbb67c",
+      "@id": "_:N68454c3baee54aa3a601c2f5c1e5e341",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -108,7 +108,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N1c42fa268ad14fb399964b8512d64d85",
+      "@id": "_:N4d06cb0040b4470abf12f3c04bf7d330",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

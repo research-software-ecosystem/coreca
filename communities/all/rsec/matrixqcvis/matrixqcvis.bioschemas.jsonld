@@ -36,21 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/2021.06.17.448827",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/matrixqcvis",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N62bc3931df304c04af564413b8099e9b"
+        "@id": "_:N3ae089c7bf634efc93babcabe526aa50"
       },
       "bsc:output": [
         {
-          "@id": "_:N6a4c06d1c3c24704b287b6498d842154"
+          "@id": "_:N05be5369642e484d99cd87435600e2a4"
         },
         {
-          "@id": "_:Na6eb0486f1f0448aa5134d64ee24db3a"
+          "@id": "_:Nc8c75e3f92af41f1bec135d786c87799"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -106,7 +102,7 @@
       "sc:url": "https://www.bioconductor.org/packages/release/bioc/html/MatrixQCvis.html"
     },
     {
-      "@id": "_:N62bc3931df304c04af564413b8099e9b",
+      "@id": "_:N3ae089c7bf634efc93babcabe526aa50",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3917"
@@ -117,7 +113,7 @@
       "sc:name": "Count matrix"
     },
     {
-      "@id": "_:N6a4c06d1c3c24704b287b6498d842154",
+      "@id": "_:N05be5369642e484d99cd87435600e2a4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -128,7 +124,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Na6eb0486f1f0448aa5134d64ee24db3a",
+      "@id": "_:Nc8c75e3f92af41f1bec135d786c87799",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3914"
@@ -137,6 +133,10 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Quality control report"
+    },
+    {
+      "@id": "https://doi.org/10.1101/2021.06.17.448827",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

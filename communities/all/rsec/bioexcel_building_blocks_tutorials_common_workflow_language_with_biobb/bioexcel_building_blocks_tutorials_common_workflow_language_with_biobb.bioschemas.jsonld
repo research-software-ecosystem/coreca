@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/s41597-019-0177-4",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://orcid.org/0000-0002-8291-8071",
       "@type": "sc:Person"
     },
@@ -50,14 +46,14 @@
         "@id": "https://orcid.org/0000-0002-8291-8071"
       },
       "bsc:input": {
-        "@id": "_:N622b3281ba1847f9b7a43a94afc2a712"
+        "@id": "_:N143ff491055748c499a91bae38e8eecd"
       },
       "bsc:output": [
         {
-          "@id": "_:Nad6fe4ae2c6944559ddc74bc027dd2a0"
+          "@id": "_:N3f7d57468c8447518757c0bdf6966281"
         },
         {
-          "@id": "_:Nd195f6a393824f7f898029e47d368cab"
+          "@id": "_:N4f21369d508943778bd147bef489330c"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -109,7 +105,7 @@
       "sc:url": "http://mmb.irbbarcelona.org/biobb/availability/tutorials/cwl"
     },
     {
-      "@id": "_:N622b3281ba1847f9b7a43a94afc2a712",
+      "@id": "_:N143ff491055748c499a91bae38e8eecd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -120,7 +116,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:Nad6fe4ae2c6944559ddc74bc027dd2a0",
+      "@id": "_:N3f7d57468c8447518757c0bdf6966281",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3872"
@@ -136,7 +132,7 @@
       "sc:name": "Topology data"
     },
     {
-      "@id": "_:Nd195f6a393824f7f898029e47d368cab",
+      "@id": "_:N4f21369d508943778bd147bef489330c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3870"
@@ -145,6 +141,10 @@
         "@id": "edam:format_3910"
       },
       "sc:name": "Trajectory data"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41597-019-0177-4",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

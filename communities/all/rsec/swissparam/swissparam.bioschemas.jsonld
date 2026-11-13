@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/swissparam",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nedc78619bae845aeb68947f87b65a7e6"
+        "@id": "_:N8258f4660e98466eba19c128f758db30"
       },
       "bsc:output": [
         {
-          "@id": "_:N57351725e4ce47a8b42522f05b6f02d5"
+          "@id": "_:N781d2d34f30f4458a7e9361648283f56"
         },
         {
-          "@id": "_:Nbca5e90364d44033865867a39e39efb3"
+          "@id": "_:N94c355e9ec0b4660baadfc5a8ff805ce"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -74,7 +74,7 @@
       "sc:url": "http://swissparam.ch"
     },
     {
-      "@id": "_:Nedc78619bae845aeb68947f87b65a7e6",
+      "@id": "_:N8258f4660e98466eba19c128f758db30",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -85,7 +85,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N57351725e4ce47a8b42522f05b6f02d5",
+      "@id": "_:N781d2d34f30f4458a7e9361648283f56",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3871"
@@ -96,7 +96,7 @@
       "sc:name": "Forcefield parameters"
     },
     {
-      "@id": "_:Nbca5e90364d44033865867a39e39efb3",
+      "@id": "_:N94c355e9ec0b4660baadfc5a8ff805ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3872"

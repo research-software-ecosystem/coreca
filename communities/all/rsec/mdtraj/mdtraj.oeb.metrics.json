@@ -24,7 +24,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 1266,
+                            "cit_count": 1277,
                             "citations": [
                                 {
                                     "count": 6,
@@ -43,11 +43,11 @@
                                     "year": 2019
                                 },
                                 {
-                                    "count": 78,
+                                    "count": 79,
                                     "year": 2018
                                 },
                                 {
-                                    "count": 88,
+                                    "count": 89,
                                     "year": 2020
                                 },
                                 {
@@ -59,19 +59,19 @@
                                     "year": 2022
                                 },
                                 {
-                                    "count": 163,
-                                    "year": 2026
-                                },
-                                {
                                     "count": 164,
                                     "year": 2024
+                                },
+                                {
+                                    "count": 171,
+                                    "year": 2026
                                 },
                                 {
                                     "count": 174,
                                     "year": 2023
                                 },
                                 {
-                                    "count": 225,
+                                    "count": 226,
                                     "year": 2025
                                 }
                             ],

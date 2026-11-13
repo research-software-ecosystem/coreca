@@ -36,14 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1371/journal.pcbi.0030065",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "http://orcid.org/0000-0001-8231-3323",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/locarna",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -53,17 +45,17 @@
         "Sebastian Will"
       ],
       "bsc:input": {
-        "@id": "_:N46d609065e814d38bc363084971d9a02"
+        "@id": "_:Nfb82a520e41341e1b0f215c062624295"
       },
       "bsc:output": [
         {
-          "@id": "_:N945a96a56909451092d32e9221921cf3"
+          "@id": "_:N99d76c2393fa482ea99c894d929839d8"
         },
         {
-          "@id": "_:N516db2138a3b4320a7b25783895b18a9"
+          "@id": "_:N827fe51676da4ce081fe41aab6d90a3c"
         },
         {
-          "@id": "_:N2d5ed9bae87149cbb2a846d3c83f20f3"
+          "@id": "_:N098f4be55b2d4b92b78fb6440358a257"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -103,7 +95,7 @@
       "sc:url": "http://www.bioinf.uni-freiburg.de/Software/LocARNA/"
     },
     {
-      "@id": "_:N46d609065e814d38bc363084971d9a02",
+      "@id": "_:Nfb82a520e41341e1b0f215c062624295",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -119,7 +111,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N945a96a56909451092d32e9221921cf3",
+      "@id": "_:N99d76c2393fa482ea99c894d929839d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -138,7 +130,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:N516db2138a3b4320a7b25783895b18a9",
+      "@id": "_:N827fe51676da4ce081fe41aab6d90a3c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -149,7 +141,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N2d5ed9bae87149cbb2a846d3c83f20f3",
+      "@id": "_:N098f4be55b2d4b92b78fb6440358a257",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1465"
@@ -158,6 +150,14 @@
         "@id": "edam:format_3466"
       },
       "sc:name": "RNA structure"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.0030065",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-8231-3323",
+      "@type": "sc:Person"
     }
   ]
 }

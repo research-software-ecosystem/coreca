@@ -15,10 +15,10 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 339,
+                            "cit_count": 343,
                             "citations": [
                                 {
-                                    "count": 1,
+                                    "count": 2,
                                     "year": -1
                                 },
                                 {
@@ -30,12 +30,12 @@
                                     "year": 2018
                                 },
                                 {
-                                    "count": 20,
-                                    "year": 2026
+                                    "count": 22,
+                                    "year": 2017
                                 },
                                 {
                                     "count": 22,
-                                    "year": 2017
+                                    "year": 2026
                                 },
                                 {
                                     "count": 32,
@@ -58,12 +58,12 @@
                                     "year": 2024
                                 },
                                 {
-                                    "count": 45,
-                                    "year": 2021
+                                    "count": 46,
+                                    "year": 2020
                                 },
                                 {
                                     "count": 46,
-                                    "year": 2020
+                                    "year": 2021
                                 }
                             ],
                             "doi": "10.1016/j.jsb.2016.04.010",

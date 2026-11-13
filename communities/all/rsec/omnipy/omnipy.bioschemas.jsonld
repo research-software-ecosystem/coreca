@@ -36,7 +36,31 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-9016-4820",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2006-4242",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9103-1077",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3925-6778",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9888-7954",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://orcid.org/0000-0003-2130-0865",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2177-8781",
       "@type": "sc:Person"
     },
     {
@@ -47,42 +71,42 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N2bbf71e4207748288038e9d6e5e364f0"
+          "@id": "_:N01244feac3754b78b0b8aabbb275f184"
         },
         {
-          "@id": "_:N3d7a0ffb0fd74848b19040622903514e"
+          "@id": "_:N7427d56bb6744800b1767b105d0cbd0a"
         },
         {
-          "@id": "_:N8e952afe3f4f4df89d68bee4648afeaa"
+          "@id": "_:Nc0284311b41e45399a5ea0ef77595c4c"
         },
         {
-          "@id": "_:N597c9fb55c8841578af0024eafcc749e"
+          "@id": "_:N307819c29dee440594687f86ea15f6a9"
         },
         {
-          "@id": "_:Nb901396b3f66487bbf3b1bd2b099aad8"
+          "@id": "_:N521bb1c8eb194442b7f72cd758bf0696"
         },
         {
-          "@id": "_:Naa6d9b44c7bc47a0b4089f87436c580f"
+          "@id": "_:Nc2a4f89a1bfe4f7eafc9d9af150e3598"
         },
         {
-          "@id": "_:N6417ab861c1047bb83954288eb5cc8a7"
+          "@id": "_:N1f4003494c0a40aa9842b88ee22e853a"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N30827576ba754c0784aa264af5c0dcb1"
+          "@id": "_:N5056e8d3220d49178c1fc0eb0048c7ab"
         },
         {
-          "@id": "_:Na94dd9e68c874e2fb39f7f0740767265"
+          "@id": "_:N67bcabbe6bc447169eb948fe4d8801a9"
         },
         {
-          "@id": "_:N7c35ef48dbc846dcb99ed35475507f03"
+          "@id": "_:N24047f6f267843be87a8b26d99f6927f"
         },
         {
-          "@id": "_:N55555091a65643a490082dcf3dccffdf"
+          "@id": "_:N7c6b612e215d4dc58646cde87d2bf28d"
         },
         {
-          "@id": "_:N56002a8e12d944358f65f325341e6485"
+          "@id": "_:Nd473acdf312446968c8eecf6fab26c60"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -210,7 +234,7 @@
       "sc:url": "https://fairtracks.net/fair/#fair-07-transformation"
     },
     {
-      "@id": "_:N2bbf71e4207748288038e9d6e5e364f0",
+      "@id": "_:N01244feac3754b78b0b8aabbb275f184",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0954"
@@ -218,7 +242,7 @@
       "sc:name": "Database cross-mapping"
     },
     {
-      "@id": "_:N3d7a0ffb0fd74848b19040622903514e",
+      "@id": "_:N7427d56bb6744800b1767b105d0cbd0a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -226,7 +250,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N8e952afe3f4f4df89d68bee4648afeaa",
+      "@id": "_:Nc0284311b41e45399a5ea0ef77595c4c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -237,7 +261,7 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:N597c9fb55c8841578af0024eafcc749e",
+      "@id": "_:N307819c29dee440594687f86ea15f6a9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -245,7 +269,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:Nb901396b3f66487bbf3b1bd2b099aad8",
+      "@id": "_:N521bb1c8eb194442b7f72cd758bf0696",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -253,7 +277,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:Naa6d9b44c7bc47a0b4089f87436c580f",
+      "@id": "_:Nc2a4f89a1bfe4f7eafc9d9af150e3598",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -264,7 +288,7 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:N6417ab861c1047bb83954288eb5cc8a7",
+      "@id": "_:N1f4003494c0a40aa9842b88ee22e853a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -289,7 +313,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N30827576ba754c0784aa264af5c0dcb1",
+      "@id": "_:N5056e8d3220d49178c1fc0eb0048c7ab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3509"
@@ -300,7 +324,7 @@
       "sc:name": "Ontology mapping"
     },
     {
-      "@id": "_:Na94dd9e68c874e2fb39f7f0740767265",
+      "@id": "_:N67bcabbe6bc447169eb948fe4d8801a9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -308,7 +332,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N7c35ef48dbc846dcb99ed35475507f03",
+      "@id": "_:N24047f6f267843be87a8b26d99f6927f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0954"
@@ -316,7 +340,7 @@
       "sc:name": "Database cross-mapping"
     },
     {
-      "@id": "_:N55555091a65643a490082dcf3dccffdf",
+      "@id": "_:N7c6b612e215d4dc58646cde87d2bf28d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -327,7 +351,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N56002a8e12d944358f65f325341e6485",
+      "@id": "_:Nd473acdf312446968c8eecf6fab26c60",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -335,27 +359,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "https://orcid.org/0000-0003-0471-9517",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0001-9888-7954",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-9016-4820",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://orcid.org/0000-0003-4553-3110",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-2177-8781",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-2006-4242",
       "@type": "sc:Person"
     },
     {
@@ -363,11 +367,7 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0003-3925-6778",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-9103-1077",
+      "@id": "https://orcid.org/0000-0003-0471-9517",
       "@type": "sc:Person"
     }
   ]

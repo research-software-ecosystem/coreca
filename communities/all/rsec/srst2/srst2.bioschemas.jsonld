@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1128/AAC.01310-13",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/srst2",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ncbfdc519d0c14bdb8dddc70ff9144b0b"
+        "@id": "_:N1a65cf3c2b2c492aa993ff214e59d13c"
       },
       "bsc:output": {
-        "@id": "_:Nfa4f9f31baeb4cb89c3946afac7eb6ce"
+        "@id": "_:N9832c60a574e41b588be03a860923326"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": [
@@ -76,7 +80,7 @@
       "sc:url": "https://github.com/katholt/srst2"
     },
     {
-      "@id": "_:Ncbfdc519d0c14bdb8dddc70ff9144b0b",
+      "@id": "_:N1a65cf3c2b2c492aa993ff214e59d13c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -92,7 +96,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:Nfa4f9f31baeb4cb89c3946afac7eb6ce",
+      "@id": "_:N9832c60a574e41b588be03a860923326",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -109,10 +113,6 @@
         }
       ],
       "sc:name": "Sequence variations"
-    },
-    {
-      "@id": "https://doi.org/10.1128/AAC.01310-13",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

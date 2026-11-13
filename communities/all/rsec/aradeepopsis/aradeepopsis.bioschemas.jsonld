@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/2020.04.01.018192",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1105/tpc.20.00318",
       "@type": "sc:CreativeWork"
     },
@@ -47,14 +43,14 @@
       "@id": "https://bio.tools/aradeepopsis",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N2cb43a818a8c4f42896a06a0e5a0dcd3"
+        "@id": "_:N702f774c01844fe6aa57ac8d7bdd644e"
       },
       "bsc:output": [
         {
-          "@id": "_:Nff2cd8f1bf2a4515a86a4fbe19b1568b"
+          "@id": "_:N0bc4f27d09d54e0d9dae7b74684c18cb"
         },
         {
-          "@id": "_:N54fd56fbb923414c884affe9a7012e38"
+          "@id": "_:Nbc33bb29c42e4d28801e524618f1353e"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -121,7 +117,7 @@
       "sc:url": "https://github.com/Gregor-Mendel-Institute/aradeepopsis"
     },
     {
-      "@id": "_:N2cb43a818a8c4f42896a06a0e5a0dcd3",
+      "@id": "_:N702f774c01844fe6aa57ac8d7bdd644e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -137,7 +133,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nff2cd8f1bf2a4515a86a4fbe19b1568b",
+      "@id": "_:N0bc4f27d09d54e0d9dae7b74684c18cb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -145,7 +141,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N54fd56fbb923414c884affe9a7012e38",
+      "@id": "_:Nbc33bb29c42e4d28801e524618f1353e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -154,6 +150,10 @@
         "@id": "edam:format_3752"
       },
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.1101/2020.04.01.018192",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Wojciech Karlowski",
       "bsc:input": {
-        "@id": "_:N5ba9ef6f195544208f95f6afa48a33fc"
+        "@id": "_:Nfea226c9c44d46bb98dfd189f05acad0"
       },
       "bsc:output": {
-        "@id": "_:Nea49bdebc8174b47a5e0cae3ed4fdf4c"
+        "@id": "_:N60714f6fa6aa44e1adaa84f44a535ed2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -95,7 +95,7 @@
       "sc:url": "https://github.com/maurya-anand/ARA"
     },
     {
-      "@id": "_:N5ba9ef6f195544208f95f6afa48a33fc",
+      "@id": "_:Nfea226c9c44d46bb98dfd189f05acad0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -106,7 +106,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nea49bdebc8174b47a5e0cae3ed4fdf4c",
+      "@id": "_:N60714f6fa6aa44e1adaa84f44a535ed2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"

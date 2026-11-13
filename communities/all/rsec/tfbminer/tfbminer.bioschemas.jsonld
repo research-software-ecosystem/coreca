@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/tfbminer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0249bf5eeca5491c81f86b1d37587c0c"
+        "@id": "_:N0807f10f222f4d4fbf843ada1aa7bf13"
       },
       "bsc:output": {
-        "@id": "_:N14116f095f37437c9458358bf2554679"
+        "@id": "_:Nc1846c77ec524da9b679fe7f3e43acb6"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -93,7 +93,7 @@
       "sc:url": "https://github.com/UoMMIB/TFBMiner"
     },
     {
-      "@id": "_:N0249bf5eeca5491c81f86b1d37587c0c",
+      "@id": "_:N0807f10f222f4d4fbf843ada1aa7bf13",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2605"
@@ -101,7 +101,7 @@
       "sc:name": "Compound ID (KEGG)"
     },
     {
-      "@id": "_:N14116f095f37437c9458358bf2554679",
+      "@id": "_:Nc1846c77ec524da9b679fe7f3e43acb6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1077"

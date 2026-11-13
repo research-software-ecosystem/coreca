@@ -44,7 +44,7 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Emmanuel Levy",
       "bsc:output": {
-        "@id": "_:Ne3b087dd2b9943fcbae241b9057a2c81"
+        "@id": "_:N7f97189277bf4410a4c544c0b30f664a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -81,7 +81,7 @@
       "sc:url": "http://www.QSbio.org"
     },
     {
-      "@id": "_:Ne3b087dd2b9943fcbae241b9057a2c81",
+      "@id": "_:N7f97189277bf4410a4c544c0b30f664a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

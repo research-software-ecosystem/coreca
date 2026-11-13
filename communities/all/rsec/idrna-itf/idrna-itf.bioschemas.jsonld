@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/idrna-itf",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N210685e0058e48c98e66b1e2a0ae9683"
+        "@id": "_:N217e5e15ba3c4722897c76edc52be102"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -95,7 +95,7 @@
       "sc:url": "http://bliulab.net/iDRNA-ITF"
     },
     {
-      "@id": "_:N210685e0058e48c98e66b1e2a0ae9683",
+      "@id": "_:N217e5e15ba3c4722897c76edc52be102",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

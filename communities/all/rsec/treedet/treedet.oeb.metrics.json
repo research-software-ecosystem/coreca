@@ -252,7 +252,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 148,
+                            "cit_count": 149,
                             "citations": [
                                 {
                                     "count": 1,
@@ -328,10 +328,6 @@
                                 },
                                 {
                                     "count": 6,
-                                    "year": 2013
-                                },
-                                {
-                                    "count": 6,
                                     "year": 2022
                                 },
                                 {
@@ -341,6 +337,10 @@
                                 {
                                     "count": 7,
                                     "year": 2012
+                                },
+                                {
+                                    "count": 7,
+                                    "year": 2013
                                 },
                                 {
                                     "count": 7,

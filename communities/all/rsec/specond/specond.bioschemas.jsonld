@@ -58,7 +58,7 @@
       "sc:featureList": {
         "@id": "edam:operation_3223"
       },
-      "sc:license": "LGPL-2.0-only",
+      "sc:license": "LGPL-2.0",
       "sc:name": "SpeCond",
       "sc:operatingSystem": [
         "Linux",

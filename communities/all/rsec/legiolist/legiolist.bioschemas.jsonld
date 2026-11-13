@@ -36,14 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0002-6350-5001",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1099/13500872-141-2-261",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/legiolist",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -54,18 +46,18 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N3d4129f747394c5e86274fd456d0826e"
+          "@id": "_:N8ad8f5ca6f1d4c73910067509d07aed2"
         },
         {
-          "@id": "_:N49fd6888397c462799f4e61e2ac3bfd0"
+          "@id": "_:N5dbef502904d4c23960a4d6f181ae590"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf7336750d6ef4771aa8dd8779fe84297"
+          "@id": "_:Ne075bd7edf124bd6b246ded28302f312"
         },
         {
-          "@id": "_:N19b586d61a7c4f81a1af536f3037929f"
+          "@id": "_:N9ad75e86413f4d40b2cf2ffa7dc01c6f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -96,7 +88,7 @@
       "sc:url": "http://genolist.pasteur.fr/LegioList/"
     },
     {
-      "@id": "_:N3d4129f747394c5e86274fd456d0826e",
+      "@id": "_:N8ad8f5ca6f1d4c73910067509d07aed2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -104,7 +96,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N49fd6888397c462799f4e61e2ac3bfd0",
+      "@id": "_:N5dbef502904d4c23960a4d6f181ae590",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1097"
@@ -112,7 +104,7 @@
       "sc:name": "Sequence accession (nucleic acid)"
     },
     {
-      "@id": "_:Nf7336750d6ef4771aa8dd8779fe84297",
+      "@id": "_:Ne075bd7edf124bd6b246ded28302f312",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -123,7 +115,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N19b586d61a7c4f81a1af536f3037929f",
+      "@id": "_:N9ad75e86413f4d40b2cf2ffa7dc01c6f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -132,6 +124,14 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Gene report"
+    },
+    {
+      "@id": "https://doi.org/10.1099/13500872-141-2-261",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-6350-5001",
+      "@type": "sc:Person"
     }
   ]
 }

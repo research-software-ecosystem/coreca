@@ -44,21 +44,21 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Ne1109e589aa348769bd7c22a1985ff20"
+          "@id": "_:N67f415fb4efb4d5d89fc14006a671082"
         },
         {
-          "@id": "_:Nfe9bcf064b5141119bb9570abece1231"
+          "@id": "_:N4b73464c7ef9496e89e10d4eee353d9c"
         },
         {
-          "@id": "_:N8aeb9b687b704fd0a5744a72bdb0df53"
+          "@id": "_:Nf869de2d182946d68f6bd5ef16d86be8"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5118d26cfbda436b97197502d8852d20"
+          "@id": "_:N3c80df44c05c4cd08283f33d50f0c416"
         },
         {
-          "@id": "_:Nd240265e4a8d46ba986e1ef71328a39d"
+          "@id": "_:Nbae903d9b2364a02a3062698f821e762"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -126,7 +126,7 @@
       "sc:url": "https://www.zbh.uni-hamburg.de/en/forschung/amd/software/structureprofiler.html"
     },
     {
-      "@id": "_:Ne1109e589aa348769bd7c22a1985ff20",
+      "@id": "_:N67f415fb4efb4d5d89fc14006a671082",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -137,7 +137,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:Nfe9bcf064b5141119bb9570abece1231",
+      "@id": "_:N4b73464c7ef9496e89e10d4eee353d9c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1461"
@@ -153,7 +153,7 @@
       "sc:name": "Protein-ligand complex"
     },
     {
-      "@id": "_:N8aeb9b687b704fd0a5744a72bdb0df53",
+      "@id": "_:Nf869de2d182946d68f6bd5ef16d86be8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -164,7 +164,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N5118d26cfbda436b97197502d8852d20",
+      "@id": "_:N3c80df44c05c4cd08283f33d50f0c416",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2991"
@@ -172,7 +172,7 @@
       "sc:name": "Protein geometry data"
     },
     {
-      "@id": "_:Nd240265e4a8d46ba986e1ef71328a39d",
+      "@id": "_:Nbae903d9b2364a02a3062698f821e762",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1539"

@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1074/mcp.m500401-mcp200",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/swepep",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N7c47b3840ff94869b99caa070752c1d9"
+        "@id": "_:N1cd6cce10d5d45679f97e0933ada2cbc"
       },
       "bsc:output": {
-        "@id": "_:N84f2e5ddc8824f699e8e6a0e2b993cbb"
+        "@id": "_:N66e965133d0d47c1b874d1855d67cc90"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -76,7 +72,7 @@
       "sc:url": "http://www.swepep.se/"
     },
     {
-      "@id": "_:N7c47b3840ff94869b99caa070752c1d9",
+      "@id": "_:N1cd6cce10d5d45679f97e0933ada2cbc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2906"
@@ -84,12 +80,16 @@
       "sc:name": "Peptide ID"
     },
     {
-      "@id": "_:N84f2e5ddc8824f699e8e6a0e2b993cbb",
+      "@id": "_:N66e965133d0d47c1b874d1855d67cc90",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2979"
       },
       "sc:name": "Peptide property"
+    },
+    {
+      "@id": "https://doi.org/10.1074/mcp.m500401-mcp200",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

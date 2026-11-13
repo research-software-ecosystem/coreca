@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N591c156faa8b474db72328ae9e4633be"
+          "@id": "_:N8923f86b2a0f42bdad83ef93c76d57a6"
         },
         {
-          "@id": "_:N363d6de9dd84435cba4b0efa8f8bfff4"
+          "@id": "_:Ne54a6d27f40244b1bca7bedccdd1d786"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1ceb4aeac885466a8e84a4e44aa72328"
+          "@id": "_:Na6783c0b14234aefb6a1446ac77c3894"
         },
         {
-          "@id": "_:Nac883ca8e0684048a36f2b9c2848e029"
+          "@id": "_:Ncc31c31d72464496af9283a6b32bc79b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -79,7 +79,7 @@
           "@id": "edam:operation_0337"
         }
       ],
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "IVAS",
       "sc:operatingSystem": [
         "Linux",
@@ -93,7 +93,7 @@
       "sc:url": "https://bioconductor.org/packages/IVAS"
     },
     {
-      "@id": "_:N591c156faa8b474db72328ae9e4633be",
+      "@id": "_:N8923f86b2a0f42bdad83ef93c76d57a6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
@@ -104,7 +104,7 @@
       "sc:name": "Feature table"
     },
     {
-      "@id": "_:N363d6de9dd84435cba4b0efa8f8bfff4",
+      "@id": "_:Ne54a6d27f40244b1bca7bedccdd1d786",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -115,7 +115,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N1ceb4aeac885466a8e84a4e44aa72328",
+      "@id": "_:Na6783c0b14234aefb6a1446ac77c3894",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
@@ -126,7 +126,7 @@
       "sc:name": "P-value"
     },
     {
-      "@id": "_:Nac883ca8e0684048a36f2b9c2848e029",
+      "@id": "_:Ncc31c31d72464496af9283a6b32bc79b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

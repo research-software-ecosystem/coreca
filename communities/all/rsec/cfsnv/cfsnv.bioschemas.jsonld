@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/cfsnv",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N47535b77031d4915b36d0e364d9d93ac"
+        "@id": "_:Nadec0cfb88ca4842800501ba4e3a84a5"
       },
       "bsc:output": {
-        "@id": "_:N26e92ea34288473eafa7838f19c033fd"
+        "@id": "_:Ne32de82568a442eabb125a009d6c1cdf"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -88,7 +88,7 @@
       "sc:url": "https://github.com/jasminezhoulab/cfSNV"
     },
     {
-      "@id": "_:N47535b77031d4915b36d0e364d9d93ac",
+      "@id": "_:Nadec0cfb88ca4842800501ba4e3a84a5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -104,7 +104,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N26e92ea34288473eafa7838f19c033fd",
+      "@id": "_:Ne32de82568a442eabb125a009d6c1cdf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2534"

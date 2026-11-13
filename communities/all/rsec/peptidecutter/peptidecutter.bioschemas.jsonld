@@ -40,20 +40,20 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nf92c19de210e431fb089b4cea7821372"
+          "@id": "_:N0e4de2fe64594cdf8750d64786616fa5"
         },
         {
-          "@id": "_:Ned23cda961644fd085d13eafc5af73e7"
+          "@id": "_:Na433a441ff40405fbd1bdd3dd3db24ce"
         },
         {
-          "@id": "_:N19233e4618e14c3cb07f9236a46314d5"
+          "@id": "_:N1f8c2a3de4c643508b04dd52be8765f8"
         },
         {
-          "@id": "_:Nb3df99b94de44aaebc04e301d53d03a7"
+          "@id": "_:N9b896c895e9e448690acd44bbac3763b"
         }
       ],
       "bsc:output": {
-        "@id": "_:N0df4772bf8d9489e995e78499f078d94"
+        "@id": "_:N3304cd357ad34a3281a86e569840b15c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -79,7 +79,7 @@
       "sc:url": "http://www.expasy.ch/tools/peptidecutter"
     },
     {
-      "@id": "_:Nf92c19de210e431fb089b4cea7821372",
+      "@id": "_:N0e4de2fe64594cdf8750d64786616fa5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1056"
@@ -90,7 +90,7 @@
       "sc:name": "Database name"
     },
     {
-      "@id": "_:Ned23cda961644fd085d13eafc5af73e7",
+      "@id": "_:Na433a441ff40405fbd1bdd3dd3db24ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -101,7 +101,7 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:N19233e4618e14c3cb07f9236a46314d5",
+      "@id": "_:N1f8c2a3de4c643508b04dd52be8765f8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"
@@ -112,7 +112,7 @@
       "sc:name": "UniProt ID"
     },
     {
-      "@id": "_:Nb3df99b94de44aaebc04e301d53d03a7",
+      "@id": "_:N9b896c895e9e448690acd44bbac3763b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -123,7 +123,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N0df4772bf8d9489e995e78499f078d94",
+      "@id": "_:N3304cd357ad34a3281a86e569840b15c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1238"

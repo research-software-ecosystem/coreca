@@ -40,18 +40,22 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1007/978-1-0716-0159-4_12",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/Midcor",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N84625b07064741a586c53b2dd9cd743d"
+          "@id": "_:N7010f63dd97e4ad3b97cc18f2776e499"
         },
         {
-          "@id": "_:N8dbce1e23743464b9a06635a85a821fe"
+          "@id": "_:N843b1c5d0bc1476ca9f7adce7a4386c8"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ne07f1e3403694281be6964782abc8529"
+        "@id": "_:N88320f3b12e54e34a45123a3e58981df"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -88,7 +92,7 @@
       "sc:url": "https://github.com/seliv55/ramidcor"
     },
     {
-      "@id": "_:N84625b07064741a586c53b2dd9cd743d",
+      "@id": "_:N7010f63dd97e4ad3b97cc18f2776e499",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -99,7 +103,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N8dbce1e23743464b9a06635a85a821fe",
+      "@id": "_:N843b1c5d0bc1476ca9f7adce7a4386c8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -110,7 +114,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:Ne07f1e3403694281be6964782abc8529",
+      "@id": "_:N88320f3b12e54e34a45123a3e58981df",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -119,10 +123,6 @@
         "@id": "edam:format_3835"
       },
       "sc:name": "Mass spectrum"
-    },
-    {
-      "@id": "https://doi.org/10.1007/978-1-0716-0159-4_12",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,16 +36,24 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/s41564-017-0072-8",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nature09944",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/enterotyping",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
         "@id": "http://orcid.org/0000-0003-1429-7485"
       },
       "bsc:input": {
-        "@id": "_:N0099342dc76747c39b5867a2ea7afcc3"
+        "@id": "_:N88a74118b08845bba8f5492472a9d577"
       },
       "bsc:output": {
-        "@id": "_:N3fa928b49534408ea6cea6e53c2405b9"
+        "@id": "_:Nffbd5415412443128f314abb3e5a50b2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -87,7 +95,7 @@
       "sc:url": "http://enterotypes.org/"
     },
     {
-      "@id": "_:N0099342dc76747c39b5867a2ea7afcc3",
+      "@id": "_:N88a74118b08845bba8f5492472a9d577",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -98,7 +106,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N3fa928b49534408ea6cea6e53c2405b9",
+      "@id": "_:Nffbd5415412443128f314abb3e5a50b2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -111,14 +119,6 @@
     {
       "@id": "http://orcid.org/0000-0003-1429-7485",
       "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1038/nature09944",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1038/s41564-017-0072-8",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

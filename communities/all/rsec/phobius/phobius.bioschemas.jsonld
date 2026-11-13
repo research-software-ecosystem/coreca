@@ -40,11 +40,11 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkac240",
+      "@id": "https://doi.org/10.1093/nar/gkae241",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkae241",
+      "@id": "https://doi.org/10.1093/nar/gkac240",
       "@type": "sc:CreativeWork"
     },
     {
@@ -52,10 +52,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:Ncfa9674674b946cf8635ab605d54866c"
+        "@id": "_:N63d70c2e060142ee85c2a8f43d757e2b"
       },
       "bsc:output": {
-        "@id": "_:Ndb2ac048cd20412abf6cb9e96bad5e6d"
+        "@id": "_:Na4c2d739e3de451d9bd996dad68cab63"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -130,7 +130,7 @@
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/pfa/phobius"
     },
     {
-      "@id": "_:Ncfa9674674b946cf8635ab605d54866c",
+      "@id": "_:N63d70c2e060142ee85c2a8f43d757e2b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -138,7 +138,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Ndb2ac048cd20412abf6cb9e96bad5e6d",
+      "@id": "_:Na4c2d739e3de451d9bd996dad68cab63",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

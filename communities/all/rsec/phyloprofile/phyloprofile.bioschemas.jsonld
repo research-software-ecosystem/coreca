@@ -86,7 +86,7 @@
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/PhyloProfile"
       },
-      "sc:softwareVersion": "2.4.3",
+      "sc:softwareVersion": "2.4.7",
       "sc:url": "https://bioconductor.org/packages/PhyloProfile"
     }
   ]

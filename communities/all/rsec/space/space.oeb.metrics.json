@@ -184,7 +184,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 42,
+                            "cit_count": 43,
                             "citations": [
                                 {
                                     "count": 1,
@@ -193,10 +193,6 @@
                                 {
                                     "count": 1,
                                     "year": 2001
-                                },
-                                {
-                                    "count": 1,
-                                    "year": 2002
                                 },
                                 {
                                     "count": 1,
@@ -245,6 +241,10 @@
                                 {
                                     "count": 2,
                                     "year": 2000
+                                },
+                                {
+                                    "count": 2,
+                                    "year": 2002
                                 },
                                 {
                                     "count": 2,
@@ -398,7 +398,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 337,
+                            "cit_count": 338,
                             "citations": [
                                 {
                                     "count": 1,
@@ -458,11 +458,11 @@
                                 },
                                 {
                                     "count": 13,
-                                    "year": 2004
+                                    "year": 2008
                                 },
                                 {
-                                    "count": 13,
-                                    "year": 2008
+                                    "count": 14,
+                                    "year": 2004
                                 },
                                 {
                                     "count": 14,

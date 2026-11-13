@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/virmap",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N282e7d9c282e4308b2f3f6323fe5eb59"
+        "@id": "_:N507a468cb8ff4998903d5e3845a4cd46"
       },
       "bsc:output": {
-        "@id": "_:Nb4191546b0684c3faadbdc484cb20dec"
+        "@id": "_:N499146c41a064c41abc8705dd563d96c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -84,7 +84,7 @@
       "sc:url": "https://github.com/cmmr/VirMAP"
     },
     {
-      "@id": "_:N282e7d9c282e4308b2f3f6323fe5eb59",
+      "@id": "_:N507a468cb8ff4998903d5e3845a4cd46",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -92,7 +92,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:Nb4191546b0684c3faadbdc484cb20dec",
+      "@id": "_:N499146c41a064c41abc8705dd563d96c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"

@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/sabdab",
       "@type": "sc:SoftwareApplication",
       "bsc:output": {
-        "@id": "_:N9d1f61b9055a47b8b464066bc90491c6"
+        "@id": "_:N4b8f1a7133ce4cb9810e38e7e0fbc212"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -89,7 +89,7 @@
       "sc:url": "http://opig.stats.ox.ac.uk/webapps/newsabdab/"
     },
     {
-      "@id": "_:N9d1f61b9055a47b8b464066bc90491c6",
+      "@id": "_:N4b8f1a7133ce4cb9810e38e7e0fbc212",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"

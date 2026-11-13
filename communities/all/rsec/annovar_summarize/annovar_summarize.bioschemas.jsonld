@@ -36,24 +36,32 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkq603",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/annovar_summarize",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:Na719af0f575c4195b20482ba72fb3c52"
+        "@id": "_:N75a46f8b0bf7440cbb070d020e2154a6"
       },
       "bsc:output": [
         {
-          "@id": "_:Ne4eb9cb2e5304c4fba13940350b72373"
+          "@id": "_:N7ce10a9a99cc421d9b9fdba025a76651"
         },
         {
-          "@id": "_:N7f398db3687341d8a9bc22b1c80380a8"
+          "@id": "_:Nbdb9b151ec92402f97ae3b93d8ec457b"
         },
         {
-          "@id": "_:Ne37bb8102f6c4aa8b64440adb539621b"
+          "@id": "_:Nfed0d3a205da4062a5774b686da8ff97"
         },
         {
-          "@id": "_:N82804e140e804df0b4ba9fbee712d8b0"
+          "@id": "_:N7ff0e58cd42e415f93b36b2caa7942de"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -104,7 +112,7 @@
       "sc:url": "http://annovar.openbioinformatics.org/en/latest/"
     },
     {
-      "@id": "_:Na719af0f575c4195b20482ba72fb3c52",
+      "@id": "_:N75a46f8b0bf7440cbb070d020e2154a6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -120,7 +128,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ne4eb9cb2e5304c4fba13940350b72373",
+      "@id": "_:N7ce10a9a99cc421d9b9fdba025a76651",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -131,7 +139,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N7f398db3687341d8a9bc22b1c80380a8",
+      "@id": "_:Nbdb9b151ec92402f97ae3b93d8ec457b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -142,7 +150,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Ne37bb8102f6c4aa8b64440adb539621b",
+      "@id": "_:Nfed0d3a205da4062a5774b686da8ff97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -153,7 +161,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N82804e140e804df0b4ba9fbee712d8b0",
+      "@id": "_:N7ff0e58cd42e415f93b36b2caa7942de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -162,14 +170,6 @@
         "@id": "edam:format_3475"
       },
       "sc:name": "Data"
-    },
-    {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkq603",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

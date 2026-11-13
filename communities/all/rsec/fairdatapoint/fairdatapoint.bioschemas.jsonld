@@ -44,6 +44,10 @@
       "@type": "sc:Person"
     },
     {
+      "@id": "https://orcid.org/0000-0002-1164-1351",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/FAIRDataPoint",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -55,14 +59,14 @@
         }
       ],
       "bsc:input": {
-        "@id": "_:N1b245a4077d94e12a3a583800287d6c2"
+        "@id": "_:N2c2d5fc44a434a55bd041f6648ae2159"
       },
       "bsc:output": [
         {
-          "@id": "_:Na028e61f82e2410b83e3f7dc26a8e194"
+          "@id": "_:N35e2070b6b6444bcb6e0364f06848e90"
         },
         {
-          "@id": "_:Ne2ba63ff0eda42bc8470c92abb91e72d"
+          "@id": "_:N4db9d1f119ff401ea1c0d9a1b5de920b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -112,7 +116,7 @@
       "sc:url": "https://github.com/FAIRDataTeam/FAIRDataPoint"
     },
     {
-      "@id": "_:N1b245a4077d94e12a3a583800287d6c2",
+      "@id": "_:N2c2d5fc44a434a55bd041f6648ae2159",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -123,7 +127,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Na028e61f82e2410b83e3f7dc26a8e194",
+      "@id": "_:N35e2070b6b6444bcb6e0364f06848e90",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -134,7 +138,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Ne2ba63ff0eda42bc8470c92abb91e72d",
+      "@id": "_:N4db9d1f119ff401ea1c0d9a1b5de920b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -143,10 +147,6 @@
         "@id": "edam:format_3256"
       },
       "sc:name": "Text data"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-1164-1351",
-      "@type": "sc:Person"
     }
   ]
 }

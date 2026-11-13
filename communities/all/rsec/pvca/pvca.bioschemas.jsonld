@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/pvca",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8de8f6df194c4d2980442c45111907db"
+        "@id": "_:N5ce576c19cd44ed7b4696f2858c4be63"
       },
       "bsc:output": [
         {
-          "@id": "_:Nd4b7417b1c304669aa542afec471f756"
+          "@id": "_:N180d41267df843cd80d353adbfbe8aa7"
         },
         {
-          "@id": "_:N4b9c0ae9aa7342a8af1884c51f5d9c06"
+          "@id": "_:Neaed57f211804f81aa9d0254850b7402"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -87,7 +87,7 @@
       "sc:url": "https://bioconductor.org/packages/pvca"
     },
     {
-      "@id": "_:N8de8f6df194c4d2980442c45111907db",
+      "@id": "_:N5ce576c19cd44ed7b4696f2858c4be63",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3110"
@@ -106,7 +106,7 @@
       "sc:name": "Raw microarray data"
     },
     {
-      "@id": "_:Nd4b7417b1c304669aa542afec471f756",
+      "@id": "_:N180d41267df843cd80d353adbfbe8aa7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -117,7 +117,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N4b9c0ae9aa7342a8af1884c51f5d9c06",
+      "@id": "_:Neaed57f211804f81aa9d0254850b7402",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"

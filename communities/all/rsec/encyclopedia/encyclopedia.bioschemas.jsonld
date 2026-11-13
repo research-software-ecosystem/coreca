@@ -41,21 +41,21 @@
       "biotools:primaryContact": "Brian Searle",
       "bsc:input": [
         {
-          "@id": "_:N7a0204fcd86e4015b2d5d85782a83e19"
+          "@id": "_:Nfc967e740f704bd39e7e467ffb251d58"
         },
         {
-          "@id": "_:N0fb2bdd53ece4554a50b45ac1683b684"
+          "@id": "_:N750e927e53fa44ac9e9627b60e660055"
         },
         {
-          "@id": "_:Ndaf6b81c52be4ad5949580427ef28970"
+          "@id": "_:N3ec0be06059c4fca8711e8dd502de772"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2c30917c5b9a4e80b4282e1255dd4a0d"
+          "@id": "_:Nf85dfcafa88a416989f7d5eeb676801a"
         },
         {
-          "@id": "_:Nd1a6192f6b444bec84ab7712313fd51b"
+          "@id": "_:N9418d5d474d34e409a512272306601a7"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -105,7 +105,7 @@
       "sc:url": "https://bitbucket.org/searleb/encyclopedia/"
     },
     {
-      "@id": "_:N7a0204fcd86e4015b2d5d85782a83e19",
+      "@id": "_:Nfc967e740f704bd39e7e467ffb251d58",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -116,7 +116,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N0fb2bdd53ece4554a50b45ac1683b684",
+      "@id": "_:N750e927e53fa44ac9e9627b60e660055",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -127,7 +127,7 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:Ndaf6b81c52be4ad5949580427ef28970",
+      "@id": "_:N3ec0be06059c4fca8711e8dd502de772",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -138,7 +138,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N2c30917c5b9a4e80b4282e1255dd4a0d",
+      "@id": "_:Nf85dfcafa88a416989f7d5eeb676801a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -149,7 +149,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Nd1a6192f6b444bec84ab7712313fd51b",
+      "@id": "_:N9418d5d474d34e409a512272306601a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"

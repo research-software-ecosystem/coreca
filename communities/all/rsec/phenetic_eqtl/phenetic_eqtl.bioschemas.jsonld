@@ -44,21 +44,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N64f0b8a601eb4e5bb06b6d88e316ebaf"
+          "@id": "_:N90e01a27e1f449e3be54c7594529cd49"
         },
         {
-          "@id": "_:Ne6a2fe9ae2454306bf13ff1c6beaa115"
+          "@id": "_:N7287ca3e75314b41a64339112b025c28"
         },
         {
-          "@id": "_:N96ef73f5b0ed43a1beff52b460cd3140"
+          "@id": "_:Ndd6066d017bd419396d7cf40e0f5b18e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf9ba5eb896fc4bb392ce3d7b66b0e6eb"
+          "@id": "_:Na46226aeb8064dd88b5ed4791b5344d9"
         },
         {
-          "@id": "_:N006c2c769f23410c94ba52671b155a0f"
+          "@id": "_:Ne67387a729554915be257d9d108036d0"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -100,7 +100,7 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/phenetic_eqtl/index.html"
     },
     {
-      "@id": "_:N64f0b8a601eb4e5bb06b6d88e316ebaf",
+      "@id": "_:N90e01a27e1f449e3be54c7594529cd49",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -108,7 +108,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Ne6a2fe9ae2454306bf13ff1c6beaa115",
+      "@id": "_:N7287ca3e75314b41a64339112b025c28",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -116,7 +116,7 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "_:N96ef73f5b0ed43a1beff52b460cd3140",
+      "@id": "_:Ndd6066d017bd419396d7cf40e0f5b18e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -124,7 +124,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nf9ba5eb896fc4bb392ce3d7b66b0e6eb",
+      "@id": "_:Na46226aeb8064dd88b5ed4791b5344d9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -132,7 +132,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N006c2c769f23410c94ba52671b155a0f",
+      "@id": "_:Ne67387a729554915be257d9d108036d0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

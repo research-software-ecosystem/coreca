@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pepwindow_ebi",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:N1c80308f0c384bc191836c6a787e0ae8"
+        "@id": "_:N984bc5895f9f4d9cb3059fad29af358f"
       },
       "bsc:output": {
-        "@id": "_:Ne4005fae14114da19522747c621ca372"
+        "@id": "_:Ndd30ed5881264f2b9101b7899ff49c67"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -99,7 +95,7 @@
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/seqstats/emboss_pepwindow"
     },
     {
-      "@id": "_:N1c80308f0c384bc191836c6a787e0ae8",
+      "@id": "_:N984bc5895f9f4d9cb3059fad29af358f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2886"
@@ -107,12 +103,16 @@
       "sc:name": "Protein sequence record"
     },
     {
-      "@id": "_:Ne4005fae14114da19522747c621ca372",
+      "@id": "_:Ndd30ed5881264f2b9101b7899ff49c67",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1522"
       },
       "sc:name": "Protein sequence hydropathy plot"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkae241",

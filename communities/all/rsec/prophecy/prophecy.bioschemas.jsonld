@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/prophecy",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne5067b38697f4255af67ec451e2fa48a"
+        "@id": "_:Naa104967d61b4329826303e9729cdf2f"
       },
       "bsc:output": {
-        "@id": "_:N96308e569b1b4fb0b8573188e725068c"
+        "@id": "_:N2c917164356344419a94780f136abd0e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -73,7 +73,7 @@
       "sc:url": "http://prophecy.lundberg.gu.se/"
     },
     {
-      "@id": "_:Ne5067b38697f4255af67ec451e2fa48a",
+      "@id": "_:Naa104967d61b4329826303e9729cdf2f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -81,7 +81,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:N96308e569b1b4fb0b8573188e725068c",
+      "@id": "_:N2c917164356344419a94780f136abd0e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2337"

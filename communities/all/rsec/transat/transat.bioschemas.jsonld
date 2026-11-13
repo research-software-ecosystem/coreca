@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/transat",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N49189a21423446bda566c5e07e31be7a"
+        "@id": "_:N95df17f6cefa45ca90448dd0db3f7697"
       },
       "bsc:output": {
-        "@id": "_:N62b70af5b2a7437da78cbf6184677b1a"
+        "@id": "_:N6709333f30c7436f8eb4b714cd4ae387"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -106,7 +106,7 @@
       "sc:url": "https://github.com/ShihChingYu/TransAT"
     },
     {
-      "@id": "_:N49189a21423446bda566c5e07e31be7a",
+      "@id": "_:N95df17f6cefa45ca90448dd0db3f7697",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -117,7 +117,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N62b70af5b2a7437da78cbf6184677b1a",
+      "@id": "_:N6709333f30c7436f8eb4b714cd4ae387",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2725"

@@ -36,14 +36,10 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1111/1744-7917.13162",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/iorbase",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1f06befe5c52476490c51da466a21983"
+        "@id": "_:N09080924a4554d8d9dfcc4aa16678e13"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -89,7 +85,7 @@
       "sc:url": "https://www.iorbase.com"
     },
     {
-      "@id": "_:N1f06befe5c52476490c51da466a21983",
+      "@id": "_:N09080924a4554d8d9dfcc4aa16678e13",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -98,6 +94,10 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Protein sequence"
+    },
+    {
+      "@id": "https://doi.org/10.1111/1744-7917.13162",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

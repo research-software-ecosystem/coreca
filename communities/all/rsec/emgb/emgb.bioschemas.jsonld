@@ -41,18 +41,18 @@
       "biotools:primaryContact": "EMGB Service",
       "bsc:input": [
         {
-          "@id": "_:Nd49c1c95ce544547acd5a1d40fdfce0c"
+          "@id": "_:N087e8710582149449cb75dd63f8aec05"
         },
         {
-          "@id": "_:N0d97f2ef75744c1198f3d284032c2a97"
+          "@id": "_:N07dc3c2f65f3477aaceada6ceff6bfd4"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nda28a1081a1b46d2b1091782abc5cc99"
+          "@id": "_:Nf08861280a324cb2a6da66702e5057de"
         },
         {
-          "@id": "_:N3dfa3e48080d4d3a930aefbf40c35120"
+          "@id": "_:N6b76c1ec448b47ef8bc51bfa0fb8ee27"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -86,7 +86,7 @@
       "sc:url": "https://emgb.cebitec.uni-bielefeld.de"
     },
     {
-      "@id": "_:Nd49c1c95ce544547acd5a1d40fdfce0c",
+      "@id": "_:N087e8710582149449cb75dd63f8aec05",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -97,7 +97,7 @@
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:N0d97f2ef75744c1198f3d284032c2a97",
+      "@id": "_:N07dc3c2f65f3477aaceada6ceff6bfd4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -108,7 +108,7 @@
       "sc:name": "Nucleic acid sequence record"
     },
     {
-      "@id": "_:Nda28a1081a1b46d2b1091782abc5cc99",
+      "@id": "_:Nf08861280a324cb2a6da66702e5057de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -119,7 +119,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N3dfa3e48080d4d3a930aefbf40c35120",
+      "@id": "_:N6b76c1ec448b47ef8bc51bfa0fb8ee27",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"

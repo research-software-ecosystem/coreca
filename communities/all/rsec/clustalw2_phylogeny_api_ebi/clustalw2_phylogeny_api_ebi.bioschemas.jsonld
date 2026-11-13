@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/ClustalW2_Phylogeny_API_EBI",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf6eb569b3a1e4e1a9eb80f6de87718c5"
+        "@id": "_:Neb7634df425b4038b80ad8f8c46f845f"
       },
       "bsc:output": {
-        "@id": "_:Nf82038664cf347c9ba5a180e482bdcc0"
+        "@id": "_:Nd6bbe37d10bf44109c9740d2b15882b2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web API",
@@ -81,7 +81,7 @@
       "sc:url": "https://www.ebi.ac.uk/seqdb/confluence/pages/viewpage.action?pageId=54651945"
     },
     {
-      "@id": "_:Nf6eb569b3a1e4e1a9eb80f6de87718c5",
+      "@id": "_:Neb7634df425b4038b80ad8f8c46f845f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -89,7 +89,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nf82038664cf347c9ba5a180e482bdcc0",
+      "@id": "_:Nd6bbe37d10bf44109c9740d2b15882b2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"

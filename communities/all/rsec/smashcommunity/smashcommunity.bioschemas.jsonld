@@ -41,14 +41,14 @@
       "biotools:primaryContact": "Contact Form",
       "bsc:input": [
         {
-          "@id": "_:N8cf28db90704409781f2b786670a2dd1"
+          "@id": "_:Nf4982d718ede49a89f30dfea401aa7e3"
         },
         {
-          "@id": "_:N9b929d43cca746ee937f488bf8e5ec2e"
+          "@id": "_:N42f30fa426d3454bb11c529d6b8e0611"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ndf202695ae174f24b666b86323bd036c"
+        "@id": "_:N9a8ec416986f462f9c54ff0060bb2972"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
@@ -93,7 +93,7 @@
       "sc:url": "http://www.bork.embl.de/software/smash"
     },
     {
-      "@id": "_:N8cf28db90704409781f2b786670a2dd1",
+      "@id": "_:Nf4982d718ede49a89f30dfea401aa7e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3736"
@@ -101,7 +101,7 @@
       "sc:name": "Ecological data"
     },
     {
-      "@id": "_:N9b929d43cca746ee937f488bf8e5ec2e",
+      "@id": "_:N42f30fa426d3454bb11c529d6b8e0611",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0848"
@@ -112,7 +112,7 @@
       "sc:name": "Raw sequence"
     },
     {
-      "@id": "_:Ndf202695ae174f24b666b86323bd036c",
+      "@id": "_:N9a8ec416986f462f9c54ff0060bb2972",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"

@@ -44,13 +44,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ncdfdb22bdbe348ab8458f525871062c4"
+          "@id": "_:Nb1ae4a71c9414f2ca4b958b53bfaa30f"
         },
         {
-          "@id": "_:N282cdeb3c28f49f68c8a15ef1faa2622"
+          "@id": "_:Ne325ec091130406cbfe8f54431e675c2"
         },
         {
-          "@id": "_:N1da335e4471447d9b8b4a6cd54912823"
+          "@id": "_:Nee1e2a845a2e49e88f8b80fc37e213d3"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -98,7 +98,7 @@
       "sc:url": "http://dunbrack2.fccc.edu/protcad"
     },
     {
-      "@id": "_:Ncdfdb22bdbe348ab8458f525871062c4",
+      "@id": "_:Nb1ae4a71c9414f2ca4b958b53bfaa30f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -106,7 +106,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N282cdeb3c28f49f68c8a15ef1faa2622",
+      "@id": "_:Ne325ec091130406cbfe8f54431e675c2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2758"
@@ -114,7 +114,7 @@
       "sc:name": "Pfam clan ID"
     },
     {
-      "@id": "_:N1da335e4471447d9b8b4a6cd54912823",
+      "@id": "_:Nee1e2a845a2e49e88f8b80fc37e213d3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2764"

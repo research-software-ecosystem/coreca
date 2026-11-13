@@ -29,7 +29,7 @@ tags:
 - tag: role::app-data
 - tag: suite::gnu
 popcon:
-- insts: 499
-  olde: 375
-  recent: 98
-  vote: 26
+- insts: 496
+  olde: 376
+  recent: 97
+  vote: 23

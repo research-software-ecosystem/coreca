@@ -36,14 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0003-3645-1455",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0009-0003-9805-8998",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/oligopipe",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -51,24 +43,24 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N8132345f8fde4d7f8f24824188980b60"
+          "@id": "_:N92e25901350c4e7b87bea8be4a168e24"
         },
         {
-          "@id": "_:N6f79f5b693b84e889a3fb290115e1e0e"
+          "@id": "_:Ncc50060aba864dc0b6dac021b33ea21f"
         },
         {
-          "@id": "_:N0031c72ef8e946639200404c521fa9fb"
+          "@id": "_:N2ff1a76a64ff4cae88898ba4cfa9b9f8"
         },
         {
-          "@id": "_:N8c993335581041a4a2b83ba53a972d7f"
+          "@id": "_:N8c6494ecb2ec42568a6a104e6a95a98d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nedea520c64cf482bbc66794c433b643d"
+          "@id": "_:N4b230307cc52487c97ea0ab338e1cd4a"
         },
         {
-          "@id": "_:N46e0b3112c0a4c20b436c4df5682967e"
+          "@id": "_:N142f29bcf7c946a5a932e83449e47bd4"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -127,7 +119,7 @@
       "sc:url": "https://pypi.org/project/oligopipe/"
     },
     {
-      "@id": "_:N8132345f8fde4d7f8f24824188980b60",
+      "@id": "_:N92e25901350c4e7b87bea8be4a168e24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -138,7 +130,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N6f79f5b693b84e889a3fb290115e1e0e",
+      "@id": "_:Ncc50060aba864dc0b6dac021b33ea21f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3275"
@@ -149,7 +141,7 @@
       "sc:name": "Phenotype name"
     },
     {
-      "@id": "_:N0031c72ef8e946639200404c521fa9fb",
+      "@id": "_:N2ff1a76a64ff4cae88898ba4cfa9b9f8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -165,7 +157,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N8c993335581041a4a2b83ba53a972d7f",
+      "@id": "_:N8c6494ecb2ec42568a6a104e6a95a98d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -181,7 +173,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Nedea520c64cf482bbc66794c433b643d",
+      "@id": "_:N4b230307cc52487c97ea0ab338e1cd4a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -192,7 +184,7 @@
       "sc:name": "Score"
     },
     {
-      "@id": "_:N46e0b3112c0a4c20b436c4df5682967e",
+      "@id": "_:N142f29bcf7c946a5a932e83449e47bd4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -201,6 +193,14 @@
         "@id": "edam:format_3464"
       },
       "sc:name": "Score"
+    },
+    {
+      "@id": "https://orcid.org/0009-0003-9805-8998",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-3645-1455",
+      "@type": "sc:Person"
     }
   ]
 }

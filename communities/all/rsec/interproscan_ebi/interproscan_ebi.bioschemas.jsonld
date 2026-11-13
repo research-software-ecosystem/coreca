@@ -36,22 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btu031",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/interproscan_ebi",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:N5c0c0739d61449ceb036f0fb40b26e6e"
+        "@id": "_:N223c82ef1e5f4f4d93bcee503e1da827"
       },
       "bsc:output": [
         {
-          "@id": "_:N44e2cb6ff2b34caaba6a4f4debe0e8d7"
+          "@id": "_:N90db8b1e915d449ab6decfa6951f30d3"
         },
         {
-          "@id": "_:Nce4ff9fe15a04d5a9c2244a45c698182"
+          "@id": "_:Ne2df7189a9a64d64ba50f31c3ada97a1"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -108,7 +104,7 @@
       "sc:url": "https://www.ebi.ac.uk/interpro/search/sequence/"
     },
     {
-      "@id": "_:N5c0c0739d61449ceb036f0fb40b26e6e",
+      "@id": "_:N223c82ef1e5f4f4d93bcee503e1da827",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -116,7 +112,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N44e2cb6ff2b34caaba6a4f4debe0e8d7",
+      "@id": "_:N90db8b1e915d449ab6decfa6951f30d3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -124,7 +120,7 @@
       "sc:name": "Protein features"
     },
     {
-      "@id": "_:Nce4ff9fe15a04d5a9c2244a45c698182",
+      "@id": "_:Ne2df7189a9a64d64ba50f31c3ada97a1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0858"
@@ -133,6 +129,10 @@
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkac240",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btu031",
       "@type": "sc:CreativeWork"
     }
   ]

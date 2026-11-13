@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N76bfcdeb317f45158d15bdd1eb140fc7"
+          "@id": "_:N959bd56cbfc043f991d5d8f78222a301"
         },
         {
-          "@id": "_:N6035f891651146d48268e3fbcddf1809"
+          "@id": "_:N3b74b06c3f1b4da4837ba447698eec06"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N007b9dc1211740edac793efcba703ba2"
+          "@id": "_:Nc5358ef00e4f41dcbd63efe1dd28dc95"
         },
         {
-          "@id": "_:N8a673e0fd6ef465f9727405d87766407"
+          "@id": "_:N3e3d22b1b0d943a4b9916e8f9eda1d56"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -75,7 +75,7 @@
       "sc:url": "https://github.com/vibansal/HapCUT2"
     },
     {
-      "@id": "_:N76bfcdeb317f45158d15bdd1eb140fc7",
+      "@id": "_:N959bd56cbfc043f991d5d8f78222a301",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -86,7 +86,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N6035f891651146d48268e3fbcddf1809",
+      "@id": "_:N3b74b06c3f1b4da4837ba447698eec06",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -97,7 +97,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N007b9dc1211740edac793efcba703ba2",
+      "@id": "_:Nc5358ef00e4f41dcbd63efe1dd28dc95",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1863"
@@ -108,7 +108,7 @@
       "sc:name": "Haplotype map"
     },
     {
-      "@id": "_:N8a673e0fd6ef465f9727405d87766407",
+      "@id": "_:N3e3d22b1b0d943a4b9916e8f9eda1d56",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"

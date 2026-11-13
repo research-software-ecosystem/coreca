@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nf0e931254bc246e789db21b8c676b045"
+          "@id": "_:N97fd0953860140b082f7d7b777c45422"
         },
         {
-          "@id": "_:N86380b05f618475bbdec361111093865"
+          "@id": "_:N12812a44de954197867c1b595f1d5126"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -101,7 +101,7 @@
       "sc:url": "https://togoid.dbcls.jp/"
     },
     {
-      "@id": "_:Nf0e931254bc246e789db21b8c676b045",
+      "@id": "_:N97fd0953860140b082f7d7b777c45422",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2610"
@@ -109,7 +109,7 @@
       "sc:name": "Ensembl ID"
     },
     {
-      "@id": "_:N86380b05f618475bbdec361111093865",
+      "@id": "_:N12812a44de954197867c1b595f1d5126",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2291"

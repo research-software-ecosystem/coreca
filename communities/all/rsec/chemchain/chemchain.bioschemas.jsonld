@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1752-0509-3-58",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/chemchain",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd3cb5d97c5c04a39a69f5b4eb7ecf010"
+          "@id": "_:N901ffe68eb3d491b97df54af3a94ea81"
         },
         {
-          "@id": "_:N6f47d13f274a42fc97bbfebdb5779358"
+          "@id": "_:N53d3e14ba0b14b28af4458a126d98b51"
         },
         {
-          "@id": "_:N1789e62bcc0c4b1582d021449a18a747"
+          "@id": "_:N83d37e1e056742a8b7e2f17c25690558"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -76,7 +80,7 @@
       "sc:url": "https://www.bioinformatics.org/chemchains/wiki/"
     },
     {
-      "@id": "_:Nd3cb5d97c5c04a39a69f5b4eb7ecf010",
+      "@id": "_:N901ffe68eb3d491b97df54af3a94ea81",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2133"
@@ -84,7 +88,7 @@
       "sc:name": "Logical operator"
     },
     {
-      "@id": "_:N6f47d13f274a42fc97bbfebdb5779358",
+      "@id": "_:N53d3e14ba0b14b28af4458a126d98b51",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -92,16 +96,12 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N1789e62bcc0c4b1582d021449a18a747",
+      "@id": "_:N83d37e1e056742a8b7e2f17c25690558",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3869"
       },
       "sc:name": "Simulation"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1752-0509-3-58",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

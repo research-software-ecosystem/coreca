@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "François Chevenet",
       "bsc:input": {
-        "@id": "_:Ncfdd966cd0eb4d0b92f29130ddc55144"
+        "@id": "_:Nf36a3552e4394ecd95b26ebc00b7fe06"
       },
       "bsc:output": {
-        "@id": "_:N85161ca69dcc4e9c85035a95316aefd3"
+        "@id": "_:N8a0435349f4d43669325607eb3ee6292"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -79,7 +79,7 @@
       "sc:url": "http://www.treedyn.org/"
     },
     {
-      "@id": "_:Ncfdd966cd0eb4d0b92f29130ddc55144",
+      "@id": "_:Nf36a3552e4394ecd95b26ebc00b7fe06",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -95,7 +95,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N85161ca69dcc4e9c85035a95316aefd3",
+      "@id": "_:N8a0435349f4d43669325607eb3ee6292",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1707"

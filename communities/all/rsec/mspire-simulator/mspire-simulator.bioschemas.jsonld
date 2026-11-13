@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1021/pr400727e",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/mspire-simulator",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N79dbe24b36bb4247bf52539ed5f9eef3"
+        "@id": "_:Nc67b5568909a4f2b92a2e1198f9198e6"
       },
       "bsc:output": {
-        "@id": "_:Ndf961ea280694cd981e96f73df21cd6b"
+        "@id": "_:Nb5a51080017c4a7a9b9ff30a4d793982"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -84,7 +88,7 @@
       "sc:url": "https://github.com/princelab/mspire-simulator"
     },
     {
-      "@id": "_:N79dbe24b36bb4247bf52539ed5f9eef3",
+      "@id": "_:Nc67b5568909a4f2b92a2e1198f9198e6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -95,7 +99,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Ndf961ea280694cd981e96f73df21cd6b",
+      "@id": "_:Nb5a51080017c4a7a9b9ff30a4d793982",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -104,10 +108,6 @@
         "@id": "edam:format_3244"
       },
       "sc:name": "Mass spectrometry data"
-    },
-    {
-      "@id": "https://doi.org/10.1021/pr400727e",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

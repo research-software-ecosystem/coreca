@@ -36,26 +36,30 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gks542",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/funcisnp",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Simon G. Coetzee",
       "bsc:input": [
         {
-          "@id": "_:N01ca2d750f6a4b78b70a061cb785eb21"
+          "@id": "_:Nede484f40d0f4ce3bf1186620eb9516a"
         },
         {
-          "@id": "_:Nff54efab41554b70b75e4f914f6c1c68"
+          "@id": "_:Na80fbfca617c4774832c46847e5c98bd"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N12c4d126b48242f8a206b25aaa6eea27"
+          "@id": "_:Nefe096c54b914600b63118f551215c7c"
         },
         {
-          "@id": "_:N8f34be17d4f747eaa0ff6d826b7ca487"
+          "@id": "_:Ncbf37a0c97394939861099f4575d2845"
         },
         {
-          "@id": "_:N25d72438efea412b983883d1a57eaa23"
+          "@id": "_:Nee25e9334c844fac9addaee5773dc5c3"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -107,7 +111,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/FunciSNP.html"
     },
     {
-      "@id": "_:N01ca2d750f6a4b78b70a061cb785eb21",
+      "@id": "_:Nede484f40d0f4ce3bf1186620eb9516a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -123,7 +127,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:Nff54efab41554b70b75e4f914f6c1c68",
+      "@id": "_:Na80fbfca617c4774832c46847e5c98bd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -139,7 +143,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N12c4d126b48242f8a206b25aaa6eea27",
+      "@id": "_:Nefe096c54b914600b63118f551215c7c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -158,7 +162,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N8f34be17d4f747eaa0ff6d826b7ca487",
+      "@id": "_:Ncbf37a0c97394939861099f4575d2845",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -177,7 +181,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N25d72438efea412b983883d1a57eaa23",
+      "@id": "_:Nee25e9334c844fac9addaee5773dc5c3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -194,10 +198,6 @@
         }
       ],
       "sc:name": "Nucleic acid features"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gks542",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

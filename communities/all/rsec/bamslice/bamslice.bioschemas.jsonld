@@ -46,10 +46,10 @@
         "@id": "https://orcid.org/0000-0001-7390-1094"
       },
       "bsc:input": {
-        "@id": "_:N8506a0a02eef46d08b7c9b0add8ae9cd"
+        "@id": "_:Nfdb5198c1af74ce2ba698417bc78fd3f"
       },
       "bsc:output": {
-        "@id": "_:N81952d4686d2412f8603dd4cb142beae"
+        "@id": "_:N85cdfcbb9ac3477984bebe3fd0daf526"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -72,7 +72,7 @@
       "sc:url": "https://github.com/nebiolabs/bamslice"
     },
     {
-      "@id": "_:N8506a0a02eef46d08b7c9b0add8ae9cd",
+      "@id": "_:Nfdb5198c1af74ce2ba698417bc78fd3f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -83,7 +83,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N81952d4686d2412f8603dd4cb142beae",
+      "@id": "_:N85cdfcbb9ac3477984bebe3fd0daf526",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

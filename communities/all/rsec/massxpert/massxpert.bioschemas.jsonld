@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N95ebbc92db9a4e28ac3e317a1033fc98"
+          "@id": "_:N3ea5ce7e94aa4d638f473dcac49ce4cc"
         },
         {
-          "@id": "_:Nd423272613eb4b6896f99c9c365cf4cb"
+          "@id": "_:N39c634834b9b4e4795f6ef0e7359c317"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9f953e4b7a044a9fa7240daa8953205e"
+          "@id": "_:Naab508076f16431db1e9a8f30f01c6e2"
         },
         {
-          "@id": "_:Nc978b20adc4f46799aba6934b5712dc8"
+          "@id": "_:N28799bf8d52245c084499a64e83f21b7"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -117,7 +117,7 @@
       "sc:url": "http://www.massxpert.org"
     },
     {
-      "@id": "_:N95ebbc92db9a4e28ac3e317a1033fc98",
+      "@id": "_:N3ea5ce7e94aa4d638f473dcac49ce4cc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -128,7 +128,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nd423272613eb4b6896f99c9c365cf4cb",
+      "@id": "_:N39c634834b9b4e4795f6ef0e7359c317",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0977"
@@ -139,7 +139,7 @@
       "sc:name": "Tool identifier"
     },
     {
-      "@id": "_:N9f953e4b7a044a9fa7240daa8953205e",
+      "@id": "_:Naab508076f16431db1e9a8f30f01c6e2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -150,7 +150,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nc978b20adc4f46799aba6934b5712dc8",
+      "@id": "_:N28799bf8d52245c084499a64e83f21b7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0977"

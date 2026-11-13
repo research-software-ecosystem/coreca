@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/maizegdb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb8ea81bedfeb489ea8ff085c5cf777cb"
+        "@id": "_:Nb83266b750034d61bf585a4b416f5278"
       },
       "bsc:output": {
-        "@id": "_:Nfd60322edb3046258e10c8f8404a3183"
+        "@id": "_:Ncff0ee1a87054c77b31e29f8bee454ca"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -76,7 +76,7 @@
       "sc:url": "http://www.maizegdb.org/"
     },
     {
-      "@id": "_:Nb8ea81bedfeb489ea8ff085c5cf777cb",
+      "@id": "_:Nb83266b750034d61bf585a4b416f5278",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2798"
@@ -84,7 +84,7 @@
       "sc:name": "MaizeDB ID"
     },
     {
-      "@id": "_:Nfd60322edb3046258e10c8f8404a3183",
+      "@id": "_:Ncff0ee1a87054c77b31e29f8bee454ca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3134"

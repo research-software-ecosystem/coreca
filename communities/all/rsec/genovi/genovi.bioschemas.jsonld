@@ -39,17 +39,17 @@
       "@id": "https://bio.tools/genovi",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf3124dc716844e33b64416e8dd51f66a"
+        "@id": "_:N0874fe3062b142c3bd70bda227067e0d"
       },
       "bsc:output": [
         {
-          "@id": "_:Nf5c7669e9b674bc89366aa1f5d25d064"
+          "@id": "_:N15ab314a976343808d31dc43b3af2f7b"
         },
         {
-          "@id": "_:N95f2a8a3967b4e69807810b47e53d657"
+          "@id": "_:N2c73f1597da941b6961b5098cf4c1a84"
         },
         {
-          "@id": "_:N92bc0f3966d9479f85a89501635fd0cb"
+          "@id": "_:N16a787c076184593a622c0953f3beed3"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -101,7 +101,7 @@
       "sc:url": "https://github.com/robotoD/GenoVi"
     },
     {
-      "@id": "_:Nf3124dc716844e33b64416e8dd51f66a",
+      "@id": "_:N0874fe3062b142c3bd70bda227067e0d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -109,7 +109,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nf5c7669e9b674bc89366aa1f5d25d064",
+      "@id": "_:N15ab314a976343808d31dc43b3af2f7b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -117,7 +117,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N95f2a8a3967b4e69807810b47e53d657",
+      "@id": "_:N2c73f1597da941b6961b5098cf4c1a84",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3905"
@@ -125,7 +125,7 @@
       "sc:name": "Histogram"
     },
     {
-      "@id": "_:N92bc0f3966d9479f85a89501635fd0cb",
+      "@id": "_:N16a787c076184593a622c0953f3beed3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"

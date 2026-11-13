@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Alexander Rose",
       "bsc:input": {
-        "@id": "_:N5735b7ba307b44909888b929028ca1fd"
+        "@id": "_:Ndd144210f5764d5d916f091ba26cd041"
       },
       "bsc:output": {
-        "@id": "_:N709cf8e95f3c42f4a42b4a5f001bc26f"
+        "@id": "_:N24cc2ff29b124739ab3749107c7b6520"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -85,7 +85,7 @@
       "sc:url": "https://github.com/arose/ngl"
     },
     {
-      "@id": "_:N5735b7ba307b44909888b929028ca1fd",
+      "@id": "_:Ndd144210f5764d5d916f091ba26cd041",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"
@@ -101,7 +101,7 @@
       "sc:name": "Structure"
     },
     {
-      "@id": "_:N709cf8e95f3c42f4a42b4a5f001bc26f",
+      "@id": "_:N24cc2ff29b124739ab3749107c7b6520",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1710"

@@ -41,54 +41,54 @@
       "biotools:primaryContact": "Contact Form",
       "bsc:input": [
         {
-          "@id": "_:N4d2a92e27cb7482b9c7a9185475f2200"
+          "@id": "_:N9064403d3c1642b8ad9553290273bd3b"
         },
         {
-          "@id": "_:N91a90bda457f4f3db758299443bb3dd3"
+          "@id": "_:N4ead5160ad694f68ae2cb177b98f851e"
         },
         {
-          "@id": "_:N4a114876d40f47dc8399a3bd7b9182c3"
+          "@id": "_:Nc94afce4808848fcbfe6185207602488"
         },
         {
-          "@id": "_:N1d0c15aa74524bfd9b1c0f10cabce6e1"
+          "@id": "_:Nf43dbe0384964d8bab77aebb0a373b10"
         },
         {
-          "@id": "_:N276851f224434f4b9250f532132afbc9"
+          "@id": "_:N01ded88d37c74a9e8b2d08e8d60b7e97"
         },
         {
-          "@id": "_:Nc69ef71ac54140cbb6d12953c8223d21"
+          "@id": "_:N0438176a0b58457ab34d62c80fccdcc5"
         },
         {
-          "@id": "_:Nf8ed41e99ecd47d998ed362b498f05e3"
+          "@id": "_:N8d0cdb1bc00d497a9d22bb2c83170846"
         },
         {
-          "@id": "_:N66da72e99d8f43f6abae65a1a31a3820"
+          "@id": "_:Nd69134ec3a244c248910a792cd2c96b6"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Neabe6d2c256d489fb01f7d7585abae1c"
+          "@id": "_:Nbbff4d18d33341a7aa9a0f87f1b13ee5"
         },
         {
-          "@id": "_:Nc340d07a4b6541adb55d09fd3772bf77"
+          "@id": "_:N95d51d54340247bd9fc1fa329b199ad1"
         },
         {
-          "@id": "_:N11bca95b34aa4c95a2bb42648f16d3ec"
+          "@id": "_:N06af5421760948aba3dd694e87707edb"
         },
         {
-          "@id": "_:Ne758446fd2404d55b2b20be8977f115b"
+          "@id": "_:N191d15bf66cb4db18dcdd796b161bd88"
         },
         {
-          "@id": "_:N223942e0f9f942478168a442d7039a28"
+          "@id": "_:Nd6ef25814b014004b8aac9c2944abe24"
         },
         {
-          "@id": "_:Na2347270920b4aef84d3302314c7f647"
+          "@id": "_:N4facba5d7f244cd599af5e1813b3f8cb"
         },
         {
-          "@id": "_:N289da4ee42a046dcb21453339cb8f5f2"
+          "@id": "_:Nd97e29bff4b24d86af245b4db345fa7f"
         },
         {
-          "@id": "_:N312e0d78c6824edbaeffc1d14e4c7868"
+          "@id": "_:Na0551f2c8c354f23b2021111b896ebcd"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -125,7 +125,7 @@
       "sc:url": "http://www.bindingdb.org/"
     },
     {
-      "@id": "_:N4d2a92e27cb7482b9c7a9185475f2200",
+      "@id": "_:N9064403d3c1642b8ad9553290273bd3b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2580"
@@ -133,7 +133,7 @@
       "sc:name": "BindingDB Monomer ID"
     },
     {
-      "@id": "_:N91a90bda457f4f3db758299443bb3dd3",
+      "@id": "_:N4ead5160ad694f68ae2cb177b98f851e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -141,7 +141,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N4a114876d40f47dc8399a3bd7b9182c3",
+      "@id": "_:Nc94afce4808848fcbfe6185207602488",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -149,7 +149,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N1d0c15aa74524bfd9b1c0f10cabce6e1",
+      "@id": "_:Nf43dbe0384964d8bab77aebb0a373b10",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -157,7 +157,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N276851f224434f4b9250f532132afbc9",
+      "@id": "_:N01ded88d37c74a9e8b2d08e8d60b7e97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1009"
@@ -165,7 +165,7 @@
       "sc:name": "Protein name"
     },
     {
-      "@id": "_:Nc69ef71ac54140cbb6d12953c8223d21",
+      "@id": "_:N0438176a0b58457ab34d62c80fccdcc5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1009"
@@ -173,7 +173,7 @@
       "sc:name": "Protein name"
     },
     {
-      "@id": "_:Nf8ed41e99ecd47d998ed362b498f05e3",
+      "@id": "_:N8d0cdb1bc00d497a9d22bb2c83170846",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1187"
@@ -181,7 +181,7 @@
       "sc:name": "PubMed ID"
     },
     {
-      "@id": "_:N66da72e99d8f43f6abae65a1a31a3820",
+      "@id": "_:Nd69134ec3a244c248910a792cd2c96b6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -189,7 +189,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:Neabe6d2c256d489fb01f7d7585abae1c",
+      "@id": "_:Nbbff4d18d33341a7aa9a0f87f1b13ee5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0962"
@@ -200,7 +200,7 @@
       "sc:name": "Small molecule report"
     },
     {
-      "@id": "_:Nc340d07a4b6541adb55d09fd3772bf77",
+      "@id": "_:N95d51d54340247bd9fc1fa329b199ad1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -211,7 +211,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:N11bca95b34aa4c95a2bb42648f16d3ec",
+      "@id": "_:N06af5421760948aba3dd694e87707edb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0962"
@@ -222,7 +222,7 @@
       "sc:name": "Small molecule report"
     },
     {
-      "@id": "_:Ne758446fd2404d55b2b20be8977f115b",
+      "@id": "_:N191d15bf66cb4db18dcdd796b161bd88",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1566"
@@ -233,7 +233,7 @@
       "sc:name": "Protein-ligand interaction report"
     },
     {
-      "@id": "_:N223942e0f9f942478168a442d7039a28",
+      "@id": "_:Nd6ef25814b014004b8aac9c2944abe24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0962"
@@ -244,7 +244,7 @@
       "sc:name": "Small molecule report"
     },
     {
-      "@id": "_:Na2347270920b4aef84d3302314c7f647",
+      "@id": "_:N4facba5d7f244cd599af5e1813b3f8cb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0962"
@@ -255,7 +255,7 @@
       "sc:name": "Small molecule report"
     },
     {
-      "@id": "_:N289da4ee42a046dcb21453339cb8f5f2",
+      "@id": "_:Nd97e29bff4b24d86af245b4db345fa7f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1566"
@@ -266,7 +266,7 @@
       "sc:name": "Protein-ligand interaction report"
     },
     {
-      "@id": "_:N312e0d78c6824edbaeffc1d14e4c7868",
+      "@id": "_:Na0551f2c8c354f23b2021111b896ebcd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1566"

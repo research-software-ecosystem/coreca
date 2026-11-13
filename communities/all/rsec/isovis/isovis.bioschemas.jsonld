@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/isovis",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nad1901095e1248c9932b1aa9db70d194"
+        "@id": "_:N915221c842a1401080aad2c24c3a5bbd"
       },
       "bsc:output": {
-        "@id": "_:Nc4f1770de2924cb89c5b7008a0c82364"
+        "@id": "_:N5d2e9733f2f8434bbb9a0f4a6aadc565"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -67,7 +67,7 @@
       "sc:url": "https://isomix.org/isovis/"
     },
     {
-      "@id": "_:Nad1901095e1248c9932b1aa9db70d194",
+      "@id": "_:N915221c842a1401080aad2c24c3a5bbd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2877"
@@ -89,7 +89,7 @@
       "sc:name": "Protein complex"
     },
     {
-      "@id": "_:Nc4f1770de2924cb89c5b7008a0c82364",
+      "@id": "_:N5d2e9733f2f8434bbb9a0f4a6aadc565",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"

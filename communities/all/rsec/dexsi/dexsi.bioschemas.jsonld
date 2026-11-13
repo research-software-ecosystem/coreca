@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/dexsi",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nbd222356ae43418e8ee580eb2808a5d1"
+        "@id": "_:N661fa66f305040f9a6db4199ab1944eb"
       },
       "bsc:output": {
-        "@id": "_:N9a61f969e84545a09fb8616870ee927f"
+        "@id": "_:N217b1fb95e9d427e897cc10435dd814c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -83,7 +83,7 @@
       "sc:url": "https://github.com/DExSI/DExSI"
     },
     {
-      "@id": "_:Nbd222356ae43418e8ee580eb2808a5d1",
+      "@id": "_:N661fa66f305040f9a6db4199ab1944eb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -94,7 +94,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N9a61f969e84545a09fb8616870ee927f",
+      "@id": "_:N217b1fb95e9d427e897cc10435dd814c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"

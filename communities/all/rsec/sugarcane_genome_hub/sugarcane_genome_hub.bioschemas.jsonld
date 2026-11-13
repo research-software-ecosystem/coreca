@@ -36,15 +36,15 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0001-8869-3689",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://doi.org/10.1038/s41467-018-05051-5",
       "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://orcid.org/0000-0003-1849-1269",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8869-3689",
       "@type": "sc:Person"
     },
     {
@@ -55,21 +55,21 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nd2dfe4474a9a4f4da965f8c4fc5b8d9b"
+          "@id": "_:N45cdd45397cb4260afca667e339a8cd4"
         },
         {
-          "@id": "_:N03071ff9e43b42f3abdaaf76ea38d54b"
+          "@id": "_:Nc1872b925c1d4cf2a210a13340c00574"
         },
         {
-          "@id": "_:N48607d5374484857aa79cad9d7d5f718"
+          "@id": "_:N32204e516d484625ba6395b455dedbcf"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N23a054d055a546ba8c36bc82d66c9b7e"
+          "@id": "_:N28270ee944404b1eaca7ffc35fe10b8c"
         },
         {
-          "@id": "_:Neb1fa8212b8a4ed6b6c2c05564134fa6"
+          "@id": "_:N40f45369f2464531aa381de135c3d087"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -112,7 +112,7 @@
       "sc:url": "https://sugarcane-genome.cirad.fr/"
     },
     {
-      "@id": "_:Nd2dfe4474a9a4f4da965f8c4fc5b8d9b",
+      "@id": "_:N45cdd45397cb4260afca667e339a8cd4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -120,7 +120,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N03071ff9e43b42f3abdaaf76ea38d54b",
+      "@id": "_:Nc1872b925c1d4cf2a210a13340c00574",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -128,7 +128,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:N48607d5374484857aa79cad9d7d5f718",
+      "@id": "_:N32204e516d484625ba6395b455dedbcf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -136,7 +136,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N23a054d055a546ba8c36bc82d66c9b7e",
+      "@id": "_:N28270ee944404b1eaca7ffc35fe10b8c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -144,7 +144,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Neb1fa8212b8a4ed6b6c2c05564134fa6",
+      "@id": "_:N40f45369f2464531aa381de135c3d087",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"

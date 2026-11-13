@@ -44,20 +44,20 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N8056e80b25a24669b0401c7aa79b8f0f"
+          "@id": "_:N76630c58a4894603874db8ead906c352"
         },
         {
-          "@id": "_:N37b06227da484de9bcbcaa29cb32c594"
+          "@id": "_:Nd4a5f015d7334798bc010a3a7beb8689"
         },
         {
-          "@id": "_:N6092dc041a0043578a6b1eaa26397fe1"
+          "@id": "_:Nf29cbe624d9c429aa4f20627a576b57d"
         },
         {
-          "@id": "_:Nf425c1d1d0d349f9b1c692b741cf4300"
+          "@id": "_:Nb1c76701948a454998dca37a06a58327"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nab078f1280214575866486238e606189"
+        "@id": "_:N168743fec0d14feab8332bcecbb59048"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Plug-in",
@@ -89,7 +89,7 @@
         }
       ],
       "sc:isAccessibleForFree": true,
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "MapScape",
       "sc:operatingSystem": [
         "Linux",
@@ -103,7 +103,7 @@
       "sc:url": "https://bioconductor.org/packages/mapscape"
     },
     {
-      "@id": "_:N8056e80b25a24669b0401c7aa79b8f0f",
+      "@id": "_:N76630c58a4894603874db8ead906c352",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0920"
@@ -111,7 +111,7 @@
       "sc:name": "Genotype/phenotype report"
     },
     {
-      "@id": "_:N37b06227da484de9bcbcaa29cb32c594",
+      "@id": "_:Nd4a5f015d7334798bc010a3a7beb8689",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3546"
@@ -119,7 +119,7 @@
       "sc:name": "Image metadata"
     },
     {
-      "@id": "_:N6092dc041a0043578a6b1eaa26397fe1",
+      "@id": "_:Nf29cbe624d9c429aa4f20627a576b57d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2523"
@@ -127,7 +127,7 @@
       "sc:name": "Phylogenetic data"
     },
     {
-      "@id": "_:Nf425c1d1d0d349f9b1c692b741cf4300",
+      "@id": "_:Nb1c76701948a454998dca37a06a58327",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -135,7 +135,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:Nab078f1280214575866486238e606189",
+      "@id": "_:N168743fec0d14feab8332bcecbb59048",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

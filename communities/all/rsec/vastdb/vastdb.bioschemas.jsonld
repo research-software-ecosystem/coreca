@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/vastdb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N0eaccb379d2c40f8b2d5ac7f8af1da13"
+        "@id": "_:N3a382abe037c4936b3207758d1509b4d"
       },
       "bsc:output": {
-        "@id": "_:N7a6e61c39f804f1db98de65b7658700f"
+        "@id": "_:N925b3e8eb11740aca3f7a22f1b2727ea"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -84,7 +84,7 @@
       "sc:url": "http://vastdb.crg.eu/"
     },
     {
-      "@id": "_:N0eaccb379d2c40f8b2d5ac7f8af1da13",
+      "@id": "_:N3a382abe037c4936b3207758d1509b4d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -95,7 +95,7 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "_:N7a6e61c39f804f1db98de65b7658700f",
+      "@id": "_:N925b3e8eb11740aca3f7a22f1b2727ea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"

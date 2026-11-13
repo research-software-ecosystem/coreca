@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:output": [
         {
-          "@id": "_:Neb20a43ab8bc41cf839f374d3591ab6d"
+          "@id": "_:Nd3ba1df276e149f2bb0be3c2317e8650"
         },
         {
-          "@id": "_:N206c4a5f5f654193a8cf6fe279daca55"
+          "@id": "_:N5f3e05f8b375437d8607feb50d133122"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -81,7 +81,7 @@
       "sc:url": "https://escher.github.io/"
     },
     {
-      "@id": "_:Neb20a43ab8bc41cf839f374d3591ab6d",
+      "@id": "_:Nd3ba1df276e149f2bb0be3c2317e8650",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -97,7 +97,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N206c4a5f5f654193a8cf6fe279daca55",
+      "@id": "_:N5f3e05f8b375437d8607feb50d133122",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2984"

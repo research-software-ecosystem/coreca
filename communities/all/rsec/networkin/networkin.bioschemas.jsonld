@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N615668a527734c08bdef658b12b678e7"
+          "@id": "_:N6dead99ccd4a4b42ace897893ec987bc"
         },
         {
-          "@id": "_:N4820c255970f40f6851a0d14f8d3975b"
+          "@id": "_:Nb87049d2d14b42ebb4599a70c4f38ce3"
         }
       ],
       "bsc:output": {
-        "@id": "_:N8993156287d94473a48bb9fbc5f71688"
+        "@id": "_:N41c4452c5bda4a04a84300dc00332276"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -84,7 +84,7 @@
       "sc:url": "http://www.networkin.info/"
     },
     {
-      "@id": "_:N615668a527734c08bdef658b12b678e7",
+      "@id": "_:N6dead99ccd4a4b42ace897893ec987bc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -95,7 +95,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:N4820c255970f40f6851a0d14f8d3975b",
+      "@id": "_:Nb87049d2d14b42ebb4599a70c4f38ce3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2775"
@@ -106,7 +106,7 @@
       "sc:name": "Kinase name"
     },
     {
-      "@id": "_:N8993156287d94473a48bb9fbc5f71688",
+      "@id": "_:N41c4452c5bda4a04a84300dc00332276",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

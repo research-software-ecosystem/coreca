@@ -20,14 +20,14 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 6903,
+                            "cit_count": 7006,
                             "citations": [
                                 {
                                     "count": 1,
                                     "year": 2009
                                 },
                                 {
-                                    "count": 18,
+                                    "count": 19,
                                     "year": -1
                                 },
                                 {
@@ -59,27 +59,27 @@
                                     "year": 2016
                                 },
                                 {
-                                    "count": 284,
+                                    "count": 287,
                                     "year": 2017
                                 },
                                 {
-                                    "count": 290,
+                                    "count": 294,
                                     "year": 2018
                                 },
                                 {
-                                    "count": 309,
+                                    "count": 318,
                                     "year": 2019
                                 },
                                 {
-                                    "count": 428,
+                                    "count": 439,
                                     "year": 2020
                                 },
                                 {
-                                    "count": 521,
+                                    "count": 533,
                                     "year": 2021
                                 },
                                 {
-                                    "count": 631,
+                                    "count": 635,
                                     "year": 2022
                                 },
                                 {
@@ -87,15 +87,15 @@
                                     "year": 2023
                                 },
                                 {
-                                    "count": 817,
-                                    "year": 2026
-                                },
-                                {
                                     "count": 855,
                                     "year": 2024
                                 },
                                 {
-                                    "count": 923,
+                                    "count": 875,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 924,
                                     "year": 2025
                                 }
                             ],

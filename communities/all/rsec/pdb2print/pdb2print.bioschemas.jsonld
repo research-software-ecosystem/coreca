@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.5281/zenodo.21599702",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2177-5206",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/pdb2print",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,10 +51,10 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N18551124552f4e76ac0a19c3225122cc"
+          "@id": "_:Nd4fa53fe2ea84a6c9d286e1d0eb960cb"
         },
         {
-          "@id": "_:N2212f06be19141a9bd91bfbddae2817b"
+          "@id": "_:N67993f8b70ee46609d82429361a024b7"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,7 +100,7 @@
       "sc:url": "https://pdb2print.org"
     },
     {
-      "@id": "_:N18551124552f4e76ac0a19c3225122cc",
+      "@id": "_:Nd4fa53fe2ea84a6c9d286e1d0eb960cb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1459"
@@ -108,7 +116,7 @@
       "sc:name": "Nucleic acid structure"
     },
     {
-      "@id": "_:N2212f06be19141a9bd91bfbddae2817b",
+      "@id": "_:N67993f8b70ee46609d82429361a024b7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -122,14 +130,6 @@
         }
       ],
       "sc:name": "Protein structure"
-    },
-    {
-      "@id": "https://doi.org/10.5281/zenodo.21599702",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-2177-5206",
-      "@type": "sc:Person"
     }
   ]
 }

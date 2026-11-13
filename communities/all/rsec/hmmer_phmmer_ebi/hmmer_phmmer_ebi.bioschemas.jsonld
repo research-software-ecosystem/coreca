@@ -36,23 +36,27 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkr367",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/hmmer_phmmer_ebi",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": [
         {
-          "@id": "_:N3a1970f48a9e4608be46c3bf976f9659"
+          "@id": "_:Nad5e46c99861426faac011d535ba6c86"
         },
         {
-          "@id": "_:N7420a97d11a1478a9869c055a8bb22a8"
+          "@id": "_:N1ff2afe1622d4d639b28d5211004fcc4"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nae52e2ab0dd14514979afb31124cb02e"
+          "@id": "_:N106cf26ba8bc4aa88fdb073b9121b18a"
         },
         {
-          "@id": "_:N6bd29f4998b0488093b3090afefb5c20"
+          "@id": "_:N9d1270c879d24fc194900abda9826e82"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -115,7 +119,7 @@
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/pfa/hmmer3_phmmer"
     },
     {
-      "@id": "_:N3a1970f48a9e4608be46c3bf976f9659",
+      "@id": "_:Nad5e46c99861426faac011d535ba6c86",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
@@ -123,7 +127,7 @@
       "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:N7420a97d11a1478a9869c055a8bb22a8",
+      "@id": "_:N1ff2afe1622d4d639b28d5211004fcc4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -131,7 +135,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:Nae52e2ab0dd14514979afb31124cb02e",
+      "@id": "_:N106cf26ba8bc4aa88fdb073b9121b18a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -139,7 +143,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:N6bd29f4998b0488093b3090afefb5c20",
+      "@id": "_:N9d1270c879d24fc194900abda9826e82",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -148,10 +152,6 @@
         "@id": "edam:format_2066"
       },
       "sc:name": "Sequence alignment"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkr367",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkae241",

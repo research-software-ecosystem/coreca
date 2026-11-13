@@ -44,48 +44,48 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N025a6477e9cd461e997b4f9c29c376c5"
+          "@id": "_:Ndb079e86fb6e43e9ba4326ce8594a6f2"
         },
         {
-          "@id": "_:N38488b2b55904f739fbcdf676127629e"
+          "@id": "_:N25f5334846af49b3a2280c43229bbf8b"
         },
         {
-          "@id": "_:Nf1145e9c36fd457089c8cd3b67e8cb18"
+          "@id": "_:N46b598dc40b743dbbb8ae42e2d69e6a4"
         },
         {
-          "@id": "_:Ncc6abbcd72b84ab09bfd1d3654397e4b"
+          "@id": "_:Ned2275ac983745f69c83ca7a34f1c17c"
         },
         {
-          "@id": "_:N6fc2bbc7c23c4a7e980ba6b66ed32d3e"
+          "@id": "_:N72109a83a0ab472c9711cb6563f69f62"
         },
         {
-          "@id": "_:N8d87145c2bfc4494b5330b1d951952a7"
+          "@id": "_:Nf3f59f2ed11f42eeb18810834f0086b5"
         },
         {
-          "@id": "_:Naecb05ec277748d99a9f9609ac65a02d"
+          "@id": "_:N2593ecfdf26c4f7aadf6351e7ccdf5e2"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N13ef35678b5144dc9460b5bc0723535d"
+          "@id": "_:N42ae4e8aa1d1407dba93f0ebaba89fba"
         },
         {
-          "@id": "_:N20d1a58e54a5489fa5aab0766bbf9609"
+          "@id": "_:N99d563175d0b4331ba1f5075d6639f19"
         },
         {
-          "@id": "_:N80aa45a5dfcb4801b1ba30cc2042f915"
+          "@id": "_:Nc99588042d014918b98d98d6547dacf3"
         },
         {
-          "@id": "_:N6e8c12a3a76e4f4391a46f55c5fa390b"
+          "@id": "_:N9e6652c264ea4ed6a95a46c0656d8c4a"
         },
         {
-          "@id": "_:N6280b476ee964d91bc74261ebf8c678a"
+          "@id": "_:N6a1a0562ad5a4068815cd01bcac7bd93"
         },
         {
-          "@id": "_:N89d3523c20c749a9afbb7ae7bed24c38"
+          "@id": "_:N62414888dd054f4bb16a384eff023228"
         },
         {
-          "@id": "_:N6206403c10ba4f96af0cfc411313741a"
+          "@id": "_:Nb4650b488fae4bb4bb8c1d7caa6e69d1"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -116,7 +116,7 @@
       "sc:url": "http://www.expasy.org/ch2d/"
     },
     {
-      "@id": "_:N025a6477e9cd461e997b4f9c29c376c5",
+      "@id": "_:Ndb079e86fb6e43e9ba4326ce8594a6f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0989"
@@ -124,7 +124,7 @@
       "sc:name": "Protein identifier"
     },
     {
-      "@id": "_:N38488b2b55904f739fbcdf676127629e",
+      "@id": "_:N25f5334846af49b3a2280c43229bbf8b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2791"
@@ -132,7 +132,7 @@
       "sc:name": "Reference map name (SWISS-2DPAGE)"
     },
     {
-      "@id": "_:Nf1145e9c36fd457089c8cd3b67e8cb18",
+      "@id": "_:N46b598dc40b743dbbb8ae42e2d69e6a4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2791"
@@ -140,7 +140,7 @@
       "sc:name": "Reference map name (SWISS-2DPAGE)"
     },
     {
-      "@id": "_:Ncc6abbcd72b84ab09bfd1d3654397e4b",
+      "@id": "_:Ned2275ac983745f69c83ca7a34f1c17c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2374"
@@ -148,7 +148,7 @@
       "sc:name": "Spot serial number"
     },
     {
-      "@id": "_:N6fc2bbc7c23c4a7e980ba6b66ed32d3e",
+      "@id": "_:N72109a83a0ab472c9711cb6563f69f62",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2374"
@@ -156,7 +156,7 @@
       "sc:name": "Spot serial number"
     },
     {
-      "@id": "_:N8d87145c2bfc4494b5330b1d951952a7",
+      "@id": "_:Nf3f59f2ed11f42eeb18810834f0086b5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -164,7 +164,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:Naecb05ec277748d99a9f9609ac65a02d",
+      "@id": "_:N2593ecfdf26c4f7aadf6351e7ccdf5e2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -172,7 +172,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N13ef35678b5144dc9460b5bc0723535d",
+      "@id": "_:N42ae4e8aa1d1407dba93f0ebaba89fba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"
@@ -183,7 +183,7 @@
       "sc:name": "Experiment report"
     },
     {
-      "@id": "_:N20d1a58e54a5489fa5aab0766bbf9609",
+      "@id": "_:N99d563175d0b4331ba1f5075d6639f19",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"
@@ -194,7 +194,7 @@
       "sc:name": "Experiment report"
     },
     {
-      "@id": "_:N80aa45a5dfcb4801b1ba30cc2042f915",
+      "@id": "_:Nc99588042d014918b98d98d6547dacf3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"
@@ -205,7 +205,7 @@
       "sc:name": "Experiment report"
     },
     {
-      "@id": "_:N6e8c12a3a76e4f4391a46f55c5fa390b",
+      "@id": "_:N9e6652c264ea4ed6a95a46c0656d8c4a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"
@@ -216,7 +216,7 @@
       "sc:name": "Experiment report"
     },
     {
-      "@id": "_:N6280b476ee964d91bc74261ebf8c678a",
+      "@id": "_:N6a1a0562ad5a4068815cd01bcac7bd93",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"
@@ -227,7 +227,7 @@
       "sc:name": "Experiment report"
     },
     {
-      "@id": "_:N89d3523c20c749a9afbb7ae7bed24c38",
+      "@id": "_:N62414888dd054f4bb16a384eff023228",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"
@@ -238,7 +238,7 @@
       "sc:name": "Experiment report"
     },
     {
-      "@id": "_:N6206403c10ba4f96af0cfc411313741a",
+      "@id": "_:Nb4650b488fae4bb4bb8c1d7caa6e69d1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"

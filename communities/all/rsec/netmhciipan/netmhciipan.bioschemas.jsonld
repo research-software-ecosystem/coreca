@@ -50,10 +50,10 @@
         "@id": "http://orcid.org/0000-0001-7885-4311"
       },
       "bsc:input": {
-        "@id": "_:Na5a7951a7fb14909856a0f49dcd16c0e"
+        "@id": "_:N1058ee546a5948ef82e19c4e66f60a7c"
       },
       "bsc:output": {
-        "@id": "_:N50b1c1f286dd469f9030ac0e39abb90f"
+        "@id": "_:Na1754db184fd4f7e9f2e115a4ccc8749"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -98,7 +98,7 @@
       "sc:url": "http://www.cbs.dtu.dk/services/NetMHCIIpan/"
     },
     {
-      "@id": "_:Na5a7951a7fb14909856a0f49dcd16c0e",
+      "@id": "_:N1058ee546a5948ef82e19c4e66f60a7c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -109,7 +109,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N50b1c1f286dd469f9030ac0e39abb90f",
+      "@id": "_:Na1754db184fd4f7e9f2e115a4ccc8749",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

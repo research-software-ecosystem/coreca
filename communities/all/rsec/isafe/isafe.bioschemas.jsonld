@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.4606",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/isafe",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ali Akbari",
       "bsc:input": {
-        "@id": "_:Nd4cdef3b67a448c79270325f02134092"
+        "@id": "_:Nbec384238fa3474489780990b4119772"
       },
       "bsc:output": {
-        "@id": "_:N0703d7a4962742288f2b63b2a9e0491a"
+        "@id": "_:N6539251d952640d6be7501c668eec4c9"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -92,7 +88,7 @@
       "sc:url": "https://github.com/alek0991/iSAFE"
     },
     {
-      "@id": "_:Nd4cdef3b67a448c79270325f02134092",
+      "@id": "_:Nbec384238fa3474489780990b4119772",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -103,7 +99,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N0703d7a4962742288f2b63b2a9e0491a",
+      "@id": "_:N6539251d952640d6be7501c668eec4c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -112,6 +108,10 @@
         "@id": "edam:format_3475"
       },
       "sc:name": "Matrix"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.4606",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

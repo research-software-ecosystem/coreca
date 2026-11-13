@@ -36,21 +36,21 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkae793",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://orcid.org/0000-0002-7064-7294",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkae793",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/irescue",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N5e3414475cab4063b553f6001fe4da12"
+        "@id": "_:N4035daf0330c4cd0b52541102447a733"
       },
       "bsc:output": {
-        "@id": "_:N6b868939a0894a44bb79c92f4490d2ef"
+        "@id": "_:Nf043f3548a724ab69343f6831e23e35f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -95,7 +95,7 @@
       "sc:url": "https://github.com/bodegalab/irescue"
     },
     {
-      "@id": "_:N5e3414475cab4063b553f6001fe4da12",
+      "@id": "_:N4035daf0330c4cd0b52541102447a733",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -106,7 +106,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N6b868939a0894a44bb79c92f4490d2ef",
+      "@id": "_:Nf043f3548a724ab69343f6831e23e35f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3917"

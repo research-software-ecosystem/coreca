@@ -36,30 +36,26 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.3252",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/pint",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Olli-Pekka Huovilainen",
       "bsc:input": [
         {
-          "@id": "_:Ndbafde367cf44f8b881fb0b89dbe0a65"
+          "@id": "_:N45c589ba5a874c5e9b67d681c845fdee"
         },
         {
-          "@id": "_:N0af4e738d38f4055927ce81d2346874f"
+          "@id": "_:Nbe1a517de7554cefb1dffef17f206fa4"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N47b30668209c4a2380d6208fff8721bb"
+          "@id": "_:Nc41df436c43b40168878374d5964ad0b"
         },
         {
-          "@id": "_:N7bba80a851b344c1a713d234d0bff0b4"
+          "@id": "_:N777a227d6b8e4ba7a035333069600e08"
         },
         {
-          "@id": "_:N7de6f22941af40dcb097415de217f5d5"
+          "@id": "_:Nc7dc6183fa234fbf889d679d7874798e"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -117,7 +113,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/pint.html"
     },
     {
-      "@id": "_:Ndbafde367cf44f8b881fb0b89dbe0a65",
+      "@id": "_:N45c589ba5a874c5e9b67d681c845fdee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -128,7 +124,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N0af4e738d38f4055927ce81d2346874f",
+      "@id": "_:Nbe1a517de7554cefb1dffef17f206fa4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3115"
@@ -139,7 +135,7 @@
       "sc:name": "Microarray metadata"
     },
     {
-      "@id": "_:N47b30668209c4a2380d6208fff8721bb",
+      "@id": "_:Nc41df436c43b40168878374d5964ad0b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -155,7 +151,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N7bba80a851b344c1a713d234d0bff0b4",
+      "@id": "_:N777a227d6b8e4ba7a035333069600e08",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"
@@ -171,7 +167,7 @@
       "sc:name": "Processed microarray data"
     },
     {
-      "@id": "_:N7de6f22941af40dcb097415de217f5d5",
+      "@id": "_:Nc7dc6183fa234fbf889d679d7874798e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"
@@ -185,6 +181,10 @@
         }
       ],
       "sc:name": "Score"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

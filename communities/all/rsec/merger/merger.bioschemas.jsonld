@@ -36,14 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1017/CBO9781139151399",
       "@type": "sc:CreativeWork"
     },
@@ -52,21 +44,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N7b005706c6944085a2801f33d412024f"
+          "@id": "_:N7205cd72db9440afabbf3b86b67731f1"
         },
         {
-          "@id": "_:N1e8a9ab13774444881444e0cd541340c"
+          "@id": "_:Nc14a3da4d0b04df78e72eefe8bbf3336"
         },
         {
-          "@id": "_:N91e1aa87cbb5497d890242f07aede276"
+          "@id": "_:N6c42f61eb68e4688ab708bcf92ccd58d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N94f5f0c5514d4ec3848bdb5f8c46951a"
+          "@id": "_:N29ba725dd3404289bda9aa3344d7c47d"
         },
         {
-          "@id": "_:N36bda39874f84633af387feefc18530c"
+          "@id": "_:Nc6263b158c1b418185dbe9490a59faec"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -132,7 +124,7 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/merger.html"
     },
     {
-      "@id": "_:N7b005706c6944085a2801f33d412024f",
+      "@id": "_:N7205cd72db9440afabbf3b86b67731f1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0874"
@@ -140,7 +132,7 @@
       "sc:name": "Comparison matrix"
     },
     {
-      "@id": "_:N1e8a9ab13774444881444e0cd541340c",
+      "@id": "_:Nc14a3da4d0b04df78e72eefe8bbf3336",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -148,7 +140,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N91e1aa87cbb5497d890242f07aede276",
+      "@id": "_:N6c42f61eb68e4688ab708bcf92ccd58d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -156,7 +148,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N94f5f0c5514d4ec3848bdb5f8c46951a",
+      "@id": "_:N29ba725dd3404289bda9aa3344d7c47d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"
@@ -164,12 +156,20 @@
       "sc:name": "Sequence alignment (pair)"
     },
     {
-      "@id": "_:N36bda39874f84633af387feefc18530c",
+      "@id": "_:Nc6263b158c1b418185dbe9490a59faec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
       },
       "sc:name": "Sequence record"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

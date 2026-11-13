@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "http://orcid.org/0000-0003-4694-3883",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/clima_2",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -46,13 +50,13 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Nffb63cc407b3405faf8fb2814cec6201"
+          "@id": "_:N4c855bf310bb475a887acdef2618e382"
         },
         {
-          "@id": "_:N939e0088bbf842f3b07e852d082a7555"
+          "@id": "_:N615d9af0daec42a19a7c94d2bd60a22c"
         },
         {
-          "@id": "_:N93a8e8f6ff9e496493f038e8d8ec3f20"
+          "@id": "_:Nb1e6888e7cc6474995b3af4ed14fd356"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -102,7 +106,7 @@
       "sc:url": "http://bioinformatics.hsanmartino.it/clima2/"
     },
     {
-      "@id": "_:Nffb63cc407b3405faf8fb2814cec6201",
+      "@id": "_:N4c855bf310bb475a887acdef2618e382",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2892"
@@ -110,7 +114,7 @@
       "sc:name": "Cell type name"
     },
     {
-      "@id": "_:N939e0088bbf842f3b07e852d082a7555",
+      "@id": "_:N615d9af0daec42a19a7c94d2bd60a22c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1691"
@@ -118,7 +122,7 @@
       "sc:name": "Email address"
     },
     {
-      "@id": "_:N93a8e8f6ff9e496493f038e8d8ec3f20",
+      "@id": "_:Nb1e6888e7cc6474995b3af4ed14fd356",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -131,10 +135,6 @@
     {
       "@id": "https://doi.org/10.1093/nar/gkn730",
       "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "http://orcid.org/0000-0003-4694-3883",
-      "@type": "sc:Person"
     }
   ]
 }

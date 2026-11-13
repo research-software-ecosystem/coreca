@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/compomics-rover",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N02fcda08d5bf475692a14bab3a385839"
+        "@id": "_:N49b5b47da35242cabc5e44966a841c7f"
       },
       "bsc:output": {
-        "@id": "_:Nab772e9849144b7ca4633ff8221f8431"
+        "@id": "_:Nac075e53b3ab4e969c7115ef3189e2ea"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -76,7 +76,7 @@
       "sc:url": "https://code.google.com/p/compomics-rover/"
     },
     {
-      "@id": "_:N02fcda08d5bf475692a14bab3a385839",
+      "@id": "_:N49b5b47da35242cabc5e44966a841c7f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -84,7 +84,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nab772e9849144b7ca4633ff8221f8431",
+      "@id": "_:Nac075e53b3ab4e969c7115ef3189e2ea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/acs.jcim.5b00588",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1021/acs.jcim.5b00210",
       "@type": "sc:CreativeWork"
     },
@@ -52,36 +48,36 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Nd04e3be51c76495cb4c8ba0897c52f26"
+          "@id": "_:Nadfbd9695ad4470cbe010a1f9ced5306"
         },
         {
-          "@id": "_:N98ae9662b97a45bfb1fa49e220588131"
+          "@id": "_:Nd357b9b78ca44a75859b88c387889d49"
         },
         {
-          "@id": "_:Nb6a54809b2c445de8b15d507a5f2da15"
+          "@id": "_:Nf9313d05dc304f719fcefe1a0322673c"
         },
         {
-          "@id": "_:Neba6c39bb1d04de594ca9dd21cc75c8d"
+          "@id": "_:N0a0d3c50440a49e99042c1e44225086d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N4c284dbb36134ab7a1c09fda053f7ff2"
+          "@id": "_:N15d560b3508a4c5f98916faa72161893"
         },
         {
-          "@id": "_:N7e56318cb4f341a798ed21dfc3b39a02"
+          "@id": "_:Ned2a732216ae404aa9d408bbc2c13d8b"
         },
         {
-          "@id": "_:Nd26706de3dc14b9aac4b01881e00ac0e"
+          "@id": "_:N06cbf84c4221430f9693c531b3f5a6af"
         },
         {
-          "@id": "_:Nd47d8742acba489080f1e87df8b35150"
+          "@id": "_:Ndf377d5711934a29b78a5cbf05d9302d"
         },
         {
-          "@id": "_:N3389135a9f9f4aefa98426e1d8f76400"
+          "@id": "_:N7a275c66452c4ef2bfd016234bad71e4"
         },
         {
-          "@id": "_:N9713baba56994f4b9c5da22e7ae4a26f"
+          "@id": "_:Nb9297cc2027540dca4b78b1fe4da7bd6"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -156,7 +152,7 @@
       "sc:url": "https://www.zbh.uni-hamburg.de/en/forschung/amd/software/siena.html"
     },
     {
-      "@id": "_:Nd04e3be51c76495cb4c8ba0897c52f26",
+      "@id": "_:Nadfbd9695ad4470cbe010a1f9ced5306",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -164,7 +160,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N98ae9662b97a45bfb1fa49e220588131",
+      "@id": "_:Nd357b9b78ca44a75859b88c387889d49",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -175,7 +171,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:Nb6a54809b2c445de8b15d507a5f2da15",
+      "@id": "_:Nf9313d05dc304f719fcefe1a0322673c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1461"
@@ -191,7 +187,7 @@
       "sc:name": "Protein-ligand complex"
     },
     {
-      "@id": "_:Neba6c39bb1d04de594ca9dd21cc75c8d",
+      "@id": "_:N0a0d3c50440a49e99042c1e44225086d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -202,7 +198,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:N4c284dbb36134ab7a1c09fda053f7ff2",
+      "@id": "_:N15d560b3508a4c5f98916faa72161893",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1497"
@@ -210,7 +206,7 @@
       "sc:name": "Root-mean-square deviation"
     },
     {
-      "@id": "_:N7e56318cb4f341a798ed21dfc3b39a02",
+      "@id": "_:Ned2a732216ae404aa9d408bbc2c13d8b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1384"
@@ -218,7 +214,7 @@
       "sc:name": "Sequence alignment (protein)"
     },
     {
-      "@id": "_:Nd26706de3dc14b9aac4b01881e00ac0e",
+      "@id": "_:N06cbf84c4221430f9693c531b3f5a6af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -229,7 +225,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:Nd47d8742acba489080f1e87df8b35150",
+      "@id": "_:Ndf377d5711934a29b78a5cbf05d9302d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -240,7 +236,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N3389135a9f9f4aefa98426e1d8f76400",
+      "@id": "_:N7a275c66452c4ef2bfd016234bad71e4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1481"
@@ -251,7 +247,7 @@
       "sc:name": "Protein structure alignment"
     },
     {
-      "@id": "_:N9713baba56994f4b9c5da22e7ae4a26f",
+      "@id": "_:Nb9297cc2027540dca4b78b1fe4da7bd6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -260,6 +256,10 @@
         "@id": "edam:format_3814"
       },
       "sc:name": "Small molecule structure"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acs.jcim.5b00588",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

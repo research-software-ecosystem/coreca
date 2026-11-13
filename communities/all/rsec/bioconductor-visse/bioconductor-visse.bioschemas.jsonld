@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.18129/B9.bioc.vissE",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/bioconductor-visse",
       "@type": "sc:SoftwareApplication",
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -53,7 +49,7 @@
       },
       "sc:contributor": "Ahmed Mohamed",
       "sc:description": "This package enables the interpretation and analysis of results from a gene set enrichment analysis using network-based and text-mining approaches. Most enrichment analyses result in large lists of significant gene sets that are difficult to interpret. Tools in this package help build a similarity-based network of significant gene sets from a gene set enrichment analysis that can then be investigated for their biological function using text-mining approaches.",
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "vissE",
       "sc:operatingSystem": [
         "Linux",
@@ -65,6 +61,10 @@
       },
       "sc:softwareVersion": "1.20.0",
       "sc:url": "https://bioconductor.org/packages/vissE"
+    },
+    {
+      "@id": "https://doi.org/10.18129/B9.bioc.vissE",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

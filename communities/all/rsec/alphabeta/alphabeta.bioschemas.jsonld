@@ -80,7 +80,7 @@
           "@id": "edam:operation_3799"
         }
       ],
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "AlphaBeta",
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/AlphaBeta"

@@ -40,21 +40,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Na458c71a7d1146d09791232dfebb1e3d"
+          "@id": "_:N9f5c3453fbdb44a48011a3dc35f54070"
         },
         {
-          "@id": "_:N6850c2f951d4426ea1eb4edbb0caef26"
+          "@id": "_:N8abccefc25f74b7d9a04e969aa412bae"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N592e88d3080c4832b913a7fe05110e76"
+          "@id": "_:Nc3e12bc3bd484bb5913c8c0c22d9d19a"
         },
         {
-          "@id": "_:Nc1e05b6e85ae41c19673b388bca4d278"
+          "@id": "_:N431548c631ab4fcbb1ebb4271634c493"
         },
         {
-          "@id": "_:N9c5140dd1b424c5499ab5dfd0c463100"
+          "@id": "_:N9065fb1e3ae348c4a9654cebc9d7e7d1"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -71,7 +71,7 @@
       "sc:url": "https://zoonomiaproject.org/"
     },
     {
-      "@id": "_:Na458c71a7d1146d09791232dfebb1e3d",
+      "@id": "_:N9f5c3453fbdb44a48011a3dc35f54070",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2909"
@@ -79,7 +79,7 @@
       "sc:name": "Organism name"
     },
     {
-      "@id": "_:N6850c2f951d4426ea1eb4edbb0caef26",
+      "@id": "_:N8abccefc25f74b7d9a04e969aa412bae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1045"
@@ -87,7 +87,7 @@
       "sc:name": "Species name"
     },
     {
-      "@id": "_:N592e88d3080c4832b913a7fe05110e76",
+      "@id": "_:Nc3e12bc3bd484bb5913c8c0c22d9d19a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -95,7 +95,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:Nc1e05b6e85ae41c19673b388bca4d278",
+      "@id": "_:N431548c631ab4fcbb1ebb4271634c493",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -103,7 +103,7 @@
       "sc:name": "Nucleic acid sequence alignment"
     },
     {
-      "@id": "_:N9c5140dd1b424c5499ab5dfd0c463100",
+      "@id": "_:N9065fb1e3ae348c4a9654cebc9d7e7d1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0925"

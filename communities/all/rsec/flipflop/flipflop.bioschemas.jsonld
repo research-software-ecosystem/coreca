@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Elsa Bernard",
       "bsc:input": {
-        "@id": "_:N3cdbd7adbddc4e879b843c87a8ef8a72"
+        "@id": "_:N4a96d272d55841b38fff10a8335e8537"
       },
       "bsc:output": {
-        "@id": "_:Na1893ba701ba4a809d6f278b26d254e0"
+        "@id": "_:Naa0f5a2a78334552a59a7cc609c32986"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -99,7 +99,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/flipflop.html"
     },
     {
-      "@id": "_:N3cdbd7adbddc4e879b843c87a8ef8a72",
+      "@id": "_:N4a96d272d55841b38fff10a8335e8537",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -110,7 +110,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Na1893ba701ba4a809d6f278b26d254e0",
+      "@id": "_:Naa0f5a2a78334552a59a7cc609c32986",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"

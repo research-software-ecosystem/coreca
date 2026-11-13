@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1021/acs.jproteome.9b00566",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1101/734327",
       "@type": "sc:CreativeWork"
     },
@@ -84,10 +88,6 @@
         "Windows"
       ],
       "sc:url": "https://OpenMS.de/epifany"
-    },
-    {
-      "@id": "https://doi.org/10.1021/acs.jproteome.9b00566",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

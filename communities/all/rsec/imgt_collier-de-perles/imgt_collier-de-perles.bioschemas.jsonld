@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/IMGT_Collier-de-Perles",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc89c1bc7cd5846deb60255c2bbfbe939"
+        "@id": "_:Na479ace346a84c2eaa219e1485ab8053"
       },
       "bsc:output": {
-        "@id": "_:N6ab62eaf0bd244d486b4f82b8d3643d0"
+        "@id": "_:Nfaaab054c73b4c6cab20533dafbeb171"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -77,7 +77,7 @@
       "sc:url": "http://www.imgt.org/3Dstructure-DB/cgi/Collier-de-Perles.cgi"
     },
     {
-      "@id": "_:Nc89c1bc7cd5846deb60255c2bbfbe939",
+      "@id": "_:Na479ace346a84c2eaa219e1485ab8053",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -88,7 +88,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N6ab62eaf0bd244d486b4f82b8d3643d0",
+      "@id": "_:Nfaaab054c73b4c6cab20533dafbeb171",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

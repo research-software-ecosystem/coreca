@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/dima",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf9799af6a645460ba90078ecad2e3f40"
+        "@id": "_:N20e88cd4ff7e41bda6c0b43b09dace8b"
       },
       "bsc:output": {
-        "@id": "_:N998bb7a4a0884cafa0c03ab2f9b4d214"
+        "@id": "_:N339f1b52f19148129373fd1fbdd3f30a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -78,7 +78,7 @@
       "sc:url": "http://webclu.bio.wzw.tum.de/dima2/"
     },
     {
-      "@id": "_:Nf9799af6a645460ba90078ecad2e3f40",
+      "@id": "_:N20e88cd4ff7e41bda6c0b43b09dace8b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1138"
@@ -86,7 +86,7 @@
       "sc:name": "Pfam accession number"
     },
     {
-      "@id": "_:N998bb7a4a0884cafa0c03ab2f9b4d214",
+      "@id": "_:N339f1b52f19148129373fd1fbdd3f30a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"

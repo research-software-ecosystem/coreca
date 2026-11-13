@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkx391",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/geseq",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -44,7 +48,7 @@
         "Pascal Lehwark"
       ],
       "bsc:input": {
-        "@id": "_:N76710fe5f5e64eabab335795ae85e45b"
+        "@id": "_:N983b21e771654fee95e3de902cd65d85"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -88,7 +92,7 @@
       "sc:url": "https://chlorobox.mpimp-golm.mpg.de/geseq.html"
     },
     {
-      "@id": "_:N76710fe5f5e64eabab335795ae85e45b",
+      "@id": "_:N983b21e771654fee95e3de902cd65d85",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -97,10 +101,6 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkx391",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -197,8 +197,12 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 51,
+                            "cit_count": 52,
                             "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2027
+                                },
                                 {
                                     "count": 3,
                                     "year": 2021
@@ -444,8 +448,12 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 51,
+                            "cit_count": 52,
                             "citations": [
+                                {
+                                    "count": 1,
+                                    "year": 2027
+                                },
                                 {
                                     "count": 3,
                                     "year": 2021

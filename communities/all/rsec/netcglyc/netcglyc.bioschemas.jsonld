@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/netcglyc",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne87c0a2080464675b5a63339b564434c"
+        "@id": "_:Nf0e3baca1929450582b861c6a23b6b5d"
       },
       "bsc:output": {
-        "@id": "_:N53b84740d55643c1a8b003c1efa392a7"
+        "@id": "_:N37ecb606452343158067e650c7fa9bdc"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -82,7 +82,7 @@
       "sc:url": "http://cbs.dtu.dk/services/NetCGlyc/"
     },
     {
-      "@id": "_:Ne87c0a2080464675b5a63339b564434c",
+      "@id": "_:Nf0e3baca1929450582b861c6a23b6b5d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -93,7 +93,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N53b84740d55643c1a8b003c1efa392a7",
+      "@id": "_:N37ecb606452343158067e650c7fa9bdc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

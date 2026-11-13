@@ -41,18 +41,18 @@
       "biotools:primaryContact": "Ira Cook",
       "bsc:input": [
         {
-          "@id": "_:N9062a9f31a9a4969b7ad2c7e7de813c8"
+          "@id": "_:N0d469e4fa92b458886693b0fa2f74193"
         },
         {
-          "@id": "_:N572256000fd043e4a2ce676135cb4d81"
+          "@id": "_:N3e22b2ff2f7940108250dfe4a8bb1788"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Na8c39c239e53446589a8e68a94f278d9"
+          "@id": "_:N97fbb23c2bfc4441ae7574779de9d70e"
         },
         {
-          "@id": "_:Nace92c0f547c438c806367202e8c15f2"
+          "@id": "_:Nc75ed2c4a3534370ae248329c9f7fd16"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -84,7 +84,7 @@
       "sc:url": "https://github.com/iracooke/protk"
     },
     {
-      "@id": "_:N9062a9f31a9a4969b7ad2c7e7de813c8",
+      "@id": "_:N0d469e4fa92b458886693b0fa2f74193",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -95,7 +95,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:N572256000fd043e4a2ce676135cb4d81",
+      "@id": "_:N3e22b2ff2f7940108250dfe4a8bb1788",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -106,7 +106,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:Na8c39c239e53446589a8e68a94f278d9",
+      "@id": "_:N97fbb23c2bfc4441ae7574779de9d70e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -117,7 +117,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Nace92c0f547c438c806367202e8c15f2",
+      "@id": "_:Nc75ed2c4a3534370ae248329c9f7fd16",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"

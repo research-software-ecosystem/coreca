@@ -29,7 +29,7 @@ tags:
 - tag: works-with-format::plaintext
 - tag: works-with::TODO
 popcon:
-- insts: 139
-  olde: 112
-  recent: 23
-  vote: 4
+- insts: 145
+  olde: 115
+  recent: 25
+  vote: 5

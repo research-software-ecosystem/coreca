@@ -36,29 +36,25 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/HymenopteraMine",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne5e54a4846e2458f9be32ab2b4994803"
+          "@id": "_:Nd6323121c6bf48db94be65efbf60abfb"
         },
         {
-          "@id": "_:N61626932431948f581c58aee41bfcc81"
+          "@id": "_:N23a413ce05664434b2b371a036c97593"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nc690b3f2fcbe4f5fa11659aa75e0e234"
+          "@id": "_:Nc724789a07f4498baf89a053138a163c"
         },
         {
-          "@id": "_:N15f8ec634f744662acb0009f76a3bc7d"
+          "@id": "_:N7fe66d90d58f4216b8d48aeaf02e6058"
         },
         {
-          "@id": "_:Na44973927c644ee9b36d1e6cfe73c30e"
+          "@id": "_:Nd194c0c2a01a4dcb9b2db88666a28320"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -119,7 +115,7 @@
       "sc:url": "http://hymenopteragenome.org/hymenopteramine"
     },
     {
-      "@id": "_:Ne5e54a4846e2458f9be32ab2b4994803",
+      "@id": "_:Nd6323121c6bf48db94be65efbf60abfb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -127,7 +123,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N61626932431948f581c58aee41bfcc81",
+      "@id": "_:N23a413ce05664434b2b371a036c97593",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -135,7 +131,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:Nc690b3f2fcbe4f5fa11659aa75e0e234",
+      "@id": "_:Nc724789a07f4498baf89a053138a163c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3753"
@@ -143,7 +139,7 @@
       "sc:name": "Over-representation data"
     },
     {
-      "@id": "_:N15f8ec634f744662acb0009f76a3bc7d",
+      "@id": "_:N7fe66d90d58f4216b8d48aeaf02e6058",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -151,12 +147,16 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:Na44973927c644ee9b36d1e6cfe73c30e",
+      "@id": "_:Nd194c0c2a01a4dcb9b2db88666a28320",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
       },
       "sc:name": "Sequence features"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

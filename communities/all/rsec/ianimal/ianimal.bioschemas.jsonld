@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ncd7cf47b66624210afdeb4f17bc1e9b4"
+          "@id": "_:Na4424269c9934540b7424c26965f67bf"
         },
         {
-          "@id": "_:N3014da405f0343578763589122ca6365"
+          "@id": "_:N37718e3e0fc04477b9d76ef2793650b4"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -94,7 +94,7 @@
       "sc:url": "https://ianimal.pro/"
     },
     {
-      "@id": "_:Ncd7cf47b66624210afdeb4f17bc1e9b4",
+      "@id": "_:Na4424269c9934540b7424c26965f67bf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1176"
@@ -102,7 +102,7 @@
       "sc:name": "GO concept ID"
     },
     {
-      "@id": "_:N3014da405f0343578763589122ca6365",
+      "@id": "_:N37718e3e0fc04477b9d76ef2793650b4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"

@@ -1,0 +1,320 @@
+{
+  "@context": {
+    "biotools": "https://bio.tools/ontology/",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "bsc": "http://bioschemas.org/",
+    "bsct": "http://bioschemas.org/types/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "edam": "http://edamontology.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "schema": "https://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.64898/2026.08.24.746754",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2015-5766",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://bio.tools/hide-deconv",
+      "@type": "sc:SoftwareApplication",
+      "biotools:primaryContact": {
+        "@id": "https://orcid.org/0000-0003-2015-5766"
+      },
+      "bsc:input": [
+        {
+          "@id": "_:N0d85234a00a54d5fbe595c875fa73079"
+        },
+        {
+          "@id": "_:N6966b46abfad458fb9e710294a46048f"
+        },
+        {
+          "@id": "_:N9d9f2a8ee1de44d4a59f29cfc9fb038d"
+        },
+        {
+          "@id": "_:N10266dbcde884938b09baab1ac77e914"
+        },
+        {
+          "@id": "_:N47135ac820564b79b9523119777b0da2"
+        }
+      ],
+      "bsc:output": [
+        {
+          "@id": "_:N7bff85bbc3bc4f1f96d04184e012bbf8"
+        },
+        {
+          "@id": "_:N7c50ce08d0884b67af48c8828a345650"
+        },
+        {
+          "@id": "_:Nd9f18c7d80b54d95a9be4926e67dbacb"
+        },
+        {
+          "@id": "_:N18709be2ea8c4335b417e50fa8cfd3f6"
+        },
+        {
+          "@id": "_:N275c16d836b749cc8b05e3a0d6b9d52b"
+        },
+        {
+          "@id": "_:N2660c118a47c472ca34bbc135c324a6f"
+        },
+        {
+          "@id": "_:Nc09b16762f464b8c89774ff636abc8ce"
+        },
+        {
+          "@id": "_:N2dba1d8489fa47f0aec2b5a10a1fa56a"
+        },
+        {
+          "@id": "_:N8531cc57341d45d2bee1cf6f084882b5"
+        },
+        {
+          "@id": "_:N4e5f4b05925b4763b9b14f152af9d063"
+        },
+        {
+          "@id": "_:N5141acd652c84ff48ba5436da3ad73a5"
+        }
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_3307"
+        },
+        {
+          "@id": "edam:topic_3308"
+        }
+      ],
+      "sc:author": {
+        "@id": "https://orcid.org/0009-0001-9550-8434"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.64898/2026.08.24.746754"
+      },
+      "sc:description": "HIDE-Deconv is a framework for characterizing cellular remodeling from bulk RNA-seq data using hierarchical cell-type deconvolution across multiple levels of cellular resolution. It provides an integrated workflow for single-cell reference preprocessing, estimation of cellular compositions, and downstream analysis of deconvolution results, including visualization, clustering, differential composition, and survival analysis.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_0226"
+        },
+        {
+          "@id": "edam:operation_3695"
+        },
+        {
+          "@id": "edam:operation_3935"
+        },
+        {
+          "@id": "edam:operation_3432"
+        },
+        {
+          "@id": "edam:operation_2238"
+        }
+      ],
+      "sc:isAccessibleForFree": true,
+      "sc:license": "MIT",
+      "sc:name": "HIDE-Deconv",
+      "sc:operatingSystem": [
+        "Linux",
+        "Mac",
+        "Windows"
+      ],
+      "sc:softwareHelp": [
+        {
+          "@id": "https://dvoelkl.github.io/HIDE-deconv/"
+        },
+        {
+          "@id": "https://github.com/dvoelkl/HIDE-deconv/blob/main/docs/Userguide.md"
+        }
+      ],
+      "sc:softwareVersion": "0.4.3",
+      "sc:url": "https://github.com/dvoelkl/HIDE-deconv"
+    },
+    {
+      "@id": "_:N0d85234a00a54d5fbe595c875fa73079",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3917"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Count matrix"
+    },
+    {
+      "@id": "_:N6966b46abfad458fb9e710294a46048f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3917"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Count matrix"
+    },
+    {
+      "@id": "_:N9d9f2a8ee1de44d4a59f29cfc9fb038d",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3917"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Count matrix"
+    },
+    {
+      "@id": "_:N10266dbcde884938b09baab1ac77e914",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3917"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3752"
+      },
+      "sc:name": "Count matrix"
+    },
+    {
+      "@id": "_:N47135ac820564b79b9523119777b0da2",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3917"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Count matrix"
+    },
+    {
+      "@id": "_:N7bff85bbc3bc4f1f96d04184e012bbf8",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3917"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Count matrix"
+    },
+    {
+      "@id": "_:N7c50ce08d0884b67af48c8828a345650",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_3917"
+      },
+      "sc:encodingFormat": {
+        "@id": "edam:format_3590"
+      },
+      "sc:name": "Count matrix"
+    },
+    {
+      "@id": "_:Nd9f18c7d80b54d95a9be4926e67dbacb",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:N18709be2ea8c4335b417e50fa8cfd3f6",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N275c16d836b749cc8b05e3a0d6b9d52b",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:N2660c118a47c472ca34bbc135c324a6f",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "_:Nc09b16762f464b8c89774ff636abc8ce",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N2dba1d8489fa47f0aec2b5a10a1fa56a",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2082"
+      },
+      "sc:name": "Matrix"
+    },
+    {
+      "@id": "_:N8531cc57341d45d2bee1cf6f084882b5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N4e5f4b05925b4763b9b14f152af9d063",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2968"
+      },
+      "sc:name": "Image"
+    },
+    {
+      "@id": "_:N5141acd652c84ff48ba5436da3ad73a5",
+      "@type": "bsct:FormalParameter",
+      "sc:additionalType": {
+        "@id": "edam:data_2048"
+      },
+      "sc:name": "Report"
+    },
+    {
+      "@id": "https://orcid.org/0009-0001-9550-8434",
+      "@type": "sc:Person"
+    }
+  ]
+}

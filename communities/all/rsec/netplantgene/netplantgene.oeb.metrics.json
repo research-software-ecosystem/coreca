@@ -20,7 +20,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 351,
+                            "cit_count": 359,
                             "citations": [
                                 {
                                     "count": 1,
@@ -29,10 +29,6 @@
                                 {
                                     "count": 2,
                                     "year": 1997
-                                },
-                                {
-                                    "count": 6,
-                                    "year": 2026
                                 },
                                 {
                                     "count": 7,
@@ -45,6 +41,10 @@
                                 {
                                     "count": 8,
                                     "year": 1998
+                                },
+                                {
+                                    "count": 8,
+                                    "year": 2026
                                 },
                                 {
                                     "count": 9,
@@ -60,10 +60,6 @@
                                 },
                                 {
                                     "count": 10,
-                                    "year": 2019
-                                },
-                                {
-                                    "count": 10,
                                     "year": 2023
                                 },
                                 {
@@ -71,24 +67,24 @@
                                     "year": 2024
                                 },
                                 {
-                                    "count": 10,
-                                    "year": 2025
-                                },
-                                {
-                                    "count": 11,
-                                    "year": 2003
-                                },
-                                {
-                                    "count": 11,
-                                    "year": 2004
-                                },
-                                {
                                     "count": 11,
                                     "year": 2009
                                 },
                                 {
                                     "count": 11,
-                                    "year": 2020
+                                    "year": 2019
+                                },
+                                {
+                                    "count": 11,
+                                    "year": 2025
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2003
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2004
                                 },
                                 {
                                     "count": 12,
@@ -97,6 +93,10 @@
                                 {
                                     "count": 12,
                                     "year": 2011
+                                },
+                                {
+                                    "count": 12,
+                                    "year": 2020
                                 },
                                 {
                                     "count": 14,
@@ -124,15 +124,15 @@
                                 },
                                 {
                                     "count": 15,
-                                    "year": 2018
-                                },
-                                {
-                                    "count": 15,
                                     "year": 2022
                                 },
                                 {
                                     "count": 16,
                                     "year": 2016
+                                },
+                                {
+                                    "count": 16,
+                                    "year": 2018
                                 },
                                 {
                                     "count": 16,

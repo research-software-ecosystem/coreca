@@ -21,7 +21,7 @@ bib:
 - key: doi
   value: 10.1093/bioinformatics/bts480
 popcon:
-- insts: 502
-  olde: 359
-  recent: 95
-  vote: 48
+- insts: 509
+  olde: 380
+  recent: 88
+  vote: 41

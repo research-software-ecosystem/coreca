@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.BBCAnalyzer",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/bbcanalyzer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N7e5e9ffe338c4a009ebe3aa99b6dd6e4"
+        "@id": "_:Na14e9e67d76c44ac94929dabcaf1c065"
       },
       "bsc:output": [
         {
-          "@id": "_:N5d1ee6b25af94d47aa5f10d2fd11d1db"
+          "@id": "_:Nb15748f3fb274828a70cf76345de950b"
         },
         {
-          "@id": "_:Nd4415a561b904ab2a3b98dd4c0fb0df9"
+          "@id": "_:Na615f8e30aba4822ae0144031397cb82"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -74,7 +78,7 @@
           "@id": "edam:operation_0564"
         }
       ],
-      "sc:license": "LGPL-3.0-only",
+      "sc:license": "LGPL-3.0",
       "sc:name": "BBCAnalyzer",
       "sc:operatingSystem": [
         "Linux",
@@ -88,7 +92,7 @@
       "sc:url": "https://bioconductor.org/packages/BBCAnalyzer"
     },
     {
-      "@id": "_:N7e5e9ffe338c4a009ebe3aa99b6dd6e4",
+      "@id": "_:Na14e9e67d76c44ac94929dabcaf1c065",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -99,7 +103,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:N5d1ee6b25af94d47aa5f10d2fd11d1db",
+      "@id": "_:Nb15748f3fb274828a70cf76345de950b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -115,7 +119,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:Nd4415a561b904ab2a3b98dd4c0fb0df9",
+      "@id": "_:Na615f8e30aba4822ae0144031397cb82",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2166"
@@ -129,10 +133,6 @@
         }
       ],
       "sc:name": "Sequence composition plot"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.BBCAnalyzer",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

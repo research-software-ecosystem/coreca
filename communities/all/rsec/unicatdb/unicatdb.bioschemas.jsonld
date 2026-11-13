@@ -40,13 +40,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne1f83d2a321a4d2bb46657b7a21005e2"
+          "@id": "_:Nd09603c8a6fd4d72af12dd9b179b0ad9"
         },
         {
-          "@id": "_:Nc4038f8188ea488d977d81b625b98a92"
+          "@id": "_:Nea377fac9f72485f89cc5989ac589d1a"
         },
         {
-          "@id": "_:Nd8698d9d1f134231873ec02c1695790a"
+          "@id": "_:N5f4b7670f6664b23b1b75d9250866cb7"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -80,7 +80,7 @@
       "sc:url": "https://www.unicatdb.org/"
     },
     {
-      "@id": "_:Ne1f83d2a321a4d2bb46657b7a21005e2",
+      "@id": "_:Nd09603c8a6fd4d72af12dd9b179b0ad9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3736"
@@ -88,7 +88,7 @@
       "sc:name": "Ecological data"
     },
     {
-      "@id": "_:Nc4038f8188ea488d977d81b625b98a92",
+      "@id": "_:Nea377fac9f72485f89cc5989ac589d1a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2019"
@@ -96,7 +96,7 @@
       "sc:name": "Map data"
     },
     {
-      "@id": "_:Nd8698d9d1f134231873ec02c1695790a",
+      "@id": "_:N5f4b7670f6664b23b1b75d9250866cb7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2019"

@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1104/pp.011577",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/aramemnon",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Rainer Schwacke",
       "bsc:input": {
-        "@id": "_:N56a7f4676ecc44a98f8d4e296a06cdea"
+        "@id": "_:N557be5176f04425e9d3df04d9714b003"
       },
       "bsc:output": {
-        "@id": "_:Nb69c2c2036d341b78f4b82cca17619eb"
+        "@id": "_:N869627eaa3c8478ea0d816028004f60e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -78,7 +82,7 @@
       "sc:url": "http://aramemnon.botanik.uni-koeln.de/"
     },
     {
-      "@id": "_:N56a7f4676ecc44a98f8d4e296a06cdea",
+      "@id": "_:N557be5176f04425e9d3df04d9714b003",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1895"
@@ -86,7 +90,7 @@
       "sc:name": "Locus ID (AGI)"
     },
     {
-      "@id": "_:Nb69c2c2036d341b78f4b82cca17619eb",
+      "@id": "_:N869627eaa3c8478ea0d816028004f60e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -95,10 +99,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Protein features"
-    },
-    {
-      "@id": "https://doi.org/10.1104/pp.011577",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Ensembl Genomes webteam",
       "bsc:input": {
-        "@id": "_:Nb291bd8cd43a4effa2d2847218d147f1"
+        "@id": "_:N0ca5e9be1f6b4da597746fb6b405a90b"
       },
       "bsc:output": {
-        "@id": "_:N655d54f0c4a6469f88cbce8155d19fe1"
+        "@id": "_:Nd2be0414b4a74a43804603446df06768"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -85,7 +85,7 @@
       "sc:url": "http://bacteria.ensembl.org/tools.html"
     },
     {
-      "@id": "_:Nb291bd8cd43a4effa2d2847218d147f1",
+      "@id": "_:N0ca5e9be1f6b4da597746fb6b405a90b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2610"
@@ -93,7 +93,7 @@
       "sc:name": "Ensembl ID"
     },
     {
-      "@id": "_:N655d54f0c4a6469f88cbce8155d19fe1",
+      "@id": "_:Nd2be0414b4a74a43804603446df06768",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2610"

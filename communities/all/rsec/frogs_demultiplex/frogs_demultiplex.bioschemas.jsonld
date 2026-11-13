@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -45,20 +45,20 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N1e933962d3f04c3281e64d0df454da82"
+          "@id": "_:Nf868ff2eaf1f4ba488820e82c80c3e4f"
         },
         {
-          "@id": "_:N39d1bfc2231e486e8989507431709d36"
+          "@id": "_:N19c17576f07144768260e13c44cd307a"
         },
         {
-          "@id": "_:N920f66aa5e804f079b41abd99cdc7223"
+          "@id": "_:Ncbd89e67848b46ec9fa4f9fa569638af"
         },
         {
-          "@id": "_:N22c4f4587c134cfb99db2d4b8109a901"
+          "@id": "_:Nd03fd200ba8746c593a0e18ade7c4da4"
         }
       ],
       "bsc:output": {
-        "@id": "_:N51c6315e4f8a49059024f0a9b086ad83"
+        "@id": "_:Nd30e2d9e8be3474db57a3eae7400e915"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -100,7 +100,7 @@
       "sc:url": "http://frogs.toulouse.inra.fr/"
     },
     {
-      "@id": "_:N1e933962d3f04c3281e64d0df454da82",
+      "@id": "_:Nf868ff2eaf1f4ba488820e82c80c3e4f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -111,7 +111,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N39d1bfc2231e486e8989507431709d36",
+      "@id": "_:N19c17576f07144768260e13c44cd307a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -122,7 +122,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N920f66aa5e804f079b41abd99cdc7223",
+      "@id": "_:Ncbd89e67848b46ec9fa4f9fa569638af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -133,7 +133,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N22c4f4587c134cfb99db2d4b8109a901",
+      "@id": "_:Nd03fd200ba8746c593a0e18ade7c4da4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -144,7 +144,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N51c6315e4f8a49059024f0a9b086ad83",
+      "@id": "_:Nd30e2d9e8be3474db57a3eae7400e915",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -155,7 +155,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

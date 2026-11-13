@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/gene_stacker",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1649289816b54f4292123cf27619deb1"
+        "@id": "_:Nc477d475ffb2465d9fc82384c30682be"
       },
       "bsc:output": {
-        "@id": "_:N6edc2b8198c14c6b9eefcbae84746b1d"
+        "@id": "_:Ne69db4ea17034c70bfb8ad8efe671f33"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -77,7 +77,7 @@
       "sc:url": "http://genestacker.ugent.be/"
     },
     {
-      "@id": "_:N1649289816b54f4292123cf27619deb1",
+      "@id": "_:Nc477d475ffb2465d9fc82384c30682be",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1081"
@@ -88,7 +88,7 @@
       "sc:name": "Genotype and phenotype annotation ID"
     },
     {
-      "@id": "_:N6edc2b8198c14c6b9eefcbae84746b1d",
+      "@id": "_:Ne69db4ea17034c70bfb8ad8efe671f33",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

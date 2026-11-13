@@ -43,18 +43,18 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nbad4b29978d74953b7ea45eefc3f760f"
+          "@id": "_:N0f126ee5241e42c68604623348e4089d"
         },
         {
-          "@id": "_:Nebf017911f174321ac3e68df76d6e143"
+          "@id": "_:Nfdc15b84df014ba0ae7b3efb0bf8e7c1"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N92cda18a71ec4b34816f5b32f3517807"
+          "@id": "_:N5dc0ad3d9de64bc988e0fe2e564b4f7b"
         },
         {
-          "@id": "_:Nec35a7dfc1704d7580147b9c1c0fb17f"
+          "@id": "_:N82309f65ac2345fe8dc7209203e4a237"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,7 +92,7 @@
       "sc:url": "https://diversityworkbench.net/Portal/DiversityAgents"
     },
     {
-      "@id": "_:Nbad4b29978d74953b7ea45eefc3f760f",
+      "@id": "_:N0f126ee5241e42c68604623348e4089d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -108,7 +108,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Nebf017911f174321ac3e68df76d6e143",
+      "@id": "_:Nfdc15b84df014ba0ae7b3efb0bf8e7c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -124,7 +124,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N92cda18a71ec4b34816f5b32f3517807",
+      "@id": "_:N5dc0ad3d9de64bc988e0fe2e564b4f7b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -140,7 +140,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Nec35a7dfc1704d7580147b9c1c0fb17f",
+      "@id": "_:N82309f65ac2345fe8dc7209203e4a237",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"

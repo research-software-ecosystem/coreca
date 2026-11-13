@@ -44,13 +44,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd072460f4d944494ab5fee2172731821"
+          "@id": "_:Nacb47b63d8424377b82f372b17f643a1"
         },
         {
-          "@id": "_:N62de2caa1aa44fcfa9a1c866e418508a"
+          "@id": "_:N078a0a6bdfb9429291bbaaddaf8f48ee"
         },
         {
-          "@id": "_:N791a750f12774122985e4ac8518fb579"
+          "@id": "_:Nb0d513569b794a1fb1c934a02269ff75"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -104,7 +104,7 @@
       "sc:url": "https://myodata.bio.unipd.it"
     },
     {
-      "@id": "_:Nd072460f4d944494ab5fee2172731821",
+      "@id": "_:Nacb47b63d8424377b82f372b17f643a1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -112,7 +112,7 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:N62de2caa1aa44fcfa9a1c866e418508a",
+      "@id": "_:N078a0a6bdfb9429291bbaaddaf8f48ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -120,7 +120,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N791a750f12774122985e4ac8518fb579",
+      "@id": "_:Nb0d513569b794a1fb1c934a02269ff75",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2099"

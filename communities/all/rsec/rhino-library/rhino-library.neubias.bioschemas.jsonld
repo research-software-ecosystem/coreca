@@ -39,9 +39,9 @@
   },
   "http://schema.org/name": "Rhino Library",
   "http://schema.org/publisher": [
-    "Thomas Provoost",
+    "Timothée Lecomte",
     "Stephane Dallongeville",
-    "Timothée Lecomte"
+    "Thomas Provoost"
   ],
   "http://schema.org/softwareRequirements": [
     {

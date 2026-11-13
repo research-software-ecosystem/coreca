@@ -45,24 +45,24 @@
       "biotools:primaryContact": "Nathan D. Olson",
       "bsc:input": [
         {
-          "@id": "_:Nbb0d095fcd9645da88ba16c56ef4ef7a"
+          "@id": "_:Na1f5ab3571154762a21e52ffabfdc5cf"
         },
         {
-          "@id": "_:N7e216a0b57794a8caa04fe88c5048c70"
+          "@id": "_:Nfbc590f143dc44ac8125981a7b88cd60"
         },
         {
-          "@id": "_:N7d64cd64e4154d1bac3bd834b6d544f2"
+          "@id": "_:N6eab878d7e5c4e749e97f02e839bb35a"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd4f06116d83f41b5bf5a4ad2018d6414"
+          "@id": "_:N836d22bcfd8f41a29e879867524724cf"
         },
         {
-          "@id": "_:N13ebe75904bd46068196971ac7609d95"
+          "@id": "_:N37b4219424bb4083a07ad3897f66e555"
         },
         {
-          "@id": "_:N546d53fe057d4b33ab1c30a78aab3586"
+          "@id": "_:Nffb24bf9377f484ca3aeede1775e5d83"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -108,7 +108,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/metagenomeFeatures.html"
     },
     {
-      "@id": "_:Nbb0d095fcd9645da88ba16c56ef4ef7a",
+      "@id": "_:Na1f5ab3571154762a21e52ffabfdc5cf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3567"
@@ -124,7 +124,7 @@
       "sc:name": "Reference sample report"
     },
     {
-      "@id": "_:N7e216a0b57794a8caa04fe88c5048c70",
+      "@id": "_:Nfbc590f143dc44ac8125981a7b88cd60",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3113"
@@ -140,7 +140,7 @@
       "sc:name": "Sample annotation"
     },
     {
-      "@id": "_:N7d64cd64e4154d1bac3bd834b6d544f2",
+      "@id": "_:N6eab878d7e5c4e749e97f02e839bb35a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -156,7 +156,7 @@
       "sc:name": "Taxonomy"
     },
     {
-      "@id": "_:Nd4f06116d83f41b5bf5a4ad2018d6414",
+      "@id": "_:N836d22bcfd8f41a29e879867524724cf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3567"
@@ -167,7 +167,7 @@
       "sc:name": "Reference sample report"
     },
     {
-      "@id": "_:N13ebe75904bd46068196971ac7609d95",
+      "@id": "_:N37b4219424bb4083a07ad3897f66e555",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3113"
@@ -178,7 +178,7 @@
       "sc:name": "Sample annotation"
     },
     {
-      "@id": "_:N546d53fe057d4b33ab1c30a78aab3586",
+      "@id": "_:Nffb24bf9377f484ca3aeede1775e5d83",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"

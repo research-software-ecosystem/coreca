@@ -48,10 +48,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Adam Hospital",
       "bsc:input": {
-        "@id": "_:N2d55fdb6498643d6b5dd43602b614d54"
+        "@id": "_:Nb269d83b98e84656a8c744c565303346"
       },
       "bsc:output": {
-        "@id": "_:N63d60d661425411f99544a7843dfddee"
+        "@id": "_:Nbb0bab1b0ab345008a4e3354b9d569ae"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
@@ -123,7 +123,7 @@
       "sc:url": "https://mmb.irbbarcelona.org/biobb/workflows#protein-conformational-ensembles-generation"
     },
     {
-      "@id": "_:N2d55fdb6498643d6b5dd43602b614d54",
+      "@id": "_:Nb269d83b98e84656a8c744c565303346",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -134,7 +134,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N63d60d661425411f99544a7843dfddee",
+      "@id": "_:Nbb0bab1b0ab345008a4e3354b9d569ae",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3870"

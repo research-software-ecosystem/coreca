@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N4ac14e1275414ca388e4861ada565191"
+          "@id": "_:Na9baf6030b164d78b69380dc6c00e753"
         },
         {
-          "@id": "_:N5520cf95ec2140a78f5c3885b0b0b064"
+          "@id": "_:N21a152867cb1447899cd5ddc9b56dfb9"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -76,7 +76,7 @@
       "sc:url": "https://github.com/ialbert/booleannet"
     },
     {
-      "@id": "_:N4ac14e1275414ca388e4861ada565191",
+      "@id": "_:Na9baf6030b164d78b69380dc6c00e753",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -84,7 +84,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N5520cf95ec2140a78f5c3885b0b0b064",
+      "@id": "_:N21a152867cb1447899cd5ddc9b56dfb9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3869"

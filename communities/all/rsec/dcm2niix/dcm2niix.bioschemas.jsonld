@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/dcm2niix",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N28e90a0e72db44e99f5e479756827ada"
+        "@id": "_:N69998adc8ac447269e6e6f7c0d03ab3f"
       },
       "bsc:output": {
-        "@id": "_:N64551d22e8a5426fb4ce60c46da86ef6"
+        "@id": "_:N306c2df8d1af4821b553dd147972671f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -82,7 +82,7 @@
       "sc:url": "https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage"
     },
     {
-      "@id": "_:N28e90a0e72db44e99f5e479756827ada",
+      "@id": "_:N69998adc8ac447269e6e6f7c0d03ab3f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -93,7 +93,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:N64551d22e8a5426fb4ce60c46da86ef6",
+      "@id": "_:N306c2df8d1af4821b553dd147972671f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

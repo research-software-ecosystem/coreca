@@ -45,18 +45,18 @@
       "biotools:primaryContact": "Chia-Lin Wei",
       "bsc:input": [
         {
-          "@id": "_:N501b152c60ee44d5a2c5089586b04265"
+          "@id": "_:N4379ada567ed45faaf03fb4de551ebcd"
         },
         {
-          "@id": "_:N920c4f6313cc4c80a9f3e8d2f5159b12"
+          "@id": "_:Nfe589af4a84c4552ab46c8f94cb6d894"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nc5d18c958a8e4af99563aaa2ac53e0cd"
+          "@id": "_:N4a62ade37e944bcfb8f1ace3caf9a843"
         },
         {
-          "@id": "_:Nfd269350622f4c24b6a2909a58c11ac9"
+          "@id": "_:Ned280382a4144de2a57aaf297ec74227"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -109,7 +109,7 @@
       "sc:url": "https://github.com/TheJacksonLaboratory/Picky"
     },
     {
-      "@id": "_:N501b152c60ee44d5a2c5089586b04265",
+      "@id": "_:N4379ada567ed45faaf03fb4de551ebcd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3497"
@@ -120,7 +120,7 @@
       "sc:name": "DNA sequence (raw)"
     },
     {
-      "@id": "_:N920c4f6313cc4c80a9f3e8d2f5159b12",
+      "@id": "_:Nfe589af4a84c4552ab46c8f94cb6d894",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"
@@ -131,7 +131,7 @@
       "sc:name": "Data reference"
     },
     {
-      "@id": "_:Nc5d18c958a8e4af99563aaa2ac53e0cd",
+      "@id": "_:N4a62ade37e944bcfb8f1ace3caf9a843",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -142,7 +142,7 @@
       "sc:name": "Sequence alignment (nucleic acid)"
     },
     {
-      "@id": "_:Nfd269350622f4c24b6a2909a58c11ac9",
+      "@id": "_:Ned280382a4144de2a57aaf297ec74227",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"

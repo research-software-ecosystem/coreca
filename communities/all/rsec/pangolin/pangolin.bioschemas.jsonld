@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/pangolin",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf38a037d25bb48408b9a01ab4454bf11"
+        "@id": "_:N4468c809e04e4c7f9c740796054be4b6"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -100,7 +100,7 @@
       "sc:url": "https://github.com/tkzeng/Pangolin"
     },
     {
-      "@id": "_:Nf38a037d25bb48408b9a01ab4454bf11",
+      "@id": "_:N4468c809e04e4c7f9c740796054be4b6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

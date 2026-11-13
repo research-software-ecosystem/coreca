@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/orthodisease",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N81db8c0728a44b1e94b1ac8f7dbe425d"
+        "@id": "_:Nfb22ca35f2ff48359017e88640c6356d"
       },
       "bsc:output": {
-        "@id": "_:Na60e004d86944ec8b4267cc62bf671d1"
+        "@id": "_:Ndacf1a8e371f45079ad2e1b3866eb918"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -76,7 +76,7 @@
       "sc:url": "http://orthodisease.sbc.su.se/"
     },
     {
-      "@id": "_:N81db8c0728a44b1e94b1ac8f7dbe425d",
+      "@id": "_:Nfb22ca35f2ff48359017e88640c6356d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1150"
@@ -84,7 +84,7 @@
       "sc:name": "Disease ID"
     },
     {
-      "@id": "_:Na60e004d86944ec8b4267cc62bf671d1",
+      "@id": "_:Ndacf1a8e371f45079ad2e1b3866eb918",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1622"

@@ -36,15 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1471-2164-13-74",
       "@type": "sc:CreativeWork"
     },
     {
@@ -53,18 +45,18 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N0340b857dbc74eeea0fd32190f76f0fa"
+          "@id": "_:N9384c40140944706bf0efcfe21efe933"
         },
         {
-          "@id": "_:Nbfa53f780daa4824bbaffa0fcbde539d"
+          "@id": "_:N165d0aa1c2f84d4383e9ac397ea5d72e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nbff301b0431f455f84f9d00a0375af99"
+          "@id": "_:N2744c3585837404f817501a2acfaaf85"
         },
         {
-          "@id": "_:N2da1f6a6ae164cfeaf72cd1122ab2e2b"
+          "@id": "_:Ne9ef24c226c1422e89748ae3e9d99d0f"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -104,7 +96,7 @@
       "sc:url": "https://sourceforge.net/projects/gemsim/"
     },
     {
-      "@id": "_:N0340b857dbc74eeea0fd32190f76f0fa",
+      "@id": "_:N9384c40140944706bf0efcfe21efe933",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -115,7 +107,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nbfa53f780daa4824bbaffa0fcbde539d",
+      "@id": "_:N165d0aa1c2f84d4383e9ac397ea5d72e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -126,7 +118,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Nbff301b0431f455f84f9d00a0375af99",
+      "@id": "_:N2744c3585837404f817501a2acfaaf85",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -137,7 +129,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N2da1f6a6ae164cfeaf72cd1122ab2e2b",
+      "@id": "_:Ne9ef24c226c1422e89748ae3e9d99d0f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -146,6 +138,14 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2164-13-74",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

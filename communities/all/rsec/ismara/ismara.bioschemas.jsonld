@@ -36,21 +36,25 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1101/gr.169508.113",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/ismara",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ne69200b9887844c5b5954255a9962086"
+          "@id": "_:Nef25f32871444fa897f7d7ddc9f10ee4"
         },
         {
-          "@id": "_:N9e3d3dae67b44b3d9b01d3777b92c383"
+          "@id": "_:N278790274e9940969cab5c134f7c9a02"
         },
         {
-          "@id": "_:N994c6603a61a47b999af315349d18a2d"
+          "@id": "_:Nc5d63c767be54f608a7f4083def5fc3a"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nc763188875534f5a917504f26833a56e"
+        "@id": "_:N6b197f4e4dfe43ffa37b4d2d1d8eeddd"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -110,7 +114,7 @@
       "sc:url": "https://ismara.unibas.ch/mara/"
     },
     {
-      "@id": "_:Ne69200b9887844c5b5954255a9962086",
+      "@id": "_:Nef25f32871444fa897f7d7ddc9f10ee4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -129,7 +133,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N9e3d3dae67b44b3d9b01d3777b92c383",
+      "@id": "_:N278790274e9940969cab5c134f7c9a02",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -148,7 +152,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N994c6603a61a47b999af315349d18a2d",
+      "@id": "_:Nc5d63c767be54f608a7f4083def5fc3a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3110"
@@ -159,16 +163,12 @@
       "sc:name": "Raw microarray data"
     },
     {
-      "@id": "_:Nc763188875534f5a917504f26833a56e",
+      "@id": "_:N6b197f4e4dfe43ffa37b4d2d1d8eeddd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
       },
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://doi.org/10.1101/gr.169508.113",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

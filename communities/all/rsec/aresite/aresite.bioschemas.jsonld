@@ -44,7 +44,7 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Jörg Fallmann",
       "bsc:output": {
-        "@id": "_:N7ed51a7e601842c19a65cdd44eb235db"
+        "@id": "_:N36a65382e6aa4ce1bf499c3c9c3d5b4f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -91,7 +91,7 @@
       "sc:url": "http://rna.tbi.univie.ac.at/AREsite"
     },
     {
-      "@id": "_:N7ed51a7e601842c19a65cdd44eb235db",
+      "@id": "_:N36a65382e6aa4ce1bf499c3c9c3d5b4f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1274"

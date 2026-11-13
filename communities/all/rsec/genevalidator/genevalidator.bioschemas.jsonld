@@ -42,10 +42,10 @@
         "@id": "http://orcid.org/0000-0002-3140-2809"
       },
       "bsc:input": {
-        "@id": "_:N6b85b9da99b14f3ebf974d7ebe726ecd"
+        "@id": "_:N6faddc1930914a8c9b7781eb6ee71351"
       },
       "bsc:output": {
-        "@id": "_:N939e9fba57f744a3943c0d03393fdfe9"
+        "@id": "_:N57c7fb45e0074bd59e70c8f65f3064ad"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -98,7 +98,7 @@
       "sc:url": "https://wurmlab.github.io/tools/genevalidator/"
     },
     {
-      "@id": "_:N6b85b9da99b14f3ebf974d7ebe726ecd",
+      "@id": "_:N6faddc1930914a8c9b7781eb6ee71351",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -109,7 +109,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N939e9fba57f744a3943c0d03393fdfe9",
+      "@id": "_:N57c7fb45e0074bd59e70c8f65f3064ad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2085"

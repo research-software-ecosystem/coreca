@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nfd7b4d1dc2b5495fac200ae74febfcdf"
+          "@id": "_:N56d111c26fbc42af91850758a9148491"
         },
         {
-          "@id": "_:N976fc027c1d44619b6e8eb4dfbf0a35e"
+          "@id": "_:N84f9107ead5c4d5ab519b6fea97b715c"
         }
       ],
       "bsc:output": {
-        "@id": "_:N66bcb050cbb4447098b7146d43aafb73"
+        "@id": "_:N6dc9f29f9ed440e4a7ae79530a0ebd3e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -91,7 +91,7 @@
       "sc:url": "http://www.thegpm.org/TANDEM/"
     },
     {
-      "@id": "_:Nfd7b4d1dc2b5495fac200ae74febfcdf",
+      "@id": "_:N56d111c26fbc42af91850758a9148491",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -122,7 +122,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N976fc027c1d44619b6e8eb4dfbf0a35e",
+      "@id": "_:N84f9107ead5c4d5ab519b6fea97b715c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -133,7 +133,7 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:N66bcb050cbb4447098b7146d43aafb73",
+      "@id": "_:N6dc9f29f9ed440e4a7ae79530a0ebd3e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"

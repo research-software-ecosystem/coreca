@@ -36,18 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s12859-016-0935-7",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "http://orcid.org/0000-0003-1103-7688",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "http://orcid.org/0000-0001-6371-1334",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/lowmaca",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -60,24 +48,24 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:Nd9389b3e486245ceaed66f8507a5bc92"
+          "@id": "_:Naee0c165a29e4998bdc9619e373b840a"
         },
         {
-          "@id": "_:Nc5ffc8eb4df943afb05ee5d2e95e6eb6"
+          "@id": "_:N06a7284b628c4d80aa02ce19220d598d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N06b2f7e615364a7c8279c7caa38e9650"
+          "@id": "_:N9c4c97bc99a04ff9b6f021729f6267cc"
         },
         {
-          "@id": "_:N8f8df780d7f248b5bbd6a89be5c5c303"
+          "@id": "_:N69afaa72973a4a36b2e3db01b469ffa1"
         },
         {
-          "@id": "_:N1ca5fb8997f24e35ae30e5dc277e97e0"
+          "@id": "_:Nb5371ca0f8e14863879b92a44bc65e25"
         },
         {
-          "@id": "_:N397f0edc5a8e4e6dac70a29046e5f930"
+          "@id": "_:N544608a91aab4b87b9802c3a32f44425"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -126,7 +114,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/LowMACA.html"
     },
     {
-      "@id": "_:Nd9389b3e486245ceaed66f8507a5bc92",
+      "@id": "_:Naee0c165a29e4998bdc9619e373b840a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -137,7 +125,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:Nc5ffc8eb4df943afb05ee5d2e95e6eb6",
+      "@id": "_:N06a7284b628c4d80aa02ce19220d598d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1138"
@@ -148,7 +136,7 @@
       "sc:name": "Pfam accession number"
     },
     {
-      "@id": "_:N06b2f7e615364a7c8279c7caa38e9650",
+      "@id": "_:N9c4c97bc99a04ff9b6f021729f6267cc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -167,7 +155,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N8f8df780d7f248b5bbd6a89be5c5c303",
+      "@id": "_:N69afaa72973a4a36b2e3db01b469ffa1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1384"
@@ -186,7 +174,7 @@
       "sc:name": "Sequence alignment (protein)"
     },
     {
-      "@id": "_:N1ca5fb8997f24e35ae30e5dc277e97e0",
+      "@id": "_:Nb5371ca0f8e14863879b92a44bc65e25",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0867"
@@ -205,7 +193,7 @@
       "sc:name": "Sequence alignment report"
     },
     {
-      "@id": "_:N397f0edc5a8e4e6dac70a29046e5f930",
+      "@id": "_:N544608a91aab4b87b9802c3a32f44425",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2166"
@@ -222,6 +210,18 @@
         }
       ],
       "sc:name": "Sequence composition plot"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-016-0935-7",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-6371-1334",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "http://orcid.org/0000-0003-1103-7688",
+      "@type": "sc:Person"
     }
   ]
 }

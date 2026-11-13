@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.Category",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/category",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N43cb89ab81ac4005a7b8437a8c1028de"
+        "@id": "_:N3f5b8a251c3f44d594980da2c482460b"
       },
       "bsc:output": [
         {
-          "@id": "_:Ne5336e13508343f48fc4bdc93715428a"
+          "@id": "_:Nff056d15eee44d35a6389c778d4f5c0c"
         },
         {
-          "@id": "_:N3450e9a17f1241d7b305c6b0190fc083"
+          "@id": "_:Nc4ac1013960f4bb3842d28b7ddd8091d"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -89,7 +93,7 @@
       "sc:url": "https://bioconductor.org/packages/Category"
     },
     {
-      "@id": "_:N43cb89ab81ac4005a7b8437a8c1028de",
+      "@id": "_:N3f5b8a251c3f44d594980da2c482460b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -100,7 +104,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Ne5336e13508343f48fc4bdc93715428a",
+      "@id": "_:Nff056d15eee44d35a6389c778d4f5c0c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -111,7 +115,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N3450e9a17f1241d7b305c6b0190fc083",
+      "@id": "_:Nc4ac1013960f4bb3842d28b7ddd8091d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -120,10 +124,6 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Plot"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.Category",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

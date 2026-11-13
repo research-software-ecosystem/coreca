@@ -36,21 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/acs.jproteome.8b00713",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/ppiexp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb788e8bdcd1f4650ba57554d2f27fd59"
+        "@id": "_:N1cf949ad12ca43d992ddcdd7fb6c2e0e"
       },
       "bsc:output": [
         {
-          "@id": "_:N2f6482adddc343feb6de3bf7e936f867"
+          "@id": "_:N55a0ee3d7af4401abf25302dca1b752d"
         },
         {
-          "@id": "_:N12a6993fcf364e81a59c6d8688b10319"
+          "@id": "_:N26ffef2dd9934fe4a943e69948afcd7d"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -88,7 +84,7 @@
       "sc:url": "http://www.fgvis.com/expressvis/PPIExp"
     },
     {
-      "@id": "_:Nb788e8bdcd1f4650ba57554d2f27fd59",
+      "@id": "_:N1cf949ad12ca43d992ddcdd7fb6c2e0e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -99,7 +95,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N2f6482adddc343feb6de3bf7e936f867",
+      "@id": "_:N55a0ee3d7af4401abf25302dca1b752d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3768"
@@ -115,7 +111,7 @@
       "sc:name": "Clustered expression profiles"
     },
     {
-      "@id": "_:N12a6993fcf364e81a59c6d8688b10319",
+      "@id": "_:N26ffef2dd9934fe4a943e69948afcd7d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -129,6 +125,10 @@
         }
       ],
       "sc:name": "Pathway or network"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acs.jproteome.8b00713",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

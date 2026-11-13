@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
     {
@@ -45,14 +45,14 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N2f69ef1f17234b07b046d83656b319f0"
+          "@id": "_:Nf6955a5260324207a8f04794cbadd1b0"
         },
         {
-          "@id": "_:N54054937b19b4d748a281a618d011d5c"
+          "@id": "_:N9928be1b9a79431f94622bcd58d63c91"
         }
       ],
       "bsc:output": {
-        "@id": "_:Na75065163ccf4691b358da0093a439e3"
+        "@id": "_:Nef8127ff770b4fbe9ffaefcf6a39806a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -86,7 +86,7 @@
       "sc:url": "https://broadinstitute.github.io/picard/"
     },
     {
-      "@id": "_:N2f69ef1f17234b07b046d83656b319f0",
+      "@id": "_:Nf6955a5260324207a8f04794cbadd1b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -102,7 +102,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N54054937b19b4d748a281a618d011d5c",
+      "@id": "_:N9928be1b9a79431f94622bcd58d63c91",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -118,7 +118,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Na75065163ccf4691b358da0093a439e3",
+      "@id": "_:Nef8127ff770b4fbe9ffaefcf6a39806a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -129,7 +129,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

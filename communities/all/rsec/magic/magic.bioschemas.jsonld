@@ -36,21 +36,17 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btt739",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/magic",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1ca0e853f3cf4dd4a995dc904461b737"
+        "@id": "_:N855d57d56bbf41079a29432945eeb2c1"
       },
       "bsc:output": [
         {
-          "@id": "_:N1071610c94e44f6b916e7ec747a48841"
+          "@id": "_:N6389fda5a292468aa51be3d537195854"
         },
         {
-          "@id": "_:N8dd96dd7aa104b16be976785d05581db"
+          "@id": "_:N5eb398a95cb54838bc782a6d99780888"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -87,7 +83,7 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/magic/"
     },
     {
-      "@id": "_:N1ca0e853f3cf4dd4a995dc904461b737",
+      "@id": "_:N855d57d56bbf41079a29432945eeb2c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -95,7 +91,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:N1071610c94e44f6b916e7ec747a48841",
+      "@id": "_:N6389fda5a292468aa51be3d537195854",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3134"
@@ -103,12 +99,16 @@
       "sc:name": "Gene transcript report"
     },
     {
-      "@id": "_:N8dd96dd7aa104b16be976785d05581db",
+      "@id": "_:N5eb398a95cb54838bc782a6d99780888",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
       },
       "sc:name": "Heat map"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btt739",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

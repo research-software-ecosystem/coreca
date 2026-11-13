@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Sarah Teichmann",
       "bsc:input": {
-        "@id": "_:N0c4e9a08e8a1444e85c3ae94c5a2cf4f"
+        "@id": "_:N64e73d36fca5464d8c2ca360e78ae9c9"
       },
       "bsc:output": {
-        "@id": "_:Nffea956afce4486fb28a437c56c8686b"
+        "@id": "_:Na76e186ea6a74f77bdcafe5319d8483c"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
@@ -81,7 +81,7 @@
       "sc:url": "https://github.com/Teichlab/bbknn"
     },
     {
-      "@id": "_:N0c4e9a08e8a1444e85c3ae94c5a2cf4f",
+      "@id": "_:N64e73d36fca5464d8c2ca360e78ae9c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -89,7 +89,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:Nffea956afce4486fb28a437c56c8686b",
+      "@id": "_:Na76e186ea6a74f77bdcafe5319d8483c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"

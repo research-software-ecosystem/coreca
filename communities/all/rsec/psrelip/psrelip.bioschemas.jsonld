@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/psrelip",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N4d79790d0cdf4babb70087a68e25dda0"
+        "@id": "_:Nf4eb732be4aa485fb3fe0e658e09f7ce"
       },
       "bsc:output": [
         {
-          "@id": "_:N70bc894c45524c2b808eb8a9b44eb980"
+          "@id": "_:N60c54d3022074589a37f67cdce050423"
         },
         {
-          "@id": "_:Nb66c811dd81245e9b397f40384a2fdfa"
+          "@id": "_:N6c0cc1a0d8654437817a0a9f3a02b994"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -102,7 +102,7 @@
       "sc:url": "https://github.com/solelena/PSReliP"
     },
     {
-      "@id": "_:N4d79790d0cdf4babb70087a68e25dda0",
+      "@id": "_:Nf4eb732be4aa485fb3fe0e658e09f7ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -118,7 +118,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:N70bc894c45524c2b808eb8a9b44eb980",
+      "@id": "_:N60c54d3022074589a37f67cdce050423",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -126,7 +126,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Nb66c811dd81245e9b397f40384a2fdfa",
+      "@id": "_:N6c0cc1a0d8654437817a0a9f3a02b994",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3914"

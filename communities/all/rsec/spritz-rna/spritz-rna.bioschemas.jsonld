@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1101/2020.06.08.140681",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1021/ACS.JPROTEOME.0C00407",
       "@type": "sc:CreativeWork"
     },
@@ -97,10 +101,6 @@
       ],
       "sc:name": "Spritz",
       "sc:url": "https://smith-chem-wisc.github.io/Spritz/"
-    },
-    {
-      "@id": "https://doi.org/10.1101/2020.06.08.140681",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

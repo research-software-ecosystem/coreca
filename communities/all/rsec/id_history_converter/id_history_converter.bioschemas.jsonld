@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Andrew Yates",
       "bsc:input": {
-        "@id": "_:Ndaf7ee7df7b54c37a60c904dc7a0c645"
+        "@id": "_:Neae8ba73446e431c979fc51e79eed571"
       },
       "bsc:output": {
-        "@id": "_:Nda333499e7cd48ed9e84d3d888ba97a8"
+        "@id": "_:N278d65d2fb6f456b8e8b11d26f218a24"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -87,7 +87,7 @@
       "sc:url": "http://www.ensembl.org/Homo_sapiens/UserData/UploadStableIDs"
     },
     {
-      "@id": "_:Ndaf7ee7df7b54c37a60c904dc7a0c645",
+      "@id": "_:Neae8ba73446e431c979fc51e79eed571",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2610"
@@ -95,7 +95,7 @@
       "sc:name": "Ensembl ID"
     },
     {
-      "@id": "_:Nda333499e7cd48ed9e84d3d888ba97a8",
+      "@id": "_:N278d65d2fb6f456b8e8b11d26f218a24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2610"

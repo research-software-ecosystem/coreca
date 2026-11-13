@@ -36,38 +36,42 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkr1067",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/glimmermg",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "David R. Kelley",
       "bsc:input": [
         {
-          "@id": "_:N34ed73a8db344d6db98bc1dc856c892b"
+          "@id": "_:Ne87145edd4994f3697e3944aa72164ed"
         },
         {
-          "@id": "_:N0df79eb515bd4a38b4dfc88cc944af33"
+          "@id": "_:N13a9c7e7ee264fb7a706bb680a3efcf5"
         },
         {
-          "@id": "_:N48cc659d82c64f2f8f577eb9d455dec0"
+          "@id": "_:N5afd0749cc464bb49eae3597b040a026"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3c692af7be784964b5a2009231b01aab"
+          "@id": "_:N357874bae0204ecdb7246987bdfb3673"
         },
         {
-          "@id": "_:N994641c9f251409aaca98f56f794982f"
+          "@id": "_:N503d67cbb689454b8445377483da48f3"
         },
         {
-          "@id": "_:N1800edcec92d443bbf2496338128d72e"
+          "@id": "_:N8ca4227ff0424b5db29e8cd4de47feaa"
         },
         {
-          "@id": "_:N2235c64ce4824d4c9d76e09c878d1417"
+          "@id": "_:N0ddf6c22f24e4c59bf476f6000bb2f3a"
         },
         {
-          "@id": "_:Nae2a771bf1754a838cdddc098b8f7bb5"
+          "@id": "_:N9abdf16a2fab4d83ad48ce20e70bdd65"
         },
         {
-          "@id": "_:N60f1b065abc548b7af3b388161b2d457"
+          "@id": "_:N7fb550cf3f5d4bb9a21618d71dda7e3a"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -107,7 +111,7 @@
       "sc:url": "https://github.com/davek44/Glimmer-MG"
     },
     {
-      "@id": "_:N34ed73a8db344d6db98bc1dc856c892b",
+      "@id": "_:Ne87145edd4994f3697e3944aa72164ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -115,7 +119,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N0df79eb515bd4a38b4dfc88cc944af33",
+      "@id": "_:N13a9c7e7ee264fb7a706bb680a3efcf5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -123,7 +127,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N48cc659d82c64f2f8f577eb9d455dec0",
+      "@id": "_:N5afd0749cc464bb49eae3597b040a026",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -131,7 +135,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N3c692af7be784964b5a2009231b01aab",
+      "@id": "_:N357874bae0204ecdb7246987bdfb3673",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -142,7 +146,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N994641c9f251409aaca98f56f794982f",
+      "@id": "_:N503d67cbb689454b8445377483da48f3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1353"
@@ -150,7 +154,7 @@
       "sc:name": "Sequence motif"
     },
     {
-      "@id": "_:N1800edcec92d443bbf2496338128d72e",
+      "@id": "_:N8ca4227ff0424b5db29e8cd4de47feaa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0914"
@@ -161,7 +165,7 @@
       "sc:name": "Codon usage data"
     },
     {
-      "@id": "_:N2235c64ce4824d4c9d76e09c878d1417",
+      "@id": "_:N0ddf6c22f24e4c59bf476f6000bb2f3a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0912"
@@ -172,7 +176,7 @@
       "sc:name": "Nucleic acid property"
     },
     {
-      "@id": "_:Nae2a771bf1754a838cdddc098b8f7bb5",
+      "@id": "_:N9abdf16a2fab4d83ad48ce20e70bdd65",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1249"
@@ -183,16 +187,12 @@
       "sc:name": "Sequence length"
     },
     {
-      "@id": "_:N60f1b065abc548b7af3b388161b2d457",
+      "@id": "_:N7fb550cf3f5d4bb9a21618d71dda7e3a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
       },
       "sc:name": "Gene report"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkr1067",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

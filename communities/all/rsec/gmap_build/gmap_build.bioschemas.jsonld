@@ -36,15 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bti310",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bti310",
       "@type": "sc:CreativeWork"
     },
     {
@@ -53,29 +49,29 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N7cf0d8068cb54b4a92821c72b2d4ddf5"
+          "@id": "_:N89888c8f13c14019bfc128ebe3d86709"
         },
         {
-          "@id": "_:N7ee61f560efe4b708604349c67a0a226"
+          "@id": "_:N22813a553db34a27b1dc95350a6351aa"
         },
         {
-          "@id": "_:N104fb46ea9f84ea282a0cbb0e7874128"
+          "@id": "_:Na65506ddbed6467299525bf92cab9641"
         },
         {
-          "@id": "_:N52f66460c69841f6861c415f3cbab096"
+          "@id": "_:N74fe7dc18785419b89d1f9b0c4b8051e"
         },
         {
-          "@id": "_:Nfe14c890a19a44de8ef3ec9ff4103312"
+          "@id": "_:N652ba9a3dcae4c3b808668775f005c73"
         },
         {
-          "@id": "_:N3fc35deb58b849e89ede20a40db947ab"
+          "@id": "_:Ncc7b7f9000f947df9faf060169e98ad2"
         },
         {
-          "@id": "_:N9d43c638294a45308142bd3423c223cd"
+          "@id": "_:N5fc1b4dc0d2e4118a1de8a4da92c9240"
         }
       ],
       "bsc:output": {
-        "@id": "_:N192ee77cc82c48098466700edcfc9e33"
+        "@id": "_:N9179d3b082cb48aa912cfa78a6d42c80"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -113,7 +109,7 @@
       "sc:url": "http://research-pub.gene.com/gmap/"
     },
     {
-      "@id": "_:N7cf0d8068cb54b4a92821c72b2d4ddf5",
+      "@id": "_:N89888c8f13c14019bfc128ebe3d86709",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -124,7 +120,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N7ee61f560efe4b708604349c67a0a226",
+      "@id": "_:N22813a553db34a27b1dc95350a6351aa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -135,7 +131,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N104fb46ea9f84ea282a0cbb0e7874128",
+      "@id": "_:Na65506ddbed6467299525bf92cab9641",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -146,7 +142,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N52f66460c69841f6861c415f3cbab096",
+      "@id": "_:N74fe7dc18785419b89d1f9b0c4b8051e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -157,7 +153,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nfe14c890a19a44de8ef3ec9ff4103312",
+      "@id": "_:N652ba9a3dcae4c3b808668775f005c73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -168,7 +164,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N3fc35deb58b849e89ede20a40db947ab",
+      "@id": "_:Ncc7b7f9000f947df9faf060169e98ad2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -179,7 +175,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N9d43c638294a45308142bd3423c223cd",
+      "@id": "_:N5fc1b4dc0d2e4118a1de8a4da92c9240",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -190,7 +186,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N192ee77cc82c48098466700edcfc9e33",
+      "@id": "_:N9179d3b082cb48aa912cfa78a6d42c80",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -199,6 +195,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

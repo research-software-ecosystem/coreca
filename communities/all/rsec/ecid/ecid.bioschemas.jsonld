@@ -40,48 +40,48 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N52b190d969414066be2cda2110da404f"
+          "@id": "_:Na0dc5e6617214acdaa511fb876c9ca87"
         },
         {
-          "@id": "_:Nb859524309eb46459f30351fb663b646"
+          "@id": "_:N20b274d1fe6d4c82afc8b315e157a0f5"
         },
         {
-          "@id": "_:N870d3979ee834bdfb4c7e64191bb500b"
+          "@id": "_:N0d673ed9b5e9453cbd827dbe2f7c4d5b"
         },
         {
-          "@id": "_:N11e39f774fe74b03b03ae63d1c56c780"
+          "@id": "_:Nfcde1693598c4ce3ae45616893de2b20"
         },
         {
-          "@id": "_:Ne662a161a32942c38eb821b6d0369d27"
+          "@id": "_:N21b09b06ea91449c91ab3ff395caf067"
         },
         {
-          "@id": "_:N67126bfe9766402d9b7d6e25e0152520"
+          "@id": "_:N8f46208085494df7867a901e5df18a4e"
         },
         {
-          "@id": "_:N7553f87e728a40b29a6c254bf2d1d71b"
+          "@id": "_:N00fa41f0cae54f28a4d1c5cd8bdbed55"
         },
         {
-          "@id": "_:Ndff39bb3ced540029cb0d86f0b84af7f"
+          "@id": "_:N34956e010bb94e92b67f898b72f30f3b"
         },
         {
-          "@id": "_:Nd5552bdfac2140428782560a494b34e2"
+          "@id": "_:Nb297b65638a64a6a892f895b06ce6a33"
         },
         {
-          "@id": "_:Nde6f60c35bec4d88ae99e2084c98e014"
+          "@id": "_:N32b86812d0044522b2a0b4d5ae1e0019"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N3dbf63db5db841fd9995302de5d168b9"
+          "@id": "_:Ne2a5f289ec004702bbbe38ea0ccad2a6"
         },
         {
-          "@id": "_:Neec69c2d0f9b4531a7e9d63702d2791e"
+          "@id": "_:N97e7bbf4903a400f813ab1c564189562"
         },
         {
-          "@id": "_:Nbfa34c95091b4f628b5c33a3c04280db"
+          "@id": "_:N9f18b6c658c14023a63a47d786fb5e21"
         },
         {
-          "@id": "_:Na1e351eb1f964113b2578bd022ca312c"
+          "@id": "_:N1db65fbc99c2410a9f2eb6c5e8eb9f60"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -106,7 +106,7 @@
       "sc:url": "http://ecid.bioinfo.cnio.es/index.php"
     },
     {
-      "@id": "_:N52b190d969414066be2cda2110da404f",
+      "@id": "_:Na0dc5e6617214acdaa511fb876c9ca87",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -114,7 +114,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:Nb859524309eb46459f30351fb663b646",
+      "@id": "_:N20b274d1fe6d4c82afc8b315e157a0f5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2802"
@@ -122,7 +122,7 @@
       "sc:name": "Protein ID (EcID)"
     },
     {
-      "@id": "_:N870d3979ee834bdfb4c7e64191bb500b",
+      "@id": "_:N0d673ed9b5e9453cbd827dbe2f7c4d5b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0989"
@@ -130,7 +130,7 @@
       "sc:name": "Protein identifier"
     },
     {
-      "@id": "_:N11e39f774fe74b03b03ae63d1c56c780",
+      "@id": "_:Nfcde1693598c4ce3ae45616893de2b20",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -138,7 +138,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:Ne662a161a32942c38eb821b6d0369d27",
+      "@id": "_:N21b09b06ea91449c91ab3ff395caf067",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2802"
@@ -146,7 +146,7 @@
       "sc:name": "Protein ID (EcID)"
     },
     {
-      "@id": "_:N67126bfe9766402d9b7d6e25e0152520",
+      "@id": "_:N8f46208085494df7867a901e5df18a4e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0989"
@@ -154,7 +154,7 @@
       "sc:name": "Protein identifier"
     },
     {
-      "@id": "_:N7553f87e728a40b29a6c254bf2d1d71b",
+      "@id": "_:N00fa41f0cae54f28a4d1c5cd8bdbed55",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -162,7 +162,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:Ndff39bb3ced540029cb0d86f0b84af7f",
+      "@id": "_:N34956e010bb94e92b67f898b72f30f3b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2802"
@@ -170,7 +170,7 @@
       "sc:name": "Protein ID (EcID)"
     },
     {
-      "@id": "_:Nd5552bdfac2140428782560a494b34e2",
+      "@id": "_:Nb297b65638a64a6a892f895b06ce6a33",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0989"
@@ -178,7 +178,7 @@
       "sc:name": "Protein identifier"
     },
     {
-      "@id": "_:Nde6f60c35bec4d88ae99e2084c98e014",
+      "@id": "_:N32b86812d0044522b2a0b4d5ae1e0019",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0989"
@@ -186,7 +186,7 @@
       "sc:name": "Protein identifier"
     },
     {
-      "@id": "_:N3dbf63db5db841fd9995302de5d168b9",
+      "@id": "_:Ne2a5f289ec004702bbbe38ea0ccad2a6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -197,7 +197,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:Neec69c2d0f9b4531a7e9d63702d2791e",
+      "@id": "_:N97e7bbf4903a400f813ab1c564189562",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -208,7 +208,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:Nbfa34c95091b4f628b5c33a3c04280db",
+      "@id": "_:N9f18b6c658c14023a63a47d786fb5e21",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -219,7 +219,7 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "_:Na1e351eb1f964113b2578bd022ca312c",
+      "@id": "_:N1db65fbc99c2410a9f2eb6c5e8eb9f60",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2093"

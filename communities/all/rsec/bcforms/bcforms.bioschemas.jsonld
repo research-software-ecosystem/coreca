@@ -36,10 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/s13059-020-02025-z",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/bcforms",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N060857249e354fe09aa3f780204f3d5b"
+        "@id": "_:N222f4df1c1714400ab3acda964eabd2e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -119,7 +123,7 @@
       "sc:url": "https://www.bcforms.org"
     },
     {
-      "@id": "_:N060857249e354fe09aa3f780204f3d5b",
+      "@id": "_:N222f4df1c1714400ab3acda964eabd2e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -128,10 +132,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Protein structure"
-    },
-    {
-      "@id": "https://doi.org/10.1186/s13059-020-02025-z",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

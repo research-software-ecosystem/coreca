@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1177/20552076231165963",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/idhu_ensem",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N47ac83a1ddf547a784fbd326dc93cf33"
+        "@id": "_:N14d46963afdd432bbd8dc79923ca8d57"
       },
       "bsc:output": {
-        "@id": "_:Nc784af5f8e28476a9be8a34e1992f9c0"
+        "@id": "_:N98cbd873f88345838c8917b576de23b4"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -95,7 +91,7 @@
       "sc:url": "https://taseersuleman-idhu-ensem-idhu-ensem.streamlit.app/"
     },
     {
-      "@id": "_:N47ac83a1ddf547a784fbd326dc93cf33",
+      "@id": "_:N14d46963afdd432bbd8dc79923ca8d57",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -103,12 +99,16 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:Nc784af5f8e28476a9be8a34e1992f9c0",
+      "@id": "_:N98cbd873f88345838c8917b576de23b4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3756"
       },
       "sc:name": "Localisation score"
+    },
+    {
+      "@id": "https://doi.org/10.1177/20552076231165963",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

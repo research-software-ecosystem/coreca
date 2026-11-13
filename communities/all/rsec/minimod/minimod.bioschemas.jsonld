@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/2025.07.16.665072",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/minimod",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N56ad484673e44dbbbf0b82b112b019d4"
+        "@id": "_:Nf20e32f1c8b4464692a77ef2c09f3b48"
       },
       "bsc:output": {
-        "@id": "_:N1a39c042b0544043bacaa3fdb2a3590b"
+        "@id": "_:Ne6a33610d1554e0681172386ed787860"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -78,7 +74,7 @@
       "sc:url": "https://warp9seq.github.io/minimod"
     },
     {
-      "@id": "_:N56ad484673e44dbbbf0b82b112b019d4",
+      "@id": "_:Nf20e32f1c8b4464692a77ef2c09f3b48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -94,7 +90,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N1a39c042b0544043bacaa3fdb2a3590b",
+      "@id": "_:Ne6a33610d1554e0681172386ed787860",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3779"
@@ -103,6 +99,10 @@
         "@id": "edam:format_3475"
       },
       "sc:name": "Annotated text"
+    },
+    {
+      "@id": "https://doi.org/10.1101/2025.07.16.665072",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

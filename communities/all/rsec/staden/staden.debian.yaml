@@ -19,7 +19,7 @@ bib:
 - key: doi
   value: 10.1093/bioinformatics/btq268
 popcon:
-- insts: 122
-  olde: 93
-  recent: 23
-  vote: 6
+- insts: 130
+  olde: 96
+  recent: 26
+  vote: 8

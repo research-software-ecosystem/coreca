@@ -36,29 +36,25 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/PhytoMine",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N481323a4ac4f41d1ae575f44b31eb980"
+          "@id": "_:Nf3320664f4db4d4daee7ad8f7636e4fd"
         },
         {
-          "@id": "_:Ncc9f4f094475415db2ea871c9ae17c55"
+          "@id": "_:N190bf4a7032344c7b290a40f8a000d1d"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne51e802ad0894e8b861363bd941032e0"
+          "@id": "_:N00cb868987a945299b0287dbac0aac60"
         },
         {
-          "@id": "_:N3eb0401b07d0407697f600b97ce1e567"
+          "@id": "_:Nc8c7af21771e4dd6967c4733fad24eb1"
         },
         {
-          "@id": "_:N3d672567610e4c4e902c6504839a2a3e"
+          "@id": "_:N7ba9d04f762b41ab83c26daf5ea011c4"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -119,7 +115,7 @@
       "sc:url": "https://phytozome.jgi.doe.gov/phytomine/"
     },
     {
-      "@id": "_:N481323a4ac4f41d1ae575f44b31eb980",
+      "@id": "_:Nf3320664f4db4d4daee7ad8f7636e4fd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -127,7 +123,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:Ncc9f4f094475415db2ea871c9ae17c55",
+      "@id": "_:N190bf4a7032344c7b290a40f8a000d1d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -135,7 +131,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:Ne51e802ad0894e8b861363bd941032e0",
+      "@id": "_:N00cb868987a945299b0287dbac0aac60",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3753"
@@ -143,7 +139,7 @@
       "sc:name": "Over-representation data"
     },
     {
-      "@id": "_:N3eb0401b07d0407697f600b97ce1e567",
+      "@id": "_:Nc8c7af21771e4dd6967c4733fad24eb1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -151,12 +147,16 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:N3d672567610e4c4e902c6504839a2a3e",
+      "@id": "_:N7ba9d04f762b41ab83c26daf5ea011c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
       },
       "sc:name": "Sequence features"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

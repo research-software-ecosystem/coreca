@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1073/pnas.91.20.9218",
+      "@id": "https://doi.org/10.1529/biophysj.103.020743",
       "@type": "sc:CreativeWork"
     },
     {
@@ -102,7 +102,7 @@
       "sc:url": "http://mfold.rna.albany.edu/?q=DINAMelt"
     },
     {
-      "@id": "https://doi.org/10.1529/biophysj.103.020743",
+      "@id": "https://doi.org/10.1073/pnas.91.20.9218",
       "@type": "sc:CreativeWork"
     }
   ]

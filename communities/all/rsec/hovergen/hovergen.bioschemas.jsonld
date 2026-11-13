@@ -41,24 +41,24 @@
       "biotools:primaryContact": "Laurent Duret",
       "bsc:input": [
         {
-          "@id": "_:N197bf394b53f4cda82b90469b861be51"
+          "@id": "_:N0a6ef7dd5ea4458dae72efafafebfa9e"
         },
         {
-          "@id": "_:Na1a81c7bbc154f028ee514ec693645b5"
+          "@id": "_:N430aea694a9e4b3589b78225dd3b31e9"
         },
         {
-          "@id": "_:N2119f25d8d014e1398b3f6bfacb0d003"
+          "@id": "_:N31175640844d489480b635462192d543"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9f41e2590f2d42449688c372d71350d5"
+          "@id": "_:N184ccb6c67bd49ae9834db7ee7fb5244"
         },
         {
-          "@id": "_:N8e6380e2e69d40d48797f73fd8ee08f1"
+          "@id": "_:N8e97bf02983f4affa678b1630fc1f507"
         },
         {
-          "@id": "_:N285a2c44e8a0497581d1691476a85b6f"
+          "@id": "_:N3433e65e90da45fda46b1a89f787124b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -102,7 +102,7 @@
       "sc:url": "http://pbil.univ-lyon1.fr/databases/hovergen.html"
     },
     {
-      "@id": "_:N197bf394b53f4cda82b90469b861be51",
+      "@id": "_:N0a6ef7dd5ea4458dae72efafafebfa9e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -110,7 +110,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:Na1a81c7bbc154f028ee514ec693645b5",
+      "@id": "_:N430aea694a9e4b3589b78225dd3b31e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -118,7 +118,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N2119f25d8d014e1398b3f6bfacb0d003",
+      "@id": "_:N31175640844d489480b635462192d543",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -126,7 +126,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N9f41e2590f2d42449688c372d71350d5",
+      "@id": "_:N184ccb6c67bd49ae9834db7ee7fb5244",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -137,7 +137,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N8e6380e2e69d40d48797f73fd8ee08f1",
+      "@id": "_:N8e97bf02983f4affa678b1630fc1f507",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -148,7 +148,7 @@
       "sc:name": "Phylogenetic tree"
     },
     {
-      "@id": "_:N285a2c44e8a0497581d1691476a85b6f",
+      "@id": "_:N3433e65e90da45fda46b1a89f787124b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"

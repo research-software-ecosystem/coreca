@@ -44,21 +44,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N5ea85a6f36074e99878ba1b7252afe31"
+          "@id": "_:N673d77cb5b564adf830472f06ba288cc"
         },
         {
-          "@id": "_:Ne8a5c4216427453a9301cefecd59d15c"
+          "@id": "_:N19e44ede9d51421abb7dcc51676536d1"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd0c1b0a4b984488badd40deddddfd347"
+          "@id": "_:Ne1d60d10c8624e4e92c4ad9bd26283f3"
         },
         {
-          "@id": "_:Nb6584895e36843a48f92b21f2aa19c91"
+          "@id": "_:N229b7da089484d60b9be8a31707cc1b1"
         },
         {
-          "@id": "_:N62efc32a9150474b821eeb493f64cbc0"
+          "@id": "_:N9ad327dd17a94be8ada83c9ed417c041"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -119,7 +119,7 @@
       "sc:url": "http://medicmine.jcvi.org/medicmine"
     },
     {
-      "@id": "_:N5ea85a6f36074e99878ba1b7252afe31",
+      "@id": "_:N673d77cb5b564adf830472f06ba288cc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -127,7 +127,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:Ne8a5c4216427453a9301cefecd59d15c",
+      "@id": "_:N19e44ede9d51421abb7dcc51676536d1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -135,7 +135,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:Nd0c1b0a4b984488badd40deddddfd347",
+      "@id": "_:Ne1d60d10c8624e4e92c4ad9bd26283f3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3753"
@@ -143,7 +143,7 @@
       "sc:name": "Over-representation data"
     },
     {
-      "@id": "_:Nb6584895e36843a48f92b21f2aa19c91",
+      "@id": "_:N229b7da089484d60b9be8a31707cc1b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3786"
@@ -151,7 +151,7 @@
       "sc:name": "Query script"
     },
     {
-      "@id": "_:N62efc32a9150474b821eeb493f64cbc0",
+      "@id": "_:N9ad327dd17a94be8ada83c9ed417c041",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"

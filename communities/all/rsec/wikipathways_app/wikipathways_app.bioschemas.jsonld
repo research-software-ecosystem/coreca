@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1371/journal.pone.0006447",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/wikipathways_app",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -97,6 +93,10 @@
     },
     {
       "@id": "https://doi.org/10.12688/F1000RESEARCH.4254.2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0006447",
       "@type": "sc:CreativeWork"
     },
     {

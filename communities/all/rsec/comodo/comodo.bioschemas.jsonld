@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N9d5ae9eb8fc5476688ef11c2b6ae6eaf"
+          "@id": "_:Na4f26b66f35b4a46b142d9a5030ff8aa"
         },
         {
-          "@id": "_:N85314dbb194b498b8738c32d8d90d7f2"
+          "@id": "_:N15cba97a56484bbb82ac2845c917f161"
         }
       ],
       "bsc:output": {
-        "@id": "_:N286ac69d51454e1f8353bb57524224d5"
+        "@id": "_:N63201982ce584993a4f46449da98024a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -75,7 +75,7 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/kmarchal/Supplementary_Information_Zarrineh_2010/comodo/index.html"
     },
     {
-      "@id": "_:N9d5ae9eb8fc5476688ef11c2b6ae6eaf",
+      "@id": "_:Na4f26b66f35b4a46b142d9a5030ff8aa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3148"
@@ -83,7 +83,7 @@
       "sc:name": "Gene family report"
     },
     {
-      "@id": "_:N85314dbb194b498b8738c32d8d90d7f2",
+      "@id": "_:N15cba97a56484bbb82ac2845c917f161",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"
@@ -91,7 +91,7 @@
       "sc:name": "Processed microarray data"
     },
     {
-      "@id": "_:N286ac69d51454e1f8353bb57524224d5",
+      "@id": "_:N63201982ce584993a4f46449da98024a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3148"

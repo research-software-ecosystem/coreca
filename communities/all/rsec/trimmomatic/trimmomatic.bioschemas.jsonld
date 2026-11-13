@@ -41,18 +41,18 @@
       "biotools:primaryContact": "Anthony Bolger",
       "bsc:input": [
         {
-          "@id": "_:Nc5bcfb33035e4daf9d363897f1713d16"
+          "@id": "_:Nf267b8e5b9744126981dbab9185c123a"
         },
         {
-          "@id": "_:N6f5184f5c2124c689c243db0ad45e986"
+          "@id": "_:Nbfdb3ccd1fae469ea5b2d6eddf652309"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne65cccd4976549d4a710df5bc164cd54"
+          "@id": "_:N794b2a24a7f84c96a3b4e340148cc1ec"
         },
         {
-          "@id": "_:Nb46c57b2de7d48148fefc93de4e92db3"
+          "@id": "_:N3a4430e8d35c40a0a084085937cd3073"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -88,7 +88,7 @@
       "sc:url": "http://www.usadellab.org/cms/index.php?page=trimmomatic"
     },
     {
-      "@id": "_:Nc5bcfb33035e4daf9d363897f1713d16",
+      "@id": "_:Nf267b8e5b9744126981dbab9185c123a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -113,7 +113,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N6f5184f5c2124c689c243db0ad45e986",
+      "@id": "_:Nbfdb3ccd1fae469ea5b2d6eddf652309",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -124,7 +124,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:Ne65cccd4976549d4a710df5bc164cd54",
+      "@id": "_:N794b2a24a7f84c96a3b4e340148cc1ec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -135,7 +135,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nb46c57b2de7d48148fefc93de4e92db3",
+      "@id": "_:N3a4430e8d35c40a0a084085937cd3073",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

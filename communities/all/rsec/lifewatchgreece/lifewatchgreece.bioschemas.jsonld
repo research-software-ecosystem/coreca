@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.3897/BDJ.4.e8740",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/lifewatchgreece",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,17 +47,17 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N04cb7f06a94c43a4833952ef63b2e36b"
+          "@id": "_:N04f03efddc9c443bb46590834b4b5a11"
         },
         {
-          "@id": "_:N0eef607fa2774651af26c66a07378412"
+          "@id": "_:Nfed264c58cb44fbdba9e64360377c608"
         },
         {
-          "@id": "_:Nc22855ea04c84325895ef541c97fbd05"
+          "@id": "_:N24cfb62b51a44291b6b4389c1ffeb038"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nd49e36eaedea4ed98ff9723e4a7b777e"
+        "@id": "_:Nc94b6ebbbf854f809ecb164cc5ff7156"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -99,7 +103,7 @@
       "sc:url": "https://microct.portal.lifewatchgreece.eu/"
     },
     {
-      "@id": "_:N04cb7f06a94c43a4833952ef63b2e36b",
+      "@id": "_:N04f03efddc9c443bb46590834b4b5a11",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -110,7 +114,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N0eef607fa2774651af26c66a07378412",
+      "@id": "_:Nfed264c58cb44fbdba9e64360377c608",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1869"
@@ -121,7 +125,7 @@
       "sc:name": "Organism identifier"
     },
     {
-      "@id": "_:Nc22855ea04c84325895ef541c97fbd05",
+      "@id": "_:N24cfb62b51a44291b6b4389c1ffeb038",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1868"
@@ -132,7 +136,7 @@
       "sc:name": "Taxon"
     },
     {
-      "@id": "_:Nd49e36eaedea4ed98ff9723e4a7b777e",
+      "@id": "_:Nc94b6ebbbf854f809ecb164cc5ff7156",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3546"
@@ -141,10 +145,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Image metadata"
-    },
-    {
-      "@id": "https://doi.org/10.3897/BDJ.4.e8740",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "http://orcid.org/0000-0002-6693-2033",

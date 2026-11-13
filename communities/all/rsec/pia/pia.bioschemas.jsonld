@@ -36,16 +36,12 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0001-7522-4007",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://doi.org/10.1021/acs.jproteome.8b00723",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1021/acs.jproteome.5b00121",
-      "@type": "sc:CreativeWork"
+      "@id": "http://orcid.org/0000-0001-7522-4007",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/pia",
@@ -54,14 +50,14 @@
         "@id": "http://orcid.org/0000-0001-7522-4007"
       },
       "bsc:input": {
-        "@id": "_:Nc12a7737ce6e47598e76e345abb28bc0"
+        "@id": "_:N2d1517db400c4d2bba6aec1bbc7acadf"
       },
       "bsc:output": [
         {
-          "@id": "_:N7b5fd55b5bf245b2a1a7a2c4fca2f8f6"
+          "@id": "_:N2a3442958be24894be8d45401b5c067b"
         },
         {
-          "@id": "_:Ncb54116eb4b346498f6548c58b2eff6f"
+          "@id": "_:N17e041aa7b4444d09c0fc95995591651"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -120,7 +116,7 @@
       "sc:url": "https://github.com/medbioinf/pia"
     },
     {
-      "@id": "_:Nc12a7737ce6e47598e76e345abb28bc0",
+      "@id": "_:N2d1517db400c4d2bba6aec1bbc7acadf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -151,7 +147,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:N7b5fd55b5bf245b2a1a7a2c4fca2f8f6",
+      "@id": "_:N2a3442958be24894be8d45401b5c067b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -179,7 +175,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Ncb54116eb4b346498f6548c58b2eff6f",
+      "@id": "_:N17e041aa7b4444d09c0fc95995591651",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0989"
@@ -205,6 +201,10 @@
         }
       ],
       "sc:name": "Protein identifier"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acs.jproteome.5b00121",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

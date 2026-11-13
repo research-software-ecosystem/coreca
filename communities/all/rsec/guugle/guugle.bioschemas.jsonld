@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/guugle",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb4e9d5886b7243f392cbd831fd28125b"
+        "@id": "_:N575d5e3c21a34bfba88419446e398a4e"
       },
       "bsc:output": {
-        "@id": "_:Ne74cc981ce684a218dcf8dc5d4e86689"
+        "@id": "_:Nacb6813197b64e8f8ce04c210dc54160"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -91,7 +91,7 @@
       "sc:url": "http://bibiserv.cebitec.uni-bielefeld.de/guugle"
     },
     {
-      "@id": "_:Nb4e9d5886b7243f392cbd831fd28125b",
+      "@id": "_:N575d5e3c21a34bfba88419446e398a4e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2975"
@@ -131,7 +131,7 @@
       "sc:name": "Nucleic acid sequence (raw)"
     },
     {
-      "@id": "_:Ne74cc981ce684a218dcf8dc5d4e86689",
+      "@id": "_:Nacb6813197b64e8f8ce04c210dc54160",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"

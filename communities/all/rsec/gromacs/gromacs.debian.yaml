@@ -37,7 +37,7 @@ tags:
 - tag: uitoolkit::xlib
 - tag: x11::application
 popcon:
-- insts: 458
-  olde: 398
-  recent: 33
-  vote: 27
+- insts: 466
+  olde: 392
+  recent: 45
+  vote: 29

@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/2025.06.23.660991",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/mdsvis",
       "@type": "sc:SoftwareApplication",
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -75,13 +71,17 @@
           "@id": "edam:operation_0337"
         }
       ],
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "MDSvis",
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/MDSvis"
       },
       "sc:softwareVersion": "1.0.0",
       "sc:url": "https://bioconductor.org/packages/MDSvis"
+    },
+    {
+      "@id": "https://doi.org/10.1101/2025.06.23.660991",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

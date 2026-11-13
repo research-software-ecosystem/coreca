@@ -40,14 +40,6 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.21203/RS.3.PEX-1172/V1",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1101/2020.12.20.423654",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/xlinkcynet",
       "@type": "sc:SoftwareApplication",
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -101,6 +93,14 @@
       "sc:license": "GPL-3.0",
       "sc:name": "XlinkCyNET",
       "sc:url": "https://www.theliulab.com/software/xlinkcynet"
+    },
+    {
+      "@id": "https://doi.org/10.21203/RS.3.PEX-1172/V1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1101/2020.12.20.423654",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

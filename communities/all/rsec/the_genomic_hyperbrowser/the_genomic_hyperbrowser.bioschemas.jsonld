@@ -36,15 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/gb-2010-11-12-r121",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1186/gb-2010-11-8-r86",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkt342",
       "@type": "sc:CreativeWork"
     },
     {
@@ -52,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N19e4034a630e4b2f80d8a931c95f8f09"
+          "@id": "_:N382a5102ea054eaeb0773cdf9d721ee8"
         },
         {
-          "@id": "_:N3753c4bc5f4047968afad04290c6c55b"
+          "@id": "_:N07457049157f428b8cdef27bf814822b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -148,7 +140,7 @@
       "sc:url": "https://hyperbrowser.uio.no"
     },
     {
-      "@id": "_:N19e4034a630e4b2f80d8a931c95f8f09",
+      "@id": "_:N382a5102ea054eaeb0773cdf9d721ee8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -170,7 +162,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N3753c4bc5f4047968afad04290c6c55b",
+      "@id": "_:N07457049157f428b8cdef27bf814822b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -192,7 +184,15 @@
       "sc:name": "Experimental measurement"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkt342",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1186/1471-2105-12-494",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/gb-2010-11-12-r121",
       "@type": "sc:CreativeWork"
     }
   ]

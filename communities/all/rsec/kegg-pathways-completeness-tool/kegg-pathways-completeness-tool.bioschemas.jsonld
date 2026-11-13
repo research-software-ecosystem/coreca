@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/kegg-pathways-completeness-tool",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb7ff6176f1b44adbb2dd3a6f6283387f"
+        "@id": "_:Nb3ad7c5659434781bc1ef99c46a32911"
       },
       "bsc:output": [
         {
-          "@id": "_:N5c0f1b65d8084cfa9ac64582a3482bf8"
+          "@id": "_:N553590b8e70940fa97cb2f1e84ce4f6d"
         },
         {
-          "@id": "_:Nd296adfadda7442db41d2faf7083a492"
+          "@id": "_:N60846e7abb274e3ca5e12369cacee3d4"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -86,7 +86,7 @@
       "sc:url": "https://github.com/EBI-Metagenomics/kegg-pathways-completeness-tool"
     },
     {
-      "@id": "_:Nb7ff6176f1b44adbb2dd3a6f6283387f",
+      "@id": "_:Nb3ad7c5659434781bc1ef99c46a32911",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -97,7 +97,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:N5c0f1b65d8084cfa9ac64582a3482bf8",
+      "@id": "_:N553590b8e70940fa97cb2f1e84ce4f6d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -105,7 +105,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nd296adfadda7442db41d2faf7083a492",
+      "@id": "_:N60846e7abb274e3ca5e12369cacee3d4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

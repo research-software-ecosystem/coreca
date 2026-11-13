@@ -31,7 +31,7 @@ tags:
 - tag: works-with::image
 - tag: works-with::image:raster
 popcon:
-- insts: 142
-  olde: 110
-  recent: 23
-  vote: 9
+- insts: 148
+  olde: 112
+  recent: 24
+  vote: 12

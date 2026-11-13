@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Marine Dumousseau",
       "bsc:input": {
-        "@id": "_:N189d3717a50347e18cce079ce1c8cf78"
+        "@id": "_:N43d5251a1b754a318f5a624218336a8f"
       },
       "bsc:output": {
-        "@id": "_:Nc0d7ddaf7b5d45eab937f1eff8567e0e"
+        "@id": "_:N0a0a0ebede1e4de185f25ffd6016eca1"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -84,7 +84,7 @@
       "sc:url": "http://www.ebi.ac.uk/intact/validator/start.xhtml"
     },
     {
-      "@id": "_:N189d3717a50347e18cce079ce1c8cf78",
+      "@id": "_:N43d5251a1b754a318f5a624218336a8f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -100,7 +100,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:Nc0d7ddaf7b5d45eab937f1eff8567e0e",
+      "@id": "_:N0a0a0ebede1e4de185f25ffd6016eca1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

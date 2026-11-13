@@ -36,27 +36,23 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/s0968-0004(01)01954-5",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/gpmaw",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Lighthouse data",
       "bsc:input": [
         {
-          "@id": "_:Nec9299d4d965405eac57f1db4940486e"
+          "@id": "_:N870d0d2f2e104052b85518a2251ea7d3"
         },
         {
-          "@id": "_:N7661c700759c4442b10091e584278fbd"
+          "@id": "_:N1aacccdeb95b409ca22c1229891538ee"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N063b40908087407288340c1d8414f0ee"
+          "@id": "_:N7ca8929d1a364433a63be5c82e27907e"
         },
         {
-          "@id": "_:Nbc614fedaaaf4ab9befb31670baa7eab"
+          "@id": "_:N60ad584441c444ff8e54fce9949f0d3b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -118,7 +114,7 @@
       "sc:url": "http://www.gpmaw.com/"
     },
     {
-      "@id": "_:Nec9299d4d965405eac57f1db4940486e",
+      "@id": "_:N870d0d2f2e104052b85518a2251ea7d3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -140,7 +136,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N7661c700759c4442b10091e584278fbd",
+      "@id": "_:N1aacccdeb95b409ca22c1229891538ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -151,7 +147,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N063b40908087407288340c1d8414f0ee",
+      "@id": "_:N7ca8929d1a364433a63be5c82e27907e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -162,12 +158,16 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Nbc614fedaaaf4ab9befb31670baa7eab",
+      "@id": "_:N60ad584441c444ff8e54fce9949f0d3b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
       },
       "sc:name": "Mass spectrum"
+    },
+    {
+      "@id": "https://doi.org/10.1016/s0968-0004(01)01954-5",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

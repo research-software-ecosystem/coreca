@@ -45,12 +45,12 @@
   "http://schema.org/name": "Multiview-stitcher",
   "http://schema.org/publisher": [
     "de Folter Joost",
-    "Gould Joshua",
-    "Albert Marvin",
-    "Wilhelmi Alexander",
-    "Bennett Davis",
     "Sturzenegger Flurin",
+    "Gould Joshua",
     "Soltwedel Johannes",
+    "Bennett Davis",
+    "Wilhelmi Alexander",
+    "Albert Marvin",
     "Isvecova"
   ]
 }

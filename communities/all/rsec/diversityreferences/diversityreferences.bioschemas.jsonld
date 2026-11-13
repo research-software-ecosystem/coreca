@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/DiversityReferences",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N89d4e312352b4b6584393d8e18fc2346"
+        "@id": "_:N8b859177a6fc4c499f0a2f68df7dc9a2"
       },
       "bsc:output": {
-        "@id": "_:N21b4ee5bd8524e0da364a8c3f0c3f3db"
+        "@id": "_:N4f2fe877002944fea1f7fc34dd79056d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -86,7 +86,7 @@
       "sc:url": "https://diversityworkbench.net/Portal/DiversityReferences"
     },
     {
-      "@id": "_:N89d4e312352b4b6584393d8e18fc2346",
+      "@id": "_:N8b859177a6fc4c499f0a2f68df7dc9a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -102,7 +102,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N21b4ee5bd8524e0da364a8c3f0c3f3db",
+      "@id": "_:N4f2fe877002944fea1f7fc34dd79056d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"

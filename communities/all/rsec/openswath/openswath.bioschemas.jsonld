@@ -40,21 +40,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N392c6c2d4b6a4f5b9e4eacd32caf5b76"
+          "@id": "_:Na814203b773e485fbe64b00ba664a5ab"
         },
         {
-          "@id": "_:N4eaa3261aac94858a470f1f5e15002a6"
+          "@id": "_:N63f08d05f8154a44a8e1e8e2d7f67e43"
         },
         {
-          "@id": "_:N1672fab52d5b4b25afd20122f62fd1f7"
+          "@id": "_:N8c8d959f55fa484587b00990e48493b6"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nde206f22fde147aaa879ebf2fbd76ce0"
+          "@id": "_:Na8d0ea40b3e146acb1eb9d52f1109c98"
         },
         {
-          "@id": "_:N865f156de2444957af4984c91d3f3a45"
+          "@id": "_:N90712b8ae2814f408e15b2f116a127ea"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -101,7 +101,7 @@
       "sc:url": "http://www.openswath.org"
     },
     {
-      "@id": "_:N392c6c2d4b6a4f5b9e4eacd32caf5b76",
+      "@id": "_:Na814203b773e485fbe64b00ba664a5ab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -117,7 +117,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N4eaa3261aac94858a470f1f5e15002a6",
+      "@id": "_:N63f08d05f8154a44a8e1e8e2d7f67e43",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -136,7 +136,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N1672fab52d5b4b25afd20122f62fd1f7",
+      "@id": "_:N8c8d959f55fa484587b00990e48493b6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -152,7 +152,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Nde206f22fde147aaa879ebf2fbd76ce0",
+      "@id": "_:Na8d0ea40b3e146acb1eb9d52f1109c98",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -171,7 +171,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N865f156de2444957af4984c91d3f3a45",
+      "@id": "_:N90712b8ae2814f408e15b2f116a127ea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0944"

@@ -56,18 +56,18 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N095bb190b16545f7884c5bff19a8f37b"
+          "@id": "_:N1be5c257377b4b9e9544511acf7afe38"
         },
         {
-          "@id": "_:N2f7a3f6dcefa4baa83608f520b986ad6"
+          "@id": "_:N1670bcb819434e0f85938bd760ec8119"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nc2705a1e91fd4c2699587480d494dd33"
+          "@id": "_:N7ea2ce11f20b4400bfb367d8883318d7"
         },
         {
-          "@id": "_:Nb1e1fcd5cb5b4e0ab15fa81127ad66bf"
+          "@id": "_:N22b8e5edb53f425e8bbb388c77698531"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -123,7 +123,7 @@
       "sc:url": "https://divbrowse.ipk-gatersleben.de"
     },
     {
-      "@id": "_:N095bb190b16545f7884c5bff19a8f37b",
+      "@id": "_:N1be5c257377b4b9e9544511acf7afe38",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -134,7 +134,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:N2f7a3f6dcefa4baa83608f520b986ad6",
+      "@id": "_:N1670bcb819434e0f85938bd760ec8119",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"
@@ -145,7 +145,7 @@
       "sc:name": "Sequence variations"
     },
     {
-      "@id": "_:Nc2705a1e91fd4c2699587480d494dd33",
+      "@id": "_:N7ea2ce11f20b4400bfb367d8883318d7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -156,7 +156,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:Nb1e1fcd5cb5b4e0ab15fa81127ad66bf",
+      "@id": "_:N22b8e5edb53f425e8bbb388c77698531",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"

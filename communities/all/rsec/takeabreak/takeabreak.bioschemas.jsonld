@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Claire Lemaitre",
       "bsc:input": {
-        "@id": "_:N477fe478f7ec45dbba24df96f3d5eee7"
+        "@id": "_:Nce9e9722e22e4540ae140722d7e7414d"
       },
       "bsc:output": {
-        "@id": "_:Neeb2269f09d34f7ba4aaa03320c915ec"
+        "@id": "_:Nfb1a4b0aa53e44d2b17d3fdbae5e9fe2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -76,7 +76,7 @@
       "sc:url": "http://colibread.inria.fr/software/takeabreak/"
     },
     {
-      "@id": "_:N477fe478f7ec45dbba24df96f3d5eee7",
+      "@id": "_:Nce9e9722e22e4540ae140722d7e7414d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2975"
@@ -87,7 +87,7 @@
       "sc:name": "Nucleic acid sequence (raw)"
     },
     {
-      "@id": "_:Neeb2269f09d34f7ba4aaa03320c915ec",
+      "@id": "_:Nfb1a4b0aa53e44d2b17d3fdbae5e9fe2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"

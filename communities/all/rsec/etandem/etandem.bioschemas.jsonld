@@ -36,22 +36,10 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/etandem",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na29145aae8434e0cbc4c88f373e48480"
+        "@id": "_:N6f3c582112a64f7e9cffe4486e25d423"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -111,12 +99,24 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/etandem.html"
     },
     {
-      "@id": "_:Na29145aae8434e0cbc4c88f373e48480",
+      "@id": "_:N6f3c582112a64f7e9cffe4486e25d423",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
       },
       "sc:name": "Nucleic acid sequence record"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0168-9525(00)02024-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

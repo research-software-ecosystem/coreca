@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts389",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "http://orcid.org/0000-0003-3977-7469",
       "@type": "sc:Person"
     },
@@ -47,14 +51,14 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Na2d6ba3971bc4e389c6d731b65f97c68"
+          "@id": "_:N0560cca3a19444d0ac3ecf77a3a83c3e"
         },
         {
-          "@id": "_:N207084a64cd14b47ad4f27d5daa26497"
+          "@id": "_:Nee2e8969b3b44734b5b74704330cc5df"
         }
       ],
       "bsc:output": {
-        "@id": "_:N6477b4eb9c5b4a4c80b80271563060fe"
+        "@id": "_:Ndf350f832b6f40b692e3a74e0f0efd04"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -95,7 +99,7 @@
       "sc:url": "http://www.enrichnet.org/"
     },
     {
-      "@id": "_:Na2d6ba3971bc4e389c6d731b65f97c68",
+      "@id": "_:N0560cca3a19444d0ac3ecf77a3a83c3e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -103,7 +107,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N207084a64cd14b47ad4f27d5daa26497",
+      "@id": "_:Nee2e8969b3b44734b5b74704330cc5df",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -114,7 +118,7 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:N6477b4eb9c5b4a4c80b80271563060fe",
+      "@id": "_:Ndf350f832b6f40b692e3a74e0f0efd04",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -123,10 +127,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Pathway or network"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/bts389",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

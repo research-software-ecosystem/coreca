@@ -20,7 +20,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 497,
+                            "cit_count": 501,
                             "citations": [
                                 {
                                     "count": 1,
@@ -51,7 +51,7 @@
                                     "year": 2018
                                 },
                                 {
-                                    "count": 32,
+                                    "count": 33,
                                     "year": 2020
                                 },
                                 {
@@ -59,7 +59,7 @@
                                     "year": 2019
                                 },
                                 {
-                                    "count": 46,
+                                    "count": 48,
                                     "year": 2021
                                 },
                                 {
@@ -67,19 +67,19 @@
                                     "year": 2023
                                 },
                                 {
-                                    "count": 50,
-                                    "year": 2026
+                                    "count": 52,
+                                    "year": 2024
                                 },
                                 {
                                     "count": 52,
-                                    "year": 2024
+                                    "year": 2026
                                 },
                                 {
                                     "count": 58,
                                     "year": 2022
                                 },
                                 {
-                                    "count": 67,
+                                    "count": 66,
                                     "year": 2025
                                 }
                             ],

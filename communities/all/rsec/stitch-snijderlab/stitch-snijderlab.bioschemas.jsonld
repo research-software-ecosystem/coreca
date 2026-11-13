@@ -51,30 +51,30 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nb0b111c18cc94764a10b7638dd3a1656"
+          "@id": "_:N37faf1456782484097d69545020bc78e"
         },
         {
-          "@id": "_:N2e3588f9f9a54642b3d42b66849c6026"
+          "@id": "_:Nac5c4bd534ee41acb1626868672aa932"
         },
         {
-          "@id": "_:N9f203c41198c47daba8bf1188351be55"
+          "@id": "_:N7b3d75cefd0544718610691091e91304"
         },
         {
-          "@id": "_:Nd89c213405704a0e9000496c9722d76b"
+          "@id": "_:N042154e0e6e646419656bfdf91fd4931"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N20bcf743717145509b23f05c10b4e164"
+          "@id": "_:N459054d6f9be4cb89e2d6e02bfc5ee97"
         },
         {
-          "@id": "_:N7e62717620914586aadd26e04d8bf031"
+          "@id": "_:N7b091709a09a4b54b4b5bb3d36b33f8e"
         },
         {
-          "@id": "_:Nc559899cb3d8457cbd46ac7d88b194fb"
+          "@id": "_:N26e754534b364e0a95f927a20129a272"
         },
         {
-          "@id": "_:Nba8c628a6e004d5098c7cabf7e9e343e"
+          "@id": "_:Nb441421f920045b3b8dc7d0068dd88ee"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -112,7 +112,7 @@
       "sc:url": "https://github.com/snijderlab/stitch"
     },
     {
-      "@id": "_:Nb0b111c18cc94764a10b7638dd3a1656",
+      "@id": "_:N37faf1456782484097d69545020bc78e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -123,7 +123,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:N2e3588f9f9a54642b3d42b66849c6026",
+      "@id": "_:Nac5c4bd534ee41acb1626868672aa932",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -134,7 +134,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:N9f203c41198c47daba8bf1188351be55",
+      "@id": "_:N7b3d75cefd0544718610691091e91304",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -145,7 +145,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:Nd89c213405704a0e9000496c9722d76b",
+      "@id": "_:N042154e0e6e646419656bfdf91fd4931",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -167,7 +167,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:N20bcf743717145509b23f05c10b4e164",
+      "@id": "_:N459054d6f9be4cb89e2d6e02bfc5ee97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -178,7 +178,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:N7e62717620914586aadd26e04d8bf031",
+      "@id": "_:N7b091709a09a4b54b4b5bb3d36b33f8e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -189,7 +189,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:Nc559899cb3d8457cbd46ac7d88b194fb",
+      "@id": "_:N26e754534b364e0a95f927a20129a272",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -200,7 +200,7 @@
       "sc:name": "Mass spectrum"
     },
     {
-      "@id": "_:Nba8c628a6e004d5098c7cabf7e9e343e",
+      "@id": "_:Nb441421f920045b3b8dc7d0068dd88ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"

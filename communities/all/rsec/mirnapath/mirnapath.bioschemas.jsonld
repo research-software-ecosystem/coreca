@@ -40,21 +40,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N1c4e4765869f4d4fadb3d49cd5ecfa97"
+          "@id": "_:Nf10d4f2c529a46ccbc4e1897a1753d5b"
         },
         {
-          "@id": "_:N753d1331afcd4354b6c89a9897f33035"
+          "@id": "_:N30216b48759d452db41bdfac3b203402"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N802b972d34bc456785f5ce6514fdbf73"
+          "@id": "_:Nc0926c469369480396aff808c842fa3f"
         },
         {
-          "@id": "_:Nb68f692f18c54d49b463d4a2bf679c48"
+          "@id": "_:N6e73d770c0d742a6a20ed33c93d9b641"
         },
         {
-          "@id": "_:N8553df71d7374925908c72b997f1d8a7"
+          "@id": "_:N4e012ce33ba04373b80619c6af6204ec"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -74,7 +74,7 @@
       "sc:featureList": {
         "@id": "edam:operation_3223"
       },
-      "sc:license": "LGPL-2.1-only",
+      "sc:license": "LGPL-2.1",
       "sc:name": "miRNApath",
       "sc:operatingSystem": [
         "Linux",
@@ -88,7 +88,7 @@
       "sc:url": "https://bioconductor.org/packages/miRNApath"
     },
     {
-      "@id": "_:N1c4e4765869f4d4fadb3d49cd5ecfa97",
+      "@id": "_:Nf10d4f2c529a46ccbc4e1897a1753d5b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -99,7 +99,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N753d1331afcd4354b6c89a9897f33035",
+      "@id": "_:N30216b48759d452db41bdfac3b203402",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3115"
@@ -110,7 +110,7 @@
       "sc:name": "Microarray metadata"
     },
     {
-      "@id": "_:N802b972d34bc456785f5ce6514fdbf73",
+      "@id": "_:Nc0926c469369480396aff808c842fa3f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -126,7 +126,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Nb68f692f18c54d49b463d4a2bf679c48",
+      "@id": "_:N6e73d770c0d742a6a20ed33c93d9b641",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1669"
@@ -142,7 +142,7 @@
       "sc:name": "P-value"
     },
     {
-      "@id": "_:N8553df71d7374925908c72b997f1d8a7",
+      "@id": "_:N4e012ce33ba04373b80619c6af6204ec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

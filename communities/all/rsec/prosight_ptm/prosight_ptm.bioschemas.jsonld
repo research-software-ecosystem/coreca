@@ -40,24 +40,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N481abf1379cf4f0b8add6f3795ad3332"
+          "@id": "_:Na62d6f3cd8bd4ff8a0e13e7e492a2465"
         },
         {
-          "@id": "_:N8f7c9b678b33412091a1601bb3e821fc"
+          "@id": "_:Nbc5615bea35e4712b4b1df234ef7cd5b"
         },
         {
-          "@id": "_:N1b8d003ba8ad420da25bbedcb04c3f44"
+          "@id": "_:N61faf71cdc564bafae56cfd1d4543b6c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N2067f14491cf4f9bb95748a56235293b"
+          "@id": "_:N6e76c81f367144c08653b2a3a93fae86"
         },
         {
-          "@id": "_:N89223aa0d2dc46c38dd717f4d2b04e1c"
+          "@id": "_:Nd86059890f9d43088914f803cb7f3ab7"
         },
         {
-          "@id": "_:Nc937318019a0424ba34b98a53d5685e1"
+          "@id": "_:N3c730beadf724a1db8361323896b1d59"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -119,7 +119,7 @@
       "sc:url": "https://prosightptm.northwestern.edu/"
     },
     {
-      "@id": "_:N481abf1379cf4f0b8add6f3795ad3332",
+      "@id": "_:Na62d6f3cd8bd4ff8a0e13e7e492a2465",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -130,7 +130,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N8f7c9b678b33412091a1601bb3e821fc",
+      "@id": "_:Nbc5615bea35e4712b4b1df234ef7cd5b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -141,7 +141,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N1b8d003ba8ad420da25bbedcb04c3f44",
+      "@id": "_:N61faf71cdc564bafae56cfd1d4543b6c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -152,7 +152,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N2067f14491cf4f9bb95748a56235293b",
+      "@id": "_:N6e76c81f367144c08653b2a3a93fae86",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -163,7 +163,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N89223aa0d2dc46c38dd717f4d2b04e1c",
+      "@id": "_:Nd86059890f9d43088914f803cb7f3ab7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -174,7 +174,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Nc937318019a0424ba34b98a53d5685e1",
+      "@id": "_:N3c730beadf724a1db8361323896b1d59",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

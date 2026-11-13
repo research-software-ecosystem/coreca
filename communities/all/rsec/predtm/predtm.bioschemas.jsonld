@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Marjana Novič",
       "bsc:input": {
-        "@id": "_:Nd6dd7a7c7aea4814945fc7532c5df54e"
+        "@id": "_:Na0e9f370cab84d968201de444ce755e8"
       },
       "bsc:output": {
-        "@id": "_:Nbea65e04c6ac4714a7faa9a5f2313601"
+        "@id": "_:Nad07413dd8f04ad18ee49e6912f3e118"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -80,7 +80,7 @@
       "sc:url": "http://transpred.ki.si"
     },
     {
-      "@id": "_:Nd6dd7a7c7aea4814945fc7532c5df54e",
+      "@id": "_:Na0e9f370cab84d968201de444ce755e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -91,7 +91,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nbea65e04c6ac4714a7faa9a5f2313601",
+      "@id": "_:Nad07413dd8f04ad18ee49e6912f3e118",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2955"
@@ -102,11 +102,11 @@
       "sc:name": "Sequence report"
     },
     {
-      "@id": "https://doi.org/10.1371/journal.pone.0038967",
+      "@id": "https://doi.org/10.1371/journal.pone.0145564",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1371/journal.pone.0145564",
+      "@id": "https://doi.org/10.1371/journal.pone.0038967",
       "@type": "sc:CreativeWork"
     }
   ]

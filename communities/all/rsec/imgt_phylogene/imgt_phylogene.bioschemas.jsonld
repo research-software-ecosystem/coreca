@@ -36,25 +36,33 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1016/s0145-305x(03)00078-8",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gku1056",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/IMGT_PhyloGene",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N055e3bc0daab4c6db7f8255b0287fe62"
+          "@id": "_:Ne6e2abd8c6a9417f84d3d16298357cb5"
         },
         {
-          "@id": "_:Nf9be006e4d594ae1b9ba63fae98fd81b"
+          "@id": "_:N16fbda04dbc54da0bb44dcea49cdf113"
         },
         {
-          "@id": "_:N26915e21a52a40e9b5bf74286084ea69"
+          "@id": "_:N743f20568938460381bc603a1a54470e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N9c7bb7742c2846fb8846b58aafd47582"
+          "@id": "_:N688a64f687da40f4bf31e13a53192cc0"
         },
         {
-          "@id": "_:Nb13712ea688745f1866943da7ff51587"
+          "@id": "_:Nbcc30b28d8c84e7a875ed3ffeb57497a"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -95,7 +103,7 @@
       "sc:url": "http://www.imgt.org/IMGTPhylogeny/"
     },
     {
-      "@id": "_:N055e3bc0daab4c6db7f8255b0287fe62",
+      "@id": "_:Ne6e2abd8c6a9417f84d3d16298357cb5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -106,7 +114,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:Nf9be006e4d594ae1b9ba63fae98fd81b",
+      "@id": "_:N16fbda04dbc54da0bb44dcea49cdf113",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -117,7 +125,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:N26915e21a52a40e9b5bf74286084ea69",
+      "@id": "_:N743f20568938460381bc603a1a54470e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2858"
@@ -128,7 +136,7 @@
       "sc:name": "Ontology concept"
     },
     {
-      "@id": "_:N9c7bb7742c2846fb8846b58aafd47582",
+      "@id": "_:N688a64f687da40f4bf31e13a53192cc0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2523"
@@ -139,7 +147,7 @@
       "sc:name": "Phylogenetic data"
     },
     {
-      "@id": "_:Nb13712ea688745f1866943da7ff51587",
+      "@id": "_:Nbcc30b28d8c84e7a875ed3ffeb57497a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0867"
@@ -153,14 +161,6 @@
         }
       ],
       "sc:name": "Sequence alignment report"
-    },
-    {
-      "@id": "https://doi.org/10.1016/s0145-305x(03)00078-8",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gku1056",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

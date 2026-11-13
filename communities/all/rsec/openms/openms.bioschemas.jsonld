@@ -36,26 +36,30 @@
   },
   "@graph": [
     {
+      "@id": "http://orcid.org/0000-0003-0990-7488",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/openms",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "General Mailinglist",
       "bsc:input": [
         {
-          "@id": "_:N40ca21458928428c8bd668757cf5f1c1"
+          "@id": "_:N797ca627bf7c42b5a4d7279f03f1cfc2"
         },
         {
-          "@id": "_:Nd7ee830ce8904c709c106ee34ca06a4f"
+          "@id": "_:N034cb0e0c431468984adcf2bf9023446"
         },
         {
-          "@id": "_:Ndfe2caf447804b93a13e3f1a62dd1d46"
+          "@id": "_:N762e9f00da714a0f9dda9b48b23ce929"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N6568804d9a4b489ab15412a775edc220"
+          "@id": "_:N788fdfb4d6ce4aeead73f9b629cb9475"
         },
         {
-          "@id": "_:N3fee031d5a694f7fae53e1a5fd469739"
+          "@id": "_:Nff3455a573bb428d92a2b36e85e53c6b"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -182,7 +186,7 @@
       "sc:url": "http://www.openms.de"
     },
     {
-      "@id": "_:N40ca21458928428c8bd668757cf5f1c1",
+      "@id": "_:N797ca627bf7c42b5a4d7279f03f1cfc2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -234,7 +238,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nd7ee830ce8904c709c106ee34ca06a4f",
+      "@id": "_:N034cb0e0c431468984adcf2bf9023446",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -286,7 +290,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Ndfe2caf447804b93a13e3f1a62dd1d46",
+      "@id": "_:N762e9f00da714a0f9dda9b48b23ce929",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -338,7 +342,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N6568804d9a4b489ab15412a775edc220",
+      "@id": "_:N788fdfb4d6ce4aeead73f9b629cb9475",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -381,7 +385,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N3fee031d5a694f7fae53e1a5fd469739",
+      "@id": "_:Nff3455a573bb428d92a2b36e85e53c6b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -422,10 +426,6 @@
         }
       ],
       "sc:name": "Peptide identification"
-    },
-    {
-      "@id": "http://orcid.org/0000-0003-0990-7488",
-      "@type": "sc:Person"
     },
     {
       "@id": "https://doi.org/10.1038/nmeth.3959",

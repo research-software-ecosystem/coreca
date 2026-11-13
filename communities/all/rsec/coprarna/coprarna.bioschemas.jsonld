@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gku359",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "http://orcid.org/0000-0001-8231-3323",
       "@type": "sc:Person"
     },
@@ -49,26 +53,26 @@
         "Patrick Wright"
       ],
       "bsc:input": {
-        "@id": "_:N522916998cfb4f238235b428b80386d3"
+        "@id": "_:Ne543db98eb3044139b908c0b01c98923"
       },
       "bsc:output": [
         {
-          "@id": "_:N9032e0afd4ee41ce8e79dff9081ff41b"
+          "@id": "_:Na3ad46f7b0364bbfb7be650f17c28d7d"
         },
         {
-          "@id": "_:N3ded77300fd94d6eb8063c842784e25f"
+          "@id": "_:Nad6df9a474214e02bf828a7d2ab2344f"
         },
         {
-          "@id": "_:Na96bd0660ba940a283e384912ca6d5b0"
+          "@id": "_:N660e4f0242cc4cebbf759e23d0200214"
         },
         {
-          "@id": "_:N22b798d56bc744688735a33002d9c036"
+          "@id": "_:N3e17f2433d1243df972875df131f0f70"
         },
         {
-          "@id": "_:N00441de5e80b47ea96b61f6b78b56efb"
+          "@id": "_:N4143dc634cd741a9a46611d8b2fb7e8c"
         },
         {
-          "@id": "_:Nd064c50cbbd24e56a8efe8f400e8032c"
+          "@id": "_:Ne41699831db24da6ba8532f86ae9e052"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -111,7 +115,7 @@
       "sc:url": "http://rna.informatik.uni-freiburg.de/CopraRNA/"
     },
     {
-      "@id": "_:N522916998cfb4f238235b428b80386d3",
+      "@id": "_:Ne543db98eb3044139b908c0b01c98923",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -122,7 +126,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N9032e0afd4ee41ce8e79dff9081ff41b",
+      "@id": "_:Na3ad46f7b0364bbfb7be650f17c28d7d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
@@ -138,7 +142,7 @@
       "sc:name": "Feature table"
     },
     {
-      "@id": "_:N3ded77300fd94d6eb8063c842784e25f",
+      "@id": "_:Nad6df9a474214e02bf828a7d2ab2344f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
@@ -149,7 +153,7 @@
       "sc:name": "Feature table"
     },
     {
-      "@id": "_:Na96bd0660ba940a283e384912ca6d5b0",
+      "@id": "_:N660e4f0242cc4cebbf759e23d0200214",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1270"
@@ -160,7 +164,7 @@
       "sc:name": "Feature table"
     },
     {
-      "@id": "_:N22b798d56bc744688735a33002d9c036",
+      "@id": "_:N3e17f2433d1243df972875df131f0f70",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -179,7 +183,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N00441de5e80b47ea96b61f6b78b56efb",
+      "@id": "_:N4143dc634cd741a9a46611d8b2fb7e8c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -198,7 +202,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nd064c50cbbd24e56a8efe8f400e8032c",
+      "@id": "_:Ne41699831db24da6ba8532f86ae9e052",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -212,10 +216,6 @@
         }
       ],
       "sc:name": "Phylogenetic tree"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gku359",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

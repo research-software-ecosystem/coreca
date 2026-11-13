@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N2b890b8f9f3742fba1fd77943ff7aa8a"
+          "@id": "_:N2361504d07444c54b7629874c1b96970"
         },
         {
-          "@id": "_:N9e54ad6eb662473fa93f2743c86fc053"
+          "@id": "_:N17c600f694fd41fd90dde1bfd2cf78d7"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nbf38a7ff93db404e933d34686daaa3a3"
+        "@id": "_:N9513e81439024f58aa0b507bdea44b19"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -84,7 +84,7 @@
       "sc:url": "http://prospector.ucsf.edu/prospector/cgi-bin/msform.cgi?form=msdigest"
     },
     {
-      "@id": "_:N2b890b8f9f3742fba1fd77943ff7aa8a",
+      "@id": "_:N2361504d07444c54b7629874c1b96970",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1056"
@@ -95,7 +95,7 @@
       "sc:name": "Database name"
     },
     {
-      "@id": "_:N9e54ad6eb662473fa93f2743c86fc053",
+      "@id": "_:N17c600f694fd41fd90dde1bfd2cf78d7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -106,7 +106,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:Nbf38a7ff93db404e933d34686daaa3a3",
+      "@id": "_:N9513e81439024f58aa0b507bdea44b19",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1238"

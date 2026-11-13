@@ -36,26 +36,22 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0002-0740-6324",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/iskylims",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N13ec89e5e3fd4cd8b4e9e59cb04c2da7"
+          "@id": "_:N05e82b947c354dcd9a8d48a57e2fc773"
         },
         {
-          "@id": "_:N2242f7a0648a40b1aece5c407205dba5"
+          "@id": "_:N8e559821e09c422dab9fef2fed7d1f32"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N45d62c5977bf4207b2fb2d2fa472fb77"
+          "@id": "_:N2592fc0c65aa44788e5984c85a747e20"
         },
         {
-          "@id": "_:N6d9ebbc95bbb48db967629698df21290"
+          "@id": "_:N9d6b95169e2f46d4a8874d588e5f9144"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -100,7 +96,7 @@
       "sc:url": "https://github.com/BU-ISCIII/iSkyLIMS"
     },
     {
-      "@id": "_:N13ec89e5e3fd4cd8b4e9e59cb04c2da7",
+      "@id": "_:N05e82b947c354dcd9a8d48a57e2fc773",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3914"
@@ -116,7 +112,7 @@
       "sc:name": "Quality control report"
     },
     {
-      "@id": "_:N2242f7a0648a40b1aece5c407205dba5",
+      "@id": "_:N8e559821e09c422dab9fef2fed7d1f32",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2337"
@@ -135,7 +131,7 @@
       "sc:name": "Resource metadata"
     },
     {
-      "@id": "_:N45d62c5977bf4207b2fb2d2fa472fb77",
+      "@id": "_:N2592fc0c65aa44788e5984c85a747e20",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -146,7 +142,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N6d9ebbc95bbb48db967629698df21290",
+      "@id": "_:N9d6b95169e2f46d4a8874d588e5f9144",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -155,6 +151,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0740-6324",
+      "@type": "sc:Person"
     }
   ]
 }

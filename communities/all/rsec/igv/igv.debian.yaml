@@ -34,7 +34,7 @@ tags:
 - tag: use::viewing
 - tag: works-with::biological-sequence
 popcon:
-- insts: 213
-  olde: 165
-  recent: 27
-  vote: 21
+- insts: 220
+  olde: 171
+  recent: 31
+  vote: 18

@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/btab450",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/dino",
       "@type": "sc:SoftwareApplication",
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -69,17 +73,13 @@
         }
       ],
       "sc:isAccessibleForFree": true,
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "Dino",
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/Dino"
       },
       "sc:softwareVersion": "1.18.0",
       "sc:url": "https://bioconductor.org/packages/Dino"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btab450",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

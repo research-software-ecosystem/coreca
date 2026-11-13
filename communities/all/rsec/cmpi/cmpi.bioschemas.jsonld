@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Bjorn Sommer",
       "bsc:input": {
-        "@id": "_:Nfb38957963274440aaa6f3ce06bc18e7"
+        "@id": "_:N14ccf9f12eff4f89a56caa6e7b623112"
       },
       "bsc:output": {
-        "@id": "_:N45df55fc01c649bebf5df01408d05d59"
+        "@id": "_:N5e794bfa24d7487eb71fc88f775cb777"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -69,7 +69,7 @@
       "sc:url": "http://Cm4.CELLmicrocosmos.org"
     },
     {
-      "@id": "_:Nfb38957963274440aaa6f3ce06bc18e7",
+      "@id": "_:N14ccf9f12eff4f89a56caa6e7b623112",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -80,7 +80,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:N45df55fc01c649bebf5df01408d05d59",
+      "@id": "_:N5e794bfa24d7487eb71fc88f775cb777",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1710"

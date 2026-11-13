@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/peppi",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1ecbd3ad67e94e308c27a34ef1283ea2"
+        "@id": "_:N00022bef42254600a1bf0440af10c033"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -90,7 +90,7 @@
       "sc:url": "https://zhanggroup.org/PEPPI/"
     },
     {
-      "@id": "_:N1ecbd3ad67e94e308c27a34ef1283ea2",
+      "@id": "_:N00022bef42254600a1bf0440af10c033",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

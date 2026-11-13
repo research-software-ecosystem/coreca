@@ -36,18 +36,26 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1753-6561-1-s1-s60",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/hgv_lps",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N3e01830575e2445cb4428d8aafd11d36"
+        "@id": "_:N3f338a54cc7c42a8aa4ced253274b730"
       },
       "bsc:output": [
         {
-          "@id": "_:Nb7f5b705abb94b269a28c6a91c56d19e"
+          "@id": "_:N0a8c692a26fb4724a186497e0b292120"
         },
         {
-          "@id": "_:N6a0c08d2dc0548429395815c8efb8fd9"
+          "@id": "_:N71b020cab11448c8b6c44ed9f8642802"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -103,7 +111,7 @@
       "sc:url": "https://github.com/galaxyproject/galaxy/tree/dev/tools"
     },
     {
-      "@id": "_:N3e01830575e2445cb4428d8aafd11d36",
+      "@id": "_:N3f338a54cc7c42a8aa4ced253274b730",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -114,7 +122,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nb7f5b705abb94b269a28c6a91c56d19e",
+      "@id": "_:N0a8c692a26fb4724a186497e0b292120",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -125,7 +133,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N6a0c08d2dc0548429395815c8efb8fd9",
+      "@id": "_:N71b020cab11448c8b6c44ed9f8642802",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -137,14 +145,6 @@
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1753-6561-1-s1-s60",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     }
   ]

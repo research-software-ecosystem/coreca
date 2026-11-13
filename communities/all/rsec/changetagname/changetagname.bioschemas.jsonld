@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
@@ -49,20 +45,20 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N27c4f32942a24402860dbe74c9a85df4"
+          "@id": "_:N2588412a17174519aa231bc680787d12"
         },
         {
-          "@id": "_:N35c2f5cd603c4469ac9c8a7b5d7e0247"
+          "@id": "_:Nd29a8e09ade140ffa0d5f4ea925d374b"
         },
         {
-          "@id": "_:N88edf913861f49a19acdf75876706aee"
+          "@id": "_:Neae0b82b8de3444d8b43df51ba8e4f65"
         },
         {
-          "@id": "_:N2faf559f2090482799fc8f090675bad0"
+          "@id": "_:Na3e52bccca8c4e37b33e625ce185bcc3"
         }
       ],
       "bsc:output": {
-        "@id": "_:N8965da008a824ebeb201fb6a8cd55d6b"
+        "@id": "_:N1b386efc9666475598ffd69950854b19"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -96,7 +92,7 @@
       "sc:url": "https://urgi.versailles.inra.fr/Tools/REPET"
     },
     {
-      "@id": "_:N27c4f32942a24402860dbe74c9a85df4",
+      "@id": "_:N2588412a17174519aa231bc680787d12",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -107,7 +103,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:N35c2f5cd603c4469ac9c8a7b5d7e0247",
+      "@id": "_:Nd29a8e09ade140ffa0d5f4ea925d374b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -118,7 +114,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N88edf913861f49a19acdf75876706aee",
+      "@id": "_:Neae0b82b8de3444d8b43df51ba8e4f65",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -129,7 +125,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N2faf559f2090482799fc8f090675bad0",
+      "@id": "_:Na3e52bccca8c4e37b33e625ce185bcc3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -140,7 +136,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N8965da008a824ebeb201fb6a8cd55d6b",
+      "@id": "_:N1b386efc9666475598ffd69950854b19",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -149,6 +145,10 @@
         "@id": "edam:format_1975"
       },
       "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

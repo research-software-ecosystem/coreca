@@ -17,10 +17,10 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 2617,
+                            "cit_count": 2630,
                             "citations": [
                                 {
-                                    "count": 3,
+                                    "count": 4,
                                     "year": -1
                                 },
                                 {
@@ -28,16 +28,16 @@
                                     "year": 1997
                                 },
                                 {
-                                    "count": 16,
-                                    "year": 2026
+                                    "count": 17,
+                                    "year": 2025
                                 },
                                 {
-                                    "count": 17,
+                                    "count": 18,
                                     "year": 1998
                                 },
                                 {
-                                    "count": 17,
-                                    "year": 2025
+                                    "count": 18,
+                                    "year": 2026
                                 },
                                 {
                                     "count": 20,
@@ -52,7 +52,7 @@
                                     "year": 2022
                                 },
                                 {
-                                    "count": 34,
+                                    "count": 35,
                                     "year": 2020
                                 },
                                 {
@@ -60,11 +60,11 @@
                                     "year": 1999
                                 },
                                 {
-                                    "count": 43,
+                                    "count": 44,
                                     "year": 2021
                                 },
                                 {
-                                    "count": 50,
+                                    "count": 51,
                                     "year": 2019
                                 },
                                 {
@@ -84,7 +84,7 @@
                                     "year": 2016
                                 },
                                 {
-                                    "count": 81,
+                                    "count": 82,
                                     "year": 2001
                                 },
                                 {
@@ -124,11 +124,11 @@
                                     "year": 2011
                                 },
                                 {
-                                    "count": 153,
+                                    "count": 154,
                                     "year": 2005
                                 },
                                 {
-                                    "count": 163,
+                                    "count": 164,
                                     "year": 2006
                                 },
                                 {
@@ -140,7 +140,7 @@
                                     "year": 2007
                                 },
                                 {
-                                    "count": 197,
+                                    "count": 200,
                                     "year": 2008
                                 }
                             ],

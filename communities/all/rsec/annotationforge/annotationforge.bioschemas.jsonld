@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.AnnotationForge",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/annotationforge",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3ae6daf93fd04fe09ad952c95862df02"
+          "@id": "_:Nbc396465e7ff4a5eb074a575fe7bf7bf"
         },
         {
-          "@id": "_:N8d6f3c99e5df43c493e967372e367a95"
+          "@id": "_:N8dc613132dd9408693b72addb6f1d412"
         }
       ],
       "bsc:output": {
-        "@id": "_:N96d19e6593cd4733bfdfe1254d161a8d"
+        "@id": "_:Neb294f6155bd471ba6134d9d371dd5a1"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -93,7 +97,7 @@
       "sc:url": "https://bioconductor.org/packages/AnnotationForge"
     },
     {
-      "@id": "_:N3ae6daf93fd04fe09ad952c95862df02",
+      "@id": "_:Nbc396465e7ff4a5eb074a575fe7bf7bf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -109,7 +113,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N8d6f3c99e5df43c493e967372e367a95",
+      "@id": "_:N8dc613132dd9408693b72addb6f1d412",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -125,7 +129,7 @@
       "sc:name": "Ontology data"
     },
     {
-      "@id": "_:N96d19e6593cd4733bfdfe1254d161a8d",
+      "@id": "_:Neb294f6155bd471ba6134d9d371dd5a1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -134,10 +138,6 @@
         "@id": "edam:format_3621"
       },
       "sc:name": "Nucleic acid features"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.AnnotationForge",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

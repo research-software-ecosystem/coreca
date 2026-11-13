@@ -40,6 +40,10 @@
       "@type": "sc:Person"
     },
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/bti507",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/secisdesign",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -49,10 +53,10 @@
         "Anke Busch"
       ],
       "bsc:input": {
-        "@id": "_:N350d854486b44a779bb30080a4f700e9"
+        "@id": "_:Ncc13785a03a64464ad4ea485fd0b7c96"
       },
       "bsc:output": {
-        "@id": "_:N62a00de340944313a7923af63eebe92e"
+        "@id": "_:Na5dbadd22ea74b60b4e6739d641d58e8"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -93,7 +97,7 @@
       "sc:url": "http://rna.informatik.uni-freiburg.de/SECISDesign/"
     },
     {
-      "@id": "_:N350d854486b44a779bb30080a4f700e9",
+      "@id": "_:Ncc13785a03a64464ad4ea485fd0b7c96",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -104,7 +108,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N62a00de340944313a7923af63eebe92e",
+      "@id": "_:Na5dbadd22ea74b60b4e6739d641d58e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -113,10 +117,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/bti507",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

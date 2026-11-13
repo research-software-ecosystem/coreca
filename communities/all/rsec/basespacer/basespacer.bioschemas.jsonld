@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.BaseSpaceR",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/basespacer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na3553073f9d642d4821b05d26533b350"
+        "@id": "_:N37c983e298764f94b2ce5ebb90b09f24"
       },
       "bsc:output": {
-        "@id": "_:Ncc628c45e3de43daa42da007033c780e"
+        "@id": "_:N68eedfd96d324e03a1f70a798cebb58f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -86,7 +90,7 @@
       "sc:url": "https://bioconductor.org/packages/BaseSpaceR"
     },
     {
-      "@id": "_:Na3553073f9d642d4821b05d26533b350",
+      "@id": "_:N37c983e298764f94b2ce5ebb90b09f24",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -97,7 +101,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:Ncc628c45e3de43daa42da007033c780e",
+      "@id": "_:N68eedfd96d324e03a1f70a798cebb58f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1383"
@@ -111,10 +115,6 @@
         }
       ],
       "sc:name": "Sequence alignment (nucleic acid)"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.BaseSpaceR",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

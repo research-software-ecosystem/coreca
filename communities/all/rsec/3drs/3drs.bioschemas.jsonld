@@ -36,21 +36,25 @@
   },
   "@graph": [
     {
+      "@id": "https://orcid.org/0000-0002-8291-8071",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/3drs",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nf67f1aa9af844d16a02cee781014edc6"
+          "@id": "_:Ne6f56e467eb14c8581d5f828d3c224d0"
         },
         {
-          "@id": "_:Nce54543b9e7a448792c1ed1d0e680437"
+          "@id": "_:N31f2cf78bfb14fe09a488584e471b655"
         },
         {
-          "@id": "_:N87366e753dc54acfa2ad58ac93e8ac0b"
+          "@id": "_:N46e7b21775dd4eb8b272c16a43a5c68b"
         }
       ],
       "bsc:output": {
-        "@id": "_:N7181df3cb1514fb2b7b3abd485930826"
+        "@id": "_:N33366d2f57c34a42834052ac91f33054"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -99,7 +103,7 @@
       "sc:url": "https://mmb.irbbarcelona.org/3dRS/"
     },
     {
-      "@id": "_:Nf67f1aa9af844d16a02cee781014edc6",
+      "@id": "_:Ne6f56e467eb14c8581d5f828d3c224d0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1459"
@@ -110,7 +114,7 @@
       "sc:name": "Nucleic acid structure"
     },
     {
-      "@id": "_:Nce54543b9e7a448792c1ed1d0e680437",
+      "@id": "_:N31f2cf78bfb14fe09a488584e471b655",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -121,7 +125,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N87366e753dc54acfa2ad58ac93e8ac0b",
+      "@id": "_:N46e7b21775dd4eb8b272c16a43a5c68b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3870"
@@ -143,7 +147,7 @@
       "sc:name": "Trajectory data"
     },
     {
-      "@id": "_:N7181df3cb1514fb2b7b3abd485930826",
+      "@id": "_:N33366d2f57c34a42834052ac91f33054",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -152,10 +156,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Plot"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-8291-8071",
-      "@type": "sc:Person"
     }
   ]
 }

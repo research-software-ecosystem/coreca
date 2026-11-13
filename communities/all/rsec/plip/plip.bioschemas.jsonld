@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/NAR/GKAB294",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1093/NAR/GKV315",
       "@type": "sc:CreativeWork"
     },
@@ -47,10 +43,10 @@
       "@id": "https://bio.tools/plip",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N70b787c0513341449a61c26a890b7463"
+        "@id": "_:N40b2a346b7d74eab9ba82e99de912654"
       },
       "bsc:output": {
-        "@id": "_:N51e87ab9ba0c4343b28f390f51bf3f82"
+        "@id": "_:Nfe694f3ac569443f841cae93b9f1db9f"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -89,7 +85,7 @@
       "sc:url": "https://plip-tool.biotec.tu-dresden.de/"
     },
     {
-      "@id": "_:N70b787c0513341449a61c26a890b7463",
+      "@id": "_:N40b2a346b7d74eab9ba82e99de912654",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -97,7 +93,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N51e87ab9ba0c4343b28f390f51bf3f82",
+      "@id": "_:Nfe694f3ac569443f841cae93b9f1db9f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1566"
@@ -111,6 +107,10 @@
         }
       ],
       "sc:name": "Protein-ligand interaction report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/NAR/GKAB294",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

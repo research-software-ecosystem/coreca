@@ -36,27 +36,23 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/1471-2105-11-415",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/peakanalyzer",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Mali Salmon-Divon",
       "bsc:input": [
         {
-          "@id": "_:N6c7ec6cea00d4f5c994fd7101f3edc0e"
+          "@id": "_:Nae1c104da14c4830a04963e4a86e1328"
         },
         {
-          "@id": "_:N6c769b352b164a86bcd76bef74d5a3f4"
+          "@id": "_:N63a34756fb61443390ae0f4aad18a8d1"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N48a2bf8949334196af484900cf6cbdbc"
+          "@id": "_:N3cf5388113b143b8a9f86816f3a4d6b6"
         },
         {
-          "@id": "_:Naff006339ce24a56a36fd1ce26e846e1"
+          "@id": "_:N0b6e09732dd24dff8675b313cd4a95b9"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -100,7 +96,7 @@
       "sc:url": "http://www.bioinformatics.org/peakanalyzer/wiki/"
     },
     {
-      "@id": "_:N6c7ec6cea00d4f5c994fd7101f3edc0e",
+      "@id": "_:Nae1c104da14c4830a04963e4a86e1328",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"
@@ -111,7 +107,7 @@
       "sc:name": "Experiment report"
     },
     {
-      "@id": "_:N6c769b352b164a86bcd76bef74d5a3f4",
+      "@id": "_:N63a34756fb61443390ae0f4aad18a8d1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2530"
@@ -127,7 +123,7 @@
       "sc:name": "Organism report"
     },
     {
-      "@id": "_:N48a2bf8949334196af484900cf6cbdbc",
+      "@id": "_:N3cf5388113b143b8a9f86816f3a4d6b6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -135,7 +131,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Naff006339ce24a56a36fd1ce26e846e1",
+      "@id": "_:N0b6e09732dd24dff8675b313cd4a95b9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0950"
@@ -144,6 +140,10 @@
         "@id": "edam:format_2032"
       },
       "sc:name": "Mathematical model"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-11-415",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

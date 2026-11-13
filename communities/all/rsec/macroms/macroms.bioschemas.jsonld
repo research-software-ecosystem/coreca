@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1021/JASMS.1C00013",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/macroms",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,18 +47,18 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nf0da2726b8484ba8a1890fa4f575da08"
+          "@id": "_:N381f9c8c02c74ba398fea5283c5ec19f"
         },
         {
-          "@id": "_:N9e5c7f023ab248ec9808bb733279bdb2"
+          "@id": "_:N9b90190a604447fc86aa87beea520001"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8c02ed4a478b4f889af4cff48edfb9e0"
+          "@id": "_:N98c7f6e9f49c4366b1ea23ccfa8c606e"
         },
         {
-          "@id": "_:Neaa1e877e2d34d71abd030f263ee7165"
+          "@id": "_:N501dd64fd73041f9b1697b7beba294a6"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -99,7 +103,7 @@
       "sc:url": "https://macroms.scs.illinois.edu"
     },
     {
-      "@id": "_:Nf0da2726b8484ba8a1890fa4f575da08",
+      "@id": "_:N381f9c8c02c74ba398fea5283c5ec19f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -110,7 +114,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N9e5c7f023ab248ec9808bb733279bdb2",
+      "@id": "_:N9b90190a604447fc86aa87beea520001",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -121,7 +125,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N8c02ed4a478b4f889af4cff48edfb9e0",
+      "@id": "_:N98c7f6e9f49c4366b1ea23ccfa8c606e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -140,7 +144,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Neaa1e877e2d34d71abd030f263ee7165",
+      "@id": "_:N501dd64fd73041f9b1697b7beba294a6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -154,10 +158,6 @@
         }
       ],
       "sc:name": "Image"
-    },
-    {
-      "@id": "https://doi.org/10.1021/JASMS.1C00013",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://orcid.org/0000-0003-3107-9922",

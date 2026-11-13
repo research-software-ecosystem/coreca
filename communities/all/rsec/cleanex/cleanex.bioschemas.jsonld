@@ -36,26 +36,22 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkn878",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/cleanex",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nb9dab07a8ddd48f784c765a99ecf8f34"
+          "@id": "_:N299cdab7fa914181833f2d38ecd063f2"
         },
         {
-          "@id": "_:N5c7c4b189f214252806064a16c7e2a80"
+          "@id": "_:N7e59a10031de4ccd9c5f0740120d7f48"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nbae31fbcb4a443f6b0259dba6f2da38a"
+          "@id": "_:N1da257aaa4dc4fc7835e774ef1b97fe7"
         },
         {
-          "@id": "_:N9bd2a9e6085248a8ba9e2163cb349f81"
+          "@id": "_:Nf8687bf4cf724a46bfb26eca9212b23c"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,7 +88,7 @@
       "sc:url": "http://www.cleanex.isb-sib.ch/"
     },
     {
-      "@id": "_:Nb9dab07a8ddd48f784c765a99ecf8f34",
+      "@id": "_:N299cdab7fa914181833f2d38ecd063f2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2710"
@@ -100,7 +96,7 @@
       "sc:name": "CleanEx dataset code"
     },
     {
-      "@id": "_:N5c7c4b189f214252806064a16c7e2a80",
+      "@id": "_:N7e59a10031de4ccd9c5f0740120d7f48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2709"
@@ -108,7 +104,7 @@
       "sc:name": "CleanEx entry name"
     },
     {
-      "@id": "_:Nbae31fbcb4a443f6b0259dba6f2da38a",
+      "@id": "_:N1da257aaa4dc4fc7835e774ef1b97fe7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2531"
@@ -119,7 +115,7 @@
       "sc:name": "Experiment report"
     },
     {
-      "@id": "_:N9bd2a9e6085248a8ba9e2163cb349f81",
+      "@id": "_:Nf8687bf4cf724a46bfb26eca9212b23c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0928"
@@ -128,6 +124,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Gene expression profile"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkn878",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

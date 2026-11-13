@@ -40,14 +40,18 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkae241",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/polydot_ebi",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Job Dispatcher",
       "bsc:input": {
-        "@id": "_:Nc566e8b001d0415b9895ee0ef104d8ba"
+        "@id": "_:N10c2c5aa0dd44e58aa3c66b2cec96ca0"
       },
       "bsc:output": {
-        "@id": "_:N05909efcd239400bbf969325c62d0c87"
+        "@id": "_:Nfb57d2b53a5a4436aa45652e419a3f18"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -99,7 +103,7 @@
       "sc:url": "https://www.ebi.ac.uk/jdispatcher/seqstats/emboss_polydot"
     },
     {
-      "@id": "_:Nc566e8b001d0415b9895ee0ef104d8ba",
+      "@id": "_:N10c2c5aa0dd44e58aa3c66b2cec96ca0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -107,16 +111,12 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:N05909efcd239400bbf969325c62d0c87",
+      "@id": "_:Nfb57d2b53a5a4436aa45652e419a3f18",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0862"
       },
       "sc:name": "Dotplot"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkae241",
-      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://doi.org/10.1093/nar/gkac240",

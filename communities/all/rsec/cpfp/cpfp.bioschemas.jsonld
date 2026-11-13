@@ -36,14 +36,10 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btq081",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/cpfp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nb2523e25c9084340b1196969868d5afe"
+        "@id": "_:Na068ed323a404ccd9b2cd65ff3690d48"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -94,7 +90,7 @@
       "sc:url": "http://cpfp.sourceforge.net"
     },
     {
-      "@id": "_:Nb2523e25c9084340b1196969868d5afe",
+      "@id": "_:Na068ed323a404ccd9b2cd65ff3690d48",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -108,6 +104,10 @@
         }
       ],
       "sc:name": "Data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btq081",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

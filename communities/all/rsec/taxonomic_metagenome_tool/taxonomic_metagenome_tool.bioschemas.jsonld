@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/taxonomic_metagenome_tool",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Erik Hjerde",
       "bsc:input": {
-        "@id": "_:N7fa922674f5546cfb5e819570b8c6262"
+        "@id": "_:N31dacead1c104ce49939a277c5f0f03f"
       },
       "bsc:output": {
-        "@id": "_:Nb30c6c87398a457892cec212cafd60a0"
+        "@id": "_:N5c71be4088e949588ab8e3252e8c1128"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -72,7 +76,7 @@
       "sc:url": "https://galaxy-uit.bioinfo.no/root/index"
     },
     {
-      "@id": "_:N7fa922674f5546cfb5e819570b8c6262",
+      "@id": "_:N31dacead1c104ce49939a277c5f0f03f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3497"
@@ -83,7 +87,7 @@
       "sc:name": "DNA sequence (raw)"
     },
     {
-      "@id": "_:Nb30c6c87398a457892cec212cafd60a0",
+      "@id": "_:N5c71be4088e949588ab8e3252e8c1128",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
@@ -92,10 +96,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Taxonomy"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

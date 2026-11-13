@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/smcpp",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N7f9a6ba3a66b406881fbce9aa497613c"
+        "@id": "_:N71df5b3a6be4484a901c844c8de7124e"
       },
       "bsc:output": {
-        "@id": "_:Ncc6e4203eee442ff99de200adccc9ccb"
+        "@id": "_:N6a994b0fdd824200a5e284db2a70c6ad"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -70,7 +70,7 @@
       "sc:url": "https://github.com/popgenmethods/smcpp"
     },
     {
-      "@id": "_:N7f9a6ba3a66b406881fbce9aa497613c",
+      "@id": "_:N71df5b3a6be4484a901c844c8de7124e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -81,7 +81,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Ncc6e4203eee442ff99de200adccc9ccb",
+      "@id": "_:N6a994b0fdd824200a5e284db2a70c6ad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"

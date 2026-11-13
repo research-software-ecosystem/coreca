@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/jtraml",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3b7bad0c564b4948a3d013c19eda4871"
+        "@id": "_:N6601f38b211547368b86802eabbd4496"
       },
       "bsc:output": {
-        "@id": "_:N511751da3aa6424a97f5e1abde7e1b49"
+        "@id": "_:N9b0eca8f71f84bd89c4c07715cc29e5b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -77,7 +77,7 @@
       "sc:url": "https://github.com/compomics/jtraml"
     },
     {
-      "@id": "_:N3b7bad0c564b4948a3d013c19eda4871",
+      "@id": "_:N6601f38b211547368b86802eabbd4496",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -99,7 +99,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N511751da3aa6424a97f5e1abde7e1b49",
+      "@id": "_:N9b0eca8f71f84bd89c4c07715cc29e5b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

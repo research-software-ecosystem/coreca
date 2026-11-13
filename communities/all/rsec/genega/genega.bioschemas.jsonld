@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.GeneGA",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/genega",
       "@type": "sc:SoftwareApplication",
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -63,7 +67,7 @@
           "@id": "edam:operation_2963"
         }
       ],
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "GeneGA",
       "sc:operatingSystem": [
         "Linux",
@@ -75,10 +79,6 @@
       },
       "sc:softwareVersion": "1.62.0",
       "sc:url": "https://bioconductor.org/packages/GeneGA"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.GeneGA",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

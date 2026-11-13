@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/rp2paths",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc481a2bb2a5e4694aa89eccaeac943b1"
+        "@id": "_:Nb0bee78e684b46a6ba63ca1b95bcd113"
       },
       "bsc:output": [
         {
-          "@id": "_:Nbdd461b216e0449e9690996e764b52b5"
+          "@id": "_:N7a4da753932d49f88e8e2a7f86eb5325"
         },
         {
-          "@id": "_:N953c76a30e064bc9ac809bc8243e8696"
+          "@id": "_:N3242fe0d9fe24d6b83ce5d9155912580"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -98,7 +98,7 @@
       "sc:url": "https://github.com/brsynth/rp2paths"
     },
     {
-      "@id": "_:Nc481a2bb2a5e4694aa89eccaeac943b1",
+      "@id": "_:Nb0bee78e684b46a6ba63ca1b95bcd113",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -109,7 +109,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Nbdd461b216e0449e9690996e764b52b5",
+      "@id": "_:N7a4da753932d49f88e8e2a7f86eb5325",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -120,7 +120,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N953c76a30e064bc9ac809bc8243e8696",
+      "@id": "_:N3242fe0d9fe24d6b83ce5d9155912580",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"

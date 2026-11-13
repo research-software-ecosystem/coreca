@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Raymond Dalgleish",
       "bsc:input": {
-        "@id": "_:Nfe7b2d62b0254e77a6483afe02f03490"
+        "@id": "_:Nb1d052123c9a4211ab47d94e2966f1eb"
       },
       "bsc:output": {
-        "@id": "_:N1542e5e5cbcf48649d3602022bd5d472"
+        "@id": "_:N9d99c65bc3b64b9ab7dd7e80e7bd6425"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -73,7 +73,7 @@
       "sc:url": "https://oi.gene.le.ac.uk"
     },
     {
-      "@id": "_:Nfe7b2d62b0254e77a6483afe02f03490",
+      "@id": "_:Nb1d052123c9a4211ab47d94e2966f1eb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0957"
@@ -81,7 +81,7 @@
       "sc:name": "Database metadata"
     },
     {
-      "@id": "_:N1542e5e5cbcf48649d3602022bd5d472",
+      "@id": "_:N9d99c65bc3b64b9ab7dd7e80e7bd6425",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"

@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "GitHub Issues",
       "bsc:input": {
-        "@id": "_:N1e7b51d622c34300b5461a178604e109"
+        "@id": "_:N7ddba66e9f794e6bb1e2a77dd40a0b86"
       },
       "bsc:output": {
-        "@id": "_:Ncac2ff96889d491981d90fb476c68372"
+        "@id": "_:N0cc9882c2fc24379976d7bdf8fc24387"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -82,7 +82,7 @@
       "sc:url": "https://github.com/mruffalo/bwt-sw"
     },
     {
-      "@id": "_:N1e7b51d622c34300b5461a178604e109",
+      "@id": "_:N7ddba66e9f794e6bb1e2a77dd40a0b86",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -90,7 +90,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Ncac2ff96889d491981d90fb476c68372",
+      "@id": "_:N0cc9882c2fc24379976d7bdf8fc24387",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"

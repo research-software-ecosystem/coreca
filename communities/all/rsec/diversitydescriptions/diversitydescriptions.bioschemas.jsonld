@@ -40,10 +40,6 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0000-0003-1980-3148",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/DiversityDescriptions",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -51,24 +47,24 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N6d792056c80742479a98353600dcebb8"
+          "@id": "_:Nb8e77c32f83a4d1ba036f9010641ccd3"
         },
         {
-          "@id": "_:N16abbc6187ad4c23a37a683321924eaa"
+          "@id": "_:N32d538bc8b624c2693fd000541c13ed2"
         },
         {
-          "@id": "_:N75ce1a39ec0e40699dcff289f7a2429f"
+          "@id": "_:Ne6652a2ae73c4815a7ceef2e0b16798f"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1864601f37564ad2afbf83e34645a010"
+          "@id": "_:N67cb3c73d16b4e3c87cfb1f8f098f4fb"
         },
         {
-          "@id": "_:N6d28920d2c2c427e850e12868218e2b7"
+          "@id": "_:Naa7eb6a1f1774975a6fda6b4aae7885b"
         },
         {
-          "@id": "_:N76b47a85115a43f195b85757fca00e20"
+          "@id": "_:N1d59771f43994b729d231b4d56ef9671"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -138,7 +134,7 @@
       "sc:url": "https://diversityworkbench.net/Portal/DiversityDescriptions"
     },
     {
-      "@id": "_:N6d792056c80742479a98353600dcebb8",
+      "@id": "_:Nb8e77c32f83a4d1ba036f9010641ccd3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3707"
@@ -157,7 +153,7 @@
       "sc:name": "Biodiversity data"
     },
     {
-      "@id": "_:N16abbc6187ad4c23a37a683321924eaa",
+      "@id": "_:N32d538bc8b624c2693fd000541c13ed2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3736"
@@ -176,7 +172,7 @@
       "sc:name": "Ecological data"
     },
     {
-      "@id": "_:N75ce1a39ec0e40699dcff289f7a2429f",
+      "@id": "_:Ne6652a2ae73c4815a7ceef2e0b16798f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -192,7 +188,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N1864601f37564ad2afbf83e34645a010",
+      "@id": "_:N67cb3c73d16b4e3c87cfb1f8f098f4fb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3707"
@@ -211,7 +207,7 @@
       "sc:name": "Biodiversity data"
     },
     {
-      "@id": "_:N6d28920d2c2c427e850e12868218e2b7",
+      "@id": "_:Naa7eb6a1f1774975a6fda6b4aae7885b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3736"
@@ -227,7 +223,7 @@
       "sc:name": "Ecological data"
     },
     {
-      "@id": "_:N76b47a85115a43f195b85757fca00e20",
+      "@id": "_:N1d59771f43994b729d231b4d56ef9671",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -241,6 +237,10 @@
         }
       ],
       "sc:name": "Experimental measurement"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1980-3148",
+      "@type": "sc:Person"
     }
   ]
 }

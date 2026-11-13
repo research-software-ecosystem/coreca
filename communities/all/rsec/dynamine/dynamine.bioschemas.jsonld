@@ -36,14 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/ncomms3741",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gku270",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/dynamine",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Wim Vranken",
       "bsc:input": {
-        "@id": "_:N4ce2f1b56e804a49a5b185944d54421d"
+        "@id": "_:N665b3783e7ce4de596fd3df3e90cc41f"
       },
       "bsc:output": {
-        "@id": "_:Nb2c06437ae984f24827deacd26818ab0"
+        "@id": "_:N86d8450712464a3486bd0642a331075b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -90,7 +98,7 @@
       "sc:url": "http://dynamine.ibsquare.be/"
     },
     {
-      "@id": "_:N4ce2f1b56e804a49a5b185944d54421d",
+      "@id": "_:N665b3783e7ce4de596fd3df3e90cc41f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -101,20 +109,12 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:Nb2c06437ae984f24827deacd26818ab0",
+      "@id": "_:N86d8450712464a3486bd0642a331075b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
       },
       "sc:name": "Protein features"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gku270",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1038/ncomms3741",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -38,7 +38,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 262,
+                            "cit_count": 265,
                             "citations": [
                                 {
                                     "count": 1,
@@ -62,10 +62,6 @@
                                 },
                                 {
                                     "count": 19,
-                                    "year": 2017
-                                },
-                                {
-                                    "count": 19,
                                     "year": 2025
                                 },
                                 {
@@ -73,7 +69,11 @@
                                     "year": 2016
                                 },
                                 {
-                                    "count": 20,
+                                    "count": 21,
+                                    "year": 2017
+                                },
+                                {
+                                    "count": 21,
                                     "year": 2019
                                 },
                                 {

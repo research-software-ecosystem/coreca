@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/fusta",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N05d6486906dd4b03bc3bec1e186de8d9"
+        "@id": "_:Nd40d109516ff4c53996020e6ea5862c4"
       },
       "bsc:output": {
-        "@id": "_:N8144716088cc4ffbb7d09a235cc2c690"
+        "@id": "_:N87719a0a107543b6936abafdaa030313"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -71,7 +71,7 @@
       "sc:url": "https://github.com/delehef/fusta"
     },
     {
-      "@id": "_:N05d6486906dd4b03bc3bec1e186de8d9",
+      "@id": "_:Nd40d109516ff4c53996020e6ea5862c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1193"
@@ -82,7 +82,7 @@
       "sc:name": "Tool name (FASTA)"
     },
     {
-      "@id": "_:N8144716088cc4ffbb7d09a235cc2c690",
+      "@id": "_:N87719a0a107543b6936abafdaa030313",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1193"

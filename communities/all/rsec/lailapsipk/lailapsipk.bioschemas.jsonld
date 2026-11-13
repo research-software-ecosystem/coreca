@@ -47,10 +47,10 @@
         "Dr. Matthias Lange"
       ],
       "bsc:input": {
-        "@id": "_:Nf76a4c2d2b6c4baa8e4148435d1635f4"
+        "@id": "_:N8336e24f5e114d0aafb9e731e91f48da"
       },
       "bsc:output": {
-        "@id": "_:Nd7d4eb7a0a0b4cff9ff47b05eb9daf18"
+        "@id": "_:N3eec6416914f450db0a0142242fd3bc2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -99,7 +99,7 @@
       "sc:url": "http://webapps.ipk-gatersleben.de/lailapsipk/app"
     },
     {
-      "@id": "_:Nf76a4c2d2b6c4baa8e4148435d1635f4",
+      "@id": "_:N8336e24f5e114d0aafb9e731e91f48da",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -110,7 +110,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:Nd7d4eb7a0a0b4cff9ff47b05eb9daf18",
+      "@id": "_:N3eec6416914f450db0a0142242fd3bc2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"

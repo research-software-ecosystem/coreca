@@ -43,7 +43,7 @@
       "@id": "https://bio.tools/kincsm",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N78b3d2281f7a41a0a35cbb05c236a05f"
+        "@id": "_:N90675b3afcf24bd7aa7752d5817d8189"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -96,7 +96,7 @@
       "sc:url": "http://biosig.unimelb.edu.au/kin_csm/"
     },
     {
-      "@id": "_:N78b3d2281f7a41a0a35cbb05c236a05f",
+      "@id": "_:N90675b3afcf24bd7aa7752d5817d8189",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2301"

@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1016/j.jsb.2022.107906",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1002/pro.3772",
       "@type": "sc:CreativeWork"
     },
@@ -84,10 +88,6 @@
       "sc:license": "GPL-3.0",
       "sc:name": "ContinuousFlex",
       "sc:url": "https://pypi.org/project/scipion-em-continuousflex"
-    },
-    {
-      "@id": "https://doi.org/10.1016/j.jsb.2022.107906",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

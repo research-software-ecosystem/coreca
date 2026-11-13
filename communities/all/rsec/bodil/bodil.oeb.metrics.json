@@ -20,7 +20,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 102,
+                            "cit_count": 103,
                             "citations": [
                                 {
                                     "count": 1,
@@ -68,10 +68,6 @@
                                 },
                                 {
                                     "count": 5,
-                                    "year": 2010
-                                },
-                                {
-                                    "count": 5,
                                     "year": 2011
                                 },
                                 {
@@ -81,6 +77,10 @@
                                 {
                                     "count": 5,
                                     "year": 2022
+                                },
+                                {
+                                    "count": 6,
+                                    "year": 2010
                                 },
                                 {
                                     "count": 6,

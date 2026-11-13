@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/2024.08.01.606130v1",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/foldmason",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3fb7c110247b46719820bb5849399eca"
+        "@id": "_:N9f87e986b2194083bf80bb82fad959b4"
       },
       "bsc:output": {
-        "@id": "_:N5cc652ccb2f64a678deb6c5047beea80"
+        "@id": "_:N2da6aea77ce24656b3f21ca7b955e125"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -70,7 +66,7 @@
       "sc:url": "https://github.com/steineggerlab/foldmason"
     },
     {
-      "@id": "_:N3fb7c110247b46719820bb5849399eca",
+      "@id": "_:N9f87e986b2194083bf80bb82fad959b4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -78,12 +74,16 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N5cc652ccb2f64a678deb6c5047beea80",
+      "@id": "_:N2da6aea77ce24656b3f21ca7b955e125",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1481"
       },
       "sc:name": "Protein structure alignment"
+    },
+    {
+      "@id": "https://doi.org/10.1101/2024.08.01.606130v1",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

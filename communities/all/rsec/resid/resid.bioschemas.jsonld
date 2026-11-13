@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1002/pmic.200300764",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/resid",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nc15ceb11c5364a6fb7f283388e1aaedc"
+        "@id": "_:N57513871101044b4b10e1ea3d2f95fb2"
       },
       "bsc:output": {
-        "@id": "_:Nabd4a708f4b64a578587bbc21e0b8a7e"
+        "@id": "_:N3d5fe61e9a2f49278768ecdbf4148752"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -80,7 +76,7 @@
       "sc:url": "http://pir.georgetown.edu/resid/"
     },
     {
-      "@id": "_:Nc15ceb11c5364a6fb7f283388e1aaedc",
+      "@id": "_:N57513871101044b4b10e1ea3d2f95fb2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2619"
@@ -88,7 +84,7 @@
       "sc:name": "RESID ID"
     },
     {
-      "@id": "_:Nabd4a708f4b64a578587bbc21e0b8a7e",
+      "@id": "_:N3d5fe61e9a2f49278768ecdbf4148752",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -97,6 +93,10 @@
         "@id": "edam:format_2332"
       },
       "sc:name": "Protein report"
+    },
+    {
+      "@id": "https://doi.org/10.1002/pmic.200300764",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nb03ef5c2d0734038bd4010ee8ecea845"
+          "@id": "_:N25abc2700a3a4fe4bae8598b8c2bceb5"
         },
         {
-          "@id": "_:Nf2e3cfd79af94f0d869791c93473cddc"
+          "@id": "_:N0dd3717a1e2a470887ee20953a90dcc0"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -76,7 +76,7 @@
       "sc:url": "http://skuld.protres.ru/~mlobanov/ogu/ogu.cgi"
     },
     {
-      "@id": "_:Nb03ef5c2d0734038bd4010ee8ecea845",
+      "@id": "_:N25abc2700a3a4fe4bae8598b8c2bceb5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -84,7 +84,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nf2e3cfd79af94f0d869791c93473cddc",
+      "@id": "_:N0dd3717a1e2a470887ee20953a90dcc0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

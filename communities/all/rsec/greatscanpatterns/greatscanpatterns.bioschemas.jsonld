@@ -45,18 +45,18 @@
       "biotools:primaryContact": "MEGA team",
       "bsc:input": [
         {
-          "@id": "_:Ne35d17db195a4b6eb460c542f57a8e2e"
+          "@id": "_:Nae1ad8c46b6745c59c7e0bdcb1ef03b2"
         },
         {
-          "@id": "_:Nb1db8543c8e54a198d928971a5d5465f"
+          "@id": "_:N948bcd041ea84f3ba5485a2eab91e75b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N94face8f4f8d47cbb6bd5f2a2c0584ea"
+          "@id": "_:N4d9e637dd4cf4645a9440a6f56e2a22c"
         },
         {
-          "@id": "_:N73ad01ffd055490381de326a59146ebf"
+          "@id": "_:N218c012308704612a1b173080a4cf419"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -102,7 +102,7 @@
       "sc:url": "http://great-portal.org/patterns/"
     },
     {
-      "@id": "_:Ne35d17db195a4b6eb460c542f57a8e2e",
+      "@id": "_:Nae1ad8c46b6745c59c7e0bdcb1ef03b2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1893"
@@ -113,7 +113,7 @@
       "sc:name": "Locus ID"
     },
     {
-      "@id": "_:Nb1db8543c8e54a198d928971a5d5465f",
+      "@id": "_:N948bcd041ea84f3ba5485a2eab91e75b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1016"
@@ -124,7 +124,7 @@
       "sc:name": "Sequence position"
     },
     {
-      "@id": "_:N94face8f4f8d47cbb6bd5f2a2c0584ea",
+      "@id": "_:N4d9e637dd4cf4645a9440a6f56e2a22c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -132,7 +132,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N73ad01ffd055490381de326a59146ebf",
+      "@id": "_:N218c012308704612a1b173080a4cf419",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

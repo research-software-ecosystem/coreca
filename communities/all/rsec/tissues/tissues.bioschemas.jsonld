@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.7717/peerj.1054",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/tissues",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -43,10 +47,10 @@
         "Lars Juhl Jensen"
       ],
       "bsc:input": {
-        "@id": "_:Nbdb1f73fa75a4a1e80ce227d4ef48270"
+        "@id": "_:Nd362acb5851b4b579a06f52c2b2babb7"
       },
       "bsc:output": {
-        "@id": "_:Nca906139d1e44e82b92fece3367645d0"
+        "@id": "_:N063e736ab4834edcb78e5d5789a3e038"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -83,7 +87,7 @@
       "sc:url": "https://tissues.jensenlab.org/"
     },
     {
-      "@id": "_:Nbdb1f73fa75a4a1e80ce227d4ef48270",
+      "@id": "_:Nd362acb5851b4b579a06f52c2b2babb7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -91,16 +95,12 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "_:Nca906139d1e44e82b92fece3367645d0",
+      "@id": "_:N063e736ab4834edcb78e5d5789a3e038",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1087"
       },
       "sc:name": "Ontology concept ID"
-    },
-    {
-      "@id": "https://doi.org/10.7717/peerj.1054",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

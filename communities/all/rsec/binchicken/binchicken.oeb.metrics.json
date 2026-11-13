@@ -24,14 +24,14 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 8,
+                            "cit_count": 9,
                             "citations": [
                                 {
                                     "count": 4,
                                     "year": 2025
                                 },
                                 {
-                                    "count": 4,
+                                    "count": 5,
                                     "year": 2026
                                 }
                             ],
@@ -100,14 +100,14 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 72,
+                            "cit_count": 76,
                             "citations": [
                                 {
                                     "count": 22,
                                     "year": 2025
                                 },
                                 {
-                                    "count": 50,
+                                    "count": 54,
                                     "year": 2026
                                 }
                             ],

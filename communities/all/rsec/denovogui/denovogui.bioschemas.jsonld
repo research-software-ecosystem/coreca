@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1021/pr4008078",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/denovogui",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N99f3677df27445618d35dca438f0d96a"
+        "@id": "_:Nc46b58225b7e40689873bf22df473482"
       },
       "bsc:output": {
-        "@id": "_:Nc597b227df1a43f5b6576b45ed3bfb42"
+        "@id": "_:Nefcf464f71844eb6a9d7cecdb89da423"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -101,7 +97,7 @@
       "sc:url": "http://compomics.github.io/projects/denovogui.html"
     },
     {
-      "@id": "_:N99f3677df27445618d35dca438f0d96a",
+      "@id": "_:Nc46b58225b7e40689873bf22df473482",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -112,7 +108,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Nc597b227df1a43f5b6576b45ed3bfb42",
+      "@id": "_:Nefcf464f71844eb6a9d7cecdb89da423",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -121,6 +117,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "https://doi.org/10.1021/pr4008078",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

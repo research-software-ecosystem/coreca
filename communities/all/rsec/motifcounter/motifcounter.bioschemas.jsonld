@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.motifcounter",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/motifcounter",
       "@type": "sc:SoftwareApplication",
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -57,7 +61,7 @@
         }
       ],
       "sc:isAccessibleForFree": true,
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "motifcounter",
       "sc:operatingSystem": [
         "Linux",
@@ -69,10 +73,6 @@
       },
       "sc:softwareVersion": "1.35.0",
       "sc:url": "https://bioconductor.org/packages/motifcounter"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.motifcounter",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

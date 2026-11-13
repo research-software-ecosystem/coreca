@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/ptmprophet",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N76ad2ee6f5384eca8ec1436235379fe1"
+        "@id": "_:N69a9c4a5ce4a41aab948928b2a7c2958"
       },
       "bsc:output": {
-        "@id": "_:Ne046fa3d27d342419ea7e9fea7169420"
+        "@id": "_:Nb8296e67592c4e109571915f86a273af"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -77,7 +77,7 @@
       "sc:url": "http://tools.proteomecenter.org/wiki/index.php?title=Software:TPP"
     },
     {
-      "@id": "_:N76ad2ee6f5384eca8ec1436235379fe1",
+      "@id": "_:N69a9c4a5ce4a41aab948928b2a7c2958",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -88,7 +88,7 @@
       "sc:name": "Peptide identification"
     },
     {
-      "@id": "_:Ne046fa3d27d342419ea7e9fea7169420",
+      "@id": "_:Nb8296e67592c4e109571915f86a273af",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"

@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1002/jcc.20344",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/abeem_solver",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Radka Svobodová Vařeková",
       "bsc:input": {
-        "@id": "_:N3f0ef8d97a604af180039849202fc859"
+        "@id": "_:N671771a397204cf98da9df39e66f6aed"
       },
       "bsc:output": {
-        "@id": "_:Na0609a4e0bbf4ee58127535f57768676"
+        "@id": "_:N4581de9588e04d3cb7d45f751ae63e31"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -92,7 +88,7 @@
       "sc:url": "http://ncbr.muni.cz/~svobodova/eem_abeem"
     },
     {
-      "@id": "_:N3f0ef8d97a604af180039849202fc859",
+      "@id": "_:N671771a397204cf98da9df39e66f6aed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -100,7 +96,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:Na0609a4e0bbf4ee58127535f57768676",
+      "@id": "_:N4581de9588e04d3cb7d45f751ae63e31",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1917"
@@ -109,6 +105,10 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Atomic property"
+    },
+    {
+      "@id": "https://doi.org/10.1002/jcc.20344",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

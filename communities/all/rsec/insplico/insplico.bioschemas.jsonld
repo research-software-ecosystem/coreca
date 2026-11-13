@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/NAR/GKAD244",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/insplico",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N85a0da9b0b414996ae4fdcb9b1fe4450"
+          "@id": "_:N607562ff251c45a7a5754a8f2722e74a"
         },
         {
-          "@id": "_:N4a83b9c2b5fd4c3bb255ef0ce2ce0a58"
+          "@id": "_:Ndd55ed080bdb47e08c6981dbef43811f"
         }
       ],
       "bsc:output": {
-        "@id": "_:N7874188e5fce439b8a4cd56a7be5329e"
+        "@id": "_:N2cdb37a5ca5843e8a460c74ff8c83fbe"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -99,7 +103,7 @@
       "sc:url": "http://gitlab.com/aghr/insplico"
     },
     {
-      "@id": "_:N85a0da9b0b414996ae4fdcb9b1fe4450",
+      "@id": "_:N607562ff251c45a7a5754a8f2722e74a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -107,7 +111,7 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:N4a83b9c2b5fd4c3bb255ef0ce2ce0a58",
+      "@id": "_:Ndd55ed080bdb47e08c6981dbef43811f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -118,16 +122,12 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:N7874188e5fce439b8a4cd56a7be5329e",
+      "@id": "_:N2cdb37a5ca5843e8a460c74ff8c83fbe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3917"
       },
       "sc:name": "Count matrix"
-    },
-    {
-      "@id": "https://doi.org/10.1093/NAR/GKAD244",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

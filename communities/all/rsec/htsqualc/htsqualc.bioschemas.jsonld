@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/S41598-021-98124-3",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/htsqualc",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ncd8dfb54fac04f8aba37504c65c57755"
+        "@id": "_:Naa21f0dc47ae4a2f95052e6a8cd059ac"
       },
       "bsc:output": [
         {
-          "@id": "_:N99175b35c9db49f4bc76a4d1b85c4817"
+          "@id": "_:N27c4dd5fcd6e495d8b1a6d417795fe71"
         },
         {
-          "@id": "_:Nabecb1dddba74693bdc8a34a5fda55fd"
+          "@id": "_:Na33aed90aa8d4e72a0462ea89cdd3b27"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,7 +96,7 @@
       "sc:url": "https://github.com/reneshbedre/HTSQualC"
     },
     {
-      "@id": "_:Ncd8dfb54fac04f8aba37504c65c57755",
+      "@id": "_:Naa21f0dc47ae4a2f95052e6a8cd059ac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -103,7 +107,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N99175b35c9db49f4bc76a4d1b85c4817",
+      "@id": "_:N27c4dd5fcd6e495d8b1a6d417795fe71",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0951"
@@ -111,7 +115,7 @@
       "sc:name": "Statistical estimate score"
     },
     {
-      "@id": "_:Nabecb1dddba74693bdc8a34a5fda55fd",
+      "@id": "_:Na33aed90aa8d4e72a0462ea89cdd3b27",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -125,10 +129,6 @@
         }
       ],
       "sc:name": "Sequence"
-    },
-    {
-      "@id": "https://doi.org/10.1038/S41598-021-98124-3",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

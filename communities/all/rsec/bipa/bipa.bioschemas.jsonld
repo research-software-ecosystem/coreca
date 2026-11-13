@@ -36,27 +36,23 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btp243",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/bipa",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Semin Lee",
       "bsc:input": [
         {
-          "@id": "_:Nc6f41d13ecf7403c940c1f9595fef812"
+          "@id": "_:Ndfd3c7f54d7945b6bdbe12a5403c1dce"
         },
         {
-          "@id": "_:Nbd41e1fb314549bfb58ed6803d63b14f"
+          "@id": "_:Na8bd3a5cee0d412c881af2c589eb54d2"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf6f6aba5b9e4443fb520ca414fc2b871"
+          "@id": "_:N31fa2afa4c6a4c9bbabc17a403234b63"
         },
         {
-          "@id": "_:N2c06a041555145d78b0dd35f6444f250"
+          "@id": "_:N616fc6aa18534a3385450017f58dfac0"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -79,7 +75,7 @@
       "sc:url": "http://www-cryst.bioc.cam.ac.uk/bipa"
     },
     {
-      "@id": "_:Nc6f41d13ecf7403c940c1f9595fef812",
+      "@id": "_:Ndfd3c7f54d7945b6bdbe12a5403c1dce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -87,7 +83,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:Nbd41e1fb314549bfb58ed6803d63b14f",
+      "@id": "_:Na8bd3a5cee0d412c881af2c589eb54d2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1042"
@@ -95,7 +91,7 @@
       "sc:name": "SCOP sunid"
     },
     {
-      "@id": "_:Nf6f6aba5b9e4443fb520ca414fc2b871",
+      "@id": "_:N31fa2afa4c6a4c9bbabc17a403234b63",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -106,7 +102,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:N2c06a041555145d78b0dd35f6444f250",
+      "@id": "_:N616fc6aa18534a3385450017f58dfac0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -115,6 +111,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Protein interaction data"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btp243",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

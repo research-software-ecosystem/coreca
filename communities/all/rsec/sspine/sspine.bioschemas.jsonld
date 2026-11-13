@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/sspine",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N48b59b26b0c94db3987d1587c9becf9e"
+        "@id": "_:Nbcbb494562554277a81ca210dafb0859"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -89,7 +89,7 @@
       "sc:url": "https://poky.clas.ucdenver.edu/ssPINE"
     },
     {
-      "@id": "_:N48b59b26b0c94db3987d1587c9becf9e",
+      "@id": "_:Nbcbb494562554277a81ca210dafb0859",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

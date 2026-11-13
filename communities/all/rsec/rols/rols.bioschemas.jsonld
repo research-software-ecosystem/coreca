@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.rols",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/rols",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd1167ef011714a4fa3a9e39463f70f0a"
+        "@id": "_:N5d4e0e3ab6c34f24b4b4d0e915c64fbc"
       },
       "bsc:output": {
-        "@id": "_:N24c89b7cfc4448508401332037007943"
+        "@id": "_:Nfe9f1ce43a12428f89be18392e63e0c6"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -58,13 +62,14 @@
       },
       "sc:contributor": [
         "Andrew Clugston",
+        "Levi Waldron",
         "Tiage Chedraoui Silva"
       ],
       "sc:description": "The rols package is an interface to the Ontology Lookup Service (OLS) to access and query hundred of ontolgies directly from R.",
       "sc:featureList": {
         "@id": "edam:operation_2990"
       },
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "rols",
       "sc:operatingSystem": [
         "Linux",
@@ -74,11 +79,11 @@
       "sc:softwareHelp": {
         "@id": "https://bioconductor.org/packages/rols"
       },
-      "sc:softwareVersion": "3.7.1",
+      "sc:softwareVersion": "3.8.3",
       "sc:url": "https://bioconductor.org/packages/rols"
     },
     {
-      "@id": "_:Nd1167ef011714a4fa3a9e39463f70f0a",
+      "@id": "_:N5d4e0e3ab6c34f24b4b4d0e915c64fbc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0966"
@@ -89,7 +94,7 @@
       "sc:name": "Ontology term"
     },
     {
-      "@id": "_:N24c89b7cfc4448508401332037007943",
+      "@id": "_:Nfe9f1ce43a12428f89be18392e63e0c6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -98,10 +103,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Ontology data"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.rols",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

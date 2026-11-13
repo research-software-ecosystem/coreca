@@ -40,10 +40,6 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0000-0001-8468-2050",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/oncoenrichr",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -51,23 +47,23 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N469b37da83434a739865f82d68ed5d3c"
+          "@id": "_:N89d592c651b848ffbabf92bb20876f68"
         },
         {
-          "@id": "_:Nc936c09acff84469842c0683e89e05bb"
+          "@id": "_:Nbffcffa74cbd4ec3888fb04cf104a522"
         },
         {
-          "@id": "_:N5775e11097b24cd1aa2281bb4f3fd333"
+          "@id": "_:N7dc9cebedc4c4aa9aff7a7016de8ec35"
         },
         {
-          "@id": "_:N1b943d346b9f4c97813af56bec625e35"
+          "@id": "_:Nddd2dde7e96a4ed6a351943c8de2eaef"
         },
         {
-          "@id": "_:N8fe5989165134aa3a4dcfe4e202c70aa"
+          "@id": "_:Nd2e23bd4fc1a463aaf8be41192582853"
         }
       ],
       "bsc:output": {
-        "@id": "_:N2ed92741a6ab4d70972f58a2b94b91fe"
+        "@id": "_:Nf0f7dd684d904562ae154ddb0ed312a3"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -162,7 +158,7 @@
       "sc:url": "https://github.com/sigven/oncoEnrichR"
     },
     {
-      "@id": "_:N469b37da83434a739865f82d68ed5d3c",
+      "@id": "_:N89d592c651b848ffbabf92bb20876f68",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2610"
@@ -173,7 +169,7 @@
       "sc:name": "Ensembl ID"
     },
     {
-      "@id": "_:Nc936c09acff84469842c0683e89e05bb",
+      "@id": "_:Nbffcffa74cbd4ec3888fb04cf104a522",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2725"
@@ -184,7 +180,7 @@
       "sc:name": "Ensembl transcript ID"
     },
     {
-      "@id": "_:N5775e11097b24cd1aa2281bb4f3fd333",
+      "@id": "_:N7dc9cebedc4c4aa9aff7a7016de8ec35",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1027"
@@ -195,7 +191,7 @@
       "sc:name": "Gene ID (NCBI)"
     },
     {
-      "@id": "_:N1b943d346b9f4c97813af56bec625e35",
+      "@id": "_:Nddd2dde7e96a4ed6a351943c8de2eaef",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1098"
@@ -206,7 +202,7 @@
       "sc:name": "RefSeq accession"
     },
     {
-      "@id": "_:N8fe5989165134aa3a4dcfe4e202c70aa",
+      "@id": "_:Nd2e23bd4fc1a463aaf8be41192582853",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -217,7 +213,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N2ed92741a6ab4d70972f58a2b94b91fe",
+      "@id": "_:Nf0f7dd684d904562ae154ddb0ed312a3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -231,6 +227,10 @@
         }
       ],
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8468-2050",
+      "@type": "sc:Person"
     }
   ]
 }

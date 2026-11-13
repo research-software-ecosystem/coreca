@@ -43,14 +43,14 @@
         "Hao Chen"
       ],
       "bsc:input": {
-        "@id": "_:N34fdd471a89445d7b4bcd26866d5dc2a"
+        "@id": "_:N4016ffd6f7524f23b09b273b92887cce"
       },
       "bsc:output": [
         {
-          "@id": "_:Nc756ec06b5ab4809b9a22c5b12cd6655"
+          "@id": "_:Nde511f2a791d4f0995bb572db360c82d"
         },
         {
-          "@id": "_:N625f4e61bc504acc97011d0335df202c"
+          "@id": "_:N50f131d8e6b541d1bd32946cd88fe8a7"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -102,7 +102,7 @@
       "sc:url": "http://bioconductor.org/packages/release/bioc/html/cytofkit.html"
     },
     {
-      "@id": "_:N34fdd471a89445d7b4bcd26866d5dc2a",
+      "@id": "_:N4016ffd6f7524f23b09b273b92887cce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -113,7 +113,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nc756ec06b5ab4809b9a22c5b12cd6655",
+      "@id": "_:Nde511f2a791d4f0995bb572db360c82d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -135,7 +135,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N625f4e61bc504acc97011d0335df202c",
+      "@id": "_:N50f131d8e6b541d1bd32946cd88fe8a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

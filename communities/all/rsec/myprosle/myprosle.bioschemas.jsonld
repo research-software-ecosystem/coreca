@@ -39,17 +39,17 @@
       "@id": "https://bio.tools/myprosle",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N526673708a304ffebf9e2546a36a7c58"
+        "@id": "_:Na1ade42ab9874752be98d8b5925fc1d5"
       },
       "bsc:output": [
         {
-          "@id": "_:Ndec2d32d5bc1495cb9bad84624bf3f85"
+          "@id": "_:Nef0166b1c4294da499d616d686b1a0fd"
         },
         {
-          "@id": "_:N53caa77c807e4b13933c1403f73ea4cf"
+          "@id": "_:N6ca9709b546c44f98ec9ec3959561bd1"
         },
         {
-          "@id": "_:N794cde2e3a954884b7ca35e28935a755"
+          "@id": "_:N81f2bbb6845341ed837e338565f40314"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -90,7 +90,7 @@
       "sc:url": "https://myprosle.genyo.es/"
     },
     {
-      "@id": "_:N526673708a304ffebf9e2546a36a7c58",
+      "@id": "_:Na1ade42ab9874752be98d8b5925fc1d5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -101,7 +101,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:Ndec2d32d5bc1495cb9bad84624bf3f85",
+      "@id": "_:Nef0166b1c4294da499d616d686b1a0fd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -109,7 +109,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N53caa77c807e4b13933c1403f73ea4cf",
+      "@id": "_:N6ca9709b546c44f98ec9ec3959561bd1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -117,7 +117,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N794cde2e3a954884b7ca35e28935a755",
+      "@id": "_:N81f2bbb6845341ed837e338565f40314",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

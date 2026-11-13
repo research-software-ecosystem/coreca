@@ -38,10 +38,10 @@
   "http://schema.org/publisher": "Nicolas Hervé",
   "http://schema.org/softwareRequirements": [
     {
-      "@id": "http://biii.eu/node/615"
+      "@id": "http://biii.eu/node/8"
     },
     {
-      "@id": "http://biii.eu/node/8"
+      "@id": "http://biii.eu/node/615"
     },
     {
       "@id": "http://biii.eu/node/501"

@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nb9ff434cd4a2411ea2da7662a775fb08"
+          "@id": "_:Ned6ca65f692d4485b02965a0c8a85c80"
         },
         {
-          "@id": "_:N4d9393ac3ba4493d86e34c5b9534a3b2"
+          "@id": "_:N3572ddb07adb485b9b0a8365eadd0a5c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nebc0f3fb397647a48eaeb9a08eda9bc0"
+          "@id": "_:N5fa6e42333cc4c5abbb53169d3336b97"
         },
         {
-          "@id": "_:N42d638edbe5f4f74929dbc307690f536"
+          "@id": "_:Nb72e08f791284cc2bad06e45629a6562"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -95,7 +95,7 @@
       "sc:url": "https://www.ebi.ac.uk/complexportal/"
     },
     {
-      "@id": "_:Nb9ff434cd4a2411ea2da7662a775fb08",
+      "@id": "_:Ned6ca65f692d4485b02965a0c8a85c80",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -106,7 +106,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N4d9393ac3ba4493d86e34c5b9534a3b2",
+      "@id": "_:N3572ddb07adb485b9b0a8365eadd0a5c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -117,7 +117,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:Nebc0f3fb397647a48eaeb9a08eda9bc0",
+      "@id": "_:N5fa6e42333cc4c5abbb53169d3336b97",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -128,7 +128,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:N42d638edbe5f4f74929dbc307690f536",
+      "@id": "_:Nb72e08f791284cc2bad06e45629a6562",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -139,11 +139,11 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gku975",
+      "@id": "https://doi.org/10.1093/nar/gky1001",
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gky1001",
+      "@id": "https://doi.org/10.1093/nar/gku975",
       "@type": "sc:CreativeWork"
     }
   ]

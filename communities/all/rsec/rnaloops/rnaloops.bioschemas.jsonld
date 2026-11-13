@@ -40,13 +40,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N4f6200defbfa426fa88388c2abe5fe59"
+          "@id": "_:N89df10ea8fef4403b9761aa9a6710dd3"
         },
         {
-          "@id": "_:N40a7108ac1a0487cb0d178f60e76f0fd"
+          "@id": "_:N366439148d5a45959300b43c8bde3a8a"
         },
         {
-          "@id": "_:Ne694ba3cab0a4793acb0a6027e45a4da"
+          "@id": "_:N6d102784ad21417185d9a6d72f43b016"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -99,7 +99,7 @@
       "sc:url": "https://rnaloops.cs.put.poznan.pl"
     },
     {
-      "@id": "_:N4f6200defbfa426fa88388c2abe5fe59",
+      "@id": "_:N89df10ea8fef4403b9761aa9a6710dd3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -107,7 +107,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N40a7108ac1a0487cb0d178f60e76f0fd",
+      "@id": "_:N366439148d5a45959300b43c8bde3a8a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3495"
@@ -115,7 +115,7 @@
       "sc:name": "RNA sequence"
     },
     {
-      "@id": "_:Ne694ba3cab0a4793acb0a6027e45a4da",
+      "@id": "_:N6d102784ad21417185d9a6d72f43b016",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1465"

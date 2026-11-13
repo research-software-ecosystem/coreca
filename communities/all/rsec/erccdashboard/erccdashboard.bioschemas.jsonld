@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1038/ncomms6125",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/erccdashboard",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ndfae6e9fa14e4033833754c069855edb"
+        "@id": "_:N6f7431da85dd4a37af39a5ae255b12b1"
       },
       "bsc:output": {
-        "@id": "_:N139902f5fa2e48fe9a3cfe579da77bdf"
+        "@id": "_:N81cfe81fd1db45a5a17ff83e09202c33"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -57,11 +61,17 @@
           "@id": "edam:topic_3170"
         }
       ],
+      "sc:citation": [
+        "pubmed:25254650",
+        {
+          "@id": "https://doi.org/10.1038/ncomms6125"
+        }
+      ],
       "sc:description": "Technical performance metrics for differential gene expression experiments using External RNA Controls Consortium (ERCC) spike-in ratio mixtures.",
       "sc:featureList": {
         "@id": "edam:operation_2945"
       },
-      "sc:license": "GPL-2.0-only",
+      "sc:license": "GPL-2.0",
       "sc:name": "erccdashboard",
       "sc:operatingSystem": [
         "Linux",
@@ -75,7 +85,7 @@
       "sc:url": "https://bioconductor.org/packages/erccdashboard"
     },
     {
-      "@id": "_:Ndfae6e9fa14e4033833754c069855edb",
+      "@id": "_:N6f7431da85dd4a37af39a5ae255b12b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -83,10 +93,10 @@
       "sc:encodingFormat": {
         "@id": "edam:format_2058"
       },
-      "sc:name": "Gene expression data"
+      "sc:name": "Expression data"
     },
     {
-      "@id": "_:N139902f5fa2e48fe9a3cfe579da77bdf",
+      "@id": "_:N81cfe81fd1db45a5a17ff83e09202c33",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

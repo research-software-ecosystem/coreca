@@ -36,110 +36,114 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/nar/gkv1352",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/astd",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Contact List",
       "bsc:input": [
         {
-          "@id": "_:Na72fadd0655e475a915b5c68dbd975db"
+          "@id": "_:N727a745d7dd6422e8bc172997cae04e2"
         },
         {
-          "@id": "_:Nc2b33f138464493a8808a95d2da752e9"
+          "@id": "_:Nf0a98ea4caa147568bd4b17b49296e52"
         },
         {
-          "@id": "_:Na70ebd083ff141b09607148446f070bf"
+          "@id": "_:N5fc8e05744ca4f0da4f09cb24a484bd1"
         },
         {
-          "@id": "_:Nb6375fb3670641f591ed78e0da98aa61"
+          "@id": "_:N9839185ff839442ca5613d4c7edcf805"
         },
         {
-          "@id": "_:Ndb30e0c6ff644c0ea900d2c15dcc645e"
+          "@id": "_:N8bed8677956c489abace73f021439837"
         },
         {
-          "@id": "_:Nbde28b8240f84c92ab649a8497d39304"
+          "@id": "_:N77de61e714ea49a28ce0b401db5a430c"
         },
         {
-          "@id": "_:N2a90b0a101f14127a566347af4fd9c69"
+          "@id": "_:N004ccb7326274e87b62292629d4e9938"
         },
         {
-          "@id": "_:Nc8c9d580c59d439e9f18944ae3adbade"
+          "@id": "_:N406b312ae074479db598d6120dd5e520"
         },
         {
-          "@id": "_:N7bf0ab7314ac481bb0549d74a0d35635"
+          "@id": "_:N858865be21cb43388004dd041f77a05f"
         },
         {
-          "@id": "_:Ne3b98f6887b8418181e7a03f69edb7fe"
+          "@id": "_:N8758cffe8a514b08ada930bdae4e2c49"
         },
         {
-          "@id": "_:N83fdedc2eb714a51aaaef055ab84d26d"
+          "@id": "_:Nbcefbab9b49148288b5c5f99a75f9ae5"
         },
         {
-          "@id": "_:N04b5a0507e934529a41b01e30526333f"
+          "@id": "_:N099016bf43ee4781bb04d8e38f516cee"
         },
         {
-          "@id": "_:Nb089afbaea7449a79c8ede6020141cae"
+          "@id": "_:N612059032797445aa12515e13993492e"
         },
         {
-          "@id": "_:Nd6b04206db0c40b5a871edea79f702de"
+          "@id": "_:N92c223930b044dcda9cfbf4dbf554479"
         },
         {
-          "@id": "_:N50b88542c3d94cc2b39a6559046162a4"
+          "@id": "_:N15784e22bcf54031bb95a3a7faa140c4"
         },
         {
-          "@id": "_:Necb76a0eff86461cb1518c339bc58ae2"
+          "@id": "_:N2a11c68cb7c148bc84d5a360a94f9c7d"
         },
         {
-          "@id": "_:N3072703bc1ff4e48819bb031279ca3a7"
+          "@id": "_:N996806f8c68440de8473d28bf0b32671"
         },
         {
-          "@id": "_:N20376cc6801946bbb1612b1275a3a184"
+          "@id": "_:Nd427eaf750f44c04a327a1c5114990bf"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd2f607b7cf8146978db82de1f119f75f"
+          "@id": "_:N9eccbcb2346247aa82d30deda849af41"
         },
         {
-          "@id": "_:N9a4d42d985d845cf970821d201190148"
+          "@id": "_:Nafd388c59ff342289ebf8287ecf19265"
         },
         {
-          "@id": "_:N2f0977c6c9a04f7190b1278271dd6664"
+          "@id": "_:Nd4d9ce9c660e4927b9f5a7f59aae5f13"
         },
         {
-          "@id": "_:N60c3e6c5337f4c918da3d4547ee092d3"
+          "@id": "_:N71886d23170f4bf8bed4d0cdc057dbbf"
         },
         {
-          "@id": "_:Ned78a5321c8244349bf8190bfe324edc"
+          "@id": "_:Nde2d5b0ae14847149495a991ad8d51c8"
         },
         {
-          "@id": "_:N43a1a97c271647de868ca96077b39edc"
+          "@id": "_:Nb7eb4c965e45498ea595a893bca86f61"
         },
         {
-          "@id": "_:Nbf3d2cbd22b94d7b93502760faf8ed9e"
+          "@id": "_:N0c956f4a3d6d45fe9559b5270f4a52ed"
         },
         {
-          "@id": "_:N90ca041791074bf48d143107c86c2b98"
+          "@id": "_:N542033a076c2491e9253fe62c1ef7119"
         },
         {
-          "@id": "_:Nd503bc7d7cda4c8792e0a8738959cf3a"
+          "@id": "_:Nb513923aa65e4b839bcc7b2858a410f6"
         },
         {
-          "@id": "_:Nb4f2cf7359ff41afa60e57e4eb554acb"
+          "@id": "_:Nc1c73a73d66645678dacdd29a947a80d"
         },
         {
-          "@id": "_:N05bdaa68630d440692c198141c0dedac"
+          "@id": "_:Nfa8cb9b4cc7a4827986466e9c0a83f37"
         },
         {
-          "@id": "_:N37de20914f344dd8923cbdec21345b0a"
+          "@id": "_:Nca17dd31ee504dd8988cae652edd1092"
         },
         {
-          "@id": "_:Nbeb267db14a84820b16ef04329d4f6d3"
+          "@id": "_:N9e0adebedd3346edba3613190e31d379"
         },
         {
-          "@id": "_:Nfe80e4c9c3c94c089bb29741f0428cd3"
+          "@id": "_:N6cdcc8e448274882a096bc3ccfc49269"
         },
         {
-          "@id": "_:Ndf381e22820a400e97886b0e5c1efe91"
+          "@id": "_:Nfe430881ae404ac59bd6f34776d6c202"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -170,7 +174,7 @@
       "sc:url": "http://www.ebi.ac.uk/astd/"
     },
     {
-      "@id": "_:Na72fadd0655e475a915b5c68dbd975db",
+      "@id": "_:N727a745d7dd6422e8bc172997cae04e2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2367"
@@ -178,7 +182,7 @@
       "sc:name": "ASTD ID"
     },
     {
-      "@id": "_:Nc2b33f138464493a8808a95d2da752e9",
+      "@id": "_:Nf0a98ea4caa147568bd4b17b49296e52",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2367"
@@ -186,7 +190,7 @@
       "sc:name": "ASTD ID"
     },
     {
-      "@id": "_:Na70ebd083ff141b09607148446f070bf",
+      "@id": "_:N5fc8e05744ca4f0da4f09cb24a484bd1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2367"
@@ -194,7 +198,7 @@
       "sc:name": "ASTD ID"
     },
     {
-      "@id": "_:Nb6375fb3670641f591ed78e0da98aa61",
+      "@id": "_:N9839185ff839442ca5613d4c7edcf805",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2367"
@@ -202,7 +206,7 @@
       "sc:name": "ASTD ID"
     },
     {
-      "@id": "_:Ndb30e0c6ff644c0ea900d2c15dcc645e",
+      "@id": "_:N8bed8677956c489abace73f021439837",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2367"
@@ -210,7 +214,7 @@
       "sc:name": "ASTD ID"
     },
     {
-      "@id": "_:Nbde28b8240f84c92ab649a8497d39304",
+      "@id": "_:N77de61e714ea49a28ce0b401db5a430c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2368"
@@ -218,7 +222,7 @@
       "sc:name": "ASTD ID (exon)"
     },
     {
-      "@id": "_:N2a90b0a101f14127a566347af4fd9c69",
+      "@id": "_:N004ccb7326274e87b62292629d4e9938",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2367"
@@ -226,7 +230,7 @@
       "sc:name": "ASTD ID"
     },
     {
-      "@id": "_:Nc8c9d580c59d439e9f18944ae3adbade",
+      "@id": "_:N406b312ae074479db598d6120dd5e520",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2369"
@@ -234,7 +238,7 @@
       "sc:name": "ASTD ID (intron)"
     },
     {
-      "@id": "_:N7bf0ab7314ac481bb0549d74a0d35635",
+      "@id": "_:N858865be21cb43388004dd041f77a05f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2367"
@@ -242,7 +246,7 @@
       "sc:name": "ASTD ID"
     },
     {
-      "@id": "_:Ne3b98f6887b8418181e7a03f69edb7fe",
+      "@id": "_:N8758cffe8a514b08ada930bdae4e2c49",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2371"
@@ -250,7 +254,7 @@
       "sc:name": "ASTD ID (tss)"
     },
     {
-      "@id": "_:N83fdedc2eb714a51aaaef055ab84d26d",
+      "@id": "_:Nbcefbab9b49148288b5c5f99a75f9ae5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2370"
@@ -258,7 +262,7 @@
       "sc:name": "ASTD ID (polya)"
     },
     {
-      "@id": "_:N04b5a0507e934529a41b01e30526333f",
+      "@id": "_:N099016bf43ee4781bb04d8e38f516cee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -266,7 +270,7 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:Nb089afbaea7449a79c8ede6020141cae",
+      "@id": "_:N612059032797445aa12515e13993492e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -274,7 +278,7 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:Nd6b04206db0c40b5a871edea79f702de",
+      "@id": "_:N92c223930b044dcda9cfbf4dbf554479",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -282,7 +286,7 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:N50b88542c3d94cc2b39a6559046162a4",
+      "@id": "_:N15784e22bcf54031bb95a3a7faa140c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -290,7 +294,7 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:Necb76a0eff86461cb1518c339bc58ae2",
+      "@id": "_:N2a11c68cb7c148bc84d5a360a94f9c7d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -298,7 +302,7 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:N3072703bc1ff4e48819bb031279ca3a7",
+      "@id": "_:N996806f8c68440de8473d28bf0b32671",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2398"
@@ -306,7 +310,7 @@
       "sc:name": "Ensembl protein ID"
     },
     {
-      "@id": "_:N20376cc6801946bbb1612b1275a3a184",
+      "@id": "_:Nd427eaf750f44c04a327a1c5114990bf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2398"
@@ -314,7 +318,7 @@
       "sc:name": "Ensembl protein ID"
     },
     {
-      "@id": "_:Nd2f607b7cf8146978db82de1f119f75f",
+      "@id": "_:N9eccbcb2346247aa82d30deda849af41",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3134"
@@ -325,7 +329,7 @@
       "sc:name": "Gene transcript report"
     },
     {
-      "@id": "_:N9a4d42d985d845cf970821d201190148",
+      "@id": "_:Nafd388c59ff342289ebf8287ecf19265",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3134"
@@ -336,7 +340,7 @@
       "sc:name": "Gene transcript report"
     },
     {
-      "@id": "_:N2f0977c6c9a04f7190b1278271dd6664",
+      "@id": "_:Nd4d9ce9c660e4927b9f5a7f59aae5f13",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3134"
@@ -347,7 +351,7 @@
       "sc:name": "Gene transcript report"
     },
     {
-      "@id": "_:N60c3e6c5337f4c918da3d4547ee092d3",
+      "@id": "_:N71886d23170f4bf8bed4d0cdc057dbbf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3134"
@@ -358,7 +362,7 @@
       "sc:name": "Gene transcript report"
     },
     {
-      "@id": "_:Ned78a5321c8244349bf8190bfe324edc",
+      "@id": "_:Nde2d5b0ae14847149495a991ad8d51c8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -369,7 +373,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N43a1a97c271647de868ca96077b39edc",
+      "@id": "_:Nb7eb4c965e45498ea595a893bca86f61",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -380,7 +384,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:Nbf3d2cbd22b94d7b93502760faf8ed9e",
+      "@id": "_:N0c956f4a3d6d45fe9559b5270f4a52ed",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -391,7 +395,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:N90ca041791074bf48d143107c86c2b98",
+      "@id": "_:N542033a076c2491e9253fe62c1ef7119",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1276"
@@ -402,7 +406,7 @@
       "sc:name": "Nucleic acid features"
     },
     {
-      "@id": "_:Nd503bc7d7cda4c8792e0a8738959cf3a",
+      "@id": "_:Nb513923aa65e4b839bcc7b2858a410f6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -413,7 +417,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Nb4f2cf7359ff41afa60e57e4eb554acb",
+      "@id": "_:Nc1c73a73d66645678dacdd29a947a80d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -424,7 +428,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N05bdaa68630d440692c198141c0dedac",
+      "@id": "_:Nfa8cb9b4cc7a4827986466e9c0a83f37",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -435,7 +439,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N37de20914f344dd8923cbdec21345b0a",
+      "@id": "_:Nca17dd31ee504dd8988cae652edd1092",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -446,7 +450,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Nbeb267db14a84820b16ef04329d4f6d3",
+      "@id": "_:N9e0adebedd3346edba3613190e31d379",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -457,7 +461,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Nfe80e4c9c3c94c089bb29741f0428cd3",
+      "@id": "_:N6cdcc8e448274882a096bc3ccfc49269",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -468,7 +472,7 @@
       "sc:name": "Protein report"
     },
     {
-      "@id": "_:Ndf381e22820a400e97886b0e5c1efe91",
+      "@id": "_:Nfe430881ae404ac59bd6f34776d6c202",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -477,10 +481,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Protein report"
-    },
-    {
-      "@id": "https://doi.org/10.1093/nar/gkv1352",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

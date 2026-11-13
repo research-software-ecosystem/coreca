@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nbac1adb9e0c849469b86ce84530d05a3"
+          "@id": "_:Nc89558ef36454d1f90b5806234e539dd"
         },
         {
-          "@id": "_:Nd09d44f0d2054f08891ea6266671b169"
+          "@id": "_:Nfaacd1e819bb40458b7c6240b90a76db"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -82,7 +82,7 @@
       "sc:url": "https://www.boost.org/"
     },
     {
-      "@id": "_:Nbac1adb9e0c849469b86ce84530d05a3",
+      "@id": "_:Nc89558ef36454d1f90b5806234e539dd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -90,7 +90,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nd09d44f0d2054f08891ea6266671b169",
+      "@id": "_:Nfaacd1e819bb40458b7c6240b90a76db",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1352"

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/cryosparc",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3efad2c568d149fba686bce60448e9bc"
+        "@id": "_:N41a9f5c70d8c4e348b231a4a4b292b99"
       },
       "bsc:output": {
-        "@id": "_:N402577f7614d453bbf216e310ac527bf"
+        "@id": "_:N295add88578042ae8738ef77364bb464"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -85,7 +85,7 @@
       "sc:url": "https://www.cryosparc.com/"
     },
     {
-      "@id": "_:N3efad2c568d149fba686bce60448e9bc",
+      "@id": "_:N41a9f5c70d8c4e348b231a4a4b292b99",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3424"
@@ -96,7 +96,7 @@
       "sc:name": "Raw image"
     },
     {
-      "@id": "_:N402577f7614d453bbf216e310ac527bf",
+      "@id": "_:N295add88578042ae8738ef77364bb464",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"

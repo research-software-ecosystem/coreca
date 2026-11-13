@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
@@ -48,19 +44,23 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/gdtools_subtract",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:Nece5d9b9f6c144d0a391f13d6cd0a392"
+          "@id": "_:N1b813232e5cd4b08b56e6c80d9f0ce90"
         },
         {
-          "@id": "_:N79f3083d3e3246da8fd0d290c622d377"
+          "@id": "_:N39da2287b03e46f5983db8e3285305ba"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nf14ab6fd527c4e4ba97f455b28840fd4"
+        "@id": "_:Nf44c45ba991f469995db6481d80c2e2e"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -107,7 +107,7 @@
       "sc:url": "http://barricklab.org/twiki/pub/Lab/ToolsBacterialGenomeResequencing/documentation/gd_usage.html"
     },
     {
-      "@id": "_:Nece5d9b9f6c144d0a391f13d6cd0a392",
+      "@id": "_:N1b813232e5cd4b08b56e6c80d9f0ce90",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -118,7 +118,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N79f3083d3e3246da8fd0d290c622d377",
+      "@id": "_:N39da2287b03e46f5983db8e3285305ba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -129,7 +129,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Nf14ab6fd527c4e4ba97f455b28840fd4",
+      "@id": "_:Nf44c45ba991f469995db6481d80c2e2e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"

@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/wiggleplotr",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N603773cc74a14a59bc741835a075f844"
+        "@id": "_:Nb4a657f8fbc1478bae89d65857dbe5e7"
       },
       "bsc:output": {
-        "@id": "_:N9246678a4cf64821b9da319867e8158d"
+        "@id": "_:Nd2cb22bebebd4d68b5d49abb55fa3584"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Plug-in",
@@ -91,7 +91,7 @@
       "sc:url": "https://bioconductor.org/packages/wiggleplotr"
     },
     {
-      "@id": "_:N603773cc74a14a59bc741835a075f844",
+      "@id": "_:Nb4a657f8fbc1478bae89d65857dbe5e7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3496"
@@ -102,7 +102,7 @@
       "sc:name": "RNA sequence (raw)"
     },
     {
-      "@id": "_:N9246678a4cf64821b9da319867e8158d",
+      "@id": "_:Nd2cb22bebebd4d68b5d49abb55fa3584",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2166"

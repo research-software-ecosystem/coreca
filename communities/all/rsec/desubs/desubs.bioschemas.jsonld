@@ -47,14 +47,14 @@
         "Anastasios Bezerianos"
       ],
       "bsc:input": {
-        "@id": "_:N1d19c4ba4612483889425851ae228264"
+        "@id": "_:N8dc0c70ab9974cfe911ba8c4f9f1e32d"
       },
       "bsc:output": [
         {
-          "@id": "_:Na5ea9563488a4fad807df77e5f16a46d"
+          "@id": "_:Na0e68671093f438c9eff13092ca0b261"
         },
         {
-          "@id": "_:Ndc1ef0ec74f74d4a8afe8fbbfd6ce7d3"
+          "@id": "_:N3110536f6d1f4f838ffbc8c716f76f13"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -103,7 +103,7 @@
       "sc:url": "http://bioconductor.org/packages/DEsubs/"
     },
     {
-      "@id": "_:N1d19c4ba4612483889425851ae228264",
+      "@id": "_:N8dc0c70ab9974cfe911ba8c4f9f1e32d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -111,7 +111,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:Na5ea9563488a4fad807df77e5f16a46d",
+      "@id": "_:Na0e68671093f438c9eff13092ca0b261",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -119,7 +119,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:Ndc1ef0ec74f74d4a8afe8fbbfd6ce7d3",
+      "@id": "_:N3110536f6d1f4f838ffbc8c716f76f13",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

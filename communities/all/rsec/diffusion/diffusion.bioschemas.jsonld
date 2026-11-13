@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Daniel E. Carlin",
       "bsc:input": {
-        "@id": "_:Nc01b8e7e58964d628579b70b7f9c2e56"
+        "@id": "_:Nb8bf26bdeaaa4673a49840de2303839e"
       },
       "bsc:output": {
-        "@id": "_:N9b733f3ece924f1893b96737f4419635"
+        "@id": "_:N7ed65cd68774474db813a22ab3b7ec3d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Plug-in",
@@ -94,7 +94,7 @@
       "sc:url": "http://apps.cytoscape.org/apps/Diffusion"
     },
     {
-      "@id": "_:Nc01b8e7e58964d628579b70b7f9c2e56",
+      "@id": "_:Nb8bf26bdeaaa4673a49840de2303839e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -105,7 +105,7 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "_:N9b733f3ece924f1893b96737f4419635",
+      "@id": "_:N7ed65cd68774474db813a22ab3b7ec3d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"

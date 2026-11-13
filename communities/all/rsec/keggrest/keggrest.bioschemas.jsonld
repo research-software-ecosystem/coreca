@@ -36,22 +36,26 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.18129/B9.bioc.KEGGREST",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/keggrest",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nbff0bdc8e6084ea58cdcdf4dd28d0167"
+          "@id": "_:Nb3cd7e591e4e40e8989212b1ac7bfe2e"
         },
         {
-          "@id": "_:N0af86c39a8d3417aac574a3891db6f83"
+          "@id": "_:Nc905e10eba6d47eaadacdde4d034f653"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N198657cb26cd4cbfa10e21d3d7dc419a"
+          "@id": "_:N6dc72d7c762249329b024c624b3969ab"
         },
         {
-          "@id": "_:N461dbe4f689a41b5866a4cfefdf9ef24"
+          "@id": "_:Ndc6cf5fe98814f99b2a5d38ee8f96c70"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -100,7 +104,7 @@
       "sc:url": "https://bioconductor.org/packages/KEGGREST"
     },
     {
-      "@id": "_:Nbff0bdc8e6084ea58cdcdf4dd28d0167",
+      "@id": "_:Nb3cd7e591e4e40e8989212b1ac7bfe2e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -111,7 +115,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N0af86c39a8d3417aac574a3891db6f83",
+      "@id": "_:Nc905e10eba6d47eaadacdde4d034f653",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -122,7 +126,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:N198657cb26cd4cbfa10e21d3d7dc419a",
+      "@id": "_:N6dc72d7c762249329b024c624b3969ab",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -138,7 +142,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N461dbe4f689a41b5866a4cfefdf9ef24",
+      "@id": "_:Ndc6cf5fe98814f99b2a5d38ee8f96c70",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -152,10 +156,6 @@
         }
       ],
       "sc:name": "Image"
-    },
-    {
-      "@id": "https://doi.org/10.18129/B9.bioc.KEGGREST",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

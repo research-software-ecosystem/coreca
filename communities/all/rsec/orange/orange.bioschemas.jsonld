@@ -36,18 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0002-5864-7056",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/btm312",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/bth474",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/orange",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -56,18 +44,18 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N6a6fd5f5207e4e80bced36c1e002d112"
+          "@id": "_:N56f64ec807c9448b9adb5e242806b91a"
         },
         {
-          "@id": "_:N981b1a3b2ebe4111a9750bd23bc4677a"
+          "@id": "_:N718ac33a0a7d4200b0f3049294926db3"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N7323c6d20641403198170e69b714efed"
+          "@id": "_:Ne3a7076a8aec40de9a565d42abd50f3e"
         },
         {
-          "@id": "_:Ndf0b379c4f324efead9371344dd17a7c"
+          "@id": "_:N5a78a0e926d44ea3896e238740f8b012"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -198,7 +186,7 @@
       "sc:url": "https://orange.biolab.si/"
     },
     {
-      "@id": "_:N6a6fd5f5207e4e80bced36c1e002d112",
+      "@id": "_:N56f64ec807c9448b9adb5e242806b91a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0582"
@@ -206,7 +194,7 @@
       "sc:name": "Ontology"
     },
     {
-      "@id": "_:N981b1a3b2ebe4111a9750bd23bc4677a",
+      "@id": "_:N718ac33a0a7d4200b0f3049294926db3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -217,7 +205,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N7323c6d20641403198170e69b714efed",
+      "@id": "_:Ne3a7076a8aec40de9a565d42abd50f3e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -225,12 +213,24 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:Ndf0b379c4f324efead9371344dd17a7c",
+      "@id": "_:N5a78a0e926d44ea3896e238740f8b012",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0582"
       },
       "sc:name": "Ontology"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-5864-7056",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bth474",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btm312",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

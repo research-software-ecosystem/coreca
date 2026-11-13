@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/protein/12.1.15",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/cornet",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Piero Fariselli",
       "bsc:input": {
-        "@id": "_:Nf4f9c882b2a145098d7476301c879210"
+        "@id": "_:N70bb81fb97df485cb413ff953f5f295b"
       },
       "bsc:output": {
-        "@id": "_:N75b45d8e2b52402eba5433df92709aa6"
+        "@id": "_:N87a06e1c3daf478491359bf597002d73"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -84,7 +80,7 @@
       "sc:url": "http://gpcr.biocomp.unibo.it/cgi/predictors/cornet/pred_cmapcgi.cgi"
     },
     {
-      "@id": "_:Nf4f9c882b2a145098d7476301c879210",
+      "@id": "_:N70bb81fb97df485cb413ff953f5f295b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -95,7 +91,7 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:N75b45d8e2b52402eba5433df92709aa6",
+      "@id": "_:N87a06e1c3daf478491359bf597002d73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -104,6 +100,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/protein/12.1.15",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

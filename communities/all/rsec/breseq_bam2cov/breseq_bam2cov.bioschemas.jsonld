@@ -40,10 +40,6 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.7490/f1000research.1114334.1",
       "@type": "sc:CreativeWork"
     },
@@ -53,21 +49,21 @@
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": [
         {
-          "@id": "_:N7769504fc3c14c21b98c2246f6be8290"
+          "@id": "_:N81c19d6aa00b41ddb13da1e542aef7dc"
         },
         {
-          "@id": "_:N31d07616b59d45118ee4466b635949c0"
+          "@id": "_:Nd370d8b332b64dd3a7dfce34ff00d686"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ne0c8f31c4a8a4daf8b4552326ca9f960"
+          "@id": "_:N389c76f5f2b7484e97d44bd6973b2476"
         },
         {
-          "@id": "_:Neccc4dda269b4d4ea22f4c3c345848ef"
+          "@id": "_:N4230e427b88c43b78b39a469a1e8699c"
         },
         {
-          "@id": "_:N0d20cc4e5ef94bd79b02ed334fc23bbf"
+          "@id": "_:Na48e1ec7f0994dfabe479165a105b6df"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -115,7 +111,7 @@
       "sc:url": "http://barricklab.org/twiki/bin/view/Lab/ToolsBacterialGenomeResequencing"
     },
     {
-      "@id": "_:N7769504fc3c14c21b98c2246f6be8290",
+      "@id": "_:N81c19d6aa00b41ddb13da1e542aef7dc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -126,7 +122,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N31d07616b59d45118ee4466b635949c0",
+      "@id": "_:Nd370d8b332b64dd3a7dfce34ff00d686",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0924"
@@ -137,7 +133,7 @@
       "sc:name": "Sequence trace"
     },
     {
-      "@id": "_:Ne0c8f31c4a8a4daf8b4552326ca9f960",
+      "@id": "_:N389c76f5f2b7484e97d44bd6973b2476",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -148,7 +144,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:Neccc4dda269b4d4ea22f4c3c345848ef",
+      "@id": "_:N4230e427b88c43b78b39a469a1e8699c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -159,7 +155,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N0d20cc4e5ef94bd79b02ed334fc23bbf",
+      "@id": "_:Na48e1ec7f0994dfabe479165a105b6df",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -168,6 +164,10 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Image"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,12 +36,12 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0003-4525-7793",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://doi.org/10.1093/nar/gkw1268",
       "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0003-4525-7793",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://bio.tools/repeatsdb",
@@ -51,21 +51,21 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N77d1c70cf1e34a54ba0aa9c6b8e98743"
+          "@id": "_:N0616f892d73247dfb18ee9fea693b3d0"
         },
         {
-          "@id": "_:N498018448bff4ff3b20655fb2683b7be"
+          "@id": "_:N1a8a64c2b7604b9c879b8902b50e4ab7"
         },
         {
-          "@id": "_:Nf38d1280a83f416da02ac08d9ebc1c38"
+          "@id": "_:Na8a11699d81e44c69fad946f4c6cce86"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N58d8ef0eb5ae4544be1a72252a039f83"
+          "@id": "_:N85387551a43742f2a7b965860f7efcfe"
         },
         {
-          "@id": "_:Nb9b07b7a9a73495dbe0f498a125c4304"
+          "@id": "_:N77b253b790be490c9ff0a91789f08be2"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -121,7 +121,7 @@
       "sc:url": "https://repeatsdb.org/"
     },
     {
-      "@id": "_:N77d1c70cf1e34a54ba0aa9c6b8e98743",
+      "@id": "_:N0616f892d73247dfb18ee9fea693b3d0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -129,7 +129,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N498018448bff4ff3b20655fb2683b7be",
+      "@id": "_:N1a8a64c2b7604b9c879b8902b50e4ab7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -137,7 +137,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:Nf38d1280a83f416da02ac08d9ebc1c38",
+      "@id": "_:Na8a11699d81e44c69fad946f4c6cce86",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2007"
@@ -148,7 +148,7 @@
       "sc:name": "UniProt keyword"
     },
     {
-      "@id": "_:N58d8ef0eb5ae4544be1a72252a039f83",
+      "@id": "_:N85387551a43742f2a7b965860f7efcfe",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -159,7 +159,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:Nb9b07b7a9a73495dbe0f498a125c4304",
+      "@id": "_:N77b253b790be490c9ff0a91789f08be2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"

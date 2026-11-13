@@ -40,12 +40,12 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://doi.org/10.1038/s41598-022-22818-5",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://orcid.org/0000-0002-0274-5669",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41598-022-22818-5",
+      "@type": "sc:CreativeWork"
     },
     {
       "@id": "https://bio.tools/dar",
@@ -62,29 +62,29 @@
       ],
       "bsc:input": [
         {
-          "@id": "_:N5410df07bdbe40679dcb5e62538c0610"
+          "@id": "_:N98a431858e7645b6979f11e501443f5a"
         },
         {
-          "@id": "_:Ndbfa970751724baaa8ff7f36b5ab1d01"
+          "@id": "_:N9aa3eb5290a34855bdacce882ad41a6b"
         },
         {
-          "@id": "_:N4214919944c145a9bb6658b475e0fefc"
+          "@id": "_:N8fc99ecfbe574337806ae4c89d3fc57e"
         },
         {
-          "@id": "_:N03e36985f0ea47bb902bb40c61550da1"
+          "@id": "_:N1b6334d12821484080d3f88dce69cb87"
         },
         {
-          "@id": "_:Ne3a0b4599664484f9f4ef70a1ba0e3de"
+          "@id": "_:Nc9df5037123348458287cd9b46135cd2"
         },
         {
-          "@id": "_:Na641611e4e2a4223b13a6a44b6707857"
+          "@id": "_:Nc60c27c65ced4c498cb09d408940f91c"
         },
         {
-          "@id": "_:N5542c121d96f45ac906db8a7e716966d"
+          "@id": "_:Nbf18a50a8d3b420a848650bf05831bfd"
         }
       ],
       "bsc:output": {
-        "@id": "_:N9a9c115ff5dc42e8848f77e5fadbc262"
+        "@id": "_:Neb436583cb2d406d830792b8eaa68c17"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -128,7 +128,7 @@
       "sc:url": "https://dar.biocomp.unibo.it/"
     },
     {
-      "@id": "_:N5410df07bdbe40679dcb5e62538c0610",
+      "@id": "_:N98a431858e7645b6979f11e501443f5a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1150"
@@ -136,7 +136,7 @@
       "sc:name": "Disease ID"
     },
     {
-      "@id": "_:Ndbfa970751724baaa8ff7f36b5ab1d01",
+      "@id": "_:N9aa3eb5290a34855bdacce882ad41a6b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3668"
@@ -144,7 +144,7 @@
       "sc:name": "Disease name"
     },
     {
-      "@id": "_:N4214919944c145a9bb6658b475e0fefc",
+      "@id": "_:N8fc99ecfbe574337806ae4c89d3fc57e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1011"
@@ -152,7 +152,7 @@
       "sc:name": "EC number"
     },
     {
-      "@id": "_:N03e36985f0ea47bb902bb40c61550da1",
+      "@id": "_:N1b6334d12821484080d3f88dce69cb87",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2299"
@@ -160,7 +160,7 @@
       "sc:name": "Gene name"
     },
     {
-      "@id": "_:Ne3a0b4599664484f9f4ef70a1ba0e3de",
+      "@id": "_:Nc9df5037123348458287cd9b46135cd2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1155"
@@ -168,7 +168,7 @@
       "sc:name": "Pathway ID (reactome)"
     },
     {
-      "@id": "_:Na641611e4e2a4223b13a6a44b6707857",
+      "@id": "_:Nc60c27c65ced4c498cb09d408940f91c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1009"
@@ -176,7 +176,7 @@
       "sc:name": "Protein name"
     },
     {
-      "@id": "_:N5542c121d96f45ac906db8a7e716966d",
+      "@id": "_:Nbf18a50a8d3b420a848650bf05831bfd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -184,7 +184,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N9a9c115ff5dc42e8848f77e5fadbc262",
+      "@id": "_:Neb436583cb2d406d830792b8eaa68c17",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"

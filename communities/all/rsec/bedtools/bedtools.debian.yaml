@@ -35,7 +35,7 @@ tags:
 - tag: use::filtering
 - tag: works-with::biological-sequence
 popcon:
-- insts: 565
-  olde: 413
-  recent: 89
-  vote: 63
+- insts: 567
+  olde: 415
+  recent: 88
+  vote: 64

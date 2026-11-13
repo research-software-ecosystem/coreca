@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Sebastian Dilorenzo",
       "bsc:input": {
-        "@id": "_:N971fcb2ac5bf43ae9631291164cfff8a"
+        "@id": "_:Nc192fe1034c14e82a1098b9a30918ee9"
       },
       "bsc:output": {
-        "@id": "_:Nee11715e4a464d7f919552b4ba19b555"
+        "@id": "_:Nb0f49abe094241c1b264fcf5f94c66ac"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -76,7 +76,7 @@
       "sc:url": "http://patchwork.r-forge.r-project.org/"
     },
     {
-      "@id": "_:N971fcb2ac5bf43ae9631291164cfff8a",
+      "@id": "_:Nc192fe1034c14e82a1098b9a30918ee9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -84,7 +84,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nee11715e4a464d7f919552b4ba19b555",
+      "@id": "_:Nb0f49abe094241c1b264fcf5f94c66ac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3498"

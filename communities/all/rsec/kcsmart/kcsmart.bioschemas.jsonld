@@ -40,21 +40,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N7f813616199b4d4e8fa3700730f40dca"
+          "@id": "_:Ne6053671645e417f8c3fc26438653047"
         },
         {
-          "@id": "_:N6e192048cd7c4affb2d6a31439ee4f4e"
+          "@id": "_:Nbdd8165a6cfe45e6857c503b5d88ede7"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N459b278f5c7047ea9aad3d157a5aad6d"
+          "@id": "_:Nd1e1d48e9326484f849f59ad0d5d937c"
         },
         {
-          "@id": "_:Nb906e4d700ff4c85830e9319994033b5"
+          "@id": "_:N3b28b891484b4e989f576fa22c46b2e8"
         },
         {
-          "@id": "_:Nd450b728d9b74285af86077776c9e3fc"
+          "@id": "_:N1de3e8ee91684eef91b3bf659d5d4af9"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -83,7 +83,7 @@
       "sc:featureList": {
         "@id": "edam:operation_2495"
       },
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "KCsmart",
       "sc:operatingSystem": [
         "Linux",
@@ -97,7 +97,7 @@
       "sc:url": "https://bioconductor.org/packages/KCsmart"
     },
     {
-      "@id": "_:N7f813616199b4d4e8fa3700730f40dca",
+      "@id": "_:Ne6053671645e417f8c3fc26438653047",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -108,7 +108,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N6e192048cd7c4affb2d6a31439ee4f4e",
+      "@id": "_:Nbdd8165a6cfe45e6857c503b5d88ede7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3111"
@@ -119,7 +119,7 @@
       "sc:name": "Processed microarray data"
     },
     {
-      "@id": "_:N459b278f5c7047ea9aad3d157a5aad6d",
+      "@id": "_:Nd1e1d48e9326484f849f59ad0d5d937c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -135,7 +135,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:Nb906e4d700ff4c85830e9319994033b5",
+      "@id": "_:N3b28b891484b4e989f576fa22c46b2e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -151,7 +151,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nd450b728d9b74285af86077776c9e3fc",
+      "@id": "_:N1de3e8ee91684eef91b3bf659d5d4af9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

@@ -36,23 +36,27 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1752-0509-1-35",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/cellcycledb",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Roberta Alfieri",
       "bsc:input": [
         {
-          "@id": "_:Ncf0df7e2d83a4ba5af27eb76f1b0601a"
+          "@id": "_:N23ea4114d98b48ddafe78cd1be443157"
         },
         {
-          "@id": "_:N6688e5aef6254a359e44969b1b962e2d"
+          "@id": "_:N20f8256ef419459b8f14b232ac1e1e1a"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N330aa8502b2a4e1ca5aa3b1049135098"
+          "@id": "_:Ndc9a989a3a434c5faae97a457c438e80"
         },
         {
-          "@id": "_:Nffc78d51c7934a008b5a1fcb3a0010f0"
+          "@id": "_:N9b80b135c8844937a1404892495228b6"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,7 +96,7 @@
       "sc:url": "http://www.itb.cnr.it/cellcycle/index.html"
     },
     {
-      "@id": "_:Ncf0df7e2d83a4ba5af27eb76f1b0601a",
+      "@id": "_:N23ea4114d98b48ddafe78cd1be443157",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -100,7 +104,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N6688e5aef6254a359e44969b1b962e2d",
+      "@id": "_:N20f8256ef419459b8f14b232ac1e1e1a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2764"
@@ -108,7 +112,7 @@
       "sc:name": "Protein name (UniProt)"
     },
     {
-      "@id": "_:N330aa8502b2a4e1ca5aa3b1049135098",
+      "@id": "_:Ndc9a989a3a434c5faae97a457c438e80",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -119,7 +123,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Nffc78d51c7934a008b5a1fcb3a0010f0",
+      "@id": "_:N9b80b135c8844937a1404892495228b6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0896"
@@ -128,10 +132,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Protein report"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1752-0509-1-35",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,7 +36,11 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkw343",
+      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1086/381000",
       "@type": "sc:CreativeWork"
     },
     {
@@ -44,10 +48,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Galaxy Support Team",
       "bsc:input": {
-        "@id": "_:N2a42b45ad8ce41b5b2d27e92de27eed6"
+        "@id": "_:N85174b82fd5446a89a5223e55ff3e7df"
       },
       "bsc:output": {
-        "@id": "_:N284003af70664280bb1ef4d0289f0331"
+        "@id": "_:Ncc4424d1797f49f9885108eb41387e75"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -105,7 +109,7 @@
       "sc:url": "https://github.com/galaxyproject/galaxy/tree/dev/tools"
     },
     {
-      "@id": "_:N2a42b45ad8ce41b5b2d27e92de27eed6",
+      "@id": "_:N85174b82fd5446a89a5223e55ff3e7df",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -116,7 +120,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "_:N284003af70664280bb1ef4d0289f0331",
+      "@id": "_:Ncc4424d1797f49f9885108eb41387e75",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0006"
@@ -127,11 +131,7 @@
       "sc:name": "Data"
     },
     {
-      "@id": "https://doi.org/10.7490/f1000research.1114334.1",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1086/381000",
+      "@id": "https://doi.org/10.1093/nar/gkw343",
       "@type": "sc:CreativeWork"
     }
   ]

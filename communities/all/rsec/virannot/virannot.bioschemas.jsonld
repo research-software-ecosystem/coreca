@@ -36,14 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "http://orcid.org/0000-0001-7361-4159",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://orcid.org/0000-0002-3093-5873",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/virannot",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -51,17 +43,17 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N12a16a0639cb47bb8e4423d9e12170cb"
+          "@id": "_:N137070b70288461b86a1ff12eea0e8fa"
         },
         {
-          "@id": "_:N69048480b4ab4d8691a5dae4956b837e"
+          "@id": "_:Nfce91f87f9d64ba28ad130898595c9eb"
         },
         {
-          "@id": "_:N455682066b0542dcbd38b755eea49f53"
+          "@id": "_:N86ee3f7c0989469e8810a7540821231b"
         }
       ],
       "bsc:output": {
-        "@id": "_:N38abad9408604e28abd2ec4fcbabc35c"
+        "@id": "_:N3d9b6225ade14294b0534f55f3d8ae09"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -107,7 +99,7 @@
       "sc:url": "https://github.com/marieBvr/virAnnot"
     },
     {
-      "@id": "_:N12a16a0639cb47bb8e4423d9e12170cb",
+      "@id": "_:N137070b70288461b86a1ff12eea0e8fa",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -115,7 +107,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N69048480b4ab4d8691a5dae4956b837e",
+      "@id": "_:Nfce91f87f9d64ba28ad130898595c9eb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -123,7 +115,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N455682066b0542dcbd38b755eea49f53",
+      "@id": "_:N86ee3f7c0989469e8810a7540821231b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -134,7 +126,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N38abad9408604e28abd2ec4fcbabc35c",
+      "@id": "_:N3d9b6225ade14294b0534f55f3d8ae09",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0872"
@@ -143,6 +135,14 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Phylogenetic tree"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3093-5873",
+      "@type": "sc:Person"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-7361-4159",
+      "@type": "sc:Person"
     },
     {
       "@id": "https://doi.org/10.1094/PBIOMES-07-19-0037-A",

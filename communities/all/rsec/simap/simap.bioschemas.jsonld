@@ -39,14 +39,14 @@
       "@id": "https://bio.tools/simap",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N97cb1f86489f45f7afd71053cdc3b175"
+        "@id": "_:Nc2a4b66fb08645f294c6c0423f57d65c"
       },
       "bsc:output": [
         {
-          "@id": "_:N25898265854241d1883aa0b36730d9e2"
+          "@id": "_:N1568beb827fb4d79936a1a2e8a88e529"
         },
         {
-          "@id": "_:Nd9b9f87fea3642e9a1c6fcf2f91797f5"
+          "@id": "_:N75f53d78daca45839a047fd33cc4d3cc"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -82,7 +82,7 @@
       "sc:url": "http://cube.univie.ac.at/resources/simap"
     },
     {
-      "@id": "_:N97cb1f86489f45f7afd71053cdc3b175",
+      "@id": "_:Nc2a4b66fb08645f294c6c0423f57d65c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1096"
@@ -90,7 +90,7 @@
       "sc:name": "Sequence accession (protein)"
     },
     {
-      "@id": "_:N25898265854241d1883aa0b36730d9e2",
+      "@id": "_:N1568beb827fb4d79936a1a2e8a88e529",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1381"
@@ -98,7 +98,7 @@
       "sc:name": "Sequence alignment (pair)"
     },
     {
-      "@id": "_:Nd9b9f87fea3642e9a1c6fcf2f91797f5",
+      "@id": "_:N75f53d78daca45839a047fd33cc4d3cc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1384"

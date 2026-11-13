@@ -36,7 +36,7 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151405",
+      "@id": "https://doi.org/10.1017/CBO9781139151399",
       "@type": "sc:CreativeWork"
     },
     {
@@ -44,7 +44,7 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1017/CBO9781139151399",
+      "@id": "https://doi.org/10.1017/CBO9781139151405",
       "@type": "sc:CreativeWork"
     },
     {
@@ -52,14 +52,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N4e01e0ae0a664b05917446273ecd8eba"
+          "@id": "_:N2edba174ba6a4b07bf3b5abc640bdec0"
         },
         {
-          "@id": "_:Nddeb6d56701447ef9380666014d675b4"
+          "@id": "_:N757976a789394ca7ab22b9ffb5eb83b1"
         }
       ],
       "bsc:output": {
-        "@id": "_:Ndecf4375abfa491ab1a33946fcc5fb6b"
+        "@id": "_:N8aa7962f1553418a9062f613e390c0bc"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -119,7 +119,7 @@
       "sc:url": "http://emboss.open-bio.org/rel/rel6/apps/msbar.html"
     },
     {
-      "@id": "_:N4e01e0ae0a664b05917446273ecd8eba",
+      "@id": "_:N2edba174ba6a4b07bf3b5abc640bdec0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -127,7 +127,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:Nddeb6d56701447ef9380666014d675b4",
+      "@id": "_:N757976a789394ca7ab22b9ffb5eb83b1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"
@@ -135,7 +135,7 @@
       "sc:name": "Sequence record"
     },
     {
-      "@id": "_:Ndecf4375abfa491ab1a33946fcc5fb6b",
+      "@id": "_:N8aa7962f1553418a9062f613e390c0bc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0849"

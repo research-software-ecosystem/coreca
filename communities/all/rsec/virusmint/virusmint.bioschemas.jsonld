@@ -41,18 +41,18 @@
       "biotools:primaryContact": "Luana Licata",
       "bsc:input": [
         {
-          "@id": "_:N852afc316a2547cb9b9ca1311d26f5b8"
+          "@id": "_:N50a5abb6c9db4581b3627cf0c19818e3"
         },
         {
-          "@id": "_:N396531b29f3c4c42b351e521db982286"
+          "@id": "_:Nd4c89d6b257149bfb8f662854a095cf1"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5e02f39b4de04b968d11cec316d974a2"
+          "@id": "_:Nfacb1106c66749ae90aed754311770c4"
         },
         {
-          "@id": "_:N58bf4ae029ae42c99d4a18b7ca3c28ec"
+          "@id": "_:N6660762582f64214824318c5db3cc6ad"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -97,7 +97,7 @@
       "sc:url": "http://mint.bio.uniroma2.it/virusmint/"
     },
     {
-      "@id": "_:N852afc316a2547cb9b9ca1311d26f5b8",
+      "@id": "_:N50a5abb6c9db4581b3627cf0c19818e3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -105,7 +105,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:N396531b29f3c4c42b351e521db982286",
+      "@id": "_:Nd4c89d6b257149bfb8f662854a095cf1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -113,7 +113,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N5e02f39b4de04b968d11cec316d974a2",
+      "@id": "_:Nfacb1106c66749ae90aed754311770c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -121,7 +121,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:N58bf4ae029ae42c99d4a18b7ca3c28ec",
+      "@id": "_:N6660762582f64214824318c5db3cc6ad",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"

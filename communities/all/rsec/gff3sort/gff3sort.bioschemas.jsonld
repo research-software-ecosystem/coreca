@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1186/s12859-017-1930-3",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/gff3sort",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Neccb846dd8254439bdec057815c05e7c"
+        "@id": "_:N6ed984520f2942a39aeaeb32ce2a9de0"
       },
       "bsc:output": {
-        "@id": "_:Ne068fb12b1004466a17afe383a02a249"
+        "@id": "_:Nac25a28028724b84bf48070a7de5965b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -72,7 +68,7 @@
       "sc:url": "https://github.com/tao-bioinfo/gff3sort"
     },
     {
-      "@id": "_:Neccb846dd8254439bdec057815c05e7c",
+      "@id": "_:N6ed984520f2942a39aeaeb32ce2a9de0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -83,7 +79,7 @@
       "sc:name": "Sequence features"
     },
     {
-      "@id": "_:Ne068fb12b1004466a17afe383a02a249",
+      "@id": "_:Nac25a28028724b84bf48070a7de5965b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"
@@ -92,6 +88,10 @@
         "@id": "edam:format_1975"
       },
       "sc:name": "Sequence features"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-017-1930-3",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "http://orcid.org/0000-0003-2216-4295",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/pica",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N1267d4ae5dec4bc9b0a33f06165a317e"
+        "@id": "_:N41f73731e5844c12b0b0277ebda1032d"
       },
       "bsc:output": {
-        "@id": "_:N387333efecce4d25a6a60f9896971528"
+        "@id": "_:Na14d889dd81d45668931638c3d9d300a"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -80,7 +84,7 @@
       "sc:url": "https://github.com/univieCUBE/PICA"
     },
     {
-      "@id": "_:N1267d4ae5dec4bc9b0a33f06165a317e",
+      "@id": "_:N41f73731e5844c12b0b0277ebda1032d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2872"
@@ -88,16 +92,12 @@
       "sc:name": "ID list"
     },
     {
-      "@id": "_:N387333efecce4d25a6a60f9896971528",
+      "@id": "_:Na14d889dd81d45668931638c3d9d300a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0920"
       },
       "sc:name": "Genotype/phenotype report"
-    },
-    {
-      "@id": "http://orcid.org/0000-0003-2216-4295",
-      "@type": "sc:Person"
     },
     {
       "@id": "https://doi.org/10.1186/1471-2105-16-S14-S1",

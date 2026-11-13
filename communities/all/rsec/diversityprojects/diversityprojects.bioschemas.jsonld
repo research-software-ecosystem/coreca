@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://orcid.org/0000-0003-1980-3148",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/DiversityProjects",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -47,18 +43,18 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nc9f348c261fa49f08c8b9400117b6be2"
+          "@id": "_:Naee90f0788b748c4b147bf199249ecc0"
         },
         {
-          "@id": "_:N7784df65aedb4d108a106044b6c5fcb8"
+          "@id": "_:Ne5ac07cde52643a2850d83307687ba40"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N68f5e8dc05e547028b8ccb6d3c243877"
+          "@id": "_:N0fe407a44fca4a05b464ac22d68db8eb"
         },
         {
-          "@id": "_:N89140cc6311c4d6dac2a2b7a20164d07"
+          "@id": "_:N40f4384844864d1684afeb2205cf58b9"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -103,7 +99,7 @@
       "sc:url": "https://diversityworkbench.net/Portal/DiversityProjects"
     },
     {
-      "@id": "_:Nc9f348c261fa49f08c8b9400117b6be2",
+      "@id": "_:Naee90f0788b748c4b147bf199249ecc0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -119,7 +115,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N7784df65aedb4d108a106044b6c5fcb8",
+      "@id": "_:Ne5ac07cde52643a2850d83307687ba40",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -135,7 +131,7 @@
       "sc:name": "Text data"
     },
     {
-      "@id": "_:N68f5e8dc05e547028b8ccb6d3c243877",
+      "@id": "_:N0fe407a44fca4a05b464ac22d68db8eb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -151,7 +147,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:N89140cc6311c4d6dac2a2b7a20164d07",
+      "@id": "_:N40f4384844864d1684afeb2205cf58b9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2526"
@@ -165,6 +161,10 @@
         }
       ],
       "sc:name": "Text data"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1980-3148",
+      "@type": "sc:Person"
     }
   ]
 }

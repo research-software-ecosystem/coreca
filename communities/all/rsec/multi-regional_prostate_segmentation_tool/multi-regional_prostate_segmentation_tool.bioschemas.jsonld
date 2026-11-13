@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/multi-regional_prostate_segmentation_tool",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N4e22cb4c0765456ea48d5031c2f7b300"
+        "@id": "_:N047ca40493064448b91e2df19828ec7d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -63,7 +63,7 @@
       "sc:url": "https://quibim.com/es/qp-prostate/"
     },
     {
-      "@id": "_:N4e22cb4c0765456ea48d5031c2f7b300",
+      "@id": "_:N047ca40493064448b91e2df19828ec7d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3442"

@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/s41587-023-01662-6",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1101/gr.280383.124",
       "@type": "sc:CreativeWork"
     },
@@ -47,14 +43,14 @@
       "@id": "https://bio.tools/verkko",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nfc598c6cfa384a739102485ca97ffaa7"
+        "@id": "_:N91029ff1811945df87b429d6e4d3d57f"
       },
       "bsc:output": [
         {
-          "@id": "_:Nedd64137648d4b2bb930b58ae519d470"
+          "@id": "_:N607ec127a14b4abeb1af83a3c4ad2c09"
         },
         {
-          "@id": "_:Nca9badf898e049d48850672ed921ae20"
+          "@id": "_:N2b6a7ec3851247099838fd50b1a5aaa4"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -99,7 +95,7 @@
       "sc:url": "https://github.com/marbl/verkko"
     },
     {
-      "@id": "_:Nfc598c6cfa384a739102485ca97ffaa7",
+      "@id": "_:N91029ff1811945df87b429d6e4d3d57f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -110,7 +106,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nedd64137648d4b2bb930b58ae519d470",
+      "@id": "_:N607ec127a14b4abeb1af83a3c4ad2c09",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -121,7 +117,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:Nca9badf898e049d48850672ed921ae20",
+      "@id": "_:N2b6a7ec3851247099838fd50b1a5aaa4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3181"
@@ -130,6 +126,10 @@
         "@id": "edam:format_3752"
       },
       "sc:name": "Sequence assembly report"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41587-023-01662-6",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -52,7 +52,7 @@
       },
       "sc:contributor": "Emma Dann",
       "sc:description": "Milo performs single-cell differential abundance testing. Cell states are modelled as representative neighbourhoods on a nearest neighbour graph. Hypothesis testing is performed using either a negative bionomial generalized linear model or negative binomial generalized linear mixed model.",
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "miloR",
       "sc:operatingSystem": [
         "Linux",

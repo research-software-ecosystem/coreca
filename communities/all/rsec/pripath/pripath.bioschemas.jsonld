@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nd8f0a32b32ed48a1a92b622ff4332be1"
+          "@id": "_:N189ad5ad71c64ad4921156e12c7c4440"
         },
         {
-          "@id": "_:N3884d343a56640adb3f79f3828913e1a"
+          "@id": "_:N56648d7a01684470b7f59b4a4f3a6248"
         }
       ],
       "bsc:output": {
-        "@id": "_:N160f6f371a3a4129b8d42f87694e4116"
+        "@id": "_:N4177e48f46c14d6bbfc410eafe90d474"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Workflow",
@@ -102,7 +102,7 @@
       "sc:url": "https://github.com/malikyousef/PriPath.git"
     },
     {
-      "@id": "_:Nd8f0a32b32ed48a1a92b622ff4332be1",
+      "@id": "_:N189ad5ad71c64ad4921156e12c7c4440",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -110,7 +110,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N3884d343a56640adb3f79f3828913e1a",
+      "@id": "_:N56648d7a01684470b7f59b4a4f3a6248",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2343"
@@ -118,7 +118,7 @@
       "sc:name": "Pathway ID (KEGG)"
     },
     {
-      "@id": "_:N160f6f371a3a4129b8d42f87694e4116",
+      "@id": "_:N4177e48f46c14d6bbfc410eafe90d474",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0951"

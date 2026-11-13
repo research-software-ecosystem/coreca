@@ -40,21 +40,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Na71bb1131ee240af9f07108c77c25204"
+          "@id": "_:Nd9494b56c0ee4e4f917b98efbed703c1"
         },
         {
-          "@id": "_:Ne928904fd391410f853cd48de1e53af2"
+          "@id": "_:Nba3e50a721854df194cf4df703f0ce82"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Ndb253230d90d4dee9f0ba1fb91222a31"
+          "@id": "_:N65678b4bdec248de943c8ddb4f4e5312"
         },
         {
-          "@id": "_:N33079f34b38f4a3cbbc2306dcd02f2ee"
+          "@id": "_:N3e9438f0226e414d8bfe301e4aa2e07c"
         },
         {
-          "@id": "_:N378f51605fbd4b9badda3154626ef8c8"
+          "@id": "_:N05899b4bf85c441380832d6aa290c1de"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -92,7 +92,7 @@
       "sc:url": "http://ceumass.eps.uspceu.es/"
     },
     {
-      "@id": "_:Na71bb1131ee240af9f07108c77c25204",
+      "@id": "_:Nd9494b56c0ee4e4f917b98efbed703c1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -103,7 +103,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Ne928904fd391410f853cd48de1e53af2",
+      "@id": "_:Nba3e50a721854df194cf4df703f0ce82",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0844"
@@ -114,7 +114,7 @@
       "sc:name": "Molecular mass"
     },
     {
-      "@id": "_:Ndb253230d90d4dee9f0ba1fb91222a31",
+      "@id": "_:N65678b4bdec248de943c8ddb4f4e5312",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2622"
@@ -125,7 +125,7 @@
       "sc:name": "Compound ID (HMDB)"
     },
     {
-      "@id": "_:N33079f34b38f4a3cbbc2306dcd02f2ee",
+      "@id": "_:N3e9438f0226e414d8bfe301e4aa2e07c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2639"
@@ -136,7 +136,7 @@
       "sc:name": "PubChem ID"
     },
     {
-      "@id": "_:N378f51605fbd4b9badda3154626ef8c8",
+      "@id": "_:N05899b4bf85c441380832d6aa290c1de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

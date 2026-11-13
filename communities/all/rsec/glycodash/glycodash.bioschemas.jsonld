@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1007/s00216-025-05794-3",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/GlycoDash",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N681404a1ea1c4394b6b2aeee889e018d"
+        "@id": "_:Nb2a9ffb9e0ec4f4696bb6ea3d4746478"
       },
       "bsc:output": [
         {
-          "@id": "_:N65cc717be57d4f7096bb3ae0aed1c9b0"
+          "@id": "_:N7ec31a44c73f40139d8bd1c8212c9b1b"
         },
         {
-          "@id": "_:Nce2d848eb8234efbbf9afd4f5e2c9fba"
+          "@id": "_:N6b1487a3bda64a0c87563e3d08152226"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -86,7 +90,7 @@
       "sc:url": "https://github.com/Center-for-Proteomics-and-Metabolomics/GlycoDash"
     },
     {
-      "@id": "_:N681404a1ea1c4394b6b2aeee889e018d",
+      "@id": "_:Nb2a9ffb9e0ec4f4696bb6ea3d4746478",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -105,7 +109,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N65cc717be57d4f7096bb3ae0aed1c9b0",
+      "@id": "_:N7ec31a44c73f40139d8bd1c8212c9b1b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -116,7 +120,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nce2d848eb8234efbbf9afd4f5e2c9fba",
+      "@id": "_:N6b1487a3bda64a0c87563e3d08152226",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -125,10 +129,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://doi.org/10.1007/s00216-025-05794-3",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

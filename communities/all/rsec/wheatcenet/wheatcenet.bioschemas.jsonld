@@ -44,16 +44,16 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N2d82861b308945a6832e5a0149d3edd7"
+          "@id": "_:N937f17545e214435a845f02218564f03"
         },
         {
-          "@id": "_:N56a3abf9e3ec47b89c6c2f363cf1d33b"
+          "@id": "_:N5c8158999dcd420a960c199afbc1fb8b"
         },
         {
-          "@id": "_:N2d7f25e01a764b4c8488f4d4bf868ec1"
+          "@id": "_:N439a70ba6eea49ba8645354f2cb46a1a"
         },
         {
-          "@id": "_:N6bad60b675fc4eb5b4091824c218c56b"
+          "@id": "_:N3850ac09fe4742b289a61394b0cd7e76"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -110,7 +110,7 @@
       "sc:url": "http://bioinformatics.cau.edu.cn/WheatCENet"
     },
     {
-      "@id": "_:N2d82861b308945a6832e5a0149d3edd7",
+      "@id": "_:N937f17545e214435a845f02218564f03",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1176"
@@ -118,7 +118,7 @@
       "sc:name": "GO concept ID"
     },
     {
-      "@id": "_:N56a3abf9e3ec47b89c6c2f363cf1d33b",
+      "@id": "_:N5c8158999dcd420a960c199afbc1fb8b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1893"
@@ -126,7 +126,7 @@
       "sc:name": "Locus ID"
     },
     {
-      "@id": "_:N2d7f25e01a764b4c8488f4d4bf868ec1",
+      "@id": "_:N439a70ba6eea49ba8645354f2cb46a1a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2757"
@@ -134,7 +134,7 @@
       "sc:name": "Pfam domain name"
     },
     {
-      "@id": "_:N6bad60b675fc4eb5b4091824c218c56b",
+      "@id": "_:N3850ac09fe4742b289a61394b0cd7e76",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"

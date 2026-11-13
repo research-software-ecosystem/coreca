@@ -36,6 +36,10 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.26434/CHEMRXIV.7336094.V2",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1038/s41597-019-0081-y",
       "@type": "sc:CreativeWork"
     },
@@ -79,10 +83,6 @@
       ],
       "sc:name": "Catalysis-hub.org",
       "sc:url": "https://www.catalysis-hub.org"
-    },
-    {
-      "@id": "https://doi.org/10.26434/CHEMRXIV.7336094.V2",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

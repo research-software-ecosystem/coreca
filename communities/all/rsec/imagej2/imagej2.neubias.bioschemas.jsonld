@@ -51,12 +51,12 @@
   "http://schema.org/license": "BSD2",
   "http://schema.org/name": "ImageJ2",
   "http://schema.org/publisher": [
-    "Arena Ellen T.",
-    "Schindelin Johannes ",
     "DeZonia Barry E.",
+    "Schindelin Johannes ",
+    "Arena Ellen T.",
     "Walter Alison E.",
+    "Rueden Curtis T.",
     "Hiner Mark C.",
-    "Eliceiri Kevin W. ",
-    "Rueden Curtis T."
+    "Eliceiri Kevin W. "
   ]
 }

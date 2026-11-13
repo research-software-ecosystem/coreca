@@ -41,17 +41,17 @@
       "biotools:primaryContact": "David Sehnal",
       "bsc:input": [
         {
-          "@id": "_:N252a0d921cee45fa8e24c8873c9abd18"
+          "@id": "_:N578c2ed437b04b8f9fb9c2ab78c1f9e2"
         },
         {
-          "@id": "_:N840645049f4e4f1a88fc0a6f122049fc"
+          "@id": "_:N0bff3c5a5bcc4a2cbaa1aed6b3c82d13"
         },
         {
-          "@id": "_:N8787833e0ea8469fa4e693e7c827ac1b"
+          "@id": "_:N092b6087e800416b9e7c4d0cae05323a"
         }
       ],
       "bsc:output": {
-        "@id": "_:N772e0585b270465b8d6d4dc012ab7b79"
+        "@id": "_:Nd2b34ea5c03441e5ac1db79550d43f41"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -88,7 +88,7 @@
       "sc:url": "https://www.litemol.org"
     },
     {
-      "@id": "_:N252a0d921cee45fa8e24c8873c9abd18",
+      "@id": "_:N578c2ed437b04b8f9fb9c2ab78c1f9e2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1127"
@@ -96,7 +96,7 @@
       "sc:name": "PDB ID"
     },
     {
-      "@id": "_:N840645049f4e4f1a88fc0a6f122049fc",
+      "@id": "_:N0bff3c5a5bcc4a2cbaa1aed6b3c82d13",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0940"
@@ -107,7 +107,7 @@
       "sc:name": "Electron microscopy volume map"
     },
     {
-      "@id": "_:N8787833e0ea8469fa4e693e7c827ac1b",
+      "@id": "_:N092b6087e800416b9e7c4d0cae05323a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1460"
@@ -118,7 +118,7 @@
       "sc:name": "Protein structure"
     },
     {
-      "@id": "_:N772e0585b270465b8d6d4dc012ab7b79",
+      "@id": "_:Nd2b34ea5c03441e5ac1db79550d43f41",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2992"

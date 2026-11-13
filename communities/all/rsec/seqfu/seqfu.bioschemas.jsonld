@@ -36,13 +36,17 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.3390/bioengineering8050059",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/seqfu",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nae957c58208049a59a894b7f58bef162"
+        "@id": "_:Nd7e07dcd988d48adaa82e90daf381bc8"
       },
       "bsc:output": {
-        "@id": "_:N786935f3b4ec48b9ac9da4cd4704a630"
+        "@id": "_:N14093461250a49d99c6f33ee42f67346"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -87,7 +91,7 @@
       "sc:url": "https://telatin.github.io/seqfu2/"
     },
     {
-      "@id": "_:Nae957c58208049a59a894b7f58bef162",
+      "@id": "_:Nd7e07dcd988d48adaa82e90daf381bc8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -95,16 +99,12 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N786935f3b4ec48b9ac9da4cd4704a630",
+      "@id": "_:N14093461250a49d99c6f33ee42f67346",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
       },
       "sc:name": "Nucleic acid sequence"
-    },
-    {
-      "@id": "https://doi.org/10.3390/bioengineering8050059",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

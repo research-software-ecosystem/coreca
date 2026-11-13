@@ -15,7 +15,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 36,
+                            "cit_count": 38,
                             "citations": [
                                 {
                                     "count": 1,
@@ -51,19 +51,19 @@
                                 },
                                 {
                                     "count": 2,
-                                    "year": 2008
-                                },
-                                {
-                                    "count": 2,
                                     "year": 2009
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2001
+                                    "year": 2002
                                 },
                                 {
                                     "count": 3,
-                                    "year": 2002
+                                    "year": 2008
+                                },
+                                {
+                                    "count": 4,
+                                    "year": 2001
                                 },
                                 {
                                     "count": 4,
@@ -90,7 +90,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 467,
+                            "cit_count": 471,
                             "citations": [
                                 {
                                     "count": 1,
@@ -149,11 +149,11 @@
                                     "year": 2009
                                 },
                                 {
-                                    "count": 41,
+                                    "count": 43,
                                     "year": 2007
                                 },
                                 {
-                                    "count": 47,
+                                    "count": 48,
                                     "year": 2008
                                 },
                                 {
@@ -169,7 +169,7 @@
                                     "year": 2006
                                 },
                                 {
-                                    "count": 74,
+                                    "count": 75,
                                     "year": 2005
                                 }
                             ],

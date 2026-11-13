@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nae8aee79adfe48c193ba915a2d1a703f"
+          "@id": "_:N0ef1d77ca37349489a99596cdcb2398a"
         },
         {
-          "@id": "_:N616abe3f49964f16b24fad8b3d13fc2b"
+          "@id": "_:N13c07fc4ec064b63a7c721a1b942014e"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nd573f703ecbe48d583c4f6d75b0d8187"
+          "@id": "_:N94e5859624e0447384b7b73a1907fe46"
         },
         {
-          "@id": "_:N54ca0acb647245c4912d0ac95e359dd2"
+          "@id": "_:Nee1e55d30fb243bab2e06a21b5677101"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -93,7 +93,7 @@
       "sc:url": "https://bioconductor.org/packages/Rcpi"
     },
     {
-      "@id": "_:Nae8aee79adfe48c193ba915a2d1a703f",
+      "@id": "_:N0ef1d77ca37349489a99596cdcb2398a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -112,7 +112,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N616abe3f49964f16b24fad8b3d13fc2b",
+      "@id": "_:N13c07fc4ec064b63a7c721a1b942014e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -131,7 +131,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:Nd573f703ecbe48d583c4f6d75b0d8187",
+      "@id": "_:N94e5859624e0447384b7b73a1907fe46",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -147,7 +147,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N54ca0acb647245c4912d0ac95e359dd2",
+      "@id": "_:Nee1e55d30fb243bab2e06a21b5677101",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2854"

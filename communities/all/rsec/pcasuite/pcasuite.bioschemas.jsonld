@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Institute for Research in Biomedicine Barcelona",
       "bsc:input": {
-        "@id": "_:N3383174aa0de4385b113018c9000ea3e"
+        "@id": "_:N487b5f69b8524ed38a6f4a6b33cb8fec"
       },
       "bsc:output": [
         {
-          "@id": "_:Nee37ffa793544099a2b1731730af296c"
+          "@id": "_:Ncd4165fc96634a358f4ac4de00ebc831"
         },
         {
-          "@id": "_:N76a7af92e8d24b47bfd25e2afc56fa32"
+          "@id": "_:N07d66348a930418f97ed5be10e4446cb"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -87,7 +87,7 @@
       "sc:url": "http://mmb.pcb.ub.edu/software/pcasuite/"
     },
     {
-      "@id": "_:N3383174aa0de4385b113018c9000ea3e",
+      "@id": "_:N487b5f69b8524ed38a6f4a6b33cb8fec",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"
@@ -95,7 +95,7 @@
       "sc:name": "Structure"
     },
     {
-      "@id": "_:Nee37ffa793544099a2b1731730af296c",
+      "@id": "_:Ncd4165fc96634a358f4ac4de00ebc831",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -103,7 +103,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:N76a7af92e8d24b47bfd25e2afc56fa32",
+      "@id": "_:N07d66348a930418f97ed5be10e4446cb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"

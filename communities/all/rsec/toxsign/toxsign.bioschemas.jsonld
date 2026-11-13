@@ -36,14 +36,18 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty040",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/toxsign",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Chalmel Frédéric",
       "bsc:input": {
-        "@id": "_:N49a65ec999094a4e845ea929f166aa8d"
+        "@id": "_:N0b29dade4c3047c19383c7b2ed97ee7c"
       },
       "bsc:output": {
-        "@id": "_:N00e14f524c454f0fb48a0f1863135b99"
+        "@id": "_:Nb474eb24c7514e42b352631d718e4111"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -72,7 +76,7 @@
       "sc:url": "http://toxsign.genouest.org"
     },
     {
-      "@id": "_:N49a65ec999094a4e845ea929f166aa8d",
+      "@id": "_:N0b29dade4c3047c19383c7b2ed97ee7c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -80,16 +84,12 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:N00e14f524c454f0fb48a0f1863135b99",
+      "@id": "_:Nb474eb24c7514e42b352631d718e4111",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
       },
       "sc:name": "Database search results"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/bty040",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

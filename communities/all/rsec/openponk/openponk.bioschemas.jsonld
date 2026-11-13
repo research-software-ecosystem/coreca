@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1145/2991041.2991055",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/openponk",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -84,7 +80,7 @@
       "sc:url": "https://openponk.org/"
     },
     {
-      "@id": "https://orcid.org/0000-0002-5280-7151",
+      "@id": "https://orcid.org/0000-0003-2980-4400",
       "@type": "sc:Person"
     },
     {
@@ -92,8 +88,12 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0003-2980-4400",
+      "@id": "https://orcid.org/0000-0002-5280-7151",
       "@type": "sc:Person"
+    },
+    {
+      "@id": "https://doi.org/10.1145/2991041.2991055",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

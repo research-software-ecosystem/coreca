@@ -40,6 +40,10 @@
       "@type": "sc:CreativeWork"
     },
     {
+      "@id": "https://doi.org/10.3892/mmr.2019.10522",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://doi.org/10.1093/nar/gki475",
       "@type": "sc:CreativeWork"
     },
@@ -112,10 +116,6 @@
         "@id": "http://www.webgestalt.org/WebGestalt_2017_Manual.pdf"
       },
       "sc:url": "http://www.webgestalt.org/option.php"
-    },
-    {
-      "@id": "https://doi.org/10.3892/mmr.2019.10522",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

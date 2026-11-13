@@ -40,10 +40,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Jorge Miguel Ferreira da Silva",
       "bsc:input": {
-        "@id": "_:N8b86a816381045daa5a3dd0af15787bc"
+        "@id": "_:Ne4f474776817452f8a210dd9b63370a8"
       },
       "bsc:output": {
-        "@id": "_:N04a9833904f94833bb899cb256c9f436"
+        "@id": "_:N85915b21fe814549a4808f69efd8bf27"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:applicationSubCategory": [
@@ -77,7 +77,7 @@
       "sc:url": "https://github.com/jorgeMFS/canvas"
     },
     {
-      "@id": "_:N8b86a816381045daa5a3dd0af15787bc",
+      "@id": "_:Ne4f474776817452f8a210dd9b63370a8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -88,7 +88,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N04a9833904f94833bb899cb256c9f436",
+      "@id": "_:N85915b21fe814549a4808f69efd8bf27",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2523"

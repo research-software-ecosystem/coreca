@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/blsspeller",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N50a59f22b238459489b1bdd914934459"
+        "@id": "_:N2ee7808825c243da85fefea5b22974e7"
       },
       "bsc:output": {
-        "@id": "_:N72553e26ce8448e7964e0b0954156d73"
+        "@id": "_:N32bda9fc72024d448c849ee743c180e9"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -73,7 +73,7 @@
       "sc:url": "http://bioinformatics.intec.ugent.be/blsspeller/index.html"
     },
     {
-      "@id": "_:N50a59f22b238459489b1bdd914934459",
+      "@id": "_:N2ee7808825c243da85fefea5b22974e7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3148"
@@ -81,7 +81,7 @@
       "sc:name": "Gene family report"
     },
     {
-      "@id": "_:N72553e26ce8448e7964e0b0954156d73",
+      "@id": "_:N32bda9fc72024d448c849ee743c180e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1353"

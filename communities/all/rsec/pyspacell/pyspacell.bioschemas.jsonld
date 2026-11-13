@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1002/cyto.a.23955",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/PySpacell",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne11ed102487041dd9031d4fc43f1bdeb"
+        "@id": "_:Nb63812c92c8f4278a94359166d1e00f9"
       },
       "bsc:output": [
         {
-          "@id": "_:Nfc47a8135f184a4e84c6331fbd5c7714"
+          "@id": "_:N6e8499575649417dab24e5986276a52a"
         },
         {
-          "@id": "_:N5ae20da46efe47af99e6c4f660ed1a37"
+          "@id": "_:Nb18ab3ac465a4953879a633c2f1c34b6"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -98,7 +102,7 @@
       "sc:url": "https://pypi.org/project/pySpacell/"
     },
     {
-      "@id": "_:Ne11ed102487041dd9031d4fc43f1bdeb",
+      "@id": "_:Nb63812c92c8f4278a94359166d1e00f9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3546"
@@ -109,7 +113,7 @@
       "sc:name": "Image metadata"
     },
     {
-      "@id": "_:Nfc47a8135f184a4e84c6331fbd5c7714",
+      "@id": "_:N6e8499575649417dab24e5986276a52a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -125,7 +129,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N5ae20da46efe47af99e6c4f660ed1a37",
+      "@id": "_:Nb18ab3ac465a4953879a633c2f1c34b6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -139,10 +143,6 @@
         }
       ],
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://doi.org/10.1002/cyto.a.23955",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

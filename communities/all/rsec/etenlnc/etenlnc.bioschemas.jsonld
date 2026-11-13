@@ -40,10 +40,6 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0000-0002-9451-7822",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://orcid.org/0000-0001-7039-7996",
       "@type": "sc:Person"
     },
@@ -55,30 +51,30 @@
       },
       "bsc:input": [
         {
-          "@id": "_:Nefa08aa1d9504733b0fcea48193a8065"
+          "@id": "_:N2991ff74412a43ca9d7aae6e49b6da98"
         },
         {
-          "@id": "_:Nd824616857ef4fb283c089e99e3b6969"
+          "@id": "_:Nd7a3eaeec55342ea82608be8fda216f1"
         },
         {
-          "@id": "_:N26af10b278f542a3a7ff20f7246fbbce"
+          "@id": "_:N0e81094b1fad4b2a9ba04bca8edbd075"
         },
         {
-          "@id": "_:N68ac66eea15d4a25a6518050f32efa3a"
+          "@id": "_:N8cbd3139c3d44002949feb23e325e799"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N778d3e2045d94ca9bcd1b6d0dfb73443"
+          "@id": "_:N94ba86a4abd643b9a2d4f348d5d8bdbd"
         },
         {
-          "@id": "_:N9141edf276644589b45d5e6c9dce9376"
+          "@id": "_:N4982f0cf910a48d2b4ae0eaec355b793"
         },
         {
-          "@id": "_:Ndf9e775683cd430294189145bb0377ab"
+          "@id": "_:Na237c3061cb743cd876663b5981df591"
         },
         {
-          "@id": "_:N81de0eafb5a146c794189c030212a1bf"
+          "@id": "_:N7dc40b7fa3ed49838f1defc9882d1554"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -149,7 +145,7 @@
       "sc:url": "https://github.com/EvolOMICS-TU/ETENLNC"
     },
     {
-      "@id": "_:Nefa08aa1d9504733b0fcea48193a8065",
+      "@id": "_:N2991ff74412a43ca9d7aae6e49b6da98",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3002"
@@ -165,7 +161,7 @@
       "sc:name": "Annotation track"
     },
     {
-      "@id": "_:Nd824616857ef4fb283c089e99e3b6969",
+      "@id": "_:Nd7a3eaeec55342ea82608be8fda216f1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -176,7 +172,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N26af10b278f542a3a7ff20f7246fbbce",
+      "@id": "_:N0e81094b1fad4b2a9ba04bca8edbd075",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1288"
@@ -187,7 +183,7 @@
       "sc:name": "Genome map"
     },
     {
-      "@id": "_:N68ac66eea15d4a25a6518050f32efa3a",
+      "@id": "_:N8cbd3139c3d44002949feb23e325e799",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -198,7 +194,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N778d3e2045d94ca9bcd1b6d0dfb73443",
+      "@id": "_:N94ba86a4abd643b9a2d4f348d5d8bdbd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -206,7 +202,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:N9141edf276644589b45d5e6c9dce9376",
+      "@id": "_:N4982f0cf910a48d2b4ae0eaec355b793",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -217,7 +213,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:Ndf9e775683cd430294189145bb0377ab",
+      "@id": "_:Na237c3061cb743cd876663b5981df591",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -228,7 +224,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:N81de0eafb5a146c794189c030212a1bf",
+      "@id": "_:N7dc40b7fa3ed49838f1defc9882d1554",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2887"
@@ -237,6 +233,10 @@
         "@id": "edam:format_1929"
       },
       "sc:name": "Nucleic acid sequence record"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9451-7822",
+      "@type": "sc:Person"
     }
   ]
 }

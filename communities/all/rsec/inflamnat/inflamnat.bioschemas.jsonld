@@ -40,13 +40,13 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N114afb5e4c094a01b740e4a03c6be299"
+          "@id": "_:Na54fc2c407b049c09d7b986114883744"
         },
         {
-          "@id": "_:Na2a3c35596dc456e8d3147ebb124dffd"
+          "@id": "_:N2434ee98862a41a9b7fa1c53559769c8"
         },
         {
-          "@id": "_:N68073b7326854ff29af4a349f57ac11a"
+          "@id": "_:Nda523c7b54ae4d4cb8b6359f4d74d6dd"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -96,7 +96,7 @@
       "sc:url": "http://www.inflamnat.com/"
     },
     {
-      "@id": "_:N114afb5e4c094a01b740e4a03c6be299",
+      "@id": "_:Na54fc2c407b049c09d7b986114883744",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2646"
@@ -104,7 +104,7 @@
       "sc:name": "Compound ID (ChEMBL)"
     },
     {
-      "@id": "_:Na2a3c35596dc456e8d3147ebb124dffd",
+      "@id": "_:N2434ee98862a41a9b7fa1c53559769c8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1009"
@@ -112,7 +112,7 @@
       "sc:name": "Protein name"
     },
     {
-      "@id": "_:N68073b7326854ff29af4a349f57ac11a",
+      "@id": "_:Nda523c7b54ae4d4cb8b6359f4d74d6dd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0883"

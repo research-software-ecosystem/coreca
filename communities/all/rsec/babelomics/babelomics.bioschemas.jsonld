@@ -45,27 +45,27 @@
       "biotools:primaryContact": "babelomics@cipf.es  (Francisco García)",
       "bsc:input": [
         {
-          "@id": "_:N4c1b1d7f71674176a0f60b003eac0a93"
+          "@id": "_:Nd50acbc0135343aab0ab25482a5ab244"
         },
         {
-          "@id": "_:Ne0645fdfeb954631a10f66f110bd3b7a"
+          "@id": "_:Naa7f8ead17b14dc3ab34adaeb01f39b4"
         },
         {
-          "@id": "_:Na1167f282d0a411489f98a9b3621bf06"
+          "@id": "_:Ne5cec88337b2420898f55e586d122dd9"
         },
         {
-          "@id": "_:N0fccfe4eeea94c2e8284d20ca4a52d72"
+          "@id": "_:N4d0b738e5a6847c8977e555b6d89ce62"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Nf2d72ad8f8c34e4389ec8f4db4e4ca2b"
+          "@id": "_:Nad48dcd7dba34ed0aeeeb6fe995a0482"
         },
         {
-          "@id": "_:Nc7c0063d31de4a47a04084d0382613a8"
+          "@id": "_:Ned830968ded448fb808a1dfaf4c42958"
         },
         {
-          "@id": "_:N574f06ac97d24b018fcc73cc1beef41d"
+          "@id": "_:N4a4e61c0bcbd4d418d67de64158a4763"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -144,7 +144,7 @@
       "sc:url": "http://babelomics.bioinfo.cipf.es/"
     },
     {
-      "@id": "_:N4c1b1d7f71674176a0f60b003eac0a93",
+      "@id": "_:Nd50acbc0135343aab0ab25482a5ab244",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2872"
@@ -152,7 +152,7 @@
       "sc:name": "ID list"
     },
     {
-      "@id": "_:Ne0645fdfeb954631a10f66f110bd3b7a",
+      "@id": "_:Naa7f8ead17b14dc3ab34adaeb01f39b4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -160,7 +160,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:Na1167f282d0a411489f98a9b3621bf06",
+      "@id": "_:Ne5cec88337b2420898f55e586d122dd9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3110"
@@ -168,7 +168,7 @@
       "sc:name": "Raw microarray data"
     },
     {
-      "@id": "_:N0fccfe4eeea94c2e8284d20ca4a52d72",
+      "@id": "_:N4d0b738e5a6847c8977e555b6d89ce62",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -179,7 +179,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:Nf2d72ad8f8c34e4389ec8f4db4e4ca2b",
+      "@id": "_:Nad48dcd7dba34ed0aeeeb6fe995a0482",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
@@ -187,7 +187,7 @@
       "sc:name": "Heat map"
     },
     {
-      "@id": "_:Nc7c0063d31de4a47a04084d0382613a8",
+      "@id": "_:Ned830968ded448fb808a1dfaf4c42958",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0582"
@@ -195,7 +195,7 @@
       "sc:name": "Ontology"
     },
     {
-      "@id": "_:N574f06ac97d24b018fcc73cc1beef41d",
+      "@id": "_:N4a4e61c0bcbd4d418d67de64158a4763",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

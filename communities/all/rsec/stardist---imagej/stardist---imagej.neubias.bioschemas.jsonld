@@ -37,13 +37,13 @@
       "@id": "http://edamontology.org/topic_3385"
     },
     {
-      "@id": "http://edamontology.org/topic__RBKlmE9DGTZwEwxw0juThGg"
+      "@id": "http://edamontology.org/topic_3474"
     },
     {
       "@id": "http://edamontology.org/topic_Light-sheet_microscopy"
     },
     {
-      "@id": "http://edamontology.org/topic_3474"
+      "@id": "http://edamontology.org/topic__RBKlmE9DGTZwEwxw0juThGg"
     },
     {
       "@id": "http://edamontology.org/topic_Fluorescent_microscopy"
@@ -71,10 +71,10 @@
   ],
   "http://schema.org/name": "StarDist - ImageJ",
   "http://schema.org/publisher": [
+    "Gene Myers",
     "Martin Weigert",
-    "Coleman Broaddus",
     "Uwe Schmidt",
-    "Gene Myers"
+    "Coleman Broaddus"
   ],
   "http://schema.org/softwareRequirements": {
     "@id": "http://biii.eu/node/38"

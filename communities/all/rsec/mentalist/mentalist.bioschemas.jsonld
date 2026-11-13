@@ -36,22 +36,18 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1099/mgen.0.000146",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/mentalist",
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N3c907a57976e49498feec255192ffcd4"
+          "@id": "_:Nb05963b864b24c80a7d76e990b2323c9"
         },
         {
-          "@id": "_:Ndc92f80a24324c1cbb8508060fe66826"
+          "@id": "_:Nab3827ffbe524aa0a5ef14f79837a3f8"
         }
       ],
       "bsc:output": {
-        "@id": "_:N66b41474278843b1a1e7be3b0e42716f"
+        "@id": "_:N5018daed6a104e6686b9ef3621e08456"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -80,7 +76,7 @@
       "sc:url": "https://github.com/WGS-TB/MentaLiST"
     },
     {
-      "@id": "_:N3c907a57976e49498feec255192ffcd4",
+      "@id": "_:Nb05963b864b24c80a7d76e990b2323c9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3497"
@@ -91,7 +87,7 @@
       "sc:name": "DNA sequence (raw)"
     },
     {
-      "@id": "_:Ndc92f80a24324c1cbb8508060fe66826",
+      "@id": "_:Nab3827ffbe524aa0a5ef14f79837a3f8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3210"
@@ -102,7 +98,7 @@
       "sc:name": "Genome index"
     },
     {
-      "@id": "_:N66b41474278843b1a1e7be3b0e42716f",
+      "@id": "_:N5018daed6a104e6686b9ef3621e08456",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3492"
@@ -111,6 +107,10 @@
         "@id": "edam:format_3475"
       },
       "sc:name": "Nucleic acid signature"
+    },
+    {
+      "@id": "https://doi.org/10.1099/mgen.0.000146",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

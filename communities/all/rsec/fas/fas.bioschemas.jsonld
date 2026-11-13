@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btad226",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/fas",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na7fa03d7dc5c4f1cbd9ca08027bff078"
+        "@id": "_:Nac46582434104caa90c17ecc332159f0"
       },
       "bsc:output": {
-        "@id": "_:N541f77b4d6d54dff8c7572a60de9efe2"
+        "@id": "_:N9affa869fdf6483ea88968d54c8481da"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -97,7 +93,7 @@
       "sc:url": "https://pypi.org/project/greedyFAS/"
     },
     {
-      "@id": "_:Na7fa03d7dc5c4f1cbd9ca08027bff078",
+      "@id": "_:Nac46582434104caa90c17ecc332159f0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -108,7 +104,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N541f77b4d6d54dff8c7572a60de9efe2",
+      "@id": "_:N9affa869fdf6483ea88968d54c8481da",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"
@@ -117,6 +113,10 @@
         "@id": "edam:format_2332"
       },
       "sc:name": "Protein features"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btad226",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1074/mcp.o113.036335",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/crosstalkdb",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": [
@@ -47,20 +43,20 @@
         "Veit Schwämmle"
       ],
       "bsc:input": {
-        "@id": "_:N7c870393c17e43dd9b6525bc5c99317b"
+        "@id": "_:N7af52601ce2d4c12a45d2987705f448f"
       },
       "bsc:output": [
         {
-          "@id": "_:N436e06a1f40c457c91247b09229856f7"
+          "@id": "_:N2d795f7b42cf443dad76e73a0f9e3ad1"
         },
         {
-          "@id": "_:Na5802def3539444c8edf8016014c7106"
+          "@id": "_:N559d094b01a54f1f8b9f475d64f80da5"
         },
         {
-          "@id": "_:N0046e070b3434bd8a4c44c16e8d3c63a"
+          "@id": "_:N6b269944d95e4a08b3ab46524b8ab6b0"
         },
         {
-          "@id": "_:N257e26043f524df5a6f871d2472d8d48"
+          "@id": "_:N6dbc8119225845c0b75665d11fd77f0e"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -122,7 +118,7 @@
       "sc:url": "http://crosstalkdb.bmb.sdu.dk"
     },
     {
-      "@id": "_:N7c870393c17e43dd9b6525bc5c99317b",
+      "@id": "_:N7af52601ce2d4c12a45d2987705f448f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -133,7 +129,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:N436e06a1f40c457c91247b09229856f7",
+      "@id": "_:N2d795f7b42cf443dad76e73a0f9e3ad1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -155,7 +151,7 @@
       "sc:name": "Expression data"
     },
     {
-      "@id": "_:Na5802def3539444c8edf8016014c7106",
+      "@id": "_:N559d094b01a54f1f8b9f475d64f80da5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -177,7 +173,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:N0046e070b3434bd8a4c44c16e8d3c63a",
+      "@id": "_:N6b269944d95e4a08b3ab46524b8ab6b0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0906"
@@ -193,7 +189,7 @@
       "sc:name": "Protein interaction data"
     },
     {
-      "@id": "_:N257e26043f524df5a6f871d2472d8d48",
+      "@id": "_:N6dbc8119225845c0b75665d11fd77f0e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2969"
@@ -207,6 +203,10 @@
         }
       ],
       "sc:name": "Sequence image"
+    },
+    {
+      "@id": "https://doi.org/10.1074/mcp.o113.036335",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

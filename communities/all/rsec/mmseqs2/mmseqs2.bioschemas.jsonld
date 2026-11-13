@@ -36,34 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/2020.11.27.401018",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1101/079681",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/bty1057",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1038/s41592-025-02819-8",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1101/2024.11.13.623350v1",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1038/s41467-018-04964-5",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1038/nbt.3988",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1093/bioinformatics/btab184",
       "@type": "sc:CreativeWork"
     },
@@ -72,24 +44,24 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N71dfada7ca6b4dd7b2d63d323ed62aab"
+          "@id": "_:Nab14d34c8613451981951fef02d61c87"
         },
         {
-          "@id": "_:N99f98160bafb4ee089604816725ad47d"
+          "@id": "_:N91595e02f16f40208e6e111cef91d765"
         },
         {
-          "@id": "_:Nb6d840e840064113b760da006c172951"
+          "@id": "_:Ne95e88f6d76b4f58a6a97aa147a139ee"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1cdc1c8501274974b7d879f1da5f0774"
+          "@id": "_:N78052d05bd7b4ae08d359e3c97d43fc9"
         },
         {
-          "@id": "_:N7c87bc0d21004451b6596e05396528c8"
+          "@id": "_:Na1770a4a40894535aca92d07ff4a42e8"
         },
         {
-          "@id": "_:N4d6bb5e412804a34a9267e8fb3b86978"
+          "@id": "_:N0e6a9600fe0c4ca8869cb68863f8dffb"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -184,7 +156,7 @@
       "sc:url": "https://mmseqs.com"
     },
     {
-      "@id": "_:N71dfada7ca6b4dd7b2d63d323ed62aab",
+      "@id": "_:Nab14d34c8613451981951fef02d61c87",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -200,7 +172,7 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:N99f98160bafb4ee089604816725ad47d",
+      "@id": "_:N91595e02f16f40208e6e111cef91d765",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -216,7 +188,7 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:Nb6d840e840064113b760da006c172951",
+      "@id": "_:Ne95e88f6d76b4f58a6a97aa147a139ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -232,7 +204,7 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:N1cdc1c8501274974b7d879f1da5f0774",
+      "@id": "_:N78052d05bd7b4ae08d359e3c97d43fc9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1235"
@@ -240,7 +212,7 @@
       "sc:name": "Sequence cluster"
     },
     {
-      "@id": "_:N7c87bc0d21004451b6596e05396528c8",
+      "@id": "_:Na1770a4a40894535aca92d07ff4a42e8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -251,12 +223,40 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:N4d6bb5e412804a34a9267e8fb3b86978",
+      "@id": "_:N0e6a9600fe0c4ca8869cb68863f8dffb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3028"
       },
       "sc:name": "Taxonomy"
+    },
+    {
+      "@id": "https://doi.org/10.1101/2024.11.13.623350v1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41592-025-02819-8",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty1057",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1101/079681",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nbt.3988",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41467-018-04964-5",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1101/2020.11.27.401018",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

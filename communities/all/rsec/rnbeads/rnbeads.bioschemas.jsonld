@@ -36,21 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1038/nmeth.3115",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "https://doi.org/10.1186/s13059-019-1664-9",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/rnbeads",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nf805387972d844c196a24c4566563b0a"
+        "@id": "_:N09478cab1dd44620a1429ffb72d27fd5"
       },
       "bsc:output": {
-        "@id": "_:N2e33d9e4600747c5818076f7b5e0a647"
+        "@id": "_:Ncf7c3c4b61784c318eab599fa7b6e665"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Library",
@@ -82,7 +74,7 @@
         }
       ],
       "sc:isAccessibleForFree": true,
-      "sc:license": "GPL-3.0-only",
+      "sc:license": "GPL-3.0",
       "sc:name": "RnBeads",
       "sc:operatingSystem": [
         "Linux",
@@ -96,7 +88,7 @@
       "sc:url": "https://bioconductor.org/packages/RnBeads"
     },
     {
-      "@id": "_:Nf805387972d844c196a24c4566563b0a",
+      "@id": "_:N09478cab1dd44620a1429ffb72d27fd5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2012"
@@ -112,7 +104,7 @@
       "sc:name": "Sequence coordinates"
     },
     {
-      "@id": "_:N2e33d9e4600747c5818076f7b5e0a647",
+      "@id": "_:Ncf7c3c4b61784c318eab599fa7b6e665",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -121,6 +113,14 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Report"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13059-019-1664-9",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3115",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

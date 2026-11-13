@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/retentionprediction",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nce7c0eddbfa9474bb431b583e32cccac"
+        "@id": "_:N078c8295bdef4a7d9656c4aa123bd7dd"
       },
       "bsc:output": {
-        "@id": "_:N14897eb8cfd040be8ba1723f8c30ba85"
+        "@id": "_:Ncb07d76537df47429f753a7c8f2a1ff6"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -79,7 +79,7 @@
       "sc:url": "http://retentionprediction.org/"
     },
     {
-      "@id": "_:Nce7c0eddbfa9474bb431b583e32cccac",
+      "@id": "_:N078c8295bdef4a7d9656c4aa123bd7dd",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2050"
@@ -90,7 +90,7 @@
       "sc:name": "Molecular property (general)"
     },
     {
-      "@id": "_:N14897eb8cfd040be8ba1723f8c30ba85",
+      "@id": "_:Ncb07d76537df47429f753a7c8f2a1ff6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"

@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/moma-loopsampler",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N355a3df0da584006955f8c54a8226730"
+        "@id": "_:N186e96368c5d4b1eab72f323a1072b73"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -82,7 +82,7 @@
       "sc:url": "https://moma.laas.fr/applications/LoopSampler/"
     },
     {
-      "@id": "_:N355a3df0da584006955f8c54a8226730",
+      "@id": "_:N186e96368c5d4b1eab72f323a1072b73",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2085"

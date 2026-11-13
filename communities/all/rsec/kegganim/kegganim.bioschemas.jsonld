@@ -36,18 +36,14 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/bioinformatics/btm581",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/kegganim",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Priit Adler",
       "bsc:input": {
-        "@id": "_:Nbec56ca4198d410e87b117228c18cdb3"
+        "@id": "_:N4ac8a3385bbb4e5eb8e50f3b9ff698de"
       },
       "bsc:output": {
-        "@id": "_:N8ca5f9c619ae4a208c32a6d433f7bb49"
+        "@id": "_:Nf2746648f03f49a181efbd784c1c952d"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -96,7 +92,7 @@
       "sc:url": "http://biit.cs.ut.ee/kegganim"
     },
     {
-      "@id": "_:Nbec56ca4198d410e87b117228c18cdb3",
+      "@id": "_:N4ac8a3385bbb4e5eb8e50f3b9ff698de",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3108"
@@ -115,7 +111,7 @@
       "sc:name": "Experimental measurement"
     },
     {
-      "@id": "_:N8ca5f9c619ae4a208c32a6d433f7bb49",
+      "@id": "_:Nf2746648f03f49a181efbd784c1c952d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -124,6 +120,10 @@
         "@id": "edam:format_3547"
       },
       "sc:name": "Image"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btm581",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

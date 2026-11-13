@@ -44,7 +44,7 @@
     "language": [
         "R"
     ],
-    "lastUpdate": "2026-08-30T02:47:47.750388Z",
+    "lastUpdate": "2026-10-18T01:28:33.628141Z",
     "license": "Artistic-2.0",
     "name": "OmicsMLRepoR",
     "operatingSystem": [
@@ -63,6 +63,6 @@
         "Library"
     ],
     "version": [
-        "1.6.0"
+        "1.6.1"
     ]
 }

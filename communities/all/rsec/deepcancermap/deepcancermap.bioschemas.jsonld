@@ -43,10 +43,10 @@
       "@id": "https://bio.tools/deepcancermap",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N258a333073d04c01887d077c3e4cf7cb"
+        "@id": "_:N9d53e84e99104e4bb08cbc0f1e3cd11c"
       },
       "bsc:output": {
-        "@id": "_:Na04ba429ffec497481356b98d5d7bcfe"
+        "@id": "_:N87499415bdc440a9b563f939c4e87f26"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -87,7 +87,7 @@
       "sc:url": "https://deepcancermap.idruglab.cn"
     },
     {
-      "@id": "_:N258a333073d04c01887d077c3e4cf7cb",
+      "@id": "_:N9d53e84e99104e4bb08cbc0f1e3cd11c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1463"
@@ -98,7 +98,7 @@
       "sc:name": "Small molecule structure"
     },
     {
-      "@id": "_:Na04ba429ffec497481356b98d5d7bcfe",
+      "@id": "_:N87499415bdc440a9b563f939c4e87f26",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1772"

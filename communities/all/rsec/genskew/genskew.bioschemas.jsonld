@@ -43,14 +43,14 @@
       "@id": "https://bio.tools/genskew",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Na169c67609ae4324bb10c771c9c72a08"
+        "@id": "_:Nb0113bf0fc0548edaf4d57662b893d99"
       },
       "bsc:output": [
         {
-          "@id": "_:Nacf195d5dd37417199ccc74ff7e7a8bb"
+          "@id": "_:N898a7f7f1e0641a9ac938e5b2aeb410c"
         },
         {
-          "@id": "_:Nc22d0eb09255429995d48af32b3a887c"
+          "@id": "_:N8990e32882ed4fc3acbc77b01e8f1540"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -87,7 +87,7 @@
       "sc:url": "http://genskew.csb.univie.ac.at/"
     },
     {
-      "@id": "_:Na169c67609ae4324bb10c771c9c72a08",
+      "@id": "_:Nb0113bf0fc0548edaf4d57662b893d99",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3497"
@@ -95,7 +95,7 @@
       "sc:name": "DNA sequence (raw)"
     },
     {
-      "@id": "_:Nacf195d5dd37417199ccc74ff7e7a8bb",
+      "@id": "_:N898a7f7f1e0641a9ac938e5b2aeb410c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -103,7 +103,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:Nc22d0eb09255429995d48af32b3a887c",
+      "@id": "_:N8990e32882ed4fc3acbc77b01e8f1540",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1255"

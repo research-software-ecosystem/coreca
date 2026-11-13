@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1016/j.mcpro.2023.100581",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/directlfq",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Ne281862a639540d784f2bf6364980d61"
+        "@id": "_:Nfbde3719262b4711a9b47c65d2f71450"
       },
       "bsc:output": {
-        "@id": "_:Nef7c2117392242deaf7c26103788c8f7"
+        "@id": "_:Nb4e4653ed43c4520872af7c5a1b597ce"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": [
@@ -106,7 +102,7 @@
       "sc:url": "https://github.com/MannLabs/directlfq"
     },
     {
-      "@id": "_:Ne281862a639540d784f2bf6364980d61",
+      "@id": "_:Nfbde3719262b4711a9b47c65d2f71450",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -117,7 +113,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Nef7c2117392242deaf7c26103788c8f7",
+      "@id": "_:Nb4e4653ed43c4520872af7c5a1b597ce",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0945"
@@ -126,6 +122,10 @@
         "@id": "edam:format_3475"
       },
       "sc:name": "Peptide identification"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.mcpro.2023.100581",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

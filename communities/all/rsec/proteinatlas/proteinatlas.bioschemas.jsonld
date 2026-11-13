@@ -41,30 +41,30 @@
       "biotools:primaryContact": "Support",
       "bsc:input": [
         {
-          "@id": "_:N98a9c937cdf945a0827c3b57c3abc41a"
+          "@id": "_:N76a327b2eada42c18d2a22bb734caa6a"
         },
         {
-          "@id": "_:N3591ff9cb4d2472e9e9d9710568af835"
+          "@id": "_:Nb7de4a078bac4708ab808054a4e02d19"
         },
         {
-          "@id": "_:N8cdf47e542704e729f14a5d8433a39cc"
+          "@id": "_:N4ad0a6114363431ca164b7d814655d05"
         },
         {
-          "@id": "_:N4965cc1f7d024985b1fa275ac3ee3e17"
+          "@id": "_:N0d8343b8ff85447d9e21fac8eb900d49"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N8a5597d4cd644a8fb527ef3c99cab963"
+          "@id": "_:N8912cb6534c84deda5d2825c97065cd5"
         },
         {
-          "@id": "_:Nfbb0942e30ce476490d2692bf5b2dadb"
+          "@id": "_:N82b69eadc0384f2d8ac3ab35e8d716f4"
         },
         {
-          "@id": "_:N2c2d9638937743e2a31923ffc54b7566"
+          "@id": "_:N2795f1abb66849fe910c0eb573a01d4d"
         },
         {
-          "@id": "_:N1ba27f842a6b43f98d94f72aee4d0779"
+          "@id": "_:Nd4cba2ec88384f598915c82c3687b934"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -120,7 +120,7 @@
       "sc:url": "http://www.proteinatlas.org/"
     },
     {
-      "@id": "_:N98a9c937cdf945a0827c3b57c3abc41a",
+      "@id": "_:N76a327b2eada42c18d2a22bb734caa6a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1033"
@@ -128,7 +128,7 @@
       "sc:name": "Ensembl gene ID"
     },
     {
-      "@id": "_:N3591ff9cb4d2472e9e9d9710568af835",
+      "@id": "_:Nb7de4a078bac4708ab808054a4e02d19",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1026"
@@ -136,7 +136,7 @@
       "sc:name": "Gene symbol"
     },
     {
-      "@id": "_:N8cdf47e542704e729f14a5d8433a39cc",
+      "@id": "_:N4ad0a6114363431ca164b7d814655d05",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2772"
@@ -144,7 +144,7 @@
       "sc:name": "HPA antibody id"
     },
     {
-      "@id": "_:N4965cc1f7d024985b1fa275ac3ee3e17",
+      "@id": "_:N0d8343b8ff85447d9e21fac8eb900d49",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -152,7 +152,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:N8a5597d4cd644a8fb527ef3c99cab963",
+      "@id": "_:N8912cb6534c84deda5d2825c97065cd5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -163,7 +163,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:Nfbb0942e30ce476490d2692bf5b2dadb",
+      "@id": "_:N82b69eadc0384f2d8ac3ab35e8d716f4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -174,7 +174,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N2c2d9638937743e2a31923ffc54b7566",
+      "@id": "_:N2795f1abb66849fe910c0eb573a01d4d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -185,7 +185,7 @@
       "sc:name": "Gene report"
     },
     {
-      "@id": "_:N1ba27f842a6b43f98d94f72aee4d0779",
+      "@id": "_:Nd4cba2ec88384f598915c82c3687b934",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"

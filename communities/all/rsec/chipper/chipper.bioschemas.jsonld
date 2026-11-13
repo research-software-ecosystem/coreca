@@ -36,10 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1101/807974",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1111/2041-210X.13368",
       "@type": "sc:CreativeWork"
     },
@@ -80,6 +76,10 @@
       ],
       "sc:name": "Chipper",
       "sc:url": "https://github.com/asearfos/chipper"
+    },
+    {
+      "@id": "https://doi.org/10.1101/807974",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

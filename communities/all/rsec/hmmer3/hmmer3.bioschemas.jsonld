@@ -36,18 +36,6 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gky448",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "http://orcid.org/0000-0001-6676-4706",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1371/journal.pcbi.1002195",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://doi.org/10.1093/nar/gkr367",
       "@type": "sc:CreativeWork"
     },
@@ -59,135 +47,135 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N60dd6311920e45708d0d7aa08674a499"
+          "@id": "_:Na3fbfa8d618f43fc9061bf4ea206f8c4"
         },
         {
-          "@id": "_:Ne288983120ac4dc5aada4721ccef25fe"
+          "@id": "_:Nd3f4645084a64ba7b377c3b85f47834d"
         },
         {
-          "@id": "_:N6b48d08cb9154dffb79226ead406c1bf"
+          "@id": "_:Nea2bcb4f3a9648689bd4054955b75a44"
         },
         {
-          "@id": "_:N73d33bf4ea5f4c449ba324ed69f0a354"
+          "@id": "_:Na89fe42606944a39bf9ab4a5e30cad30"
         },
         {
-          "@id": "_:N9bdf6e28806d46e9aafe972e48353100"
+          "@id": "_:N4f19a4b13a6f43e7956918074079d64f"
         },
         {
-          "@id": "_:Ndb58875fa32c43b3a49fbdc215b2facb"
+          "@id": "_:Nd2e10f3c95e348ec825cfa65110c2424"
         },
         {
-          "@id": "_:Nf9c25136d1f74a1aa84181913cd94de4"
+          "@id": "_:N446fcf4ca2f84e6b84bd4206346b13d8"
         },
         {
-          "@id": "_:Nb10c1096120f434188706dcf13ee5b48"
+          "@id": "_:N3b5c0cb882bb404d8de0d1c2e8621be5"
         },
         {
-          "@id": "_:N27cf61a7bad140caab89460157837a8b"
+          "@id": "_:N82ab3f1a6f8e47a78cb2abf6c040f42f"
         },
         {
-          "@id": "_:Ne95b35dab7d249698038cfde515a260d"
+          "@id": "_:N86c4b8c38b8c4307b3d5a45eb3d2e43c"
         },
         {
-          "@id": "_:Naa1e84d3c15c46b0b1bd4ff03b397867"
+          "@id": "_:N9c87f42f493847df9198b119a92fe67b"
         },
         {
-          "@id": "_:N9330031612ed40e19228567c092428f7"
+          "@id": "_:Nce1ea3b55ce1439e93d6d217fda896e2"
         },
         {
-          "@id": "_:N1547cc28b38d4cc68d418b937861c4e9"
+          "@id": "_:N901d8cae2cbd478495dc6bfaed898ed9"
         },
         {
-          "@id": "_:Ndc1941331a4943279dc512a6556c9533"
+          "@id": "_:Ne46f39052f30456f873d2cd5f1d06a84"
         },
         {
-          "@id": "_:N30fe973bdc634c899b2d2b7a4239419f"
+          "@id": "_:Nbbcf1fd1a5bb44599d50300b500cab54"
         },
         {
-          "@id": "_:Ne4c6683c578643f1b1263ddb9a26947e"
+          "@id": "_:Nfd24b63fd7934c68b2887f5dbda52e17"
         },
         {
-          "@id": "_:N132840b510ee4bcb920a733edaf4afeb"
+          "@id": "_:N86db5711cecd45028dff6125307eeffb"
         },
         {
-          "@id": "_:N0e48c4a4cf87420f94745c0cdf7d9a38"
+          "@id": "_:N606fb0ca49754d21a2fa02eff9e03b95"
         },
         {
-          "@id": "_:N226fe1908f2344bfa66ef930246eab99"
+          "@id": "_:N7cb3ecb181024ccaa2ea2d115214bd68"
         },
         {
-          "@id": "_:N0fac9b704c5548879cd68cdcb50354b0"
+          "@id": "_:N42d122606f9049a7ac21a5fe797ecade"
         },
         {
-          "@id": "_:N59e416ff635c4d4e929a9337c1834cc4"
+          "@id": "_:N02fa479d1f8c4f0fa4df03e82cd61f69"
         },
         {
-          "@id": "_:N8950673832cf46eaa6c1dacae9ebc5a3"
+          "@id": "_:N6f9a3ab831ba4697a03b103c2937df0c"
         },
         {
-          "@id": "_:N0f79d75955094d0a855551f5dee9a530"
+          "@id": "_:Nabd36a4ec04e49bea4c4c739c128de56"
         },
         {
-          "@id": "_:N8163c9ecdb9c4d9f8c49039b48d156cd"
+          "@id": "_:N3406c2cbacf84c55984e8f55d3b99fc6"
         },
         {
-          "@id": "_:N1e582fce5d5245a885d62a0a7faf6e2e"
+          "@id": "_:N8e8b27b3d83a449691eaa3ef2c810a0c"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5ecefbb3d1934352891cde09890c22a0"
+          "@id": "_:Nf72f0f126406439eafe3572b196b68f0"
         },
         {
-          "@id": "_:N4f9903ba9d984bdaa4b553fd4e18fa9f"
+          "@id": "_:N4ef7bfc81c154ca691249dea91489f31"
         },
         {
-          "@id": "_:N8fa27490dfec4c58bb62405840f20789"
+          "@id": "_:Nb7b67ead9647447397d06e676e51d17b"
         },
         {
-          "@id": "_:Nfd1880f2fc454ea09740ef16b292fdee"
+          "@id": "_:Na1aa72bacced4296ac4b845ec6b6906a"
         },
         {
-          "@id": "_:Na25bcaf2be05464a839bbd37a7a634f9"
+          "@id": "_:N4736f1804c5742e3b170a5d72224c171"
         },
         {
-          "@id": "_:Na908b2f488874736b55b0d96c0bf1f65"
+          "@id": "_:N777fa23fa2b042909664c2c18ea5fde1"
         },
         {
-          "@id": "_:Nad394760d6204d2999b2176f882ff9a4"
+          "@id": "_:N5ba55ea2734a4b8883eec200881135ba"
         },
         {
-          "@id": "_:N581cfb8c001f4df3ba9f545d16487264"
+          "@id": "_:N9711e4fad58f4fe99ff343ea779a1131"
         },
         {
-          "@id": "_:Nd6992ed0b07f425d97ff7ec22ab174bd"
+          "@id": "_:Ncf35bb3163874e4bb29a69d892be8d7a"
         },
         {
-          "@id": "_:N09383d1f987f4b67b0134d793dca1cd3"
+          "@id": "_:N44c01843ad5b4fe9ab1f81d1877c9599"
         },
         {
-          "@id": "_:N6919a8456d8c4975a9a7285a982d5f57"
+          "@id": "_:N18dab10827aa48e4b00060f7998ef3b7"
         },
         {
-          "@id": "_:N78de6d2f6be744938a170cc752ebc13a"
+          "@id": "_:Nd8b6a3458b68442ba65d117331ac5635"
         },
         {
-          "@id": "_:N02529456dd3948e5848ea1c5b7a8bd1c"
+          "@id": "_:Nd6584a168b0742ef99fd699d24d6c47e"
         },
         {
-          "@id": "_:N54d675710cb44cff93d58c42ca98797b"
+          "@id": "_:N8868c407661c462b86ea70d36ff9d666"
         },
         {
-          "@id": "_:Nebd46ac4340244f9b15d874b23370078"
+          "@id": "_:N55c4413dd3cc4068a4fe03fca1badcac"
         },
         {
-          "@id": "_:N3c73f967f981430c9535f49c58af9925"
+          "@id": "_:Nda714b65f6ab46b1b2162e3e80f38854"
         },
         {
-          "@id": "_:Nd50dbc80703e4727bf91df9f541a318c"
+          "@id": "_:Nfa1175d071314b4bb5b86492f802c30c"
         },
         {
-          "@id": "_:N060040addbdd4d00aa5f4fb258e0735b"
+          "@id": "_:N22713c4f7d7145a8b5c12ab13168f841"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -282,7 +270,7 @@
       "sc:url": "http://hmmer.org/"
     },
     {
-      "@id": "_:N60dd6311920e45708d0d7aa08674a499",
+      "@id": "_:Na3fbfa8d618f43fc9061bf4ea206f8c4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3494"
@@ -290,7 +278,7 @@
       "sc:name": "DNA sequence"
     },
     {
-      "@id": "_:Ne288983120ac4dc5aada4721ccef25fe",
+      "@id": "_:Nd3f4645084a64ba7b377c3b85f47834d",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0957"
@@ -298,7 +286,7 @@
       "sc:name": "Database metadata"
     },
     {
-      "@id": "_:N6b48d08cb9154dffb79226ead406c1bf",
+      "@id": "_:Nea2bcb4f3a9648689bd4054955b75a44",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -320,7 +308,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N73d33bf4ea5f4c449ba324ed69f0a354",
+      "@id": "_:Na89fe42606944a39bf9ab4a5e30cad30",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
@@ -328,7 +316,7 @@
       "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:N9bdf6e28806d46e9aafe972e48353100",
+      "@id": "_:N4f19a4b13a6f43e7956918074079d64f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
@@ -336,7 +324,7 @@
       "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:Ndb58875fa32c43b3a49fbdc215b2facb",
+      "@id": "_:Nd2e10f3c95e348ec825cfa65110c2424",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
@@ -344,7 +332,7 @@
       "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:Nf9c25136d1f74a1aa84181913cd94de4",
+      "@id": "_:N446fcf4ca2f84e6b84bd4206346b13d8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
@@ -352,7 +340,7 @@
       "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:Nb10c1096120f434188706dcf13ee5b48",
+      "@id": "_:N3b5c0cb882bb404d8de0d1c2e8621be5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
@@ -360,7 +348,7 @@
       "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:N27cf61a7bad140caab89460157837a8b",
+      "@id": "_:N82ab3f1a6f8e47a78cb2abf6c040f42f",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -368,7 +356,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:Ne95b35dab7d249698038cfde515a260d",
+      "@id": "_:N86c4b8c38b8c4307b3d5a45eb3d2e43c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
@@ -376,7 +364,7 @@
       "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:Naa1e84d3c15c46b0b1bd4ff03b397867",
+      "@id": "_:N9c87f42f493847df9198b119a92fe67b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -384,7 +372,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N9330031612ed40e19228567c092428f7",
+      "@id": "_:Nce1ea3b55ce1439e93d6d217fda896e2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
@@ -392,7 +380,7 @@
       "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:N1547cc28b38d4cc68d418b937861c4e9",
+      "@id": "_:N901d8cae2cbd478495dc6bfaed898ed9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -400,7 +388,7 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:Ndc1941331a4943279dc512a6556c9533",
+      "@id": "_:Ne46f39052f30456f873d2cd5f1d06a84",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
@@ -408,7 +396,7 @@
       "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:N30fe973bdc634c899b2d2b7a4239419f",
+      "@id": "_:Nbbcf1fd1a5bb44599d50300b500cab54",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0850"
@@ -416,7 +404,7 @@
       "sc:name": "Sequence set"
     },
     {
-      "@id": "_:Ne4c6683c578643f1b1263ddb9a26947e",
+      "@id": "_:Nfd24b63fd7934c68b2887f5dbda52e17",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2977"
@@ -424,7 +412,7 @@
       "sc:name": "Nucleic acid sequence"
     },
     {
-      "@id": "_:N132840b510ee4bcb920a733edaf4afeb",
+      "@id": "_:N86db5711cecd45028dff6125307eeffb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1234"
@@ -432,7 +420,7 @@
       "sc:name": "Sequence set (nucleic acid)"
     },
     {
-      "@id": "_:N0e48c4a4cf87420f94745c0cdf7d9a38",
+      "@id": "_:N606fb0ca49754d21a2fa02eff9e03b95",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -440,7 +428,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N226fe1908f2344bfa66ef930246eab99",
+      "@id": "_:N7cb3ecb181024ccaa2ea2d115214bd68",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -448,7 +436,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:N0fac9b704c5548879cd68cdcb50354b0",
+      "@id": "_:N42d122606f9049a7ac21a5fe797ecade",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -456,7 +444,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N59e416ff635c4d4e929a9337c1834cc4",
+      "@id": "_:N02fa479d1f8c4f0fa4df03e82cd61f69",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1233"
@@ -464,7 +452,7 @@
       "sc:name": "Sequence set (protein)"
     },
     {
-      "@id": "_:N8950673832cf46eaa6c1dacae9ebc5a3",
+      "@id": "_:N6f9a3ab831ba4697a03b103c2937df0c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -472,7 +460,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N0f79d75955094d0a855551f5dee9a530",
+      "@id": "_:Nabd36a4ec04e49bea4c4c739c128de56",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -480,7 +468,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N8163c9ecdb9c4d9f8c49039b48d156cd",
+      "@id": "_:N3406c2cbacf84c55984e8f55d3b99fc6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
@@ -491,7 +479,7 @@
       "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:N1e582fce5d5245a885d62a0a7faf6e2e",
+      "@id": "_:N8e8b27b3d83a449691eaa3ef2c810a0c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
@@ -502,7 +490,7 @@
       "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:N5ecefbb3d1934352891cde09890c22a0",
+      "@id": "_:Nf72f0f126406439eafe3572b196b68f0",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -510,7 +498,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:N4f9903ba9d984bdaa4b553fd4e18fa9f",
+      "@id": "_:N4ef7bfc81c154ca691249dea91489f31",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -518,7 +506,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N8fa27490dfec4c58bb62405840f20789",
+      "@id": "_:Nb7b67ead9647447397d06e676e51d17b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -526,7 +514,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nfd1880f2fc454ea09740ef16b292fdee",
+      "@id": "_:Na1aa72bacced4296ac4b845ec6b6906a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -534,7 +522,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Na25bcaf2be05464a839bbd37a7a634f9",
+      "@id": "_:N4736f1804c5742e3b170a5d72224c171",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1361"
@@ -542,7 +530,7 @@
       "sc:name": "Position frequency matrix"
     },
     {
-      "@id": "_:Na908b2f488874736b55b0d96c0bf1f65",
+      "@id": "_:N777fa23fa2b042909664c2c18ea5fde1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2044"
@@ -550,7 +538,7 @@
       "sc:name": "Sequence"
     },
     {
-      "@id": "_:Nad394760d6204d2999b2176f882ff9a4",
+      "@id": "_:N5ba55ea2734a4b8883eec200881135ba",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
@@ -558,7 +546,7 @@
       "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:N581cfb8c001f4df3ba9f545d16487264",
+      "@id": "_:N9711e4fad58f4fe99ff343ea779a1131",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -566,7 +554,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:Nd6992ed0b07f425d97ff7ec22ab174bd",
+      "@id": "_:Ncf35bb3163874e4bb29a69d892be8d7a",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1916"
@@ -577,7 +565,7 @@
       "sc:name": "Alignment"
     },
     {
-      "@id": "_:N09383d1f987f4b67b0134d793dca1cd3",
+      "@id": "_:N44c01843ad5b4fe9ab1f81d1877c9599",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2080"
@@ -585,7 +573,7 @@
       "sc:name": "Database search results"
     },
     {
-      "@id": "_:N6919a8456d8c4975a9a7285a982d5f57",
+      "@id": "_:N18dab10827aa48e4b00060f7998ef3b7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -593,7 +581,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:N78de6d2f6be744938a170cc752ebc13a",
+      "@id": "_:Nd8b6a3458b68442ba65d117331ac5635",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -601,7 +589,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:N02529456dd3948e5848ea1c5b7a8bd1c",
+      "@id": "_:Nd6584a168b0742ef99fd699d24d6c47e",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"
@@ -609,7 +597,7 @@
       "sc:name": "Sequence search results"
     },
     {
-      "@id": "_:N54d675710cb44cff93d58c42ca98797b",
+      "@id": "_:N8868c407661c462b86ea70d36ff9d666",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
@@ -617,7 +605,7 @@
       "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:Nebd46ac4340244f9b15d874b23370078",
+      "@id": "_:N55c4413dd3cc4068a4fe03fca1badcac",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0863"
@@ -625,7 +613,7 @@
       "sc:name": "Sequence alignment"
     },
     {
-      "@id": "_:N3c73f967f981430c9535f49c58af9925",
+      "@id": "_:Nda714b65f6ab46b1b2162e3e80f38854",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1364"
@@ -636,7 +624,7 @@
       "sc:name": "Hidden Markov model"
     },
     {
-      "@id": "_:Nd50dbc80703e4727bf91df9f541a318c",
+      "@id": "_:Nfa1175d071314b4bb5b86492f802c30c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0955"
@@ -644,7 +632,7 @@
       "sc:name": "Data index"
     },
     {
-      "@id": "_:N060040addbdd4d00aa5f4fb258e0735b",
+      "@id": "_:N22713c4f7d7145a8b5c12ab13168f841",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -652,7 +640,19 @@
       "sc:name": "Report"
     },
     {
+      "@id": "https://doi.org/10.1093/nar/gky448",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-6676-4706",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://doi.org/10.1093/nar/gkt263",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1002195",
       "@type": "sc:CreativeWork"
     }
   ]

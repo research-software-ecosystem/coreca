@@ -40,18 +40,18 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N632e88126b5e4882b1ec13badac09128"
+          "@id": "_:N315ddcad96ef4d53b899ab3501d9b526"
         },
         {
-          "@id": "_:N858cfaa4ed3c4110822da991dbc5b639"
+          "@id": "_:N10190a5cc8224e0a8d15c568dd96f67b"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N022a063549f745a88f31c212044eaa6e"
+          "@id": "_:Na79767eabb8941498599e3d74c2b1722"
         },
         {
-          "@id": "_:N9c59252386c5400bab62cd7d766f0bb4"
+          "@id": "_:Nc15176b4c4624237af0016b0730c0f7c"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -91,7 +91,7 @@
       "sc:url": "http://bix.ucsd.edu/AMASS/"
     },
     {
-      "@id": "_:N632e88126b5e4882b1ec13badac09128",
+      "@id": "_:N315ddcad96ef4d53b899ab3501d9b526",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -116,7 +116,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N858cfaa4ed3c4110822da991dbc5b639",
+      "@id": "_:N10190a5cc8224e0a8d15c568dd96f67b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -127,7 +127,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N022a063549f745a88f31c212044eaa6e",
+      "@id": "_:Na79767eabb8941498599e3d74c2b1722",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"
@@ -152,7 +152,7 @@
       "sc:name": "Image"
     },
     {
-      "@id": "_:N9c59252386c5400bab62cd7d766f0bb4",
+      "@id": "_:Nc15176b4c4624237af0016b0730c0f7c",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

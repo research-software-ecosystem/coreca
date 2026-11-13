@@ -40,14 +40,6 @@
       "@type": "sc:Person"
     },
     {
-      "@id": "https://orcid.org/0000-0002-5186-0735",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1093/bioinformatics/bty721",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/ImaGEO",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -55,18 +47,18 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N644b5f2684744a48832a946d9952fb3b"
+          "@id": "_:Nf699bc08adf24483a5e8911b48f0184b"
         },
         {
-          "@id": "_:Nabf0e6a4309a4837aa6471c8a82b0421"
+          "@id": "_:N8b3c795fdccf4200934639e86df2a665"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N7ba4cdb9245c4e95aed9ff90ee17cac8"
+          "@id": "_:Nc990e9b1b9e04e8d9e0e33d963b8a119"
         },
         {
-          "@id": "_:N31969b08e8894d23b6fdb8f7a709e271"
+          "@id": "_:Nc7735273ddb140fca4fff9dda17ac225"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -114,7 +106,7 @@
       "sc:url": "https://imageo.genyo.es"
     },
     {
-      "@id": "_:N644b5f2684744a48832a946d9952fb3b",
+      "@id": "_:Nf699bc08adf24483a5e8911b48f0184b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1147"
@@ -122,7 +114,7 @@
       "sc:name": "GEO accession number"
     },
     {
-      "@id": "_:Nabf0e6a4309a4837aa6471c8a82b0421",
+      "@id": "_:N8b3c795fdccf4200934639e86df2a665",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -141,7 +133,7 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N7ba4cdb9245c4e95aed9ff90ee17cac8",
+      "@id": "_:Nc990e9b1b9e04e8d9e0e33d963b8a119",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3112"
@@ -149,12 +141,20 @@
       "sc:name": "Gene expression matrix"
     },
     {
-      "@id": "_:N31969b08e8894d23b6fdb8f7a709e271",
+      "@id": "_:Nc7735273ddb140fca4fff9dda17ac225",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1636"
       },
       "sc:name": "Heat map"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty721",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-5186-0735",
+      "@type": "sc:Person"
     }
   ]
 }

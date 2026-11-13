@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/1471-2164-14-s3-s2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-2323-0963",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/meta-snp",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,14 +51,14 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N87099f47f8764c62a38c13232624bee0"
+          "@id": "_:N112409c55fb049b99656d5b95fd063da"
         },
         {
-          "@id": "_:N4b1f7efa7472448aa182ea8803dfc4ed"
+          "@id": "_:Na9b48078162e4d4586fa6edb3ac522bf"
         }
       ],
       "bsc:output": {
-        "@id": "_:N177ba29017e04132bae393c1d154582f"
+        "@id": "_:N4290046b7de645d0a64a3b334ac1f753"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web service",
@@ -90,7 +98,7 @@
       "sc:url": "http://snps.biofold.org/meta-snp"
     },
     {
-      "@id": "_:N87099f47f8764c62a38c13232624bee0",
+      "@id": "_:N112409c55fb049b99656d5b95fd063da",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2209"
@@ -101,7 +109,7 @@
       "sc:name": "Mutation ID"
     },
     {
-      "@id": "_:N4b1f7efa7472448aa182ea8803dfc4ed",
+      "@id": "_:Na9b48078162e4d4586fa6edb3ac522bf",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -112,7 +120,7 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:N177ba29017e04132bae393c1d154582f",
+      "@id": "_:N4290046b7de645d0a64a3b334ac1f753",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1622"
@@ -121,14 +129,6 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Disease report"
-    },
-    {
-      "@id": "http://orcid.org/0000-0002-2323-0963",
-      "@type": "sc:Person"
-    },
-    {
-      "@id": "https://doi.org/10.1186/1471-2164-14-s3-s2",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

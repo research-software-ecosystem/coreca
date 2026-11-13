@@ -44,10 +44,10 @@
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Mark Davies",
       "bsc:input": {
-        "@id": "_:Na8ada76aae4040e1b93a1751a1386371"
+        "@id": "_:N3b218b81a26e42cd9974516c38a7bb03"
       },
       "bsc:output": {
-        "@id": "_:Ned55b405bc1d4ac784846609b2ec3ba4"
+        "@id": "_:N6f0452436eb5444ab11373cf0085bec7"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -93,7 +93,7 @@
       "sc:url": "https://www.ebi.ac.uk/chembl/malaria/compound"
     },
     {
-      "@id": "_:Na8ada76aae4040e1b93a1751a1386371",
+      "@id": "_:N3b218b81a26e42cd9974516c38a7bb03",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3490"
@@ -101,7 +101,7 @@
       "sc:name": "Chemical structure sketch"
     },
     {
-      "@id": "_:Ned55b405bc1d4ac784846609b2ec3ba4",
+      "@id": "_:N6f0452436eb5444ab11373cf0085bec7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0962"

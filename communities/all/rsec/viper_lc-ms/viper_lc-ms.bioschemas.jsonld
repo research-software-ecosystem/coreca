@@ -40,14 +40,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Nc3928cbd37f040e087a2f5fd6bd1cd20"
+          "@id": "_:N991150f7c8e64737b7f793d67c05742b"
         },
         {
-          "@id": "_:Nc5500c851648475e87e4c5d708856bf9"
+          "@id": "_:N42ffcdcfdd2c427e985654f7f5ed79a7"
         }
       ],
       "bsc:output": {
-        "@id": "_:Nac5ffe88f96b4134953f2f7221c97e72"
+        "@id": "_:N8ba81e452ae1436ca2b0bbdc2bf8e685"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Desktop application",
@@ -89,7 +89,7 @@
       "sc:url": "https://omics.pnl.gov/software/viper"
     },
     {
-      "@id": "_:Nc3928cbd37f040e087a2f5fd6bd1cd20",
+      "@id": "_:N991150f7c8e64737b7f793d67c05742b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0943"
@@ -105,7 +105,7 @@
       "sc:name": "Mass spectrometry spectra"
     },
     {
-      "@id": "_:Nc5500c851648475e87e4c5d708856bf9",
+      "@id": "_:N42ffcdcfdd2c427e985654f7f5ed79a7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0944"
@@ -116,7 +116,7 @@
       "sc:name": "Peptide mass fingerprint"
     },
     {
-      "@id": "_:Nac5ffe88f96b4134953f2f7221c97e72",
+      "@id": "_:N8ba81e452ae1436ca2b0bbdc2bf8e685",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

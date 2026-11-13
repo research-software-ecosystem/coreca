@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/connectivity-search",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nfbad8eb11134417bac62462946286b86"
+        "@id": "_:Na7be827ebc044fabbf4c016fa72ee031"
       },
       "bsc:output": {
-        "@id": "_:N15bf0e2820c74b0f8b99a8212dbc2c55"
+        "@id": "_:N2756d05693024a1682829c8f89cc7cf3"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -63,7 +63,7 @@
       "sc:url": "https://het.io/search/"
     },
     {
-      "@id": "_:Nfbad8eb11134417bac62462946286b86",
+      "@id": "_:Na7be827ebc044fabbf4c016fa72ee031",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2600"
@@ -71,7 +71,7 @@
       "sc:name": "Pathway or network"
     },
     {
-      "@id": "_:N15bf0e2820c74b0f8b99a8212dbc2c55",
+      "@id": "_:N2756d05693024a1682829c8f89cc7cf3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

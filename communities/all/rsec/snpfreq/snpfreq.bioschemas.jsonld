@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/snpfreq",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nbbdfa79700d74bafbaa0bbe66d33fca1"
+        "@id": "_:Na995dad0689e4c038f291a80a7aba6d4"
       },
       "bsc:output": {
-        "@id": "_:N5e32a76e83594c6590f54d906bfdc82c"
+        "@id": "_:Nf85c8fdecc784c99b536215b1d8c3102"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Script",
@@ -63,7 +63,7 @@
       "sc:url": "https://github.com/galaxyproject/tools-devteam/tree/main/tool_collections/hgv/snpfreq"
     },
     {
-      "@id": "_:Nbbdfa79700d74bafbaa0bbe66d33fca1",
+      "@id": "_:Na995dad0689e4c038f291a80a7aba6d4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3917"
@@ -74,7 +74,7 @@
       "sc:name": "Count matrix"
     },
     {
-      "@id": "_:N5e32a76e83594c6590f54d906bfdc82c",
+      "@id": "_:Nf85c8fdecc784c99b536215b1d8c3102",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3917"

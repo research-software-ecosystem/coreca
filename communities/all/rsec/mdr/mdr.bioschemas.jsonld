@@ -39,10 +39,10 @@
       "@id": "https://bio.tools/mdr",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3bcb8391bfed45d488dcba4bd577c893"
+        "@id": "_:N0ecf693294e54a649a08ce9a04b88ff2"
       },
       "bsc:output": {
-        "@id": "_:N23f384ab0b2449d3bfcf75d0ad325544"
+        "@id": "_:Nf8487a0364c7434299e0eb56bf75c0ee"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -65,7 +65,7 @@
       "sc:url": "http://www.bioinfo.ifm.liu.se/services/mdr/"
     },
     {
-      "@id": "_:N3bcb8391bfed45d488dcba4bd577c893",
+      "@id": "_:N0ecf693294e54a649a08ce9a04b88ff2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -73,7 +73,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:N23f384ab0b2449d3bfcf75d0ad325544",
+      "@id": "_:Nf8487a0364c7434299e0eb56bf75c0ee",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1277"

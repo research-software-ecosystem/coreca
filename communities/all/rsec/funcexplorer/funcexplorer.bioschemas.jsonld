@@ -36,17 +36,21 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/s12864-018-5176-x",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/funcexplorer",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N01e7715b416c428e993409aa9d64703a"
+        "@id": "_:Nbe9145c03ee94e71b2db824e2082fbd6"
       },
       "bsc:output": [
         {
-          "@id": "_:Na4a6404a8c4947f8b5797c610977630a"
+          "@id": "_:N3877e135efeb49ca8633e3cd025070e9"
         },
         {
-          "@id": "_:N1d2af72c2a5d4cc4a977f5c9e24ae800"
+          "@id": "_:Nfc4519e21d1c40b9800ceb3c8074e436"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -101,7 +105,7 @@
       "sc:url": "https://biit.cs.ut.ee/funcexplorer"
     },
     {
-      "@id": "_:N01e7715b416c428e993409aa9d64703a",
+      "@id": "_:Nbe9145c03ee94e71b2db824e2082fbd6",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2603"
@@ -112,7 +116,7 @@
       "sc:name": "Gene expression data"
     },
     {
-      "@id": "_:Na4a6404a8c4947f8b5797c610977630a",
+      "@id": "_:N3877e135efeb49ca8633e3cd025070e9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3768"
@@ -123,7 +127,7 @@
       "sc:name": "Clustered gene expression profiles"
     },
     {
-      "@id": "_:N1d2af72c2a5d4cc4a977f5c9e24ae800",
+      "@id": "_:Nfc4519e21d1c40b9800ceb3c8074e436",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2353"
@@ -140,10 +144,6 @@
         }
       ],
       "sc:name": "Ontology data"
-    },
-    {
-      "@id": "https://doi.org/10.1186/s12864-018-5176-x",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

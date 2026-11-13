@@ -47,7 +47,7 @@
       "@id": "https://bio.tools/trrosetta",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N3ecde48c30a14bcb9993d47fdcb570a5"
+        "@id": "_:Nf0a241e836e34112813b01b2c8f1e959"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -107,7 +107,7 @@
       "sc:url": "https://yanglab.nankai.edu.cn/trRosetta/"
     },
     {
-      "@id": "_:N3ecde48c30a14bcb9993d47fdcb570a5",
+      "@id": "_:Nf0a241e836e34112813b01b2c8f1e959",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"

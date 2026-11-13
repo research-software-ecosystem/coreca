@@ -39,7 +39,7 @@
       "@id": "https://bio.tools/zt",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N96253b0fd1ab41e7a7d99d48475a080d"
+        "@id": "_:Nd38acee00c7d48bfa88b2a53ace5576b"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -68,7 +68,7 @@
       "sc:url": "http://bioinformatics.psb.ugent.be/software/details/ZT"
     },
     {
-      "@id": "_:N96253b0fd1ab41e7a7d99d48475a080d",
+      "@id": "_:Nd38acee00c7d48bfa88b2a53ace5576b",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"

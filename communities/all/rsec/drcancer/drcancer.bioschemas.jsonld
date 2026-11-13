@@ -36,6 +36,14 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1016/j.ygeno.2011.06.010",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0002-2323-0963",
+      "@type": "sc:Person"
+    },
+    {
       "@id": "https://bio.tools/drcancer",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -43,36 +51,36 @@
       },
       "bsc:input": [
         {
-          "@id": "_:N5005a8c746ef4db1a756039e85f7c95c"
+          "@id": "_:N685d76ee29814c0f8e3dff55421bf995"
         },
         {
-          "@id": "_:Nc0475f62b4074adeb90f3dd71b594746"
+          "@id": "_:N64199258c2184d888acf9447827d43f1"
         },
         {
-          "@id": "_:N825ccd990abc437c995fbc8e763f8522"
+          "@id": "_:N4f48d347332b41ce89c656261e9469ca"
         },
         {
-          "@id": "_:N3ac27c8f223b4ad9a1fd4e134f908efa"
+          "@id": "_:N4001b60750304fb19f25e370edddaf42"
         },
         {
-          "@id": "_:N3cc1a030451a49aea9f8ab0e86b1c49c"
+          "@id": "_:N7a96701e6c4440b995af15370ea13c55"
         },
         {
-          "@id": "_:N1e89345bf866410499995cd4f8ae5529"
+          "@id": "_:N7ff22e5019cd45348a7e10fa010f7074"
         },
         {
-          "@id": "_:N925334672d4b41998fc0430b309b0e77"
+          "@id": "_:N8c528073134d4b06a81713f8cf718b79"
         },
         {
-          "@id": "_:Na53c9af987084ada8f816f1ac74abe4a"
+          "@id": "_:N5362e5ec74f34f448a755b82d1dadb16"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N5e14e4ecfc29459aa1179c6f0a7b67c3"
+          "@id": "_:N1bbace41a83f46b6b8263b9a64e61c77"
         },
         {
-          "@id": "_:N8fa9858bf9a647f3812ce58edee25167"
+          "@id": "_:N8d0715d0ef0e4aa5926ae966850ecaa3"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -115,7 +123,7 @@
       "sc:url": "http://snps.biofold.org/drcancer"
     },
     {
-      "@id": "_:N5005a8c746ef4db1a756039e85f7c95c",
+      "@id": "_:N685d76ee29814c0f8e3dff55421bf995",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1176"
@@ -123,7 +131,7 @@
       "sc:name": "GO concept ID"
     },
     {
-      "@id": "_:Nc0475f62b4074adeb90f3dd71b594746",
+      "@id": "_:N64199258c2184d888acf9447827d43f1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2563"
@@ -134,7 +142,7 @@
       "sc:name": "Amino acid name (single letter)"
     },
     {
-      "@id": "_:N825ccd990abc437c995fbc8e763f8522",
+      "@id": "_:N4f48d347332b41ce89c656261e9469ca",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2974"
@@ -145,7 +153,7 @@
       "sc:name": "Protein sequence (raw)"
     },
     {
-      "@id": "_:N3ac27c8f223b4ad9a1fd4e134f908efa",
+      "@id": "_:N4001b60750304fb19f25e370edddaf42",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1016"
@@ -156,7 +164,7 @@
       "sc:name": "Sequence position"
     },
     {
-      "@id": "_:N3cc1a030451a49aea9f8ab0e86b1c49c",
+      "@id": "_:N7a96701e6c4440b995af15370ea13c55",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1176"
@@ -164,7 +172,7 @@
       "sc:name": "GO concept ID"
     },
     {
-      "@id": "_:N1e89345bf866410499995cd4f8ae5529",
+      "@id": "_:N7ff22e5019cd45348a7e10fa010f7074",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2563"
@@ -175,7 +183,7 @@
       "sc:name": "Amino acid name (single letter)"
     },
     {
-      "@id": "_:N925334672d4b41998fc0430b309b0e77",
+      "@id": "_:N8c528073134d4b06a81713f8cf718b79",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1016"
@@ -186,7 +194,7 @@
       "sc:name": "Sequence position"
     },
     {
-      "@id": "_:Na53c9af987084ada8f816f1ac74abe4a",
+      "@id": "_:N5362e5ec74f34f448a755b82d1dadb16",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3021"
@@ -197,7 +205,7 @@
       "sc:name": "UniProt accession"
     },
     {
-      "@id": "_:N5e14e4ecfc29459aa1179c6f0a7b67c3",
+      "@id": "_:N1bbace41a83f46b6b8263b9a64e61c77",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1622"
@@ -208,7 +216,7 @@
       "sc:name": "Disease report"
     },
     {
-      "@id": "_:N8fa9858bf9a647f3812ce58edee25167",
+      "@id": "_:N8d0715d0ef0e4aa5926ae966850ecaa3",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1622"
@@ -217,14 +225,6 @@
         "@id": "edam:format_2330"
       },
       "sc:name": "Disease report"
-    },
-    {
-      "@id": "https://doi.org/10.1016/j.ygeno.2011.06.010",
-      "@type": "sc:CreativeWork"
-    },
-    {
-      "@id": "http://orcid.org/0000-0002-2323-0963",
-      "@type": "sc:Person"
     }
   ]
 }

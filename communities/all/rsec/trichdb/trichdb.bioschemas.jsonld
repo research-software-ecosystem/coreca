@@ -36,17 +36,13 @@
   },
   "@graph": [
     {
-      "@id": "https://doi.org/10.1093/nar/gkn631",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/trichdb",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:Nd2465616ec7a4e4b9b5be3c34296e212"
+        "@id": "_:Neeb819425736492daa7efcebbac9f7f7"
       },
       "bsc:output": {
-        "@id": "_:N55200af1a72f4846bd3091eba248867c"
+        "@id": "_:N9ac589b4e5b540948715ec51ebe14cd7"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Database portal",
@@ -76,7 +72,7 @@
       "sc:url": "http://trichdb.org/trichdb/"
     },
     {
-      "@id": "_:Nd2465616ec7a4e4b9b5be3c34296e212",
+      "@id": "_:Neeb819425736492daa7efcebbac9f7f7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2295"
@@ -84,7 +80,7 @@
       "sc:name": "Gene ID"
     },
     {
-      "@id": "_:N55200af1a72f4846bd3091eba248867c",
+      "@id": "_:N9ac589b4e5b540948715ec51ebe14cd7",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"
@@ -93,6 +89,10 @@
         "@id": "edam:format_2331"
       },
       "sc:name": "Gene report"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkn631",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

@@ -39,17 +39,17 @@
       "@id": "https://bio.tools/flowcatchr",
       "@type": "sc:SoftwareApplication",
       "bsc:input": {
-        "@id": "_:N8d89e332fae0492587c5ca19e3c50473"
+        "@id": "_:N4daa46cbd4604df18ac7a6dd4eea7dcb"
       },
       "bsc:output": [
         {
-          "@id": "_:N0e0fc66f8f40428e814621ddcd14c56d"
+          "@id": "_:N1a22d8e55a2c4eae9eafbf730b2b9eda"
         },
         {
-          "@id": "_:N097ada3f22a0407e99f340c195566bf8"
+          "@id": "_:Ndfb076bac9d64849951ae00676461be4"
         },
         {
-          "@id": "_:N9de8b6ff2d7c4ce0962a81d369917630"
+          "@id": "_:Nea728afbc03346adaed6a0455fe9b8b2"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -87,7 +87,7 @@
       "sc:url": "https://bioconductor.org/packages/flowcatchR"
     },
     {
-      "@id": "_:N8d89e332fae0492587c5ca19e3c50473",
+      "@id": "_:N4daa46cbd4604df18ac7a6dd4eea7dcb",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3449"
@@ -109,7 +109,7 @@
       "sc:name": "Cell migration track image"
     },
     {
-      "@id": "_:N0e0fc66f8f40428e814621ddcd14c56d",
+      "@id": "_:N1a22d8e55a2c4eae9eafbf730b2b9eda",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_3449"
@@ -125,7 +125,7 @@
       "sc:name": "Cell migration track image"
     },
     {
-      "@id": "_:N097ada3f22a0407e99f340c195566bf8",
+      "@id": "_:Ndfb076bac9d64849951ae00676461be4",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -141,7 +141,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N9de8b6ff2d7c4ce0962a81d369917630",
+      "@id": "_:Nea728afbc03346adaed6a0455fe9b8b2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"

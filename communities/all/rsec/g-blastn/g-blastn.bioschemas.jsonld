@@ -47,10 +47,10 @@
         "Zhao Kaiyong"
       ],
       "bsc:input": {
-        "@id": "_:N384ad3fc43b8404bb1207d8297dc9a2e"
+        "@id": "_:Nc34b348894a449b2aad6df200c9d3185"
       },
       "bsc:output": {
-        "@id": "_:Nfbdebe8264194a8ca431bae5d106d24f"
+        "@id": "_:N39f6c9343f414b1b983814f09ef82638"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Command-line tool",
@@ -98,7 +98,7 @@
       "sc:url": "http://www.comp.hkbu.edu.hk/~chxw/software/G-BLASTN.html"
     },
     {
-      "@id": "_:N384ad3fc43b8404bb1207d8297dc9a2e",
+      "@id": "_:Nc34b348894a449b2aad6df200c9d3185",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2976"
@@ -106,7 +106,7 @@
       "sc:name": "Protein sequence"
     },
     {
-      "@id": "_:Nfbdebe8264194a8ca431bae5d106d24f",
+      "@id": "_:N39f6c9343f414b1b983814f09ef82638",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0857"

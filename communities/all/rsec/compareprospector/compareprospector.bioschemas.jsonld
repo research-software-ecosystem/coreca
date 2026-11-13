@@ -40,10 +40,6 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://doi.org/10.1093/nar/gkh461",
-      "@type": "sc:CreativeWork"
-    },
-    {
       "@id": "https://bio.tools/compareprospector",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Yueyi Irene Liu",
@@ -94,6 +90,10 @@
         "@id": "http://compareprospector.stanford.edu/overview.html"
       },
       "sc:url": "http://compareprospector.stanford.edu/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkh461",
+      "@type": "sc:CreativeWork"
     }
   ]
 }

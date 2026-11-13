@@ -36,18 +36,22 @@
   },
   "@graph": [
     {
+      "@id": "https://doi.org/10.1186/s13059-017-1182-6",
+      "@type": "sc:CreativeWork"
+    },
+    {
       "@id": "https://bio.tools/medecom",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": "Pavlo Lutsik",
       "bsc:input": {
-        "@id": "_:N5bace318582744b8a2d8cc7754a5d593"
+        "@id": "_:Nbfa85634729742f1bc243d26f083cc27"
       },
       "bsc:output": [
         {
-          "@id": "_:N71aded3ff7cc456d9a7c92fa628e76de"
+          "@id": "_:N6a0c05c068184a63aec48f29878e12d5"
         },
         {
-          "@id": "_:N54ede97c9e6d412e95ff8f18f7279baf"
+          "@id": "_:N202d9f8fd5444c1085928c76e9d60547"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -99,7 +103,7 @@
       "sc:url": "http://public.genetik.uni-sb.de/medecom/"
     },
     {
-      "@id": "_:N5bace318582744b8a2d8cc7754a5d593",
+      "@id": "_:Nbfa85634729742f1bc243d26f083cc27",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2082"
@@ -110,7 +114,7 @@
       "sc:name": "Matrix"
     },
     {
-      "@id": "_:N71aded3ff7cc456d9a7c92fa628e76de",
+      "@id": "_:N6a0c05c068184a63aec48f29878e12d5",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -129,7 +133,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:N54ede97c9e6d412e95ff8f18f7279baf",
+      "@id": "_:N202d9f8fd5444c1085928c76e9d60547",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -138,10 +142,6 @@
         "@id": "edam:format_3554"
       },
       "sc:name": "Report"
-    },
-    {
-      "@id": "https://doi.org/10.1186/s13059-017-1182-6",
-      "@type": "sc:CreativeWork"
     }
   ]
 }

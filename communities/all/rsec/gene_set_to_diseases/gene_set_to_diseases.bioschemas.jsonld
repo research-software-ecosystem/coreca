@@ -41,18 +41,18 @@
       "biotools:primaryContact": "Jean Fred Fontaine",
       "bsc:input": [
         {
-          "@id": "_:N3f44021eecc54b5e86307fbde8bd7fb4"
+          "@id": "_:N420e7616d787450faf01b3d66380ac72"
         },
         {
-          "@id": "_:Ne7775dd1d5a54c6293e26da9488805e6"
+          "@id": "_:N5c02bc086f254d1193166b8f0447e0ea"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:Na0e45673f0f04141be05e0dbb17daaf6"
+          "@id": "_:N46019703e835418283fd3868defc11f8"
         },
         {
-          "@id": "_:Nb2f6ca93155741a1948b9d80f99941c7"
+          "@id": "_:N6ca653e60d2e46e5bf9611e005c1cf05"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -82,7 +82,7 @@
       "sc:url": "http://cbdm.uni-mainz.de/geneset2diseases"
     },
     {
-      "@id": "_:N3f44021eecc54b5e86307fbde8bd7fb4",
+      "@id": "_:N420e7616d787450faf01b3d66380ac72",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1150"
@@ -90,7 +90,7 @@
       "sc:name": "Disease ID"
     },
     {
-      "@id": "_:Ne7775dd1d5a54c6293e26da9488805e6",
+      "@id": "_:N5c02bc086f254d1193166b8f0447e0ea",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1025"
@@ -98,7 +98,7 @@
       "sc:name": "Gene identifier"
     },
     {
-      "@id": "_:Na0e45673f0f04141be05e0dbb17daaf6",
+      "@id": "_:N46019703e835418283fd3868defc11f8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_1622"
@@ -106,7 +106,7 @@
       "sc:name": "Disease report"
     },
     {
-      "@id": "_:Nb2f6ca93155741a1948b9d80f99941c7",
+      "@id": "_:N6ca653e60d2e46e5bf9611e005c1cf05",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0916"

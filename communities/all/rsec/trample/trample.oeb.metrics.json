@@ -214,7 +214,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 163,
+                            "cit_count": 166,
                             "citations": [
                                 {
                                     "count": 1,
@@ -293,12 +293,12 @@
                                     "year": 2011
                                 },
                                 {
-                                    "count": 8,
-                                    "year": 2001
+                                    "count": 9,
+                                    "year": 2000
                                 },
                                 {
                                     "count": 9,
-                                    "year": 2000
+                                    "year": 2001
                                 },
                                 {
                                     "count": 9,
@@ -322,19 +322,19 @@
                                 },
                                 {
                                     "count": 12,
-                                    "year": 2002
-                                },
-                                {
-                                    "count": 12,
                                     "year": 2003
                                 },
                                 {
-                                    "count": 12,
-                                    "year": 2005
+                                    "count": 13,
+                                    "year": 2002
                                 },
                                 {
                                     "count": 13,
                                     "year": 2004
+                                },
+                                {
+                                    "count": 13,
+                                    "year": 2005
                                 }
                             ],
                             "doi": "10.1002/pro.5560050824",

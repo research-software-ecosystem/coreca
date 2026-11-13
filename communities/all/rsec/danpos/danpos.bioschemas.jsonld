@@ -77,12 +77,12 @@
       "sc:url": "https://sites.google.com/site/danposdoc/"
     },
     {
-      "@id": "http://orcid.org/0000-0001-9931-5990",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://doi.org/10.1038/ng.3385",
       "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "http://orcid.org/0000-0001-9931-5990",
+      "@type": "sc:Person"
     }
   ]
 }

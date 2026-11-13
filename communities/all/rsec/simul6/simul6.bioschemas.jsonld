@@ -40,10 +40,6 @@
       "@type": "sc:CreativeWork"
     },
     {
-      "@id": "https://orcid.org/0000-0001-7425-0721",
-      "@type": "sc:Person"
-    },
-    {
       "@id": "https://bio.tools/simul6",
       "@type": "sc:SoftwareApplication",
       "biotools:primaryContact": {
@@ -80,6 +76,10 @@
         "Windows"
       ],
       "sc:url": "https://simul6.app/"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-7425-0721",
+      "@type": "sc:Person"
     }
   ]
 }

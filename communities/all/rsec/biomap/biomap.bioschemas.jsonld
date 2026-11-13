@@ -40,21 +40,21 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:Ncbb742abefcf403c84a3d2217fa5665f"
+          "@id": "_:N239cd0058a6f4e849dc42228ab3a0ee1"
         },
         {
-          "@id": "_:Ned3564ab77c849f1a5c103ded3033728"
+          "@id": "_:Nb3a8894b4fcf436b904a700fc327bce9"
         }
       ],
       "bsc:output": [
         {
-          "@id": "_:N1232b6ae9b284078903bd708e635f358"
+          "@id": "_:N5a6d3dc828fd46228a175ebb143bf620"
         },
         {
-          "@id": "_:Nc1fd68eb1180402cbae060138ae8e891"
+          "@id": "_:Nfe9fc50f07924ff288ff5486050d31f8"
         },
         {
-          "@id": "_:Nc2015a31943f4eef961e3fbe2950c72a"
+          "@id": "_:N31d114c7f53641d6bd639ebd5e667656"
         }
       ],
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
@@ -86,7 +86,7 @@
       "sc:url": "https://www.ms-imaging.org/biomap/"
     },
     {
-      "@id": "_:Ncbb742abefcf403c84a3d2217fa5665f",
+      "@id": "_:N239cd0058a6f4e849dc42228ab3a0ee1",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -97,7 +97,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:Ned3564ab77c849f1a5c103ded3033728",
+      "@id": "_:Nb3a8894b4fcf436b904a700fc327bce9",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2536"
@@ -108,7 +108,7 @@
       "sc:name": "Mass spectrometry data"
     },
     {
-      "@id": "_:N1232b6ae9b284078903bd708e635f358",
+      "@id": "_:N5a6d3dc828fd46228a175ebb143bf620",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2884"
@@ -124,7 +124,7 @@
       "sc:name": "Plot"
     },
     {
-      "@id": "_:Nc1fd68eb1180402cbae060138ae8e891",
+      "@id": "_:Nfe9fc50f07924ff288ff5486050d31f8",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2048"
@@ -135,7 +135,7 @@
       "sc:name": "Report"
     },
     {
-      "@id": "_:Nc2015a31943f4eef961e3fbe2950c72a",
+      "@id": "_:N31d114c7f53641d6bd639ebd5e667656",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_2968"

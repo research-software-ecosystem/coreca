@@ -44,14 +44,14 @@
       "@type": "sc:SoftwareApplication",
       "bsc:input": [
         {
-          "@id": "_:N1dd413f843ec4797a90f332f0c5dcf72"
+          "@id": "_:Ned3c475c6d8a4954a4c1c8ff6f3d9c31"
         },
         {
-          "@id": "_:Nad9d5f4c1e394fa2b163b90c0da1a02d"
+          "@id": "_:N6b503a6aadd046488bd15d81abb46bcc"
         }
       ],
       "bsc:output": {
-        "@id": "_:N07b4baaa9243408f849bcb9ebbcc8840"
+        "@id": "_:N850b966adcca41a6ad2841ded489c7a2"
       },
       "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/0.6-DRAFT",
       "sc:additionalType": "Web application",
@@ -99,7 +99,7 @@
       "sc:url": "http://www.imgt.org/genefrequency/query"
     },
     {
-      "@id": "_:N1dd413f843ec4797a90f332f0c5dcf72",
+      "@id": "_:Ned3c475c6d8a4954a4c1c8ff6f3d9c31",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
@@ -110,7 +110,7 @@
       "sc:name": "Identifier"
     },
     {
-      "@id": "_:Nad9d5f4c1e394fa2b163b90c0da1a02d",
+      "@id": "_:N6b503a6aadd046488bd15d81abb46bcc",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0968"
@@ -121,7 +121,7 @@
       "sc:name": "Keyword"
     },
     {
-      "@id": "_:N07b4baaa9243408f849bcb9ebbcc8840",
+      "@id": "_:N850b966adcca41a6ad2841ded489c7a2",
       "@type": "bsct:FormalParameter",
       "sc:additionalType": {
         "@id": "edam:data_0842"
