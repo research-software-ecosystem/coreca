@@ -89,7 +89,7 @@ class TestWorkflow(unittest.TestCase):
         self.assertEqual(self.workflow.link, "https://workflowhub.eu/workflows/123")
         self.assertEqual(self.workflow.name, "Test Workflow")
         self.assertEqual(self.workflow.creators, ["John Doe"])
-        self.assertEqual(self.workflow.tags, ["metagenomics", "analysis"])
+        self.assertEqual(self.workflow.tags,["metagenomics","analysis"])
         self.assertEqual(self.workflow.keep, True)
         self.assertEqual(self.workflow.curation_date, "2023-12-01")
         self.assertEqual(self.workflow.filtered_on, "edam")
