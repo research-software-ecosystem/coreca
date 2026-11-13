@@ -141,9 +141,9 @@ Example of a keywords file (from the microbiome community) :
         --tools communities/${community}/workflowhub/tools_from_workflows.json
     ```
 
-## Tools from RSEc
+## Extract tools from RSEC
 
-- Extract all metadata from RSEc
+- Clone the RSEC repository
 
     ```
     $ python bin/extract_rsec.py \
@@ -151,7 +151,7 @@ Example of a keywords file (from the microbiome community) :
         --all communities/all/rsec/
     ```
 
-- Filter RSEc tools based on keywords and EDAM terms
+- Filter tools based on EDAM terms and keywords defined in `keywords.yml`. Validated tools are written to a JSON and a TSV file
     This step filters RSEc tools based on the keywords provided in `keywords.yml` file.
 
     ```
@@ -162,6 +162,8 @@ Example of a keywords file (from the microbiome community) :
         --tsv communities/${community}/rsec/validated_tools_summary.tsv \
         --keywords communities/${community}/metadata/keywords.yml
     ```
+    
+ Tools are filtered against three successive criteria: EDAM topics/operations from bio.tools metadata, keywords and acronyms from BioContainers metadata, then the same matching applied to free-text
 
 ## Bioconda
 
