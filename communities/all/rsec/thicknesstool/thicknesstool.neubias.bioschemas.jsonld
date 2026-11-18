@@ -41,13 +41,13 @@
   "http://schema.org/name": "ThicknessTool",
   "http://schema.org/publisher": [
     "Takashi Ueta",
-    "Josep Maria Caminal-Mitjana",
-    "Shoji Notomi",
-    "Danica Joseph",
-    "Joan W. Miller",
     "Tianna Zhou",
-    "Demetrios G. Vavvas",
+    "Joan W. Miller",
     "Cassandra Kosmidou",
-    "Daniel E. Maidana"
+    "Danica Joseph",
+    "Demetrios G. Vavvas",
+    "Josep Maria Caminal-Mitjana",
+    "Daniel E. Maidana",
+    "Shoji Notomi"
   ]
 }

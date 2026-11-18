@@ -10,7 +10,15 @@
             "name": "Aaron Lun",
             "typeEntity": "Person",
             "typeRole": [
-                "Developer",
+                "Contributor",
+                "Developer"
+            ]
+        },
+        {
+            "name": "Alan O'Callaghan",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor",
                 "Maintainer"
             ]
         },
@@ -20,6 +28,55 @@
             "typeRole": [
                 "Developer"
             ]
+        },
+        {
+            "name": "Felix G.M. Ernst",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "name": "Kieran Campbell",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "Leo Lahti",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "name": "Quin Wills",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "Tuomas Borman",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "name": "Vladimir Kiselev",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ]
+        },
+        {
+            "name": "Yun Peng",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ]
         }
     ],
     "description": "A collection of tools for doing various analyses of single-cell RNA-seq gene expression data, with a focus on quality control and visualization.",
@@ -28,23 +85,23 @@
             "type": [
                 "User manual"
             ],
-            "url": "https://bioconductor.org/packages/scuttle"
+            "url": "https://bioconductor.org/packages/scater"
         }
     ],
     "download": [
         {
             "type": "Source code",
-            "url": "https://bioconductor.org/packages/release/bioc/src/contrib/scuttle_1.22.0.tar.gz"
+            "url": "http://bioconductor.org/packages/scater/"
         }
     ],
     "editPermission": {
         "type": "private"
     },
-    "homepage": "https://bioconductor.org/packages/scuttle",
+    "homepage": "https://bioconductor.org/packages/scater",
     "language": [
         "R"
     ],
-    "lastUpdate": "2026-10-18T01:28:47.291203Z",
+    "lastUpdate": "2026-11-16T11:27:18.233615Z",
     "license": "GPL-3.0",
     "name": "scater",
     "operatingSystem": [
@@ -63,6 +120,6 @@
         "Library"
     ],
     "version": [
-        "1.22.0"
+        "1.40.2"
     ]
 }

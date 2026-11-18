@@ -44,8 +44,8 @@
   "http://schema.org/name": "WormScan",
   "http://schema.org/publisher": [
     "Mark D. Mathew",
-    "Neal D. Mathew",
-    "Paul R. Ebert"
+    "Paul R. Ebert",
+    "Neal D. Mathew"
   ],
   "http://schema.org/softwareRequirements": {
     "@id": "http://biii.eu/node/79"

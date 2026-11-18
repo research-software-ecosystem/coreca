@@ -54,10 +54,10 @@
   },
   "http://schema.org/name": "Fractional Splines Wavelets",
   "http://schema.org/publisher": [
-    "Unser, Michael",
-    "Blu, Thierry ",
     "Van De Ville, Dimitri",
-    "Sage, Daniel"
+    "Unser, Michael",
+    "Sage, Daniel",
+    "Blu, Thierry "
   ],
   "http://schema.org/softwareRequirements": [
     {

@@ -54,6 +54,9 @@
     "elixirNode": [
         "Netherlands"
     ],
+    "elixirPlatform": [
+        "Interoperability"
+    ],
     "function": [
         {
             "input": [
@@ -90,7 +93,7 @@
     "language": [
         "R"
     ],
-    "lastUpdate": "2026-09-30T22:23:06.580514Z",
+    "lastUpdate": "2026-11-16T11:31:20.739092Z",
     "license": "MIT",
     "link": [
         {

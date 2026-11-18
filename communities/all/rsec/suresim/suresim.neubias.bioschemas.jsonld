@@ -44,9 +44,9 @@
   "http://schema.org/license": "GNU GPLv3",
   "http://schema.org/name": "SuReSim",
   "http://schema.org/publisher": [
-    "Varun Venkataramani",
+    "Frank Herrmannsdörfer",
     "Mike Heilemann",
-    "Thomas Kuner",
-    "Frank Herrmannsdörfer"
+    "Varun Venkataramani",
+    "Thomas Kuner"
   ]
 }

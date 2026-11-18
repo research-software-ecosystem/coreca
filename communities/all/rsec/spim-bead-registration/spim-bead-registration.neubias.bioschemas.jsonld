@@ -42,9 +42,9 @@
   },
   "http://schema.org/name": "SPIM Bead Registration",
   "http://schema.org/publisher": [
-    "Stephan Saalfeld",
-    "Johannes Schindelin",
     "Pavel Tomancak",
+    "Johannes Schindelin",
+    "Stephan Saalfeld",
     "Stephan Preibisch"
   ],
   "http://schema.org/softwareRequirements": {

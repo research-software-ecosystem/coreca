@@ -60,14 +60,14 @@
   "http://schema.org/license": "BSD-3 Clause",
   "http://schema.org/name": "Big-fish",
   "http://schema.org/publisher": [
+    "Walter Thomas",
+    "Coleno Emeline",
     "Zimmer Christophe",
     "Ouyang Wei",
-    "Walter Thomas",
+    "Mueller Florian",
     "Imbert Arthur",
     "Bertrand Edouard",
-    "Mueller Florian",
-    "Safieddine Adham",
-    "Coleno Emeline"
+    "Safieddine Adham"
   ],
   "http://schema.org/softwareRequirements": {
     "@id": "http://biii.eu/node/1312"
