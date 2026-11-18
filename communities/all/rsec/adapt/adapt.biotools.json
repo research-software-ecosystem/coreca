@@ -49,7 +49,7 @@
     "download": [
         {
             "type": "Source code",
-            "url": "https://bioconductor.org/packages/release/bioc/src/contrib/ADAPT_1.6.0.tar.gz"
+            "url": "https://bioconductor.org/packages/release/bioc/src/contrib/ADAPT_1.6.1.tar.gz"
         }
     ],
     "editPermission": {
@@ -73,7 +73,7 @@
     "language": [
         "R"
     ],
-    "lastUpdate": "2026-09-01T06:29:53.203265Z",
+    "lastUpdate": "2026-11-16T11:25:17.265856Z",
     "license": "MIT",
     "name": "ADAPT",
     "owner": "pub2tools2024",
@@ -101,6 +101,6 @@
         }
     ],
     "version": [
-        "1.6.0"
+        "1.6.1"
     ]
 }

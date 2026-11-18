@@ -1851,7 +1851,7 @@
         "versions": "3"
     },
     {
-        "create_time": "2026-02-17",
+        "create_time": "2026-11-10",
         "creators": [
             "Delphine Lariviere",
             "Nadolina Brajuka"
@@ -1864,9 +1864,9 @@
         "filtered_on": "",
         "id": "645",
         "keep": false,
-        "latest_version": "17",
+        "latest_version": "19",
         "license": "BSD-3-Clause",
-        "link": "https://workflowhub.eu/workflows/645?version=17",
+        "link": "https://workflowhub.eu/workflows/645?version=19",
         "name": "Assembly-decontamination-VGP9/main",
         "number_of_steps": 12,
         "projects": [],
@@ -1887,8 +1887,8 @@
             "tp_sed_tool"
         ],
         "type": "",
-        "update_time": "2026-05-13",
-        "versions": "17"
+        "update_time": "2026-11-10",
+        "versions": "19"
     },
     {
         "create_time": "2026-06-01",
@@ -2886,7 +2886,7 @@
         ],
         "tools": [],
         "type": "",
-        "update_time": "2026-10-31",
+        "update_time": "2026-11-09",
         "versions": "15"
     },
     {
@@ -5374,21 +5374,21 @@
         "versions": "1"
     },
     {
-        "create_time": "2026-10-14",
+        "create_time": "2026-11-08",
         "creators": [
             "Xuanyi Jiang"
         ],
         "curation_date": "0000-00-00",
         "description": "\r\n\r\nHistorical executable generation of the NEXUS CORTEX lifecycle workflow for the zero-entropy-lab research software lineage, recorded from repository state 12287364d5915b4e51a6146996d6d8a95d547c22 on 2026-10-07.\r\n\r\nThe workflow implements a graph-based, bounded research lifecycle with read-only validation and guarded application paths. It validates runtime contracts and active ledgers, harvests and projects approved external evidence, canonicalizes the active graph, rebuilds and ingests memory, verifies graph and hash-chain integrity, produces bounded lifecycle projections, checks the permitted write boundary and repository world-line, and applies only a stable and meaningful candidate.\r\n\r\nThis WorkflowHub record preserves an externally registered historical workflow generation. The canonical implementation history remains in the source Git repository; the corresponding AGI record stores identity, verification and recovery metadata rather than a second executable copy.",
-        "doi": "10.48546/workflowhub.workflow.2334.8",
+        "doi": "10.48546/workflowhub.workflow.2334.9",
         "edam_operation": [],
         "edam_topic": [],
         "filtered_on": "",
         "id": "2334",
         "keep": false,
-        "latest_version": "8",
+        "latest_version": "9",
         "license": "MIT",
-        "link": "https://workflowhub.eu/workflows/2334?version=8",
+        "link": "https://workflowhub.eu/workflows/2334?version=9",
         "name": "NEXUS CORTEX Life Cycle \u2014 zero-entropy-lab",
         "number_of_steps": 0,
         "projects": [],
@@ -5400,8 +5400,8 @@
         ],
         "tools": [],
         "type": "",
-        "update_time": "2026-10-14",
-        "versions": "8"
+        "update_time": "2026-11-08",
+        "versions": "9"
     },
     {
         "create_time": "2023-01-11",
@@ -6748,7 +6748,7 @@
         "versions": "1"
     },
     {
-        "create_time": "2026-11-03",
+        "create_time": "2026-11-10",
         "creators": [
             "Rand Zoabi",
             "Paul Zierep",
@@ -6762,9 +6762,9 @@
         "filtered_on": "",
         "id": "1274",
         "keep": false,
-        "latest_version": "12",
+        "latest_version": "13",
         "license": "Apache-2.0",
-        "link": "https://workflowhub.eu/workflows/1274?version=12",
+        "link": "https://workflowhub.eu/workflows/1274?version=13",
         "name": "mgnify-amplicon-pipeline-v5-complete/main",
         "number_of_steps": 20,
         "projects": [],
@@ -6778,8 +6778,8 @@
             "tp_awk_tool"
         ],
         "type": "",
-        "update_time": "2026-11-03",
-        "versions": "12"
+        "update_time": "2026-11-10",
+        "versions": "13"
     },
     {
         "create_time": "2022-05-31",
@@ -9948,10 +9948,12 @@
     },
     {
         "create_time": "2026-08-24",
-        "creators": [],
+        "creators": [
+            "Jens Krumsieck"
+        ],
         "curation_date": "0000-00-00",
         "description": "# SciWIn-Client Demo\r\nThis repo contains the scripts to perform a small SciWIn-Client Demo. This instructions file will be updated to use new features when they are available. The commands stated below will perform the operations based on our [hello world repo](https://github.com/fairagro/m4.4_hello_world).\r\n\r\n![](https://github.com/fairagro/m4.4_sciwin_client_demo_ta4_retreat_2024/blob/complete_run/workflow.svg)\r\n\r\n## Demo Commands\r\nTo check if SciWIn is available type `s4n --version` which should output something like `s4n 1.0.0`.\r\n### Initializing a Project\r\nTo begin the journey use `s4n init` to initialize a project in the current directory.\r\n```bash\r\ns4n init\r\n```\r\nCreate a virtual environment\r\n```bash\r\npython -m venv .venv\r\nsource .venv/bin/activate\r\npip install -r requirements.txt\r\n```\r\n### Creation of CommandLineTools\r\nTo create the two CommandLineTools needed for the demo you just have to prefix the execution commands with `s4n create`.\r\n#### Calculation\r\nTo create the `calculation.cwl` tool run the following command:\r\n```bash\r\ns4n create python calculation.py --population population.csv --speakers speakers.csv\r\n```\r\nwhich will output something like\r\n```\r\n\ud83d\udcc2 The current working directory is /home/ubuntu/sciwin_test\r\n\u25b6\ufe0f  Executing command: python calculation.py --population population.csv --speakers speakers.csv\r\nTotal population: 7694245029\r\n            language    speakers  percentage\r\n0             Bangla   300000000    3.899018\r\n1    Egyptian Arabic   100542400    1.306722\r\n2            English  1132366680   14.717060\r\n3             German   134993040    1.754468\r\n4         Indonesian   198996550    2.586304\r\n5           Japanese   128000000    1.663581\r\n6         Portuguese   475300000    6.177344\r\n7            Punjabi   125000000    1.624591\r\n8            Russian   154000000    2.001496\r\n9  Standard Mandarin  1090951810   14.178803\r\n\r\n\ud83d\udcdc Found changes:\r\n        - results.csv\r\n\r\n\ud83d\udcc4 Created CWL file workflows/calculation/calculation.cwl\r\n```\r\n#### Plot\r\nThe Plot tool will use the created results.csv. The creation command is \r\n```bash\r\ns4n create python plot.py --results results.csv\r\n```\r\nwhich will lead to the following output:\r\n```\r\n\ud83d\udcc2 The current working directory is /home/ubuntu/sciwin_test\r\n\u25b6\ufe0f  Executing command: python plot.py --results results.csv\r\n\r\n\ud83d\udcdc Found changes:\r\n        - results.svg\r\n\r\n\ud83d\udcc4 Created CWL file workflows/plot/plot.cwl\r\n```\r\n### Workflow Creation\r\n#### Workflow Creation\r\nTo create a Workflow with name `demo` simply call. However this is optional as it will be executed automatically upon running the `connect` command the first time.\r\n```bash\r\ns4n create --name demo\r\n```\r\nwhich will output\r\n```\r\n\ud83d\udcc4 Created new Workflow file: workflows/demo/demo.cwl\r\n```\r\n\r\n#### Connecting Tools\r\nTo connect the steps in the workflow you need to call `s4n connect` a couple of times.\r\n\r\n##### Connecting Inputs\r\nFirst we will connect the `calculation` tool to the input sockets. The tool has two inputs which we will connect to the `speaker`s and `pop` input.\r\n```bash\r\ns4n connect demo --from @inputs/speakers --to calculation/speakers\r\ns4n connect demo --from @inputs/pop --to calculation/population\r\n```\r\nAn example output looks like\r\n```\r\n\u2795 Added step calculation to workflow\r\n\u2795 Added or updated connection from inputs.speakers to calculation/speakers in workflow\r\n\u2714\ufe0f  Updated Workflow workflows/demo/demo.cwl!\r\n```\r\n\r\n##### Connecting Tools\r\nWe now will connect the `plot` and the `calculation` tool. We will map results-output to results-input.\r\n```bash\r\ns4n connect demo --from calculation/results --to plot/results\r\n```\r\nAn example output looks like\r\n```\r\n\ud83d\udd17 Found step calculation in workflow. Not changing that!\r\n\u2795 Added step plot to workflow\r\n\u2714\ufe0f  Updated Workflow workflows/demo/demo.cwl!\r\n```\r\n\r\n##### Connecting to output\r\nTo get the results file we will connect the result of the plot step to out.\r\n```bash\r\ns4n connect demo --from plot/o_results --to @outputs/out\r\n```\r\nwhich outputs\r\n```\r\n\u2795 Added or updated connection from plot/results to outputs.out in workflow!\r\n\u2714\ufe0f  Updated Workflow workflows/demo/demo.cwl!\r\n```\r\n\r\nTo commit a simple call is needed:\r\n```bash\r\ns4n save demo\r\n```\r\n\r\nWe now have a full workflow which can be executed\r\n```bash\r\ns4n execute local workflows/demo/demo.cwl --pop population.csv --speakers speakers_revised.csv\r\n```\r\n\r\nHowever we did not use Docker containers, so this will work only on our computer.\r\ntake a look at the other examples to learn how to use Docker with s4n. https://github.com/fairagro/m4.4_sciwin_client_examples",
-        "doi": "",
+        "doi": "10.48546/workflowhub.workflow.2248.1",
         "edam_operation": [],
         "edam_topic": [],
         "filtered_on": "",
@@ -9967,7 +9969,7 @@
         "tags": [],
         "tools": [],
         "type": "",
-        "update_time": "2026-08-24",
+        "update_time": "2026-11-13",
         "versions": "1"
     },
     {
@@ -9995,6 +9997,36 @@
         "tools": [],
         "type": "",
         "update_time": "2026-05-13",
+        "versions": "1"
+    },
+    {
+        "create_time": "2026-11-10",
+        "creators": [
+            "Benjamin Istace",
+            "Jean-Marc Aury"
+        ],
+        "curation_date": "0000-00-00",
+        "description": "# PETRA\r\n\r\nPETRA (Predicted protein-enabled Taxonomic Rank Assignment) finds contaminants\r\nin genome assemblies. It predicts genes on each contig, aligns them to a protein\r\ndatabase with DIAMOND, and assigns the contig to a taxon when most of its genes\r\nagree. Contigs are then split by domain so the host genome can be kept apart.\r\n\r\n## Install\r\n\r\n```console\r\npip install .\r\n```\r\n\r\n`diamond` must be on `PATH`. The rRNA analyses also need Infernal (`cmscan`,\r\n`cmpress`), BLAST (`blastn`, `makeblastdb`) and `taxonkit`, the tRNA analysis\r\nneeds `tRNAscan-SE`.\r\n\r\n## Quick start\r\n\r\n```console\r\n# 1. Build the database once (downloads NCBI NR and taxonomy)\r\npetra build-db --output database --build-rna-dbs\r\n\r\n# 2. Run on an assembly\r\npetra run \\\r\n  --assembly assembly.fasta \\\r\n  --database database \\\r\n  --long-reads reads.fastq.gz \\\r\n  --output run-1\r\n\r\n# 3. Look at the split by domain and taxonomic assignments\r\nls run-1/decontaminated/\r\nls run-1/predictions.final.tsv\r\n```\r\n\r\nSet `PETRA_DB_DIR` to skip giving `--database` on every run.\r\n\r\n## How contigs are assigned\r\n\r\nA contig needs enough aligned genes before PETRA will judge it: 3 up to 50 kb,\r\nthen a few more for each tenfold increase in length (4 at 100 kb, 9 at 5 Mb).\r\nContigs below that are left unassigned (`insufficient_support`).\r\n\r\nPETRA then votes rank by rank, from domain down. A taxon wins a rank when it\r\nholds more than half of the genes (`--alpha`, default 0.5), and only genes that\r\nagreed on the ranks above take part in the next vote. If nothing wins, the\r\ncontig is unassigned (`no_consensus`).\r\n\r\nThe thresholds are adjustable with `--min-aligned-unigenes`,\r\n`--unigene-support-length` and `--unigenes-per-decade`.\r\n\r\n## Outputs\r\n\r\n| File | Content |\r\n| --- | --- |\r\n| `decontaminated/predictions.final.fasta` | Eukaryotic and unassigned contigs: what you usually keep |\r\n| `decontaminated/predictions.{eukaryota,bacteria,archaea,viruses,unassigned}.fasta` | Contigs split by domain |\r\n| `predictions.final.tsv` | One row per contig: length, GC, median coverage, lineage and why it is unassigned, if it is |\r\n| `predictions.gene_taxonomy.tsv` | The lineage of each aligned gene, grouped by contig |\r\n| `predictions.organelles.tsv` | Contigs Tiara flags as mitochondrion or plastid |\r\n| `predictions.summary.png` | GC vs coverage plot, coloured by taxon |\r\n| `rna/` | rRNA and tRNA results, with `--rrna` / `--trna` |\r\n\r\nOnly contigs of at least 5 kb are considered for the FASTA and organelle outputs.\r\n\r\n## Optional analyses\r\n\r\n- `--rrna` finds rRNA genes and classifies SSU/LSU hits against SILVA, PR2 and\r\n  EUKARYOME. With `--host-taxon \"Chelon auratus\"`, hits outside the host's\r\n  phylum are flagged as `non_host`.\r\n- `--trna` annotates tRNAs.\r\n- `--skip-taxonomic-assignment` runs only the RNA analyses and Whokaryote.\r\n- `--keep-whokaryote-euk-headers` keeps the names of sequences Whokaryote\r\n  calls eukaryotic in `whokaryote.euk.txt`.\r\n- `--keep-pyrodigal-predictions` keeps Pyrodigal's predicted proteins in\r\n  `predictions.faa`.\r\n- `--technology ont` switches read mapping from PacBio HiFi to ONT.\r\n\r\n## Looking at the results\r\n\r\n```console\r\n# Redraw the plot, colouring common eukaryotic phyla\r\npetra-plot -i run-1/predictions.final.tsv -o summary.png --theme atlasea\r\n\r\n# Filter the table\r\npetra-filter -i run-1/predictions.final.tsv -o kept.tsv \\\r\n  \"median_coverage<40 and gc_percent>59 and not phylum==Actinopteri\"\r\n\r\n# Compare several runs side by side\r\npetra-compare \\\r\n  --directory run-1 --name \"Chelon auratus\" \\\r\n  --directory run-2 --name \"Jania squamata\" \\\r\n  --output comparison.png\r\n```\r\n\r\nTwo themes are bundled: `superkingdom` (default) and `atlasea`, which gives\r\ncommon eukaryotic phyla their own colours so eukaryotic contaminants stand out\r\nfrom the host. You can also pass your own colours as a two-column TSV\r\n(`Actinopteri\t#1F78B4`) with `--colors`.\r\n\r\n## Database details\r\n\r\n`petra build-db` creates `petra.dmnd` from NCBI NR (or `--fasta` plus\r\n`--taxon-map`) and keeps the NCBI taxonomy under `database/taxonomy/`. The\r\ntaxonomy is also embedded in `petra.dmnd`, so DIAMOND's `--taxonlist` and\r\n`--taxon-exclude` work on it.\r\n\r\n- `--with-marferret` adds marine eukaryote proteins from\r\n  [MarFERReT](https://github.com/armbrustlab/marferret) v1.1.1\r\n  ([Groussman et al. 2023](https://doi.org/10.1038/s41597-023-02842-4)).\r\n- `--build-rna-dbs` adds the rRNA databases (Rfam models, SILVA + PR2 for SSU,\r\n  SILVA + EUKARYOME for LSU).\r\n- `--skip-diamond-db` rebuilds only the RNA databases and leaves `petra.dmnd`\r\n  as is.\r\n- `--taxdump` uses a local taxonomy snapshot instead of downloading one.\r\n",
+        "doi": "10.48546/workflowhub.workflow.2376.1",
+        "edam_operation": [],
+        "edam_topic": [
+            "http://edamontology.org/topic_0196",
+            "http://edamontology.org/topic_0637"
+        ],
+        "filtered_on": "",
+        "id": "2376",
+        "keep": false,
+        "latest_version": "1",
+        "license": "CECILL-2.1",
+        "link": "https://workflowhub.eu/workflows/2376?version=1",
+        "name": "Petra: Predicted protein-enabled Taxonomic Rank Assignment",
+        "number_of_steps": 0,
+        "projects": [],
+        "source": "WorkflowHub",
+        "tags": [],
+        "tools": [],
+        "type": "",
+        "update_time": "2026-11-10",
         "versions": "1"
     },
     {
@@ -10889,7 +10921,7 @@
         ],
         "tools": [],
         "type": "",
-        "update_time": "2026-10-31",
+        "update_time": "2026-11-09",
         "versions": "2"
     },
     {
@@ -10922,7 +10954,7 @@
         ],
         "tools": [],
         "type": "",
-        "update_time": "2026-10-24",
+        "update_time": "2026-11-14",
         "versions": "2"
     },
     {
@@ -11120,7 +11152,7 @@
         ],
         "tools": [],
         "type": "",
-        "update_time": "2026-11-06",
+        "update_time": "2026-11-09",
         "versions": "34"
     },
     {
@@ -16726,7 +16758,7 @@
         ],
         "tools": [],
         "type": "",
-        "update_time": "2026-11-06",
+        "update_time": "2026-11-14",
         "versions": "13"
     },
     {
@@ -16911,7 +16943,7 @@
         ],
         "tools": [],
         "type": "",
-        "update_time": "2026-11-02",
+        "update_time": "2026-11-14",
         "versions": "36"
     },
     {
@@ -18361,7 +18393,7 @@
         ],
         "tools": [],
         "type": "",
-        "update_time": "2026-10-28",
+        "update_time": "2026-11-11",
         "versions": "12"
     },
     {
@@ -20651,19 +20683,19 @@
         "versions": "1"
     },
     {
-        "create_time": "2026-10-13",
+        "create_time": "2026-11-08",
         "creators": [],
         "curation_date": "0000-00-00",
-        "description": "<h1>\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/images/nf-core-drugresponseeval_logo_dark.png\">\n    <img alt=\"nf-core/drugresponseeval\" src=\"docs/images/nf-core-drugresponseeval_logo_light.png\">\n  </picture>\n</h1>\n\n[![Open in GitHub Codespaces](https://img.shields.io/badge/Open_In_GitHub_Codespaces-black?labelColor=grey&logo=github)](https://github.com/codespaces/new/nf-core/drugresponseeval)\n[![GitHub Actions CI Status](https://github.com/nf-core/drugresponseeval/actions/workflows/nf-test.yml/badge.svg)](https://github.com/nf-core/drugresponseeval/actions/workflows/nf-test.yml)\n[![GitHub Actions Linting Status](https://github.com/nf-core/drugresponseeval/actions/workflows/linting.yml/badge.svg)](https://github.com/nf-core/drugresponseeval/actions/workflows/linting.yml)[![AWS CI](https://img.shields.io/badge/CI%20tests-full%20size-FF9900?labelColor=000000&logo=Amazon%20AWS)](https://nf-co.re/drugresponseeval/results)[![Cite with Zenodo](http://img.shields.io/badge/DOI-10.5281/zenodo.14779984-1073c8?labelColor=000000)](https://doi.org/10.5281/zenodo.14779984)\n\n[![nf-test](https://img.shields.io/badge/unit_tests-nf--test-337ab7.svg)](https://www.nf-test.com)\n\n[![Nextflow](https://img.shields.io/badge/version-%E2%89%A526.04.0-green?style=flat&logo=nextflow&logoColor=white&color=%230DC09D&link=https%3A%2F%2Fnextflow.io)](https://www.nextflow.io/)\n[![nf-core template version](https://img.shields.io/badge/nf--core_template-4.1.0-green?style=flat&logo=nfcore&logoColor=white&color=%2324B064&link=https%3A%2F%2Fnf-co.re)](https://github.com/nf-core/tools/releases/tag/4.1.0)\n[![run with conda](http://img.shields.io/badge/run%20with-conda-3EB049?labelColor=000000&logo=anaconda)](https://docs.conda.io/en/latest/)\n[![run with docker](https://img.shields.io/badge/run%20with-docker-0db7ed?labelColor=000000&logo=docker)](https://www.docker.com/)\n[![run with singularity](https://img.shields.io/badge/run%20with-singularity-1d355c.svg?labelColor=000000)](https://sylabs.io/docs/)\n[![Launch on Seqera Platform](https://img.shields.io/badge/Launch%20%F0%9F%9A%80-Seqera%20Platform-%234256e7)](https://cloud.seqera.io/launch?pipeline=https://github.com/nf-core/drugresponseeval)\n\n[![Get help on Slack](http://img.shields.io/badge/slack-nf--core%20%23drugresponseeval-4A154B?labelColor=000000&logo=slack)](https://nfcore.slack.com/channels/drugresponseeval)[![Follow on Bluesky](https://img.shields.io/badge/bluesky-%40nf__core-1185fe?labelColor=000000&logo=bluesky)](https://bsky.app/profile/nf-co.re)[![Follow on Mastodon](https://img.shields.io/badge/mastodon-nf__core-6364ff?labelColor=FFFFFF&logo=mastodon)](https://mstdn.science/@nf_core)[![Watch on YouTube](http://img.shields.io/badge/youtube-nf--core-FF0000?labelColor=000000&logo=youtube)](https://www.youtube.com/c/nf-core)\n\n![HiRSE Code Promo Badge](https://img.shields.io/badge/Promo-8db427?label=HiRSE&labelColor=005aa0&link=https%3A%2F%2Fgo.fzj.de%2FCodePromo)\n\n## Introduction\n\n# ![drevalpy_summary](https://raw.githubusercontent.com/daisybio/drevalpy/development/docs/_static/img/overview.png)\n\n**DrEval** is a bioinformatics framework that includes a PyPI package (drevalpy) and a Nextflow\npipeline (this repo). DrEval ensures that evaluations are statistically sound, biologically\nmeaningful, and reproducible. DrEval simplifies the implementation of drug response prediction\nmodels, allowing researchers to focus on advancing their modeling innovations by automating\nstandardized evaluation protocols and preprocessing workflows. With DrEval, hyperparameter\ntuning is fair and consistent. With its flexible model interface, DrEval supports any model type,\nranging from statistical models to complex neural networks. By contributing your model to the\nDrEval catalog, you can increase your work's exposure, reusability, and transferability.\n\n1. The response data is loaded\n2. All models are trained and evaluated in a cross-validation setting\n3. For each CV split, the best hyperparameters are determined using a grid search per model\n4. The model is trained on the full training set (train & validation) with the best\n   hyperparameters to predict the test set\n5. If randomization tests are enabled, the model is trained on the full training set with the best\n   hyperparameters to predict the randomized test set\n6. If robustness tests are enabled, the model is trained N times on the full training set with the\n   best hyperparameters\n7. Plots are created summarizing the results\n\nFor baseline models, no randomization or robustness tests are performed.\n\n## Usage\n\n> [!NOTE]\n> If you are new to Nextflow and nf-core, please refer to [this page](https://nf-co.re/docs/get_started/environment_setup/overview) on how to set-up Nextflow. Make sure to [test your setup](https://nf-co.re/docs/get_started/run-your-first-pipeline) with `-profile test` before running the workflow on actual data.\n\nNow, you can run the pipeline using:\n\n```bash\nnextflow run nf-core/drugresponseeval \\\n   -profile <docker/singularity/.../institute> \\\n   --models <RandomForest,model2,...> \\\n   --baselines <NaiveMeanEffectsPredictor,baseline2,...> \\\n   --dataset_name <CTRPv2|CTRPv1|CCLE|GDSC1|GDSC2|BeatAML2|PDX_Bruna|TOYv1|TOYv2|custom_dataset>\n```\n\n## Leaderboard\n\nThis is the current leaderboard of DrEval models:\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/daisybio/drevalpy/development/docs/_static/img/leaderboard_dark.png?v=4\">\n  <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/daisybio/drevalpy/development/docs/_static/img/leaderboard_light.png?v=4\">\n  <img alt=\"DrEvalPy Leaderboard\" src=\"https://raw.githubusercontent.com/daisybio/drevalpy/development/docs/_static/img/leaderboard_dark.png?v=4\">\n</picture>\n\nIn the critical difference diagram, you can see which models outperform which other models significantly. The diagram is based on the average ranks of the models across all datasets and metrics, and the critical difference is calculated using the Nemenyi test. If model A is outside the bar corresponding to model B, it is significantly better (if it lies to the left) or worse (if it lies to the right) than model B.\n\n# ![drevalpy_cd_diagram](https://raw.githubusercontent.com/daisybio/drevalpy/development/docs/_static/img/critical_difference_algorithms_LCO.svg)\n\nFor integrating your own model into DrEval, and to see how it compares to the other models, please refer to the [usage documentation: Benchmark your own model](https://nf-co.re/drugresponseeval/usage#benchmark-your-own-model).\n\n> [!WARNING]\n> Please provide pipeline parameters via the CLI or Nextflow `-params-file` option. Custom config files including those provided by the `-c` Nextflow option can be used to provide any configuration _**except for parameters**_; see [docs](https://nf-co.re/docs/running/run-pipelines#using-parameter-files).\n\nFor more details and further functionality, please refer to the [usage documentation](https://nf-co.re/drugresponseeval/usage) and the [parameter documentation](https://nf-co.re/drugresponseeval/parameters).\n\n## Pipeline output\n\nTo see the results of an example test run with a full size dataset refer to the [results](https://nf-co.re/drugresponseeval/results) tab on the nf-core website pipeline page.\nFor more details about the output files and reports, please refer to the\n[output documentation](https://nf-co.re/drugresponseeval/output).\n\n## Credits\n\nnf-core/drugresponseeval was originally written by Judith Bernett (TUM) and Pascal Iversen (FU\nBerlin).\n\nWe thank the following people for their extensive assistance in the development of this pipeline:\n\n## Contributions and Support\n\nContributors to nf-core/drugresponseeval and the drevalpy PyPI package:\n\n- [Judith Bernett](https://github.com/JudithBernett) (TUM)\n- [Pascal Iversen](https://github.com/PascalIversen) (FU Berlin)\n- [Mario Picciani](https://github.com/picciama) (TUM)\n\nIf you would like to contribute to this pipeline, please see the [contributing guidelines](.github/CONTRIBUTING.md).\n\nFor further information or help, don't hesitate to get in touch on the [Slack `#drugresponseeval` channel](https://nfcore.slack.com/channels/drugresponseeval) (you can join with [this invite](https://nf-co.re/join/slack)).\n\n## Citations\n\nIf you use nf-core/drugresponseeval for your analysis, please cite it using the following DOI: [10.5281/zenodo.14779984](https://doi.org/10.5281/zenodo.14779984)\n\n> Our corresponding publication is at DOI [10.1038/s41467-026-72903-w](https://doi.org/10.1038/s41467-026-72903-w)\n>\n> Bernett, J., Iversen, P., Picciani, M., Wilhelm, M., Baum, K., & List, M. **Critical Evaluation of Drug Response Prediction Models with DrEval.**\n>\n> _Nature Communications_ 17, 4238 (2026).\n\nThe underlying data is available at DOI: [10.5281/zenodo.12633909](https://doi.org/10.5281/zenodo.12633909).\n\nThe underlying python package is drevalpy, availably on [PyPI](https://pypi.org/project/drevalpy/) as standalone, for which we also have an extensive [ReadTheDocs Documentation](https://drevalpy.readthedocs.io/en/latest/).\n\nAn extensive list of references for the tools used by the pipeline can be found in the [`CITATIONS.md`](CITATIONS.md) file.\n\nYou can cite the `nf-core` publication as follows:\n\n> **The nf-core framework for community-curated bioinformatics pipelines.**\n>\n> Philip Ewels, Alexander Peltzer, Sven Fillinger, Harshil Patel, Johannes Alneberg, Andreas Wilm, Maxime Ulysse Garcia, Paolo Di Tommaso & Sven Nahnsen.\n>\n> _Nat Biotechnol._ 2020 Feb 13. doi: [10.1038/s41587-020-0439-x](https://dx.doi.org/10.1038/s41587-020-0439-x).\n",
+        "description": "<h1>\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/images/nf-core-drugresponseeval_logo_dark.png\">\n    <img alt=\"nf-core/drugresponseeval\" src=\"docs/images/nf-core-drugresponseeval_logo_light.png\">\n  </picture>\n</h1>\n\n[![Open in GitHub Codespaces](https://img.shields.io/badge/Open_In_GitHub_Codespaces-black?labelColor=grey&logo=github)](https://github.com/codespaces/new/nf-core/drugresponseeval)\n[![GitHub Actions CI Status](https://github.com/nf-core/drugresponseeval/actions/workflows/nf-test.yml/badge.svg)](https://github.com/nf-core/drugresponseeval/actions/workflows/nf-test.yml)\n[![GitHub Actions Linting Status](https://github.com/nf-core/drugresponseeval/actions/workflows/linting.yml/badge.svg)](https://github.com/nf-core/drugresponseeval/actions/workflows/linting.yml)[![AWS CI](https://img.shields.io/badge/CI%20tests-full%20size-FF9900?labelColor=000000&logo=Amazon%20AWS)](https://nf-co.re/drugresponseeval/results)[![Cite with Zenodo](http://img.shields.io/badge/DOI-10.5281/zenodo.14779984-1073c8?labelColor=000000)](https://doi.org/10.5281/zenodo.14779984)\n\n[![nf-test](https://img.shields.io/badge/unit_tests-nf--test-337ab7.svg)](https://www.nf-test.com)\n\n[![Nextflow](https://img.shields.io/badge/version-%E2%89%A526.04.0-green?style=flat&logo=nextflow&logoColor=white&color=%230DC09D&link=https%3A%2F%2Fnextflow.io)](https://www.nextflow.io/)\n[![nf-core template version](https://img.shields.io/badge/nf--core_template-4.2.1-green?style=flat&logo=nfcore&logoColor=white&color=%2324B064&link=https%3A%2F%2Fnf-co.re)](https://github.com/nf-core/tools/releases/tag/4.2.1)\n[![run with conda](http://img.shields.io/badge/run%20with-conda-3EB049?labelColor=000000&logo=anaconda)](https://docs.conda.io/en/latest/)\n[![run with docker](https://img.shields.io/badge/run%20with-docker-0db7ed?labelColor=000000&logo=docker)](https://www.docker.com/)\n[![run with singularity](https://img.shields.io/badge/run%20with-singularity-1d355c.svg?labelColor=000000)](https://sylabs.io/docs/)\n[![Launch on Seqera Platform](https://img.shields.io/badge/Launch%20%F0%9F%9A%80-Seqera%20Platform-%234256e7)](https://cloud.seqera.io/launch?pipeline=https://github.com/nf-core/drugresponseeval)\n\n[![Get help on Slack](http://img.shields.io/badge/slack-nf--core%20%23drugresponseeval-4A154B?labelColor=000000&logo=slack)](https://nfcore.slack.com/channels/drugresponseeval)[![Follow on Bluesky](https://img.shields.io/badge/bluesky-%40nf__core-1185fe?labelColor=000000&logo=bluesky)](https://bsky.app/profile/nf-co.re)[![Follow on Mastodon](https://img.shields.io/badge/mastodon-nf__core-6364ff?labelColor=FFFFFF&logo=mastodon)](https://mstdn.science/@nf_core)[![Watch on YouTube](http://img.shields.io/badge/youtube-nf--core-FF0000?labelColor=000000&logo=youtube)](https://www.youtube.com/c/nf-core)\n\n![HiRSE Code Promo Badge](https://img.shields.io/badge/Promo-8db427?label=HiRSE&labelColor=005aa0&link=https%3A%2F%2Fgo.fzj.de%2FCodePromo)\n\n## Introduction\n\n# ![drevalpy_summary](https://raw.githubusercontent.com/daisybio/drevalpy/development/docs/_static/img/overview.png)\n\n**DrEval** is a bioinformatics framework that includes a PyPI package (drevalpy) and a Nextflow\npipeline (this repo). DrEval ensures that evaluations are statistically sound, biologically\nmeaningful, and reproducible. DrEval simplifies the implementation of drug response prediction\nmodels, allowing researchers to focus on advancing their modeling innovations by automating\nstandardized evaluation protocols and preprocessing workflows. With DrEval, hyperparameter\ntuning is fair and consistent. With its flexible model interface, DrEval supports any model type,\nranging from statistical models to complex neural networks. By contributing your model to the\nDrEval catalog, you can increase your work's exposure, reusability, and transferability.\n\n1. The response data is loaded\n2. All models are trained and evaluated in a cross-validation setting\n3. For each CV split, the best hyperparameters are determined using a grid search per model\n4. The model is trained on the full training set (train & validation) with the best\n   hyperparameters to predict the test set\n5. If randomization tests are enabled, the model is trained on the full training set with the best\n   hyperparameters to predict the randomized test set\n6. If robustness tests are enabled, the model is trained N times on the full training set with the\n   best hyperparameters\n7. Plots are created summarizing the results\n\nFor baseline models, no randomization or robustness tests are performed.\n\n## Usage\n\n> [!NOTE]\n> If you are new to Nextflow and nf-core, please refer to [this page](https://nf-co.re/docs/get_started/environment_setup/overview) on how to set-up Nextflow. Make sure to [test your setup](https://nf-co.re/docs/get_started/run-your-first-pipeline) with `-profile test` before running the workflow on actual data.\n\nNow, you can run the pipeline using:\n\n```bash\nnextflow run nf-core/drugresponseeval \\\n   -profile <docker/singularity/.../institute> \\\n   --models <RandomForest,model2,...> \\\n   --baselines <NaiveMeanEffectsPredictor,baseline2,...> \\\n   --dataset_name <CTRPv2|CTRPv1|CCLE|GDSC1|GDSC2|BeatAML2|PDX_Bruna|TOYv1|TOYv2|custom_dataset>\n```\n\n## Leaderboard\n\nThis is the current leaderboard of DrEval models:\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/daisybio/drevalpy/development/docs/_static/img/leaderboard_dark.png?v=4\">\n  <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/daisybio/drevalpy/development/docs/_static/img/leaderboard_light.png?v=4\">\n  <img alt=\"DrEvalPy Leaderboard\" src=\"https://raw.githubusercontent.com/daisybio/drevalpy/development/docs/_static/img/leaderboard_dark.png?v=4\">\n</picture>\n\nIn the critical difference diagram, you can see which models outperform which other models significantly. The diagram is based on the average ranks of the models across all datasets and metrics, and the critical difference is calculated using the Nemenyi test. If model A is outside the bar corresponding to model B, it is significantly better (if it lies to the left) or worse (if it lies to the right) than model B.\n\n# ![drevalpy_cd_diagram](https://raw.githubusercontent.com/daisybio/drevalpy/development/docs/_static/img/critical_difference_algorithms_LCO.svg)\n\nFor integrating your own model into DrEval, and to see how it compares to the other models, please refer to the [usage documentation: Benchmark your own model](https://nf-co.re/drugresponseeval/usage#benchmark-your-own-model).\n\n> [!WARNING]\n> Please provide pipeline parameters via the CLI or Nextflow `-params-file` option. Custom config files including those provided by the `-c` Nextflow option can be used to provide any configuration _**except for parameters**_; see [docs](https://nf-co.re/docs/running/run-pipelines#using-parameter-files).\n\nFor more details and further functionality, please refer to the [usage documentation](https://nf-co.re/drugresponseeval/usage) and the [parameter documentation](https://nf-co.re/drugresponseeval/parameters).\n\n## Pipeline output\n\nTo see the results of an example test run with a full size dataset refer to the [results](https://nf-co.re/drugresponseeval/results) tab on the nf-core website pipeline page.\nFor more details about the output files and reports, please refer to the\n[output documentation](https://nf-co.re/drugresponseeval/output).\n\n## Credits\n\nnf-core/drugresponseeval was originally written by Judith Bernett (TUM) and Pascal Iversen (FU\nBerlin).\n\nWe thank the following people for their extensive assistance in the development of this pipeline:\n\n## Contributions and Support\n\nContributors to nf-core/drugresponseeval and the drevalpy PyPI package:\n\n- [Judith Bernett](https://github.com/JudithBernett) (TUM)\n- [Pascal Iversen](https://github.com/PascalIversen) (FU Berlin)\n- [Mario Picciani](https://github.com/picciama) (TUM)\n\nIf you would like to contribute to this pipeline, please see the [contributing guidelines](.github/CONTRIBUTING.md).\n\nFor further information or help, don't hesitate to get in touch on the [Slack `#drugresponseeval` channel](https://nfcore.slack.com/channels/drugresponseeval) (you can join with [this invite](https://nf-co.re/join/slack)).\n\n## Citations\n\nIf you use nf-core/drugresponseeval for your analysis, please cite it using the following DOI: [10.5281/zenodo.14779984](https://doi.org/10.5281/zenodo.14779984)\n\n> Our corresponding publication is at DOI [10.1038/s41467-026-72903-w](https://doi.org/10.1038/s41467-026-72903-w)\n>\n> Bernett, J., Iversen, P., Picciani, M., Wilhelm, M., Baum, K., & List, M. **Critical Evaluation of Drug Response Prediction Models with DrEval.**\n>\n> _Nature Communications_ 17, 4238 (2026).\n\nThe underlying data is available at DOI: [10.5281/zenodo.12633909](https://doi.org/10.5281/zenodo.12633909).\n\nThe underlying python package is drevalpy, availably on [PyPI](https://pypi.org/project/drevalpy/) as standalone, for which we also have an extensive [ReadTheDocs Documentation](https://drevalpy.readthedocs.io/en/latest/).\n\nAn extensive list of references for the tools used by the pipeline can be found in the [`CITATIONS.md`](CITATIONS.md) file.\n\nYou can cite the `nf-core` publication as follows:\n\n> **The nf-core framework for community-curated bioinformatics pipelines.**\n>\n> Philip Ewels, Alexander Peltzer, Sven Fillinger, Harshil Patel, Johannes Alneberg, Andreas Wilm, Maxime Ulysse Garcia, Paolo Di Tommaso & Sven Nahnsen.\n>\n> _Nat Biotechnol._ 2020 Feb 13. doi: [10.1038/s41587-020-0439-x](https://dx.doi.org/10.1038/s41587-020-0439-x).\n",
         "doi": "",
         "edam_operation": [],
         "edam_topic": [],
         "filtered_on": "",
         "id": "1266",
         "keep": false,
-        "latest_version": "6",
+        "latest_version": "7",
         "license": "MIT",
-        "link": "https://workflowhub.eu/workflows/1266?version=6",
+        "link": "https://workflowhub.eu/workflows/1266?version=7",
         "name": "nf-core/drugresponseeval",
         "number_of_steps": 0,
         "projects": [],
@@ -20685,8 +20717,8 @@
         ],
         "tools": [],
         "type": "",
-        "update_time": "2026-10-22",
-        "versions": "6"
+        "update_time": "2026-11-11",
+        "versions": "7"
     },
     {
         "create_time": "2026-03-25",
@@ -21161,7 +21193,7 @@
             "pygenometracks"
         ],
         "type": "",
-        "update_time": "2026-10-26",
+        "update_time": "2026-11-11",
         "versions": "5"
     },
     {
@@ -24773,7 +24805,7 @@
         ],
         "tools": [],
         "type": "",
-        "update_time": "2026-10-07",
+        "update_time": "2026-11-14",
         "versions": "2"
     },
     {
@@ -29388,7 +29420,7 @@
         "tags": [],
         "tools": [],
         "type": "",
-        "update_time": "2026-10-31",
+        "update_time": "2026-11-14",
         "versions": "1"
     },
     {
@@ -30236,21 +30268,21 @@
         "versions": "1"
     },
     {
-        "create_time": "2026-10-14",
+        "create_time": "2026-11-08",
         "creators": [
             "Xuanyi Jiang"
         ],
         "curation_date": "0000-00-00",
         "description": "Historical executable generation of the NEXUS CORTEX lifecycle workflow for the welcome-to-github research software lineage, recorded from repository state 0b2e45c0b2eff554cf40431ce3c53693d86bc290 on 2026-10-07.\r\n\r\nThe workflow implements a graph-based, bounded research lifecycle with read-only validation and guarded application paths. It validates runtime contracts and active ledgers, harvests and projects approved external evidence, canonicalizes the active graph, rebuilds and ingests memory, produces bounded lifecycle projections, verifies graph and runtime integrity, checks the permitted write boundary and repository world-line, and applies only a stable and meaningful candidate.\r\n\r\nThis WorkflowHub record preserves an externally registered historical workflow generation. The canonical implementation history remains in the source Git repository; the corresponding AGI record stores identity, verification and recovery metadata rather than a second executable copy.",
-        "doi": "10.48546/workflowhub.workflow.2332.8",
+        "doi": "10.48546/workflowhub.workflow.2332.9",
         "edam_operation": [],
         "edam_topic": [],
         "filtered_on": "",
         "id": "2332",
         "keep": false,
-        "latest_version": "8",
+        "latest_version": "9",
         "license": "MIT",
-        "link": "https://workflowhub.eu/workflows/2332?version=8",
+        "link": "https://workflowhub.eu/workflows/2332?version=9",
         "name": "NEXUS CORTEX Life Cycle \u2014 welcome-to-github",
         "number_of_steps": 0,
         "projects": [],
@@ -30266,8 +30298,8 @@
         ],
         "tools": [],
         "type": "",
-        "update_time": "2026-10-14",
-        "versions": "7"
+        "update_time": "2026-11-08",
+        "versions": "8"
     },
     {
         "create_time": "2024-06-11",
@@ -32225,7 +32257,7 @@
         "versions": "1"
     },
     {
-        "create_time": "2026-10-31",
+        "create_time": "2026-11-10",
         "creators": [
             "Rand Zoabi",
             "Paul Zierep",
@@ -32239,9 +32271,9 @@
         "filtered_on": "",
         "id": "1270",
         "keep": false,
-        "latest_version": "4",
+        "latest_version": "5",
         "license": "Apache-2.0",
-        "link": "https://workflowhub.eu/workflows/1270?version=4",
+        "link": "https://workflowhub.eu/workflows/1270?version=5",
         "name": "mgnify-amplicon-pipeline-v5-rrna-prediction/main",
         "number_of_steps": 47,
         "projects": [],
@@ -32269,8 +32301,8 @@
             "tp_awk_tool"
         ],
         "type": "",
-        "update_time": "2026-10-31",
-        "versions": "4"
+        "update_time": "2026-11-10",
+        "versions": "5"
     },
     {
         "create_time": "2023-02-15",
@@ -34351,6 +34383,35 @@
         ],
         "type": "",
         "update_time": "2025-09-22",
+        "versions": "1"
+    },
+    {
+        "create_time": "2026-11-15",
+        "creators": [],
+        "curation_date": "0000-00-00",
+        "description": "<h1>\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/images/nf-core-deepmutscan_logo_dark.png\">\n    <img alt=\"nf-core/deepmutscan\" src=\"docs/images/nf-core-deepmutscan_logo_light.png\">\n  </picture>\n</h1>\n\n[![GitHub Actions CI Status](https://github.com/nf-core/deepmutscan/actions/workflows/nf-test.yml/badge.svg)](https://github.com/nf-core/deepmutscan/actions/workflows/nf-test.yml)\n[![GitHub Actions Linting Status](https://github.com/nf-core/deepmutscan/actions/workflows/linting.yml/badge.svg)](https://github.com/nf-core/deepmutscan/actions/workflows/linting.yml)[![AWS CI](https://img.shields.io/badge/CI%20tests-full%20size-FF9900?labelColor=000000&logo=Amazon%20AWS)](https://nf-co.re/deepmutscan/results)[![Cite with Zenodo](http://img.shields.io/badge/DOI-10.5281/zenodo.XXXXXXX-1073c8?labelColor=000000)](https://doi.org/10.5281/zenodo.XXXXXXX)\n[![nf-test](https://img.shields.io/badge/unit_tests-nf--test-337ab7.svg)](https://www.nf-test.com)\n\n[![Nextflow](https://img.shields.io/badge/version-%E2%89%A525.10.4-green?style=flat&logo=nextflow&logoColor=white&color=%230DC09D&link=https%3A%2F%2Fnextflow.io)](https://www.nextflow.io/)\n[![nf-core template version](https://img.shields.io/badge/nf--core_template-4.2.2-green?style=flat&logo=nfcore&logoColor=white&color=%2324B064&link=https%3A%2F%2Fnf-co.re)](https://github.com/nf-core/tools/releases/tag/4.2.2)\n[![run with conda](http://img.shields.io/badge/run%20with-conda-3EB049?labelColor=000000&logo=anaconda)](https://docs.conda.io/en/latest/)\n[![run with docker](https://img.shields.io/badge/run%20with-docker-0db7ed?labelColor=000000&logo=docker)](https://www.docker.com/)\n[![run with singularity](https://img.shields.io/badge/run%20with-singularity-1d355c.svg?labelColor=000000)](https://sylabs.io/docs/)\n[![Launch on Seqera Platform](https://img.shields.io/badge/Launch%20%F0%9F%9A%80-Seqera%20Platform-%234256e7)](https://cloud.seqera.io/launch?pipeline=https://github.com/nf-core/deepmutscan)\n\n[![Get help on Slack](http://img.shields.io/badge/slack-nf--core%20%23deepmutscan-4A154B?labelColor=000000&logo=slack)](https://nfcore.slack.com/channels/deepmutscan)[![Follow on Twitter](http://img.shields.io/badge/twitter-%40nf__core-1DA1F2?labelColor=000000&logo=twitter)](https://twitter.com/nf_core)[![Follow on Mastodon](https://img.shields.io/badge/mastodon-nf__core-6364ff?labelColor=FFFFFF&logo=mastodon)](https://mstdn.science/@nf_core)[![Watch on YouTube](http://img.shields.io/badge/youtube-nf--core-FF0000?labelColor=000000&logo=youtube)](https://www.youtube.com/c/nf-core)\n\n## Introduction\n\n**nf-core/deepmutscan** is a workflow designed for the analysis of deep mutational scanning (DMS) data. DMS enables researchers to experimentally measure the fitness effects of thousands of gene variants simultaneously, helping to classify disease-causing mutants in human and other species populations, and to learn the fundamental rules of protein architecture, small-molecule binding, mRNA splicing, viral evolution and many other quantifiable phenotypes.\n\nWhile DNA synthesis and sequencing technologies have advanced substantially, long open reading frame (ORF) targets still present a major challenge for DMS studies. Shotgun DNA sequencing of randomly fragmented variant libraries can greatly speed up the inference of long ORF mutant fitness landscapes, as it avoids the need for library barcoding or multi-tile sequencing. We have designed `nf-core/deepmutscan` to unlock shotgun sequencing-based DMS studies on long ORFs, and to simplify and standardise the bioinformatics steps involved in processing such experiments \u2013 from read alignment to QC reporting, variant count error correction and fitness landscape inference. Amplicon (tile) sequencing data can be processed in the same way.\n\n![nf-core/deepmutscan workflow](docs/images/pipeline.png)\n\n## Major features\n\n- End-to-end processing of DMS libraries from shotgun (randomly fragmented) or amplicon short-read sequencing\n- Light-weight variant counter with base-quality and read-edge filters, replacing `GATK AnalyzeSaturationMutagenesis`\n- Intrinsic sequencing-error correction of single-nucleotide variant counts from read-linked false double mutants (maximum-likelihood or empirical-Bayes estimators), or from additional wildtype template sequencing\n- Read QC with [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/), aggregated across all libraries with [MultiQC](https://multiqc.info/)\n- Library quality control: mutant count heatmaps, positional coverage and mutation-type biases, sequencing-depth rarefaction\n- Fitness estimation with a built-in log-ratio estimator, plus optional [DiMSum](https://github.com/lehner-lab/DiMSum) and [mutscan](https://github.com/fmicompbio/mutscan)\n- Support for degenerate codon libraries (NNK, NNS, NNH, NNN and combinations), e.g. from nicking mutagenesis, and for custom (position-specific) codon libraries, e.g. from Twist tiles\n- A single, self-contained HTML report per run, and an optional interactive 3D variant effect inspection tool when a wildtype structure is supplied\n- Containerisation via Docker, Singularity/Apptainer and Conda; scalability across HPC and cloud systems\n\nFor more details on the individual steps, please read the [usage documentation](https://nf-co.re/deepmutscan/usage).\n\n## Pipeline summary\n\n1. Input FASTQ checks ([`fq lint`](https://github.com/stjude-rust-labs/fq)) and raw read QC ([`FastQC`](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/))\n2. Merging of overlapping read pairs into consensus reads for base error reduction ([`vsearch --fastq_mergepairs`](https://github.com/torognes/vsearch))\n3. Alignment of the merged reads to the reference ORF ([`BWA-MEM`](https://github.com/lh3/bwa))\n4. Filtering of unmapped, secondary, supplementary, low mapping-quality and indel-containing alignments, sorting and indexing ([`samtools`](https://www.htslib.org/))\n5. Variant counting (custom counter built on [`pysam`](https://github.com/pysam-developers/pysam) and [`polars`](https://pola.rs))\n6. Annotation and filtering of variant counts against the programmed mutagenesis library\n7. Single-nucleotide variant sequencing-error correction via false double mutants or wildtype sequencing\n8. DMS library quality control and visualisation\n9. _Optional:_ fitness estimation from matched input/output samples (default estimator, [`DiMSum`](https://github.com/lehner-lab/DiMSum), [`mutscan`](https://github.com/fmicompbio/mutscan)) and interactive 3D variant effect inspection tool ([`3Dmol.js`](https://3dmol.csb.pitt.edu/))\n10. An all-in-one `deepmutscan_report.html`\n\n## Usage\n\n> [!NOTE]\n> If you are new to Nextflow and nf-core, please refer to [this page](https://nf-co.re/docs/get_started/environment_setup/overview) on how to set-up Nextflow. Make sure to [test your setup](https://nf-co.re/docs/get_started/run-your-first-pipeline) with `-profile test` before running the workflow on actual data.\n\nFirst, prepare a samplesheet with your input data. Each row represents one sequencing library as a pair of FASTQ files (paired-end), annotated with the biological sample, its type in the selection experiment (`input`, `output` or `wildtype`) and the replicate number:\n\n```csv title=\"samplesheet.csv\"\nsample,type,replicate,file1,file2\nORF1,input,1,/reads/input1_R1.fastq.gz,/reads/input1_R2.fastq.gz\nORF1,input,2,/reads/input2_R1.fastq.gz,/reads/input2_R2.fastq.gz\nORF1,output,1,/reads/output1_R1.fastq.gz,/reads/output1_R2.fastq.gz\nORF1,output,2,/reads/output2_R1.fastq.gz,/reads/output2_R2.fastq.gz\n```\n\nSecondly, provide the gene or gene region of interest as a reference FASTA file via `--fasta`, and the nucleotide coordinates of the mutagenised open reading frame within it via `--reading_frame` (1-based, inclusive, e.g. `151-450` for 100 codons starting at nucleotide 151).\n\nNow, you can run the pipeline using:\n\n```bash title=\"example_run.sh\"\nnextflow run nf-core/deepmutscan \\\n   -profile <docker/singularity/.../institute> \\\n   --input ./samplesheet.csv \\\n   --fasta ./ref.fa \\\n   --reading_frame 151-450 \\\n   --outdir ./results\n```\n\nAdd `--fitness` to estimate variant fitness from the input and output samples, and see the [usage documentation](https://nf-co.re/deepmutscan/usage) and the [parameter documentation](https://nf-co.re/deepmutscan/parameters) for all other options.\n\n> [!WARNING]\n> Please provide pipeline parameters via the CLI or Nextflow `-params-file` option. Custom config files including those provided by the `-c` Nextflow option can be used to provide any configuration _**except for parameters**_; see [docs](https://nf-co.re/docs/usage/getting_started/configuration#custom-configuration-files).\n\n## Pipeline output\n\nTo see the results of an example test run with a full size dataset refer to the [results](https://nf-co.re/deepmutscan/results) tab on the nf-core website pipeline page.\nFor more details about the output files and reports, please refer to the [output documentation](https://nf-co.re/deepmutscan/output).\n\n## Credits\n\nnf-core/deepmutscan was originally written by [Benjamin Wehnert](https://github.com/BenjaminWehnert1008) and [Maximilian Stammnitz](https://github.com/MaximilianStammnitz) at the [Centre for Genomic Regulation (CRG), Barcelona](https://www.crg.eu/), with the generous support of an EMBO Long-term Postdoctoral Fellowship, the Erasmus+ programme and a Marie Sk\u0142odowska-Curie grant by the European Union.\n\nWe thank the following people for their extensive assistance in the development of this pipeline:\n\n- [Fei Sang](https://github.com/fei-hgi) (Wellcome Sanger Institute) \u2013 original variant counting implementation\n- [J\u00falia Mir-Pedrol](https://github.com/mirpedrol) (CRG) \u2013 nf-core development guidance and code review\n- [Matthias H\u00f6rtenhuber](https://github.com/mashehu) (SciLifeLab) \u2013 nf-core development guidance and code review\n\n## Contributions and Support\n\nIf you would like to contribute to this pipeline, please see the [contributing guidelines](docs/CONTRIBUTING.md).\n\nFor further information or help, don't hesitate to get in touch on the [Slack `#deepmutscan` channel](https://nfcore.slack.com/channels/deepmutscan) (you can join with [this invite](https://nf-co.re/join/slack)). Bug reports and feature requests are welcome as GitHub [issues](https://github.com/nf-core/deepmutscan/issues).\n\nFor scientific discussions around the use of this pipeline (e.g. on experimental design or sequencing data requirements), please feel free to get in touch with us directly:\n\n- Benjamin Wehnert \u2014 wehnertbenjamin@gmail.com\n- Maximilian Stammnitz \u2014 maximilian.stammnitz@crg.eu\n\n## Citations\n\nIf you use `nf-core/deepmutscan` for your analysis, please cite it as follows:\n\n> Wehnert B, et al. _bioRxiv_ preprint (in preparation).\n\n<!-- Add the Zenodo DOI after the first release: -->\n<!-- If you use nf-core/deepmutscan for your analysis, please cite it using the following doi: [10.5281/zenodo.XXXXXX](https://doi.org/10.5281/zenodo.XXXXXX) -->\n\nAn extensive list of references for the tools used by the pipeline can be found in the [`CITATIONS.md`](CITATIONS.md) file.\n\nYou can cite the `nf-core` publication as follows:\n\n> **The nf-core framework for community-curated bioinformatics pipelines.**\n>\n> Philip Ewels, Alexander Peltzer, Sven Fillinger, Harshil Patel, Johannes Alneberg, Andreas Wilm, Maxime Ulysse Garcia, Paolo Di Tommaso & Sven Nahnsen.\n>\n> _Nat Biotechnol._ 2020 Feb 13. doi: [10.1038/s41587-020-0439-x](https://dx.doi.org/10.1038/s41587-020-0439-x).\n",
+        "doi": "",
+        "edam_operation": [],
+        "edam_topic": [],
+        "filtered_on": "",
+        "id": "2386",
+        "keep": false,
+        "latest_version": "1",
+        "license": "MIT",
+        "link": "https://workflowhub.eu/workflows/2386?version=1",
+        "name": "nf-core/deepmutscan",
+        "number_of_steps": 0,
+        "projects": [],
+        "source": "WorkflowHub",
+        "tags": [
+            "community-workflow",
+            "deep-mutational-scanning",
+            "genotype-phenotype",
+            "shotgun-sequencing"
+        ],
+        "tools": [],
+        "type": "",
+        "update_time": "2026-11-15",
         "versions": "1"
     },
     {
@@ -37186,7 +37247,7 @@
         "versions": "1"
     },
     {
-        "create_time": "2026-11-03",
+        "create_time": "2026-11-10",
         "creators": [
             "Rand Zoabi",
             "Paul Zierep",
@@ -37200,9 +37261,9 @@
         "filtered_on": "",
         "id": "1273",
         "keep": false,
-        "latest_version": "4",
+        "latest_version": "5",
         "license": "Apache-2.0",
-        "link": "https://workflowhub.eu/workflows/1273?version=4",
+        "link": "https://workflowhub.eu/workflows/1273?version=5",
         "name": "mgnify-amplicon-pipeline-v5-its/main",
         "number_of_steps": 30,
         "projects": [],
@@ -37221,8 +37282,8 @@
             "tp_awk_tool"
         ],
         "type": "",
-        "update_time": "2026-11-03",
-        "versions": "4"
+        "update_time": "2026-11-10",
+        "versions": "5"
     },
     {
         "create_time": "2021-11-10",
@@ -38133,6 +38194,40 @@
         "versions": "1"
     },
     {
+        "create_time": "2026-11-13",
+        "creators": [
+            "Daniel Arend",
+            "Jonathan Bauer",
+            "Dominik Brilhaus",
+            "Eli Chadwick",
+            "Anne Fouilloux",
+            "Jean Iaquinta",
+            "Kevin Schneider",
+            "Paul Slavin",
+            "Heinrich Lukas Weil"
+        ],
+        "curation_date": "0000-00-00",
+        "description": "# ERA5 retrieval (`era5_retrieve.py`)\n\nStreams hourly ERA5 climate surface data from ECMWF's ARCO Zarr store and saves only daily or monthly statistics (mean, sum, min, max, and monthly means of daily min/max). It works with any variable in the store, any years from 1940, and any region, given either as a bounding box or as the area around a set of occurrence points (such as GBIF output). The hourly data is never written to disk.\n\n## Description\n\nStreams hourly ERA5 single-level data from ECMWF's ARCO Zarr store and saves\ndaily or monthly statistics. Only the requested statistics are written; the\nhourly data are never saved. \n\n- Any surface variable of the store (`t2m`, `d2m`, `tp`, `msl`, `u10`, `v10`,\n  `ssrd`, ...), any years from 1940.\n- Area: one or more boxes `--area N W S E` (repeat for several boxes), or the\n  store tiles around occurrence points (`--occurrences`, `--buffer`).\n- `--frequency monthly` (default): `mean`, `sum`, `daily_min_mean`,\n  `daily_max_mean`, `daily_max_max` \u2192\n  `era5_<var>_<stat>_monthly_<start>_<end>.nc`.\n- `--frequency daily`: `mean`, `sum`, `min`, `max` per UTC day \u2192\n  `era5_<var>_<stat>_daily_<year>.nc`.\n- Native ERA5 units (K, m, ...). ARCO only offers hourly ERA5: daily and\n  monthly values are computed from it and reproduce the CDS daily-statistics\n  and monthly-means products.\n- Requests are paced and retried, because the store rate-limits per CDS key.\n\n## Preparation: CDS API credentials\n\nCopy `credentials.example.json` to `credentials.json` and put your CDS\nAPI key in it (from https://cds.climate.copernicus.eu/profile):\n\n```json\n{\"key\": \"your-cds-api-key\"}\n```\n\n`cds_credentials.json` is in .gitignore to prevent it from being committed accidentally.\n\nIf the workflow is run directly without `--credentials-file`, the script falls back to the environment variable `CDSAPI_KEY` or the configuration file `~/.cdsapirc`.\n\n## Use script directly with CLI arguments\n\nWith example parameters:\n\n```bash\npython era5_retrieve.py \\\n  --variables '{\"t2m\": [\"mean\", \"daily_min_mean\", \"daily_max_mean\"], \"tp\": [\"sum\"]}' \\\n  --frequency monthly \\\n  --years 2020 2020 \\\n  --area 41.5 -4.5 39.5 -2.5 \\\n  --credentials-file credentials.json \\\n  --output-dir results\n```\n\n## Validate the CWL Tool description\n\n```bash\ncwltool --validate workflow.cwl\n```\n\n## Run the Tool\n\nSmall test (2020, a 2 \u00d7 2\u00b0 box around Madrid, about 30 s):\n\n```bash\ncwltool workflow.cwl test_era5_retrieve.yml\n```\n\nOutputs, one named output per file (monthly): \n\n* `t2m_mean`\n* `t2m_daily_min_mean`\n* `t2m_daily_max_mean`\n* `t2m_daily_max_max`\n* `tp_sum`\n\nEach is optional and present only if requested in `variables`. The default\n`variables` give `t2m_mean`, `t2m_daily_min_mean`, `t2m_daily_max_mean` and\n`tp_sum`: these are the necessary files for the ERA5_Preprocessing workflow.\n\nA `Dockerfile` is provided which is the recommended environment to run the workflow.",
+        "doi": "10.48546/workflowhub.workflow.2379.3",
+        "edam_operation": [],
+        "edam_topic": [],
+        "filtered_on": "",
+        "id": "2379",
+        "keep": false,
+        "latest_version": "3",
+        "license": "CC-BY-4.0",
+        "link": "https://workflowhub.eu/workflows/2379?version=3",
+        "name": "ERA5 Data Retrieval",
+        "number_of_steps": 0,
+        "projects": [],
+        "source": "WorkflowHub",
+        "tags": [],
+        "tools": [],
+        "type": "",
+        "update_time": "2026-11-13",
+        "versions": "3"
+    },
+    {
         "create_time": "2020-10-07",
         "creators": [
             "Pjotr Prins",
@@ -38501,6 +38596,42 @@
         ],
         "type": "",
         "update_time": "2025-10-14",
+        "versions": "1"
+    },
+    {
+        "create_time": "2026-11-09",
+        "creators": [
+            "Ernst Johnson",
+            "Chenyu Jin",
+            "Benjamin Guinet",
+            "Jamie Alumbaugh",
+            "Nathan Martin"
+        ],
+        "curation_date": "0000-00-00",
+        "description": "![alt text](https://github.com/NathanACO/metaJAM/blob/metaJAM-nf/metaJAM_logo.png) \r\n\r\n# metaJAM v1.1.1 nf version\r\n\r\nMetagenomic Pipeline for ancient DNA analysis performed at the Centre for Palaeogenetics, Stockholm University.\r\n\r\nThis pipeline performs processing and analysis of metagenomic data, starting from paired-end fastq files or any intermediate files used in the pipeline if not the entire workflow is desired to run.\r\n\r\n\r\n> [!NOTE]\r\n> Further developments will be included in metaJAM v1.2.2 in mid 2026:\r\n> - Microbial version of the pipeline to investigate the microbial signal, notably using a parallel competitive mapping against the GTDB database\r\n\r\n\r\n\r\n## Overview of the pipeline\r\n![alt text](https://github.com/NathanACO/metaJAM/blob/metaJAM-nf/metaJAM_diagram_v1.1.1.png)\r\n\r\n## Required program\r\nnextflow (developed in v25.10.4 (e.g., `ml nextflow/25.10.4` in cluster dardel), Please DO NOT USE v26 (config file syntax conflict))\\\r\nconda\\\r\npython3\\\r\npip3\\\r\ngit #optional, as for downloading the repository from github with git. No need for git if you download zip of this repository directly \\\r\ntaxadb #this can be downloaded with pip3 with the tutorial script below\r\n\r\n## Download this pipeline\r\nrun in your Linux terminal\r\n```\r\ngit clone https://github.com/NathanACO/metaJAM.git\r\ncd metaJAM\r\n```\r\n\r\n## setup script to run before running Nextflow\r\n\r\nRun the tutorial script once before running anything to set up the taxonomy files (taxdump.tar.gz names.dmp nodes.dmp), taxadb.sqlite (for MMseqs2) and placeholders for the flexibility of the pipeline (NO_FILE*) in the assets/ directory.\r\n```\r\ncd assets\r\n#prepare NCBI taxonomy information: names.dmp and nodes.dmp\r\ncurl -O https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump.tar.gz\r\ntar -xzf taxdump.tar.gz names.dmp nodes.dmp\r\n#prepare MMseq2 taxonomy database\r\npython -m venv taxadb\r\nsource taxadb/bin/activate\r\npip3 install taxadb\r\ntaxadb download -o taxadb -t nucl\r\ntaxadb create -i taxadb --dbname taxadb.sqlite -d nucl --fast\r\ncd ../ \r\n```\r\n\r\n## A thorough explanation of the rationale of each process of the workflow is in [wiki](https://github.com/NathanACO/metaJAM/wiki)\r\n## To specify input and parameter setting in `nextflow.config`, please refer to [input readme](https://github.com/NathanACO/metaJAM/blob/ae8b5cfbb4d81ccd059c7ae82d2ea0aeb371e042/README.input_nextflow.config.md)\r\n\r\n\r\n## How to launch it:\r\n\r\nAfter running the setup script and having your nextflow.config (or other name) ready, you could load nextflow v25.10.4 (ml  nextflow/25.10.4) and avoid nextflow v26, and then run\\\r\n`nextflow run main.nf -profile conda -c other_name_nextflow.config`\\\r\nIf you want to resume, add also `-resume`, and `--with-trace` for output a trace*.txt reporting memory and time for each process. You can omit the  `-c nextflow.config`, if you are running exactly nextflow.config. Else if your nextflow.config is named in another way, you need to specify with the config name `-c other_name_nextflow.config`.\r\n\r\n> [!TIP]\r\n> You can run it with the Test samples present in the test folder of this github.\r\n\r\n## Plot output\r\nDifferent plots are created by metaJAM and require a metadata file (see in test for metadata format and content).\\\r\nEach plots presented below have been run on the test dataset present in the github, which has been created by generated simulated ancient dataset using gargammel tool (Renaud, G., Hangh\u00f8j, K., Willerslev, E., & Orlando, L. (2017). gargammel: a sequence simulator for ancient DNA. Bioinformatics, 33(4), 577-579.).\\\r\nThe first plot created gives an overview of the metrics of the samples processed:\r\n![alt text](https://github.com/NathanACO/metaJAM/blob/metaJAM-nf/reads_per_step_dots.png)\r\n&copy; Martin et al. 2026 plot, peatbog paper - draft\r\n\r\nThe second plot gives the taxa composition as a bubble plot or a heatmap (can be chosen in the config file).\\\r\nThe user can filter the minimum number of reads required to plot a taxa in the config file.\\\r\nIt will produce two different plots each time, one for the genus and one for the family, plotting in alphabetical order the Viridiplantae taxa first and then the Opisthokonta taxa.\r\n\r\n![alt text](https://github.com/NathanACO/metaJAM/blob/metaJAM-nf/bamdam_genus_bubbleplot_reads.png)\r\n![alt text](https://github.com/NathanACO/metaJAM/blob/metaJAM-nf/bamdam_genus_heatmap.png)\r\n&copy; Inspired by Tyler Murchie and Scott Cocker plot - in revision\r\n\r\n> [!NOTE]\r\n> An extra plot containing information about the damage is also produced for supplementary information.\\\r\n> The damage is coded by 3 colours (red,orange,green).\\\r\n> Green if for this taxa the damage are superior to 5% and if the damage percent is within the interval (+-5%) of the mean of the damage of the 3 main taxa that have more than 5% damage.\\\r\n> If only one condition is met, the associated damage column will be orange and the user will be invited to investigate deeper this taxa.\r\n> \r\n> ![alt text](https://github.com/NathanACO/metaJAM/blob/metaJAM-nf/bamdam_genus_bubbleplot_damage.png)\r\n>\r\n> An MMseqs2 evaluation plot can also be produced for supplementary information.\\\r\n> A taxon is colored in green if more than 40% of the hits for those reads have the same assignment at the genus level for both MMSeqs2 and bamdam.\r\nIt is colored in yellow if 40% of the hits are correct only to the family level between those detected in MMSeqs2 and bamdam, blue if the percentage of no hits is higher than 50%, and red if all of the conditions are not met. If not investigate it will be colored in grey.\r\n> ![alt text](https://github.com/NathanACO/metaJAM/blob/metaJAM-nf/mmseqs_evaluation_bubbleplot.png)\r\n\r\n## Citation\r\n\r\nIf you use this pipeline in your research, please cite the underlying tools:\r\n\r\n- **fastp**: Chen et al.,(2018), *Bioinformatics*\r\n- **PRINSEQ**: Schmieder and Edwards, (2011) *Bioinformatics*\r\n- **SGA**: Simpson and Durbin, (2012), *Genome Research*\r\n- **Kraken2**: Wood et al., (2019), *Genome Biology*\r\n- **GENEX**: Oskolokov et al. (2025), *GigaScience*\r\n- **Bowtie 2**: Langmead and Salzberg, (2012), *Nature Methods*\r\n- **SAMtools**: Li et al., (2009), *Bioinformatics*\r\n- **ngsLCA**: Wang et al. (2022), *Methods in Ecology and Evolution*\r\n- **bamdam**: de Sanctis et al. (2025), *Genome Biology*\r\n- **filterBAM**: https://github.com/genomewalker/bam-filter\r\n- **MMseqs2**: Steinegger and S\u00f6ding (2017), *Nature Biotechnology*\r\n\r\n_Why metaJAM?_\\\r\nWe like to see ancient sediment metagenomic data as a jar of jam:\r\n- You never really know what is inside\r\n- It is most of the time quite old and degraded\r\n- We are always seeking for some help to open the jar and define which fruits were used to make it!\r\n\r\n&copy; Ernst Johnson; Chenyu Jin; Jamie Alumbaugh; Nathan Martin | Centre for Palaeogenetics - Stockholm University\r\n",
+        "doi": "10.48546/workflowhub.workflow.2374.1",
+        "edam_operation": [],
+        "edam_topic": [],
+        "filtered_on": "",
+        "id": "2374",
+        "keep": false,
+        "latest_version": "1",
+        "license": "MIT",
+        "link": "https://workflowhub.eu/workflows/2374?version=1",
+        "name": "metaJAM",
+        "number_of_steps": 0,
+        "projects": [],
+        "source": "WorkflowHub",
+        "tags": [
+            "bioinformatics",
+            "metagenomics",
+            "nextflow",
+            "workflows",
+            "ancient-dna"
+        ],
+        "tools": [],
+        "type": "",
+        "update_time": "2026-11-09",
         "versions": "1"
     },
     {
@@ -40157,7 +40288,7 @@
         ],
         "curation_date": "0000-00-00",
         "description": "# SciWIn Client Demo\r\nA basic Workflow using [SciWIn Client (`s4n`)](https://github.com/fairagro/m4.4_sciwin_client) can be created with the commands hereafter. This guide assumes the usage of unix based operating systems, however Windows should work, too. If not please [open an issue](https://github.com/fairagro/m4.4_sciwin_client/issues/new).\r\n\r\n## Installation\r\n[![GitHub Release](https://img.shields.io/github/v/release/fairagro/m4.4_sciwin_client)](https://github.com/fairagro/m4.4_sciwin_client/releases/latest)\r\n\r\nThe latest Version of `s4n` can be installed using the following command:\r\n```\r\ncurl --proto '=https' --tlsv1.2 -LsSf https://fairagro.github.io/m4.4_sciwin_client/get_s4n.sh | sh \r\n```\r\n\r\nSpecific Versions can be installed with the following command, by replacing the version tag with a version of choice.\r\n```\r\ncurl --proto '=https' --tlsv1.2 -LsSf https://github.com/fairagro/m4.4_sciwin_client/releases/download/v0.6.0/s4n-installer.sh | sh\r\n```\r\n\r\nThe Installation can be verified using `s4n -V`.\r\nSciWIn Client comes with a lot of commands. In this demo the `init`, `tool`, `workflow` and `execute` commands will be showcased.\r\n```\r\n _____        _  _    _  _____         _____  _  _               _   \r\n/  ___|      (_)| |  | ||_   _|       /  __ \\| |(_)             | |   \r\n\\ `--.   ___  _ | |  | |  | |  _ __   | /  \\/| | _   ___  _ __  | |_  \r\n `--. \\ / __|| || |/\\| |  | | | '_ \\  | |    | || | / _ \\| '_ \\ | __|\r\n/\\__/ /| (__ | |\\  /\\  / _| |_| | | | | \\__/\\| || ||  __/| | | || |_  \r\n\\____/  \\___||_| \\/  \\/  \\___/|_| |_|  \\____/|_||_| \\___||_| |_| \\__|\r\n\r\nClient tool for Scientific Workflow Infrastructure (SciWIn)\r\nDocumentation: https://fairagro.github.io/m4.4_sciwin_client/\r\n\r\nVersion: 0.8.0\r\n\r\nUsage: s4n <COMMAND>\r\n\r\nCommands:\r\n  init         Initializes project folder structure and repository\r\n  create       Creates a new CWL File or Workflow\r\n  list         Lists either all CWL Files or details to a given file [aliases: ls]\r\n  remove       Removes a CWL File from the workflows Directory [aliases: rm]\r\n  connect      Connects a workflow node\r\n  disconnect   Disconnects a workflow node\r\n  visualize    Visualizes a workflow\r\n  save         Saves a workflow\r\n  install      Installs a workflow as submodule [aliases: i]\r\n  uninstall    Removes an installed workflow\r\n  execute      Execution of CWL Files locally or on remote servers [aliases: ex]\r\n  annotate     Annotate CWL files\r\n  completions  Generate shell completions\r\n  help         Print this message or the help of the given subcommand(s)\r\n\r\nOptions:\r\n  -h, --help     Print help\r\n  -V, --version  Print version\r\n```\r\n\r\n## Demo Repository\r\nThe [Demo Repository](https://github.com/fairagro/sciwin_client_demo) mainly contains two folders `data` and `code`. The result workflow will  download election data, print election results as `barplot`, convert input data into a `geojson` file, and maps it onto the `geojson` data resulting in a `choropleth` graph. See the images for the final outputs.\r\n\r\n![result](https://raw.githubusercontent.com/fairagro/m4.4_sciwin_client_demo/refs/heads/complete_run/election.png)\r\n![result](https://raw.githubusercontent.com/fairagro/m4.4_sciwin_client_demo/refs/heads/complete_run/plot.png)\r\n\r\n## Creating the CommandLineTools\r\nFirst of all, we start, by creating a new `s4n` project.\r\n```\r\ns4n init\r\n```\r\n\r\nCWL mainly describes processes in CommandLineTools which later can be connected into Workflows. CommandLineTools are essentially wrappers for commands that would usually be executed in the command line. CWL uses a special YAML structure to describe those processes.\r\n\r\n```cwl\r\n#!/usr/bin/env cwl-runner\r\n\r\ncwlVersion: v1.2\r\nclass: CommandLineTool\r\n\r\nrequirements:\r\n- class: DockerRequirement\r\n  dockerPull: osgeo/gdal:ubuntu-full-3.6.3\r\n- class: InlineJavascriptRequirement\r\n\r\ninputs:\r\n- id: districts_geojson\r\n  type: string\r\n  default: districts.geojson\r\n  inputBinding:\r\n    position: 0\r\n- id: data_braunschweig\r\n  type: Directory\r\n  default:\r\n    class: Directory\r\n    location: ../../data/braunschweig\r\n  inputBinding:\r\n    position: 1\r\n- id: lco\r\n  type: string\r\n  default: RFC7946=YES\r\n  inputBinding:\r\n    prefix: -lco\r\n\r\noutputs:\r\n- id: districts\r\n  type: File\r\n  outputBinding:\r\n    glob: $(inputs.districts_geojson)\r\n\r\nbaseCommand: ogr2ogr\r\n```\r\n\r\nHowever it may is tedious to write those files by hand. That is where `s4n` comes to the rescue. A Command that would normally happen on the command line just needs to be prefixed with `s4n tool create`. Examples can be found at the [documentation](https://fairagro.github.io/m4.4_sciwin_client/examples/tool-creation/).\r\n\r\nTo create Tools based of the Python scripts in the `code` Directory a virtual environment needs to be created using \r\n```bash\r\npython3 -m venv .venv\r\nsource .venv/bin/activate\r\npip install plotly pandas kaleido==0.2.1 matplotlib\r\n```\r\n\r\nThe next step is to download election data using a series of API calls for which luckily already a script exists. The script downloads the data from `votemanager.kdo.de` and writes the `csv` to stdout.\r\nA tool can be created easily be prefixing the python call. However we also need to escape the `>` using a backslash for it to properly work\r\n```bash\r\ns4n create python code/download_election_data.py --ags 03101000 --election \"Bundestagswahl 2025\" \\> data.csv\r\n```\r\n\r\nThe written csv file lacks the header information of which party results correspond to which column. Therefore we use the `get_feature_info` script and create a tool as follows:\r\n```bash\r\ns4n create python code/get_feature_info.py --data data.csv\r\n```\r\n\r\nWith this information the election plot can be outputted. The script `plot_election` does the job and accepts the json file from `get_feature_info` and the aforementioned csv.\r\n```bash\r\ns4n create -c Dockerfile --container-tag pyplot --enable-network python code/plot_election.py --data data.csv --features features.json\r\n```\r\n\r\n## Combining the Tools into a workflow\r\nThe three CommandLineTools now will be combined into an automated pipeline. A barebones workflow can be generated by using the create command. This command is optional, as the `connect` command also triggers creation of a workflow.\r\n```bash\r\ns4n create --name demo\r\n```\r\nThe workflow that is being built looks like the graph represented in the following image\r\n\r\n![the resulting workflow](https://raw.githubusercontent.com/fairagro/m4.4_sciwin_client_demo/refs/heads/complete_run/workflow_interim.svg)\r\n\r\nFirst of all a connection between the donwload script and `get_feature_info` as well as `plot_election` is created by\r\n```bash\r\ns4n connect demo --from download_election_data/data --to get_feature_info/data\r\ns4n connect demo --from download_election_data/data --to plot_election/data\r\n```\r\nTo get the correct values for `--from` and `--to` the command `s4n tool ls -a` can be used.\r\n\r\nThe plot tool also needs the feature information, so the next step is to combine both tools:\r\n\r\n```bash\r\ns4n connect demo --from get_feature_info/features --to plot_election/features\r\n```\r\n\r\nTo use the workflow it needs inputs and outputs. In this demo's tools there are a lot of inputs, but some have default values. That means only neccesary connections have to be made. For the creation of inputs the `--from` value neeeds to start with `@inputs`.\r\n```bash\r\ns4n connect demo --from @inputs/election --to download_election_data/election\r\ns4n connect demo --from @inputs/ags --to download_election_data/ags\r\n```\r\n\r\nAdding outputs follows the same logic, however `@outputs` is used in `--to`\r\n```bash\r\ns4n connect demo --from plot_election/election --to @outputs/bar\r\n```\r\n\r\nSaving the workflow is neccessary to have a clean git history for further creating CommandLineTools.\r\n```bash\r\ns4n save demo\r\n```\r\n\r\nDuring the creation `s4n workflow status demo` can always be used to view the connection status.\r\n\r\n## Adding additional steps\r\nThe next tool uses [GDAL](https://de.wikipedia.org/wiki/Geospatial_Data_Abstraction_Library) to convert the shape file in `data/braunschweig` to a `geojson` file. The Command one would typically use would be\r\n```bash\r\nogr2ogr districts.geojson data/braunschweig -lco RFC7946=YES\r\n# s4n command\r\ns4n create ogr2ogr districts.geojson data/braunschweig -lco RFC7946=YES\r\n```\r\n\r\nHowever we might not have gdal installed on our machine, so we request `s4n` to not run the command. Therefore `s4n` needs to be told what file will be written with `-o` and for later usage a docker image is specified using `-c`.\r\n```bash\r\ns4n create --name shp2geojson --no-run -o districts.geojson -c osgeo/gdal:ubuntu-full-3.6.3 ogr2ogr districts.geojson data/braunschweig -lco RFC7946=YES\r\n```\r\nThis correct creation of the tool can be tested using \r\n```bash\r\ns4n execute local workflows/shp2geojson/shp2geojson.cwl \r\n```\r\n\r\nThe outputted file now needs to be committed to move on\r\n```bash\r\ngit add . && git commit -m \"Execution of shp2geojson\"\r\n```\r\n\r\nIn the last step the plot tool needs to be created. In this tool `plotly` is used to create a `choropleth` graph based on the outputs of the preceeding steps. The packages installed to the virtual environment are needed here. A Dockerfile to use is already in the repo.\r\n```bash\r\ns4n create -c Dockerfile --container-tag pyplot --enable-network python code/plot_map.py --geojson districts.geojson --csv data.csv --feature F3 --on gebiet-nr:BEZNUM --output_name plot\r\n```\r\n\r\n## Adding the new tools to Workflow\r\nThe two new tools will now be added to the workflow.\r\n\r\n![the final resulting workflow](https://raw.githubusercontent.com/fairagro/m4.4_sciwin_client_demo/refs/heads/complete_run/workflow_final.svg)\r\n\r\nKnowing that the plot tool needs the geojson, a connection from the geojson output to the corresponding input can be created.\r\n```bash\r\ns4n connect demo --from shp2geojson/districts --to plot_map/geojson\r\n```\r\n\r\nAs the plot step also needs the election data, another connection can be created.\r\n```bash\r\ns4n connect demo --from download_election_data/data --to plot_map/csv\r\n```\r\n\r\nNow we need to wire up the inputs. The input connections for `ags`, `election`, `feature`and `shapes` will be created as follows:\r\n```bash\r\ns4n connect demo --from @inputs/feature --to plot_map/feature\r\ns4n connect demo --from @inputs/shapes --to shp2geojson/data_braunschweig\r\n```\r\n\r\nThe last step is to add the output to the workflow. Only the `png` file is desired.\r\n```bash\r\ns4n connect demo --from plot_map/plot --to @outputs/map\r\n```\r\n\r\nThe final workflow needs to be saved.\r\n```bash\r\ns4n save demo\r\n```\r\n\r\n## Workflow Execution\r\nWe want to clean our workspace by deleting the outputs we created by creating the CommandLineTools. For the execution a parameter file will be created using the `s4n execute make-template` command.\r\n```bash\r\ns4n execute make-template workflows/demo/demo.cwl > inputs.yml\r\n```\r\n\r\nThis needs to be updated using the correct input values:\r\n```yaml\r\nags: \"03101000\"\r\nelection: Bundestagswahl 2025\r\nshapes:\r\n  class: Directory\r\n  location: data/braunschweig\r\nfeature: F3\r\n```\r\n\r\nExecution of the Workflow is done by\r\n```bash\r\ns4n execute local workflows/demo/demo.cwl inputs.yml\r\n```",
-        "doi": "",
+        "doi": "10.48546/workflowhub.workflow.1808.2",
         "edam_operation": [],
         "edam_topic": [],
         "filtered_on": "",
@@ -40173,7 +40304,7 @@
         "tags": [],
         "tools": [],
         "type": "",
-        "update_time": "2026-08-24",
+        "update_time": "2026-11-13",
         "versions": "2"
     },
     {
@@ -40691,6 +40822,43 @@
         "versions": "1"
     },
     {
+        "create_time": "2026-11-10",
+        "creators": [
+            "Ziad Al-Bkhetan",
+            "Thomas Litfin"
+        ],
+        "curation_date": "0000-00-00",
+        "description": "# wisps: *w*orkflow for *i*nteraction *s*creening by *p*redicting *s*tructures\r\n\r\n## Introduction\r\n\r\n**Australian-Structural-Biology-Computing/wisps** is a bioinformatics pipeline for interaction screening by structure prediction. It ingests a samplesheet of sequence entries (FASTA format) and generates interaction sets based on all-vs-all or group-based modes. The workflow then runs MSA/search and structure prediction with supported models (Boltz, ColabFold, and/or AlphaFold3), computes confidence/interface metrics (including IPSAE), and produces per-interaction result files alongside run-level reports such as MultiQC.\r\n\r\n- Validate and parse sequence inputs from the samplesheet (FASTA).\r\n- Build interaction sets in manual, all-vs-all or group-based screening mode.\r\n- Generated paired MSAs for each interaction using ColabFold Search powered by MMSeqs2.\r\n- Run structure prediction for each interaction with the configured model(s) (Boltz, ColabFold, and/or AlphaFold3).\r\n- Compute confidence and interface metrics, including IPSAE.\r\n- Aggregate run metrics and QC summaries in [`MultiQC`](http://multiqc.info/).\r\n\r\n![Workflow Diagram](docs/images/wf.jpg)\r\n\r\n## Usage\r\n\r\n> [!NOTE]\r\n> If you are new to Nextflow, please familiarise yourself with nextflow before running the workflow on actual data.\r\n\r\nBefore running the pipeline, several resources must be available on the computing infrastructure:\r\n\r\n- **All** tools require the ColabFold MMSeqs2 databases which can be set up following the instructions available [here](https://github.com/sokrypton/ColabFold/tree/main?tab=readme-ov-file#generating-msas-for-large-scale-structurecomplex-predictions)\r\n- **ColabFold** requires AlphaFold2 model parameters available from the download [link](https://storage.googleapis.com/alphafold/alphafold_params_2022-12-06.tar).\r\n- **Boltz** requires model parameters for the Boltz-2 structure prediction model ([link](https://huggingface.co/boltz-community/boltz-2/resolve/main/boltz2_conf.ckpt)), affinity prediction model ([link](https://huggingface.co/boltz-community/boltz-2/resolve/main/boltz2_aff.ckpt)) and CCD files ([link](https://huggingface.co/boltz-community/boltz-2/resolve/main/mols.tar))\r\n- **AlphaFold3** requires model parameters which must be requested from Google Deepmind.\r\n\r\n> [!WARNING]\r\n> Users must obtain the AlphaFold3 weights directly from DeepMind according to their [terms of use](https://github.com/google-deepmind/alphafold3/blob/main/WEIGHTS_TERMS_OF_USE.md) and [prohibited use policy](https://github.com/google-deepmind/alphafold3/blob/main/WEIGHTS_PROHIBITED_USE_POLICY.md). Please ensure you comply with all terms and conditions before using AlphaFold3. For more information about AlphaFold3 usage and requirements, please refer to the [official AlphaFold3 repository](https://github.com/google-deepmind/alphafold3).\r\n\r\nThe location of individual resources can be set using an infrastructure configuration file. As an alternative, resources can be set up with the following file structure:\r\n\r\n```bash\r\nWISPS-DB/\r\n\u251c\u2500\u2500 colabfold_envdb/\r\n\u251c\u2500\u2500 colabfold_uniref30/\r\n\u2514\u2500\u2500 params\r\n    \u251c\u2500\u2500 af3.bin\r\n    \u251c\u2500\u2500 alphafold_params_2022-12-06/\r\n    \u251c\u2500\u2500 boltz2_aff.ckpt\r\n    \u251c\u2500\u2500 boltz2_conf.ckpt\r\n    \u2514\u2500\u2500 mols/\r\n```\r\n\r\nUsing this structure, resources can be found by assigning `--db <PATH/TO/WISPS-DB>`\r\n\r\nTo run the pipeline with the minimum required inputs:\r\n\r\n1. Create a samplesheet CSV with at least `id` and `sequence` columns (`type` and `group` are optional).\r\n2. Put one sequence entry per row; `sequence` must point to a `.fasta` file. Each fasta file may contain multiple entities which will be considered as a single unit when building candidate interactions.\r\n3. Run `nextflow run` with `--input`, `--outdir`, and a compute `-profile`.\r\n\r\n`samplesheet.csv`:\r\n\r\n```csv\r\nid,sequence,type,group\r\nS1,./data/S1.fasta,protein,A\r\nS2,./data/S2.fasta,protein,B\r\nS3,./data/S3.fasta,rna,A\r\n```\r\n\r\nIn this file, each row represents a single unit (can contain multiple sequences) to be used to generate candidate interactions.\r\n\r\nNow, to model molecules in group A partnered with molecules in group B you can run the pipeline using:\r\n\r\n```bash\r\nnextflow run Australian-Structural-Biology-Computing/wisps \\\r\n   --input ./samplesheet.csv \\\r\n   --outdir ./results \\\r\n   --db WISPS-DB \\\r\n   --mode A-B \\\r\n   -profile docker\r\n```\r\n\r\n> [!WARNING]\r\n> Please provide pipeline parameters via the CLI or Nextflow `-params-file` option. Custom config files, including those provided by the `-c` Nextflow option can be used to provide any configuration _**except for parameters**_.\r\n\r\nFor more details, further functionalities, and pipeline parameters, please refer to the [usage documentation](docs/usage.md).\r\n\r\n## Pipeline output\r\n\r\nFor more details about the output files and reports, please refer to the\r\n[output documentation](docs/output.md).\r\n\r\n## Credits\r\n\r\nAustralian-Structural-Biology-Computing/wisps was originally written by [Ziad Al-Bkhetan](https://github.com/ziadbkh) and [Thomas Litfin](https://github.com/tlitfin/).\r\n\r\nWe thank the following people for their extensive assistance in the development of this pipeline:\r\n\r\n## Contributions and Support\r\n\r\nIf you would like to contribute to this pipeline or for further information/help please reach out to us.\r\n\r\n## Citations\r\n",
+        "doi": "",
+        "edam_operation": [
+            "http://edamontology.org/operation_2492",
+            "http://edamontology.org/operation_0474"
+        ],
+        "edam_topic": [
+            "http://edamontology.org/topic_0128",
+            "http://edamontology.org/topic_2814",
+            "http://edamontology.org/topic_0082"
+        ],
+        "filtered_on": "",
+        "id": "2375",
+        "keep": false,
+        "latest_version": "1",
+        "license": "MIT",
+        "link": "https://workflowhub.eu/workflows/2375?version=1",
+        "name": "wisps",
+        "number_of_steps": 0,
+        "projects": [],
+        "source": "WorkflowHub",
+        "tags": [],
+        "tools": [
+            "boltz",
+            "colabfold"
+        ],
+        "type": "",
+        "update_time": "2026-11-10",
+        "versions": "1"
+    },
+    {
         "create_time": "2023-08-02",
         "creators": [
             "Nachida Tadrent",
@@ -41197,7 +41365,7 @@
         ],
         "tools": [],
         "type": "",
-        "update_time": "2026-11-06",
+        "update_time": "2026-11-14",
         "versions": "21"
     },
     {
@@ -41375,7 +41543,7 @@
         "versions": "3"
     },
     {
-        "create_time": "2026-11-02",
+        "create_time": "2026-11-10",
         "creators": [
             "Samuel Chaffron",
             "Audrey Bihouee",
@@ -41385,8 +41553,8 @@
             "Hugo Lefeuvre"
         ],
         "curation_date": "0000-00-00",
-        "description": "MAGNETO is an automated snakemake workflow dedicated to MAG (Metagenome-Assembled Genomes) reconstruction from **short**, **hybrid** and/or **long** metagenomic reads. \r\n\r\nIt includes a fully-automated assembly step informed by optimal clustering of metagenomic distances, and implements complementary genome binning strategies, for improving MAG recovery.\r\n\r\n# What's new in MAGNETO V2\r\n\r\nGeneral Configuration :\r\n - Added a slurm profile (big_dataset) with resources tailored for large datasets (samples > 5Go).\r\n - New Snakemake parameters in config: conda-prefix (reuse Conda environments), latency-wait, and keep-going.\r\n - Directly adjusted resources in the slurm profile.\r\n - Updated samples.yaml to specify assembly type (short-reads, long-reads, hybrid).\r\n - New parameters to config.yaml.\r\n\r\nRun :\r\n - Added an onstart file with Magneto command launch details + a file logging Conda tool versions.\r\n - Used pin files for environments to lock all dependencies.\r\n\r\nQC :\r\n - Added fastplong for long-reads.\r\n - Added a script to remove tags post-fastqscreen.\r\n\r\nAssembly:\r\n - Added metaflye for long-read assembly.\r\n - Added minimap2 for long-read mapping.\r\n - Added polypolish and pypolca for hybrid polishing (long-reads + short-reads).\r\n - Fixed HCA.py for co-assembly (resolved sample name mismatches when sample name and sample run sizes differed).\r\n\r\n\r\n# Key Features\r\n\r\n - **Quality Control (QC)**: Automatically assesses the quality and the contamination of input reads, ensuring that low-quality data are filtered out to improve downstream analyses.\r\n\r\n - **Assembly**: MAGNETO uses high-performance assembler to construct contigs from metagenomic short, hybrid and/or long reads.\r\n\r\n - **Gene Catalogue**: Extracts and compiles gene sequences from contigs, providing a comprehensive gene catalog directly after assembly.\r\n\r\n - **Binning**: Groups contigs into probable genomes using composition signatures and abundance profiles.\r\n\r\n - **Genomes collection**: Provides taxonomic and functional annotation of reconstructed MAGs.\r\n\r\n - **Metatranscriptomic mapping**: Mapping of transcriptomic reads on genes collection and/or MAGs obtained with previous analysis.\r\n\r\n# Documentation\r\n\r\n**Full description in the [wiki pages](https://gitlab.univ-nantes.fr/bird_pipeline_registry/magneto/-/wikis/home)**\r\n\r\n# Citing the pipeline \r\nChurcheward B, Millet M, Bihou\u00e9e A, Fertin G, Chaffron S.<br>\r\nMAGNETO: An Automated Workflow for Genome-Resolved Metagenomics.<br>\r\nmSystems. 2022 Jun 15:e0043222. doi: [10.1128/msystems.00432-22](https://doi.org/10.1128/msystems.00432-22)\r\n",
-        "doi": "10.48546/workflowhub.workflow.1815.7",
+        "description": "MAGNETO\r\n==============================================\r\n\r\nMAGNETO is an automated snakemake workflow dedicated to MAG (Metagenome-Assembled Genomes) reconstruction from **short**, **hybrid** and/or **long** metagenomic reads. \r\n\r\nIt includes a fully-automated assembly step informed by optimal clustering of metagenomic distances, and implements complementary genome binning strategies, for improving MAG recovery.\r\n\r\n# What's new in MAGNETO V2\r\n\r\nGeneral Configuration :\r\n - Added a slurm profile (big_dataset) with resources tailored for large datasets (samples > 5Go).\r\n - New Snakemake parameters in config: conda-prefix (reuse Conda environments), latency-wait, and keep-going.\r\n - Directly adjusted resources in the slurm profile.\r\n - Updated samples.yaml to specify assembly type (short-reads, long-reads, hybrid).\r\n - New parameters to config.yaml.\r\n\r\nRun :\r\n - Added an onstart file with Magneto command launch details + a file logging Conda tool versions.\r\n - Used pin files for environments to lock all dependencies.\r\n\r\nQC :\r\n - Added fastplong for long-reads.\r\n - Added a script to remove tags post-fastqscreen.\r\n\r\nAssembly:\r\n - Added metaflye for long-read assembly.\r\n - Added minimap2 for long-read mapping.\r\n - Added polypolish and pypolca for hybrid polishing (long-reads + short-reads).\r\n - Fixed HCA.py for co-assembly (resolved sample name mismatches when sample name and sample run sizes differed).\r\n\r\n\r\n# Key Features\r\n\r\n - **Quality Control (QC)**: Automatically assesses the quality and the contamination of input reads, ensuring that low-quality data are filtered out to improve downstream analyses.\r\n\r\n - **Assembly**: MAGNETO uses high-performance assembler to construct contigs from metagenomic short, hybrid and/or long reads.\r\n\r\n - **Gene Catalogue**: Extracts and compiles gene sequences from contigs, providing a comprehensive gene catalog directly after assembly.\r\n\r\n - **Binning**: Groups contigs into probable genomes using composition signatures and abundance profiles.\r\n\r\n - **Genomes collection**: Provides taxonomic and functional annotation of reconstructed MAGs.\r\n\r\n - **Metatranscriptomic mapping**: Mapping of transcriptomic reads on genes collection and/or MAGs obtained with previous analysis.\r\n\r\n# Documentation\r\n\r\n**Full description in the [wiki pages](https://gitlab.univ-nantes.fr/bird_pipeline_registry/magneto/-/wikis/home)**\r\n\r\n# Citing the pipeline \r\nChurcheward B, Millet M, Bihou\u00e9e A, Fertin G, Chaffron S.<br>\r\nMAGNETO: An Automated Workflow for Genome-Resolved Metagenomics.<br>\r\nmSystems. 2022 Jun 15:e0043222. doi: [10.1128/msystems.00432-22](https://doi.org/10.1128/msystems.00432-22)\r\n",
+        "doi": "",
         "edam_operation": [
             "http://edamontology.org/operation_3672",
             "http://edamontology.org/operation_0525",
@@ -41403,9 +41571,9 @@
         "filtered_on": "",
         "id": "1815",
         "keep": false,
-        "latest_version": "7",
+        "latest_version": "8",
         "license": "GPL-3.0",
-        "link": "https://workflowhub.eu/workflows/1815?version=7",
+        "link": "https://workflowhub.eu/workflows/1815?version=8",
         "name": "MAGNETO (automated workflow dedicated to MAG reconstruction)",
         "number_of_steps": 0,
         "projects": [],
@@ -41439,8 +41607,8 @@
             "semibin"
         ],
         "type": "",
-        "update_time": "2026-11-02",
-        "versions": "7"
+        "update_time": "2026-11-10",
+        "versions": "8"
     },
     {
         "create_time": "2025-06-02",
@@ -43492,6 +43660,40 @@
         ],
         "type": "",
         "update_time": "2026-05-13",
+        "versions": "2"
+    },
+    {
+        "create_time": "2026-11-13",
+        "creators": [
+            "Daniel Arend",
+            "Jonathan Bauer",
+            "Dominik Brilhaus",
+            "Eli Chadwick",
+            "Anne Fouilloux",
+            "Jean Iaquinta",
+            "Kevin Schneider",
+            "Paul Slavin",
+            "Heinrich Lukas Weil"
+        ],
+        "curation_date": "0000-00-00",
+        "description": "# Analysis\n\nTests whether more frequent temperatures above historical baselines predict local extinction of species, following Soroye et al. (2020). It calculates Thermal and Precipitation Exposure Indices (baseline and change) for each species and grid cell, then fits a mixed-effects logistic regression of local extinction on these indices and sampling effort. The output is a summary of the model coefficients and a forest plot.\n\n## Description\n\nCWL tools for the Analysis part of the WeatherXBiodiversity replication\n(Soroye et al. 2020). The input occurrences are the output of\n`GBIF_Preprocessing` (generic cleaning of the GBIF download); step 01 adds the\nstudy's definitions (continent, erroneous observations, periods, seasons).\n\nEvery tool is parameterized: study-level values\n(species inputs, grid, years, seed, sampling settings) come from the CWL\ninputs, never from the code. Method definitions (aggregations, formulas,\ncontinent codes) stay in the code, matching the paper.\n\n## Steps\n\n| Step | Script | CWL | Inputs | Output |\n|------|--------|-----|--------|--------|\n| 01 | `01_study_records.py` | `01-study-records.cwl` | cleaned GBIF occurrences (`GBIF_Preprocessing`), erroneous observations (assay), continent | `clean_records.csv` |\n| 02 | `02_presence_absence.py` | `02-presence-absence.cwl` | step 01 + grid + periods | `presence_absence.npz` |\n| 03 | `03_sampling_continent.py` | `03-sampling-continent.cwl` | step 01 + grid | `sampling_continent.npz` |\n| 04 | `04_climate_tei_pei.py` | `04-climate-tei-pei.cwl` | step 02 + climate dir + years + grid | `climate_tei_pei.npz` |\n| 05a | `05a_build_data_glmm.py` | `05a-build-data-glmm.cwl` | steps 02+03+04 | `dataGLMM_extinction.parquet` |\n| 05b | `05b_glmm_extinction.py` | `05b-glmm-extinction.cwl` | step 05a + seed | `logistic_summary.csv`, `posterior_vb_summary.csv` |\n| 05 | `05_bayesian_glmm.py` | `05-bayesian-glmm.cwl` | step 05a + seed + sampling settings | `posterior_summary.csv`, `posterior.nc` |\n| 06 | `06_forest_plot.py` | `06-forest-plot.cwl` | summary CSV (05b/05) + title/subtitle/color | `forest.png` |\n\nStep 04 reads monthly climate files `<source>_{tmp,tmn,tmx,pre}_monthly_<start>_<end>.nc`\n(`--climate-source`, default `era5`: the output of\n`workflows/ERA5_Preprocessing/era5_to_climate.py`). Another climate source\n(e.g. Destination Earth Climate DT) only needs to write the same files.\n\n## Reproducibility notes\n\n- 01\u201304, 05a: deterministic, validated bit-for-bit against the replication\n  outputs.\n- 05b: `fit_vb` is stochastic (mean-field VI); `--seed` is required and\n  passed as `rng`, giving bit-for-bit reproducible fits.\n- 05: MCMC is stochastic; `--seed` is required. Reproducibility is\n  statistical (posterior means match across runs/containers within MCMC\n  noise), not bit-for-bit.\n- 06: deterministic for a given matplotlib version (validated pixel-for-\n  pixel against `plot_forest.py`).\n\n## Container\n\nSingle `Dockerfile` for all steps (micromamba + python + pandas/numpy/\npyproj/scipy/xarray/netcdf4 + pyarrow/statsmodels/bambi for step 05 +\nmatplotlib for step 06).",
+        "doi": "10.48546/workflowhub.workflow.2382.2",
+        "edam_operation": [],
+        "edam_topic": [],
+        "filtered_on": "",
+        "id": "2382",
+        "keep": false,
+        "latest_version": "2",
+        "license": "CC-BY-4.0",
+        "link": "https://workflowhub.eu/workflows/2382?version=2",
+        "name": "Soroye et al. (2020) Climate Exposure and Local Extinction Analysis",
+        "number_of_steps": 7,
+        "projects": [],
+        "source": "WorkflowHub",
+        "tags": [],
+        "tools": [],
+        "type": "",
+        "update_time": "2026-11-13",
         "versions": "2"
     },
     {
@@ -50456,6 +50658,42 @@
         "versions": "1"
     },
     {
+        "create_time": "2026-11-13",
+        "creators": [
+            "Peng Zhi"
+        ],
+        "curation_date": "0000-00-00",
+        "description": "A reproducible R workflow that audits stability across defensible omics analysis variants. It installs microbiomeAudit 0.4.0, validates a standard CSV input, computes direction and significance consistency, assigns robustness classes, and generates an HTML report, result table, manifest and figure. Example data and automated tests are included. This workflow supports the manuscript \"Gut microbiota and type 2 diabetes: causal and predictive claims are not demonstrably robust in a preregistered evidence audit.\"",
+        "doi": "10.48546/workflowhub.workflow.2385.1",
+        "edam_operation": [],
+        "edam_topic": [
+            "http://edamontology.org/topic_3174"
+        ],
+        "filtered_on": "",
+        "id": "2385",
+        "keep": false,
+        "latest_version": "1",
+        "license": "MIT",
+        "link": "https://workflowhub.eu/workflows/2385?version=1",
+        "name": "microbiomeAudit evidence-audit workflow",
+        "number_of_steps": 0,
+        "projects": [],
+        "source": "WorkflowHub",
+        "tags": [
+            "mendelian randomisation",
+            "r package",
+            "decision curve analysis",
+            "evidence audit",
+            "microbiome",
+            "reproducibility",
+            "type 2 diabetes"
+        ],
+        "tools": [],
+        "type": "",
+        "update_time": "2026-11-13",
+        "versions": "1"
+    },
+    {
         "create_time": "2026-08-17",
         "creators": [],
         "curation_date": "0000-00-00",
@@ -53262,7 +53500,7 @@
         ],
         "tools": [],
         "type": "",
-        "update_time": "2026-10-17",
+        "update_time": "2026-11-09",
         "versions": "23"
     },
     {
@@ -53310,7 +53548,7 @@
         "tags": [],
         "tools": [],
         "type": "",
-        "update_time": "2026-10-28",
+        "update_time": "2026-11-11",
         "versions": "1"
     },
     {
@@ -53577,6 +53815,40 @@
         "versions": "1"
     },
     {
+        "create_time": "2026-11-13",
+        "creators": [
+            "Daniel Arend",
+            "Jonathan Bauer",
+            "Dominik Brilhaus",
+            "Eli Chadwick",
+            "Anne Fouilloux",
+            "Jean Iaquinta",
+            "Kevin Schneider",
+            "Paul Slavin",
+            "Heinrich Lukas Weil"
+        ],
+        "curation_date": "0000-00-00",
+        "description": "# ERA5 preprocessing (`era5_to_climate.py`)\n\nConverts the monthly ERA5 statistics into the four climate variables the analysis expects: mean, minimum and maximum temperature in \u00b0C and total precipitation in mm. Its output format is the common climate input, so another source (such as Destination Earth Climate DT or CMIP6) can replace this step by writing the same files.\n\n## Description\n\nTurns the monthly ERA5 statistics from `ERA5_Retrieval` into the four monthly\nclimate variables used by the analysis (the exposure indices of Soroye et al.\n2020): monthly mean, mean daily minimum and mean daily maximum temperature, and\nmonthly total precipitation. Background on the method:\n[Methods](https://annefou.github.io/weatherxbiodiversity/methods/) and\n[Phase 3](https://annefou.github.io/weatherxbiodiversity/phase3/) of the\nWeatherXBiodiversity Jupyter Book.\n\n| Output | Definition | From ERA5 (`ERA5_Retrieval` output) | Units |\n|---|---|---|---|\n| `tmp` | monthly mean temperature (2 m) | `t2m_mean` | \u00b0C |\n| `tmn` | monthly mean of daily minimum temperature | `t2m_daily_min_mean` | \u00b0C |\n| `tmx` | monthly mean of daily maximum temperature | `t2m_daily_max_mean` | \u00b0C |\n| `pre` | monthly total precipitation | `tp_sum` | mm |\n\nOutput files: `era5_<var>_monthly_<start>_<end>.nc`, dimensions\n`(time, lat, lon)`, geodetic WGS84 latitude / longitude; `<start>` / `<end>` are\nthe first and last year in the data. Daily minimum / maximum come from the full\nhourly cycle (UTC days), not from a few snapshots per day.\n\n## The common climate input format\n\nThe analysis reads only these four files. Any other climate source\n(Destination Earth Climate DT, CMIP6, ...) can replace ERA5 by writing the same\nfiles: same variable names, definitions, `units` attribute (`degC` for\n`tmp`/`tmn`/`tmx`, `mm` for `pre`) and dimensions `(time, lat, lon)`, one value\nper calendar month (points outside the area of interest may be NaN). Notes for\nClimate DT: its monthly stream has `avg_2t` and `avg_tprate` (enough for `tmp`\nand `pre`) but no monthly minimum / maximum temperature, so `tmn` / `tmx` come\nfrom hourly `2t` or a delta method on the historical source; precipitation is\n`avg_tprate` in kg m\u207b\u00b2 s\u207b\u00b9 (monthly mm = rate \u00d7 86400 \u00d7 days); its HEALPix grid\nmust be resampled to geodetic WGS84 with `healpix-geo` / `healpix-resample`\n(`ellipsoid=\"WGS84\"`), never by matching cell ids.\n\n## Use script directly with CLI arguments\n\nWith the four files from `ERA5_Retrieval`:\n\n```bash\npython era5_to_climate.py \\\n  --t2m-mean era5_t2m_mean_monthly_1940_2014.nc \\\n  --t2m-daily-min-mean era5_t2m_daily_min_mean_monthly_1940_2014.nc \\\n  --t2m-daily-max-mean era5_t2m_daily_max_mean_monthly_1940_2014.nc \\\n  --tp-sum era5_tp_sum_monthly_1940_2014.nc \\\n  --output-dir results\n```\n\nor with a directory holding them: `--input-dir <dir> --years 1940 2014`.\n\n## Validate the CWL Tool description\n\n```bash\ncwltool --validate workflow.cwl\n```\n\n## Run the Tool\n\nSmall test on the 2020 outputs of the `ERA5_Retrieval` test job (a 2 \u00d7 2\u00b0 box\naround Madrid), stored in `test_data/` (a few seconds, no credentials needed):\n\n```bash\ncwltool workflow.cwl test_era5_preprocessing.yml\n```\n\nInputs are the four `File`s named as the `ERA5_Retrieval` tool's outputs\n(`t2m_mean`, `t2m_daily_min_mean`, `t2m_daily_max_mean`, `tp_sum`); outputs are\none named `File` per variable: `tmp`, `tmn`, `tmx`, `pre`.\n\nThe tool's `Dockerfile` is used as a hint (`cwltool` with Docker, or\n`cwltool --podman`).\n",
+        "doi": "10.48546/workflowhub.workflow.2383.2",
+        "edam_operation": [],
+        "edam_topic": [],
+        "filtered_on": "",
+        "id": "2383",
+        "keep": false,
+        "latest_version": "2",
+        "license": "CC-BY-4.0",
+        "link": "https://workflowhub.eu/workflows/2383?version=2",
+        "name": "ERA5 Data Preprocessing",
+        "number_of_steps": 0,
+        "projects": [],
+        "source": "WorkflowHub",
+        "tags": [],
+        "tools": [],
+        "type": "",
+        "update_time": "2026-11-13",
+        "versions": "2"
+    },
+    {
         "create_time": "2025-06-02",
         "creators": [],
         "curation_date": "0000-00-00",
@@ -53620,6 +53892,40 @@
         "type": "",
         "update_time": "2025-06-02",
         "versions": "1"
+    },
+    {
+        "create_time": "2026-11-13",
+        "creators": [
+            "Daniel Arend",
+            "Jonathan Bauer",
+            "Dominik Brilhaus",
+            "Eli Chadwick",
+            "Anne Fouilloux",
+            "Jean Iaquinta",
+            "Kevin Schneider",
+            "Paul Slavin",
+            "Heinrich Lukas Weil"
+        ],
+        "curation_date": "0000-00-00",
+        "description": "# GBIF preprocessing (`clean_occurrences.py`)\n\nCleans the occurrence table of a GBIF download (GBIF_Retrieval output) for any taxon and any area: keeps and renames the needed columns, removes the genus from species names, drops records without coordinates, species or year, and optionally applies a year range and the study's taxonomic curation tables (dropped taxa, synonyms, species list). Its output, occurrences_clean.csv, is the occurrence input of the Analysis.\n\n## Description\n\nGeneric cleaning of the occurrence table from `GBIF_Retrieval` (DWCA\n`occurrence.txt`, or a SIMPLE_CSV download), for any taxon and any area:\n\n1. keeps and renames the needed columns: `gbifID` \u2192 `LYID`,\n   `decimalLatitude` / `decimalLongitude` \u2192 `latitude` / `longitude`, `year`,\n   `species`, `countryCode` \u2192 `country`, `stateProvince` \u2192 `state_prov`;\n2. species names without each record's genus, lowercase\n   (`Bombus terrestris` \u2192 `terrestris`);\n3. drops records without coordinates, species or year, and, if `years` is\n   given, records outside `START <= year < END`;\n4. optional taxonomic curation, each from a data file of the study (e.g. in\n   an assay): `drop_species` (taxa removed), `synonyms` (merged into valid\n   names), `species_list` (only these species kept).\n\nOutput: `occurrences_clean.csv` with columns `species`, `latitude`,\n`longitude`, `year`, `LYID`, `country`, `state_prov`.\n\nStudy-specific definitions (for Soroye et al. 2020: continent, erroneous\nobservations, periods, seasons) are not part of this step; they belong to the\nanalysis.\n\n## Use script directly with CLI arguments\n\n```bash\npython clean_occurrences.py \\\n  --occurrences ../../runs/GBIF_Retrieval/results/gbif_data/occurrence.txt \\\n  --years 1901 2015 \\\n  --drop-species ../../studies/BombusIberia_SupplementaryFiles/resources/bombus_drop_species.tsv \\\n  --synonyms ../../studies/BombusIberia_SupplementaryFiles/resources/bombus_synonyms.tsv \\\n  --species-list ../../studies/BombusIberia_SupplementaryFiles/resources/Kerr_et_al2015_spplist.csv \\\n  --output-dir results\n```\n\nOnly `--occurrences` is required.\n\n## Validate the CWL Tool description\n\n```bash\ncwltool --validate workflow.cwl\n```\n\n## Run the Tool\n\nTest job on the `GBIF_Retrieval` run results, generic cleaning only:\n\n```bash\ncwltool workflow.cwl test_gbif_preprocessing.yml\n```\n\nThe tool's `Dockerfile` is used as a hint (`cwltool` with Docker, or\n`cwltool --podman`). The study run is in\n[runs/GBIF_Preprocessing](../../runs/GBIF_Preprocessing).\n",
+        "doi": "10.48546/workflowhub.workflow.2384.2",
+        "edam_operation": [],
+        "edam_topic": [],
+        "filtered_on": "",
+        "id": "2384",
+        "keep": false,
+        "latest_version": "2",
+        "license": "CC-BY-4.0",
+        "link": "https://workflowhub.eu/workflows/2384?version=2",
+        "name": "GBIF Data Preprocessing",
+        "number_of_steps": 0,
+        "projects": [],
+        "source": "WorkflowHub",
+        "tags": [],
+        "tools": [],
+        "type": "",
+        "update_time": "2026-11-13",
+        "versions": "2"
     },
     {
         "create_time": "2026-02-16",
@@ -55499,7 +55805,7 @@
             "snpsift_filter"
         ],
         "type": "",
-        "update_time": "2026-11-06",
+        "update_time": "2026-11-09",
         "versions": "9"
     },
     {
@@ -57761,6 +58067,40 @@
         "type": "",
         "update_time": "2026-05-13",
         "versions": "1"
+    },
+    {
+        "create_time": "2026-11-13",
+        "creators": [
+            "Daniel Arend",
+            "Jonathan Bauer",
+            "Dominik Brilhaus",
+            "Eli Chadwick",
+            "Anne Fouilloux",
+            "Jean Iaquinta",
+            "Kevin Schneider",
+            "Paul Slavin",
+            "Heinrich Lukas Weil"
+        ],
+        "curation_date": "0000-00-00",
+        "description": "# GBIF Retrieval\n\nRetrieves species occurrence records from GBIF as a citable snapshot. It can take either a GBIF download DOI, to fetch an existing snapshot again, or a query (taxon, countries, quality filters) that it submits to the GBIF Download API, which mints a new DOI. The output is the occurrence table in GBIF's SIMPLE_CSV format plus a metadata file with the DOI, licence and citation.\n\n## Description\n\nThis workflow chains two steps to: \n\n1. submit a GBIF download request and \n2. download the GBIF data based on the metadata provided by the request.\n\nParameters:\n* credentials_file: a file with GBIF credentials, see [Preparation: GBIF credentials](#preparation-gbif-credentials)\n* genus: Genus name recorded in metadata, e.g. \"Bombus\"\n* genus_key: GBIF taxon key for the genus, e.g. 1340278\n* countries: Country codes to include, e.g. \"PT,ES\"\n* output_meta: File name for output metadata file (default: \"results/metadata.json\")\n* has_coordinate: Require coordinates (default: true).\n* has_geospatial_issue: Include records with geospatial issues (default: false).\n* poll_interval_sec: Seconds between status checks (default: 30).\n* poll_timeout_sec: Maximum wait in seconds (default: 3600).\n\n## Preparation: GBIF credentials\n\nCreate a `gbif_credentials.json` from the template `gbif_credentials.example.json` (git-ignored; never commit it). \nThe credentials file \"gbif_credentials.json\" should contain GBIF credentials like this\n```json\n{\"user\": \"your_gbif_username\", \"password\": \"your_password\", \"email\": \"your.email@example.com\"}\n```\n\nIt is added to gitignore to prevent sharing credentials. \n\n## Test 1: Use refactored script with CLI arguments\n\n```bash\npython 00-submit-request.py \\\n  --credentials-file gbif_credentials.json \\\n  --genus Bombus \\\n  --genus-key 1340278 \\\n  --countries ES PT \\\n  --has-coordinate \\\n  --no-has-geospatial-issue \\\n  --output_meta metadata.json \\\n  --poll-interval-sec 30 \\\n  --poll-timeout-sec 3600\n\npython 01-download.py metadata.json\n```\n\n## Test 2: Use refactored script with CLI arguments + Dockerfile\n\n### build image from dockerfile\n\n```bash\ndocker build -t gbif_retrieval .\ndocker run --rm gbif_retrieval python --version\n```\n\n### run as before, but with docker\n\n```bash\ntouch metadata.json\nchmod 777 metadata.json # allows docker to write to the file\ndocker run --rm \\\n  -v \"$(pwd):/app\" \\\n  -w /app \\\n  gbif_retrieval \\\n  python 00-submit-request.py \\\n    --credentials-file gbif_credentials.json \\\n    --genus Bombus \\\n    --genus-key 1340278 \\\n    --countries ES PT\n```\n\n## Test the two steps CWL\n\n```bash\ncwltool --outdir results 00-submit-request.cwl test-00-submit-request.yml\n```\n\n```bash\ncwltool --outdir results 01-download.cwl test-01-download.yml\n```\n\n## Execute the workflow\n\nThe [workflow.cwl](workflow.cwl) is executed as a [run.cwl](../../runs/GBIF_Retrieval/run.cwl) in `../../runs/GBIF_Retrieval/run.cwl` with job data provided by [run.yml](../../runs/GBIF_Retrieval/run.yml).\n\n\n## Print workflow to img\n\n```bash\ncwltool --print-dot workflow.cwl | dot -Tsvg > workflow.svg\n```\n\n![workflow.svg](./workflow.svg)\n",
+        "doi": "10.48546/workflowhub.workflow.2380.3",
+        "edam_operation": [],
+        "edam_topic": [],
+        "filtered_on": "",
+        "id": "2380",
+        "keep": false,
+        "latest_version": "3",
+        "license": "CC-BY-4.0",
+        "link": "https://workflowhub.eu/workflows/2380?version=3",
+        "name": "GBIF Data Retrieval",
+        "number_of_steps": 2,
+        "projects": [],
+        "source": "WorkflowHub",
+        "tags": [],
+        "tools": [],
+        "type": "",
+        "update_time": "2026-11-13",
+        "versions": "3"
     },
     {
         "create_time": "2023-11-09",

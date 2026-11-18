@@ -46,17 +46,17 @@
   "http://schema.org/description": "Simple workflow description for ImageJ, step-by-step description for delineating focal adhesions, count and characterize their positions.  \nMeasurement of dynamics is not involved.\n",
   "http://schema.org/featureList": [
     {
-      "@id": "http://edamontology.org/operation_Image_segmentation"
+      "@id": "http://edamontology.org/operation_Image_thresholding"
     },
     {
-      "@id": "http://edamontology.org/operation_Image_thresholding"
+      "@id": "http://edamontology.org/operation_Image_segmentation"
     }
   ],
   "http://schema.org/name": "Quantitative analysis of focal adhesions",
   "http://schema.org/publisher": [
     "Berrin Ozdil",
-    "Devrim Pesen-Okvur",
-    "Utku Horzum"
+    "Utku Horzum",
+    "Devrim Pesen-Okvur"
   ],
   "http://schema.org/softwareRequirements": [
     {

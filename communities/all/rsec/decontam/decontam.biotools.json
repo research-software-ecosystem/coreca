@@ -62,7 +62,7 @@
     "language": [
         "R"
     ],
-    "lastUpdate": "2026-11-12T14:12:59.958648Z",
+    "lastUpdate": "2026-11-16T11:28:20.893741Z",
     "license": "Artistic-2.0",
     "link": [
         {
@@ -99,16 +99,7 @@
     "owner": "shadi.m",
     "publication": [
         {
-            "doi": "10.1101/221499",
-            "type": [
-                "Preprint"
-            ]
-        },
-        {
-            "doi": "10.1186/s40168-018-0605-2",
-            "type": [
-                "Primary"
-            ]
+            "doi": "10.1101/221499"
         }
     ],
     "toolType": [

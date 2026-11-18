@@ -47,12 +47,12 @@
   "http://schema.org/license": "Non-Profit Open Software License 3.0 (NPOSL-3.0)",
   "http://schema.org/name": "Microscope autopilot",
   "http://schema.org/publisher": [
-    "William C. Lemon",
-    "Eugene Myers",
-    "Michael Coleman",
-    "Loic A. Royer",
+    "Philipp J. Keller",
     "Yinan Wan",
+    "Michael Coleman",
+    "Eugene Myers",
     "Raghav K. Chhetri",
-    "Philipp J. Keller"
+    "William C. Lemon",
+    "Loic A. Royer"
   ]
 }

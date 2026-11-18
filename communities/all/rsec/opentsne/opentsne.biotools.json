@@ -54,7 +54,7 @@
     "language": [
         "Python"
     ],
-    "lastUpdate": "2026-11-12T14:41:40.059004Z",
+    "lastUpdate": "2026-11-16T11:30:29.275332Z",
     "license": "GPL-3.0",
     "name": "openTSNE",
     "owner": "Pub2Tools",
@@ -63,13 +63,7 @@
             "doi": "10.1038/s41592-018-0308-4"
         },
         {
-            "doi": "10.18637/jss.v109.i03"
-        },
-        {
-            "doi": "10.1101/731877",
-            "type": [
-                "Preprint"
-            ]
+            "doi": "10.1101/731877"
         }
     ],
     "toolType": [

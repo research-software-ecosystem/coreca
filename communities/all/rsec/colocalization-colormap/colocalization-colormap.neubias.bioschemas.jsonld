@@ -44,10 +44,10 @@
     }
   ],
   "http://schema.org/citation": [
-    "Github",
     {
       "@id": "https://link.springer.com/article/10.1007/s12021-020-09465-9"
     },
+    "Github",
     "Link to article in Neuroinformatics Journal",
     {
       "@id": "https://github.com/AdamGorlewicz/Colocalization-colormap"
@@ -67,11 +67,11 @@
   "http://schema.org/license": "GPL3",
   "http://schema.org/name": "Colocalization Colormap",
   "http://schema.org/publisher": [
-    "Grzegorz M. Wilczynski, ",
-    "Christophe Mulle",
-    "Katarzyna Krawczyk",
-    "Adam Gorlewicz",
     "Pawel Trzaskoma",
-    " Andrzej A. Szczepankiewicz"
+    " Andrzej A. Szczepankiewicz",
+    "Adam Gorlewicz",
+    "Katarzyna Krawczyk",
+    "Grzegorz M. Wilczynski, ",
+    "Christophe Mulle"
   ]
 }

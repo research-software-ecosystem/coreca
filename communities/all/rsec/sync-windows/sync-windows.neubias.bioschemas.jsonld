@@ -44,8 +44,8 @@
   "http://schema.org/publisher": [
     "Walter Joachim",
     "Schindelin Johannes",
-    "Kelly Patrick",
-    "Hiner Mark"
+    "Hiner Mark",
+    "Kelly Patrick"
   ],
   "http://schema.org/softwareRequirements": {
     "@id": "http://biii.eu/node/38"

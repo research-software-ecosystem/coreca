@@ -38,10 +38,10 @@
   "http://schema.org/license": "MIT",
   "http://schema.org/name": "BaSiCPy",
   "http://schema.org/publisher": [
-    "Tim Morello",
-    "Nicholas Schaub",
     "Yohsuke T. Fukai",
     "Tingying Peng ",
+    "Nicholas Schaub",
+    "Tim Morello",
     "Yu Liu"
   ],
   "http://schema.org/softwareRequirements": {

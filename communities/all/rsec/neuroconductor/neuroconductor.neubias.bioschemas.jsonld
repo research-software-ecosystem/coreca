@@ -49,13 +49,13 @@
   },
   "http://schema.org/name": "Neuroconductor",
   "http://schema.org/publisher": [
+    "Adi Gherman",
+    "Brandon Whitcher",
     "Ciprian Crainiceanu",
     "Muschelli  John",
-    "Brandon Whitcher",
+    "Brian Avants",
     "Jean-Philippe Fortin",
-    "Brian Caffo",
-    "Adi Gherman",
-    "Brian Avants"
+    "Brian Caffo"
   ],
   "http://schema.org/softwareRequirements": {
     "@id": "http://biii.eu/node/1284"
