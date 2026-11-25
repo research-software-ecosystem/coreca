@@ -21,7 +21,7 @@ bib:
 - key: doi
   value: 10.1093/bioinformatics/btt087
 popcon:
-- insts: 135
-  olde: 101
-  recent: 29
-  vote: 5
+- insts: 137
+  olde: 99
+  recent: 34
+  vote: 4

@@ -14,8 +14,7 @@ registries:
 - entry: bioconductor-xvector
   name: conda:bioconda
 popcon:
-- insts: 1235
-  nofiles: 1
-  olde: 971
-  recent: 122
-  vote: 141
+- insts: 1246
+  olde: 987
+  recent: 99
+  vote: 160

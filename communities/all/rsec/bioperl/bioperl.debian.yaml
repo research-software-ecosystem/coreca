@@ -29,7 +29,7 @@ tags:
 - tag: role::devel-lib
 - tag: role::shared-lib
 popcon:
-- insts: 253
-  olde: 206
-  recent: 26
-  vote: 21
+- insts: 257
+  olde: 190
+  recent: 45
+  vote: 22

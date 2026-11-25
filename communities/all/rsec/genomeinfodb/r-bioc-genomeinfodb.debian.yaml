@@ -14,8 +14,7 @@ registries:
 - entry: bioconductor-genomeinfodb
   name: conda:bioconda
 popcon:
-- insts: 1229
-  nofiles: 1
-  olde: 970
-  recent: 119
-  vote: 139
+- insts: 1242
+  olde: 985
+  recent: 99
+  vote: 158

@@ -36,7 +36,7 @@ tags:
 - tag: use::comparing
 - tag: works-with-format::plaintext
 popcon:
-- insts: 309
-  olde: 260
-  recent: 26
-  vote: 23
+- insts: 317
+  olde: 251
+  recent: 39
+  vote: 27

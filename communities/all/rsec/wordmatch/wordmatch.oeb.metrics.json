@@ -58,7 +58,7 @@
                 {
                     "entries": [
                         {
-                            "cit_count": 5203,
+                            "cit_count": 5215,
                             "citations": [
                                 {
                                     "count": 1,
@@ -81,7 +81,7 @@
                                     "year": 2004
                                 },
                                 {
-                                    "count": 78,
+                                    "count": 79,
                                     "year": 2005
                                 },
                                 {
@@ -145,10 +145,6 @@
                                     "year": 2024
                                 },
                                 {
-                                    "count": 283,
-                                    "year": 2026
-                                },
-                                {
                                     "count": 285,
                                     "year": 2015
                                 },
@@ -158,6 +154,10 @@
                                 },
                                 {
                                     "count": 293,
+                                    "year": 2026
+                                },
+                                {
+                                    "count": 294,
                                     "year": 2025
                                 },
                                 {

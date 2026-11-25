@@ -46,7 +46,7 @@ tags:
 - tag: works-with::TODO
 - tag: x11::application
 popcon:
-- insts: 154
+- insts: 161
   olde: 117
-  recent: 27
+  recent: 34
   vote: 10

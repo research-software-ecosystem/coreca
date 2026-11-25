@@ -26,7 +26,7 @@ tags:
 - tag: use::analysing
 - tag: works-with::biological-sequence
 popcon:
-- insts: 832
-  olde: 650
-  recent: 104
-  vote: 78
+- insts: 837
+  olde: 649
+  recent: 96
+  vote: 92

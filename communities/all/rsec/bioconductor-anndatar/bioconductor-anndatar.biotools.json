@@ -121,7 +121,7 @@
     "language": [
         "R"
     ],
-    "lastUpdate": "2026-10-02T15:53:12.793867Z",
+    "lastUpdate": "2026-11-16T11:25:23.560936Z",
     "license": "MIT",
     "name": "anndataR",
     "operatingSystem": [
@@ -140,6 +140,6 @@
         "Library"
     ],
     "version": [
-        "1.2.2"
+        "1.2.3"
     ]
 }

@@ -31,7 +31,7 @@ tags:
 - tag: works-with-format::plaintext
 - tag: works-with::TODO
 popcon:
-- insts: 253
-  olde: 215
-  recent: 26
-  vote: 12
+- insts: 260
+  olde: 210
+  recent: 35
+  vote: 15

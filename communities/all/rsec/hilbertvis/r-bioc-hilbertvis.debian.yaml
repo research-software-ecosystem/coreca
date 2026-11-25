@@ -27,7 +27,7 @@ tags:
 - tag: implemented-in::r
 - tag: use::analysing
 popcon:
-- insts: 136
-  olde: 101
-  recent: 29
-  vote: 6
+- insts: 140
+  olde: 99
+  recent: 34
+  vote: 7

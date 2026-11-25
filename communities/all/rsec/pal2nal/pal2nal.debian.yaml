@@ -19,7 +19,7 @@ bib:
 - key: doi
   value: 10.1093/nar/gkl315
 popcon:
-- insts: 199
+- insts: 207
   olde: 166
-  recent: 27
-  vote: 6
+  recent: 34
+  vote: 7

@@ -14,7 +14,7 @@ registries:
 - entry: proftmb
   name: bio.tools
 popcon:
-- insts: 123
+- insts: 130
   olde: 91
-  recent: 25
+  recent: 32
   vote: 7

@@ -38,13 +38,13 @@
             "type": [
                 "User manual"
             ],
-            "url": "https://bioconductor.org/packages/CytoPipelineGUI"
+            "url": "https://bioconductor.org/packages/CytoPipeline"
         }
     ],
     "download": [
         {
             "type": "Source code",
-            "url": "https://uclouvain-cbio.github.io/CytoPipelineGUI"
+            "url": "https://uclouvain-cbio.github.io/CytoPipeline"
         }
     ],
     "editPermission": {
@@ -68,11 +68,11 @@
             ]
         }
     ],
-    "homepage": "https://bioconductor.org/packages/CytoPipelineGUI",
+    "homepage": "https://bioconductor.org/packages/CytoPipeline",
     "language": [
         "R"
     ],
-    "lastUpdate": "2026-09-01T06:39:41.845974Z",
+    "lastUpdate": "2026-11-16T11:28:19.305923Z",
     "license": "GPL-3.0",
     "name": "CytoPipeline",
     "owner": "Pub2Tools",
@@ -99,6 +99,6 @@
         }
     ],
     "version": [
-        "1.10.0"
+        "1.12.0"
     ]
 }
