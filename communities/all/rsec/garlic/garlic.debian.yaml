@@ -23,7 +23,7 @@ tags:
 - tag: use::viewing
 - tag: x11::application
 popcon:
-- insts: 423
-  olde: 369
-  recent: 30
-  vote: 24
+- insts: 428
+  olde: 365
+  recent: 40
+  vote: 23

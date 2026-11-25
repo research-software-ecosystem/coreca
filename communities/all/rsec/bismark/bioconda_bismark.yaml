@@ -36,7 +36,7 @@ extra:
   - ewels
 package:
   name: bismark
-  version: 3.1.0
+  version: 3.4.0
 requirements:
   build:
   - null
@@ -48,9 +48,10 @@ requirements:
   - bowtie2 >=2.5.5
   - hisat2
   - minimap2
+  - bwa-mem3 >=0.16.0
 source:
-  sha256: 638d7b068031b23fca9c3b3ca5a6b0db675a4da9d48975420fa642b584b5e411
-  url: https://github.com/FelixKrueger/Bismark/archive/refs/tags/bismark-rust-v3.1.0.tar.gz
+  sha256: f08d353a458932ab4b56c25ce556f1cbc3d321fb4f1ab4913688f96dabf0b491
+  url: https://github.com/FelixKrueger/Bismark/archive/refs/tags/bismark-rust-v3.4.0.tar.gz
 test:
   commands:
   - bismark --version | grep -q "${PKG_VERSION}"

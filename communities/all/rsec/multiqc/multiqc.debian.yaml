@@ -21,7 +21,7 @@ bib:
 - key: doi
   value: 10.1093/bioinformatics/btw354
 popcon:
-- insts: 222
-  olde: 56
+- insts: 231
+  olde: 45
   recent: 24
-  vote: 142
+  vote: 162

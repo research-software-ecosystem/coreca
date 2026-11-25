@@ -5,7 +5,6 @@
     "collectionID": [
         "BioConductor"
     ],
-    "confidence_flag": "tool",
     "credit": [
         {
             "name": "Davide Risso",
@@ -77,7 +76,7 @@
     "language": [
         "R"
     ],
-    "lastUpdate": "2026-09-01T06:54:23.818931Z",
+    "lastUpdate": "2026-11-16T11:29:23.376446Z",
     "license": "MIT",
     "name": "mbkmeans",
     "owner": "Niclaskn",

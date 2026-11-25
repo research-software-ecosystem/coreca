@@ -2,7 +2,7 @@ package: delly
 distribution: debian
 release: sid
 component: main
-version: 1.7.2
+version: 2.8.2
 source: delly
 homepage: https://github.com/dellytools/delly
 license: unknown
@@ -21,7 +21,7 @@ bib:
 - key: doi
   value: 10.1093/bioinformatics/bts378
 popcon:
-- insts: 124
-  olde: 88
-  recent: 30
-  vote: 6
+- insts: 131
+  olde: 86
+  recent: 37
+  vote: 8

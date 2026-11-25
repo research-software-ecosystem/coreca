@@ -23,9 +23,11 @@ extra:
   - milot-mirdita
 package:
   name: mmseqs2
-  version: 18.8cc5c
+  version: 20.ae60e
 requirements:
   build:
+  - null
+  - null
   - null
   - null
   - cmake
@@ -34,7 +36,7 @@ requirements:
   - libgomp
   - cuda-nvcc
   - cuda-cudart-dev
-  - cuda-version >=12.6
+  - cuda-version >=12.9
   - perl
   host:
   - gawk
@@ -46,8 +48,8 @@ requirements:
   - zlib
   - bzip2
 source:
-  sha256: 3541b67322aee357fd9ca529750d36cb1426aa9bcd1efb2dc916e35219e1a41c
-  url: https://github.com/soedinglab/mmseqs2/archive/18-8cc5c.tar.gz
+  sha256: 0245e45b705bbcd14e46291d82c977aff0a3600200f36c4d04dceb57d211dabc
+  url: https://github.com/soedinglab/mmseqs2/archive/20-ae60e.tar.gz
 test:
   commands:
   - mmseqs > /dev/null

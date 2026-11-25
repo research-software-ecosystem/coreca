@@ -7,19 +7,53 @@
     ],
     "credit": [
         {
-            "name": "Clarice S. Groeneveld"
+            "name": "Clarice Groeneveld",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ]
         },
         {
-            "name": "Gordon Robertson"
+            "name": "Florian Markowetz",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
         },
         {
-            "name": "Kerstin B. Meyer"
+            "name": "Gordon Robertson",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Contributor"
+            ]
         },
         {
-            "name": "Mauro A. A. Castro"
+            "name": "Kerstin Meyer",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
         },
         {
-            "name": "Vinicius S. Chagas"
+            "name": "Michael Fletcher",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "Xin Wang",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
+        },
+        {
+            "name": "and Mauro Castro",
+            "typeEntity": "Person",
+            "typeRole": [
+                "Developer"
+            ]
         }
     ],
     "description": "RTNsurvival integrates regulons inferred by the RTN package with survival data. For each regulon, a two-tailed GSEA framework computes a differential Enrichment Score (dES) at the individual-sample level. The resulting dES distribution across samples is then used to evaluate survival associations within the cohort. Two primary workflows are supported: (i) Cox proportional hazards models, in which regulon activities are treated as predictors of survival time, and (ii) Kaplan–Meier analyses assessing cohort stratification based on regulon activity. All graphical outputs are customizable according to user specifications.",
@@ -28,13 +62,13 @@
             "type": [
                 "User manual"
             ],
-            "url": "https://bioconductor.org/packages/RTNduals"
+            "url": "https://bioconductor.org/packages/RTN"
         }
     ],
     "download": [
         {
             "type": "Source code",
-            "url": "https://bioconductor.org/packages/release/bioc/src/contrib/RTNduals_1.36.0.tar.gz"
+            "url": "http://dx.doi.org/10.1038/ncomms3464"
         }
     ],
     "editPermission": {
@@ -58,11 +92,11 @@
             ]
         }
     ],
-    "homepage": "https://bioconductor.org/packages/RTNduals",
+    "homepage": "https://bioconductor.org/packages/RTN",
     "language": [
         "R"
     ],
-    "lastUpdate": "2026-10-18T01:30:15.083782Z",
+    "lastUpdate": "2026-11-23T09:17:51.638527Z",
     "license": "Artistic-2.0",
     "link": [
         {
@@ -90,7 +124,51 @@
             "doi": "10.1038/ng.3458"
         },
         {
-            "doi": "10.1093/bioinformatics/btz534"
+            "doi": "10.1038/ncomms3464",
+            "metadata": {
+                "abstract": "The fibroblast growth factor receptor 2 (FGFR2) locus has been consistently identified as a breast cancer risk locus in independent genome-wide association studies. However, the molecular mechanisms underlying FGFR2-mediated risk are still unknown. Using model systems we show that FGFR2-regulated genes are preferentially linked to breast cancer risk loci in expression quantitative trait loci analysis, supporting the concept that risk genes cluster in pathways. Using a network derived from 2,000 transcriptional profiles we identify SPDEF, ERα, FOXA1, GATA3 and PTTG1 as master regulators of fibroblast growth factor receptor 2 signalling, and show that ERα occupancy responds to fibroblast growth factor receptor 2 signalling. Our results indicate that ERα, FOXA1 and GATA3 contribute to the regulation of breast cancer susceptibility genes, which is consistent with the effects of anti-oestrogen treatment in breast cancer prevention, and suggest that fibroblast growth factor receptor 2 signalling has an important role in mediating breast cancer risk.",
+                "authors": [
+                    {
+                        "name": "Caldas C"
+                    },
+                    {
+                        "name": "Castro MA"
+                    },
+                    {
+                        "name": "Chin SF"
+                    },
+                    {
+                        "name": "Fletcher MN"
+                    },
+                    {
+                        "name": "Markowetz F"
+                    },
+                    {
+                        "name": "Meyer KB"
+                    },
+                    {
+                        "name": "O'Reilly M"
+                    },
+                    {
+                        "name": "Ponder BA"
+                    },
+                    {
+                        "name": "Rueda OM"
+                    },
+                    {
+                        "name": "Wang X"
+                    },
+                    {
+                        "name": "de Santiago I"
+                    }
+                ],
+                "citationCount": 209,
+                "date": "2013-01-01T00:00:00Z",
+                "journal": "Nature communications",
+                "title": "Master regulators of FGFR2 signalling and breast cancer risk."
+            },
+            "pmcid": "PMC3778544",
+            "pmid": "24043118"
         }
     ],
     "toolType": [
@@ -104,6 +182,6 @@
     ],
     "validated": 1,
     "version": [
-        "1.36.0"
+        "2.36.0"
     ]
 }

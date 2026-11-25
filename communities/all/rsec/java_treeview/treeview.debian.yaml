@@ -19,7 +19,7 @@ bib:
 - key: doi
   value: 10.1093/bioinformatics/bth349
 popcon:
-- insts: 134
-  olde: 101
-  recent: 26
-  vote: 7
+- insts: 139
+  olde: 94
+  recent: 37
+  vote: 8

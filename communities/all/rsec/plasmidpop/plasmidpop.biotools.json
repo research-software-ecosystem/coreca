@@ -23,7 +23,7 @@
             ]
         }
     ],
-    "description": "Free browser-based DNA sequence editor and plasmid viewer. Opens, edits and saves GenBank, FASTA and SnapGene files and AB1/FASTQ sequencing reads; shows linear and circular maps; finds restriction sites, ORFs and CRISPR guides; designs and checks primers; aligns sequences and reads; and simulates cloning (restriction/ligation, Gibson, Golden Gate, Gateway). Everything runs in the browser: no account, no install, and files never leave the user's device.",
+    "description": "Free browser-based DNA sequence editor and plasmid viewer. Opens, edits and saves GenBank, FASTA and SnapGene files and AB1/FASTQ sequencing reads; shows linear and circular maps; finds restriction sites, ORFs and CRISPR guides; designs and checks primers; aligns sequences and reads; and simulates cloning (restriction/ligation, Gibson, Golden Gate, Gateway). Everything runs in the browser: no account, no install, and files never leave the user’s device. Free and open source (MIT), a browser-based alternative to desktop plasmid editors such as SnapGene, ApE and Serial Cloner.",
     "documentation": [
         {
             "type": [
@@ -62,6 +62,22 @@
                 },
                 {
                     "data": {
+                        "term": "Protein sequence record",
+                        "uri": "http://edamontology.org/data_2886"
+                    },
+                    "format": [
+                        {
+                            "term": "FASTA",
+                            "uri": "http://edamontology.org/format_1929"
+                        },
+                        {
+                            "term": "genpept",
+                            "uri": "http://edamontology.org/format_1937"
+                        }
+                    ]
+                },
+                {
+                    "data": {
                         "term": "Sequence trace",
                         "uri": "http://edamontology.org/data_0924"
                     },
@@ -79,6 +95,34 @@
             ],
             "operation": [
                 {
+                    "term": "Base-calling",
+                    "uri": "http://edamontology.org/operation_3185"
+                },
+                {
+                    "term": "Chromatogram visualisation",
+                    "uri": "http://edamontology.org/operation_3203"
+                },
+                {
+                    "term": "Coding region prediction",
+                    "uri": "http://edamontology.org/operation_0436"
+                },
+                {
+                    "term": "DNA translation",
+                    "uri": "http://edamontology.org/operation_0371"
+                },
+                {
+                    "term": "Data formatting",
+                    "uri": "http://edamontology.org/operation_0335"
+                },
+                {
+                    "term": "Multiple sequence alignment",
+                    "uri": "http://edamontology.org/operation_0492"
+                },
+                {
+                    "term": "Nucleic acid design",
+                    "uri": "http://edamontology.org/operation_3095"
+                },
+                {
                     "term": "PCR primer design",
                     "uri": "http://edamontology.org/operation_0308"
                 },
@@ -91,12 +135,28 @@
                     "uri": "http://edamontology.org/operation_0578"
                 },
                 {
+                    "term": "Protein property calculation",
+                    "uri": "http://edamontology.org/operation_0250"
+                },
+                {
+                    "term": "Restriction digest",
+                    "uri": "http://edamontology.org/operation_0365"
+                },
+                {
                     "term": "Restriction site recognition",
                     "uri": "http://edamontology.org/operation_0431"
                 },
                 {
+                    "term": "Reverse complement",
+                    "uri": "http://edamontology.org/operation_0363"
+                },
+                {
                     "term": "Sequence annotation",
                     "uri": "http://edamontology.org/operation_0361"
+                },
+                {
+                    "term": "Sequence assembly",
+                    "uri": "http://edamontology.org/operation_0310"
                 },
                 {
                     "term": "Sequence editing",
@@ -112,7 +172,21 @@
                     "data": {
                         "term": "Image",
                         "uri": "http://edamontology.org/data_2968"
-                    }
+                    },
+                    "format": [
+                        {
+                            "term": "PDF",
+                            "uri": "http://edamontology.org/format_3508"
+                        },
+                        {
+                            "term": "PNG",
+                            "uri": "http://edamontology.org/format_3603"
+                        },
+                        {
+                            "term": "SVG",
+                            "uri": "http://edamontology.org/format_3604"
+                        }
+                    ]
                 },
                 {
                     "data": {
@@ -137,7 +211,7 @@
     "language": [
         "TypeScript"
     ],
-    "lastUpdate": "2026-11-07T16:15:17.924552Z",
+    "lastUpdate": "2026-11-19T15:18:51.502396Z",
     "license": "MIT",
     "link": [
         {
@@ -191,6 +265,7 @@
     "version": [
         "1.16.0",
         "1.21.0",
-        "1.22.0"
+        "1.22.0",
+        "1.25.0"
     ]
 }

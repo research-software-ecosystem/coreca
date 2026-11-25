@@ -19,7 +19,7 @@ bib:
 - key: doi
   value: 10.1093/embo-reports/kvd092
 popcon:
-- insts: 125
+- insts: 132
   olde: 94
-  recent: 25
+  recent: 32
   vote: 6

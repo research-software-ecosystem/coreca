@@ -21,7 +21,7 @@ bib:
 - key: doi
   value: 10.1093/bioinformatics/btr011
 popcon:
-- insts: 154
-  olde: 117
-  recent: 29
+- insts: 159
+  olde: 112
+  recent: 39
   vote: 8

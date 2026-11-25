@@ -17,7 +17,7 @@ bib:
 - key: doi
   value: 10.1186/1471-2105-10-329
 popcon:
-- insts: 123
+- insts: 130
   olde: 92
-  recent: 25
+  recent: 32
   vote: 6

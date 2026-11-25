@@ -21,7 +21,7 @@ bib:
 - key: doi
   value: 10.1371/journal.pone.0185056
 popcon:
-- insts: 150
-  olde: 115
-  recent: 25
+- insts: 155
+  olde: 110
+  recent: 35
   vote: 10

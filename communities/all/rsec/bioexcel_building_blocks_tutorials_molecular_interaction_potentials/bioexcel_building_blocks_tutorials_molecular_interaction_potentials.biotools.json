@@ -54,13 +54,26 @@
     ],
     "download": [
         {
+            "note": "Docker image (GHCR)",
+            "type": "Container file",
+            "url": "https://github.com/bioexcel/biobb_workflows/pkgs/container/biobb_wf_cmip"
+        },
+        {
+            "note": "Workflow folder (all flavours) in GitHub",
+            "type": "Source code",
+            "url": "https://github.com/bioexcel/biobb_workflows/tree/main/biobb_wf_cmip"
+        },
+        {
             "type": "Source code",
             "url": "https://github.com/bioexcel/biobb_wf_cmip",
             "version": "1.0"
         }
     ],
     "editPermission": {
-        "type": "private"
+        "authors": [
+            "gbayarri"
+        ],
+        "type": "group"
     },
     "elixirNode": [
         "Spain",
@@ -164,7 +177,7 @@
     "language": [
         "Python"
     ],
-    "lastUpdate": "2026-06-23T16:19:51.986263Z",
+    "lastUpdate": "2026-11-24T10:03:19.694643Z",
     "license": "Apache-2.0",
     "link": [
         {
@@ -175,11 +188,60 @@
             "url": "https://github.com/bioexcel/biobb_wf_cmip"
         },
         {
+            "note": "Source code in GitHub (all flavours)",
+            "type": [
+                "Repository"
+            ],
+            "url": "https://github.com/bioexcel/biobb_workflows/tree/main/biobb_wf_cmip"
+        },
+        {
             "note": "Tutorial in Read The Docs",
             "type": [
                 "Other"
             ],
             "url": "https://biobb-wf-cmip.readthedocs.io/en/latest/index.html"
+        },
+        {
+            "note": "WorkflowHub: Apache Airflow flavour",
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "https://workflowhub.eu/workflows/2157"
+        },
+        {
+            "note": "WorkflowHub: CWL flavour",
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "https://workflowhub.eu/workflows/2156"
+        },
+        {
+            "note": "WorkflowHub: Docker flavour",
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "https://workflowhub.eu/workflows/820"
+        },
+        {
+            "note": "WorkflowHub: Jupyter Notebook flavour",
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "https://workflowhub.eu/workflows/773"
+        },
+        {
+            "note": "WorkflowHub: Nextflow flavour",
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "https://workflowhub.eu/workflows/2395"
+        },
+        {
+            "note": "WorkflowHub: Python flavour",
+            "type": [
+                "Software catalogue"
+            ],
+            "url": "https://workflowhub.eu/workflows/774"
         }
     ],
     "maturity": "Emerging",
@@ -243,6 +305,7 @@
         }
     ],
     "version": [
-        "1.0"
+        "1.0",
+        "2026.1"
     ]
 }

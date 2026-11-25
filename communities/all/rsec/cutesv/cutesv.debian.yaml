@@ -2,7 +2,7 @@ package: cutesv
 distribution: debian
 release: sid
 component: main
-version: 2.1.1
+version: 2.1.4
 source: cutesv
 homepage: https://github.com/tjiangHIT/cuteSV
 license: unknown
@@ -17,7 +17,7 @@ bib:
 - key: doi
   value: https://doi.org/10.1186/s13059-020-02107-y
 popcon:
-- insts: 119
-  olde: 85
-  recent: 24
-  vote: 10
+- insts: 126
+  olde: 84
+  recent: 31
+  vote: 11

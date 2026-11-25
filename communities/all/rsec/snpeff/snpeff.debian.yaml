@@ -21,7 +21,7 @@ bib:
 - key: doi
   value: 10.4161/fly.19695
 popcon:
-- insts: 124
+- insts: 132
   olde: 94
-  recent: 25
-  vote: 5
+  recent: 32
+  vote: 6
