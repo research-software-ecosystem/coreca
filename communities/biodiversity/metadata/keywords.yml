@@ -15,13 +15,11 @@ keywords:
   # Existing biodiversity resource terminology
   - VGP_curated
   - Biodiversity
-  - Annotation
-  - Genome assembly
+  - Annot.*
   - Earth-system
   - Ecology
   - Ecological
-  - Assembly
-  - Genome annotation
+  - Assembl.*
   - Entomology
 
   # Additional biodiversity-related terminology
