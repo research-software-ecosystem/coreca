@@ -1,5 +1,3 @@
-"""Проверки изоляции артефактов сообществ в реальном workflow фильтрации."""
-
 import unittest
 from pathlib import Path
 
@@ -34,7 +32,7 @@ class TestCommunityArtifacts(unittest.TestCase):
 
     def test_artifact_names_do_not_collide_between_communities(self) -> None:
         names = [self._render(item["name"], community) for item in self.uploads for community in COMMUNITIES]
-        self.assertEqual(len(names), len(set(names)), "Артефакты разных сообществ не должны иметь одинаковые имена")
+        self.assertEqual(len(names), len(set(names)), "Artifact names must be unique across communities")
 
     def test_download_selects_only_the_requested_community(self) -> None:
         artifacts = [
@@ -51,7 +49,7 @@ class TestCommunityArtifacts(unittest.TestCase):
                 with self.subTest(source=download["name"], community=community):
                     requested = self._render(download["name"], community)
                     matches = [item for item in artifacts if item["name"] == requested]
-                    self.assertEqual(len(matches), 1, "Выбор по имени должен однозначно определять артефакт")
+                    self.assertEqual(len(matches), 1, "The artifact name must match exactly one upload")
                     self.assertEqual(matches[0]["community"], community)
                     destination = Path(self._render(download["path"], community))
                     self.assertEqual(destination.parts[:2], ("communities", community))
